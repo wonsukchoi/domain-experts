@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 60 / 1016 O*NET occupations drafted.**
+**Progress: 65 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (6/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (9/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -103,8 +103,8 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-1081.01 | Logistics Engineers |  |
 |  | 13-1081.02 | Logistics Analysts |  |
 |  | 13-1082.00 | Project Management Specialists |  |
-|  | 13-1111.00 | Management Analysts |  |
-|  | 13-1121.00 | Meeting, Convention, and Event Planners |  |
+| ✅ | 13-1111.00 | Management Analysts | [`management-analyst`](./roles/management-analyst/SKILL.md) |
+| ✅ | 13-1121.00 | Meeting, Convention, and Event Planners | [`meeting-event-planner`](./roles/meeting-event-planner/SKILL.md) |
 |  | 13-1131.00 | Fundraisers |  |
 |  | 13-1141.00 | Compensation, Benefits, and Job Analysis Specialists |  |
 |  | 13-1151.00 | Training and Development Specialists |  |
@@ -122,7 +122,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-2041.00 | Credit Analysts |  |
 | ✅ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
 |  | 13-2052.00 | Personal Financial Advisors |  |
-|  | 13-2053.00 | Insurance Underwriters |  |
+| ✅ | 13-2053.00 | Insurance Underwriters | [`insurance-underwriter`](./roles/insurance-underwriter/SKILL.md) |
 |  | 13-2054.00 | Financial Risk Specialists |  |
 |  | 13-2061.00 | Financial Examiners |  |
 |  | 13-2071.00 | Credit Counselors |  |
@@ -136,13 +136,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (3/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (5/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 15-1211.00 | Computer Systems Analysts |  |
+| ✅ | 15-1211.00 | Computer Systems Analysts | [`computer-systems-analyst`](./roles/computer-systems-analyst/SKILL.md) |
 |  | 15-1211.01 | Health Informatics Specialists |  |
-|  | 15-1212.00 | Information Security Analysts |  |
+| ✅ | 15-1212.00 | Information Security Analysts | [`information-security-analyst`](./roles/information-security-analyst/SKILL.md) |
 |  | 15-1221.00 | Computer and Information Research Scientists |  |
 |  | 15-1231.00 | Computer Network Support Specialists |  |
 |  | 15-1232.00 | Computer User Support Specialists |  |
