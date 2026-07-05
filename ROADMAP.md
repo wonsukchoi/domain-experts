@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 25 / 1016 O*NET occupations drafted.**
+**Progress: 30 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (16/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (21/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -30,11 +30,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-3021.00 | Computer and Information Systems Managers | [`computer-information-systems-manager`](./roles/computer-information-systems-manager/SKILL.md) |
 | ✅ | 11-3031.00 | Financial Managers | [`financial-manager`](./roles/financial-manager/SKILL.md) |
 | ✅ | 11-3031.01 | Treasurers and Controllers | [`treasurer-controller`](./roles/treasurer-controller/SKILL.md) |
-|  | 11-3031.03 | Investment Fund Managers |  |
-|  | 11-3051.00 | Industrial Production Managers |  |
-|  | 11-3051.01 | Quality Control Systems Managers |  |
-|  | 11-3051.02 | Geothermal Production Managers |  |
-|  | 11-3051.03 | Biofuels Production Managers |  |
+| ✅ | 11-3031.03 | Investment Fund Managers | [`investment-fund-manager`](./roles/investment-fund-manager/SKILL.md) |
+| ✅ | 11-3051.00 | Industrial Production Managers | [`industrial-production-manager`](./roles/industrial-production-manager/SKILL.md) |
+| ✅ | 11-3051.01 | Quality Control Systems Managers | [`quality-control-systems-manager`](./roles/quality-control-systems-manager/SKILL.md) |
+| ✅ | 11-3051.02 | Geothermal Production Managers | [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) |
+| ✅ | 11-3051.03 | Biofuels Production Managers | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) |
 |  | 11-3051.04 | Biomass Power Plant Managers |  |
 |  | 11-3051.06 | Hydroelectric Production Managers |  |
 |  | 11-3061.00 | Purchasing Managers |  |

@@ -20,15 +20,15 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 ## Current roles
 
 <!-- ROLE_COUNTS_START -->
-**29 roles drafted** (25 mapped to an O*NET occupation, 4 custom), across 9 categories:
+**34 roles drafted** (30 mapped to an O*NET occupation, 4 custom), across 9 categories:
 
 - **design**: 1
 - **engineering**: 4
-- **finance**: 4
+- **finance**: 5
 - **healthcare**: 1
 - **legal**: 1
 - **marketing**: 4
-- **operations**: 10
+- **operations**: 14
 - **product**: 1
 - **sales**: 3
 
