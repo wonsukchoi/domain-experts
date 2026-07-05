@@ -1,0 +1,31 @@
+{
+  "name": "domain-experts",
+  "version": "0.1.0",
+  "description": "CLI to browse and install crowdsourced job-role SKILL.md files from the Domain Experts repo into your agent's skills directory.",
+  "bin": {
+    "domain-experts": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "roles/",
+    "TEMPLATE.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wonsukchoi/domain-experts.git"
+  },
+  "homepage": "https://github.com/wonsukchoi/domain-experts",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "agent-skills",
+    "ai-agent",
+    "roles",
+    "personas"
+  ]
+}

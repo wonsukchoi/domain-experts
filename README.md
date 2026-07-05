@@ -39,7 +39,16 @@ This block is auto-generated — run `python3 scripts/generate_roadmap.py` after
 
 ## Using a role with an agent
 
-Point your agent (e.g. Claude Code's `Skill` tool, or any system prompt injection) at the relevant `SKILL.md`. The frontmatter (`name`, `description`) is written so agent harnesses can auto-match a role to a task; the body is the actual expert reasoning context.
+**CLI (recommended):**
+
+```sh
+npx domain-experts list                        # browse all roles
+npx domain-experts search lawyer                # find a role
+npx domain-experts add lawyer-contracts         # copies SKILL.md into ./.claude/skills/lawyer-contracts/
+npx domain-experts add lawyer-contracts --to some/other/dir
+```
+
+**Manual:** point your agent (e.g. Claude Code's `Skill` tool, or any system prompt injection) at the relevant `roles/<slug>/SKILL.md` directly. The frontmatter (`name`, `description`) is written so agent harnesses can auto-match a role to a task; the body is the actual expert reasoning context.
 
 ## Roadmap
 
