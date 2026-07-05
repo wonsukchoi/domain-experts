@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 35 / 1016 O*NET occupations drafted.**
+**Progress: 40 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (26/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (31/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -40,12 +40,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-3061.00 | Purchasing Managers | [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) |
 | ✅ | 11-3071.00 | Transportation, Storage, and Distribution Managers | [`transportation-storage-distribution-manager`](./roles/transportation-storage-distribution-manager/SKILL.md) |
 | ✅ | 11-3071.04 | Supply Chain Managers | [`supply-chain-manager`](./roles/supply-chain-manager/SKILL.md) |
-|  | 11-3111.00 | Compensation and Benefits Managers |  |
+| ✅ | 11-3111.00 | Compensation and Benefits Managers | [`compensation-benefits-manager`](./roles/compensation-benefits-manager/SKILL.md) |
 | ✅ | 11-3121.00 | Human Resources Managers | [`hr-people-manager`](./roles/hr-people-manager/SKILL.md) |
-|  | 11-3131.00 | Training and Development Managers |  |
-|  | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers |  |
-|  | 11-9021.00 | Construction Managers |  |
-|  | 11-9031.00 | Education and Childcare Administrators, Preschool and Daycare |  |
+| ✅ | 11-3131.00 | Training and Development Managers | [`training-development-manager`](./roles/training-development-manager/SKILL.md) |
+| ✅ | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) |
+| ✅ | 11-9021.00 | Construction Managers | [`construction-manager`](./roles/construction-manager/SKILL.md) |
+| ✅ | 11-9031.00 | Education and Childcare Administrators, Preschool and Daycare | [`education-childcare-administrator-preschool`](./roles/education-childcare-administrator-preschool/SKILL.md) |
 |  | 11-9032.00 | Education Administrators, Kindergarten through Secondary |  |
 |  | 11-9033.00 | Education Administrators, Postsecondary |  |
 |  | 11-9039.00 | Education Administrators, All Other |  |
