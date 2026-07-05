@@ -80,8 +80,8 @@ you ─── "review this vendor contract"
 ## Quick start
 
 ```sh
-npx --yes github:wonsukchoi/domain-experts match "review this vendor contract like a lawyer"
-npx --yes github:wonsukchoi/domain-experts add lawyer-contracts   # installs into ./.claude/skills/
+npx domain-experts match "review this vendor contract like a lawyer"
+npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 ```
 
 Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) once, and your agent detects which expert a task needs, pulls the role's full context automatically, and tells you honestly when a role isn't covered yet instead of improvising. You keep working; the right expertise shows up by itself.
@@ -174,9 +174,9 @@ Copy this into Claude Code, Codex, Cursor, or any agent with shell access, descr
 Install a domain expert for my task from the open-source library
 https://github.com/wonsukchoi/domain-experts :
 
-1. Run: npx --yes github:wonsukchoi/domain-experts match "<my task>" --json
+1. Run: npx domain-experts match "<my task>" --json
 2. If it returns a confident match, install it:
-   npx --yes github:wonsukchoi/domain-experts add <slug>
+   npx domain-experts add <slug>
    (default target is ./.claude/skills/<slug>; if you are not Claude Code,
    pass --to <your skills directory>/<slug>, e.g. --to .codex/skills/<slug>)
 3. Read the installed SKILL.md fully. Open files under references/ whenever
@@ -193,7 +193,7 @@ My task: <describe your task here>
 
 | Tool | How |
 |---|---|
-| **Claude Code** | `npx --yes github:wonsukchoi/domain-experts add <slug>` — lands in `./.claude/skills/<slug>/`, picked up automatically as a skill. |
+| **Claude Code** | `npx domain-experts add <slug>` — lands in `./.claude/skills/<slug>/`, picked up automatically as a skill. |
 | **Codex CLI** | Same command with `--to .codex/skills/<slug>` (project) or `--to ~/.codex/skills/<slug>` (personal). New session picks it up. |
 | **Cursor, Windsurf, Roo Code, Goose & other SKILL.md-compatible tools** | Same command with `--to <tool's skills directory>/<slug>` — check your tool's docs for the path. |
 | **Tools that read `AGENTS.md`** (GitHub Copilot, Jules, Amp, Zed, …) | Install anywhere in the repo (e.g. `--to skills/<slug>`), then add one line to `AGENTS.md`: `When a task needs <role> judgment, read skills/<slug>/SKILL.md first.` |
@@ -203,15 +203,15 @@ Every install copies the full role — `SKILL.md` plus `references/` — so the 
 
 ### Automatic dispatch
 
-[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that removes even the `match` step — install it with `npx --yes github:wonsukchoi/domain-experts add domain-expert-router`, load it once, and your agent finds the right role for "act as X" requests on its own, and says honestly when a role isn't covered.
+[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that removes even the `match` step — install it with `npx domain-experts add domain-expert-router`, load it once, and your agent finds the right role for "act as X" requests on its own, and says honestly when a role isn't covered.
 
 ### CLI reference
 
 ```sh
-npx --yes github:wonsukchoi/domain-experts list          # browse all roles
-npx --yes github:wonsukchoi/domain-experts search lawyer # substring search
-npx --yes github:wonsukchoi/domain-experts match "review this like our CFO" [--json]
-npx --yes github:wonsukchoi/domain-experts add <slug> [--to dir]
+npx domain-experts list          # browse all roles
+npx domain-experts search lawyer # substring search
+npx domain-experts match "review this like our CFO" [--json]
+npx domain-experts add <slug> [--to dir]
 ```
 
 `match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. `--json` for programmatic use.
