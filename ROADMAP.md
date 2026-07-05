@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 65 / 1016 O*NET occupations drafted.**
+**Progress: 70 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (0/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (1/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -494,7 +494,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>29 — Healthcare Practitioners and Technical</strong> (1/96 drafted)</summary>
+<summary><strong>29 — Healthcare Practitioners and Technical</strong> (2/96 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -626,7 +626,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>33 — Protective Service</strong> (0/28 drafted)</summary>
+<summary><strong>33 — Protective Service</strong> (2/28 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -645,7 +645,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 33-3021.06 | Intelligence Analysts |  |
 |  | 33-3031.00 | Fish and Game Wardens |  |
 |  | 33-3041.00 | Parking Enforcement Workers |  |
-|  | 33-3051.00 | Police and Sheriff's Patrol Officers |  |
+| ✅ | 33-3051.00 | Police and Sheriff's Patrol Officers | [`police-patrol-officer`](./roles/police-patrol-officer/SKILL.md) |
 |  | 33-3051.04 | Customs and Border Protection Officers |  |
 |  | 33-3052.00 | Transit and Railroad Police |  |
 |  | 33-9011.00 | Animal Control Workers |  |
@@ -779,7 +779,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (0/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (1/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -789,7 +789,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 43-2099.00 | Communications Equipment Operators, All Other |  |
 |  | 43-3011.00 | Bill and Account Collectors |  |
 |  | 43-3021.00 | Billing and Posting Clerks |  |
-|  | 43-3031.00 | Bookkeeping, Accounting, and Auditing Clerks |  |
+| ✅ | 43-3031.00 | Bookkeeping, Accounting, and Auditing Clerks | [`bookkeeping-accounting-clerk`](./roles/bookkeeping-accounting-clerk/SKILL.md) |
 |  | 43-3041.00 | Gambling Cage Workers |  |
 |  | 43-3051.00 | Payroll and Timekeeping Clerks |  |
 |  | 43-3061.00 | Procurement Clerks |  |
