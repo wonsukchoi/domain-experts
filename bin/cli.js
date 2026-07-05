@@ -69,6 +69,91 @@ function cmdSearch(query) {
   roles.forEach(printRoleLine);
 }
 
+const STOPWORDS = new Set([
+  "a", "an", "the", "for", "of", "to", "in", "on", "and", "or", "with",
+  "my", "me", "i", "need", "want", "act", "as", "like", "help", "who",
+  "job", "role", "expert", "someone", "person",
+]);
+
+function tokenize(str) {
+  return str
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .split(/\s+/)
+    .filter((t) => t && !STOPWORDS.has(t));
+}
+
+// Scores a role against a query by weighted token overlap: slug and
+// category hits count more than description hits, since a query word
+// matching the role's actual name is a stronger signal than it merely
+// appearing somewhere in a long description.
+function scoreRole(role, queryTokens) {
+  const slugTokens = new Set(tokenize(role.slug.replace(/-/g, " ")));
+  const descTokens = new Set(tokenize(role.description));
+  const catTokens = new Set(tokenize(role.category));
+  let score = 0;
+  for (const t of queryTokens) {
+    if (slugTokens.has(t)) score += 3;
+    if (catTokens.has(t)) score += 2;
+    if (descTokens.has(t)) score += 1;
+  }
+  return score;
+}
+
+function cmdMatch(query, opts) {
+  if (!query) {
+    console.error('Usage: domain-experts match "<job or task description>"');
+    process.exit(1);
+  }
+  const queryTokens = tokenize(query);
+  const roles = loadRoles();
+  const scored = roles
+    .map((r) => ({ ...r, score: scoreRole(r, queryTokens) }))
+    .sort((a, b) => b.score - a.score);
+
+  const MATCH_THRESHOLD = 2; // below this, treat as "no confident match"
+  const top = scored.filter((r) => r.score > 0).slice(0, 3);
+  const best = top[0];
+  const confident = best && best.score >= MATCH_THRESHOLD;
+
+  if (opts.json) {
+    console.log(
+      JSON.stringify(
+        {
+          query,
+          confident,
+          best: best ? { slug: best.slug, score: best.score, file: best.file } : null,
+          candidates: top.map((r) => ({ slug: r.slug, score: r.score, file: r.file })),
+        },
+        null,
+        2
+      )
+    );
+    return;
+  }
+
+  if (!confident) {
+    console.log(`No confident role match for "${query}".`);
+    if (top.length > 0) {
+      console.log(`\nClosest (low-confidence) candidates:`);
+      top.forEach((r) => printRoleLine(r));
+    }
+    console.log(
+      `\nThis role isn't covered yet. Check ROADMAP.md for the closest O*NET occupation and ` +
+        `consider opening a PR: https://github.com/wonsukchoi/domain-experts/blob/main/CONTRIBUTING.md`
+    );
+    return;
+  }
+
+  console.log(`Best match: ${best.slug} (score ${best.score})\n`);
+  printRoleLine(best);
+  console.log(`\nFile: ${best.file}`);
+  if (top.length > 1) {
+    console.log(`\nOther candidates:`);
+    top.slice(1).forEach((r) => printRoleLine(r));
+  }
+}
+
 function cmdAdd(slug, opts) {
   if (!slug) {
     console.error("Usage: domain-experts add <slug> [--to <dir>]");
@@ -95,6 +180,8 @@ function parseArgs(argv) {
     if (rest[i] === "--to") {
       opts.to = rest[i + 1];
       i++;
+    } else if (rest[i] === "--json") {
+      opts.json = true;
     } else {
       positional.push(rest[i]);
     }
@@ -108,6 +195,7 @@ function printHelp() {
 Usage:
   domain-experts list                 List all available roles
   domain-experts search <query>       Search roles by slug/description/category
+  domain-experts match "<job/task>" [--json]  Best-guess role match for a natural-language ask
   domain-experts add <slug> [--to dir]  Copy a role's SKILL.md into <dir> (default: .claude/skills/<slug>/)
 
 Repo: https://github.com/wonsukchoi/domain-experts`);
@@ -121,6 +209,9 @@ function main() {
       break;
     case "search":
       cmdSearch(positional[0]);
+      break;
+    case "match":
+      cmdMatch(positional.join(" "), opts);
       break;
     case "add":
       cmdAdd(positional[0], opts);

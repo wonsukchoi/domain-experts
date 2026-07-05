@@ -8,6 +8,7 @@
   "files": [
     "bin/",
     "roles/",
+    "skills/",
     "TEMPLATE.md",
     "LICENSE"
   ],

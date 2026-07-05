@@ -42,11 +42,16 @@ This block is auto-generated — run `python3 scripts/generate_roadmap.py` after
 **CLI (recommended):**
 
 ```sh
-npx domain-experts list                        # browse all roles
-npx domain-experts search lawyer                # find a role
-npx domain-experts add lawyer-contracts         # copies SKILL.md into ./.claude/skills/lawyer-contracts/
+npx domain-experts list                              # browse all roles
+npx domain-experts search lawyer                     # substring search
+npx domain-experts match "review this like our CFO"  # best-guess role match for a natural ask
+npx domain-experts add lawyer-contracts              # copies SKILL.md into ./.claude/skills/lawyer-contracts/
 npx domain-experts add lawyer-contracts --to some/other/dir
 ```
+
+`match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. Use `--json` to consume the result programmatically.
+
+**Automatic dispatch:** [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that does this end to end — point an agent at it once (e.g. load it as a Claude Code skill) and it will find the right role for "act as X" requests on its own, running `match` under the hood, and will tell you honestly (rather than improvise silently) when a requested role isn't in the library yet.
 
 **Manual:** point your agent (e.g. Claude Code's `Skill` tool, or any system prompt injection) at the relevant `roles/<slug>/SKILL.md` directly. The frontmatter (`name`, `description`) is written so agent harnesses can auto-match a role to a task; the body is the actual expert reasoning context.
 
