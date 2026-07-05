@@ -25,9 +25,34 @@ Open source library of **job role definitions** — the actual mental models, de
 
 ## Vision — one person, every expert
 
+```
+                              ┌───────────────────────┐
+                              │   Y O U  +  A G E N T  │
+                              └───────────┬───────────┘
+                                          │
+             ┌──────────────┬────────────┼────────────┬──────────────┐
+             │              │            │            │              │
+             ▼              ▼            ▼            ▼              ▼
+        lawyer-        financial-    data-        marketing-    clinical-
+        contracts      manager       scientist    strategist    research-
+        │              │             │            │             coordinator
+        redline the    defend the    read the     kill the      │
+        MSA            runway call   A/B test     dead channel  flag the
+                                      right                      deviation
+
+        no résumé screened. no calendar. no invoice. no waiting room.
+        just: which role does this task need — load it — reason as it.
+```
+
 Right now, doing something well outside your own lane means hiring, contracting, or outreach — finding a lawyer, waiting on a CFO's calendar, paying a marketing strategist's rate. That friction is a tax on every solo founder, every small team, every individual who hits a problem outside their expertise. Most people just don't do the thing, or do it badly.
 
 An individual with an AI subscription — or a local model, no subscription at all — and this repo doesn't pay that tax. Load the CFO's actual reasoning for a runway call. Load the contracts lawyer's clause playbook for a redline. Load the clinical research coordinator's judgment for a protocol deviation. Swap roles per task, on demand, for the cost of inference instead of a hire. One person, one agent, the accumulated decision-making of hundreds of professions.
+
+```
+   ─────────────────────────────────────────────────────────────
+    1 person + 1 agent + N roles  >  the org chart it replaces
+   ─────────────────────────────────────────────────────────────
+```
 
 That's the actual endgame here, not a curiosity: the barrier between "I need an expert" and "I have one" collapses. It gets more true as coverage grows — 59 roles against 1,016 tracked occupations today; the roadmap exists so that gap closes, not so it stays interesting forever.
 
