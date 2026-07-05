@@ -23,6 +23,16 @@
 
 Open source library of **job role definitions** — the actual mental models, decision thresholds, and failure modes of real practitioners, structured so any AI agent can load one and reason like that expert. Ask your agent to "review this contract" and it answers with a senior contracts attorney's clause playbook and fallback ladders, not a generalist's summary of the internet.
 
+## Vision — one person, every expert
+
+Right now, doing something well outside your own lane means hiring, contracting, or outreach — finding a lawyer, waiting on a CFO's calendar, paying a marketing strategist's rate. That friction is a tax on every solo founder, every small team, every individual who hits a problem outside their expertise. Most people just don't do the thing, or do it badly.
+
+An individual with an AI subscription — or a local model, no subscription at all — and this repo doesn't pay that tax. Load the CFO's actual reasoning for a runway call. Load the contracts lawyer's clause playbook for a redline. Load the clinical research coordinator's judgment for a protocol deviation. Swap roles per task, on demand, for the cost of inference instead of a hire. One person, one agent, the accumulated decision-making of hundreds of professions.
+
+That's the actual endgame here, not a curiosity: the barrier between "I need an expert" and "I have one" collapses. It gets more true as coverage grows — 59 roles against 1,016 tracked occupations today; the roadmap exists so that gap closes, not so it stays interesting forever.
+
+It doesn't replace judgment, accountability, or licensure where those legally have to sit with a human — every regulated role (law, medicine, finance) says so explicitly. It replaces the friction of not having access to the reasoning in the first place.
+
 ```
 you ─── "review this vendor contract"
               │
@@ -41,16 +51,6 @@ you ─── "review this vendor contract"
                                      contracts attorney — thresholds,
                                      market positions, redline language
 ```
-
-## Vision — one person, every expert
-
-Right now, doing something well outside your own lane means hiring, contracting, or outreach — finding a lawyer, waiting on a CFO's calendar, paying a marketing strategist's rate. That friction is a tax on every solo founder, every small team, every individual who hits a problem outside their expertise. Most people just don't do the thing, or do it badly.
-
-An individual with an AI subscription — or a local model, no subscription at all — and this repo doesn't pay that tax. Load the CFO's actual reasoning for a runway call. Load the contracts lawyer's clause playbook for a redline. Load the clinical research coordinator's judgment for a protocol deviation. Swap roles per task, on demand, for the cost of inference instead of a hire. One person, one agent, the accumulated decision-making of hundreds of professions.
-
-That's the actual endgame here, not a curiosity: the barrier between "I need an expert" and "I have one" collapses. It gets more true as coverage grows — 59 roles against 1,016 tracked occupations today; the roadmap exists so that gap closes, not so it stays interesting forever.
-
-It doesn't replace judgment, accountability, or licensure where those legally have to sit with a human — every regulated role (law, medicine, finance) says so explicitly. It replaces the friction of not having access to the reasoning in the first place.
 
 ## Quick start
 
