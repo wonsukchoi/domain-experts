@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 69,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -134,6 +134,20 @@
       "references": []
     },
     {
+      "slug": "compliance-officer",
+      "description": "Use when a task needs the judgment of a Compliance Officer \u2014 deciding whether a suspected violation triggers a mandatory regulatory filing or disclosure, designing or risk-rating a compliance monitoring program, running a violation investigation to root cause, briefing a board/audit committee on compliance findings, or responding to a regulatory exam finding.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.00",
+      "skill": "roles/compliance-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "computer-information-systems-manager",
       "description": "Use when a task needs the judgment of a Computer and Information Systems Manager (IT Manager/Director/CIO-adjacent) \u2014 planning IT infrastructure and systems strategy, evaluating a technology vendor or platform decision, allocating an IT budget, or managing IT risk (security, uptime, technical debt) at an organizational level. Broader than the devops-sre or software-engineer roles \u2014 this one owns IT as a business function, not a specific engineering discipline.",
       "category": "engineering",
@@ -144,6 +158,20 @@
       "references": []
     },
     {
+      "slug": "computer-systems-analyst",
+      "description": "Use when a task needs the judgment of a Computer Systems Analyst \u2014 running requirements elicitation and gap analysis against a target system, writing a feasibility study for a build-vs-buy-vs-customize decision, designing a system integration approach (point-to-point vs middleware vs API-led), scoping data-migration risk before a cutover, or choosing between phased and big-bang implementation strategies.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1211.00",
+      "skill": "roles/computer-systems-analyst/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "construction-manager",
       "description": "Use when a task needs the judgment of a Construction Manager \u2014 planning or sequencing a construction project, evaluating a schedule/cost tradeoff, managing subcontractors and site safety, or responding to an unexpected site condition or delay.",
       "category": "operations",
@@ -152,6 +180,20 @@
       "onet_soc_code": "11-9021.00",
       "skill": "roles/construction-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "cost-estimator",
+      "description": "Use when a task needs the judgment of a Cost Estimator \u2014 building a conceptual (Class 5) budget from a napkin sketch, developing a hard-bid estimate from complete construction documents, leveling subcontractor bids before award, making a bid/no-bid call on an RFP, or reconciling a design-development estimate against an owner's target budget.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1051.00",
+      "skill": "roles/cost-estimator/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "customer-success-manager",
@@ -226,6 +268,20 @@
       "onet_soc_code": "11-9031.00",
       "skill": "roles/education-childcare-administrator-preschool/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "emergency-management-director",
+      "description": "Use when a task needs the judgment of an Emergency Management Director \u2014 activating and staffing an EOC for a developing hazard, sequencing a disaster declaration and FEMA Public Assistance/Individual Assistance request, sizing shelter and resource needs against real population and capacity numbers, designing or critiquing a tabletop exercise, or writing an after-action report and improvement plan.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9161.00",
+      "skill": "roles/emergency-management-director/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "entertainment-recreation-manager",
@@ -364,6 +420,34 @@
       "references": []
     },
     {
+      "slug": "information-security-analyst",
+      "description": "Use when a task needs the judgment of an Information Security Analyst \u2014 triaging and investigating a security alert or suspected intrusion, designing or tuning detection rules and access controls, running incident response through containment/eradication/recovery, prioritizing a vulnerability-patching backlog, or reconstructing an attack timeline across compromised hosts.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1212.00",
+      "skill": "roles/information-security-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "insurance-underwriter",
+      "description": "Use when a task needs the judgment of an Insurance Underwriter \u2014 pricing a commercial property & casualty renewal with exposure-based rating, deciding a deductible vs. SIR structure, assessing whether a risk's modeled catastrophe exposure needs facultative reinsurance, writing a referral memo for a risk outside binding authority, or reconciling a loss ratio into an indicated rate change.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2053.00",
+      "skill": "roles/insurance-underwriter/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "investment-fund-manager",
       "description": "Use when a task needs the judgment of an Investment Fund Manager \u2014 making or evaluating a portfolio allocation decision, assessing a fund's risk exposure, deciding on a buy/sell/hold call, or communicating fund performance and strategy to investors/limited partners.",
       "category": "finance",
@@ -413,6 +497,34 @@
       ]
     },
     {
+      "slug": "logistician",
+      "description": "Use when a task needs the judgment of a Logistician \u2014 sizing safety stock and reorder points for a SKU-location, choosing a transportation mode or shipment frequency on a specific lane, evaluating a distribution-network or DC-count change, reconciling a demand forecast into an inventory plan, or diagnosing why a service-level or freight-cost number moved.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1081.00",
+      "skill": "roles/logistician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "management-analyst",
+      "description": "Use when a task needs the judgment of a Management Analyst \u2014 sizing a cost-reduction target and building the FTE/spend bridge to hit it, redesigning span of control and org layers, running a shared-services consolidation or build-vs-buy study, mapping a broken cross-functional process before recommending a fix, or reconciling an executive's headcount-cut mandate against what's actually achievable.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1111.00",
+      "skill": "roles/management-analyst/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "marketing-manager",
       "description": "Use when a task needs the judgment of a Marketing Manager \u2014 running a marketing team/function, allocating budget across programs, approving campaign plans, or reporting marketing performance to leadership. Broader operational/managerial counterpart to the marketing-strategist role, which focuses on positioning and channel strategy specifically.",
       "category": "marketing",
@@ -444,6 +556,20 @@
       "spec": 2,
       "onet_soc_code": "11-9111.00",
       "skill": "roles/medical-health-services-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "meeting-event-planner",
+      "description": "Use when a task needs the judgment of a Meeting, Convention, and Event Planner \u2014 negotiating a hotel/venue contract (room block, attrition, F&B minimum), running a competitive venue RFP, reconciling a post-event master bill against contract minimums, building an on-site run-of-show and contingency plan, or sizing an event budget per attendee.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1121.00",
+      "skill": "roles/meeting-event-planner/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -575,6 +701,20 @@
       "onet_soc_code": "11-3013.01",
       "skill": "roles/security-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "social-community-service-manager",
+      "description": "Use when a task needs the judgment of a Social and Community Service Manager \u2014 evaluating a new grant against mission fit and true cost, reconciling a braided funding budget across restricted and unrestricted sources, setting or defending caseload ratios against funder-required staffing, responding to a funder outcome-reporting requirement (e.g. HUD APR), or deciding how to close an indirect-cost recovery gap.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9151.00",
+      "skill": "roles/social-community-service-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "software-engineer",
