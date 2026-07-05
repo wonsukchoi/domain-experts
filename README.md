@@ -1,3 +1,5 @@
+<div align="center">
+
 ```
 ██████╗  ██████╗ ███╗   ███╗ █████╗ ██╗███╗   ██╗
 ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗██║████╗  ██║
@@ -11,11 +13,38 @@
 ██╔══╝   ██╔██╗ ██╔═══╝ ██╔══╝  ██╔══██╗   ██║   ╚════██║
 ███████╗██╔╝ ██╗██║     ███████╗██║  ██║   ██║   ███████║
 ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+
+            a l l   h u m a n   e x p e r t s
+              i n t o   A I   a g e n t s
 ```
 
-*All human experts into AI agents.*
+[![lint](https://github.com/wonsukchoi/domain-experts/actions/workflows/lint.yml/badge.svg)](https://github.com/wonsukchoi/domain-experts/actions/workflows/lint.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-black.svg)](./LICENSE)
+[![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
+
+</div>
 
 Open source library of **job role definitions** — the actual mental models, decision thresholds, and failure modes of real practitioners, structured so any AI agent can load one and reason like that expert. Ask your agent to "review this contract" and it answers with a senior contracts attorney's clause playbook and fallback ladders, not a generalist's summary of the internet.
+
+```
+you ─── "review this vendor contract"
+              │
+              ▼
+   ┌──────────────────────┐        ┌─ roles/lawyer-contracts/ ──────────────┐
+   │  domain-expert       │        │                                        │
+   │  router              │───────▶│  SKILL.md      the reasoning core      │
+   │  (finds the expert   │        │  references/                           │
+   │   your task needs)   │        │   ├─ clause-playbook.md  fallbacks     │
+   └──────────────────────┘        │   ├─ red-flags.md        smell tests   │
+                                   │   └─ vocabulary.md       terms of art  │
+                                   └────────────────────┬───────────────────┘
+                                                        │
+                                                        ▼
+                                     agent reasons like a senior
+                                     contracts attorney — thresholds,
+                                     market positions, redline language
+```
 
 ## Quick start
 
@@ -28,17 +57,49 @@ Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](
 
 ## "Can't I just tell Claude to act like a CFO?"
 
-You can — and you'll get a shallow imitation: the average of every job description on the internet, regenerated from scratch each session, different every time, verified by no one. The test is simple: ask a generalist agent "act as a CFO and review our finances" — you get prose about "monitoring cash flow." Load this repo's [`financial-manager`](./roles/financial-manager/SKILL.md) role and it checks whether your DSO crept >15% QoQ, whether deferred revenue reconciles with the bookings story, and whether covenant headroom is measured on projections instead of actuals — because a practitioner-grade playbook told it exactly what a real CFO looks at first.
+You can — and you'll get a shallow imitation: the average of every job description on the internet, regenerated from scratch each session, different every time, verified by no one.
+
+```
+ ── prompt: "act as a CFO" ───────────┬── role: financial-manager ───────────
+                                      │
+  "I'd start by monitoring cash       │  "DSO went 48 → 56 days with no
+   flow and key financial metrics,    │   billing-terms change. Show me the
+   ensuring alignment between…"       │   five largest invoices past 60 days
+                                      │   — and reconcile bookings to the
+                                      │   change in deferred revenue, because
+                                      │   flat deferred + 'record bookings'
+                                      │   don't coexist."
+ ─────────────────────────────────────┴───────────────────────────────────────
+```
 
 The difference, concretely:
 
 - **Non-derivable content.** Every role must pass a non-derivability test: nothing that can be regenerated from the job title alone. What's left is the stuff prompting can't produce on demand — numeric red-flag thresholds, market-standard negotiation ranges, worked examples with arithmetic that reconciles, fallback positions in preference order.
-- **A quality gate, not a single generation.** Roles are built through a multi-pass pipeline ([`AUTHORING.md`](./AUTHORING.md)): research from named practitioner sources → draft → *adversarial critique by a separate model instance* → revision → scoring against a 9-criterion rubric. Ship bar is ≥14/18 with no zeros; below bar, the role doesn't ship. A one-line prompt gets none of that.
+- **A quality gate, not a single generation.** Roles are built through a multi-pass pipeline ([`AUTHORING.md`](./AUTHORING.md)) — see the diagram below. A one-line prompt gets none of that.
 - **CI-enforced structure.** Every PR runs [`scripts/lint_roles.py`](./scripts/lint_roles.py): schema, required sections, resolving links, banned filler phrases, red-flag completeness, real numbers in the worked example. Generic job-description text fails the build.
 - **It compounds.** Your ad-hoc prompt disappears when the session ends. These files accumulate practitioner corrections, carry a maturity ladder (`draft` → `reviewed-by-practitioner` → `mature`) and a versioned spec (`spec: 2` marks roles at the current bar), and get better with every PR. Fixes reach everyone.
-- **Token-efficient by design.** Each role is a compact reasoning core (`SKILL.md`) plus on-demand depth (`references/`: filled artifact templates, red-flag diagnostics, working vocabulary). The agent pays for depth only when the task needs it.
+- **Token-efficient by design.** Each role is a compact reasoning core (`SKILL.md`) plus on-demand depth (`references/`). The agent pays for depth only when the task needs it:
+
+```
+roles/financial-manager/
+├─ SKILL.md            ◀ always loaded · identity, first principles,
+│                        heuristics, worked example with real numbers
+└─ references/         ◀ loaded on demand
+   ├─ artifacts.md       filled 13-week cash forecast, board slide, scenarios
+   ├─ red-flags.md       DSO +15% QoQ · GM −200bps · headroom <20% …
+   └─ vocabulary.md      bookings vs billings vs revenue vs ARR …
+```
 
 ## How roles are built
+
+```
+  named sources        draft to        adversarial         revise        score vs
+  books · standards ─▶ AUTHORING ──▶  critique by a  ──▶  or contest ─▶  9-criterion ──▶ ship
+  practitioners        spec           separate model      each defect    rubric
+                                                                            │
+                            below 14/18, or any zero:  ◀────────────────────┘
+                            loop (max 2) — or the role does not ship
+```
 
 Every role follows the same contract, enforced by spec and CI:
 
@@ -53,7 +114,7 @@ Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.m
 ## Current roles
 
 <!-- ROLE_COUNTS_START -->
-**51 roles drafted** (47 mapped to an O*NET occupation, 4 custom), across 9 categories:
+**52 roles drafted** (48 mapped to an O*NET occupation, 4 custom), across 9 categories:
 
 - **design**: 1
 - **engineering**: 6
@@ -61,7 +122,7 @@ Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.m
 - **healthcare**: 1
 - **legal**: 1
 - **marketing**: 4
-- **operations**: 29
+- **operations**: 30
 - **product**: 1
 - **sales**: 3
 
@@ -99,3 +160,13 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Short version: pick a role (new or e
 ## License
 
 MIT — see [`LICENSE`](./LICENSE).
+
+<div align="center">
+
+```
+─────────────────────────────────────────────
+ 1,016 occupations. One repo. Every expert.
+─────────────────────────────────────────────
+```
+
+</div>
