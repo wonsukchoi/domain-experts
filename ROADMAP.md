@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 55 / 1016 O*NET occupations drafted.**
+**Progress: 60 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (46/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (48/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -61,8 +61,8 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-9121.02 | Water Resource Specialists | [`water-resource-specialist`](./roles/water-resource-specialist/SKILL.md) |
 | ✅ | 11-9131.00 | Postmasters and Mail Superintendents | [`postmaster-mail-superintendent`](./roles/postmaster-mail-superintendent/SKILL.md) |
 | ✅ | 11-9141.00 | Property, Real Estate, and Community Association Managers | [`property-real-estate-manager`](./roles/property-real-estate-manager/SKILL.md) |
-|  | 11-9151.00 | Social and Community Service Managers |  |
-|  | 11-9161.00 | Emergency Management Directors |  |
+| ✅ | 11-9151.00 | Social and Community Service Managers | [`social-community-service-manager`](./roles/social-community-service-manager/SKILL.md) |
+| ✅ | 11-9161.00 | Emergency Management Directors | [`emergency-management-director`](./roles/emergency-management-director/SKILL.md) |
 |  | 11-9171.00 | Funeral Home Managers |  |
 |  | 11-9179.00 | Personal Service Managers, All Other |  |
 |  | 11-9179.01 | Fitness and Wellness Coordinators |  |
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (3/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (6/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -88,18 +88,18 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-1023.00 | Purchasing Agents, Except Wholesale, Retail, and Farm Products |  |
 |  | 13-1031.00 | Claims Adjusters, Examiners, and Investigators |  |
 |  | 13-1032.00 | Insurance Appraisers, Auto Damage |  |
-|  | 13-1041.00 | Compliance Officers |  |
+| ✅ | 13-1041.00 | Compliance Officers | [`compliance-officer`](./roles/compliance-officer/SKILL.md) |
 |  | 13-1041.01 | Environmental Compliance Inspectors |  |
 |  | 13-1041.03 | Equal Opportunity Representatives and Officers |  |
 |  | 13-1041.04 | Government Property Inspectors and Investigators |  |
 |  | 13-1041.06 | Coroners |  |
 |  | 13-1041.07 | Regulatory Affairs Specialists |  |
 |  | 13-1041.08 | Customs Brokers |  |
-|  | 13-1051.00 | Cost Estimators |  |
+| ✅ | 13-1051.00 | Cost Estimators | [`cost-estimator`](./roles/cost-estimator/SKILL.md) |
 |  | 13-1071.00 | Human Resources Specialists |  |
 |  | 13-1074.00 | Farm Labor Contractors |  |
 |  | 13-1075.00 | Labor Relations Specialists |  |
-|  | 13-1081.00 | Logisticians |  |
+| ✅ | 13-1081.00 | Logisticians | [`logistician`](./roles/logistician/SKILL.md) |
 |  | 13-1081.01 | Logistics Engineers |  |
 |  | 13-1081.02 | Logistics Analysts |  |
 |  | 13-1082.00 | Project Management Specialists |  |
