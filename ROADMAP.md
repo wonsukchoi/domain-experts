@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 45 / 1016 O*NET occupations drafted.**
+**Progress: 46 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (36/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (37/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -55,7 +55,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 11-9071.00 | Gambling Managers |  |
 |  | 11-9072.00 | Entertainment and Recreation Managers, Except Gambling |  |
 |  | 11-9081.00 | Lodging Managers |  |
-|  | 11-9111.00 | Medical and Health Services Managers |  |
+| ✅ | 11-9111.00 | Medical and Health Services Managers | [`medical-health-services-manager`](./roles/medical-health-services-manager/SKILL.md) |
 |  | 11-9121.00 | Natural Sciences Managers |  |
 |  | 11-9121.01 | Clinical Research Coordinators |  |
 |  | 11-9121.02 | Water Resource Specialists |  |

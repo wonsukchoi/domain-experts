@@ -1,5 +1,3 @@
-<div align="center">
-
 ```
 ██████╗  ██████╗ ███╗   ███╗ █████╗ ██╗███╗   ██╗
 ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗██║████╗  ██║
@@ -22,8 +20,6 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-black.svg)](./LICENSE)
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
-
-</div>
 
 Open source library of **job role definitions** — the actual mental models, decision thresholds, and failure modes of real practitioners, structured so any AI agent can load one and reason like that expert. Ask your agent to "review this contract" and it answers with a senior contracts attorney's clause playbook and fallback ladders, not a generalist's summary of the internet.
 
@@ -114,15 +110,15 @@ Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.m
 ## Current roles
 
 <!-- ROLE_COUNTS_START -->
-**52 roles drafted** (48 mapped to an O*NET occupation, 4 custom), across 9 categories:
+**50 roles drafted** (46 mapped to an O*NET occupation, 4 custom), across 9 categories:
 
 - **design**: 1
 - **engineering**: 6
 - **finance**: 5
-- **healthcare**: 1
+- **healthcare**: 2
 - **legal**: 1
 - **marketing**: 4
-- **operations**: 30
+- **operations**: 27
 - **product**: 1
 - **sales**: 3
 
@@ -161,12 +157,8 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Short version: pick a role (new or e
 
 MIT — see [`LICENSE`](./LICENSE).
 
-<div align="center">
-
 ```
 ─────────────────────────────────────────────
  1,016 occupations. One repo. Every expert.
 ─────────────────────────────────────────────
 ```
-
-</div>
