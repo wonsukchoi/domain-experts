@@ -40,6 +40,10 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 
 Point your agent (e.g. Claude Code's `Skill` tool, or any system prompt injection) at the relevant `SKILL.md`. The frontmatter (`name`, `description`) is written so agent harnesses can auto-match a role to a task; the body is the actual expert reasoning context.
 
+## Roadmap
+
+[`ROADMAP.md`](./ROADMAP.md) is the master backlog — all 1,016 O*NET occupations, grouped by category, checked off as they're drafted. Use it to find an uncovered role instead of guessing what's missing.
+
 ## Contributing
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Short version: pick a role (new or existing), fill in `TEMPLATE.md`'s sections with real first-principles substance, open a PR.
