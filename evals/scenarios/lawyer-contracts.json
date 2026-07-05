@@ -5,33 +5,33 @@
       "id": "lc-1",
       "task": "Vendor sent us their SaaS MSA. The limitation of liability says: 'Neither party's aggregate liability shall exceed the fees paid in the twelve (12) months preceding the claim. Neither party shall be liable for any indirect, incidental, or consequential damages. The foregoing limitations shall not apply to Customer's breach of Sections 4 (Payment) or 9 (Confidentiality).' We're the customer, handling PII in their system. Review this clause.",
       "criteria": [
-        "Spots that the carve-outs are one-way: only the customer's likely breaches (payment, confidentiality) are uncapped while the vendor's likely failure modes stay capped",
-        "Flags the absence of a data-breach/data-protection carve-out or super-cap given PII is being processed, and proposes one (e.g. 2-3x fees)",
-        "Notes the consequential-damages waiver interacts with the cap to bar the damages a data incident would actually cause",
-        "Proposes concrete redline language or fallback positions, not just 'this is unfavorable'",
-        "Reads the clause from the failure scenario (what happens when things go wrong), not the happy path"
+        "Maps each carve-out to the party that practically triggers it, concluding the mutuality is form-only (payment and confidentiality are customer-side breaches; vendor failure modes stay capped)",
+        "Proposes a data-breach/data-protection super-cap with a specific multiplier (e.g. 2-3x fees) or an uncapped data carve-out, given PII processing",
+        "Explains that the consequential-damages waiver combined with the cap bars the real losses of a data incident (notification costs, lost business) unless carved back",
+        "Provides actual proposed redline language or a numbered fallback ladder — critique alone does not satisfy this",
+        "Reasons from a concrete failure scenario (vendor breach exposing PII) rather than abstract fairness of the clause"
       ]
     },
     {
       "id": "lc-2",
       "task": "We're signing a $9k/year tool subscription and separately a $400k/year data processing agreement with a new vendor this month. Our legal budget is tight. How much review effort should each get, and what would you actually look at in each?",
       "criteria": [
-        "Explicitly tiers review depth by contract value and data sensitivity rather than applying uniform diligence",
-        "For the small subscription: names a minimal targeted check (auto-renewal window, liability basics, data terms) instead of a full markup",
-        "For the $400k data agreement: prescribes full review naming specific high-stakes clauses (LoL, indemnity, data protection, termination/data return)",
-        "Mentions the auto-renewal notice window as a trap worth diarying even on small contracts",
-        "Treats over-lawyering the small contract as a real cost, not free safety"
+        "Explicitly tiers review depth by value and data sensitivity, stating the $9k tool gets minutes of targeted review, not a markup",
+        "For the $9k tool: names the auto-renewal notice window as the specific trap to check, plus at most 2-3 other quick checks",
+        "For the $400k data agreement: names at least four specific clause families (limitation of liability, indemnity, data protection/security, termination and data return, audit rights)",
+        "Recommends calendaring/diarying the renewal notice deadline as an operational step, not just 'be aware of it'",
+        "Frames over-lawyering the small contract as a real cost of legal time better spent on the $400k risk"
       ]
     },
     {
       "id": "lc-3",
       "task": "Our MSA says the order form controls over the MSA on conflict, and the vendor's order form incorporates their 'Service Terms available at [URL] as updated from time to time.' Procurement says this is standard boilerplate and wants to sign today. Anything to worry about?",
       "criteria": [
-        "Identifies that URL terms 'as updated from time to time' let the vendor unilaterally amend the deal after signature",
-        "Traces the order-of-precedence chain to show the URL terms may effectively sit above the negotiated MSA",
-        "Recommends freezing the URL terms (attach a dated copy as an exhibit) or requiring notice/consent for changes",
-        "Pushes back on 'standard boilerplate' as a reason to accept, while keeping the response proportionate",
-        "Recommends archiving a dated copy of the current URL terms regardless of the negotiation outcome"
+        "States explicitly that 'as updated from time to time' grants the vendor a unilateral right to amend the deal after signature",
+        "Traces the precedence chain (order form over MSA; order form incorporates URL terms) to conclude the URL terms can override the negotiated MSA",
+        "Proposes a concrete freeze mechanism: attach a dated copy as an exhibit, or require notice-and-consent for changes to the URL terms",
+        "Rejects 'standard boilerplate' as a reason to sign while keeping the response proportionate to deal size",
+        "Advises archiving a dated copy of the current URL terms today regardless of negotiation outcome"
       ]
     }
   ]

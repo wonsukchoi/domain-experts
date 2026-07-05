@@ -5,33 +5,33 @@
       "id": "ds-1",
       "task": "Our A/B test of the new checkout flow finished: treatment shows +2.8% orders per user, p=0.003, n=400k per arm over 14 days. PM wants to ship tomorrow. The assignment split was supposed to be 50/50 but the dashboard shows 398,104 vs 411,882 users. Green light?",
       "criteria": [
-        "Runs or demands an SRM (sample ratio mismatch) check on the 398k vs 412k split and treats a failure as invalidating the readout regardless of the p-value",
-        "Explains the imbalance is far beyond chance for a 50/50 split (a chi-square would flag it), implying broken assignment or logging",
-        "Refuses to certify the +2.8% until the assignment mechanism is diagnosed, rather than shipping on the significant p-value",
-        "Names concrete causes to investigate (bot filtering asymmetry, redirect drops, logging failures)",
-        "Also asks about guardrail metrics and/or novelty effects rather than only the primary metric"
+        "Names sample ratio mismatch (SRM) or an explicit chi-square test on the 398,104 vs 411,882 split as a validity gate",
+        "States the imbalance is statistically implausible under 50/50 at this sample size — treating it as broken assignment/logging, not 'slightly uneven'",
+        "Explicitly blocks shipping despite p=0.003 until the assignment mechanism is diagnosed",
+        "Names at least two concrete SRM causes to investigate (asymmetric bot filtering, redirect loss, logging drops)",
+        "Separately raises guardrail metrics or novelty-effect/time-window analysis beyond the SRM issue"
       ]
     },
     {
       "id": "ds-2",
       "task": "Weekly active users dropped 8% this week and leadership is panicking. The head of growth already has a deck blaming the new pricing page. I have 4 hours. What's my triage order?",
       "criteria": [
-        "Puts instrumentation/tracking breakage first in the triage order, before any behavioral explanation",
-        "Checks metric definition changes and data pipeline/ETL issues before accepting a real user-behavior drop",
-        "Checks mix effects and seasonality/calendar effects (holiday, weekday composition) before a causal story",
-        "Treats the pre-existing pricing-page narrative as a hypothesis to test, and proposes a segmentation check (did the drop concentrate in users who saw the page?)",
-        "Only reaches 'real product effect' after cheaper explanations are excluded"
+        "Gives an explicit ordered triage with instrumentation/tracking breakage as step one, before any behavioral explanation",
+        "Checks metric definition changes and data pipeline/ETL lag as their own early step",
+        "Checks mix shift and seasonality/calendar composition explicitly before accepting a real drop",
+        "Converts the pricing-page story into a testable hypothesis with a specific test: compare the drop among users exposed vs not exposed to the page",
+        "Frames 'real product effect' as the residual conclusion only after the cheaper explanations are excluded"
       ]
     },
     {
       "id": "ds-3",
       "task": "Marketing wants to know the revenue impact of last quarter's brand campaign. It ran nationally, so there's no holdout. They point out revenue rose 15% in the campaign quarter vs prior quarter. Give me an honest analysis plan.",
       "criteria": [
-        "Rejects the naive pre/post 15% comparison as confounded by seasonality, trend, and concurrent changes",
-        "Proposes a specific quasi-experimental design (diff-in-diff against a comparison series, synthetic control, or similar) and explains what identification requires",
-        "States the failure modes/assumptions of the chosen method (parallel trends, contamination) instead of presenting it as clean truth",
-        "Recommends designing future campaigns with geo holdouts or staggered rollout for real measurement",
-        "Is honest that the retroactive estimate will carry wide uncertainty, and quantifies rather than hides it"
+        "Explicitly rejects the pre/post +15% comparison as confounded, naming at least two confounders (seasonality, trend, concurrent changes)",
+        "Proposes a named quasi-experimental method (difference-in-differences, synthetic control, or equivalent) and identifies what would serve as the comparison series",
+        "States the chosen method's key assumption and failure mode (e.g. parallel trends, contamination) rather than presenting the estimate as clean",
+        "Recommends geo-holdout or staggered rollout design for future campaigns so this question becomes answerable",
+        "Commits to reporting an uncertainty interval and says plainly the retroactive estimate will be wide"
       ]
     }
   ]

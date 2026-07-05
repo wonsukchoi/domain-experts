@@ -5,33 +5,33 @@
       "id": "fm-1",
       "task": "I'm the CEO of a B2B SaaS company (~$18M ARR). Great quarter: bookings up 40% YoY and sales wants bigger accelerators. Our controller mentioned deferred revenue was roughly flat this quarter and DSO moved from 48 to 61 days, but revenue recognized grew 12%. I want to raise next year's growth targets on the back of this. What's your read?",
       "criteria": [
-        "Flags that flat deferred revenue contradicts strong prepaid-SaaS bookings growth and demands a bookings-to-billings-to-deferred reconciliation before trusting the 40%",
-        "Treats the DSO move from 48 to 61 days (>15% jump) as a specific red flag suggesting collections slippage or side-letter/extended terms used to book deals",
-        "Distinguishes bookings from billings from recognized revenue from ARR rather than treating them as one growth number",
-        "Asks to see AR aging and/or non-standard payment terms granted recently before endorsing higher targets",
-        "Does not simply congratulate and proceed to raising targets"
+        "Explicitly demands a bookings-to-billings-to-deferred-revenue reconciliation, naming flat deferred revenue as the contradiction to the 40% bookings story (not generic 'verify the numbers')",
+        "Quantifies the DSO deterioration (48 to 61 days, roughly +27%) and names at least two specific mechanisms: collections slippage, disputed invoices, or extended/side-letter terms used to close deals",
+        "Uses at least three of bookings / billings / recognized revenue / ARR as explicitly distinct quantities in the analysis",
+        "Names a concrete artifact to pull: AR aging by customer, the largest overdue invoices, or a list of non-standard payment terms recently granted",
+        "Makes the recommendation conditional: explicitly declines to endorse higher targets until the reconciliation and DSO diagnosis come back clean"
       ]
     },
     {
       "id": "fm-2",
       "task": "We're a 110-person SaaS company, $8.5M in the bank, net burn about $350K/month. Our bank offered a $10M term loan at SOFR+3.5% with a minimum-liquidity covenant and a fixed-charge coverage covenant. CFO hat on: should we take it? What would you check first?",
       "criteria": [
-        "Models covenant compliance on forward projections (including a bear case), not just current actuals",
-        "Identifies that the binding constraint is usually one specific covenant (e.g. minimum liquidity) and quantifies headroom against it",
-        "Considers structuring alternatives such as a smaller initial draw plus a delayed-draw tranche tied to milestones",
-        "Notes that debt extends runway only if the covenants don't effectively hand the bank control in the downside scenario where the money is actually needed",
-        "Asks about covenant cure/waiver mechanics or what happens on breach, not just the rate"
+        "Requires covenant compliance modeled on forward projections including a bear case, and talks about when a breach would occur in that scenario (not just 'watch the covenants')",
+        "Identifies which specific covenant likely binds first and expresses headroom as a number or percentage",
+        "Proposes a specific structural alternative: smaller initial draw, delayed-draw tranche tied to a named milestone (e.g. an ARR level), or reduced facility size",
+        "States the downside-control problem explicitly: breach hands the lender leverage precisely in the scenario where the cash was needed",
+        "Asks specifically about cure periods, waiver mechanics, or default consequences — not just the interest rate"
       ]
     },
     {
       "id": "fm-3",
       "task": "Board meeting in two weeks. Our gross margin slid from 78% to 75.5% over the last two quarters. Nobody changed pricing. Head of engineering says it's 'just AWS costs from growth.' How should I get to the bottom of this and what do I tell the board?",
       "criteria": [
-        "Treats a >200bps gross margin slide without pricing change as a diagnosable anomaly, not an acceptable growth cost by default",
-        "Decomposes COGS into specific candidate causes (infrastructure unit costs, support headcount classification, customer mix shift) rather than accepting one narrative",
-        "Checks whether costs are growing faster than the revenue they serve (unit economics per customer or per workload), not just in absolute terms",
-        "Proposes telling the board the diagnosis and trajectory with numbers, not smoothing over the decline",
-        "Asks whether anything was reclassified into or out of COGS recently"
+        "Quantifies the decline (~250bps over two quarters) and explicitly rejects settling for the single 'AWS growth' narrative without decomposition",
+        "Decomposes COGS into at least three named candidate causes (e.g. infrastructure unit costs, support headcount, customer/product mix, reclassification)",
+        "Normalizes to unit economics: infra cost per customer, per workload, or per revenue dollar — not absolute AWS spend",
+        "Explicitly asks whether anything was reclassified into or out of COGS recently",
+        "Board framing: present diagnosis, trajectory, and remediation plan with numbers — explicitly rejects smoothing it over"
       ]
     }
   ]
