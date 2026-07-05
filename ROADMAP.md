@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 45 / 1016 O*NET occupations drafted.**
+**Progress: 50 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (36/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (41/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -51,11 +51,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-9039.00 | Education Administrators, All Other | [`education-administrator-other`](./roles/education-administrator-other/SKILL.md) |
 | ✅ | 11-9041.00 | Architectural and Engineering Managers | [`architectural-engineering-manager`](./roles/architectural-engineering-manager/SKILL.md) |
 | ✅ | 11-9041.01 | Biofuels/Biodiesel Technology and Product Development Managers | [`biofuels-biodiesel-technology-manager`](./roles/biofuels-biodiesel-technology-manager/SKILL.md) |
-|  | 11-9051.00 | Food Service Managers |  |
-|  | 11-9071.00 | Gambling Managers |  |
-|  | 11-9072.00 | Entertainment and Recreation Managers, Except Gambling |  |
-|  | 11-9081.00 | Lodging Managers |  |
-|  | 11-9111.00 | Medical and Health Services Managers |  |
+| ✅ | 11-9051.00 | Food Service Managers | [`food-service-manager`](./roles/food-service-manager/SKILL.md) |
+| ✅ | 11-9071.00 | Gambling Managers | [`gambling-manager`](./roles/gambling-manager/SKILL.md) |
+| ✅ | 11-9072.00 | Entertainment and Recreation Managers, Except Gambling | [`entertainment-recreation-manager`](./roles/entertainment-recreation-manager/SKILL.md) |
+| ✅ | 11-9081.00 | Lodging Managers | [`lodging-manager`](./roles/lodging-manager/SKILL.md) |
+| ✅ | 11-9111.00 | Medical and Health Services Managers | [`medical-health-services-manager`](./roles/medical-health-services-manager/SKILL.md) |
 |  | 11-9121.00 | Natural Sciences Managers |  |
 |  | 11-9121.01 | Clinical Research Coordinators |  |
 |  | 11-9121.02 | Water Resource Specialists |  |

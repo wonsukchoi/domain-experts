@@ -110,15 +110,15 @@ Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.m
 ## Current roles
 
 <!-- ROLE_COUNTS_START -->
-**49 roles drafted** (45 mapped to an O*NET occupation, 4 custom), across 9 categories:
+**54 roles drafted** (50 mapped to an O*NET occupation, 4 custom), across 9 categories:
 
 - **design**: 1
 - **engineering**: 6
 - **finance**: 5
-- **healthcare**: 1
+- **healthcare**: 2
 - **legal**: 1
 - **marketing**: 4
-- **operations**: 27
+- **operations**: 31
 - **product**: 1
 - **sales**: 3
 
