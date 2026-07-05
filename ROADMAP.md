@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 40 / 1016 O*NET occupations drafted.**
+**Progress: 43 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (31/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (34/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -46,9 +46,9 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) |
 | ✅ | 11-9021.00 | Construction Managers | [`construction-manager`](./roles/construction-manager/SKILL.md) |
 | ✅ | 11-9031.00 | Education and Childcare Administrators, Preschool and Daycare | [`education-childcare-administrator-preschool`](./roles/education-childcare-administrator-preschool/SKILL.md) |
-|  | 11-9032.00 | Education Administrators, Kindergarten through Secondary |  |
-|  | 11-9033.00 | Education Administrators, Postsecondary |  |
-|  | 11-9039.00 | Education Administrators, All Other |  |
+| ✅ | 11-9032.00 | Education Administrators, Kindergarten through Secondary | [`education-administrator-k12`](./roles/education-administrator-k12/SKILL.md) |
+| ✅ | 11-9033.00 | Education Administrators, Postsecondary | [`education-administrator-postsecondary`](./roles/education-administrator-postsecondary/SKILL.md) |
+| ✅ | 11-9039.00 | Education Administrators, All Other | [`education-administrator-other`](./roles/education-administrator-other/SKILL.md) |
 |  | 11-9041.00 | Architectural and Engineering Managers |  |
 |  | 11-9041.01 | Biofuels/Biodiesel Technology and Product Development Managers |  |
 |  | 11-9051.00 | Food Service Managers |  |

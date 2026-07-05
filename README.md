@@ -13,14 +13,14 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 ## How it works
 
 - Every role lives in `roles/<role-slug>/SKILL.md`.
-- Roles follow the schema in [`TEMPLATE.md`](./TEMPLATE.md): identity, first-principles core, mental models, decision frameworks, tools/methods, communication style, common failure modes, and sources.
+- Roles follow the schema in [`TEMPLATE.md`](./TEMPLATE.md): identity, first-principles core, mental models, decision frameworks, tools/methods, communication style, common failure modes, a numbered worked example, and sources — plus a `references/` directory with deep-dive playbooks/artifacts, red-flag diagnostics, and vocabulary. The quality bar and authoring process (including the LLM drafting pipeline) live in [`AUTHORING.md`](./AUTHORING.md).
 - Anyone can open a PR to add a new role, or improve an existing one. Practitioners with real experience in the role are especially welcome — call this out in your PR.
 - Quality bar: prefer *how an expert actually thinks and decides* over generic responsibility lists you could get from a job posting.
 
 ## Current roles
 
 <!-- ROLE_COUNTS_START -->
-**44 roles drafted** (40 mapped to an O*NET occupation, 4 custom), across 9 categories:
+**47 roles drafted** (43 mapped to an O*NET occupation, 4 custom), across 9 categories:
 
 - **design**: 1
 - **engineering**: 4
@@ -28,7 +28,7 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 - **healthcare**: 1
 - **legal**: 1
 - **marketing**: 4
-- **operations**: 24
+- **operations**: 27
 - **product**: 1
 - **sales**: 3
 
