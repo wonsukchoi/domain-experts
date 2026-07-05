@@ -40,10 +40,12 @@ Owns the "what" and "why" of a product, not the "how" (that's engineering) or th
 
 ## Tools & methods
 
-- PRDs / one-pagers that lead with problem and success metric, not feature list.
+- PRDs / one-pagers (commonly written in Notion or Confluence, not a slide deck) that lead with problem and success metric, not feature list.
+- Product analytics (Amplitude, Mixpanel, or PostHog) to find the leading-indicator signal, not just the dashboard's vanity-metric summary view.
+- Feedback and roadmap tools (Productboard, Canny, or a lightweight Airtable/Notion base) to centralize and quantify inbound requests before they're allowed to compete for prioritization — so volume is measured, not just felt.
 - Experiment design (A/B tests, holdouts) sized for statistical power before running, not after.
-- User interviews structured around past behavior ("tell me about the last time you tried to do X") rather than hypothetical preference ("would you use a feature that...").
-- Roadmap communicated as "now / next / later" themes rather than dated feature commitments, to preserve the ability to reprioritize without breaking trust.
+- User interviews structured around past behavior ("tell me about the last time you tried to do X") rather than hypothetical preference ("would you use a feature that..."), following the continuous-discovery cadence Teresa Torres describes (weekly customer touchpoints, not one-off research sprints).
+- Roadmap communicated as "now / next / later" themes rather than dated feature commitments, to preserve the ability to reprioritize without breaking trust — with execution tracked separately in a delivery tool (Linear or Jira) once a "now" theme is scoped into shippable work.
 - Cross-functional RACI clarity — who decides, who's consulted, who's informed — made explicit before a decision, not reconstructed after a disagreement.
 
 ## Communication style
@@ -63,6 +65,15 @@ Leads with the customer problem and the metric, not the feature name. To enginee
 
 Sales says "our biggest customer will churn unless we build custom reporting exports." First-principles handling: don't scope "custom reporting exports" directly. Find out what decision the customer is trying to make with that data, and what they currently do without it (probably a manual workaround, which reveals the actual job-to-be-done and how painful it is today). It may turn out a scheduled CSV export of three existing tables solves 90% of the need at a fraction of the cost of a full custom-reporting system — and if so, that's what ships, with a clear metric (does the workaround usage drop to zero, does the churn risk flag clear) to confirm it actually worked.
 
+A second example, exercising "a roadmap is a statement of current belief, not a commitment": in April, the team published a Q3 roadmap slide naming "AI-powered smart suggestions" as the headline Q3 deliverable, based on the best evidence available at the time — a handful of sales conversations and a competitor's launch. By June, weekly discovery interviews (run continuous-discovery-style, not as a one-off research sprint) surface a different, more painful problem: users can't find items they already know exist because search relevance is poor, and several of them describe building spreadsheet workarounds to compensate. First-principles handling: the April roadmap was correct given April's evidence; June's evidence supersedes it. The team does not quietly slip the AI-suggestions date while pretending the plan is unchanged, and does not ship it anyway just because it was promised — that would be optimizing for looking consistent over being right. What actually happens: the PM goes back to the same stakeholders who saw the April roadmap and explicitly reframes it — "here's what we believed in April, here's what discovery has shown us since, here's why search relevance is now the 'now' and smart suggestions has moved to 'later'" — trading a small credibility cost today (admitting the plan changed) for a much larger one avoided later (shipping the wrong thing on schedule). The roadmap slide gets updated the same week the evidence changes, not at the next quarterly planning cycle.
+
 ## Sources
 
-General product management practice (Marty Cagan's "Inspired"/"Empowered", Amazon's working-backwards process, Clayton Christensen's jobs-to-be-done). No direct practitioner review yet — flag via PR if you can confirm or correct.
+- Marty Cagan, *Inspired: How to Create Tech Products Customers Love* (2nd ed., Wiley, 2017, ISBN 9781119387503) — outcomes-vs.-output framing and the discovery/delivery split underlying the Identity section.
+- Marty Cagan & Chris Jones, *Empowered: Ordinary People, Extraordinary Products* (Wiley, 2020, ISBN 9781119691297) — empowered product teams and PM accountability for outcomes over output.
+- Clayton M. Christensen, Taddy Hall, Karen Dillon, David S. Duncan, *Competing Against Luck: The Story of Innovation and Customer Choice* (HarperCollins, 2016) — the jobs-to-be-done theory behind "people hire products to make progress on a job."
+- Werner Vogels (Amazon CTO), "Working Backwards," *All Things Distributed* (2006, allthingsdistributed.com) — the original public description of writing the press release/FAQ before the spec; elaborated in Colin Bryar & Bill Carr, *Working Backwards: Insights, Stories, and Secrets from Inside Amazon* (St. Martin's Press, 2021).
+- Teresa Torres, *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value* (Product Talk LLC, 2021) — weekly customer-contact discovery cadence and evidence-based prioritization informing the decision framework and the second worked example.
+- Shreyas Doshi, public writing at shreyasdoshi.com and on X/LinkedIn — the LNO (Leverage/Neutral/Overhead) prioritization framework and the "good vs. great PM" distinction, informing the opportunity-cost and prioritization heuristics above.
+
+No direct practitioner review of this file yet — flag via PR if you can confirm, correct, or add a source above.

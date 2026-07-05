@@ -40,9 +40,11 @@ Designs how a person accomplishes a goal through an interface — not decoration
 
 ## Tools & methods
 
-- Wireframes/prototypes at increasing fidelity, tested at each stage rather than only at the end.
-- Usability testing (moderated or unmoderated) with real or representative users, structured around task completion, not opinion-gathering ("do you like this").
-- Heuristic evaluation (Nielsen's 10 heuristics) as a fast expert-review pass before user testing.
+- Wireframes/prototypes at increasing fidelity (Figma is the de facto standard for both), tested at each stage rather than only at the end.
+- Unmoderated usability testing against live prototypes (Maze, Lyssna, UserTesting) for fast, structured task-completion data at scale; moderated sessions for depth on ambiguous or high-stakes flows.
+- Heuristic evaluation (Nielsen's 10 heuristics, below) as a fast expert-review pass before spending user-testing budget.
+- Research repositories for synthesizing and tagging qualitative findings across studies (Dovetail, or a team wiki if headcount doesn't justify a dedicated tool) so patterns across sessions aren't lost between projects.
+- Collaborative whiteboarding for flow mapping, journey mapping, and card sorting with stakeholders in the room (FigJam, Miro).
 - User flow / journey mapping to see the whole path, not just the screen currently in front of you.
 - Design systems / component libraries for consistency, so the same control looks and behaves the same everywhere it appears.
 - A/B testing for cases where the "better" option isn't obvious from qualitative testing alone.
@@ -64,6 +66,14 @@ Grounds critique in specific user impact ("a first-time user will likely miss th
 
 A stakeholder asks for a settings toggle to let users choose between two different navigation layouts, because two vocal users requested it. First-principles handling: don't add the toggle by default. Ask what problem each layout solves for those users — likely a workflow-specific need (e.g. power users doing bulk actions vs. casual users browsing). Test whether one layout, well-designed, can serve both cases with progressive disclosure (a "bulk mode" toggle scoped to the specific action, not a whole-navigation fork) before accepting a permanent bifurcation of the product's core navigation — a maintenance and consistency cost that will compound for every future feature built on top of it.
 
+A designer who has rebuilt a checkout flow spends two weeks staring at it, knows every field and shortcut by heart, and walks through it in thirty seconds without hesitation — concluding it's ready to ship. First-principles handling: that fluency is worthless evidence ("you are not the user"). The designer has memorized the path; a first-time user hasn't. Put the flow in front of five people who have never seen it, say nothing, and watch where they pause, misread a label, or reach for a control that isn't there — their hesitation is the real signal, not the designer's speed. What actually happens when this is skipped: the flow ships on the strength of internal confidence, a support-ticket spike appears within a week (users abandoning at a step the team never saw as ambiguous, e.g. mistaking an optional field for required because its label wasn't visually distinct from required ones), and the fix costs more post-launch than five minutes of testing would have before.
+
 ## Sources
 
-General UX practice (Steve Krug's "Don't Make Me Think," Jakob Nielsen's usability heuristics, Fitts's Law, Barry Schwartz's paradox-of-choice research). No direct practitioner review yet — flag via PR if you can confirm or correct.
+- Steve Krug, *Don't Make Me Think: A Common Sense Approach to Web Usability* (New Riders, 2000); revised and retitled *Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability* (3rd ed., New Riders/Pearson, 2014). ISBN 978-0321965516.
+- Jakob Nielsen, "10 Usability Heuristics for User Interface Design," Nielsen Norman Group (originally 1994, most recently updated 2020). https://www.nngroup.com/articles/ten-usability-heuristics/ — see also Nielsen's companion piece "Severity Ratings for Usability Problems," NN/g, for the low/minor/major/catastrophic scale referenced above.
+- Paul M. Fitts, "The Information Capacity of the Human Motor System in Controlling the Amplitude of Movement," *Journal of Experimental Psychology*, 47(6), 381–391 (1954). DOI: 10.1037/h0055392. Practical UX framing via Nielsen Norman Group, "Fitts's Law and Its Applications in UX": https://www.nngroup.com/articles/fitts-law/
+- Barry Schwartz, *The Paradox of Choice: Why More Is Less* (Harper Perennial, 2004; revised edition with Nathan N. Cheek, Ecco, 2016).
+- Tooling references reflect the 2025–2026 UX research/design market (Figma/FigJam, Maze, UserTesting, Dovetail, Lyssna) and should be revisited periodically as the landscape shifts.
+
+No direct practitioner review yet — flag via PR if you can confirm, correct, or add primary-source citations for the mental models above.
