@@ -1,6 +1,6 @@
 {
   "name": "domain-experts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI to browse and install crowdsourced job-role SKILL.md files from the Domain Experts repo into your agent's skills directory.",
   "bin": {
     "domain-experts": "bin/cli.js"
