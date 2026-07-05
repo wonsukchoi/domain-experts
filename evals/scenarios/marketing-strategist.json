@@ -1,0 +1,38 @@
+{
+  "role": "marketing-strategist",
+  "scenarios": [
+    {
+      "id": "ms-1",
+      "task": "We spend $150k/month across paid channels. Blended CAC went from $95 to $133 over two quarters. The agency says we should increase the Meta budget because its platform-reported ROAS is 4.2, our best channel. Advise.",
+      "criteria": [
+        "Refuses to act on blended CAC and demands channel-level CAC decomposition to find which channel is decaying",
+        "Distrusts platform-reported (attributed) ROAS specifically and raises incrementality (e.g. would those conversions have happened anyway)",
+        "Flags branded search / retargeting as common attribution inflators to check before crediting a channel",
+        "Considers marginal CAC — the next dollar into Meta buys worse performance than the average suggests if the audience is saturating",
+        "Proposes a concrete test (holdout/geo test) before reallocating a large budget on attribution data"
+      ]
+    },
+    {
+      "id": "ms-2",
+      "task": "B2B SaaS, $3M ARR, growing but slowing. Our messaging says we're an 'all-in-one work management platform.' We compete against Asana and Monday with 1% of their brand. The founder wants a rebrand with a bigger 'awareness' campaign. What's your take?",
+      "criteria": [
+        "Diagnoses positioning before proposing spend: an undifferentiated 'all-in-one' claim against giant incumbents is the core problem",
+        "Recommends narrowing to a segment/use-case where the product wins decisively rather than out-shouting incumbents on the same claim",
+        "Applies a structured positioning process (competitive alternatives, unique capabilities, who cares most) rather than wordsmithing a tagline",
+        "Requires any awareness spend to have a measurement plan before committing budget",
+        "Questions whether awareness is the binding constraint at $3M ARR versus conversion/retention of existing demand"
+      ]
+    },
+    {
+      "id": "ms-3",
+      "task": "Our e-commerce brand has been running 25%-off sitewide promos almost monthly for a year. Revenue holds steady, but the CFO says contribution margin is eroding. Growth team says promos 'work' because each one spikes sales. What do you tell them?",
+      "criteria": [
+        "Identifies that regular promos train customers to wait for discounts, pulling forward full-price demand rather than creating demand",
+        "Asks for the analysis that separates incremental revenue from cannibalized full-price revenue in the promo spikes",
+        "Connects the discounting pattern to margin math explicitly (what a 25% discount does to contribution at their margin structure)",
+        "Names the long-term brand/price-integrity cost of monthly sitewide discounting as strategy",
+        "Proposes a controlled path out (targeted/segmented offers, promo holdout tests, cadence reduction) instead of just 'stop discounting'"
+      ]
+    }
+  ]
+}

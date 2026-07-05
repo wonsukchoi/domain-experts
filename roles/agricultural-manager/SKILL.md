@@ -58,7 +58,7 @@ Frames production and financial decisions in terms of risk and scenario range, n
 - **Over-concentration beyond the operation's risk tolerance** — specializing in a single crop or livestock line without adequate financial cushion to survive a bad year in that specific line.
 - **Maximizing this year's yield at the expense of long-term land/herd productivity** — practices (over-tilling, overgrazing, excessive input use) that boost short-term output while degrading the underlying long-term productive capacity.
 - **Judging past decisions purely by outcome** — treating a well-reasoned decision that turned out badly due to unforecastable weather as a mistake to be avoided next time, rather than evaluating whether the reasoning at the time was actually sound.
-- **Chasing yield without checking marginal return** —选择ing the highest-yield input package without confirming the additional input cost is actually justified by the marginal value of the additional yield.
+- **Chasing yield without checking marginal return** — choosing the highest-yield input package without confirming the additional input cost is actually justified by the marginal value of the additional yield.
 
 ## Worked example
 

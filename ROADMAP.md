@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 50 / 1016 O*NET occupations drafted.**
+**Progress: 55 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (41/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (46/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -56,11 +56,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-9072.00 | Entertainment and Recreation Managers, Except Gambling | [`entertainment-recreation-manager`](./roles/entertainment-recreation-manager/SKILL.md) |
 | ✅ | 11-9081.00 | Lodging Managers | [`lodging-manager`](./roles/lodging-manager/SKILL.md) |
 | ✅ | 11-9111.00 | Medical and Health Services Managers | [`medical-health-services-manager`](./roles/medical-health-services-manager/SKILL.md) |
-|  | 11-9121.00 | Natural Sciences Managers |  |
-|  | 11-9121.01 | Clinical Research Coordinators |  |
-|  | 11-9121.02 | Water Resource Specialists |  |
-|  | 11-9131.00 | Postmasters and Mail Superintendents |  |
-|  | 11-9141.00 | Property, Real Estate, and Community Association Managers |  |
+| ✅ | 11-9121.00 | Natural Sciences Managers | [`natural-sciences-manager`](./roles/natural-sciences-manager/SKILL.md) |
+| ✅ | 11-9121.01 | Clinical Research Coordinators | [`clinical-research-coordinator`](./roles/clinical-research-coordinator/SKILL.md) |
+| ✅ | 11-9121.02 | Water Resource Specialists | [`water-resource-specialist`](./roles/water-resource-specialist/SKILL.md) |
+| ✅ | 11-9131.00 | Postmasters and Mail Superintendents | [`postmaster-mail-superintendent`](./roles/postmaster-mail-superintendent/SKILL.md) |
+| ✅ | 11-9141.00 | Property, Real Estate, and Community Association Managers | [`property-real-estate-manager`](./roles/property-real-estate-manager/SKILL.md) |
 |  | 11-9151.00 | Social and Community Service Managers |  |
 |  | 11-9161.00 | Emergency Management Directors |  |
 |  | 11-9171.00 | Funeral Home Managers |  |

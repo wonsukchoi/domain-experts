@@ -1,5 +1,5 @@
 {
-  "count": 54,
+  "count": 59,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -108,6 +108,20 @@
       "onet_soc_code": "11-1011.03",
       "skill": "roles/chief-sustainability-officer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "clinical-research-coordinator",
+      "description": "Use when a task needs the judgment of a Clinical Research Coordinator \u2014 managing patient recruitment/enrollment against a trial's screen-fail rate, handling a protocol deviation, tracking informed consent and regulatory documentation, or coordinating a multi-visit study schedule against patient retention risk.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9121.01",
+      "skill": "roles/clinical-research-coordinator/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "compensation-benefits-manager",
@@ -437,6 +451,20 @@
       ]
     },
     {
+      "slug": "natural-sciences-manager",
+      "description": "Use when a task needs the judgment of a Natural Sciences Manager (R&D lab director, science department head) \u2014 allocating research budget/headcount across competing projects, deciding whether to kill or continue a research program, evaluating a grant/publication strategy tradeoff, or managing the tension between scientific rigor and delivery deadlines.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9121.00",
+      "skill": "roles/natural-sciences-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "physician-clinical-reasoning",
       "description": "Use when a task needs the judgment and diagnostic reasoning process of a physician \u2014 working through a differential diagnosis, evaluating clinical evidence, or reasoning about diagnostic uncertainty. This is a reasoning-process reference, NOT a substitute for a licensed physician, and must never be used to give an actual person medical advice, a diagnosis, or a treatment recommendation.",
       "category": "healthcare",
@@ -447,6 +475,20 @@
       "references": []
     },
     {
+      "slug": "postmaster-mail-superintendent",
+      "description": "Use when a task needs the judgment of a Postmaster or Mail Superintendent \u2014 managing a post office/mail processing facility's delivery-point growth and route planning, diagnosing a service performance (on-time delivery) shortfall, handling a mail security or chain-of-custody incident, or balancing seasonal volume surges against staffing.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9131.00",
+      "skill": "roles/postmaster-mail-superintendent/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "product-manager",
       "description": "Use when a task needs senior product-manager judgment \u2014 prioritizing between features with real tradeoffs, writing PRDs and decision docs, translating stakeholder requests into problems, killing underperforming features, or deciding what not to build.",
       "category": "product",
@@ -454,6 +496,20 @@
       "spec": 2,
       "onet_soc_code": null,
       "skill": "roles/product-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "property-real-estate-manager",
+      "description": "Use when a task needs the judgment of a Property/Real Estate/Community Association Manager \u2014 setting rent against vacancy/market data, evaluating a capital improvement vs. deferred maintenance tradeoff, handling a tenant dispute or eviction decision, managing an HOA/community association reserve fund, or deciding on a vendor/maintenance contract.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9141.00",
+      "skill": "roles/property-real-estate-manager/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -589,6 +645,20 @@
       "onet_soc_code": "15-1255.00",
       "skill": "roles/ux-designer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "water-resource-specialist",
+      "description": "Use when a task needs the judgment of a Water Resource Specialist \u2014 allocating water rights/supply across competing uses, evaluating a drought contingency or conservation program, assessing a water quality or supply-reliability risk, or balancing environmental flow requirements against municipal/agricultural demand.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9121.02",
+      "skill": "roles/water-resource-specialist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "role": "product-manager",
+  "scenarios": [
+    {
+      "id": "pm-1",
+      "task": "Our biggest customer ($180k/year renewal in 5 months) is demanding a custom report builder. Sales says we lose them without it. Engineering estimates 2 quarters for one team. Meanwhile our activation rate for new signups is 34% and we have a backlog item to fix onboarding. I'm the CEO — tell me what to do.",
+      "criteria": [
+        "Asks whether other customers want report-building (n=1 vs pattern) before committing 2 quarters",
+        "Frames the roadmap slot's opportunity cost explicitly: the report builder is paid for by not fixing 34% activation",
+        "Explores a smaller commitment that de-risks the renewal (scoped export/API, services workaround, phased commitment) before the full build",
+        "Recommends writing the decision down with success criteria / kill criteria rather than an open-ended commitment",
+        "Does not treat 'sales says we lose them' as sufficient evidence on its own"
+      ]
+    },
+    {
+      "id": "pm-2",
+      "task": "We shipped a template gallery 2 quarters ago to drive workflow creation. Adoption is 8%: measured as users who opened the gallery at least once. The team wants to invest another quarter adding more templates because 'it just needs more content.' Your call?",
+      "criteria": [
+        "Challenges the adoption metric itself: opening the gallery once is an exposure event, not a value event (e.g. workflow created from a template)",
+        "Treats 8% after two quarters as evidence the current approach failed, requiring a diagnosis before more investment",
+        "Asks what the original success metric and target were, and whether kill criteria existed",
+        "Names 'more content' as an untested hypothesis and proposes a cheaper test of it before a full quarter",
+        "Puts killing or repositioning the feature on the table as a legitimate option"
+      ]
+    },
+    {
+      "id": "pm-3",
+      "task": "Two features compete for next quarter, one team available. A: Slack notifications — sales cites 6 lost deals mentioning it, support gets ~30 requests/month, est. 6 weeks. B: AI-powered workflow suggestions — CEO is excited, no customer requests yet, est. 10 weeks with ML uncertainty. Walk me through the decision like a PM, numbers included.",
+      "criteria": [
+        "Builds an explicit comparison (RICE or similar) with actual numeric estimates for reach and impact, not adjective-based ranking",
+        "Flags the estimate quality difference: A has demand evidence (deals, tickets), B's reach/impact are invented, and scoring garbage inputs gives garbage rankings",
+        "Handles the CEO-excitement factor explicitly as a stakeholder input rather than silently obeying or ignoring it (e.g. cheap discovery spike for B)",
+        "Accounts for the 6-week vs 10-week effort difference and ML delivery risk in the recommendation",
+        "Ends with a clear recommendation and what evidence would change it"
+      ]
+    }
+  ]
+}
