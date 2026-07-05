@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 70 / 1016 O*NET occupations drafted.**
+**Progress: 75 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (1/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (2/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -211,7 +211,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 17-2112.03 | Manufacturing Engineers |  |
 |  | 17-2121.00 | Marine Engineers and Naval Architects |  |
 |  | 17-2131.00 | Materials Engineers |  |
-|  | 17-2141.00 | Mechanical Engineers |  |
+| ✅ | 17-2141.00 | Mechanical Engineers | [`mechanical-engineer`](./roles/mechanical-engineer/SKILL.md) |
 |  | 17-2141.01 | Fuel Cell Engineers |  |
 |  | 17-2141.02 | Automotive Engineers |  |
 |  | 17-2151.00 | Mining and Geological Engineers, Including Mining Safety Engineers |  |
@@ -323,14 +323,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>21 — Community and Social Service</strong> (0/18 drafted)</summary>
+<summary><strong>21 — Community and Social Service</strong> (1/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 |  | 21-1011.00 | Substance Abuse and Behavioral Disorder Counselors |  |
 |  | 21-1012.00 | Educational, Guidance, and Career Counselors and Advisors |  |
 |  | 21-1013.00 | Marriage and Family Therapists |  |
-|  | 21-1014.00 | Mental Health Counselors |  |
+| ✅ | 21-1014.00 | Mental Health Counselors | [`mental-health-counselor`](./roles/mental-health-counselor/SKILL.md) |
 |  | 21-1015.00 | Rehabilitation Counselors |  |
 |  | 21-1019.00 | Counselors, All Other |  |
 |  | 21-1021.00 | Child, Family, and School Social Workers |  |
@@ -365,7 +365,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (0/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (1/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -411,7 +411,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 25-2021.00 | Elementary School Teachers, Except Special Education |  |
 |  | 25-2022.00 | Middle School Teachers, Except Special and Career/Technical Education |  |
 |  | 25-2023.00 | Career/Technical Education Teachers, Middle School |  |
-|  | 25-2031.00 | Secondary School Teachers, Except Special and Career/Technical Education |  |
+| ✅ | 25-2031.00 | Secondary School Teachers, Except Special and Career/Technical Education | [`high-school-teacher`](./roles/high-school-teacher/SKILL.md) |
 |  | 25-2032.00 | Career/Technical Education Teachers, Secondary School |  |
 |  | 25-2051.00 | Special Education Teachers, Preschool |  |
 |  | 25-2055.00 | Special Education Teachers, Kindergarten |  |
@@ -441,7 +441,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>27 — Arts, Design, Entertainment, Sports, and Media</strong> (0/45 drafted)</summary>
+<summary><strong>27 — Arts, Design, Entertainment, Sports, and Media</strong> (1/45 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -453,7 +453,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 27-1021.00 | Commercial and Industrial Designers |  |
 |  | 27-1022.00 | Fashion Designers |  |
 |  | 27-1023.00 | Floral Designers |  |
-|  | 27-1024.00 | Graphic Designers |  |
+| ✅ | 27-1024.00 | Graphic Designers | [`graphic-designer`](./roles/graphic-designer/SKILL.md) |
 |  | 27-1025.00 | Interior Designers |  |
 |  | 27-1026.00 | Merchandise Displayers and Window Trimmers |  |
 |  | 27-1027.00 | Set and Exhibit Designers |  |
@@ -864,7 +864,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>47 — Construction and Extraction</strong> (0/65 drafted)</summary>
+<summary><strong>47 — Construction and Extraction</strong> (1/65 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -886,7 +886,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 47-2073.00 | Operating Engineers and Other Construction Equipment Operators |  |
 |  | 47-2081.00 | Drywall and Ceiling Tile Installers |  |
 |  | 47-2082.00 | Tapers |  |
-|  | 47-2111.00 | Electricians |  |
+| ✅ | 47-2111.00 | Electricians | [`electrician`](./roles/electrician/SKILL.md) |
 |  | 47-2121.00 | Glaziers |  |
 |  | 47-2131.00 | Insulation Workers, Floor, Ceiling, and Wall |  |
 |  | 47-2132.00 | Insulation Workers, Mechanical |  |
