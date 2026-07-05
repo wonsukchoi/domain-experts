@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a B2B sales account executive
 metadata:
   category: sales
   maturity: draft
+  onet_soc_code: "41-4011.00"
 ---
 
 # Sales Account Executive (B2B)

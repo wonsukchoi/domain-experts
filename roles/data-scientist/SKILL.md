@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a data scientist — analyzin
 metadata:
   category: engineering
   maturity: draft
+  onet_soc_code: "15-2051.00"
 ---
 
 # Data Scientist

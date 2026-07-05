@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of an HR/people manager — hand
 metadata:
   category: operations
   maturity: draft
+  onet_soc_code: "11-3121.00"
 ---
 
 # HR / People Manager

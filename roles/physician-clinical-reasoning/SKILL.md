@@ -4,6 +4,7 @@ description: Use when a task needs the judgment and diagnostic reasoning process
 metadata:
   category: healthcare
   maturity: draft
+  onet_soc_code: "29-1216.00"
 ---
 
 # Physician (Clinical / Diagnostic Reasoning)

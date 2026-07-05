@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of an accountant/financial contr
 metadata:
   category: finance
   maturity: draft
+  onet_soc_code: "13-2011.00"
 ---
 
 # Accountant / Financial Controller

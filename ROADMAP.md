@@ -6,18 +6,18 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 10 / 1016 O*NET occupations drafted.**
+**Progress: 15 / 1016 O*NET occupations drafted.**
 
 <details>
-<summary><strong>11 — Management</strong> (1/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (6/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 11-1011.00 | Chief Executives |  |
-|  | 11-1011.03 | Chief Sustainability Officers |  |
-|  | 11-1021.00 | General and Operations Managers |  |
-|  | 11-1031.00 | Legislators |  |
-|  | 11-2011.00 | Advertising and Promotions Managers |  |
+| ✅ | 11-1011.00 | Chief Executives | [`chief-executive`](./roles/chief-executive/SKILL.md) |
+| ✅ | 11-1011.03 | Chief Sustainability Officers | [`chief-sustainability-officer`](./roles/chief-sustainability-officer/SKILL.md) |
+| ✅ | 11-1021.00 | General and Operations Managers | [`general-operations-manager`](./roles/general-operations-manager/SKILL.md) |
+| ✅ | 11-1031.00 | Legislators | [`legislator`](./roles/legislator/SKILL.md) |
+| ✅ | 11-2011.00 | Advertising and Promotions Managers | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) |
 |  | 11-2021.00 | Marketing Managers |  |
 |  | 11-2022.00 | Sales Managers |  |
 |  | 11-2032.00 | Public Relations Managers |  |

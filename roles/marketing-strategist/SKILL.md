@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a marketing strategist — po
 metadata:
   category: marketing
   maturity: draft
+  onet_soc_code: "13-1161.00"
 ---
 
 # Marketing Strategist

@@ -4,6 +4,7 @@ description: One sentence — when should an agent load this role, and what does
 metadata:
   category: engineering | product | design | finance | legal | marketing | sales | operations | healthcare | other
   maturity: draft | reviewed-by-practitioner | mature
+  onet_soc_code: "XX-XXXX.XX" # optional — the matching O*NET-SOC code from ROADMAP.md, if this role maps to one
 ---
 
 # <Role Name>

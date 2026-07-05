@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a UX/product designer — eva
 metadata:
   category: design
   maturity: draft
+  onet_soc_code: "15-1255.00"
 ---
 
 # UX Designer

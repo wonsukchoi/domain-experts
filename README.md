@@ -35,6 +35,11 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 | Accountant / Financial Controller | [`roles/accountant-controller/SKILL.md`](./roles/accountant-controller/SKILL.md) |
 | Technical Recruiter | [`roles/technical-recruiter/SKILL.md`](./roles/technical-recruiter/SKILL.md) |
 | Physician (Clinical Reasoning) | [`roles/physician-clinical-reasoning/SKILL.md`](./roles/physician-clinical-reasoning/SKILL.md) |
+| Chief Executive (CEO) | [`roles/chief-executive/SKILL.md`](./roles/chief-executive/SKILL.md) |
+| Chief Sustainability Officer | [`roles/chief-sustainability-officer/SKILL.md`](./roles/chief-sustainability-officer/SKILL.md) |
+| General and Operations Manager | [`roles/general-operations-manager/SKILL.md`](./roles/general-operations-manager/SKILL.md) |
+| Legislator | [`roles/legislator/SKILL.md`](./roles/legislator/SKILL.md) |
+| Advertising and Promotions Manager | [`roles/advertising-promotions-manager/SKILL.md`](./roles/advertising-promotions-manager/SKILL.md) |
 
 ## Using a role with an agent
 

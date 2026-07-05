@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a contracts/commercial lawyer
 metadata:
   category: legal
   maturity: draft
+  onet_soc_code: "23-1011.00"
 ---
 
 # Lawyer (Contracts / Commercial)

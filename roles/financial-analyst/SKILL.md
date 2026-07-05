@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a corporate/investment financ
 metadata:
   category: finance
   maturity: draft
+  onet_soc_code: "13-2051.00"
 ---
 
 # Financial Analyst

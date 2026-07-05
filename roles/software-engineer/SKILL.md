@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a senior backend software eng
 metadata:
   category: engineering
   maturity: draft
+  onet_soc_code: "15-1252.00"
 ---
 
 # Software Engineer (Backend, Senior)
