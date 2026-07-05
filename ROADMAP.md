@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 30 / 1016 O*NET occupations drafted.**
+**Progress: 35 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (21/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (26/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -35,11 +35,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-3051.01 | Quality Control Systems Managers | [`quality-control-systems-manager`](./roles/quality-control-systems-manager/SKILL.md) |
 | ✅ | 11-3051.02 | Geothermal Production Managers | [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) |
 | ✅ | 11-3051.03 | Biofuels Production Managers | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) |
-|  | 11-3051.04 | Biomass Power Plant Managers |  |
-|  | 11-3051.06 | Hydroelectric Production Managers |  |
-|  | 11-3061.00 | Purchasing Managers |  |
-|  | 11-3071.00 | Transportation, Storage, and Distribution Managers |  |
-|  | 11-3071.04 | Supply Chain Managers |  |
+| ✅ | 11-3051.04 | Biomass Power Plant Managers | [`biomass-power-plant-manager`](./roles/biomass-power-plant-manager/SKILL.md) |
+| ✅ | 11-3051.06 | Hydroelectric Production Managers | [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) |
+| ✅ | 11-3061.00 | Purchasing Managers | [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) |
+| ✅ | 11-3071.00 | Transportation, Storage, and Distribution Managers | [`transportation-storage-distribution-manager`](./roles/transportation-storage-distribution-manager/SKILL.md) |
+| ✅ | 11-3071.04 | Supply Chain Managers | [`supply-chain-manager`](./roles/supply-chain-manager/SKILL.md) |
 |  | 11-3111.00 | Compensation and Benefits Managers |  |
 | ✅ | 11-3121.00 | Human Resources Managers | [`hr-people-manager`](./roles/hr-people-manager/SKILL.md) |
 |  | 11-3131.00 | Training and Development Managers |  |
