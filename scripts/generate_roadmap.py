@@ -72,11 +72,34 @@ def parse_frontmatter(text):
 
 
 def load_roles():
+    # Count only roles git knows about (tracked or staged). Untracked
+    # in-progress role dirs would bake counts into README/ROADMAP that a
+    # clean checkout can't reproduce, failing the CI regeneration check.
+    # `git add` a new role before running this script.
+    import subprocess
+    try:
+        out = subprocess.run(
+            ["git", "ls-files", "roles/*/SKILL.md"],
+            cwd=REPO_ROOT, capture_output=True, text=True, check=True,
+        ).stdout
+        known = {REPO_ROOT / line for line in out.splitlines() if line}
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        known = None  # not a git checkout — fall back to filesystem
+
     roles = {}
+    skipped = []
     for skill_file in sorted(ROLES_DIR.glob("*/SKILL.md")):
+        if known is not None and skill_file not in known:
+            skipped.append(skill_file.parent.name)
+            continue
         slug = skill_file.parent.name
         fm = parse_frontmatter(skill_file.read_text(encoding="utf-8"))
         roles[slug] = fm
+    if skipped:
+        print(
+            "NOTE: skipped untracked role dirs (git add them first): "
+            + ", ".join(skipped)
+        )
     return roles
 
 
