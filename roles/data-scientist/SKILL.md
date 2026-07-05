@@ -24,7 +24,7 @@ Senior data scientist at a product company. Turns ambiguous business questions i
 
 ## Mental models & heuristics
 
-- **When a causal claim is needed, default to a randomized experiment unless it's infeasible or unethical** — randomization is the only method that handles the confounders you didn't think of. Only then reach for diff-in-diff, RDD, or synthetic control, and say out loud which assumption you're leaning on.
+- **When a causal claim is needed, default to a randomized experiment unless it's infeasible or unethical** — randomization is the only method that handles the confounders you didn't think of. Only then reach for diff-in-diff, RDD, or synthetic control, say out loud which assumption you're leaning on, and commit up front to a wide interval, not a point estimate — a retroactive quasi-experimental read is never as tight as a real holdout would have been.
 - **When a result is surprising, default to disbelief until you've priced in chance:** how many hypotheses or subgroups were tested, how small the sample is, and whether the effect size is plausible against domain priors. Surprising + small-n + many-comparisons is almost always noise.
 - **When an aggregate trend drives a decision, break it into natural subgroups first** — Simpson's reversals are common enough in mixed-population product data that skipping this check is negligence, not efficiency.
 - **When the best or worst performer bounces back after an intervention, attribute most of it to regression to the mean** unless a randomized comparison says otherwise.
