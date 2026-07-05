@@ -169,7 +169,13 @@ function cmdAdd(slug, opts) {
   fs.mkdirSync(targetDir, { recursive: true });
   const targetFile = path.join(targetDir, "SKILL.md");
   fs.copyFileSync(role.file, targetFile);
-  console.log(`Installed ${slug} -> ${targetFile}`);
+  let installed = "SKILL.md";
+  const refsDir = path.join(path.dirname(role.file), "references");
+  if (fs.existsSync(refsDir)) {
+    fs.cpSync(refsDir, path.join(targetDir, "references"), { recursive: true });
+    installed += ` + references/ (${fs.readdirSync(refsDir).length} files)`;
+  }
+  console.log(`Installed ${slug} (${installed}) -> ${targetDir}`);
 }
 
 function parseArgs(argv) {
@@ -196,7 +202,7 @@ Usage:
   domain-experts list                 List all available roles
   domain-experts search <query>       Search roles by slug/description/category
   domain-experts match "<job/task>" [--json]  Best-guess role match for a natural-language ask
-  domain-experts add <slug> [--to dir]  Copy a role's SKILL.md into <dir> (default: .claude/skills/<slug>/)
+  domain-experts add <slug> [--to dir]  Copy a role (SKILL.md + references/) into <dir> (default: .claude/skills/<slug>/)
 
 Repo: https://github.com/wonsukchoi/domain-experts`);
 }
