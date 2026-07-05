@@ -30,6 +30,11 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 | Sales Account Executive (B2B) | [`roles/sales-account-executive/SKILL.md`](./roles/sales-account-executive/SKILL.md) |
 | Data Scientist | [`roles/data-scientist/SKILL.md`](./roles/data-scientist/SKILL.md) |
 | HR / People Manager | [`roles/hr-people-manager/SKILL.md`](./roles/hr-people-manager/SKILL.md) |
+| DevOps / Site Reliability Engineer | [`roles/devops-sre/SKILL.md`](./roles/devops-sre/SKILL.md) |
+| Customer Success Manager | [`roles/customer-success-manager/SKILL.md`](./roles/customer-success-manager/SKILL.md) |
+| Accountant / Financial Controller | [`roles/accountant-controller/SKILL.md`](./roles/accountant-controller/SKILL.md) |
+| Technical Recruiter | [`roles/technical-recruiter/SKILL.md`](./roles/technical-recruiter/SKILL.md) |
+| Physician (Clinical Reasoning) | [`roles/physician-clinical-reasoning/SKILL.md`](./roles/physician-clinical-reasoning/SKILL.md) |
 
 ## Using a role with an agent
 

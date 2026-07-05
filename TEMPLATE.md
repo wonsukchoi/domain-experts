@@ -2,7 +2,7 @@
 name: role-slug-here
 description: One sentence — when should an agent load this role, and what does it let the agent do? Be specific, this is what harnesses match against.
 metadata:
-  category: engineering | product | design | finance | legal | marketing | operations | other
+  category: engineering | product | design | finance | legal | marketing | sales | operations | healthcare | other
   maturity: draft | reviewed-by-practitioner | mature
 ---
 
