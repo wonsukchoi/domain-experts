@@ -97,9 +97,39 @@ git add -A
 
 **Definition of done:** lint 0 errors · roadmap regenerated · rubric >=14 declared · sources named · (regulated only) disclaimer present.
 
+## Exact recipe for upgrading a legacy role to spec 2 (follow verbatim)
+
+Roles drafted before spec 2 lack the `references/` trio (including `vocabulary.md`) and the ten-section SKILL.md structure. The standing TODO is the **"Spec-2 upgrade queue"** section of `ROADMAP.md` (auto-generated — never hand-edit). Written so an AI assistant can execute it without judgment calls.
+
+**Step 0 — pick and verify:**
+```sh
+grep -A2 'Spec-2 upgrade queue' ROADMAP.md    # pick the top entry, or any slug from the queue table
+grep 'spec:' roles/<slug>/SKILL.md            # must be missing or 1 — if 2, it's already done, pick another
+```
+
+**Step 1 — read the existing `roles/<slug>/SKILL.md` in full.** It is source material, not the deliverable. Keep every correct heuristic, number, and framework; the upgrade is a restructure-and-deepen, not a from-scratch rewrite. Where the old content is generic ("responsible for…"), replace it per the AUTHORING.md pipeline (research → draft → adversarial critique → revise → score) — don't carry generic text forward.
+
+**Step 2 — create the `references/` trio** using the exact per-entry formats from Step 4 of the add recipe above: `red-flags.md` (7-14 entries), `vocabulary.md` (8-17 misuse-aware terms), and `playbook.md` OR `artifacts.md`. Deep detail currently bloating SKILL.md moves here.
+
+**Step 3 — restructure SKILL.md** to the ten `## ` sections in TEMPLATE.md order, per Steps 2-3 of the add recipe: update frontmatter to `spec: 2` (keep existing `onet_soc_code` and `category`), enforce the dedup rule, banned-word list, and heuristic form. Add the Going deeper section with relative links to each references/ file. Keep `maturity` as-is unless a practitioner reviewed the upgrade.
+
+**Step 4 — validate and register, in THIS order:**
+```sh
+git add roles/<slug>
+python3 scripts/lint_roles.py <slug>       # repeat until "0 errors"
+python3 scripts/generate_roadmap.py        # role drops off the upgrade queue automatically
+git add -A
+```
+
+**Step 5 — self-score** against the AUTHORING.md rubric; same ship bar as new roles (>=14/18, no zeros).
+
+**Step 6 — commit** as `role: upgrade <role name> to spec 2`, then `git pull --rebase --autostash` before pushing (parallel sessions may be writing to `main`).
+
+**Definition of done:** lint 0 errors · role gone from the upgrade queue after regeneration · rubric >=14 declared · no correct legacy content lost.
+
 ## Improving an existing role
 
-Same spec. Highest-value improvements, in order: practitioner corrections to wrong/outdated heuristics, deepening a worked example with real numbers, adding missing red-flag thresholds, upgrading pre-`references/` roles to the current layout.
+Same spec. Highest-value improvements, in order: practitioner corrections to wrong/outdated heuristics, deepening a worked example with real numbers, adding missing red-flag thresholds, upgrading legacy roles to spec 2 (see the upgrade recipe above — the queue lives in `ROADMAP.md`).
 
 ## Practitioner review
 

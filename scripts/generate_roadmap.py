@@ -157,6 +157,10 @@ def main():
         else:
             unmapped_slugs.append(slug)
 
+    legacy_slugs = sorted(
+        slug for slug, fm in roles.items() if fm.get("spec", 1) != 2
+    )
+
     by_major = {}
     for code, title in onet_rows:
         by_major.setdefault(code[:2], []).append((code, title))
@@ -180,9 +184,16 @@ def main():
         "bottom)."
     )
     lines.append("")
-    lines.append("**Status legend:** ✅ drafted in this repo · *(blank)* not started")
+    lines.append(
+        "**Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting "
+        "spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · "
+        "*(blank)* not started"
+    )
     lines.append("")
-    lines.append(f"**Progress: {len(drafted)} / {len(onet_rows)} O*NET occupations drafted.**")
+    lines.append(
+        f"**Progress: {len(drafted)} / {len(onet_rows)} O*NET occupations drafted"
+        f" · {len(legacy_slugs)} drafted roles awaiting spec-2 upgrade.**"
+    )
     lines.append("")
     lines.append("<!-- CHECKLIST START -->")
     lines.append("")
@@ -200,7 +211,10 @@ def main():
         lines.append("|---|---|---|---|")
         for code, title in occs:
             slug = drafted.get(code)
-            status = "✅" if slug else ""
+            if slug:
+                status = "✅" if roles[slug].get("spec", 1) == 2 else "♻️"
+            else:
+                status = ""
             link = f"[`{slug}`](./roles/{slug}/SKILL.md)" if slug else ""
             lines.append(f"| {status} | {code} | {title} | {link} |")
         lines.append("")
@@ -208,6 +222,30 @@ def main():
         lines.append("")
 
     lines.append("<!-- CHECKLIST END -->")
+    lines.append("")
+    lines.append("## Spec-2 upgrade queue")
+    lines.append("")
+    lines.append(
+        "Roles drafted before the current spec — they lack the `references/` "
+        "trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 "
+        "SKILL.md structure. This queue is the standing TODO for upgrade "
+        "sessions: pick the top unclaimed entry and follow the \"Exact recipe "
+        "for upgrading a legacy role to spec 2\" in "
+        "[CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list "
+        "automatically once its frontmatter says `spec: 2` and this script "
+        "is re-run."
+    )
+    lines.append("")
+    if legacy_slugs:
+        lines.append(f"**{len(legacy_slugs)} roles awaiting upgrade:**")
+        lines.append("")
+        lines.append("| Repo role | Category |")
+        lines.append("|---|---|")
+        for slug in legacy_slugs:
+            cat = roles[slug].get("category", "")
+            lines.append(f"| [`{slug}`](./roles/{slug}/SKILL.md) | {cat} |")
+    else:
+        lines.append("**Queue empty — every drafted role is at spec 2.** 🎉")
     lines.append("")
     lines.append("## Roles outside this list")
     lines.append("")
@@ -245,7 +283,7 @@ def main():
 
     block = []
     block.append("<!-- ROLE_COUNTS_START -->")
-    block.append(f"**{len(roles)} roles drafted** ({len(drafted)} mapped to an O*NET occupation, {len(unmapped_slugs)} custom), across {len(cat_counts)} categories:")
+    block.append(f"**{len(roles)} roles drafted** ({len(drafted)} mapped to an O*NET occupation, {len(unmapped_slugs)} custom; {len(roles) - len(legacy_slugs)} at spec 2, {len(legacy_slugs)} awaiting upgrade), across {len(cat_counts)} categories:")
     block.append("")
     for cat in sorted(cat_counts):
         block.append(f"- **{cat}**: {cat_counts[cat]}")
@@ -267,7 +305,8 @@ def main():
         )
     README_MD.write_text(readme_text, encoding="utf-8")
 
-    print(f"Wrote ROADMAP.md: {len(drafted)}/{len(onet_rows)} drafted.")
+    print(f"Wrote ROADMAP.md: {len(drafted)}/{len(onet_rows)} drafted, "
+          f"{len(legacy_slugs)} in spec-2 upgrade queue.")
     print(f"Updated README.md role-count block: {len(roles)} total roles.")
     if unmapped_slugs:
         undocumented = [s for s in unmapped_slugs if s not in UNMAPPED_NOTES]

@@ -17,7 +17,8 @@ This repo turns human job roles into agent-loadable skill files. If you're an AI
 3. Never hand-edit the auto-generated blocks in ROADMAP.md or README.md (between START/END markers) or `data/roles.json`.
 4. Don't invent numbers in role content. Specific thresholds trace to a named source or are labeled as stated heuristics.
 5. Regulated roles (law, medicine, financial advice, tax, safety) carry the disclaimer blockquote — see `roles/lawyer-contracts/SKILL.md`.
-6. Commit messages: `role: add <name>` / `role: improve <name> — <what>` for role work; plain imperative for infra.
+6. Commit messages: `role: add <name>` / `role: improve <name> — <what>` / `role: upgrade <name> to spec 2` for role work; plain imperative for infra.
+7. Legacy (spec-1) roles are tracked in ROADMAP.md's auto-generated "Spec-2 upgrade queue". Upgrading one = CONTRIBUTING.md's "Exact recipe for upgrading a legacy role to spec 2" — restructure + references/ trio (incl. vocabulary.md), never a lossy rewrite.
 
 ## Release (npm)
 

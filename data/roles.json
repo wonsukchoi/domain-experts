@@ -1,5 +1,5 @@
 {
-  "count": 69,
+  "count": 79,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -90,6 +90,20 @@
       "references": []
     },
     {
+      "slug": "bookkeeping-accounting-clerk",
+      "description": "Use when a task needs the judgment of a Bookkeeping, Accounting, and Auditing Clerk \u2014 reconciling a bank or credit card account, resolving an AP three-way-match discrepancy before payment, coding an expense to the correct account and department, tracing a general ledger discrepancy to root cause, or running a month-end close checklist.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-3031.00",
+      "skill": "roles/bookkeeping-accounting-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "chief-executive",
       "description": "Use when a task needs the judgment of a CEO/chief executive \u2014 setting company strategy, allocating scarce resources (capital, headcount, attention) across competing priorities, making a call that only the top of the org can make, or communicating direction to the board, investors, or the whole company.",
       "category": "operations",
@@ -108,6 +122,20 @@
       "onet_soc_code": "11-1011.03",
       "skill": "roles/chief-sustainability-officer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "civil-engineer",
+      "description": "Use when a task needs the judgment of a Civil Engineer \u2014 sizing stormwater detention/drainage systems, checking foundation bearing capacity against a geotechnical report, verifying IBC/ASCE 7 code compliance for site civil work, reviewing construction RFIs against stamped drawings, or evaluating value-engineering changes for safety-margin impact.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2051.00",
+      "skill": "roles/civil-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "clinical-research-coordinator",
@@ -270,6 +298,20 @@
       "references": []
     },
     {
+      "slug": "electrician",
+      "description": "Use when a task needs the judgment of an Electrician \u2014 sizing a service panel upgrade with an NEC load calculation, troubleshooting a tripping breaker or dead circuit systematically, checking wire gauge/ampacity and voltage drop for a circuit run, resolving a code-vs-inspector interpretation dispute, or deciding when a job (aluminum wiring, knob-and-tube, undersized service) exceeds the immediate scope.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2111.00",
+      "skill": "roles/electrician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "emergency-management-director",
       "description": "Use when a task needs the judgment of an Emergency Management Director \u2014 activating and staffing an EOC for a developing hazard, sequencing a disaster declaration and FEMA Public Assistance/Individual Assistance request, sizing shelter and resource needs against real population and capacity numbers, designing or critiquing a tabletop exercise, or writing an after-action report and improvement plan.",
       "category": "operations",
@@ -332,6 +374,20 @@
       ]
     },
     {
+      "slug": "firefighter",
+      "description": "Use when a task needs the judgment of a Firefighter \u2014 sizing up a structure fire on arrival and calling offensive/defensive/transitional strategy, sequencing search-and-rescue against fire attack, budgeting SCBA air for an interior task, coordinating ventilation timing with an attack line, or handling a mayday/firefighter-down declaration.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-2011.00",
+      "skill": "roles/firefighter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "food-service-manager",
       "description": "Use when a task needs the judgment of a Food Service Manager \u2014 pricing a menu against food cost targets, managing labor scheduling against sales forecasts, diagnosing a food cost or waste variance, handling a health-inspection or food-safety issue, or deciding whether to 86 an item or adjust a supplier.",
       "category": "operations",
@@ -388,6 +444,34 @@
       "onet_soc_code": "11-3051.02",
       "skill": "roles/geothermal-production-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "graphic-designer",
+      "description": "Use when a task needs the judgment of a Graphic Designer \u2014 designing or critiquing a logo/brand identity system, writing brand guidelines that others will apply, choosing a typographic scale and pairing, evaluating a color palette for legibility and contrast (not just aesthetics), or preparing a print or digital production file (CMYK build, bleed, resolution).",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1024.00",
+      "skill": "roles/graphic-designer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "high-school-teacher",
+      "description": "Use when a task needs the judgment of a Secondary School Teacher \u2014 backward-designing a unit from a standard, distinguishing formative from summative assessment design, differentiating instruction for a mixed-ability classroom, running a classroom behavior escalation ladder, or defending a grade against a parent dispute with rubric-anchored evidence.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2031.00",
+      "skill": "roles/high-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "hr-people-manager",
@@ -549,6 +633,20 @@
       ]
     },
     {
+      "slug": "mechanical-engineer",
+      "description": "Use when a task needs the judgment of a Mechanical Engineer \u2014 interpreting FEA stress results for fatigue vs. yield risk, selecting a factor of safety by load-case criticality, choosing between materials on strength-to-weight and manufacturability tradeoffs, running a tolerance stack-up on an assembly, or reviewing a CAD design for manufacturability before release to production.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2141.00",
+      "skill": "roles/mechanical-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "medical-health-services-manager",
       "description": "Use when a task needs the judgment of a Medical and Health Services Manager (practice manager, clinical department administrator, hospital unit manager) \u2014 managing clinical staffing against patient volume, evaluating a billing/reimbursement or denial-rate problem, handling a patient safety or compliance incident, or balancing quality metrics against cost pressure. Distinct from a physician's clinical-reasoning role \u2014 this one manages the operational and administrative system clinicians work within.",
       "category": "healthcare",
@@ -577,6 +675,20 @@
       ]
     },
     {
+      "slug": "mental-health-counselor",
+      "description": "Use when a task needs the judgment of a Mental Health Counselor \u2014 running a suicide risk assessment and safety plan, choosing between CBT/DBT/MI for a presenting problem, deciding whether a case needs a level-of-care step-up (IOP/inpatient) or a psychiatry referral, writing a defensible progress note, or navigating a duty-to-warn situation.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1014.00",
+      "skill": "roles/mental-health-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "natural-sciences-manager",
       "description": "Use when a task needs the judgment of a Natural Sciences Manager (R&D lab director, science department head) \u2014 allocating research budget/headcount across competing projects, deciding whether to kill or continue a research program, evaluating a grant/publication strategy tradeoff, or managing the tension between scientific rigor and delivery deadlines.",
       "category": "engineering",
@@ -599,6 +711,20 @@
       "onet_soc_code": "29-1216.00",
       "skill": "roles/physician-clinical-reasoning/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "police-patrol-officer",
+      "description": "Use when a task needs the judgment of a Police and Sheriff's Patrol Officer \u2014 deciding whether force is objectively reasonable under Graham v. Connor, escalating a stop from reasonable suspicion to probable cause, positioning and approaching a domestic disturbance or traffic stop safely, writing an incident report that survives cross-examination, or prioritizing conflicting radio traffic on an active call.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-3051.00",
+      "skill": "roles/police-patrol-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "postmaster-mail-superintendent",
@@ -671,6 +797,20 @@
       "onet_soc_code": "11-3051.01",
       "skill": "roles/quality-control-systems-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "registered-nurse",
+      "description": "Use when a task needs the judgment of a Registered Nurse \u2014 recognizing early clinical deterioration from vital-sign trends, prioritizing a multi-patient assignment by acuity, escalating a change in patient condition to a physician (SBAR), applying medication-safety checks under time pressure, or delegating tasks to techs/CNAs within their scope.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1141.00",
+      "skill": "roles/registered-nurse/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "sales-account-executive",

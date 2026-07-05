@@ -4,9 +4,9 @@ Master backlog of human expert roles to eventually cover in this repo, sourced f
 
 This is the checklist, not a commitment — it exists so contributors can see what's uncovered and claim a role via PR instead of duplicating effort or guessing what's missing. O*NET is US-centric and salaried-employment-framed; it's a strong systematic backbone but not the only valid source of roles (see "Roles outside this list" at the bottom).
 
-**Status legend:** ✅ drafted in this repo · *(blank)* not started
+**Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 75 / 1016 O*NET occupations drafted.**
+**Progress: 75 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -15,40 +15,40 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-| ✅ | 11-1011.00 | Chief Executives | [`chief-executive`](./roles/chief-executive/SKILL.md) |
-| ✅ | 11-1011.03 | Chief Sustainability Officers | [`chief-sustainability-officer`](./roles/chief-sustainability-officer/SKILL.md) |
-| ✅ | 11-1021.00 | General and Operations Managers | [`general-operations-manager`](./roles/general-operations-manager/SKILL.md) |
-| ✅ | 11-1031.00 | Legislators | [`legislator`](./roles/legislator/SKILL.md) |
-| ✅ | 11-2011.00 | Advertising and Promotions Managers | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) |
-| ✅ | 11-2021.00 | Marketing Managers | [`marketing-manager`](./roles/marketing-manager/SKILL.md) |
-| ✅ | 11-2022.00 | Sales Managers | [`sales-manager`](./roles/sales-manager/SKILL.md) |
-| ✅ | 11-2032.00 | Public Relations Managers | [`public-relations-manager`](./roles/public-relations-manager/SKILL.md) |
-| ✅ | 11-2033.00 | Fundraising Managers | [`fundraising-manager`](./roles/fundraising-manager/SKILL.md) |
-| ✅ | 11-3012.00 | Administrative Services Managers | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) |
-| ✅ | 11-3013.00 | Facilities Managers | [`facilities-manager`](./roles/facilities-manager/SKILL.md) |
-| ✅ | 11-3013.01 | Security Managers | [`security-manager`](./roles/security-manager/SKILL.md) |
-| ✅ | 11-3021.00 | Computer and Information Systems Managers | [`computer-information-systems-manager`](./roles/computer-information-systems-manager/SKILL.md) |
+| ♻️ | 11-1011.00 | Chief Executives | [`chief-executive`](./roles/chief-executive/SKILL.md) |
+| ♻️ | 11-1011.03 | Chief Sustainability Officers | [`chief-sustainability-officer`](./roles/chief-sustainability-officer/SKILL.md) |
+| ♻️ | 11-1021.00 | General and Operations Managers | [`general-operations-manager`](./roles/general-operations-manager/SKILL.md) |
+| ♻️ | 11-1031.00 | Legislators | [`legislator`](./roles/legislator/SKILL.md) |
+| ♻️ | 11-2011.00 | Advertising and Promotions Managers | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) |
+| ♻️ | 11-2021.00 | Marketing Managers | [`marketing-manager`](./roles/marketing-manager/SKILL.md) |
+| ♻️ | 11-2022.00 | Sales Managers | [`sales-manager`](./roles/sales-manager/SKILL.md) |
+| ♻️ | 11-2032.00 | Public Relations Managers | [`public-relations-manager`](./roles/public-relations-manager/SKILL.md) |
+| ♻️ | 11-2033.00 | Fundraising Managers | [`fundraising-manager`](./roles/fundraising-manager/SKILL.md) |
+| ♻️ | 11-3012.00 | Administrative Services Managers | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) |
+| ♻️ | 11-3013.00 | Facilities Managers | [`facilities-manager`](./roles/facilities-manager/SKILL.md) |
+| ♻️ | 11-3013.01 | Security Managers | [`security-manager`](./roles/security-manager/SKILL.md) |
+| ♻️ | 11-3021.00 | Computer and Information Systems Managers | [`computer-information-systems-manager`](./roles/computer-information-systems-manager/SKILL.md) |
 | ✅ | 11-3031.00 | Financial Managers | [`financial-manager`](./roles/financial-manager/SKILL.md) |
-| ✅ | 11-3031.01 | Treasurers and Controllers | [`treasurer-controller`](./roles/treasurer-controller/SKILL.md) |
-| ✅ | 11-3031.03 | Investment Fund Managers | [`investment-fund-manager`](./roles/investment-fund-manager/SKILL.md) |
-| ✅ | 11-3051.00 | Industrial Production Managers | [`industrial-production-manager`](./roles/industrial-production-manager/SKILL.md) |
-| ✅ | 11-3051.01 | Quality Control Systems Managers | [`quality-control-systems-manager`](./roles/quality-control-systems-manager/SKILL.md) |
-| ✅ | 11-3051.02 | Geothermal Production Managers | [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) |
-| ✅ | 11-3051.03 | Biofuels Production Managers | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) |
-| ✅ | 11-3051.04 | Biomass Power Plant Managers | [`biomass-power-plant-manager`](./roles/biomass-power-plant-manager/SKILL.md) |
-| ✅ | 11-3051.06 | Hydroelectric Production Managers | [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) |
-| ✅ | 11-3061.00 | Purchasing Managers | [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) |
-| ✅ | 11-3071.00 | Transportation, Storage, and Distribution Managers | [`transportation-storage-distribution-manager`](./roles/transportation-storage-distribution-manager/SKILL.md) |
-| ✅ | 11-3071.04 | Supply Chain Managers | [`supply-chain-manager`](./roles/supply-chain-manager/SKILL.md) |
-| ✅ | 11-3111.00 | Compensation and Benefits Managers | [`compensation-benefits-manager`](./roles/compensation-benefits-manager/SKILL.md) |
-| ✅ | 11-3121.00 | Human Resources Managers | [`hr-people-manager`](./roles/hr-people-manager/SKILL.md) |
-| ✅ | 11-3131.00 | Training and Development Managers | [`training-development-manager`](./roles/training-development-manager/SKILL.md) |
-| ✅ | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) |
-| ✅ | 11-9021.00 | Construction Managers | [`construction-manager`](./roles/construction-manager/SKILL.md) |
-| ✅ | 11-9031.00 | Education and Childcare Administrators, Preschool and Daycare | [`education-childcare-administrator-preschool`](./roles/education-childcare-administrator-preschool/SKILL.md) |
-| ✅ | 11-9032.00 | Education Administrators, Kindergarten through Secondary | [`education-administrator-k12`](./roles/education-administrator-k12/SKILL.md) |
-| ✅ | 11-9033.00 | Education Administrators, Postsecondary | [`education-administrator-postsecondary`](./roles/education-administrator-postsecondary/SKILL.md) |
-| ✅ | 11-9039.00 | Education Administrators, All Other | [`education-administrator-other`](./roles/education-administrator-other/SKILL.md) |
+| ♻️ | 11-3031.01 | Treasurers and Controllers | [`treasurer-controller`](./roles/treasurer-controller/SKILL.md) |
+| ♻️ | 11-3031.03 | Investment Fund Managers | [`investment-fund-manager`](./roles/investment-fund-manager/SKILL.md) |
+| ♻️ | 11-3051.00 | Industrial Production Managers | [`industrial-production-manager`](./roles/industrial-production-manager/SKILL.md) |
+| ♻️ | 11-3051.01 | Quality Control Systems Managers | [`quality-control-systems-manager`](./roles/quality-control-systems-manager/SKILL.md) |
+| ♻️ | 11-3051.02 | Geothermal Production Managers | [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) |
+| ♻️ | 11-3051.03 | Biofuels Production Managers | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) |
+| ♻️ | 11-3051.04 | Biomass Power Plant Managers | [`biomass-power-plant-manager`](./roles/biomass-power-plant-manager/SKILL.md) |
+| ♻️ | 11-3051.06 | Hydroelectric Production Managers | [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) |
+| ♻️ | 11-3061.00 | Purchasing Managers | [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) |
+| ♻️ | 11-3071.00 | Transportation, Storage, and Distribution Managers | [`transportation-storage-distribution-manager`](./roles/transportation-storage-distribution-manager/SKILL.md) |
+| ♻️ | 11-3071.04 | Supply Chain Managers | [`supply-chain-manager`](./roles/supply-chain-manager/SKILL.md) |
+| ♻️ | 11-3111.00 | Compensation and Benefits Managers | [`compensation-benefits-manager`](./roles/compensation-benefits-manager/SKILL.md) |
+| ♻️ | 11-3121.00 | Human Resources Managers | [`hr-people-manager`](./roles/hr-people-manager/SKILL.md) |
+| ♻️ | 11-3131.00 | Training and Development Managers | [`training-development-manager`](./roles/training-development-manager/SKILL.md) |
+| ♻️ | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) |
+| ♻️ | 11-9021.00 | Construction Managers | [`construction-manager`](./roles/construction-manager/SKILL.md) |
+| ♻️ | 11-9031.00 | Education and Childcare Administrators, Preschool and Daycare | [`education-childcare-administrator-preschool`](./roles/education-childcare-administrator-preschool/SKILL.md) |
+| ♻️ | 11-9032.00 | Education Administrators, Kindergarten through Secondary | [`education-administrator-k12`](./roles/education-administrator-k12/SKILL.md) |
+| ♻️ | 11-9033.00 | Education Administrators, Postsecondary | [`education-administrator-postsecondary`](./roles/education-administrator-postsecondary/SKILL.md) |
+| ♻️ | 11-9039.00 | Education Administrators, All Other | [`education-administrator-other`](./roles/education-administrator-other/SKILL.md) |
 | ✅ | 11-9041.00 | Architectural and Engineering Managers | [`architectural-engineering-manager`](./roles/architectural-engineering-manager/SKILL.md) |
 | ✅ | 11-9041.01 | Biofuels/Biodiesel Technology and Product Development Managers | [`biofuels-biodiesel-technology-manager`](./roles/biofuels-biodiesel-technology-manager/SKILL.md) |
 | ✅ | 11-9051.00 | Food Service Managers | [`food-service-manager`](./roles/food-service-manager/SKILL.md) |
@@ -115,12 +115,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-1199.05 | Sustainability Specialists |  |
 |  | 13-1199.06 | Online Merchants |  |
 |  | 13-1199.07 | Security Management Specialists |  |
-| ✅ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
+| ♻️ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
 |  | 13-2022.00 | Appraisers of Personal and Business Property |  |
 |  | 13-2023.00 | Appraisers and Assessors of Real Estate |  |
 |  | 13-2031.00 | Budget Analysts |  |
 |  | 13-2041.00 | Credit Analysts |  |
-| ✅ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
+| ♻️ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
 |  | 13-2052.00 | Personal Financial Advisors |  |
 | ✅ | 13-2053.00 | Insurance Underwriters | [`insurance-underwriter`](./roles/insurance-underwriter/SKILL.md) |
 |  | 13-2054.00 | Financial Risk Specialists |  |
@@ -153,10 +153,10 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 15-1243.01 | Data Warehousing Specialists |  |
 |  | 15-1244.00 | Network and Computer Systems Administrators |  |
 |  | 15-1251.00 | Computer Programmers |  |
-| ✅ | 15-1252.00 | Software Developers | [`software-engineer`](./roles/software-engineer/SKILL.md) |
+| ♻️ | 15-1252.00 | Software Developers | [`software-engineer`](./roles/software-engineer/SKILL.md) |
 |  | 15-1253.00 | Software Quality Assurance Analysts and Testers |  |
 |  | 15-1254.00 | Web Developers |  |
-| ✅ | 15-1255.00 | Web and Digital Interface Designers | [`ux-designer`](./roles/ux-designer/SKILL.md) |
+| ♻️ | 15-1255.00 | Web and Digital Interface Designers | [`ux-designer`](./roles/ux-designer/SKILL.md) |
 |  | 15-1255.01 | Video Game Designers |  |
 |  | 15-1299.00 | Computer Occupations, All Other |  |
 |  | 15-1299.01 | Web Administrators |  |
@@ -195,7 +195,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 17-2021.00 | Agricultural Engineers |  |
 |  | 17-2031.00 | Bioengineers and Biomedical Engineers |  |
 |  | 17-2041.00 | Chemical Engineers |  |
-|  | 17-2051.00 | Civil Engineers |  |
+| ✅ | 17-2051.00 | Civil Engineers | [`civil-engineer`](./roles/civil-engineer/SKILL.md) |
 |  | 17-2051.01 | Transportation Engineers |  |
 |  | 17-2051.02 | Water/Wastewater Engineers |  |
 |  | 17-2061.00 | Computer Hardware Engineers |  |
@@ -522,7 +522,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 29-1129.01 | Art Therapists |  |
 |  | 29-1129.02 | Music Therapists |  |
 |  | 29-1131.00 | Veterinarians |  |
-|  | 29-1141.00 | Registered Nurses |  |
+| ✅ | 29-1141.00 | Registered Nurses | [`registered-nurse`](./roles/registered-nurse/SKILL.md) |
 |  | 29-1141.01 | Acute Care Nurses |  |
 |  | 29-1141.02 | Advanced Practice Psychiatric Nurses |  |
 |  | 29-1141.03 | Critical Care Nurses |  |
@@ -536,7 +536,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 29-1213.00 | Dermatologists |  |
 |  | 29-1214.00 | Emergency Medicine Physicians |  |
 |  | 29-1215.00 | Family Medicine Physicians |  |
-| ✅ | 29-1216.00 | General Internal Medicine Physicians | [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) |
+| ♻️ | 29-1216.00 | General Internal Medicine Physicians | [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) |
 |  | 29-1217.00 | Neurologists |  |
 |  | 29-1218.00 | Obstetricians and Gynecologists |  |
 |  | 29-1221.00 | Pediatricians, General |  |
@@ -635,7 +635,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 33-1021.00 | First-Line Supervisors of Firefighting and Prevention Workers |  |
 |  | 33-1091.00 | First-Line Supervisors of Security Workers |  |
 |  | 33-1099.00 | First-Line Supervisors of Protective Service Workers, All Other |  |
-|  | 33-2011.00 | Firefighters |  |
+| ✅ | 33-2011.00 | Firefighters | [`firefighter`](./roles/firefighter/SKILL.md) |
 |  | 33-2021.00 | Fire Inspectors and Investigators |  |
 |  | 33-2022.00 | Forest Fire Inspectors and Prevention Specialists |  |
 |  | 33-3011.00 | Bailiffs |  |
@@ -764,7 +764,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 41-3031.00 | Securities, Commodities, and Financial Services Sales Agents |  |
 |  | 41-3041.00 | Travel Agents |  |
 |  | 41-3091.00 | Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel |  |
-| ✅ | 41-4011.00 | Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products | [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) |
+| ♻️ | 41-4011.00 | Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products | [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) |
 |  | 41-4011.07 | Solar Sales Representatives and Assessors |  |
 |  | 41-4012.00 | Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products |  |
 |  | 41-9011.00 | Demonstrators and Product Promoters |  |
@@ -1211,6 +1211,57 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <!-- CHECKLIST END -->
+
+## Spec-2 upgrade queue
+
+Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
+
+**42 roles awaiting upgrade:**
+
+| Repo role | Category |
+|---|---|
+| [`accountant-controller`](./roles/accountant-controller/SKILL.md) | finance |
+| [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) | operations |
+| [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) | marketing |
+| [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) | operations |
+| [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) | operations |
+| [`biomass-power-plant-manager`](./roles/biomass-power-plant-manager/SKILL.md) | operations |
+| [`chief-executive`](./roles/chief-executive/SKILL.md) | operations |
+| [`chief-sustainability-officer`](./roles/chief-sustainability-officer/SKILL.md) | operations |
+| [`compensation-benefits-manager`](./roles/compensation-benefits-manager/SKILL.md) | operations |
+| [`computer-information-systems-manager`](./roles/computer-information-systems-manager/SKILL.md) | engineering |
+| [`construction-manager`](./roles/construction-manager/SKILL.md) | operations |
+| [`customer-success-manager`](./roles/customer-success-manager/SKILL.md) | sales |
+| [`devops-sre`](./roles/devops-sre/SKILL.md) | engineering |
+| [`education-administrator-k12`](./roles/education-administrator-k12/SKILL.md) | operations |
+| [`education-administrator-other`](./roles/education-administrator-other/SKILL.md) | operations |
+| [`education-administrator-postsecondary`](./roles/education-administrator-postsecondary/SKILL.md) | operations |
+| [`education-childcare-administrator-preschool`](./roles/education-childcare-administrator-preschool/SKILL.md) | operations |
+| [`facilities-manager`](./roles/facilities-manager/SKILL.md) | operations |
+| [`financial-analyst`](./roles/financial-analyst/SKILL.md) | finance |
+| [`fundraising-manager`](./roles/fundraising-manager/SKILL.md) | operations |
+| [`general-operations-manager`](./roles/general-operations-manager/SKILL.md) | operations |
+| [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) | operations |
+| [`hr-people-manager`](./roles/hr-people-manager/SKILL.md) | operations |
+| [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) | operations |
+| [`industrial-production-manager`](./roles/industrial-production-manager/SKILL.md) | operations |
+| [`investment-fund-manager`](./roles/investment-fund-manager/SKILL.md) | finance |
+| [`legislator`](./roles/legislator/SKILL.md) | operations |
+| [`marketing-manager`](./roles/marketing-manager/SKILL.md) | marketing |
+| [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) | healthcare |
+| [`public-relations-manager`](./roles/public-relations-manager/SKILL.md) | marketing |
+| [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) | operations |
+| [`quality-control-systems-manager`](./roles/quality-control-systems-manager/SKILL.md) | operations |
+| [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) | sales |
+| [`sales-manager`](./roles/sales-manager/SKILL.md) | sales |
+| [`security-manager`](./roles/security-manager/SKILL.md) | operations |
+| [`software-engineer`](./roles/software-engineer/SKILL.md) | engineering |
+| [`supply-chain-manager`](./roles/supply-chain-manager/SKILL.md) | operations |
+| [`technical-recruiter`](./roles/technical-recruiter/SKILL.md) | operations |
+| [`training-development-manager`](./roles/training-development-manager/SKILL.md) | operations |
+| [`transportation-storage-distribution-manager`](./roles/transportation-storage-distribution-manager/SKILL.md) | operations |
+| [`treasurer-controller`](./roles/treasurer-controller/SKILL.md) | finance |
+| [`ux-designer`](./roles/ux-designer/SKILL.md) | design |
 
 ## Roles outside this list
 
