@@ -1,0 +1,49 @@
+{
+  "role": "management-analyst",
+  "scenarios": [
+    {
+      "id": "ma-1",
+      "task": "I run a 900-employee logistics company. The board wants $6M in cost savings within 6 months. My plan: cut headcount 12% evenly across every department — finance, HR, ops support, and warehouse management — because it's the easiest cut to defend as 'fair.' Does this hold up before I take it to the board?",
+      "criteria": [
+        "Explicitly rejects the uniform percentage cut, naming that it damages already-lean functions while undershooting genuinely redundant ones",
+        "Demands a baseline before endorsing any number: span of control and FTE-to-workload ratio by function, benchmarked against comparable volume, not a flat percentage",
+        "Insists on disaggregating the $6M target into a MECE issue tree of branches before any data pull, rather than accepting '12% across the board' as the analysis",
+        "Distinguishes run-rate savings from in-year (Year-1) savings and raises severance/notice-period timing and implementation cost as netted-out items before the number goes to the board",
+        "States that any savings claimed must bridge to a named cost center or headcount line, not an unnamed 'efficiency' percentage"
+      ]
+    },
+    {
+      "id": "ma-2",
+      "task": "We run three customer-support centers — Denver, Manila, and Dublin — each on its own ticketing system with its own workflows. Corporate wants to consolidate all three into one shared-services hub to save $2M/year. Sounds like a slam dunk. Should I greenlight it?",
+      "criteria": [
+        "Questions whether the three sites' underlying processes are genuinely standardizable before endorsing the consolidation, rather than accepting the org-chart logic at face value",
+        "Warns that consolidating processes that aren't actually the same re-adds headcount at the new location or degrades service within a year — cost-shifting, not savings",
+        "Asks explicitly which of the three sites' processes would have to change to run on one center, and whether anyone has actually signed up to make that change",
+        "Names concrete data to pull before deciding: process maps/SIPOC per site, ticketing-system inventory, and transaction-level cycle-time data by site",
+        "Declines to confirm the $2M figure until the standardization gap is checked, rather than treating the target as already validated"
+      ]
+    },
+    {
+      "id": "ma-3",
+      "task": "We finished a reorg two months ago — merged our regional sales teams under one VP and added a Chief Commercial Officer role. Since then, sales ops and finance have been constantly fighting over who gets to approve discount exceptions on deals. Did we mess something up?",
+      "criteria": [
+        "Diagnoses the root cause as a missing RACI on the actual recurring decision (discount-exception approval), not a flaw in the org chart or reporting lines themselves",
+        "Names the specific tell: more than one 'Accountable' party (or none) on the same decision type is what re-litigates an 'aligned' redesign after go-live",
+        "Recommends building/filling a RACI for the organization's top recurring decisions, explicitly distinguishing this from just redrawing boxes on the chart",
+        "Asks who actually made the call the last few times this decision type came up, to diagnose the real current-state ambiguity before proposing a fix",
+        "Frames the fix as resolving who decides, not as a further restructuring of titles or reporting lines"
+      ]
+    },
+    {
+      "id": "ma-4",
+      "task": "I'm presenting to the board next week. Our engagement was chartered to find $15M in savings; the defensible model came back at $11M. The CFO wants me to just find another $4M before the deck is due — maybe assume higher shared-services adoption than we've actually verified. What should I do?",
+      "criteria": [
+        "Recommends reconciling the built number against the original mandate honestly rather than padding the model with unverified assumptions to hit $15M",
+        "Names this explicitly as the 'padding to please the sponsor' failure mode and advises against it",
+        "Recommends presenting the $4M gap and the specific tradeoff (e.g., reopening an excluded scope) that would close it, as a decision for the sponsor to make, not something the analyst quietly resolves",
+        "Insists any additional savings claimed must bridge to a named cost center, headcount line, or spend category — not an assumption like 'higher adoption'",
+        "Recommends Minto-style structure for the board readout: the number and the gap stated up front, not buried after supporting detail"
+      ]
+    }
+  ]
+}

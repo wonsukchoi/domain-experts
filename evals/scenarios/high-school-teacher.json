@@ -1,0 +1,49 @@
+{
+  "role": "high-school-teacher",
+  "scenarios": [
+    {
+      "id": "hst-1",
+      "task": "I teach 10th grade biology, five sections, 142 kids total. Just gave a 14-item formative quiz on cellular respiration/photosynthesis and the overall class average came back at 79% — feels solid, I was planning to just do a review game tomorrow and move to the summative test Thursday as scheduled. Does that plan still make sense, or should I look closer before deciding?",
+      "criteria": [
+        "States that a 79% overall mean can hide a specific sub-objective sitting far lower and explicitly recommends running item-level analysis tagged to sub-objective before trusting the average",
+        "Recommends clustering items by the specific sub-objective they measure and comparing cluster means, not just scanning for the single worst item",
+        "Recommends checking whether any low-scoring cluster is uniform across all five sections or isolated to one section before deciding whether it's a content problem versus a delivery problem in one class",
+        "Recommends against moving straight to the review game/summative without this check, and frames the reteach decision around a threshold (e.g., a sub-objective cluster meaningfully under ~70%) rather than the raw average",
+        "If a gap is found, recommends replacing the least load-bearing remaining activity (not pushing the whole class's pacing or the summative test date) and rechecking with a short single-objective exit ticket, not a repeat of the full quiz"
+      ]
+    },
+    {
+      "id": "hst-2",
+      "task": "Parent emailed me disputing their kid's lab report grade — 14/20 (70%), specifically arguing the Analysis section deserves a 4 or 5 instead of the 2 I gave. My rubric has four categories at 5 points each (Hypothesis, Data table, Analysis, Conclusion). The Analysis section correctly names the IV/DV relationship but never discusses a source of error. How should I respond to the parent?",
+      "criteria": [
+        "Resolves the Analysis dispute by citing the exact rubric descriptor language (identifies relationship only vs. discusses error = the 2-vs-4 dividing line), not gut feel, effort, or the parent's framing",
+        "Confirms the Analysis score of 2 stands based on that descriptor, since the error-source discussion is genuinely absent",
+        "Recommends re-checking all four rubric categories as a matter of course, not only the disputed one, to avoid the appearance of confirmation bias or stonewalling",
+        "Applies the same rubric-anchored standard to the other categories rather than only defending the original total — willing to let the grade move in either direction based on what's found",
+        "Communicates both the confirmed score and any other finding together with the rubric language cited, rather than a vague 'the grade is fair' defense"
+      ]
+    },
+    {
+      "id": "hst-3",
+      "task": "One of my sections is really struggling — I've got a kid who's been quietly under his breath talking to his neighbor and looking at his phone during my lectures for two days straight. He's not being disruptive to the whole class, just off-task, but it's getting on my nerves. I'm thinking I should just call him out in front of the class tomorrow so he knows I mean it and stops for good. Good idea?",
+      "criteria": [
+        "Explicitly recommends against a public correction on what's presented as an early-stage, low-level off-task incident, naming the risk that it creates an audience and a power struggle the student can only 'win' by escalating further",
+        "Recommends starting at the least restrictive rung (proximity, non-verbal cue) rather than jumping straight to a public or documented consequence",
+        "Recommends a private, quiet redirect naming the specific expected behavior if lower rungs don't work, delivered at the student's desk rather than across the room",
+        "States that escalation should move up the ladder only if the behavior persists past a given rung, not skip rungs for a non-safety issue",
+        "Notes the importance of logging what's tried (date/behavior/response) so any later escalation is backed by documented lower-rung attempts"
+      ]
+    },
+    {
+      "id": "hst-4",
+      "task": "Reteaching cellular respiration this week because a chunk of my sections bombed the ATP-sequencing items on the formative quiz. One of the flagged low scorers is Jordan, who has an IEP for extended time and read-aloud on text-dense items — Jordan got 2/14 and missed all three of the sequencing items. I'm about to fold Jordan's score into the class data to confirm the reteach decision. Anything I should check first?",
+      "criteria": [
+        "Explicitly recommends checking the accommodation-delivery log before counting Jordan's score in the class-wide pattern — confirming whether the read-aloud/extended-time accommodation was actually delivered on the quiz date",
+        "States that if the accommodation wasn't delivered, Jordan's score is evidence of an accommodation-delivery failure, not a content-mastery data point, and should be excluded from the standards-conclusion",
+        "Recommends routing the accommodation gap as a separate flag to the case manager rather than quietly noting it or unilaterally adjusting the score",
+        "Clarifies that excluding Jordan's data point doesn't invalidate the class-wide reteach decision itself if the remaining students still show the same low-score pattern",
+        "Does not suggest unilaterally modifying Jordan's accommodation or retroactively re-scoring Jordan's quiz without case-manager involvement"
+      ]
+    }
+  ]
+}

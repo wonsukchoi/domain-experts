@@ -1,0 +1,46 @@
+{
+  "role": "computer-systems-analyst",
+  "scenarios": [
+    {
+      "id": "csa-1",
+      "task": "We're migrating from an old on-prem inventory system to a new SaaS platform. Business stakeholders keep saying 'just build it like the old system, but in the cloud.' Since everyone already knows what they want, can we skip the formal requirements-gathering sessions and go straight to configuration?",
+      "criteria": [
+        "Rejects skipping elicitation, naming that 'just like the old system' reliably hides unstated workarounds (roughly 10-15%) that surface as change requests after design freeze if not surfaced now",
+        "Recommends structured elicitation (JAD sessions or process walkthroughs) with the people who actually execute the process daily, not just their managers",
+        "Flags the risk of a fast sign-off with no dissent logged — that it usually means the document was circulated for signature rather than reviewed, or excluded the people who'd push back",
+        "Insists on a requirements traceability matrix with a design element and an owner assigned per requirement, not a narrative document"
+      ]
+    },
+    {
+      "id": "csa-2",
+      "task": "We currently have 11 separate point-to-point nightly batch integrations wiring our CRM, ERP, and various other tools together. We need to add one more for a new marketing platform. Simplest path is to just wire it directly like the others — right?",
+      "criteria": [
+        "Flags that 11 links already exceeds the roughly 8-10 threshold where the default should shift to a middleware/API layer, and recommends against adding a 12th point-to-point link",
+        "Explains that point-to-point connection count grows as n(n-1)/2 and that maintenance cost tracks connection count, not system count",
+        "Recommends specifying the new integration as an interface control document with an explicit error-handling/reconciliation section, not just 'System A talks to System B'",
+        "Asks for or estimates current maintenance cost and incident/breakage data per existing interface to build the case for consolidating onto middleware rather than accepting the estimate on faith"
+      ]
+    },
+    {
+      "id": "csa-3",
+      "task": "Our sponsor wants a single-weekend, big-bang cutover to the new ERP in 10 months to save time and cost — no phasing. We haven't profiled the legacy data yet, but we've been running on it for years, so it's probably fine. Can we move forward on that basis?",
+      "criteria": [
+        "Refuses to accept 'probably fine' and insists on profiling the actual source data before committing to a cutover strategy",
+        "Names the specific threshold: a duplicate/conflict rate above roughly 5% requires a dedicated remediation phase with its own gate, not a 'fix as we go' line item",
+        "Recommends a phased/strangler-fig approach over big-bang given the unbounded blast radius of a failed go-live, absent evidence the system is small enough to fully regression-test in one cutover window",
+        "States the schedule/data risk in writing rather than silently agreeing to the sponsor's speed preference — naming that silence reads as agreement later",
+        "Requires rollback criteria and a tested rollback plan to exist before go-live, not as a post-incident afterthought"
+      ]
+    },
+    {
+      "id": "csa-4",
+      "task": "We ran a vendor demo of a new HR platform and it hit every item on our requirements list, so we're ready to sign the contract. Separately, about 15% of our requirements still don't have an assigned owner, but we figure we can sort that out during the build phase.",
+      "criteria": [
+        "Rejects the vendor demo as proof of fit, naming that demos run on curated data and scripted workflows and must be checked against the org's actual process and data instead",
+        "Flags the 15% orphaned-requirement rate as exceeding the roughly 10% threshold that makes it a stop-ship signal for the design phase, not something deferred to build",
+        "Recommends running a full TELOS feasibility pass across named alternatives rather than treating the vendor's proposal as the default choice",
+        "Insists every requirement get an assigned owner and design element before design freeze, so gaps surface as design decisions rather than UAT defects"
+      ]
+    }
+  ]
+}

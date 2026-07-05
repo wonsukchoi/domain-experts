@@ -1,0 +1,49 @@
+{
+  "role": "mechanical-engineer",
+  "scenarios": [
+    {
+      "id": "me-1",
+      "task": "We have a 4140 steel clevis bracket, 0.375in thick, stepped from 2.5in to 1.5in width through a 0.125in fillet, loaded in pulsating axial tension 0 to 9,000 lbf (R=0), cycling about 1,800 times a day over a 10-year service life. Our coarse-mesh linear-static FEA reports peak stress around 16,800 psi, giving FS = 3.57 against the 60,000 psi yield strength. That looks comfortably safe to me — can I sign off and release this for machining?",
+      "criteria": [
+        "Flags that the coarse-mesh FEA peak stress is likely understated and recommends a hand check with the actual stress concentration factor (Kt from Peterson's charts, based on the D/d and r/d ratios) rather than trusting the solver's number as-is",
+        "Recomputes actual peak stress using Kt and gets a materially lower FS on yield than 3.57 (roughly 1.8), explicitly stating the FEA's 'safe' number was a mesh/model artifact",
+        "States that with cycling in the 10^6+ range over the service life, a static yield check alone is insufficient and a separate notch-corrected fatigue check (Kf, not Kt, via notch sensitivity q) against a Goodman-corrected endurance limit is required",
+        "Computes or describes the fatigue margin coming out well below the 2.5+ target appropriate for a cyclic, undetected-failure-mode application (e.g., FS_fatigue around 1.3-1.4), explicitly contradicting the naive FS=3.57 sign-off",
+        "Recommends a specific, low-cost redesign fix (e.g., increasing the fillet radius and/or specifying a ground finish) rather than accepting the part as designed or over-engineering an unrelated change"
+      ]
+    },
+    {
+      "id": "me-2",
+      "task": "Sourcing team wants to switch our bracket from 6061-T6 aluminum to a higher-strength 7075-T6 alloy because a supplier quoted it at a similar price this quarter and the yield strength is almost double. The part sees cyclic loading over its life. Should I approve the material substitution based on the strength numbers they sent me?",
+      "criteria": [
+        "Explicitly rejects approving the swap on yield/ultimate strength comparison alone, stating that fatigue behavior and machinability don't scale the same way between alloys",
+        "States that 7075's fatigue (S-N/endurance limit) data and notch sensitivity must be checked specifically, since a substitute with higher static strength can still have a lower or less favorable endurance limit for this load case",
+        "Flags machinability as a distinct axis to check (cycle time, tool wear) rather than assuming a stronger material is a free upgrade",
+        "Notes that material selection is a simultaneous tradeoff across strength-to-weight, cost, and machinability, not a single-strength-number decision",
+        "Does not approve or reject the swap outright without first requesting the missing fatigue/machinability data for this specific application"
+      ]
+    },
+    {
+      "id": "me-3",
+      "task": "Reviewing a supplier's CAD design for a bracket ahead of quoting for 3-axis CNC machining, 500 units/month. I see an internal pocket corner specified at 0.020in radius, a non-mating bore toleranced to ±0.0015in with no stated function for that tightness, and a blind tapped hole (M6) drilled 1.25in deep. Quote just came back higher than expected — anything I should have caught earlier?",
+      "criteria": [
+        "Flags the 0.020in internal corner radius as smaller than standard tooling can cut in 3-axis milling, requiring EDM, and recommends increasing it to the smallest standard tool radius that clears the design intent instead",
+        "Flags the ±0.0015in tolerance on a non-mating, non-functional dimension as unjustified, recommending it be relaxed to a standard tolerance (e.g., ±0.005in) since no fit or stack-up requirement drives the tightness",
+        "Flags the M6 blind tapped hole at 1.25in depth as exceeding roughly 2x diameter without a stated tap-drill relief, naming tap breakage/scrap risk in production",
+        "States that these should have been caught at first CAD/design review rather than discovered at the quote stage, framing DFM as a constraint on the design rather than an end-of-process gate",
+        "For each finding, ties the fix to a concrete cost/schedule consequence (EDM cost/lead time, inspection cost, breakage scrap rate) rather than a generic 'this could be cheaper' comment"
+      ]
+    },
+    {
+      "id": "me-4",
+      "task": "We have a shaft-and-bearing-bore alignment assembly with four toleranced components in the stack: housing bore location (±0.003in), bearing OD fit (±0.0005in), bearing bore concentricity (±0.0008in), and shaft OD (±0.0004in). This is a safety-critical bearing alignment where misalignment directly affects bearing life. My analyst used RSS stack-up and got ±0.00317in, which gives us more design margin than worst-case would. Should I sign off on the RSS number for the design clearance check?",
+      "criteria": [
+        "States that RSS should not be used here because this is a short (4-part), safety/interference-critical stack, where RSS's independence and large-sample-normal-distribution assumptions don't hold",
+        "Recommends using the worst-case (arithmetic sum) stack-up instead, computing or citing the larger value (~±0.0047in) as the number that should govern the design clearance check",
+        "Explicitly states that RSS is appropriate for longer chains (roughly 6+ parts) of independently toleranced, high-volume, non-critical components — not this case",
+        "Flags that choosing RSS here manufactures extra margin on paper rather than reflecting real risk, and that using the more favorable number for a safety-critical dimension is the wrong basis for sign-off",
+        "Does not sign off on the RSS-based margin as presented"
+      ]
+    }
+  ]
+}

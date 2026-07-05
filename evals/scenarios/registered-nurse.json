@@ -1,0 +1,49 @@
+{
+  "role": "registered-nurse",
+  "scenarios": [
+    {
+      "id": "rn-1",
+      "task": "I'm charge nurse getting a verbal update from a primary RN on 4 West. Patient is POD2 total hip, was NEWS2 of 0 at 0700. At 0900 she's HR 102, RR 22, SpO2 94% RA, BP 118/70, temp 37.8, still alert, but mentioned feeling a little short of breath walking to the chair. The primary nurse says the score comes out to a 4, which is still 'low risk,' and wants to know if she should just finish the rest of her med pass first or come back to this patient sooner.",
+      "criteria": [
+        "Explicitly reframes the 0900 reading as a trend (0 to 4 in two hours) rather than judging the single aggregate score in isolation",
+        "States that the new subjective dyspnea is itself meaningful clinical data, not something to wait out until the monitor confirms it",
+        "Recommends increasing reassessment frequency to roughly 30 minutes rather than the standard interval, and deferring the rest of the med-pass round rather than finishing it first",
+        "Names the specific post-op risk this trend points toward (e.g. PE/DVT given recent hip surgery and reduced mobility) as the reason not to dismiss it",
+        "Does not recommend escalating to physician/RRT yet at this stage, correctly distinguishing 'increase monitoring' from 'escalate now' as separate lanes"
+      ]
+    },
+    {
+      "id": "rn-2",
+      "task": "Same patient, now at 1015: HR 118, RR 26, BP 96/58, SpO2 91% on room air (93% on 2L NC), temp 38.3, and she's now only oriented to person. I'm the nurse and I need to know exactly what to do right now and how to actually get the on-call hospitalist to move fast instead of getting queued behind three other pages.",
+      "criteria": [
+        "Calculates or cites the NEWS2 aggregate (14) and explicitly flags that RR, SpO2, and level of consciousness each independently score the maximum on their own, meeting urgent-review criteria even without the aggregate",
+        "Builds a full SBAR (situation, background, assessment, recommendation) rather than a vague 'come take a look,' and the recommendation is a specific, time-bound ask (e.g. bedside within 10 minutes or RRT)",
+        "Names both differential concerns the vitals point toward — pulmonary embolism (given recent THA/immobility) and sepsis (fever + tachycardia + confusion) — as data to hand the physician rather than picking one",
+        "States that interventions already started (O2 applied, more frequent vitals, IV access) should be reported as part of the SBAR",
+        "Specifies documenting the exact time of the call/escalation in the chart"
+      ]
+    },
+    {
+      "id": "rn-3",
+      "task": "I'm an RN starting a 1:6 med-surg shift. Handoff report says all six patients are 'stable, uneventful night,' but I've got a new post-op admission, two patients due for IV antibiotics within the hour, and three routine, low-acuity patients. I want to just start at room 1 and work down the hall in order so I don't lose track — does that make sense?",
+      "criteria": [
+        "Rejects room-number/med-pass order as the triage basis, naming that it's an administrative convenience rather than a clinical prioritization method",
+        "Recommends triaging all patients into tiers within the first 15-20 minutes using acuity/instability and time since last assessment, not the handoff's 'stable' label alone",
+        "States that the new post-op patient should be seen first regardless of room order, and the IV-antibiotic patients should be seen before their scheduled time rather than after",
+        "Explicitly says to establish an independent personal baseline on each patient rather than trusting the 'stable, uneventful' handoff at face value",
+        "Notes the plan should be re-ranked if any patient's status changes mid-shift, rather than treating the initial order as fixed"
+      ]
+    },
+    {
+      "id": "rn-4",
+      "task": "I'm the RN on a busy 1:6 shift. My CNA just told me Patient B's fingerstick glucose came back 'normal' and vitals look fine, but when I glanced in the room a minute ago the patient looked more lethargic than an hour ago and is harder to rouse. I've got two other patients waiting on meds right now — can I just trust the CNA's numbers and deal with this patient after I finish the med pass?",
+      "criteria": [
+        "Says no — a delegated reading reported normal while the patient looks clinically worse must be personally reassessed/reverified before acting on it or moving on, not treated as closing the loop",
+        "Cites new lethargy/decreased responsiveness in a previously stable patient as itself an urgent trigger requiring reassessment now, out of sequence, ahead of the med pass",
+        "Names specific things to check given new altered responsiveness — repeat glucose, oxygen saturation, and recent opioid/sedative dose and timing — as the first data to pull",
+        "Frames delegation as transferring the task but not the accountability for interpreting the result, so 'CNA said normal' doesn't discharge the RN's responsibility",
+        "Recommends deferring the two waiting medications (or getting help via charge nurse) rather than finishing the med pass before addressing the lethargic patient"
+      ]
+    }
+  ]
+}

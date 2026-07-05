@@ -1,0 +1,45 @@
+{
+  "role": "insurance-underwriter",
+  "scenarios": [
+    {
+      "id": "iu-1",
+      "task": "Renewal review: this account's 3-year loss ratio is 88%, driven mostly by a single $600K fire loss in year one. Our permissible loss ratio is 65%. I'm about to tell the broker we need a straight 35% rate increase across the board. Does that hold up?",
+      "criteria": [
+        "Rejects re-rating off the raw, uncapped, untrended loss ratio, naming it the single most common generalist underwriting error",
+        "Recommends capping the large fire loss at the class's basic limit before trending, and blending toward the manual/class expected loss ratio using a credibility weighting rather than treating the raw 88% as fully credible",
+        "Requires computing (or explicitly requesting) the credibility factor Z from claim volume against the full-credibility standard for the line before setting the indicated change",
+        "States that the properly capped/trended/credibility-weighted indicated change should be meaningfully smaller than the naive 35%, referencing that this kind of error typically overstates the needed change by 30-40 points"
+      ]
+    },
+    {
+      "id": "iu-2",
+      "task": "We have a coastal warehouse, TIV $20M, built in the 1980s. The modeled 250-year windstorm PML comes out around $13M, and our treaty's automatic per-risk capacity is $10M. The broker is suggesting we just raise the wind deductible to close the gap. Does that work?",
+      "criteria": [
+        "Explicitly rejects using a deductible increase to solve a capacity problem, naming that the deductible is small relative to the tail event that defines the PML and barely moves it",
+        "Frames the PML-vs-treaty-capacity breach as a placement problem first, not a pricing problem: facultative cession, engineering-conditioned renewal, or mitigation",
+        "Proposes a concrete alternative such as facultative cession of the excess at a quoted rate-on-line, or a mitigation investment (e.g., roof reinforcement) modeled to bring PML back under capacity",
+        "Flags this as an independent mandatory-referral trigger regardless of the account's premium size or the underwriter's authority limit"
+      ]
+    },
+    {
+      "id": "iu-3",
+      "task": "The broker wants to move a mid-market account from a $15,000 deductible to a $60,000 SIR to get the client a bigger premium credit. The client's happy about it, and I'm inclined to approve since it also reduces our claims-handling frequency.",
+      "criteria": [
+        "Insists on checking the collateral trigger and requirement before quoting the SIR credit, naming that an SIR above the collateral threshold has materially different balance-sheet impact on the insured than a deductible does",
+        "Warns that the broker may be pricing the retention change on premium credit alone, without the insured having priced the cost of the required letter of credit or trust fund",
+        "Compares loss-elimination-ratio economics against the collateral cost and recommends a deductible-based alternative if the collateral cost outweighs the credit's value for an account this size",
+        "Names this explicitly as the failure mode of quoting an SIR credit without checking the collateral trigger, leaving the insured worse off than the deductible option it replaced"
+      ]
+    },
+    {
+      "id": "iu-4",
+      "task": "This account has carried a 20% schedule credit for 'strong safety program' for the past four renewal cycles, and nobody has re-verified it recently — changing it now would spike the premium and annoy the broker. Separately, the loss ratio sits at 68%, just under our 70% mandatory-referral trigger, so I don't think I need to escalate this one. Fair?",
+      "criteria": [
+        "Flags the 20% schedule credit with no refreshed documented basis in the last cycle as understating the true rate need, and recommends re-verifying it (e.g., current loss-control survey, OSHA/EMR trend) before carrying it forward again",
+        "Recognizes 68% sitting just under the 70% mandatory-referral threshold as a pattern worth treating with suspicion rather than a clean pass",
+        "Warns against structuring around or avoiding a referral trigger, naming that avoiding escalation by staying just under a threshold is itself a named failure mode",
+        "Recommends escalating anyway, or explicitly documenting the reasoning for not escalating, given the stale credit compounds the near-threshold loss ratio rather than being an independent, unrelated issue"
+      ]
+    }
+  ]
+}

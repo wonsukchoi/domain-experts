@@ -1,0 +1,49 @@
+{
+  "role": "meeting-event-planner",
+  "scenarios": [
+    {
+      "id": "mep-1",
+      "task": "We're planning a 3-night conference. Registration forecast is 800 attendees, but marketing thinks a strong promo push could get us to 900. The attrition clause on the hotel contract we're about to sign is 85%. The hotel is nudging us to block based on 900 'to be safe.' Good idea?",
+      "criteria": [
+        "Explicitly rejects sizing the room block to the high-case (900) forecast, naming that attrition is measured against the contracted block, not the good-faith or optimistic forecast",
+        "Recommends sizing the block to roughly 90% of the base-case (800) forecast instead",
+        "Names this as the 'oversizing to be safe' failure mode — a block padded for the optimistic case manufactures its own penalty",
+        "Quantifies the exposure difference: an 900-based block requires 85% pickup of the larger number as the attrition threshold, creating a bigger gap to cover than an 800-based block would",
+        "Recommends interim pickup checkpoints (e.g., 75-day and 60-day) rather than waiting until the 30-day cutoff to see whether the block is tracking"
+      ]
+    },
+    {
+      "id": "mep-2",
+      "task": "Our catering contract has a $150,000 F&B minimum, a 22% service charge, and 8% tax. Finance budgeted the service charge as 'gratuity for staff' and left it out of the taxable base, and they're budgeting F&B spend at what we expect to actually order rather than the contracted minimum. That all sounds fine to me — thoughts?",
+      "criteria": [
+        "Corrects the conflation of the mandatory service charge with gratuity, naming that the service charge is venue-retained and taxable, distinct from a discretionary tip",
+        "Explains that treating service charge as pass-through gratuity understates the budget because tax stacks on top of the service charge",
+        "Insists the $150,000 F&B minimum is a binding floor to budget against, not an estimate of expected spend",
+        "Walks through the mechanics of a shortfall: any spend below the minimum is billed as if spent, with the service charge and tax applied on top of the shortfall amount",
+        "Names this combination as one of the most common line-item errors surfacing in a first master-bill review"
+      ]
+    },
+    {
+      "id": "mep-3",
+      "task": "We're about to sign a venue contract for next year's event. The force majeure clause reads 'acts of God, war, or government seizure of the premises.' Legal says it's standard boilerplate and fine to sign as-is. Should I just sign it?",
+      "criteria": [
+        "Flags the clause as pre-2020 boilerplate that does not name epidemic, government travel advisory, or government-mandated capacity restriction as triggers",
+        "States explicitly that 'acts of God' language does not extend to a government capacity order, and that the clause should be read as written, not assumed to cover whatever feels catastrophic enough",
+        "Recommends negotiating updated force-majeure language before signature, framing risk transfer as available now and fixed/non-negotiable after signing",
+        "Recommends asking the venue directly for its current standard contract template, since most properties have updated language available on request",
+        "Names the failure mode of not reading the actual named perils until a crisis is already underway"
+      ]
+    },
+    {
+      "id": "mep-4",
+      "task": "Our conference just wrapped: room block was 1,200 nights at an 80% attrition threshold, and we picked up 1,050. Also, during the event the keynote ran 20 minutes over and the whole afternoon got messy because three different people were independently deciding what to cut. What should I check on the final bill, and what do I fix for next year?",
+      "criteria": [
+        "Computes the attrition threshold correctly (80% of 1,200 = 960 room nights) and recognizes that 1,050 actual pickup clears the threshold, so no attrition damages apply — not comparing pickup against the full 1,200-night block",
+        "Recommends reconciling the full master bill (F&B minimum, comp rooms actually applied, resort/AV fees) against every contracted minimum before sign-off, not paying it as presented",
+        "Diagnoses the keynote-delay chaos as a missing named decision-owner in the run-of-show, not bad luck",
+        "Recommends a single-source-of-truth run-of-show with a pre-agreed cut list and one named person authorized to call schedule changes on-site",
+        "Distinguishes protecting anchor times (keynote start) from downstream/local items that should absorb the slack instead"
+      ]
+    }
+  ]
+}

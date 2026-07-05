@@ -1,0 +1,49 @@
+{
+  "role": "emergency-management-director",
+  "scenarios": [
+    {
+      "id": "emd-1",
+      "task": "Coastal county, population 190,000. A Category 2 hurricane is 24 hours from landfall. The mandatory evacuation zone holds 28,000 residents. We have two designated primary shelters totaling 60,000 usable sq ft. My deputy wants to open every school in the county 'just to be safe' since 28,000 people is a lot. What do you recommend?",
+      "criteria": [
+        "Applies the 8-12% shelter-compliance planning ratio to the zone population rather than sizing shelters off the raw 28,000, computing roughly 2,240-3,360 expected shelter seekers",
+        "Uses the post-2020 40 sq ft/person congregate standard (not the older 20 sq ft figure) to compute required square footage, and checks it against the 60,000 sq ft available",
+        "Separately budgets for the functional-and-access-needs population (roughly 5% of general shelter population) at a larger per-person footprint, at a distinct site with medical support, rather than folding them into general shelters",
+        "Rejects opening every school in the county, explaining that over-opening spreads staff too thin to run any single site well",
+        "States the alternative to over-building: an overflow/additional site sized against the shortfall (if any), not a blanket 'open everything'"
+      ]
+    },
+    {
+      "id": "emd-2",
+      "task": "We just had our preliminary damage assessment come back at $22M in public damage after a flooding event, county population 145,000. The Board wants to know if we should request a major disaster declaration, and one commissioner is asking whether we can just wait until federal reimbursement checks arrive before setting aside county funds for our share. How do I advise them?",
+      "criteria": [
+        "States the declaration is a legal/financial trigger, not a response mechanism — signing it doesn't move resources, but opens PA reimbursement eligibility gated on documentation",
+        "Compares the $22M PDA total against the per-capita damage indicator (145,000 x the current published per-capita figure) and states the county needs to clear that threshold with margin, not just technically exceed it",
+        "States the standard cost share explicitly (75% federal/25% non-federal) and computes the county's approximate non-federal obligation (~$5.5M at standard split) rather than leaving it unquantified",
+        "Directly rejects the commissioner's premise: states PA reimburses against verified, obligated expenditure with a disbursement lag of months to years, so the non-federal match must be appropriated by the county now, not after federal funds arrive",
+        "Notes any enhanced federal cost-share request is discretionary and time-boxed (Governor has to request, FEMA has to approve) and should not be budgeted as guaranteed"
+      ]
+    },
+    {
+      "id": "emd-3",
+      "task": "We just ran our annual tabletop exercise for a chemical plant incident. It went great — every Section Chief hit their marks, all resource requests were fulfilled on time, and the AAR came back with zero findings. I want to report to the county manager that we're fully prepared. Good to go?",
+      "criteria": [
+        "States explicitly that a tabletop that runs clean end to end tested nothing — it rehearsed confidence, not competence",
+        "Frames zero findings (or all-minor findings) as a design failure, not a readiness signal, and asks what inject was designed to fail",
+        "Recommends checking whether the exercise had at least one meaningful cascading-failure inject (e.g., a comms outage, a Section Chief unreachable, a resource unavailable) rather than an ad hoc scenario read aloud",
+        "Recommends verifying evaluators weren't also the plan's authors, since that combination produces exactly this kind of clean result",
+        "Declines to report full preparedness to the county manager based on this result, and instead recommends redesigning the next exercise with real failure points before drawing that conclusion"
+      ]
+    },
+    {
+      "id": "emd-4",
+      "task": "We're two weeks post-tornado response and starting to compile our FEMA Public Assistance documentation. I noticed our debris removal contractor mobilized crews the same day as the event, and the procurement justification memo for using the emergency non-competitive exception is dated three days later, once things calmed down enough to write it up. Is that a problem?",
+      "criteria": [
+        "Flags the dated-after mobilization procurement justification as a real problem, not a minor paperwork lag",
+        "Explains that even if the emergency procurement exception was used correctly operationally, a justification memo written after the fact to match the contract reads as fabricated to a PA auditor, even when the underlying decision was sound",
+        "States that every decision in the first operational period becomes the record the PA auditor and AAR grade, and an undocumented/backdated justification risks the cost being disallowed and clawed back",
+        "Recommends immediately documenting the actual decision timeline and rationale as accurately as possible now, rather than further backdating or leaving it as-is",
+        "Does not recommend over-correcting into a documentation-obsessed posture that stalls further real-time decisions, but does insist this specific gap gets addressed before the PA claim is submitted"
+      ]
+    }
+  ]
+}

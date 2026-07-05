@@ -1,0 +1,49 @@
+{
+  "role": "firefighter",
+  "scenarios": [
+    {
+      "id": "ff-1",
+      "task": "Company officer here. First-arriving engine at a two-story single-family home, built 1975 (dimensional lumber, not engineered). On arrival: light smoke showing from a second-floor window, no visible flame, neighbor says everyone's out and accounted for, no reported victims. My driver wants to vent the second-floor window right away to 'let the heat out' before we even get a line charged. Good call?",
+      "criteria": [
+        "Rejects venting before the attack line is charged and in position, naming the uncoordinated-flow-path mechanism (venting adds oxygen/fuels the fire and increases heat release toward the opening) rather than just 'be careful'",
+        "Notes that with no confirmed viable rescue, the tactical priority shifts toward attack/exposure protection over a search-driven VEIS entry, per RECEO-VS priority ordering",
+        "Recommends coordinating any ventilation timing explicitly with when the line is confirmed charged and flowing, not on a fixed time estimate",
+        "Distinguishes this dimensional-lumber 1975 construction from engineered lumber, but still calls for reassessment rather than assuming a long collapse/flashover window by default",
+        "States the strategy call (offensive/transitional/defensive) explicitly rather than leaving it implicit"
+      ]
+    },
+    {
+      "id": "ff-2",
+      "task": "Reported residential fire, occupant possibly trapped. We're four minutes out per dispatch, structure built 2015 with engineered I-joist floor and roof systems per the permit record. On arrival I need to brief my crew fast on the collapse-time math before we commit. What's the read, given we don't know how long it's actually been burning before the 911 call came in?",
+      "criteria": [
+        "States that engineered I-joist/lightweight construction fails in a fraction of the time dimensional lumber does — collapse clock measured in single-digit minutes rather than 18+ minutes",
+        "Explicitly treats unknown pre-arrival burn time as 'assume closer to flashover/collapse than comfortable,' not as a default early-stage assumption",
+        "Applies (or references) the rule that two of {engineered/lightweight construction, worsening smoke, unknown duration >10 min} together tighten the SCBA trigger and shorten the reassessment interval from 5 to 3 minutes",
+        "Recommends transmitting construction type/era in the initial size-up radio report explicitly, not just occupancy or smoke conditions",
+        "Frames this as continuous reassessment (checking again in minutes) rather than a single go/no-go decision made once at the curb"
+      ]
+    },
+    {
+      "id": "ff-3",
+      "task": "My firefighter Nguyen just started her interior search at 08:14, air-start on a 4,500 psi/30-min rated cylinder. It's now 08:22, she just found zero visibility with rising heat and hasn't checked in for over 90 seconds. What am I doing right now as the officer outside?",
+      "criteria": [
+        "Flags the missed check-in (>60s) combined with zero visibility/rising heat as a mayday-developing pattern, not just a routine delay",
+        "Calculates working-exertion air yield (~13-15 min against the 30-min rating, i.e. roughly half) and notes ~8 minutes elapsed is approaching or past the two-thirds mark, which should already be triggering an exit",
+        "Recommends an immediate radio check ('Command to [unit], radio check — location and air status, over') rather than waiting longer",
+        "States that if contact isn't reestablished or trouble is confirmed, the next step is treating it as an undeclared mayday and preparing/committing RIT rather than continuing to wait",
+        "Does not suggest venting or opening additional points to 'help' her, recognizing that would create an uncoordinated opening/flow path risk"
+      ]
+    },
+    {
+      "id": "ff-4",
+      "task": "Mayday just came over the radio from one of my crew — he transmitted 'Mayday mayday mayday, second floor, Bravo side, lost contact with the hoseline, air's getting low' but didn't say his name or unit. Meanwhile my incident commander is still coordinating a second-due engine's water supply on the same channel. Walk me through exactly what should happen in the next 60 seconds.",
+      "criteria": [
+        "States command must immediately clear all non-mayday radio traffic on that channel before anything else proceeds",
+        "Notes the transmitted mayday was incomplete LUNAR (missing Unit and Name) and states the firefighter or last-contact crew member should be prompted to complete it, since 'resources needed' and identifying info are what let command actually deploy help",
+        "Directs immediate activation/commitment of the staged RIT/FAST crew to the reported location (second floor, Bravo side)",
+        "Calls for a PAR (personnel accountability report) of all other crews on scene immediately, to confirm no second incident is developing unnoticed",
+        "Notes that other crews not directly supporting the mayday continue their assigned tasks unless redirected, rather than everyone abandoning fire attack (since an uncontrolled fire risks a second mayday)"
+      ]
+    }
+  ]
+}

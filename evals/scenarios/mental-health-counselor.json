@@ -1,0 +1,49 @@
+{
+  "role": "mental-health-counselor",
+  "scenarios": [
+    {
+      "id": "mhc-1",
+      "task": "I'm an outpatient counselor. My client M (34) came in for session 4 today, three weeks after intake. Intake PHQ-9 was 14; today it's 19, and item 9 (thoughts you'd be better off dead) scored a 2. She said 'some nights I think everyone would be fine without me around' but denies any method or plan when I ask directly. She has two young kids she says are 'the only reason I get up,' stable housing, and no firearms in the home. Do I need to send her to the ED or call psychiatry as an emergency?",
+      "criteria": [
+        "States that the PHQ-9 item 9 score alone doesn't establish risk level or disposition and requires a full C-SSRS walk-through before any decision",
+        "Walks the ideation severity levels distinctly (wish to be dead, nonspecific active ideation, method, intent, plan) rather than treating 'passive SI' as one bucket",
+        "Explicitly asks about or names protective factors (the two children, stable housing, no firearm access, support person) as material to the disposition, not just noted in passing",
+        "Concludes this is a moderate-low risk / continued-outpatient disposition with increased session frequency and a same-session Stanley-Brown safety plan, explicitly rejecting an automatic ED/inpatient referral off the ideation item alone",
+        "Distinguishes the psychiatry referral as a severity/duration-of-symptoms decision (PHQ-9 trajectory) separate from the suicide-risk decision, naming this distinction explicitly"
+      ]
+    },
+    {
+      "id": "mhc-2",
+      "task": "Client, 29, presenting with chronic self-harm (cutting), intense on-and-off relationships, and mood that swings from fine to furious within the same session. I've been doing weekly CBT with thought records for two months and it's not landing — she says the worksheets feel pointless and she's still cutting about twice a month. Should I just add some more coping skills to the CBT, or what's my move here?",
+      "criteria": [
+        "Identifies emotion dysregulation with self-harm/interpersonal chaos as the target mechanism and names DBT, not CBT, as the matched modality — rather than just adding coping skills to the current approach",
+        "Explicitly flags that borrowing a few DBT skills without the full structure (skills group, individual therapy, phone coaching, consultation team) is not DBT and shouldn't be charted as evidence-based DBT treatment",
+        "States that CBT thought records are a poor fit here because they require distress tolerance and between-session cognitive work this presentation doesn't yet support",
+        "Names a concrete next step: referral to or building toward the full DBT structure (skills group, coaching availability) rather than a same-clinician workaround",
+        "Notes this may be a competence/referral decision if the counselor's practice can't support the full DBT structure, framing referring out as a liability/quality issue, not a failure"
+      ]
+    },
+    {
+      "id": "mhc-3",
+      "task": "New client this week, GAD-7 came back at 14. During intake he casually mentioned he 'blew off some steam' with his ex-brother-in-law last weekend after a custody argument and said 'if he tries to take my kid again I'll make him regret it, I know where he lives.' He said it kind of joking and moved on to talk about his anxiety at work. Do I need to do anything about that comment, or just proceed with the anxiety treatment plan as usual?",
+      "criteria": [
+        "Flags this as a duty-to-warn/duty-to-protect trigger requiring immediate assessment (identifiable target + specific threat language), not something to let pass because it was said 'jokingly'",
+        "Explicitly asks whether this is a stated intent to act versus venting/catastrophizing, naming intent and specificity — not emotional tone — as what actually drives the legal threshold",
+        "States that duty-to-warn is not a single uniform Tarasoff rule and that the specific state statute/case law must be checked before deciding the required action",
+        "Names concrete next actions: consult supervisor same day, check agency's duty-to-warn protocol, and does not simply proceed with the anxiety treatment plan as if the comment were incidental",
+        "Does not conflate this with a routine risk screen — treats it as a distinct duty-to-protect analysis separate from suicide risk assessment"
+      ]
+    },
+    {
+      "id": "mhc-4",
+      "task": "Client I've seen for 5 months, MDD diagnosis, has been stable-to-improving on weekly CBT with behavioral activation. Last two sessions she mentioned in passing that a few months ago she went almost two weeks barely sleeping, felt like she could 'take on the world,' spent way more than usual, and then crashed back into the depression we've been treating. She brought it up like it was no big deal. Does this change anything about how I should be treating her?",
+      "criteria": [
+        "Flags the hypomanic history (reduced sleep, elevated mood/energy, impulsivity/overspending, several days duration) as a signal to revisit the working diagnosis, not treat it as incidental color",
+        "States explicitly that the working diagnosis should be reconsidered — bipolar II depressive phase versus unipolar MDD — and that this changes the treatment plan materially, not just a footnote",
+        "Names the specific risk of continuing CBT/behavioral-activation-only treatment or an SSRI-only referral if bipolar spectrum is actually present",
+        "Recommends more explicit screening for hypomanic/manic history (episode duration, functional impact, family history) rather than accepting the offhand disclosure at face value",
+        "Names a psychiatry referral or consult as the appropriate next step given the diagnostic uncertainty, not just continuing the current CBT plan unchanged"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "role": "compliance-officer",
+  "scenarios": [
+    {
+      "id": "co-1",
+      "task": "I run BSA/AML at a $2.1B community bank. Our alert engine flagged a small-business checking account: 11 cash deposits over 19 days, each between $8,700 and $9,850, spread across 2 branches, no two on the same day, totaling $101,200. None of them, individually or aggregated same-day, crosses the $10,000 CTR threshold, so my analyst wants to close this as a false positive. Detection date was this past Monday. Do you agree we can close it?",
+      "criteria": [
+        "Explicitly identifies the sub-$10,000 sizing pattern itself as a potential violation of structuring law (31 U.S.C. § 5324), rejecting the 'no CTR triggered, so no issue' disposition as checking the wrong statute",
+        "States that no missed CTR is a data point, not an alibi, and notes the cross-branch/day-spacing itself is consistent with deliberate evasion",
+        "Names the SAR filing deadline as 30 calendar days from the detection date and states or computes the specific due date rather than leaving the clock vague",
+        "Recommends pulling the account's beneficial ownership certification and prior transaction history (12 months) as concrete data, not just 'investigate further'",
+        "Frames this as a SAR filing recommendation, explicitly declining to close the alert as a false positive"
+      ]
+    },
+    {
+      "id": "co-2",
+      "task": "Our new COO wants to streamline reporting lines and is proposing Compliance report through the Head of Consumer Lending instead of directly to the Chief Risk Officer, since Consumer Lending is our biggest compliance workload anyway. He says it'll cut a layer of bureaucracy and speed up fixes. As the CCO, what's my read?",
+      "criteria": [
+        "States plainly that the reporting line is the actual control, not the policy binder, and that compliance reporting through the business unit it monitors dilutes findings before they reach anyone who can fund a fix",
+        "Frames this using the three-lines-of-defense model, naming that Consumer Lending is 1st line and Compliance is 2nd line, and that collapsing the reporting relationship erodes 2nd-line independence",
+        "Notes that examiners/regulators check the org chart before reading a single procedure, i.e. this change itself is examinable",
+        "Asks who would be able to override, delay, or soften a compliance finding before it reaches the board/audit committee under the new structure",
+        "Explicitly recommends against the change or requires a compensating control (e.g., a direct dotted line or veto-proof escalation path to the board) rather than simply going along with the efficiency framing"
+      ]
+    },
+    {
+      "id": "co-3",
+      "task": "Prepping for the audit committee meeting. Good news to report: zero substantiated hotline complaints in the last 12 months, and our AML/BSA training completion rate is 99% company-wide, with most staff finishing the module in under 8 minutes (median module time is normally 20). I want to present both as proof the compliance program is working well. Anything I should reconsider before I present it that way?",
+      "criteria": [
+        "States that a zero-finding record is not evidence the program works and is often evidence nobody tested hard enough, rather than validating the framing as-is",
+        "Flags the hotline rate specifically: notes industry benchmark report rates run ~1.4-2%/year, so zero substantiated complaints suggests employees may not trust the hotline's confidentiality/non-retaliation protections rather than a uniquely clean culture",
+        "Flags the training completion time (under 8 min vs 20 min median) as a click-through/engagement red flag, not a positive metric, and proposes spot-checking a sample of fast-completers on content comprehension",
+        "Recommends presenting both metrics with the underlying testing rigor or lack of it stated plainly to the committee, not softened or presented as unambiguous wins",
+        "Suggests concrete data to pull (hotline volume trend by business unit, anonymous-vs-named ratio, or per-user completion time distribution) rather than a vague 'look into it'"
+      ]
+    },
+    {
+      "id": "co-4",
+      "task": "Our last two exam cycles both cited the same finding: inadequate transaction monitoring coverage for wire transfers over $50K in our correspondent banking unit. Both times we wrote a remediation plan, closed it out, and it came back. The examiners are back in six weeks. How do I approach this differently this time?",
+      "criteria": [
+        "Identifies the recurrence itself as the central signal: the remediation likely fixed the symptom, not the control gap, or was never independently retested before closure",
+        "Explicitly asks who signed off that it was fixed last time and whether anyone outside that person retested it before closure",
+        "Recommends comparing the root-cause statements from both cycles verbatim, noting that identical wording across cycles means the root cause was never actually found",
+        "Rejects defaulting to 'needs more training' as the root cause without first checking whether the control existed, existed and was bypassed, or never existed at all",
+        "Requires an independent retest (someone other than the implementer) before this remediation is marked closed this time, and recommends presenting it to the board/exam team as a self-identified, dated finding rather than downplaying the repeat"
+      ]
+    }
+  ]
+}

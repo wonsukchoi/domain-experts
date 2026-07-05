@@ -1,0 +1,49 @@
+{
+  "role": "logistician",
+  "scenarios": [
+    {
+      "id": "lg-1",
+      "task": "Our DC ships a fast-moving SKU to a regional customer weekly via LTL at $2,400/shipment, transit 4 days +/- 1 day. Weekly demand at that customer: mean 210 units, sigma_d = 55 units. My VP wants to switch to biweekly truckload shipments at $1,650/shipment to cut freight cost — that's over $19K/year in savings just on freight. Should we do it?",
+      "criteria": [
+        "States that order quantity/frequency and safety stock are one joint decision, not two sequential ones — lengthening the interval raises the demand and lead-time exposure per cycle, which raises required safety stock",
+        "Insists on comparing total landed cost (freight plus carrying cost of the resulting cycle and safety stock, plus expected stockout cost), not the freight rate alone",
+        "Recomputes or explicitly calls for recomputing safety stock/cycle stock under the new biweekly interval rather than accepting the freight-only savings figure at face value",
+        "States that the $19K freight-only estimate likely overstates net savings because it ignores the carrying-cost increase from higher average inventory",
+        "Recommends checking at least one more discrete interval option (e.g., a different frequency) rather than assuming biweekly is automatically the optimum, and notes any capacity constraint (e.g., truckload weight limit) that would bound the answer"
+      ]
+    },
+    {
+      "id": "lg-2",
+      "task": "We had a stockout on a top-selling SKU for about 10 days last month. Now that we're recalculating safety stock for it, my analyst wants to use last month's full sales history including the stockout period to compute demand variability, since it's the most recent data we have. Sound right?",
+      "criteria": [
+        "States explicitly that demand observed during a stockout is censored, not zero-adjusted-to-truth, and that raw sales-during-stockout should not feed the variance calculation directly",
+        "Warns that including the censored period will understate true demand variability and produce a confidently wrong (too-small) safety stock buffer",
+        "Recommends excluding or statistically correcting the stockout window before computing sigma_d",
+        "States this would recreate the same stockout it's meant to protect against if left uncorrected",
+        "Notes any one-time promotional spikes in the window should also be flagged/excluded separately from base demand"
+      ]
+    },
+    {
+      "id": "lg-3",
+      "task": "Our Southeast DC's order variance to its supplier has gotten a lot choppier lately — some weeks double the normal order, some weeks almost nothing — even though the DC's own sell-through to retail customers has stayed pretty steady. The supplier thinks our forecasting is broken. What's actually going on and what should we check?",
+      "criteria": [
+        "Names bullwhip amplification as the likely explanation: the DC's order variance to its supplier is much larger than the sell-through variance it's covering",
+        "States the demand series used for a variability/forecasting calculation should come from the echelon closest to true end-customer demand (sell-through), not the DC's own order history to its supplier, which is inflated by batching/reaction",
+        "Recommends explicitly comparing the coefficient of variation (or variance) of order quantities to supplier vs. sell-through/POS data for the same window as the diagnostic",
+        "Identifies batching, forward-buying ahead of a price change, or reacting to the immediate downstream signal as candidate root causes, not 'broken forecasting' at face value",
+        "Distinguishes this from a demand-planning failure — states the forecasting team likely isn't the root cause given sell-through is steady"
+      ]
+    },
+    {
+      "id": "lg-4",
+      "task": "We're evaluating whether to add a 5th regional DC to our network. The consultant's business case is built entirely on projected freight-cost savings from shorter last-mile hauls, showing about $1.2M/year in reduced freight spend against the new DC's fixed costs. Finance is ready to approve based on that NPV. Anything missing?",
+      "criteria": [
+        "Flags that a network-design/DC-count study justified on freight savings alone may be answering the wrong question if a service-level commitment is the actual driver",
+        "States that beyond the 4th-5th DC, added nodes typically trade inventory-carrying cost for marginal transit-time improvement rather than producing meaningful freight savings, so the freight-only case is suspect at this node count",
+        "Explicitly asks whether there's a same-day/next-day or other committed service-level SLA by region that isn't priced into the freight-savings number",
+        "Warns the NPV could come back negative on a pure cost basis and still be the wrong basis for the decision if a service commitment requires the node regardless",
+        "Recommends pulling committed service-level SLAs by region alongside the freight/carrying cost model before finance approves based on freight savings alone"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "role": "graphic-designer",
+  "scenarios": [
+    {
+      "id": "gd-1",
+      "task": "Client is a small coffee roaster moving into 40 grocery stores. They keep asking me to 'make the logo bigger' on the front of the new bag design — this is the third round of feedback on the same point. The logo is already sized per my spec and I tested it at a normal shelf-viewing distance and it reads fine. Should I just make it bigger to stop the back-and-forth, or is there something else going on?",
+      "criteria": [
+        "Treats 'make the logo bigger' as a symptom rather than a literal spec request, and explicitly names diagnosing the unmet need (shelf presence, competitive anxiety, ownership anxiety) before changing anything",
+        "References or recommends a recognition-distance test at the current spec size as evidence rather than assuming the size itself needs to change",
+        "Recommends investigating competitive/shelf context (e.g., a composite mockup against competitor packaging) as the likely actual driver of the request",
+        "Proposes addressing the underlying problem via a non-size fix (e.g., increasing surrounding negative space, reducing competing background elements) rather than literally scaling the mark up again",
+        "Frames this explicitly as a preference-vs-defect triage with evidence, not just complying to end the feedback loop"
+      ]
+    },
+    {
+      "id": "gd-2",
+      "task": "I'm finalizing brand guidelines for a client and building the color palette. Their primary is a warm copper (#B5652D) they love and want to use everywhere including body text on their spec sheets and packaging fine print, background is a cream (#F5F0E6). I checked online and copper on cream comes out to about 3.8:1 contrast. Is that good enough to greenlight for all those uses, or do I need to change something?",
+      "criteria": [
+        "States that 3.8:1 fails the 4.5:1 minimum threshold required for body text, even though it clears the 3:1 threshold for large text/UI components",
+        "Explicitly recommends restricting copper to headline/large-format (naming a size threshold like ≥24px/18pt or the system's equivalent scale step) and decorative use only, never body copy",
+        "Recommends specifying a different color (the primary/darker brand color, not copper) for body text, fine print, and spec-sheet copy rather than lowering the bar or leaving copper in place",
+        "States this needs to be tested against every actual body-copy use case in the file (spec sheets, fine print) rather than approved as a palette-level swatch",
+        "Frames the fix as a measured guideline rule (specific size/use restriction) rather than a vague 'be careful with copper' note"
+      ]
+    },
+    {
+      "id": "gd-3",
+      "task": "I'm handing off a completed brand identity to a print vendor for a run of packaging pouches. I have the logo file, the color values in RGB/hex, and a rough note that says 'keep some space around the logo, don't stretch it.' The vendor is asking for more specifics before they'll quote it. What am I missing here?",
+      "criteria": [
+        "Flags that RGB/hex alone is insufficient for a print vendor — CMYK build values (and Pantone spot values if used) must be specified, since RGB-to-CMYK conversion left uncontrolled is where color shifts happen on press",
+        "Flags that 'keep some space around the logo' is a description, not a measurement, and needs to become a clear-space rule in a self-referential unit (e.g., 1x cap-height), which survives handoff to someone who wasn't in the original conversation",
+        "Flags the missing minimum-size specification (px for digital, in/mm for print) and the lack of bleed/safe-area specs (e.g., 0.125in/3mm defaults, confirmed against this vendor's specific die)",
+        "Recommends a physical print proof on the actual production stock before the full run, rather than trusting an on-screen soft proof",
+        "States the guideline rules should be stated as exact values/measurements the vendor can execute identically, not adjectives like 'clean' or 'some space'"
+      ]
+    },
+    {
+      "id": "gd-4",
+      "task": "Working on a client's type system for their web and print materials. They want one elegant script display face for body copy on printed brochures because 'it looks premium,' and a second different script face for headlines because they liked both fonts and couldn't choose. What's your read on this plan before I build it out?",
+      "criteria": [
+        "Flags that two display/script faces paired together compete for attention rather than establishing a clear display-vs-body contrast — recommends one expressive/display face and one neutral workhorse face instead",
+        "Flags that a script/display face for body copy is a readability risk at length (extended reading), distinct from a legibility problem, and should be reserved for headline/short-text use",
+        "Recommends establishing and locking a modular type scale (a fixed ratio) before finalizing the pairing, rather than picking sizes ad hoc for each use",
+        "States the fix should route through the same preference-vs-defect distinction — clarifies which face choice is a client preference to accommodate and which is a legibility/hierarchy defect to correct with evidence",
+        "Does not simply defer to 'they liked both fonts' as sufficient justification for the pairing as requested"
+      ]
+    }
+  ]
+}

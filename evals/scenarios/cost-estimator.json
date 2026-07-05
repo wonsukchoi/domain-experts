@@ -1,0 +1,49 @@
+{
+  "role": "cost-estimator",
+  "scenarios": [
+    {
+      "id": "ce-1",
+      "task": "Hard-bid, 30,000 SF office build-out, 100% CDs, bid due Wednesday. Plumbing sub bids came in at $185,000, $242,000, $268,000, $295,000, and $410,000. The $185,000 bid is way below the pack and would let us shave our overall number to stay competitive. Can I just carry that number into our bid?",
+      "criteria": [
+        "Flags the ~23-24% gap between the $185K bid and the next-lowest ($242K) as a leveling trigger before it goes anywhere near the estimate, per the >20-25% threshold rule",
+        "States the default assumption should be missing scope, a misread drawing, or a sub buying the job to survive a slow backlog quarter — not simply 'best price'",
+        "Requires a scope-leveling exercise (comparing inclusions/exclusions/qualifications line by line against the drawings) before the number can be used, rather than accepting it outright",
+        "Explains that if leveled scope converges the $185K bid toward the $242K number, that convergence itself confirms $242K is the real market price",
+        "Warns that carrying the unlevel low number risks it resurfacing as a change order or a bonded-sub default risk mid-project"
+      ]
+    },
+    {
+      "id": "ce-2",
+      "task": "Client wants a single number for their new 60,000 SF distribution center so their board can approve funding. We're at schematic design, maybe 10-15% drawings complete. My PM wants me to just say '$14.2M' to keep the conversation simple and avoid confusing the board with ranges. Good idea?",
+      "criteria": [
+        "Explicitly rejects giving a bare single number at ~10-15% design completion, citing that estimate accuracy is a function of design completeness, not estimator skill",
+        "Names the applicable AACE class (Class 4 or 5) and states the accuracy range should be roughly -20%/+30% to -30%/+50%, not omitted",
+        "Warns that a client who hears '$14.2M' will anchor on it regardless of caveats stated afterward — this is the reason to present a range, not a number",
+        "States that the basis of estimate and stated accuracy class must accompany any number delivered, framing it as a non-negotiable part of the deliverable, not a hedge",
+        "Recommends the board be shown a range (e.g., roughly $11.4M-$18.5M) explicitly tied to the design completion percentage"
+      ]
+    },
+    {
+      "id": "ce-3",
+      "task": "Our PM has been approving finish upgrades the owner verbally requested by charging them against our 4% design contingency instead of writing change orders, saying it's easier and the owner is happy either way. We're at 55% of the schedule and contingency is already 70% spent. What's the concern?",
+      "criteria": [
+        "Identifies contingency draw-down (70% spent at 55% progress) outpacing construction progress as the core red flag, not just a budget-tracking nuisance",
+        "States explicitly that contingency is a tracked reserve against named unknowns (differing site conditions, design omissions), not a rounding buffer for scope creep the PM never disclosed",
+        "Requires the PM's draws be broken down by cause code (true unknown vs. owner-requested change) to distinguish real contingency use from misclassified change orders",
+        "States that owner-requested finish upgrades should be processed as change orders, not charged to contingency, regardless of how the owner feels about the informality",
+        "Warns that if a real unknown condition appears later, there will be no reserve left to absorb it because it was silently spent on undisclosed scope creep"
+      ]
+    },
+    {
+      "id": "ce-4",
+      "task": "We're holding a bid for a school renovation that won't get awarded and start construction for another 4 months due to the district's board approval calendar. Steel and copper prices have been volatile this year. My estimate is built entirely on today's material pricing with no adjustment. Is that a problem?",
+      "criteria": [
+        "Flags escalation omission as a specific defect given the bid is held/awarded 90+ days out in a volatile material market, not a minor detail",
+        "Distinguishes escalation (a modeled, priced risk for cost increases between estimate date and construction midpoint) from contingency (scope/quantity unknowns), rather than treating them as interchangeable",
+        "Names specific volatile materials to index (steel, copper) and references a tracking source such as ENR or a producer price index",
+        "States the midpoint-of-construction date is the relevant anchor point for the escalation calculation, not the bid date or award date alone",
+        "Warns that omitting escalation means the GC will either absorb the cost increase silently or have to fight for a change order after the price is already contractually fixed"
+      ]
+    }
+  ]
+}

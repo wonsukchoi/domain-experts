@@ -1,0 +1,45 @@
+{
+  "role": "information-security-analyst",
+  "scenarios": [
+    {
+      "id": "isa-1",
+      "task": "We just had an incident — an employee got 9 MFA push notifications in about 4 minutes and approved the last one, and the attacker got into our VPN with those credentials. We already have MFA enabled everywhere, so I think our controls held reasonably well; we'll just remind employees not to approve prompts they didn't request. Sound reasonable?",
+      "criteria": [
+        "Rejects the 'MFA enabled means MFA effective' framing, explicitly naming push-bombing/MFA fatigue as the technique that defeats push-based MFA",
+        "Recommends a protocol-level fix — number-matching or FIDO2/WebAuthn — rather than relying on user training or a reminder alone",
+        "Insists on scoping from what the compromised credential could reach (assume lateral movement until proven otherwise), not stopping the response at the VPN login itself",
+        "Names this explicitly as the common failure mode of treating 'MFA enabled' and 'MFA effective against this technique' as the same claim"
+      ]
+    },
+    {
+      "id": "isa-2",
+      "task": "Our SOC missed a real intrusion last month because a detection rule that would've caught it had a 96% false-positive rate over the prior quarter and had been switched to log-only to cut noise. Now the team wants to lower alert thresholds across the board on every detection rule to be safe. Is that the right move?",
+      "criteria": [
+        "Rejects blanket threshold-lowering across all rules, naming it as the alert-fatigue overcorrection failure mode that reproduces the original signal-to-noise problem",
+        "Distinguishes the correct direction by case: high-FP-rate rules mapped to a high-severity technique should be retuned and kept live (not silenced to log-only), while high-FP-rate rules mapped to a low-severity technique should be retired or narrowed",
+        "Recommends specifically retuning the rule that missed the intrusion rather than adjusting every rule uniformly",
+        "States that the retune direction depends on both the false-positive rate and the severity of the technique the rule detects, not on FP rate alone"
+      ]
+    },
+    {
+      "id": "isa-3",
+      "task": "We have a large vulnerability backlog. To be efficient and rigorous, I want my team to patch strictly in CVSS-score order, highest score first, across every asset in the environment. That's the most disciplined approach, right?",
+      "criteria": [
+        "Rejects strict CVSS-score-order patching, naming it a generalist mistake dressed up as rigor",
+        "Insists priority should combine score, exposure, and asset criticality (e.g., the same CVSS 10.0 on an internet-facing domain controller and an air-gapped test box are different operational priorities)",
+        "States the exposure-adjusted rule explicitly: internet-facing or Tier-0-adjacent assets move up one SLA tier from their base-score tier regardless of the numeric score",
+        "Gives concrete patch SLA tiers by severity (e.g., critical ~15 days internal / ~7 days exposed, high ~30/15, etc.) as the correct prioritization mechanism instead of raw score order"
+      ]
+    },
+    {
+      "id": "isa-4",
+      "task": "We isolated the workstation where a phishing victim's credentials were used, so I'm calling this incident contained. Separately, we noticed that same local-admin account also has access on our print server and file server — but that's just how we've always set it up, not something urgent to deal with right now.",
+      "criteria": [
+        "Rejects declaring containment complete at 'obvious host isolated' without checking what that host's or account's credentials could reach elsewhere",
+        "Flags the local-admin credential valid across three or more hosts of different trust tiers as a design/trust-relationship gap enabling lateral movement, independent of whether it has actually been exploited",
+        "Recommends enumerating everything the credential could reach and checking telemetry for whether it actually went there, framed as 'assume lateral movement until proven otherwise'",
+        "Rejects 'that's just how we've always set it up' as an acceptable resting state and recommends reviewing admin-group scope organization-wide"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "role": "police-patrol-officer",
+  "scenarios": [
+    {
+      "id": "ppo-1",
+      "task": "Dispatch sends me and my cover officer to a \"domestic disturbance, verbal only\" call at 22:14 — neighbor reported yelling, no weapons mentioned, no injuries reported. It's a code-2 call (no lights/siren). What's my approach and positioning plan before we even knock?",
+      "criteria": [
+        "Has cover officer stage/park short of the address rather than directly in front, naming the disproportionate officer-injury/assault rate on domestic calls relative to other call types as the reason \"verbal only\" isn't treated as low-risk",
+        "Explicitly states dispatch's characterization reflects what the caller heard, not what's happening inside, and treats the call as high-priority regardless of the coded severity",
+        "Specifies a bladed stance and off-hinge-side approach for both officers to avoid the fatal-funnel doorway/window exposure",
+        "Calls for 10-15 seconds of listening before knocking, naming a sudden silence mid-shout as the single highest-value fact to note verbatim",
+        "Splits contact and cover roles explicitly, with the cover officer watching hands/exits rather than the conversation"
+      ]
+    },
+    {
+      "id": "ppo-2",
+      "task": "Traffic stop for a broken taillight. Driver is fidgety, hands keep drifting toward the center console even after I told him to keep them on the wheel — he's done it twice now. He also gave inconsistent answers about where he's coming from, and I can smell a strong air freshener from the window. Do I have enough to search the car, and what do I do right now?",
+      "criteria": [
+        "Distinguishes reasonable suspicion (Terry) from probable cause explicitly, stating the combination of nervousness, inconsistent travel-plan answers, and air-freshener overload can amount to reasonable suspicion in totality even though nervousness alone would not",
+        "States that reasonable suspicion of a weapon justifies only a frisk of outer clothing, not a search of the vehicle interior, unless independent probable cause develops (plain-view contraband, K9 alert, admission, consent)",
+        "Prioritizes the repeated hand movement toward a specific location after being told to keep hands visible as the discriminating officer-safety fact, and calls for stopping the conversation and repositioning before continuing it",
+        "Instructs documenting the exact sequence (told to keep hands visible, reached anyway, twice) rather than a vague \"was reaching around\" characterization for the report",
+        "Distinguishes the original stop justification (equipment violation) from any extension of the stop, noting extension requires independent articulable facts"
+      ]
+    },
+    {
+      "id": "ppo-3",
+      "task": "I just used an escort-position takedown on a domestic battery suspect after he pushed my arm away and turned back toward the residence where the female victim was seated on the floor holding her arm. My sergeant wants the use-of-force narrative in 20 minutes. How should I structure it and what needs to be in there?",
+      "criteria": [
+        "Requires the four-block report structure (dispatch/approach, chronological narrative, force/decision points, disposition) rather than a free-form summary",
+        "Insists every conclusion word (resisted, combative, aggressive) be paired with the specific observed act in the same sentence, giving a concrete rewrite (e.g. subject pushed the extended arm away and turned toward the interior, not \"became combative\")",
+        "Names the specific fact that converted reasonable suspicion into probable cause — the cover officer's direct observation of the injured second party — as the pivotal moment to document with a timestamp",
+        "States the Graham reasonableness analysis is judged at the instant force was used (severity, immediate threat, active resistance) and explicitly rejects justifying it via the force-continuum chart or by an outcome-based narrative",
+        "Recommends noting the applicable primary-aggressor factors observed (comparative injury) rather than anchoring the write-up on who called 911"
+      ]
+    },
+    {
+      "id": "ppo-4",
+      "task": "We're stacked with two calls at once: one is coded a stale property crime (burglary, suspect already gone) and dispatch just relayed an update on my current in-progress domestic call that the male party may have a knife. Also my backup's ETA just came back at 6 minutes and things inside sound like they're escalating. What do I do?",
+      "criteria": [
+        "Explicitly re-prioritizes the domestic call with a possible weapon over the cold property crime, citing the radio-priority ladder (weapon/injury in progress outranks a cold crime report) rather than treating dispatch's original code as fixed",
+        "States that dispatch's initial call code is a starting triage, not a ceiling or floor, and that officers must update their own priority read the moment new facts (the knife mention) come over the air",
+        "Weighs the backup ETA against the escalating situation and raises the explicit question of whether there's an active ongoing injury risk right now versus urgency that is the officer's own, per the red-flag guidance on backup timing",
+        "Recommends repositioning to a position of advantage/cover while waiting rather than making solo contact against an unclear threat, if there's no active injury in progress",
+        "Calls for radioing the specific reason for any decision to act before backup arrives so it's on record in real time, not reconstructed afterward"
+      ]
+    }
+  ]
+}

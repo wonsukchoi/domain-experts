@@ -1,0 +1,49 @@
+{
+  "role": "electrician",
+  "scenarios": [
+    {
+      "id": "elec-1",
+      "task": "Homeowner wants to add a primary-suite addition (400 sq ft, bringing the house to 2,200 sq ft total) plus a 50A/240V Level 2 EV charger circuit. Existing service is 150A. House has a 12kW electric range, 5kW electric dryer, and a heat pump with 10kW electric strip backup heat. There's an open slot in the panel for the new EV breaker. Can I just add the EV charger and the addition wiring on the existing 150A service since there's room in the panel?",
+      "criteria": [
+        "States explicitly that an open breaker slot says nothing about available capacity — the actual constraint is a full-house load calculation, not panel slot count",
+        "Runs or describes a full-house NEC standard-method load calculation (not just the new addition in isolation) including general lighting/demand factors, fixed appliances, range, dryer, HVAC (non-coincident, larger of compressor vs strip heat), and the EV charger sized at 125% as a continuous load",
+        "Arrives at a total demand that exceeds the existing 150A main breaker (roughly 175A) and concludes the service must be upgraded before the new circuits are energized, not deferred or 'monitored for now'",
+        "Recommends sizing the upgraded service with headroom above calculated demand (e.g., to 200A) rather than exactly to the calculated number",
+        "Does not treat this as safe just because nothing has tripped yet or because the addition itself is 'small'"
+      ]
+    },
+    {
+      "id": "elec-2",
+      "task": "Callback: a 20A kitchen small-appliance circuit trips the instant I reset the breaker, before anything is even plugged in. Homeowner says it just started happening yesterday, no burning smell, nothing obviously melted. My first instinct is to bump it to a 30A breaker on the same wire since 20A clearly isn't enough headroom anymore — good move?",
+      "criteria": [
+        "Explicitly rejects upsizing the breaker as the fix, naming it as one of the most dangerous shortcuts in the trade because it converts a wiring fault into a fire risk rather than fixing anything",
+        "Classifies the trip as an instant/magnetic trip (occurring before any load draws) meaning a short or ground fault in wiring or a device, not an overload — distinct from a thermal trip after minutes under load",
+        "Recommends the verify-dead sequence (lockout/tagout, then test-known-live-test with a meter) before opening any device or splice, not troubleshooting from memory of which breaker feeds the circuit",
+        "Recommends half-split troubleshooting — isolating the electrical midpoint of the run and testing hot-to-neutral/hot-to-ground on each half — rather than a linear walk from the panel to the last outlet",
+        "Recommends disconnecting all loads/devices first and reset with the circuit empty to determine if the fault is in the wiring itself versus a specific downstream device"
+      ]
+    },
+    {
+      "id": "elec-3",
+      "task": "I'm running a subpanel feeder to a detached garage — 60A breaker, about 80 feet one-way, 6 AWG copper THWN in conduit, three current-carrying conductors. The manufacturer's chart lists 6 AWG at up to 75A in some tables, and the inspector on my last job in a different town told me voltage drop over 3% was a straight code violation. Should I cite that 3% rule to this new inspector if they push back, and is 6 AWG fine here?",
+      "criteria": [
+        "States that ampacity must be selected from the correct temperature column based on termination rating (typically 60°C unless every termination is listed for 75°C), not just quoting the highest number off a manufacturer's chart",
+        "Computes or describes the voltage drop calculation for this specific run (using the actual length, conductor size, and estimated load) rather than treating a table ampacity rating alone as sufficient",
+        "States explicitly that the 3%/5% voltage-drop threshold is an informational-note guideline in most jurisdictions, not a code mandate, and should not be cited to an inspector as a violation unless the local AHJ has specifically adopted it",
+        "Recommends confirming the ampacity/derating with conduit-fill and ambient-temperature adjustment factors (Table 310.15) rather than the free-air or chart number alone",
+        "Notes that an inspector's field ruling on this district governs this job regardless of what a stricter or looser reading elsewhere would say, and recommends documenting the ruling if it differs from expectation"
+      ]
+    },
+    {
+      "id": "elec-4",
+      "task": "I'm mid-job insulating an attic for a client — just adding blown-in insulation, nothing structural. While up there I found what looks like old cloth-wrapped wiring on ceramic knobs running through the joists, still apparently connected to something. The client just wants the insulation job done quickly and doesn't want scope creep or extra cost. Can I just insulate around it carefully and finish the job as scoped?",
+      "criteria": [
+        "Identifies this as knob-and-tube wiring and explicitly treats it as a stop-and-disclose event, not a continue-and-note-it-later situation",
+        "States the specific hazard: knob-and-tube has no equipment ground and cannot legally be in contact with insulation, which the insulation scope would otherwise do",
+        "Recommends confirming live/dead status (tracing the circuit back to the panel) before any further insulation work proceeds in that area",
+        "Recommends disclosing the finding to the client in writing, with the cost and safety consequence of remediating versus not, before continuing — not quietly absorbing or ignoring the scope change",
+        "Does not recommend a full-house rewire as an automatic mandate — frames the immediate decision as addressing this specific area/circuit before the insulation scope can proceed there"
+      ]
+    }
+  ]
+}

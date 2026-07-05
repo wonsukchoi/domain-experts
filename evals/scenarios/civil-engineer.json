@@ -1,0 +1,49 @@
+{
+  "role": "civil-engineer",
+  "scenarios": [
+    {
+      "id": "cve-1",
+      "task": "I'm the developer on a 3.2-acre commercial site. Our civil engineer's report shows Detention Basin DB-1 needs 8,780 ft³ and we're providing 8,800 ft³ — basically exact. The contractor says we could shrink the pond footprint by 15% and still 'technically meet the requirement on paper' after rounding, saving about $30K in excavation. Can we just make that change and move on?",
+      "criteria": [
+        "Flags the near-exact 8,780 vs 8,800 ft³ margin (~0.2%) itself as a red flag worth double-checking (units/duration/area error or a genuinely tight design), not just accepting the report at face value",
+        "Rejects the proposed 15% reduction by default because it targets real margin without new hydrology or geotechnical support, explicitly naming this as removing slack that was absorbing debris blockage, sedimentation, or grading tolerance",
+        "Explicitly demands new supporting data (revised hydrology, updated tributary area, or new boring data) as the only valid justification, not 'it still meets capacity on paper'",
+        "States what would need to change to approve it: freeboard, FS, or emergency-event capacity impact stated explicitly, plus owner's written acceptance where a margin is reduced",
+        "Distinguishes genuine value engineering (cheaper way to meet the same performance target) from cutting the requirement itself"
+      ]
+    },
+    {
+      "id": "cve-2",
+      "task": "Foundation design for an interior column footing: structural load takeoff is DL+LL = 165 kips. Geotech report lists net allowable bearing pressure qa = 2,500 psf, and separately mentions qult ≈ 7,500 psf. Our junior engineer sized a 6'x6' footing based on a similar footing from our last project and wants to also apply an extra 1.5 safety factor on top 'to be extra safe' before we finalize. Sound right?",
+      "criteria": [
+        "Rejects applying a second FS on top of qa, explicitly stating qa already has the report's FS (here implicitly ~3.0, since qult/qa ≈ 3.0) baked in, and that comparing actual pressure to allowable should happen once",
+        "Computes the 6'x6' footing's actual bearing pressure (165,000 lb / 36 ft² = 4,583 psf) and flags it as exceeding qa by roughly 83%, rejecting the reused footing size",
+        "Resizes the footing (e.g. to approximately 9'x9') and recomputes bearing pressure against qa, landing near or under 2,500 psf",
+        "States the resulting effective FS (qult/actual pressure) as a number and checks it against the 2.5–3.0 target range rather than leaving it unstated",
+        "Names 'don't reuse a footing size from a past project' as the specific error, i.e. sizing must trace to this site's own geotech report and this structural engineer's current load takeoff"
+      ]
+    },
+    {
+      "id": "cve-3",
+      "task": "Same 3.2-acre site: pre-development C=0.30, post-development C=0.85, area 3.2 ac. Pre-dev tc=20 min at i=6.0 in/hr; post-dev tc=10 min at i=7.5 in/hr. My junior calculated pre-dev peak 5.76 cfs and post-dev peak 20.4 cfs, then sized the pond as (20.4-5.76) cfs times the storm duration to get the storage volume. Ordinance requires post-development peak ≤ pre-development peak for the 10-yr storm. Does this storage number look right to size the basin?",
+      "criteria": [
+        "Explicitly names the ΔQ-times-duration approach as the naive/wrong method because it ignores that inflow and outflow are both time-varying, not constant — flags this as a known failure mode of undersizing storage",
+        "Recomputes required storage using a triangular-hydrograph approach with base = 2×tc (here 20 min / 0.333 hr) and gets to approximately 8,780 ft³ (0.5 × (20.4−5.76) × 0.333 × 3600)",
+        "States the allowable release rate is the pre-development peak of 5.76 cfs, tying it explicitly to the ordinance requirement rather than an arbitrary number",
+        "Requires the freeboard (1 ft above the routed 100-yr WSEL) and a separately sized emergency spillway for the 100-yr event as necessary parts of the design, not just the storage volume",
+        "Notes that the rational method gives a peak flow, not a hydrograph shape, and that using it directly to size a pond without a hydrograph correction undersizes storage"
+      ]
+    },
+    {
+      "id": "cve-4",
+      "task": "We're mid-construction on the storm pipe (Detail 6, drawing C-401). The superintendent called our field engineer and got verbal approval to switch the pipe bedding material because groundwater showed up 3 ft shallower than the boring log indicated, and construction proceeded on that verbal instruction with no written response yet. Separately, I noticed our drawings cite only the base IBC edition with no mention of any local wind or flood amendment. Is there anything I should be worried about here?",
+      "criteria": [
+        "States that a verbal field instruction is legally invisible the moment an outcome is disputed, and explicitly requires a written, dated, drawing/detail-referenced RFI response before/regardless of construction having proceeded",
+        "Requires the RFI response to name the specific drawing/detail and the scope boundary (e.g. a specific station range), not a blanket change to 'the project'",
+        "Flags the shallower-than-expected groundwater as requiring cross-check against the boring log's assumption (dry vs. submerged bearing/settlement condition), not just a bedding-material swap",
+        "Flags the missing local code amendment citation on the drawings as a red flag, stating that jurisdictions amend upward far more often than downward and that the more restrictive value governs absent an explicit ordinance statement otherwise",
+        "Requires record drawings to be updated to reflect the as-built bedding change once resolved, distinguishing this from the original stamped set"
+      ]
+    }
+  ]
+}

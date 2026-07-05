@@ -1,0 +1,49 @@
+{
+  "role": "social-community-service-manager",
+  "scenarios": [
+    {
+      "id": "scsm-1",
+      "task": "I direct programs at a $3.8M nonprofit running adult behavioral-health case management and a food-security program. A corporate foundation just offered us $220,000/year for 3 years to launch a senior fall-prevention and home-safety-assessment program for adults 65+ — a population and service type we've never worked with. Indirect capped at 10%, matching our de minimis rate. My ED is excited about the funder relationship. Should we take it?",
+      "criteria": [
+        "Explicitly runs a mission-fit/theory-of-change check: does this extend an existing program line, or does it require standing up a new one with its own staff, systems, and referral relationships (seniors/fall-prevention is new territory)",
+        "Prices the true fully-loaded cost (direct staffing, specialized training/equipment, supervision) before applying the funder's cap, rather than assuming the matching indirect rate means no shortfall",
+        "Checks whether the true cost fits inside the $220,000/year minus 10% indirect, and flags any shortfall in dollar terms rather than a vague 'might be tight'",
+        "States the default per the decision framework: decline or substantially modify unless it clearly fits an existing program, since accepting as-is either creates a de facto new program line with its own overhead ask or produces mission drift",
+        "Proposes a concrete alternative to a flat accept/decline (e.g., counter-proposal for a higher award, phased rollout, or explicit decline) rather than deferring entirely to the ED's enthusiasm"
+      ]
+    },
+    {
+      "id": "scsm-2",
+      "task": "Our HUD Continuum of Care grant caps administrative/indirect recovery at 7% of the award. Our actual negotiated indirect rate is 12%. The CoC award is $1.1M this year. Our CFO says since the grant technically 'covers admin costs,' we're fine and don't need to do anything differently. Is that right?",
+      "criteria": [
+        "States the CoC's 7% cap (24 CFR 578.63) is below the organization's real 12% overhead rate, and names the specific gap: 5 percentage points of $1.1M, roughly $55,000",
+        "States explicitly that this gap does not disappear — it lands on unrestricted dollars or gets quietly absorbed by underpaid infrastructure, contradicting the CFO's 'we're fine' framing",
+        "Applies the heuristic: fund the gap from unrestricted dollars unless unrestricted reserves are below ~3 months of unrestricted operating expense, in which case real overhead capacity has to be cut instead of assumed away",
+        "Recommends checking whether the org's indirect rate election (de minimis vs. NICRA) has been revisited since the first year, since a stale election miscalculates the true gap",
+        "Recommends this be reviewed with the board finance committee on a quarterly cycle rather than surfacing only at annual audit"
+      ]
+    },
+    {
+      "id": "scsm-3",
+      "task": "Our rapid re-housing case managers have been carrying 34 cases each against a staffing-model target of 22 for the last four months, since we lost two case managers and haven't backfilled. Everyone's stressed but the team says they're managing. Do we need to do anything before it becomes a bigger problem?",
+      "criteria": [
+        "Computes or flags the ratio (34/22 ≈ 1.55x) as above the ~1.4x threshold for a full quarter, triggering a hiring-or-redesign conversation per the decision heuristic, not accepting 'the team will manage'",
+        "States what erodes first above this threshold: documentation quality and safety-critical follow-up, before morale visibly does",
+        "Frames caseload for front-line staff in concrete numbers (e.g., naming how far over target specific case managers are) rather than administrative language",
+        "Connects this to the turnover-as-a-budget-line principle: since case-management turnover commonly runs 40%+ annually, the staffing model needs to price in a realistic vacancy rate rather than treating the current gap as temporary",
+        "Recommends escalating to a specific hiring or scope-reduction decision, not just monitoring the situation further"
+      ]
+    },
+    {
+      "id": "scsm-4",
+      "task": "We were just awarded a $400,000/year state grant for a new outpatient program, paid on a cost-reimbursement basis. We're excited to finally have the funding secured and are already committing to hire 4 new staff starting next month using this as the funding source. Anything to flag before we move forward?",
+      "criteria": [
+        "States plainly that a reimbursement-basis grant pays after money is spent, not before — the signed award is not cash-on-hand, it's a drawdown schedule",
+        "Warns that treating the award as cash available now (to hire 4 staff immediately) is the most common way a program with a healthy budget still misses payroll",
+        "States this is a financing decision: the agency needs its own working capital or line of credit to bridge the reimbursement lag, not just a paperwork timing issue",
+        "Recommends confirming the drawdown/billing cadence and cash reserve or credit line actually covers the lag before staff start dates are committed",
+        "Recommends escalating internally if more than 45 days into a billing period passes without a submitted drawdown request, per the decision heuristic, framing a late draw as a self-inflicted cash crisis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "role": "bookkeeping-accounting-clerk",
+  "scenarios": [
+    {
+      "id": "bac-1",
+      "task": "I'm closing April for our operating account. Bank statement balance 4/30 is $54,812.60. Outstanding checks total $2,940.00 and there's a $1,600.00 deposit in transit from 4/29. That gives an adjusted bank balance. Our GL cash balance is $53,614.10, and I know about a $38.00 bank fee not yet recorded, but after that there's still a $260.50 gap I can't explain — can I just book it as a misc adjustment so we can lock the period?",
+      "criteria": [
+        "Calculates the adjusted bank balance explicitly (54,812.60 − 2,940.00 + 1,600.00 = 53,472.60) and the adjusted book balance before the fee (53,614.10 − 38.00 = 53,576.10), identifying the $260.50 gap",
+        "Explicitly rejects booking the $260.50 as a misc/suspense adjustment, naming that plugging a difference hides the error inside next period's opening balance rather than resolving it",
+        "States that the size of the gap doesn't matter and the required action is identical regardless of amount — find the specific transaction, not adjust until it balances",
+        "Directs a chase protocol: recheck prior month's carried-forward outstanding items, re-pull bank transaction detail line-by-line, and specifically check the bank feed's excluded/for-review queue for a transaction an auto-match rule skipped",
+        "Notes the $25 threshold: only escalate for a documented write-off if unresolved after a real search and under $25 — $260.50 does not qualify and the close should not proceed to lock with a plug"
+      ]
+    },
+    {
+      "id": "bac-2",
+      "task": "PO #7702 to our packaging vendor was for 1,200 units of cups @ $0.62 each = $744.00. The receiving report shows only 1,140 units actually received. The vendor's invoice bills all 1,200 units, but at $0.68 each = $816.00. This is a vendor we've used for over two years. Accounting wants to know if we can just pay the invoice since the math on it is correct.",
+      "criteria": [
+        "States that arithmetic correctness of the invoice alone doesn't authorize payment, and explicitly compares all three documents (PO, receiving report, invoice) independently rather than re-adding the invoice",
+        "Computes the approved-to-pay amount as received quantity × PO price: 1,140 × $0.62 = $706.80, not the $816.00 billed",
+        "Identifies two distinct discrepancies — a 60-unit short-ship and an unapproved $0.06/unit price increase — and treats them as separate open questions rather than one rounding gap",
+        "Since the variance ($109.20 total, well above the ~2%/$50 de minimis) exceeds the self-approval threshold, routes the quantity variance to purchasing/receiving and the price variance to whoever holds vendor pricing authority, rather than short-paying unilaterally",
+        "Recommends holding payment pending resolution rather than paying in full, and frames the vendor communication as factual (quantities/prices from PO and receiving report) rather than accusatory"
+      ]
+    },
+    {
+      "id": "bac-3",
+      "task": "We're a QuickBooks Online multi-location business with Class tracking. I just noticed our recurring monthly $1,400 equipment maintenance contract has been posting to 'Loc 1' since it was set up in January, but the equipment actually lives at our Loc 3 warehouse — nobody caught it until Loc 3's manager asked why their equipment costs look understated. It's now May, so that's four months (Jan–Apr) posted wrong. Do I just fix this month going forward?",
+      "criteria": [
+        "Rejects fixing only the current/going-forward month, explicitly noting all four months (Jan–Apr, $5,600 total) posted in the same wrong direction and the template itself is still broken",
+        "Recommends reclassing each of the four months individually with its own dated entry/memo rather than netting them into a single lump entry, so the audit trail shows each period's original error and correction",
+        "Identifies this as a reclass (moves the amount between Class dimensions, no net income or cash impact) rather than an adjusting journal entry, since it's a coding/location error not a real economic change",
+        "Explicitly states the underlying recurring template's Class field must be corrected at the source, not just the postings, so May doesn't repeat the same error",
+        "Frames the manager communication in plain language about what the correction does to their monthly numbers (Loc 1's costs increase, Loc 3's costs decrease) without generic GL jargon, consistent with the report that started the manager's own P&L looked wrong"
+      ]
+    },
+    {
+      "id": "bac-4",
+      "task": "At April close, our AP aging subledger total is $61,215.00 but the AP control account in the GL shows $61,890.00 — a $675.00 variance. Someone mentioned a vendor issued us a credit memo for $675 last week related to a return. Can I just note the variance as 'timing' and move on to lock the period?",
+      "criteria": [
+        "Rejects labeling the $675.00 variance as 'timing' without tracing it to a specific document, noting the amount matching the mentioned credit memo is a lead to investigate, not proof of the cause",
+        "Investigates whether the $675 credit memo was posted directly to the GL control account instead of through the AP subledger, naming that as the mechanism that breaks the subledger-to-control tie-out",
+        "States the corrective action is entering the credit memo in the subledger itself (not adjusting the GL further) so the subledger total and control balance agree",
+        "Notes this variance must be investigated and resolved before the period locks, not carried forward to the next period",
+        "Flags to the controller in one line combining the number, account, and root cause (e.g. a direct-JE credit memo bypassing the AP subledger) rather than a vague note that it's a timing difference"
+      ]
+    }
+  ]
+}
