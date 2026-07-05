@@ -25,6 +25,11 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 | Product Manager | [`roles/product-manager/SKILL.md`](./roles/product-manager/SKILL.md) |
 | Financial Analyst | [`roles/financial-analyst/SKILL.md`](./roles/financial-analyst/SKILL.md) |
 | UX Designer | [`roles/ux-designer/SKILL.md`](./roles/ux-designer/SKILL.md) |
+| Lawyer (Contracts / Commercial) | [`roles/lawyer-contracts/SKILL.md`](./roles/lawyer-contracts/SKILL.md) |
+| Marketing Strategist | [`roles/marketing-strategist/SKILL.md`](./roles/marketing-strategist/SKILL.md) |
+| Sales Account Executive (B2B) | [`roles/sales-account-executive/SKILL.md`](./roles/sales-account-executive/SKILL.md) |
+| Data Scientist | [`roles/data-scientist/SKILL.md`](./roles/data-scientist/SKILL.md) |
+| HR / People Manager | [`roles/hr-people-manager/SKILL.md`](./roles/hr-people-manager/SKILL.md) |
 
 ## Using a role with an agent
 
