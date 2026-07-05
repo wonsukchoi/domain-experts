@@ -23,6 +23,80 @@ The full quality bar, per-section spec, and LLM drafting pipeline live in [`AUTH
 - [ ] `python3 scripts/lint_roles.py <slug>` passes
 - [ ] `generate_roadmap.py` re-run
 
+
+## Exact recipe for adding a role (follow verbatim)
+
+Written so precisely that an AI assistant can execute it without judgment calls. Replace `<slug>` with the kebab-case role name everywhere (e.g. `actuary`).
+
+**Step 0 — pick and verify the role is uncovered:**
+```sh
+npx domain-experts search <keyword>        # must return no existing match
+grep -i "<role name>" ROADMAP.md           # note the O*NET-SOC code if listed
+```
+
+**Step 1 — create exactly these four files** (no more, no fewer, unless AUTHORING.md's naming rule says `artifacts.md` fits better than `playbook.md`):
+```
+roles/<slug>/SKILL.md
+roles/<slug>/references/playbook.md      # OR artifacts.md — playbook if the role executes processes, artifacts if it produces documents/models
+roles/<slug>/references/red-flags.md
+roles/<slug>/references/vocabulary.md
+```
+
+**Step 2 — SKILL.md frontmatter, exactly this shape** (every field required except `onet_soc_code`):
+```yaml
+---
+name: <slug>                  # MUST equal the directory name exactly
+description: Use when a task needs the judgment of a <Role Title> — <task 1>, <task 2>, <task 3>, or <task 4>.
+metadata:
+  category: engineering | product | design | finance | legal | marketing | sales | operations | healthcare | other   # pick ONE
+  maturity: draft             # unless a practitioner wrote/reviewed it
+  spec: 2                     # always 2 for new roles — CI rejects anything else
+  onet_soc_code: "XX-XXXX.XX" # only if it maps to a ROADMAP.md row; otherwise omit the line
+---
+```
+
+**Step 3 — SKILL.md body**: all ten `## ` sections from TEMPLATE.md, in order: Identity, First-principles core, Mental models & heuristics, Decision framework, Tools & methods, Communication style, Common failure modes, Worked example, Going deeper, Sources. Hard rules the lint and reviewers enforce:
+- Each idea appears exactly ONCE in the whole file (the dedup rule — never restate a principle as a heuristic and again as a framework step).
+- Heuristics use the form "when X, default to Y unless Z".
+- The Worked example contains real numbers that arithmetically reconcile and ends with the actual deliverable quoted (the memo/redline/readout itself, not a description of it).
+- Going deeper links each references/ file with a relative link: `[references/red-flags.md](references/red-flags.md)`.
+- Banned everywhere: "responsible for", "stakeholders" (unqualified), "leverage" (verb), "utilize", "it's important to", "best practices" (unqualified), "ensure alignment", "drive value", "various", "effectively", "holistic", adjectives where numbers belong.
+- Regulated role (law/medicine/financial advice/tax/safety)? Add the disclaimer blockquote right after the H1 — copy the pattern from `roles/lawyer-contracts/SKILL.md`.
+
+**Step 4 — references/ files, exact per-entry formats:**
+
+`red-flags.md` — 7 to 14 entries, each exactly:
+```markdown
+### <Signal, with a numeric threshold where one exists>
+- **Usually means:** <likeliest cause, then second most likely>
+- **First question:** <the one question a veteran asks first>
+- **Data to pull:** <specific report / query / document>
+```
+
+`vocabulary.md` — 8 to 17 terms a generalist misuses, each exactly:
+```markdown
+### <Term>
+<1-2 sentence definition.>
+**In use:** "<a sentence a practitioner would actually say>"
+**Common misuse:** <what generalists get wrong>
+```
+
+`playbook.md` / `artifacts.md` — filled examples only, never descriptions of examples: real table structures with plausible numbers, step sequences with thresholds, fallback positions in preference order. Test: could an agent execute or populate it as-is?
+
+**Step 5 — validate and register, in THIS order** (order matters — the roadmap script only counts git-tracked roles):
+```sh
+git add roles/<slug>
+python3 scripts/lint_roles.py <slug>       # repeat until "0 errors"
+python3 scripts/generate_roadmap.py        # regenerates ROADMAP.md, README counts, data/roles.json
+git add -A
+```
+
+**Step 6 — self-score** against AUTHORING.md's 9-criterion rubric. Ship bar: **>=14/18 with no zeros**. Below bar: fix or don't submit — an unfilled slot is recoverable, a generic role poisons trust.
+
+**Step 7 — PR** titled `role: add <role name>`, with the rubric score (`rubric: N/18`) and named sources in the description. The PR template walks the rest.
+
+**Definition of done:** lint 0 errors · roadmap regenerated · rubric >=14 declared · sources named · (regulated only) disclaimer present.
+
 ## Improving an existing role
 
 Same spec. Highest-value improvements, in order: practitioner corrections to wrong/outdated heuristics, deepening a worked example with real numbers, adding missing red-flag thresholds, upgrading pre-`references/` roles to the current layout.

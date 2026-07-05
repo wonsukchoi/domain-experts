@@ -144,7 +144,35 @@ Every role follows the same contract, enforced by spec and CI:
 4. **Provenance** — sources are named; specific numbers trace to them or are labeled as stated heuristics. Regulated roles (law, medicine, finance) carry explicit disclaimers.
 5. **O*NET backbone** — coverage tracks the U.S. Department of Labor's occupation taxonomy (1,016 occupations), so growth is systematic, not whatever seemed interesting that week.
 
-Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md). The counterfactual test has a measuring harness in [`evals/`](./evals/) — blind-judged skill-vs-baseline scenarios per role. Latest sweep (2026-07-06, Haiku 4.5 answering, Sonnet 5 judging blind): **skill wins 13/15 scenarios** (1 tie, 1 loss), hitting 72% of expert-behavior criteria vs the generalist baseline's 37%. A second harness, [`evals/parity/`](./evals/parity/), pits skill answers against real practitioners' accepted answers from Stack Exchange, blind: first sweep, the skill answer won 5 of 8 head-to-head (small sample — question sets are growing).
+Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md).
+
+## How we verify — transparent, no trust required
+
+"Written by experts" is a claim; this repo ships the receipts instead. Four independent layers, all runnable by anyone from this checkout:
+
+```
+ layer 1  SOURCING      every threshold traces to a named practitioner
+ (input)                source (books, standards, postmortems) or is
+                        labeled a stated heuristic — see each role's
+                        Sources section
+ layer 2  MECHANICAL    scripts/lint_roles.py on every PR: schema,
+ (CI)                   required sections, references/ trio, banned
+                        filler phrases, real numbers in the worked
+                        example — generic text fails the build
+ layer 3  COUNTERFACTUAL evals/: same model answers the same scenario
+ (measured)             with and without the role, blind judge scores
+                        observable expert behaviors in random A/B order
+ layer 4  PARITY        evals/parity/: skill answers real questions that
+ (measured)             real practitioners already answered publicly —
+                        blind judge compares head-to-head
+```
+
+Latest published runs (2026-07-06, Haiku 4.5 answering, Sonnet 5 judging blind, both harnesses):
+
+- **Counterfactual:** skill wins **13/15 scenarios** (1 tie, 1 loss) — 72% of expert-behavior criteria hit vs the generalist baseline's 37%.
+- **Parity vs humans:** skill answer preferred over the real practitioner's accepted Stack Exchange answer in **5 of 8** blind head-to-heads (small sample; question sets are growing — treat as a smoke signal, not a study).
+
+Every result is reproducible: `python3 evals/run_evals.py` and `python3 evals/parity/run_parity.py`. When a role fails these, that's public too — the point is measurement, not marketing. Practitioner review remains the gold star on top (`metadata.maturity`), but the trust floor is measured, not vouched.
 
 ## Current roles
 
@@ -226,9 +254,17 @@ The npm package snapshots the role library at each release. For the unreleased b
 
 [`ROADMAP.md`](./ROADMAP.md) is the master backlog — all 1,016 O*NET occupations, grouped by category, checked off as they're drafted. Use it to find an uncovered role instead of guessing what's missing.
 
-## Contributing
+## Contributing — this repo compounds
 
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md). Short version: pick a role (new or existing), write it to the [`AUTHORING.md`](./AUTHORING.md) spec, open a PR — the lint tells you if the structure falls short before a human ever reviews it. Practitioners with real experience in a role are the most valuable contributors this project can have: if the content fights your reality, your correction wins.
+Every role added makes the router smarter, every correction reaches every user on the next release, and every eval question makes the quality bar harder to fake. A prompt you write for yourself dies with your session; a role you contribute here works for everyone, forever, and keeps improving after you leave. That's the whole bet: **1,016 occupations is not a solo project — it's a commons.**
+
+Three ways in, any skill level:
+
+1. **You work in a role we cover?** Read it. Anything wrong is a 2-minute [practitioner-correction issue](../../issues/new/choose) — the single most valuable contribution this project can receive. No PR skills needed.
+2. **You want to write or upgrade a role?** Follow the exact recipe in [`CONTRIBUTING.md`](./CONTRIBUTING.md) — it's written so precisely that an LLM can execute it, so you and your AI assistant can do it together. The lint tells you if the structure falls short before any human reviews it. 42 legacy roles are [claimable right now](../../issues/1).
+3. **You can't write but can find?** Harvest parity questions (`evals/parity/harvest_stackexchange.py`) or file a [role request](../../issues/new/choose) with the tasks you'd delegate to it.
+
+If the spec fights a practitioner's reality, the spec loses — say so in your PR and we fix the spec.
 
 ## License
 
