@@ -8,6 +8,8 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Progress: 15 / 1016 O*NET occupations drafted.**
 
+<!-- CHECKLIST START -->
+
 <details>
 <summary><strong>11 — Management</strong> (6/59 drafted)</summary>
 
@@ -1208,15 +1210,17 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 </details>
 
+<!-- CHECKLIST END -->
+
 ## Roles outside this list
 
 Some roles already in this repo don't map cleanly to a single O*NET occupation — either because O*NET's granularity is coarser (a whole occupation covers what industry practice splits into several distinct roles) or because the role is a newer specialization O*NET hasn't caught up to yet:
 
 | Repo role | Why it's not mapped |
 |---|---|
-| [`product-manager`](./roles/product-manager/SKILL.md) | No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link. |
-| [`devops-sre`](./roles/devops-sre/SKILL.md) | Site Reliability Engineering is a post-O*NET-taxonomy specialization within `15-1244.00`/`15-1241.00`-type titles; no distinct SOC code exists. |
 | [`customer-success-manager`](./roles/customer-success-manager/SKILL.md) | A SaaS-era role that doesn't fit the closest O*NET candidates (`43-4051.00` Customer Service Representatives is too junior/generic). |
+| [`devops-sre`](./roles/devops-sre/SKILL.md) | Site Reliability Engineering is a post-O*NET-taxonomy specialization within `15-1244.00`/`15-1241.00`-type titles; no distinct SOC code exists. |
+| [`product-manager`](./roles/product-manager/SKILL.md) | No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link. |
 | [`technical-recruiter`](./roles/technical-recruiter/SKILL.md) | Falls inside the broader `13-1071.00` Human Resources Specialists occupation rather than having its own code. |
 
 ## Beyond O*NET

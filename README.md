@@ -19,27 +19,23 @@ Each role is written as a self-contained **skill file** (`SKILL.md`) that an AI 
 
 ## Current roles
 
-| Role | Path |
-|---|---|
-| Software Engineer (Backend) | [`roles/software-engineer/SKILL.md`](./roles/software-engineer/SKILL.md) |
-| Product Manager | [`roles/product-manager/SKILL.md`](./roles/product-manager/SKILL.md) |
-| Financial Analyst | [`roles/financial-analyst/SKILL.md`](./roles/financial-analyst/SKILL.md) |
-| UX Designer | [`roles/ux-designer/SKILL.md`](./roles/ux-designer/SKILL.md) |
-| Lawyer (Contracts / Commercial) | [`roles/lawyer-contracts/SKILL.md`](./roles/lawyer-contracts/SKILL.md) |
-| Marketing Strategist | [`roles/marketing-strategist/SKILL.md`](./roles/marketing-strategist/SKILL.md) |
-| Sales Account Executive (B2B) | [`roles/sales-account-executive/SKILL.md`](./roles/sales-account-executive/SKILL.md) |
-| Data Scientist | [`roles/data-scientist/SKILL.md`](./roles/data-scientist/SKILL.md) |
-| HR / People Manager | [`roles/hr-people-manager/SKILL.md`](./roles/hr-people-manager/SKILL.md) |
-| DevOps / Site Reliability Engineer | [`roles/devops-sre/SKILL.md`](./roles/devops-sre/SKILL.md) |
-| Customer Success Manager | [`roles/customer-success-manager/SKILL.md`](./roles/customer-success-manager/SKILL.md) |
-| Accountant / Financial Controller | [`roles/accountant-controller/SKILL.md`](./roles/accountant-controller/SKILL.md) |
-| Technical Recruiter | [`roles/technical-recruiter/SKILL.md`](./roles/technical-recruiter/SKILL.md) |
-| Physician (Clinical Reasoning) | [`roles/physician-clinical-reasoning/SKILL.md`](./roles/physician-clinical-reasoning/SKILL.md) |
-| Chief Executive (CEO) | [`roles/chief-executive/SKILL.md`](./roles/chief-executive/SKILL.md) |
-| Chief Sustainability Officer | [`roles/chief-sustainability-officer/SKILL.md`](./roles/chief-sustainability-officer/SKILL.md) |
-| General and Operations Manager | [`roles/general-operations-manager/SKILL.md`](./roles/general-operations-manager/SKILL.md) |
-| Legislator | [`roles/legislator/SKILL.md`](./roles/legislator/SKILL.md) |
-| Advertising and Promotions Manager | [`roles/advertising-promotions-manager/SKILL.md`](./roles/advertising-promotions-manager/SKILL.md) |
+<!-- ROLE_COUNTS_START -->
+**19 roles drafted** (15 mapped to an O*NET occupation, 4 custom), across 9 categories:
+
+- **design**: 1
+- **engineering**: 3
+- **finance**: 2
+- **healthcare**: 1
+- **legal**: 1
+- **marketing**: 2
+- **operations**: 6
+- **product**: 1
+- **sales**: 2
+
+Browse all roles in [`roles/`](./roles/), or see [`ROADMAP.md`](./ROADMAP.md) for the full O*NET-backed checklist of what's covered and what's not.
+<!-- ROLE_COUNTS_END -->
+
+This block is auto-generated — run `python3 scripts/generate_roadmap.py` after adding/removing/re-mapping a role, don't hand-edit it.
 
 ## Using a role with an agent
 
