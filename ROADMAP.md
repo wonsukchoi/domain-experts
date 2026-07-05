@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted in this repo · *(blank)* not started
 
-**Progress: 20 / 1016 O*NET occupations drafted.**
+**Progress: 25 / 1016 O*NET occupations drafted.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (11/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (16/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -25,11 +25,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 11-2032.00 | Public Relations Managers | [`public-relations-manager`](./roles/public-relations-manager/SKILL.md) |
 | ✅ | 11-2033.00 | Fundraising Managers | [`fundraising-manager`](./roles/fundraising-manager/SKILL.md) |
 | ✅ | 11-3012.00 | Administrative Services Managers | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) |
-|  | 11-3013.00 | Facilities Managers |  |
-|  | 11-3013.01 | Security Managers |  |
-|  | 11-3021.00 | Computer and Information Systems Managers |  |
-|  | 11-3031.00 | Financial Managers |  |
-|  | 11-3031.01 | Treasurers and Controllers |  |
+| ✅ | 11-3013.00 | Facilities Managers | [`facilities-manager`](./roles/facilities-manager/SKILL.md) |
+| ✅ | 11-3013.01 | Security Managers | [`security-manager`](./roles/security-manager/SKILL.md) |
+| ✅ | 11-3021.00 | Computer and Information Systems Managers | [`computer-information-systems-manager`](./roles/computer-information-systems-manager/SKILL.md) |
+| ✅ | 11-3031.00 | Financial Managers | [`financial-manager`](./roles/financial-manager/SKILL.md) |
+| ✅ | 11-3031.01 | Treasurers and Controllers | [`treasurer-controller`](./roles/treasurer-controller/SKILL.md) |
 |  | 11-3031.03 | Investment Fund Managers |  |
 |  | 11-3051.00 | Industrial Production Managers |  |
 |  | 11-3051.01 | Quality Control Systems Managers |  |
