@@ -140,7 +140,7 @@ Every role follows the same contract, enforced by spec and CI:
 4. **Provenance** — sources are named; specific numbers trace to them or are labeled as stated heuristics. Regulated roles (law, medicine, finance) carry explicit disclaimers.
 5. **O*NET backbone** — coverage tracks the U.S. Department of Labor's occupation taxonomy (1,016 occupations), so growth is systematic, not whatever seemed interesting that week.
 
-Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md).
+Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md). The counterfactual test has a measuring harness in [`evals/`](./evals/) — blind-judged skill-vs-baseline scenarios per role.
 
 ## Current roles
 
