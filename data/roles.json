@@ -1,0 +1,594 @@
+{
+  "count": 54,
+  "roles": [
+    {
+      "slug": "accountant-controller",
+      "description": "Use when a task needs the judgment of an accountant/financial controller \u2014 closing the books, ensuring GAAP-compliant reporting, designing internal controls, reviewing an accounting treatment question, or catching a discrepancy in financial records. Distinct from a financial analyst role \u2014 this one is accountable for the accuracy of what happened, not for forecasting what will happen.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "13-2011.00",
+      "skill": "roles/accountant-controller/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "administrative-services-manager",
+      "description": "Use when a task needs the judgment of an Administrative Services Manager \u2014 running the operational/facilities/office-services backbone of an organization, evaluating a vendor contract, allocating a facilities/admin budget, or diagnosing why internal operational support is failing a growing organization.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3012.00",
+      "skill": "roles/administrative-services-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "advertising-promotions-manager",
+      "description": "Use when a task needs the judgment of an Advertising and Promotions Manager \u2014 planning a paid media campaign, briefing and evaluating creative, negotiating with agencies/media vendors, or deciding how to allocate a promotions budget across formats and timing. Narrower than the marketing-strategist role \u2014 this one owns campaign execution and media buying, not overall brand positioning.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-2011.00",
+      "skill": "roles/advertising-promotions-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "agricultural-manager",
+      "description": "Use when a task needs the judgment of a Farmer, Rancher, or other Agricultural Manager \u2014 making a planting/breeding/production decision under weather and market uncertainty, managing land and input costs, evaluating a capital investment (equipment, irrigation), or deciding how to respond to a crop/livestock health issue.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-9013.00",
+      "skill": "roles/agricultural-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "architectural-engineering-manager",
+      "description": "Use when a task needs the judgment of an Architecture/Engineering firm or department manager \u2014 pricing a project fee (lump sum vs. hourly vs. % of construction cost), staffing a project against backlog, evaluating scope creep on a fixed-fee job, managing professional liability exposure, or deciding whether to pursue a project given current utilization.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9041.00",
+      "skill": "roles/architectural-engineering-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "biofuels-biodiesel-technology-manager",
+      "description": "Use when a task needs the judgment of a Biofuels/Biodiesel Technology and Product Development Manager \u2014 deciding whether a lab/bench-scale process is ready to scale up, evaluating feedstock flexibility tradeoffs in process design, pricing a technology's value against regulatory credit pathways (RFS RIN, LCFS CI score), or managing IP strategy for a novel conversion process. Distinct from biofuels-production-manager, which runs an existing operating facility \u2014 this role owns R&D and commercialization of new or improved process technology.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9041.01",
+      "skill": "roles/biofuels-biodiesel-technology-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "biofuels-production-manager",
+      "description": "Use when a task needs the judgment of a Biofuels Production Manager \u2014 running a biofuel production facility (ethanol, biodiesel, renewable diesel), managing feedstock supply and quality variability, evaluating a yield or efficiency problem, or balancing production economics against commodity price swings.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3051.03",
+      "skill": "roles/biofuels-production-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "biomass-power-plant-manager",
+      "description": "Use when a task needs the judgment of a Biomass Power Plant Manager \u2014 running a biomass-fired power generation facility, managing fuel supply logistics and quality variability, evaluating combustion/efficiency problems, or balancing generation output against fuel cost and emissions constraints.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3051.04",
+      "skill": "roles/biomass-power-plant-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "chief-executive",
+      "description": "Use when a task needs the judgment of a CEO/chief executive \u2014 setting company strategy, allocating scarce resources (capital, headcount, attention) across competing priorities, making a call that only the top of the org can make, or communicating direction to the board, investors, or the whole company.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-1011.00",
+      "skill": "roles/chief-executive/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "chief-sustainability-officer",
+      "description": "Use when a task needs the judgment of a Chief Sustainability Officer \u2014 evaluating an environmental/social initiative's business case, responding to ESG disclosure or regulatory requirements, assessing greenwashing risk, or prioritizing sustainability investments against their actual impact and cost.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-1011.03",
+      "skill": "roles/chief-sustainability-officer/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "compensation-benefits-manager",
+      "description": "Use when a task needs the judgment of a Compensation and Benefits Manager \u2014 designing or evaluating a pay structure/leveling system, benchmarking compensation against market, deciding on a benefits package tradeoff, or auditing for pay equity issues. Narrower and more specialized than the broader hr-people-manager role's compensation-adjacent heuristics.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3111.00",
+      "skill": "roles/compensation-benefits-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "computer-information-systems-manager",
+      "description": "Use when a task needs the judgment of a Computer and Information Systems Manager (IT Manager/Director/CIO-adjacent) \u2014 planning IT infrastructure and systems strategy, evaluating a technology vendor or platform decision, allocating an IT budget, or managing IT risk (security, uptime, technical debt) at an organizational level. Broader than the devops-sre or software-engineer roles \u2014 this one owns IT as a business function, not a specific engineering discipline.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3021.00",
+      "skill": "roles/computer-information-systems-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "construction-manager",
+      "description": "Use when a task needs the judgment of a Construction Manager \u2014 planning or sequencing a construction project, evaluating a schedule/cost tradeoff, managing subcontractors and site safety, or responding to an unexpected site condition or delay.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-9021.00",
+      "skill": "roles/construction-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "customer-success-manager",
+      "description": "Use when a task needs the judgment of a Customer Success Manager \u2014 driving product adoption after the sale, assessing renewal/churn risk, handling an at-risk account, or deciding how to prioritize limited attention across a book of accounts.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": null,
+      "skill": "roles/customer-success-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "data-scientist",
+      "description": "Use when a task needs senior data-scientist judgment \u2014 designing or reading out an experiment, investigating a metric move, deciding whether a causal claim holds, or judging whether a model or analysis actually supports the decision it's being used for.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2051.00",
+      "skill": "roles/data-scientist/SKILL.md",
+      "references": [
+        "analysis-playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "devops-sre",
+      "description": "Use when a task needs the judgment of a DevOps/Site Reliability Engineer \u2014 designing deployment pipelines, setting SLOs/error budgets, responding to or reviewing an incident, or making infrastructure/reliability tradeoffs. Distinct from a backend software engineer role \u2014 this one owns the system's operational health across all services, not one service's feature code.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": null,
+      "skill": "roles/devops-sre/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "education-administrator-k12",
+      "description": "Use when a task needs the judgment of a K-12 Education Administrator (principal/assistant principal/district administrator) \u2014 making a school-level policy or resource-allocation decision, handling a discipline or safety incident, evaluating a curriculum or staffing decision, or balancing competing demands from teachers, parents, students, and district requirements.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-9032.00",
+      "skill": "roles/education-administrator-k12/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "education-administrator-other",
+      "description": "Use when a task needs the judgment of an education administrator in a non-traditional setting \u2014 adult/continuing education, vocational or trade school, corporate/organizational training department, or other education programs outside standard K-12 or degree-granting postsecondary institutions. Covers the O*NET \"Education Administrators, All Other\" catch-all.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-9039.00",
+      "skill": "roles/education-administrator-other/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "education-administrator-postsecondary",
+      "description": "Use when a task needs the judgment of a Postsecondary Education Administrator (dean, department chair, provost-level, or program director) \u2014 making a program/curriculum decision, managing faculty and enrollment/budget tradeoffs, evaluating an accreditation or academic policy issue, or balancing academic mission against institutional financial sustainability.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-9033.00",
+      "skill": "roles/education-administrator-postsecondary/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "education-childcare-administrator-preschool",
+      "description": "Use when a task needs the judgment of an Education and Childcare Administrator for Preschool/Daycare settings \u2014 running a preschool or childcare center's operations, evaluating a curriculum or staffing decision, handling a licensing/regulatory compliance issue, or balancing enrollment/financial sustainability against program quality.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-9031.00",
+      "skill": "roles/education-childcare-administrator-preschool/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "entertainment-recreation-manager",
+      "description": "Use when a task needs the judgment of an Entertainment and Recreation Manager (theme park, arena, recreation facility, tour operation) \u2014 planning attraction/facility capacity against attendance forecasts, evaluating a guest safety or ride-operations decision, pricing admission/season-pass programs, or managing seasonal staffing and weather-driven demand swings.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9072.00",
+      "skill": "roles/entertainment-recreation-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "facilities-manager",
+      "description": "Use when a task needs the judgment of a Facilities Manager \u2014 planning building/space maintenance and capital projects, evaluating a facilities vendor or contractor, responding to a building system failure, or deciding how to allocate a facilities budget across maintenance, safety, and capacity needs.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3013.00",
+      "skill": "roles/facilities-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "financial-analyst",
+      "description": "Use when a task needs the judgment of a corporate/investment financial analyst \u2014 building or reviewing financial models, evaluating whether a business decision makes financial sense, interpreting financial statements, or assessing an investment/budget tradeoff.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "13-2051.00",
+      "skill": "roles/financial-analyst/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "financial-manager",
+      "description": "Use when a task needs CFO-level judgment \u2014 capital structure and funding decisions, cash runway and liquidity management, financial risk oversight, board/investor reporting, or pricing the financial consequences of a strategic choice before it's made. Broader than financial-analyst (builds the models) or accountant-controller (closes the books) \u2014 this role owns the finance function's direction and the company's financial survivability.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-3031.00",
+      "skill": "roles/financial-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "food-service-manager",
+      "description": "Use when a task needs the judgment of a Food Service Manager \u2014 pricing a menu against food cost targets, managing labor scheduling against sales forecasts, diagnosing a food cost or waste variance, handling a health-inspection or food-safety issue, or deciding whether to 86 an item or adjust a supplier.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9051.00",
+      "skill": "roles/food-service-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "fundraising-manager",
+      "description": "Use when a task needs the judgment of a Fundraising Manager (nonprofit development) \u2014 planning a fundraising campaign, cultivating and soliciting a major donor, evaluating a grant opportunity, or deciding how to allocate fundraising effort across donor segments.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-2033.00",
+      "skill": "roles/fundraising-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "gambling-manager",
+      "description": "Use when a task needs the judgment of a Gambling/Gaming Manager \u2014 managing table game or slot floor operations, evaluating a hold percentage variance, handling a suspected advantage play or cheating incident, ensuring regulatory/AML compliance, or deciding on comp/credit extension to a player.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9071.00",
+      "skill": "roles/gambling-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "general-operations-manager",
+      "description": "Use when a task needs the judgment of a General/Operations Manager \u2014 coordinating multiple departments toward shared execution, diagnosing why cross-functional work is stalling, allocating resources across competing operational priorities, or improving how an organization actually runs day to day.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-1021.00",
+      "skill": "roles/general-operations-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "geothermal-production-manager",
+      "description": "Use when a task needs the judgment of a Geothermal Production Manager \u2014 running a geothermal power plant or well field's daily operations, managing reservoir output decline, evaluating a well workover or drilling decision, or balancing production rate against long-term reservoir sustainability.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3051.02",
+      "skill": "roles/geothermal-production-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "hr-people-manager",
+      "description": "Use when a task needs the judgment of an HR/people manager \u2014 handling a performance issue, designing compensation or leveling decisions, resolving a workplace conflict, structuring a hiring process, or navigating an org design/headcount decision.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3121.00",
+      "skill": "roles/hr-people-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "hydroelectric-production-manager",
+      "description": "Use when a task needs the judgment of a Hydroelectric Production Manager \u2014 running a hydroelectric power facility, managing water resource allocation and reservoir levels, evaluating dam safety and equipment maintenance decisions, or balancing generation output against competing water uses (irrigation, flood control, ecological flow).",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3051.06",
+      "skill": "roles/hydroelectric-production-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "industrial-production-manager",
+      "description": "Use when a task needs the judgment of an Industrial Production Manager \u2014 running a manufacturing plant/production line, diagnosing a throughput or quality problem, planning capacity and staffing against demand, or evaluating a process change or capital investment on the production floor.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3051.00",
+      "skill": "roles/industrial-production-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "investment-fund-manager",
+      "description": "Use when a task needs the judgment of an Investment Fund Manager \u2014 making or evaluating a portfolio allocation decision, assessing a fund's risk exposure, deciding on a buy/sell/hold call, or communicating fund performance and strategy to investors/limited partners.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3031.03",
+      "skill": "roles/investment-fund-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "lawyer-contracts",
+      "description": "Use when a task needs the judgment of a senior commercial contracts attorney \u2014 reviewing or redlining agreements (MSAs, SaaS, licensing, vendor, distribution), spotting where the real risk allocation lives, choosing negotiation positions and fallbacks, or translating legal exposure into business terms. US commercial law default (state common law + UCC Article 2). A reasoning aid, not legal advice.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-1011.00",
+      "skill": "roles/lawyer-contracts/SKILL.md",
+      "references": [
+        "clause-playbook.md",
+        "red-flags.md",
+        "review-checklist.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "legislator",
+      "description": "Use when a task needs to model the reasoning process of an elected legislator \u2014 evaluating a bill's tradeoffs, weighing constituent interests against broader policy effects, navigating a vote under incomplete information, or understanding how legislative compromise and coalition-building actually work. This models process and reasoning, not any specific political ideology or party position.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-1031.00",
+      "skill": "roles/legislator/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "lodging-manager",
+      "description": "Use when a task needs the judgment of a Lodging/Hotel Manager \u2014 setting room rates against occupancy forecast (revenue management), evaluating overbooking risk, diagnosing a RevPAR or ADR variance, managing a guest service recovery situation, or balancing housekeeping/labor cost against occupancy swings.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9081.00",
+      "skill": "roles/lodging-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "marketing-manager",
+      "description": "Use when a task needs the judgment of a Marketing Manager \u2014 running a marketing team/function, allocating budget across programs, approving campaign plans, or reporting marketing performance to leadership. Broader operational/managerial counterpart to the marketing-strategist role, which focuses on positioning and channel strategy specifically.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-2021.00",
+      "skill": "roles/marketing-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "marketing-strategist",
+      "description": "Use when a task needs senior marketing-strategist judgment \u2014 positioning a product, choosing and pruning channels, splitting budget across brand and performance, evaluating campaign ideas, or diagnosing why demand or CAC has gone sideways.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1161.00",
+      "skill": "roles/marketing-strategist/SKILL.md",
+      "references": [
+        "playbooks.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "medical-health-services-manager",
+      "description": "Use when a task needs the judgment of a Medical and Health Services Manager (practice manager, clinical department administrator, hospital unit manager) \u2014 managing clinical staffing against patient volume, evaluating a billing/reimbursement or denial-rate problem, handling a patient safety or compliance incident, or balancing quality metrics against cost pressure. Distinct from a physician's clinical-reasoning role \u2014 this one manages the operational and administrative system clinicians work within.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9111.00",
+      "skill": "roles/medical-health-services-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "physician-clinical-reasoning",
+      "description": "Use when a task needs the judgment and diagnostic reasoning process of a physician \u2014 working through a differential diagnosis, evaluating clinical evidence, or reasoning about diagnostic uncertainty. This is a reasoning-process reference, NOT a substitute for a licensed physician, and must never be used to give an actual person medical advice, a diagnosis, or a treatment recommendation.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "29-1216.00",
+      "skill": "roles/physician-clinical-reasoning/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "product-manager",
+      "description": "Use when a task needs senior product-manager judgment \u2014 prioritizing between features with real tradeoffs, writing PRDs and decision docs, translating stakeholder requests into problems, killing underperforming features, or deciding what not to build.",
+      "category": "product",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "skill": "roles/product-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "public-relations-manager",
+      "description": "Use when a task needs the judgment of a Public Relations Manager \u2014 shaping how an organization is perceived by media and the public, handling a press inquiry, preparing crisis communications, or deciding what and how to disclose in a sensitive situation.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-2032.00",
+      "skill": "roles/public-relations-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "purchasing-manager",
+      "description": "Use when a task needs the judgment of a Purchasing Manager \u2014 negotiating a supplier contract, evaluating a sourcing decision (single vs. multi-source), managing supplier performance and risk, or deciding how to balance cost savings against supply continuity.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3061.00",
+      "skill": "roles/purchasing-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "quality-control-systems-manager",
+      "description": "Use when a task needs the judgment of a Quality Control Systems Manager \u2014 designing or auditing a quality management system, investigating a defect/non-conformance, deciding whether a product batch should ship, or evaluating a supplier's quality capability. Narrower than industrial-production-manager's broader production-floor scope \u2014 this role owns the quality function and its systems specifically.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3051.01",
+      "skill": "roles/quality-control-systems-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "sales-account-executive",
+      "description": "Use when a task needs the judgment of a B2B sales account executive \u2014 qualifying a deal, handling objections, negotiating terms, forecasting pipeline, or deciding whether/how to pursue an opportunity.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "41-4011.00",
+      "skill": "roles/sales-account-executive/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "sales-manager",
+      "description": "Use when a task needs the judgment of a Sales Manager \u2014 coaching and managing a sales team, setting or evaluating quota/territory design, running pipeline reviews, or diagnosing why a team is missing its number. Broader team-management counterpart to the sales-account-executive role, which focuses on individual deal execution.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-2022.00",
+      "skill": "roles/sales-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "security-manager",
+      "description": "Use when a task needs the judgment of a (physical/corporate) Security Manager \u2014 designing physical access controls, assessing a facility or event's security risk, responding to a security incident, or deciding how to allocate a security budget across prevention, detection, and response. Distinct from a cybersecurity/information-security role \u2014 this one covers physical and personnel security.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3013.01",
+      "skill": "roles/security-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "software-engineer",
+      "description": "Use when a task needs the judgment of a senior backend software engineer \u2014 designing systems, reviewing code for correctness/reliability/maintainability, making build-vs-buy or architecture tradeoffs, or debugging production issues under real constraints (not toy-problem correctness).",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "15-1252.00",
+      "skill": "roles/software-engineer/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "supply-chain-manager",
+      "description": "Use when a task needs the judgment of a Supply Chain Manager \u2014 designing or evaluating an end-to-end supply chain strategy, balancing efficiency against resilience, managing demand/supply planning, or deciding how to respond to a supply chain disruption. Broader, more strategic scope than transportation-storage-distribution-manager's physical execution focus or purchasing-manager's sourcing/negotiation focus.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3071.04",
+      "skill": "roles/supply-chain-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "technical-recruiter",
+      "description": "Use when a task needs the judgment of a technical recruiter/talent acquisition partner \u2014 sourcing candidates, screening resumes, structuring an interview process, evaluating a candidate against a role, or closing an offer. Distinct from an HR/people manager role \u2014 this one owns getting the right person hired, not managing them afterward.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": null,
+      "skill": "roles/technical-recruiter/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "training-development-manager",
+      "description": "Use when a task needs the judgment of a Training and Development Manager \u2014 designing a learning/training program, evaluating whether training is the right solution to a performance gap, measuring training effectiveness, or allocating a learning and development budget.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3131.00",
+      "skill": "roles/training-development-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "transportation-storage-distribution-manager",
+      "description": "Use when a task needs the judgment of a Transportation, Storage, and Distribution Manager \u2014 planning warehouse/distribution network operations, evaluating a carrier or logistics vendor decision, managing inventory flow across a distribution network, or diagnosing a fulfillment/delivery performance problem. Broader logistics-network focus than supply-chain-manager's end-to-end strategic scope.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3071.00",
+      "skill": "roles/transportation-storage-distribution-manager/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "treasurer-controller",
+      "description": "Use when a task needs the judgment of a senior Treasurer or Controller overseeing an organization's cash/liquidity management and financial reporting function at an executive level \u2014 managing banking relationships and liquidity, overseeing the close and external audit process, or making a treasury policy decision (investment of cash, hedging, debt covenants). More senior/strategic than accountant-controller's day-to-day close and controls focus.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "11-3031.01",
+      "skill": "roles/treasurer-controller/SKILL.md",
+      "references": []
+    },
+    {
+      "slug": "ux-designer",
+      "description": "Use when a task needs the judgment of a UX/product designer \u2014 evaluating or designing an interface, flow, or interaction, critiquing usability, or resolving tradeoffs between simplicity, flexibility, and business goals in a product's design.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 1,
+      "onet_soc_code": "15-1255.00",
+      "skill": "roles/ux-designer/SKILL.md",
+      "references": []
+    }
+  ]
+}

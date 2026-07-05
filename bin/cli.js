@@ -160,7 +160,14 @@ function cmdAdd(slug, opts) {
     process.exit(1);
   }
   const roles = loadRoles();
-  const role = roles.find((r) => r.slug === slug);
+  let role = roles.find((r) => r.slug === slug);
+  if (!role) {
+    // Meta-skills (e.g. the router) live in skills/, not roles/.
+    const metaFile = path.join(__dirname, "..", "skills", slug, "SKILL.md");
+    if (fs.existsSync(metaFile)) {
+      role = { slug, file: metaFile };
+    }
+  }
   if (!role) {
     console.error(`No role "${slug}" found. Run "domain-experts list" to see available roles.`);
     process.exit(1);

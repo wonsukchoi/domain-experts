@@ -168,7 +168,7 @@ Every install copies the full role — `SKILL.md` plus `references/` — so the 
 
 ### Automatic dispatch
 
-[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that removes even the `match` step — load it once and your agent finds the right role for "act as X" requests on its own, and says honestly when a role isn't covered.
+[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that removes even the `match` step — install it with `npx --yes github:wonsukchoi/domain-experts add domain-expert-router`, load it once, and your agent finds the right role for "act as X" requests on its own, and says honestly when a role isn't covered.
 
 ### CLI reference
 

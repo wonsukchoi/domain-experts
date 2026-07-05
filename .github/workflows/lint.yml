@@ -33,8 +33,20 @@ jobs:
       - name: Check roadmap is regenerated
         run: |
           python3 scripts/generate_roadmap.py
-          if ! git diff --quiet ROADMAP.md README.md; then
-            echo "::error::ROADMAP.md/README.md out of date — run python3 scripts/generate_roadmap.py and commit"
-            git diff --stat ROADMAP.md README.md
+          if ! git diff --quiet ROADMAP.md README.md data/roles.json; then
+            echo "::error::ROADMAP.md/README.md/data/roles.json out of date — run python3 scripts/generate_roadmap.py and commit"
+            git diff --stat ROADMAP.md README.md data/roles.json
             exit 1
           fi
+
+      - name: CLI smoke test
+        run: |
+          set -e
+          node bin/cli.js list > /dev/null
+          node bin/cli.js match "review this contract like a lawyer" --json | python3 -c "import json,sys; d=json.load(sys.stdin); assert d['confident'], d"
+          cd "$(mktemp -d)"
+          node "$GITHUB_WORKSPACE/bin/cli.js" add financial-manager
+          test -f .claude/skills/financial-manager/SKILL.md
+          test -f .claude/skills/financial-manager/references/red-flags.md
+          node "$GITHUB_WORKSPACE/bin/cli.js" add domain-expert-router
+          test -f .claude/skills/domain-expert-router/SKILL.md

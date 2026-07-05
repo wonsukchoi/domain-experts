@@ -1,0 +1,29 @@
+name: Role request
+description: Ask for a role that isn't covered yet, or claim one from ROADMAP.md to write yourself.
+title: "role request: <role name>"
+labels: ["role-request"]
+body:
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: Job title, and the O*NET-SOC code from ROADMAP.md if it maps to one
+      placeholder: "Actuary (15-2011.00)"
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: What tasks would you hand this expert?
+      description: 2-3 concrete tasks you'd want an agent to do with this role's judgment. This shapes the role's description and worked example.
+    validations:
+      required: true
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Are you requesting or claiming?
+      options:
+        - "Requesting — I want someone to write it"
+        - "Claiming — I'll write it to the AUTHORING.md spec and PR it"
+    validations:
+      required: true

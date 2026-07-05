@@ -68,6 +68,14 @@ def parse_frontmatter(text):
     code_m = re.search(r'^\s*onet_soc_code:\s*"?([\d.\-]+)"?', block, re.MULTILINE)
     if code_m:
         fm["onet_soc_code"] = code_m.group(1)
+    desc_m = re.search(r"^description:\s*(.+)$", block, re.MULTILINE)
+    if desc_m:
+        fm["description"] = desc_m.group(1).strip().strip('"').strip("'")
+    mat_m = re.search(r"^\s*maturity:\s*(\S+)", block, re.MULTILINE)
+    if mat_m:
+        fm["maturity"] = mat_m.group(1)
+    spec_m = re.search(r"^\s*spec:\s*(\S+)", block, re.MULTILINE)
+    fm["spec"] = int(spec_m.group(1)) if spec_m else 1
     return fm
 
 
@@ -113,8 +121,31 @@ def load_onet():
     return rows
 
 
+def write_roles_json(roles):
+    import json
+    out = [
+        {
+            "slug": slug,
+            "description": fm.get("description", ""),
+            "category": fm.get("category", ""),
+            "maturity": fm.get("maturity", ""),
+            "spec": fm.get("spec", 1),
+            "onet_soc_code": fm.get("onet_soc_code"),
+            "skill": f"roles/{slug}/SKILL.md",
+            "references": sorted(
+                p.name for p in (ROLES_DIR / slug / "references").glob("*.md")
+            ) if (ROLES_DIR / slug / "references").is_dir() else [],
+        }
+        for slug, fm in sorted(roles.items())
+    ]
+    path = REPO_ROOT / "data" / "roles.json"
+    path.write_text(json.dumps({"count": len(out), "roles": out}, indent=2) + "\n")
+    print(f"Wrote data/roles.json: {len(out)} roles.")
+
+
 def main():
     roles = load_roles()
+    write_roles_json(roles)
     onet_rows = load_onet()
 
     drafted = {}  # code -> slug

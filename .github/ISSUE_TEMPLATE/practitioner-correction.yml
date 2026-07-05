@@ -1,0 +1,46 @@
+name: Practitioner correction
+description: You actually work (or worked) in one of these roles and something in it is wrong, outdated, or missing. This is the most valuable contribution this project can receive.
+title: "correction: <role-slug> — <short summary>"
+labels: ["practitioner-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you — practitioner corrections are exactly how this library gets better than any single generated draft. No verification required, good faith assumed. If the content fights your reality, your correction wins.
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: The role slug (directory name under roles/)
+      placeholder: financial-manager
+    validations:
+      required: true
+  - type: input
+    id: experience
+    attributes:
+      label: Your experience in this role
+      description: Rough years + context. Optional, but helps reviewers weigh corrections.
+      placeholder: "8 years, VP Finance then CFO at two B2B SaaS companies"
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong or missing
+      description: Quote the specific line(s) if you can. "Section X says Y, but in practice Z because…"
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should say instead
+      description: The correction in your own words — thresholds, war stories, and "when X, do Y unless Z" phrasing are gold. We'll handle formatting.
+    validations:
+      required: true
+  - type: dropdown
+    id: pr
+    attributes:
+      label: Want to open the PR yourself?
+      options:
+        - "No — please apply this for me"
+        - "Yes — I'll open a PR referencing this issue"
+    validations:
+      required: true

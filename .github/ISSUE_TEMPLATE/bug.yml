@@ -1,0 +1,17 @@
+name: Bug (CLI / tooling / CI)
+description: Something in the CLI, lint, scripts, or repo tooling is broken.
+title: "bug: <short summary>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Command you ran, what you expected, what you got. Paste exact error output.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "macOS 15 / node 22 / npx github:wonsukchoi/domain-experts"
