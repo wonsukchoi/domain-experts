@@ -47,9 +47,12 @@ description: Use when a task needs the judgment of a <Role> — <3-5 concrete ta
 metadata:
   category: engineering | product | design | finance | legal | marketing | sales | operations | healthcare | other
   maturity: draft | reviewed-by-practitioner | mature
+  spec: 2                       # authoring-spec version — 2 is current; absent means legacy (pre-references format)
   onet_soc_code: "XX-XXXX.XX"   # if it maps to ROADMAP.md; omit otherwise
 ---
 ```
+
+**Spec versioning:** `spec: 2` marks a role written to this document (references/ trio, worked example with numbers, dedup rule). Roles without the field are legacy format, grandfathered but slated for upgrade. New roles must be `spec: 2` — CI rejects legacy-format additions. `python3 scripts/lint_roles.py` runs the mechanical checks locally; CI runs the same script on every PR.
 
 The `description` is what agent harnesses match against. It must name concrete task types ("negotiating a supplier contract, evaluating single- vs multi-source"), never capabilities in general ("helps with procurement").
 

@@ -4,6 +4,7 @@ description: Use when a task needs senior marketing-strategist judgment — posi
 metadata:
   category: marketing
   maturity: draft
+  spec: 2
   onet_soc_code: "13-1161.00"
 ---
 

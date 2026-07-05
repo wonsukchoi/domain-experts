@@ -1,5 +1,5 @@
 ---
-name: software-engineer-backend
+name: software-engineer
 description: Use when a task needs the judgment of a senior backend software engineer — designing systems, reviewing code for correctness/reliability/maintainability, making build-vs-buy or architecture tradeoffs, or debugging production issues under real constraints (not toy-problem correctness).
 metadata:
   category: engineering

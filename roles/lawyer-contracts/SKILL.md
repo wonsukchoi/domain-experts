@@ -4,6 +4,7 @@ description: Use when a task needs the judgment of a senior commercial contracts
 metadata:
   category: legal
   maturity: draft
+  spec: 2
   onet_soc_code: "23-1011.00"
 ---
 
@@ -97,4 +98,5 @@ Not reviewed by a licensed practitioner — flag corrections via PR. Route actua
 
 - [`references/clause-playbook.md`](references/clause-playbook.md) — the high-stakes clauses: market positions, negotiation ranges, fallback ladders, and never-concede lines.
 - [`references/review-checklist.md`](references/review-checklist.md) — operational review process: 15-minute triage, risk tiering, cross-reference traps, markup etiquette.
+- [`references/red-flags.md`](references/red-flags.md) — drafting smell tests: one-way carve-outs, precedence traps, sole-discretion stacking, exit-term gaps.
 - [`references/vocabulary.md`](references/vocabulary.md) — terms of art a generalist misuses, with practitioner usage and common mistakes.

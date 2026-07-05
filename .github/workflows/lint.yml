@@ -1,0 +1,40 @@
+name: lint-roles
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find newly added roles (PRs only)
+        id: added
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          ADDED=$(git diff --name-only --diff-filter=A "origin/${{ github.base_ref }}...HEAD" -- 'roles/*/SKILL.md' | tr '\n' ' ')
+          echo "files=$ADDED" >> "$GITHUB_OUTPUT"
+          echo "Newly added roles: ${ADDED:-none}"
+
+      - name: Lint roles
+        run: |
+          if [ -n "${{ steps.added.outputs.files }}" ]; then
+            python3 scripts/lint_roles.py --added ${{ steps.added.outputs.files }}
+          else
+            python3 scripts/lint_roles.py
+          fi
+
+      - name: Check roadmap is regenerated
+        run: |
+          python3 scripts/generate_roadmap.py
+          if ! git diff --quiet ROADMAP.md README.md; then
+            echo "::error::ROADMAP.md/README.md out of date — run python3 scripts/generate_roadmap.py and commit"
+            git diff --stat ROADMAP.md README.md
+            exit 1
+          fi

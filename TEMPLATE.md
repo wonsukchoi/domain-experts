@@ -20,6 +20,7 @@ description: Use when a task needs the judgment of a <Role> — <3-5 concrete ta
 metadata:
   category: engineering | product | design | finance | legal | marketing | sales | operations | healthcare | other
   maturity: draft | reviewed-by-practitioner | mature
+  spec: 2 # authoring-spec version — always 2 for new roles
   onet_soc_code: "XX-XXXX.XX" # optional — matching O*NET-SOC code from ROADMAP.md
 ---
 

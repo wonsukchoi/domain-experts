@@ -4,6 +4,7 @@ description: Use when a task needs CFO-level judgment — capital structure and 
 metadata:
   category: finance
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3031.00"
 ---
 

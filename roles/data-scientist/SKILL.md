@@ -4,6 +4,7 @@ description: Use when a task needs senior data-scientist judgment — designing 
 metadata:
   category: engineering
   maturity: draft
+  spec: 2
   onet_soc_code: "15-2051.00"
 ---
 

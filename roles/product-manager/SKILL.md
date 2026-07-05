@@ -4,6 +4,7 @@ description: Use when a task needs senior product-manager judgment — prioritiz
 metadata:
   category: product
   maturity: draft
+  spec: 2
 ---
 
 # Product Manager
