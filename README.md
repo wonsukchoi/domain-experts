@@ -16,6 +16,8 @@
               i n t o   A I   a g e n t s
 ```
 
+[![npm](https://img.shields.io/npm/v/domain-experts.svg?color=black)](https://www.npmjs.com/package/domain-experts)
+[![downloads](https://img.shields.io/npm/dm/domain-experts.svg?color=black)](https://www.npmjs.com/package/domain-experts)
 [![lint](https://github.com/wonsukchoi/domain-experts/actions/workflows/lint.yml/badge.svg)](https://github.com/wonsukchoi/domain-experts/actions/workflows/lint.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-black.svg)](./LICENSE)
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
@@ -83,6 +85,8 @@ you ─── "review this vendor contract"
 npx domain-experts match "review this vendor contract like a lawyer"
 npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 ```
+
+No install needed — `npx` fetches it from npm. Using it often? `npm install -g domain-experts` and drop the `npx`.
 
 Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) once, and your agent detects which expert a task needs, pulls the role's full context automatically, and tells you honestly when a role isn't covered yet instead of improvising. You keep working; the right expertise shows up by itself.
 
@@ -174,9 +178,9 @@ Copy this into Claude Code, Codex, Cursor, or any agent with shell access, descr
 Install a domain expert for my task from the open-source library
 https://github.com/wonsukchoi/domain-experts :
 
-1. Run: npx domain-experts match "<my task>" --json
+1. Run: npx --yes domain-experts match "<my task>" --json
 2. If it returns a confident match, install it:
-   npx domain-experts add <slug>
+   npx --yes domain-experts add <slug>
    (default target is ./.claude/skills/<slug>; if you are not Claude Code,
    pass --to <your skills directory>/<slug>, e.g. --to .codex/skills/<slug>)
 3. Read the installed SKILL.md fully. Open files under references/ whenever
@@ -215,6 +219,8 @@ npx domain-experts add <slug> [--to dir]
 ```
 
 `match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. `--json` for programmatic use.
+
+The npm package snapshots the role library at each release. For the unreleased bleeding edge, use `npx --yes github:wonsukchoi/domain-experts <command>` — same CLI, straight from `main`.
 
 ## Roadmap
 
