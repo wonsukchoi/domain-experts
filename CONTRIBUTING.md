@@ -10,7 +10,7 @@ The full quality bar, per-section spec, and LLM drafting pipeline live in [`AUTH
 4. Set `metadata.maturity: draft` if you're not a practitioner in this role, `reviewed-by-practitioner` if you are one or had one review it. If the role matches an O*NET occupation in `ROADMAP.md`, set `metadata.onet_soc_code` to its code.
 5. Set `metadata.spec: 2` (required for new roles — CI rejects legacy format) and run `python3 scripts/lint_roles.py <role-slug>` until clean. CI runs the same lint on every PR.
 6. Run `python3 scripts/generate_roadmap.py` to refresh `ROADMAP.md`'s checklist and the README role-count summary — don't hand-edit either.
-6. Open a PR. Title format: `role: add <role name>` or `role: improve <role name> — <what changed>`.
+7. Open a PR. Title format: `role: add <role name>` or `role: improve <role name> — <what changed>`.
 
 ### PR checklist
 
@@ -20,6 +20,7 @@ The full quality bar, per-section spec, and LLM drafting pipeline live in [`AUTH
 - [ ] No banned patterns (see `AUTHORING.md` lint list)
 - [ ] `references/` links in "Going deeper" resolve
 - [ ] Regulated role → disclaimer blockquote present
+- [ ] `python3 scripts/lint_roles.py <slug>` passes
 - [ ] `generate_roadmap.py` re-run
 
 ## Improving an existing role
