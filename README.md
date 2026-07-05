@@ -144,7 +144,7 @@ Every role follows the same contract, enforced by spec and CI:
 4. **Provenance** — sources are named; specific numbers trace to them or are labeled as stated heuristics. Regulated roles (law, medicine, finance) carry explicit disclaimers.
 5. **O*NET backbone** — coverage tracks the U.S. Department of Labor's occupation taxonomy (1,016 occupations), so growth is systematic, not whatever seemed interesting that week.
 
-Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md). The counterfactual test has a measuring harness in [`evals/`](./evals/) — blind-judged skill-vs-baseline scenarios per role. Latest sweep (2026-07-06, Haiku 4.5 answering, Sonnet 5 judging blind): **skill wins 13/15 scenarios** (1 tie, 1 loss), hitting 72% of expert-behavior criteria vs the generalist baseline's 37%.
+Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md). The counterfactual test has a measuring harness in [`evals/`](./evals/) — blind-judged skill-vs-baseline scenarios per role. Latest sweep (2026-07-06, Haiku 4.5 answering, Sonnet 5 judging blind): **skill wins 13/15 scenarios** (1 tie, 1 loss), hitting 72% of expert-behavior criteria vs the generalist baseline's 37%. A second harness, [`evals/parity/`](./evals/parity/), pits skill answers against real practitioners' accepted answers from Stack Exchange, blind: first sweep, the skill answer won 5 of 8 head-to-head (small sample — question sets are growing).
 
 ## Current roles
 
