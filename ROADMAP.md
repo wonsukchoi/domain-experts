@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 134 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 135 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (40/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (41/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -113,7 +113,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-1199.00 | Business Operations Specialists, All Other |  |
 | ✅ | 13-1199.04 | Business Continuity Planners | [`business-continuity-planner`](./roles/business-continuity-planner/SKILL.md) |
 | ✅ | 13-1199.05 | Sustainability Specialists | [`sustainability-specialist`](./roles/sustainability-specialist/SKILL.md) |
-|  | 13-1199.06 | Online Merchants |  |
+| ✅ | 13-1199.06 | Online Merchants | [`online-merchant`](./roles/online-merchant/SKILL.md) |
 |  | 13-1199.07 | Security Management Specialists |  |
 | ♻️ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
 |  | 13-2022.00 | Appraisers of Personal and Business Property |  |

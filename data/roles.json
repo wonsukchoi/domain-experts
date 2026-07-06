@@ -1,5 +1,5 @@
 {
-  "count": 138,
+  "count": 139,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1578,6 +1578,24 @@
       "skill": "roles/natural-sciences-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "online-merchant",
+      "description": "Use when a task needs the judgment of an Online Merchant/e-commerce operator \u2014 calculating a SKU's true net contribution margin after payment fees, shipping, and expected returns, comparing customer acquisition cost against channel-specific lifetime value, deciding between a marketplace and owned-store channel for a product, monitoring chargeback ratio against card-network thresholds, or setting inventory reorder points that weigh stockout against overstock cost.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1199.06",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/online-merchant/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
