@@ -1,5 +1,5 @@
 {
-  "count": 131,
+  "count": 132,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2028,6 +2028,24 @@
       "skill": "roles/tax-preparer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "tax-revenue-agent",
+      "description": "Use when a task needs the judgment of a Tax Examiner or Revenue Agent \u2014 determining which statute of limitations applies to an audit (3-year, 6-year, or unlimited), reconstructing unreported income via a bank deposit or similar indirect method, applying the Cohan rule to estimate a substantiated-but-undocumented deduction, distinguishing an accuracy-related penalty from civil fraud based on badges of fraud, or verifying collection due process notice requirements before a lien or levy.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tax-revenue-agent/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
