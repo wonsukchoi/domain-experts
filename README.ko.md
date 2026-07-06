@@ -196,16 +196,16 @@ you ─── "review this vendor contract"
 ## 현재 역할 목록
 
 <!-- ROLE_COUNTS_START -->
-**104 roles drafted** (100 mapped to an O*NET occupation, 4 custom; 62 at spec 2, 42 awaiting upgrade), across 10 categories:
+**106 roles drafted** (102 mapped to an O*NET occupation, 4 custom; 64 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
 - **engineering**: 17
 - **finance**: 10
-- **healthcare**: 7
+- **healthcare**: 8
 - **legal**: 11
 - **marketing**: 4
 - **operations**: 43
-- **other**: 4
+- **other**: 5
 - **product**: 1
 - **sales**: 5
 

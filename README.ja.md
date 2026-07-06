@@ -196,7 +196,7 @@ you ─── "review this vendor contract"
 ## 現在のロール一覧
 
 <!-- ROLE_COUNTS_START -->
-**105件のロールを起草済み**(うち101件はO*NET職業にマッピング済み、4件はカスタム; 63件がspec 2、42件がアップグレード待ち)、10カテゴリにわたる:
+**106 roles drafted** (102 mapped to an O*NET occupation, 4 custom; 64 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
 - **engineering**: 17
@@ -205,11 +205,11 @@ you ─── "review this vendor contract"
 - **legal**: 11
 - **marketing**: 4
 - **operations**: 43
-- **other**: 4
+- **other**: 5
 - **product**: 1
 - **sales**: 5
 
-すべてのロールは [`roles/`](./roles/) で閲覧できる。何がカバーされていて何がまだかの完全なO*NETベースのチェックリストは [`ROADMAP.md`](./ROADMAP.md) を参照。
+Browse all roles in [`roles/`](./roles/), or see [`ROADMAP.md`](./ROADMAP.md) for the full O*NET-backed checklist of what's covered and what's not.
 <!-- ROLE_COUNTS_END -->
 
 このブロックは自動生成されている — ロールの追加・削除・再マッピングを行った後は `python3 scripts/generate_roadmap.py` を実行すること。手動編集はしないこと。
