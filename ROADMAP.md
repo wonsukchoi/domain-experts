@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 150 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 151 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (21/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (22/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -151,7 +151,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 15-1242.00 | Database Administrators | [`database-administrator`](./roles/database-administrator/SKILL.md) |
 | ✅ | 15-1243.00 | Database Architects | [`database-architect`](./roles/database-architect/SKILL.md) |
 |  | 15-1243.01 | Data Warehousing Specialists |  |
-|  | 15-1244.00 | Network and Computer Systems Administrators |  |
+| ✅ | 15-1244.00 | Network and Computer Systems Administrators | [`network-systems-administrator`](./roles/network-systems-administrator/SKILL.md) |
 |  | 15-1251.00 | Computer Programmers |  |
 | ♻️ | 15-1252.00 | Software Developers | [`software-engineer`](./roles/software-engineer/SKILL.md) |
 | ✅ | 15-1253.00 | Software Quality Assurance Analysts and Testers | [`software-qa-analyst`](./roles/software-qa-analyst/SKILL.md) |
