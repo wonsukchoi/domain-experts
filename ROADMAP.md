@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 123 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 124 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (29/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (30/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -91,7 +91,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1041.00 | Compliance Officers | [`compliance-officer`](./roles/compliance-officer/SKILL.md) |
 | ✅ | 13-1041.01 | Environmental Compliance Inspectors | [`environmental-compliance-inspector`](./roles/environmental-compliance-inspector/SKILL.md) |
 |  | 13-1041.03 | Equal Opportunity Representatives and Officers |  |
-|  | 13-1041.04 | Government Property Inspectors and Investigators |  |
+| ✅ | 13-1041.04 | Government Property Inspectors and Investigators | [`government-property-inspector`](./roles/government-property-inspector/SKILL.md) |
 | ✅ | 13-1041.06 | Coroners | [`coroner`](./roles/coroner/SKILL.md) |
 |  | 13-1041.07 | Regulatory Affairs Specialists |  |
 | ✅ | 13-1041.08 | Customs Brokers | [`customs-broker`](./roles/customs-broker/SKILL.md) |

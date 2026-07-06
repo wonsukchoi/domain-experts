@@ -1,5 +1,5 @@
 {
-  "count": 127,
+  "count": 128,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -956,6 +956,24 @@
       "audit_score": null,
       "skill": "roles/geothermal-production-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "government-property-inspector",
+      "description": "Use when a task needs the judgment of a Government Property Inspector or Investigator \u2014 reconciling a contractor's government property records against a physical inventory sample, investigating a loss/damage/destruction report for timeliness and completeness, evaluating a contractor's property management system against FAR requirements, or determining whether idle property has gone through proper disposition screening.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/government-property-inspector/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "graphic-designer",
