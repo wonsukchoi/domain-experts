@@ -1,5 +1,5 @@
 {
-  "count": 139,
+  "count": 140,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1668,6 +1668,24 @@
       "skill": "roles/personal-financial-advisor/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "personal-property-appraiser",
+      "description": "Use when a task needs the judgment of a Personal and Business Property Appraiser \u2014 selecting the correct value premise (fair market value, replacement cost, or liquidation value) for the appraisal's intended use, resolving authentication and condition as threshold questions for art/antiques/collectibles, building a comparable-sales adjustment for a unique item, valuing business machinery/equipment via the cost approach, or meeting IRS qualified appraisal requirements for a charitable donation.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/personal-property-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
