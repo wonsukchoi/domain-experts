@@ -1,5 +1,5 @@
 {
-  "count": 158,
+  "count": 159,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1846,6 +1846,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/network-architect/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "network-support-specialist",
+      "description": "Use when a task needs the judgment of a Computer Network Support Specialist \u2014 diagnosing a duplex mismatch from interface error counters, isolating a Path MTU Discovery black hole that hangs large transfers but not small ones, resolving DHCP scope exhaustion producing APIPA addresses, containing a broadcast storm traced to a missing BPDU Guard, or triaging a live ticket's severity against a response-time SLA before diagnosing it.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1231.00",
+      "parent": "network-architect",
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/network-support-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
