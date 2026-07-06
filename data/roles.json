@@ -1,5 +1,5 @@
 {
-  "count": 105,
+  "count": 106,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1125,6 +1125,20 @@
       "onet_soc_code": "11-2022.00",
       "skill": "roles/sales-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "school-career-counselor",
+      "description": "Use when a task needs the judgment of a School (Educational, Guidance, and Career) Counselor \u2014 stating the limits of confidentiality to a student before a substantive disclosure, triaging whether a student's presenting issue fits brief school-based support or needs an outside clinical referral, applying a mandated-reporting threshold without weighing it against rapport concerns, reasoning through the multi-year consequences of a course/track placement decision, or defending counseling time against non-counseling duty creep using caseload and ASCA-model data.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1012.00",
+      "skill": "roles/school-career-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "security-manager",

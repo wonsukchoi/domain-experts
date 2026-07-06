@@ -27,6 +27,69 @@
 
 Biblioteca open source de **definições de papéis profissionais** — os modelos mentais reais, os limiares de decisão e os modos de falha de profissionais de verdade, estruturados para que qualquer agente de IA possa carregar um deles e raciocinar como aquele especialista. Peça ao seu agente para "revisar este contrato" e ele responde com o manual de cláusulas e as escadas de recuo de um advogado sênior de contratos, não com o resumo genérico da internet de um generalista.
 
+**Vá direto para:** [Início rápido](#início-rápido) · ["Por que não simplesmente pedir para o agente agir como?"](#não-basta-pedir-para-o-claude-agir-como-um-cfo) · [Visão](#visão--uma-pessoa-todos-os-especialistas) · [Como os papéis são construídos](#como-os-papéis-são-construídos) · [Como verificamos](#como-verificamos--transparente-sem-necessidade-de-confiança) · [Papéis atuais](#papéis-atuais) · [Use com sua ferramenta](#use-com-sua-ferramenta-de-ia) · [Roteiro](#roteiro) · [Contribuindo](#contribuindo--este-repositório-se-multiplica)
+
+## Início rápido
+
+```sh
+npx domain-experts match "review this vendor contract like a lawyer"
+npx domain-experts add lawyer-contracts   # instala em ./.claude/skills/
+```
+
+Não precisa instalar nada — o `npx` busca direto do npm. Usa com frequência? `npm install -g domain-experts` e tire o `npx` do comando.
+
+**Usa Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code ou Amp?** `npx domain-experts command --tool <id>` instala um comando de barra `/domain-expert` para a sua ferramenta — reinicie a sessão e rode `/domain-expert review this vendor contract`. Ele encontra o papel certo, carrega e raciocina como esse especialista em uma única etapa, sem o vaivém manual de `match`/`add`.
+
+Ou pule a etapa manual por completo: carregue [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) uma vez, e seu agente detecta sozinho de qual especialista a tarefa precisa, puxa automaticamente o contexto completo do papel e avisa com honestidade quando um papel ainda não está coberto, em vez de improvisar. Você continua trabalhando; a expertise certa aparece por conta própria.
+
+## "Não basta pedir para o Claude agir como um CFO?"
+
+Você pode pedir — e vai receber uma imitação rasa: a média de todas as descrições de vaga da internet, regenerada do zero a cada sessão, diferente toda vez, verificada por ninguém.
+
+```
+ ── prompt: "act as a CFO" ───────────┬── role: financial-manager ───────────
+                                      │
+  "I'd start by monitoring cash       │  "DSO went 48 → 56 days with no
+   flow and key financial metrics,    │   billing-terms change. Show me the
+   ensuring alignment between…"       │   five largest invoices past 60 days
+                                      │   — and reconcile bookings to the
+                                      │   change in deferred revenue, because
+                                      │   flat deferred + 'record bookings'
+                                      │   don't coexist."
+ ─────────────────────────────────────┴───────────────────────────────────────
+```
+
+A diferença, em termos concretos:
+
+- **Conteúdo não derivável.** Todo papel precisa passar em um teste de não-derivabilidade: nada que possa ser regenerado a partir só do título do cargo. O que sobra é exatamente o que um prompt não consegue produzir sob demanda — limiares numéricos de alerta, faixas de negociação padrão de mercado, exemplos resolvidos com aritmética que fecha, posições de recuo em ordem de preferência.
+- **Um filtro de qualidade, não uma única geração.** Os papéis são construídos por um pipeline de múltiplas etapas ([`AUTHORING.md`](./AUTHORING.md)) — veja o diagrama abaixo. Um prompt de uma linha não passa por nada disso.
+- **Estrutura garantida por CI.** Todo PR roda [`scripts/lint_roles.py`](./scripts/lint_roles.py): esquema, seções obrigatórias, links que resolvem, frases de preenchimento banidas, completude dos sinais de alerta, números reais no exemplo resolvido. Texto genérico de descrição de vaga reprova o build.
+- **Isso se acumula.** Seu prompt improvisado desaparece quando a sessão termina. Esses arquivos acumulam correções de profissionais, carregam uma escada de maturidade (`draft` → `reviewed-by-practitioner` → `mature`) e uma especificação versionada (`spec: 2` marca papéis no padrão atual), e melhoram a cada PR. As correções alcançam todo mundo.
+- **Eficiente em tokens por design.** Cada papel é um núcleo de raciocínio compacto (`SKILL.md`) mais profundidade sob demanda (`references/`). O agente só "paga" pela profundidade quando a tarefa precisa dela:
+
+```
+roles/financial-manager/
+├─ SKILL.md            ◀ always loaded · identity, first principles,
+│                        heuristics, worked example with real numbers
+└─ references/         ◀ loaded on demand
+   ├─ artifacts.md       filled 13-week cash forecast, board slide, scenarios
+   ├─ red-flags.md       DSO +15% QoQ · GM −200bps · headroom <20% …
+   └─ vocabulary.md      bookings vs billings vs revenue vs ARR …
+```
+
+### Então qual é a vantagem competitiva de verdade?
+
+Contraponto justo: nada do que foi dito acima impede que alguém faça `git clone` deste exato repositório e o lance como produto próprio — licença MIT, zero trava de conteúdo. Resposta honesta: o conjunto de arquivos não é a vantagem competitiva. O que é difícil de copiar é a máquina que continua produzindo e corrigindo isso:
+
+- **O pipeline, não o resultado.** Copiar 97 arquivos leva um comando. Copiar o ciclo de crítica adversarial → rubrica de 9 critérios → autoria travada por lint ([`AUTHORING.md`](./AUTHORING.md)) que continua produzindo e corrigindo esses arquivos não leva — um fork herda a foto de hoje, não as correções de amanhã.
+- **Um padrão, não um banco de dados.** O `SKILL.md` já roda em mais de 30 ferramentas de agente. Ser a maior biblioteca em um formato aberto e portátil é uma posição de distribuição, não uma posição de conteúdo — o valor está em ser a resposta padrão que as pessoas encontram, não nos bytes em si.
+- **Verificado, não apenas alegado.** Qualquer concorrente pode dizer "escrito por especialistas". Poucos conseguem rodar `python3 evals/run_evals.py` na sua frente e mostrar 13/15 vitórias contrafactuais. A confiança aqui é medida e reproduzível, não afirmada.
+- **Atualidade vence recall paramétrico.** Mesmo que um futuro modelo seja treinado com o texto público deste repositório, esse conhecimento congela na data de corte do treinamento. As correções deste repositório entram no ar no mesmo dia em que um profissional as registra — sem ciclo de retreinamento, com versão e rastreadas até a fonte.
+- **Disciplina de cobertura.** A espinha dorsal de 1.016 ocupações da O*NET força uma cobertura sistemática de cauda longa (gerente de funerária, operador de energia eólica) que um concorrente oportunista, que só cura papéis em alta, não vai se dar ao trabalho de igualar.
+- **Grátis e portátil vence trava por assinatura.** Isso não compete com sua conta de LLM — você continua pagando pela inferência de qualquer forma. Compete com SaaS vertical fechado ("Consultor Jurídico com IA", US$ 99/mês): esses não conseguem igualar grátis, forkável e rodável em modelo local sem custo recorrente.
+
+Nada disso é uma vantagem competitiva ainda com 97 papéis e uma base pequena de contribuidores — é uma trajetória. A aposta: os bens comuns se multiplicam mais rápido do que qualquer fork isolado consegue acompanhar, assim que profissionais suficientes passarem a registrar correções em vez de escrever prompts do zero a cada sessão.
+
 ## Visão — uma pessoa, todos os especialistas
 
 ```
@@ -58,7 +121,7 @@ Uma pessoa com uma assinatura de IA — ou até um modelo local, sem assinatura 
    ─────────────────────────────────────────────────────────────
 ```
 
-Esse é o verdadeiro objetivo final aqui, não uma curiosidade: a barreira entre "preciso de um especialista" e "eu tenho um" desaba. E isso fica mais real à medida que a cobertura cresce — 59 papéis contra 1.016 ocupações rastreadas hoje; o roteiro existe para que essa lacuna se feche, não para continuar interessante para sempre.
+Esse é o verdadeiro objetivo final aqui, não uma curiosidade: a barreira entre "preciso de um especialista" e "eu tenho um" desaba. E isso fica mais real à medida que a cobertura cresce — 92 papéis contra 1.016 ocupações rastreadas hoje; o roteiro existe para que essa lacuna se feche, não para continuar interessante para sempre.
 
 Isso não substitui o julgamento, a responsabilidade nem a licença profissional onde estes precisam legalmente recair sobre um humano — todo papel regulado (direito, medicina, finanças) diz isso explicitamente. O que ele substitui é a fricção de não ter acesso ao raciocínio, para começo de conversa.
 
@@ -81,65 +144,6 @@ you ─── "review this vendor contract"
                                      market positions, redline language
 ```
 
-## Início rápido
-
-```sh
-npx domain-experts match "review this vendor contract like a lawyer"
-npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
-```
-
-Não precisa instalar nada — o `npx` busca direto do npm. Usa com frequência? Instale com `npm install -g domain-experts` e omita o `npx`.
-
-Ou pule a etapa manual por completo: carregue [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) uma única vez, e seu agente detecta qual especialista cada tarefa precisa, puxa automaticamente o contexto completo do papel, e avisa com honestidade quando um papel ainda não está coberto em vez de improvisar. Você continua trabalhando; a expertise certa aparece sozinha.
-
-## "Não posso simplesmente dizer ao Claude para agir como um CFO?"
-
-Você pode — e vai receber uma imitação rasa: a média de cada descrição de vaga da internet, regenerada do zero a cada sessão, diferente toda vez, verificada por ninguém.
-
-```
- ── prompt: "act as a CFO" ───────────┬── role: financial-manager ───────────
-                                      │
-  "I'd start by monitoring cash       │  "DSO went 48 → 56 days with no
-   flow and key financial metrics,    │   billing-terms change. Show me the
-   ensuring alignment between…"       │   five largest invoices past 60 days
-                                      │   — and reconcile bookings to the
-                                      │   change in deferred revenue, because
-                                      │   flat deferred + 'record bookings'
-                                      │   don't coexist."
- ─────────────────────────────────────┴───────────────────────────────────────
-```
-
-A diferença, na prática:
-
-- **Conteúdo não derivável.** Todo papel precisa passar em um teste de não-derivabilidade: nada que possa ser regenerado só a partir do título do cargo. O que sobra é exatamente o que o prompting não consegue produzir sob demanda — limiares numéricos de alerta, faixas de negociação padrão de mercado, exemplos resolvidos com aritmética que fecha, posições de recuo em ordem de preferência.
-- **Um filtro de qualidade, não uma geração única.** Os papéis são construídos por um pipeline de múltiplas passagens ([`AUTHORING.md`](./AUTHORING.md)) — veja o diagrama abaixo. Um prompt de uma linha não passa por nada disso.
-- **Estrutura reforçada por CI.** Todo PR roda o [`scripts/lint_roles.py`](./scripts/lint_roles.py): esquema, seções obrigatórias, links que resolvem, frases de preenchimento banidas, cobertura completa de sinais de alerta, números reais no exemplo resolvido. Texto genérico de descrição de vaga derruba o build.
-- **Se acumula com o tempo.** Seu prompt improvisado desaparece quando a sessão termina. Esses arquivos acumulam correções de profissionais, seguem uma escada de maturidade (`draft` → `reviewed-by-practitioner` → `mature`) e uma especificação versionada (`spec: 2` marca os papéis no nível atual), e melhoram a cada PR. As correções chegam a todo mundo.
-- **Eficiente em tokens por design.** Cada papel é um núcleo de raciocínio compacto (`SKILL.md`) mais profundidade sob demanda (`references/`). O agente paga pela profundidade só quando a tarefa precisa dela:
-
-```
-roles/financial-manager/
-├─ SKILL.md            ◀ always loaded · identity, first principles,
-│                        heuristics, worked example with real numbers
-└─ references/         ◀ loaded on demand
-   ├─ artifacts.md       filled 13-week cash forecast, board slide, scenarios
-   ├─ red-flags.md       DSO +15% QoQ · GM −200bps · headroom <20% …
-   └─ vocabulary.md      bookings vs billings vs revenue vs ARR …
-```
-
-### Qual é o verdadeiro moat (vantagem competitiva)?
-
-Contestação justa: nada do que foi dito acima impede alguém de fazer `git clone` deste repositório exato e lançá-lo como produto próprio — licença MIT, zero bloqueio de conteúdo. Resposta honesta: o conjunto de arquivos não é o moat. O que é difícil de clonar é a máquina que continua produzindo e corrigindo esse conteúdo:
-
-- **O processo, não o resultado.** Copiar 97 arquivos leva um comando. Copiar o ciclo de autoria com crítica adversarial → rubrica de 9 critérios → lint obrigatório ([`AUTHORING.md`](./AUTHORING.md)) que continua produzindo e corrigindo esses arquivos, não — um fork herda a foto de hoje, não as correções de amanhã.
-- **Um padrão, não um banco de dados.** `SKILL.md` já roda em 30+ ferramentas de agentes. Ser a maior biblioteca num formato aberto e portátil é uma posição de distribuição, não de conteúdo — o valor está em ser a resposta padrão que as pessoas encontram, não nos bytes em si.
-- **Verificado, não alegado.** Qualquer concorrente pode dizer "escrito por especialistas". Poucos conseguem rodar `python3 evals/run_evals.py` na sua frente e mostrar 13/15 vitórias contrafactuais. A confiança aqui é medida e reproduzível, não afirmada.
-- **Atualidade vence recall paramétrico.** Mesmo que um modelo futuro treine com o texto público deste repositório, esse conhecimento fica congelado na data de corte do treinamento. As correções deste repositório saem no mesmo dia em que um profissional as reporta — sem ciclo de retreinamento, versionadas, rastreadas a uma fonte.
-- **Disciplina de cobertura.** A espinha dorsal de 1.016 ocupações da O*NET força cobertura sistemática de nicho (funeral-home-manager, wind-energy-operations-manager) que um concorrente oportunista, cuidando só de papéis da moda, não vai se dar ao trabalho de igualar.
-- **Grátis e portátil vence preso a assinatura.** Isso não compete com sua fatura de LLM — você paga a inferência de qualquer jeito. Compete com SaaS vertical fechado ("Assessor Jurídico IA", $99/mês): esses não conseguem igualar grátis, forkável, e rodável num modelo local sem custo recorrente.
-
-Nada disso ainda é um moat com 97 papéis e uma base pequena de colaboradores — é uma trajetória. A aposta: os comuns se compõem mais rápido do que qualquer fork consegue acompanhar, assim que profissionais suficientes passarem a reportar correções em vez de escrever prompts do zero a cada sessão.
-
 ## Como os papéis são construídos
 
 ```
@@ -151,17 +155,17 @@ Nada disso ainda é um moat com 97 papéis e uma base pequena de colaboradores �
                             loop (max 2) — or the role does not ship
 ```
 
-Todo papel segue o mesmo contrato, reforçado pela especificação e pelo CI:
+Todo papel segue o mesmo contrato, garantido por especificação e CI:
 
-1. **Três testes de aptidão para publicação** — um profissional que lê o papel concorda com a cabeça em vez de dar de ombros; um agente com o papel toma decisões mensuravelmente diferentes das que tomaria sem ele; nada no papel é derivável só a partir do título do cargo.
-2. **Anatomia fixa** — identidade, núcleo de primeiros princípios, heurísticas condicionais ("quando X, o padrão é Y a menos que Z"), um framework de decisão executável, modos de falha comuns, e um exemplo resolvido com números reais que fecham e terminam no entregável de verdade (o memorando, a redação de ajustes, o relatório final).
-3. **Trio de referências** — um arquivo de manual/artefatos com templates preenchidos, `red-flags.md` (sinal → o que significa → primeira pergunta → dados a buscar), e `vocabulary.md` (termos técnicos com o erro de uso comum explicado).
-4. **Proveniência** — as fontes são identificadas; números específicos remetem a elas ou são rotulados como heurísticas declaradas. Papéis regulados (direito, medicina, finanças) trazem avisos legais explícitos.
-5. **Espinha dorsal O*NET** — a cobertura segue a taxonomia de ocupações do Departamento do Trabalho dos EUA (1.016 ocupações), de modo que o crescimento é sistemático, não apenas o que pareceu interessante naquela semana.
+1. **Três testes de aprovação** — um profissional que lê o papel concorda com a cabeça em vez de dar de ombros; um agente com o papel toma decisões mensuravelmente diferentes do que sem ele; nada nele é derivável apenas do título do cargo.
+2. **Anatomia fixa** — identidade, núcleo de primeiros princípios, heurísticas condicionais ("quando X, o padrão é Y a menos que Z"), um framework de decisão executável, modos de falha comuns e um exemplo resolvido com números reais e que fecham, terminando no entregável de fato (o memorando, a redação de ajustes, o relatório).
+3. **Trio de referências** — um arquivo de aprofundamento com manual/artefatos preenchidos, `red-flags.md` (sinal → o que significa → primeira pergunta → dado a buscar) e `vocabulary.md` (termos técnicos com o uso incorreto comum explicado).
+4. **Proveniência** — as fontes são nomeadas; números específicos remetem a elas ou são identificados como heurísticas declaradas. Papéis regulados (direito, medicina, finanças) trazem avisos explícitos.
+5. **Espinha dorsal O*NET** — a cobertura acompanha a taxonomia de ocupações do Departamento do Trabalho dos EUA (1.016 ocupações), então o crescimento é sistemático, não o que pareceu interessante naquela semana.
 
-Especificação completa, rubrica e o pipeline de redação com LLM: [`AUTHORING.md`](./AUTHORING.md).
+Especificação completa, rubrica e o pipeline de redação por LLM: [`AUTHORING.md`](./AUTHORING.md).
 
-## Como verificamos — transparente, sem exigir confiança cega
+## Como verificamos — transparente, sem necessidade de confiança
 
 "Escrito por especialistas" é uma alegação; este repositório entrega os comprovantes em vez disso. Quatro camadas independentes, todas executáveis por qualquer pessoa a partir deste checkout:
 
@@ -182,25 +186,25 @@ Especificação completa, rubrica e o pipeline de redação com LLM: [`AUTHORING
                         blind judge compares head-to-head
 ```
 
-Execuções publicadas mais recentes (2026-07-06, Haiku 4.5 respondendo, Sonnet 5 julgando às cegas, ambos os harnesses):
+Últimas execuções publicadas (2026-07-06, Haiku 4.5 respondendo, Sonnet 5 julgando às cegas, em ambos os harnesses):
 
-- **Contrafactual:** o skill vence em **13/15 cenários** (1 empate, 1 derrota) — 72% dos critérios de comportamento especialista atingidos, contra 37% da linha de base generalista.
-- **Paridade contra humanos:** a resposta do skill foi preferida em relação à resposta aceita do profissional real no Stack Exchange em **5 de 8** comparações diretas às cegas (amostra pequena; os conjuntos de perguntas estão crescendo — trate como um sinal preliminar, não como um estudo).
+- **Contrafactual:** o skill vence em **13/15 cenários** (1 empate, 1 derrota) — 72% dos critérios de comportamento de especialista atingidos, contra 37% da linha de base generalista.
+- **Paridade com humanos:** a resposta do skill foi preferida em relação à resposta aceita de um profissional real no Stack Exchange em **5 de 8** comparações cegas cabeça a cabeça (amostra pequena; os conjuntos de perguntas estão crescendo — trate como um sinal indicativo, não um estudo).
 
-Todo resultado é reproduzível: `python3 evals/run_evals.py` e `python3 evals/parity/run_parity.py`. Quando um papel falha nesses testes, isso também é público — o objetivo é medição, não marketing. A revisão por profissionais continua sendo a estrela de ouro (`metadata.maturity`), mas o piso de confiança é medido, não simplesmente atestado.
+Todo resultado é reproduzível: `python3 evals/run_evals.py` e `python3 evals/parity/run_parity.py`. Quando um papel falha nesses testes, isso também é público — o ponto é medição, não marketing. A revisão por profissionais continua sendo a estrela-de-ouro no topo (`metadata.maturity`), mas o piso de confiança é medido, não simplesmente confirmado por alguém.
 
 ## Papéis atuais
 
 <!-- ROLE_COUNTS_START -->
-**90 roles drafted** (86 mapped to an O*NET occupation, 4 custom; 48 at spec 2, 42 awaiting upgrade), across 10 categories:
+**105 roles drafted** (101 mapped to an O*NET occupation, 4 custom; 63 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
-- **engineering**: 15
+- **engineering**: 17
 - **finance**: 10
-- **healthcare**: 6
-- **legal**: 4
+- **healthcare**: 8
+- **legal**: 11
 - **marketing**: 4
-- **operations**: 39
+- **operations**: 43
 - **other**: 4
 - **product**: 1
 - **sales**: 5
@@ -208,15 +212,15 @@ Todo resultado é reproduzível: `python3 evals/run_evals.py` e `python3 evals/p
 Browse all roles in [`roles/`](./roles/), or see [`ROADMAP.md`](./ROADMAP.md) for the full O*NET-backed checklist of what's covered and what's not.
 <!-- ROLE_COUNTS_END -->
 
-Este bloco é gerado automaticamente — rode `python3 scripts/generate_roadmap.py` depois de adicionar, remover ou remapear um papel; não o edite manualmente.
+Este bloco é gerado automaticamente — rode `python3 scripts/generate_roadmap.py` depois de adicionar/remover/remapear um papel, não o edite manualmente.
 
 ## Use com sua ferramenta de IA
 
-`SKILL.md` é um formato multi-ferramenta — o mesmo arquivo de papel funciona no Claude Code, Codex CLI, Cursor e mais de 30 outros agentes. Só o diretório de instalação muda.
+O `SKILL.md` é um formato multiferramenta — o mesmo arquivo de papel funciona no Claude Code, Codex CLI, Cursor e mais de 30 outros agentes. Só o diretório de instalação muda.
 
-### Configuração zero: cole isto no seu agente
+### Zero configuração: cole isto no seu agente
 
-Copie isto no Claude Code, Codex, Cursor, ou qualquer agente com acesso a shell, descreva sua tarefa ao final, e ele instala o especialista certo sozinho:
+Cole isto no Claude Code, Codex, Cursor ou qualquer agente com acesso a shell, descreva sua tarefa no final, e ele instala o especialista certo sozinho:
 
 ```text
 Install a domain expert for my task from the open-source library
@@ -237,21 +241,44 @@ https://github.com/wonsukchoi/domain-experts :
 My task: <describe your task here>
 ```
 
+**Usuários de Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code e Amp:** pule a colagem manual — `npx domain-experts command --tool <id>` instala o `/domain-expert` uma vez, depois é só rodar `/domain-expert <tarefa>` a cada vez (veja [comando de barra `/domain-expert`](#comando-de-barra-domain-expert) abaixo).
+
 ### Instalação por ferramenta
 
 | Ferramenta | Como |
 |---|---|
 | **Claude Code** | `npx domain-experts add <slug>` — vai para `./.claude/skills/<slug>/`, reconhecido automaticamente como skill. |
 | **Codex CLI** | Mesmo comando com `--to .codex/skills/<slug>` (projeto) ou `--to ~/.codex/skills/<slug>` (pessoal). Uma nova sessão já reconhece. |
-| **Cursor, Windsurf, Roo Code, Goose e outras ferramentas compatíveis com SKILL.md** | Mesmo comando com `--to <diretório de skills da sua ferramenta>/<slug>` — confira a documentação da sua ferramenta para o caminho. |
-| **Ferramentas que leem `AGENTS.md`** (GitHub Copilot, Jules, Amp, Zed, …) | Instale em qualquer lugar do repositório (ex.: `--to skills/<slug>`), depois adicione uma linha ao `AGENTS.md`: `When a task needs <role> judgment, read skills/<slug>/SKILL.md first.` |
-| **Qualquer chat de IA (sem shell)** | Abra o papel no GitHub, cole o `SKILL.md` no system prompt ou nas instruções personalizadas; cole os arquivos de `references/` quando a conversa precisar dessa profundidade. |
+| **Cursor** | Mesmo comando com `--to .cursor/skills/<slug>` — o Cursor lê nativamente o mesmo formato `SKILL.md`. |
+| **Windsurf, Roo Code, Goose e outras ferramentas compatíveis com `SKILL.md`** | Mesmo comando com `--to <diretório de skills da sua ferramenta>/<slug>` — confira o caminho na documentação da sua ferramenta. |
+| **Ferramentas que leem `AGENTS.md`** (GitHub Copilot, Jules, Amp, Zed, …) | Instale em qualquer lugar do repositório (ex.: `--to skills/<slug>`), depois acrescente uma linha ao `AGENTS.md`: `When a task needs <role> judgment, read skills/<slug>/SKILL.md first.` |
+| **Qualquer chat de IA (sem shell)** | Abra o papel no GitHub, cole o `SKILL.md` no prompt de sistema ou nas instruções personalizadas; cole os arquivos de `references/` quando a conversa precisar dessa profundidade. |
 
-Toda instalação copia o papel completo — `SKILL.md` mais `references/` — de modo que os manuais completos viajam junto.
+Toda instalação copia o papel completo — `SKILL.md` mais `references/` — para que os manuais de aprofundamento viajem junto.
 
 ### Despacho automático
 
-[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) é um meta-skill que elimina até a etapa `match` — instale com `npx domain-experts add domain-expert-router`, carregue uma vez, e seu agente encontra sozinho o papel certo para pedidos de "aja como X", e avisa com honestidade quando um papel ainda não está coberto.
+[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) é um meta-skill que elimina até a etapa de `match` — instale-o com `npx domain-experts add domain-expert-router`, carregue-o uma vez, e seu agente encontra sozinho o papel certo para pedidos do tipo "aja como X", e avisa com honestidade quando um papel ainda não está coberto.
+
+### Comando de barra `/domain-expert`
+
+```sh
+npx domain-experts command --tool <id>   # claude (default), codex, gemini, cursor, windsurf, roo, amp
+```
+
+Reinicie a sessão e depois use `/domain-expert <tarefa>` diretamente — por exemplo, `/domain-expert review this vendor contract`. Ele roda o `match`, carrega o `SKILL.md` do papel vencedor (e `references/` conforme necessário) e responde como esse especialista, ou avisa com honestidade quando nada corresponde ainda. Mesma ideia do skill de roteamento acima, empacotada como um comando de um único disparo em vez de um skill sempre carregado.
+
+| `--tool` | Instala em | Notas |
+|---|---|---|
+| `claude` (padrão) | `.claude/commands/domain-expert.md` | |
+| `codex` | `~/.codex/prompts/domain-expert.md` | O Codex só lê prompts do diretório em nível de usuário, sem opção local ao projeto; a documentação da OpenAI marca esse mecanismo como descontinuado em favor de "skills", mas ainda funciona |
+| `gemini` | `.gemini/commands/domain-expert.toml` | Formato TOML |
+| `cursor` | `.cursor/commands/domain-expert.md` | |
+| `windsurf` | `.windsurf/workflows/domain-expert.md` | O Windsurf chama isso de "workflows" |
+| `roo` | `.roo/commands/domain-expert.md` | |
+| `amp` | `.agents/commands/domain-expert.md` | A localização do Amp é fixa na raiz do repositório, sem diretório global separado |
+
+Adicione `--global` para instalar no diretório de nível de usuário da ferramenta (ex.: `~/.claude/commands/`, `~/.cursor/commands/`) em vez do diretório do projeto, ou `--to <caminho>` para um local totalmente personalizado.
 
 ### Referência da CLI
 
@@ -260,27 +287,30 @@ npx domain-experts list          # browse all roles
 npx domain-experts search lawyer # substring search
 npx domain-experts match "review this like our CFO" [--json]
 npx domain-experts add <slug> [--to dir]
+npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /domain-expert command
 ```
 
-`match` pontua os papéis por sobreposição de palavras-chave e informa uma correspondência confiável, candidatos de baixa confiança, ou um honesto "ainda não coberto" — não chuta em silêncio. `--json` para uso programático.
+O `match` pontua os papéis por sobreposição de palavras-chave e reporta uma correspondência confiante, candidatos de baixa confiança, ou um honesto "ainda não coberto" — ele não fica adivinhando silenciosamente. Use `--json` para uso programático.
 
-O pacote npm captura uma foto da biblioteca de papéis a cada release. Para a vanguarda ainda não lançada, use `npx --yes github:wonsukchoi/domain-experts <command>` — a mesma CLI, direto do `main`.
+O pacote npm registra um retrato da biblioteca de papéis a cada release. Para a versão mais recente ainda não lançada, use `npx --yes github:wonsukchoi/domain-experts <comando>` — a mesma CLI, direto da `main`.
 
 ## Roteiro
 
-[`ROADMAP.md`](./ROADMAP.md) é o backlog mestre — as 1.016 ocupações do O*NET, agrupadas por categoria, marcadas conforme vão sendo redigidas. Use-o para encontrar um papel não coberto em vez de tentar adivinhar o que falta.
+O [`ROADMAP.md`](./ROADMAP.md) é o backlog mestre — todas as 1.016 ocupações da O*NET, agrupadas por categoria, marcadas conforme vão sendo redigidas. Use-o para encontrar um papel ainda não coberto em vez de tentar adivinhar o que falta.
 
-## Contribuindo — este repositório se acumula
+## Contribuindo — este repositório se multiplica
 
-Cada papel adicionado deixa o roteador mais inteligente, cada correção chega a todos os usuários no próximo release, e cada pergunta de avaliação torna a barra de qualidade mais difícil de simular. Um prompt que você escreve para si mesmo morre com sua sessão; um papel que você contribui aqui funciona para todo mundo, para sempre, e continua melhorando depois que você sai. Essa é a aposta inteira: **1.016 ocupações não é um projeto solo — é um bem comum.**
+Cada papel adicionado deixa o roteador mais inteligente, cada correção chega a todos os usuários no próximo release, e cada pergunta de avaliação torna o padrão de qualidade mais difícil de simular. Um prompt que você escreve para si mesmo morre com a sua sessão; um papel que você contribui aqui funciona para todo mundo, para sempre, e continua melhorando depois que você sai. Essa é a aposta inteira: **1.016 ocupações não é um projeto solo — é um bem comum.**
 
-Três formas de entrar, para qualquer nível de habilidade:
+Perguntas frequentes (falhas de lint, conflitos de push, processo de release) → [`docs/FAQ.md`](./docs/FAQ.md).
 
-1. **Você trabalha em um papel que já cobrimos?** Leia-o. Qualquer erro é uma [issue de correção de profissional](../../issues/new/choose) de 2 minutos — a contribuição mais valiosa que este projeto pode receber. Não precisa saber abrir PR.
-2. **Quer escrever ou aprimorar um papel?** Siga a receita exata em [`CONTRIBUTING.md`](./CONTRIBUTING.md) — está escrita com tanta precisão que um LLM consegue executá-la, então você e seu assistente de IA podem fazer isso juntos. O lint avisa se a estrutura está aquém antes de qualquer humano revisar. 42 papéis legados estão [disponíveis para reivindicar agora mesmo](../../issues/1).
-3. **Não sabe escrever mas sabe encontrar?** Colete perguntas de paridade (`evals/parity/harvest_stackexchange.py`) ou abra um [pedido de papel](../../issues/new/choose) com as tarefas que você delegaria a ele.
+Três formas de entrar, em qualquer nível de habilidade:
 
-Se a especificação entrar em conflito com a realidade de um profissional, a especificação perde — diga isso no seu PR e nós corrigimos a especificação.
+1. **Você trabalha em um papel que cobrimos?** Leia-o. Qualquer coisa errada é uma [issue de correção por profissional](../../issues/new/choose) de 2 minutos — a contribuição mais valiosa que este projeto pode receber. Não precisa saber fazer PR.
+2. **Quer escrever ou atualizar um papel?** Siga a receita exata em [`CONTRIBUTING.md`](./CONTRIBUTING.md) — está escrita com tanta precisão que um LLM consegue executá-la, então você e seu assistente de IA podem fazer isso juntos. O lint avisa se a estrutura não está à altura antes de qualquer revisão humana. 42 papéis legados estão [disponíveis para adoção agora](../../issues/1).
+3. **Você não sabe escrever mas sabe garimpar?** Colete perguntas de paridade (`evals/parity/harvest_stackexchange.py`) ou registre um [pedido de papel](../../issues/new/choose) com as tarefas que você delegaria a ele.
+
+Se a especificação entrar em conflito com a realidade de um profissional, a especificação perde — diga isso no seu PR e nós ajustamos a especificação.
 
 ## Licença
 

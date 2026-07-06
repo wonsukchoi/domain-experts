@@ -27,59 +27,7 @@
 
 Biblioteca de código abierto de **definiciones de roles profesionales** — los modelos mentales reales, los umbrales de decisión y los modos de fallo de practicantes de verdad, estructurados para que cualquier agente de IA pueda cargar uno y razonar como ese experto. Pídele a tu agente que "revise este contrato" y responderá con el manual de cláusulas y las escaleras de repliegue de un abogado senior de contratos, no con el resumen genérico de internet de un generalista.
 
-## Visión — una persona, todos los expertos
-
-```
-                              ┌───────────────────────┐
-                              │   Y O U  +  A G E N T  │
-                              └───────────┬───────────┘
-                                          │
-             ┌──────────────┬────────────┼────────────┬──────────────┐
-             │              │            │            │              │
-             ▼              ▼            ▼            ▼              ▼
-        lawyer-        financial-    data-        marketing-    clinical-
-        contracts      manager       scientist    strategist    research-
-        │              │             │            │             coordinator
-        redline the    defend the    read the     kill the      │
-        MSA            runway call   A/B test     dead channel  flag the
-                                      right                      deviation
-
-        no résumé screened. no calendar. no invoice. no waiting room.
-        just: which role does this task need — load it — reason as it.
-```
-
-Hoy en día, hacer bien algo fuera de tu propio ámbito significa contratar, subcontratar o buscar contactos — encontrar un abogado, esperar en la agenda de un CFO, pagar la tarifa de un estratega de marketing. Esa fricción es un impuesto que pagan todos los fundadores en solitario, todos los equipos pequeños, cualquier persona que se topa con un problema fuera de su experiencia. La mayoría simplemente no hace la tarea, o la hace mal.
-
-Una persona con una suscripción de IA —o incluso un modelo local, sin suscripción alguna— y este repositorio no paga ese impuesto. Carga el razonamiento real del CFO para una decisión sobre el runway. Carga el manual de cláusulas del abogado de contratos para una redacción de cambios. Carga el criterio del coordinador de investigación clínica para una desviación de protocolo. Cambia de rol según la tarea, bajo demanda, al costo de la inferencia en lugar del costo de una contratación. Una persona, un agente, el criterio acumulado de cientos de profesiones.
-
-```
-   ─────────────────────────────────────────────────────────────
-    1 person + 1 agent + N roles  >  the org chart it replaces
-   ─────────────────────────────────────────────────────────────
-```
-
-Ese es el verdadero objetivo final aquí, no una curiosidad: la barrera entre "necesito un experto" y "tengo uno" se derrumba. Y se vuelve más real a medida que crece la cobertura — 59 roles frente a 1,016 ocupaciones rastreadas hoy; la hoja de ruta existe para que esa brecha se cierre, no para que siga siendo interesante para siempre.
-
-No reemplaza el criterio, la responsabilidad ni la licencia profesional donde estos deben recaer legalmente en un humano — cada rol regulado (derecho, medicina, finanzas) lo dice explícitamente. Reemplaza la fricción de no tener acceso al razonamiento en primer lugar.
-
-```
-you ─── "review this vendor contract"
-              │
-              ▼
-   ┌──────────────────────┐        ┌─ roles/lawyer-contracts/ ──────────────┐
-   │  domain-expert       │        │                                        │
-   │  router              │───────▶│  SKILL.md      the reasoning core      │
-   │  (finds the expert   │        │  references/                           │
-   │   your task needs)   │        │   ├─ clause-playbook.md  fallbacks     │
-   └──────────────────────┘        │   ├─ red-flags.md        smell tests   │
-                                   │   └─ vocabulary.md       terms of art  │
-                                   └────────────────────┬───────────────────┘
-                                                        │
-                                                        ▼
-                                     agent reasons like a senior
-                                     contracts attorney — thresholds,
-                                     market positions, redline language
-```
+**Ir a:** [Inicio rápido](#inicio-rápido) · [¿No puedo simplemente decirle a Claude que actúe como un CFO?](#no-puedo-simplemente-decirle-a-claude-que-actúe-como-un-cfo) · [Visión](#visión--una-persona-todos-los-expertos) · [Cómo se construyen los roles](#cómo-se-construyen-los-roles) · [Cómo lo verificamos](#cómo-lo-verificamos--transparente-sin-necesidad-de-confiar-a-ciegas) · [Roles actuales](#roles-actuales) · [Úsalo con tu herramienta](#úsalo-con-tu-herramienta-de-ia) · [Hoja de ruta](#hoja-de-ruta) · [Contribuir](#contribuir--este-repositorio-se-acumula)
 
 ## Inicio rápido
 
@@ -89,6 +37,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 ```
 
 No se necesita instalación — `npx` lo obtiene directamente de npm. ¿Lo usas seguido? Instala con `npm install -g domain-experts` y omite el `npx`.
+
+**¿Usas Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code o Amp?** `npx domain-experts command --tool <id>` instala un comando de barra `/domain-expert` para tu herramienta — reinicia tu sesión y ejecuta `/domain-expert review this vendor contract`. Encuentra el rol, lo carga y razona como el experto correcto en un solo paso, sin la danza manual de `match`/`add`.
 
 O sáltate el paso manual por completo: carga [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) una sola vez, y tu agente detectará qué experto necesita cada tarea, obtendrá automáticamente el contexto completo del rol, y te dirá con honestidad cuando un rol aún no está cubierto en lugar de improvisar. Tú sigues trabajando; la experiencia adecuada aparece por sí sola.
 
@@ -139,6 +89,60 @@ Objeción justa: nada de lo anterior impide que alguien haga `git clone` de este
 - **Gratis y portable le gana a atado por suscripción.** Esto no compite con tu factura del LLM — de todos modos pagas la inferencia. Compite con SaaS vertical cerrado ("Asesor Legal IA", $99/mes): esos no pueden igualar gratis, forkeable, y ejecutable en un modelo local sin costo recurrente.
 
 Nada de esto es todavía un moat con 97 roles y una base pequeña de colaboradores — es una trayectoria. La apuesta: el bien común se compone más rápido de lo que cualquier fork puede seguirle el ritmo, una vez que suficientes practicantes reporten correcciones en vez de escribir prompts desde cero cada sesión.
+
+## Visión — una persona, todos los expertos
+
+```
+                              ┌───────────────────────┐
+                              │   Y O U  +  A G E N T  │
+                              └───────────┬───────────┘
+                                          │
+             ┌──────────────┬────────────┼────────────┬──────────────┐
+             │              │            │            │              │
+             ▼              ▼            ▼            ▼              ▼
+        lawyer-        financial-    data-        marketing-    clinical-
+        contracts      manager       scientist    strategist    research-
+        │              │             │            │             coordinator
+        redline the    defend the    read the     kill the      │
+        MSA            runway call   A/B test     dead channel  flag the
+                                      right                      deviation
+
+        no résumé screened. no calendar. no invoice. no waiting room.
+        just: which role does this task need — load it — reason as it.
+```
+
+Hoy en día, hacer bien algo fuera de tu propio ámbito significa contratar, subcontratar o buscar contactos — encontrar un abogado, esperar en la agenda de un CFO, pagar la tarifa de un estratega de marketing. Esa fricción es un impuesto que pagan todos los fundadores en solitario, todos los equipos pequeños, cualquier persona que se topa con un problema fuera de su experiencia. La mayoría simplemente no hace la tarea, o la hace mal.
+
+Una persona con una suscripción de IA —o incluso un modelo local, sin suscripción alguna— y este repositorio no paga ese impuesto. Carga el razonamiento real del CFO para una decisión sobre el runway. Carga el manual de cláusulas del abogado de contratos para una redacción de cambios. Carga el criterio del coordinador de investigación clínica para una desviación de protocolo. Cambia de rol según la tarea, bajo demanda, al costo de la inferencia en lugar del costo de una contratación. Una persona, un agente, el criterio acumulado de cientos de profesiones.
+
+```
+   ─────────────────────────────────────────────────────────────
+    1 person + 1 agent + N roles  >  the org chart it replaces
+   ─────────────────────────────────────────────────────────────
+```
+
+Ese es el verdadero objetivo final aquí, no una curiosidad: la barrera entre "necesito un experto" y "tengo uno" se derrumba. Y se vuelve más real a medida que crece la cobertura — 92 roles frente a 1,016 ocupaciones rastreadas hoy; la hoja de ruta existe para que esa brecha se cierre, no para que siga siendo interesante para siempre.
+
+No reemplaza el criterio, la responsabilidad ni la licencia profesional donde estos deben recaer legalmente en un humano — cada rol regulado (derecho, medicina, finanzas) lo dice explícitamente. Reemplaza la fricción de no tener acceso al razonamiento en primer lugar.
+
+```
+you ─── "review this vendor contract"
+              │
+              ▼
+   ┌──────────────────────┐        ┌─ roles/lawyer-contracts/ ──────────────┐
+   │  domain-expert       │        │                                        │
+   │  router              │───────▶│  SKILL.md      the reasoning core      │
+   │  (finds the expert   │        │  references/                           │
+   │   your task needs)   │        │   ├─ clause-playbook.md  fallbacks     │
+   └──────────────────────┘        │   ├─ red-flags.md        smell tests   │
+                                   │   └─ vocabulary.md       terms of art  │
+                                   └────────────────────┬───────────────────┘
+                                                        │
+                                                        ▼
+                                     agent reasons like a senior
+                                     contracts attorney — thresholds,
+                                     market positions, redline language
+```
 
 ## Cómo se construyen los roles
 
@@ -192,15 +196,15 @@ Todo resultado es reproducible: `python3 evals/run_evals.py` y `python3 evals/pa
 ## Roles actuales
 
 <!-- ROLE_COUNTS_START -->
-**90 roles drafted** (86 mapped to an O*NET occupation, 4 custom; 48 at spec 2, 42 awaiting upgrade), across 10 categories:
+**105 roles drafted** (101 mapped to an O*NET occupation, 4 custom; 63 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
-- **engineering**: 15
+- **engineering**: 17
 - **finance**: 10
-- **healthcare**: 6
-- **legal**: 4
+- **healthcare**: 8
+- **legal**: 11
 - **marketing**: 4
-- **operations**: 39
+- **operations**: 43
 - **other**: 4
 - **product**: 1
 - **sales**: 5
@@ -237,13 +241,16 @@ https://github.com/wonsukchoi/domain-experts :
 My task: <describe your task here>
 ```
 
+**Usuarios de Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code y Amp:** sáltense el pegado — `npx domain-experts command --tool <id>` instala `/domain-expert` una vez, y luego solo ejecuta `/domain-expert <tarea>` cada vez (ver [comando de barra `/domain-expert`](#comando-de-barra-domain-expert) más abajo).
+
 ### Instalación por herramienta
 
 | Herramienta | Cómo |
 |---|---|
 | **Claude Code** | `npx domain-experts add <slug>` — se ubica en `./.claude/skills/<slug>/`, detectado automáticamente como skill. |
 | **Codex CLI** | Mismo comando con `--to .codex/skills/<slug>` (proyecto) o `--to ~/.codex/skills/<slug>` (personal). Una nueva sesión lo detecta. |
-| **Cursor, Windsurf, Roo Code, Goose y otras herramientas compatibles con SKILL.md** | Mismo comando con `--to <directorio de skills de tu herramienta>/<slug>` — revisa la documentación de tu herramienta para la ruta. |
+| **Cursor** | Mismo comando con `--to .cursor/skills/<slug>` — Cursor lee el mismo formato `SKILL.md` de forma nativa. |
+| **Windsurf, Roo Code, Goose y otras herramientas compatibles con SKILL.md** | Mismo comando con `--to <directorio de skills de tu herramienta>/<slug>` — revisa la documentación de tu herramienta para la ruta. |
 | **Herramientas que leen `AGENTS.md`** (GitHub Copilot, Jules, Amp, Zed, …) | Instala en cualquier parte del repo (p. ej. `--to skills/<slug>`), luego agrega una línea a `AGENTS.md`: `When a task needs <role> judgment, read skills/<slug>/SKILL.md first.` |
 | **Cualquier chat de IA (sin shell)** | Abre el rol en GitHub, pega `SKILL.md` en el system prompt o en las instrucciones personalizadas; pega los archivos de `references/` cuando la conversación necesite esa profundidad. |
 
@@ -253,6 +260,26 @@ Cada instalación copia el rol completo — `SKILL.md` más `references/` — de
 
 [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) es un meta-skill que elimina incluso el paso `match` — instálalo con `npx domain-experts add domain-expert-router`, cárgalo una vez, y tu agente encontrará el rol adecuado para peticiones de "actúa como X" por sí mismo, y te avisará con honestidad cuando un rol no esté cubierto todavía.
 
+### Comando de barra `/domain-expert`
+
+```sh
+npx domain-experts command --tool <id>   # claude (default), codex, gemini, cursor, windsurf, roo, amp
+```
+
+Reinicia tu sesión, y luego usa `/domain-expert <tarea>` directamente — p. ej. `/domain-expert review this vendor contract`. Ejecuta `match`, carga el `SKILL.md` del rol ganador (y `references/` según se necesite), y responde como ese experto, o te avisa con honestidad cuando nada coincide todavía. Misma idea que el skill enrutador de arriba, empaquetada como un comando de un solo uso en lugar de un skill siempre cargado.
+
+| `--tool` | Instala en | Notas |
+|---|---|---|
+| `claude` (por defecto) | `.claude/commands/domain-expert.md` | |
+| `codex` | `~/.codex/prompts/domain-expert.md` | Codex solo lee prompts desde el directorio a nivel de usuario, sin opción local al proyecto; la documentación de OpenAI marca este mecanismo como obsoleto en favor de "skills", pero todavía funciona |
+| `gemini` | `.gemini/commands/domain-expert.toml` | Formato TOML |
+| `cursor` | `.cursor/commands/domain-expert.md` | |
+| `windsurf` | `.windsurf/workflows/domain-expert.md` | Windsurf llama a esto "workflows" |
+| `roo` | `.roo/commands/domain-expert.md` | |
+| `amp` | `.agents/commands/domain-expert.md` | La ubicación de Amp es fija en la raíz del repo, sin directorio global separado |
+
+Agrega `--global` para instalar en el directorio a nivel de usuario de la herramienta (p. ej. `~/.claude/commands/`, `~/.cursor/commands/`) en lugar del directorio del proyecto, o `--to <ruta>` para una ubicación completamente personalizada.
+
 ### Referencia de la CLI
 
 ```sh
@@ -260,6 +287,7 @@ npx domain-experts list          # browse all roles
 npx domain-experts search lawyer # substring search
 npx domain-experts match "review this like our CFO" [--json]
 npx domain-experts add <slug> [--to dir]
+npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /domain-expert command
 ```
 
 `match` puntúa los roles por superposición de palabras clave e informa una coincidencia confiable, candidatos de baja confianza, o un honesto "aún no cubierto" — no adivina en silencio. `--json` para uso programático.
@@ -273,6 +301,8 @@ El paquete de npm toma una instantánea de la biblioteca de roles en cada releas
 ## Contribuir — este repositorio se acumula
 
 Cada rol agregado hace que el enrutador sea más inteligente, cada corrección llega a todos los usuarios en el próximo release, y cada pregunta de evaluación hace que la barra de calidad sea más difícil de simular. Un prompt que escribes para ti mismo muere con tu sesión; un rol que contribuyes aquí funciona para todos, para siempre, y sigue mejorando después de que te vas. Esa es toda la apuesta: **1,016 ocupaciones no es un proyecto solitario — es un bien común.**
+
+Preguntas frecuentes (fallos de lint, conflictos al hacer push, proceso de release) → [`docs/FAQ.md`](./docs/FAQ.md).
 
 Tres formas de participar, para cualquier nivel de habilidad:
 
