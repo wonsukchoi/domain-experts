@@ -166,6 +166,25 @@ function scoreRole(role, queryTokens, idf) {
   return score;
 }
 
+const GAP_LOG_FILE = path.join(__dirname, "..", "data", "gap-log.jsonl");
+
+// Append-only signal for scripts/generate_roadmap.py's gap summary: every
+// query nobody could confidently match is evidence for what to draft next
+// (e.g. repeated narrow-niche queries under one parent role justify a leaf).
+// Best-effort — a read-only global npm install directory shouldn't crash the CLI.
+function logGap(query, candidates) {
+  try {
+    const entry = JSON.stringify({
+      ts: new Date().toISOString(),
+      query,
+      candidates: candidates.map((c) => c.slug),
+    }) + "\n";
+    fs.appendFileSync(GAP_LOG_FILE, entry);
+  } catch {
+    /* best-effort */
+  }
+}
+
 function cmdMatch(query, opts) {
   if (!query) {
     console.error('Usage: domain-experts match "<job or task description>"');
@@ -186,6 +205,8 @@ function cmdMatch(query, opts) {
   const top = scored.filter((r) => r.score > 0.01).slice(0, 3);
   const best = top[0];
   const confident = best && best.score >= MATCH_THRESHOLD;
+
+  if (!confident) logGap(query, top);
 
   if (opts.json) {
     console.log(

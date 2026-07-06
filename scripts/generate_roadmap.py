@@ -76,6 +76,17 @@ def parse_frontmatter(text):
         fm["maturity"] = mat_m.group(1)
     spec_m = re.search(r"^\s*spec:\s*(\S+)", block, re.MULTILINE)
     fm["spec"] = int(spec_m.group(1)) if spec_m else 1
+    parent_m = re.search(r"^\s*parent:\s*(\S+)", block, re.MULTILINE)
+    if parent_m:
+        fm["parent"] = parent_m.group(1)
+    status_m = re.search(r"^\s*status:\s*(\S+)", block, re.MULTILINE)
+    fm["status"] = status_m.group(1) if status_m else "active"
+    audited_m = re.search(r'^\s*last_audited:\s*"?([\d\-]+)"?', block, re.MULTILINE)
+    if audited_m:
+        fm["last_audited"] = audited_m.group(1)
+    score_m = re.search(r"^\s*audit_score:\s*(\d+)", block, re.MULTILINE)
+    if score_m:
+        fm["audit_score"] = int(score_m.group(1))
     return fm
 
 
@@ -111,6 +122,50 @@ def load_roles():
     return roles
 
 
+def load_gaps(limit=20):
+    """Frequency-rank data/gap-log.jsonl — queries bin/cli.js's `match` couldn't
+    confidently resolve. Repeated near-identical queries under one parent role
+    are the signal that a specialization leaf should be drafted."""
+    import json
+    from collections import Counter
+
+    path = REPO_ROOT / "data" / "gap-log.jsonl"
+    if not path.is_file():
+        return []
+
+    entries = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                entries.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+
+    counts = Counter(e.get("query", "").strip().lower() for e in entries)
+    latest_raw, latest_ts, latest_candidates = {}, {}, {}
+    for e in entries:
+        key = e.get("query", "").strip().lower()
+        ts = e.get("ts", "")
+        if ts >= latest_ts.get(key, ""):
+            latest_ts[key] = ts
+            latest_raw[key] = e.get("query", "")
+            latest_candidates[key] = e.get("candidates", [])
+
+    ranked = sorted(counts.items(), key=lambda kv: (-kv[1], latest_ts.get(kv[0], "")))
+    return [
+        {
+            "query": latest_raw[key],
+            "count": count,
+            "last_seen": latest_ts.get(key, ""),
+            "candidates": latest_candidates.get(key, []),
+        }
+        for key, count in ranked[:limit]
+    ]
+
+
 def load_onet():
     rows = []
     with open(ONET_TSV, encoding="utf-8") as f:
@@ -131,6 +186,10 @@ def write_roles_json(roles):
             "maturity": fm.get("maturity", ""),
             "spec": fm.get("spec", 1),
             "onet_soc_code": fm.get("onet_soc_code"),
+            "parent": fm.get("parent"),
+            "status": fm.get("status", "active"),
+            "last_audited": fm.get("last_audited"),
+            "audit_score": fm.get("audit_score"),
             "skill": f"roles/{slug}/SKILL.md",
             "references": sorted(
                 p.name for p in (ROLES_DIR / slug / "references").glob("*.md")
@@ -147,10 +206,23 @@ def main():
     roles = load_roles()
     write_roles_json(roles)
     onet_rows = load_onet()
+    gaps = load_gaps()
+
+    deprecated_slugs = sorted(
+        slug for slug, fm in roles.items() if fm.get("status") == "deprecated"
+    )
+    needs_refresh_slugs = sorted(
+        slug for slug, fm in roles.items() if fm.get("status") == "needs-refresh"
+    )
+    # Deprecated roles drop out of coverage counts/checklist but stay in
+    # data/roles.json and get their own appendix below.
+    active_roles = {
+        slug: fm for slug, fm in roles.items() if fm.get("status") != "deprecated"
+    }
 
     drafted = {}  # code -> slug
     unmapped_slugs = []
-    for slug, fm in roles.items():
+    for slug, fm in active_roles.items():
         code = fm.get("onet_soc_code")
         if code:
             drafted[code] = slug
@@ -158,7 +230,7 @@ def main():
             unmapped_slugs.append(slug)
 
     legacy_slugs = sorted(
-        slug for slug, fm in roles.items() if fm.get("spec", 1) != 2
+        slug for slug, fm in active_roles.items() if fm.get("spec", 1) != 2
     )
 
     by_major = {}
@@ -272,18 +344,75 @@ def main():
         "or the EU's [ESCO](https://esco.ec.europa.eu/en) taxonomies when proposing a new role in a PR."
     )
     lines.append("")
+    lines.append("## Requested but missing")
+    lines.append("")
+    lines.append(
+        "Queries the CLI's `match` command couldn't confidently resolve, logged to "
+        "`data/gap-log.jsonl` and ranked by frequency here. A query that keeps recurring "
+        "under one parent role's shadow — e.g. a narrow niche a generic role doesn't quite "
+        "cover — is the concrete signal to draft a specialization leaf."
+    )
+    lines.append("")
+    if gaps:
+        lines.append("| Query | Times seen | Last seen | Closest candidates |")
+        lines.append("|---|---|---|---|")
+        for g in gaps:
+            cands = ", ".join(f"`{c}`" for c in g["candidates"]) or "_none_"
+            lines.append(f"| {g['query']} | {g['count']} | {g['last_seen'][:10]} | {cands} |")
+    else:
+        lines.append("**No unresolved queries logged yet.**")
+    lines.append("")
+    lines.append("## Needs refresh")
+    lines.append("")
+    lines.append(
+        "Roles flagged `status: needs-refresh` in frontmatter — a periodic re-score "
+        "against AUTHORING.md's rubric came back below threshold, or a cited source "
+        "went stale. Not removed from the library, just due for a revision PR."
+    )
+    lines.append("")
+    if needs_refresh_slugs:
+        lines.append("| Repo role | Last audited | Audit score |")
+        lines.append("|---|---|---|")
+        for slug in needs_refresh_slugs:
+            fm = roles[slug]
+            lines.append(
+                f"| [`{slug}`](./roles/{slug}/SKILL.md) | "
+                f"{fm.get('last_audited', '_never_')} | "
+                f"{fm.get('audit_score', '_none_')}/18 |"
+            )
+    else:
+        lines.append("**None currently flagged.**")
+    lines.append("")
+    lines.append("## Deprecated")
+    lines.append("")
+    lines.append(
+        "Roles flagged `status: deprecated` — failed re-audit repeatedly, or the "
+        "niche itself went obsolete. Excluded from the counts and checklist above; "
+        "files stay in the repo (moved to `roles/_deprecated/<slug>/`), nothing is "
+        "deleted."
+    )
+    lines.append("")
+    if deprecated_slugs:
+        lines.append("| Repo role | Category |")
+        lines.append("|---|---|")
+        for slug in deprecated_slugs:
+            cat = roles[slug].get("category", "")
+            lines.append(f"| `{slug}` | {cat} |")
+    else:
+        lines.append("**None currently deprecated.**")
+    lines.append("")
 
     ROADMAP_MD.write_text("\n".join(lines), encoding="utf-8")
 
     # --- README.md role-count block ---
     cat_counts = {}
-    for slug, fm in roles.items():
+    for slug, fm in active_roles.items():
         cat = fm.get("category", "uncategorized")
         cat_counts[cat] = cat_counts.get(cat, 0) + 1
 
     block = []
     block.append("<!-- ROLE_COUNTS_START -->")
-    block.append(f"**{len(roles)} roles drafted** ({len(drafted)} mapped to an O*NET occupation, {len(unmapped_slugs)} custom; {len(roles) - len(legacy_slugs)} at spec 2, {len(legacy_slugs)} awaiting upgrade), across {len(cat_counts)} categories:")
+    block.append(f"**{len(active_roles)} roles drafted** ({len(drafted)} mapped to an O*NET occupation, {len(unmapped_slugs)} custom; {len(active_roles) - len(legacy_slugs)} at spec 2, {len(legacy_slugs)} awaiting upgrade), across {len(cat_counts)} categories:")
     block.append("")
     for cat in sorted(cat_counts):
         block.append(f"- **{cat}**: {cat_counts[cat]}")

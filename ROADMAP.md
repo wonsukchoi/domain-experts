@@ -1277,3 +1277,21 @@ Some roles already in this repo don't map cleanly to a single O*NET occupation �
 ## Beyond O*NET
 
 O*NET is US-centric and skews toward formal, salaried employment. For international coverage or informal/entrepreneurial roles it doesn't capture well, consider cross-referencing the ILO's [ISCO](https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/) or the EU's [ESCO](https://esco.ec.europa.eu/en) taxonomies when proposing a new role in a PR.
+
+## Requested but missing
+
+Queries the CLI's `match` command couldn't confidently resolve, logged to `data/gap-log.jsonl` and ranked by frequency here. A query that keeps recurring under one parent role's shadow — e.g. a narrow niche a generic role doesn't quite cover — is the concrete signal to draft a specialization leaf.
+
+**No unresolved queries logged yet.**
+
+## Needs refresh
+
+Roles flagged `status: needs-refresh` in frontmatter — a periodic re-score against AUTHORING.md's rubric came back below threshold, or a cited source went stale. Not removed from the library, just due for a revision PR.
+
+**None currently flagged.**
+
+## Deprecated
+
+Roles flagged `status: deprecated` — failed re-audit repeatedly, or the niche itself went obsolete. Excluded from the counts and checklist above; files stay in the repo (moved to `roles/_deprecated/<slug>/`), nothing is deleted.
+
+**None currently deprecated.**

@@ -7,8 +7,9 @@ This repo turns human job roles into agent-loadable skill files. If you're an AI
 - `roles/<slug>/SKILL.md` — one role's reasoning core; `roles/<slug>/references/` — its deep-dive playbooks, red flags, vocabulary.
 - `AUTHORING.md` — the canonical quality spec and LLM drafting pipeline. **Read it before writing or editing any role.** TEMPLATE.md is only the skeleton.
 - `scripts/lint_roles.py` — mechanical checks; `scripts/generate_roadmap.py` — regenerates ROADMAP.md, the README role-count block, and `data/roles.json`.
-- `bin/cli.js` — the `domain-experts` CLI (list/search/match/add).
+- `bin/cli.js` — the `domain-experts` CLI (list/search/match/add). Non-confident `match` queries append to `data/gap-log.jsonl` — frequency-ranked into ROADMAP.md's "Requested but missing" section by `generate_roadmap.py`.
 - `skills/domain-expert-router/` — meta-skill that dispatches "act as X" requests to a role.
+- `.claude/workflows/generate-role.js` (`/generate-role "<need>"`) — resolves a free-text need to an existing role, a new specialization leaf, or a new parent role, then runs AUTHORING.md's Pass 0-4 pipeline and opens a PR. `.claude/workflows/audit-roles.js` (`/audit-roles [batchSize]`) — batched re-score of shipped roles against the rubric and source currency; stamps `last_audited`/`audit_score`, flags `status: needs-refresh`, deprecates on a second consecutive failure. `.claude/workflows/scan-project.js` (`/scan-project <path>`) — read-only scan of an external project, proposes candidate needs, hands user-picked ones to `/generate-role` (never writes into the scanned project or logs its contents). All three are human-PR-gated — none commits to `main` or publishes.
 
 ## Rules
 
@@ -19,6 +20,7 @@ This repo turns human job roles into agent-loadable skill files. If you're an AI
 5. Regulated roles (law, medicine, financial advice, tax, safety) carry the disclaimer blockquote — see `roles/lawyer-contracts/SKILL.md`.
 6. Commit messages: `role: add <name>` / `role: improve <name> — <what>` / `role: upgrade <name> to spec 2` for role work; plain imperative for infra.
 7. Legacy (spec-1) roles are tracked in ROADMAP.md's auto-generated "Spec-2 upgrade queue". Upgrading one = CONTRIBUTING.md's "Exact recipe for upgrading a legacy role to spec 2" — restructure + references/ trio (incl. vocabulary.md), never a lossy rewrite.
+8. Optional lifecycle frontmatter (`parent`, `status`, `last_audited`, `audit_score`) is written by the `/generate-role` and `/audit-roles` workflows, not hand-authored. `status: deprecated` roles live in `roles/_deprecated/<slug>/`, excluded from active counts but never deleted.
 
 ## Release (npm)
 

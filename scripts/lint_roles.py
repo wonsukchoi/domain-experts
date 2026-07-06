@@ -29,6 +29,7 @@ CATEGORIES = {
     "marketing", "sales", "operations", "healthcare", "other",
 }
 MATURITIES = {"draft", "reviewed-by-practitioner", "mature"}
+STATUSES = {"active", "needs-refresh", "deprecated"}
 
 REQUIRED_SECTIONS = [
     "Identity",
@@ -82,7 +83,7 @@ def section_bodies(text):
     return out
 
 
-def lint_role(role_dir, require_v2, errors, warnings):
+def lint_role(role_dir, require_v2, errors, warnings, all_slugs):
     slug = role_dir.name
     skill = role_dir / "SKILL.md"
 
@@ -115,6 +116,24 @@ def lint_role(role_dir, require_v2, errors, warnings):
     soc = fm.get("onet_soc_code")
     if soc and not re.fullmatch(r"\d{2}-\d{4}\.\d{2}", soc):
         err(f"onet_soc_code '{soc}' not in XX-XXXX.XX form")
+
+    # --- optional lifecycle/hierarchy fields (all spec versions) ---
+    parent = fm.get("parent")
+    if parent:
+        if parent == slug:
+            err("parent cannot equal the role's own slug")
+        elif parent not in all_slugs:
+            err(f"parent '{parent}' is not an existing role slug")
+    status = fm.get("status")
+    if status and status not in STATUSES:
+        err(f"status '{status}' not in allowed set {sorted(STATUSES)}")
+    last_audited = fm.get("last_audited")
+    if last_audited and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", last_audited):
+        err(f"last_audited '{last_audited}' not in YYYY-MM-DD form")
+    audit_score = fm.get("audit_score")
+    if audit_score is not None and audit_score != "":
+        if not re.fullmatch(r"\d+", audit_score) or not 0 <= int(audit_score) <= 18:
+            err(f"audit_score '{audit_score}' must be an integer 0-18")
 
     spec = fm.get("spec", "1")
     if spec not in ("1", "2"):
@@ -215,6 +234,8 @@ def main(argv):
         role_dirs = sorted(d for d in ROLES.iterdir() if d.is_dir())
     role_dirs = list(dict.fromkeys(role_dirs + [ROLES / s for s in added_slugs]))
 
+    all_slugs = {d.name for d in ROLES.iterdir() if d.is_dir()}
+
     errors, warnings = [], []
     n_v2 = 0
     for d in role_dirs:
@@ -226,7 +247,7 @@ def main(argv):
         if fm.get("spec") == "2":
             n_v2 += 1
         lint_role(d, require_v2=d.name in added_slugs, errors=errors,
-                  warnings=warnings)
+                  warnings=warnings, all_slugs=all_slugs)
 
     for w in warnings:
         print(f"WARN  {w}")
