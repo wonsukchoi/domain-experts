@@ -1,5 +1,5 @@
 {
-  "count": 156,
+  "count": 157,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -773,6 +773,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/electrician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "embedded-firmware-engineer",
+      "description": "Use when a task needs the judgment of an Embedded/Firmware Engineer \u2014 analyzing worst-case execution time for a hard real-time deadline, choosing static over dynamic memory allocation to avoid fragmentation on a long-uptime device, keeping an interrupt service routine minimal and deferring work to the main loop, synchronizing a variable shared between an ISR and main context to prevent a torn read, or verifying a hardware register interaction against the datasheet's exact timing rather than observed bench behavior.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/embedded-firmware-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
