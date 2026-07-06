@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 132 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 133 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (38/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (39/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -130,7 +130,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-2081.00 | Tax Examiners and Collectors, and Revenue Agents | [`tax-revenue-agent`](./roles/tax-revenue-agent/SKILL.md) |
 | ✅ | 13-2082.00 | Tax Preparers | [`tax-preparer`](./roles/tax-preparer/SKILL.md) |
 |  | 13-2099.00 | Financial Specialists, All Other |  |
-|  | 13-2099.01 | Financial Quantitative Analysts |  |
+| ✅ | 13-2099.01 | Financial Quantitative Analysts | [`financial-quantitative-analyst`](./roles/financial-quantitative-analyst/SKILL.md) |
 |  | 13-2099.04 | Fraud Examiners, Investigators and Analysts |  |
 
 </details>

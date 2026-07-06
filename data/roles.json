@@ -1,5 +1,5 @@
 {
-  "count": 136,
+  "count": 137,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -857,6 +857,24 @@
       "skill": "roles/financial-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "financial-quantitative-analyst",
+      "description": "Use when a task needs the judgment of a Financial Quantitative Analyst \u2014 pricing a derivative and calculating its Greeks (delta, gamma, vega, theta), estimating P&L impact from a large price move using gamma-adjusted rather than linear delta approximation, checking a trading strategy backtest for lookahead/survivorship bias and overfitting, evaluating Monte Carlo simulation convergence, or distinguishing implied from historical volatility.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/financial-quantitative-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
