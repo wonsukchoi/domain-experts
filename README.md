@@ -77,6 +77,19 @@ roles/financial-manager/
    └─ vocabulary.md      bookings vs billings vs revenue vs ARR …
 ```
 
+### So what's the actual moat?
+
+Fair pushback: none of the above stops someone from `git clone`-ing this exact repo and shipping it as their own product — MIT license, zero content lock-in. Honest answer: the file set is not the moat. What's hard to fork is the machine that keeps producing and correcting it:
+
+- **The pipeline, not the output.** Copying 97 files takes one command. Copying the adversarial-critique → 9-criterion-rubric → lint-gated authoring loop ([`AUTHORING.md`](./AUTHORING.md)) that keeps producing and correcting them does not — a fork inherits today's snapshot, not tomorrow's fixes.
+- **A standard, not a database.** `SKILL.md` already runs in 30+ agent tools. Being the largest library in a portable open format is a distribution position, not a content position — the value is in being the default answer people find, not in the bytes themselves.
+- **Verified, not claimed.** Every competitor can say "written by experts." Few can run `python3 evals/run_evals.py` in front of you and show 13/15 counterfactual wins. Trust here is measured and reproducible, not asserted.
+- **Freshness beats parametric recall.** Even if a future model trains on this repo's public text, that knowledge freezes at the training cutoff. This repo's corrections ship the day a practitioner files them — no retrain cycle, versioned, traced to a source.
+- **Coverage discipline.** O*NET's 1,016-occupation backbone forces systematic long-tail coverage (funeral-home-manager, wind-energy-operations-manager) that an opportunistic competitor curating only trending roles won't bother matching.
+- **Free and portable beats subscription-locked.** This doesn't compete with your LLM bill — you still pay for inference either way. It competes with closed vertical SaaS ("AI Legal Advisor," $99/mo): those can't match free, forkable, and runnable on a local model with zero recurring cost.
+
+None of this is a moat yet at 97 roles and a small contributor base — it's a trajectory. The bet: the commons compounds faster than any single fork can keep pace with, once enough practitioners are filing corrections instead of writing prompts from scratch each session.
+
 ## Vision — one person, every expert
 
 ```

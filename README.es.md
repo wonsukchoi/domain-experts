@@ -127,6 +127,19 @@ roles/financial-manager/
    └─ vocabulary.md      bookings vs billings vs revenue vs ARR …
 ```
 
+### ¿Cuál es el verdadero moat?
+
+Objeción justa: nada de lo anterior impide que alguien haga `git clone` de este mismo repo y lo lance como su propio producto — licencia MIT, cero bloqueo de contenido. Respuesta honesta: el conjunto de archivos no es el moat. Lo difícil de clonar es la maquinaria que sigue produciéndolo y corrigiéndolo:
+
+- **El proceso, no el resultado.** Copiar 97 archivos toma un comando. Copiar el ciclo de autoría con crítica adversarial → rúbrica de 9 criterios → lint obligatorio ([`AUTHORING.md`](./AUTHORING.md)) que sigue produciéndolos y corrigiéndolos, no — un fork hereda la foto de hoy, no las correcciones de mañana.
+- **Un estándar, no una base de datos.** `SKILL.md` ya funciona en 30+ herramientas de agentes. Ser la biblioteca más grande en un formato abierto y portable es una posición de distribución, no de contenido — el valor está en ser la respuesta por defecto que la gente encuentra, no en los bytes en sí.
+- **Verificado, no afirmado.** Cualquier competidor puede decir "escrito por expertos". Pocos pueden ejecutar `python3 evals/run_evals.py` frente a ti y mostrar 13/15 victorias contrafactuales. La confianza aquí se mide y se reproduce, no se declara.
+- **La actualidad le gana al recuerdo paramétrico.** Aunque un futuro modelo entrene con el texto público de este repo, ese conocimiento queda congelado en la fecha de corte del entrenamiento. Las correcciones de este repo se publican el mismo día que un practicante las reporta — sin ciclo de reentrenamiento, versionadas, trazadas a una fuente.
+- **Disciplina de cobertura.** La base de 1,016 ocupaciones de O*NET obliga a una cobertura sistemática de nicho (funeral-home-manager, wind-energy-operations-manager) que un competidor oportunista, curando solo roles de moda, no se molestará en igualar.
+- **Gratis y portable le gana a atado por suscripción.** Esto no compite con tu factura del LLM — de todos modos pagas la inferencia. Compite con SaaS vertical cerrado ("Asesor Legal IA", $99/mes): esos no pueden igualar gratis, forkeable, y ejecutable en un modelo local sin costo recurrente.
+
+Nada de esto es todavía un moat con 97 roles y una base pequeña de colaboradores — es una trayectoria. La apuesta: el bien común se compone más rápido de lo que cualquier fork puede seguirle el ritmo, una vez que suficientes practicantes reporten correcciones en vez de escribir prompts desde cero cada sesión.
+
 ## Cómo se construyen los roles
 
 ```

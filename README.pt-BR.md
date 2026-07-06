@@ -127,6 +127,19 @@ roles/financial-manager/
    └─ vocabulary.md      bookings vs billings vs revenue vs ARR …
 ```
 
+### Qual é o verdadeiro moat (vantagem competitiva)?
+
+Contestação justa: nada do que foi dito acima impede alguém de fazer `git clone` deste repositório exato e lançá-lo como produto próprio — licença MIT, zero bloqueio de conteúdo. Resposta honesta: o conjunto de arquivos não é o moat. O que é difícil de clonar é a máquina que continua produzindo e corrigindo esse conteúdo:
+
+- **O processo, não o resultado.** Copiar 97 arquivos leva um comando. Copiar o ciclo de autoria com crítica adversarial → rubrica de 9 critérios → lint obrigatório ([`AUTHORING.md`](./AUTHORING.md)) que continua produzindo e corrigindo esses arquivos, não — um fork herda a foto de hoje, não as correções de amanhã.
+- **Um padrão, não um banco de dados.** `SKILL.md` já roda em 30+ ferramentas de agentes. Ser a maior biblioteca num formato aberto e portátil é uma posição de distribuição, não de conteúdo — o valor está em ser a resposta padrão que as pessoas encontram, não nos bytes em si.
+- **Verificado, não alegado.** Qualquer concorrente pode dizer "escrito por especialistas". Poucos conseguem rodar `python3 evals/run_evals.py` na sua frente e mostrar 13/15 vitórias contrafactuais. A confiança aqui é medida e reproduzível, não afirmada.
+- **Atualidade vence recall paramétrico.** Mesmo que um modelo futuro treine com o texto público deste repositório, esse conhecimento fica congelado na data de corte do treinamento. As correções deste repositório saem no mesmo dia em que um profissional as reporta — sem ciclo de retreinamento, versionadas, rastreadas a uma fonte.
+- **Disciplina de cobertura.** A espinha dorsal de 1.016 ocupações da O*NET força cobertura sistemática de nicho (funeral-home-manager, wind-energy-operations-manager) que um concorrente oportunista, cuidando só de papéis da moda, não vai se dar ao trabalho de igualar.
+- **Grátis e portátil vence preso a assinatura.** Isso não compete com sua fatura de LLM — você paga a inferência de qualquer jeito. Compete com SaaS vertical fechado ("Assessor Jurídico IA", $99/mês): esses não conseguem igualar grátis, forkável, e rodável num modelo local sem custo recorrente.
+
+Nada disso ainda é um moat com 97 papéis e uma base pequena de colaboradores — é uma trajetória. A aposta: os comuns se compõem mais rápido do que qualquer fork consegue acompanhar, assim que profissionais suficientes passarem a reportar correções em vez de escrever prompts do zero a cada sessão.
+
 ## Como os papéis são construídos
 
 ```
