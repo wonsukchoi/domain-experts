@@ -23,7 +23,7 @@
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
 
-**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md)**
+**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md)**
 
 **직무 역할 정의(job role definitions)**의 오픈소스 라이브러리 — 실제 실무자들의 사고 모델, 의사결정 임계값, 실패 패턴을 그대로 담아서 어떤 AI 에이전트든 불러와 그 전문가처럼 추론할 수 있도록 구조화했습니다. 에이전트에게 "이 계약서를 검토해줘"라고 요청하면, 인터넷 요약을 내놓는 제너럴리스트가 아니라 시니어 계약 전문 변호사의 조항 대응 전략과 폴백 사다리로 답합니다.
 
@@ -179,10 +179,10 @@ roles/financial-manager/
 ## 현재 역할 목록
 
 <!-- ROLE_COUNTS_START -->
-**89 roles drafted** (85 mapped to an O*NET occupation, 4 custom; 47 at spec 2, 42 awaiting upgrade), across 10 categories:
+**90 roles drafted** (86 mapped to an O*NET occupation, 4 custom; 48 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
-- **engineering**: 14
+- **engineering**: 15
 - **finance**: 10
 - **healthcare**: 6
 - **legal**: 4

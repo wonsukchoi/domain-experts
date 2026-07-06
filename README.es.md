@@ -23,7 +23,7 @@
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
 
-**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md)**
+**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md)**
 
 Biblioteca de código abierto de **definiciones de roles profesionales** — los modelos mentales reales, los umbrales de decisión y los modos de fallo de practicantes de verdad, estructurados para que cualquier agente de IA pueda cargar uno y razonar como ese experto. Pídele a tu agente que "revise este contrato" y responderá con el manual de cláusulas y las escaleras de repliegue de un abogado senior de contratos, no con el resumen genérico de internet de un generalista.
 
@@ -179,10 +179,10 @@ Todo resultado es reproducible: `python3 evals/run_evals.py` y `python3 evals/pa
 ## Roles actuales
 
 <!-- ROLE_COUNTS_START -->
-**89 roles drafted** (85 mapped to an O*NET occupation, 4 custom; 47 at spec 2, 42 awaiting upgrade), across 10 categories:
+**90 roles drafted** (86 mapped to an O*NET occupation, 4 custom; 48 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
-- **engineering**: 14
+- **engineering**: 15
 - **finance**: 10
 - **healthcare**: 6
 - **legal**: 4

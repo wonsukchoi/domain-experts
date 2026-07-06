@@ -23,7 +23,7 @@
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
 
-**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md)**
+**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md)**
 
 **職業ロール定義**のオープンソースライブラリ — 実在の実務家が持つ実際のメンタルモデル、判断のしきい値、失敗パターンを構造化し、どんなAIエージェントでも読み込んでその専門家のように推論できるようにするもの。エージェントに「この契約書をレビューして」と頼めば、ジェネラリストがネットの要約を返すのではなく、シニア契約弁護士の条項プレイブックとフォールバックの序列で答える。
 
@@ -179,10 +179,10 @@ roles/financial-manager/
 ## 現在のロール一覧
 
 <!-- ROLE_COUNTS_START -->
-**89 roles drafted** (85 mapped to an O*NET occupation, 4 custom; 47 at spec 2, 42 awaiting upgrade), across 10 categories:
+**90 roles drafted** (86 mapped to an O*NET occupation, 4 custom; 48 at spec 2, 42 awaiting upgrade), across 10 categories:
 
 - **design**: 2
-- **engineering**: 14
+- **engineering**: 15
 - **finance**: 10
 - **healthcare**: 6
 - **legal**: 4
