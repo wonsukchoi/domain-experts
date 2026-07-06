@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 152 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 153 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (23/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (24/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -170,7 +170,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 15-1299.09 | Information Technology Project Managers |  |
 | ✅ | 15-2011.00 | Actuaries | [`actuary`](./roles/actuary/SKILL.md) |
 | ✅ | 15-2021.00 | Mathematicians | [`mathematician`](./roles/mathematician/SKILL.md) |
-|  | 15-2031.00 | Operations Research Analysts |  |
+| ✅ | 15-2031.00 | Operations Research Analysts | [`operations-research-analyst`](./roles/operations-research-analyst/SKILL.md) |
 |  | 15-2041.00 | Statisticians |  |
 |  | 15-2041.01 | Biostatisticians |  |
 | ✅ | 15-2051.00 | Data Scientists | [`data-scientist`](./roles/data-scientist/SKILL.md) |
