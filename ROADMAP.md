@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 88 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 89 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (50/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (51/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -70,7 +70,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 11-9199.00 | Managers, All Other |  |
 | ✅ | 11-9199.01 | Regulatory Affairs Managers | [`regulatory-affairs-manager`](./roles/regulatory-affairs-manager/SKILL.md) |
 | ✅ | 11-9199.02 | Compliance Managers | [`compliance-manager`](./roles/compliance-manager/SKILL.md) |
-|  | 11-9199.08 | Loss Prevention Managers |  |
+| ✅ | 11-9199.08 | Loss Prevention Managers | [`loss-prevention-manager`](./roles/loss-prevention-manager/SKILL.md) |
 |  | 11-9199.09 | Wind Energy Operations Managers |  |
 |  | 11-9199.10 | Wind Energy Development Managers |  |
 |  | 11-9199.11 | Brownfield Redevelopment Specialists and Site Managers |  |
