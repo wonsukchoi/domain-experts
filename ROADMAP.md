@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 147 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 148 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -136,14 +136,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (18/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (19/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 15-1211.00 | Computer Systems Analysts | [`computer-systems-analyst`](./roles/computer-systems-analyst/SKILL.md) |
 | ✅ | 15-1211.01 | Health Informatics Specialists | [`health-informatics-specialist`](./roles/health-informatics-specialist/SKILL.md) |
 | ✅ | 15-1212.00 | Information Security Analysts | [`information-security-analyst`](./roles/information-security-analyst/SKILL.md) |
-|  | 15-1221.00 | Computer and Information Research Scientists |  |
+| ✅ | 15-1221.00 | Computer and Information Research Scientists | [`computer-information-research-scientist`](./roles/computer-information-research-scientist/SKILL.md) |
 |  | 15-1231.00 | Computer Network Support Specialists |  |
 |  | 15-1232.00 | Computer User Support Specialists |  |
 | ✅ | 15-1241.00 | Computer Network Architects | [`network-architect`](./roles/network-architect/SKILL.md) |
