@@ -1,5 +1,5 @@
 {
-  "count": 163,
+  "count": 164,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2621,6 +2621,24 @@
       "audit_score": null,
       "skill": "roles/technical-recruiter/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "telecommunications-engineering-specialist",
+      "description": "Use when a task needs the judgment of a Telecommunications Engineering Specialist \u2014 specifying structured cabling category/distance against a speed requirement, computing a fiber link's insertion-loss budget, sizing PBX/VoIP trunk groups from traffic data, planning carrier circuit provisioning lead time against a project timeline, or designing and validating wireless/DAS coverage via RF site survey.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1241.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/telecommunications-engineering-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "title-examiner",

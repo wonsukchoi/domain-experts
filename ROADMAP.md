@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 153 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 154 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (24/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (25/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -147,7 +147,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 15-1231.00 | Computer Network Support Specialists | [`network-support-specialist`](./roles/network-support-specialist/SKILL.md) |
 | ✅ | 15-1232.00 | Computer User Support Specialists | [`computer-user-support-specialist`](./roles/computer-user-support-specialist/SKILL.md) |
 | ✅ | 15-1241.00 | Computer Network Architects | [`network-architect`](./roles/network-architect/SKILL.md) |
-|  | 15-1241.01 | Telecommunications Engineering Specialists |  |
+| ✅ | 15-1241.01 | Telecommunications Engineering Specialists | [`telecommunications-engineering-specialist`](./roles/telecommunications-engineering-specialist/SKILL.md) |
 | ✅ | 15-1242.00 | Database Administrators | [`database-administrator`](./roles/database-administrator/SKILL.md) |
 | ✅ | 15-1243.00 | Database Architects | [`database-architect`](./roles/database-architect/SKILL.md) |
 |  | 15-1243.01 | Data Warehousing Specialists |  |
