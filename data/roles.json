@@ -1,5 +1,5 @@
 {
-  "count": 147,
+  "count": 148,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1169,6 +1169,24 @@
       "skill": "roles/graphic-designer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "health-informatics-specialist",
+      "description": "Use when a task needs the judgment of a Health Informatics Specialist \u2014 diagnosing why a clinical quality measure (eCQM/HEDIS) rate looks off, checking whether required data is captured as structured/coded fields versus free text, redesigning a clinical decision support (CDS) alert with a high override rate, resolving an interoperability gap caused by terminology/code mapping, or reconciling an HL7 v2 to FHIR data mapping during a system integration.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1211.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/health-informatics-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
