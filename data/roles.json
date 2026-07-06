@@ -1,5 +1,5 @@
 {
-  "count": 146,
+  "count": 147,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1118,6 +1118,24 @@
       "audit_score": null,
       "skill": "roles/geothermal-production-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "gis-technologist",
+      "description": "Use when a task needs the judgment of a GIS Technologist/Analyst \u2014 reconciling coordinate reference system (CRS) mismatches between datasets before an overlay or area calculation, choosing a projection appropriate to the specific analysis (area vs. distance vs. display), validating polygon/line topology before trusting derived spatial results, assessing geocoded address precision against an analysis's accuracy requirement, or checking whether a dataset's original digitizing scale matches the current analysis scale.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/gis-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "government-property-inspector",
