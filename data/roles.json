@@ -1,5 +1,5 @@
 {
-  "count": 101,
+  "count": 102,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1165,6 +1165,20 @@
       "onet_soc_code": null,
       "skill": "roles/technical-recruiter/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "title-examiner",
+      "description": "Use when a task needs the judgment of a Title Examiner, Abstractor, or Searcher \u2014 tracing an unbroken chain of title back to the required search period, classifying a title defect as curable, insurable-with-exception, or fatal, verifying whether a same-name judgment or lien actually attaches to the subject property, determining priority between competing claims under a race/notice/race-notice recording statute, or producing a title commitment listing required curative actions and exceptions.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-2093.00",
+      "skill": "roles/title-examiner/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "training-development-manager",

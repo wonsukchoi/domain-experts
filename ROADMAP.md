@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 97 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 98 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -349,7 +349,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>23 — Legal</strong> (6/8 drafted)</summary>
+<summary><strong>23 — Legal</strong> (7/8 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -359,7 +359,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 23-1022.00 | Arbitrators, Mediators, and Conciliators | [`mediator`](./roles/mediator/SKILL.md) |
 | ✅ | 23-1023.00 | Judges, Magistrate Judges, and Magistrates | [`judge`](./roles/judge/SKILL.md) |
 | ✅ | 23-2011.00 | Paralegals and Legal Assistants | [`paralegal`](./roles/paralegal/SKILL.md) |
-|  | 23-2093.00 | Title Examiners, Abstractors, and Searchers |  |
+| ✅ | 23-2093.00 | Title Examiners, Abstractors, and Searchers | [`title-examiner`](./roles/title-examiner/SKILL.md) |
 |  | 23-2099.00 | Legal Support Workers, All Other |  |
 
 </details>
