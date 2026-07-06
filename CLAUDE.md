@@ -4,7 +4,7 @@ Before doing ANY work in this repo, read these three files in full, in this orde
 
 1. `AGENTS.md` — what lives where, the rules, release checklist, known pitfalls
 2. `CONTRIBUTING.md` — especially the "Exact recipe for adding a role (follow verbatim)" section
-3. `CONTEXT.md` — where the last session left off
+3. `docs/CONTEXT.md` — where the last session left off
 
 ## Non-negotiables when adding or editing roles
 
