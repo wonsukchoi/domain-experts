@@ -2,6 +2,8 @@
 
 The full quality bar, per-section spec, and LLM drafting pipeline live in [`AUTHORING.md`](./AUTHORING.md). Read it before writing — PRs are reviewed against it.
 
+Common questions (lint failures, push conflicts, release process) are answered in [`docs/FAQ.md`](./docs/FAQ.md).
+
 ## Adding a new role
 
 1. Check [`ROADMAP.md`](./ROADMAP.md) for an uncovered occupation — it's the master checklist so effort doesn't collide or guess at gaps.
