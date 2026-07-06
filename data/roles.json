@@ -1,5 +1,5 @@
 {
-  "count": 159,
+  "count": 160,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -497,6 +497,24 @@
       "skill": "roles/computer-systems-analyst/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "computer-user-support-specialist",
+      "description": "Use when a task needs the judgment of a Computer User Support Specialist \u2014 triaging an inbound ticket's severity and SLA clock before troubleshooting it, verifying a caller's identity before any password/MFA/account-state change, walking a live incident through a structured troubleshooting sequence instead of guessing at a fix, deciding whether a request is an incident, a service request, or the underlying problem behind a string of incidents, or judging whether a ticket should resolve at tier 1 or genuinely needs escalation.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1232.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-user-support-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
