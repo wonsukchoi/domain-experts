@@ -39,6 +39,32 @@
         "answer_author": "ohwilleke",
         "license": "CC BY-SA"
       }
+    },
+    {
+      "id": "lawyer-contracts-se-80047",
+      "question": "After buying from a brick & mortar shop they've contacted me to say buying things from them is consent to arbitration. Is this legal?\n\nA few days ago I bought over-the-counter goods from a shop. There was no signature involved in this purchase. I walked up to the counter with off-the-shelf items, was asked for a phone number, paid in cash, then left. They just sent a text message claiming that buying anything from them constitutes waiver of right to sue them and consent to binding arbitration. Is the shop violating any law?\nThe shop was in Ohio, United States of America.",
+      "expert_answer": "Technically speaking, it's not illegal: spontaneously making a false statement to someone does not fall under any of Ohio's laws regarding fraud or the like.\nIt also doesn't have any legal effect.  You can't retroactively change the terms of a deal; if they didn't tell you about an arbitration requirement at the time you made the purchase, there is no arbitration requirement (and the burden of proof here is on them, not you).",
+      "source": {
+        "site": "law",
+        "url": "https://law.stackexchange.com/questions/80047/after-buying-from-a-brick-mortar-shop-theyve-contacted-me-to-say-buying-thing",
+        "question_score": 44,
+        "answer_score": 43,
+        "answer_author": "Mark",
+        "license": "CC BY-SA"
+      }
+    },
+    {
+      "id": "lawyer-contracts-se-38356",
+      "question": "Do Legal Documents Require Signing In Standard Pen Colors?\n\nI have a question as to whether or not legal documents signed in non standard pen colors (Anything other than blue or black) are valid.\n\nI carry a purple pen around that use for everyday writing tasks, and when I was going to sign a document, someone told me that writing in purple is not valid on legal documents.\n\nIf the document does not specify that a certain pen color be used, is this true?",
+      "expert_answer": "No, Specific Ink Colors are not Required\n\nThat is not correct. If the purple will not photocopy well, the other party might reasonably ask for a color that will. But a signature is normally only evidence of agreement to the provisions, and it is the agreement that is legally important. The color of the ink used does not change the agreement.\n\nIt is normal to expect a signature to be in a permanent ink. A signature in pencil or erasable ink might be legal, but the other party will not want to accept it, and it would be reasonable to comply.",
+      "source": {
+        "site": "law",
+        "url": "https://law.stackexchange.com/questions/38356/do-legal-documents-require-signing-in-standard-pen-colors",
+        "question_score": 35,
+        "answer_score": 41,
+        "answer_author": "David Siegel",
+        "license": "CC BY-SA"
+      }
     }
   ]
 }
