@@ -1,5 +1,5 @@
 {
-  "count": 107,
+  "count": 108,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -727,6 +727,24 @@
       "skill": "roles/gambling-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "game-designer",
+      "description": "Use when a task needs senior game-designer judgment for 2D mobile puzzle games \u2014 tuning a level's difficulty against retention and monetization data, designing or auditing a live-ops level pipeline and cadence, architecting a monetization mechanic against the core loop, diagnosing why a specific level is churning or under-converting players, or scoping a new feature/platform port before it ships.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1255.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/game-designer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
