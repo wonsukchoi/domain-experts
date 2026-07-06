@@ -1,5 +1,5 @@
 {
-  "count": 100,
+  "count": 101,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -652,6 +652,20 @@
       "onet_soc_code": "11-3031.03",
       "skill": "roles/investment-fund-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "judge",
+      "description": "Use when a task needs the judgment of a Judge, Magistrate Judge, or Magistrate \u2014 ruling on an evidentiary objection or motion in real time versus deferring it for fuller consideration, deciding whether to recuse under an appearance-of-impartiality standard, individualizing a criminal sentence against the required statutory factors instead of applying a guideline range mechanically, balancing docket/case-management pressure against a party's due process right to be heard, or choosing pattern versus improvised jury instruction language on a contested legal point.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-1023.00",
+      "skill": "roles/judge/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "judicial-law-clerk",
