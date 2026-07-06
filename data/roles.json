@@ -1,5 +1,5 @@
 {
-  "count": 108,
+  "count": 109,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -826,6 +826,24 @@
       "audit_score": null,
       "skill": "roles/hr-people-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "hr-specialist",
+      "description": "Use when a task needs the judgment of an HR specialist/HR generalist \u2014 determining FMLA or leave eligibility, running the ADA interactive process, maintaining I-9 and personnel-file compliance, administering benefits enrollment, designing a new-hire onboarding sequence, or handling an EEOC charge or background-check adverse action notice. Distinct from hr-people-manager (owns comp/leveling/termination judgment calls and org design) and technical-recruiter (owns sourcing through offer close) \u2014 this role owns the compliance-and-operations ground floor: the paperwork, deadlines, and recordkeeping that, done wrong, create legal exposure regardless of how good the people decisions above it are.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hr-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "hydroelectric-production-manager",
