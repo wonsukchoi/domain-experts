@@ -1270,6 +1270,7 @@ Some roles already in this repo don't map cleanly to a single O*NET occupation â
 | Repo role | Why it's not mapped |
 |---|---|
 | [`customer-success-manager`](./roles/customer-success-manager/SKILL.md) | A SaaS-era role that doesn't fit the closest O*NET candidates (`43-4051.00` Customer Service Representatives is too junior/generic). |
+| [`data-engineer`](./roles/data-engineer/SKILL.md) | No distinct O*NET occupation for general pipeline/ETL data engineering; closest candidates (`15-1243.00` Database Architects, taken by `database-architect`, and `15-1243.01` Data Warehousing Specialists, which is BI/warehouse-specific) don't capture the role. |
 | [`devops-sre`](./roles/devops-sre/SKILL.md) | Site Reliability Engineering is a post-O*NET-taxonomy specialization within `15-1244.00`/`15-1241.00`-type titles; no distinct SOC code exists. |
 | [`ml-engineer`](./roles/ml-engineer/SKILL.md) | No distinct O*NET occupation for ML/AI engineering; folds into `15-2051.00` Data Scientists (already used by `data-scientist`) or `15-1252.00` Software Developers (already used by `software-engineer`) depending on taxonomy version. |
 | [`product-manager`](./roles/product-manager/SKILL.md) | No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link. |

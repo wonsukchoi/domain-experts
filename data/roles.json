@@ -1,5 +1,5 @@
 {
-  "count": 151,
+  "count": 152,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -577,6 +577,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/customs-broker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "data-engineer",
+      "description": "Use when a task needs the judgment of a Data Engineer \u2014 designing an idempotent pipeline operation so retries and backfills don't corrupt data, choosing event-time over processing-time partitioning for time-series aggregation, enforcing schema compatibility rules before an upstream change propagates downstream, adding automated data quality checks to a pipeline, or deciding between batch and streaming architecture for a specific freshness requirement.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/data-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

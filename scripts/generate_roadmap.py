@@ -54,6 +54,7 @@ UNMAPPED_NOTES = {
     "customer-success-manager": "A SaaS-era role that doesn't fit the closest O*NET candidates (`43-4051.00` Customer Service Representatives is too junior/generic).",
     "technical-recruiter": "Falls inside the broader `13-1071.00` Human Resources Specialists occupation rather than having its own code.",
     "ml-engineer": "No distinct O*NET occupation for ML/AI engineering; folds into `15-2051.00` Data Scientists (already used by `data-scientist`) or `15-1252.00` Software Developers (already used by `software-engineer`) depending on taxonomy version.",
+    "data-engineer": "No distinct O*NET occupation for general pipeline/ETL data engineering; closest candidates (`15-1243.00` Database Architects, taken by `database-architect`, and `15-1243.01` Data Warehousing Specialists, which is BI/warehouse-specific) don't capture the role.",
 }
 
 
