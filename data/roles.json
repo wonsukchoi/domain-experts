@@ -1,5 +1,5 @@
 {
-  "count": 121,
+  "count": 122,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -424,6 +424,24 @@
       "audit_score": null,
       "skill": "roles/construction-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "coroner",
+      "description": "Use when a task needs the judgment of a Coroner or medicolegal death investigator \u2014 determining whether a death is reportable/jurisdictional, distinguishing cause of death from manner of death, estimating a postmortem interval from scene findings, deciding whether an autopsy or toxicology screen is warranted, or completing a death certificate under scrutiny.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.06",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/coroner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "cost-estimator",
