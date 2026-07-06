@@ -4,6 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const https = require("https");
+const os = require("os");
 
 const ROLES_DIR = path.join(__dirname, "..", "roles");
 const DATA_FILE = path.join(__dirname, "..", "data", "roles.json");
@@ -272,17 +273,88 @@ async function cmdAdd(slug, opts) {
   }
 }
 
+// Each entry's projectPath/globalPath match that tool's *documented* custom
+// command/prompt mechanism as of this writing — verified against each
+// tool's own docs, not assumed from Claude Code's convention. Where a
+// tool's placeholder-substitution behavior for user-typed arguments isn't
+// documented (Cursor, Windsurf, Amp), the template avoids relying on one
+// and just tells the agent to route "the task described in this message."
+const TOOLS = {
+  claude: {
+    label: "Claude Code",
+    template: "commands/domain-expert.md",
+    projectPath: () => path.join(".claude", "commands", "domain-expert.md"),
+    globalPath: () => path.join(os.homedir(), ".claude", "commands", "domain-expert.md"),
+    usage: "/domain-expert <your task>",
+  },
+  codex: {
+    label: "Codex CLI",
+    // Codex only reads prompts from the user-level ~/.codex/prompts dir,
+    // not a project-local one — project/global resolve the same here.
+    // Note: OpenAI's docs mark this mechanism deprecated in favor of
+    // "skills," but it's still functional as of this writing.
+    template: "commands/domain-expert.codex.md",
+    projectPath: () => path.join(os.homedir(), ".codex", "prompts", "domain-expert.md"),
+    globalPath: () => path.join(os.homedir(), ".codex", "prompts", "domain-expert.md"),
+    usage: "/domain-expert <your task> (or /prompts:domain-expert <your task>)",
+  },
+  gemini: {
+    label: "Gemini CLI",
+    template: "commands/domain-expert.gemini.toml",
+    projectPath: () => path.join(".gemini", "commands", "domain-expert.toml"),
+    globalPath: () => path.join(os.homedir(), ".gemini", "commands", "domain-expert.toml"),
+    usage: "/domain-expert <your task>",
+  },
+  cursor: {
+    label: "Cursor",
+    template: "commands/domain-expert.generic.md",
+    projectPath: () => path.join(".cursor", "commands", "domain-expert.md"),
+    globalPath: () => path.join(os.homedir(), ".cursor", "commands", "domain-expert.md"),
+    usage: "/domain-expert <your task>",
+  },
+  windsurf: {
+    label: "Windsurf",
+    template: "commands/domain-expert.generic.md",
+    projectPath: () => path.join(".windsurf", "workflows", "domain-expert.md"),
+    globalPath: () =>
+      path.join(os.homedir(), ".codeium", "windsurf", "global_workflows", "domain-expert.md"),
+    usage: "/domain-expert <your task>",
+  },
+  roo: {
+    label: "Roo Code",
+    template: "commands/domain-expert.roo.md",
+    projectPath: () => path.join(".roo", "commands", "domain-expert.md"),
+    globalPath: () => path.join(os.homedir(), ".roo", "commands", "domain-expert.md"),
+    usage: "/domain-expert <your task>",
+  },
+  amp: {
+    label: "Amp",
+    // Amp only documents a fixed repo-root location, no separate global dir.
+    template: "commands/domain-expert.generic.md",
+    projectPath: () => path.join(".agents", "commands", "domain-expert.md"),
+    globalPath: () => path.join(".agents", "commands", "domain-expert.md"),
+    usage: "/domain-expert <your task>",
+  },
+};
+
 async function cmdCommand(opts) {
-  const targetPath = path.resolve(
-    opts.to || path.join(".claude", "commands", "domain-expert.md")
-  );
-  const localFile = path.join(__dirname, "..", "commands", "domain-expert.md");
+  const toolId = opts.tool || "claude";
+  const tool = TOOLS[toolId];
+  if (!tool) {
+    console.error(
+      `Unknown --tool "${toolId}". Available: ${Object.keys(TOOLS).join(", ")}`
+    );
+    process.exit(1);
+  }
+  const defaultPath = opts.global ? tool.globalPath() : tool.projectPath();
+  const targetPath = path.resolve(opts.to || defaultPath);
+  const localFile = path.join(__dirname, "..", tool.template);
   try {
     fs.mkdirSync(path.dirname(targetPath), { recursive: true });
-    const text = await readRoleFile(localFile, "commands/domain-expert.md");
+    const text = await readRoleFile(localFile, tool.template);
     fs.writeFileSync(targetPath, text);
-    console.log(`Installed /domain-expert -> ${targetPath}`);
-    console.log(`Start a new session (or run /doctor to reload commands), then try: /domain-expert <your task>`);
+    console.log(`Installed /domain-expert for ${tool.label} -> ${targetPath}`);
+    console.log(`Start a new session, then try: ${tool.usage}`);
   } catch (err) {
     if (err.code === "EACCES" || err.code === "EPERM") {
       console.error(`Permission denied writing to "${targetPath}". Check the path or pass a different --to.`);
@@ -301,6 +373,11 @@ function parseArgs(argv) {
     if (rest[i] === "--to") {
       opts.to = rest[i + 1];
       i++;
+    } else if (rest[i] === "--tool") {
+      opts.tool = rest[i + 1];
+      i++;
+    } else if (rest[i] === "--global") {
+      opts.global = true;
     } else if (rest[i] === "--json") {
       opts.json = true;
     } else {
@@ -318,7 +395,12 @@ Usage:
   domain-experts search <query>       Search roles by slug/description/category
   domain-experts match "<job/task>" [--json]  Best-guess role match for a natural-language ask
   domain-experts add <slug> [--to dir]  Copy a role (SKILL.md + references/) into <dir> (default: .claude/skills/<slug>/)
-  domain-experts command [--to dir]   Install the /domain-expert slash command (default: .claude/commands/domain-expert.md)
+  domain-experts command [--tool <id>] [--global] [--to path]
+                                       Install the /domain-expert command/prompt for <id>
+                                       (default: claude). --global installs to the tool's
+                                       user-level directory instead of the project directory.
+
+  Supported --tool values: ${Object.keys(TOOLS).join(", ")}
 
 Repo: https://github.com/wonsukchoi/domain-experts`);
 }

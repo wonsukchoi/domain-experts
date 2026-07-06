@@ -9,7 +9,7 @@ npm releases are snapshots — `npx domain-experts` users get the role library a
 ## [Unreleased]
 
 ### Added
-- `domain-experts command` CLI subcommand — installs a `/domain-expert <task>` Claude Code slash command (`commands/domain-expert.md`) that runs `match`, loads the winning role, and reasons as that expert in one step
+- `domain-experts command --tool <id>` CLI subcommand — installs a `/domain-expert <task>` slash command/custom prompt across 7 tools (Claude Code, Codex CLI, Gemini CLI, Cursor, Windsurf, Roo Code, Amp) that runs `match`, loads the winning role, and reasons as that expert in one step; `--global` targets the tool's user-level directory instead of the project
 - 15 new spec-2 roles (89 total): mental-health-counselor, high-school-teacher, graphic-designer, electrician, mechanical-engineer, actuary, database-administrator, penetration-tester, personal-financial-advisor, budget-analyst, mediator, paralegal, paramedic, real-estate-broker, sales-engineer
 - `SECURITY.md` — vulnerability reporting process and threat model (prompt injection in role content, CLI, npm supply chain)
 - Repo `CLAUDE.md` session bootstrap and `CONTEXT.md` session-resume notes

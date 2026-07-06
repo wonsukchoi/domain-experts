@@ -38,7 +38,7 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 No install needed — `npx` fetches it from npm. Using it often? `npm install -g domain-experts` and drop the `npx`.
 
-**Claude Code users:** `npx domain-experts command` installs a `/domain-expert` slash command — restart your session and run `/domain-expert review this vendor contract`. It matches, loads, and reasons as the right role in one step, no manual `match`/`add` dance.
+**Using Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, or Amp?** `npx domain-experts command --tool <id>` installs a `/domain-expert` slash command for it — restart your session and run `/domain-expert review this vendor contract`. It matches, loads, and reasons as the right role in one step, no manual `match`/`add` dance.
 
 Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) once, and your agent detects which expert a task needs, pulls the role's full context automatically, and tells you honestly when a role isn't covered yet instead of improvising. You keep working; the right expertise shows up by itself.
 
@@ -228,7 +228,7 @@ https://github.com/wonsukchoi/domain-experts :
 My task: <describe your task here>
 ```
 
-**Claude Code users:** skip the paste — `npx domain-experts command` installs `/domain-expert` once, then just run `/domain-expert <task>` each time (see [`/domain-expert` slash command](#domain-expert-slash-command-claude-code) below).
+**Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, and Amp users:** skip the paste — `npx domain-experts command --tool <id>` installs `/domain-expert` once, then just run `/domain-expert <task>` each time (see [`/domain-expert` slash command](#domain-expert-slash-command) below).
 
 ### Per-tool install
 
@@ -236,7 +236,8 @@ My task: <describe your task here>
 |---|---|
 | **Claude Code** | `npx domain-experts add <slug>` — lands in `./.claude/skills/<slug>/`, picked up automatically as a skill. |
 | **Codex CLI** | Same command with `--to .codex/skills/<slug>` (project) or `--to ~/.codex/skills/<slug>` (personal). New session picks it up. |
-| **Cursor, Windsurf, Roo Code, Goose & other SKILL.md-compatible tools** | Same command with `--to <tool's skills directory>/<slug>` — check your tool's docs for the path. |
+| **Cursor** | Same command with `--to .cursor/skills/<slug>` — Cursor reads the same `SKILL.md` format natively. |
+| **Windsurf, Roo Code, Goose & other SKILL.md-compatible tools** | Same command with `--to <tool's skills directory>/<slug>` — check your tool's docs for the path. |
 | **Tools that read `AGENTS.md`** (GitHub Copilot, Jules, Amp, Zed, …) | Install anywhere in the repo (e.g. `--to skills/<slug>`), then add one line to `AGENTS.md`: `When a task needs <role> judgment, read skills/<slug>/SKILL.md first.` |
 | **Any chat AI (no shell)** | Open the role on GitHub, paste `SKILL.md` into the system prompt or custom instructions; paste `references/` files when the conversation needs the depth. |
 
@@ -246,13 +247,25 @@ Every install copies the full role — `SKILL.md` plus `references/` — so the 
 
 [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that removes even the `match` step — install it with `npx domain-experts add domain-expert-router`, load it once, and your agent finds the right role for "act as X" requests on its own, and says honestly when a role isn't covered.
 
-### `/domain-expert` slash command (Claude Code)
+### `/domain-expert` slash command
 
 ```sh
-npx domain-experts command   # installs .claude/commands/domain-expert.md
+npx domain-experts command --tool <id>   # claude (default), codex, gemini, cursor, windsurf, roo, amp
 ```
 
 Restart your session, then use `/domain-expert <task>` directly — e.g. `/domain-expert review this vendor contract`. It runs `match`, loads the winning role's `SKILL.md` (and `references/` as needed), and answers as that expert, or tells you honestly when nothing matches yet. Same idea as the router skill above, packaged as a one-shot command instead of an always-loaded skill.
+
+| `--tool` | Installs to | Notes |
+|---|---|---|
+| `claude` (default) | `.claude/commands/domain-expert.md` | |
+| `codex` | `~/.codex/prompts/domain-expert.md` | Codex only reads prompts from the user-level dir, no project-local option; OpenAI's docs mark this mechanism deprecated in favor of "skills" but it still works |
+| `gemini` | `.gemini/commands/domain-expert.toml` | TOML format |
+| `cursor` | `.cursor/commands/domain-expert.md` | |
+| `windsurf` | `.windsurf/workflows/domain-expert.md` | Windsurf calls these "workflows" |
+| `roo` | `.roo/commands/domain-expert.md` | |
+| `amp` | `.agents/commands/domain-expert.md` | Amp's location is fixed at the repo root, no separate global directory |
+
+Add `--global` to install to the tool's user-level directory (e.g. `~/.claude/commands/`, `~/.cursor/commands/`) instead of the project directory, or `--to <path>` for a fully custom location.
 
 ### CLI reference
 
@@ -261,7 +274,7 @@ npx domain-experts list          # browse all roles
 npx domain-experts search lawyer # substring search
 npx domain-experts match "review this like our CFO" [--json]
 npx domain-experts add <slug> [--to dir]
-npx domain-experts command [--to dir]  # install the /domain-expert slash command
+npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /domain-expert command
 ```
 
 `match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. `--json` for programmatic use.
@@ -275,6 +288,8 @@ The npm package snapshots the role library at each release. For the unreleased b
 ## Contributing — this repo compounds
 
 Every role added makes the router smarter, every correction reaches every user on the next release, and every eval question makes the quality bar harder to fake. A prompt you write for yourself dies with your session; a role you contribute here works for everyone, forever, and keeps improving after you leave. That's the whole bet: **1,016 occupations is not a solo project — it's a commons.**
+
+Common questions (lint failures, push conflicts, release process) → [`docs/FAQ.md`](./docs/FAQ.md).
 
 Three ways in, any skill level:
 
