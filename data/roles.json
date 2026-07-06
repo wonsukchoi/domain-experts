@@ -1,5 +1,5 @@
 {
-  "count": 122,
+  "count": 123,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -107,6 +107,24 @@
       "skill": "roles/architectural-engineering-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "auto-damage-appraiser",
+      "description": "Use when a task needs the judgment of an Auto Damage Insurance Appraiser \u2014 writing a repair estimate from photos or an in-person inspection, deciding repair vs. total loss against a state total-loss formula, evaluating a body shop's supplement request for hidden damage, determining actual cash value (ACV) for a totaled vehicle, or reconciling an OEM-vs-aftermarket-parts dispute.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/auto-damage-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
