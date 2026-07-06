@@ -53,6 +53,7 @@ UNMAPPED_NOTES = {
     "devops-sre": "Site Reliability Engineering is a post-O*NET-taxonomy specialization within `15-1244.00`/`15-1241.00`-type titles; no distinct SOC code exists.",
     "customer-success-manager": "A SaaS-era role that doesn't fit the closest O*NET candidates (`43-4051.00` Customer Service Representatives is too junior/generic).",
     "technical-recruiter": "Falls inside the broader `13-1071.00` Human Resources Specialists occupation rather than having its own code.",
+    "ml-engineer": "No distinct O*NET occupation for ML/AI engineering; folds into `15-2051.00` Data Scientists (already used by `data-scientist`) or `15-1252.00` Software Developers (already used by `software-engineer`) depending on taxonomy version.",
 }
 
 
