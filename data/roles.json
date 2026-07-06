@@ -1,5 +1,5 @@
 {
-  "count": 134,
+  "count": 135,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -511,6 +511,24 @@
       "skill": "roles/credit-analyst/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "credit-counselor",
+      "description": "Use when a task needs the judgment of a Credit Counselor \u2014 calculating debt-to-income ratio and disposable income to test debt management plan (DMP) feasibility, comparing DMP versus debt settlement versus bankruptcy for a specific client's financial situation, negotiating and applying creditor interest-rate concessions, selecting a debt payoff order matched to a client's follow-through pattern, or providing federally required pre-bankruptcy credit counseling.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/credit-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
