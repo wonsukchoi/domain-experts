@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 145 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 146 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (16/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (17/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -165,7 +165,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 15-1299.04 | Penetration Testers | [`penetration-tester`](./roles/penetration-tester/SKILL.md) |
 |  | 15-1299.05 | Information Security Engineers |  |
 | ✅ | 15-1299.06 | Digital Forensics Analysts | [`digital-forensics-analyst`](./roles/digital-forensics-analyst/SKILL.md) |
-|  | 15-1299.07 | Blockchain Engineers |  |
+| ✅ | 15-1299.07 | Blockchain Engineers | [`blockchain-engineer`](./roles/blockchain-engineer/SKILL.md) |
 |  | 15-1299.08 | Computer Systems Engineers/Architects |  |
 |  | 15-1299.09 | Information Technology Project Managers |  |
 | ✅ | 15-2011.00 | Actuaries | [`actuary`](./roles/actuary/SKILL.md) |
