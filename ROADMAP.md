@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 107 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 113 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (14/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (20/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -102,12 +102,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1081.00 | Logisticians | [`logistician`](./roles/logistician/SKILL.md) |
 |  | 13-1081.01 | Logistics Engineers |  |
 |  | 13-1081.02 | Logistics Analysts |  |
-|  | 13-1082.00 | Project Management Specialists |  |
+| ✅ | 13-1082.00 | Project Management Specialists | [`project-management-specialist`](./roles/project-management-specialist/SKILL.md) |
 | ✅ | 13-1111.00 | Management Analysts | [`management-analyst`](./roles/management-analyst/SKILL.md) |
 | ✅ | 13-1121.00 | Meeting, Convention, and Event Planners | [`meeting-event-planner`](./roles/meeting-event-planner/SKILL.md) |
 |  | 13-1131.00 | Fundraisers |  |
-|  | 13-1141.00 | Compensation, Benefits, and Job Analysis Specialists |  |
-|  | 13-1151.00 | Training and Development Specialists |  |
+| ✅ | 13-1141.00 | Compensation, Benefits, and Job Analysis Specialists | [`compensation-benefits-specialist`](./roles/compensation-benefits-specialist/SKILL.md) |
+| ✅ | 13-1151.00 | Training and Development Specialists | [`training-development-specialist`](./roles/training-development-specialist/SKILL.md) |
 | ✅ | 13-1161.00 | Market Research Analysts and Marketing Specialists | [`marketing-strategist`](./roles/marketing-strategist/SKILL.md) |
 |  | 13-1161.01 | Search Marketing Strategists |  |
 |  | 13-1199.00 | Business Operations Specialists, All Other |  |
@@ -119,16 +119,16 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-2022.00 | Appraisers of Personal and Business Property |  |
 |  | 13-2023.00 | Appraisers and Assessors of Real Estate |  |
 | ✅ | 13-2031.00 | Budget Analysts | [`budget-analyst`](./roles/budget-analyst/SKILL.md) |
-|  | 13-2041.00 | Credit Analysts |  |
+| ✅ | 13-2041.00 | Credit Analysts | [`credit-analyst`](./roles/credit-analyst/SKILL.md) |
 | ♻️ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
 | ✅ | 13-2052.00 | Personal Financial Advisors | [`personal-financial-advisor`](./roles/personal-financial-advisor/SKILL.md) |
 | ✅ | 13-2053.00 | Insurance Underwriters | [`insurance-underwriter`](./roles/insurance-underwriter/SKILL.md) |
 |  | 13-2054.00 | Financial Risk Specialists |  |
 |  | 13-2061.00 | Financial Examiners |  |
 |  | 13-2071.00 | Credit Counselors |  |
-|  | 13-2072.00 | Loan Officers |  |
+| ✅ | 13-2072.00 | Loan Officers | [`loan-officer`](./roles/loan-officer/SKILL.md) |
 |  | 13-2081.00 | Tax Examiners and Collectors, and Revenue Agents |  |
-|  | 13-2082.00 | Tax Preparers |  |
+| ✅ | 13-2082.00 | Tax Preparers | [`tax-preparer`](./roles/tax-preparer/SKILL.md) |
 |  | 13-2099.00 | Financial Specialists, All Other |  |
 |  | 13-2099.01 | Financial Quantitative Analysts |  |
 |  | 13-2099.04 | Fraud Examiners, Investigators and Analysts |  |

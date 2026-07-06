@@ -1,5 +1,5 @@
 {
-  "count": 111,
+  "count": 117,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -326,6 +326,24 @@
       "references": []
     },
     {
+      "slug": "compensation-benefits-specialist",
+      "description": "Use when a task needs the judgment of a Compensation, Benefits, and Job Analysis Specialist \u2014 market-pricing a job against salary survey data, scoring a job through a point-factor or IPE job evaluation, running a pay-equity regression or cohort analysis, building or refreshing a salary structure and compa-ratio bands, classifying a job family's FLSA exemption status through the duties test, or modeling benefits plan cost (loss ratio, PEPM, self-funded vs. fully insured). Distinct from hr-people-manager (owns the comp/leveling judgment calls \u2014 whether to approve an exception, promote someone into a level), hr-specialist (owns individual-case leave/I-9/ADA/FLSA reclassification for one employee's drifted duties), and compensation-benefits-manager (owns pay philosophy, negotiation-range policy, and the department that runs this work). This role owns the mechanics: the survey match, the point score, the regression, the band math \u2014 the analysis those upstream policy and downstream judgment calls are made against.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1141.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/compensation-benefits-specialist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "compliance-manager",
       "description": "Use when a task needs the judgment of a Compliance Manager \u2014 sizing and defending a compliance program's headcount/budget, deciding build-vs-buy on monitoring or case-management technology, choosing a centralized-vs-embedded staffing model, translating a new regulatory obligation into a costed resourcing ask, or reporting program coverage to executives/the board.",
       "category": "legal",
@@ -419,6 +437,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cost-estimator/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "credit-analyst",
+      "description": "Use when a task needs the judgment of a Credit Analyst \u2014 spreading financial statements and computing leverage/coverage ratios, writing a commercial credit memo, assigning or recommending an internal risk rating, structuring covenants on a term loan or revolver, or stress-testing a borrower's debt service under a downside case. Narrower than loan-officer (originates and manages the client relationship; the analyst underwrites the credit that officer brings in) and financial-risk-specialist (owns portfolio-level risk and concentration limits, not single-borrower underwriting).",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/credit-analyst/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -1011,6 +1047,24 @@
       "references": []
     },
     {
+      "slug": "loan-officer",
+      "description": "Use when a task needs the judgment of a loan officer \u2014 qualifying a borrower on DTI/LTV, structuring a loan (product, rate, points, down payment) against those ratios, managing TRID disclosure timing and rate-lock decisions, or triaging a file for underwriting handoff. Distinct from credit-analyst (owns the underwriting/credit-memo analysis) \u2014 this role originates and packages, it doesn't underwrite.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/loan-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "lodging-manager",
       "description": "Use when a task needs the judgment of a Lodging/Hotel Manager \u2014 setting room rates against occupancy forecast (revenue management), evaluating overbooking risk, diagnosing a RevPAR or ADR variance, managing a guest service recovery situation, or balancing housekeeping/labor cost against occupancy swings.",
       "category": "operations",
@@ -1399,6 +1453,24 @@
       ]
     },
     {
+      "slug": "project-management-specialist",
+      "description": "Use when a task needs the judgment of a project management specialist \u2014 building or recomputing an EVM-based schedule/cost forecast, running a status report and RAID log cycle, assessing schedule health before trusting a critical path, sizing a contingency vs. management reserve, evaluating a change request against baseline tolerance, or preparing a variance/exception report for a sponsor. Distinct from a project/program manager or engineering manager (who own people decisions, team composition, and delivery authority) \u2014 this role owns the plan's mechanics: the schedule, the budget, the risk register, and the honesty of the forecast, executed largely through influence rather than authority (O*NET 13-1082.00).",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1082.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/project-management-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "property-real-estate-manager",
       "description": "Use when a task needs the judgment of a Property/Real Estate/Community Association Manager \u2014 setting rent against vacancy/market data, evaluating a capital improvement vs. deferred maintenance tradeoff, handling a tenant dispute or eviction decision, managing an HOA/community association reserve fund, or deciding on a vendor/maintenance contract.",
       "category": "operations",
@@ -1691,6 +1763,24 @@
       "references": []
     },
     {
+      "slug": "tax-preparer",
+      "description": "Use when a task needs the judgment of a paid individual/small-business tax return preparer \u2014 reconstructing income from client documents, choosing the right forms and schedules, computing tax liability including self-employment tax, running EITC/CTC/AOTC/HOH due-diligence checks, reconciling withholding against actual liability, or drafting a response to an IRS notice (CP2000, audit letter). Not a tax-strategy/CFO role (see financial-manager) \u2014 this is return-preparation and filing-compliance craft for the current filing season.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2082.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tax-preparer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "technical-recruiter",
       "description": "Use when a task needs the judgment of a technical recruiter/talent acquisition partner \u2014 sourcing candidates, screening resumes, structuring an interview process, evaluating a candidate against a role, or closing an offer. Distinct from an HR/people manager role \u2014 this one owns getting the right person hired, not managing them afterward.",
       "category": "operations",
@@ -1735,6 +1825,24 @@
       "audit_score": null,
       "skill": "roles/training-development-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "training-development-specialist",
+      "description": "Use when a task needs the judgment of a Training and Development Specialist \u2014 running a training needs assessment down to task/objective level, choosing a delivery format (ILT vs eLearning vs blended) for a given audience and constraint set, building a curriculum or storyboard from learning objectives, designing and executing a Kirkpatrick Level 1\u20134 evaluation instrument, or administering LMS structure (course assignment, SCORM/xAPI tracking, completion reporting). Distinct from training-development-manager (owns program strategy, budget, skill/will/systems diagnosis, and whether training is the right intervention at all) \u2014 this role owns the build once that call is made: the instructional design mechanics, the needs-assessment fieldwork, and the LMS/evaluation execution.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1151.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/training-development-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "transportation-storage-distribution-manager",
