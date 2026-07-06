@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 102 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 103 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -323,7 +323,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>21 — Community and Social Service</strong> (5/18 drafted)</summary>
+<summary><strong>21 — Community and Social Service</strong> (6/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -333,7 +333,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 21-1014.00 | Mental Health Counselors | [`mental-health-counselor`](./roles/mental-health-counselor/SKILL.md) |
 |  | 21-1015.00 | Rehabilitation Counselors |  |
 |  | 21-1019.00 | Counselors, All Other |  |
-|  | 21-1021.00 | Child, Family, and School Social Workers |  |
+| ✅ | 21-1021.00 | Child, Family, and School Social Workers | [`child-family-social-worker`](./roles/child-family-social-worker/SKILL.md) |
 |  | 21-1022.00 | Healthcare Social Workers |  |
 |  | 21-1023.00 | Mental Health and Substance Abuse Social Workers |  |
 |  | 21-1029.00 | Social Workers, All Other |  |

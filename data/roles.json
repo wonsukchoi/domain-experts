@@ -1,5 +1,5 @@
 {
-  "count": 106,
+  "count": 107,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -178,6 +178,20 @@
       "onet_soc_code": "11-1011.03",
       "skill": "roles/chief-sustainability-officer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "child-family-social-worker",
+      "description": "Use when a task needs the judgment of a Child, Family, and School Social Worker \u2014 distinguishing an immediate child-safety determination from a longer-term risk assessment, deciding whether an in-home safety plan can control an identified danger versus removal being required, building a safety plan with specific and verifiable (not vague) elements, documenting a case contemporaneously and factually for a court-involved record, or engaging a family's specific context and strengths rather than a generic checklist.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1021.00",
+      "skill": "roles/child-family-social-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "civil-engineer",
