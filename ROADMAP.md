@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 125 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 126 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (31/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (32/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -111,7 +111,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1161.00 | Market Research Analysts and Marketing Specialists | [`marketing-strategist`](./roles/marketing-strategist/SKILL.md) |
 |  | 13-1161.01 | Search Marketing Strategists |  |
 |  | 13-1199.00 | Business Operations Specialists, All Other |  |
-|  | 13-1199.04 | Business Continuity Planners |  |
+| ✅ | 13-1199.04 | Business Continuity Planners | [`business-continuity-planner`](./roles/business-continuity-planner/SKILL.md) |
 |  | 13-1199.05 | Sustainability Specialists |  |
 |  | 13-1199.06 | Online Merchants |  |
 |  | 13-1199.07 | Security Management Specialists |  |

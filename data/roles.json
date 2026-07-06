@@ -1,5 +1,5 @@
 {
-  "count": 129,
+  "count": 130,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -225,6 +225,24 @@
       "skill": "roles/budget-analyst/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "business-continuity-planner",
+      "description": "Use when a task needs the judgment of a Business Continuity Planner \u2014 running a business impact analysis (BIA) to derive recovery time objectives, mapping process dependencies to find single points of failure, evaluating whether current recovery capability meets a process's maximum tolerable downtime, designing or debriefing a tabletop exercise, or building the cost-benefit case for a continuity investment.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1199.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/business-continuity-planner/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
