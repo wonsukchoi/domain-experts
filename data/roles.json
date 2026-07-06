@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 138,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1966,6 +1966,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/school-career-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "search-marketing-strategist",
+      "description": "Use when a task needs the judgment of a Search Marketing Strategist \u2014 matching keyword intent to the right organic vs. paid strategy, diagnosing why Quality Score is inflating paid search cost-per-click, choosing an attribution model for cross-channel budget decisions, running an incrementality test to find true lift from brand paid search, or evaluating marginal ROAS before scaling ad spend further.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1161.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/search-marketing-strategist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

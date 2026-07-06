@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 133 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 134 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (39/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (40/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -109,7 +109,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1141.00 | Compensation, Benefits, and Job Analysis Specialists | [`compensation-benefits-specialist`](./roles/compensation-benefits-specialist/SKILL.md) |
 | ✅ | 13-1151.00 | Training and Development Specialists | [`training-development-specialist`](./roles/training-development-specialist/SKILL.md) |
 | ✅ | 13-1161.00 | Market Research Analysts and Marketing Specialists | [`marketing-strategist`](./roles/marketing-strategist/SKILL.md) |
-|  | 13-1161.01 | Search Marketing Strategists |  |
+| ✅ | 13-1161.01 | Search Marketing Strategists | [`search-marketing-strategist`](./roles/search-marketing-strategist/SKILL.md) |
 |  | 13-1199.00 | Business Operations Specialists, All Other |  |
 | ✅ | 13-1199.04 | Business Continuity Planners | [`business-continuity-planner`](./roles/business-continuity-planner/SKILL.md) |
 | ✅ | 13-1199.05 | Sustainability Specialists | [`sustainability-specialist`](./roles/sustainability-specialist/SKILL.md) |
