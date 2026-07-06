@@ -1,5 +1,5 @@
 {
-  "count": 160,
+  "count": 161,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1882,6 +1882,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/network-support-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "network-systems-administrator",
+      "description": "Use when a task needs the judgment of a network/systems administrator \u2014 triaging a connectivity or outage incident, sequencing an emergency patch or firmware rollout across a device fleet, reviewing backup-job and monitoring coverage, setting account-access and password policy, or planning a WAN circuit order or data-center/office move.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1244.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/network-systems-administrator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
