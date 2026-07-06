@@ -1,0 +1,51 @@
+{
+  "role": "personal-financial-advisor",
+  "scenarios": [
+    {
+      "id": "pfa-1",
+      "task": "We retired three years ago at 65 with $1.6M, and set our withdrawal at 4.2% ($67,200/yr), adjusted for inflation each year since. Two down years in a row have knocked the portfolio down to $1.28M, and this year's inflation-adjusted withdrawal comes out to about $71,000. That's what we budgeted for, so should we just take it as planned?",
+      "criteria": [
+        "Computes the current effective trailing withdrawal rate ($71,000 / $1,280,000 ≈ 5.55%) rather than accepting the budgeted inflation-adjusted dollar figure at face value",
+        "States this rate is more than 20% above the initial 4.2% target (i.e., above the ~5.04% guardrail trigger), invoking the Guyton-Klinger guardrail rule",
+        "Recommends cutting planned spending by 10% per the guardrail rule rather than paying the full $71,000, framing it as a rule-based adjustment rather than a one-time reaction to a single bad year",
+        "Identifies that the two down years occurring early in retirement is a sequence-of-returns risk event — losses locked in by withdrawals before any recovery — not just an unlucky average return",
+        "Recommends funding this year's spending from a cash/short-bond reserve rather than selling equities into the decline, and asks whether a bridge/near-term bucket was ever set aside",
+        "Rejects treating the fixed 4.2% real-dollar figure as immutable for life, naming that as the core failure mode of pairing an initial rate with no adjustment mechanism"
+      ]
+    },
+    {
+      "id": "pfa-2",
+      "task": "I sold our Vanguard Total Stock Market fund in our taxable brokerage account two weeks ago for a $12,400 loss. I just realized I have an automatic investment set up in my own Rollover IRA that bought the same fund 5 days after the sale. I also want to just keep harvesting losses whenever the market dips — that's fine to do without checking anything else, right?",
+      "criteria": [
+        "States the loss is disallowed under the wash-sale rule because the rule applies across all of the same taxpayer's own accounts, including an IRA (IRC §1091 / Rev. Rul. 2008-5), not only the account where the loss was realized",
+        "Identifies the specific mechanism: the IRA's purchase occurred 5 days after the sale, inside the 30-day window",
+        "Recommends checking every account owned by the same taxpayer before executing future harvests, and separately notes that a spouse's own separately-owned account is not swept in by this specific rule",
+        "Recommends, for future harvests, buying a similar but not 'substantially identical' replacement fund (different index/benchmark) to stay invested without re-triggering a wash sale",
+        "Rejects the 'harvest whenever the market dips' framing as sufficient on its own, stating the wash-sale check must happen across the whole household's relevant accounts every time, not as an afterthought"
+      ]
+    },
+    {
+      "id": "pfa-3",
+      "task": "Through RSUs at my company I've built up $340,000 in company stock, out of a $1.5M net worth. My cost basis is only $40,000, so selling would trigger a big tax bill. It's been our best performer for years and I'm not in a blackout period — I'd rather just wait for a better price before selling any of it. Does that sound reasonable?",
+      "criteria": [
+        "Flags the concentration explicitly against the ~20% of net worth threshold, computing $340,000 / $1,500,000 ≈ 22.7%",
+        "Reframes the decision using the diagnostic question of whether the client would buy this much of the stock back today at today's price if it were cash",
+        "Identifies the low cost basis and resulting tax bill ($40,000 basis, ~$300,000 gain) as an excuse being used to avoid the diversification decision, not a genuine barrier to acting",
+        "Recommends a scheduled, systematic diversification vehicle (e.g., a 10b5-1-style systematic sell program or a collar) over an unscheduled discretionary sale",
+        "Clarifies that a 10b5-1 plan exists to remove timing/discretion risk, not to optimize for a better sale price, and rejects 'wait for a 10b5-1 plan' as equivalent to 'wait for a better price'"
+      ]
+    },
+    {
+      "id": "pfa-4",
+      "task": "I want to convert $75,000 from my traditional IRA to Roth every year until the whole balance is converted — same flat amount each year regardless of what else is going on. My neighbor does exactly this and swears by it. This year I'm single, in the 24% bracket, with $180,000 of ordinary income before any conversion.",
+      "criteria": [
+        "Rejects converting a flat $75,000 regardless of bracket, naming that as converting without regard to the client's current bracket room, not just a minor tweak needed",
+        "Computes the room remaining in the current 24% bracket before the 32% bracket begins (~$191,950 taxable-income ceiling minus $180,000 current ordinary income ≈ $11,950 of room)",
+        "States that converting the full $75,000 as planned would push roughly $63,050 of the conversion into the 32% bracket",
+        "Recommends sizing this year's conversion to the available bracket room rather than the fixed figure copied from the neighbor",
+        "Notes that future RMDs are a legitimate reason to convert over time, but that doesn't override sizing each year's conversion to that year's bracket — the plan needs multi-year sizing reassessed annually, not a repeated flat amount",
+        "Explicitly distinguishes this client's situation from the neighbor's, noting bracket room depends on that specific person's income each year rather than a portable rule of thumb"
+      ]
+    }
+  ]
+}

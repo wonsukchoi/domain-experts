@@ -1,0 +1,51 @@
+{
+  "role": "actuary",
+  "scenarios": [
+    {
+      "id": "act-1",
+      "task": "AY2024 general liability, evaluated at 12 months. Earned premium $25.0M. Reported losses to date $3.2M from 410 reported claims. Our 5-year volume-weighted triangle gives factors 12→24mo 2.10, 24→36mo 1.40, 36→48mo 1.15, 48→60mo 1.06, tail 1.02. Expense ratio is 32%, profit provision 6%. Can we just multiply the reported losses by the cumulative factor and book that as the ultimate for this quarter's close?",
+      "criteria": [
+        "Rejects applying chain-ladder mechanically at 12-month maturity, explicitly invoking the default to Bornhuetter-Ferguson for accident years under ~24 months since a small reported base times a large factor produces volatile swings",
+        "Computes the CDF from 12mo to ultimate as 2.10 × 1.40 × 1.15 × 1.06 × 1.02 ≈ 3.656, giving a chain-ladder ultimate of roughly $3.2M × 3.656 ≈ $11.7M",
+        "Computes credibility Z = √(410/1,082) ≈ 0.615, noting claim volume sits well below the full-credibility standard",
+        "Computes the BF ultimate using permissible loss ratio (1 − 0.32 − 0.06 = 0.62, expected losses $25.0M × 0.62 = $15.5M): % unreported = 1 − 1/3.656 ≈ 72.6%, BF ultimate ≈ $3.2M + $15.5M × 0.726 ≈ $14.46M",
+        "Given the low maturity and credibility, states BF should be weighted more heavily than chain-ladder rather than averaged blindly, reconciling the roughly $2.8M divergence between the two methods explicitly",
+        "States the resulting IBNR/ultimate as a point estimate with a stated range or basis rather than a single bare number"
+      ]
+    },
+    {
+      "id": "act-2",
+      "task": "Rate filing for our contractors GL class. Our own data gives an indicated rate need of +18.5%, but it's only 620 claims. We don't have a clean alternative data source, so I was going to just use 0% as the complement of credibility. Loss trend has been running about +3%/year blended, and for the sign-off I was told to just compare our permissible loss ratio against the industry's published combined ratio of 95% to see if we're in line. Good to file it that way?",
+      "criteria": [
+        "Computes credibility Z = √(620/1,082) ≈ 0.757, and states the raw +18.5% indication can't be filed at face value given that credibility",
+        "Rejects using 0%/'no change' as the complement of credibility, naming it as an unexamined assumption that silently asserts 0% is correct, and instead proposes a real complement (broader class-plan, countrywide/territory-adjusted indication, or prior approved rate trended forward)",
+        "Produces a credibility-weighted indicated change by blending the own indication with the proposed real complement using Z, rather than the raw 18.5% or a 0%-complement blend",
+        "Rejects the single blended +3%/year trend figure, requiring frequency and severity to be fit and trended separately since one can mask the other",
+        "Rejects comparing the company's permissible loss ratio to the industry-average combined ratio, deriving permissible loss ratio instead from the company's own expense ratio and profit provision (permissible = 1 − expense ratio − profit provision)",
+        "States the recommended filed rate change together with its premium/combined-ratio impact rather than leaving that for the reader to compute"
+      ]
+    },
+    {
+      "id": "act-3",
+      "task": "Two things for the board deck this quarter: our combined ratio improved from 101% to 96% over the last two quarters, and I want to call it out as an underwriting turnaround. Also, our RBC ratio is 265% of ACL, down from 310% a year ago — still comfortably above the 200% actionable level, so I don't think that needs a mention. Anything to flag before I finalize the slides?",
+      "criteria": [
+        "Flags the combined ratio improving alongside a declining paid-to-incurred ratio (rather than assuming this from the prompt without asking) as a reserve-recognition artifact to check, not an automatic sign of real underwriting improvement",
+        "Asks to bridge the improvement explicitly: how much is real frequency/severity change versus reserve releases or lighter case reserving, before calling it a turnaround",
+        "Requests specific supporting data: paid vs. incurred loss ratio trend by accident year, and reserve release/strengthening by accident year for recent quarters",
+        "Rejects treating 265%, 'comfortably above 200%', as adequate without a trend view, naming that RBC should be managed toward the 200% Company Action Level rather than the 100% insolvency line, and that a drop from 310% to 265% in one year warrants a capital-plan discussion now",
+        "Recommends the board deck separate the reserve-driven and true underwriting components of the combined-ratio move rather than presenting it as an unqualified turnaround"
+      ]
+    },
+    {
+      "id": "act-4",
+      "task": "Last year we got burned — AY2023 commercial auto liability ended up $7.7M short because a development trend emerged that we didn't catch soon enough. To make sure that never happens again, I want to add a flat 8% conservative margin on top of every reserve estimate across all lines this quarter, not just auto liability. Separately, for workers' comp we now have 6 mature accident years of our own tail development, but let's just use the industry benchmark tail factor there instead since it's simpler and someone said it's safer. Sound good?",
+      "criteria": [
+        "Rejects the flat 8% margin applied indiscriminately across all lines, naming it as overcorrection/indiscriminate padding that hides the true combined-ratio trend and can eventually force a regulator- or parent-driven reserve release, undermining the credibility the padding was meant to protect",
+        "States that any reserve margin should be evidence-based per line, tied to an actual diagnostic finding (e.g., a diverging recent diagonal), not applied uniformly as a blanket reaction to last year's miss",
+        "Rejects using the industry benchmark tail factor for workers' comp given 5+ years of own mature accident-year data are available, stating the company's own tail should be used once its own experience covers that maturity, reserving benchmark tails for lines whose own data doesn't reach that far",
+        "Identifies that last year's actual failure mode was averaging away a genuine regime shift in the development factor rather than stress-testing the latest diagonals against the historical average, and that this is what needs fixing, not blanket padding",
+        "Recommends a per-line diagnostic review — comparing the latest 1-2 diagonals against each line's 5-year average — as the proportionate response in place of the flat margin"
+      ]
+    }
+  ]
+}

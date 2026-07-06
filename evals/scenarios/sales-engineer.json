@@ -1,0 +1,49 @@
+{
+  "role": "sales-engineer",
+  "scenarios": [
+    {
+      "id": "se-1",
+      "task": "We're selling a real-time inventory-forecasting API to BrightAisle Retail, a mid-market grocery chain (~$180k ACV). Our only contact so far is their demand-planning manager, who told us their current forecasting tool stockouts on 8,400 of 152,000 SKU-days/month (5.53%), which she estimates costs about $310k/month in lost sales. The AE wants to book a 6-feature product demo for next week to keep momentum going — we haven't talked to anyone on the economic-buyer side, and there's no written success criteria yet. Should I go ahead and build that demo?",
+      "criteria": [
+        "Pushes back on the demo-first plan and states discovery must happen before proposing or scoping a POC",
+        "Flags that only one contact (the demand-planning manager) has been reached, and questions whether she is a coach or a power sponsor rather than assuming she can carry the deal",
+        "Names the still-unanswered MEDDPICC pillars (at minimum Economic Buyer, Decision Process, Paper Process, Champion, Competition) and states that this many unconfirmed pillars means more discovery, not a bigger demo",
+        "Rejects the 6-feature demo as a feature-dump/discovery-skipped pattern and recommends scripting any near-term demo around the stockout pain specifically, or treating a generic walkthrough as a first-call stopgap only",
+        "States that a POC would need 3-5 written success criteria, each with a number and threshold, co-signed by the champion and economic buyer before any environment is stood up"
+      ]
+    },
+    {
+      "id": "se-2",
+      "task": "Our AE just marked the Callisto Freight deal (est. $210k ACV) as \"commit\" for this quarter's forecast. Looking at the CRM, the Economic Buyer field says \"assumed to be VP of Ops, not yet met.\" Our only technical contact for the last four weeks has been the Director of Logistics, who's been enthusiastic on every call. The AE says the champion relationship is strong enough to trust the forecast. Is this deal really safe to call \"commit\"?",
+      "criteria": [
+        "Identifies the unnamed economic buyer on a deal marked \"commit\" as a red flag, stating that a strong technical relationship with no confirmed budget owner has no path to signature",
+        "Asks explicitly who signs the check and whether that person has actually been met, rather than accepting \"assumed to be VP of Ops\"",
+        "Flags single-threading: the Director of Logistics has been the only contact reached across 3+ weeks, which is itself a finding regardless of what CRM stage says",
+        "Distinguishes that an enthusiastic champion is not the same as a confirmed technical win, and separately that a technical win is not the same as a commercial commit",
+        "Recommends downgrading the forecast stage (or explicitly flagging the risk to the AE) until the economic buyer is named and engaged, rather than endorsing \"commit\" on the champion's enthusiasm alone"
+      ]
+    },
+    {
+      "id": "se-3",
+      "task": "We're three weeks into a POC with Vantia Health. It started with 3 signed success criteria, but the champion has kept adding more requests from other stakeholders — we're now tracking 8 criteria total, and I don't have a record of the economic buyer signing off on the newest 5. Separately, I wrote the bake-off scoring rubric against their competitor myself last week since the champion was busy, and I sent results to both sides yesterday. Anything I should be worried about here?",
+      "criteria": [
+        "Flags the growth past 5 success criteria as a smell test, naming that it usually means no economic buyer sign-off happened for the added items or the champion is absorbing side requests instead of saying no to them",
+        "Asks specifically which of the 8 criteria the economic buyer actually signed and on what date, treating the signed document (not a verbal recap) as the only real evidence",
+        "States the new/unsigned criteria should be logged as a phase-2 list and the POC should be reported only against the originally signed criteria",
+        "Flags the unilaterally-authored bake-off rubric as a separate problem, naming that it reads as self-serving once noticed, especially since results were already shared before the champion reviewed the weights",
+        "Recommends the rubric be revisited or re-confirmed with the champion, ideally before either side sees results, rather than letting the already-sent results stand uncontested"
+      ]
+    },
+    {
+      "id": "se-4",
+      "task": "We just closed out a strong POC with Orlyn Manufacturing — all three success criteria passed and the champion and VP of Supply Chain both signed off in the exit call. The deal team is already calling it \"won\" in Slack. Separately, during that same call the VP asked if our platform can do automated multi-site rebalancing — it's not GA yet, it's roughly two quarters out on our internal roadmap but not committed publicly. The AE wants me to pull up our internal prototype and demo it live next week to keep the excitement going into procurement. How should I handle both of these?",
+      "criteria": [
+        "States explicitly that the technical win from the exit report is a separate event from the commercial/sale win, and that the deal is not \"won\" just because the POC passed",
+        "Rejects demoing the internal, uncommitted prototype as though it were shipping, naming this as the vaporware-demo failure mode",
+        "States that since automated multi-site rebalancing isn't on the committed public roadmap, only the current-state limitation and a workaround should be disclosed, with no promised quarter attached",
+        "Recommends handing the deal off explicitly to the AE for procurement, security review, and pricing, with the SE remaining engaged only as technical reference",
+        "Frames disclosing the current gap now as cheaper than the implementation team or the VP's engineers discovering it after go-live"
+      ]
+    }
+  ]
+}

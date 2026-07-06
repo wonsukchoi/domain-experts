@@ -1,0 +1,52 @@
+{
+  "role": "database-administrator",
+  "scenarios": [
+    {
+      "id": "dba-1",
+      "task": "Our 'orders' table (28M rows, Postgres on RDS with SSD-backed storage) started throwing 600ms timeouts on a query filtering by customer_email around 10am today. p95 latency is 810ms. We ran a cleanup job last week that deleted about 6M stale test-account orders, and nobody's touched the schema since. The query should be using idx_orders_customer_email but I'm not 100% sure it still is. Someone on the team already suggested we just bump the RDS instance up a size to buy headroom while we look into it — thoughts?",
+      "criteria": [
+        "Insists on running EXPLAIN (ANALYZE, BUFFERS) rather than plain EXPLAIN, and compares the planner's estimated row count to the actual returned row count",
+        "Identifies stale table statistics from the 6M-row deletion (checking last_analyze/last_autoanalyze) as the likely cause before touching the query or adding an index",
+        "Names the ~5x-or-more estimated-vs-actual row discrepancy as the threshold that signals stale stats rather than a bad index choice",
+        "Checks the random_page_cost setting given SSD-backed storage, noting the Postgres default of 4.0 is calibrated for spinning disks and can tip the planner toward a sequential scan on this storage tier",
+        "Recommends ANALYZE (and REINDEX CONCURRENTLY if bloat is also found) as the fix, and verifies success against the original signal — p95 latency actually returning below the 600ms timeout — not just that the plan changed",
+        "Rejects scaling up the instance as the fix, explaining it lowers CPU% without correcting the planner's wrong plan choice and permanently raises the bill for what is a one-time stats/bloat event"
+      ]
+    },
+    {
+      "id": "dba-2",
+      "task": "Our internal reporting dashboard reads from an async read replica. Every night during the 2am ETL load, replica lag climbs — tonight it hit 95 seconds before settling back down around 3am. Support just got a ticket from a warehouse manager saying an order they created at 2:15am wasn't showing up on the dashboard until almost 3am. Someone on-call suggested restarting the replica since it 'seems to fall behind every night.' Is that the right call?",
+      "criteria": [
+        "Rejects restarting the replica as the fix, naming that lag is a queue governed by apply throughput vs. the primary's write rate, not a network or replica-health problem",
+        "Diagnoses by comparing the lag trend against the ETL job's write throughput on the primary (linear growth tracking the batch load) rather than assuming a network blip",
+        "Applies the 30-second heuristic: since 95s materially exceeds it, recommends routing dashboard reads back to the primary until lag clears rather than leaving reads on a stale replica",
+        "Distinguishes that async replication has structural nonzero lag by design, framing the real question as whether tonight's lag exceeds the dashboard's staleness tolerance, not whether lag should be zero",
+        "Investigates whether the replica is I/O-contended or single-threaded on WAL apply during the ETL window as the actual mechanism, rather than treating 'replica falls behind every night' as unexplainable",
+        "States that any mitigation must be verified by confirming lag actually returns to baseline under the same nightly load, not just that a command (like a restart) completed"
+      ]
+    },
+    {
+      "id": "dba-3",
+      "task": "We need to add a required 'region' column to our payments table before tomorrow's deploy — every row needs a value, so I wrote it as one migration: ALTER TABLE payments ADD COLUMN region text NOT NULL DEFAULT 'us-east'. Ran it against my local dev copy (about 800 rows) and it finished instantly, so I'm planning to ship this as-is. Payments is our biggest table in prod, something like 18 million rows. Good to go?",
+      "criteria": [
+        "Flags that ADD COLUMN with a NOT NULL and a DEFAULT value triggers a full table rewrite taking an ACCESS EXCLUSIVE lock for the duration, blocking all reads and writes on payments during the deploy",
+        "States that the local test against ~800 rows is not valid evidence of safety, since the lock duration scales with row count and 18M rows will not finish instantly",
+        "Recommends the additive-then-backfill-then-constrain sequence: add the column nullable with no default, backfill in batches, add the NOT NULL check as NOT VALID, then validate separately",
+        "Specifies backfilling in batches (roughly 5,000-20,000 rows) with a short sleep between batches rather than one UPDATE, naming the WAL volume/replica lag risk of a single large transaction",
+        "Declines to call the revised migration plan 'zero-downtime' without naming which specific step (e.g. constraint validation scan) could still hold a lock, and for how long"
+      ]
+    },
+    {
+      "id": "dba-4",
+      "task": "Our 'sessions' table is 15M rows and pg_stat_user_tables shows n_dead_tup at 3.6M against n_live_tup — it's been slowly bloating for weeks and disk usage on that table is climbing. One of our engineers wants to just run VACUUM FULL on it this afternoon to reclaim the space before it gets worse, since business hours today are relatively quiet. Sound okay?",
+      "criteria": [
+        "Rejects running VACUUM FULL during business hours, naming that it takes an ACCESS EXCLUSIVE lock for its full duration, trading a slow-but-live table for a fast-but-down one",
+        "Notes the dead-tuple ratio (3.6M / 15M = 24%) exceeds the 20% threshold on a table over 10M rows, and treats this as a signal to investigate why autovacuum has fallen behind rather than apply a one-time manual fix",
+        "Investigates specific root causes before remediating: a long-running transaction holding back the xmin horizon, or autovacuum_vacuum_cost_limit/cost_delay throttling autovacuum during competing I/O",
+        "Recommends checking pg_stat_activity sorted by xact_start for open long-running transactions, and pg_stat_user_tables.last_autovacuum, before scheduling any fix",
+        "Proposes reclaiming space via a non-blocking path (e.g. pg_repack, or REINDEX CONCURRENTLY for bloated indexes) instead of a blocking VACUUM FULL",
+        "Explains that standard (non-full) vacuum marks space reusable but doesn't shrink the file on disk, which is why bloat has been accumulating even though autovacuum may be technically running"
+      ]
+    }
+  ]
+}

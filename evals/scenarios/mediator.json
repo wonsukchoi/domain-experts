@@ -1,0 +1,50 @@
+{
+  "role": "mediator",
+  "scenarios": [
+    {
+      "id": "med-1",
+      "task": "I'm mediating a wrongful termination case. Employee demands $420,000; employer opened at $60,000. Employee's own counsel puts the trial odds 18 months out at 30% chance of a full $600,000 verdict, 45% chance of a partial $150,000 verdict, 25% chance of a defense verdict at $0, and estimates the employee's own litigation costs over that period at $90,000. On the employer side, same probability weighting applies to their expected loss, plus the employer's own defense costs of $110,000 over the same period; the employer's principal states authority in the room caps at $280,000. We've now had two rounds: employee moved $420k → $350k → $300k, employer moved $60k → $90k → $170k. Can I bracket now, and what number should I test?",
+      "criteria": [
+        "Computes the employee's expected value as a probability-weighted average rather than a single confident number: 0.30×600,000 + 0.45×150,000 + 0.25×0 = $247,500, then nets the $90,000 litigation cost to arrive at a floor near $157,500",
+        "Computes the employer's total expected exposure as EV plus defense costs (247,500 + 110,000 = $357,500) and notes the $280,000 authority cap sits below full exposure, meaning the employer has room to move up to that cap",
+        "States the ZOPA is the $157,500–$280,000 range itself, distinct from any bracket number offered — the bracket is a technique to reveal the ZOPA, not the ZOPA",
+        "Confirms both sides have made two independent moves off their opening numbers before treating a bracket as appropriate, rather than proposing one earlier",
+        "Frames the bracket as a conditional caucus question to each side separately (\"would you move to $235,000 if they moved to $235,000?\"), not as an offer or the mediator's own suggested settlement figure",
+        "Notes the mediator must ask permission before carrying either side's number across to the other room"
+      ]
+    },
+    {
+      "id": "med-2",
+      "task": "Two-day employment discrimination mediation. Dollar issue: employee demands $180,000 back pay, employer offers $40,000 — stalled after day 1 of caucusing. Non-monetary issues still open: a neutral reference letter and a no-rehire waiver. Going into day 2, should we tackle the reference letter in joint session or caucus, and how should I sequence the rest of the agenda?",
+      "criteria": [
+        "Recommends structuring the agenda by issue, resolving the easier items first to build momentum before the dollar figure carrying the most value, rather than opening day 2 on back pay",
+        "Recommends the reference letter and no-rehire waiver go in joint session, naming that neither side wants to look unreasonable refusing a non-monetary term in front of the other",
+        "Keeps the back-pay dollar figure in caucus rather than joint session",
+        "Treats caucus-vs-joint as a per-issue judgment call, warning that running the whole mediation in only one mode either locks in positional posturing (all-joint) or loses the momentum joint problem-solving builds on non-monetary terms (all-caucus)",
+        "Flags that if a joint session runs past 90 minutes without new information surfacing, that's positional entrenchment and the right move is to break to caucus immediately"
+      ]
+    },
+    {
+      "id": "med-3",
+      "task": "Commercial mediation, contract dispute. All session, the defendant's counsel has done essentially all the talking while the defendant's VP (present in the room) hasn't spoken once. Twice this round, counsel has said \"we don't have authority past $150,000.\" What should I do before we go any further with numbers on this side?",
+      "criteria": [
+        "Flags that counsel doing all the talking while the principal stays silent all session is a signal that real settlement authority may not be in the room",
+        "Flags that repeating \"no authority past $X\" more than once in a round can mean either a genuine undisclosed cap or a stalling tactic to extract a mediator's proposal, and asks the diagnostic question directly: is that a personal limit, or does someone outside the room need to approve anything past it",
+        "Recommends addressing the VP directly to test whether the number reflects her own read of the case, separate from her lawyer's, rather than continuing to negotiate only through counsel",
+        "States that a title like VP implies only apparent authority, and that actual settlement authority at the number under discussion must be confirmed against the intake form rather than assumed",
+        "Distinguishes settlement authority from apparent authority as the operative concept driving the concern, rather than treating this as a generic communication problem"
+      ]
+    },
+    {
+      "id": "med-4",
+      "task": "I'm arbitrating a construction defect case under AAA Commercial Arbitration Rules. Mid-hearing, one side's counsel calls me privately, says it's \"just a scheduling question,\" but a minute into the call starts describing why their expert witness's credibility should be weighed a certain way. Do I let the call continue since it started as scheduling?",
+      "criteria": [
+        "Distinguishes caucus, which is sanctioned in mediation, from ex parte contact, which is prohibited in binding arbitration outside narrow logistical exceptions — the same practice that's normal for a mediator is a violation for an arbitrator",
+        "Identifies the call as having crossed into ex parte contact once it touched witness credibility (the merits), not mere scheduling, and states the arbitrator should have asked upfront whether the matter was logistics or substance",
+        "States that AAA/JAMS rules prohibit substantive ex parte contact and that continuing the call creates an evident-impartiality problem and live vacatur exposure under FAA §10(a)(2)",
+        "Recommends documenting the request and notifying the other side of that it occurred, regardless of what was actually discussed, rather than quietly declining and moving on",
+        "Names entertaining an off-record conversation with one side alone in arbitration as a known failure mode carrying vacatur risk irrespective of the call's actual content"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "role": "real-estate-broker",
+  "scenarios": [
+    {
+      "id": "reb-1",
+      "task": "My sellers want to list their house at $825,000. It's 2,100 sqft, 4bd/2.5ba, built 2005, 3-car garage. I pulled three comps from the trailing few months within half a mile: 118 Larkspur (2,050 sqft, sold $740,000, 40 days ago, no material differences), 44 Sycamore (2,200 sqft, sold $795,000, 35 days ago, but it has an updated bathroom the subject doesn't), and 61 Redwood (1,980 sqft, sold $705,000, 80 days ago, no third garage bay like the subject has). The sellers are firm on $825,000 because that's what they need to make their move-up purchase work. Do I just list it there since that's their number?",
+      "criteria": [
+        "Adjusts each comp explicitly (subtracting value the comp has that the subject lacks, adding value the comp lacks) and computes an adjusted $/sqft per comp before averaging",
+        "Reconciles to a point estimate near $753,000 (average adjusted $/sqft ≈ $358-359 applied to 2,100 sqft) and a CMA range of roughly $709,000 (comp floor) to $785,000 (comp ceiling)",
+        "States that $825,000 sits meaningfully above the CMA ceiling (roughly 5%+) and flags this to the seller before drafting the listing agreement, not after it sits on market",
+        "Cites the days-on-market cost of overpricing (a listing priced well above its CMA ceiling sells slower and, once stale, for less than CMA value) rather than only objecting on principle",
+        "Does not simply defer to the seller's wished-for number, naming the specific overpricing cost up front instead of listing at $825,000 and blaming the market later at the first price reduction",
+        "Distinguishes the CMA as the broker's opinion of value for pricing strategy from the lender's appraisal, noting the appraisal is the number that will actually need to clear once a buyer is under contract near $825,000"
+      ]
+    },
+    {
+      "id": "reb-2",
+      "task": "128 Cedar Lane is listed at $520,000 and we got three offers. Offer A: $525,000, conventional loan 15% down, $5,250 earnest money, standard inspection/financing/appraisal contingencies, no appraisal-gap coverage. Offer B: $540,000, conventional 25% down, inspection waived, $16,200 earnest money, appraisal-gap coverage of $12,000. Offer C: escalation clause with a $530,000 base, escalating $2,000 over any verified competing offer, capped at $555,000, $10,600 earnest money (2% of the base), inspection waived except major systems, appraisal-gap coverage of $8,000. My CMA supports around $530,000 for this property. The seller is leaning toward C since it looks like it could go highest. What should I tell them?",
+      "criteria": [
+        "Resolves Offer C's escalation against the next-best verified offer (Offer B, $540,000): $540,000 + $2,000 = $542,000, under the $555,000 cap, and treats that as C's effective price rather than the headline base or cap",
+        "Estimates the appraisal is likely to land near the CMA figure (~$530,000) and computes the appraisal gap for B and C separately: B's gap is $10,000 and fully covered by its $12,000 addendum; C's gap is $12,000 with only $8,000 covered, leaving roughly a $4,000 shortfall that likely renegotiates the price down and adds delay",
+        "Ranks the offers by realized-price expectation rather than headline price, concluding Offer B nets the seller more (or is at least as strong) than Offer C despite C's higher nominal number",
+        "Flags Offer A's earnest money (about 1% of price) as a thinner commitment signal appropriate to raise given the competitive multiple-offer situation",
+        "Distinguishes the escalation clause's cap/verification mechanics from appraisal-gap coverage as two separate addenda solving two different risks, not one number that covers both",
+        "Presents the tradeoff to the seller as a choice (e.g., higher protected realized price vs. higher headline number with more fallout risk) rather than a single flat recommendation"
+      ]
+    },
+    {
+      "id": "reb-3",
+      "task": "We're under contract at $600,000 with a buyer. Their pre-approval letter is dated 75 days ago and says 'pre-qualification.' The financing contingency deadline in the contract is only 10 days from acceptance. Earnest money deposit is $3,000. The buyer's agent says everything's fine and we should just proceed to the next steps. Should I sign off on moving forward as-is?",
+      "criteria": [
+        "Flags the letter as a pre-qualification rather than an underwritten pre-approval, dated beyond 60 days, and states this reflects a soft credit pull/stated income rather than an actual underwriting review",
+        "Flags the 10-day financing contingency deadline as manufacturing fallout risk given only a pre-qualification letter, and asks whether the loan has actually been submitted to underwriting or the clock is starting from zero at acceptance",
+        "Flags the $3,000 earnest money deposit as under roughly 1% of the $600,000 price, naming it as a thin commitment signal worth raising",
+        "Notes that these three signals appearing together on the same file is a pattern worth surfacing to the client in writing, not three unrelated minor details",
+        "Asks the specific diagnostic questions tied to each flag (e.g., has underwriting reviewed this file, what is the loan submission date) rather than giving a generic reassurance that things are fine",
+        "Recommends pulling specific documents (an updated fully-underwritten pre-approval, the loan submission date, direct lender confirmation) before proceeding, rather than accepting the buyer's agent's assurance as-is"
+      ]
+    },
+    {
+      "id": "reb-4",
+      "task": "My buyers are in love with a house that just went 'contingent' in the MLS. They're asking if it's even worth writing a backup offer since it's basically already sold at this point, or if we should just move on and focus on other listings.",
+      "criteria": [
+        "Rejects treating 'contingent' as equivalent to 'pending' or as basically sold, stating explicitly that pending means all contingencies have cleared while contingent means at least one (inspection, financing, appraisal, sale-of-buyer's-home) is still outstanding",
+        "Recommends finding out specifically which contingency is still open on that listing rather than giving a blanket assessment based on the status label alone",
+        "Assesses how likely that specific outstanding contingency is to survive (e.g., financing vs. an unresolved inspection issue) before advising the buyers whether to pursue it",
+        "Recommends writing a backup offer rather than walking away, since a contingent listing can still fall through and a backup position costs the buyer little to hold",
+        "Names the actual first question to ask the listing agent (which contingency is still open and its likely outcome) instead of relying on the MLS status alone or giving vague reassurance"
+      ]
+    }
+  ]
+}

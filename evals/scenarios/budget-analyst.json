@@ -1,0 +1,53 @@
+{
+  "role": "budget-analyst",
+  "scenarios": [
+    {
+      "id": "ba-1",
+      "task": "Public Works' Street Maintenance line has come in favorable two years running: FY24 adopted was $850,000 against actual of $774,500 (-8.9%), and FY25 adopted was also $850,000 against actual of $773,500 (-8.9%). The department says this is just good cost discipline and wants to roll the same $850,000 forward for FY26 and treat the savings as a cushion. The driver both years, per the position control roster, is Equipment Operator II (position #2210), vacant 9 of 12 months in FY24 and 9 of 12 months in FY25. Should we just carry the $850,000 forward and let them keep the cushion?",
+      "criteria": [
+        "Computes the variance explicitly for both years (about $75,500-$76,500 favorable, roughly -8.9% each year) rather than accepting 'favorable' at face value",
+        "Classifies the variance as structural, not timing, specifically because the same position drove the gap in both consecutive fiscal years",
+        "Rejects treating the two-year favorable variance as a discipline win or performance signal, naming that this is exactly the pattern that lets a bad baseline compound",
+        "Recommends trueing the FY26 baseline down by the position's cost rather than carrying the full $850,000 forward unchanged, per the 8%+/two-cycle rule",
+        "States the department needs to name a specific one-time cause for the vacancy to justify carrying the position forward at full cost, and that 'good cost discipline' alone does not qualify",
+        "Flags position #2210 for a next-cycle recommendation (delete, downgrade, or convert to on-call contract) rather than leaving it open indefinitely"
+      ]
+    },
+    {
+      "id": "ba-2",
+      "task": "Fire Department's FY27 decision package requests $720,000 for the new Station 6 opening this year: 6 new Firefighter/EMT positions at $95,000 fully loaded each ($570,000) plus $150,000 for utilities, apparatus maintenance, and supplies, all priced as a full fiscal-year cost starting July 1. Public Works' construction schedule (dated this spring) confirms the station won't actually be ready for occupancy until February 1 — seven months into the fiscal year. The department says new hires need a 2-month hire-and-train window before opening. Do we just fund the $720,000 as submitted since the station is opening this year?",
+      "criteria": [
+        "Confirms the operational start date from the executing agency (Public Works' construction schedule) rather than accepting the department's full-year framing",
+        "Phases personnel costs from the justified lead-time start (hire-and-train beginning Dec 1, 2 months ahead of the Feb 1 opening), not from July 1",
+        "Phases non-personnel/occupancy costs (utilities, apparatus maintenance, supplies) separately, starting only at the Feb 1 occupancy date, not bundled with the personnel start date",
+        "Computes the phased totals explicitly: personnel $570,000 x 7/12 = $332,500, non-personnel $150,000 x 5/12 = $62,500, phased total $395,000 versus the $720,000 requested",
+        "Names the department's full-year-from-day-one pricing as the single most common decision-package error rather than treating it as a minor rounding issue",
+        "Treats Station 6 as its own standalone decision package rather than folding it into baseline continuation"
+      ]
+    },
+    {
+      "id": "ba-3",
+      "task": "Parks & Rec's FY27 Capital Improvement Plan submission for the new $1.2M municipal pool project includes, inside the capital line item, $85,000/year for two seasonal lifeguard/pool-attendant positions and ongoing chemical and filter-maintenance supplies, on the grounds that the pool is opening this year so it's simplest to fund everything out of the capital appropriation for now. Can we approve the full $1.2M capital request as submitted?",
+      "criteria": [
+        "Rejects funding the $85,000/year lifeguard staffing and consumable maintenance costs out of the capital appropriation, naming them as ongoing operating costs rather than capital costs",
+        "Asks what happens to the $85,000/year cost the fiscal year after the capital project closes out, as the first diagnostic question for this pattern",
+        "Separates the submission into true one-time capital costs (construction/equipment) versus the recurring operating costs, rather than accepting the bundled $1.2M total",
+        "States that using capital authority for a recurring cost creates a cliff/structural deficit deferred to a future year's budget, not a savings",
+        "Requires the $85,000/year to be submitted as its own operating decision package for the correct fiscal year rather than carried inside the capital fund",
+        "Notes the CIP should only cross-reference the operating budget where a capital project creates a future operating impact, not absorb that impact itself"
+      ]
+    },
+    {
+      "id": "ba-4",
+      "task": "Our unrestricted general fund balance is sitting at 17% of operating expenditures, which is above GFOA's ~16.7% (2-month) guideline. Finance is proposing to use this year's revenue surplus to fund several one-time capital projects and bring the balance down closer to exactly 16.7%, since we're comfortably over the recommended floor. About 60% of our general fund revenue comes from sales and tourism-related taxes. Is 16.7% a reasonable target for us to manage down to?",
+      "criteria": [
+        "States that GFOA's ~16.7%/2-month figure is a floor, not a calibrated target, and rejects treating 'above the floor' as license to manage the balance down toward it",
+        "Asks about the jurisdiction's revenue mix as the first diagnostic question, rather than accepting the 17% figure on its own",
+        "States that a sales/tourism-tax-heavy jurisdiction (60% of revenue) needs a materially higher cushion than the GFOA floor, unlike a property-tax-heavy jurisdiction with stable receipts",
+        "Requests historical revenue volatility data (e.g., largest single-year revenue decline) before endorsing any spend-down, rather than relying on the static 17% snapshot",
+        "Frames whether to spend the surplus as a policy call to be tested against a downturn scenario, not a routine budget-office approval based on clearing the floor",
+        "Does not recommend a specific new reserve percentage without first identifying the volatility data needed to set one"
+      ]
+    }
+  ]
+}

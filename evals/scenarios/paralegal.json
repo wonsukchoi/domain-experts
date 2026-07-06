@@ -1,0 +1,49 @@
+{
+  "role": "paralegal",
+  "scenarios": [
+    {
+      "id": "para-1",
+      "task": "We've got a breach-of-written-contract matter — client's contract was breached on April 17, 2023, and the jurisdiction's SOL for written contracts is 4 years. The associate just told me 'we're covered through April 17, 2027, I'll drop that on the calendar and we're set.' Can you sanity-check that before I let him close out the file note?",
+      "criteria": [
+        "Confirms the April 17, 2023 breach date against the underlying contract/primary record rather than accepting the associate's recollection at face value",
+        "Computes the anniversary deadline as April 17, 2023 + 4 years = April 17, 2027, then checks that date against the calendar and identifies it falls on a Saturday",
+        "Applies the rule of computation (FRCP 6(a)(1)(C) or state analog) correctly, rolling the deadline forward through Sunday to the next non-weekend day, Monday, April 19, 2027 — not stopping at Sunday",
+        "Rejects calendaring only the statutory date, and lays out the three-date docketing rule instead: a readiness review roughly 30 days out (~mid-March 2027), an internal hard-stop several business days before the true deadline, and the statutory date itself flagged 'do not file on this date'",
+        "States the deadline must be logged in at least two independent places (case-management system plus a personal/team tickler) before the task is considered closed"
+      ]
+    },
+    {
+      "id": "para-2",
+      "task": "We're up against the production deadline tomorrow on the Halvorsen matter. I've got the privilege log drafted categorical style — 22 of the entries for the plant-manager custodian all read 'Attorney-client communication regarding business matters,' since honestly most of that custodian's withheld stuff blurs together. There's also one entry, a thread just between the VP of Operations and the Plant Manager with no attorney on it, but I logged it privileged anyway since general counsel was cc'd on a different email from that same custodian that week. Can we just send the log as-is to hit the deadline?",
+      "criteria": [
+        "Flags the 22 identically-worded entries as a red flag rather than acceptable categorical shorthand, questioning whether they were reviewed by genuine subject/category or drafted by rote under deadline pressure, and recommends pulling a sample against the actual documents",
+        "Identifies the VP Ops/Plant Manager thread as needing review before being logged as privileged, explaining that the GC being cc'd on a different email to that custodian does not privilege this specific thread — privilege attaches by thread, not by custodian",
+        "States that entry must be pulled and checked (full header/thread) before it's logged as privileged at all, rather than logged now and revisited later",
+        "Notes that a category so broad it obscures what's actually withheld (like the 22 near-identical entries) invites the same waiver risk under FRCP 26(b)(5) as having no log, and that a requesting party will notice templated language",
+        "Rejects sending the log to production without the supervising attorney reviewing the withheld/redacted designations first, regardless of the deadline pressure"
+      ]
+    },
+    {
+      "id": "para-3",
+      "task": "Doing first-pass review status for In re Coastal Foods. Batch B-201 (regional sales custodian): 1,500 docs reviewed, 150-doc QC sample, 4 errors found — I was going to just fix those 4 and mark the batch done. Separately, reviewer Priya finished batch B-202 at 168 docs/hour against our team average of about 80/hour on relevance-only review — I want to flag her in the weekly report as our fastest reviewer this cycle. Good to go on both?",
+      "criteria": [
+        "Computes B-201's sample error rate as 4/150 = 2.67%, correctly identifies it crosses the ~2% re-review threshold, and rejects spot-correcting just the 4 found errors",
+        "Requires full re-review of batch B-201 rather than a spot-fix, explaining that a sample error rate above ~2% means the error rate in the untested remaining documents is unknown, not zero",
+        "Flags Priya's 168/hr throughput (roughly double the ~80/hr team average) as a QC flag rather than a productivity win to praise, independent of her error rate",
+        "States that Priya's throughput cannot be reported as a positive until her batch's own QC sample error rate is checked, since click-through review looks identical to careful review until verified",
+        "Recommends pulling Priya's QC sample results separately from the batch aggregate rather than relying on the overall completion count"
+      ]
+    },
+    {
+      "id": "para-4",
+      "task": "The client on the Yarrow matter just called me directly and asked whether she should accept the insurer's $45,000 settlement offer — her medical bills are $38,000, so it leaves her about $7,000 clear. I know this file better than anyone on the team at this point. Can I just tell her to take it so she's not left hanging, and I'll mention it to the attorney after?",
+      "criteria": [
+        "Refuses to have the paralegal tell the client to accept or reject the settlement, naming that as legal advice regardless of how confident or accurate the underlying read is",
+        "States the unauthorized-practice line is bright rather than a matter of tone or confidence — calculating the numbers is paralegal work, but recommending a settlement decision to the client is not, even said kindly to avoid leaving her hanging",
+        "Recommends routing the analysis ($45,000 offer vs. $38,000 in bills, ~$7,000 net) to the supervising attorney as a flagged recommendation for the attorney to decide and communicate, rather than answering the client directly",
+        "Notes that even a correct, well-reasoned answer crosses the unauthorized-practice line if said to the client instead of drafted for attorney review first",
+        "Recommends documenting the client's call and the flag to the attorney in writing at the time it happens, rather than an undocumented verbal mention after the fact"
+      ]
+    }
+  ]
+}

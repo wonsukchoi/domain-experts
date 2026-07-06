@@ -1,0 +1,51 @@
+{
+  "role": "paramedic",
+  "scenarios": [
+    {
+      "id": "medic-1",
+      "task": "Multi-vehicle pileup, five patients, first ALS unit on scene alone with a second unit still 4 minutes out. Patient A is a 34-year-old woman walking around holding her arm, complaining of arm pain only. Patient B is a 45-year-old man lying still, breathing at 34/min, not yet examined further. Patient C is an 8-year-old child found apneic but with a palpable pulse. Patient D is a 60-year-old man, breathing at 20/min, radial pulse present but cap refill reads 3 seconds. Patient E is a 25-year-old man, breathing at 18/min, radial pulse present, cap refill under 2 seconds, and follows commands. I want to tag all five and call in what resources we need — how do I sort this fast?",
+      "criteria": [
+        "Runs adult patients (A, B, D, E) through the START RPM sequence (Respiration, then Perfusion, then Mental status) in that fixed order rather than jumping straight to a gut-feel severity call",
+        "For Patient A, does not accept the walking gate at face value — flags that exposure/injury survey is needed and, once a penetrating or serious injury is suspected on a truncal area, overrides 'can walk' to Immediate rather than leaving her Minor/Green",
+        "Tags Patient B Immediate (Red) on respiration alone because RR >30/min stops the algorithm there, without proceeding to check perfusion or mental status",
+        "Tags Patient D Immediate (Red) at the Perfusion step because cap refill >2 seconds qualifies even though respiration was normal, rather than passing him through to Mental status",
+        "Applies JumpSTART, not adult START, to the 8-year-old: since Patient C is apneic but has a pulse, gives 5 rescue breaths before re-checking, rather than declaring the child deceased outright the way an absent-breathing adult would be",
+        "Notes triage tags are a point-in-time snapshot that must be reassessed on every subsequent contact, not a permanent label assigned once"
+      ]
+    },
+    {
+      "id": "medic-2",
+      "task": "45-year-old male, found down after an assault, no reported fall or vehicle involved. On our arrival GCS was 15 (E4V5M6), BP 100/70, HR 88, RR 16. Ten minutes later on reassessment: GCS 11 (E3, V3, M5), BP 138/54, HR 62, RR 24 and irregular. He's 10 minutes from the community hospital and 25 minutes from the Level I trauma center. Given how he looked on our initial exam, can we just take him to the closer hospital?",
+      "criteria": [
+        "Computes the GCS drop explicitly as 15 to 11, a 4-point decline, crossing the ≥2-point red-flag threshold between assessments",
+        "Reports the change at the component level (E4V5M6 to E3V3M5) rather than just comparing the summed totals, since two scores can share a sum but differ in clinical meaning",
+        "Names the combination of widening pulse pressure (100/70 to 138/54), bradycardia (88 to 62), and irregular respirations as Cushing's triad, indicating rising intracranial pressure",
+        "States this reassessment now meets CDC field-triage Step 1 physiologic criteria (GCS ≤13) independent of the unclear mechanism, and that the trend — not the initial reassuring vitals — decides the destination",
+        "Rejects transport to the 10-minute community hospital and directs transport to the 25-minute Level I trauma center, radioing ahead given the extended window",
+        "Notes the reassessment interval for an unstable trauma patient should be every 5 minutes, framing the 10-minute gap between checks as something to tighten going forward"
+      ]
+    },
+    {
+      "id": "medic-3",
+      "task": "28-year-old motorcyclist, low-speed crash, chest wall pain on the left side. Vitals: BP 118/80, HR 104, RR 22, SpO2 95%. Cap refill is 3 seconds. On auscultation breath sounds are decreased on the left with some subcutaneous emphysema over the ribs, no tracheal deviation or JVD noted. He's talking, a little anxious but otherwise coherent. Partner says BP looks fine so we can just monitor and go to the nearest hospital 8 minutes away instead of the trauma center 20 minutes out. Sound right?",
+      "criteria": [
+        "Flags the cap refill of 3 seconds alongside a normal-looking systolic BP (118) as compensated, not decompensated, shock — explicitly states normal BP here is not reassurance since it's one of the last vitals to drop",
+        "Identifies decreased unilateral breath sounds plus subcutaneous emphysema as an evolving tension pneumothorax pattern, and states the full four-finding cluster (adding tracheal deviation and JVD) doesn't need to be present before acting on strong suspicion from these findings",
+        "Distinguishes compensated vs. decompensated shock per the tachycardia/delayed cap refill pattern, rejecting 'BP is normal' as evidence he's stable",
+        "Rejects the 8-minute nearest-hospital plan and recommends the trauma center given the physiologic trend risk and mechanism, rather than deferring to the reassuring BP number alone",
+        "Recommends tightening the reassessment interval given the unstable-trauma pattern, watching specifically for HR overtaking SBP or SpO2/RR change as further deterioration signals"
+      ]
+    },
+    {
+      "id": "medic-4",
+      "task": "9-year-old, 35 kg, anaphylaxis after a bee sting — hives, stridor, given 0.3 mg IM epinephrine into the anterolateral thigh 10 minutes ago by the first-arriving crew. Stridor and hives are still present now. My partner wants to push 1 mg IV of the cardiac-arrest concentration since it's 'the same drug and faster acting.' Is that the move?",
+      "criteria": [
+        "Rejects giving 1 mg IV of the 1:10,000 cardiac-arrest concentration for anaphylaxis, naming this specifically as the fatal epinephrine mixing error (IV push of the 1:1000-equivalent overdose risk in the wrong direction, or 1:10,000 given by the wrong route/dose for this indication)",
+        "States the correct action is a repeat IM dose of 0.3-0.5 mg of the 1:1000 concentration, and that 10 minutes since the first dose falls within the 5-15 minute repeat window, so redosing is appropriate but via IM, not IV",
+        "Treats concentration and route as one paired check rather than assuming 'epinephrine' is a single interchangeable dose regardless of indication",
+        "Asks whether the first IM dose was actually given into the anterolateral thigh, since inadequate absorption from a poor injection site is a leading explanation for symptoms recurring 5-15 minutes after the first dose",
+        "States that escalation to IV epinephrine infusion, if symptoms persist despite an adequate repeat IM dose, requires online medical control rather than the crew switching routes on their own judgment"
+      ]
+    }
+  ]
+}
