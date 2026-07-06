@@ -104,6 +104,45 @@
         "answer_author": "WBW",
         "license": "CC BY-SA"
       }
+    },
+    {
+      "id": "product-manager-se-6252",
+      "question": "What is the difference between Project and Product Management?\n\nFrom a cursory survey, they appear extremely similar.\n\nIs this the case? Other than Projects tending to be short-term and Products tending to be ongoing endeavours, is there a difference in the two?\n\nIf so, what are the differences?",
+      "expert_answer": "Projects don't have to be short-term; they can be long-term.  The only requirement for a project is:\n\n\nit must produce something, and\nit must have an end.  If it takes 2 years or 2 weeks to finish it can still be a project, and fall under the domain of the project manager.\n\n\nI tend to think of product managers as being a special case of the project manager, a role that does do some traditional project management functions, but with a very-heavy emphasis on the marketing side.  So if you think in PMI terms, you have your traditional knowledge areas (e.g. HR Management, procurement), but to be considered a product manager, you need to have a management plan for an extra knowledge area: marketing.",
+      "source": {
+        "site": "pm",
+        "url": "https://pm.stackexchange.com/questions/6252/what-is-the-difference-between-project-and-product-management",
+        "question_score": 29,
+        "answer_score": 10,
+        "answer_author": "jdb1a1",
+        "license": "CC BY-SA"
+      }
+    },
+    {
+      "id": "product-manager-se-1470",
+      "question": "Agile methodologies such as Scrum in non-software development projects\n\nEven though Scrum was originally suggested for managing product development projects, its use has focused on the management of software development projects.\n\nNone of the project management teams I have worked with in non-software product development have ever used agile methodologies.\n\nAs an example, could we incorporate Scrum in Product Development projects within the Automotive industry?",
+      "expert_answer": "There are two main tenets of Scrum that, in my opinion, define it and tell you the worth of it for any project or product. Those two are: changing requirements and iterative releases.\nThere are many great posts on this site about Agile vs. Waterfall. The bottom line is that Waterfall is amazing if you can gather all the requirements up-front, and they won't change much. The hard part is getting those requirements right, on paper, before doing any of the work.\nThis means that waterfall would apply very well to industries like automobile, healthcare, aerospace, etc. where it's easier to clarify up-front what exactly you need.\nOn the other hand, iterative releases are very, very useful -- even with fixed and un-changing requirements. You could theoretically do it, but I don't see what benefit you'd get out of it.\nInstead, I would focus on some other useful parts of Scrum, such as:\n\nEstimating tasks in vaguer units (story points) instead of time -- if requirements are unknown and/or changing.\nBreaking work down into small units that can be completed in a week or two, or less.\nCommunicating daily across the team to say \"here's what I did yesterday, what I'm going to do today, and what I got stuck on.\"\n\nYour mileage may vary. I would say look at Scrum/Agile, and start pulling those practices that you can see will benefit you.",
+      "source": {
+        "site": "pm",
+        "url": "https://pm.stackexchange.com/questions/1470/agile-methodologies-such-as-scrum-in-non-software-development-projects",
+        "question_score": 20,
+        "answer_score": 16,
+        "answer_author": "ashes999",
+        "license": "CC BY-SA"
+      }
+    },
+    {
+      "id": "product-manager-se-1429",
+      "question": "How and What to Learn - New to Product Management\n\nWhat documentation, skills & tasks should a new (Technical) Product Manager concentrate on learning first to effectively do their job?\n\nI have read this Wikipedia article, and it didn't answer my question. It tells you about product management, not how to learn it and what skills are the most important to learn.",
+      "expert_answer": "As far as my recommendation would go, it would be that learn from some of the best product managers out there. Read their blogs and see how they manage their products.\nGetting Real and Rework are excellent product management books from 37Signals. Getting real has an online version which is free.\n\nhttp://gettingreal.37signals.com/\n\nBesides read guys like Steve Yegge who is a good product manager:\n\nhttp://steve-yegge.blogspot.com/2006/05/not-managing-software-developers.html\n\nhttp://steve-yegge.blogspot.com/2008/08/business-requirements-are-bullshit.html\n\nSteve is a technical product manager and has many other posts on product management that give you insights into good product management.\n\nJoel Spolsky has an excellent blog and books where is he fairly open about decisions that he took while managing his products at Fog Creek. \n\nHere is one of his books which should give you some good insights into product management:\n\nhttp://www.readershideout.com/Book/Show/50\n\nHis blog Joel on Software also has some nice articles on product management ranging from pricing products, how to decide if a feature makes it into the product etc.\n\nThe best way to learn product management is from product managers like Joel, 37Signals, Steve Yegge and product management blogs like How to be a good product manager: \n\nhttp://www.goodproductmanager.com/\n\nAll of these links should get you started and if you “crawl” through the references that the above books and blogs should provide you should bump into other good product managers and pick up some serious product management advice. The information is based on real life products and the experiences their managers had instead of the Wikipedia page. I am hoping this is what you were looking for.\n\nHappy reading and do let us know how it goes.",
+      "source": {
+        "site": "pm",
+        "url": "https://pm.stackexchange.com/questions/1429/how-and-what-to-learn-new-to-product-management",
+        "question_score": 15,
+        "answer_score": 11,
+        "answer_author": "thousandtyone",
+        "license": "CC BY-SA"
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 # CONTEXT
 
 ## Current Task
-Foundation done (spec v2, lint CI, evals 13/15, npm 0.2.0, CLAUDE.md bootstrap); Sonnet sessions now add roles unattended via CONTRIBUTING.md's exact recipe. Growing parity sets: lawyer-contracts/data-scientist/product-manager at 5/8/8 questions, 16W-0T-4L (80%) vs practitioners as of 2026-07-06; all 4 losses diagnosed as genuine depth-variance on edge-case/meta questions, not content gaps — left unchanged. hr-people-manager attempted, dropped — workplace.SE skews employee-grievance questions, wrong perspective for a manager-facing role. Added `/domain-expert` slash command (7 tools: claude/codex/gemini/cursor/windsurf/roo/amp) and `scripts/check_links.py` in CI. 7-role batch (compliance-manager, regulatory-affairs-manager, loss-prevention-manager, funeral-home-manager, spa-manager, wind-energy-operations-manager, wind-energy-development-manager) spot-checked with 2 eval scenarios each (14 total): 10W-1T-3L vs baseline. All 3 losses were criteria ties resolved by judge overall-preference tiebreak (fhm-1, fhm-2, lpm-1) — one loss (fhm-1) traced to baseline knowing casket-price-list/CPL detail that's already in `references/playbook.md` but not loaded in the eval harness (SKILL.md only) — a harness limitation, not a role gap. Left roles unchanged.
+Foundation done (spec v2, lint CI, npm 0.3.0 published+tagged, CLAUDE.md bootstrap); Sonnet sessions add roles unattended via CONTRIBUTING.md's exact recipe. `/domain-expert` slash command shipped (7 tools), `scripts/check_links.py` in CI. 97 roles total; 7-role batch spot-checked with evals (10W-1T-3L vs baseline, losses = judge tiebreaks/harness limitation, not gaps). Parity sets grown: lawyer-contracts 5→12, data-scientist 8→11, product-manager 8→11, personal-financial-advisor new (3, via money.SE). 31W-2T-4L of 37 (89%) vs practitioners as of 2026-07-06; all 4 losses diagnosed as genuine depth-variance (2 repeat known cases: SIR modeling, ASA p-value controversy; 2 new: k-means SSE mechanics, standup-diagnosis depth) — left unchanged. hr-people-manager parity attempted earlier, dropped — workplace.SE skews employee-grievance questions, wrong perspective for a manager-facing role.
 
 ## Key Decisions
 - Trust = measured, not vouched: lint + counterfactual evals + parity-vs-practitioners are the quality floor; practitioner review is bonus.
@@ -9,6 +9,6 @@ Foundation done (spec v2, lint CI, evals 13/15, npm 0.2.0, CLAUDE.md bootstrap);
 - npm releases snapshot roles: bump version → owner runs npm publish (2FA) → git tag v<version>.
 
 ## Next Steps
-- Republish npm (0.2.0 → next, includes /domain-expert command + 7 new roles); local ~/.npmrc dead token removed 2026-07-06, confirm revoked on npmjs.com too.
-- Parity sets starved (3 questions/1 result vs 97 roles) — grow these before adding more roles.
-- Next spot-check due after ~10 more roles land.
+- Parity coverage still only 4 of 97 roles — grow more role/SE-site pairings (candidates: financial-analyst↔money, mediator/paralegal↔law) or add non-SE sources.
+- Next eval spot-check due after ~10 more roles land.
+- Confirm dead ~/.npmrc token revoked on npmjs.com (flagged 2026-07-06, not yet confirmed).
