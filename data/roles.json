@@ -1,5 +1,5 @@
 {
-  "count": 128,
+  "count": 129,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -701,6 +701,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/environmental-compliance-inspector/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "equal-opportunity-representative",
+      "description": "Use when a task needs the judgment of an Equal Opportunity Representative or Officer \u2014 running an adverse-impact analysis on hiring or promotion selection rates, conducting an availability analysis to set affirmative action placement goals, evaluating a compensation-equity regression for unexplained pay gaps, or preparing an affirmative action plan (AAP) for an OFCCP audit.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/equal-opportunity-representative/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
