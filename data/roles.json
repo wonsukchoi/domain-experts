@@ -1,5 +1,5 @@
 {
-  "count": 145,
+  "count": 146,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1650,6 +1650,24 @@
       "skill": "roles/natural-sciences-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "network-architect",
+      "description": "Use when a task needs the judgment of a Computer Network Architect \u2014 auditing a redundancy design for hidden single points of failure, sizing WAN/link capacity against busy-hour rather than average utilization, designing network segmentation around trust boundaries, calculating QoS bandwidth reservation for real-time traffic like VoIP, or selecting a routing protocol matched to topology scale and convergence requirements.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1241.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/network-architect/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
