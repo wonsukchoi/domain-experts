@@ -1,5 +1,5 @@
 {
-  "count": 118,
+  "count": 119,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1779,6 +1779,24 @@
       "audit_score": null,
       "skill": "roles/supply-chain-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "talent-agent",
+      "description": "Use when a task needs the judgment of a talent agent or business manager for artists, performers, or athletes \u2014 negotiating a representation or performance contract, structuring commission on a deal, checking whether a procurement act crosses into licensed-agent territory, tracking a contract's termination/renewal clock, or flagging a conflict-of-interest in how the agency gets paid.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/talent-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "tax-preparer",
