@@ -1,5 +1,5 @@
 {
-  "count": 97,
+  "count": 98,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -111,6 +111,20 @@
       "spec": 2,
       "onet_soc_code": "43-3031.00",
       "skill": "roles/bookkeeping-accounting-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "brownfield-redevelopment-specialist",
+      "description": "Use when a task needs the judgment of a Brownfield Redevelopment Specialist and Site Manager \u2014 confirming landowner liability protections (BFPP/AAI) before a contaminated-site acquisition closes, matching a cleanup standard to the actual reuse plan instead of defaulting to the most conservative one, sequencing a brownfield funding stack (EPA grants, state VCP, tax credits) by eligibility dependency, or deciding whether an institutional control/deed restriction needs disclosure to a lender or buyer.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9199.11",
+      "skill": "roles/brownfield-redevelopment-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
