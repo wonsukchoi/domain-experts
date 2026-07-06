@@ -163,7 +163,7 @@ Todo papel segue o mesmo contrato, garantido por especificação e CI:
 4. **Proveniência** — as fontes são nomeadas; números específicos remetem a elas ou são identificados como heurísticas declaradas. Papéis regulados (direito, medicina, finanças) trazem avisos explícitos.
 5. **Espinha dorsal O*NET** — a cobertura acompanha a taxonomia de ocupações do Departamento do Trabalho dos EUA (1.016 ocupações), então o crescimento é sistemático, não o que pareceu interessante naquela semana.
 
-Especificação completa, rubrica e o pipeline de redação por LLM: [`AUTHORING.md`](./AUTHORING.md).
+Especificação completa, rubrica e o pipeline de redação por LLM: [`AUTHORING.md`](./AUTHORING.md). Em um checkout do Claude Code, esse pipeline inteiro roda como `/generate-role "<need>"` — veja [Automação para mantenedores](#maintainer-automation-claude-code) abaixo.
 
 ## Como verificamos — transparente, sem necessidade de confiança
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 O `match` pontua os papéis por sobreposição de palavras-chave e reporta uma correspondência confiante, candidatos de baixa confiança, ou um honesto "ainda não coberto" — ele não fica adivinhando silenciosamente. Use `--json` para uso programático.
 
 O pacote npm registra um retrato da biblioteca de papéis a cada release. Para a versão mais recente ainda não lançada, use `npx --yes github:wonsukchoi/domain-experts <comando>` — a mesma CLI, direto da `main`.
+
+### Automação para mantenedores (Claude Code)
+
+Trabalhar em um checkout do Claude Code deste repositório adiciona três comandos de barra que automatizam o pipeline acima em vez de substituí-lo — cada um deles passa por um PR humano, nenhum faz commit na `main` nem publica nada sozinho:
+
+- `/generate-role "<need>"` — resolve uma necessidade em texto livre para um papel existente, uma nova folha de especialização, ou um novo papel-pai, depois roda o pipeline Pass 0-4 do AUTHORING.md (pesquisa → rascunho → crítica adversarial → pontuação, limitado a 2 ciclos de revisão) e abre um PR.
+- `/audit-roles [batchSize]` — repontuação em lote dos papéis já publicados em relação à rubrica e à atualidade das fontes; grava `last_audited`/`audit_score`, sinaliza `status: needs-refresh`, e depreca (move para `roles/_deprecated/`) após uma segunda falha consecutiva.
+- `/scan-project <path>` — varredura somente leitura de um projeto externo (stack, README, estrutura, commits recentes), propõe necessidades candidatas cruzadas com a cobertura já existente, e passa as que você escolher para o `/generate-role`. Nada sobre o projeto escaneado é gravado em lugar nenhum.
+
+Consultas de `match` sem confiança são registradas em `data/gap-log.jsonl` e exibidas, ranqueadas por frequência, na seção "Requested but missing" do [`ROADMAP.md`](./ROADMAP.md) — um sinal concreto do que redigir a seguir.
 
 ## Roteiro
 

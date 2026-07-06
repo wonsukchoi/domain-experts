@@ -163,7 +163,7 @@ Jede Rolle folgt demselben Vertrag, durchgesetzt durch Spezifikation und CI:
 4. **Herkunft** — Quellen werden benannt; konkrete Zahlen lassen sich zurückverfolgen oder werden als angegebene Heuristik gekennzeichnet. Regulierte Rollen (Recht, Medizin, Finanzen) tragen explizite Haftungsausschlüsse.
 5. **O*NET-Rückgrat** — die Abdeckung folgt der Berufstaxonomie des US-Arbeitsministeriums (1.016 Berufe), sodass das Wachstum systematisch erfolgt und nicht danach, was in einer bestimmten Woche gerade interessant erschien.
 
-Vollständige Spezifikation, Rubrik und die LLM-Entwurfspipeline: [`AUTHORING.md`](./AUTHORING.md).
+Vollständige Spezifikation, Rubrik und die LLM-Entwurfspipeline: [`AUTHORING.md`](./AUTHORING.md). In einem Claude-Code-Checkout läuft diese gesamte Pipeline als `/generate-role "<need>"` — siehe [Automatisierung für Maintainer](#maintainer-automation-claude-code) weiter unten.
 
 ## Wie wir verifizieren — transparent, kein Vertrauensvorschuss nötig
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match` bewertet Rollen nach Stichwortüberschneidung und meldet einen sicheren Treffer, Kandidaten mit geringer Zuversicht oder ein ehrliches "noch nicht abgedeckt" — es rät nicht stillschweigend. `--json` für programmatische Nutzung.
 
 Das npm-Paket friert die Rollenbibliothek bei jedem Release als Schnappschuss ein. Für den unveröffentlichten aktuellsten Stand nutzen Sie `npx --yes github:wonsukchoi/domain-experts <command>` — dieselbe CLI, direkt von `main`.
+
+### Automatisierung für Maintainer (Claude Code)
+
+Arbeitet man in einem Claude-Code-Checkout dieses Repos, kommen drei Slash-Befehle hinzu, die die obige Pipeline automatisieren, statt sie zu ersetzen — jeder einzelne ist durch eine von Menschen geprüfte PR abgesichert, keiner committet auf `main` oder veröffentlicht von sich aus:
+
+- `/generate-role "<need>"` — löst einen frei formulierten Bedarf zu einer bestehenden Rolle, einem neuen Spezialisierungs-Blatt oder einer neuen übergeordneten Rolle auf und durchläuft dann die AUTHORING.md-Pipeline Pass 0-4 (Recherche → Entwurf → adversariale Kritik → Bewertung, begrenzt auf 2 Überarbeitungsschleifen) und eröffnet eine PR.
+- `/audit-roles [batchSize]` — gestaffelte Neubewertung veröffentlichter Rollen anhand der Rubrik und der Aktualität der Quellen; stempelt `last_audited`/`audit_score`, markiert `status: needs-refresh`, depubliziert (verschiebt nach `roles/_deprecated/`) nach einem zweiten aufeinanderfolgenden Fehlschlag.
+- `/scan-project <path>` — rein lesender Scan eines externen Projekts (Stack, README, Struktur, letzte Commits), schlägt Kandidaten-Bedarfe vor, die mit der bestehenden Abdeckung abgeglichen werden, und übergibt die ausgewählten an `/generate-role`. Nichts über das gescannte Projekt wird irgendwo gespeichert.
+
+Nicht eindeutige `match`-Anfragen werden in `data/gap-log.jsonl` protokolliert und, nach Häufigkeit sortiert, im Abschnitt „Requested but missing" von [`ROADMAP.md`](./ROADMAP.md) angezeigt — ein konkretes Signal dafür, was als Nächstes entworfen werden sollte.
 
 ## Roadmap
 

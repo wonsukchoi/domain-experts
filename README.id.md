@@ -163,7 +163,7 @@ Setiap peran mengikuti kontrak yang sama, yang ditegakkan oleh spesifikasi dan C
 4. **Provenans (asal-usul)** — sumber disebutkan secara eksplisit; angka spesifik dapat dilacak ke sumbernya atau diberi label sebagai heuristik yang dinyatakan. Peran yang teregulasi (hukum, kedokteran, keuangan) menyertakan disklaimer eksplisit.
 5. **Backbone O*NET** — cakupan mengikuti taksonomi occupation Departemen Tenaga Kerja AS (1.016 occupation), sehingga pertumbuhannya sistematis, bukan sekadar apa yang terlihat menarik minggu itu.
 
-Spesifikasi lengkap, rubrik, dan pipeline penulisan draf berbasis LLM: [`AUTHORING.md`](./AUTHORING.md).
+Spesifikasi lengkap, rubrik, dan pipeline penulisan draf berbasis LLM: [`AUTHORING.md`](./AUTHORING.md). Dalam checkout Claude Code, seluruh pipeline ini berjalan sebagai `/generate-role "<need>"` — lihat [Otomatisasi maintainer](#maintainer-automation-claude-code) di bawah.
 
 ## Bagaimana kami memverifikasi — transparan, tanpa perlu percaya begitu saja
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match` memberi skor pada peran berdasarkan kecocokan kata kunci dan melaporkan hasil yang cocok dengan yakin, kandidat dengan keyakinan rendah, atau pengakuan jujur "belum tercakup" — tanpa menebak diam-diam. Gunakan `--json` untuk pemakaian terprogram.
 
 Paket npm menyimpan snapshot perpustakaan peran pada setiap rilis. Untuk versi terkini yang belum dirilis, gunakan `npx --yes github:wonsukchoi/domain-experts <command>` — CLI yang sama, langsung dari `main`.
+
+### Otomatisasi maintainer (Claude Code)
+
+Bekerja di checkout Claude Code dari repo ini menambahkan tiga slash command yang mengotomatisasi pipeline di atas, bukan menggantikannya — masing-masing tetap digerbangi PR manusia, tidak ada yang commit ke `main` atau publish dengan sendirinya:
+
+- `/generate-role "<need>"` — mencocokkan kebutuhan berupa teks bebas ke peran yang sudah ada, leaf spesialisasi baru, atau peran induk baru, lalu menjalankan pipeline Pass 0-4 dari AUTHORING.md (riset → draf → kritik adversarial → skor, dibatasi maksimal 2 loop revisi) dan membuka PR.
+- `/audit-roles [batchSize]` — penilaian ulang berkelompok atas peran yang sudah rilis terhadap rubrik dan kesegaran sumber; menandai `last_audited`/`audit_score`, memberi flag `status: needs-refresh`, dan men-deprecate (memindahkan ke `roles/_deprecated/`) setelah kegagalan kedua berturut-turut.
+- `/scan-project <path>` — pemindaian read-only atas proyek eksternal (stack, README, struktur, commit terbaru), mengusulkan kandidat kebutuhan yang sudah dicek silang dengan cakupan yang ada, dan menyerahkan yang Anda pilih ke `/generate-role`. Tidak ada apa pun tentang proyek yang dipindai yang ditulis ke mana pun.
+
+Query `match` yang tidak yakin dicatat ke `data/gap-log.jsonl` dan ditampilkan, diurutkan berdasarkan frekuensi, di bagian "Requested but missing" pada [`ROADMAP.md`](./ROADMAP.md) — sinyal konkret soal apa yang perlu ditulis berikutnya.
 
 ## Roadmap
 

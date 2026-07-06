@@ -163,7 +163,7 @@ you ─── "review this vendor contract"
 4. **来源可追溯（Provenance）。** 来源都有明确出处；具体数字要么能追溯到出处，要么被标注为"陈述性经验法则"。受监管的角色（法律、医疗、金融）都带有明确的免责声明。
 5. **以 O*NET 为骨架。** 覆盖范围跟随美国劳工部的职业分类体系（1,016 个职业），因此增长是系统化的，而不是这周恰好觉得哪个有意思就做哪个。
 
-完整规范、评分标准与 LLM 撰写流水线，参见 [`AUTHORING.md`](./AUTHORING.md)。
+完整规范、评分标准与 LLM 撰写流水线，参见 [`AUTHORING.md`](./AUTHORING.md)。在 Claude Code 检出环境中，整条流水线可以直接用 `/generate-role "<need>"` 一键运行——详见下文的[维护者自动化 (Claude Code)](#maintainer-automation-claude-code)。
 
 ## 我们如何验证——透明、无需信任
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match` 会根据关键词重合度给角色打分，并给出一个高置信度命中结果、若干低置信度候选，或者如实告知"尚未覆盖"——它不会悄悄地瞎猜。加上 `--json` 可用于程序化调用。
 
 npm 包在每次发布时都会对角色库做一次快照。如果想使用尚未发布的最新版本，可以用 `npx --yes github:wonsukchoi/domain-experts <command>`——同样的 CLI，直接取自 `main` 分支。
+
+### 维护者自动化 (Claude Code)
+
+在本仓库的 Claude Code 检出环境中工作，会额外获得三个斜杠命令，它们是对上述流程的自动化，而非替代——每一个都需要人工 PR 把关，任何一个都不会自行提交到 `main` 或自行发布。
+
+- `/generate-role "<need>"`——将一段自由文本描述的需求，判定为匹配某个已有角色、某个新的细分子角色（leaf），或某个全新的父角色，然后运行 AUTHORING.md 中的 Pass 0-4 流水线（调研 → 起草 → 对抗式评审 → 评分，最多 2 轮修订循环），并开启一个 PR。
+- `/audit-roles [batchSize]`——按批次对已上线角色依据评分标准与信息源时效性重新评分；写入 `last_audited`/`audit_score`，标记 `status: needs-refresh`，连续两次评分不达标后会将其下线（移动到 `roles/_deprecated/`）。
+- `/scan-project <path>`——以只读方式扫描外部项目（技术栈、README、目录结构、近期提交），提出候选需求并与现有覆盖范围做交叉核对，再把你选中的需求交给 `/generate-role` 处理。被扫描项目的任何信息都不会被写入到任何地方。
+
+置信度不足的 `match` 查询会被记录到 `data/gap-log.jsonl`，并按频率汇总展示在 [`ROADMAP.md`](./ROADMAP.md) 的"有需求但尚缺失"部分——这是下一步该写什么角色的具体信号。
 
 ## 路线图
 

@@ -163,7 +163,7 @@ you ─── "review this vendor contract"
 4. **출처(Provenance)** — 출처는 명시됩니다. 구체적인 숫자는 출처를 추적할 수 있거나, 명시된 휴리스틱으로 표시됩니다. 규제 대상 역할(법률, 의료, 금융)에는 명시적인 면책 조항이 포함됩니다.
 5. **O*NET 기반 골격** — 커버리지는 미국 노동부의 직업 분류 체계(1,016개 직업)를 따라가므로, 그 주에 흥미로워 보이는 것을 마구잡이로 추가하는 게 아니라 체계적으로 성장합니다.
 
-전체 스펙, 평가 기준, LLM 초안 작성 파이프라인: [`AUTHORING.md`](./AUTHORING.md).
+전체 스펙, 평가 기준, LLM 초안 작성 파이프라인: [`AUTHORING.md`](./AUTHORING.md). Claude Code 체크아웃 환경에서는 이 파이프라인 전체가 `/generate-role "<need>"` 하나로 실행됩니다 — 아래 [유지관리자 자동화 (Claude Code)](#maintainer-automation-claude-code)를 참고하세요.
 
 ## 검증 방식 — 투명하게, 신뢰를 요구하지 않습니다
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match`는 키워드 중복도로 역할 점수를 매겨 확신도 높은 매치, 낮은 확신도의 후보들, 또는 솔직한 "아직 커버되지 않음" 중 하나를 알려줍니다 — 조용히 추측하지 않습니다. 프로그래밍 방식으로 쓰려면 `--json`을 사용하세요.
 
 npm 패키지는 각 릴리스 시점의 역할 라이브러리를 스냅샷으로 담고 있습니다. 아직 릴리스되지 않은 최신 상태를 쓰려면 `npx --yes github:wonsukchoi/domain-experts <command>`를 사용하세요 — 동일한 CLI를, `main`에서 바로.
+
+### 유지관리자 자동화 (Claude Code)
+
+이 저장소를 Claude Code 체크아웃 환경에서 작업하면 위 파이프라인을 대체하는 게 아니라 자동화하는 세 가지 슬래시 명령어가 추가됩니다 — 어느 것도 `main`에 직접 커밋하거나 스스로 게시하지 않으며, 모두 사람이 검토하는 PR 게이트를 거칩니다.
+
+- `/generate-role "<need>"` — 자유 텍스트로 된 요구를 기존 역할, 새로운 세부 전문 분야(리프), 또는 새로운 상위 역할 중 하나로 매칭한 뒤, AUTHORING.md의 Pass 0-4 파이프라인(리서치 → 초안 → 적대적 비평 → 채점, 최대 2회 수정 루프)을 실행하고 PR을 엽니다.
+- `/audit-roles [batchSize]` — 이미 출시된 역할들을 루브릭 및 출처의 최신성 기준으로 배치 단위 재채점합니다. `last_audited`/`audit_score`를 기록하고, `status: needs-refresh`로 표시하며, 두 번 연속 실패하면 `roles/_deprecated/`로 옮겨 폐기 처리합니다.
+- `/scan-project <path>` — 외부 프로젝트(스택, README, 구조, 최근 커밋)를 읽기 전용으로 스캔하여, 기존 커버리지와 교차 검증한 후보 요구 사항들을 제안하고, 여러분이 선택한 항목을 `/generate-role`에 넘깁니다. 스캔된 프로젝트에 관한 어떤 내용도 어디에도 기록되지 않습니다.
+
+확신도가 낮은 `match` 쿼리는 `data/gap-log.jsonl`에 기록되며, [`ROADMAP.md`](./ROADMAP.md)의 "요청되었지만 아직 없는 항목" 섹션에 빈도순으로 정리되어 표시됩니다 — 다음에 무엇을 작성해야 할지 알려주는 구체적인 신호입니다.
 
 ## 로드맵
 

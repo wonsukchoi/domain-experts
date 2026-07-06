@@ -163,7 +163,7 @@ Chaque rôle suit le même contrat, imposé par la spec et la CI :
 4. **Provenance** — les sources sont nommées ; les chiffres précis se retracent jusqu'à elles ou sont étiquetés comme heuristiques déclarées. Les rôles réglementés (droit, médecine, finance) portent des avertissements explicites.
 5. **Ossature O*NET** — la couverture suit la taxonomie des métiers du Département du Travail des États-Unis (1 016 métiers), afin que la croissance soit systématique, et non fonction de ce qui semblait intéressant cette semaine-là.
 
-Spec complète, grille d'évaluation, et pipeline de rédaction assistée par LLM : [`AUTHORING.md`](./AUTHORING.md).
+Spec complète, grille d'évaluation, et pipeline de rédaction assistée par LLM : [`AUTHORING.md`](./AUTHORING.md). Dans un checkout Claude Code, tout ce pipeline s'exécute via `/generate-role "<need>"` — voir [Automatisation pour les mainteneurs](#maintainer-automation-claude-code) ci-dessous.
 
 ## Comment nous vérifions — transparent, aucune confiance aveugle requise
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match` note les rôles par recouvrement de mots-clés et vous indique une correspondance sûre, des candidats à faible confiance, ou un honnête « pas encore couvert » — il ne devine jamais en silence. `--json` pour un usage programmatique.
 
 Le paquet npm capture un instantané de la bibliothèque de rôles à chaque sortie. Pour la version de pointe non publiée, utilisez `npx --yes github:wonsukchoi/domain-experts <command>` — même CLI, directement depuis `main`.
+
+### Automatisation pour les mainteneurs (Claude Code)
+
+Travailler dans un checkout Claude Code de ce dépôt ajoute trois commandes slash qui automatisent le pipeline ci-dessus sans le remplacer — chacune est soumise à validation humaine via PR, aucune ne commit sur `main` ni ne publie de sa propre initiative :
+
+- `/generate-role "<need>"` — résout un besoin en texte libre vers un rôle existant, une nouvelle feuille de spécialisation, ou un nouveau rôle parent, puis exécute le pipeline Pass 0-4 d'AUTHORING.md (recherche → rédaction → critique adverse → notation, plafonné à 2 boucles de révision) et ouvre une PR.
+- `/audit-roles [batchSize]` — renotation par lots des rôles publiés au regard de la grille d'évaluation et de la fraîcheur des sources ; horodate `last_audited`/`audit_score`, marque `status: needs-refresh`, déprécie (déplace vers `roles/_deprecated/`) après un deuxième échec consécutif.
+- `/scan-project <path>` — scan en lecture seule d'un projet externe (stack, README, structure, commits récents), propose des besoins candidats recoupés avec la couverture existante, et transmet ceux que vous choisissez à `/generate-role`. Rien du projet scanné n'est écrit où que ce soit.
+
+Les requêtes `match` peu sûres sont journalisées dans `data/gap-log.jsonl` et remontées, classées par fréquence, dans la section « Requested but missing » de [`ROADMAP.md`](./ROADMAP.md) — un signal concret de ce qu'il faut rédiger ensuite.
 
 ## Feuille de route
 

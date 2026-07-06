@@ -163,7 +163,7 @@ Mọi vai trò đều tuân theo cùng một quy ước, được spec và CI th
 4. **Nguồn gốc (Provenance)** — nguồn được nêu rõ tên; các con số cụ thể được truy vết về nguồn hoặc được gắn nhãn là quy tắc kinh nghiệm đã nêu. Các vai trò thuộc lĩnh vực bị quản lý (luật, y tế, tài chính) đi kèm tuyên bố miễn trừ trách nhiệm rõ ràng.
 5. **Bộ khung O*NET** — độ phủ bám theo hệ thống phân loại ngành nghề của Bộ Lao động Hoa Kỳ (1.016 ngành nghề), nên sự tăng trưởng mang tính hệ thống, không phải chọn bừa những gì có vẻ thú vị trong tuần đó.
 
-Spec đầy đủ, tiêu chí chấm điểm, và pipeline soạn thảo bằng LLM: [`AUTHORING.md`](./AUTHORING.md).
+Spec đầy đủ, tiêu chí chấm điểm, và pipeline soạn thảo bằng LLM: [`AUTHORING.md`](./AUTHORING.md). Trong một bản checkout Claude Code, toàn bộ pipeline này chạy dưới dạng lệnh `/generate-role "<need>"` — xem [Tự động hóa dành cho maintainer](#maintainer-automation-claude-code) bên dưới.
 
 ## Cách chúng tôi kiểm chứng — minh bạch, không cần tin suông
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match` chấm điểm các vai trò dựa trên độ trùng lặp từ khóa và trả về một kết quả khớp đáng tin cậy, các ứng viên có độ tin cậy thấp, hoặc thẳng thắn báo "chưa được phủ sóng" — nó không âm thầm đoán mò. Dùng `--json` để tích hợp theo chương trình.
 
 Gói npm chụp nhanh (snapshot) thư viện vai trò tại mỗi bản phát hành. Để dùng phiên bản mới nhất chưa phát hành, hãy dùng `npx --yes github:wonsukchoi/domain-experts <command>` — cùng một CLI, lấy trực tiếp từ `main`.
+
+### Tự động hóa dành cho maintainer (Claude Code)
+
+Làm việc trong một bản checkout Claude Code của repo này sẽ thêm ba lệnh slash tự động hóa pipeline nêu trên thay vì thay thế nó — mỗi lệnh đều phải qua PR do con người duyệt, không lệnh nào tự commit vào `main` hay tự xuất bản:
+
+- `/generate-role "<need>"` — chuyển một nhu cầu viết bằng văn bản tự do thành một vai trò đã có, một nhánh chuyên môn hóa (leaf) mới, hoặc một vai trò cha mới, sau đó chạy pipeline Pass 0-4 của AUTHORING.md (nghiên cứu → soạn thảo → phản biện đối kháng → chấm điểm, tối đa 2 vòng chỉnh sửa) và mở một PR.
+- `/audit-roles [batchSize]` — chấm điểm lại theo lô các vai trò đã phát hành, đối chiếu với tiêu chí và độ mới của nguồn; ghi dấu `last_audited`/`audit_score`, gắn cờ `status: needs-refresh`, và loại bỏ (chuyển vào `roles/_deprecated/`) sau lần thất bại liên tiếp thứ hai.
+- `/scan-project <path>` — quét chỉ đọc một dự án bên ngoài (stack công nghệ, README, cấu trúc, các commit gần đây), đề xuất các nhu cầu ứng viên đã đối chiếu với phạm vi phủ sóng hiện có, rồi chuyển những nhu cầu bạn chọn sang `/generate-role`. Không có gì về dự án được quét bị ghi lại ở bất kỳ đâu.
+
+Các truy vấn `match` không đủ tin cậy được ghi log vào `data/gap-log.jsonl` và hiển thị, xếp hạng theo tần suất, trong mục "Requested but missing" của [`ROADMAP.md`](./ROADMAP.md) — một tín hiệu cụ thể cho biết nên soạn vai trò nào tiếp theo.
 
 ## Lộ trình
 
