@@ -23,7 +23,7 @@
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
 
-**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md)**
+**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [Tiếng Việt](./README.vi.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md) | [Bahasa Indonesia](./README.id.md)**
 
 **जॉब रोल डेफिनिशन्स** की ओपन सोर्स लाइब्रेरी — असली प्रैक्टिशनर्स की वास्तविक मानसिक मॉडल, निर्णय सीमाएँ (decision thresholds), और फेल्योर मोड्स, इस तरह संरचित कि कोई भी AI एजेंट उसे लोड करके उसी एक्सपर्ट की तरह तर्क (reason) कर सके। अपने एजेंट से कहें "इस कॉन्ट्रैक्ट को रिव्यू करो" और वह एक सीनियर कॉन्ट्रैक्ट्स अटॉर्नी की क्लॉज़ प्लेबुक और फॉलबैक लैडर के साथ जवाब देगा, न कि इंटरनेट के किसी जनरलिस्ट सारांश के साथ।
 

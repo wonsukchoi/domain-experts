@@ -23,7 +23,7 @@
 [![spec](https://img.shields.io/badge/authoring_spec-v2-black.svg)](./AUTHORING.md)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](./CONTRIBUTING.md)
 
-**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md)**
+**[English](./README.md) | [한국어](./README.ko.md) | [日本語](./README.ja.md) | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt-BR.md) | [हिन्दी](./README.hi.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [Tiếng Việt](./README.vi.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md) | [Bahasa Indonesia](./README.id.md)**
 
 Biblioteca open source de **definições de papéis profissionais** — os modelos mentais reais, os limiares de decisão e os modos de falha de profissionais de verdade, estruturados para que qualquer agente de IA possa carregar um deles e raciocinar como aquele especialista. Peça ao seu agente para "revisar este contrato" e ele responde com o manual de cláusulas e as escadas de recuo de um advogado sênior de contratos, não com o resumo genérico da internet de um generalista.
 
