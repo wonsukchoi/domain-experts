@@ -1,5 +1,5 @@
 {
-  "count": 95,
+  "count": 96,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1160,6 +1160,20 @@
       "skill": "roles/water-resource-specialist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "wind-energy-operations-manager",
+      "description": "Use when a task needs the judgment of a Wind Energy Operations Manager \u2014 decomposing a production shortfall into curtailment vs. availability vs. wind-resource causes, deciding whether a component failure falls under OEM warranty/service-agreement scope, triaging SCADA/condition-monitoring alerts against a spare-parts and dispatch plan, evaluating O&M spend against diminishing-returns availability targets, or reconciling curtailment events against PPA compensation terms.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9199.09",
+      "skill": "roles/wind-energy-operations-manager/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
