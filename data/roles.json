@@ -1,5 +1,5 @@
 {
-  "count": 143,
+  "count": 144,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -614,6 +614,24 @@
       "audit_score": null,
       "skill": "roles/devops-sre/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "digital-forensics-analyst",
+      "description": "Use when a task needs the judgment of a Digital Forensics Analyst \u2014 capturing volatile evidence before it's lost, creating and hash-verifying a forensic disk image, documenting chain of custody from point of seizure, correcting for clock skew and timezone mismatches when building a cross-source timeline, or identifying anti-forensic activity (log wiping, timestomping) in an investigation.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.06",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/digital-forensics-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "education-administrator-k12",
