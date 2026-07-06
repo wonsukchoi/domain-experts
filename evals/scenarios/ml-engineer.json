@@ -1,0 +1,38 @@
+{
+  "role": "ml-engineer",
+  "scenarios": [
+    {
+      "id": "mle-1",
+      "task": "Our fraud model gets 99.66% accuracy on the held-out test set, versus a naive 'always predict not-fraud' baseline of 99.2% (fraud rate is 0.8%). Someone on the team says the model barely beats the baseline and isn't worth deploying. Also, a feature called 'customer's average transaction amount across all time' was computed using the full dataset before the train/test split, and it drove an initially reported recall of 92%. What do you flag?",
+      "criteria": [
+        "States that accuracy is a systematically misleading metric on this imbalanced problem (0.8% positive rate) and that the 99.66% vs 99.2% comparison badly understates the model's real value",
+        "Recommends reporting precision/recall/F1 (or AUC-PR) instead of accuracy as the primary metric for this problem",
+        "Identifies the all-time-average feature computed before the split as data leakage — test-set information influencing a feature used in training",
+        "States that the leaked feature's 92% recall is inflated and not trustworthy, and that a corrected version (recomputed using only pre-transaction history) is needed for an honest estimate",
+        "Does not accept either the 'barely beats baseline' framing or the 92% recall figure without flagging these two specific problems first"
+      ]
+    },
+    {
+      "id": "mle-2",
+      "task": "We've been iterating on hyperparameters for a few weeks, checking performance against our test set each time to decide whether a change helped, since it's the set we ultimately care about. We're now ready to report the final test metric to leadership as our expected production performance. Also, we're about to deploy: the model was trained on features computed by a nightly batch job, and the serving pipeline computes the 'same' features with a different, faster real-time code path that the team is confident produces equivalent values. Anything wrong here?",
+      "criteria": [
+        "Flags that repeatedly tuning hyperparameters against the test set invalidates it as an unbiased estimate — this is indirect overfitting to the test set",
+        "Recommends that hyperparameter iteration should have used a separate validation set, reserving the test set for a single final evaluation",
+        "States that the final reported test metric can no longer be trusted as an honest measure of production performance given the tuning process used",
+        "Flags 'confident it produces equivalent values' as insufficient for the serving vs. training feature mismatch — this needs to be explicitly verified (train-serving skew), not assumed from confidence",
+        "Recommends verifying feature computation logic and actual values match exactly between the training pipeline and serving pipeline before deployment"
+      ]
+    },
+    {
+      "id": "mle-3",
+      "task": "A churn prediction model has been live in production for 8 months with no retraining and no monitoring set up — it performed well at launch and nobody has touched it since. The team wants to move on to the next project. What would you push back on?",
+      "criteria": [
+        "Flags that a deployed model can silently degrade over time due to data or concept drift, without any crash or obvious error",
+        "States that 'performed well at launch' does not imply it still performs well now, given 8 months with no monitoring",
+        "Recommends actively monitoring input feature distributions and prediction distributions over time, not a one-time launch check",
+        "Recommends this monitoring be set up before considering the project fully done / moving on, not treated as optional follow-up",
+        "Does not accept 'no complaints so far' as evidence the model is still performing well"
+      ]
+    }
+  ]
+}

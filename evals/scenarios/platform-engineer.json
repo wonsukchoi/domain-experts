@@ -1,0 +1,38 @@
+{
+  "role": "platform-engineer",
+  "scenarios": [
+    {
+      "id": "pe-1",
+      "task": "We built a golden-path service template six months ago covering REST API services on Postgres with standard observability, deployable via one CLI command. We assumed high adoption. Usage data just came in: only 35% of new services used the template last quarter; 65% were deployed via manual custom Kubernetes manifests. Leadership wants to mandate the template harder. What's your take?",
+      "criteria": [
+        "Treats low adoption as a product-market-fit signal to investigate, not a rollout/communication/enforcement problem",
+        "Recommends breaking down the 65% non-adopters by root cause (e.g. survey/support tickets) rather than treating them as a single undifferentiated gap",
+        "Explicitly pushes back on a stronger mandate as the response, arguing the golden path itself likely has a coverage gap",
+        "States the general principle that engineers routing around an established golden path signals a deficiency in the path, not a need for stricter enforcement",
+        "Recommends re-measuring adoption after any fix, framing adoption as an ongoing product metric rather than a one-time check"
+      ]
+    },
+    {
+      "id": "pe-2",
+      "task": "We're designing a self-service Terraform module so app teams can provision their own databases without needing deep infra expertise. Should we make it fully opaque (just pick a size and go) or expose all the underlying Terraform config directly?",
+      "criteria": [
+        "Rejects both extremes explicitly: fully opaque with no escape hatch, and fully low-level exposing all raw config",
+        "States that an abstraction too low-level fails to reduce cognitive load, while one too high-level with no escape hatch breaks for edge cases and forces workarounds",
+        "Recommends hiding genuine complexity for the common case while providing an explicit, supported escape hatch for uncommon/edge-case needs",
+        "Gives a concrete example of what the escape hatch should look like (e.g. a documented path to override or extend the module for a non-standard need)",
+        "Frames the right level as something to validate against actual common developer workflows, not a one-size design decision made in the abstract"
+      ]
+    },
+    {
+      "id": "pe-3",
+      "task": "An engineer manually changed a production load balancer config directly in the AWS console to unblock an urgent customer issue over the weekend, planning to 'update the Terraform later.' It's now Wednesday and nobody has updated the code yet. Separately, we're about to roll out a platform-wide change to how our shared Kubernetes namespace quotas work, across all 40 tenant teams at once. Any concerns?",
+      "criteria": [
+        "Flags the manual console change as infrastructure drift that needs to be reconciled back into the IaC pipeline promptly, not left as a convenient shortcut",
+        "Notes that drift is invisible until it causes a failure (e.g. next apply silently overwriting the manual change, or an unexpected apply failure) and recommends running drift detection",
+        "Flags the all-at-once 40-tenant rollout as a blast-radius risk given the shared platform, recommending a staged rollout starting with a canary tenant/namespace instead",
+        "Explicitly connects the shared blast radius to the need for tenant isolation (resource quotas, network policies) so one tenant's issue doesn't cascade",
+        "Treats both issues as concrete, separate action items rather than only addressing one of the two"
+      ]
+    }
+  ]
+}

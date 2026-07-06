@@ -1,0 +1,38 @@
+{
+  "role": "data-engineer",
+  "scenarios": [
+    {
+      "id": "de-1",
+      "task": "Our nightly revenue pipeline partitions orders by the day the pipeline processed them, not the day the order actually happened. This quarter it showed March 14 revenue at $780K and March 15 at $810K — apparent +3.8% day-over-day growth. Someone points out some March 14 late-evening orders didn't sync until the March 15 batch run. Is the reported trend right?",
+      "criteria": [
+        "Identifies the root cause as processing-time partitioning instead of event-time partitioning, misattributing late-arriving orders to the wrong day",
+        "States clearly that this can flip the reported trend's direction, not just shift it slightly",
+        "Recommends repartitioning by event time with an explicit lateness allowance/watermark, rather than event time as a vague suggestion",
+        "Recommends recomputing the true per-day figures using event time before trusting the growth narrative",
+        "Does not accept the originally reported +3.8% growth figure as reliable without the event-time correction"
+      ]
+    },
+    {
+      "id": "de-2",
+      "task": "To fix the above dating issue, an engineer re-ran the March 14 aggregation and appended the newly reattributed $45,000 as an additional row. The pipeline retried automatically overnight (unrelated routine retry) and March 14's revenue is now showing $870,000 — inflated by a second $45,000 addition. What happened and how should this be built going forward?",
+      "criteria": [
+        "Diagnoses the double-count as caused by an append operation rather than an idempotent upsert/overwrite-by-key operation",
+        "Explains that retries (orchestrator restarts, network failures, backfills) are routine at scale, not rare edge cases, so non-idempotent operations will eventually cause this kind of corruption",
+        "Recommends switching the aggregation to an idempotent upsert-by-key (or full partition overwrite) operation so reruns produce the same result as running once",
+        "Recommends explicitly testing the retry/backfill scenario going forward, not just the forward daily happy path",
+        "Does not propose a fix that still relies on appending or incrementing values"
+      ]
+    },
+    {
+      "id": "de-3",
+      "task": "An upstream team wants to rename a field in their event schema and change its type from string to integer next sprint, and will just push the change whenever it's ready. Separately, our pipeline has no automated checks — we rely on an analyst noticing if a downstream dashboard number looks weird. What do you flag?",
+      "criteria": [
+        "Flags the unmanaged upstream schema change as a real risk: it can silently break or corrupt downstream data rather than failing loudly",
+        "Recommends enforcing explicit schema compatibility rules (e.g. additive-only changes, or validation via a schema registry) before the change is allowed to propagate",
+        "Recommends this be resolved before the change ships, not discovered after something breaks downstream",
+        "Flags relying on a human noticing a dashboard anomaly as an inadequate substitute for automated data quality checks at each pipeline stage",
+        "Recommends automated checks for completeness, uniqueness, freshness, and distribution at each stage, not just at the final output"
+      ]
+    }
+  ]
+}

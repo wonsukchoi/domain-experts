@@ -1,0 +1,38 @@
+{
+  "role": "frontend-engineer",
+  "scenarios": [
+    {
+      "id": "fe-1",
+      "task": "Our product page's LCP is 3.8s (poor). To cut initial page weight, we set loading=\"lazy\" on every image site-wide, including the hero product image. LCP got worse, now 4.6s. What's going on and what do we do?",
+      "criteria": [
+        "Identifies that the hero image is the LCP element and lazy-loading it directly delays the metric it's meant to improve",
+        "Recommends removing loading=\"lazy\" specifically from the hero/LCP element and adding fetchpriority=\"high\", while keeping lazy-loading on genuinely below-the-fold images",
+        "Explicitly distinguishes LCP element handling from other images rather than proposing a single blanket rule",
+        "Recommends re-measuring INP and CLS after the fix, not just LCP, to confirm no regression elsewhere",
+        "States the general principle: optimizing one Core Web Vital without checking the others can regress a metric that wasn't being tracked"
+      ]
+    },
+    {
+      "id": "fe-2",
+      "task": "A teammate wrote a drag-reorder list feature. On every mousemove during drag it reads element.offsetTop, then immediately writes a new transform style, then reads offsetTop again on the next frame, repeating. It feels janky on mid-tier laptops though it's smooth on the dev's M-series machine. Why, and how do we fix it?",
+      "criteria": [
+        "Names the pattern explicitly as forced synchronous layout / layout thrashing from interleaving reads and writes",
+        "Explains that the read-write-read-write loop forces the browser to synchronously recalculate layout on every iteration, multiplying cost",
+        "Recommends batching all reads together then all writes together (e.g. via requestAnimationFrame or caching measured values) instead of interleaving",
+        "Flags that testing only on a fast dev machine hides the real-world jank on lower-end hardware and recommends testing on mid-tier/low-end devices",
+        "Does not suggest an unrelated fix like just reducing image sizes or adding a debounce that doesn't address the read/write interleaving itself"
+      ]
+    },
+    {
+      "id": "fe-3",
+      "task": "We need a custom dropdown/select component. A junior dev built it as a <div> with a click handler that shows/hides an absolutely-positioned list of <div> options. It looks right visually. What's your review?",
+      "criteria": [
+        "Flags that non-semantic <div>-based interactive elements break keyboard navigation and screen reader support by default",
+        "Recommends using the correct semantic element (a native <select>, or a <button> triggering a listbox with proper ARIA roles) rather than retrofitting ARIA onto generic divs",
+        "States that accessibility should be built in from the start with correct semantics, not retrofitted with ARIA attributes afterward as a cosmetic layer",
+        "Calls for explicit testing with keyboard-only navigation and a screen reader, not just visual inspection",
+        "Explains why retrofitting ARIA onto non-semantic markup is less reliable than using the correct element to begin with"
+      ]
+    }
+  ]
+}

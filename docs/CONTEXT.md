@@ -1,7 +1,7 @@
 # CONTEXT
 
 ## Current Task
-157 roles total (115 spec-2, 42 legacy queued for upgrade), lint 0 errors. Repo blindspot sweep 2026-07-07: fixed physician-clinical-reasoning missing regulated-role disclaimer blockquote (rule 5 violation). Parity sets grown: financial-analyst 5→8 (money.SE, pruned 3 wrong-perspective personal-finance Qs), paralegal new (5, law.SE, procedure/discovery/citation-fit only), actuary new (5, stats.SE survival-analysis/risk). Financial-analyst+paralegal batch: 10W-0T-3L of 13 (77%; losses = GME short-squeeze, Motorola corporate-action history, fake-precedent citation, all genuine depth-variance). Actuary: 5W-0T-0L (100%). mediator↔law attempted, dropped — law.SE is general legal-dispute trivia, no coverage of actual mediation process-design questions (BATNA/caucus/impasse), same wrong-perspective failure as hr-people-manager. Parity now covers 7 of 157 roles.
+157 roles total (115 spec-2, 42 legacy queued for upgrade), lint 0 errors, all pushed to main. 2026-07-07 session: fixed physician-clinical-reasoning missing regulated-role disclaimer (rule 5). Parity grown to 7/157 roles: financial-analyst 5→8, paralegal new (5), actuary new (5) — 15W-0T-3L combined (83%), all losses genuine depth-variance. mediator↔law tried and dropped (wrong-perspective, same failure as hr-people-manager). Eval spot-check caught up: wrote scenarios + ran for the 7-role engineering batch (frontend/mobile/platform/appsec/embedded-firmware/data/ml-engineer) — 16W-1T-4L of 21 (76%); all 4 losses had tied or near-tied criteria hits (judge holistic preference, not a content gap) — left unchanged.
 
 ## Key Decisions
 - Trust = measured, not vouched: lint + counterfactual evals + parity-vs-practitioners are the quality floor; practitioner review is bonus.
@@ -11,5 +11,5 @@
 
 ## Next Steps
 - Parity coverage still only 7 of 157 roles — grow more pairings (candidates: compliance-officer↔law, credit-analyst↔money; avoid general-legal-trivia SE sites for process-facilitation roles).
-- Next eval spot-check due after ~10 more roles land.
+- Eval scenarios still missing for 35 other roles added since the last full pass; next spot-check due after ~10 more roles land.
 - Confirm dead ~/.npmrc token revoked on npmjs.com (flagged 2026-07-06, still not confirmed).

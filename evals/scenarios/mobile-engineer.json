@@ -1,0 +1,38 @@
+{
+  "role": "mobile-engineer",
+  "scenarios": [
+    {
+      "id": "me-1",
+      "task": "Our task app lets users edit tasks on the web (always online) and on mobile (can go offline). Sync currently does whole-record last-write-wins: whichever client's write reaches the server last overwrites the entire record. A user reports 'my title edit disappeared' after editing the title on web and the due date on their phone (offline) around the same time. What's happening and how do we fix it?",
+      "criteria": [
+        "Diagnoses the bug as a whole-record overwrite: the later-syncing client (the phone) overwrote the title field it never touched, discarding the web edit",
+        "Explains why this bug is silent — no crash or error, the app just quietly forgets a change — and why that makes it hard to catch in casual testing",
+        "Recommends field-level merge (per-field modification timestamps) instead of whole-record overwrite as the fix",
+        "Explicitly distinguishes this case (different fields edited independently, safe to auto-merge) from a true same-field conflict, which needs a defined rule or a user-facing conflict prompt",
+        "Does not propose a fix that still overwrites the whole record (e.g. 'just sync more often') without addressing the field-level merge problem"
+      ]
+    },
+    {
+      "id": "me-2",
+      "task": "We want to add a background feature that periodically uploads pending changes even when the app isn't in the foreground, using a simple recurring timer that assumes it can keep running. Product wants this shipped for the next release, submitted in 3 days. What do you flag?",
+      "criteria": [
+        "Flags that a naive continuous background timer will be silently throttled or killed under iOS background execution limits and Android Doze/battery optimization",
+        "Recommends using the platform's documented background task APIs (e.g. iOS Background Tasks framework, Android WorkManager) instead of an assumed continuously-running timer",
+        "Recommends testing specifically under real battery-optimization/Doze conditions, not just foreground or plugged-in testing",
+        "Raises app store review turnaround and rejection risk as a real scheduling constraint for the 3-day timeline, not treating submission as an instant deploy",
+        "Flags reviewing platform guidelines specific to background execution or data usage before submission, not just coding the feature and shipping"
+      ]
+    },
+    {
+      "id": "me-3",
+      "task": "QA only tested our new checkout flow on the team's iPhone 15 Pro simulator and it works perfectly. We're about to ship to our full Android + iOS user base. Anything you'd push back on before release?",
+      "criteria": [
+        "Flags that testing on a single high-end device/simulator doesn't validate behavior across real device and OS fragmentation, especially on Android",
+        "Recommends testing across a representative device/OS-version matrix (older devices, different API levels/hardware) before release, not just the one high-end device",
+        "Names at least one specific lifecycle scenario to test explicitly (app backgrounded mid-checkout, device rotation, process death) rather than assuming the happy path",
+        "Recommends instrumenting crash reporting and monitoring post-release specifically for device/OS-specific issues not caught in the test matrix",
+        "Does not treat 'it works on simulator' as sufficient evidence of production readiness"
+      ]
+    }
+  ]
+}

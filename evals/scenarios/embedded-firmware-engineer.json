@@ -1,0 +1,38 @@
+{
+  "role": "embedded-firmware-engineer",
+  "scenarios": [
+    {
+      "id": "efe-1",
+      "task": "A timer ISR fires every 10ms and writes a 32-bit sensor reading into a shared variable. The main loop reads that same variable periodically to decide fan control. On this MCU, a 32-bit read/write is actually two separate 16-bit operations. Occasionally the fan seems to shut off right when the device should be running hottest. What's going on and what's the fix?",
+      "criteria": [
+        "Diagnoses this as a torn read: the main loop can read the variable mid-update by the ISR, getting part old / part new value",
+        "Explains this is a distinct bug class from ordinary race conditions — the torn value can be wildly different from either the true old or true new value, not just slightly off",
+        "Explains the real-world consequence concretely: a torn near-zero reading could cause fan control to shut off cooling at exactly the moment a real temperature spike occurs",
+        "Recommends explicit synchronization (briefly disabling the relevant interrupt, an atomic operation, or a sequence-counter technique) around the shared variable access",
+        "Recommends auditing other ISR/main-loop shared variables in the codebase for the same unsynchronized pattern, not just fixing this one instance"
+      ]
+    },
+    {
+      "id": "efe-2",
+      "task": "We're building firmware for a motor control loop with a hard 1ms deadline — missing it causes a physical safety fault. The current code was tested and 'runs in about 400 microseconds on average' across a dozen test runs, so the team says we have plenty of margin. Also, to keep things simple, the control loop uses malloc/free to allocate a small buffer each cycle. Thoughts?",
+      "criteria": [
+        "Flags that average-case timing (400us average) does not establish correctness for a hard real-time deadline — worst-case execution time must be explicitly analyzed and bounded",
+        "Explains that in a hard real-time system, missing the deadline even once is a system failure, not a tolerable degradation, so a rare worst-case path matters even if rarely hit",
+        "Flags the per-cycle malloc/free as a real risk given long uptime: heap fragmentation accumulates invisibly and can cause an allocation failure at an unpredictable future moment",
+        "Recommends static, stack, or fixed memory-pool allocation instead of dynamic malloc/free for this constrained, safety-critical, long-uptime context",
+        "Does not accept 'tested and averaged fine across a dozen runs' as sufficient validation for either the timing or memory-safety concern"
+      ]
+    },
+    {
+      "id": "efe-3",
+      "task": "A junior firmware engineer wrote an ISR for a UART receive interrupt that parses the incoming byte, decodes a full command packet, updates several data structures, and calls a logging function — all inside the ISR itself. It works fine on the bench. Also, for a hardware register write, the datasheet specifies a 2-microsecond delay is required after the write before the next read, but the current code has no delay and 'seems to work' on the bench units. Review this.",
+      "criteria": [
+        "Flags that the ISR is doing far too much work (parsing, decoding, updating multiple structures, logging) instead of being minimal, and explains this can block or delay other interrupts, risking missed interrupts or priority inversion",
+        "Recommends the ISR only capture the raw data or set a flag, deferring actual processing to the main loop or a task context",
+        "Flags the missing datasheet-specified 2-microsecond delay as a real defect despite working on the bench, not an acceptable shortcut",
+        "Explains that behavior that happens to work on specific bench hardware isn't the same as behavior the datasheet actually guarantees, and real-world variance (temperature, voltage, batch differences) can expose the missing delay as an intermittent field failure",
+        "Recommends testing under realistic environmental variance (temperature/voltage range), not just standard bench conditions, before considering either issue resolved"
+      ]
+    }
+  ]
+}

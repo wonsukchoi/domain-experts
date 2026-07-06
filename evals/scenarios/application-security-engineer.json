@@ -1,0 +1,38 @@
+{
+  "role": "application-security-engineer",
+  "scenarios": [
+    {
+      "id": "ase-1",
+      "task": "Review this endpoint: GET /api/invoices/{invoice_id} — it checks that the request has a valid authenticated session, then looks up the invoice by ID and returns it. It's been in production for months with no complaints. What's your assessment?",
+      "criteria": [
+        "Identifies this as broken object-level authorization / IDOR: the endpoint checks authentication but never verifies the authenticated user owns or has permission for that specific invoice_id",
+        "Explicitly distinguishes authentication (valid session exists) from authorization (this user may access this specific resource) as two different checks",
+        "Recommends confirming exploitability by testing as a low-privilege account requesting sequential/other IDs, not just theorizing about the flaw",
+        "Recommends a specific fix: query the invoice, then verify invoice.owner_id matches the authenticated user before returning data (403/404 on mismatch)",
+        "Does not treat 'no complaints so far' or months of uptime as evidence the endpoint is safe"
+      ]
+    },
+    {
+      "id": "ase-2",
+      "task": "Our SCA scanner flagged a CVSS 9.8 (Critical) deserialization vulnerability in a JSON library dependency. Security wants it patched today before anything else. Separately there's an open CVSS 5.3 (Medium) finding in a different dependency's regex handling that's used directly on user-submitted search queries. How do you prioritize?",
+      "criteria": [
+        "States that CVSS score alone does not determine real risk — reachability and exploitability in this specific codebase matter more",
+        "Recommends checking whether the critical-scored vulnerable function is actually called anywhere in the codebase before treating it as top priority",
+        "Identifies the medium-scored regex vulnerability as higher real urgency since it's directly reachable via user-submitted input (a ReDoS risk)",
+        "Recommends fixing the reachable medium-severity finding before the unreachable critical-severity one, explicitly justified by reachability, not by ignoring severity",
+        "Does not simply defer to the raw CVSS ranking without reachability analysis"
+      ]
+    },
+    {
+      "id": "ase-3",
+      "task": "We're kicking off design for a new feature that lets users export their account data as a shareable link. Security review is scheduled for right before launch, after the code is written, same as usual. Also, we have one sanitize() function that HTML-escapes all user input and we call it everywhere before rendering or storing anything. Anything you'd change about how we're approaching this?",
+      "criteria": [
+        "Recommends moving security review (e.g. threat modeling with STRIDE or similar) to design time, before code is written, rather than deferring it to right before launch",
+        "Explains that catching a flaw at design time costs a conversation while catching it in production costs an incident — cost of catching it later is much higher",
+        "Flags the single generic sanitize()-everywhere approach as insufficient: the same escaped value can still be unsafe in a different context (JavaScript, SQL, URL) than HTML",
+        "Recommends context-specific output encoding at each output sink rather than one generic sanitization pass applied uniformly",
+        "Does not endorse the current process (review at the end, one generic sanitizer) as adequate as-is"
+      ]
+    }
+  ]
+}
