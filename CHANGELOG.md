@@ -9,9 +9,12 @@ npm releases are snapshots — `npx domain-experts` users get the role library a
 ## [Unreleased]
 
 ### Added
-- 10 new spec-2 roles (79 total), including mental-health-counselor, high-school-teacher, graphic-designer, electrician, mechanical-engineer
+- 15 new spec-2 roles (89 total): mental-health-counselor, high-school-teacher, graphic-designer, electrician, mechanical-engineer, actuary, database-administrator, penetration-tester, personal-financial-advisor, budget-analyst, mediator, paralegal, paramedic, real-estate-broker, sales-engineer
 - `SECURITY.md` — vulnerability reporting process and threat model (prompt injection in role content, CLI, npm supply chain)
 - Repo `CLAUDE.md` session bootstrap and `CONTEXT.md` session-resume notes
+
+### Fixed
+- `match` command ranking: added IDF weighting (rare query words outweigh common ones) and plural/singular stemming so real-world phrasing (e.g. "review this vendor contract") reliably surfaces the right role instead of a coincidentally keyword-heavy wrong one
 
 ## [0.2.0] — 2026-07-06
 
