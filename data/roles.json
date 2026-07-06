@@ -1,5 +1,5 @@
 {
-  "count": 94,
+  "count": 95,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1075,6 +1075,20 @@
       "onet_soc_code": "15-1252.00",
       "skill": "roles/software-engineer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "spa-manager",
+      "description": "Use when a task needs the judgment of a Spa Manager \u2014 deciding whether a revenue shortfall is a demand problem or a scheduling/room-hour utilization problem, standardizing the service menu against treatment-room turnover, setting or enforcing a no-show/cancellation policy, classifying therapists as employees vs. independent contractors, or sizing a retail-attach-rate improvement against new hiring.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9179.02",
+      "skill": "roles/spa-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "supply-chain-manager",
