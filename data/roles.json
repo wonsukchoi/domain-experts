@@ -1,5 +1,5 @@
 {
-  "count": 96,
+  "count": 97,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1160,6 +1160,20 @@
       "skill": "roles/water-resource-specialist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "wind-energy-development-manager",
+      "description": "Use when a task needs the judgment of a Wind Energy Development Manager \u2014 sequencing land control, interconnection, permitting, and offtake gates to kill an unviable project at the cheapest stage, stress-testing project economics against an interconnection cost-allocation study, deciding whether to proceed to detailed permitting/engineering spend, negotiating land option terms against a realistic development timeline, or tracking tax-credit safe-harbor deadlines against the procurement schedule.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9199.10",
+      "skill": "roles/wind-energy-development-manager/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
