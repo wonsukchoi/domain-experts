@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 129 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 130 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (35/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (36/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -123,7 +123,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ♻️ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
 | ✅ | 13-2052.00 | Personal Financial Advisors | [`personal-financial-advisor`](./roles/personal-financial-advisor/SKILL.md) |
 | ✅ | 13-2053.00 | Insurance Underwriters | [`insurance-underwriter`](./roles/insurance-underwriter/SKILL.md) |
-|  | 13-2054.00 | Financial Risk Specialists |  |
+| ✅ | 13-2054.00 | Financial Risk Specialists | [`financial-risk-specialist`](./roles/financial-risk-specialist/SKILL.md) |
 | ✅ | 13-2061.00 | Financial Examiners | [`financial-examiner`](./roles/financial-examiner/SKILL.md) |
 |  | 13-2071.00 | Credit Counselors |  |
 | ✅ | 13-2072.00 | Loan Officers | [`loan-officer`](./roles/loan-officer/SKILL.md) |

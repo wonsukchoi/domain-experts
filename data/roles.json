@@ -1,5 +1,5 @@
 {
-  "count": 133,
+  "count": 134,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -839,6 +839,24 @@
       "skill": "roles/financial-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "financial-risk-specialist",
+      "description": "Use when a task needs the judgment of a Financial Risk Specialist \u2014 calculating Value at Risk (VaR) and expected shortfall for a portfolio, stress-testing a risk estimate against correlation breakdown in a crisis scenario, comparing a VaR figure against a capital-based risk limit, quantifying residual basis risk after a hedge, or designing a reverse stress test to find a portfolio's breaking point.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2054.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/financial-risk-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
