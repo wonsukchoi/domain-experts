@@ -38,6 +38,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 No install needed — `npx` fetches it from npm. Using it often? `npm install -g domain-experts` and drop the `npx`.
 
+**Claude Code users:** `npx domain-experts command` installs a `/domain-expert` slash command — restart your session and run `/domain-expert review this vendor contract`. It matches, loads, and reasons as the right role in one step, no manual `match`/`add` dance.
+
 Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) once, and your agent detects which expert a task needs, pulls the role's full context automatically, and tells you honestly when a role isn't covered yet instead of improvising. You keep working; the right expertise shows up by itself.
 
 ## "Can't I just tell Claude to act like a CFO?"
@@ -242,6 +244,14 @@ Every install copies the full role — `SKILL.md` plus `references/` — so the 
 
 [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) is a meta-skill that removes even the `match` step — install it with `npx domain-experts add domain-expert-router`, load it once, and your agent finds the right role for "act as X" requests on its own, and says honestly when a role isn't covered.
 
+### `/domain-expert` slash command (Claude Code)
+
+```sh
+npx domain-experts command   # installs .claude/commands/domain-expert.md
+```
+
+Restart your session, then use `/domain-expert <task>` directly — e.g. `/domain-expert review this vendor contract`. It runs `match`, loads the winning role's `SKILL.md` (and `references/` as needed), and answers as that expert, or tells you honestly when nothing matches yet. Same idea as the router skill above, packaged as a one-shot command instead of an always-loaded skill.
+
 ### CLI reference
 
 ```sh
@@ -249,6 +259,7 @@ npx domain-experts list          # browse all roles
 npx domain-experts search lawyer # substring search
 npx domain-experts match "review this like our CFO" [--json]
 npx domain-experts add <slug> [--to dir]
+npx domain-experts command [--to dir]  # install the /domain-expert slash command
 ```
 
 `match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. `--json` for programmatic use.

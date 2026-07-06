@@ -272,6 +272,27 @@ async function cmdAdd(slug, opts) {
   }
 }
 
+async function cmdCommand(opts) {
+  const targetPath = path.resolve(
+    opts.to || path.join(".claude", "commands", "domain-expert.md")
+  );
+  const localFile = path.join(__dirname, "..", "commands", "domain-expert.md");
+  try {
+    fs.mkdirSync(path.dirname(targetPath), { recursive: true });
+    const text = await readRoleFile(localFile, "commands/domain-expert.md");
+    fs.writeFileSync(targetPath, text);
+    console.log(`Installed /domain-expert -> ${targetPath}`);
+    console.log(`Start a new session (or run /doctor to reload commands), then try: /domain-expert <your task>`);
+  } catch (err) {
+    if (err.code === "EACCES" || err.code === "EPERM") {
+      console.error(`Permission denied writing to "${targetPath}". Check the path or pass a different --to.`);
+    } else {
+      console.error(`Failed to install the domain-expert command: ${err.message}`);
+    }
+    process.exit(1);
+  }
+}
+
 function parseArgs(argv) {
   const [command, ...rest] = argv;
   const opts = {};
@@ -297,6 +318,7 @@ Usage:
   domain-experts search <query>       Search roles by slug/description/category
   domain-experts match "<job/task>" [--json]  Best-guess role match for a natural-language ask
   domain-experts add <slug> [--to dir]  Copy a role (SKILL.md + references/) into <dir> (default: .claude/skills/<slug>/)
+  domain-experts command [--to dir]   Install the /domain-expert slash command (default: .claude/commands/domain-expert.md)
 
 Repo: https://github.com/wonsukchoi/domain-experts`);
 }
@@ -315,6 +337,9 @@ async function main() {
       break;
     case "add":
       await cmdAdd(positional[0], opts);
+      break;
+    case "command":
+      await cmdCommand(opts);
       break;
     case "help":
     case "--help":

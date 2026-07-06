@@ -9,6 +9,7 @@
     "bin/",
     "data/roles.json",
     "skills/",
+    "commands/",
     "TEMPLATE.md",
     "LICENSE"
   ],
