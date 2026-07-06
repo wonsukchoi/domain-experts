@@ -1,5 +1,5 @@
 {
-  "count": 102,
+  "count": 103,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1140,6 +1140,20 @@
       "spec": 2,
       "onet_soc_code": "11-9179.02",
       "skill": "roles/spa-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "substance-abuse-counselor",
+      "description": "Use when a task needs the judgment of a Substance Abuse and Behavioral Disorder Counselor \u2014 classifying a use event as a lapse, relapse, or genuine treatment failure and choosing the corresponding clinical response, walking through ASAM (or equivalent) dimensions to justify a level-of-care decision, coordinating with a prescriber on medication-assisted treatment, building an individualized relapse prevention plan tied to a client's specific triggers, or managing a disclosure of substance use disorder treatment information under 42 CFR Part 2.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1011.00",
+      "skill": "roles/substance-abuse-counselor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
