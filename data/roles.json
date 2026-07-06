@@ -1,5 +1,5 @@
 {
-  "count": 135,
+  "count": 136,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2049,6 +2049,24 @@
       "audit_score": null,
       "skill": "roles/supply-chain-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "sustainability-specialist",
+      "description": "Use when a task needs the judgment of a Sustainability Specialist \u2014 calculating Scope 1/2/3 greenhouse gas emissions with appropriate boundary and emission-factor choices, distinguishing location-based from market-based Scope 2 accounting, checking a proposed emissions-reduction target against science-based target trajectory requirements, running a materiality assessment for sustainability reporting, or flagging data-quality tiers in a footprint calculation.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1199.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sustainability-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "talent-agent",
