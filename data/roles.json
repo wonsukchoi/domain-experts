@@ -1,5 +1,5 @@
 {
-  "count": 123,
+  "count": 124,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -685,6 +685,24 @@
       "skill": "roles/entertainment-recreation-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "environmental-compliance-inspector",
+      "description": "Use when a task needs the judgment of an Environmental Compliance Inspector \u2014 reviewing discharge monitoring reports or emissions data against permit limits, classifying a facility's hazardous waste generator status, calculating a penalty for a documented violation, deciding whether an exceedance warrants a Notice of Violation versus informal correction, or scoping a multimedia (air/water/waste) inspection.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-compliance-inspector/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
