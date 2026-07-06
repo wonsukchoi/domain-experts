@@ -3,38 +3,59 @@
 
 const fs = require("fs");
 const path = require("path");
+const https = require("https");
 
 const ROLES_DIR = path.join(__dirname, "..", "roles");
+const DATA_FILE = path.join(__dirname, "..", "data", "roles.json");
+const REMOTE_RAW_BASE = "https://raw.githubusercontent.com/wonsukchoi/domain-experts/main/";
 
-function parseFrontmatter(text) {
-  const m = text.match(/^---\n([\s\S]*?)\n---/);
-  if (!m) return {};
-  const block = m[1];
-  const nameM = block.match(/^\s*name:\s*(.+)$/m);
-  const descM = block.match(/^\s*description:\s*(.+)$/m);
-  const catM = block.match(/^\s*category:\s*(\S+)/m);
-  const maturityM = block.match(/^\s*maturity:\s*(\S+)/m);
-  return {
-    name: nameM ? nameM[1].trim() : "",
-    description: descM ? descM[1].trim() : "",
-    category: catM ? catM[1].trim() : "",
-    maturity: maturityM ? maturityM[1].trim() : "",
-  };
+// Package ships only data/roles.json (the index), not the roles/ content
+// itself — that stayed a 2.4M npm download otherwise. Role files are
+// fetched from GitHub raw on demand in cmdAdd. When developing inside the
+// monorepo, roles/ exists locally, so we still read straight from disk.
+function loadRoles() {
+  return JSON.parse(fs.readFileSync(DATA_FILE, "utf8"))
+    .roles.map((r) => ({
+      slug: r.slug,
+      description: r.description,
+      category: r.category,
+      maturity: r.maturity,
+      file: path.join(__dirname, "..", r.skill),
+      skillPath: r.skill,
+      referencePaths: (r.references || []).map((f) =>
+        path.join(path.dirname(r.skill), "references", f)
+      ),
+    }))
+    .sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-function loadRoles() {
-  return fs
-    .readdirSync(ROLES_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
-    .map((d) => {
-      const slug = d.name;
-      const file = path.join(ROLES_DIR, slug, "SKILL.md");
-      if (!fs.existsSync(file)) return null;
-      const fm = parseFrontmatter(fs.readFileSync(file, "utf8"));
-      return { slug, file, ...fm };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.slug.localeCompare(b.slug));
+function fetchText(url) {
+  return new Promise((resolve, reject) => {
+    https
+      .get(url, { headers: { "User-Agent": "domain-experts-cli" } }, (res) => {
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          resolve(fetchText(res.headers.location));
+          return;
+        }
+        if (res.statusCode !== 200) {
+          reject(new Error(`GET ${url} -> HTTP ${res.statusCode}`));
+          res.resume();
+          return;
+        }
+        let body = "";
+        res.setEncoding("utf8");
+        res.on("data", (chunk) => (body += chunk));
+        res.on("end", () => resolve(body));
+      })
+      .on("error", reject);
+  });
+}
+
+// Read a role file locally if bundled (monorepo dev), else fetch from
+// GitHub raw (installed-via-npm case, where roles/ isn't shipped).
+async function readRoleFile(localPath, repoRelativePath) {
+  if (fs.existsSync(localPath)) return fs.readFileSync(localPath, "utf8");
+  return fetchText(REMOTE_RAW_BASE + repoRelativePath);
 }
 
 function printRoleLine(role) {
@@ -203,7 +224,7 @@ function cmdMatch(query, opts) {
   }
 }
 
-function cmdAdd(slug, opts) {
+async function cmdAdd(slug, opts) {
   if (!slug) {
     console.error("Usage: domain-experts add <slug> [--to <dir>]");
     process.exit(1);
@@ -211,10 +232,11 @@ function cmdAdd(slug, opts) {
   const roles = loadRoles();
   let role = roles.find((r) => r.slug === slug);
   if (!role) {
-    // Meta-skills (e.g. the router) live in skills/, not roles/.
+    // Meta-skills (e.g. the router) live in skills/, not roles/ — small
+    // enough that they still ship bundled in the package.
     const metaFile = path.join(__dirname, "..", "skills", slug, "SKILL.md");
     if (fs.existsSync(metaFile)) {
-      role = { slug, file: metaFile };
+      role = { slug, file: metaFile, skillPath: `skills/${slug}/SKILL.md`, referencePaths: [] };
     }
   }
   if (!role) {
@@ -224,13 +246,18 @@ function cmdAdd(slug, opts) {
   const targetDir = path.resolve(opts.to || path.join(".claude", "skills", slug));
   try {
     fs.mkdirSync(targetDir, { recursive: true });
-    const targetFile = path.join(targetDir, "SKILL.md");
-    fs.copyFileSync(role.file, targetFile);
+    const skillText = await readRoleFile(role.file, role.skillPath);
+    fs.writeFileSync(path.join(targetDir, "SKILL.md"), skillText);
     let installed = "SKILL.md";
-    const refsDir = path.join(path.dirname(role.file), "references");
-    if (fs.existsSync(refsDir)) {
-      fs.cpSync(refsDir, path.join(targetDir, "references"), { recursive: true });
-      installed += ` + references/ (${fs.readdirSync(refsDir).length} files)`;
+    if (role.referencePaths.length > 0) {
+      const refsDir = path.join(targetDir, "references");
+      fs.mkdirSync(refsDir, { recursive: true });
+      for (const refPath of role.referencePaths) {
+        const localRefFile = path.join(__dirname, "..", refPath);
+        const refText = await readRoleFile(localRefFile, refPath);
+        fs.writeFileSync(path.join(refsDir, path.basename(refPath)), refText);
+      }
+      installed += ` + references/ (${role.referencePaths.length} files)`;
     }
     console.log(`Installed ${slug} (${installed}) -> ${targetDir}`);
   } catch (err) {
@@ -274,7 +301,7 @@ Usage:
 Repo: https://github.com/wonsukchoi/domain-experts`);
 }
 
-function main() {
+async function main() {
   const { command, positional, opts } = parseArgs(process.argv.slice(2));
   switch (command) {
     case "list":
@@ -287,7 +314,7 @@ function main() {
       cmdMatch(positional.join(" "), opts);
       break;
     case "add":
-      cmdAdd(positional[0], opts);
+      await cmdAdd(positional[0], opts);
       break;
     case "help":
     case "--help":

@@ -7,7 +7,6 @@
   },
   "files": [
     "bin/",
-    "roles/",
     "data/roles.json",
     "skills/",
     "TEMPLATE.md",
