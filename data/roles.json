@@ -1,5 +1,5 @@
 {
-  "count": 164,
+  "count": 165,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -669,6 +669,24 @@
       "skill": "roles/data-scientist/SKILL.md",
       "references": [
         "analysis-playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "data-warehousing-specialist",
+      "description": "Use when a task needs the judgment of a Data Warehousing Specialist \u2014 defining the grain of a fact table before modeling it, choosing a slowly changing dimension (SCD) type for a dimension attribute, designing an incremental ETL/ELT load strategy against a full-refresh alternative, resolving a conformed-dimension conflict across source systems, or diagnosing why a BI report's numbers don't reconcile to the source system.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1243.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/data-warehousing-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
