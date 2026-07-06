@@ -50,3 +50,6 @@ jobs:
           test -f .claude/skills/financial-manager/references/red-flags.md
           node "$GITHUB_WORKSPACE/bin/cli.js" add domain-expert-router
           test -f .claude/skills/domain-expert-router/SKILL.md
+
+      - name: Check relative links resolve
+        run: python3 scripts/check_links.py
