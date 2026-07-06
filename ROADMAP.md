@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 144 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 145 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (15/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (16/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -154,7 +154,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 15-1244.00 | Network and Computer Systems Administrators |  |
 |  | 15-1251.00 | Computer Programmers |  |
 | ♻️ | 15-1252.00 | Software Developers | [`software-engineer`](./roles/software-engineer/SKILL.md) |
-|  | 15-1253.00 | Software Quality Assurance Analysts and Testers |  |
+| ✅ | 15-1253.00 | Software Quality Assurance Analysts and Testers | [`software-qa-analyst`](./roles/software-qa-analyst/SKILL.md) |
 | ✅ | 15-1254.00 | Web Developers | [`full-stack-developer`](./roles/full-stack-developer/SKILL.md) |
 | ♻️ | 15-1255.00 | Web and Digital Interface Designers | [`ux-designer`](./roles/ux-designer/SKILL.md) |
 | ✅ | 15-1255.01 | Video Game Designers | [`game-designer`](./roles/game-designer/SKILL.md) |

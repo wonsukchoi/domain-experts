@@ -1,5 +1,5 @@
 {
-  "count": 148,
+  "count": 149,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2215,6 +2215,24 @@
       "audit_score": null,
       "skill": "roles/software-engineer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "software-qa-analyst",
+      "description": "Use when a task needs the judgment of a Software QA Analyst/Tester \u2014 designing boundary value and equivalence-partition test cases for an input range, checking a test suite's shape against the test pyramid (unit vs. integration vs. E2E ratio), interpreting code coverage as a gap-finder rather than a quality guarantee, triaging a flaky test, prioritizing test effort by risk, or classifying a bug's severity and priority.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1253.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/software-qa-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "spa-manager",
