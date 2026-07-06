@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 128 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 129 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (34/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (35/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -117,7 +117,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-1199.07 | Security Management Specialists |  |
 | ♻️ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
 |  | 13-2022.00 | Appraisers of Personal and Business Property |  |
-|  | 13-2023.00 | Appraisers and Assessors of Real Estate |  |
+| ✅ | 13-2023.00 | Appraisers and Assessors of Real Estate | [`real-estate-appraiser`](./roles/real-estate-appraiser/SKILL.md) |
 | ✅ | 13-2031.00 | Budget Analysts | [`budget-analyst`](./roles/budget-analyst/SKILL.md) |
 | ✅ | 13-2041.00 | Credit Analysts | [`credit-analyst`](./roles/credit-analyst/SKILL.md) |
 | ♻️ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |

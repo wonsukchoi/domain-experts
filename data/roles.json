@@ -1,5 +1,5 @@
 {
-  "count": 132,
+  "count": 133,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1781,6 +1781,24 @@
       "audit_score": null,
       "skill": "roles/quality-control-systems-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "real-estate-appraiser",
+      "description": "Use when a task needs the judgment of a Real Estate Appraiser \u2014 selecting and adjusting comparable sales in a sales comparison approach, determining a property's highest and best use, reconciling divergent value indications from the sales comparison, cost, and income approaches, or maintaining appraiser independence on a mortgage lending assignment.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/real-estate-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "real-estate-broker",
