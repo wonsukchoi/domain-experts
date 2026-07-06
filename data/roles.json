@@ -1,5 +1,5 @@
 {
-  "count": 124,
+  "count": 125,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1202,6 +1202,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/logistician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "logistics-analyst",
+      "description": "Use when a task needs the judgment of a Logistics Analyst \u2014 selecting shipping mode (parcel/LTL/FTL/intermodal) against a weight-and-cube breakeven, comparing carriers on total landed cost rather than quoted rate, auditing a freight invoice against the bill of lading and contract rates, calculating on-time-in-full (OTIF) performance, or analyzing a shipping lane's volume and cost trend.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1081.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/logistics-analyst/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

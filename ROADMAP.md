@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 120 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 121 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (26/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (27/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -101,7 +101,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 13-1075.00 | Labor Relations Specialists |  |
 | ✅ | 13-1081.00 | Logisticians | [`logistician`](./roles/logistician/SKILL.md) |
 |  | 13-1081.01 | Logistics Engineers |  |
-|  | 13-1081.02 | Logistics Analysts |  |
+| ✅ | 13-1081.02 | Logistics Analysts | [`logistics-analyst`](./roles/logistics-analyst/SKILL.md) |
 | ✅ | 13-1082.00 | Project Management Specialists | [`project-management-specialist`](./roles/project-management-specialist/SKILL.md) |
 | ✅ | 13-1111.00 | Management Analysts | [`management-analyst`](./roles/management-analyst/SKILL.md) |
 | ✅ | 13-1121.00 | Meeting, Convention, and Event Planners | [`meeting-event-planner`](./roles/meeting-event-planner/SKILL.md) |
