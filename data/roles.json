@@ -1,5 +1,5 @@
 {
-  "count": 98,
+  "count": 99,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -638,6 +638,20 @@
       "onet_soc_code": "11-3031.03",
       "skill": "roles/investment-fund-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "judicial-law-clerk",
+      "description": "Use when a task needs the judgment of a Judicial Law Clerk \u2014 drafting a bench memo or draft opinion that steelmans both sides before recommending an outcome, identifying the controlling standard of review before analyzing the merits, verifying that cited authority is still good law, flagging an unresolved circuit split rather than resolving it unprompted, or screening a new case assignment for a recusal/conflict issue.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-1012.00",
+      "skill": "roles/judicial-law-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "lawyer-contracts",
