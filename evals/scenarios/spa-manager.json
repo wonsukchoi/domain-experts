@@ -1,0 +1,23 @@
+{
+  "role": "spa-manager",
+  "scenarios": [
+    {
+      "id": "sm-1",
+      "task": "Our day spa has 6 treatment rooms and utilization is running at about 61%. The owner wants to hire 2 more massage therapists to grow revenue. Is that the right move?",
+      "criteria": [
+        "Says the room-hour ceiling, not therapist headcount, is the actual capacity constraint, and hiring won't raise it",
+        "Recommends first checking whether the utilization gap is a scheduling/menu-duration fragmentation problem versus a genuine demand problem before hiring",
+        "Explicitly recommends against the 2 new hires as the first move, or ties any hiring recommendation to utilization already being near the practical ceiling (roughly 80-85%)"
+      ]
+    },
+    {
+      "id": "sm-2",
+      "task": "One of our massage therapists works exclusively at our spa, on a schedule we set, using our rooms and equipment, and charges the prices we set on our menu. We currently classify her as a 1099 independent contractor to save on payroll tax. Any concerns?",
+      "criteria": [
+        "Flags this as a likely worker misclassification issue based on the behavioral/financial control factors described (schedule, equipment, pricing all controlled by the spa)",
+        "States that classification is a legal test based on actual working conditions, not a cost-optimization choice or what the contract label says",
+        "Warns about back-tax/penalty exposure rather than treating the current setup as low-risk"
+      ]
+    }
+  ]
+}

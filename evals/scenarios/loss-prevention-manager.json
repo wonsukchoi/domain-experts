@@ -1,0 +1,23 @@
+{
+  "role": "loss-prevention-manager",
+  "scenarios": [
+    {
+      "id": "lpm-1",
+      "task": "One region of our retail chain (6 of 40 stores) is running shrink at 1.8% of sales versus 1.3% company average. My first instinct is to add security guards across the region. What should I actually do first?",
+      "criteria": [
+        "Says shrink must be decomposed into external/internal/administrative/vendor categories before choosing an intervention, rather than jumping to a security-staffing fix",
+        "Recommends checking exception-based-reporting (EBR) data for a specific pattern (e.g. refund/void anomaly) before assuming it's external theft",
+        "Explicitly pushes back on the guard-staffing plan as premature until the loss category is identified"
+      ]
+    },
+    {
+      "id": "lpm-2",
+      "task": "A store manager wants to detain a customer they're 'pretty sure' shoplifted, based on a suspicious cart and nervous behavior, but security video only shows them near the shelf, not clearly concealing anything. Should we authorize the stop?",
+      "criteria": [
+        "Says no, because continuous observation of concealment through all points of sale wasn't established, invoking the evidentiary bar for apprehension",
+        "Warns that a stop below this bar creates wrongful-detention liability exposure regardless of whether the suspicion is factually correct",
+        "Recommends documentation-only / building the pattern on video for a future visit instead of stopping now"
+      ]
+    }
+  ]
+}

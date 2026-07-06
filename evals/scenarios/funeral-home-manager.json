@@ -1,0 +1,23 @@
+{
+  "role": "funeral-home-manager",
+  "scenarios": [
+    {
+      "id": "fhm-1",
+      "task": "A family just walked in for an at-need arrangement conference. My arrangement counselor usually starts by presenting our traditional service package price so the family has a number to anchor on, then moves into the general price list if they ask for detail. Is that the right order?",
+      "criteria": [
+        "States the General Price List must be presented before any package/merchandise discussion begins, not after or only on request, citing this as an FTC Funeral Rule requirement",
+        "Flags that leading with a bundled package price is itself a compliance risk, not just a sales-style preference",
+        "Recommends correcting the sequencing rather than treating the current practice as acceptable"
+      ]
+    },
+    {
+      "id": "fhm-2",
+      "task": "We bill families $315 for floral cash-advance items that we source at $274 from our vendor. It's not listed anywhere on our general price list as a separate line. Is that a problem?",
+      "criteria": [
+        "Identifies this as an undisclosed cash-advance markup and a specific FTC Funeral Rule compliance violation",
+        "Recommends either disclosing the markup explicitly on the GPL or reducing the charge to actual cost, not just noting it as a minor pricing issue",
+        "Treats this as something to fix immediately rather than at the next scheduled price-list reprint"
+      ]
+    }
+  ]
+}

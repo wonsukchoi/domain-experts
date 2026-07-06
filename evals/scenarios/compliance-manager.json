@@ -1,0 +1,24 @@
+{
+  "role": "compliance-manager",
+  "scenarios": [
+    {
+      "id": "cm-1",
+      "task": "I run compliance at a 340-person fintech lender. Five states are rolling out new privacy laws effective January 1 that add opt-out and deletion rights on top of what we already handle. Our DSAR volume is currently 40/month with 6 people on the compliance team. Budget planning is due in six weeks. My instinct is to just hire 2-3 more privacy analysts to handle the extra requests. Does that make sense?",
+      "criteria": [
+        "Says the volume increase should be estimated/benchmarked against peer data before costing headcount, rather than accepting a guess",
+        "Runs the actual arithmetic comparing a hire-only path's total loaded cost against a tooling-plus-partial-FTE path, with real numbers",
+        "Flags the hiring lead time (weeks to recruit) as a risk against the January 1 deadline",
+        "States the budget ask should name an explicit tradeoff (what doesn't get funded, or what coverage gap remains) rather than just asking for headcount"
+      ]
+    },
+    {
+      "id": "cm-2",
+      "task": "Our compliance program had zero audit findings this year. The CFO wants to cut our budget next cycle since 'nothing's wrong, so we don't need this much.' How do I respond?",
+      "criteria": [
+        "Explains that a zero-finding record is unfalsifiable/ambiguous without a stated testing-coverage percentage behind it",
+        "Recommends presenting a coverage metric (e.g. % of population tested, self-identified-finding rate) rather than just asserting the record is good",
+        "Warns this is a common and risky pattern rather than treating the CFO's request as reasonable on its face"
+      ]
+    }
+  ]
+}

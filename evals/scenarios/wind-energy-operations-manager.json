@@ -1,0 +1,23 @@
+{
+  "role": "wind-energy-operations-manager",
+  "scenarios": [
+    {
+      "id": "weom-1",
+      "task": "Our wind farm's O&M contractor reported 97.8% time-based availability this quarter, which meets our 97% contractual guarantee. But actual production came in well below our wind-resource-adjusted expected production for the quarter. The contractor says this just means it was a bad wind quarter and there's nothing to investigate. Do you agree?",
+      "criteria": [
+        "Explains that meeting the time-based availability guarantee does not explain an energy-based production shortfall, since curtailment and underperformance don't show up in that metric",
+        "Recommends decomposing the shortfall by curtailment reason code before accepting the 'bad wind quarter' explanation",
+        "Flags that a large unexplained portion of the shortfall after removing curtailment effects warrants a turbine-performance/power-curve investigation, not acceptance"
+      ]
+    },
+    {
+      "id": "weom-2",
+      "task": "A gearbox just failed on one of our turbines. Our maintenance team wants to just authorize the repair and get it back online as fast as possible since it's costing us production every day it's down. Anything I should check first?",
+      "criteria": [
+        "Says to check the warranty/service agreement scope for this specific failure mode before authorizing owner-funded repair spend",
+        "Notes the cost difference between a warrantied and out-of-pocket gearbox replacement is large (roughly $250k-$400k+) and worth the delay to verify",
+        "Recommends documenting SCADA/CMS evidence to support whichever claim path is chosen"
+      ]
+    }
+  ]
+}

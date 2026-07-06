@@ -1,0 +1,23 @@
+{
+  "role": "wind-energy-development-manager",
+  "scenarios": [
+    {
+      "id": "wedm-1",
+      "task": "Our 200MW wind project has land control secured and an interconnection queue position. The system impact study just came back allocating $52M in network upgrade costs to us, on top of a $280M base capex estimate. Our team wants to proceed straight to full permitting and detailed engineering now that land and queue position are locked in. Good plan?",
+      "criteria": [
+        "Recommends stress-testing project economics (LCOE vs. the contracted PPA price) against the new cost allocation before authorizing further permitting/engineering spend",
+        "Suggests checking whether the cost allocation can be contested or shared via a restudy/cluster cost-share appeal before treating it as final",
+        "Explicitly recommends holding or delaying the next-stage spend rather than proceeding straight to full engineering as the team wants"
+      ]
+    },
+    {
+      "id": "wedm-2",
+      "task": "We're about to sign a fixed-price 20-year PPA for a wind project. Our tax equity documentation for the beginning-of-construction safe harbor is still incomplete, but the deadline is close. Someone suggested we just lock in the PPA now and sort out the safe-harbor paperwork after signing. Thoughts?",
+      "criteria": [
+        "Warns against locking the PPA price before safe-harbor status is confirmed, since missing the deadline could change project economics by the value of the tax credit",
+        "Treats the beginning-of-construction safe-harbor deadline as a hard legal date, not something to sort out casually after the fact",
+        "Recommends completing/prioritizing the safe-harbor documentation (5% cost test or physical-work test evidence) before finalizing the PPA terms"
+      ]
+    }
+  ]
+}

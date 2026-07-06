@@ -1,0 +1,23 @@
+{
+  "role": "regulatory-affairs-manager",
+  "scenarios": [
+    {
+      "id": "ram-1",
+      "task": "We're developing an AI radiology triage device that flags two conditions. There's no cleared predicate device with our exact combined intended use, only one that covers a single condition. Our regulatory lead wants to file a 510(k) against that partial-match predicate because it's the cheapest, fastest-looking path. What's your read?",
+      "criteria": [
+        "Identifies this as a De Novo pathway candidate rather than defaulting to the 510(k) because no true predicate with matching intended use exists",
+        "Runs an expected-cost or expected-timeline comparison between the two paths, including the rejection/refile risk on the mismatched-predicate 510(k), with actual numbers",
+        "Notes the De Novo path also establishes a new product code / classification advantage, not just a cost/time comparison"
+      ]
+    },
+    {
+      "id": "ram-2",
+      "task": "A post-approval firmware update changes how our device's alarm threshold is calculated, but doesn't change the labeled indication. Our engineering team wants to file it as a 'letter to file' since it's just a firmware tweak and that's faster. Should we sign off on that?",
+      "criteria": [
+        "Says a safety-critical software function change requires running the actual change-control decision tree rather than defaulting to letter-to-file",
+        "Flags that changing the alarm threshold calculation likely affects a safety-critical function, which pushes toward a new submission/supplement rather than letter-to-file",
+        "States the decision needs a documented rationale in the Design History File, not just an engineering judgment call"
+      ]
+    }
+  ]
+}
