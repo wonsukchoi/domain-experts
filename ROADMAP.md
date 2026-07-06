@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 121 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 122 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (27/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (28/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -98,7 +98,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1051.00 | Cost Estimators | [`cost-estimator`](./roles/cost-estimator/SKILL.md) |
 | ✅ | 13-1071.00 | Human Resources Specialists | [`hr-specialist`](./roles/hr-specialist/SKILL.md) |
 |  | 13-1074.00 | Farm Labor Contractors |  |
-|  | 13-1075.00 | Labor Relations Specialists |  |
+| ✅ | 13-1075.00 | Labor Relations Specialists | [`labor-relations-specialist`](./roles/labor-relations-specialist/SKILL.md) |
 | ✅ | 13-1081.00 | Logisticians | [`logistician`](./roles/logistician/SKILL.md) |
 |  | 13-1081.01 | Logistics Engineers |  |
 | ✅ | 13-1081.02 | Logistics Analysts | [`logistics-analyst`](./roles/logistics-analyst/SKILL.md) |
