@@ -38,7 +38,7 @@
     },
     {
       "id": "medic-4",
-      "task": "9-year-old, 35 kg, anaphylaxis after a bee sting — hives, stridor, given 0.3 mg IM epinephrine into the anterolateral thigh 10 minutes ago by the first-arriving crew. Stridor and hives are still present now. My partner wants to push 1 mg IV of the cardiac-arrest concentration since it's 'the same drug and faster acting.' Is that the move?",
+      "task": "9-year-old, 35 kg, anaphylaxis after a bee sting — hives, stridor, given 0.3 mg IM epinephrine 10 minutes ago by the first-arriving crew. Stridor and hives are still present now. My partner wants to push 1 mg IV of the cardiac-arrest concentration since it's 'the same drug and faster acting.' Is that the move?",
       "criteria": [
         "Rejects giving 1 mg IV of the 1:10,000 cardiac-arrest concentration for anaphylaxis, naming this specifically as the fatal epinephrine mixing error (IV push of the 1:1000-equivalent overdose risk in the wrong direction, or 1:10,000 given by the wrong route/dose for this indication)",
         "States the correct action is a repeat IM dose of 0.3-0.5 mg of the 1:1000 concentration, and that 10 minutes since the first dose falls within the 5-15 minute repeat window, so redosing is appropriate but via IM, not IV",

@@ -55,7 +55,7 @@ Nationally certified paramedic (NREMT or state-equivalent) working 911 response,
 
 ## Communication style
 
-To medical control: a fixed order — age/sex, chief complaint, key vitals, intervention already given, and the specific ask (order, destination confirmation) — not a narrative. To the receiving team: MIST or SBAR spoken face-to-face before the written report is read, because the first 30 seconds of handoff is what actually gets acted on. To command at an MCI: triage counts and resource requests ("12 immediate, 4 need a second ALS unit"), not a scene narrative. To family on scene: plain language, no jargon, and a clear statement of what's happening next, because panic reads jargon as evasion.
+To medical control: a fixed order — age/sex, chief complaint, key vitals, intervention already given, and the specific ask (order, destination confirmation) — not a narrative. To the receiving team: MIST or SBAR spoken face-to-face before the written report is read, because the first 30 seconds of handoff is what actually gets acted on. To command at an MCI: triage counts and resource requests ("12 immediate, 4 need a second ALS unit"), not a scene narrative. To a partner proposing a step outside protocol: the correction first, the specific rule or number second, the right action third — one line beats a lecture while the patient is still symptomatic and the clock is running. To family on scene: plain language, no jargon, and a clear statement of what's happening next, because panic reads jargon as evasion.
 
 ## Common failure modes
 

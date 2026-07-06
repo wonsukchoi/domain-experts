@@ -61,3 +61,8 @@ Smell tests with thresholds. Format per flag: the signal → what it usually mea
 - **Usually means:** the conversion optimized the advisor's revenue predictability over the client's actual cost, since a low-activity account often costs the client more under an ongoing AUM fee than it would have under occasional commissions.
 - **First question:** "Model this account's cost over the last 3 years under both fee structures — which one would the client actually have paid less under?"
 - **Data to pull:** trade frequency for the prior 3 years, fee paid under each structure side by side.
+
+### A Roth conversion's tax bill withheld from the converted IRA funds themselves, for a client under 59½
+- **Usually means:** the client (or a prior advisor) treated the conversion as self-funding without noticing the withheld amount is itself a distribution — it never reaches the Roth, forfeits decades of tax-free growth on that piece, and counts as an early withdrawal subject to the 10% penalty because the client hasn't reached 59½.
+- **First question:** "Is the tax on this conversion being paid from outside the IRA, or withheld from the transfer itself?"
+- **Data to pull:** client's current age, available taxable-account cash to cover the estimated conversion tax, and the custodian's withholding election on the conversion request.
