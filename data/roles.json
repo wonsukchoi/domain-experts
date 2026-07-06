@@ -1,5 +1,5 @@
 {
-  "count": 152,
+  "count": 153,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1035,6 +1035,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/fraud-examiner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "frontend-engineer",
+      "description": "Use when a task needs the judgment of a Frontend Engineer \u2014 diagnosing which Core Web Vital (LCP/INP/CLS) a change actually affects before optimizing, fixing forced synchronous layout thrashing from interleaved DOM reads/writes, reducing bundle size through code splitting rather than assuming one more dependency is negligible, or building UI with semantic HTML/ARIA so accessibility isn't a retrofit.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/frontend-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
