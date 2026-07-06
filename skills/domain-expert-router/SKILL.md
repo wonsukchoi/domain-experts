@@ -12,7 +12,7 @@ metadata:
 
 This repo (`domain-experts`) is a growing library of job-role `SKILL.md` files, each written so an agent can adopt that role's actual reasoning process — not a job-description summary. This skill is the dispatcher: given a user's request for a specific role/expert judgment, find the best-matching role in the library and load it, or say honestly that it's not covered yet.
 
-Only 24 of the ~1,016 O*NET occupations tracked in `ROADMAP.md` are drafted so far — a no-match result is the common case, not an edge case. Handle it as a first-class outcome, not an afterthought.
+Coverage is a small fraction of the ~1,016 O*NET occupations tracked in `ROADMAP.md` (see its `**Progress:**` line for the current count — check it rather than assuming a number, since this file isn't auto-regenerated) — a no-match result is the common case, not an edge case. Handle it as a first-class outcome, not an afterthought.
 
 ## Procedure
 

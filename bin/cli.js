@@ -222,16 +222,27 @@ function cmdAdd(slug, opts) {
     process.exit(1);
   }
   const targetDir = path.resolve(opts.to || path.join(".claude", "skills", slug));
-  fs.mkdirSync(targetDir, { recursive: true });
-  const targetFile = path.join(targetDir, "SKILL.md");
-  fs.copyFileSync(role.file, targetFile);
-  let installed = "SKILL.md";
-  const refsDir = path.join(path.dirname(role.file), "references");
-  if (fs.existsSync(refsDir)) {
-    fs.cpSync(refsDir, path.join(targetDir, "references"), { recursive: true });
-    installed += ` + references/ (${fs.readdirSync(refsDir).length} files)`;
+  try {
+    fs.mkdirSync(targetDir, { recursive: true });
+    const targetFile = path.join(targetDir, "SKILL.md");
+    fs.copyFileSync(role.file, targetFile);
+    let installed = "SKILL.md";
+    const refsDir = path.join(path.dirname(role.file), "references");
+    if (fs.existsSync(refsDir)) {
+      fs.cpSync(refsDir, path.join(targetDir, "references"), { recursive: true });
+      installed += ` + references/ (${fs.readdirSync(refsDir).length} files)`;
+    }
+    console.log(`Installed ${slug} (${installed}) -> ${targetDir}`);
+  } catch (err) {
+    if (err.code === "EACCES" || err.code === "EPERM") {
+      console.error(`Permission denied writing to "${targetDir}". Check the path or pass a different --to.`);
+    } else if (err.code === "ENOTDIR" || err.code === "EEXIST") {
+      console.error(`"${targetDir}" already exists as a file, not a directory. Pass a different --to.`);
+    } else {
+      console.error(`Failed to install "${slug}": ${err.message}`);
+    }
+    process.exit(1);
   }
-  console.log(`Installed ${slug} (${installed}) -> ${targetDir}`);
 }
 
 function parseArgs(argv) {
