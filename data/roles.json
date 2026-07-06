@@ -1,5 +1,5 @@
 {
-  "count": 140,
+  "count": 141,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -947,6 +947,24 @@
       "skill": "roles/food-service-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "fraud-examiner",
+      "description": "Use when a task needs the judgment of a Fraud Examiner (occupational fraud investigator) \u2014 establishing predication before opening a formal investigation, running Benford's Law or ratio analysis to generate investigative leads from financial data, sequencing witness interviews before an admission-seeking interview of the primary suspect, quantifying a fraud loss, or recommending control remediation that closes the opportunity leg of the fraud triangle.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2099.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fraud-examiner/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
