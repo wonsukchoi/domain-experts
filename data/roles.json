@@ -1,5 +1,5 @@
 {
-  "count": 120,
+  "count": 121,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -474,6 +474,24 @@
       "audit_score": null,
       "skill": "roles/customer-success-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "customs-broker",
+      "description": "Use when a task needs the judgment of a licensed Customs Broker \u2014 classifying goods under the Harmonized Tariff Schedule (HTS), calculating landed duty and fees on an import entry, determining country of origin and free-trade-agreement eligibility, filing an Importer Security Filing (ISF) or entry summary, or deciding whether a classification or valuation position is defensible under CBP's \"reasonable care\" standard.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.08",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/customs-broker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "data-scientist",
