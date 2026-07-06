@@ -6,12 +6,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 87 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 88 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
 <details>
-<summary><strong>11 — Management</strong> (49/59 drafted)</summary>
+<summary><strong>11 — Management</strong> (50/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -68,7 +68,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 11-9179.01 | Fitness and Wellness Coordinators |  |
 |  | 11-9179.02 | Spa Managers |  |
 |  | 11-9199.00 | Managers, All Other |  |
-|  | 11-9199.01 | Regulatory Affairs Managers |  |
+| ✅ | 11-9199.01 | Regulatory Affairs Managers | [`regulatory-affairs-manager`](./roles/regulatory-affairs-manager/SKILL.md) |
 | ✅ | 11-9199.02 | Compliance Managers | [`compliance-manager`](./roles/compliance-manager/SKILL.md) |
 |  | 11-9199.08 | Loss Prevention Managers |  |
 |  | 11-9199.09 | Wind Energy Operations Managers |  |

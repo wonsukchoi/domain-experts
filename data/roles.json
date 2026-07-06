@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 92,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -962,6 +962,20 @@
       "skill": "roles/registered-nurse/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "regulatory-affairs-manager",
+      "description": "Use when a task needs the judgment of a Regulatory Affairs Manager \u2014 choosing a product's regulatory pathway (510(k) vs. De Novo vs. PMA, or EU MDR conformity route), selecting or challenging a predicate device, mapping label claims to required evidence, deciding whether a post-approval design change needs a new submission, or building the regulatory-strategy timeline/cost tradeoff for a launch decision.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9199.01",
+      "skill": "roles/regulatory-affairs-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
