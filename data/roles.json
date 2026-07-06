@@ -1,5 +1,5 @@
 {
-  "count": 153,
+  "count": 154,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1738,6 +1738,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/ml-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "mobile-engineer",
+      "description": "Use when a task needs the judgment of a Mobile Engineer (iOS/Android) \u2014 designing an offline-sync conflict resolution strategy that doesn't silently lose edits, planning a release around app store review turnaround and rejection risk, handling background work within platform-enforced execution limits, managing app lifecycle events (backgrounding, configuration change) without data loss, or testing across a representative device/OS fragmentation matrix.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mobile-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
