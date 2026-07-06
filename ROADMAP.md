@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 75 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 80 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (9/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (11/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -118,10 +118,10 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ♻️ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
 |  | 13-2022.00 | Appraisers of Personal and Business Property |  |
 |  | 13-2023.00 | Appraisers and Assessors of Real Estate |  |
-|  | 13-2031.00 | Budget Analysts |  |
+| ✅ | 13-2031.00 | Budget Analysts | [`budget-analyst`](./roles/budget-analyst/SKILL.md) |
 |  | 13-2041.00 | Credit Analysts |  |
 | ♻️ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
-|  | 13-2052.00 | Personal Financial Advisors |  |
+| ✅ | 13-2052.00 | Personal Financial Advisors | [`personal-financial-advisor`](./roles/personal-financial-advisor/SKILL.md) |
 | ✅ | 13-2053.00 | Insurance Underwriters | [`insurance-underwriter`](./roles/insurance-underwriter/SKILL.md) |
 |  | 13-2054.00 | Financial Risk Specialists |  |
 |  | 13-2061.00 | Financial Examiners |  |
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (5/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (8/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -148,7 +148,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 15-1232.00 | Computer User Support Specialists |  |
 |  | 15-1241.00 | Computer Network Architects |  |
 |  | 15-1241.01 | Telecommunications Engineering Specialists |  |
-|  | 15-1242.00 | Database Administrators |  |
+| ✅ | 15-1242.00 | Database Administrators | [`database-administrator`](./roles/database-administrator/SKILL.md) |
 |  | 15-1243.00 | Database Architects |  |
 |  | 15-1243.01 | Data Warehousing Specialists |  |
 |  | 15-1244.00 | Network and Computer Systems Administrators |  |
@@ -162,13 +162,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 15-1299.01 | Web Administrators |  |
 |  | 15-1299.02 | Geographic Information Systems Technologists and Technicians |  |
 |  | 15-1299.03 | Document Management Specialists |  |
-|  | 15-1299.04 | Penetration Testers |  |
+| ✅ | 15-1299.04 | Penetration Testers | [`penetration-tester`](./roles/penetration-tester/SKILL.md) |
 |  | 15-1299.05 | Information Security Engineers |  |
 |  | 15-1299.06 | Digital Forensics Analysts |  |
 |  | 15-1299.07 | Blockchain Engineers |  |
 |  | 15-1299.08 | Computer Systems Engineers/Architects |  |
 |  | 15-1299.09 | Information Technology Project Managers |  |
-|  | 15-2011.00 | Actuaries |  |
+| ✅ | 15-2011.00 | Actuaries | [`actuary`](./roles/actuary/SKILL.md) |
 |  | 15-2021.00 | Mathematicians |  |
 |  | 15-2031.00 | Operations Research Analysts |  |
 |  | 15-2041.00 | Statisticians |  |

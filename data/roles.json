@@ -1,5 +1,5 @@
 {
-  "count": 79,
+  "count": 84,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10,6 +10,20 @@
       "onet_soc_code": "13-2011.00",
       "skill": "roles/accountant-controller/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "actuary",
+      "description": "Use when a task needs the judgment of an Actuary \u2014 estimating unpaid claim reserves with chain-ladder or Bornhuetter-Ferguson methods, building or reviewing a rate indication from loss experience, applying credibility weighting to thin or volatile data, drafting a statement of actuarial opinion, or diagnosing whether a reserve or pricing assumption has stopped matching reality.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2011.00",
+      "skill": "roles/actuary/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "administrative-services-manager",
@@ -99,6 +113,20 @@
       "skill": "roles/bookkeeping-accounting-clerk/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "budget-analyst",
+      "description": "Use when a task needs the judgment of a Budget Analyst \u2014 reviewing a department's budget request or decision package for a new program, building or reconciling a budget-to-actual variance report, phasing costs for a new facility or position against its real start date, or advising on reserve/fund-balance adequacy ahead of a budget cycle.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2031.00",
+      "skill": "roles/budget-analyst/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -243,6 +271,20 @@
       "skill": "roles/data-scientist/SKILL.md",
       "references": [
         "analysis-playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "database-administrator",
+      "description": "Use when a task needs senior database-administrator judgment \u2014 diagnosing replication lag or a stalled query, sizing a connection pool or index, planning a schema migration on a live table, running backup/restore and failover drills, or triaging a production incident traced to the database.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1242.00",
+      "skill": "roles/database-administrator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -696,6 +738,34 @@
       "spec": 2,
       "onet_soc_code": "11-9121.00",
       "skill": "roles/natural-sciences-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "penetration-tester",
+      "description": "Use when a task needs the judgment of a penetration tester \u2014 scoping a pentest and drafting rules of engagement, triaging automated scanner output into confirmed findings, chaining low/medium findings into a real attack path, scoring findings with CVSS base and environmental metrics, or writing a client-facing report that survives a developer's \"prove it\" pushback.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.04",
+      "skill": "roles/penetration-tester/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "personal-financial-advisor",
+      "description": "Use when a task needs the judgment of a personal financial advisor \u2014 building a retirement income plan, evaluating a Social Security claiming strategy, structuring a tax-loss harvesting and asset-location plan, drafting an Investment Policy Statement, or stress-testing a plan against sequence-of-returns and longevity risk.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2052.00",
+      "skill": "roles/personal-financial-advisor/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
