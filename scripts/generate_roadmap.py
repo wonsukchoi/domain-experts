@@ -410,9 +410,16 @@ def main():
         cat = fm.get("category", "uncategorized")
         cat_counts[cat] = cat_counts.get(cat, 0) + 1
 
+    onet_pct = len(drafted) / len(onet_rows) * 100
+    bar_slots = 20
+    filled = round(bar_slots * onet_pct / 100)
+    coverage_bar = "█" * filled + "░" * (bar_slots - filled)
+
     block = []
     block.append("<!-- ROLE_COUNTS_START -->")
     block.append(f"**{len(active_roles)} roles drafted** ({len(drafted)} mapped to an O*NET occupation, {len(unmapped_slugs)} custom; {len(active_roles) - len(legacy_slugs)} at spec 2, {len(legacy_slugs)} awaiting upgrade), across {len(cat_counts)} categories:")
+    block.append("")
+    block.append(f"**O\\*NET coverage:** `{coverage_bar}` {onet_pct:.1f}% ({len(drafted)} / {len(onet_rows):,} occupations)")
     block.append("")
     for cat in sorted(cat_counts):
         block.append(f"- **{cat}**: {cat_counts[cat]}")
