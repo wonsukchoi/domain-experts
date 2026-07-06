@@ -1,5 +1,5 @@
 {
-  "count": 104,
+  "count": 105,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -782,6 +782,20 @@
       "skill": "roles/marketing-strategist/SKILL.md",
       "references": [
         "playbooks.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "marriage-family-therapist",
+      "description": "Use when a task needs the judgment of a Marriage and Family Therapist \u2014 establishing a no-secrets policy before starting individual/collateral sessions within couples or family work, screening for intimate partner violence individually before proceeding with conjoint therapy, reframing a family's presenting problem (e.g. \"our teenager is the problem\") into a systemic assessment, maintaining multipartiality across family members, or designing a treatment plan that targets the relational pattern rather than only the identified patient.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1013.00",
+      "skill": "roles/marriage-family-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]

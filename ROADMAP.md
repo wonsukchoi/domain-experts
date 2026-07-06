@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 100 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 101 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -323,13 +323,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>21 — Community and Social Service</strong> (3/18 drafted)</summary>
+<summary><strong>21 — Community and Social Service</strong> (4/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 21-1011.00 | Substance Abuse and Behavioral Disorder Counselors | [`substance-abuse-counselor`](./roles/substance-abuse-counselor/SKILL.md) |
 |  | 21-1012.00 | Educational, Guidance, and Career Counselors and Advisors |  |
-|  | 21-1013.00 | Marriage and Family Therapists |  |
+| ✅ | 21-1013.00 | Marriage and Family Therapists | [`marriage-family-therapist`](./roles/marriage-family-therapist/SKILL.md) |
 | ✅ | 21-1014.00 | Mental Health Counselors | [`mental-health-counselor`](./roles/mental-health-counselor/SKILL.md) |
 |  | 21-1015.00 | Rehabilitation Counselors |  |
 |  | 21-1019.00 | Counselors, All Other |  |
