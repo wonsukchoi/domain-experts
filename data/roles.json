@@ -1,5 +1,5 @@
 {
-  "count": 117,
+  "count": 118,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -693,6 +693,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/firefighter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "fitness-wellness-coordinator",
+      "description": "Use when a task needs the judgment of a Fitness & Wellness Coordinator \u2014 screening a new participant for exercise readiness, sizing or defending a program's participation target, structuring a wellness incentive against HIPAA/ADA limits, auditing emergency-response readiness, or drawing the line between health coaching and a referral.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9179.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fitness-wellness-coordinator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
