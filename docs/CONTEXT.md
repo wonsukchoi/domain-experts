@@ -1,7 +1,7 @@
 # CONTEXT
 
 ## Current Task
-157 roles total (115 spec-2, 42 legacy queued for upgrade), lint 0 errors, all pushed to main. 2026-07-07 session: fixed physician-clinical-reasoning missing regulated-role disclaimer (rule 5). Parity grown to 7/157 roles: financial-analyst 5→8, paralegal new (5), actuary new (5) — 15W-0T-3L combined (83%), all losses genuine depth-variance. mediator↔law tried and dropped (wrong-perspective, same failure as hr-people-manager). Eval spot-check caught up: wrote scenarios + ran for the 7-role engineering batch (frontend/mobile/platform/appsec/embedded-firmware/data/ml-engineer) — 16W-1T-4L of 21 (76%); all 4 losses had tied or near-tied criteria hits (judge holistic preference, not a content gap) — left unchanged.
+157 roles total (115 spec-2, 42 legacy queued for upgrade), lint 0 errors, all pushed to main. 2026-07-07 session: fixed physician-clinical-reasoning missing regulated-role disclaimer (rule 5). Parity grown to 7/157 roles: financial-analyst 5→8, paralegal new (5), actuary new (5) — 15W-0T-3L combined (83%), all losses genuine depth-variance. mediator↔law tried and dropped (wrong-perspective, same failure as hr-people-manager). Eval spot-check: wrote scenarios + ran for two 7-role engineering batches — frontend/mobile/platform/appsec/embedded-firmware/data/ml-engineer (16W-1T-4L, 76%), then software-qa-analyst/health-informatics-specialist/gis-technologist/network-architect/database-architect/digital-forensics-analyst/logistics-engineer (14W-1T-6L, 67%). Combined 30W-2T-10L of 42; every loss had tied or near-tied criteria hits (judge holistic preference, not a content gap) — left unchanged. 14 of 157 roles now have eval scenarios.
 
 ## Key Decisions
 - Trust = measured, not vouched: lint + counterfactual evals + parity-vs-practitioners are the quality floor; practitioner review is bonus.
@@ -11,5 +11,5 @@
 
 ## Next Steps
 - Parity coverage still only 7 of 157 roles — grow more pairings (candidates: compliance-officer↔law, credit-analyst↔money; avoid general-legal-trivia SE sites for process-facilitation roles).
-- Eval scenarios still missing for 35 other roles added since the last full pass; next spot-check due after ~10 more roles land.
+- Eval scenarios still missing for 143 of 157 roles; keep batching 7 at a time, oldest/most-used roles first.
 - Confirm dead ~/.npmrc token revoked on npmjs.com (flagged 2026-07-06, still not confirmed).

@@ -1,0 +1,38 @@
+{
+  "role": "logistics-engineer",
+  "scenarios": [
+    {
+      "id": "le-1",
+      "task": "We're evaluating adding a second distribution center to split East/West regional demand. Splitting the network reduces outbound freight cost by about $2.8M/year. Someone wants to approve it immediately based on that freight savings. What else needs to be checked?",
+      "criteria": [
+        "Recommends modeling total landed cost (facility fixed cost + freight + inventory carrying cost) together, not approving based on the freight savings figure alone",
+        "Flags that splitting into two facilities will duplicate facility fixed costs",
+        "Flags that splitting inventory into two pools loses the risk-pooling benefit on safety stock, increasing inventory carrying cost",
+        "States that the net savings could be much smaller than the freight number alone suggests once the other cost components are included",
+        "Does not endorse approving the second DC based on the freight-only savings figure"
+      ]
+    },
+    {
+      "id": "le-2",
+      "task": "We ran a center-of-gravity (weighted centroid) calculation for a new East Coast distribution center and it points to a specific set of coordinates. The real estate team wants to start lease negotiations on the nearest available building to that exact point. Good next step?",
+      "criteria": [
+        "States that the center-of-gravity output is a search-area heuristic, not a final site decision",
+        "Flags that the model ignores real road network distances, discrete facility fixed costs, and constraints like labor market, rail access, and zoning",
+        "Recommends validating candidate sites within that search area against real-world constraints before committing to a specific building",
+        "Pushes back on jumping straight to lease negotiation based solely on the calculated coordinates",
+        "Frames the model's output as a starting point for further site validation work, not the final answer"
+      ]
+    },
+    {
+      "id": "le-3",
+      "task": "We're redesigning a warehouse layout and want to place items alphabetically by product name for simplicity, so pickers can find things predictably. Also, we're sizing the new facility's throughput based on our average daily order volume across the year. Thoughts?",
+      "criteria": [
+        "Recommends slotting by pick velocity (ABC classification) instead of alphabetical placement, putting fastest-moving items closest to pack/ship stations",
+        "Explains that placing fast-movers far from pack/ship stations adds real, compounding travel time/labor cost across every pick",
+        "Flags that sizing facility throughput to average daily demand will bottleneck during seasonal or promotional peaks",
+        "Recommends sizing capacity against peak-period demand with a defined service-level buffer instead of average demand",
+        "Does not endorse either the alphabetical slotting plan or the average-demand sizing plan as proposed"
+      ]
+    }
+  ]
+}

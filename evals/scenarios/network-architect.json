@@ -1,0 +1,38 @@
+{
+  "role": "network-architect",
+  "scenarios": [
+    {
+      "id": "na-1",
+      "task": "We have two ISP links from different providers (Provider A and Provider B) for WAN redundancy at HQ. We consider this fully redundant since they're different companies. Should we sign off on this as done?",
+      "criteria": [
+        "Recommends tracing the complete physical path of both links, not accepting 'different providers' alone as proof of redundancy",
+        "Flags the specific risk that both links could physically terminate through the same building entry conduit or demarcation point, creating a hidden single point of failure",
+        "Explains that a single event (e.g. a fiber cut at a shared entry point) could take down both links simultaneously despite appearing redundant",
+        "Recommends routing one provider's link through a physically diverse entry path if a shared point is found",
+        "Does not sign off on the design as sufficiently redundant without a full physical path trace"
+      ]
+    },
+    {
+      "id": "na-2",
+      "task": "Our primary WAN link shows 32% utilization averaged over 24 hours, so we've told leadership we have plenty of headroom and don't need a capacity upgrade this year. Does that reasoning hold up?",
+      "criteria": [
+        "Flags that a 24-hour average can mask near-saturation during the actual peak business usage window",
+        "Recommends gathering busy-hour/peak utilization data specifically, not relying on the 24-hour average",
+        "Explains that sizing or capacity decisions based on average utilization can significantly understate real congestion risk during the hours that matter most",
+        "Recommends reassessing the no-upgrade-needed conclusion until busy-hour data is checked",
+        "Does not endorse the 32%-average-based headroom conclusion as sufficient on its own"
+      ]
+    },
+    {
+      "id": "na-3",
+      "task": "We're adding VoIP for 100 concurrent calls onto our WAN link, which we've been told has plenty of total bandwidth for regular data traffic already. Do we need to do anything special, or is having 'enough bandwidth' sufficient?",
+      "criteria": [
+        "States that having enough total bandwidth does not guarantee acceptable real-time voice quality without prioritization",
+        "Recommends implementing QoS (e.g. DSCP marking / priority queuing) to protect voice traffic from competing with bulk data traffic",
+        "Recommends calculating the specific bandwidth reservation needed for 100 concurrent calls at the codec's per-call bandwidth (not just asserting 'it should be fine')",
+        "Flags that without QoS, voice packets could experience latency/jitter exceeding acceptable call-quality thresholds during busy periods",
+        "Does not treat sufficient total bandwidth alone as adequate justification to skip QoS configuration"
+      ]
+    }
+  ]
+}

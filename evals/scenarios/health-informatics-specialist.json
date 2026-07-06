@@ -1,0 +1,38 @@
+{
+  "role": "health-informatics-specialist",
+  "scenarios": [
+    {
+      "id": "his-1",
+      "task": "Our automated eCQM diabetes A1c control measure reports a 51.7% rate (620 of 1,200 patients meeting the numerator), calculated entirely from structured LOINC-coded lab results. Leadership wants to report this rate externally next week. Anything to check first?",
+      "criteria": [
+        "Recommends checking whether qualifying results might exist only as unstructured/free-text or scanned data (e.g. PDF attachments) rather than trusting the structured-data-only calculation as complete",
+        "Recommends manually validating a sample of chart records against the measure specification before trusting the automated rate at full scale",
+        "If a discrepancy rate is found in the sample, recommends extrapolating it to the full non-numerator population to estimate the true corrected rate, not treating the sample finding as an isolated anomaly",
+        "Flags that a rate calculated only from structured data can materially understate the true rate, not just have minor rounding noise",
+        "Does not endorse reporting the 51.7% rate externally without this validation step"
+      ]
+    },
+    {
+      "id": "his-2",
+      "task": "A new clinical decision support alert for potential drug interactions has a 93% override rate — clinicians dismiss it almost every time it fires. Leadership wants to send out a mandatory training reminding staff to take the alerts seriously. What's your take?",
+      "criteria": [
+        "States that an override rate this high signals alert fatigue from an overly broad/low-specificity alert, not a clinician compliance problem",
+        "Explicitly recommends against the mandatory-training/compliance-messaging approach as the fix",
+        "Recommends redesigning the alert (narrowing its firing criteria) to improve specificity instead",
+        "Warns that leaving a widely-ignored alert in place as-is is itself a patient-safety risk, since clinicians have been trained to dismiss it reflexively",
+        "Frames the override-rate data itself as the basis for the redesign recommendation"
+      ]
+    },
+    {
+      "id": "his-3",
+      "task": "During a data exchange with a partner hospital system, a set of lab results that clinicians know exist in our EHR aren't showing up on the receiving end. The integration team concludes the data must not have been entered for those patients. Also, we're mapping our HL7 v2 lab feed to FHIR field-by-field for a new integration. What would you check?",
+      "criteria": [
+        "Pushes back on the 'data doesn't exist' conclusion, recommending checking for a terminology/code-mapping gap (e.g. local lab codes not mapped to LOINC) before accepting that explanation",
+        "Explains that a local code not mapped to a standard vocabulary can fail to transmit or match even though the underlying clinical data is complete in the source system",
+        "Flags the field-by-field HL7 v2 to FHIR mapping approach as risky, since the two standards structure clinical concepts differently",
+        "Recommends mapping at the level of the underlying clinical concept/data model and validating against real message samples, not assuming one-to-one field equivalence",
+        "Treats both issues as concrete, separate action items rather than only addressing one"
+      ]
+    }
+  ]
+}

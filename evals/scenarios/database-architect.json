@@ -1,0 +1,38 @@
+{
+  "role": "database-architect",
+  "scenarios": [
+    {
+      "id": "dba-1",
+      "task": "Our orders table has grown to 500 million rows on a single-node Postgres instance, hitting write throughput limits (8,000 writes/sec at peak, ceiling ~10,000). Query logs show 70% of queries are 'get order history for customer X.' Someone proposes sharding by order_date since that evenly distributes write load. Good idea?",
+      "criteria": [
+        "Flags that sharding by order_date would force the dominant query pattern (customer order history) into an expensive cross-shard scatter-gather",
+        "Recommends aligning the shard key with the dominant query access pattern (e.g. shard by customer_id or hash of it) instead of a key chosen purely for even write distribution",
+        "Raises the risk of hot shards if a small number of high-volume accounts concentrate disproportionate load under a naive customer_id-based scheme, and recommends checking for that skew",
+        "States that shard key choice is expensive to change later, requiring a full data migration, so it should be validated against real query logs before committing",
+        "Does not endorse the order_date sharding proposal without addressing the query-pattern mismatch"
+      ]
+    },
+    {
+      "id": "dba-2",
+      "task": "We're standing up a new distributed data store for two very different pieces of data: financial transaction records, and a 'recently viewed products' cache feeding recommendations. The team wants one consistency configuration applied uniformly across the whole database for simplicity. Thoughts?",
+      "criteria": [
+        "States that CAP theorem forces a real tradeoff during a network partition — a system can't have full consistency and full availability simultaneously",
+        "Recommends deciding the consistency-vs-availability tradeoff per data type rather than one global setting for the whole database",
+        "Recommends prioritizing consistency for financial transaction data (accepting reduced availability during a partition rather than risking inconsistent/lost transactions)",
+        "Recommends prioritizing availability for the recommendation cache (accepting eventual consistency/staleness rather than blocking)",
+        "Pushes back on the 'one config for everything' simplicity argument as the wrong tradeoff for this mixed workload"
+      ]
+    },
+    {
+      "id": "dba-3",
+      "task": "Our analytics team runs read-heavy reporting queries against a schema normalized to 3NF (same schema used for the transactional application). Reports are slow due to numerous joins. Also, a developer wants to add an index to a rarely-queried column just in case it's needed someday. What do you recommend?",
+      "criteria": [
+        "Recommends denormalizing (e.g. a star schema or similar) for the read-heavy analytical workload rather than keeping full 3NF, since normalization level should match the workload",
+        "Explains that over-normalizing a read-heavy workload forces expensive joins at query time",
+        "Pushes back on adding the speculative index without validating it against actual query plans and expected write-cost impact",
+        "States that every index has a real write-overhead and storage cost, and adding one 'just in case' is not a free decision",
+        "Recommends checking real query logs/EXPLAIN output before deciding on both the schema change and the index"
+      ]
+    }
+  ]
+}

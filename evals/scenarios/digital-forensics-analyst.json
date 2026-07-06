@@ -1,0 +1,38 @@
+{
+  "role": "digital-forensics-analyst",
+  "scenarios": [
+    {
+      "id": "dfa-1",
+      "task": "We suspect an employee of data exfiltration. Their laptop was found powered on at their desk. IT wants to shut it down immediately and send the hard drive to the forensics lab for imaging, to be safe and stop any further activity. Good plan?",
+      "criteria": [
+        "Flags that powering down the live system first would destroy volatile evidence (RAM contents, active network connections, running processes) permanently",
+        "Recommends capturing volatile evidence before considering shutdown, per order of volatility",
+        "Recommends creating the disk image via a write-blocker and verifying the hash matches the original before any analysis",
+        "States that analysis must be performed on the verified image/copy, never on the original evidence directly",
+        "Recommends chain-of-custody documentation starting from the point of seizure, not just once it reaches the lab"
+      ]
+    },
+    {
+      "id": "dfa-2",
+      "task": "We're building a timeline of an incident using timestamps from the suspect's laptop (system logs) and the building's badge access system. The laptop's system clock is set to UTC; the office operates in Eastern time (UTC-5). An event on the laptop is logged at 11:47 PM. What do we need to check before concluding anything about when it happened relative to a 7:30 PM badge-out event?",
+      "criteria": [
+        "Flags that timestamps across the two systems aren't directly comparable without checking clock configuration and timezone",
+        "Correctly identifies that 11:47 PM UTC converts to 6:47 PM Eastern (a 5-hour offset), before this event, not after",
+        "States that comparing timestamps at face value (11:47 PM vs 7:30 PM) without normalizing would produce an incorrect sequence and could flip the finding entirely",
+        "Recommends cross-corroborating the corrected timeline against the independent badge-access log source",
+        "Does not present a timeline conclusion without first normalizing for the clock/timezone difference"
+      ]
+    },
+    {
+      "id": "dfa-3",
+      "task": "While investigating the incident above, we notice the laptop's local event log has a 10-minute gap right around the time of the suspicious file upload — but the external cloud storage service's own access log for the same period is intact and complete. A colleague says the local gap probably just means logging wasn't configured correctly at that time and there's nothing more to find there. Agree?",
+      "criteria": [
+        "Pushes back on dismissing the gap as a benign logging misconfiguration without investigation",
+        "States that a log gap surrounding a key event is a specific pattern to check for anti-forensic activity (e.g. deliberate log wiping), not just an investigative dead end",
+        "Notes that the intact external service log, being harder for the user to alter, is meaningful corroborating context that makes the local gap look more like tampering, not coincidence",
+        "Recommends documenting the gap explicitly in the findings as a potential anti-forensic indicator rather than omitting it or writing it off",
+        "Does not conclude 'nothing more to find here' regarding the local log gap"
+      ]
+    }
+  ]
+}

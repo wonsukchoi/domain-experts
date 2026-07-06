@@ -1,0 +1,38 @@
+{
+  "role": "software-qa-analyst",
+  "scenarios": [
+    {
+      "id": "qa-1",
+      "task": "A discount function applies a discount when order total is between $50 and $500 inclusive. Our test suite has one test case using a $200 order, confirms the discount applies, and code coverage reports 100% line coverage on the function. Are we good to ship?",
+      "criteria": [
+        "States that 100% line coverage does not mean the logic was correctly tested — coverage measures what ran, not whether the right assertions/boundaries were checked",
+        "Recommends explicit boundary value testing: $49.99, $50.00, $50.01, $499.99, $500.00, $500.01",
+        "Identifies that a mid-range-only test can pass while a boundary bug (e.g. > instead of >=) goes completely undetected",
+        "Recommends adding the boundary cases to the regression suite specifically, not just spot-checking once",
+        "Does not treat 100% coverage as sufficient evidence to ship without boundary testing"
+      ]
+    },
+    {
+      "id": "qa-2",
+      "task": "Our test suite has 40 unit tests, 30 integration tests, and 200 end-to-end browser tests. CI takes 45 minutes and about 15% of E2E tests fail intermittently on any given run — the team just reruns the pipeline until it goes green. Review this setup.",
+      "criteria": [
+        "Flags the suite shape as an inverted 'ice cream cone' — too many E2E tests relative to unit tests — versus the test pyramid's broad-unit-base model",
+        "Explains that this shape produces slow, hard-to-diagnose failures since an E2E failure could be caused by almost anything",
+        "Flags rerunning until green as the wrong response to flaky tests, since it erodes trust in the suite's signal and can hide a real intermittent bug",
+        "Recommends triaging each flaky test explicitly — root-cause and fix, or quarantine with a tracked ticket — not simply rerunning",
+        "Recommends rebalancing the suite toward more unit/integration tests and fewer E2E tests going forward"
+      ]
+    },
+    {
+      "id": "qa-3",
+      "task": "We found two bugs during testing: (1) the settings page's font size is slightly inconsistent on one browser, and (2) the checkout page occasionally double-charges a customer's card under high load. QA wants to classify both the same way since 'a bug's a bug.' How would you classify and prioritize these?",
+      "criteria": [
+        "Classifies severity (technical impact) and priority (business impact) as two separate dimensions, not a single blended rating",
+        "Rates the double-charge bug as high severity (data/financial impact) and high priority (direct revenue/trust exposure)",
+        "Rates the font inconsistency as low severity (cosmetic, no data/crash impact) with correspondingly low priority",
+        "Explicitly pushes back on treating both bugs identically just because both are 'a bug'",
+        "Recommends prioritizing test/fix effort toward the double-charge issue given the risk (probability x impact) differential, not spreading equal effort across both"
+      ]
+    }
+  ]
+}

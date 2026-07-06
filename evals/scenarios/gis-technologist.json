@@ -1,0 +1,38 @@
+{
+  "role": "gis-technologist",
+  "scenarios": [
+    {
+      "id": "gis-1",
+      "task": "We're calculating total parcel acreage within a FEMA flood zone. Parcel data is in a State Plane (feet-based) projection; flood zone data is delivered in unprojected WGS84 lat/long. We overlaid them directly — the map looks like the layers line up fine — and the calculated overlap came out to 0.3 acres. Does that number look right to use for underwriting?",
+      "criteria": [
+        "Flags that the two datasets are in mismatched coordinate reference systems and that the map appearing visually aligned does not mean the underlying geometry is aligned for computation",
+        "Recommends reprojecting the flood zone data into the parcel's projected CRS before recalculating, rather than trusting the current result",
+        "Explains that GIS software commonly reprojects layers on the fly for display, which can mask a real CRS mismatch underneath",
+        "Recommends validating polygon topology (checking for gaps/overlaps) on the flood zone layer as part of the fix, not just reprojection alone",
+        "Does not endorse using the 0.3 acre figure for underwriting before the CRS is reconciled and topology validated"
+      ]
+    },
+    {
+      "id": "gis-2",
+      "task": "We need to calculate the total area of several large regional land parcels. Someone suggests just calculating area directly from the parcels' latitude/longitude coordinates since that's the format the data came in. Thoughts?",
+      "criteria": [
+        "States that calculating area directly from unprojected geographic (lat/long) coordinates introduces systematic measurement error",
+        "Explains that degrees of latitude/longitude aren't equal-length units across the globe or region",
+        "Recommends reprojecting into an appropriate projected CRS suited specifically for area calculation (e.g. an equal-area projection), not just any projection",
+        "Distinguishes area calculation requirements from distance calculation requirements (different projection needs for each)",
+        "Explicitly advises against calculating area straight from geographic coordinates"
+      ]
+    },
+    {
+      "id": "gis-3",
+      "task": "We want to do a fine-grained proximity analysis — flagging any residential address within 100 meters of an industrial site — using a geocoded address dataset. The addresses were geocoded in bulk and we don't know the match types. Also, the industrial site boundary data was originally digitized for a national-scale wall map years ago. Any concerns before we run this?",
+      "criteria": [
+        "Recommends checking the geocoded addresses' match type (rooftop vs. street-interpolated vs. ZIP-centroid) before treating them as precise enough for a 100-meter proximity analysis",
+        "Explains that treating all geocoded points as equally precise regardless of match type introduces real positional error that could flip a close-call determination",
+        "Flags that data digitized for a national-scale map carries real positional inaccuracy when used at a fine, site-specific analysis scale",
+        "Recommends checking the industrial site boundary's original digitizing/generalization scale against the current fine-grained analysis need before trusting its geometry",
+        "Does not endorse running the 100-meter analysis as-is without addressing both the geocoding precision and scale-mismatch concerns"
+      ]
+    }
+  ]
+}
