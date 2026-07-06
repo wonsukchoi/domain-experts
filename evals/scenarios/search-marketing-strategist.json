@@ -1,0 +1,38 @@
+{
+  "role": "search-marketing-strategist",
+  "scenarios": [
+    {
+      "id": "sms-1",
+      "task": "Our brand paid search campaign spends $20,000/month and shows $180,000 in last-click-attributed revenue — a reported 9x ROAS. Leadership wants to double the budget on the strength of this number. What do you check before agreeing?",
+      "criteria": [
+        "Flags that brand paid search commonly cannibalizes organic clicks that would have happened anyway, so raw last-click ROAS overstates true incremental value",
+        "Recommends running an incrementality test (e.g. geo holdout) rather than trusting the last-click-attributed 9x figure",
+        "States that the true incremental ROAS could be dramatically lower than the reported figure, potentially even a loss",
+        "Does not endorse doubling the budget based on the 9x last-click ROAS alone",
+        "Recommends the incrementality-adjusted figure specifically inform the budget decision, not just be mentioned as a caveat"
+      ]
+    },
+    {
+      "id": "sms-2",
+      "task": "Our cost-per-click on a key paid search term has been climbing steadily. The team's plan is to just keep raising the bid to hold our ad position. Also, we're bidding heavily on a broad informational-intent keyword because it gets a lot of search volume. Thoughts?",
+      "criteria": [
+        "Recommends diagnosing Quality Score components (expected CTR, ad relevance, landing page experience) before raising the bid further",
+        "States that a low Quality Score means paying more for the same position regardless of bid size, so raising the bid alone doesn't fix the underlying problem",
+        "Flags that bidding heavily on an informational-intent keyword wastes budget given its typically low commercial value",
+        "Recommends directing informational-intent keyword strategy toward organic content instead of paid bidding",
+        "Addresses both the Quality Score/bid issue and the intent-mismatch issue, not just one"
+      ]
+    },
+    {
+      "id": "sms-3",
+      "task": "Under last-click attribution, our display and social channels look like weak performers — they rarely get the final click before a conversion. Finance wants to cut their budgets and reallocate everything to search, which gets most of the last clicks. Also, our search channel currently has an attractive average ROAS of 4x, so we want to keep scaling spend into it aggressively. Good plan?",
+      "criteria": [
+        "Flags that last-click attribution systematically undercredits upper-funnel/assisting channels like display and social",
+        "Recommends comparing last-click against a data-driven or multi-touch attribution model before cutting the display/social budgets",
+        "States that a channel with strong average ROAS can still have poor marginal ROAS at increased spend levels due to a saturation curve",
+        "Recommends checking marginal ROAS/CPA at the proposed higher spend level for search before scaling further, not relying on the average 4x figure alone",
+        "Does not endorse both cutting display/social based on last-click alone and scaling search based on average ROAS alone"
+      ]
+    }
+  ]
+}

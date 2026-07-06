@@ -1,0 +1,38 @@
+{
+  "role": "fraud-examiner",
+  "scenarios": [
+    {
+      "id": "fex-1",
+      "task": "A manager tells us they have 'a bad feeling' about an accounts payable employee based on nothing specific — just a vague sense something's off. They want us to open a formal fraud investigation and start interviewing the employee's coworkers immediately. Good to proceed?",
+      "criteria": [
+        "States that a vague suspicion alone is not predication — a documented, reasonable professional basis is required before opening a formal investigation",
+        "Flags that investigating without documented predication creates real legal exposure (defamation, wrongful termination/harassment claims) regardless of outcome",
+        "Recommends gathering and documenting specific, articulable facts before opening a formal investigation file",
+        "Does not endorse proceeding directly to interviews based on the vague feeling alone",
+        "Distinguishes this from a case with a specific, credible basis (a named tip, a corroborated anomaly)"
+      ]
+    },
+    {
+      "id": "fex-2",
+      "task": "We ran Benford's Law analysis on a vendor's invoices and found the leading digit '9' appears in 22% of amounts versus the expected ~4.6%. Someone wants to report this to leadership as confirmed evidence of fraud and move straight to confronting the employee who approved these invoices. Thoughts?",
+      "criteria": [
+        "States that the Benford's Law anomaly is a lead generating where to look, not proof of fraud on its own",
+        "Recommends corroborating the analytical finding against source documents (invoices, bank records, vendor registration) before treating it as a finding",
+        "Recommends against confronting the suspect first — informational/witness interviews should come before the admission-seeking interview of the primary suspect",
+        "Explains that confronting the suspect early risks destroyed records or a coordinated defense before evidence is gathered",
+        "Does not endorse reporting the anomaly as confirmed fraud or jumping straight to suspect confrontation"
+      ]
+    },
+    {
+      "id": "fex-3",
+      "task": "We're building our fraud-prevention program for next year and want to focus resources on the scheme type that occurs most often in industry statistics — asset misappropriation — since it's by far the most common. Also considering a plan to screen new hires more heavily for personal financial stress as a prevention measure. Good approach?",
+      "criteria": [
+        "Flags that resource allocation should weigh estimated loss magnitude, not just scheme frequency — rarer scheme types (e.g. financial statement fraud) often carry much higher median loss",
+        "Recommends considering both frequency and severity/loss magnitude for this specific organization's risk profile before finalizing where to focus",
+        "Pushes back on screening for personal financial pressure as a prevention strategy, since pressure and rationalization are largely internal/invisible and outside the organization's ability to detect or control",
+        "Recommends focusing prevention/control remediation on closing opportunity instead (segregation of duties, dual approval, mandatory rotation/vacation)",
+        "Addresses both the resource-allocation framing and the hiring-screen proposal, not just one"
+      ]
+    }
+  ]
+}

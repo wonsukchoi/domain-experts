@@ -1,0 +1,38 @@
+{
+  "role": "retail-buyer",
+  "scenarios": [
+    {
+      "id": "rb-1",
+      "task": "Our women's outerwear buy planned a 35% sell-through by week 4. We're at 22% actual at the 4-week checkpoint. A colleague says let's wait and see how week 8 looks before doing anything, since markdowns hurt margin. What's your call?",
+      "criteria": [
+        "Recommends taking an early markdown or pausing reorders now rather than waiting for the 8-week checkpoint",
+        "States that deferring action converts a manageable early markdown into a much larger, more damaging clearance problem later",
+        "Quantifies or acknowledges the specific shortfall (22% vs 35% planned, 13 points below plan) as a clear trigger, not a borderline case",
+        "Pushes back on the 'wait and see' framing given the size of the shortfall at this early checkpoint",
+        "Does not endorse deferring the decision to the 8-week checkpoint"
+      ]
+    },
+    {
+      "id": "rb-2",
+      "task": "A buy just closed the season with a 48% realized margin, well above our typical 40% target. The buyer wants to call it a clear win and repeat the same open-to-buy approach next season. GMROI came in at 1.85 against our department's 2.5 benchmark. Good call to repeat it?",
+      "criteria": [
+        "Flags that GMROI (1.85), not margin percentage (48%), is the real measure of the buy's capital efficiency, and it's below the 2.5 benchmark",
+        "States that a strong margin percentage can still represent a weak use of capital if the inventory turned slowly",
+        "Pushes back on labeling the buy a clear win purely based on the margin percentage",
+        "Recommends investigating why GMROI underperformed (e.g. slow sell-through requiring markdowns) before deciding to repeat the same approach next season",
+        "Does not endorse simply repeating the same open-to-buy approach without addressing the GMROI shortfall"
+      ]
+    },
+    {
+      "id": "rb-3",
+      "task": "We're finalizing a vendor deal for next season. The vendor offered a decent unit cost and we're ready to sign. Separately, we're planning assortment for a new athleisure line that mixes wardrobe basics (leggings, tees) with a trend collection (a specific print/colorway drop). Anything to flag before finalizing either?",
+      "criteria": [
+        "Recommends negotiating cash discount percentage and dating/payment terms as part of the same conversation as unit cost, not settling for unit cost alone",
+        "States that negotiating only unit price leaves real, quantifiable margin on the table",
+        "Recommends treating the wardrobe basics as core/replenishable items (ongoing reorder based on sell-through) and the trend print/colorway as fashion/trend items (defined markdown cadence, no reorder assumption)",
+        "Warns against applying a single unified strategy (either reorder-based or markdown-cadence-based) across both categories",
+        "Addresses both the vendor terms gap and the assortment classification issue, not just one"
+      ]
+    }
+  ]
+}

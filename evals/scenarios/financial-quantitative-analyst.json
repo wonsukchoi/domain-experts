@@ -1,0 +1,38 @@
+{
+  "role": "financial-quantitative-analyst",
+  "scenarios": [
+    {
+      "id": "fqa-1",
+      "task": "We're sizing risk on an option position ahead of an earnings announcement where the underlying could move $5 or more. A trader wants to just use the position's delta times the expected move to estimate P&L impact, since that's quick and simple. Good enough here?",
+      "criteria": [
+        "States that delta is a local, linear approximation valid mainly for small moves, and using it alone for a $5 move can materially understate the true price change",
+        "Recommends using a gamma-adjusted estimate (delta plus half-gamma-times-move-squared) instead of a linear delta-only estimate for a move of this size",
+        "Explains that the gap between the linear and gamma-adjusted estimate grows as move size increases, which matters specifically for an earnings-related large-move scenario",
+        "Does not endorse using delta-only sizing as sufficient for this large-move scenario",
+        "Recommends stating explicitly what move-size range the delta estimate remains adequate for"
+      ]
+    },
+    {
+      "id": "fqa-2",
+      "task": "A researcher backtested a new trading strategy and got a very strong Sharpe ratio using 15 years of historical stock data. The model has quite a few tunable parameters that were optimized to maximize that historical Sharpe ratio. The team wants to start trading it live based on this result. What do you check first?",
+      "criteria": [
+        "Recommends explicitly checking for lookahead bias and survivorship bias in the backtest data and logic before trusting the result",
+        "Flags the number of free parameters relative to the dataset as a specific overfitting risk given the parameters were optimized to maximize the historical result",
+        "States that a strong in-sample Sharpe ratio doesn't rule out overfitting on its own — genuine out-of-sample validation is required",
+        "Recommends reserving or obtaining a true out-of-sample period not used in parameter fitting, and comparing performance there against the in-sample result",
+        "Does not endorse trading the strategy live based on the in-sample backtest Sharpe ratio alone"
+      ]
+    },
+    {
+      "id": "fqa-3",
+      "task": "We're pricing an option using Monte Carlo simulation and got a price estimate from a single run of 1,000 paths. It looks precise enough (reported to two decimal places) to move forward with. Separately, implied volatility on this underlying has jumped noticeably above its historical volatility ahead of a scheduled FDA decision. A colleague thinks that gap means our historical-vol-based model must be wrong and needs recalibrating to match implied vol. Thoughts?",
+      "criteria": [
+        "Flags that a single Monte Carlo run's apparent precision (two decimal places) doesn't establish convergence",
+        "Recommends checking convergence by increasing the path count and confirming the estimate stabilizes before trusting the single-run result",
+        "States that implied and historical volatility are different quantities (forward-looking market expectation vs. backward-looking realized) and a divergence is not automatically an error",
+        "Recommends checking for a known upcoming event (the scheduled FDA decision) as the likely explanation for the implied/historical vol gap, rather than assuming the historical-vol model needs correcting",
+        "Addresses both the Monte Carlo convergence issue and the implied-vs-historical-vol framing, not just one"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "role": "blockchain-engineer",
+  "scenarios": [
+    {
+      "id": "be-1",
+      "task": "Review this staking contract's withdraw function: it sends ETH to the caller via an external call, then updates the user's internal balance to zero afterward. It passed all our unit tests including the happy-path withdrawal. Anything wrong?",
+      "criteria": [
+        "Identifies this as a reentrancy vulnerability — the external call happens before internal state is updated",
+        "Explains the exploit mechanism: a malicious contract's receive function can call withdraw() again recursively before the balance is zeroed, draining funds",
+        "Recommends the checks-effects-interactions fix explicitly: zero the internal balance before making the external call, not after",
+        "Recommends adding a reentrancy guard as defense in depth alongside the reordering fix",
+        "Does not accept 'passed unit tests including happy path' as evidence the function is safe"
+      ]
+    },
+    {
+      "id": "be-2",
+      "task": "We're deploying a lending protocol contract to mainnet. It reads a single DEX pool's current spot price to determine collateral value for liquidations. It's also written as a fully immutable contract with no upgrade mechanism, since 'immutable is more secure.' Timeline is tight, we want to ship this week. What do you flag?",
+      "criteria": [
+        "Flags the single spot-price oracle as vulnerable to single-transaction manipulation (e.g. via a flash loan), especially for a low-liquidity or single-source price feed",
+        "Recommends a manipulation-resistant oracle design instead: a time-weighted average price or multiple aggregated sources",
+        "Pushes back on deciding immutability without deliberation — states the upgradability decision has to be made explicitly before deployment since it can't be added after the fact",
+        "Notes that once deployed immutable, a bug in this logic is likely permanent, not a hotfix opportunity",
+        "Recommends an independent security audit before mainnet launch given real value at stake, not treating the tight timeline as justification to skip it"
+      ]
+    },
+    {
+      "id": "be-3",
+      "task": "We added an admin function to this token contract that lets an authorized address mint new tokens. Testing confirmed the contract owner can successfully call it and mint tokens correctly. QA signed off. Anything left to check?",
+      "criteria": [
+        "Flags that confirming the authorized path works is not sufficient — the test that matters is confirming an unauthorized caller is rejected",
+        "Recommends explicitly testing that a non-owner/unauthorized address calling the mint function is rejected",
+        "States that a missing or misconfigured access control check on a privileged function like minting is one of the most common and catastrophic smart contract vulnerabilities",
+        "Does not accept 'owner can successfully mint' as sufficient QA sign-off",
+        "Recommends auditing other privileged/administrative functions in the contract for the same access-control gap"
+      ]
+    }
+  ]
+}

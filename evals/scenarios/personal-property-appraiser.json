@@ -1,0 +1,38 @@
+{
+  "role": "personal-property-appraiser",
+  "scenarios": [
+    {
+      "id": "ppa-1",
+      "task": "A client wants a valuation of an antique furniture collection for two purposes: getting it properly insured, and separately for donating a few pieces to a museum for a tax deduction. They ask for 'one number' we can use for both. How do you handle this?",
+      "criteria": [
+        "States that the value premise must match the intended use — replacement cost for insurance, fair market value for a charitable donation — and these are not interchangeable",
+        "Explains that using the wrong premise doesn't just introduce imprecision, it answers a fundamentally different question",
+        "Recommends producing two distinct value conclusions (or two separate appraisal engagements) rather than one blended number",
+        "Flags that the donation appraisal, if over $5,000, will additionally need to meet IRS qualified appraisal requirements (qualified appraiser status, timing window)",
+        "Does not agree to provide a single number serving both purposes"
+      ]
+    },
+    {
+      "id": "ppa-2",
+      "task": "We're appraising a painting attributed to a well-known artist for an estate valuation. The client says the attribution is 'probably right' based on family history, and wants us to move straight to pulling comparable sales from that artist's market. Proceed?",
+      "criteria": [
+        "States that authentication and provenance are threshold questions that must be resolved before comparable-sales analysis is meaningful, not assumed from family history alone",
+        "Explains that attribution can change value by an order of magnitude, so it's a gating determination, not an adjustment factor",
+        "Recommends obtaining proper authentication/provenance documentation (gallery records, prior appraisals, exhibition history, or expert opinion) before proceeding",
+        "Does not agree to pull comparables from the named artist's market before authentication is resolved",
+        "Flags that a value conclusion built on an unresolved authentication question isn't a real conclusion"
+      ]
+    },
+    {
+      "id": "ppa-3",
+      "task": "A manufacturing company wants their used machinery appraised as collateral for an asset-based loan. They mention the equipment is still fully in use and productive, and ask for its value assuming normal continued operation. Any concerns with that framing?",
+      "criteria": [
+        "Flags that for asset-based lending collateral purposes, the correct premise is typically orderly liquidation value, not fair market value in continued use",
+        "Explains that liquidation value (orderly or forced) is materially lower than fair market value in continued use",
+        "States that using fair market value in continued use for this purpose would overstate what the lender could actually realize as collateral",
+        "Recommends confirming with the lender/engagement terms which specific liquidation premise (orderly vs. forced) applies",
+        "Does not simply provide a fair-market-value-in-continued-use figure for this collateral engagement"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "role": "online-merchant",
+  "scenarios": [
+    {
+      "id": "om-1",
+      "task": "Our jacket SKU retails for $80 with a $32 wholesale cost — a 60% gross margin. Return rate for this category runs around 25%, we offer free shipping, and pay standard card processing fees. Someone wants to scale this SKU hard based on that 60% margin. Good idea?",
+      "criteria": [
+        "States that 60% gross margin overstates true profitability once payment processing fees, shipping cost, and expected return cost are included",
+        "Recommends calculating full net contribution margin (COGS, payment fee, shipping, expected return cost) before deciding to scale",
+        "Flags that a 25% return rate in particular is a meaningful cost driver that gross margin ignores entirely",
+        "States that the true net margin will likely be substantially lower than 60%, especially for a high-return category like apparel",
+        "Does not endorse scaling the SKU based on the 60% gross margin figure alone"
+      ]
+    },
+    {
+      "id": "om-2",
+      "task": "A paid social channel for one of our SKUs shows a first-order CAC of $28 against a first-order contribution margin of about $33, which looks like a healthy roughly break-even-or-better ad account. Marketing wants to scale spend hard on this channel. Anything to check first?",
+      "criteria": [
+        "States that CAC should be evaluated against channel-specific lifetime value (LTV), not first-order margin alone",
+        "Recommends pulling this channel's actual repeat-purchase rate and retention data to compute a real LTV before deciding to scale",
+        "Flags that a channel could still be a poor investment if retention/repeat purchase is weak, even with positive first-order economics",
+        "Recommends checking the resulting CAC:LTV ratio against a healthy benchmark (commonly cited around 3:1) before committing to scale spend",
+        "Does not endorse scaling spend based on first-order CAC vs. margin alone"
+      ]
+    },
+    {
+      "id": "om-3",
+      "task": "We're deciding whether to launch a new product line on a major marketplace (for the reach and built-in traffic) or on our own storefront. The team's main argument for the marketplace is 'way more people will see it there.' Also, chargebacks have been ticking up lately but overall revenue looks strong, so nobody's worried. What do you flag?",
+      "criteria": [
+        "Recommends comparing full landed unit economics between marketplace and owned-store (including marketplace referral and fulfillment fees), not deciding on reach alone",
+        "Flags the marketplace's limits on direct customer data access as a real cost to weigh against the reach benefit, not just a footnote",
+        "Treats the rising chargeback ratio as urgent and requiring immediate root-cause investigation, not something to deprioritize because overall revenue looks healthy",
+        "States that chargeback ratio is a hard compliance threshold (risking processing termination/fines), not just a routine cost line item",
+        "Addresses both the channel-decision framing and the chargeback issue, not just one"
+      ]
+    }
+  ]
+}
