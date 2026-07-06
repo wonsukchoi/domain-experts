@@ -1,5 +1,5 @@
 {
-  "count": 130,
+  "count": 131,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -806,6 +806,24 @@
       "audit_score": null,
       "skill": "roles/financial-analyst/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "financial-examiner",
+      "description": "Use when a task needs the judgment of a bank/depository-institution Financial Examiner \u2014 calculating risk-based capital ratios against well-capitalized thresholds, independently classifying a loan (Pass/Special Mention/Substandard/Doubtful/Loss) rather than accepting management's internal grade, testing allowance for credit losses (ALLL/CECL) adequacy, assigning CAMELS component ratings, or issuing a Matter Requiring Attention finding with a corrective action timeline.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-2061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/financial-examiner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "financial-manager",
