@@ -1,5 +1,5 @@
 {
-  "count": 157,
+  "count": 158,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -447,6 +447,24 @@
       "skill": "roles/compliance-officer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "computer-information-research-scientist",
+      "description": "Use when a task needs the judgment of a Computer and Information Research Scientist \u2014 designing an ablation to attribute an empirical gain, budgeting an NSF CISE proposal against page and content limits, deciding what reproducibility artifacts to release with a paper, screening a draft for mathiness or terminology misuse, or scoping the consent/ethics review needed before running an experiment on real users.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1221.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-information-research-scientist/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
