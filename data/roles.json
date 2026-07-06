@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 145,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -595,6 +595,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/database-administrator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "database-architect",
+      "description": "Use when a task needs the judgment of a Database Architect \u2014 choosing a normalization level matched to the actual workload, resolving a CAP theorem tradeoff (consistency vs. availability) for a distributed data store, selecting a sharding/partition key aligned with the dominant query pattern, validating an indexing strategy against real query plans, or deriving RPO/RTO backup and replication requirements from actual business impact.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1243.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/database-architect/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
