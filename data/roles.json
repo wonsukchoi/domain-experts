@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -439,6 +439,20 @@
       "skill": "roles/food-service-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "full-stack-developer",
+      "description": "Use when a task needs the judgment of a full-stack developer \u2014 shipping a feature end to end across UI, API, and database; designing the client/server contract; choosing a rendering strategy (SSR/CSR/SSG); diagnosing whether a slow page is network, render, or query; or deciding where a piece of state should live.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1254.00",
+      "skill": "roles/full-stack-developer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
