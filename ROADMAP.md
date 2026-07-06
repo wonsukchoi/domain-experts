@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 99 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 100 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -323,7 +323,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>21 — Community and Social Service</strong> (2/18 drafted)</summary>
+<summary><strong>21 — Community and Social Service</strong> (3/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -338,7 +338,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 21-1023.00 | Mental Health and Substance Abuse Social Workers |  |
 |  | 21-1029.00 | Social Workers, All Other |  |
 |  | 21-1091.00 | Health Education Specialists |  |
-|  | 21-1092.00 | Probation Officers and Correctional Treatment Specialists |  |
+| ✅ | 21-1092.00 | Probation Officers and Correctional Treatment Specialists | [`probation-officer`](./roles/probation-officer/SKILL.md) |
 |  | 21-1093.00 | Social and Human Service Assistants |  |
 |  | 21-1094.00 | Community Health Workers |  |
 |  | 21-1099.00 | Community and Social Service Specialists, All Other |  |

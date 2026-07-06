@@ -1,5 +1,5 @@
 {
-  "count": 103,
+  "count": 104,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -960,6 +960,20 @@
       "skill": "roles/postmaster-mail-superintendent/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "probation-officer",
+      "description": "Use when a task needs the judgment of a Probation Officer or Correctional Treatment Specialist \u2014 setting supervision intensity to match a validated risk assessment score rather than offense type alone, classifying a violation as technical vs. new offense and choosing a graduated sanction instead of defaulting to revocation, prioritizing case plan interventions around the specific criminogenic needs an assessment identifies, documenting a case-specific override of an actuarial risk tool's recommendation, or writing a factually balanced presentence investigation report.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1092.00",
+      "skill": "roles/probation-officer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
