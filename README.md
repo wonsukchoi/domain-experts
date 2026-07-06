@@ -163,7 +163,7 @@ Every role follows the same contract, enforced by spec and CI:
 4. **Provenance** — sources are named; specific numbers trace to them or are labeled as stated heuristics. Regulated roles (law, medicine, finance) carry explicit disclaimers.
 5. **O*NET backbone** — coverage tracks the U.S. Department of Labor's occupation taxonomy (1,016 occupations), so growth is systematic, not whatever seemed interesting that week.
 
-Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md).
+Full spec, rubric, and the LLM drafting pipeline: [`AUTHORING.md`](./AUTHORING.md). In a Claude Code checkout, this whole pipeline runs as `/generate-role "<need>"` — see [Maintainer automation](#maintainer-automation-claude-code) below.
 
 ## How we verify — transparent, no trust required
 
@@ -293,6 +293,16 @@ npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /
 `match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. `--json` for programmatic use.
 
 The npm package snapshots the role library at each release. For the unreleased bleeding edge, use `npx --yes github:wonsukchoi/domain-experts <command>` — same CLI, straight from `main`.
+
+### Maintainer automation (Claude Code)
+
+Working in a Claude Code checkout of this repo adds three slash commands that automate the pipeline above rather than replace it — every one is human-PR-gated, none commits to `main` or publishes on its own:
+
+- `/generate-role "<need>"` — resolves a free-text need to an existing role, a new specialization leaf, or a new parent role, then runs the AUTHORING.md Pass 0-4 pipeline (research → draft → adversarial critique → score, capped at 2 revision loops) and opens a PR.
+- `/audit-roles [batchSize]` — batched re-score of shipped roles against the rubric and source currency; stamps `last_audited`/`audit_score`, flags `status: needs-refresh`, deprecates (moves to `roles/_deprecated/`) after a second consecutive failure.
+- `/scan-project <path>` — read-only scan of an external project (stack, README, structure, recent commits), proposes candidate needs cross-checked against existing coverage, and hands the ones you pick to `/generate-role`. Nothing about the scanned project is written anywhere.
+
+Non-confident `match` queries are logged to `data/gap-log.jsonl` and surfaced, ranked by frequency, in [`ROADMAP.md`](./ROADMAP.md)'s "Requested but missing" section — a concrete signal for what to draft next.
 
 ## Roadmap
 
