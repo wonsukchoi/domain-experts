@@ -228,6 +228,8 @@ https://github.com/wonsukchoi/domain-experts :
 My task: <describe your task here>
 ```
 
+**Claude Code users:** skip the paste — `npx domain-experts command` installs `/domain-expert` once, then just run `/domain-expert <task>` each time (see [`/domain-expert` slash command](#domain-expert-slash-command-claude-code) below).
+
 ### Per-tool install
 
 | Tool | How |
