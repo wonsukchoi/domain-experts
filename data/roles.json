@@ -1,5 +1,5 @@
 {
-  "count": 155,
+  "count": 156,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -92,6 +92,24 @@
       "audit_score": null,
       "skill": "roles/agricultural-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "application-security-engineer",
+      "description": "Use when a task needs the judgment of an Application Security Engineer \u2014 checking whether an endpoint verifies object-level authorization (not just authentication), running threat modeling at design time rather than deferring security review to the end, triaging a dependency vulnerability by actual reachability rather than CVSS score alone, combining SAST/DAST/SCA tooling to cover their distinct blind spots, or applying context-specific output encoding to untrusted input. Distinct from an information security analyst \u2014 this role works inside the SDLC to prevent vulnerabilities before they ship, not detect and respond to intrusions in production.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/application-security-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "architectural-engineering-manager",
