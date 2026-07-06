@@ -57,6 +57,7 @@ UNMAPPED_NOTES = {
     "data-engineer": "No distinct O*NET occupation for general pipeline/ETL data engineering; closest candidates (`15-1243.00` Database Architects, taken by `database-architect`, and `15-1243.01` Data Warehousing Specialists, which is BI/warehouse-specific) don't capture the role.",
     "frontend-engineer": "No distinct O*NET occupation for frontend performance/accessibility engineering; folds into `15-1254.00` Web Developers (already used by `full-stack-developer`) or `15-1252.00` Software Developers (already used by `software-engineer`).",
     "mobile-engineer": "No distinct O*NET occupation for mobile app engineering; folds into `15-1252.00` Software Developers (already used by `software-engineer`).",
+    "platform-engineer": "Platform engineering is a post-O*NET-taxonomy specialization, same 15-1244.00/15-1241.00-adjacent territory as devops-sre; no distinct SOC code exists.",
 }
 
 

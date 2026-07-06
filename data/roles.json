@@ -1,5 +1,5 @@
 {
-  "count": 154,
+  "count": 155,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1919,6 +1919,24 @@
       "audit_score": null,
       "skill": "roles/physician-clinical-reasoning/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "platform-engineer",
+      "description": "Use when a task needs the judgment of a Platform/Infrastructure Engineer \u2014 designing a golden path for a common developer workflow, setting a self-service abstraction's level with an explicit escape hatch, diagnosing why platform adoption is low, enforcing infrastructure-as-code against configuration drift, or planning a staged rollout given a shared platform's multi-tenant blast radius. Distinct from a DevOps/SRE role \u2014 this one builds the tools and abstractions other engineers use, not the operational reliability of production systems.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/platform-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "police-patrol-officer",

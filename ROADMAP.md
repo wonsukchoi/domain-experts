@@ -1275,6 +1275,7 @@ Some roles already in this repo don't map cleanly to a single O*NET occupation â
 | [`frontend-engineer`](./roles/frontend-engineer/SKILL.md) | No distinct O*NET occupation for frontend performance/accessibility engineering; folds into `15-1254.00` Web Developers (already used by `full-stack-developer`) or `15-1252.00` Software Developers (already used by `software-engineer`). |
 | [`ml-engineer`](./roles/ml-engineer/SKILL.md) | No distinct O*NET occupation for ML/AI engineering; folds into `15-2051.00` Data Scientists (already used by `data-scientist`) or `15-1252.00` Software Developers (already used by `software-engineer`) depending on taxonomy version. |
 | [`mobile-engineer`](./roles/mobile-engineer/SKILL.md) | No distinct O*NET occupation for mobile app engineering; folds into `15-1252.00` Software Developers (already used by `software-engineer`). |
+| [`platform-engineer`](./roles/platform-engineer/SKILL.md) | Platform engineering is a post-O*NET-taxonomy specialization, same 15-1244.00/15-1241.00-adjacent territory as devops-sre; no distinct SOC code exists. |
 | [`product-manager`](./roles/product-manager/SKILL.md) | No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link. |
 | [`technical-recruiter`](./roles/technical-recruiter/SKILL.md) | Falls inside the broader `13-1071.00` Human Resources Specialists occupation rather than having its own code. |
 
