@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 105 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 106 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,14 +78,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (12/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (13/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 |  | 13-1011.00 | Agents and Business Managers of Artists, Performers, and Athletes |  |
 |  | 13-1021.00 | Buyers and Purchasing Agents, Farm Products |  |
 |  | 13-1022.00 | Wholesale and Retail Buyers, Except Farm Products |  |
-|  | 13-1023.00 | Purchasing Agents, Except Wholesale, Retail, and Farm Products |  |
+| ✅ | 13-1023.00 | Purchasing Agents, Except Wholesale, Retail, and Farm Products | [`purchasing-agent`](./roles/purchasing-agent/SKILL.md) |
 |  | 13-1031.00 | Claims Adjusters, Examiners, and Investigators |  |
 |  | 13-1032.00 | Insurance Appraisers, Auto Damage |  |
 | ✅ | 13-1041.00 | Compliance Officers | [`compliance-officer`](./roles/compliance-officer/SKILL.md) |

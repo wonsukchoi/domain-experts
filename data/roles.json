@@ -1,5 +1,5 @@
 {
-  "count": 109,
+  "count": 110,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1411,6 +1411,24 @@
       "audit_score": null,
       "skill": "roles/public-relations-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "purchasing-agent",
+      "description": "Use when a task needs the judgment of a Purchasing Agent \u2014 cutting a purchase order against the correct procurement method, running an RFQ/RFP and scoring the quotes, applying dollar-threshold rules (micro-purchase, simplified acquisition, sole-source) to a specific buy, reconciling a three-way match discrepancy between PO/receipt/invoice, or catching split-purchase and maverick-spend patterns before they become audit findings.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/purchasing-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "purchasing-manager",
