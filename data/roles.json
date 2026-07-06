@@ -1,5 +1,5 @@
 {
-  "count": 93,
+  "count": 94,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -480,6 +480,20 @@
       "onet_soc_code": "11-2033.00",
       "skill": "roles/fundraising-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "funeral-home-manager",
+      "description": "Use when a task needs the judgment of a Funeral Home Manager \u2014 running a General Price List (GPL) and FTC Funeral Rule compliant arrangement conference, structuring a guaranteed vs. non-guaranteed preneed contract, deciding cash-advance item markup disclosure, modeling break-even case volume against a rising cremation mix, or staffing licensed-director coverage for after-hours first call.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "11-9171.00",
+      "skill": "roles/funeral-home-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "gambling-manager",
