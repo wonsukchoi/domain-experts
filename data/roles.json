@@ -1,5 +1,5 @@
 {
-  "count": 99,
+  "count": 100,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -21,6 +21,20 @@
       "skill": "roles/actuary/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "administrative-law-judge",
+      "description": "Use when a task needs the judgment of an Administrative Law Judge, Adjudicator, or Hearing Officer \u2014 applying a mandatory sequential/structured evaluation framework in required order, weighing conflicting medical or vocational opinion evidence using specific regulatory factors, writing findings that explicitly address significant contrary evidence in the record, drafting a credibility/consistency finding tied to specific record citations, or checking whether a draft decision would survive substantial-evidence review.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-1021.00",
+      "skill": "roles/administrative-law-judge/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]

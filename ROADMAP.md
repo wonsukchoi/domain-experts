@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 95 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 96 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -349,13 +349,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>23 — Legal</strong> (4/8 drafted)</summary>
+<summary><strong>23 — Legal</strong> (5/8 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 23-1011.00 | Lawyers | [`lawyer-contracts`](./roles/lawyer-contracts/SKILL.md) |
 | ✅ | 23-1012.00 | Judicial Law Clerks | [`judicial-law-clerk`](./roles/judicial-law-clerk/SKILL.md) |
-|  | 23-1021.00 | Administrative Law Judges, Adjudicators, and Hearing Officers |  |
+| ✅ | 23-1021.00 | Administrative Law Judges, Adjudicators, and Hearing Officers | [`administrative-law-judge`](./roles/administrative-law-judge/SKILL.md) |
 | ✅ | 23-1022.00 | Arbitrators, Mediators, and Conciliators | [`mediator`](./roles/mediator/SKILL.md) |
 |  | 23-1023.00 | Judges, Magistrate Judges, and Magistrates |  |
 | ✅ | 23-2011.00 | Paralegals and Legal Assistants | [`paralegal`](./roles/paralegal/SKILL.md) |
