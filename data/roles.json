@@ -1,5 +1,5 @@
 {
-  "count": 161,
+  "count": 162,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1704,6 +1704,24 @@
       "skill": "roles/marriage-family-therapist/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "mathematician",
+      "description": "Use when a task needs the judgment of a mathematician \u2014 refereeing or verifying a proof before publication, deciding whether a computed numerical result is trustworthy enough to act on, scoping a grant proposal or technical report to the right level of rigor, or isolating a disputed claim in a paper to the one step it actually turns on.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mathematician/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
