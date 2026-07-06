@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 80 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 85 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -349,16 +349,16 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>23 — Legal</strong> (1/8 drafted)</summary>
+<summary><strong>23 — Legal</strong> (3/8 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 23-1011.00 | Lawyers | [`lawyer-contracts`](./roles/lawyer-contracts/SKILL.md) |
 |  | 23-1012.00 | Judicial Law Clerks |  |
 |  | 23-1021.00 | Administrative Law Judges, Adjudicators, and Hearing Officers |  |
-|  | 23-1022.00 | Arbitrators, Mediators, and Conciliators |  |
+| ✅ | 23-1022.00 | Arbitrators, Mediators, and Conciliators | [`mediator`](./roles/mediator/SKILL.md) |
 |  | 23-1023.00 | Judges, Magistrate Judges, and Magistrates |  |
-|  | 23-2011.00 | Paralegals and Legal Assistants |  |
+| ✅ | 23-2011.00 | Paralegals and Legal Assistants | [`paralegal`](./roles/paralegal/SKILL.md) |
 |  | 23-2093.00 | Title Examiners, Abstractors, and Searchers |  |
 |  | 23-2099.00 | Legal Support Workers, All Other |  |
 
@@ -494,7 +494,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>29 — Healthcare Practitioners and Technical</strong> (2/96 drafted)</summary>
+<summary><strong>29 — Healthcare Practitioners and Technical</strong> (3/96 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -572,7 +572,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 29-2035.00 | Magnetic Resonance Imaging Technologists |  |
 |  | 29-2036.00 | Medical Dosimetrists |  |
 |  | 29-2042.00 | Emergency Medical Technicians |  |
-|  | 29-2043.00 | Paramedics |  |
+| ✅ | 29-2043.00 | Paramedics | [`paramedic`](./roles/paramedic/SKILL.md) |
 |  | 29-2051.00 | Dietetic Technicians |  |
 |  | 29-2052.00 | Pharmacy Technicians |  |
 |  | 29-2053.00 | Psychiatric Technicians |  |
@@ -748,7 +748,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>41 — Sales and Related</strong> (1/23 drafted)</summary>
+<summary><strong>41 — Sales and Related</strong> (3/23 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -769,9 +769,9 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 41-4012.00 | Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products |  |
 |  | 41-9011.00 | Demonstrators and Product Promoters |  |
 |  | 41-9012.00 | Models |  |
-|  | 41-9021.00 | Real Estate Brokers |  |
+| ✅ | 41-9021.00 | Real Estate Brokers | [`real-estate-broker`](./roles/real-estate-broker/SKILL.md) |
 |  | 41-9022.00 | Real Estate Sales Agents |  |
-|  | 41-9031.00 | Sales Engineers |  |
+| ✅ | 41-9031.00 | Sales Engineers | [`sales-engineer`](./roles/sales-engineer/SKILL.md) |
 |  | 41-9041.00 | Telemarketers |  |
 |  | 41-9091.00 | Door-to-Door Sales Workers, News and Street Vendors, and Related Workers |  |
 |  | 41-9099.00 | Sales and Related Workers, All Other |  |

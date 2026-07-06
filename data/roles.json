@@ -1,5 +1,5 @@
 {
-  "count": 84,
+  "count": 89,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -689,6 +689,20 @@
       ]
     },
     {
+      "slug": "mediator",
+      "description": "Use when a task needs the judgment of a professional mediator or arbitrator \u2014 structuring a mediation agenda and caucus sequence, testing a party's BATNA/WATNA against their stated position, breaking an impasse with a bracket or mediator's proposal, deciding whether a dispute suits mediation vs. binding arbitration, or drafting an enforceable settlement term sheet or arbitration award.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-1022.00",
+      "skill": "roles/mediator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "medical-health-services-manager",
       "description": "Use when a task needs the judgment of a Medical and Health Services Manager (practice manager, clinical department administrator, hospital unit manager) \u2014 managing clinical staffing against patient volume, evaluating a billing/reimbursement or denial-rate problem, handling a patient safety or compliance incident, or balancing quality metrics against cost pressure. Distinct from a physician's clinical-reasoning role \u2014 this one manages the operational and administrative system clinicians work within.",
       "category": "healthcare",
@@ -740,6 +754,34 @@
       "skill": "roles/natural-sciences-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "paralegal",
+      "description": "Use when a task needs the judgment of a paralegal \u2014 drafting and organizing discovery responses and privilege logs, calendaring litigation deadlines and statutes of limitations, preparing trial exhibit and witness binders, cite-checking briefs to Bluebook form, or triaging document-review batches for e-discovery.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "23-2011.00",
+      "skill": "roles/paralegal/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "paramedic",
+      "description": "Use when a task needs the judgment of a paramedic \u2014 triaging multiple patients at a mass-casualty scene, deciding on-scene airway/breathing/circulation interventions under protocol, choosing trauma-center vs. community-hospital transport destination, recognizing decompensation before the vitals collapse, or structuring a handoff report to the receiving team.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2043.00",
+      "skill": "roles/paramedic/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -869,6 +911,20 @@
       "references": []
     },
     {
+      "slug": "real-estate-broker",
+      "description": "Use when a task needs the judgment of a Real Estate Broker \u2014 pricing a listing with a comparative market analysis (CMA), drafting or negotiating a listing or buyer-representation agreement, structuring an offer with contingencies or an escalation clause, advising on appraisal-gap risk, or reconciling competing offers in a multiple-offer negotiation.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9021.00",
+      "skill": "roles/real-estate-broker/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "registered-nurse",
       "description": "Use when a task needs the judgment of a Registered Nurse \u2014 recognizing early clinical deterioration from vital-sign trends, prioritizing a multi-patient assignment by acuity, escalating a change in patient condition to a physician (SBAR), applying medication-safety checks under time pressure, or delegating tasks to techs/CNAs within their scope.",
       "category": "healthcare",
@@ -891,6 +947,20 @@
       "onet_soc_code": "41-4011.00",
       "skill": "roles/sales-account-executive/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "sales-engineer",
+      "description": "Use when a task needs sales-engineer judgment \u2014 scoping a proof-of-concept with measurable success criteria, running a technical discovery call and qualifying deal fit, building or presenting a competitive-bake-off demo, answering an RFP's technical sections, or writing a technical-win exit report that hands off to closing.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9031.00",
+      "skill": "roles/sales-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "sales-manager",
