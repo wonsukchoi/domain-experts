@@ -8,6 +8,9 @@ const os = require("os");
 
 const ROLES_DIR = path.join(__dirname, "..", "roles");
 const DATA_FILE = path.join(__dirname, "..", "data", "roles.json");
+const PKG = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "package.json"), "utf8"));
+const UPDATE_CACHE_FILE = path.join(os.tmpdir(), "domain-experts-update-check.json");
+const UPDATE_CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000; // once per day
 const REMOTE_RAW_BASE = "https://raw.githubusercontent.com/wonsukchoi/domain-experts/main/";
 
 // Package ships only data/roles.json (the index), not the roles/ content
@@ -554,6 +557,44 @@ Usage:
 Repo: https://github.com/wonsukchoi/domain-experts`);
 }
 
+function isNewerVersion(latest, current) {
+  const a = latest.split(".").map(Number);
+  const b = current.split(".").map(Number);
+  for (let i = 0; i < 3; i++) {
+    if ((a[i] || 0) > (b[i] || 0)) return true;
+    if ((a[i] || 0) < (b[i] || 0)) return false;
+  }
+  return false;
+}
+
+// Fire-and-forget: checks npm registry for a newer published version at most
+// once per day (cached in the OS temp dir) and prints a nudge to stderr so it
+// never pollutes stdout/--json output. Any failure (offline, registry down,
+// corrupt cache) is swallowed silently — this must never break a command.
+async function checkForUpdate() {
+  try {
+    let cache = null;
+    if (fs.existsSync(UPDATE_CACHE_FILE)) {
+      cache = JSON.parse(fs.readFileSync(UPDATE_CACHE_FILE, "utf8"));
+    }
+    const fresh = cache && Date.now() - cache.checkedAt < UPDATE_CHECK_INTERVAL_MS;
+    const latest = fresh
+      ? cache.latest
+      : JSON.parse(await fetchText("https://registry.npmjs.org/domain-experts/latest")).version;
+
+    if (!fresh) {
+      fs.writeFileSync(UPDATE_CACHE_FILE, JSON.stringify({ latest, checkedAt: Date.now() }));
+    }
+    if (latest && isNewerVersion(latest, PKG.version)) {
+      console.error(
+        `\n→ domain-experts v${latest} is available (you have v${PKG.version}). Run: npm i -g domain-experts@latest\n`
+      );
+    }
+  } catch {
+    // offline or registry unreachable — never fail the command over this
+  }
+}
+
 async function main() {
   const { command, positional, opts } = parseArgs(process.argv.slice(2));
   switch (command) {
@@ -591,6 +632,10 @@ async function main() {
       console.error(`Unknown command: ${command}\n`);
       printHelp();
       process.exit(1);
+  }
+
+  if (!opts.json && command !== "help" && command !== "--help" && command !== "-h") {
+    await checkForUpdate();
   }
 }
 

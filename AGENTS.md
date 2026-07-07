@@ -27,10 +27,14 @@ This repo turns human job roles into agent-loadable skill files. If you're an AI
 
 The package `domain-experts` on npm ships the CLI **and the role library** — npm users are frozen at the last publish, so release after every meaningful role batch or CLI change:
 
-1. Bump `version` in package.json (semver: role batches = minor, fixes = patch).
-2. `npm publish` — **must be run by the maintainer**, not an agent: it triggers browser-based 2FA auth. Sanity-check the tarball listing npm prints (roles + references + data/roles.json + skills/ present).
-3. `git tag v<version> && git push origin v<version>` and commit the version bump.
+1. Bump `version` in package.json (semver: role batches = minor, fixes = patch) and commit it.
+2. `git tag v<version> && git push origin v<version>` — pushing the tag triggers `.github/workflows/publish.yml`, which publishes to npm automatically via npm's OIDC **trusted publishing** (no `NPM_TOKEN`, no 2FA prompt). The workflow fails closed if the tag doesn't match `package.json`'s version, and runs `npm pack --dry-run` first so a bad tarball never ships.
+3. Watch the Actions run for the publish job; `npm view domain-experts version` should match within a minute or two of it going green.
 4. Keep README truthful: human commands are `npx domain-experts …`; commands inside the agent copy-paste prompt use `npx --yes …` (agents hang on npx's interactive confirm without it).
+
+**One-time setup (maintainer only, done once via the npmjs.com dashboard):** on the `domain-experts` package's Settings → Publishing access, add a Trusted Publisher — provider GitHub Actions, repo `wonsukchoi/domain-experts`, workflow file `publish.yml`, no environment. Until this is configured, tag-push publishes will fail with an auth error — fall back to manual `npm publish` (2FA) for that release.
+
+The installed CLI also self-nudges: every command (except `--json` output and `help`) checks the npm registry at most once per day and prints a one-line "vX.Y.Z available" notice to stderr if the installed version is behind. Silent no-op if offline — see `checkForUpdate()` in `bin/cli.js`.
 
 ## Known pitfalls
 
