@@ -155,8 +155,67 @@ main {
   border-top: 1px solid var(--border);
 }
 
+.intro-top {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.proof {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+}
+
+.proof-col {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-2);
+}
+
+.proof-before { opacity: 0.75; }
+
+.proof-after { border-color: var(--accent); background: var(--accent-dim); }
+
+.proof-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin-bottom: 0.4rem;
+}
+
+.proof-after .proof-label { color: var(--accent); }
+
+.proof-col p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .proof { grid-template-columns: 1fr; }
+}
+
+.browse {
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+}
+
+.browse h2 {
+  margin: 0 0 var(--space-2);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
 .intro > p {
-  max-width: 700px;
+  max-width: none;
   font-size: 1.1rem;
   line-height: 1.6;
   color: var(--text);
