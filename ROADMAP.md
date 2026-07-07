@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 222 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 231 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -441,25 +441,25 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>27 — Arts, Design, Entertainment, Sports, and Media</strong> (10/45 drafted)</summary>
+<summary><strong>27 — Arts, Design, Entertainment, Sports, and Media</strong> (19/45 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 27-1011.00 | Art Directors | [`art-director`](./roles/art-director/SKILL.md) |
 |  | 27-1012.00 | Craft Artists |  |
 |  | 27-1013.00 | Fine Artists, Including Painters, Sculptors, and Illustrators |  |
-|  | 27-1014.00 | Special Effects Artists and Animators |  |
+| ✅ | 27-1014.00 | Special Effects Artists and Animators | [`special-effects-animator`](./roles/special-effects-animator/SKILL.md) |
 |  | 27-1019.00 | Artists and Related Workers, All Other |  |
 | ✅ | 27-1021.00 | Commercial and Industrial Designers | [`commercial-industrial-designer`](./roles/commercial-industrial-designer/SKILL.md) |
-|  | 27-1022.00 | Fashion Designers |  |
-|  | 27-1023.00 | Floral Designers |  |
+| ✅ | 27-1022.00 | Fashion Designers | [`fashion-designer`](./roles/fashion-designer/SKILL.md) |
+| ✅ | 27-1023.00 | Floral Designers | [`floral-designer`](./roles/floral-designer/SKILL.md) |
 | ✅ | 27-1024.00 | Graphic Designers | [`graphic-designer`](./roles/graphic-designer/SKILL.md) |
 | ✅ | 27-1025.00 | Interior Designers | [`interior-designer`](./roles/interior-designer/SKILL.md) |
-|  | 27-1026.00 | Merchandise Displayers and Window Trimmers |  |
-|  | 27-1027.00 | Set and Exhibit Designers |  |
+| ✅ | 27-1026.00 | Merchandise Displayers and Window Trimmers | [`merchandise-displayer`](./roles/merchandise-displayer/SKILL.md) |
+| ✅ | 27-1027.00 | Set and Exhibit Designers | [`set-exhibit-designer`](./roles/set-exhibit-designer/SKILL.md) |
 |  | 27-1029.00 | Designers, All Other |  |
 |  | 27-2011.00 | Actors |  |
-|  | 27-2012.00 | Producers and Directors |  |
+| ✅ | 27-2012.00 | Producers and Directors | [`producer-director`](./roles/producer-director/SKILL.md) |
 |  | 27-2012.03 | Media Programming Directors |  |
 |  | 27-2012.04 | Talent Directors |  |
 |  | 27-2012.05 | Media Technical Directors/Managers |  |
@@ -480,13 +480,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 27-3043.00 | Writers and Authors |  |
 |  | 27-3043.05 | Poets, Lyricists and Creative Writers |  |
 | ✅ | 27-3091.00 | Interpreters and Translators | [`translator-interpreter`](./roles/translator-interpreter/SKILL.md) |
-|  | 27-3092.00 | Court Reporters and Simultaneous Captioners |  |
+| ✅ | 27-3092.00 | Court Reporters and Simultaneous Captioners | [`court-reporter`](./roles/court-reporter/SKILL.md) |
 |  | 27-3099.00 | Media and Communication Workers, All Other |  |
 |  | 27-4011.00 | Audio and Video Technicians |  |
 |  | 27-4012.00 | Broadcast Technicians |  |
-|  | 27-4014.00 | Sound Engineering Technicians |  |
+| ✅ | 27-4014.00 | Sound Engineering Technicians | [`sound-engineering-technician`](./roles/sound-engineering-technician/SKILL.md) |
 |  | 27-4015.00 | Lighting Technicians |  |
-|  | 27-4021.00 | Photographers |  |
+| ✅ | 27-4021.00 | Photographers | [`photographer`](./roles/photographer/SKILL.md) |
 |  | 27-4031.00 | Camera Operators, Television, Video, and Film |  |
 | ✅ | 27-4032.00 | Film and Video Editors | [`film-video-editor`](./roles/film-video-editor/SKILL.md) |
 |  | 27-4099.00 | Media and Communication Equipment Workers, All Other |  |

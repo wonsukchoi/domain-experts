@@ -1,5 +1,5 @@
 {
-  "count": 232,
+  "count": 241,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -948,6 +948,24 @@
       ]
     },
     {
+      "slug": "court-reporter",
+      "description": "Use when a task needs the judgment of a Court Reporter \u2014 producing a realtime or CART feed during a deposition or trial, triaging a QC pass on a draft transcript before certification, drafting or applying an errata sheet under FRCP 30(e), reading back testimony from steno notes on a judge's request, or handling a sealed-record or in-camera confidentiality flag.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/court-reporter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "credit-analyst",
       "description": "Use when a task needs the judgment of a Credit Analyst \u2014 spreading financial statements and computing leverage/coverage ratios, writing a commercial credit memo, assigning or recommending an internal risk rating, structuring covenants on a term loan or revolver, or stress-testing a borrower's debt service under a downside case. Narrower than loan-officer (originates and manages the client relationship; the analyst underwrites the credit that officer brings in) and financial-risk-specialist (owns portfolio-level risk and concentration limits, not single-borrower underwriting).",
       "category": "finance",
@@ -1496,6 +1514,24 @@
       ]
     },
     {
+      "slug": "fashion-designer",
+      "description": "Use when a task needs the judgment of a Fashion Designer \u2014 costing a garment against a wholesale-margin target, calculating fabric yield/marker efficiency for a style, planning a seasonal collection's SKU and colorway count, setting fit-grading tolerances across a size run, or diagnosing why a sample doesn't match a tech pack.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fashion-designer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "film-video-editor",
       "description": "Use when a task needs the judgment of a Film and Video Editor \u2014 cutting a rough assembly down to a target runtime, diagnosing why a scene isn't playing, structuring a revision-round process with a director/client, or preparing a picture-locked timeline for sound/color finishing.",
       "category": "other",
@@ -1629,6 +1665,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/fitness-wellness-coordinator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "floral-designer",
+      "description": "Use when a task needs the judgment of a Floral Designer \u2014 costing an event or wedding floral proposal against a client budget, substituting for an out-of-season or unavailable stem, planning cold-chain/hydration timing so blooms peak on event day, or translating a vague client brief (\"romantic, garden-y, not too pink\") into a concrete flower/color/mechanics plan.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/floral-designer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2645,6 +2699,24 @@
       ]
     },
     {
+      "slug": "merchandise-displayer",
+      "description": "Use when a task needs the judgment of a Merchandise Displayer/Visual Merchandiser \u2014 planning a seasonal reset's labor-hours against a store-closure window, deciding whether a window-display concept is converting foot traffic better than the last one, auditing planogram compliance in-store, or sequencing a fixture layout for eye-level/reach-zone product placement.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1026.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/merchandise-displayer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "microbiologist",
       "description": "Use when a task needs the judgment of a Microbiologist \u2014 identifying an organism from a culture (biochemical panel, MALDI-TOF, or 16S rRNA sequencing), investigating a contamination source in a sterile or food-production environment, interpreting antimicrobial susceptibility testing against CLSI breakpoints, back-calculating a contamination timeline from growth kinetics, or judging whether an environmental-monitoring excursion is a genuine control-failure signal.",
       "category": "healthcare",
@@ -2951,6 +3023,24 @@
       ]
     },
     {
+      "slug": "photographer",
+      "description": "Use when a task needs the judgment of a professional photographer \u2014 planning exposure/lighting for a shoot, building a shot list with coverage for an irreplaceable event, structuring a usage-licensing fee for commercial images, diagnosing a lighting or exposure problem from EXIF/histogram data, or setting up a non-destructive post-processing workflow.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/photographer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "physician-clinical-reasoning",
       "description": "Use when a task needs the judgment and diagnostic reasoning process of a physician \u2014 working through a differential diagnosis, evaluating clinical evidence, or reasoning about diagnostic uncertainty. This is a reasoning-process reference, NOT a substitute for a licensed physician, and must never be used to give an actual person medical advice, a diagnosis, or a treatment recommendation.",
       "category": "healthcare",
@@ -3084,6 +3174,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/probation-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "producer-director",
+      "description": "Use when a task needs the judgment of a Producer/Director \u2014 building a shooting-day budget topsheet, sequencing a stripboard/one-line schedule, running a mid-shoot schedule-compression review, evaluating a greenlight/go-no-go financing decision, or making a casting/crew tradeoff under a locked budget.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/producer-director/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3463,6 +3571,24 @@
       "references": []
     },
     {
+      "slug": "set-exhibit-designer",
+      "description": "Use when a task needs the judgment of a Set and Exhibit Designer \u2014 space-planning a stage or exhibit floor under a fixed load-in/strike window, running a sightline check against raked or flat seating, allocating a fabrication budget across scenic or exhibit elements, choosing a fabrication material for a limited-run install versus a touring one, or reconciling a crew-hour schedule against a fixed install window.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1027.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/set-exhibit-designer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "social-community-service-manager",
       "description": "Use when a task needs the judgment of a Social and Community Service Manager \u2014 evaluating a new grant against mission fit and true cost, reconciling a braided funding budget across restricted and unrestricted sources, setting or defending caseload ratios against funder-required staffing, responding to a funder outcome-reporting requirement (e.g. HUD APR), or deciding how to close an indirect-cost recovery gap.",
       "category": "operations",
@@ -3549,6 +3675,24 @@
       ]
     },
     {
+      "slug": "sound-engineering-technician",
+      "description": "Use when a task needs the judgment of a sound engineering technician \u2014 diagnosing gain-staging/noise problems in a signal chain, hitting a platform's loudness delivery spec (LUFS/true-peak), choosing mic placement to avoid phase cancellation, or troubleshooting a mix that \"sounds off\" but measures clean on a peak meter.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4014.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sound-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "spa-manager",
       "description": "Use when a task needs the judgment of a Spa Manager \u2014 deciding whether a revenue shortfall is a demand problem or a scheduling/room-hour utilization problem, standardizing the service menu against treatment-room turnover, setting or enforcing a no-show/cancellation policy, classifying therapists as employees vs. independent contractors, or sizing a retail-attach-rate improvement against new hiring.",
       "category": "operations",
@@ -3578,6 +3722,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/special-education-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "special-effects-animator",
+      "description": "Use when a task needs the judgment of a Special Effects Artist/Animator \u2014 planning a shot through the VFX pipeline (previz through comp), diagnosing why a shot \"feels wrong,\" budgeting render-farm time against a delivery deadline, or structuring a revision-round process with a director.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1014.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-effects-animator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
