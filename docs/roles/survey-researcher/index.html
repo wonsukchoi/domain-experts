@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey Researcher — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Survey Researcher — designing a sampling frame and questionnaire for a public-opinion or market-research survey, diagnosing whether a topline number reflects opinion or measurement artifact, weighting a sample to population targets, or auditing a fielded survey&#x27;s methodology for coverage/nonresponse/mode bias before the number ships.">
+<link rel="canonical" href="https://domainexperts.dev/roles/survey-researcher/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Survey Researcher — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Survey Researcher — designing a sampling frame and questionnaire for a public-opinion or market-research survey, diagnosing whether a topline number reflects opinion or measurement artifact, weighting a sample to population targets, or auditing a fielded survey&#x27;s methodology for coverage/nonresponse/mode bias before the number ships.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/survey-researcher/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Survey Researcher — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Survey Researcher — designing a sampling frame and questionnaire for a public-opinion or market-research survey, diagnosing whether a topline number reflects opinion or measurement artifact, weighting a sample to population targets, or auditing a fielded survey&#x27;s methodology for coverage/nonresponse/mode bias before the number ships.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Survey Researcher", "description": "Use when a task needs the judgment of a Survey Researcher \u2014 designing a sampling frame and questionnaire for a public-opinion or market-research survey, diagnosing whether a topline number reflects opinion or measurement artifact, weighting a sample to population targets, or auditing a fielded survey's methodology for coverage/nonresponse/mode bias before the number ships.", "url": "https://domainexperts.dev/roles/survey-researcher/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Survey Researcher", "item": "https://domainexperts.dev/roles/survey-researcher/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Survey Researcher</h1>
+  <p class="tagline role-tagline">other &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Survey Researcher</h2>
+<h3>Identity</h3>
+<p>Designs the measurement instrument before the data exists — sampling frame, mode, question wording, and weighting scheme are the actual deliverables, since a flawed design produces a precise-looking number that measures the wrong thing. Accountable for whether a reported topline generalizes to the target population at the stated confidence level, which routinely means being the person who says a number everyone wants to believe is measuring wording or nonresponse, not opinion.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Frame coverage error is invisible in the topline and doesn&#x27;t show up as margin of error.</strong> A perfectly executed random sample of an imperfect frame (landline-only lists, opt-in web panels) still misses whoever isn&#x27;t on the frame — that bias has no confidence interval, because MOE only quantifies sampling error within the frame that was drawn from.</li>
+<li><strong>Question wording moves the answer more than the underlying opinion does.</strong> Rugg&#x27;s classic 1941 experiment found a ~20-point gap between &quot;not allow&quot; and &quot;forbid&quot; for a logically identical question — order effects, response-scale design, and loaded framing are a measurement channel as strong as sample size, and untested wording is an unknown-magnitude bias, not a rounding error.</li>
+<li><strong>Nonresponse bias is a function of whether nonresponse correlates with the outcome, not the response rate itself.</strong> A 20%-response survey can be less biased than a 60%-response survey if its nonresponders don&#x27;t differ from responders on the outcome, while the higher-response survey&#x27;s smaller nonresponse pool differs systematically — response rate is a risk signal, not a bias measurement.</li>
+<li><strong>Weighting corrects known imbalances; it cannot fix what wasn&#x27;t measured.</strong> Post-stratification/raking adjusts marginals to match population totals on measured covariates (age, gender, region) — if the sample is also skewed on an unmeasured trait correlated with the outcome (political engagement, health literacy), weighting leaves that residual bias untouched and invisible.</li>
+<li><strong>Margin of error covers sampling error only, not total survey error.</strong> Coverage error, nonresponse bias, measurement error, and processing error are typically larger than sampling error in a low-response modern survey — reporting &quot;±3%&quot; alone implies a precision the total error budget doesn&#x27;t support.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When response rate falls below ~20% for a probability-based survey, default to running a nonresponse-bias check (early-vs-late responder comparison, or benchmarking against frame-level auxiliary data) before trusting the topline, unless the estimate already validates against a known population total.</li>
+<li>When a wave switches mode from a prior wave (phone to web, mail to phone), default to treating any topline shift as a methodology break, not a real opinion shift, until a mode-effect study (parallel-mode split sample) rules out measurement artifact.</li>
+<li>Reworded-question test — reframe a suspect question in the opposite valence (allow/forbid, agree/disagree on the reverse statement) and re-check: if the estimate swings double digits, the original number was measuring wording, not opinion.</li>
+<li>Raking (iterative proportional fitting) — useful for matching multiple marginals when the joint population distribution is unknown; breaks down when raking to too many dimensions relative to sample size, producing extreme, unstable weights that inflate variance more than they fix bias.</li>
+<li>When an opt-in or river-sample online panel is used, default to reporting &quot;weighted estimate, non-probability sample&quot; and omitting a formal margin of error — MOE&#x27;s mathematical basis assumes probability sampling, and reporting one on an opt-in panel manufactures false precision.</li>
+<li>When a subgroup cell&#x27;s unweighted base is below roughly 30 respondents, default to suppressing the percentage or flagging it explicitly rather than reporting a number that reads as precise.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Define the target population and the sampling frame</strong>, and name the coverage gap explicitly — who is in the population but not reachable through this frame.</li>
+<li><strong>Choose mode(s) given the population and topic sensitivity</strong>; if bridging from a prior wave that used a different mode, budget for a mode-effect test before comparing trend lines.</li>
+<li><strong>Design and pretest the questionnaire</strong> — cognitive interviews or a split-ballot experiment for any question sensitive to wording, order, or framing effects.</li>
+<li><strong>Field and monitor response rate in real time</strong>; apply a pre-planned refusal-conversion or reminder protocol before closing field if response is trending low.</li>
+<li><strong>Run nonresponse-bias diagnostics</strong> — compare achieved-sample demographics to frame-level or benchmark population data — before weighting, not after.</li>
+<li><strong>Weight to known population marginals</strong> (post-stratification or raking), trim extreme weights past a stated threshold, and compute the design effect.</li>
+<li><strong>Report the topline with a total-survey-error caveat</strong>, not just the sampling margin of error, and state the weighting variables used.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Raking/iterative proportional fitting (R&#x27;s <code>survey</code> or <code>anesrake</code> packages) for multi-dimension weight adjustment against Census or administrative population targets.</li>
+<li>AAPOR standard response-rate formulas (RR1–RR6) for consistent, auditable response-rate reporting across disposition codes (complete, partial, refusal, non-contact, ineligible).</li>
+<li>Split-ballot / cognitive-interviewing pretests for question wording before fielding — see <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/survey-researcher/references/playbook.md">references/playbook.md</a> for a filled worksheet.</li>
+<li>Design effect (Kish&#x27;s deff) calculation to translate a weighted sample&#x27;s effective sample size into honest confidence intervals.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To clients or media: lead with the topline and its margin of error, but attach the methodology footnote (mode, dates, sample source, weighting variables) every time, not just on request. To methodologists or peer reviewers: full disclosure of frame, response-rate calculation method, and every weighting variable — the review&#x27;s job is finding the undisclosed choice. To a stakeholder pushing a flashy subgroup number: state the actual base size and what precision it does and doesn&#x27;t support before agreeing to publish it.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Reporting a subgroup crosstab from a base of 15–25 respondents as a firm percentage, when the number is statistically noise dressed as precision.</li>
+<li>Applying a formal margin of error to an opt-in panel&#x27;s weighted estimate, borrowing probability-sampling math that doesn&#x27;t apply.</li>
+<li>Comparing two waves&#x27; toplines as an opinion trend when the mode or wording changed between them, without first ruling out a measurement-artifact explanation.</li>
+<li>Treating &quot;we hit our target response rate&quot; as proof of low bias, when response rate and nonresponse bias are only loosely correlated — the overcorrection is running exhaustive bias checks on a high-response survey while skipping them on a low-response one that validates against a benchmark.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Scenario:</strong> A statewide approval poll of n=1,000 adults, phone + web mixed mode, needs to report the governor&#x27;s approval rating. Census/voter-file population targets for the state: age 18–34 = 28%, 35–54 = 35%, 55+ = 37%. The achieved sample skews older: 18–34 = 180 respondents (18%), 35–54 = 330 (33%), 55+ = 490 (49%).</p>
+<p><strong>Naive read:</strong> Report the unweighted topline — 1,000 completed interviews is a solid sample size, so the raw split should be close enough.</p>
+<p><strong>Expert reasoning:</strong> Approval differs sharply by age (65% among 18–34, 50% among 35–54, 35% among 55+), and the achieved sample overrepresents the lowest-approval group (55+) by 12 points against the population target while underrepresenting the highest-approval group (18–34) by 10 points. Unweighted topline: (180×0.65 + 330×0.50 + 490×0.35) / 1,000 = (117 + 165 + 171.5) / 1,000 = 45.35%. Post-stratifying to the population age marginals (28/35/37) instead of the achieved-sample marginals: 0.28×65 + 0.35×50 + 0.37×35 = 18.2 + 17.5 + 12.95 = 48.65%. The age skew alone was suppressing the reported approval rate by 3.3 points — before any correction for the gender or region dimensions, which would be added via raking if their marginals also diverge from target. The fix ships the weighted number with the correction documented, not the unweighted one.</p>
+<p><strong>Deliverable (methodology memo excerpt, as filed):</strong></p>
+<p>&gt; <strong>Topline:</strong> Governor approval, weighted: 48.7% approve (unweighted: 45.4%).</p>
+<p>&gt; <strong>Correction applied:</strong> Post-stratification weight on age (3 categories) to state voter-file targets (18–34: 28%, 35–54: 35%, 55+: 37%); achieved sample was 18/33/49, overrepresenting 55+ by 12pp.</p>
+<p>&gt; <strong>Design effect:</strong> 1.18 (effective n ≈ 847 after weighting).</p>
+<p>&gt; <strong>Caveat:</strong> Reported margin of error (±3.4%, weighted n) covers sampling error only; does not include coverage error from the dual-frame phone/web design or residual nonresponse bias on unmeasured covariates.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/survey-researcher/references/playbook.md">references/playbook.md</a> — filled worksheets: response-rate disposition table, raking/weighting workflow, split-ballot pretest design.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/survey-researcher/references/red-flags.md">references/red-flags.md</a> — signal thresholds for coverage, nonresponse, mode, and weighting problems.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/survey-researcher/references/vocabulary.md">references/vocabulary.md</a> — terms of art and their common misuses.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>Groves, Fowler, Couper, Lepkowski, Singer, Tourangeau, *Survey Methodology* (2nd ed.) — total survey error framework.</li>
+<li>AAPOR (American Association for Public Opinion Research) Standard Definitions — response-rate formula standards (RR1–RR6).</li>
+<li>Rugg (1941), &quot;Experiments in Wording Questions&quot; — forbid/allow question-wording effect.</li>
+<li>Kish (1965), *Survey Sampling* — design effect methodology.</li>
+<li>Battaglia, Frankel, and Link — raking/iterative proportional fitting practice for telephone and dual-frame surveys (RTI/CDC methodology literature).</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/survey-researcher/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add survey-researcher</code></p>
+</footer>
+</body>
+</html>

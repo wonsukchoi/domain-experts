@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 12:41:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:48:00 +0000</lastBuildDate>
+  <item>
+    <title>Atmospheric Scientist</title>
+    <link>https://domainexperts.dev/roles/atmospheric-scientist/</link>
+    <guid>https://domainexperts.dev/roles/atmospheric-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of an atmospheric scientist/operational meteorologist — interpreting ensemble forecast guidance, deciding whether conditions cross a severe-weather warning threshold, calibrating a raw model probability against verification climatology, or writing a forecast discussion or warning product under time pressure.</description>
+  </item>
+  <item>
+    <title>Conservation Scientist</title>
+    <link>https://domainexperts.dev/roles/conservation-scientist/</link>
+    <guid>https://domainexperts.dev/roles/conservation-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Conservation Scientist — writing or reviewing a rangeland/forest conservation plan, calculating stocking rate or carrying capacity against a proposed grazing or timber plan, scoping a prescribed-fire prescription, resolving a multi-use land-allocation conflict on public or private land, or assessing range/forest condition trend from monitoring data.</description>
+  </item>
+  <item>
+    <title>Geneticist</title>
+    <link>https://domainexperts.dev/roles/geneticist/</link>
+    <guid>https://domainexperts.dev/roles/geneticist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a geneticist — classifying a genetic variant&#x27;s pathogenicity (ACMG/AMP criteria), interpreting a family pedigree for inheritance pattern and recurrence risk, evaluating whether a genotype plausibly explains a phenotype, or designing a gene-function study.</description>
+  </item>
+  <item>
+    <title>Hydrologist</title>
+    <link>https://domainexperts.dev/roles/hydrologist/</link>
+    <guid>https://domainexperts.dev/roles/hydrologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a hydrologist — running a flood-frequency analysis to set a design discharge, building a watershed water balance, modeling groundwater flow or drawdown from a pumping test, evaluating a water-rights allocation question, or reviewing a stormwater/streamflow dataset for a permit or engineering design input.</description>
+  </item>
+  <item>
+    <title>Medical Scientist</title>
+    <link>https://domainexperts.dev/roles/medical-scientist/</link>
+    <guid>https://domainexperts.dev/roles/medical-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical Scientist doing preclinical/translational research — designing an in vitro or in vivo experiment, fitting and interpreting a dose-response curve, judging whether an efficacy signal survives replication and assay-quality scrutiny, deciding a go/no-go on program progression, or scoping a GLP-vs-exploratory study. Distinct from a clinical-data-manager (owns trial data integrity, not research design) and a biostatistician (owns statistical methodology for the analysis this role&#x27;s data feeds into, not the biological research question itself).</description>
+  </item>
+  <item>
+    <title>Microbiologist</title>
+    <link>https://domainexperts.dev/roles/microbiologist/</link>
+    <guid>https://domainexperts.dev/roles/microbiologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Microbiologist — identifying an organism from a culture (biochemical panel, MALDI-TOF, or 16S rRNA sequencing), investigating a contamination source in a sterile or food-production environment, interpreting antimicrobial susceptibility testing against CLSI breakpoints, back-calculating a contamination timeline from growth kinetics, or judging whether an environmental-monitoring excursion is a genuine control-failure signal.</description>
+  </item>
+  <item>
+    <title>School Psychologist</title>
+    <link>https://domainexperts.dev/roles/school-psychologist/</link>
+    <guid>https://domainexperts.dev/roles/school-psychologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a school psychologist — determining special-education eligibility from RTI/discrepancy data, designing or interpreting a Functional Behavior Assessment, distinguishing a disability-driven eligibility question from an instructional or exclusionary-factor explanation, planning a school crisis response, or writing an eligibility-determination report for a multidisciplinary team.</description>
+  </item>
+  <item>
+    <title>Sociologist</title>
+    <link>https://domainexperts.dev/roles/sociologist/</link>
+    <guid>https://domainexperts.dev/roles/sociologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Sociologist — designing a mixed-methods study of a social-structure or institutional-change question, building and validating a qualitative codebook, checking whether a group-level pattern supports the individual-level claim being made about it, or reading out a stratification/mobility finding for a policy audience.</description>
+  </item>
+  <item>
+    <title>Survey Researcher</title>
+    <link>https://domainexperts.dev/roles/survey-researcher/</link>
+    <guid>https://domainexperts.dev/roles/survey-researcher/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:47:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Survey Researcher — designing a sampling frame and questionnaire for a public-opinion or market-research survey, diagnosing whether a topline number reflects opinion or measurement artifact, weighting a sample to population targets, or auditing a fielded survey&#x27;s methodology for coverage/nonresponse/mode bias before the number ships.</description>
+  </item>
   <item>
     <title>Adult Esl Instructor</title>
     <link>https://domainexperts.dev/roles/adult-esl-instructor/</link>
