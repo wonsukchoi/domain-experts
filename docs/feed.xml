@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 12:57:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:03:59 +0000</lastBuildDate>
+  <item>
+    <title>Art Director</title>
+    <link>https://domainexperts.dev/roles/art-director/</link>
+    <guid>https://domainexperts.dev/roles/art-director/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Art Director — commissioning and choosing between divergent creative concepts for a campaign, triaging client feedback into concept vs. execution notes, pressure-testing a concept against a production budget/timeline before it&#x27;s locked in, or managing a shoot/production budget across a multi-deliverable campaign.</description>
+  </item>
+  <item>
+    <title>Commercial Industrial Designer</title>
+    <link>https://domainexperts.dev/roles/commercial-industrial-designer/</link>
+    <guid>https://domainexperts.dev/roles/commercial-industrial-designer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Commercial/Industrial Designer — designing the form, ergonomics, and manufacturability of a physical product, choosing between manufacturing processes at a given volume, selecting materials/finishes under a cost or durability constraint, or planning a prototyping sequence before tooling commitment.</description>
+  </item>
+  <item>
+    <title>Editor</title>
+    <link>https://domainexperts.dev/roles/editor/</link>
+    <guid>https://domainexperts.dev/roles/editor/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a manuscript or content editor — diagnosing structural problems in a draft, writing a developmental edit letter, running a line-edit or copyedit pass, deciding what to cut to hit a word-count target, or triaging conflicting author feedback.</description>
+  </item>
+  <item>
+    <title>Film Video Editor</title>
+    <link>https://domainexperts.dev/roles/film-video-editor/</link>
+    <guid>https://domainexperts.dev/roles/film-video-editor/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Film and Video Editor — cutting a rough assembly down to a target runtime, diagnosing why a scene isn&#x27;t playing, structuring a revision-round process with a director/client, or preparing a picture-locked timeline for sound/color finishing.</description>
+  </item>
+  <item>
+    <title>Interior Designer</title>
+    <link>https://domainexperts.dev/roles/interior-designer/</link>
+    <guid>https://domainexperts.dev/roles/interior-designer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Interior Designer — space-planning a commercial or residential layout against code-minimum clearances, selecting and specifying finishes/furniture within a budget, designing a lighting plan against footcandle targets, checking a layout for ADA accessible-route/clear-floor-space compliance, or reconciling a finish-schedule budget against a client&#x27;s allowance.</description>
+  </item>
+  <item>
+    <title>News Journalist</title>
+    <link>https://domainexperts.dev/roles/news-journalist/</link>
+    <guid>https://domainexperts.dev/roles/news-journalist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a News Journalist — deciding whether a claim has enough independent corroboration to publish, handling an anonymous or off-the-record source without burning credibility, structuring a breaking-news story under deadline, or triaging which parts of a developing story are confirmed versus still rumor.</description>
+  </item>
+  <item>
+    <title>Public Relations Specialist</title>
+    <link>https://domainexperts.dev/roles/public-relations-specialist/</link>
+    <guid>https://domainexperts.dev/roles/public-relations-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Public Relations Specialist — writing and targeting a media pitch, building a tiered reporter list, drafting a press release, testing a launch message before it goes wide, or drafting a fast holding statement while facts are still being confirmed.</description>
+  </item>
+  <item>
+    <title>Technical Writer</title>
+    <link>https://domainexperts.dev/roles/technical-writer/</link>
+    <guid>https://domainexperts.dev/roles/technical-writer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Technical Writer — architecting API/developer documentation, auditing documentation coverage against support-ticket volume, classifying content by Diátaxis type (reference/how-to/tutorial/explanation), designing a docs-as-code workflow, or diagnosing why users can&#x27;t self-serve from existing docs.</description>
+  </item>
+  <item>
+    <title>Translator Interpreter</title>
+    <link>https://domainexperts.dev/roles/translator-interpreter/</link>
+    <guid>https://domainexperts.dev/roles/translator-interpreter/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:03:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a translator or interpreter — translating a technical/legal/marketing document, deciding between light and full machine-translation post-editing, choosing simultaneous vs consecutive interpretation for an assignment, resolving an ambiguous or untranslatable source term, or preparing a certified translation for a legal/immigration/court requirement.</description>
+  </item>
   <item>
     <title>Animal Scientist</title>
     <link>https://domainexperts.dev/roles/animal-scientist/</link>
