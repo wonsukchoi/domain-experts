@@ -1,0 +1,45 @@
+{
+  "role": "facilities-manager",
+  "scenarios": [
+    {
+      "id": "facm-1",
+      "task": "Budget is tight this year, so I'm planning to skip our scheduled preventive maintenance on the non-critical building systems and just handle things reactively if they break. It seems like an easy place to cut costs without a real downside since the systems are still running fine right now.",
+      "criteria": [
+        "Flags deferring preventive maintenance as a budget cut as a real problem, naming the deferring-maintenance-under-budget-pressure failure mode",
+        "States that deferred maintenance compounds — a small, currently cheap issue tends to become a larger, more expensive failure later",
+        "Recommends evaluating which specific systems can tolerate deferral versus which will predictably cost more later, rather than a blanket cut",
+        "Doesn't treat 'still running fine now' as evidence that deferral is safe"
+      ]
+    },
+    {
+      "id": "facm-2",
+      "task": "We found a fire egress door that's been propped open for convenience and a fire extinguisher past its inspection date. Budget for facilities fixes this quarter is already fully allocated to other projects, so I'm planning to queue these up for next quarter's budget cycle along with our other pending requests.",
+      "criteria": [
+        "Flags treating these life-safety/code-compliance issues as competing for budget with other discretionary requests, naming this as the life-safety-issue-as-budget-negotiable failure mode",
+        "States that life-safety issues are non-negotiable and get resourced first regardless of the current budget cycle or other allocated spend",
+        "Recommends addressing the propped door and expired extinguisher immediately, not queuing them into the normal budget process",
+        "Distinguishes this category explicitly from other cosmetic/convenience facilities requests that can wait for the next cycle"
+      ]
+    },
+    {
+      "id": "facm-3",
+      "task": "For our upcoming electrical panel upgrade, I'm going with the lowest-bid contractor since the quote is significantly cheaper than the other bids and they said they can do the work. I didn't dig much further into their licensing or track record since price was the deciding factor and we need this done on budget.",
+      "criteria": [
+        "Flags selecting on price alone for safety-critical electrical work as the cut-rate-contracting-on-safety-critical-work failure mode",
+        "States that this work category carries real safety and liability exposure that doesn't show up until the one time it matters",
+        "Recommends elevated diligence specifically for this trade — licensing verification, insurance, safety record, references — beyond standard vendor price comparison",
+        "Frames price as a secondary factor for safety-critical trades, not the primary deciding one"
+      ]
+    },
+    {
+      "id": "facm-4",
+      "task": "Our office space allocation hasn't been reviewed since we moved in five years ago. Headcount and team structure have changed a lot since then, but the original floor plan and department assignments are still what we're using — nobody's really looked at whether it still matches how the space is actually used.",
+      "criteria": [
+        "Flags the lack of any utilization review over five years as the space-allocation-on-autopilot failure mode",
+        "States that space allocated for a past headcount or function often persists well past its original justification, representing a real, ongoing cost even though it doesn't show up as an obvious line-item waste",
+        "Recommends conducting a space utilization audit against current actual need rather than the original allocation decision",
+        "Frames this as a periodic review that should happen regularly, not a one-time fix"
+      ]
+    }
+  ]
+}

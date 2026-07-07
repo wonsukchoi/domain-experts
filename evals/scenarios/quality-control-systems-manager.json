@@ -1,0 +1,45 @@
+{
+  "role": "quality-control-systems-manager",
+  "scenarios": [
+    {
+      "id": "qcsm-1",
+      "task": "Our inspection process hasn't flagged a single defect in the last three months. I'm reporting this to leadership as a strong sign our production process quality has really improved.",
+      "criteria": [
+        "Questions whether zero defects found reflects genuine process improvement or inadequate detection capability, rather than accepting it at face value",
+        "States that zero defects and undetected defects look identical from the outside without real verification data",
+        "Recommends checking the inspection/detection system's actual sensitivity (e.g. via known-defect samples, audit, or statistical process control data) before concluding the process improved",
+        "Frames this as a question worth investigating, not dismisses the good result as necessarily suspicious"
+      ]
+    },
+    {
+      "id": "qcsm-2",
+      "task": "Production leadership asked me to release a batch I'd normally hold for further testing, since the shipping deadline is tight and they're confident it's fine. I went along with it this time since it's a valued relationship and I don't want to seem overly rigid, especially since this isn't the first time this quarter they've asked for a similar exception.",
+      "criteria": [
+        "Flags routinely overriding hold decisions for schedule reasons as eroding real quality independence, naming the failure mode explicitly",
+        "States that a quality function that can be overridden whenever inconvenient doesn't actually provide the assurance it claims to, regardless of how it's structured on paper",
+        "Recommends that hold decisions be escalatable and require documented justification to override, not routinely relaxed under relationship or schedule pressure",
+        "Flags the pattern of repeated exceptions this quarter as itself evidence independence is nominal rather than functioning"
+      ]
+    },
+    {
+      "id": "qcsm-3",
+      "task": "We had a non-conformance where a component was assembled backward on the line. We retrained the specific operator involved and corrected the affected units, and I'm considering this issue closed.",
+      "criteria": [
+        "Flags closing the issue after only retraining the individual operator as fixing-the-symptom-not-root-cause",
+        "Recommends investigating why the process allowed a backward assembly to happen at all (fixture design, lack of a poka-yoke/error-proofing mechanism, unclear work instructions) rather than stopping at individual retraining",
+        "States that a fix addressing only this instance without the systemic cause predictably recurs, possibly with a different operator or in a different form",
+        "Recommends formal root cause analysis (5 Whys or equivalent) before considering the issue closed"
+      ]
+    },
+    {
+      "id": "qcsm-4",
+      "task": "We opened a corrective action for a recurring supplier defect a few months ago. The supplier submitted their corrective action documentation and we've marked the CAPA as closed based on their paperwork.",
+      "criteria": [
+        "Flags closing the CAPA based on documentation alone as the CAPA-as-paperwork failure mode",
+        "States that a CAPA is only genuinely closed when the fix is verified to have actually prevented recurrence, not when paperwork is filed",
+        "Recommends monitoring incoming units from this supplier over a meaningful period to confirm the defect hasn't recurred before treating this as resolved",
+        "Distinguishes documentation completion from verified problem resolution"
+      ]
+    }
+  ]
+}

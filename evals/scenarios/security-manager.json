@@ -1,0 +1,45 @@
+{
+  "role": "security-manager",
+  "scenarios": [
+    {
+      "id": "secm-1",
+      "task": "We installed a highly visible new turnstile and a large 'Protected by 24/7 Security' sign at the main entrance. Employees and visitors feel much more reassured, and it's become a bit of a talking point for how seriously we take security. I think this was a strong investment.",
+      "criteria": [
+        "Questions whether the visible control actually raises attacker cost or improves detection, rather than accepting reassurance as evidence of effectiveness",
+        "Names this explicitly as a security theater risk if the control doesn't meaningfully contribute to deterrence, detection, delay, or response",
+        "Recommends evaluating the specific control against the four functions (deterrence, detection, delay, response) instead of visibility/reassurance alone",
+        "States that a control that looks strong but doesn't function well against the actual threat model can create false confidence"
+      ]
+    },
+    {
+      "id": "secm-2",
+      "task": "Our data center's security relies on one very strong control: a single high-security mantrap door with biometric access at the main entrance. It's an excellent, expensive system and I'm confident it makes the facility secure.",
+      "criteria": [
+        "Flags relying on one strong control as single-layer reliance, naming the failure mode explicitly regardless of how good that one control is",
+        "States that a determined, resourced adversary will eventually defeat any specific control, and one strong layer is still a single point of failure",
+        "Recommends layered, redundant controls (perimeter, monitoring, response capability) rather than concentrating protection in one mechanism",
+        "Doesn't dismiss the mantrap's value — the issue is the absence of independent additional layers, not that this control is bad"
+      ]
+    },
+    {
+      "id": "secm-3",
+      "task": "We've invested heavily in perimeter security — cameras, badge access, fencing — and I feel good about our coverage. We don't currently have a process for periodically reviewing who still has legitimate access or watching for concerning behavior from existing employees, since our controls are focused on keeping unauthorized people out.",
+      "criteria": [
+        "Flags the absence of insider-threat measures as a real gap, naming the ignoring-the-insider-threat failure mode",
+        "States that perimeter-focused security systematically underweights risk from people who already have legitimate access",
+        "Recommends periodic access-rights review and behavioral awareness as a distinct, necessary category perimeter controls don't address",
+        "Notes this isn't an argument against the perimeter investment, but that it addresses a different threat category than insider risk"
+      ]
+    },
+    {
+      "id": "secm-4",
+      "task": "We have a detailed, well-written incident response plan for security incidents — clear roles, escalation paths, contact lists. It's been sitting finalized for over a year, and we haven't run a drill or tabletop exercise against it since it was written, since the document itself is thorough and we're confident it covers what's needed.",
+      "criteria": [
+        "Flags the lack of any drill or tabletop exercise as a real gap, naming the untested-response-plans failure mode regardless of the document's thoroughness",
+        "States that a plan's actual effectiveness under real time pressure is unknown until it's been tested",
+        "Recommends running a drill or tabletop exercise to surface gaps now, rather than discovering them during an actual incident",
+        "Distinguishes a well-written plan on paper from a proven, rehearsed one"
+      ]
+    }
+  ]
+}

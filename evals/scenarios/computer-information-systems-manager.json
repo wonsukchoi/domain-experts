@@ -1,0 +1,45 @@
+{
+  "role": "computer-information-systems-manager",
+  "scenarios": [
+    {
+      "id": "cism-1",
+      "task": "I want to migrate our infrastructure to a newer, more technically elegant architecture using a trendy platform our engineers are excited about, since it's more modern than what we're on now and the team would enjoy working with it more.",
+      "criteria": [
+        "Flags choosing the migration primarily because it's technically interesting/exciting as the technology-first-decision-making failure mode",
+        "Recommends starting from what business capability or need actually requires this change, not from engineer enthusiasm for the platform",
+        "States that a technically elegant system that doesn't map to an actual business need is a failure regardless of engineering quality",
+        "Asks what specific business problem the current architecture fails to solve before evaluating the new platform"
+      ]
+    },
+    {
+      "id": "cism-2",
+      "task": "We have a growing backlog of known deferred system upgrades and unaddressed technical issues, but every planning cycle, new feature requests from the business win the capacity allocation since they have clearer, more immediate business value. The backlog just keeps getting pushed to 'next quarter.'",
+      "criteria": [
+        "Flags permanently deprioritizing technical debt against new feature work as the ignoring-technical-debt failure mode",
+        "States that technical debt compounds like financial debt, and continuing to defer it guarantees a forced, more expensive reckoning later (an outage, a failed audit, an unsupported system)",
+        "Recommends explicitly quantifying the debt backlog and allocating a consistent portion of capacity to paying it down on a regular cadence",
+        "Rejects treating debt paydown as something that only deserves attention after it causes a visible failure"
+      ]
+    },
+    {
+      "id": "cism-3",
+      "task": "Our security team flagged a known vulnerability in one of our systems a few months ago. It hasn't been fixed yet — no one explicitly decided to accept the risk, it's just been sitting in the backlog behind other priorities without anyone with real authority actually weighing in on whether it's an acceptable risk to leave open.",
+      "criteria": [
+        "Flags the vulnerability sitting unaddressed by default inaction as a distinct failure mode from a deliberate risk-acceptance decision",
+        "States that security risk decisions should be made explicitly, in business-impact terms (likelihood times cost), by someone with the authority to accept that risk",
+        "Recommends surfacing this specific vulnerability for an explicit, documented risk-acceptance or remediation-funding decision rather than letting it continue sitting in the backlog undecided",
+        "Distinguishes a knowingly-accepted risk from one that's unaddressed purely because no one made an active call"
+      ]
+    },
+    {
+      "id": "cism-4",
+      "task": "We're building a custom internal tool for expense reporting and approval workflows from scratch, since our engineering team has the skill to build exactly what we want rather than adapting to a standard commercial expense-management tool's constraints.",
+      "criteria": [
+        "Questions whether expense reporting/approval is genuinely core to competitive differentiation, naming the building-instead-of-buying-for-undifferentiated-capability failure mode",
+        "States that custom-building commodity functionality consumes engineering capacity that could go toward genuinely differentiating work",
+        "Recommends evaluating standard/commodity tools for this undifferentiated capability before committing to a custom build",
+        "Frames the build-vs-buy decision around what's actually core to the business, not around whether the team has the skill to build it"
+      ]
+    }
+  ]
+}

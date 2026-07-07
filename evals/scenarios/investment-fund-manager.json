@@ -1,0 +1,45 @@
+{
+  "role": "investment-fund-manager",
+  "scenarios": [
+    {
+      "id": "ifm-1",
+      "task": "I have an unusually high-conviction thesis on one position — I'm more confident in this one than almost anything else in the portfolio. I'm planning to size it well beyond our normal concentration limits since my conviction level justifies the extra risk.",
+      "criteria": [
+        "Flags sizing beyond stated concentration limits based on conviction alone as the overconcentration-chasing-a-compelling-idea failure mode",
+        "States that being wrong on an oversized position is catastrophic in a way being wrong on a properly-sized one isn't, regardless of how high conviction feels",
+        "Recommends sizing the position within existing portfolio risk/concentration limits rather than overriding them case by case for a compelling thesis",
+        "Doesn't reject having high conviction — the issue is letting conviction override the sizing discipline"
+      ]
+    },
+    {
+      "id": "ifm-2",
+      "task": "Our fund's stated mandate is a conservative, investment-grade bond fund. I found a genuinely attractive opportunity in a slightly riskier instrument that's outside the fund's stated scope, but it's a small position and I think it's a smart move that investors would be happy about given the return potential.",
+      "criteria": [
+        "Flags taking the position without investor disclosure/approval as mandate drift, regardless of the position being small or the opportunity being attractive",
+        "States that a mandate deviation breaks the implicit risk agreement made with investors, even if it's likely to work out well",
+        "Recommends either staying within the stated mandate or explicitly disclosing/getting approval for the deviation rather than quietly executing it",
+        "Notes that 'investors would be happy about the return' doesn't substitute for the fact that their stated risk tolerance was overridden without consent"
+      ]
+    },
+    {
+      "id": "ifm-3",
+      "task": "Our fund has beaten its benchmark on a gross-performance basis for the last three years, which is the number I've been reporting to investors as evidence of strong performance. Our fee structure is somewhat higher than average for this fund category.",
+      "criteria": [
+        "Flags reporting gross performance without net-of-fee context as the ignoring-fee-drag failure mode",
+        "States that investors actually experience net-of-fee returns, and a fund can beat its benchmark gross while underperforming it net of fees",
+        "Recommends evaluating and reporting net-of-fee performance against the benchmark, not gross performance alone",
+        "States that fee drag compounds like a persistent negative return and should be evaluated with the same rigor as any other performance drag"
+      ]
+    },
+    {
+      "id": "ifm-4",
+      "task": "Our portfolio holds assets across several different sectors and asset classes that have shown low correlation with each other in normal market conditions over the past several years, so I'm confident the portfolio is well-diversified and protected against a serious downturn.",
+      "criteria": [
+        "Questions whether calm-market correlation data is sufficient evidence of real diversification, naming the underestimating-correlation-in-stress-scenarios failure mode",
+        "States that assets that look individually diversified can move together under crisis/stress conditions even if they showed low correlation in normal markets",
+        "Recommends stress-testing the portfolio against crisis-period correlation behavior, not just calm-market historical correlation",
+        "Frames this as a real risk to check, not assumes the current diversification is necessarily inadequate"
+      ]
+    }
+  ]
+}

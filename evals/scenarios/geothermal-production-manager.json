@@ -1,0 +1,45 @@
+{
+  "role": "geothermal-production-manager",
+  "scenarios": [
+    {
+      "id": "gpm-1",
+      "task": "One well in our field is underperforming relative to its neighbors, so I want to increase its extraction rate to boost its individual output and bring it up to par with the others in the field.",
+      "criteria": [
+        "Questions whether increasing this well's extraction rate in isolation accounts for its effect on shared reservoir pressure and neighboring wells",
+        "Flags well-by-well optimization ignoring reservoir-wide effects as the specific failure mode",
+        "Recommends evaluating the change against the reservoir's overall pressure and long-term decline trajectory, not the single well's output alone",
+        "Notes that a well 'underperforming' relative to neighbors isn't necessarily a problem to fix by pushing it harder — it could reflect its actual position in the shared reservoir"
+      ]
+    },
+    {
+      "id": "gpm-2",
+      "task": "Our reinjection setup was designed and approved years ago to satisfy the original permitting requirements. We haven't revisited the injection location, rate, or temperature since then, since it's compliant and passed its original review.",
+      "criteria": [
+        "Flags treating reinjection as a set-once compliance item as the reinjection-treated-as-compliance-afterthought failure mode",
+        "States that reinjection location, rate, and temperature materially affect reservoir pressure maintenance and the risk of thermal breakthrough or induced seismicity, deserving ongoing active management",
+        "Recommends actively reviewing reinjection strategy against current reservoir management goals, not just original permitting compliance",
+        "Distinguishes regulatory compliance from active reservoir-management value — passing the original review doesn't mean the current setup is still optimal"
+      ]
+    },
+    {
+      "id": "gpm-3",
+      "task": "We're planning a significant new well drilling investment in a field we've only had about a year of production data from. Our reservoir model predicts strong long-term output, so I'm recommending we commit to the full capital investment based on that projection.",
+      "criteria": [
+        "Flags committing significant capital based on a reservoir model with limited production history as the overconfident-capital-commitment-on-uncertain-models failure mode",
+        "States that model uncertainty should scale capital caution — a newer field with limited historical data warrants more conservative capital commitment than a long-producing, well-characterized one",
+        "Recommends either a smaller initial commitment, more data-gathering before the full investment, or explicitly accounting for the model uncertainty in the decision rather than treating the projection as reliable",
+        "Frames the downside risk explicitly: a wrong model bet risks a large stranded-capital loss"
+      ]
+    },
+    {
+      "id": "gpm-4",
+      "task": "We got seismic monitoring approval for our reinjection operations when we started this field years ago, and haven't had major issues, so seismic monitoring has become a fairly routine, low-attention part of our operations at this point.",
+      "criteria": [
+        "Flags treating seismic monitoring as routine/low-attention as the underestimating-induced-seismicity-risk failure mode",
+        "States that induced seismicity risk from reinjection is an ongoing operational and community-relations responsibility, not a one-time permitting checkbox",
+        "Recommends maintaining active seismic monitoring with a defined, responsive protocol tied to observed activity levels, not treating the absence of past issues as reason to deprioritize it",
+        "Notes this is a real safety and community-relations stake, not just a regulatory formality"
+      ]
+    }
+  ]
+}

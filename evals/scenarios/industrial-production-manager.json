@@ -1,0 +1,45 @@
+{
+  "role": "industrial-production-manager",
+  "scenarios": [
+    {
+      "id": "ipm-1",
+      "task": "We're behind on a critical shipment deadline, and running the line at the increased speed we're considering would mean disabling one of the secondary safety interlocks that slows changeover slightly. It's a small, well-understood risk increase and would help us hit the deadline. I'm inclined to approve it just for this one shipment.",
+      "criteria": [
+        "Rejects trading safety margin for throughput even framed as a small, one-time, well-understood risk increase",
+        "States that safety is categorically different from other production tradeoffs (cost, speed) because the potential consequence is irreversible, and no output gain offsets that",
+        "Recommends finding a way to hit the deadline without compromising the safety interlock, or accepting the schedule slip if there isn't one",
+        "Flags 'just this one time' framing as exactly the pattern that erodes safety margin over repeated instances"
+      ]
+    },
+    {
+      "id": "ipm-2",
+      "task": "Our main quality control check happens at final inspection before shipment, where we catch the large majority of defects. It's working well in the sense that very few defective units actually reach customers.",
+      "criteria": [
+        "Questions whether relying primarily on final inspection is the right quality strategy, even though it's currently catching most defects before shipment",
+        "States that a defect caught at final inspection costs far more than the same defect caught at its point of origin, and this cost compounds the further downstream it's caught",
+        "Recommends investing in upstream error-proofing and in-process quality checks to catch defects earlier, rather than relying on final inspection as the primary catch point",
+        "Frames current performance (few defects reaching customers) as not evidence the strategy is optimal, only that final inspection is functioning as a costly backstop"
+      ]
+    },
+    {
+      "id": "ipm-3",
+      "task": "We're trying a new process tweak on one production step to see if it improves output, but we've never actually documented a consistent standard procedure for that step — different operators have always run it somewhat differently based on their own preference. We'll compare before/after output to see if the tweak helped.",
+      "criteria": [
+        "Flags the absence of a documented standard baseline as a real problem for evaluating the tweak, naming the optimizing-without-a-standard-baseline failure mode",
+        "States that without a standard to compare against, it's not possible to reliably distinguish a real improvement from normal variation across operators",
+        "Recommends establishing standard work for this step first, before attempting to measure whether the specific change actually helped",
+        "Notes this affects the validity of the before/after comparison itself, not just future improvement efforts"
+      ]
+    },
+    {
+      "id": "ipm-4",
+      "task": "We've been running significant overtime for the past two months to hit output targets during a busy period. Output numbers have held steady throughout, so I think the overtime approach is working well as a flexible way to handle demand spikes.",
+      "criteria": [
+        "Questions whether steady output numbers are the full picture, naming the treating-overtime-as-free-capacity failure mode",
+        "States that chronic overtime/fatigue effects on defect and incident rates typically show up with a lag, so steady output now doesn't rule out a coming quality or safety cost",
+        "Recommends checking defect rate and incident rate trends specifically over this period, not just the output number, before concluding the approach is working",
+        "Frames sustained overtime as a leading indicator worth monitoring, not simply a scheduling convenience with no operational cost"
+      ]
+    }
+  ]
+}
