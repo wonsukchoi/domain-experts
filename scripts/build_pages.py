@@ -10,6 +10,7 @@ Re-run after any role content changes:
 """
 import html
 import json
+import posixpath
 import re
 import subprocess
 from datetime import datetime, timezone
@@ -43,7 +44,7 @@ LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 def resolve_link(url, slug):
     if url.startswith("http://") or url.startswith("https://"):
         return url
-    return REPO_BLOB + f"roles/{slug}/" + url.lstrip("./")
+    return REPO_BLOB + posixpath.normpath(f"roles/{slug}/{url}")
 
 
 def inline(text, slug):
