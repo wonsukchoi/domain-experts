@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 186 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 195 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,7 +365,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (1/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (10/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -405,10 +405,10 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 25-1192.00 | Family and Consumer Sciences Teachers, Postsecondary |  |
 |  | 25-1193.00 | Recreation and Fitness Studies Teachers, Postsecondary |  |
 |  | 25-1194.00 | Career/Technical Education Teachers, Postsecondary |  |
-|  | 25-1199.00 | Postsecondary Teachers, All Other |  |
-|  | 25-2011.00 | Preschool Teachers, Except Special Education |  |
+| ✅ | 25-1199.00 | Postsecondary Teachers, All Other | [`postsecondary-educator`](./roles/postsecondary-educator/SKILL.md) |
+| ✅ | 25-2011.00 | Preschool Teachers, Except Special Education | [`preschool-teacher`](./roles/preschool-teacher/SKILL.md) |
 |  | 25-2012.00 | Kindergarten Teachers, Except Special Education |  |
-|  | 25-2021.00 | Elementary School Teachers, Except Special Education |  |
+| ✅ | 25-2021.00 | Elementary School Teachers, Except Special Education | [`elementary-school-teacher`](./roles/elementary-school-teacher/SKILL.md) |
 |  | 25-2022.00 | Middle School Teachers, Except Special and Career/Technical Education |  |
 |  | 25-2023.00 | Career/Technical Education Teachers, Middle School |  |
 | ✅ | 25-2031.00 | Secondary School Teachers, Except Special and Career/Technical Education | [`high-school-teacher`](./roles/high-school-teacher/SKILL.md) |
@@ -418,20 +418,20 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 25-2056.00 | Special Education Teachers, Elementary School |  |
 |  | 25-2057.00 | Special Education Teachers, Middle School |  |
 |  | 25-2058.00 | Special Education Teachers, Secondary School |  |
-|  | 25-2059.00 | Special Education Teachers, All Other |  |
+| ✅ | 25-2059.00 | Special Education Teachers, All Other | [`special-education-teacher`](./roles/special-education-teacher/SKILL.md) |
 |  | 25-2059.01 | Adapted Physical Education Specialists |  |
-|  | 25-3011.00 | Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors |  |
+| ✅ | 25-3011.00 | Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors | [`adult-esl-instructor`](./roles/adult-esl-instructor/SKILL.md) |
 |  | 25-3021.00 | Self-Enrichment Teachers |  |
 |  | 25-3031.00 | Substitute Teachers, Short-Term |  |
-|  | 25-3041.00 | Tutors |  |
+| ✅ | 25-3041.00 | Tutors | [`tutor`](./roles/tutor/SKILL.md) |
 |  | 25-3099.00 | Teachers and Instructors, All Other |  |
-|  | 25-4011.00 | Archivists |  |
+| ✅ | 25-4011.00 | Archivists | [`archivist`](./roles/archivist/SKILL.md) |
 |  | 25-4012.00 | Curators |  |
 |  | 25-4013.00 | Museum Technicians and Conservators |  |
-|  | 25-4022.00 | Librarians and Media Collections Specialists |  |
+| ✅ | 25-4022.00 | Librarians and Media Collections Specialists | [`librarian`](./roles/librarian/SKILL.md) |
 |  | 25-4031.00 | Library Technicians |  |
 |  | 25-9021.00 | Farm and Home Management Educators |  |
-|  | 25-9031.00 | Instructional Coordinators |  |
+| ✅ | 25-9031.00 | Instructional Coordinators | [`instructional-coordinator`](./roles/instructional-coordinator/SKILL.md) |
 |  | 25-9042.00 | Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education |  |
 |  | 25-9043.00 | Teaching Assistants, Special Education |  |
 |  | 25-9044.00 | Teaching Assistants, Postsecondary |  |

@@ -1,5 +1,5 @@
 {
-  "count": 196,
+  "count": 205,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -64,6 +64,24 @@
       "audit_score": null,
       "skill": "roles/administrative-services-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "adult-esl-instructor",
+      "description": "Use when a task needs the judgment of an Adult ESL/Basic Education Instructor \u2014 placing a new adult learner using standardized assessment scores, designing life-context-relevant lesson content for working adults, tracking NRS-reportable level gains, addressing attendance/retention barriers, or preparing a learner for GED/HSE or workplace English benchmarks.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/adult-esl-instructor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "advertising-promotions-manager",
@@ -161,6 +179,24 @@
       "skill": "roles/architectural-engineering-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "archivist",
+      "description": "Use when a task needs the judgment of an archivist \u2014 appraising whether a donated or transferred collection has enduring value, deciding a processing level for a backlog, writing a finding aid, triaging preservation under budget constraints, or resolving a records-restriction question.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/archivist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -1104,6 +1140,24 @@
       ]
     },
     {
+      "slug": "elementary-school-teacher",
+      "description": "Use when a task needs the judgment of an Elementary School Teacher \u2014 interpreting a running record or fluency check against grade-level benchmarks, deciding whether a struggling reader needs a Tier 2 intervention, running a self-contained classroom's daily schedule across multiple subjects, implementing (not writing) an IEP/504 accommodation with fidelity, or writing a parent-conference summary grounded in assessment data.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/elementary-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "embedded-firmware-engineer",
       "description": "Use when a task needs the judgment of an Embedded/Firmware Engineer \u2014 analyzing worst-case execution time for a hard real-time deadline, choosing static over dynamic memory allocation to avoid fragmentation on a long-uptime device, keeping an interrupt service routine minimal and deferring work to the main loop, synchronizing a variable shared between an ISR and main context to prevent a torn read, or verifying a hardware register interaction against the datasheet's exact timing rather than observed bench behavior.",
       "category": "engineering",
@@ -1828,6 +1882,24 @@
       ]
     },
     {
+      "slug": "instructional-coordinator",
+      "description": "Use when a task needs the judgment of an Instructional Coordinator \u2014 auditing curriculum coverage against a state test blueprint, checking standards alignment at the cognitive-complexity (DOK) level not just the topic level, diagnosing an assessment-score drop down to the standard and DOK level before revising curriculum, or designing a professional-development plan tied to one observable classroom practice.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-9031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/instructional-coordinator/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "insurance-underwriter",
       "description": "Use when a task needs the judgment of an Insurance Underwriter \u2014 pricing a commercial property & casualty renewal with exposure-based rating, deciding a deductible vs. SIR structure, assessing whether a risk's modeled catastrophe exposure needs facultative reinsurance, writing a referral memo for a risk outside binding authority, or reconciling a loss ratio into an indicated rate change.",
       "category": "finance",
@@ -1981,6 +2053,24 @@
       "audit_score": null,
       "skill": "roles/legislator/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "librarian",
+      "description": "Use when a task needs the judgment of a Librarian \u2014 building or reallocating a collection-development budget, running a weeding/deselection pass, conducting a reference interview, designing an information-literacy instruction session, or resolving a cataloging-consistency backlog.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-4022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/librarian/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "loan-officer",
@@ -2605,6 +2695,42 @@
       ]
     },
     {
+      "slug": "postsecondary-educator",
+      "description": "Use when a task needs the judgment of a Postsecondary Educator \u2014 designing a course from learning objectives backward, building or applying a grading rubric, responding to a grade appeal or academic-integrity case, or allocating time across a teaching/research/service load.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1199.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/postsecondary-educator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "preschool-teacher",
+      "description": "Use when a task needs the judgment of a Preschool Teacher \u2014 designing a play-based learning activity for 3-5 year olds, reading a developmental-screening result and deciding whether to refer, writing a parent note about a behavior or developmental concern, planning classroom routines and transitions, or handling a ratio/supervision compliance question in the classroom itself.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/preschool-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "probation-officer",
       "description": "Use when a task needs the judgment of a Probation Officer or Correctional Treatment Specialist \u2014 setting supervision intensity to match a validated risk assessment score rather than offense type alone, classifying a violation as technical vs. new offense and choosing a graduated sanction instead of defaulting to revocation, prioritizing case plan interventions around the specific criminogenic needs an assessment identifies, documenting a case-specific override of an actuarial risk tool's recommendation, or writing a factually balanced presentence investigation report.",
       "category": "legal",
@@ -3027,6 +3153,24 @@
       ]
     },
     {
+      "slug": "special-education-teacher",
+      "description": "Use when a task needs the judgment of a special education teacher \u2014 writing a legally-defensible IEP goal, distinguishing an accommodation from a modification, interpreting present-levels data to set a progress-monitoring target, prepping for an IEP meeting or manifestation determination review, or resolving a disagreement between a parent's request and what the data supports.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2059.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "statistician",
       "description": "Use when a task needs the judgment of a Statistician \u2014 designing a sampling or experimental protocol, determining sample size or power, choosing and defending a hypothesis-testing or multiple-comparisons approach, or reviewing whether a study's statistical claims are actually supported by its design.",
       "category": "other",
@@ -3257,6 +3401,24 @@
       "audit_score": null,
       "skill": "roles/treasurer-controller/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "tutor",
+      "description": "Use when a task needs the judgment of a Tutor \u2014 running a diagnostic to isolate the true prerequisite skill gap behind a student's struggle, sequencing sessions by leverage instead of client-requested topic order, setting realistic score-improvement targets for test prep, building spaced review into a session plan so gains stick, or reporting progress against diagnostic data to a paying parent/client.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-3041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tutor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "urban-regional-planner",
