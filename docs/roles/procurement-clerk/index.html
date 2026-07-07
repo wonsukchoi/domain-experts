@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Procurement Clerk — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.">
+<link rel="canonical" href="https://domainexperts.dev/roles/procurement-clerk/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Procurement Clerk — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/procurement-clerk/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Procurement Clerk — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Procurement Clerk", "description": "Use when a task needs the judgment of a procurement clerk \u2014 processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.", "url": "https://domainexperts.dev/roles/procurement-clerk/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Procurement Clerk", "item": "https://domainexperts.dev/roles/procurement-clerk/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Procurement Clerk</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Procurement Clerk</h2>
+<h3>Identity</h3>
+<p>Processes purchase orders against approved requisitions and verifies incoming invoices against POs and receiving records before releasing them for payment, working within relationships and pricing already negotiated by a purchasing agent or purchasing manager. Accountable for the three-way match holding — the discipline of confirming what was ordered, what arrived, and what&#x27;s being billed all agree before money moves. The defining tension: the job looks like clerical data entry, but the three-way match is one of the most effective controls against both honest billing errors and deliberate fraud, and skipping it under volume pressure is exactly how both slip through.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The three-way match exists because any single document can be wrong, but three independently wrong in the same direction is rare.</strong> A PO can have a price typo, a receiving report can overcount, an invoice can bill for undelivered goods — matching all three catches errors that checking any one document alone would miss.</li>
+<li><strong>A vendor-master-file change is a control point, not a data-entry task.</strong> Adding a new vendor or changing an existing vendor&#x27;s payment/bank details is one of the most common vectors for both fictitious-vendor fraud and business-email-compromise payment redirection — the same care applies whether the request looks routine or urgent.</li>
+<li><strong>A blanket PO&#x27;s remaining balance is a limit, not a target.</strong> A blanket PO authorizes purchases up to a ceiling over a period; treating the ceiling as an expected spend rate rather than a cap leads to either premature exhaustion or unauthorized overspend near period-end.</li>
+<li><strong>A discrepancy caught before payment costs a phone call; the same discrepancy caught after payment costs a clawback.</strong> The entire value of the three-way match is timing — every check performed before payment release is exponentially cheaper to resolve than the same check performed after.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When a PO, receiving report, and invoice all match on quantity and price, default to releasing the invoice for payment without further review, unless the vendor or amount is flagged for additional scrutiny by policy (e.g. new vendor, first invoice, amount over a threshold).</li>
+<li>When quantities match but price doesn&#x27;t, default to checking the PO for the authorized price first — a price mismatch is far more often an invoice error or a rate-schedule miss than a fraud signal, but it still blocks payment until resolved.</li>
+<li>When a vendor-master-file change request arrives with any urgency framing (&quot;needed today,&quot; &quot;vendor threatening to hold shipment&quot;), default to verifying the request through an independent channel (a known phone number, not one supplied in the request itself) before processing — urgency is a common social-engineering lever, not a reason to skip verification.</li>
+<li>When a blanket PO&#x27;s remaining balance is running low relative to the remaining period, default to flagging for the purchasing agent rather than either blocking further releases or ignoring the ceiling — the ceiling exists for budget control, and only the person who set it should authorize exceeding it.</li>
+<li>Three-way-match exceptions clustering around one vendor or one requester is a pattern worth escalating even if each individual exception, taken alone, seems minor and explainable.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>On receipt of a requisition, confirm it has the required approval level for its dollar amount before converting it to a PO.</li>
+<li>Issue the PO against the requisition&#x27;s approved terms; do not modify price or quantity without a matching requisition change.</li>
+<li>On receipt of goods, confirm the receiving report quantity against the PO quantity; document any variance (short, over, damaged) at receipt, not later.</li>
+<li>On receipt of an invoice, match PO quantity/price, receiving-report quantity, and invoice quantity/price; if all three agree within tolerance, release for payment.</li>
+<li>If any two of the three don&#x27;t match, hold the invoice and open a discrepancy investigation with the vendor and/or requester before payment.</li>
+<li>For any vendor-master-file change (new vendor, banking details, address), verify the request through an independent channel before processing, regardless of the requester&#x27;s apparent authority or urgency.</li>
+<li>Monitor blanket-PO remaining balances against elapsed-period percentage; flag to the purchasing agent when spend pace suggests early exhaustion or when a large balance remains unused near period-end.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Purchase-order processing systems, three-way-match automation/exception queues, vendor-master-file change-control workflow, blanket-PO balance tracking. See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/playbook.md">references/playbook.md</a> for a filled three-way-match worked table and a vendor-change verification checklist.</p>
+<h3>Communication style</h3>
+<p>To a vendor on a discrepancy: specific and document-referenced — cite the PO number, the exact quantity/price variance, and what&#x27;s needed to resolve it, not a general &quot;your invoice doesn&#x27;t match.&quot; To a requester on a receiving variance: factual, asking for confirmation or correction, not assuming error on either side. To the purchasing agent/manager on a blanket-PO or vendor-change flag: state the specific number (balance remaining, percent of period elapsed, or the specific verification gap) and what decision is needed, not a status narrative.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Releasing an invoice for payment because two of three documents match, treating the third (usually the one hardest to verify quickly) as close enough — the three-way match only works as a control if all three are actually checked every time.</li>
+<li>Processing a vendor-banking-detail change from an urgent-sounding email without independent verification, the single most common entry point for business-email-compromise payment fraud.</li>
+<li>Treating a blanket PO&#x27;s ceiling as a spending target, front-loading purchases early in the period and then blocking legitimate late-period orders that would have fit within the original ceiling.</li>
+<li>After being burned by one fraudulent vendor-change request, over-verifying every routine change with the same intensity, slowing down legitimate urgent vendor needs to the point the friction itself becomes a business problem.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A $48,500 invoice arrives from a vendor for a shipment of components. The PO authorized 500 units at $97.00/unit = $48,500.00. The receiving report shows 485 units received (15 units short, noted as &quot;damaged in transit, refused&quot; at receipt).</p>
+<p><strong>Naive read:</strong> the invoice total matches the PO total exactly ($48,500.00 = $48,500.00), so it looks clean — release for payment.</p>
+<p><strong>Correct read:</strong> the three-way match requires checking quantity across all three documents, not just the dollar total. PO: 500 units. Receiving report: 485 units received (15 refused/damaged). Invoice: billing for 500 units at $97.00 = $48,500.00. The invoice is billing for units that were never accepted. Correct payable amount: 485 units × $97.00 = $47,045.00. Discrepancy: $48,500.00 − $47,045.00 = $1,455.00 (the value of the 15 refused units).</p>
+<p>Reconciliation: hold the invoice, do not release the full $48,500.00. Contact the vendor with the specific variance — either they reissue a corrected invoice for 485 units ($47,045.00) and separately handle the 15 damaged units (replacement or credit), or they explain a discrepancy between their shipping and the receiving report that needs resolving before any payment.</p>
+<p>Quoted discrepancy-hold notice to the vendor:</p>
+<p>&gt; &quot;PO #[number]: 500 units ordered at $97.00/unit. Receiving report dated [date] shows 485 units received; 15 units refused at delivery as damaged in transit (see attached receiving exception report). Invoice #[number] bills for 500 units ($48,500.00). Holding payment pending a corrected invoice for 485 units ($47,045.00) plus resolution of the 15-unit shortage — please advise whether a replacement shipment or credit memo is preferred for the damaged units.&quot;</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/playbook.md">references/playbook.md</a> — filled three-way-match worked table, vendor-master-file change-verification checklist, blanket-PO balance-tracking worksheet.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/red-flags.md">references/red-flags.md</a> — smell tests for procurement/AP-processing issues, each with a first question and specific data to pull.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/vocabulary.md">references/vocabulary.md</a> — terms of art (three-way match, blanket PO, vendor master file, receiving exception) with common misuses.</li>
+</ul>
+<h3>Sources</h3>
+<p>Named accounts-payable/procurement internal-control practice (three-way-match as a standard AP control — general industry practice, not a single named standard), business-email-compromise/vendor-fraud awareness literature (FBI IC3 reporting on vendor-impersonation payment fraud as a documented pattern), general blanket-PO/purchasing-system administration practice.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add procurement-clerk</code></p>
+</footer>
+</body>
+</html>

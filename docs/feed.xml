@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 14:13:32 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 14:17:20 +0000</lastBuildDate>
+  <item>
+    <title>Procurement Clerk</title>
+    <link>https://domainexperts.dev/roles/procurement-clerk/</link>
+    <guid>https://domainexperts.dev/roles/procurement-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:17:02 +0700</pubDate>
+    <description>Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.</description>
+  </item>
   <item>
     <title>Bill Account Collector</title>
     <link>https://domainexperts.dev/roles/bill-account-collector/</link>
