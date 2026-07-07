@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 333 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 341 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -662,13 +662,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>35 — Food Preparation and Serving Related</strong> (8/18 drafted)</summary>
+<summary><strong>35 — Food Preparation and Serving Related</strong> (16/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 35-1011.00 | Chefs and Head Cooks | [`chef-head-cook`](./roles/chef-head-cook/SKILL.md) |
 | ✅ | 35-1012.00 | First-Line Supervisors of Food Preparation and Serving Workers | [`food-service-supervisor`](./roles/food-service-supervisor/SKILL.md) |
-|  | 35-2011.00 | Cooks, Fast Food |  |
+| ✅ | 35-2011.00 | Cooks, Fast Food | [`fast-food-cook`](./roles/fast-food-cook/SKILL.md) |
 | ✅ | 35-2012.00 | Cooks, Institution and Cafeteria | [`institutional-cafeteria-cook`](./roles/institutional-cafeteria-cook/SKILL.md) |
 | ✅ | 35-2013.00 | Cooks, Private Household | [`private-household-cook`](./roles/private-household-cook/SKILL.md) |
 | ✅ | 35-2014.00 | Cooks, Restaurant | [`restaurant-line-cook`](./roles/restaurant-line-cook/SKILL.md) |
@@ -676,13 +676,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 35-2019.00 | Cooks, All Other |  |
 | ✅ | 35-2021.00 | Food Preparation Workers | [`food-preparation-worker`](./roles/food-preparation-worker/SKILL.md) |
 | ✅ | 35-3011.00 | Bartenders | [`bartender`](./roles/bartender/SKILL.md) |
-|  | 35-3023.00 | Fast Food and Counter Workers |  |
-|  | 35-3023.01 | Baristas |  |
-|  | 35-3031.00 | Waiters and Waitresses |  |
-|  | 35-3041.00 | Food Servers, Nonrestaurant |  |
-|  | 35-9011.00 | Dining Room and Cafeteria Attendants and Bartender Helpers |  |
-|  | 35-9021.00 | Dishwashers |  |
-|  | 35-9031.00 | Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop |  |
+| ✅ | 35-3023.00 | Fast Food and Counter Workers | [`fast-food-counter-worker`](./roles/fast-food-counter-worker/SKILL.md) |
+| ✅ | 35-3023.01 | Baristas | [`barista`](./roles/barista/SKILL.md) |
+| ✅ | 35-3031.00 | Waiters and Waitresses | [`waiter-waitress`](./roles/waiter-waitress/SKILL.md) |
+| ✅ | 35-3041.00 | Food Servers, Nonrestaurant | [`food-server-nonrestaurant`](./roles/food-server-nonrestaurant/SKILL.md) |
+| ✅ | 35-9011.00 | Dining Room and Cafeteria Attendants and Bartender Helpers | [`dining-room-attendant`](./roles/dining-room-attendant/SKILL.md) |
+| ✅ | 35-9021.00 | Dishwashers | [`dishwasher`](./roles/dishwasher/SKILL.md) |
+| ✅ | 35-9031.00 | Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop | [`host-hostess`](./roles/host-hostess/SKILL.md) |
 |  | 35-9099.00 | Food Preparation and Serving Related Workers, All Other |  |
 
 </details>
