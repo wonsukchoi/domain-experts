@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 17:42:12 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 17:57:00 +0000</lastBuildDate>
+  <item>
+    <title>Aircraft Mechanic</title>
+    <link>https://domainexperts.dev/roles/aircraft-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/aircraft-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a certificated aircraft mechanic — triaging a maintenance discrepancy, deciding whether an item can be MEL-deferred or grounds the aircraft, working out an Airworthiness Directive&#x27;s compliance deadline, reviewing a torque/safety-wire job before sign-off, or writing a return-to-service log entry.</description>
+  </item>
+  <item>
+    <title>Auto Body Repairer</title>
+    <link>https://domainexperts.dev/roles/auto-body-repairer/</link>
+    <guid>https://domainexperts.dev/roles/auto-body-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of an auto-body-repairer — deciding whether a damaged structural component gets pulled or replaced, reconciling an insurance estimate against actual teardown damage, writing a supplement, determining whether a repair triggers ADAS recalibration, or checking a proposed repair against an OEM position statement.</description>
+  </item>
+  <item>
+    <title>Auto Service Technician</title>
+    <link>https://domainexperts.dev/roles/auto-service-technician/</link>
+    <guid>https://domainexperts.dev/roles/auto-service-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs senior auto-service-technician judgment — diagnosing a check-engine-light or drivability complaint from DTCs and live data, deciding whether a code-named part actually needs replacing or the fault lies upstream, scoping a flat-rate repair order and labor time, choosing warranty vs. customer-pay job costing, or separating a genuinely needed repair from an upsell.</description>
+  </item>
+  <item>
+    <title>Commercial Diver</title>
+    <link>https://domainexperts.dev/roles/commercial-diver/</link>
+    <guid>https://domainexperts.dev/roles/commercial-diver/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Commercial Diver — planning a surface-supplied or SCUBA-mode dive against no-decompression limits, sizing a bailout/reserve gas supply before descent, choosing wet vs. dry (habitat) underwater welding for a repair, scoping an underwater NDT inspection, or deciding whether to abort a dive against a safety threshold.</description>
+  </item>
+  <item>
+    <title>Computer Atm Office Machine Repairer</title>
+    <link>https://domainexperts.dev/roles/computer-atm-office-machine-repairer/</link>
+    <guid>https://domainexperts.dev/roles/computer-atm-office-machine-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer, ATM, and Office Machine Repairer — triaging a down ATM, PC, or copier against a contracted SLA clock, deciding board-swap vs. component-level repair, handling cash-dispenser faults under dual-custody rules, or reading fleet MTBF/MTTR data to catch a reliability problem before it becomes a run of service calls.</description>
+  </item>
+  <item>
+    <title>Diesel Truck Mechanic</title>
+    <link>https://domainexperts.dev/roles/diesel-truck-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/diesel-truck-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Diesel Truck Mechanic — diagnosing a DPF/DEF/SCR derate or fault code, deciding whether a defect meets CVSA out-of-service criteria, sequencing a PM-A/PM-B preventive maintenance interval, triaging a roadside breakdown against downtime cost, or writing up a DOT annual inspection failure.</description>
+  </item>
+  <item>
+    <title>Hvac Technician</title>
+    <link>https://domainexperts.dev/roles/hvac-technician/</link>
+    <guid>https://domainexperts.dev/roles/hvac-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs senior HVAC-technician judgment — verifying refrigerant charge against a manufacturer target, sizing or right-sizing equipment against a Manual J load, diagnosing a short-cycling or poor-dehumidification complaint, reading static pressure and airflow to separate a duct problem from a charge problem, or handling refrigerant under EPA Section 608 requirements.</description>
+  </item>
+  <item>
+    <title>Industrial Machinery Mechanic</title>
+    <link>https://domainexperts.dev/roles/industrial-machinery-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/industrial-machinery-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Industrial Machinery Mechanic — reading vibration/thermal/oil-analysis trends to catch a bearing or gearbox failure before it happens, tracing a fault to lubrication, misalignment, or a design/loading flaw instead of just swapping the part, setting PM/PdM intervals on production-critical rotating equipment, or planning a laser shaft alignment or LOTO-governed repair.</description>
+  </item>
+  <item>
+    <title>Mechanics Installers Supervisor</title>
+    <link>https://domainexperts.dev/roles/mechanics-installers-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/mechanics-installers-supervisor/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a first-line supervisor over a mixed-skill technician crew — diagnosing whether a comeback pattern is a technician skill gap or a parts-quality problem, reconciling flat-rate efficiency against comeback rate before crediting a &quot;fast&quot; technician, job-costing a warranty or goodwill redo, assigning jobs by ASE certification and job complexity, or verifying lockout/tagout compliance on a multi-technician repair.</description>
+  </item>
+  <item>
+    <title>Millwright</title>
+    <link>https://domainexperts.dev/roles/millwright/</link>
+    <guid>https://domainexperts.dev/roles/millwright/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a millwright — rigging and setting a machine skid onto a new foundation, calculating sling-angle load factors for an asymmetric lift, leveling and epoxy-grouting a machine base, laser-aligning a motor-to-driven-equipment coupling within RPM-appropriate tolerance, or diagnosing a post-startup vibration/misalignment problem traced back to the install.</description>
+  </item>
+  <item>
+    <title>Power Line Installer</title>
+    <link>https://domainexperts.dev/roles/power-line-installer/</link>
+    <guid>https://domainexperts.dev/roles/power-line-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of an electrical power-line installer/repairer — planning a switching and grounding sequence to work a de-energized circuit, selecting arc-flash PPE for an energized task, sequencing crews and materials during storm restoration, or evaluating whether a proposed clearance or grounding plan is actually safe to execute.</description>
+  </item>
+  <item>
+    <title>Security Fire Alarm Installer</title>
+    <link>https://domainexperts.dev/roles/security-fire-alarm-installer/</link>
+    <guid>https://domainexperts.dev/roles/security-fire-alarm-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:56:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a security and fire alarm systems installer — laying out detector/notification-appliance placement against NFPA 72, choosing Class A vs Class B circuit topology, sizing candela on notification appliances, prepping for an AHJ acceptance test, or diagnosing a false-alarm pattern on an existing system.</description>
+  </item>
   <item>
     <title>Agricultural Equipment Operator</title>
     <link>https://domainexperts.dev/roles/agricultural-equipment-operator/</link>

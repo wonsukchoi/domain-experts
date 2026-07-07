@@ -1,5 +1,5 @@
 {
-  "count": 371,
+  "count": 383,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -238,6 +238,27 @@
       ]
     },
     {
+      "slug": "aircraft-mechanic",
+      "description": "Use when a task needs the judgment of a certificated aircraft mechanic \u2014 triaging a maintenance discrepancy, deciding whether an item can be MEL-deferred or grounds the aircraft, working out an Airworthiness Directive's compliance deadline, reviewing a torque/safety-wire job before sign-off, or writing a return-to-service log entry.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/aircraft-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "animal-breeder",
       "description": "Use when a task needs the judgment of a livestock geneticist/animal breeder \u2014 selecting a sire against EPDs or genomic data, screening a proposed mating for inbreeding risk, deciding AI versus natural service, timing an estrus-synchronization protocol, or defending a breeding-goal tradeoff to a herd owner.",
       "category": "operations",
@@ -469,6 +490,27 @@
       ]
     },
     {
+      "slug": "auto-body-repairer",
+      "description": "Use when a task needs the judgment of an auto-body-repairer \u2014 deciding whether a damaged structural component gets pulled or replaced, reconciling an insurance estimate against actual teardown damage, writing a supplement, determining whether a repair triggers ADAS recalibration, or checking a proposed repair against an OEM position statement.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/auto-body-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "auto-damage-appraiser",
       "description": "Use when a task needs the judgment of an Auto Damage Insurance Appraiser \u2014 writing a repair estimate from photos or an in-person inspection, deciding repair vs. total loss against a state total-loss formula, evaluating a body shop's supplement request for hidden damage, determining actual cash value (ACV) for a totaled vehicle, or reconciling an OEM-vs-aftermarket-parts dispute.",
       "category": "finance",
@@ -480,6 +522,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/auto-damage-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "auto-service-technician",
+      "description": "Use when a task needs senior auto-service-technician judgment \u2014 diagnosing a check-engine-light or drivability complaint from DTCs and live data, deciding whether a code-named part actually needs replacing or the fault lies upstream, scoping a flat-rate repair order and labor time, choosing warranty vs. customer-pay job costing, or separating a genuinely needed repair from an upsell.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/auto-service-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1167,6 +1230,27 @@
       ]
     },
     {
+      "slug": "commercial-diver",
+      "description": "Use when a task needs the judgment of a Commercial Diver \u2014 planning a surface-supplied or SCUBA-mode dive against no-decompression limits, sizing a bailout/reserve gas supply before descent, choosing wet vs. dry (habitat) underwater welding for a repair, scoping an underwater NDT inspection, or deciding whether to abort a dive against a safety threshold.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/commercial-diver/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "commercial-industrial-designer",
       "description": "Use when a task needs the judgment of a Commercial/Industrial Designer \u2014 designing the form, ergonomics, and manufacturability of a physical product, choosing between manufacturing processes at a given volume, selecting materials/finishes under a cost or durability constraint, or planning a prototyping sequence before tooling commitment.",
       "category": "design",
@@ -1279,6 +1363,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/compliance-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "computer-atm-office-machine-repairer",
+      "description": "Use when a task needs the judgment of a Computer, ATM, and Office Machine Repairer \u2014 triaging a down ATM, PC, or copier against a contracted SLA clock, deciding board-swap vs. component-level repair, handling cash-dispenser faults under dual-custody rules, or reading fleet MTBF/MTTR data to catch a reliability problem before it becomes a run of service calls.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-atm-office-machine-repairer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2024,6 +2129,27 @@
       "audit_score": null,
       "skill": "roles/devops-sre/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "diesel-truck-mechanic",
+      "description": "Use when a task needs the judgment of a Diesel Truck Mechanic \u2014 diagnosing a DPF/DEF/SCR derate or fault code, deciding whether a defect meets CVSA out-of-service criteria, sequencing a PM-A/PM-B preventive maintenance interval, triaging a roadside breakdown against downtime cost, or writing up a DOT annual inspection failure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/diesel-truck-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -3732,6 +3858,27 @@
       ]
     },
     {
+      "slug": "hvac-technician",
+      "description": "Use when a task needs senior HVAC-technician judgment \u2014 verifying refrigerant charge against a manufacturer target, sizing or right-sizing equipment against a Manual J load, diagnosing a short-cycling or poor-dehumidification complaint, reading static pressure and airflow to separate a duct problem from a charge problem, or handling refrigerant under EPA Section 608 requirements.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hvac-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "hydroelectric-production-manager",
       "description": "Use when a task needs the judgment of a Hydroelectric Production Manager \u2014 running a hydroelectric power facility, managing water resource allocation and reservoir levels, evaluating dam safety and equipment maintenance decisions, or balancing generation output against competing water uses (irrigation, flood control, ecological flow).",
       "category": "operations",
@@ -3781,6 +3928,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/industrial-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "industrial-machinery-mechanic",
+      "description": "Use when a task needs the judgment of an Industrial Machinery Mechanic \u2014 reading vibration/thermal/oil-analysis trends to catch a bearing or gearbox failure before it happens, tracing a fault to lubrication, misalignment, or a design/loading flaw instead of just swapping the part, setting PM/PdM intervals on production-critical rotating equipment, or planning a laser shaft alignment or LOTO-governed repair.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/industrial-machinery-mechanic/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4658,6 +4826,27 @@
       ]
     },
     {
+      "slug": "mechanics-installers-supervisor",
+      "description": "Use when a task needs the judgment of a first-line supervisor over a mixed-skill technician crew \u2014 diagnosing whether a comeback pattern is a technician skill gap or a parts-quality problem, reconciling flat-rate efficiency against comeback rate before crediting a \"fast\" technician, job-costing a warranty or goodwill redo, assigning jobs by ASE certification and job complexity, or verifying lockout/tagout compliance on a multi-technician repair.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mechanics-installers-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mediator",
       "description": "Use when a task needs the judgment of a professional mediator or arbitrator \u2014 structuring a mediation agenda and caucus sequence, testing a party's BATNA/WATNA against their stated position, breaking an impasse with a bracket or mediator's proposal, deciding whether a dispute suits mediation vs. binding arbitration, or drafting an enforceable settlement term sheet or arbitration award.",
       "category": "legal",
@@ -4879,6 +5068,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/microbiologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "millwright",
+      "description": "Use when a task needs the judgment of a millwright \u2014 rigging and setting a machine skid onto a new foundation, calculating sling-angle load factors for an asymmetric lift, leveling and epoxy-grouting a machine base, laser-aligning a motor-to-driven-equipment coupling within RPM-appropriate tolerance, or diagnosing a post-startup vibration/misalignment problem traced back to the install.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9044.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/millwright/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5831,6 +6041,27 @@
       ]
     },
     {
+      "slug": "power-line-installer",
+      "description": "Use when a task needs the judgment of an electrical power-line installer/repairer \u2014 planning a switching and grounding sequence to work a de-energized circuit, selecting arc-flash PPE for an energized task, sequencing crews and materials during storm restoration, or evaluating whether a proposed clearance or grounding plan is actually safe to execute.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/power-line-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "preschool-teacher",
       "description": "Use when a task needs the judgment of a Preschool Teacher \u2014 designing a play-based learning activity for 3-5 year olds, reading a developmental-screening result and deciding whether to refer, writing a parent note about a behavior or developmental concern, planning classroom routines and transitions, or handling a ratio/supervision compliance question in the classroom itself.",
       "category": "other",
@@ -6557,6 +6788,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/securities-sales-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "security-fire-alarm-installer",
+      "description": "Use when a task needs the judgment of a security and fire alarm systems installer \u2014 laying out detector/notification-appliance placement against NFPA 72, choosing Class A vs Class B circuit topology, sizing candela on notification appliances, prepping for an AHJ acceptance test, or diagnosing a false-alarm pattern on an existing system.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2098.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/security-fire-alarm-installer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
