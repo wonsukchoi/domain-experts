@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 15:58:01 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 16:28:22 +0000</lastBuildDate>
+  <item>
+    <title>Housekeeping Janitorial Supervisor</title>
+    <link>https://domainexperts.dev/roles/housekeeping-janitorial-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/housekeeping-janitorial-supervisor/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a housekeeping or janitorial supervisor — building a daily room-attendant assignment against a credit quota, deciding how to absorb same-day call-outs without blowing inspection scores, reading a housekeeping inspection or guest-complaint trend, sizing a janitorial crew against square footage, or responding to a chemical-labeling or bloodborne-pathogen compliance gap.</description>
+  </item>
+  <item>
+    <title>Janitor Cleaner</title>
+    <link>https://domainexperts.dev/roles/janitor-cleaner/</link>
+    <guid>https://domainexperts.dev/roles/janitor-cleaner/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a commercial Janitor/Cleaner — sequencing a nightly building-wide cleaning route under a fixed shift-time budget, deciding floor-care chemical and strip/recoat cycles, responding to a bodily-fluid or biohazard spill, mixing chemicals safely across mixed surface types, or triaging which tasks get cut when a shift runs over.</description>
+  </item>
+  <item>
+    <title>Landscaping Groundskeeping Worker</title>
+    <link>https://domainexperts.dev/roles/landscaping-groundskeeping-worker/</link>
+    <guid>https://domainexperts.dev/roles/landscaping-groundskeeping-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Landscaping and Groundskeeping Worker — diagnosing why a lawn or bed is declining on-site (drought vs. disease vs. insect vs. mechanical injury), setting mowing height and frequency by turf species, calibrating irrigation run-time or fertilizer spreader rate, sequencing a single crew&#x27;s task order on a property, or judging equipment/PPE safety before a cut.</description>
+  </item>
+  <item>
+    <title>Landscaping Supervisor</title>
+    <link>https://domainexperts.dev/roles/landscaping-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/landscaping-supervisor/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Landscaping Supervisor — building a daily multi-crew mow/maintenance route, deciding whether to call off spraying or mowing for weather, job-costing a route that&#x27;s bleeding margin to drive time, staffing a licensed-applicator ratio across crews, or handling an equipment-safety incident or seasonal-labor shortfall.</description>
+  </item>
+  <item>
+    <title>Maid Housekeeping Cleaner</title>
+    <link>https://domainexperts.dev/roles/maid-housekeeping-cleaner/</link>
+    <guid>https://domainexperts.dev/roles/maid-housekeeping-cleaner/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a hotel guest room attendant / housekeeper — sequencing a room turn under a per-room time budget, deciding checkout vs. stay-over vs. deep-clean priority, handling a bloodborne-pathogen or sharps find, resolving a &quot;Do Not Disturb&quot; conflict, or logging guest property found in a room.</description>
+  </item>
+  <item>
+    <title>Pest Control Worker</title>
+    <link>https://domainexperts.dev/roles/pest-control-worker/</link>
+    <guid>https://domainexperts.dev/roles/pest-control-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed pest control technician/PCO — diagnosing a pest or wood-destroying-organism (WDO) infestation, calculating a legal termiticide or insecticide application rate, writing a WDO/NPMA-33 inspection report for a real estate transaction, deciding between trench-and-treat vs. rod injection vs. bait, or evaluating a termite retreatment/repair warranty claim.</description>
+  </item>
+  <item>
+    <title>Pesticide Handler Vegetation</title>
+    <link>https://domainexperts.dev/roles/pesticide-handler-vegetation/</link>
+    <guid>https://domainexperts.dev/roles/pesticide-handler-vegetation/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Pesticide Handler, Sprayer, or Applicator (Vegetation) — calibrating a boom or backpack sprayer for a right-of-way or roadside herbicide job, choosing herbicide mode-of-action and buffer zones near water or sensitive crops, setting REI and re-entry timing under the Worker Protection Standard, diagnosing a drift or non-target-damage complaint, or reviewing a vegetation-management spray plan for label and safety compliance.</description>
+  </item>
+  <item>
+    <title>Tree Trimmer Pruner</title>
+    <link>https://domainexperts.dev/roles/tree-trimmer-pruner/</link>
+    <guid>https://domainexperts.dev/roles/tree-trimmer-pruner/</guid>
+    <pubDate>Tue, 07 Jul 2026 23:26:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a tree trimmer/pruner — deciding whether a limb or union is structurally sound enough to leave, planning a rigged removal near a power line, setting a pruning cut plan that respects live-crown limits, or rating a tree&#x27;s failure risk before crews or property are exposed to it.</description>
+  </item>
   <item>
     <title>Barista</title>
     <link>https://domainexperts.dev/roles/barista/</link>
