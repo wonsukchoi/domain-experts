@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domain Experts — Browse Roles</title>
+<meta name="description" content="Browse crowdsourced job-role agent skills from the Domain Experts repo.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Domain Experts</h1>
+  <p class="tagline">Crowdsourced job-role skills for AI agents — <span id="role-count"></span> roles and counting.</p>
+  <p class="links">
+    <a href="https://github.com/wonsukchoi/domain-experts">GitHub</a> ·
+    <a href="https://www.npmjs.com/package/domain-experts">npm</a>
+  </p>
+</header>
+
+<main>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search roles (e.g. actuary, network, mathematician)…" autocomplete="off">
+    <select id="category-filter">
+      <option value="">All categories</option>
+    </select>
+  </div>
+
+  <p id="result-count" class="result-count"></p>
+  <div id="role-list" class="role-list"></div>
+</main>
+
+<footer>
+  <p>Install any role: <code>npx domain-experts add &lt;slug&gt;</code></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
