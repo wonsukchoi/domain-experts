@@ -1,0 +1,45 @@
+{
+  "role": "property-real-estate-manager",
+  "scenarios": [
+    {
+      "id": "prem-1",
+      "task": "The board wants to postpone the recommended roof maintenance for this property another year to avoid an assessment increase, since the roof still looks fine and isn't leaking yet.",
+      "criteria": [
+        "Flags deferring the maintenance purely to protect the current budget as the deferring-maintenance-to-protect-the-current-budget failure mode",
+        "States that deferred maintenance degrades faster than a linear extrapolation would suggest and typically costs more at eventual emergency/reactive pricing",
+        "Recommends quantifying the degradation risk and cost-of-delay explicitly before deciding to defer",
+        "Doesn't assume deferral is automatically wrong — the issue is deciding without quantifying what's being traded away"
+      ]
+    },
+    {
+      "id": "prem-2",
+      "task": "Our reserve study recommends funding at a certain level to cover major component replacement on schedule, but we've been consistently funding below that recommendation for a few years now to keep resident assessments lower and more politically comfortable, without formally discussing this gap with the board.",
+      "criteria": [
+        "Flags consistently underfunding against the reserve study without an explicit disclosed decision as the underfunding-reserves-to-keep-assessments-low failure mode",
+        "States that reserve fund adequacy is a legal and fiduciary obligation in most jurisdictions, not a discretionary savings preference",
+        "Recommends either funding to the study's schedule or making the underfunding an explicit, disclosed board decision rather than a default outcome",
+        "Notes that consistent underfunding shifts real cost onto future owners/residents who didn't agree to that tradeoff"
+      ]
+    },
+    {
+      "id": "prem-3",
+      "task": "We're behind schedule on an eviction process and want to move faster, so we're planning to skip the formal notice period documentation step this time since the tenant situation seems clear-cut and we're confident about the outcome.",
+      "criteria": [
+        "Flags skipping a required legal process step under time pressure as the skipping-a-legal-process-step-under-time-pressure failure mode",
+        "States that required notice periods and documentation aren't administrative friction to route around, they're the actual legal framework the decision has to operate within",
+        "Recommends following the complete required process regardless of how clear-cut the situation seems",
+        "States that the legal exposure created usually costs far more than the time saved by skipping it"
+      ]
+    },
+    {
+      "id": "prem-4",
+      "task": "We're selecting a vendor for fire suppression system maintenance and going with the lowest bid we received, since it's noticeably cheaper than the other quotes and the vendor says they can do the work.",
+      "criteria": [
+        "Flags selecting purely on lowest bid for a life-safety system as the selecting-vendors-on-lowest-bid-alone failure mode",
+        "States that this trades a visible cost saving for invisible-until-it-fails liability exposure, given the life-safety nature of the system",
+        "Recommends elevated diligence (licensing, insurance, track record) specifically for this category, beyond routine vendor price comparison",
+        "Frames total cost of ownership and risk profile as the correct comparison, not price alone"
+      ]
+    }
+  ]
+}

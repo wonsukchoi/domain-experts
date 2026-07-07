@@ -1,0 +1,45 @@
+{
+  "role": "natural-sciences-manager",
+  "scenarios": [
+    {
+      "id": "nsm-1",
+      "task": "In our quarterly team reviews, I highlight and praise the projects that produced positive, exciting results, and the projects that came back null or negative tend to get a brief mention with less discussion time, since there's not as much to talk about with a null result.",
+      "criteria": [
+        "Flags giving positive results more recognition and airtime than null results as the publication-bias-inside-the-organization failure mode",
+        "States that this implicitly trains the team to produce or overstate positive findings, and null results are genuinely valuable data that shouldn't be treated as less noteworthy",
+        "Recommends giving null/negative results equal structural weight and rigor in reporting and recognition",
+        "Names the risk explicitly: a research program that only rewards positive results is systematically biased and eventually loses credibility"
+      ]
+    },
+    {
+      "id": "nsm-2",
+      "task": "We just got a striking positive result from a single experiment. It's exciting enough that I'm planning to move forward with filing a patent and reallocating significant team resources toward this direction based on this one result.",
+      "criteria": [
+        "Flags treating a single unreplicated result as settled before major resource reallocation as the treating-a-single-striking-result-as-settled failure mode",
+        "States that reproducibility and independent verification, not one experiment's result, is the actual standard for a result being ready to drive downstream decisions",
+        "Recommends requiring independent replication appropriate to the stakes before committing to the patent filing or major resource reallocation",
+        "References the general pattern of overconfidence in single unreplicated results across research fields"
+      ]
+    },
+    {
+      "id": "nsm-3",
+      "task": "We have a long-running research program that's been funded at the same level for years because it's always been funded that way and the team has deep institutional history with it. A newer, promising project with a genuine open question is currently underfunded by comparison.",
+      "criteria": [
+        "Flags continuing the legacy program's funding level by default as the legacy-program-inertia-in-resource-allocation failure mode",
+        "Recommends evaluating the legacy program's current expected information value against the newer project rather than defaulting to historical allocation",
+        "States that a well-funded project no longer generating new information is a cost center masquerading as research",
+        "Doesn't necessarily recommend defunding the legacy program — the issue is deciding based on current expected value, not inertia"
+      ]
+    },
+    {
+      "id": "nsm-4",
+      "task": "We're choosing our next research direction partly based on what's most likely to get funded and published quickly, but I'm presenting this internally to the team as a pure scientific-priority decision without mentioning the fundability/publication considerations that are actually driving it.",
+      "criteria": [
+        "Flags silently letting fundability/publishability drive the decision while presenting it as pure scientific priority, naming the conflating-fundability-with-scientific-priority failure mode",
+        "States that this erodes trust once the team notices the gap between the stated and actual reasoning",
+        "Recommends being explicit with the team about which lens (scientific priority vs. fundability vs. publication strategy) is actually driving the decision",
+        "Doesn't reject considering fundability — the issue is the lack of transparency about it"
+      ]
+    }
+  ]
+}

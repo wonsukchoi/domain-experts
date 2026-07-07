@@ -1,0 +1,45 @@
+{
+  "role": "full-stack-developer",
+  "scenarios": [
+    {
+      "id": "fsd-1",
+      "task": "Our checkout form enforces a max quantity of 10 per item and validates the discount code format client-side before submission. The API endpoint accepts whatever the request body contains without re-checking those same rules, since the form already handles it.",
+      "criteria": [
+        "Flags relying on client-side validation alone as the trusting-the-client failure mode",
+        "States that anything the browser touches can be read, modified, and replayed, so a crafted request can bypass form validation entirely",
+        "Recommends enforcing the same quantity limit and discount code validation on the server/endpoint, not just in the UI",
+        "Frames client validation as UX and server validation as the actual security boundary, not redundant work"
+      ]
+    },
+    {
+      "id": "fsd-2",
+      "task": "Our profile page mounts and each of its five widgets independently fetches its own data on mount — user info, recent activity, notifications, settings summary, and a stats widget — each firing its own request when the component renders.",
+      "criteria": [
+        "Flags the independent per-component fetches as a request waterfall/serial round-trip problem, naming the request-waterfalls failure mode",
+        "States that this causes round trips to run serially (or hit connection limits) rather than as one efficient batch, leaving the screen blank longer than necessary",
+        "Recommends combining the requests into a single endpoint or using a coordinated fetch strategy rather than five independent component-level fetches",
+        "Doesn't just suggest generic 'optimize performance' — names the specific waterfall mechanism"
+      ]
+    },
+    {
+      "id": "fsd-3",
+      "task": "I shipped a new feature that displays a list of the user's recent orders. It works great when the API responds quickly with data — I haven't built out what happens if the request is loading, comes back empty, or fails.",
+      "criteria": [
+        "Flags the absence of loading/empty/error states as the shipping-only-the-happy-path failure mode",
+        "States that the happy path is the small fraction of real usage — a slow network or failed request turns the feature into a frozen or broken experience without these states",
+        "Recommends building the loading, empty, and error states as part of the feature, not an afterthought",
+        "Notes this is standard boundary-handling work, not edge-case polish to skip for a first release"
+      ]
+    },
+    {
+      "id": "fsd-4",
+      "task": "Our TypeScript interface defines the shape of data coming back from a third-party API we don't control. We trust the TypeScript type as sufficient guarantee that the data will always match that shape at runtime, with no additional validation where it enters our system.",
+      "criteria": [
+        "Flags trusting the compile-time type as a runtime guarantee at the external boundary as the treating-compile-time-type-as-runtime-contract failure mode",
+        "States that a TypeScript type describes what data should be, but doesn't make it true once it crosses the wire from a source you don't control",
+        "Recommends adding a runtime validator (e.g. Zod/valibot) at the boundary where this external data enters the system",
+        "Notes that without this, malformed data crashes deeper in the system instead of being rejected at the door"
+      ]
+    }
+  ]
+}

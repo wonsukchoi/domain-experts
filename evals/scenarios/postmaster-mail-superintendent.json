@@ -1,0 +1,45 @@
+{
+  "role": "postmaster-mail-superintendent",
+  "scenarios": [
+    {
+      "id": "pms-1",
+      "task": "Our route boundaries haven't changed in about five years, even though the neighborhood has added a significant number of new addresses over that period and letter volume per address has been declining while package volume has grown. We haven't rebalanced since the routes were originally set up.",
+      "criteria": [
+        "Flags the static route boundaries over five years of drift as the static-routes-despite-delivery-point-and-volume-drift failure mode",
+        "States that unchanged routes silently become over- or under-resourced as delivery points and volume mix drift from original assumptions",
+        "Recommends rebalancing routes against current delivery-point count and volume-mix data on a regular cadence, not leaving them static",
+        "Notes that new addresses without rebalancing produce carrier overload while volume decline without consolidation produces hidden inefficiency"
+      ]
+    },
+    {
+      "id": "pms-2",
+      "task": "For holiday peak season planning, we're taking our standard-day staffing and equipment plan and simply scaling everything up proportionally to the expected higher volume.",
+      "criteria": [
+        "Flags scaling the standard-day plan proportionally as the scaling-the-standard-day-plan-for-peak-season failure mode",
+        "States that peak season's volume mix (much higher package-to-letter ratio) creates a different operational bottleneck than standard-day operations, not just a bigger version of the same one",
+        "Recommends building the peak plan around the peak's actual volume mix and its resulting bottleneck (likely parcel sortation/delivery capacity), not a linear scale-up",
+        "Notes that a proportional scale-up misses the shift in what the actual constraint is"
+      ]
+    },
+    {
+      "id": "pms-3",
+      "task": "A piece of registered mail went missing in our facility. I handled it as a customer service matter — apologized to the sender and processed a claim — without triggering any separate internal security investigation, since the customer-facing resolution seems like the main thing that needed to happen.",
+      "criteria": [
+        "Flags handling the loss purely as a customer service matter as the treating-chain-of-custody-break-as-only-a-service-issue failure mode",
+        "States that a chain-of-custody break is a security incident requiring its own investigation and reporting process, categorically different from a late-delivery service miss",
+        "Recommends triggering the defined security investigation protocol in addition to the customer service response",
+        "Frames the security process as necessary regardless of how the customer-facing resolution was handled"
+      ]
+    },
+    {
+      "id": "pms-4",
+      "task": "Our access control and security measures for handling registered and high-value mail are focused entirely on preventing external interception during transport — locked vehicles, secure drop points. We haven't built in specific controls for handling within the facility itself among staff.",
+      "criteria": [
+        "Flags the absence of internal/insider-focused controls as the security-controls-focused-only-on-external-threat failure mode",
+        "States that a meaningful share of mail security incidents can originate inside the facility, not just from external interception",
+        "Recommends dual-custody handling, access logging, and audit trails for high-value/tracked mail within the facility, not just external-facing measures",
+        "Doesn't dismiss the external controls — the issue is the absence of comparable internal controls"
+      ]
+    }
+  ]
+}

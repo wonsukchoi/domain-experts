@@ -1,0 +1,45 @@
+{
+  "role": "water-resource-specialist",
+  "scenarios": [
+    {
+      "id": "wrs-1",
+      "task": "A drought has forced us into curtailment for the first time in years. We're now explaining to junior water-rights holders, for the first time, how the priority system determines who gets cut first — this is coming as a surprise to a lot of users who didn't fully understand the seniority hierarchy before.",
+      "criteria": [
+        "Flags explaining curtailment priority for the first time during an actual shortage as a planning and communication failure, naming it explicitly",
+        "States that the water-rights priority hierarchy should be communicated to all users well before a shortage occurs, not reactively during one",
+        "Recommends proactively mapping and communicating the curtailment hierarchy to all affected users now, as a standing practice going forward",
+        "Notes this is both a trust failure and a planning failure, not just an unfortunate side effect of the drought"
+      ]
+    },
+    {
+      "id": "wrs-2",
+      "task": "We're facing a significant supply-demand gap and I'm proposing an aggressive conservation program as the solution, projecting it will fully close the gap through demand reduction alone without needing any new supply-side investment.",
+      "criteria": [
+        "Questions whether conservation alone can realistically close a gap of this size, naming the overselling-conservation-as-a-complete-solution failure mode",
+        "States that conservation has real but bounded impact (commonly single-digit to low-double-digit percentage reductions for well-designed programs), and can't substitute for supply-side measures beyond that",
+        "Recommends sizing conservation targets to realistic, evidence-based reduction potential and identifying supply-side measures for any remaining gap",
+        "Doesn't reject conservation as valuable — the issue is treating it as capable of closing an arbitrarily large gap alone"
+      ]
+    },
+    {
+      "id": "wrs-3",
+      "task": "We manage our groundwater allocation and our surface water allocation as two separate, independent programs, each with their own permitting and planning process, without checking whether pumping in one affects availability in the other.",
+      "criteria": [
+        "Flags managing them as independent without checking hydrologic connectivity as the managing-surface-and-groundwater-as-independent-systems failure mode",
+        "States that in a hydrologically connected basin, over-pumping groundwater can reduce surface water availability (and vice versa), which a siloed approach misses",
+        "Recommends assessing surface water-groundwater connectivity for this specific basin before finalizing separate management plans",
+        "Recommends conjunctive management if the connection is material, rather than assuming independence by default"
+      ]
+    },
+    {
+      "id": "wrs-4",
+      "task": "Our supply-demand balance plan is built entirely around current-year municipal demand and current hydrologic averages, with no adjustment for the region's population growth trend or shifting precipitation patterns over the plan's implementation horizon.",
+      "criteria": [
+        "Flags planning against current-year demand with no forward look as the static-demand-planning failure mode",
+        "States that a plan sized to current demand without accounting for growth or climate trend is already outdated by the time it's implemented",
+        "Recommends incorporating forward-looking demand growth and climate trend into the supply-demand balance plan",
+        "Frames this as a real gap in the plan's validity over its actual implementation horizon, not just a minor refinement"
+      ]
+    }
+  ]
+}

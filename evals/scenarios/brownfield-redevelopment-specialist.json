@@ -1,0 +1,45 @@
+{
+  "role": "brownfield-redevelopment-specialist",
+  "scenarios": [
+    {
+      "id": "brs-1",
+      "task": "We're closing on a formerly-industrial parcel next week. We haven't completed a Phase I Environmental Site Assessment yet, but we're planning to commission one right after closing since we're confident it'll go smoothly and want to move fast on this deal.",
+      "criteria": [
+        "Flags closing before completing an AAI-compliant Phase I as a critical failure, not a sequencing detail to fix later",
+        "States that landowner liability protections (BFPP, innocent landowner) depend on completing All Appropriate Inquiries before acquisition, and this cannot be established retroactively after closing",
+        "Recommends completing the AAI-compliant Phase I ESA before any binding closing commitment",
+        "States that the new owner risks inheriting strict, joint-and-several CERCLA liability for contamination they didn't cause if this isn't done first"
+      ]
+    },
+    {
+      "id": "brs-2",
+      "task": "We recorded a deed restriction limiting part of a redeveloped parcel to non-residential use as part of our remediation strategy. The site is now being sold to a new developer and financed by a new lender — we haven't specifically flagged this restriction in the transaction documents since it's already recorded and technically discoverable in public land records.",
+      "criteria": [
+        "Flags relying on the restriction being publicly discoverable rather than explicitly disclosing it as a failure mode",
+        "States that failing to disclose an institutional control explicitly in transaction/financing documents turns a manageable disclosure into a deal-threatening surprise later",
+        "Recommends explicitly stating the deed restriction in every transaction and financing document, not treating public recordation as sufficient disclosure",
+        "Frames this as a default practice, not something to do only if directly asked"
+      ]
+    },
+    {
+      "id": "brs-3",
+      "task": "We're applying to every brownfield funding source we can find at the same time — EPA assessment grant, state VCP funding, tax increment financing, historic tax credits — submitting all the applications simultaneously to save time.",
+      "criteria": [
+        "Flags applying to all sources simultaneously without checking eligibility dependencies as the funding-sequencing failure mode",
+        "States that many state/local incentives require an earlier grant or designation (e.g. EPA assessment grant or formal brownfield designation) to already be in place before they'll approve",
+        "Recommends mapping funding sources by eligibility dependency and sequencing applications accordingly, not applying to everything in parallel",
+        "Notes the risk of wasted time on applications that were never eligible without an earlier step completed first"
+      ]
+    },
+    {
+      "id": "brs-4",
+      "task": "We have a Phase I ESA completed 14 months ago for a site we're now acquiring. Since it already correctly identified the site's contamination issue, we're treating it as still valid and proceeding to closing based on it without an update.",
+      "criteria": [
+        "Flags treating the 14-month-old Phase I as still valid without checking its currency window as the stale-Phase-I failure mode",
+        "States that a Phase I ESA has a currency window (commonly 180 days for specific components like interviews, records review, site visit) and can lose its liability-protection value once outside that window, even if it correctly identified the contamination",
+        "Recommends updating the Phase I components that have fallen outside the currency window before relying on it for closing",
+        "Distinguishes technical accuracy of the report from its legal currency for establishing the liability defense"
+      ]
+    }
+  ]
+}

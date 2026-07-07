@@ -1,0 +1,45 @@
+{
+  "role": "clinical-research-coordinator",
+  "scenarios": [
+    {
+      "id": "crc-1",
+      "task": "A participant signed the informed consent form at enrollment 8 months ago. Since then there's been a protocol amendment adding a new procedure and some new safety information about the study drug. I haven't re-discussed consent with them since the original signature still covers their participation.",
+      "criteria": [
+        "Flags relying on the original signature without re-confirming understanding as the treating-consent-as-a-one-time-signature failure mode",
+        "States that informed consent is an ongoing process, and understanding/willingness to continue should be re-confirmed at trigger points like amendments or new safety information",
+        "Recommends re-confirming consent understanding now given the amendment and new safety information",
+        "Distinguishes the original valid consent from the need for ongoing re-confirmation as the study evolves"
+      ]
+    },
+    {
+      "id": "crc-2",
+      "task": "A minor protocol deviation happened during a visit (a lab draw was done slightly outside the specified time window). It seems inconsequential to the study outcome, so I'm not planning to report it through the formal deviation channel — just noting it in my own records in case it comes up later.",
+      "criteria": [
+        "Flags not reporting through the formal channel as the under-reporting-protocol-deviations failure mode, regardless of the coordinator's own judgment that it's minor",
+        "States that the reporting requirement exists precisely because a coordinator isn't well-positioned to judge a deviation's downstream significance alone",
+        "Recommends reporting every protocol deviation through the required channel (sponsor/IRB) regardless of personal judgment about its significance",
+        "Notes that a pattern of unreported 'minor' deviations is often where data integrity actually breaks down"
+      ]
+    },
+    {
+      "id": "crc-3",
+      "task": "We're seeing higher dropout than expected among enrolled participants partway through the study. My first proposed fix is to increase the compensation amount for completing the study, since that seems like the most direct lever to improve retention.",
+      "criteria": [
+        "Flags defaulting to compensation as the first lever without investigating other causes, naming the defaulting-to-compensation-as-the-retention-fix failure mode",
+        "Recommends investigating scheduling flexibility, communication responsiveness, and participant burden (travel, time, procedure discomfort) before assuming compensation is the driver",
+        "States that retention is driven disproportionately by relationship quality and burden minimization, not primarily by compensation level",
+        "Doesn't reject compensation as a possible factor — the issue is jumping to it before investigating the more likely, more fixable causes"
+      ]
+    },
+    {
+      "id": "crc-4",
+      "task": "I entered a lab value into the study database based on what I remembered the physician telling me verbally during a busy clinic day, rather than pulling it directly from the original lab report, since I was confident I recalled the number correctly and it saved time.",
+      "criteria": [
+        "Flags entering data from memory/secondhand recall rather than the original source as the recording-data-without-traceable-source failure mode",
+        "States that this creates an untraceable data point that fails an audit even if the recalled value happens to be accurate",
+        "Recommends recording every data point with a traceable source (the original lab report) at the time of collection",
+        "References the ALCOA principle (attributable, legible, contemporaneous, original, accurate) or equivalent standard explicitly or in substance"
+      ]
+    }
+  ]
+}
