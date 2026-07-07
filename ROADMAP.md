@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 204 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 213 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -249,16 +249,16 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>19 — Life, Physical, and Social Science</strong> (18/66 drafted)</summary>
+<summary><strong>19 — Life, Physical, and Social Science</strong> (27/66 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 19-1011.00 | Animal Scientists |  |
-|  | 19-1012.00 | Food Scientists and Technologists |  |
-|  | 19-1013.00 | Soil and Plant Scientists |  |
-|  | 19-1021.00 | Biochemists and Biophysicists |  |
+| ✅ | 19-1011.00 | Animal Scientists | [`animal-scientist`](./roles/animal-scientist/SKILL.md) |
+| ✅ | 19-1012.00 | Food Scientists and Technologists | [`food-scientist`](./roles/food-scientist/SKILL.md) |
+| ✅ | 19-1013.00 | Soil and Plant Scientists | [`soil-plant-scientist`](./roles/soil-plant-scientist/SKILL.md) |
+| ✅ | 19-1021.00 | Biochemists and Biophysicists | [`biochemist`](./roles/biochemist/SKILL.md) |
 | ✅ | 19-1022.00 | Microbiologists | [`microbiologist`](./roles/microbiologist/SKILL.md) |
-|  | 19-1023.00 | Zoologists and Wildlife Biologists |  |
+| ✅ | 19-1023.00 | Zoologists and Wildlife Biologists | [`zoologist-wildlife-biologist`](./roles/zoologist-wildlife-biologist/SKILL.md) |
 |  | 19-1029.00 | Biological Scientists, All Other |  |
 |  | 19-1029.01 | Bioinformatics Scientists |  |
 |  | 19-1029.02 | Molecular and Cellular Biologists |  |
@@ -267,12 +267,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 19-1031.00 | Conservation Scientists | [`conservation-scientist`](./roles/conservation-scientist/SKILL.md) |
 |  | 19-1031.02 | Range Managers |  |
 |  | 19-1031.03 | Park Naturalists |  |
-|  | 19-1032.00 | Foresters |  |
+| ✅ | 19-1032.00 | Foresters | [`forester`](./roles/forester/SKILL.md) |
 | ✅ | 19-1041.00 | Epidemiologists | [`epidemiologist`](./roles/epidemiologist/SKILL.md) |
 | ✅ | 19-1042.00 | Medical Scientists, Except Epidemiologists | [`medical-scientist`](./roles/medical-scientist/SKILL.md) |
 |  | 19-1099.00 | Life Scientists, All Other |  |
-|  | 19-2011.00 | Astronomers |  |
-|  | 19-2012.00 | Physicists |  |
+| ✅ | 19-2011.00 | Astronomers | [`astronomer`](./roles/astronomer/SKILL.md) |
+| ✅ | 19-2012.00 | Physicists | [`physicist`](./roles/physicist/SKILL.md) |
 | ✅ | 19-2021.00 | Atmospheric and Space Scientists | [`atmospheric-scientist`](./roles/atmospheric-scientist/SKILL.md) |
 | ✅ | 19-2031.00 | Chemists | [`chemist`](./roles/chemist/SKILL.md) |
 |  | 19-2032.00 | Materials Scientists |  |
@@ -280,7 +280,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 19-2041.01 | Climate Change Policy Analysts |  |
 |  | 19-2041.02 | Environmental Restoration Planners |  |
 |  | 19-2041.03 | Industrial Ecologists |  |
-|  | 19-2042.00 | Geoscientists, Except Hydrologists and Geographers |  |
+| ✅ | 19-2042.00 | Geoscientists, Except Hydrologists and Geographers | [`geoscientist`](./roles/geoscientist/SKILL.md) |
 | ✅ | 19-2043.00 | Hydrologists | [`hydrologist`](./roles/hydrologist/SKILL.md) |
 |  | 19-2099.00 | Physical Scientists, All Other |  |
 |  | 19-2099.01 | Remote Sensing Scientists and Technologists |  |
