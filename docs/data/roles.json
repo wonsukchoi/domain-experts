@@ -1,5 +1,5 @@
 {
-  "count": 419,
+  "count": 431,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -902,6 +902,27 @@
       ]
     },
     {
+      "slug": "brickmason-blockmason",
+      "description": "Use when a task needs the judgment of a Brickmason/Blockmason \u2014 selecting mortar type for a load-bearing vs. veneer application, sizing and placing control or expansion joints, specifying veneer-tie spacing and cavity-wall drainage/weep-hole layout, applying cold-weather masonry protection thresholds, or diagnosing a moisture or cracking failure in existing masonry.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/brickmason-blockmason/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "brokerage-clerk",
       "description": "Use when a task needs the judgment of a brokerage clerk \u2014 resolving a trade-break/reconciliation exception before settlement, recomputing a weighted-average execution price across partial fills, processing a corporate action's effect on share count and cost basis, or responding to a DK (don't-know) notice from a contra broker.",
       "category": "finance",
@@ -1039,6 +1060,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cargo-freight-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "carpenter",
+      "description": "Use when a task needs the judgment of a Carpenter \u2014 sizing a header for a bearing-wall opening, laying out and cutting stair stringers to code, checking a rough opening before a door or window goes in, deciding whether framing lumber is dry enough to close in, or field-modifying engineered lumber (I-joists, LVL) without voiding its rating.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/carpenter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cement-mason-concrete-finisher",
+      "description": "Use when a task needs the judgment of a cement mason / concrete finisher \u2014 timing float and trowel work against bleed water and set, laying out and cutting control joints on a slab, choosing air-entrainment and mix parameters for freeze-thaw exposure, adjusting a finishing schedule for hot- or cold-weather concreting, or diagnosing a slab defect (blistering, scaling, random cracking) after the fact.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cement-mason-concrete-finisher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1705,6 +1768,27 @@
       ]
     },
     {
+      "slug": "construction-building-inspector",
+      "description": "Use when a task needs the judgment of a Construction and Building Inspector \u2014 deciding whether a phase of work passes a hold-point inspection (foundation, framing, rough-in, insulation, final) or gets red-tagged, writing a correction notice that will hold up on appeal, resolving a conflict between the approved plans and field conditions, applying a specific IRC/IBC section to a borderline condition (egress, smoke/CO detector placement, GFCI/AFCI locations), or deciding whether schedule pressure from a contractor changes the call.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/construction-building-inspector/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "construction-manager",
       "description": "Use when a task needs the judgment of a Construction Manager \u2014 planning or sequencing a construction project, evaluating a schedule/cost tradeoff, managing subcontractors and site safety, or responding to an unexpected site condition or delay.",
       "category": "operations",
@@ -1717,6 +1801,27 @@
       "audit_score": null,
       "skill": "roles/construction-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "construction-trades-supervisor",
+      "description": "Use when a task needs the judgment of a Construction Trades Supervisor (foreman) \u2014 allocating a crew's daily task assignments against a labor-unit budget, deciding whether today's scope requires a formally designated OSHA competent person, arbitrating a trade-sequencing conflict between crews needing the same physical space, tracking crew productivity variance before it shows up on the master schedule, or logging and acting on a near-miss.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/construction-trades-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -2449,6 +2554,27 @@
       ]
     },
     {
+      "slug": "drywall-ceiling-tile-installer",
+      "description": "Use when a task needs the judgment of a drywall and ceiling tile installer \u2014 specifying a fire-rated wall/ceiling assembly to a UL design number, hitting an STC target on a demising wall, choosing board type for a wet area, placing control joints on a long run, or diagnosing why a finished assembly failed inspection or a sound/mold complaint.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/drywall-ceiling-tile-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "economist",
       "description": "Use when a task needs the judgment of an Economist \u2014 estimating a demand elasticity or causal treatment effect from observational or experimental data, building a cost-benefit or welfare analysis for a policy or pricing decision, forecasting a macro or market aggregate under stated assumptions, or stress-testing whether a \"the data shows X\" claim survives a confounding-variable check.",
       "category": "other",
@@ -2633,6 +2759,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/elementary-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "elevator-escalator-installer",
+      "description": "Use when a task needs the judgment of a licensed elevator mechanic \u2014 diagnosing a governor or safety-circuit fault, planning or witnessing a Category 1/Category 5 periodic test, sequencing an elevator or escalator installation/modernization to code, or deciding whether equipment can stay in service pending a repair.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/elevator-escalator-installer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3852,6 +3999,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/gis-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "glazier",
+      "description": "Use when a task needs the judgment of a glazier \u2014 selecting glass type for a hazardous-location or code-compliant repair, sizing glass against a wind-load design pressure for a storefront or curtain-wall opening, specifying setting blocks and edge clearance for a glazing job, or diagnosing insulating-glass-unit seal failure or thermal-stress cracking.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2121.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/glazier/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6398,6 +6566,27 @@
       ]
     },
     {
+      "slug": "plumber-pipefitter-steamfitter",
+      "description": "Use when a task needs licensed plumber/pipefitter/steamfitter judgment \u2014 sizing DWV or water-supply pipe by fixture-unit tables, selecting a backflow-prevention device by cross-connection hazard class, diagnosing trap-seal loss or slow drains from vent-distance or slope violations, sizing water-hammer arrestors and thermal-expansion tanks, or pressure-testing new water, gas, or steam piping before cover.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2152.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/plumber-pipefitter-steamfitter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "podiatrist",
       "description": "Use when a task needs the judgment of a podiatrist \u2014 staging a diabetic foot ulcer and deciding whether debridement is safe, screening for loss of protective sensation and peripheral arterial disease before a treatment plan, choosing offloading vs surgical correction for a foot/ankle deformity, or interpreting a gait/biomechanical exam against a recurrent-ulceration or overuse-injury pattern.",
       "category": "healthcare",
@@ -7205,6 +7394,27 @@
       ]
     },
     {
+      "slug": "roofer",
+      "description": "Use when a task needs the judgment of a Roofer \u2014 planning fall protection and anchor points for a steep-slope job, specifying a nailing pattern against a wind-zone rating, matching a roofing system to a measured slope, sizing and balancing attic intake/exhaust ventilation, or specifying ice-and-water shield extent for a climate zone.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2181.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/roofer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "rv-service-technician",
       "description": "Use when a task needs senior RV-service-technician judgment \u2014 leak-testing an LP-gas system before returning it to service, diagnosing a roof-seal or water-intrusion complaint before it reaches structural delamination, correcting a slide-out racking or binding complaint, diagnosing a 12V/120V converter-or-inverter electrical fault, or winterizing a fresh-water and plumbing system.",
       "category": "operations",
@@ -7458,6 +7668,27 @@
       "skill": "roles/set-exhibit-designer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sheet-metal-worker",
+      "description": "Use when a task needs the judgment of a sheet metal worker fabricating and installing HVAC ductwork \u2014 selecting duct gauge for a pressure class and dimension, laying out a transition or offset fitting, resolving a field obstruction against static-pressure and code impact, checking leakage/seal class requirements, or flagging a fire/smoke damper needed at a rated wall or floor penetration.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2211.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sheet-metal-worker/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -7811,6 +8042,27 @@
       "skill": "roles/statistician/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "structural-iron-steel-worker",
+      "description": "Use when a task needs the judgment of a structural iron and steel worker \u2014 deciding how many bolts and which pretensioning method a connection needs before a crane hook can release, setting fall-protection posture for a specific height band and role (connector vs. general worker) during steel erection, tracking which bays of a partially erected frame are still temporary-braced versus structurally complete, sizing or bounding a controlled decking zone, or diagnosing a double-connection/anchor-rod fit-up problem.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2221.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/structural-iron-steel-worker/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],

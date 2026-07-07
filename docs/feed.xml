@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 19:21:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 19:35:25 +0000</lastBuildDate>
+  <item>
+    <title>Brickmason Blockmason</title>
+    <link>https://domainexperts.dev/roles/brickmason-blockmason/</link>
+    <guid>https://domainexperts.dev/roles/brickmason-blockmason/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Brickmason/Blockmason — selecting mortar type for a load-bearing vs. veneer application, sizing and placing control or expansion joints, specifying veneer-tie spacing and cavity-wall drainage/weep-hole layout, applying cold-weather masonry protection thresholds, or diagnosing a moisture or cracking failure in existing masonry.</description>
+  </item>
+  <item>
+    <title>Carpenter</title>
+    <link>https://domainexperts.dev/roles/carpenter/</link>
+    <guid>https://domainexperts.dev/roles/carpenter/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Carpenter — sizing a header for a bearing-wall opening, laying out and cutting stair stringers to code, checking a rough opening before a door or window goes in, deciding whether framing lumber is dry enough to close in, or field-modifying engineered lumber (I-joists, LVL) without voiding its rating.</description>
+  </item>
+  <item>
+    <title>Cement Mason Concrete Finisher</title>
+    <link>https://domainexperts.dev/roles/cement-mason-concrete-finisher/</link>
+    <guid>https://domainexperts.dev/roles/cement-mason-concrete-finisher/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a cement mason / concrete finisher — timing float and trowel work against bleed water and set, laying out and cutting control joints on a slab, choosing air-entrainment and mix parameters for freeze-thaw exposure, adjusting a finishing schedule for hot- or cold-weather concreting, or diagnosing a slab defect (blistering, scaling, random cracking) after the fact.</description>
+  </item>
+  <item>
+    <title>Construction Building Inspector</title>
+    <link>https://domainexperts.dev/roles/construction-building-inspector/</link>
+    <guid>https://domainexperts.dev/roles/construction-building-inspector/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Construction and Building Inspector — deciding whether a phase of work passes a hold-point inspection (foundation, framing, rough-in, insulation, final) or gets red-tagged, writing a correction notice that will hold up on appeal, resolving a conflict between the approved plans and field conditions, applying a specific IRC/IBC section to a borderline condition (egress, smoke/CO detector placement, GFCI/AFCI locations), or deciding whether schedule pressure from a contractor changes the call.</description>
+  </item>
+  <item>
+    <title>Construction Trades Supervisor</title>
+    <link>https://domainexperts.dev/roles/construction-trades-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/construction-trades-supervisor/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Construction Trades Supervisor (foreman) — allocating a crew&#x27;s daily task assignments against a labor-unit budget, deciding whether today&#x27;s scope requires a formally designated OSHA competent person, arbitrating a trade-sequencing conflict between crews needing the same physical space, tracking crew productivity variance before it shows up on the master schedule, or logging and acting on a near-miss.</description>
+  </item>
+  <item>
+    <title>Drywall Ceiling Tile Installer</title>
+    <link>https://domainexperts.dev/roles/drywall-ceiling-tile-installer/</link>
+    <guid>https://domainexperts.dev/roles/drywall-ceiling-tile-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a drywall and ceiling tile installer — specifying a fire-rated wall/ceiling assembly to a UL design number, hitting an STC target on a demising wall, choosing board type for a wet area, placing control joints on a long run, or diagnosing why a finished assembly failed inspection or a sound/mold complaint.</description>
+  </item>
+  <item>
+    <title>Elevator Escalator Installer</title>
+    <link>https://domainexperts.dev/roles/elevator-escalator-installer/</link>
+    <guid>https://domainexperts.dev/roles/elevator-escalator-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed elevator mechanic — diagnosing a governor or safety-circuit fault, planning or witnessing a Category 1/Category 5 periodic test, sequencing an elevator or escalator installation/modernization to code, or deciding whether equipment can stay in service pending a repair.</description>
+  </item>
+  <item>
+    <title>Glazier</title>
+    <link>https://domainexperts.dev/roles/glazier/</link>
+    <guid>https://domainexperts.dev/roles/glazier/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a glazier — selecting glass type for a hazardous-location or code-compliant repair, sizing glass against a wind-load design pressure for a storefront or curtain-wall opening, specifying setting blocks and edge clearance for a glazing job, or diagnosing insulating-glass-unit seal failure or thermal-stress cracking.</description>
+  </item>
+  <item>
+    <title>Plumber Pipefitter Steamfitter</title>
+    <link>https://domainexperts.dev/roles/plumber-pipefitter-steamfitter/</link>
+    <guid>https://domainexperts.dev/roles/plumber-pipefitter-steamfitter/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs licensed plumber/pipefitter/steamfitter judgment — sizing DWV or water-supply pipe by fixture-unit tables, selecting a backflow-prevention device by cross-connection hazard class, diagnosing trap-seal loss or slow drains from vent-distance or slope violations, sizing water-hammer arrestors and thermal-expansion tanks, or pressure-testing new water, gas, or steam piping before cover.</description>
+  </item>
+  <item>
+    <title>Roofer</title>
+    <link>https://domainexperts.dev/roles/roofer/</link>
+    <guid>https://domainexperts.dev/roles/roofer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Roofer — planning fall protection and anchor points for a steep-slope job, specifying a nailing pattern against a wind-zone rating, matching a roofing system to a measured slope, sizing and balancing attic intake/exhaust ventilation, or specifying ice-and-water shield extent for a climate zone.</description>
+  </item>
+  <item>
+    <title>Sheet Metal Worker</title>
+    <link>https://domainexperts.dev/roles/sheet-metal-worker/</link>
+    <guid>https://domainexperts.dev/roles/sheet-metal-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a sheet metal worker fabricating and installing HVAC ductwork — selecting duct gauge for a pressure class and dimension, laying out a transition or offset fitting, resolving a field obstruction against static-pressure and code impact, checking leakage/seal class requirements, or flagging a fire/smoke damper needed at a rated wall or floor penetration.</description>
+  </item>
+  <item>
+    <title>Structural Iron Steel Worker</title>
+    <link>https://domainexperts.dev/roles/structural-iron-steel-worker/</link>
+    <guid>https://domainexperts.dev/roles/structural-iron-steel-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:33:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a structural iron and steel worker — deciding how many bolts and which pretensioning method a connection needs before a crane hook can release, setting fall-protection posture for a specific height band and role (connector vs. general worker) during steel erection, tracking which bays of a partially erected frame are still temporary-braced versus structurally complete, sizing or bounding a controlled decking zone, or diagnosing a double-connection/anchor-rod fit-up problem.</description>
+  </item>
   <item>
     <title>Audiovisual Equipment Installer</title>
     <link>https://domainexperts.dev/roles/audiovisual-equipment-installer/</link>

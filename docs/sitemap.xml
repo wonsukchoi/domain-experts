@@ -45,6 +45,7 @@
   <url><loc>https://domainexperts.dev/roles/biostatistician/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/blockchain-engineer/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/bookkeeping-accounting-clerk/</loc><lastmod>2026-07-06</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/brickmason-blockmason/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/brokerage-clerk/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/brownfield-redevelopment-specialist/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/budget-analyst/</loc><lastmod>2026-07-06</lastmod></url>
@@ -52,6 +53,8 @@
   <url><loc>https://domainexperts.dev/roles/business-intelligence-analyst/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/camera-equipment-repairer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/cargo-freight-agent/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/carpenter/</loc><lastmod>2026-07-08</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/cement-mason-concrete-finisher/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/chef-head-cook/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/chemical-engineer/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/chemist/</loc><lastmod>2026-07-07</lastmod></url>
@@ -84,7 +87,9 @@
   <url><loc>https://domainexperts.dev/roles/computer-user-support-specialist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/concierge/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/conservation-scientist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/construction-building-inspector/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/construction-manager/</loc><lastmod>2026-07-06</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/construction-trades-supervisor/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/control-valve-installer-repairer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/coroner/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/correctional-officer/</loc><lastmod>2026-07-07</lastmod></url>
@@ -120,6 +125,7 @@
   <url><loc>https://domainexperts.dev/roles/dishwasher/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/dispatcher/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/document-management-specialist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/drywall-ceiling-tile-installer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/economist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/editor/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/education-administrator-k12/</loc><lastmod>2026-07-06</lastmod></url>
@@ -130,6 +136,7 @@
   <url><loc>https://domainexperts.dev/roles/electrical-engineer/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/electrician/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/elementary-school-teacher/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/elevator-escalator-installer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/eligibility-interviewer/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/embalmer/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/embedded-firmware-engineer/</loc><lastmod>2026-07-07</lastmod></url>
@@ -189,6 +196,7 @@
   <url><loc>https://domainexperts.dev/roles/geoscientist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/geothermal-production-manager/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/gis-technologist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/glazier/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/government-property-inspector/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/graphic-designer/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/hairdresser-cosmetologist/</loc><lastmod>2026-07-07</lastmod></url>
@@ -311,6 +319,7 @@
   <url><loc>https://domainexperts.dev/roles/physician-clinical-reasoning/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/physicist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/platform-engineer/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/plumber-pipefitter-steamfitter/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/podiatrist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/police-patrol-officer/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/postal-service-clerk/</loc><lastmod>2026-07-07</lastmod></url>
@@ -350,6 +359,7 @@
   <url><loc>https://domainexperts.dev/roles/restaurant-line-cook/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/retail-buyer/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/rigger/</loc><lastmod>2026-07-08</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/roofer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/rv-service-technician/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/sales-account-executive/</loc><lastmod>2026-07-05</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/sales-engineer/</loc><lastmod>2026-07-06</lastmod></url>
@@ -363,6 +373,7 @@
   <url><loc>https://domainexperts.dev/roles/security-management-specialist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/security-manager/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/set-exhibit-designer/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/sheet-metal-worker/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/short-order-cook/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/signal-track-switch-repairer/</loc><lastmod>2026-07-08</lastmod></url>
@@ -380,6 +391,7 @@
   <url><loc>https://domainexperts.dev/roles/speech-language-pathologist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/statistical-assistant/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/statistician/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/structural-iron-steel-worker/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/substance-abuse-counselor/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/supply-chain-manager/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/survey-researcher/</loc><lastmod>2026-07-07</lastmod></url>
