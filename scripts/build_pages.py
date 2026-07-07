@@ -154,7 +154,14 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 """
 
 
+def sync_roles_json():
+    dest = ROOT / "docs" / "data" / "roles.json"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(DATA.read_text())
+
+
 def build():
+    sync_roles_json()
     data = json.loads(DATA.read_text())
     roles = data["roles"]
     urls = []
