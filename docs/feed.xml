@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 15:15:29 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 15:43:42 +0000</lastBuildDate>
+  <item>
+    <title>Bartender</title>
+    <link>https://domainexperts.dev/roles/bartender/</link>
+    <guid>https://domainexperts.dev/roles/bartender/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Bartender — reconciling actual pour cost against theoretical liquor cost by drink category, deciding whether and how to cut off a guest, pricing a drink menu across well/call/premium tiers, closing out a till and comp log at shift end, or sequencing bar-top service against a backed-up service well.</description>
+  </item>
+  <item>
+    <title>Chef Head Cook</title>
+    <link>https://domainexperts.dev/roles/chef-head-cook/</link>
+    <guid>https://domainexperts.dev/roles/chef-head-cook/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chef or Head Cook — costing and re-engineering a menu, diagnosing a food-cost or prime-cost overrun, building a kitchen labor schedule against sales volume, vetting or renegotiating a vendor, or resolving a health-code/HACCP compliance gap.</description>
+  </item>
+  <item>
+    <title>Food Preparation Worker</title>
+    <link>https://domainexperts.dev/roles/food-preparation-worker/</link>
+    <guid>https://domainexperts.dev/roles/food-preparation-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs food-preparation-worker judgment — building tomorrow&#x27;s prep list from a covers forecast, converting a yield percentage into an order quantity, labeling and rotating stock under FIFO, sequencing cuts to minimize danger-zone dwell time, or deciding whether a batch is still safe to use.</description>
+  </item>
+  <item>
+    <title>Food Service Supervisor</title>
+    <link>https://domainexperts.dev/roles/food-service-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/food-service-supervisor/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of a shift-level food service supervisor — building or fixing a labor schedule against sales-per-labor-hour targets, deciding how to cover a no-show or no-call mid-shift, approving a comp/void or cash-drawer variance, running an opening/closing checklist, or de-escalating a customer complaint or minor-labor scheduling conflict on the floor.</description>
+  </item>
+  <item>
+    <title>Institutional Cafeteria Cook</title>
+    <link>https://domainexperts.dev/roles/institutional-cafeteria-cook/</link>
+    <guid>https://domainexperts.dev/roles/institutional-cafeteria-cook/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of an institutional/cafeteria cook — scaling a standardized recipe to a fixed headcount, sequencing batch production against a hot-holding window, handling an allergen or therapeutic-diet substitution without breaking the certified menu, reconciling a cyclical menu against USDA/facility meal-pattern minimums, or diagnosing a time-temperature or cost-per-meal deviation.</description>
+  </item>
+  <item>
+    <title>Private Household Cook</title>
+    <link>https://domainexperts.dev/roles/private-household-cook/</link>
+    <guid>https://domainexperts.dev/roles/private-household-cook/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of a private household cook — building or rebuilding a family food profile after a new health diagnosis, planning weekly meals across multiple conflicting diets in one house, managing an evolving grocery budget with an estate manager, handling discretion/NDA boundaries in a high-net-worth household, or diagnosing why a placement is at risk of ending.</description>
+  </item>
+  <item>
+    <title>Restaurant Line Cook</title>
+    <link>https://domainexperts.dev/roles/restaurant-line-cook/</link>
+    <guid>https://domainexperts.dev/roles/restaurant-line-cook/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of a restaurant line cook — running a station under fire during dinner service, hitting ticket times on multi-course orders, calling an 86 or falling-behind status to the pass, setting and defending mise en place par levels, or diagnosing why a station keeps going into the weeds.</description>
+  </item>
+  <item>
+    <title>Short Order Cook</title>
+    <link>https://domainexperts.dev/roles/short-order-cook/</link>
+    <guid>https://domainexperts.dev/roles/short-order-cook/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:43:28 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Short Order Cook — running solo diner-style service on a single flattop and fryer, sequencing tickets by doneness and zone instead of arrival order, managing par-cooked holds for bacon/sausage/hash browns against food-safety hold limits, deciding when to 86 an item mid-rush, or training a new hire to read doneness visually instead of by stopwatch.</description>
+  </item>
   <item>
     <title>Mortician Funeral Arranger</title>
     <link>https://domainexperts.dev/roles/mortician-funeral-arranger/</link>
