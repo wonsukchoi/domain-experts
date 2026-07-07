@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 18:08:55 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 18:37:41 +0000</lastBuildDate>
+  <item>
+    <title>Bicycle Repairer</title>
+    <link>https://domainexperts.dev/roles/bicycle-repairer/</link>
+    <guid>https://domainexperts.dev/roles/bicycle-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a bicycle repairer — diagnosing drivetrain skip and quoting chain-vs-cassette replacement, torquing carbon components to spec, bleeding hydraulic disc brakes, truing a wheel to tension (not just by eye), or deciding whether a safety-critical fastener issue needs to be declined-in-writing rather than patched.</description>
+  </item>
+  <item>
+    <title>Camera Equipment Repairer</title>
+    <link>https://domainexperts.dev/roles/camera-equipment-repairer/</link>
+    <guid>https://domainexperts.dev/roles/camera-equipment-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a camera-equipment repairer — diagnosing sensor dust vs. lens contamination, deciding whether a shutter is nearing end-of-life and should be replaced vs. repaired, calibrating autofocus and lens collimation, isolating image-stabilization mechanism faults, or sourcing parts for a discontinued body/lens.</description>
+  </item>
+  <item>
+    <title>Control Valve Installer Repairer</title>
+    <link>https://domainexperts.dev/roles/control-valve-installer-repairer/</link>
+    <guid>https://domainexperts.dev/roles/control-valve-installer-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Control and Valve Installer/Repairer — sizing a control valve&#x27;s Cv against actual process flow, diagnosing a limit-cycling control loop as valve stiction versus a bad PID tune, running an FCI 70-2 seat-leakage or API 598 pressure test, calibrating a positioner/actuator after a rebuild, or scheduling PHMSA-mandated regulator/relief-valve testing on a gas distribution system.</description>
+  </item>
+  <item>
+    <title>Mobile Home Installer</title>
+    <link>https://domainexperts.dev/roles/mobile-home-installer/</link>
+    <guid>https://domainexperts.dev/roles/mobile-home-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Manufactured Home Installer — siting and grading a home site, sizing piers and footings against actual soil-bearing capacity, specifying wind-zone-rated anchoring and tie-downs, closing a multi-section marriage line and crossover utility connections, or diagnosing a failed final inspection.</description>
+  </item>
+  <item>
+    <title>Motorboat Mechanic</title>
+    <link>https://domainexperts.dev/roles/motorboat-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/motorboat-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs senior motorboat-mechanic judgment — diagnosing why gearcase oil came out milky on a lower-unit service, sizing sacrificial anodes against wetted metal area instead of guessing, evaluating whether a stored engine&#x27;s ethanol fuel has phase-separated, sequencing a fleet&#x27;s fall winterization or spring commissioning, or verifying ABYC/SAE ignition-protection compliance in an enclosed gasoline engine compartment before a boat leaves the shop.</description>
+  </item>
+  <item>
+    <title>Musical Instrument Repairer Tuner</title>
+    <link>https://domainexperts.dev/roles/musical-instrument-repairer-tuner/</link>
+    <guid>https://domainexperts.dev/roles/musical-instrument-repairer-tuner/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Musical Instrument Repairer and Tuner — aurally tuning a piano to a stretched temperament, regulating a grand or upright action, reseating and leak-testing woodwind pads, aligning brass valves and slides, setting up a guitar or violin&#x27;s action and neck relief, or diagnosing humidity-related damage to a wood instrument.</description>
+  </item>
+  <item>
+    <title>Rail Car Repairer</title>
+    <link>https://domainexperts.dev/roles/rail-car-repairer/</link>
+    <guid>https://domainexperts.dev/roles/rail-car-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Rail Car Repairer — deciding whether a wheel/coupler/brake defect meets a bad-order condemning limit, classifying a running-repair defect as wear-and-tear vs. handling-caused for AAR interchange billing, running and interpreting a single-car air brake test before re-stenciling a repaired car, inspecting a coupler knuckle for crack rejection, or writing up an interchange defect report that another railroad will dispute.</description>
+  </item>
+  <item>
+    <title>Rv Service Technician</title>
+    <link>https://domainexperts.dev/roles/rv-service-technician/</link>
+    <guid>https://domainexperts.dev/roles/rv-service-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs senior RV-service-technician judgment — leak-testing an LP-gas system before returning it to service, diagnosing a roof-seal or water-intrusion complaint before it reaches structural delamination, correcting a slide-out racking or binding complaint, diagnosing a 12V/120V converter-or-inverter electrical fault, or winterizing a fresh-water and plumbing system.</description>
+  </item>
+  <item>
+    <title>Signal Track Switch Repairer</title>
+    <link>https://domainexperts.dev/roles/signal-track-switch-repairer/</link>
+    <guid>https://domainexperts.dev/roles/signal-track-switch-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a signal and track switch repairer (railroad signal maintainer) — diagnosing an intermittent false-clear or failure-to-shunt report on a track circuit, evaluating a worn or gapped switch point for continued service, planning a vital-relay or interlocking-logic test after a signal system change, or deciding whether a wayside fault can be worked around versus requiring an immediate slow order or stop-and-flag.</description>
+  </item>
+  <item>
+    <title>Small Engine Mechanic</title>
+    <link>https://domainexperts.dev/roles/small-engine-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/small-engine-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Small Engine Mechanic — diagnosing a 2-stroke engine that won&#x27;t idle, bogs, or smokes heavily, correcting a customer&#x27;s fuel oil-mix ratio math, adjusting a diaphragm or float-type carburetor to spec, evaluating whether stale ethanol fuel varnished a carburetor after seasonal storage, or planning parts-stocking and staffing across the inverse spring mower and fall/winter snowblower service rushes.</description>
+  </item>
+  <item>
+    <title>Tire Repairer Changer</title>
+    <link>https://domainexperts.dev/roles/tire-repairer-changer/</link>
+    <guid>https://domainexperts.dev/roles/tire-repairer-changer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tire Repairer and Changer — deciding whether a puncture is safely repairable, choosing between plug, patch, and combination repair, refusing a load-range or speed-rating substitution a customer wants, sequencing lug-nut torque on a wheel reinstall, and clearing TPMS after tire service.</description>
+  </item>
+  <item>
+    <title>Watch Clock Repairer</title>
+    <link>https://domainexperts.dev/roles/watch-clock-repairer/</link>
+    <guid>https://domainexperts.dev/roles/watch-clock-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:37:25 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Watch and Clock Repairer — diagnosing a mechanical movement fault from timegrapher readings, deciding how to source or fabricate a part for a discontinued caliber, verifying water resistance after a case has been opened, authenticating a vintage or luxury piece before quoting repair, or setting a service interval for a client&#x27;s collection.</description>
+  </item>
   <item>
     <title>Avionics Technician</title>
     <link>https://domainexperts.dev/roles/avionics-technician/</link>
