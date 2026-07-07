@@ -137,10 +137,13 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{canonical}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{name} — Domain Experts">
 <meta name="twitter:description" content="{description}">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
 <script type="application/ld+json">{schema}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
 <body>
 <header>
