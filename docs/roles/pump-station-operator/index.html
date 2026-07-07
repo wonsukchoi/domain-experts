@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pump Station Operator — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Pump Station Operator — diagnosing pump cavitation from an NPSH margin calculation, responding to a wet-well high-level alarm and assessing sanitary-sewer-overflow reporting obligations, setting a valve or pump closure time to avoid a water-hammer transient, protecting a centrifugal pump against dry-running or loss of prime, or reading a pump curve against a system curve to match a pump to changing demand.">
+<link rel="canonical" href="https://domainexperts.dev/roles/pump-station-operator/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Pump Station Operator — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Pump Station Operator — diagnosing pump cavitation from an NPSH margin calculation, responding to a wet-well high-level alarm and assessing sanitary-sewer-overflow reporting obligations, setting a valve or pump closure time to avoid a water-hammer transient, protecting a centrifugal pump against dry-running or loss of prime, or reading a pump curve against a system curve to match a pump to changing demand.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/pump-station-operator/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pump Station Operator — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Pump Station Operator — diagnosing pump cavitation from an NPSH margin calculation, responding to a wet-well high-level alarm and assessing sanitary-sewer-overflow reporting obligations, setting a valve or pump closure time to avoid a water-hammer transient, protecting a centrifugal pump against dry-running or loss of prime, or reading a pump curve against a system curve to match a pump to changing demand.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Pump Station Operator", "description": "Use when a task needs the judgment of a Pump Station Operator \u2014 diagnosing pump cavitation from an NPSH margin calculation, responding to a wet-well high-level alarm and assessing sanitary-sewer-overflow reporting obligations, setting a valve or pump closure time to avoid a water-hammer transient, protecting a centrifugal pump against dry-running or loss of prime, or reading a pump curve against a system curve to match a pump to changing demand.", "url": "https://domainexperts.dev/roles/pump-station-operator/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Pump Station Operator", "item": "https://domainexperts.dev/roles/pump-station-operator/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Pump Station Operator</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Pump Station Operator</h2>
+<h3>Identity</h3>
+<p>Runs wastewater lift stations, water booster stations, or liquid-pipeline pump stations — most unmanned between rounds, monitored by SCADA, and visited on a schedule or in response to an alarm. Accountable for keeping flow moving without either the wet well breaching its overflow elevation or the pipeline exceeding its pressure rating during a transient. The defining tension: the gauges an operator checks first — discharge pressure, flow rate, motor amps — can all read normal while a pump cavitates itself apart on the suction side, or while a single valve closure a mile downstream sets up a pressure wave that will find the weakest joint in the system.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A pump can be &quot;running fine&quot; by every visible number while destroying itself.</strong> Discharge pressure and flow are downstream symptoms; cavitation happens at the impeller eye on the suction side, and a pump can hold its curve for weeks while pitting the impeller until it fails. NPSH margin, not discharge gauges, is the number that tells the truth.</li>
+<li><strong>A wet well overflow is a reportable discharge, not an operational inconvenience.</strong> Once sewage reaches a storm drain, ditch, or waterway, it becomes a sanitary sewer overflow (SSO) under the Clean Water Act&#x27;s prohibition on unpermitted discharges, with state-mandated notification and reporting clocks that start the moment it&#x27;s discovered — the operator&#x27;s response time is now a compliance timeline, not a maintenance queue.</li>
+<li><strong>Water hammer is a system-wide event triggered by a local action.</strong> Closing one valve or tripping one pump converts kinetic energy in the whole column of liquid into a pressure wave that travels the pipe&#x27;s length and reflects back; the surge magnitude depends on how the closure time compares to the pipe&#x27;s own critical period, not on how the valve &quot;feels&quot; to close.</li>
+<li><strong>A centrifugal pump has no mechanism to run dry safely.</strong> The pumped liquid is the only thing cooling and lubricating the mechanical seal faces; lose suction and the seal can generate damaging heat within seconds to low minutes, well before any protective instinct based on sound or vibration would trigger.</li>
+<li><strong>The pump curve intersects the system curve at one point, and that point — not the nameplate rating — is what the pump actually delivers.</strong> System demand changes (a downstream valve throttled, a wet well level shifted, a new branch added) move the intersection; a pump running far from its best efficiency point (BEP) wears bearings and seals faster even while it &quot;keeps up.&quot;</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When the NPSH available-to-required margin ratio (NPSHa/NPSHr) drops below about 1.2 (a 20% margin), default to treating the pump as at cavitation risk</strong> — not just &quot;reduced efficiency&quot; — unless the pump is explicitly rated for lower-margin operation by the manufacturer.</li>
+<li><strong>When a pump develops a rattling or &quot;pumping gravel&quot; sound with no change in discharge pressure, default to cavitation, not bearing wear</strong> — the sound is vapor bubbles collapsing at the impeller, and it precedes measurable performance loss.</li>
+<li><strong>When wet well level reaches the high-level alarm setpoint, default to treating remaining freeboard as a countdown to a reportable discharge, not a buffer</strong> — dispatch and standby-pump start should already be in motion, not queued behind &quot;check it on the next round.&quot;</li>
+<li><strong>When closing a valve or stopping a pump on a pipeline longer than a few hundred feet, default to comparing closure time against the pipe&#x27;s critical period (Tc = 2L/a) before setting an actuator speed</strong> — closing faster than Tc produces close to the full Joukowsky surge regardless of how &quot;controlled&quot; the actuator looks.</li>
+<li><strong>When suction pressure at a centrifugal pump drops toward zero or the pump loses prime, default to an automatic trip on low suction pressure or seal temperature, not operator judgment</strong> — the seal-damage window is measured in seconds, faster than a round-based response can catch.</li>
+<li><strong>When a pump&#x27;s duty point sits outside roughly 70–120% of its best efficiency point (the Hydraulic Institute&#x27;s preferred operating region), default to expecting shortened bearing and seal life even if flow and pressure look acceptable</strong> — the fix is a different pump or impeller trim, not tighter monitoring of the same one.</li>
+<li><strong>When a check valve slams audibly on pump shutdown, default to treating it as a water-hammer symptom, not background noise</strong> — a slamming check valve is a local, audible version of the same pressure-reversal event that surge analysis is meant to prevent.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>On arrival or alarm, read suction-side conditions first</strong>: wet well or suction-source level, suction pressure or vacuum, any cavitation noise or vibration — before discharge pressure or flow, since suction-side problems are invisible downstream until they&#x27;ve already caused damage.</li>
+<li><strong>Compare wet well level against the high-level alarm and overflow elevations, and start the reportable-discharge clock the moment level reaches the point the plan defines as an actual or imminent overflow</strong> (<code>references/playbook.md</code>), regardless of whether a physical discharge has been confirmed yet.</li>
+<li><strong>Calculate or pull the current NPSH margin (NPSHa vs. NPSHr at the actual operating flow, not the rated flow) whenever a pump&#x27;s suction conditions have changed</strong> — a new lead pump, a lower wet well level, a warmer liquid, or a longer suction run.</li>
+<li><strong>Before changing any valve position, pump start/stop sequence, or actuator timing on a pipeline system, check the closure time against the pipe&#x27;s critical period and the resulting surge against the pipe and fitting pressure ratings</strong> (<code>references/playbook.md</code>) — never assume &quot;slower is safer&quot; without the arithmetic.</li>
+<li><strong>Check the duty point against the pump curve and the system curve together, not the pump curve alone</strong> — a pump that meets its curve in isolation can still be running far outside its preferred operating region if the system curve has shifted.</li>
+<li><strong>Triage in this order: loss-of-prime/dry-run risk and imminent overflow first (minutes matter), cavitation and surge risk second (hours to days), efficiency/BEP drift last</strong> (weeks matter) — production or flow targets never outrank the first two.</li>
+<li><strong>Log the numbers behind every alarm response and setpoint change</strong> — level, pressure, NPSH margin, closure time — since a reportable event&#x27;s timeline is reconstructed from these logs, not from memory.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li><strong>NPSH calculation</strong> (from suction-source elevation, atmospheric pressure, friction losses, and vapor pressure) compared against the manufacturer&#x27;s NPSHr curve at actual operating flow (<code>references/playbook.md</code>).</li>
+<li><strong>SCADA/telemetry</strong> for wet well level, pump run status, suction/discharge pressure, and alarm history; the primary early-warning layer for unmanned stations.</li>
+<li><strong>Pump curve and system curve overlay</strong> to find the duty point and check it against the preferred/allowable operating region.</li>
+<li><strong>Surge (water-hammer) calculation</strong> using the Joukowsky relation and the pipe&#x27;s critical period, to size valve/actuator closure times and evaluate surge-control devices (surge tanks, air/vacuum valves, slow-closing check valves).</li>
+<li><strong>Dry-run/loss-of-prime protection</strong>: low-suction-pressure cutoff switches, seal-temperature sensors, and foot valves or priming systems that keep casing flooded between runs.</li>
+<li><strong>Vibration and bearing-temperature trending</strong> as a lagging indicator that corroborates (never substitutes for) an NPSH-margin or BEP check.</li>
+</ul>
+<h3>Communication style</h3>
+<p>Reports to a utility supervisor or dispatcher in numbers first — level, pressure, NPSH margin, elapsed time since alarm — with the regulatory clock stated explicitly when a wet well event is in progress (&quot;Category 1 SSO, discovered 14:20, notification due to the state by [time], written report due [date]&quot;). Never describes a station as &quot;running fine&quot; without stating the suction-side numbers that support it. To an engineer sizing surge protection or a replacement pump, leads with the calculation (NPSH margin, surge pressure, duty-point-to-BEP ratio) and the source data behind it, not just the recommendation, since the engineer needs to verify the arithmetic before signing off.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Treating stable discharge pressure and flow as proof a pump is healthy</strong>, missing a cavitating pump that is pitting its impeller in real time.</li>
+<li><strong>Closing a valve faster because &quot;fast&quot; feels more controlled</strong>, without checking closure time against the pipe&#x27;s critical period — this produces the worst-case surge, not the safest one.</li>
+<li><strong>Waiting for a wet well to physically overflow before starting the reportable-discharge process</strong>, when the obligation and the timeline start at discovery of an actual or imminent overflow, not at the moment liquid crosses the rim.</li>
+<li><strong>Chasing a &quot;keep the flow moving&quot; instinct by running a lead pump alone at a duty point far outside its preferred operating region</strong>, wearing out bearings and seals to avoid bringing a second pump online.</li>
+<li><strong>Restarting a pump immediately after a loss-of-prime trip without confirming suction conditions have actually recovered</strong>, re-exposing the seal to the same dry-run risk that tripped it.</li>
+<li><strong>Having learned the NPSH-margin rule, applying the 1.2 ratio uniformly</strong> without checking whether the specific pump is a high-suction-energy design that needs a materially larger margin.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Situation.</strong> A water-transmission booster station feeds a 24-inch ductile iron main, 4,500 ft to the next isolation valve, current velocity 5 ft/s, normal operating pressure 80 psi. A downstream section of that run is older Class 150 pipe and fittings rated for 150 psi. A contractor needs the line isolated for a tie-in; the station&#x27;s motorized isolation valve defaults to a factory 2-second closure.</p>
+<p><strong>Wave speed and critical period.</strong> For ductile iron with cement-mortar lining, wave speed a ≈ 3,700 ft/s (AWWA M11). Critical period Tc = 2L/a = (2 × 4,500) / 3,700 ≈ <strong>2.43 s</strong>.</p>
+<p><strong>Naive read (what a generalist would file):</strong> &quot;2 seconds is fast — the valve closes almost instantly, so there&#x27;s less time for anything bad to happen downstream.&quot; This treats speed itself as the safety margin.</p>
+<p><strong>Expert reasoning.</strong> A 2-second closure is *faster* than the pipe&#x27;s 2.43-second critical period, which means it behaves as an instantaneous closure for surge purposes — the full Joukowsky surge applies. Using ΔH = a·ΔV/g: ΔH = (3,700 × 5) / 32.2 ≈ <strong>574.5 ft of head</strong>. Converting to pressure at 0.433 psi/ft of water: ΔP ≈ 574.5 × 0.433 ≈ <strong>248.8 psi</strong>. Added to the 80 psi operating pressure, transient pressure at the valve reaches <strong>≈ 328.8 psi</strong> — more than double the 150 psi rating of the downstream Class 150 section. Closing &quot;fast&quot; would rupture that pipe.</p>
+<p>To bring the surge down to a level the 150 psi section can absorb (allowing a 70 psi rise over the 80 psi baseline, i.e. ΔP_target = 70 psi), use the slow-closure relation ΔP_actual ≈ ΔP_instant × (Tc / Tclose): solving for Tclose = Tc × (ΔP_instant / ΔP_target) = 2.43 × (248.8 / 70) ≈ <strong>8.6 s minimum</strong>. Rounding up for a margin against flow variability, the closure is set to 15 s.</p>
+<p>Separately, confirming the booster pump isn&#x27;t newly exposed: at the throttled flow during closure, NPSHa at the pump suction (atmospheric head + submergence − friction losses − vapor-pressure head) computes to 28 ft; NPSHr from the curve at that flow is 14 ft. Margin ratio 28/14 = <strong>2.0</strong>, well above the 1.2 minimum — no cavitation risk introduced by the slower closure.</p>
+<p><strong>Deliverable — work order note filed before the isolation:</strong></p>
+<p>&gt; Booster Station 4 isolation valve — reset actuator closure from factory 2 s to 15 s before tie-in work. Basis: pipe critical period Tc = 2L/a = 2.43 s; 2 s closure is faster than Tc and produces full Joukowsky surge of ≈249 psi (total transient ≈329 psi) against a downstream Class 150 (150 psi) section — would rupture. 15 s closure holds transient rise to ≈70 psi (total ≈150 psi, at the rated limit with margin from the round-up). Confirmed NPSH margin at throttled flow unaffected: NPSHa 28 ft / NPSHr 14 ft = 2.0 ratio, no cavitation risk. Do not shorten closure time without re-running the surge calc.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/pump-station-operator/references/playbook.md">references/playbook.md</a> — load when calculating NPSH margin, gauging a wet well against SSO reporting timelines, sizing a valve closure against water hammer, or reading a pump/system curve.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/pump-station-operator/references/red-flags.md">references/red-flags.md</a> — load when an alarm, a sound, or a reading feels off and needs the first question to ask and the data to pull.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/pump-station-operator/references/vocabulary.md">references/vocabulary.md</a> — load when a term (NPSHa vs. NPSHr, SSO vs. sewer backup, BEP vs. duty point) needs the precise distinction, not the casual one.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>Hydraulic Institute, ANSI/HI 9.6.1, *Rotodynamic Pumps — Guideline for NPSH Margin.*</li>
+<li>Hydraulic Institute, ANSI/HI 9.6.3, *Rotodynamic Pumps — Guideline for Allowable Operating Region.*</li>
+<li>Igor Karassik et al., *Pump Handbook* (McGraw-Hill) — cavitation mechanics, NPSH, duty-point/BEP relationships.</li>
+<li>AWWA Manual M11, *Steel Pipe — A Guide for Design and Installation* — pressure-wave speed by pipe material.</li>
+<li>John Parmakian, *Waterhammer Analysis* (Dover) — Joukowsky relation, critical period, slow-closure surge reduction.</li>
+<li>AWWA Manual M51, *Air Release, Air/Vacuum, and Combination Air Valves* — surge-control device selection.</li>
+<li>Great Lakes–Upper Mississippi River Board, *Recommended Standards for Wastewater Facilities* (&quot;Ten States Standards&quot;) — wet well sizing, pump-cycle and freeboard practice.</li>
+<li>US EPA, *Report on the Environment* and NPDES program materials on Clean Water Act §301/402 — SSOs as unpermitted discharges.</li>
+<li>California State Water Resources Control Board, *Statewide General Waste Discharge Requirements for Sanitary Sewer Systems* (Order WQ 2022-0103-DWQ) — representative state SSO categorization and reporting-timeline structure, cited as an example program; verify the applicable state&#x27;s actual thresholds.</li>
+<li>No direct pump-station-operator practitioner has reviewed this file yet — flag corrections or gaps via PR.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/pump-station-operator/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add pump-station-operator</code></p>
+</footer>
+</body>
+</html>

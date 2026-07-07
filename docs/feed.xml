@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 20:23:35 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 20:34:38 +0000</lastBuildDate>
+  <item>
+    <title>Aircraft Cargo Supervisor</title>
+    <link>https://domainexperts.dev/roles/aircraft-cargo-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/aircraft-cargo-supervisor/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Aircraft Cargo Handling Supervisor — verifying a built ULD against its type&#x27;s certified max gross weight before it&#x27;s spotted for loading, running a hazmat item through the segregation table against its actual compartment neighbors, reconciling an actual cargo build against the dispatcher&#x27;s load plan and deciding whether it clears a last-minute-change threshold or needs a reissued loadsheet, calling a ULD&#x27;s lock/net restraint good or rejecting it, or running ramp FOD and ground-equipment clearance discipline around an aircraft during turn.</description>
+  </item>
+  <item>
+    <title>Aircraft Service Attendant</title>
+    <link>https://domainexperts.dev/roles/aircraft-service-attendant/</link>
+    <guid>https://domainexperts.dev/roles/aircraft-service-attendant/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of an aircraft service attendant — servicing an aircraft&#x27;s potable water or lavatory/waste system without cross-connecting the two, sequencing turnaround tasks inside a fixed gate-time window, staging ground support equipment around an active aircraft, or timing servicing against a deicing/anti-icing holdover-time window before pushback.</description>
+  </item>
+  <item>
+    <title>Airline Pilot</title>
+    <link>https://domainexperts.dev/roles/airline-pilot/</link>
+    <guid>https://domainexperts.dev/roles/airline-pilot/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of an airline pilot — checking whether an ETOPS diversion-time rating still holds against a current MEL downgrade, deciding whether to accept or query a dispatch release, applying sterile-cockpit discipline and Pilot Flying/Pilot Monitoring role separation on a two-pilot flight deck, resolving a captain-dispatcher operational-control disagreement, or checking Part 117 flight-duty-period legality against an irregular-operations delay.</description>
+  </item>
+  <item>
+    <title>Freight Material Mover</title>
+    <link>https://domainexperts.dev/roles/freight-material-mover/</link>
+    <guid>https://domainexperts.dev/roles/freight-material-mover/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Freight, Stock, and Material Mover (hand freight loader) — hand-loading or unloading an LTL or full-truckload trailer, verifying a dock leveler&#x27;s lock and rated capacity before equipment crosses it, distributing freight weight across axle groups to stay inside Bridge Formula limits, blocking and bracing irregular or mixed freight against in-transit shift, or checking a lift against NIOSH thresholds for an asymmetric, poorly-gripped load.</description>
+  </item>
+  <item>
+    <title>Hand Packager</title>
+    <link>https://domainexperts.dev/roles/hand-packager/</link>
+    <guid>https://domainexperts.dev/roles/hand-packager/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hand Packager — calculating void-fill/cushioning for a shipment&#x27;s fragility class, verifying net-weight compliance against Maximum Allowable Variation on a sold-by-weight product, executing an allergen changeover validation between production runs, deciding whether a fixed line rate is trading against defect rate, or flagging a repetitive-motion risk on a hand-pack station.</description>
+  </item>
+  <item>
+    <title>Material Moving Supervisor</title>
+    <link>https://domainexperts.dev/roles/material-moving-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/material-moving-supervisor/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a First-Line Supervisor of Material-Moving Machine and Vehicle Operators — assigning today&#x27;s task mix across forklifts, order pickers, and pallet jacks against their different throughput rates, deciding whether an operator with an expired certification or an open near-miss can go back on the floor, checking whether a shift&#x27;s equipment utilization is running too hot or too idle, or investigating a near-miss before it becomes a recordable incident.</description>
+  </item>
+  <item>
+    <title>Mrf Sorter</title>
+    <link>https://domainexperts.dev/roles/mrf-sorter/</link>
+    <guid>https://domainexperts.dev/roles/mrf-sorter/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a materials recovery facility (MRF) sorter/Recycling and Reclamation Worker — deciding whether a lithium battery or propane canister on a moving sort line needs an immediate line stop versus a routine hazardous pull, judging why a baled commodity dropped a purity grade and what it cost, working a picking-station reach zone without crossing into a nip point, triaging ambiguous material at sorting speed, or classifying a contamination item as quality-only versus safety-critical.</description>
+  </item>
+  <item>
+    <title>Passenger Attendant</title>
+    <link>https://domainexperts.dev/roles/passenger-attendant/</link>
+    <guid>https://domainexperts.dev/roles/passenger-attendant/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a passenger attendant — securing a wheelchair passenger to WC19 anchor points before a rail platform&#x27;s scheduled departure, deciding whether to request an extended-dwell hold from the conductor/train operator, triaging an onboard medical complaint against a non-clinical scope of care and deciding when to escalate to EMS, reconciling a mobility-assistance manifest for evacuation accountability, or working a paratransit door-to-door pickup against an on-time pickup window.</description>
+  </item>
+  <item>
+    <title>Pump Station Operator</title>
+    <link>https://domainexperts.dev/roles/pump-station-operator/</link>
+    <guid>https://domainexperts.dev/roles/pump-station-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Pump Station Operator — diagnosing pump cavitation from an NPSH margin calculation, responding to a wet-well high-level alarm and assessing sanitary-sewer-overflow reporting obligations, setting a valve or pump closure time to avoid a water-hammer transient, protecting a centrifugal pump against dry-running or loss of prime, or reading a pump curve against a system curve to match a pump to changing demand.</description>
+  </item>
+  <item>
+    <title>Railroad Signal Brake Operator</title>
+    <link>https://domainexperts.dev/roles/railroad-signal-brake-operator/</link>
+    <guid>https://domainexperts.dev/roles/railroad-signal-brake-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Railroad Brake, Signal, and Switch Operator or Locomotive Firer — computing how many hand brakes must be applied to a standing cut given its grade and tonnage, verifying a hand-thrown switch is physically locked (not just lined) before a move, placing or checking a derail protecting a main track, running the effectiveness test on a securement before leaving equipment unattended, or executing hand-signal/radio point protection for a blind shoving move.</description>
+  </item>
+  <item>
+    <title>Traffic Technician</title>
+    <link>https://domainexperts.dev/roles/traffic-technician/</link>
+    <guid>https://domainexperts.dev/roles/traffic-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Traffic Technician — computing yellow/all-red clearance intervals for an intersection, running a MUTCD numeric signal-warrant determination against counted volumes, retiming a coordinated corridor&#x27;s cycle length and offsets, setting ADA-compliant pedestrian walk/clearance intervals, or diagnosing whether a red-light-running/angle-crash pattern traces to timing versus driver behavior.</description>
+  </item>
+  <item>
+    <title>Watercraft Service Attendant</title>
+    <link>https://domainexperts.dev/roles/watercraft-service-attendant/</link>
+    <guid>https://domainexperts.dev/roles/watercraft-service-attendant/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:34:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Automotive and Watercraft Service Attendant — fueling a boat at a marina dock, deciding whether a fuel-vent weep or dock spill must be reported, running the pre-start bilge-ventilation check before a customer restarts an engine, bonding a nozzle before transferring gasoline to a portable tank, or performing a full-service vehicle check (oil, tire pressure, fluids) at a pump island.</description>
+  </item>
   <item>
     <title>Airfield Operations Specialist</title>
     <link>https://domainexperts.dev/roles/airfield-operations-specialist/</link>

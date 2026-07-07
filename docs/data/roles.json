@@ -1,5 +1,5 @@
 {
-  "count": 480,
+  "count": 492,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -259,6 +259,27 @@
       ]
     },
     {
+      "slug": "aircraft-cargo-supervisor",
+      "description": "Use when a task needs the judgment of an Aircraft Cargo Handling Supervisor \u2014 verifying a built ULD against its type's certified max gross weight before it's spotted for loading, running a hazmat item through the segregation table against its actual compartment neighbors, reconciling an actual cargo build against the dispatcher's load plan and deciding whether it clears a last-minute-change threshold or needs a reissued loadsheet, calling a ULD's lock/net restraint good or rejecting it, or running ramp FOD and ground-equipment clearance discipline around an aircraft during turn.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-1041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/aircraft-cargo-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "aircraft-mechanic",
       "description": "Use when a task needs the judgment of a certificated aircraft mechanic \u2014 triaging a maintenance discrepancy, deciding whether an item can be MEL-deferred or grounds the aircraft, working out an Airworthiness Directive's compliance deadline, reviewing a torque/safety-wire job before sign-off, or writing a return-to-service log entry.",
       "category": "operations",
@@ -280,6 +301,27 @@
       ]
     },
     {
+      "slug": "aircraft-service-attendant",
+      "description": "Use when a task needs the judgment of an aircraft service attendant \u2014 servicing an aircraft's potable water or lavatory/waste system without cross-connecting the two, sequencing turnaround tasks inside a fixed gate-time window, staging ground support equipment around an active aircraft, or timing servicing against a deicing/anti-icing holdover-time window before pushback.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/aircraft-service-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "airfield-operations-specialist",
       "description": "Use when a task needs the judgment of an airfield operations specialist \u2014 running a Part 139 self-inspection of the movement area, assigning a Runway Condition Code (RwyCC) after snow/ice contamination, deciding whether a discovered hazard needs an immediate NOTAM, triggering a Wildlife Hazard Assessment after a strike or sighting, or judging a FOD find as immediate-closure versus scheduled removal.",
       "category": "operations",
@@ -291,6 +333,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/airfield-operations-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "airline-pilot",
+      "description": "Use when a task needs the judgment of an airline pilot \u2014 checking whether an ETOPS diversion-time rating still holds against a current MEL downgrade, deciding whether to accept or query a dispatch release, applying sterile-cockpit discipline and Pilot Flying/Pilot Monitoring role separation on a two-pilot flight deck, resolving a captain-dispatcher operational-control disagreement, or checking Part 117 flight-duty-period legality against an irregular-operations delay.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/airline-pilot/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4021,6 +4084,27 @@
       ]
     },
     {
+      "slug": "freight-material-mover",
+      "description": "Use when a task needs the judgment of a Freight, Stock, and Material Mover (hand freight loader) \u2014 hand-loading or unloading an LTL or full-truckload trailer, verifying a dock leveler's lock and rated capacity before equipment crosses it, distributing freight weight across axle groups to stay inside Bridge Formula limits, blocking and bracing irregular or mixed freight against in-transit shift, or checking a lift against NIOSH thresholds for an asymmetric, poorly-gripped load.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7062.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/freight-material-mover/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "frontend-engineer",
       "description": "Use when a task needs the judgment of a Frontend Engineer \u2014 diagnosing which Core Web Vital (LCP/INP/CLS) a change actually affects before optimizing, fixing forced synchronous layout thrashing from interleaved DOM reads/writes, reducing bundle size through code splitting rather than assuming one more dependency is negligible, or building UI with semantic HTML/ARIA so accessibility isn't a retrofit.",
       "category": "engineering",
@@ -4419,6 +4503,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/hairdresser-cosmetologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "hand-packager",
+      "description": "Use when a task needs the judgment of a Hand Packager \u2014 calculating void-fill/cushioning for a shipment's fragility class, verifying net-weight compliance against Maximum Allowable Variation on a sold-by-weight product, executing an allergen changeover validation between production runs, deciding whether a fixed line rate is trading against defect rate, or flagging a repetitive-motion risk on a hand-pack station.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7064.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hand-packager/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5750,6 +5855,27 @@
       ]
     },
     {
+      "slug": "material-moving-supervisor",
+      "description": "Use when a task needs the judgment of a First-Line Supervisor of Material-Moving Machine and Vehicle Operators \u2014 assigning today's task mix across forklifts, order pickers, and pallet jacks against their different throughput rates, deciding whether an operator with an expired certification or an open near-miss can go back on the floor, checking whether a shift's equipment utilization is running too hot or too idle, or investigating a near-miss before it becomes a recordable incident.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-1043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/material-moving-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mathematician",
       "description": "Use when a task needs the judgment of a mathematician \u2014 refereeing or verifying a proof before publication, deciding whether a computed numerical result is trustworthy enough to act on, scoping a grant proposal or technical report to the right level of rigor, or isolating a disputed claim in a paper to the one step it actually turns on.",
       "category": "other",
@@ -6265,6 +6391,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/motorcycle-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mrf-sorter",
+      "description": "Use when a task needs the judgment of a materials recovery facility (MRF) sorter/Recycling and Reclamation Worker \u2014 deciding whether a lithium battery or propane canister on a moving sort line needs an immediate line stop versus a routine hazardous pull, judging why a baled commodity dropped a purity grade and what it cost, working a picking-station reach zone without crossing into a nip point, triaging ambiguous material at sorting speed, or classifying a contamination item as quality-only versus safety-critical.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7062.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mrf-sorter/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6791,6 +6938,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/parking-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "passenger-attendant",
+      "description": "Use when a task needs the judgment of a passenger attendant \u2014 securing a wheelchair passenger to WC19 anchor points before a rail platform's scheduled departure, deciding whether to request an extended-dwell hold from the conductor/train operator, triaging an onboard medical complaint against a non-clinical scope of care and deciding when to escalate to EMS, reconciling a mobility-assistance manifest for evacuation accountability, or working a paratransit door-to-door pickup against an on-time pickup window.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/passenger-attendant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7612,6 +7780,27 @@
       ]
     },
     {
+      "slug": "pump-station-operator",
+      "description": "Use when a task needs the judgment of a Pump Station Operator \u2014 diagnosing pump cavitation from an NPSH margin calculation, responding to a wet-well high-level alarm and assessing sanitary-sewer-overflow reporting obligations, setting a valve or pump closure time to avoid a water-hammer transient, protecting a centrifugal pump against dry-running or loss of prime, or reading a pump curve against a system curve to match a pump to changing demand.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pump-station-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "purchasing-agent",
       "description": "Use when a task needs the judgment of a Purchasing Agent \u2014 cutting a purchase order against the correct procurement method, running an RFQ/RFP and scoring the quotes, applying dollar-threshold rules (micro-purchase, simplified acquisition, sole-source) to a specific buy, reconciling a three-way match discrepancy between PO/receipt/invoice, or catching split-purchase and maverick-spend patterns before they become audit findings.",
       "category": "operations",
@@ -7741,6 +7930,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/railroad-conductor-yardmaster/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "railroad-signal-brake-operator",
+      "description": "Use when a task needs the judgment of a Railroad Brake, Signal, and Switch Operator or Locomotive Firer \u2014 computing how many hand brakes must be applied to a standing cut given its grade and tonnage, verifying a hand-thrown switch is physically locked (not just lined) before a move, placing or checking a derail protecting a main track, running the effectiveness test on a securement before leaving equipment unattended, or executing hand-signal/radio point protection for a blind shoving move.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-4022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/railroad-signal-brake-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9344,6 +9554,27 @@
       ]
     },
     {
+      "slug": "traffic-technician",
+      "description": "Use when a task needs the judgment of a Traffic Technician \u2014 computing yellow/all-red clearance intervals for an intersection, running a MUTCD numeric signal-warrant determination against counted volumes, retiming a coordinated corridor's cycle length and offsets, setting ADA-compliant pedestrian walk/clearance intervals, or diagnosing whether a red-light-running/angle-crash pattern traces to timing versus driver behavior.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/traffic-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "training-development-manager",
       "description": "Use when a task needs the judgment of a Training and Development Manager \u2014 designing a learning/training program, evaluating whether training is the right solution to a performance gap, measuring training effectiveness, or allocating a learning and development budget.",
       "category": "operations",
@@ -9740,6 +9971,27 @@
       "skill": "roles/water-resource-specialist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "watercraft-service-attendant",
+      "description": "Use when a task needs the judgment of an Automotive and Watercraft Service Attendant \u2014 fueling a boat at a marina dock, deciding whether a fuel-vent weep or dock spill must be reported, running the pre-start bilge-ventilation check before a customer restarts an engine, bonding a nozzle before transferring gasoline to a portable tank, or performing a full-service vehicle check (oil, tire pressure, fluids) at a pump island.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/watercraft-service-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
