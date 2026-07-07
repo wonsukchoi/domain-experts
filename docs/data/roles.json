@@ -1,5 +1,5 @@
 {
-  "count": 300,
+  "count": 299,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3984,24 +3984,6 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/probation-officer/SKILL.md",
-      "references": [
-        "playbook.md",
-        "red-flags.md",
-        "vocabulary.md"
-      ]
-    },
-    {
-      "slug": "procurement-clerk",
-      "description": "Use when a task needs the judgment of a procurement clerk \u2014 processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.",
-      "category": "operations",
-      "maturity": "draft",
-      "spec": 2,
-      "onet_soc_code": "43-3061.00",
-      "parent": null,
-      "status": "active",
-      "last_audited": null,
-      "audit_score": null,
-      "skill": "roles/procurement-clerk/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
