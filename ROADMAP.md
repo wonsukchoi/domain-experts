@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 231 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 239 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -323,7 +323,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>21 — Community and Social Service</strong> (6/18 drafted)</summary>
+<summary><strong>21 — Community and Social Service</strong> (10/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -331,18 +331,18 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 21-1012.00 | Educational, Guidance, and Career Counselors and Advisors | [`school-career-counselor`](./roles/school-career-counselor/SKILL.md) |
 | ✅ | 21-1013.00 | Marriage and Family Therapists | [`marriage-family-therapist`](./roles/marriage-family-therapist/SKILL.md) |
 | ✅ | 21-1014.00 | Mental Health Counselors | [`mental-health-counselor`](./roles/mental-health-counselor/SKILL.md) |
-|  | 21-1015.00 | Rehabilitation Counselors |  |
+| ✅ | 21-1015.00 | Rehabilitation Counselors | [`rehabilitation-counselor`](./roles/rehabilitation-counselor/SKILL.md) |
 |  | 21-1019.00 | Counselors, All Other |  |
 | ✅ | 21-1021.00 | Child, Family, and School Social Workers | [`child-family-social-worker`](./roles/child-family-social-worker/SKILL.md) |
-|  | 21-1022.00 | Healthcare Social Workers |  |
+| ✅ | 21-1022.00 | Healthcare Social Workers | [`healthcare-social-worker`](./roles/healthcare-social-worker/SKILL.md) |
 |  | 21-1023.00 | Mental Health and Substance Abuse Social Workers |  |
 |  | 21-1029.00 | Social Workers, All Other |  |
 |  | 21-1091.00 | Health Education Specialists |  |
 | ✅ | 21-1092.00 | Probation Officers and Correctional Treatment Specialists | [`probation-officer`](./roles/probation-officer/SKILL.md) |
 |  | 21-1093.00 | Social and Human Service Assistants |  |
-|  | 21-1094.00 | Community Health Workers |  |
+| ✅ | 21-1094.00 | Community Health Workers | [`community-health-worker`](./roles/community-health-worker/SKILL.md) |
 |  | 21-1099.00 | Community and Social Service Specialists, All Other |  |
-|  | 21-2011.00 | Clergy |  |
+| ✅ | 21-2011.00 | Clergy | [`clergy`](./roles/clergy/SKILL.md) |
 |  | 21-2021.00 | Directors, Religious Activities and Education |  |
 |  | 21-2099.00 | Religious Workers, All Other |  |
 
@@ -748,7 +748,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>41 — Sales and Related</strong> (3/23 drafted)</summary>
+<summary><strong>41 — Sales and Related</strong> (7/23 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -759,10 +759,10 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 41-2021.00 | Counter and Rental Clerks |  |
 |  | 41-2022.00 | Parts Salespersons |  |
 |  | 41-2031.00 | Retail Salespersons |  |
-|  | 41-3011.00 | Advertising Sales Agents |  |
-|  | 41-3021.00 | Insurance Sales Agents |  |
-|  | 41-3031.00 | Securities, Commodities, and Financial Services Sales Agents |  |
-|  | 41-3041.00 | Travel Agents |  |
+| ✅ | 41-3011.00 | Advertising Sales Agents | [`advertising-sales-agent`](./roles/advertising-sales-agent/SKILL.md) |
+| ✅ | 41-3021.00 | Insurance Sales Agents | [`insurance-sales-agent`](./roles/insurance-sales-agent/SKILL.md) |
+| ✅ | 41-3031.00 | Securities, Commodities, and Financial Services Sales Agents | [`securities-sales-agent`](./roles/securities-sales-agent/SKILL.md) |
+| ✅ | 41-3041.00 | Travel Agents | [`travel-agent`](./roles/travel-agent/SKILL.md) |
 |  | 41-3091.00 | Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel |  |
 | ♻️ | 41-4011.00 | Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products | [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) |
 |  | 41-4011.07 | Solar Sales Representatives and Assessors |  |
