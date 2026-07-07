@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:47:24 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:57:16 +0000</lastBuildDate>
+  <item>
+    <title>Dispatcher</title>
+    <link>https://domainexperts.dev/roles/dispatcher/</link>
+    <guid>https://domainexperts.dev/roles/dispatcher/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Dispatcher — assigning a new job to the best available driver/technician in real time, managing an ETA slip and deciding who to notify, triaging a coverage gap in a service territory, sequencing a driver&#x27;s remaining stops after a delay, or deciding whether a job needs to be reassigned versus the customer rescheduled.</description>
+  </item>
+  <item>
+    <title>Eligibility Interviewer</title>
+    <link>https://domainexperts.dev/roles/eligibility-interviewer/</link>
+    <guid>https://domainexperts.dev/roles/eligibility-interviewer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of an eligibility interviewer for government benefit programs — calculating household income against a means-tested program&#x27;s limits, determining household composition for benefit purposes, judging whether submitted verification documents are sufficient, or distinguishing a documentation gap from a fraud indicator.</description>
+  </item>
+  <item>
+    <title>Executive Administrative Assistant</title>
+    <link>https://domainexperts.dev/roles/executive-administrative-assistant/</link>
+    <guid>https://domainexperts.dev/roles/executive-administrative-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of an executive administrative assistant — triaging a stacked calendar against competing priorities, deciding what reaches an executive versus what gets redirected, reconciling a multi-city travel itinerary or expense report, drafting on an executive&#x27;s behalf within a delegated-authority boundary, or handling a scheduling conflict across time zones.</description>
+  </item>
+  <item>
+    <title>Insurance Claims Processing Clerk</title>
+    <link>https://domainexperts.dev/roles/insurance-claims-processing-clerk/</link>
+    <guid>https://domainexperts.dev/roles/insurance-claims-processing-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of an insurance claims and policy processing clerk — checking a submitted claim for intake completeness before it&#x27;s routed to an adjuster, validating claim/procedure codes against a policy&#x27;s coverage terms, processing a policy endorsement or change request, or drafting a claim-status update to a policyholder. Distinct from a claims adjuster or underwriter — this role verifies and routes, it does not decide coverage, payout, or risk pricing.</description>
+  </item>
+  <item>
+    <title>Legal Secretary</title>
+    <link>https://domainexperts.dev/roles/legal-secretary/</link>
+    <guid>https://domainexperts.dev/roles/legal-secretary/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a legal secretary — running a conflict-of-interest check before opening a new matter, troubleshooting a rejected e-filing, formatting a document to a court&#x27;s local-rule specifications, coordinating a multi-party deposition or hearing calendar, or triaging incoming correspondence for a supervising attorney.</description>
+  </item>
+  <item>
+    <title>Medical Secretary</title>
+    <link>https://domainexperts.dev/roles/medical-secretary/</link>
+    <guid>https://domainexperts.dev/roles/medical-secretary/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical Secretary or Administrative Assistant — triaging a scheduling request by clinical urgency, timing an insurance-eligibility re-verification, working backward from an appointment date to set a prior-authorization submission deadline, or applying HIPAA&#x27;s minimum-necessary standard to a records-release request.</description>
+  </item>
+  <item>
+    <title>Production Planning Expediting Clerk</title>
+    <link>https://domainexperts.dev/roles/production-planning-expediting-clerk/</link>
+    <guid>https://domainexperts.dev/roles/production-planning-expediting-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a production planning and expediting clerk — tracking work orders against a master production schedule, triaging a material shortage and deciding what to expedite first, reconciling vendor delivery promises against a build date, or writing a schedule-slip notification to affected downstream teams.</description>
+  </item>
+  <item>
+    <title>Public Safety Telecommunicator</title>
+    <link>https://domainexperts.dev/roles/public-safety-telecommunicator/</link>
+    <guid>https://domainexperts.dev/roles/public-safety-telecommunicator/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:56:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a 911 public safety telecommunicator — triaging an emergency call to a protocol determinant code, deciding when to dispatch versus keep questioning, verifying a caller&#x27;s location against unreliable ANI/ALI data, delivering pre-arrival instructions (e.g. telephone CPR), or writing a CAD case log.</description>
+  </item>
   <item>
     <title>Audiologist</title>
     <link>https://domainexperts.dev/roles/audiologist/</link>
