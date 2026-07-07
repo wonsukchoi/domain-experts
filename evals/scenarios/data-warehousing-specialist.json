@@ -1,0 +1,45 @@
+{
+  "role": "data-warehousing-specialist",
+  "scenarios": [
+    {
+      "id": "dws-1",
+      "task": "I'm starting to build a web analytics fact table by adding columns for page views, session duration, and conversion events as they come up, without first declaring in one sentence exactly what one row in the table represents.",
+      "criteria": [
+        "Flags adding measures/dimensions before the grain is declared as the failure mode",
+        "States that the grain has to be declared in one sentence before any measure or dimension is added, not inferred after the fact",
+        "Recommends declaring the exact grain (e.g., one row per page view event, or one row per session) before continuing to model the table",
+        "Notes the risk of discovering mid-build that two different grains were assumed for different parts of the table"
+      ]
+    },
+    {
+      "id": "dws-2",
+      "task": "A product's category attribute in dim_product changed last quarter (reclassified from 'Electronics' to 'Home Appliances'). We apply Type 1 (overwrite) to every attribute in this dimension table by convention, including category, even though a historical sales-by-category report needs to reflect what the category was at the time each sale occurred.",
+      "criteria": [
+        "Flags applying Type 1 uniformly to an attribute that needs historical preservation as the failure mode",
+        "States that SCD type is a business decision about whether history should be rewritten or preserved, and different attributes in the same dimension can need different treatment",
+        "Recommends implementing Type 2 (effective-dated rows) for the category attribute specifically, given the historical reporting need",
+        "States that applying one SCD type to an entire dimension table by convention is the error, not a specific type choice"
+      ]
+    },
+    {
+      "id": "dws-3",
+      "task": "Two source systems both have a 'customer' dimension with conflicting definitions of an active customer (one uses a 12-month order window, the other 6 months). I'm merging them myself, picking the definition I think makes more sense, and building the conformed dimension around that choice without looping in the business stakeholders.",
+      "criteria": [
+        "Flags unilaterally resolving the conflicting definitions as a technical merge as the failure mode",
+        "States that this is a business-rule decision to escalate, not a technical merge to resolve unilaterally",
+        "Recommends escalating the conflict to business stakeholders to decide which definition the warehouse should use",
+        "Notes that resolving it unilaterally produces a warehouse number nobody actually agreed to"
+      ]
+    },
+    {
+      "id": "dws-4",
+      "task": "I validated this load by confirming the row count in the warehouse matches the row count in the source extract exactly, and concluded the load is correct based on that match alone.",
+      "criteria": [
+        "Flags relying on row-count parity alone as the validation test as the failure mode",
+        "States that a load can move the exact same row count as the source and still be wrong (offsetting duplicate inserts and dropped updates, or a fan-out join)",
+        "Recommends reconciling aggregate measures (sums, counts by a known dimension) against the source, not just row-count parity",
+        "States that this is the load's actual correctness test"
+      ]
+    }
+  ]
+}

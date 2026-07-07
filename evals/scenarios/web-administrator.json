@@ -1,0 +1,45 @@
+{
+  "role": "web-administrator",
+  "scenarios": [
+    {
+      "id": "wa-1",
+      "task": "Our uptime monitoring checks the homepage every minute and has been green all week. I'm confident the site is fully healthy based on this.",
+      "criteria": [
+        "Flags relying on homepage-only monitoring as sufficient as the failure mode",
+        "States that a broken checkout flow or API endpoint can sit broken for hours while the root-page check stays green",
+        "Recommends monitoring critical user-facing flows and API endpoints directly, not just the homepage",
+        "Notes that a green homepage check says nothing about other critical paths"
+      ]
+    },
+    {
+      "id": "wa-2",
+      "task": "We just finished writing a new WAF rule set targeting a specific attack pattern. I'm enabling it directly in blocking mode against live production traffic, since we're confident in the rule logic.",
+      "criteria": [
+        "Flags enabling new WAF/rate-limit rules directly in blocking mode without a log-only period as the failure mode",
+        "States that rules should be tuned against real traffic samples in log-only/detection mode first to measure false-positive rate",
+        "Recommends running the new rules in log-only mode before switching to blocking",
+        "Notes the risk of discovering the false-positive rate mid-incident when real customers are already blocked"
+      ]
+    },
+    {
+      "id": "wa-3",
+      "task": "After a cache-related data leak (a missing cookie dimension in the cache key caused two users to see each other's page), we've disabled caching broadly across most of the site to be safe, rather than fixing the specific cache-key partitioning issue that caused it.",
+      "criteria": [
+        "Flags broadly disabling caching instead of fixing the specific cache-key issue as the overcorrection failure mode",
+        "States that the fix is correcting the cache-key partitioning (adding the missing dimension), not disabling caching broadly",
+        "Recommends fixing the specific cache-key dimension that was missing rather than tanking performance site-wide",
+        "Notes this trades a real performance cost for a fix that doesn't actually address the root cause more precisely than the targeted fix would"
+      ]
+    },
+    {
+      "id": "wa-4",
+      "task": "We rotated an expiring TLS certificate on our origin server under time pressure. We didn't check whether the same certificate is also pinned on the load balancer, the CDN origin config, or any internal service referencing it.",
+      "criteria": [
+        "Flags rotating the certificate without checking all pinned locations as the failure mode",
+        "States that a certificate rotated in one place while still pinned elsewhere causes the outage to recur somewhere else",
+        "Recommends verifying and updating every location the certificate is pinned to as part of the rotation, not just the origin server",
+        "Notes this is especially likely to be missed under time pressure"
+      ]
+    }
+  ]
+}

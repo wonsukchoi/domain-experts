@@ -1,0 +1,45 @@
+{
+  "role": "statistician",
+  "scenarios": [
+    {
+      "id": "stat-1",
+      "task": "I tried five different statistical tests on this dataset looking at slightly different framings of the same question. One of them came back p<0.05. I'm reporting that result as the finding, without mentioning the other four tests that didn't reach significance.",
+      "criteria": [
+        "Flags reporting only the significant result without disclosing the others tried as p-hacking, regardless of intent",
+        "States that this inflates the true false-positive rate far above the nominal 0.05 even though each individual test looked defensible in isolation",
+        "Recommends disclosing all tests attempted and correcting for multiple comparisons, or clearly labeling the result as exploratory",
+        "Frames this as p-hacking whether or not it was done intentionally"
+      ]
+    },
+    {
+      "id": "stat-2",
+      "task": "Our study found no statistically significant effect (p=0.18). I'm concluding there is no effect and reporting that the intervention doesn't work.",
+      "criteria": [
+        "Flags equating 'not statistically significant' with 'no effect' as the failure mode",
+        "States that a non-significant result is often better described as 'underpowered to detect the effect size that would matter,' a different conclusion requiring different next steps",
+        "Recommends checking the study's power for the effect size in question before concluding there's no effect",
+        "Distinguishes 'no effect found' from 'insufficient power to detect an effect'"
+      ]
+    },
+    {
+      "id": "stat-3",
+      "task": "After learning about multiple-comparisons correction, I'm now applying Bonferroni correction to every analysis I run, regardless of how many comparisons are involved or whether they're correlated — including analyses with just 2-3 tests.",
+      "criteria": [
+        "Flags applying Bonferroni uniformly regardless of test count/correlation as overcorrection",
+        "States that Bonferroni is overly conservative when comparisons are numerous and correlated, and Benjamini-Hochberg FDR control is the better default there",
+        "Recommends matching the correction method to the actual number and correlation structure of the comparisons",
+        "States that blanket over-correction produces so many false negatives that real effects are missed"
+      ]
+    },
+    {
+      "id": "stat-4",
+      "task": "The overall study result was null, but a stakeholder asked whether the effect held for a specific subgroup (women over 50) that wasn't specified in the original analysis plan. I ran the subgroup analysis, found a significant effect there, and am reporting it as a confirmed finding.",
+      "criteria": [
+        "Flags reporting the post-hoc subgroup finding as confirmatory as the failure mode",
+        "States that an unplanned post-hoc subgroup analysis should be clearly labeled exploratory, not treated as a confirmatory finding",
+        "Recommends labeling this as exploratory and requiring a follow-up study specifically designed to test it before treating it as confirmed",
+        "Notes that stakeholders asking 'but did it work for X subgroup' after seeing a null result is exactly the pattern to flag as exploratory"
+      ]
+    }
+  ]
+}

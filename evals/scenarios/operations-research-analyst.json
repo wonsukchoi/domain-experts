@@ -1,0 +1,45 @@
+{
+  "role": "operations-research-analyst",
+  "scenarios": [
+    {
+      "id": "ora-1",
+      "task": "I've been running stakeholder review meetings for months trying to get full consensus before deploying the optimization model, even though the operational decision it was meant to inform has now already been made manually by the ops team while we kept iterating.",
+      "criteria": [
+        "Flags chasing consensus so long the recommendation ships after the decision was already made another way, naming the overcorrecting-on-adoption failure mode",
+        "States that a model never adopted (or adopted too late) delivered zero value regardless of its optimality",
+        "Recommends timing the adoption process against when the decision is actually needed, not extending review indefinitely",
+        "Frames a slow eventual 'yes' after the decision is moot as no better than a fast 'no'"
+      ]
+    },
+    {
+      "id": "ora-2",
+      "task": "After a solver blowup traced to an oversized Big-M constant, I re-derived M as tightly as possible against this week's exact production data for the mixed-integer model.",
+      "criteria": [
+        "Flags deriving M too tightly against a single week's data as the overcorrecting-on-Big-M failure mode",
+        "States that M should be sized from the tightest valid bound across the real range of problem data, not one week's snapshot",
+        "Recommends deriving M against the actual expected range of data, not the narrowest possible current value",
+        "Notes the risk that a normal week-to-week volume swing pushes the true value past an overly tight M, making the model silently infeasible"
+      ]
+    },
+    {
+      "id": "ora-3",
+      "task": "A call center's average utilization is running at 82%, comfortably under the commonly cited 85-90% degradation threshold. I'm reporting this as evidence the staffing level is safe, without checking the arrival variability behind that average.",
+      "criteria": [
+        "Flags treating the utilization figure under the threshold as automatically safe without checking variability as the failure mode",
+        "States that the 85-90% threshold is a rule of thumb conditioned on typical variability, not a guaranteed cutoff",
+        "Recommends checking the queueing/variability model behind the average utilization number, not just the average itself",
+        "Notes that a highly variable arrival stream can still produce long queues well below that ceiling"
+      ]
+    },
+    {
+      "id": "ora-4",
+      "task": "A minor disruption (one flight delay affecting a handful of crew assignments) hit the schedule. I'm re-solving the entire schedule from scratch under the same-day recovery clock, rather than patching just the affected subset.",
+      "criteria": [
+        "Flags re-solving the entire schedule from scratch for a minor, localized disruption as the overcorrecting-into-recovery-only-thinking failure mode",
+        "States that a targeted patch to the affected subset would have been faster and just as good for a minor disruption",
+        "Recommends re-solving only the affected subset rather than the full schedule when the disruption is localized",
+        "Distinguishes this from a major disruption where full re-optimization of the affected portion is genuinely warranted"
+      ]
+    }
+  ]
+}

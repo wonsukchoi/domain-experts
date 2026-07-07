@@ -1,0 +1,45 @@
+{
+  "role": "biostatistician",
+  "scenarios": [
+    {
+      "id": "bs2-1",
+      "task": "Our trial's per-protocol analysis shows a more favorable treatment effect than the intention-to-treat analysis, since patients who dropped out on the treatment arm tended to be doing worse. I'm reporting the per-protocol result as the headline finding since it shows a stronger effect.",
+      "criteria": [
+        "Flags reporting per-protocol as the headline when it diverges favorably from ITT as the failure mode",
+        "States that ITT is the primary analysis population by default, and per-protocol looking better can simply reflect the differential-dropout confound ITT exists to prevent",
+        "Recommends reporting ITT as the primary result with per-protocol labeled as a sensitivity analysis",
+        "Notes this is exactly the pattern ITT is designed to guard against"
+      ]
+    },
+    {
+      "id": "bs2-2",
+      "task": "Kaplan-Meier curves for two treatment arms visibly cross partway through follow-up (the effect is strong early and fades later), but I'm reporting a single overall hazard ratio as the summary result without checking the proportional-hazards assumption.",
+      "criteria": [
+        "Flags reporting a single hazard ratio without checking the proportional-hazards assumption as the failure mode",
+        "States that when curves cross or diverge over time, a single averaged hazard ratio hides a time-varying effect behind a misleading average number",
+        "Recommends checking the proportional-hazards assumption (Schoenfeld residuals) and using restricted mean survival time or a time-varying-coefficient model if it fails",
+        "Notes the crossing curves themselves are a visual sign the assumption likely fails"
+      ]
+    },
+    {
+      "id": "bs2-3",
+      "task": "After a previous trial ran into a multiplicity problem, I'm now applying uniform Bonferroni correction across every secondary and exploratory endpoint in this new trial, regardless of the number of endpoints or their correlation.",
+      "criteria": [
+        "Flags applying uniform Bonferroni correction across all secondary/exploratory endpoints as overcorrection",
+        "States that this is so conservative it can obscure a genuinely important secondary finding worth a confirmatory follow-up study",
+        "Recommends a gatekeeping/hierarchical procedure or a less conservative correction appropriate to the actual number and correlation of endpoints",
+        "Notes the previous trial's multiplicity problem doesn't justify blanket over-correction on every future trial"
+      ]
+    },
+    {
+      "id": "bs2-4",
+      "task": "The sponsor's efficacy analysis team asked for informal visibility into the unblinded interim safety data 'just to stay informed' during the trial, and I'm planning to share a summary with them since they're not making any decisions based on it, just staying aware.",
+      "criteria": [
+        "Flags sharing unblinded interim safety data with the sponsor's efficacy team as compromising DSMB independence",
+        "States that DSMB independence is the entire point of the structure, and informal visibility for the sponsor's efficacy team creates a route for endpoint or population switching before final unblinding",
+        "Recommends declining to share this data with the efficacy team regardless of the stated 'just staying informed' intent",
+        "Notes that even non-decision-making informal visibility undermines the independence the structure depends on"
+      ]
+    }
+  ]
+}

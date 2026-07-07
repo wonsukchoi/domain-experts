@@ -1,0 +1,45 @@
+{
+  "role": "telecommunications-engineering-specialist",
+  "scenarios": [
+    {
+      "id": "tes-1",
+      "task": "This fiber link is well under its cable spec sheet's 'max distance' rating, so I'm confident it will work without calculating the actual loss budget (attenuation per km plus connector and splice losses) against the transceiver's power budget.",
+      "criteria": [
+        "Flags trusting the max-distance spec sheet figure instead of computing the actual loss budget as the failure mode",
+        "States that a fiber link's loss budget is cumulative arithmetic (attenuation, connectors, splices), not a distance rule of thumb",
+        "Recommends computing the full loss budget against the transceiver's specified power budget before assuming the link will work",
+        "Notes a link can be under its max-distance spec and still fail if too many connectors/splices were added along the path"
+      ]
+    },
+    {
+      "id": "tes-2",
+      "task": "I'm sizing the number of wireless access points for a new office floor based purely on square footage (one AP per X square feet), without conducting an RF site survey to account for construction materials and interference sources.",
+      "criteria": [
+        "Flags sizing AP count from square footage alone without an RF survey as the failure mode",
+        "States that construction materials and interference sources change effective coverage more than floor area does",
+        "Recommends a predictive RF site survey plus a post-install walk-test validation instead of a square-footage-only count",
+        "Notes the risk of coverage holes near dense materials or interference sources that a naive square-footage count misses"
+      ]
+    },
+    {
+      "id": "tes-3",
+      "task": "A cabling run just barely passed its insertion-loss certification threshold, clearing it by a very small margin. I'm recording this as a straightforward 'pass' with no distinction from a run that cleared the threshold comfortably.",
+      "criteria": [
+        "Flags treating a barely-passing certification the same as a comfortable-margin pass as the failure mode",
+        "States that a run passing at bare minimum margin is more likely to fail later from connector aging, added patch cords, or temperature",
+        "Recommends recording the actual margin, not just pass/fail, and flagging low-margin runs for attention",
+        "States that margin at test time is itself a piece of information, not just a binary result"
+      ]
+    },
+    {
+      "id": "tes-4",
+      "task": "The project timeline has cabling and hardware procurement starting immediately, but I'm planning to place the carrier circuit order only after cabling work is underway, once things feel more settled.",
+      "criteria": [
+        "Flags delaying the carrier circuit order past site confirmation as the failure mode",
+        "States that carrier circuit provisioning lead time is an external dependency measured in weeks and is usually the longest pole in the project",
+        "Recommends placing the order the day the site/service is confirmed, tracking lead time against every other milestone from day one",
+        "States that ordering late silently sets the project's real end date regardless of how fast other work moves"
+      ]
+    }
+  ]
+}

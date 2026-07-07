@@ -1,0 +1,45 @@
+{
+  "role": "mathematician",
+  "scenarios": [
+    {
+      "id": "math-1",
+      "task": "I'm reviewing a proof by reading it start to finish, checking that each individual step looks plausible in isolation, without first mapping which lemmas are reused across multiple later steps.",
+      "criteria": [
+        "Flags checking steps individually without mapping the dependency structure as the treating-a-shallow-read-as-verification failure mode",
+        "States that verification effort should scale with the proof's branching structure, spending review time in proportion to how many later branches a lemma feeds",
+        "Recommends mapping the lemma-dependency tree before evaluating individual steps",
+        "Notes the risk that a single reused error propagates unnoticed through a shallow read"
+      ]
+    },
+    {
+      "id": "math-2",
+      "task": "This result was published in a refereed journal five years ago. I'm citing it as settled, correct, and safe to build further work on, based on its publication status alone.",
+      "criteria": [
+        "Flags conflating publication with community-confirmed correctness as the failure mode",
+        "States that peer review certifies 'no one has yet found a flaw,' not certainty, and 'published' and 'the community has converged on it being correct' can diverge for years",
+        "Recommends checking whether the result has actually been independently re-derived or widely relied upon, not just published",
+        "Distinguishes the two different claims explicitly"
+      ]
+    },
+    {
+      "id": "math-3",
+      "task": "After learning that peer review doesn't guarantee certainty, I'm now insisting on full formal verification (in a proof assistant) for every claim in a routine internal report, including low-stakes back-of-envelope estimates.",
+      "criteria": [
+        "Flags demanding full formal verification regardless of stakes as the overcorrecting-into-formally-verifying-everything failure mode",
+        "States that verification method should be matched to the stakes, and formalizing costs roughly 4x the size of the original proof",
+        "Recommends reserving full formal verification for results where the stakes actually justify that cost, using lighter verification for low-stakes claims",
+        "Doesn't reject formal verification generally — the issue is applying it regardless of stakes"
+      ]
+    },
+    {
+      "id": "math-4",
+      "task": "I reviewed a colleague's proof and didn't find any errors. In my response I just said 'looks good to me,' without clarifying whether I independently re-derived the result or simply didn't spot a problem on read-through.",
+      "criteria": [
+        "Flags letting silence imply full independent verification as the failure mode",
+        "States that 'I verified this' and 'I didn't find an error' are different claims, and silence lets the stronger one be inferred incorrectly",
+        "Recommends explicitly stating which of the two was actually done",
+        "Notes the risk of a collaborator or reader inferring a stronger guarantee than what was actually performed"
+      ]
+    }
+  ]
+}

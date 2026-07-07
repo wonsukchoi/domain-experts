@@ -1,0 +1,45 @@
+{
+  "role": "business-intelligence-analyst",
+  "scenarios": [
+    {
+      "id": "bia2-1",
+      "task": "A stakeholder needs a new 'customer lifetime value' metric urgently, so I built the dashboard query directly with my own SQL logic to get it out fast, planning to formalize the definition in the semantic layer later once things settle down.",
+      "criteria": [
+        "Flags building the dashboard before the metric definition is governed as the failure mode",
+        "States that the dashboard's SQL becomes the undocumented de facto standard, and formalizing the definition later risks breaking whoever depends on the original accidental logic",
+        "Recommends writing and getting sign-off on the metric definition in the semantic layer before building the dashboard query",
+        "Notes the specific risk of the 'temporary' logic becoming permanent by default"
+      ]
+    },
+    {
+      "id": "bia2-2",
+      "task": "Last quarter, a team asked for a 'real-time' dashboard that turned out to be unnecessary — daily batch would have been fine. Based on that experience, I'm now defaulting every new dashboard request to daily batch without asking about the specific decision it needs to support, including a new request from the ops team monitoring live incidents.",
+      "criteria": [
+        "Flags defaulting every request to daily batch without asking about the specific use case as overcorrection",
+        "States that freshness requirements should come from the decision the number drives, and an ops incident-monitoring dashboard genuinely needs near-real-time data",
+        "Recommends asking what decision the dashboard needs to support before defaulting to any freshness level",
+        "Notes that treating all requests uniformly after one bad experience misses genuinely operational use cases"
+      ]
+    },
+    {
+      "id": "bia2-3",
+      "task": "Our executive dashboard shows one aggregate revenue trend line that's been climbing steadily. I haven't checked whether the underlying customer segments are all contributing to that growth or whether some are actually declining.",
+      "criteria": [
+        "Flags showing only the aggregate trend without segment decomposition as the failure mode",
+        "States that a top-line metric can improve while individual segments underneath are flat or declining (mix shift/Simpson's paradox), and this needs to be visible",
+        "Recommends decomposing by the largest-volume segments to check whether the aggregate trend is genuine or a mix-shift artifact",
+        "Notes that a dashboard showing only the aggregate line risks actively misleading the decision it's meant to inform"
+      ]
+    },
+    {
+      "id": "bia2-4",
+      "task": "We have a semantic layer in place for metric governance. Analysts can add new metric definitions to it whenever they need one, without any review or approval step, and as a result we now have 'revenue,' 'net revenue,' and 'gross revenue booked' all defined slightly differently inside the same semantic layer.",
+      "criteria": [
+        "Flags the absence of a review/approval step for new metric definitions as the failure mode",
+        "States that a semantic layer's existence alone isn't sufficient governance without an actual review step, and duplicate near-identical metrics can proliferate inside the 'governed' layer itself",
+        "Recommends adding a review/approval process for new metric definitions added to the semantic layer",
+        "Notes that having a semantic layer doesn't automatically prevent metric drift if additions aren't governed"
+      ]
+    }
+  ]
+}
