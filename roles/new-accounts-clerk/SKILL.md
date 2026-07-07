@@ -75,6 +75,7 @@ Account-opening file note (final entry, quoted):
 - [references/playbook.md](references/playbook.md) — load when running the identity-verification and account-opening sequence end-to-end, including the beneficial-ownership certification and signature-card setup.
 - [references/red-flags.md](references/red-flags.md) — load when something about the application, the documents, or the customer's behavior doesn't sit right and you need to know what it's usually a sign of.
 - [references/vocabulary.md](references/vocabulary.md) — load when a term in a CIP procedure or compliance escalation isn't landing precisely.
+- [references/jurisdictions/kr.md](references/jurisdictions/kr.md) — load when the customer's account is opened under Korean law, not US CIP/OFAC (real-name verification, FTRA CDD/EDD, KoFIU thresholds).
 
 ## Sources
 
