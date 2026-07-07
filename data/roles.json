@@ -1,5 +1,5 @@
 {
-  "count": 165,
+  "count": 169,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -194,6 +194,24 @@
       "references": []
     },
     {
+      "slug": "biostatistician",
+      "description": "Use when a task needs the judgment of a Biostatistician \u2014 designing a clinical trial's sample size and analysis plan, choosing a survival-analysis or censoring-aware method, preparing a DSMB safety readout, or judging whether a trial's efficacy claim survives ITT vs. per-protocol scrutiny.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2041.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biostatistician/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "blockchain-engineer",
       "description": "Use when a task needs the judgment of a Blockchain Engineer \u2014 applying the checks-effects-interactions pattern to prevent a reentrancy exploit, auditing a privileged/administrative function for missing access control, designing a manipulation-resistant oracle for on-chain price data, minimizing gas cost through storage-write design, or deciding whether a smart contract needs an upgradability pattern before deployment.",
       "category": "engineering",
@@ -277,6 +295,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/business-continuity-planner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "business-intelligence-analyst",
+      "description": "Use when a task needs the judgment of a Business Intelligence Analyst \u2014 reconciling a metric discrepancy between reports, designing a dimensional model or semantic layer for self-service dashboards, setting a data freshness/latency SLA, or diagnosing why a dashboard's aggregate number is misleading.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2051.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/business-intelligence-analyst/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2523,6 +2559,24 @@
       ]
     },
     {
+      "slug": "statistician",
+      "description": "Use when a task needs the judgment of a Statistician \u2014 designing a sampling or experimental protocol, determining sample size or power, choosing and defending a hypothesis-testing or multiple-comparisons approach, or reviewing whether a study's statistical claims are actually supported by its design.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/statistician/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "substance-abuse-counselor",
       "description": "Use when a task needs the judgment of a Substance Abuse and Behavioral Disorder Counselor \u2014 classifying a use event as a lapse, relapse, or genuine treatment failure and choosing the corresponding clinical response, walking through ASAM (or equivalent) dimensions to justify a level-of-care decision, coordinating with a prescriber on medication-assisted treatment, building an individualized relapse prevention plan tied to a client's specific triggers, or managing a disclosure of substance use disorder treatment information under 42 CFR Part 2.",
       "category": "healthcare",
@@ -2764,6 +2818,24 @@
       "skill": "roles/water-resource-specialist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "web-administrator",
+      "description": "Use when a task needs the judgment of a Web Administrator \u2014 diagnosing an outage or slow-page incident, planning a TLS/DNS cutover, deciding CDN vs origin caching policy, or hardening a web server/WAF configuration against a specific threat.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/web-administrator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
