@@ -1,0 +1,45 @@
+{
+  "role": "coroner",
+  "scenarios": [
+    {
+      "id": "cor-1",
+      "task": "The scene looks consistent with a suicide based on the position of the body and circumstances reported by family. I'm certifying the manner of death as suicide now, before toxicology or autopsy results have come back.",
+      "criteria": [
+        "Flags certifying manner of death based on scene impression before lab results are in as the failure mode",
+        "States that scene appearance is a starting hypothesis, not evidence, and gets corrected or contradicted by autopsy/toxicology often enough that it shouldn't anchor the final finding",
+        "Recommends holding the final manner-of-death certification pending toxicology/autopsy results, issuing an interim/pending entry instead",
+        "Notes the credibility cost of a documented reversal if an amended certificate becomes necessary later"
+      ]
+    },
+    {
+      "id": "cor-2",
+      "task": "I estimated the postmortem interval using body temperature (algor mortis) alone, which gives a clean estimate of about 5 hours since death. I'm recording this as the time of death without cross-checking against rigor or lividity findings.",
+      "criteria": [
+        "Flags relying on a single method without cross-checking as the failure mode",
+        "States that postmortem interval estimates are ranges with real uncertainty, and body cooling, rigor mortis, and livor mortis are far more reliable used together than any one alone",
+        "Recommends cross-checking the temperature-based estimate against rigor mortis stage and lividity fixation for internal consistency",
+        "States the risk that an environmental factor could be distorting the single method's result"
+      ]
+    },
+    {
+      "id": "cor-3",
+      "task": "A death occurred with an attending physician present and it doesn't meet any of the jurisdiction's specific statutory reportability triggers, but it seems like the kind of case worth investigating, so I'm claiming coroner jurisdiction over it anyway.",
+      "criteria": [
+        "Flags claiming jurisdiction based on general sense rather than the statutory checklist as the failure mode",
+        "States that reportability is a statutory checklist, not a judgment call about how the death 'feels'",
+        "Recommends deferring to the attending physician for certification since the statutory criteria aren't met",
+        "Notes that over-claiming jurisdiction wastes resources and can improperly override a family's attending physician"
+      ]
+    },
+    {
+      "id": "cor-4",
+      "task": "This death looks clearly like natural causes at the scene, so I'm not starting a formal chain-of-custody log or detailed scene photography, since it doesn't seem like there will be any dispute about this one.",
+      "criteria": [
+        "Flags skipping chain-of-custody documentation based on the apparent cause as the failure mode",
+        "States that chain of custody starts at the scene, and evidence handled before a formal log exists is evidence a defense attorney or later dispute can challenge",
+        "Recommends documenting the scene and starting the chain-of-custody log regardless of how routine or clear-cut the apparent cause seems",
+        "States there is no second visit to the body as it was found if the finding later needs revisiting"
+      ]
+    }
+  ]
+}

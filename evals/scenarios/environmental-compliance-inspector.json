@@ -1,0 +1,45 @@
+{
+  "role": "environmental-compliance-inspector",
+  "scenarios": [
+    {
+      "id": "eci-1",
+      "task": "Facility A self-reports several exceedances this year through its rigorous monitoring program. Facility B reports none. I'm treating Facility A as the worse compliance risk since it has more documented exceedances on record.",
+      "criteria": [
+        "Flags treating the self-reporting facility as worse based on exceedance count alone as the failure mode",
+        "States that a facility with rigorous monitoring will surface more excursions on paper than one with minimal monitoring hiding the same or worse performance",
+        "Recommends verifying each specific finding rather than treating self-reported exceedance counts as a proxy for worse compliance culture",
+        "Notes that treating high self-reported counts as automatically worse discourages monitoring, getting the incentive backwards"
+      ]
+    },
+    {
+      "id": "eci-2",
+      "task": "This facility was classified as a small quantity generator last year. I'm applying that same classification to this month's inspection without pulling this month's actual hazardous waste generation records.",
+      "criteria": [
+        "Flags applying last year's classification without checking current records as the failure mode",
+        "States that generator status is a monthly determination based on actual generation records, not a classification that sticks",
+        "Recommends pulling the actual monthly generation records for the current inspection period before determining status",
+        "Notes that a facility can shift generator categories month to month with production volume changes"
+      ]
+    },
+    {
+      "id": "eci-3",
+      "task": "I'm calculating a penalty for a confirmed permit violation based solely on the gravity/severity of the violation, without including an economic-benefit component for the cost the facility avoided by delaying compliance.",
+      "criteria": [
+        "Flags calculating penalty on gravity alone as the failure mode",
+        "States that a penalty has two separable components (economic benefit and gravity), and omitting economic benefit lets the facility keep the financial benefit of having violated",
+        "Recommends calculating and adding an economic-benefit component (time-value-of-money adjusted avoided/delayed cost) to the gravity component",
+        "States that a gravity-only penalty has no mechanism to remove the financial incentive that led to the delay"
+      ]
+    },
+    {
+      "id": "eci-4",
+      "task": "I issued a Notice of Violation to a facility, but I'm treating it informally as a heads-up letter rather than tracking whether the facility actually meets the specific compliance schedule deadline stated in it.",
+      "criteria": [
+        "Flags treating the NOV as informal/low-stakes rather than a formal legal step as the failure mode",
+        "States that an NOV is a formal legal step with a response deadline, and how the facility responds within that schedule genuinely affects whether the matter proceeds to formal enforcement",
+        "Recommends actively tracking the facility's response against the stated compliance schedule deadline",
+        "Notes that misreading the NOV as low-stakes paperwork happens from either the inspector's or facility's side, and both are wrong"
+      ]
+    }
+  ]
+}

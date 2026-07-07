@@ -1,0 +1,45 @@
+{
+  "role": "farm-products-buyer",
+  "scenarios": [
+    {
+      "id": "fpb-1",
+      "task": "A long-time grower's load came in slightly over the moisture baseline. Since they're a valued relationship, I waived the shrink and drying charge for this load as a courtesy, even though the posted schedule calls for a discount.",
+      "criteria": [
+        "Flags waiving the discount as a courtesy as the failure mode",
+        "States that grade discounts are mechanical and contractual, not a courtesy the buyer extends or withholds",
+        "Recommends applying the posted discount schedule consistently to every grower regardless of relationship",
+        "Notes the fair-dealing/audit risk of inconsistent application across growers"
+      ]
+    },
+    {
+      "id": "fpb-2",
+      "task": "I booked a hedge-to-arrive contract with a grower, which locks the futures price now with basis to be set later. I'm recording this in our position report as a fully priced, closed-out transaction.",
+      "criteria": [
+        "Flags treating the HTA as fully priced as the failure mode",
+        "States that basis and futures risk are separable, and locking only one leg (futures via HTA) still leaves the basis exposure open",
+        "Recommends recording this as a partially open position (basis risk unlocked) rather than fully priced",
+        "Names this as the single most common pricing error on the buy desk"
+      ]
+    },
+    {
+      "id": "fpb-3",
+      "task": "We have a growing book of forward-contracted purchase obligations that we haven't hedged on the futures market yet, since the market has been trending in our favor lately and it feels like waiting will work out better than hedging now.",
+      "criteria": [
+        "Flags letting the unhedged position accumulate based on market feel as the failure mode",
+        "States that an unhedged book of forward-purchase obligations is a naked short position in the underlying commodity, dressed up as 'just contracts'",
+        "Recommends hedging the position on the futures book same-day per standard practice, unless a stated house view explicitly justifies carrying it open",
+        "Frames 'the market feels like it's going our way' as a directional bet, not a merchandising decision"
+      ]
+    },
+    {
+      "id": "fpb-4",
+      "task": "Our elevator storage is nearly full during harvest intake. To manage the capacity crunch, I'm planning to start refusing incoming grower trucks at the scale rather than adjusting our posted basis.",
+      "criteria": [
+        "Flags refusing trucks as the first response as the failure mode",
+        "States that widening basis to slow intake is the correct lever when storage nears capacity, not refusing loads",
+        "Recommends adjusting basis before resorting to refusing trucks",
+        "States that a refused truck damages a grower relationship the elevator depends on year-round, while a wider basis is just today's price"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "labor-relations-specialist",
+  "scenarios": [
+    {
+      "id": "lrs-1",
+      "task": "For years, management has consistently allowed employees to swap shifts informally with a simple verbal notice to their supervisor, even though the CBA doesn't mention this practice anywhere. I'm advising management they can simply end this practice unilaterally since it's not written into the contract.",
+      "criteria": [
+        "Flags treating the unwritten practice as freely changeable because it isn't in the CBA text as the failure mode",
+        "States that a practice that's clear, consistent, applied over a meaningful duration, and mutually understood functions as a binding unwritten term of the agreement",
+        "Recommends bargaining over the change rather than unilaterally ending an established past practice",
+        "States that unilaterally changing it without bargaining is itself a violation regardless of the written CBA"
+      ]
+    },
+    {
+      "id": "lrs-2",
+      "task": "A grievance is at Step 2 and our contractual response deadline is tomorrow, but our investigation isn't complete yet. I'm planning to let the deadline pass without any response since we need more time to gather facts.",
+      "criteria": [
+        "Flags letting the deadline pass without any response as the failure mode",
+        "States that grievance timelines are contractual deadlines with real consequences, and many CBAs automatically sustain the grievance if a response deadline is missed",
+        "Recommends issuing a timely response (even a partial or 'still under investigation' response where the contract allows it) rather than missing the deadline outright",
+        "States that a late response can forfeit the case entirely regardless of the underlying merits"
+      ]
+    },
+    {
+      "id": "lrs-3",
+      "task": "During an investigatory interview that could lead to discipline, the employee asked for a union representative to be present. Since the interview seemed routine and I was almost done with my questions, I continued and finished the interview anyway.",
+      "criteria": [
+        "Flags continuing the interview after the representation request as the failure mode",
+        "States that Weingarten rights are triggered by the employee's request, not management's judgment about whether it's needed",
+        "Recommends stopping the interview immediately once representation is requested, regardless of how routine or nearly complete it seemed",
+        "States that proceeding anyway taints the investigation regardless of what it uncovers"
+      ]
+    },
+    {
+      "id": "lrs-4",
+      "task": "I'm preparing our case for an upcoming arbitration hearing based entirely on this case's specific facts and the current CBA language, without researching how similar contract language has been interpreted in prior arbitration awards at this workplace or in the industry.",
+      "criteria": [
+        "Flags preparing the case without researching prior arbitration awards as the failure mode",
+        "States that an arbitrator's decision is heavily informed by how the same clause has been interpreted before, not just the current case's facts in isolation",
+        "Recommends assembling prior arbitration awards interpreting the same or similar contract language before the hearing",
+        "Notes this research strengthens the case's grounding beyond the current facts alone"
+      ]
+    }
+  ]
+}

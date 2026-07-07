@@ -1,0 +1,45 @@
+{
+  "role": "logistics-analyst",
+  "scenarios": [
+    {
+      "id": "la-1",
+      "task": "A lane has low, sporadic shipment volume, but the per-unit rate on a dedicated FTL contract looks more attractive on paper than our current LTL rate, so I'm recommending we commit to the dedicated FTL contract for this lane.",
+      "criteria": [
+        "Flags committing to a dedicated FTL contract for low/irregular volume as the failure mode",
+        "States that a dedicated contract's economics depend on utilization that low, irregular volume won't deliver",
+        "Recommends staying with LTL or parcel for this lane despite the attractive per-unit FTL rate",
+        "Notes that the attractive rate on paper doesn't hold once actual utilization is considered"
+      ]
+    },
+    {
+      "id": "la-2",
+      "task": "I'm reporting this carrier's on-time performance using the carrier's own reported on-time metric (arrived at destination terminal), which shows 96% on-time.",
+      "criteria": [
+        "Flags using the carrier's self-reported metric instead of appointment-level OTIF as the failure mode",
+        "States that a carrier can report 'on-time' against a tracking event while missing the customer's actual required delivery window",
+        "Recommends measuring appointment-level OTIF (did delivery meet the customer's required window) instead of the carrier's self-reported metric",
+        "States that analyzing against the carrier's own metric hides real service failures"
+      ]
+    },
+    {
+      "id": "la-3",
+      "task": "We pay every freight invoice as submitted without auditing accessorial charges against the bill of lading, since checking every invoice would take too much staff time and most of them are probably correct anyway.",
+      "criteria": [
+        "Flags treating every invoice as presumptively correct without auditing as the failure mode",
+        "States that freight billing errors (accessorial mischarges, duplicate billing, incorrect reclassification) are systematic and recoverable, not occasional noise",
+        "Recommends implementing a freight audit program to catch discrepancies before payment",
+        "States that skipping this forgoes real, recoverable revenue"
+      ]
+    },
+    {
+      "id": "la-4",
+      "task": "A carrier had one particularly bad week with several late deliveries on a specific lane. Based on that one week, I'm recommending we switch carriers on this lane immediately.",
+      "criteria": [
+        "Flags reacting to a single bad week as an established trend as the failure mode",
+        "States that lane and carrier analysis needs enough volume and time period to be statistically meaningful, and a single bad week doesn't establish a trend",
+        "Recommends checking sample size (volume and time period) before drawing a conclusion, treating the single week as preliminary",
+        "Notes the risk of noisy, wrong decisions from reacting to normal variation as if it reflected underlying performance"
+      ]
+    }
+  ]
+}

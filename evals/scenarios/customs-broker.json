@@ -1,0 +1,45 @@
+{
+  "role": "customs-broker",
+  "scenarios": [
+    {
+      "id": "cb-1",
+      "task": "I'm classifying this shipment the same HTS heading we used for a similar product last year, since it worked fine then and this shipment looks close enough to that one.",
+      "criteria": [
+        "Flags classifying by analogy without re-checking current rulings/tariff schedule as the failure mode",
+        "States that CBP evaluates classification against the reasonable-care standard after the fact, and a binding ruling or schedule update since then could change the correct heading",
+        "Recommends re-checking CROSS for a current binding ruling and verifying the GRI reasoning fresh, not relying on last year's classification",
+        "Notes this creates a liability that surfaces at audit, not at entry"
+      ]
+    },
+    {
+      "id": "cb-2",
+      "task": "The commercial invoice shows a price of $40,000 for this shipment. The buyer separately supplied free tooling and molds to the manufacturer for this order, but since that tooling isn't on the invoice, I'm using $40,000 as the full customs value.",
+      "criteria": [
+        "Flags using the invoice price alone without adding the assist as the failure mode",
+        "States that buyer-supplied tooling, molds, or materials must be added back to customs value as an assist even if they never appear on the commercial invoice",
+        "Recommends calculating and adding the apportioned value of the assist to the customs value",
+        "States that customs value is the full transaction value, not just what's itemized on the invoice"
+      ]
+    },
+    {
+      "id": "cb-3",
+      "task": "This shipment moved through a USMCA member country during transit, so I'm claiming USMCA preferential duty treatment on the entry, without a valid certification of origin on file yet.",
+      "criteria": [
+        "Flags claiming the preference without a valid certification of origin as the failure mode",
+        "States that a trade agreement preference is an affirmative claim the importer must document, not a default that applies because goods moved through a member country",
+        "Recommends obtaining and retaining a valid certification of origin before claiming the preference",
+        "States that an unsupported claim is treated the same as any other unsupported duty-reduction claim"
+      ]
+    },
+    {
+      "id": "cb-4",
+      "task": "We discovered a duty overpayment from a wrongful classification on an entry that liquidated 190 days ago. I'm planning to file a protest once our internal review of the situation wraps up next week.",
+      "criteria": [
+        "Flags missing the 180-day protest window as a critical, non-recoverable error, given the entry already liquidated 190 days ago",
+        "States that a CBP protest must be filed within 180 days of liquidation and the window doesn't pause for internal review time",
+        "States that at 190 days past liquidation, the standard protest window has already closed, and this needs immediate escalation rather than waiting for review to finish",
+        "Recommends checking the liquidation date immediately upon discovering any overpayment/wrongful classification, not after internal review"
+      ]
+    }
+  ]
+}

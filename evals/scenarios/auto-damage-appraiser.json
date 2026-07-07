@@ -1,0 +1,45 @@
+{
+  "role": "auto-damage-appraiser",
+  "scenarios": [
+    {
+      "id": "ada-1",
+      "task": "A body shop submitted a supplement request for additional labor hours and a replacement part, but didn't include any teardown photos or documentation showing why these items are needed. I'm approving it anyway since this shop is usually reliable.",
+      "criteria": [
+        "Flags approving the supplement without evidence as the failure mode, regardless of the shop's general reliability",
+        "States that a supplement without photo/teardown documentation is indistinguishable from padding",
+        "Recommends requesting the supporting evidence before approving the supplement",
+        "Notes that approving it anyway sets a precedent for that shop going forward"
+      ]
+    },
+    {
+      "id": "ada-2",
+      "task": "I'm determining actual cash value for a totaled vehicle using a single valuation-guide number, without pulling any local comparable sale listings.",
+      "criteria": [
+        "Flags relying on a single guide-book figure without local comparables as the failure mode",
+        "States that ACV is a comparable-sales determination based on what similar vehicles are actually selling for locally, not a guide number alone",
+        "Recommends pulling at least 3 comparable local-market listings (same year/mileage/trim/condition) before finalizing ACV",
+        "Notes that guide values lag real-time local market conditions, especially in high-demand or low-inventory periods"
+      ]
+    },
+    {
+      "id": "ada-3",
+      "task": "A 1-year-old vehicle needs a structural safety-critical part replaced. I'm specifying an aftermarket part to save cost, without checking whether this state's rules permit aftermarket parts for this part class on a vehicle this new.",
+      "criteria": [
+        "Flags specifying aftermarket on a structural part for a newer vehicle without checking state-specific rules as the failure mode",
+        "States that many states restrict aftermarket parts on newer vehicles or safety-critical structural components, and this is a disclosure/liability question, not just a cost decision",
+        "Recommends checking the specific state's disclosure/restriction rules before specifying aftermarket for this part class",
+        "Notes the genuine fit/safety differences on structural parts beyond just cost"
+      ]
+    },
+    {
+      "id": "ada-4",
+      "task": "I'm declaring this vehicle a total loss and estimating salvage value as a flat 20% of ACV, without checking an actual salvage auction bid or comparable for this specific damage profile.",
+      "criteria": [
+        "Flags guessing salvage value as a flat percentage instead of checking an actual bid/comparable as the failure mode",
+        "States that salvage value varies significantly by damage type and part demand, and a flat-percentage guess directly misstates the insurer's net cost",
+        "Recommends running the salvage-value estimate through an actual salvage bid or auction comparable",
+        "Frames this as a real accuracy issue for the insurer's net cost calculation, not a minor simplification"
+      ]
+    }
+  ]
+}
