@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 19:46:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 19:57:53 +0000</lastBuildDate>
+  <item>
+    <title>Air Traffic Controller</title>
+    <link>https://domainexperts.dev/roles/air-traffic-controller/</link>
+    <guid>https://domainexperts.dev/roles/air-traffic-controller/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of an air traffic controller — sequencing and spacing arrivals/departures, resolving a projected loss of separation, applying wake-turbulence separation between mismatched aircraft categories, deciding when to query a read-back, or working a facility through a saturation/traffic-management event.</description>
+  </item>
+  <item>
+    <title>Ambulance Driver Attendant</title>
+    <link>https://domainexperts.dev/roles/ambulance-driver-attendant/</link>
+    <guid>https://domainexperts.dev/roles/ambulance-driver-attendant/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of an ambulance driver/attendant (non-EMT) — deciding emergency-vehicle driving mode, clearing an intersection under lights-and-siren, handling a scheduled inter-facility or discharge transport, securing and lifting a patient on a stretcher/gurney, or responding to time pressure from family or a sending facility to &quot;run it hot.</description>
+  </item>
+  <item>
+    <title>Commercial Pilot</title>
+    <link>https://domainexperts.dev/roles/commercial-pilot/</link>
+    <guid>https://domainexperts.dev/roles/commercial-pilot/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a commercial pilot — computing density-altitude-adjusted takeoff/landing distance against runway available, checking weight-and-balance CG against the envelope (not just gross weight), deciding an IFR/VFR go/no-go against personal minimums instead of legal minimums, interpreting a METAR/TAF (TEMPO/PROB groups, 1-2-3 alternate rule) for a go decision, or setting divert/turn-back triggers before a flight departs.</description>
+  </item>
+  <item>
+    <title>Crane Tower Operator</title>
+    <link>https://domainexperts.dev/roles/crane-tower-operator/</link>
+    <guid>https://domainexperts.dev/roles/crane-tower-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Crane and Tower Operator — deciding whether current gust readings require a stand-down given a specific load&#x27;s sail area, running a blind lift through a signal person when the pick or landing zone is outside the cab&#x27;s sightline, reading a fixed installation&#x27;s load chart at the counterweight/jib configuration actually installed, calculating each crane&#x27;s load share on a two-crane tandem pick, or judging when to set the jib to free-slew ahead of a wind event.</description>
+  </item>
+  <item>
+    <title>Heavy Truck Driver</title>
+    <link>https://domainexperts.dev/roles/heavy-truck-driver/</link>
+    <guid>https://domainexperts.dev/roles/heavy-truck-driver/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Heavy and Tractor-Trailer Truck Driver — planning a delivery commitment against Hours of Service clocks, deciding whether a load is properly cargo-secured before departure, categorizing a pre-trip inspection defect as out-of-service or driveable, handling an ELD malfunction or exception code, or weighing fatigue risk against dispatch pressure to keep rolling.</description>
+  </item>
+  <item>
+    <title>Industrial Truck Operator</title>
+    <link>https://domainexperts.dev/roles/industrial-truck-operator/</link>
+    <guid>https://domainexperts.dev/roles/industrial-truck-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Industrial Truck and Tractor Operator — checking a load against a forklift&#x27;s rated capacity and load center, judging stability-triangle tip-over risk before raising or tilting a load, verifying rack beam load-capacity before stacking a pallet, managing pedestrian-forklift traffic in a shared warehouse aisle, or deciding whether an operator needs recertification after an incident.</description>
+  </item>
+  <item>
+    <title>Locomotive Engineer</title>
+    <link>https://domainexperts.dev/roles/locomotive-engineer/</link>
+    <guid>https://domainexperts.dev/roles/locomotive-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a locomotive engineer — planning a brake application and train-handling sequence for a loaded train on a descending grade, interpreting a signal aspect and determining absolute versus permissive authority, managing slack-action risk during a throttle-to-brake transition, reasoning about a positive train control (PTC) penalty-brake enforcement event, or evaluating an Hours of Service rest-period question before accepting or continuing an assignment.</description>
+  </item>
+  <item>
+    <title>Railroad Conductor Yardmaster</title>
+    <link>https://domainexperts.dev/roles/railroad-conductor-yardmaster/</link>
+    <guid>https://domainexperts.dev/roles/railroad-conductor-yardmaster/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Railroad Conductor or Yardmaster — building an outbound train&#x27;s block order from a classification yard, verifying blue-signal protection before authorizing a move onto an occupied track, checking hazmat placarding and buffer-car placement against a train consist, deciding whether a train&#x27;s operative-brake percentage is legal to depart on, or running a shoving movement with radio/hand-signal point protection.</description>
+  </item>
+  <item>
+    <title>Refuse Collector</title>
+    <link>https://domainexperts.dev/roles/refuse-collector/</link>
+    <guid>https://domainexperts.dev/roles/refuse-collector/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a refuse and recyclable material collector — deciding whether to back a truck without a spotter, screening a recycling container for contamination, clearing a hopper/packer jam, or re-sequencing a route that&#x27;s running behind schedule.</description>
+  </item>
+  <item>
+    <title>Ship Captain</title>
+    <link>https://domainexperts.dev/roles/ship-captain/</link>
+    <guid>https://domainexperts.dev/roles/ship-captain/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Ship Captain / Deck Officer — determining give-way/stand-on status and the required collision-avoidance action in a crossing, overtaking, or head-on encounter, calculating available stability (GM) margin before a heavy-weather passage or a loading change, correcting a dead-reckoning track for set and drift, assessing STCW rest-hour compliance and watch-bill fatigue risk, or deciding whether to escalate a bridge situation to the master under Bridge Resource Management practice.</description>
+  </item>
+  <item>
+    <title>Shuttle Driver Chauffeur</title>
+    <link>https://domainexperts.dev/roles/shuttle-driver-chauffeur/</link>
+    <guid>https://domainexperts.dev/roles/shuttle-driver-chauffeur/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Shuttle Driver/Chauffeur — building a multi-stop pickup schedule with per-stop buffer time, deciding whether to hold or re-sequence a route when a passenger runs late, checking a manifest&#x27;s luggage against a vehicle&#x27;s cargo capacity, briefing on client-confidentiality norms for private transport, or setting defensive-driving following distance for passenger-carrying vehicles.</description>
+  </item>
+  <item>
+    <title>Transit Bus Driver</title>
+    <link>https://domainexperts.dev/roles/transit-bus-driver/</link>
+    <guid>https://domainexperts.dev/roles/transit-bus-driver/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:57:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a transit or intercity bus driver — running a pre-trip lift/ramp check, securing a wheelchair passenger, deciding whether to hold following distance and speed against on-time-performance pressure, de-escalating a passenger disturbance, or logging an ADA equipment failure and delay code.</description>
+  </item>
   <item>
     <title>Boilermaker</title>
     <link>https://domainexperts.dev/roles/boilermaker/</link>
