@@ -1,5 +1,5 @@
 {
-  "count": 187,
+  "count": 196,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -410,6 +410,24 @@
       ]
     },
     {
+      "slug": "chemist",
+      "description": "Use when a task needs the judgment of a Chemist \u2014 developing or validating an analytical method (HPLC, GC, spectroscopy), designing a synthesis route and reconciling a reaction yield, diagnosing an out-of-specification (OOS) lab result, interpreting a spectrum to confirm structure or purity, or reviewing a stability/degradation study.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chemist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "chief-executive",
       "description": "Use when a task needs the judgment of a CEO/chief executive \u2014 setting company strategy, allocating scarce resources (capital, headcount, attention) across competing priorities, making a call that only the top of the org can make, or communicating direction to the board, investors, or the whole company.",
       "category": "operations",
@@ -487,6 +505,24 @@
       "skill": "roles/claims-adjuster/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "clinical-counseling-psychologist",
+      "description": "Use when a task needs the judgment of a doctoral-level Clinical or Counseling Psychologist \u2014 building a psychological test battery to answer a referral question, interpreting a WAIS/MMPI/PAI profile against validity indices, working a differential diagnosis (e.g. ADHD vs. anxiety-driven inattention, depression vs. early dementia), or writing a feedback-session-ready diagnostic formulation report.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3033.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/clinical-counseling-psychologist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -958,6 +994,24 @@
       ]
     },
     {
+      "slug": "economist",
+      "description": "Use when a task needs the judgment of an Economist \u2014 estimating a demand elasticity or causal treatment effect from observational or experimental data, building a cost-benefit or welfare analysis for a policy or pricing decision, forecasting a macro or market aggregate under stated assumptions, or stress-testing whether a \"the data shows X\" claim survives a confounding-variable check.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/economist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "education-administrator-k12",
       "description": "Use when a task needs the judgment of a K-12 Education Administrator (principal/assistant principal/district administrator) \u2014 making a school-level policy or resource-allocation decision, handling a discipline or safety incident, evaluating a curriculum or staffing decision, or balancing competing demands from teachers, parents, students, and district requirements.",
       "category": "operations",
@@ -1135,6 +1189,42 @@
       "skill": "roles/environmental-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "environmental-scientist",
+      "description": "Use when a task needs the judgment of an environmental scientist \u2014 scoping or reviewing a Phase I/Phase II environmental site assessment, interpreting soil or groundwater sampling results against regulatory action levels, drafting an environmental impact statement or NEPA scoping document, running a contaminant fate-and-transport screening calc, or assessing ecological risk to a receptor.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-scientist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "epidemiologist",
+      "description": "Use when a task needs the judgment of an Epidemiologist \u2014 investigating a disease outbreak and identifying its source, designing a case-control or cohort study to test an exposure hypothesis, calculating attack rates/odds ratios/relative risk from surveillance data, evaluating whether a surveillance system is sensitive and timely enough to catch a real signal, or judging whether an observed case cluster is a true outbreak or expected background variation.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-1041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/epidemiologist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -1343,6 +1433,24 @@
       "skill": "roles/food-service-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "forensic-science-technician",
+      "description": "Use when a task needs the judgment of a Forensic Science Technician \u2014 processing a crime scene and collecting physical evidence, reconciling a chain-of-custody or evidence-count discrepancy, evaluating whether a pattern-match conclusion (print, tool mark, bloodstain, trace) overstates its scientific basis, or deciding whether a presumptive field test result is being treated with the right level of certainty.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/forensic-science-technician/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -1663,6 +1771,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/industrial-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "industrial-organizational-psychologist",
+      "description": "Use when a task needs the judgment of an industrial-organizational psychologist \u2014 validating a selection test or interview protocol, running an adverse-impact analysis on hiring or promotion data, designing a performance-rating system, conducting a job analysis to anchor KSAOs, or defending an assessment tool's job-relatedness under an OFCCP/EEOC audit. Distinct from hr-people-manager and hr-specialist, which execute hiring and leave/compliance programs \u2014 this role owns the psychometric and legal-defensibility science behind the selection and appraisal tools those roles use.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/industrial-organizational-psychologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2262,6 +2388,24 @@
       "skill": "roles/nuclear-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "occupational-health-safety-specialist",
+      "description": "Use when a task needs the judgment of an occupational health and safety specialist \u2014 running a workplace hazard assessment, investigating a recordable incident's root cause, interpreting industrial-hygiene sampling data (noise, chemical exposure) against OSHA limits, designing a hierarchy-of-controls fix, or building an OSHA 300-log-driven safety program review. Distinct from a security-management-specialist (human/physical-threat protection) \u2014 this role owns exposure, hazard, and injury risk from the work itself, not from bad actors.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-5011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/occupational-health-safety-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -3113,6 +3257,24 @@
       "audit_score": null,
       "skill": "roles/treasurer-controller/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "urban-regional-planner",
+      "description": "Use when a task needs the judgment of an Urban and Regional Planner \u2014 reviewing a rezoning or variance application against a comprehensive plan, sizing a traffic/parking impact from a proposed density change, running a fiscal-impact analysis on a development proposal, drafting a zoning-text-amendment recommendation, or preparing a staff report for a planning commission or council hearing.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/urban-regional-planner/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "ux-designer",

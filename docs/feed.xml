@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 12:14:27 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:32:05 +0000</lastBuildDate>
+  <item>
+    <title>Chemist</title>
+    <link>https://domainexperts.dev/roles/chemist/</link>
+    <guid>https://domainexperts.dev/roles/chemist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chemist — developing or validating an analytical method (HPLC, GC, spectroscopy), designing a synthesis route and reconciling a reaction yield, diagnosing an out-of-specification (OOS) lab result, interpreting a spectrum to confirm structure or purity, or reviewing a stability/degradation study.</description>
+  </item>
+  <item>
+    <title>Clinical Counseling Psychologist</title>
+    <link>https://domainexperts.dev/roles/clinical-counseling-psychologist/</link>
+    <guid>https://domainexperts.dev/roles/clinical-counseling-psychologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a doctoral-level Clinical or Counseling Psychologist — building a psychological test battery to answer a referral question, interpreting a WAIS/MMPI/PAI profile against validity indices, working a differential diagnosis (e.g. ADHD vs. anxiety-driven inattention, depression vs. early dementia), or writing a feedback-session-ready diagnostic formulation report.</description>
+  </item>
+  <item>
+    <title>Economist</title>
+    <link>https://domainexperts.dev/roles/economist/</link>
+    <guid>https://domainexperts.dev/roles/economist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Economist — estimating a demand elasticity or causal treatment effect from observational or experimental data, building a cost-benefit or welfare analysis for a policy or pricing decision, forecasting a macro or market aggregate under stated assumptions, or stress-testing whether a &quot;the data shows X&quot; claim survives a confounding-variable check.</description>
+  </item>
+  <item>
+    <title>Environmental Scientist</title>
+    <link>https://domainexperts.dev/roles/environmental-scientist/</link>
+    <guid>https://domainexperts.dev/roles/environmental-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an environmental scientist — scoping or reviewing a Phase I/Phase II environmental site assessment, interpreting soil or groundwater sampling results against regulatory action levels, drafting an environmental impact statement or NEPA scoping document, running a contaminant fate-and-transport screening calc, or assessing ecological risk to a receptor.</description>
+  </item>
+  <item>
+    <title>Epidemiologist</title>
+    <link>https://domainexperts.dev/roles/epidemiologist/</link>
+    <guid>https://domainexperts.dev/roles/epidemiologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Epidemiologist — investigating a disease outbreak and identifying its source, designing a case-control or cohort study to test an exposure hypothesis, calculating attack rates/odds ratios/relative risk from surveillance data, evaluating whether a surveillance system is sensitive and timely enough to catch a real signal, or judging whether an observed case cluster is a true outbreak or expected background variation.</description>
+  </item>
+  <item>
+    <title>Forensic Science Technician</title>
+    <link>https://domainexperts.dev/roles/forensic-science-technician/</link>
+    <guid>https://domainexperts.dev/roles/forensic-science-technician/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forensic Science Technician — processing a crime scene and collecting physical evidence, reconciling a chain-of-custody or evidence-count discrepancy, evaluating whether a pattern-match conclusion (print, tool mark, bloodstain, trace) overstates its scientific basis, or deciding whether a presumptive field test result is being treated with the right level of certainty.</description>
+  </item>
+  <item>
+    <title>Industrial Organizational Psychologist</title>
+    <link>https://domainexperts.dev/roles/industrial-organizational-psychologist/</link>
+    <guid>https://domainexperts.dev/roles/industrial-organizational-psychologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an industrial-organizational psychologist — validating a selection test or interview protocol, running an adverse-impact analysis on hiring or promotion data, designing a performance-rating system, conducting a job analysis to anchor KSAOs, or defending an assessment tool&#x27;s job-relatedness under an OFCCP/EEOC audit. Distinct from hr-people-manager and hr-specialist, which execute hiring and leave/compliance programs — this role owns the psychometric and legal-defensibility science behind the selection and appraisal tools those roles use.</description>
+  </item>
+  <item>
+    <title>Occupational Health Safety Specialist</title>
+    <link>https://domainexperts.dev/roles/occupational-health-safety-specialist/</link>
+    <guid>https://domainexperts.dev/roles/occupational-health-safety-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an occupational health and safety specialist — running a workplace hazard assessment, investigating a recordable incident&#x27;s root cause, interpreting industrial-hygiene sampling data (noise, chemical exposure) against OSHA limits, designing a hierarchy-of-controls fix, or building an OSHA 300-log-driven safety program review. Distinct from a security-management-specialist (human/physical-threat protection) — this role owns exposure, hazard, and injury risk from the work itself, not from bad actors.</description>
+  </item>
+  <item>
+    <title>Urban Regional Planner</title>
+    <link>https://domainexperts.dev/roles/urban-regional-planner/</link>
+    <guid>https://domainexperts.dev/roles/urban-regional-planner/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:31:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Urban and Regional Planner — reviewing a rezoning or variance application against a comprehensive plan, sizing a traffic/parking impact from a proposed density change, running a fiscal-impact analysis on a development proposal, drafting a zoning-text-amendment recommendation, or preparing a staff report for a planning commission or council hearing.</description>
+  </item>
   <item>
     <title>Aerospace Engineer</title>
     <link>https://domainexperts.dev/roles/aerospace-engineer/</link>
