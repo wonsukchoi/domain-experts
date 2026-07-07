@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:03:59 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:10:17 +0000</lastBuildDate>
+  <item>
+    <title>Court Reporter</title>
+    <link>https://domainexperts.dev/roles/court-reporter/</link>
+    <guid>https://domainexperts.dev/roles/court-reporter/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Court Reporter — producing a realtime or CART feed during a deposition or trial, triaging a QC pass on a draft transcript before certification, drafting or applying an errata sheet under FRCP 30(e), reading back testimony from steno notes on a judge&#x27;s request, or handling a sealed-record or in-camera confidentiality flag.</description>
+  </item>
+  <item>
+    <title>Fashion Designer</title>
+    <link>https://domainexperts.dev/roles/fashion-designer/</link>
+    <guid>https://domainexperts.dev/roles/fashion-designer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fashion Designer — costing a garment against a wholesale-margin target, calculating fabric yield/marker efficiency for a style, planning a seasonal collection&#x27;s SKU and colorway count, setting fit-grading tolerances across a size run, or diagnosing why a sample doesn&#x27;t match a tech pack.</description>
+  </item>
+  <item>
+    <title>Floral Designer</title>
+    <link>https://domainexperts.dev/roles/floral-designer/</link>
+    <guid>https://domainexperts.dev/roles/floral-designer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Floral Designer — costing an event or wedding floral proposal against a client budget, substituting for an out-of-season or unavailable stem, planning cold-chain/hydration timing so blooms peak on event day, or translating a vague client brief (&quot;romantic, garden-y, not too pink&quot;) into a concrete flower/color/mechanics plan.</description>
+  </item>
+  <item>
+    <title>Merchandise Displayer</title>
+    <link>https://domainexperts.dev/roles/merchandise-displayer/</link>
+    <guid>https://domainexperts.dev/roles/merchandise-displayer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Merchandise Displayer/Visual Merchandiser — planning a seasonal reset&#x27;s labor-hours against a store-closure window, deciding whether a window-display concept is converting foot traffic better than the last one, auditing planogram compliance in-store, or sequencing a fixture layout for eye-level/reach-zone product placement.</description>
+  </item>
+  <item>
+    <title>Photographer</title>
+    <link>https://domainexperts.dev/roles/photographer/</link>
+    <guid>https://domainexperts.dev/roles/photographer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional photographer — planning exposure/lighting for a shoot, building a shot list with coverage for an irreplaceable event, structuring a usage-licensing fee for commercial images, diagnosing a lighting or exposure problem from EXIF/histogram data, or setting up a non-destructive post-processing workflow.</description>
+  </item>
+  <item>
+    <title>Producer Director</title>
+    <link>https://domainexperts.dev/roles/producer-director/</link>
+    <guid>https://domainexperts.dev/roles/producer-director/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Producer/Director — building a shooting-day budget topsheet, sequencing a stripboard/one-line schedule, running a mid-shoot schedule-compression review, evaluating a greenlight/go-no-go financing decision, or making a casting/crew tradeoff under a locked budget.</description>
+  </item>
+  <item>
+    <title>Set Exhibit Designer</title>
+    <link>https://domainexperts.dev/roles/set-exhibit-designer/</link>
+    <guid>https://domainexperts.dev/roles/set-exhibit-designer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Set and Exhibit Designer — space-planning a stage or exhibit floor under a fixed load-in/strike window, running a sightline check against raked or flat seating, allocating a fabrication budget across scenic or exhibit elements, choosing a fabrication material for a limited-run install versus a touring one, or reconciling a crew-hour schedule against a fixed install window.</description>
+  </item>
+  <item>
+    <title>Sound Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/sound-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/sound-engineering-technician/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a sound engineering technician — diagnosing gain-staging/noise problems in a signal chain, hitting a platform&#x27;s loudness delivery spec (LUFS/true-peak), choosing mic placement to avoid phase cancellation, or troubleshooting a mix that &quot;sounds off&quot; but measures clean on a peak meter.</description>
+  </item>
+  <item>
+    <title>Special Effects Animator</title>
+    <link>https://domainexperts.dev/roles/special-effects-animator/</link>
+    <guid>https://domainexperts.dev/roles/special-effects-animator/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Special Effects Artist/Animator — planning a shot through the VFX pipeline (previz through comp), diagnosing why a shot &quot;feels wrong,&quot; budgeting render-farm time against a delivery deadline, or structuring a revision-round process with a director.</description>
+  </item>
   <item>
     <title>Art Director</title>
     <link>https://domainexperts.dev/roles/art-director/</link>
