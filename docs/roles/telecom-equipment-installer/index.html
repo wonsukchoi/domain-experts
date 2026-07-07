@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telecom Equipment Installer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a telecommunications equipment installer/repairer — certifying a structured-cabling run against TIA-568 channel and permanent-link limits, sizing a PoE power budget for a device at the end of a long cable run, triaging a &quot;the internet/phones are down&quot; call to determine whether the fault is the carrier&#x27;s or the customer&#x27;s side of the demarc, diagnosing choppy VoIP call quality by separating latency/jitter/packet-loss causes, or commissioning a PBX/hosted-VoIP system on a new premise build.">
+<link rel="canonical" href="https://domainexperts.dev/roles/telecom-equipment-installer/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Telecom Equipment Installer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a telecommunications equipment installer/repairer — certifying a structured-cabling run against TIA-568 channel and permanent-link limits, sizing a PoE power budget for a device at the end of a long cable run, triaging a &quot;the internet/phones are down&quot; call to determine whether the fault is the carrier&#x27;s or the customer&#x27;s side of the demarc, diagnosing choppy VoIP call quality by separating latency/jitter/packet-loss causes, or commissioning a PBX/hosted-VoIP system on a new premise build.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/telecom-equipment-installer/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Telecom Equipment Installer — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a telecommunications equipment installer/repairer — certifying a structured-cabling run against TIA-568 channel and permanent-link limits, sizing a PoE power budget for a device at the end of a long cable run, triaging a &quot;the internet/phones are down&quot; call to determine whether the fault is the carrier&#x27;s or the customer&#x27;s side of the demarc, diagnosing choppy VoIP call quality by separating latency/jitter/packet-loss causes, or commissioning a PBX/hosted-VoIP system on a new premise build.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Telecom Equipment Installer", "description": "Use when a task needs the judgment of a telecommunications equipment installer/repairer \u2014 certifying a structured-cabling run against TIA-568 channel and permanent-link limits, sizing a PoE power budget for a device at the end of a long cable run, triaging a \"the internet/phones are down\" call to determine whether the fault is the carrier's or the customer's side of the demarc, diagnosing choppy VoIP call quality by separating latency/jitter/packet-loss causes, or commissioning a PBX/hosted-VoIP system on a new premise build.", "url": "https://domainexperts.dev/roles/telecom-equipment-installer/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Telecom Equipment Installer", "item": "https://domainexperts.dev/roles/telecom-equipment-installer/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Telecom Equipment Installer</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Telecommunications Equipment Installer and Repairer</h2>
+<h3>Identity</h3>
+<p>Installs, terminates, and repairs premise-side telecommunications equipment — structured copper/fiber cabling inside a building, PBX and hosted-VoIP phone systems, and the customer-facing side of the carrier handoff — typically as a journeyman low-voltage/telecom technician working commercial fit-outs, MDU risers, and service calls for a carrier, systems integrator, or independent contractor. Accountable for a working circuit at the jack and, on every trouble call, for correctly placing the fault on one side of the demarcation point before a truck rolls or a customer gets blamed for a carrier problem. The defining tension: &quot;it&#x27;s not working&quot; has at least three unrelated root causes inside a single building — physical-layer cabling, PoE power delivery, and VoIP call quality/QoS — and the tech who reaches for a re-cable or a carrier escalation before isolating which layer actually failed burns time, trust, and truck rolls on the wrong fix.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The demarcation point is a contractual boundary, not a technical guess.</strong> Everything upstream of the NID (network interface device) belongs to the carrier; everything downstream is the customer&#x27;s problem — a tech&#x27;s first move on any &quot;it&#x27;s down&quot; call is proving, with a measurement taken *at* that point, which side the fault is on, before touching premise wiring or calling the carrier&#x27;s NOC.</li>
+<li><strong>TIA-568&#x27;s 100m channel limit is two limits, not one.</strong> The permanent link (fixed in-wall cabling) is separately capped at 90m; the channel (permanent link plus patch cords at both ends) is capped at 100m. A 92m permanent link fails certification even if total patch-cord length keeps the channel under 100m — attenuation and return loss are governed by the physical medium, and a longer permanent link eats into headroom regardless of what&#x27;s plugged in at either end.</li>
+<li><strong>PoE class-rated power at the switch is not power delivered at the device.</strong> Cable resistance over the run&#x27;s length drops real voltage under real current; a device that&#x27;s within its power class on paper can still brown out at the far end of a long run, especially during the brief inrush current spike most devices draw on power-up, which is larger than their steady-state draw.</li>
+<li><strong>VoIP call quality is three independent numbers, not one.</strong> Latency, jitter, and packet loss each degrade a call differently — latency causes delay/talk-over, jitter causes robotic/garbled audio as the receiving jitter buffer discards late packets, and loss causes gaps or dropouts — and a network that&#x27;s clean on any two of the three can still fail calls on the third. Treating &quot;the ping looks fine&quot; as sufficient QoS diagnosis misses jitter and loss entirely.</li>
+<li><strong>A cable that passes continuity doesn&#x27;t pass certification.</strong> A tone/continuity check confirms a signal reaches the far end on the right pins; TIA-568 certification additionally requires the run to meet attenuation, NEXT (near-end crosstalk), and return-loss limits at the rated frequency — a run can wire-map perfectly and still fail cert on a bad termination, which shows up as intermittent link drops under load, not a dead line.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a horizontal run&#x27;s permanent link measures within a few meters of 90m, default to treating it as already over the practical PoE and Cat6A/10GBASE-T margin</strong> even if it certifies — thermal drift, connector aging, or a future re-termination has no slack left to absorb.</li>
+<li><strong>When troubleshooting &quot;the internet/phones are down,&quot; default to testing at the demarc/NID first</strong>, not the reported jack — a clean carrier-side reading rules out a truck roll before premise wiring is even inspected.</li>
+<li><strong>When sizing PoE for a device near the end of a long cable run, default to checking delivered voltage at worst-case (highest) current draw, not the PSE&#x27;s rated output class alone</strong> — a Class 3 device on a 92m run can pass steady-state math and still brown out on inrush.</li>
+<li><strong>When a customer describes &quot;choppy&quot; or &quot;robotic&quot; audio specifically (not delay, not silence), default to suspecting jitter over bandwidth</strong> — that symptom maps to jitter-buffer discard, and a bandwidth upgrade alone won&#x27;t fix it.</li>
+<li><strong>Named framework — MOS (Mean Opinion Score) / E-model R-factor:</strong> useful for turning a subjective &quot;calls sound bad&quot; complaint into a number comparable across sites; overused when a single snapshot MOS reading is treated as definitive without confirming it was captured during the actual complaint window.</li>
+<li><strong>When a cert tester fails a run on NEXT or return loss but the run passes wire-map and length, default to suspecting termination quality</strong> (untwisted pair length at the jack, over-tight bend at a punch-down) <strong>over a cable defect</strong> — that failure signature points at the termination first.</li>
+<li><strong>When multiple PoE-powered runs are bundled together in a conduit or cable tray, default to checking the bundle&#x27;s thermal derating</strong> against the switch&#x27;s per-port power class — heat buildup in a large bundle can force an effective class downgrade below what each individual cable is rated for.</li>
+<li><strong>Overlash equivalent — never escalate to a carrier&#x27;s NOC without a specific demarc-side measurement in hand</strong> (&quot;loopback clean, 0% loss, 8ms RTT at 14:02&quot;) — a NOC will not prioritize &quot;the customer says it&#x27;s slow.&quot;</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Isolate the fault domain at the demarc/NID before touching premise wiring</strong> — run the carrier&#x27;s loopback or dial-tone/sync test at that exact point; a dirty reading there means the carrier owns the next step, a clean reading means the fault is inside the building.</li>
+<li><strong>If clean at the demarc, trace inward by layer</strong>: verify structured cabling (wire map, then certification-level length/attenuation/NEXT) against TIA-568 limits for the specific affected run before assuming a device or config fault.</li>
+<li><strong>If the affected device is PoE-powered, calculate delivered voltage/power at the device&#x27;s cable length and current draw</strong> — steady-state and inrush — before assuming a device hardware fault.</li>
+<li><strong>For PBX/VoIP quality complaints, capture latency, jitter, and packet loss concurrently during a reproduced call window</strong>, not a generic ping test, and map the specific symptom (delay vs. garble vs. dropout) to the metric that explains it.</li>
+<li><strong>Reconcile every finding against as-built documentation</strong> (TIA-606 patch panel/cross-connect labels) to confirm the physical run tested is the one actually serving the reported jack.</li>
+<li><strong>Remediate at the identified layer only</strong> — re-terminate or re-route for cabling, reclass the PoE budget or shorten the run for power, fix QoS tagging/jitter buffer for call quality, or escalate to the carrier with the specific demarc-side measurement in hand.</li>
+<li><strong>Re-test and document the certification or QoS result before closing the ticket</strong> — the next tech needs a real baseline, not a &quot;fixed, working now.&quot;</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li><strong>Cable certification tester</strong> (e.g. Fluke Networks DSX/Versiv-class) for TIA-568 permanent-link and channel certification — length, attenuation, NEXT, return loss — not a tone/continuity tester alone.</li>
+<li><strong>Punch-down tool</strong> for 110-block terminations and a <strong>patch-panel/cross-connect</strong> labeled per TIA-606 administration.</li>
+<li><strong>Inline PoE tester/meter</strong> reading actual delivered voltage and current at the device, separate from the switch port&#x27;s rated class.</li>
+<li><strong>VoIP QoS analyzer</strong> capturing latency, jitter, and packet loss concurrently, plus MOS/R-factor scoring during a live or synthetic call.</li>
+<li><strong>Demarc test set / smart-jack loopback tool</strong> for carrier-side circuit verification independent of anything on the customer&#x27;s premises.</li>
+<li><strong>PBX/hosted-VoIP administration console</strong> for SIP trunk registration, codec selection, and QoS tag (DSCP/802.1p) verification end to end — see <code>references/playbook.md</code> for filled worksheets.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the carrier&#x27;s NOC: the specific demarc-side measurement and timestamp, never &quot;customer says it&#x27;s slow&quot; — a NOC escalation without a measurement gets bounced. To the customer: a plain statement of which side of the wall the fault is on and why that determines who fixes it and who pays. To facilities/property management: as-built documentation update requests when a labeling or cross-connect record doesn&#x27;t match reality. To a PBX/VoIP vendor&#x27;s support desk: the jitter/latency/loss numbers from the capture window, not &quot;call quality is bad.&quot;</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Escalating to the carrier without a demarc-side measurement</strong>, burning a truck roll that bounces back as &quot;premise wiring, not ours.&quot;</li>
+<li><strong>Accepting a continuity/tone check as sufficient</strong> instead of full TIA-568 certification, missing intermittent-under-load failures that only show up on NEXT or return loss.</li>
+<li><strong>Sizing PoE from the switch port&#x27;s rated class alone</strong>, ignoring voltage drop and inrush current on a long run.</li>
+<li><strong>Treating every VoIP quality complaint as a bandwidth problem</strong>, missing jitter-buffer discard or loss-driven degradation that more bandwidth doesn&#x27;t fix.</li>
+<li><strong>Overcorrection: certifying every jack to full Cat6A/10GBASE-T specification</strong> even for phone-only or POS drops that will never carry that load, driving unnecessary material and labor cost on a fit-out.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Situation.</strong> A 40-desk insurance office runs VoIP phones on a hosted PBX over a carrier SIP trunk delivered on an Ethernet handoff. Facilities reports two complaints at once: (1) calls on the 3rd floor break into &quot;robotic,&quot; garbled audio, and (2) two specific desk phones on that floor reboot periodically during the day. IT&#x27;s first instinct is to blame &quot;the internet&quot; and request a carrier truck roll.</p>
+<p><strong>Naive read.</strong> Both symptoms get bundled into one ticket and escalated to the carrier as a single WAN problem.</p>
+<p><strong>Expert reasoning — three separate checks, in order.</strong></p>
+<p>*Demarc triage first.* The tech runs the carrier&#x27;s smart-jack loopback during the complaint window: 0% packet loss, 8ms round-trip. Clean. The carrier&#x27;s circuit is not the cause — no truck roll, and the fault is confirmed to be inside the building.</p>
+<p>*QoS capture for the garbled-audio complaint.* A QoS analyzer at the 3rd-floor switch during a reproduced call shows: one-way latency 45ms (well under the ITU-T G.114 150ms threshold), packet loss 0.2% (under the 1% threshold that causes audible dropouts), but jitter averaging 42ms with peaks to 65ms — well above the roughly 30ms a typical phone&#x27;s jitter buffer is sized to absorb. Jitter, not latency or loss, is the cause of &quot;robotic&quot; audio specifically, because it&#x27;s the metric that produces buffer discards rather than delay or silence. Fix: enable/verify DSCP EF (Expedited Forwarding) tagging for RTP traffic end to end and confirm the 3rd-floor switch is honoring it, not adding LAN bandwidth.</p>
+<p>*Cable certification and PoE arithmetic for the rebooting phones.* Both affected drops certify at a permanent-link length of 92.3m (NVP-corrected) — over the TIA-568-C.2 90m permanent-link cap, even though the total channel (92.3m link + 2m IDF cord + 3m desk cord = 97.3m) is under the 100m channel limit. Using the IEEE 802.3af worst-case cabling assumption of 20Ω loop resistance per 100m, scaled to 92.3m: 20 × 0.923 = 18.46Ω. At steady-state draw (Class 3, 350mA): voltage drop = 0.35A × 18.46Ω = 6.46V; delivered voltage = 44V (PSE minimum output) − 6.46V = 37.54V; delivered power = 37.54V × 0.35A = 13.14W — above the phone&#x27;s 12.95W Class 3 ceiling, so steady state passes with 0.19W to spare. But the field cert tester measures this run&#x27;s actual loop resistance at 21.3Ω (slightly higher than the textbook figure, from a marginal 110-block termination), and the phone&#x27;s documented power-up inrush spikes to roughly 700mA for a few tens of milliseconds: voltage drop at inrush = 0.7A × 21.3Ω = 14.91V; delivered voltage = 44 − 14.91 = 29.09V — below the phone&#x27;s ~30V undervoltage-lockout threshold, which is the reboot.</p>
+<p><strong>Deliverable — findings memo to IT and facilities:</strong></p>
+<p>&gt; <strong>Root causes, three separate issues — do not escalate to the carrier:</strong></p>
+<p>&gt; 1. <strong>Carrier circuit: clean.</strong> Smart-jack loopback during the complaint window showed 0% loss, 8ms RTT. Not a carrier fault.</p>
+<p>&gt; 2. <strong>Garbled audio: jitter, not bandwidth.</strong> Measured 42ms average / 65ms peak jitter against a ~30ms jitter-buffer tolerance, with latency (45ms) and loss (0.2%) both within threshold. Action: verify DSCP EF tagging for RTP is applied and honored end-to-end on the 3rd-floor switch; do not purchase additional WAN bandwidth for this symptom.</p>
+<p>&gt; 3. <strong>Two phones rebooting: marginal PoE on an over-length run, not a hardware fault.</strong> Both drops certify at 92.3m permanent link — over the 90m TIA-568-C.2 cap — with measured loop resistance of 21.3Ω. Steady-state power delivery passes (13.14W delivered vs. 12.95W Class 3 ceiling), but power-up inrush current (~700mA) drops delivered voltage to 29.09V, under the ~30V PD lockout threshold. Action: re-terminate both runs at the IDF to remove the marginal 110-block connection, and if permanent-link length can&#x27;t be reduced below 90m, relocate the switch port to a local PoE midspan closer to the desk rather than replacing the phones.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/telecom-equipment-installer/references/playbook.md"><code>references/playbook.md</code></a> — load when certifying a cabling run, sizing a PoE budget, capturing VoIP QoS, or triaging a demarc/NID call: the filled worksheets and threshold tables behind every calculation above.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/telecom-equipment-installer/references/red-flags.md"><code>references/red-flags.md</code></a> — load when reviewing a cert-tester report, a PoE deployment, or a QoS capture for a defect before closing a ticket.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/telecom-equipment-installer/references/vocabulary.md"><code>references/vocabulary.md</code></a> — load when a term of art is being used loosely in a trouble ticket or scope document in a way that changes what&#x27;s actually being measured or whose responsibility it is.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>ANSI/TIA-568.2-D — *Balanced Twisted-Pair Telecommunications Cabling and Components Standard*: permanent link (90m) and channel (100m) length limits, attenuation/NEXT/return-loss certification criteria by category.</li>
+<li>ANSI/TIA-606-C — *Administration Standard for Telecommunications Infrastructure*: patch panel, cross-connect, and jack labeling conventions referenced for as-built reconciliation.</li>
+<li>ANSI/TIA-607-D — *Generic Telecommunications Bonding and Grounding*: premise bonding requirements referenced in passing for equipment room work.</li>
+<li>BICSI *Telecommunications Distribution Methods Manual (TDMM)* — premise structured-cabling installation practice underlying the certification and termination-quality heuristics.</li>
+<li>IEEE 802.3af/802.3at/802.3bt — PoE power-class definitions, PSE/PD voltage and current specifications, and the worst-case cable-loss assumptions used in the voltage-drop worked example.</li>
+<li>TIA TSB-184-A — *Guidelines for Supporting Power Delivery Over Balanced Twisted-Pair Cabling*: bundled-cable thermal derating for PoE referenced in the mental models section.</li>
+<li>ITU-T G.114 — one-way transmission-time recommendation for acceptable voice quality (150ms threshold used in the worked example).</li>
+<li>ITU-T P.800 / the E-model (ITU-T G.107) — MOS and R-factor voice-quality scoring referenced in the mental models section.</li>
+<li>FCC demarcation point rules (47 CFR §68.3, historical Part 68 registration framework) and standard carrier tariff/NEC practice establishing the carrier/customer responsibility boundary at the NID.</li>
+<li>No direct premise-telecom practitioner has reviewed this file yet — flag corrections or gaps via PR.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/telecom-equipment-installer/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add telecom-equipment-installer</code></p>
+</footer>
+</body>
+</html>

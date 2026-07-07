@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 18:37:41 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 19:21:15 +0000</lastBuildDate>
+  <item>
+    <title>Audiovisual Equipment Installer</title>
+    <link>https://domainexperts.dev/roles/audiovisual-equipment-installer/</link>
+    <guid>https://domainexperts.dev/roles/audiovisual-equipment-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of an audiovisual equipment installer/repairer — diagnosing an EDID or HDCP handshake failure between a source and a display, sizing a display&#x27;s screen size and brightness for a room&#x27;s viewing distance and ambient light, specifying an HDMI/HDBaseT/AVoIP signal run against its rated distance ceiling, designing conference-room speaker placement and acoustics, or drawing the install-vs-programming boundary with a control-system (Crestron/Extron/AMX) integrator.</description>
+  </item>
+  <item>
+    <title>Auto Glass Installer Repairer</title>
+    <link>https://domainexperts.dev/roles/auto-glass-installer-repairer/</link>
+    <guid>https://domainexperts.dev/roles/auto-glass-installer-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of an auto-glass installer/repairer — deciding whether a chip or crack qualifies for resin repair versus full replacement, calculating a safe drive-away time for the adhesive and conditions on a job, determining whether a windshield replacement triggers ADAS camera recalibration, or diagnosing a cut-out/pinch-weld defect before it becomes a leak or corrosion claim.</description>
+  </item>
+  <item>
+    <title>Coin Vending Amusement Machine Servicer</title>
+    <link>https://domainexperts.dev/roles/coin-vending-amusement-machine-servicer/</link>
+    <guid>https://domainexperts.dev/roles/coin-vending-amusement-machine-servicer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Coin, Vending, and Amusement Machine Servicer and Repairer — triaging a jam across bill validators, coin mechanisms, refrigerated vending units, and arcade/amusement PCBs on a route, setting restock par levels against route-cycle economics, investigating a cash-collection variance at a stop, or applying food-safety temperature/time discard rules on perishable vending product.</description>
+  </item>
+  <item>
+    <title>Commercial Industrial Electronics Repairer</title>
+    <link>https://domainexperts.dev/roles/commercial-industrial-electronics-repairer/</link>
+    <guid>https://domainexperts.dev/roles/commercial-industrial-electronics-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Commercial and Industrial Electronics Repairer — diagnosing a VFD fault trip on a production line, tracing a PLC I/O fault back to the sensor, the wiring, or the ladder logic, selecting arc-flash PPE for live-panel diagnostic work, triaging multiple simultaneous down-lines by downtime-cost-per-hour, or deciding drive/board swap versus component-level repair.</description>
+  </item>
+  <item>
+    <title>Electric Motor Power Tool Repairer</title>
+    <link>https://domainexperts.dev/roles/electric-motor-power-tool-repairer/</link>
+    <guid>https://domainexperts.dev/roles/electric-motor-power-tool-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of an electric-motor and power-tool repairer — reading a megohmmeter/polarization-index test to catch a winding fault before failure, deciding rewind vs. replace on a failed induction motor, isolating a bearing fault from a broken-rotor-bar fault, judging brush/commutator wear on a universal motor, or evaluating whether a rewind was actually done to spec.</description>
+  </item>
+  <item>
+    <title>General Maintenance Repair Worker</title>
+    <link>https://domainexperts.dev/roles/general-maintenance-repair-worker/</link>
+    <guid>https://domainexperts.dev/roles/general-maintenance-repair-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a general maintenance and repair worker — triaging a mixed work-order queue at an apartment complex, school, or small commercial building, deciding whether a repair is safe to DIY or must be escalated to a licensed electrician/plumber/HVAC tech, sequencing preventive maintenance against reactive tickets, or writing an escalation handoff note for a subcontractor.</description>
+  </item>
+  <item>
+    <title>Machinery Maintenance Worker</title>
+    <link>https://domainexperts.dev/roles/machinery-maintenance-worker/</link>
+    <guid>https://domainexperts.dev/roles/machinery-maintenance-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Machinery Maintenance Worker — running a lubrication/PM route and deciding what&#x27;s normal wear versus a leading indicator worth flagging, setting duty-cycle-adjusted relube intervals and grease quantities, checking belt tension/deflection against spec, or deciding whether a route finding gets corrected on the spot versus escalated to a mechanic.</description>
+  </item>
+  <item>
+    <title>Mechanical Door Repairer</title>
+    <link>https://domainexperts.dev/roles/mechanical-door-repairer/</link>
+    <guid>https://domainexperts.dev/roles/mechanical-door-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mechanical Door Repairer — diagnosing an out-of-balance garage or overhead door, sizing and replacing torsion springs by cycle life instead of weight chart alone, verifying UL 325 entrapment protection on an automatic operator, specifying hardware for a high-cycle commercial dock door, or working out a track-alignment or cable-failure complaint.</description>
+  </item>
+  <item>
+    <title>Motor Vehicle Electronic Equipment Installer</title>
+    <link>https://domainexperts.dev/roles/motor-vehicle-electronic-equipment-installer/</link>
+    <guid>https://domainexperts.dev/roles/motor-vehicle-electronic-equipment-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs senior 12V/mobile-electronics installer judgment — wiring an amplifier and subwoofer(s) to a safe final impedance, setting amplifier gain against a measured reference instead of by ear, integrating remote start/alarm with a vehicle&#x27;s factory data bus without splicing into it, diagnosing a parasitic battery drain introduced by an aftermarket accessory, or deciding whether ADAS camera/radar recalibration is triggered by bumper/windshield work done for an install.</description>
+  </item>
+  <item>
+    <title>Refractory Materials Repairer</title>
+    <link>https://domainexperts.dev/roles/refractory-materials-repairer/</link>
+    <guid>https://domainexperts.dev/roles/refractory-materials-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Refractory Materials Repairer — selecting a refractory class for a furnace or kiln zone&#x27;s actual temperature and atmosphere, building a dry-out/cure schedule for castable refractory, sizing expansion joints in a new lining, deciding brick versus monolithic repair under a downtime deadline, or diagnosing a premature lining failure.</description>
+  </item>
+  <item>
+    <title>Telecom Equipment Installer</title>
+    <link>https://domainexperts.dev/roles/telecom-equipment-installer/</link>
+    <guid>https://domainexperts.dev/roles/telecom-equipment-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a telecommunications equipment installer/repairer — certifying a structured-cabling run against TIA-568 channel and permanent-link limits, sizing a PoE power budget for a device at the end of a long cable run, triaging a &quot;the internet/phones are down&quot; call to determine whether the fault is the carrier&#x27;s or the customer&#x27;s side of the demarc, diagnosing choppy VoIP call quality by separating latency/jitter/packet-loss causes, or commissioning a PBX/hosted-VoIP system on a new premise build.</description>
+  </item>
+  <item>
+    <title>Transportation Electrical Electronics Installer</title>
+    <link>https://domainexperts.dev/roles/transportation-electrical-electronics-installer/</link>
+    <guid>https://domainexperts.dev/roles/transportation-electrical-electronics-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:21:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transportation Electrical and Electronics Installer/Repairer — isolating a multiplex-network fault that presents as symptoms on two unrelated bus/rail-car systems at once, sizing and derating a harness repair for a vibration-heavy vehicle environment, diagnosing a battery-bank complaint that passes an open-circuit voltage check, routing/protecting a harness at a bulkhead penetration, or writing up a repeat-fault repair order.</description>
+  </item>
   <item>
     <title>Bicycle Repairer</title>
     <link>https://domainexperts.dev/roles/bicycle-repairer/</link>

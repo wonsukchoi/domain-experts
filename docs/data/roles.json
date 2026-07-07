@@ -1,5 +1,5 @@
 {
-  "count": 407,
+  "count": 419,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -490,6 +490,27 @@
       ]
     },
     {
+      "slug": "audiovisual-equipment-installer",
+      "description": "Use when a task needs the judgment of an audiovisual equipment installer/repairer \u2014 diagnosing an EDID or HDCP handshake failure between a source and a display, sizing a display's screen size and brightness for a room's viewing distance and ambient light, specifying an HDMI/HDBaseT/AVoIP signal run against its rated distance ceiling, designing conference-room speaker placement and acoustics, or drawing the install-vs-programming boundary with a control-system (Crestron/Extron/AMX) integrator.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2097.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/audiovisual-equipment-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "auto-body-repairer",
       "description": "Use when a task needs the judgment of an auto-body-repairer \u2014 deciding whether a damaged structural component gets pulled or replaced, reconciling an insurance estimate against actual teardown damage, writing a supplement, determining whether a repair triggers ADAS recalibration, or checking a proposed repair against an OEM position statement.",
       "category": "operations",
@@ -522,6 +543,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/auto-damage-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "auto-glass-installer-repairer",
+      "description": "Use when a task needs the judgment of an auto-glass installer/repairer \u2014 deciding whether a chip or crack qualifies for resin repair versus full replacement, calculating a safe drive-away time for the adhesive and conditions on a job, determining whether a windshield replacement triggers ADAS camera recalibration, or diagnosing a cut-out/pinch-weld defect before it becomes a leak or corrosion claim.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/auto-glass-installer-repairer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1293,6 +1335,27 @@
       ]
     },
     {
+      "slug": "coin-vending-amusement-machine-servicer",
+      "description": "Use when a task needs the judgment of a Coin, Vending, and Amusement Machine Servicer and Repairer \u2014 triaging a jam across bill validators, coin mechanisms, refrigerated vending units, and arcade/amusement PCBs on a route, setting restock par levels against route-cycle economics, investigating a cash-collection variance at a stop, or applying food-safety temperature/time discard rules on perishable vending product.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/coin-vending-amusement-machine-servicer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "commercial-diver",
       "description": "Use when a task needs the judgment of a Commercial Diver \u2014 planning a surface-supplied or SCUBA-mode dive against no-decompression limits, sizing a bailout/reserve gas supply before descent, choosing wet vs. dry (habitat) underwater welding for a repair, scoping an underwater NDT inspection, or deciding whether to abort a dive against a safety threshold.",
       "category": "operations",
@@ -1327,6 +1390,27 @@
       "skill": "roles/commercial-industrial-designer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "commercial-industrial-electronics-repairer",
+      "description": "Use when a task needs the judgment of a Commercial and Industrial Electronics Repairer \u2014 diagnosing a VFD fault trip on a production line, tracing a PLC I/O fault back to the sensor, the wiring, or the ladder logic, selecting arc-flash PPE for live-panel diagnostic work, triaging multiple simultaneous down-lines by downtime-cost-per-hour, or deciding drive/board swap versus component-level repair.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2094.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/commercial-industrial-electronics-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -2475,6 +2559,27 @@
       ]
     },
     {
+      "slug": "electric-motor-power-tool-repairer",
+      "description": "Use when a task needs the judgment of an electric-motor and power-tool repairer \u2014 reading a megohmmeter/polarization-index test to catch a winding fault before failure, deciding rewind vs. replace on a failed induction motor, isolating a bearing fault from a broken-rotor-bar fault, judging brush/commutator wear on a universal motor, or evaluating whether a rewind was actually done to spec.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electric-motor-power-tool-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "electrical-engineer",
       "description": "Use when a task needs the judgment of an Electrical Engineer working in power systems \u2014 sizing a service or feeder from NEC demand factors, running a short-circuit study and checking breaker interrupting ratings, computing arc-flash incident energy and assigning a PPE category, checking protective-device coordination (selectivity), or reviewing a single-line diagram before construction.",
       "category": "engineering",
@@ -3608,6 +3713,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/game-designer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "general-maintenance-repair-worker",
+      "description": "Use when a task needs the judgment of a general maintenance and repair worker \u2014 triaging a mixed work-order queue at an apartment complex, school, or small commercial building, deciding whether a repair is safe to DIY or must be escalated to a licensed electrician/plumber/HVAC tech, sequencing preventive maintenance against reactive tickets, or writing an escalation handoff note for a subcontractor.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/general-maintenance-repair-worker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4830,6 +4956,27 @@
       ]
     },
     {
+      "slug": "machinery-maintenance-worker",
+      "description": "Use when a task needs the judgment of a Machinery Maintenance Worker \u2014 running a lubrication/PM route and deciding what's normal wear versus a leading indicator worth flagging, setting duty-cycle-adjusted relube intervals and grease quantities, checking belt tension/deflection against spec, or deciding whether a route finding gets corrected on the spot versus escalated to a mechanic.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/machinery-maintenance-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "maid-housekeeping-cleaner",
       "description": "Use when a task needs the judgment of a hotel guest room attendant / housekeeper \u2014 sequencing a room turn under a per-room time budget, deciding checkout vs. stay-over vs. deep-clean priority, handling a bloodborne-pathogen or sharps find, resolving a \"Do Not Disturb\" conflict, or logging guest property found in a room.",
       "category": "operations",
@@ -4965,6 +5112,27 @@
       "skill": "roles/mathematician/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mechanical-door-repairer",
+      "description": "Use when a task needs the judgment of a Mechanical Door Repairer \u2014 diagnosing an out-of-balance garage or overhead door, sizing and replacing torsion springs by cycle life instead of weight chart alone, verifying UL 325 entrapment protection on an automatic operator, specifying hardware for a high-cycle commercial dock door, or working out a track-alignment or cable-failure complaint.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mechanical-door-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -5364,6 +5532,27 @@
       "skill": "roles/mortician-funeral-arranger/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "motor-vehicle-electronic-equipment-installer",
+      "description": "Use when a task needs senior 12V/mobile-electronics installer judgment \u2014 wiring an amplifier and subwoofer(s) to a safe final impedance, setting amplifier gain against a measured reference instead of by ear, integrating remote start/alarm with a vehicle's factory data bus without splicing into it, diagnosing a parasitic battery drain introduced by an aftermarket accessory, or deciding whether ADAS camera/radar recalibration is triggered by bumper/windshield work done for an install.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2096.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/motor-vehicle-electronic-equipment-installer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -6827,6 +7016,27 @@
       ]
     },
     {
+      "slug": "refractory-materials-repairer",
+      "description": "Use when a task needs the judgment of a Refractory Materials Repairer \u2014 selecting a refractory class for a furnace or kiln zone's actual temperature and atmosphere, building a dry-out/cure schedule for castable refractory, sizing expansion joints in a new lining, deciding brick versus monolithic repair under a downtime deadline, or diagnosing a premature lining failure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9045.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/refractory-materials-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "registered-nurse",
       "description": "Use when a task needs the judgment of a Registered Nurse \u2014 recognizing early clinical deterioration from vital-sign trends, prioritizing a multi-patient assignment by acuity, escalating a change in patient condition to a physician (SBAR), applying medication-safety checks under time pressure, or delegating tasks to techs/CNAs within their scope.",
       "category": "healthcare",
@@ -7790,6 +8000,27 @@
       ]
     },
     {
+      "slug": "telecom-equipment-installer",
+      "description": "Use when a task needs the judgment of a telecommunications equipment installer/repairer \u2014 certifying a structured-cabling run against TIA-568 channel and permanent-link limits, sizing a PoE power budget for a device at the end of a long cable run, triaging a \"the internet/phones are down\" call to determine whether the fault is the carrier's or the customer's side of the demarc, diagnosing choppy VoIP call quality by separating latency/jitter/packet-loss causes, or commissioning a PBX/hosted-VoIP system on a new premise build.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/telecom-equipment-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "telecom-line-installer",
       "description": "Use when a task needs the judgment of a telecommunications line installer/repairer \u2014 calculating an OTDR (optical time-domain reflectometer) loss budget for a new fiber run, sequencing pole attachment and make-ready coordination with a power utility on a joint-use pole, diagnosing a fault from OTDR traces before dispatching a truck, or evaluating whether a splice closure or bend-radius shortcut is actually safe to ship.",
       "category": "operations",
@@ -7986,6 +8217,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/translator-interpreter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "transportation-electrical-electronics-installer",
+      "description": "Use when a task needs the judgment of a Transportation Electrical and Electronics Installer/Repairer \u2014 isolating a multiplex-network fault that presents as symptoms on two unrelated bus/rail-car systems at once, sizing and derating a harness repair for a vibration-heavy vehicle environment, diagnosing a battery-bank complaint that passes an open-circuit voltage check, routing/protecting a harness at a bulkhead penetration, or writing up a repeat-fault repair order.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/transportation-electrical-electronics-installer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
