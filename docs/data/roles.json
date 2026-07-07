@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "count": 178,
+=======
+  "count": 187,
+>>>>>>> Stashed changes
   "roles": [
     {
       "slug": "accountant-controller",
@@ -80,6 +84,24 @@
       "references": []
     },
     {
+      "slug": "aerospace-engineer",
+      "description": "Use when a task needs the judgment of an Aerospace Engineer \u2014 reconciling a vehicle mass/weight budget against a certification limit, computing a structural margin of safety, choosing a means of compliance for an FAA certification basis, tracing a weight-growth overrun back to a design decision, or evaluating a propulsion/aerodynamics tradeoff against a range or payload requirement.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/aerospace-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "agricultural-manager",
       "description": "Use when a task needs the judgment of a Farmer, Rancher, or other Agricultural Manager \u2014 making a planting/breeding/production decision under weather and market uncertainty, managing land and input costs, evaluating a capital investment (equipment, irrigation), or deciding how to respond to a crop/livestock health issue.",
       "category": "operations",
@@ -107,6 +129,24 @@
       "skill": "roles/application-security-engineer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "architect",
+      "description": "Use when a task needs the judgment of a licensed Architect \u2014 programming a building's spatial/functional requirements against a budget, developing a design concept against a zoning/code envelope, evaluating a fee proposal or scope-creep request, resolving a code-compliance conflict between disciplines, or working through a construction-phase change order's cost and schedule impact.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/architect/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -210,6 +250,24 @@
       "audit_score": null,
       "skill": "roles/biomass-power-plant-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "biomedical-engineer",
+      "description": "Use when a task needs the judgment of a biomedical/bioengineering engineer \u2014 running a design control phase (inputs, outputs, verification, validation) for a medical device, scoring a Design FMEA and deciding whether a failure mode needs mitigation, planning a human factors/usability validation study, building a design traceability matrix, or writing a design verification or risk-mitigation report. Distinct from a regulatory-affairs-specialist (owns the submission/clearance process, not the engineering itself) and from a clinical-data-manager/biostatistician (trial data and analysis, not device design).",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biomedical-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "biostatistician",
@@ -333,6 +391,24 @@
       "skill": "roles/business-intelligence-analyst/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "chemical-engineer",
+      "description": "Use when a task needs the judgment of a Chemical Engineer \u2014 closing a mass/energy balance around a reactor or separation unit, evaluating scale-up risk from bench to pilot to plant, reviewing a HAZOP finding or LOPA scenario for a covered process, sizing relief for a runaway-reaction or fire case, or checking a process safety information (PSI) package against OSHA 1910.119 before startup.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chemical-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -942,6 +1018,24 @@
       "references": []
     },
     {
+      "slug": "electrical-engineer",
+      "description": "Use when a task needs the judgment of an Electrical Engineer working in power systems \u2014 sizing a service or feeder from NEC demand factors, running a short-circuit study and checking breaker interrupting ratings, computing arc-flash incident energy and assigning a PPE category, checking protective-device coordination (selectivity), or reviewing a single-line diagram before construction.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electrical-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "electrician",
       "description": "Use when a task needs the judgment of an Electrician \u2014 sizing a service panel upgrade with an NEC load calculation, troubleshooting a tripping breaker or dead circuit systematically, checking wire gauge/ampacity and voltage drop for a circuit run, resolving a code-vs-inspector interpretation dispute, or deciding when a job (aluminum wiring, knob-and-tube, undersized service) exceeds the immediate scope.",
       "category": "other",
@@ -1027,6 +1121,24 @@
       "skill": "roles/environmental-compliance-inspector/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "environmental-engineer",
+      "description": "Use when a task needs the judgment of an environmental engineer \u2014 designing or sizing a wastewater/water treatment process, drafting or reviewing an NPDES or Title V air permit application, scoping a contaminated-site remediation (RI/FS), evaluating whether a process change triggers a permit modification, or checking a discharge/emissions dataset against regulatory limits.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -1544,6 +1656,24 @@
       "references": []
     },
     {
+      "slug": "industrial-engineer",
+      "description": "Use when a task needs the judgment of an Industrial Engineer \u2014 balancing an assembly line against takt time, redesigning a facility layout to cut travel distance, setting a labor time standard from a time study, diagnosing which station is the real throughput bottleneck, or screening whether a proposed automation project's payback justifies the capital.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2112.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/industrial-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "industrial-production-manager",
       "description": "Use when a task needs the judgment of an Industrial Production Manager \u2014 running a manufacturing plant/production line, diagnosing a throughput or quality problem, planning capacity and staffing against demand, or evaluating a process change or capital investment on the production floor.",
       "category": "operations",
@@ -1675,6 +1805,24 @@
       "skill": "roles/labor-relations-specialist/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "landscape-architect",
+      "description": "Use when a task needs the judgment of a Landscape Architect \u2014 designing a site grading/drainage plan, selecting a planting palette for a climate and soil profile, resolving a hardscape-vs-planting tradeoff, sizing stormwater detention against a design storm, or navigating zoning setbacks and easements on a site plan.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-1012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/landscape-architect/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -2100,6 +2248,24 @@
       "skill": "roles/network-systems-administrator/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "nuclear-engineer",
+      "description": "Use when a task needs the judgment of a Nuclear Engineer \u2014 sizing radiation shielding against a dose target, screening a proposed plant change under 10 CFR 50.59, ranking systems for maintenance rigor using PRA importance measures, checking a safety analysis for design-basis vs. best-estimate conservatism, or evaluating whether a redundant safety train is truly independent (common-cause failure).",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2161.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nuclear-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ]

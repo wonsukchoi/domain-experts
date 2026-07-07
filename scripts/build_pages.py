@@ -143,11 +143,15 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:site_name" content="Domain Experts">
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{name} — Domain Experts">
 <meta name="twitter:description" content="{description}">
 <meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
 <script type="application/ld+json">{schema}</script>
+<script type="application/ld+json">{breadcrumb}</script>
 <script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
 <body>
@@ -179,6 +183,8 @@ def build():
     data = json.loads(DATA.read_text())
     roles = data["roles"]
     urls = []
+    added_dates = role_added_dates()
+    today = datetime.now(timezone.utc).date().isoformat()
 
     for r in roles:
         slug = r["slug"]
@@ -197,6 +203,14 @@ def build():
             "url": canonical,
             "inDefinedTermSet": f"{SITE_URL}/",
         })
+        breadcrumb = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": f"{SITE_URL}/"},
+                {"@type": "ListItem", "position": 2, "name": title_case(slug), "item": canonical},
+            ],
+        })
 
         page = PAGE_TEMPLATE.format(
             name=html.escape(title_case(slug)),
@@ -209,18 +223,22 @@ def build():
             maturity=html.escape(r["maturity"]),
             slug=slug,
             schema=schema,
+            breadcrumb=breadcrumb,
         )
 
         page_dir = OUT_DIR / slug
         page_dir.mkdir(parents=True, exist_ok=True)
         (page_dir / "index.html").write_text(page)
-        urls.append(f"{SITE_URL}/roles/{slug}/")
+
+        iso = added_dates.get(r["skill"])
+        lastmod = datetime.fromisoformat(iso).date().isoformat() if iso else today
+        urls.append((f"{SITE_URL}/roles/{slug}/", lastmod))
 
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-               f"  <url><loc>{SITE_URL}/</loc></url>"]
-    for u in urls:
-        sitemap.append(f"  <url><loc>{u}</loc></url>")
+               f"  <url><loc>{SITE_URL}/</loc><lastmod>{today}</lastmod></url>"]
+    for u, lastmod in urls:
+        sitemap.append(f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>")
     sitemap.append("</urlset>")
     (ROOT / "docs" / "sitemap.xml").write_text("\n".join(sitemap) + "\n")
 
