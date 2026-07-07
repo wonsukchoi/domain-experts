@@ -12,6 +12,7 @@
   <url><loc>https://domainexperts.dev/roles/auto-damage-appraiser/</loc></url>
   <url><loc>https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/biofuels-production-manager/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/bioinformatics-technician/</loc></url>
   <url><loc>https://domainexperts.dev/roles/biomass-power-plant-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/biostatistician/</loc></url>
   <url><loc>https://domainexperts.dev/roles/blockchain-engineer/</loc></url>
@@ -25,6 +26,7 @@
   <url><loc>https://domainexperts.dev/roles/child-family-social-worker/</loc></url>
   <url><loc>https://domainexperts.dev/roles/civil-engineer/</loc></url>
   <url><loc>https://domainexperts.dev/roles/claims-adjuster/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/clinical-data-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/clinical-research-coordinator/</loc></url>
   <url><loc>https://domainexperts.dev/roles/compensation-benefits-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/compensation-benefits-specialist/</loc></url>
@@ -32,7 +34,9 @@
   <url><loc>https://domainexperts.dev/roles/compliance-officer/</loc></url>
   <url><loc>https://domainexperts.dev/roles/computer-information-research-scientist/</loc></url>
   <url><loc>https://domainexperts.dev/roles/computer-information-systems-manager/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/computer-programmer/</loc></url>
   <url><loc>https://domainexperts.dev/roles/computer-systems-analyst/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/computer-systems-engineer-architect/</loc></url>
   <url><loc>https://domainexperts.dev/roles/computer-user-support-specialist/</loc></url>
   <url><loc>https://domainexperts.dev/roles/construction-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/coroner/</loc></url>
@@ -48,6 +52,7 @@
   <url><loc>https://domainexperts.dev/roles/database-architect/</loc></url>
   <url><loc>https://domainexperts.dev/roles/devops-sre/</loc></url>
   <url><loc>https://domainexperts.dev/roles/digital-forensics-analyst/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/document-management-specialist/</loc></url>
   <url><loc>https://domainexperts.dev/roles/education-administrator-k12/</loc></url>
   <url><loc>https://domainexperts.dev/roles/education-administrator-other/</loc></url>
   <url><loc>https://domainexperts.dev/roles/education-administrator-postsecondary/</loc></url>
@@ -72,6 +77,7 @@
   <url><loc>https://domainexperts.dev/roles/fraud-examiner/</loc></url>
   <url><loc>https://domainexperts.dev/roles/frontend-engineer/</loc></url>
   <url><loc>https://domainexperts.dev/roles/full-stack-developer/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/fundraiser/</loc></url>
   <url><loc>https://domainexperts.dev/roles/fundraising-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/funeral-home-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/gambling-manager/</loc></url>
@@ -90,6 +96,7 @@
   <url><loc>https://domainexperts.dev/roles/information-security-analyst/</loc></url>
   <url><loc>https://domainexperts.dev/roles/insurance-underwriter/</loc></url>
   <url><loc>https://domainexperts.dev/roles/investment-fund-manager/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/it-project-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/judge/</loc></url>
   <url><loc>https://domainexperts.dev/roles/judicial-law-clerk/</loc></url>
   <url><loc>https://domainexperts.dev/roles/labor-relations-specialist/</loc></url>
@@ -140,12 +147,14 @@
   <url><loc>https://domainexperts.dev/roles/real-estate-broker/</loc></url>
   <url><loc>https://domainexperts.dev/roles/registered-nurse/</loc></url>
   <url><loc>https://domainexperts.dev/roles/regulatory-affairs-manager/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/regulatory-affairs-specialist/</loc></url>
   <url><loc>https://domainexperts.dev/roles/retail-buyer/</loc></url>
   <url><loc>https://domainexperts.dev/roles/sales-account-executive/</loc></url>
   <url><loc>https://domainexperts.dev/roles/sales-engineer/</loc></url>
   <url><loc>https://domainexperts.dev/roles/sales-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/school-career-counselor/</loc></url>
   <url><loc>https://domainexperts.dev/roles/search-marketing-strategist/</loc></url>
+  <url><loc>https://domainexperts.dev/roles/security-management-specialist/</loc></url>
   <url><loc>https://domainexperts.dev/roles/security-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/social-community-service-manager/</loc></url>
   <url><loc>https://domainexperts.dev/roles/software-engineer/</loc></url>

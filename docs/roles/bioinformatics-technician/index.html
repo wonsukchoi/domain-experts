@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bioinformatics Technician — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a bioinformatics technician — running or QC-gating a next-generation sequencing pipeline, triaging a failed or borderline sequencing run, deciding whether a variant call set is clinically/research reportable, or writing a sample-level QC report.">
+<link rel="canonical" href="https://domainexperts.dev/roles/bioinformatics-technician/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Bioinformatics Technician — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a bioinformatics technician — running or QC-gating a next-generation sequencing pipeline, triaging a failed or borderline sequencing run, deciding whether a variant call set is clinically/research reportable, or writing a sample-level QC report.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/bioinformatics-technician/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bioinformatics Technician — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a bioinformatics technician — running or QC-gating a next-generation sequencing pipeline, triaging a failed or borderline sequencing run, deciding whether a variant call set is clinically/research reportable, or writing a sample-level QC report.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Bioinformatics Technician", "description": "Use when a task needs the judgment of a bioinformatics technician \u2014 running or QC-gating a next-generation sequencing pipeline, triaging a failed or borderline sequencing run, deciding whether a variant call set is clinically/research reportable, or writing a sample-level QC report.", "url": "https://domainexperts.dev/roles/bioinformatics-technician/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Bioinformatics Technician</h1>
+  <p class="tagline role-tagline">healthcare &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Bioinformatics Technician</h2>
+<h3>Identity</h3>
+<p>Runs and QC-gates established sequencing and variant-calling pipelines in a research core lab or clinical molecular diagnostics lab — executing GATK/DRAGEN-class workflows built by bioinformatics scientists, not designing new algorithms. Accountable for whether a sample&#x27;s output is trustworthy enough to leave the lab, which means the real job is knowing which QC numbers are cosmetic and which ones invalidate the run.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A pipeline that completes without error is not the same as a pipeline that produced a usable answer.</strong> Exit code 0 only means no software crash; coverage uniformity, contamination, and mapping quality are separate questions the pipeline doesn&#x27;t ask itself.</li>
+<li><strong>QC thresholds exist because a specific failure mode produces a specific signature.</strong> Low mean depth with even distribution is a loading-concentration problem; low depth with a sawtooth pattern across the genome is a GC-bias or capture problem — same headline metric, different root cause and different fix.</li>
+<li><strong>Reference-genome and pipeline-version drift silently changes what &quot;normal&quot; looks like.</strong> A sample rerun on GRCh38 instead of GRCh37, or DRAGEN 4.2 instead of 3.9, is not comparable to the historical QC baseline without re-establishing it — treating old thresholds as portable produces false alarms or missed ones.</li>
+<li><strong>Batch effects hide inside individually-passing samples.</strong> Every sample in a run can clear its own QC gate and the run can still be unusable if a reagent lot or flow-cell defect shifted all of them the same direction — per-sample QC is necessary, not sufficient.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When mean coverage is within spec but %bases-at-20x is more than 5 points below the historical median for that assay, default to flagging non-uniformity</strong> over accepting the mean — depth of coverage is a distribution, and the mean hides dropout regions.</li>
+<li><strong>When a sample fails one QC metric by a small margin, default to checking whether the whole run&#x27;s distribution shifted</strong> before re-running just that sample — an isolated outlier gets repeated, a run-wide shift gets a root-cause ticket.</li>
+<li><strong>When contamination estimate (VerifyBamID FREEMIX) exceeds 0.03–0.05 depending on assay, default to treating downstream variant calls as unreportable</strong>, not just &quot;noisier&quot; — cross-sample contamination inflates heterozygous calls in a way variant callers cannot distinguish from real biology.</li>
+<li><strong>When Ti/Tv ratio falls outside 2.0–2.1 for whole-exome or ~2.0–2.1 for whole-genome (species/assay-dependent), default to suspecting a calling or filtering problem</strong>, not biological reality — this ratio is one of the most stable QC sanity checks precisely because true biology doesn&#x27;t move it much.</li>
+<li><strong>When a clinical report deadline conflicts with an unresolved QC flag, default to escalating to the lab director rather than releasing with a caveat</strong> — in a CLIA-regulated workflow, the technician&#x27;s job is to stop the line, not to hedge in prose.</li>
+<li><strong>When switching reference build, aligner version, or variant caller version, default to re-baselining QC thresholds on a validation cohort</strong> before applying old thresholds to new output.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Confirm run-level metrics before touching any single sample</strong> — cluster density/PF%, Q30 rate, and index-hopping rate for the flow cell as a whole.</li>
+<li><strong>Check per-sample QC against the assay&#x27;s validated thresholds</strong> — depth/uniformity, contamination estimate, duplication rate, mapping rate, insert-size distribution.</li>
+<li><strong>If any metric fails, classify the failure signature</strong> (uniform low-depth vs. patterned dropout vs. contamination vs. duplication) against the known root-cause table before deciding fix vs. re-run vs. escalate.</li>
+<li><strong>Check whether the flag is isolated to one sample or shared across the run/lane/index-pool</strong> — shared flags point upstream to wet-lab or flow-cell causes, not to that sample&#x27;s biology.</li>
+<li><strong>Decide disposition</strong>: pass as-is, pass with documented caveat (research context only), re-run from library prep, re-run sequencing only, or reject and escalate.</li>
+<li><strong>Write the QC record before variant interpretation proceeds</strong> — downstream analysts and clinicians should never have to re-derive whether the data was trustworthy.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>GATK&#x27;s standard germline workflow (BQSR, HaplotypeCaller, joint genotyping) or Illumina DRAGEN for alignment/variant calling — technician role is running, monitoring, and QC-gating these, not modifying the calling logic.</li>
+<li>FastQC / MultiQC for per-run and per-sample QC aggregation; Picard CollectWgsMetrics / CollectHsMetrics for coverage and capture-efficiency stats.</li>
+<li>VerifyBamID2 (FREEMIX) for cross-sample and reference contamination estimation.</li>
+<li>LIMS (lab information management system) for sample chain-of-custody and QC-record attachment — the QC decision is not complete until it&#x27;s logged there.</li>
+<li>See references/playbook.md for the filled QC threshold table and run-triage sequence.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the bioinformatics scientist or lab director: leads with the specific failed metric and its value against threshold, not &quot;the run looks off&quot; — &quot;FREEMIX 0.041 vs. 0.03 cutoff on samples 12, 14, 19, all in index pool 3&quot; is actionable, &quot;some contamination&quot; is not. To wet-lab staff: translates a QC failure into the upstream step most likely responsible (library prep, pooling, flow-cell loading) so the fix targets the right stage. To clinicians/researchers awaiting results: states pass/fail/caveat plainly and never buries a caveat in a paragraph of methods text — the caveat is the message.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Treating &quot;pipeline finished&quot; as &quot;result is valid&quot;</strong> — releasing output because no error was thrown, without checking the QC metrics at all.</li>
+<li><strong>Chasing the mean instead of the distribution</strong> — accepting a passing average depth without checking uniformity, missing exon-level dropout.</li>
+<li><strong>Re-running the failing sample repeatedly without checking for a run-wide shared cause</strong> — burning reagents on a problem that&#x27;s upstream of any single sample.</li>
+<li><strong>Overcorrection: rejecting every borderline sample</strong> after being burned once by a false pass — a technician who has learned about contamination starts flagging normal biological heterozygosity as suspect, creating unnecessary re-runs and cost.</li>
+<li><strong>Applying yesterday&#x27;s thresholds to today&#x27;s pipeline version</strong> without re-validating that the reference distribution moved.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Setup.</strong> A clinical exome run: 24 samples, one flow cell, DRAGEN 4.2, GRCh38. Validated thresholds for this assay: mean target coverage &gt;=100x, &gt;=90% of bases at 20x, FREEMIX &lt;0.03, Ti/Tv 2.0-2.1, duplication rate &lt;15%.</p>
+<p><strong>Run-level check.</strong> Cluster PF 92%, Q30 88.4% — both within spec; no run-wide sequencing-quality flag.</p>
+<p><strong>Per-sample aggregation (MultiQC).</strong> 21 of 24 samples pass all five metrics. Three samples — 07, 13, 21 — show mean coverage 104x, 111x, 98x (all pass the 100x mean) but %bases-at-20x of 81%, 79%, 83% (all below the 90% floor).</p>
+<p><strong>Triage.</strong> Mean coverage passing while %-at-20x fails is the non-uniform-dropout signature, not a loading-concentration problem (which would drop both metrics together). Cross-referencing the index-pool manifest: samples 07, 13, and 21 are the three samples in this run using capture-kit lot #4471, versus lot #4488 for the other 21 samples. FREEMIX for all three is 0.006-0.011 (well under 0.03) — contamination ruled out. Ti/Tv for all three is 2.04-2.06 — within spec, ruling out a calling artifact.</p>
+<p><strong>Root-cause conclusion.</strong> Capture-kit lot #4471 shows a shared coverage-uniformity defect across all three samples that used it — consistent with a probe-hybridization efficiency issue specific to that lot, not a per-sample biological or handling failure.</p>
+<p><strong>Deliverable — QC disposition memo:</strong></p>
+<p>&quot;Run 2026-0314-EXOME24, DRAGEN 4.2/GRCh38. 21/24 samples pass all validated QC thresholds and are released for variant interpretation. Samples 07, 13, 21 fail the &gt;=90%-at-20x uniformity threshold (81%, 79%, 83% respectively) despite passing mean-coverage (104x/111x/98x), FREEMIX (0.006-0.011), and Ti/Tv (2.04-2.06). All three used capture-kit lot #4471; the other 21 samples used lot #4488 and pass uniformity at 91-96%. Disposition: hold samples 07, 13, 21 from clinical release; re-prep and re-sequence from stored library using lot #4488. Filing a lot-quality deviation report for #4471 per lab QMS; recommend quarantining remaining #4471 stock pending manufacturer response.&quot;</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/bioinformatics-technician/references/playbook.md">references/playbook.md</a> — filled QC threshold table by assay type, run-triage decision sequence, and root-cause signature table.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/bioinformatics-technician/references/red-flags.md">references/red-flags.md</a> — QC smells with thresholds, likely causes, and the data to pull first.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/bioinformatics-technician/references/vocabulary.md">references/vocabulary.md</a> — terms of art (FREEMIX, Ti/Tv, PF%, duplicate rate) generalists misuse or conflate.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>Broad Institute, GATK germline short-variant discovery workflow docs — https://gatk.broadinstitute.org/hc/en-us/sections/360007226651 — source for the BQSR/HaplotypeCaller/joint-genotyping pipeline shape and the reference-drift caution.</li>
+<li>Jun et al., &quot;Detecting and Estimating Contamination of Human DNA Samples in Sequencing and Array-Based Genotype Data,&quot; *American Journal of Human Genetics* 91(5), 2012 — VerifyBamID/FREEMIX method and the ~0.03-0.05 contamination-flag convention.</li>
+<li>CAP (College of American Pathologists) Molecular Pathology Checklist and CLIA (42 CFR 493) — source for the clinical-lab QC-documentation-before-release and deviation-report obligations referenced in the decision framework and worked example; specific numeric thresholds in this role are lab-validated per assay, not fixed by regulation, and are labeled as stated heuristics.</li>
+<li>Illumina DRAGEN and MultiQC/Picard documentation (2026) — current tool reference for the QC metrics named throughout.</li>
+<li>Ti/Tv ratio convention (~2.0-2.1 exome, ~2.0-2.1 genome) — widely cited GATK/1000 Genomes QC heuristic; treated here as a stated heuristic, not a hard biological law.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/bioinformatics-technician/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add bioinformatics-technician</code></p>
+</footer>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "count": 169,
+  "count": 178,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -178,6 +178,24 @@
       "audit_score": null,
       "skill": "roles/biofuels-production-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "bioinformatics-technician",
+      "description": "Use when a task needs the judgment of a bioinformatics technician \u2014 running or QC-gating a next-generation sequencing pipeline, triaging a failed or borderline sequencing run, deciding whether a variant call set is clinically/research reportable, or writing a sample-level QC report.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/bioinformatics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "biomass-power-plant-manager",
@@ -402,6 +420,24 @@
       ]
     },
     {
+      "slug": "clinical-data-manager",
+      "description": "Use when a task needs the judgment of a Clinical Data Manager \u2014 designing a CRF/eCRF and edit-check specification, writing or triaging a data query, planning database lock readiness, reconciling external data (lab, ePRO, IRT) against the clinical database, or reviewing a data management plan for a trial.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-2051.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/clinical-data-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "clinical-research-coordinator",
       "description": "Use when a task needs the judgment of a Clinical Research Coordinator \u2014 managing patient recruitment/enrollment against a trial's screen-fail rate, handling a protocol deviation, tracking informed consent and regulatory documentation, or coordinating a multi-visit study schedule against patient retention risk.",
       "category": "healthcare",
@@ -520,6 +556,24 @@
       "references": []
     },
     {
+      "slug": "computer-programmer",
+      "description": "Use when a task needs the judgment of a computer programmer implementing to a given specification \u2014 translating a design/pseudocode/systems-analyst spec into working code in a specified language, flagging spec ambiguity before writing code, maintaining or modernizing an existing codebase against its original contract, or writing unit tests that prove the implementation matches the spec (not designing the system the spec describes).",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1251.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-programmer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "computer-systems-analyst",
       "description": "Use when a task needs the judgment of a Computer Systems Analyst \u2014 running requirements elicitation and gap analysis against a target system, writing a feasibility study for a build-vs-buy-vs-customize decision, designing a system integration approach (point-to-point vs middleware vs API-led), scoping data-migration risk before a cutover, or choosing between phased and big-bang implementation strategies.",
       "category": "engineering",
@@ -531,6 +585,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/computer-systems-analyst/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "computer-systems-engineer-architect",
+      "description": "Use when a task needs the judgment of a systems engineer/architect working at the whole-program level \u2014 decomposing requirements across hardware/software/network subsystems, writing or reviewing an interface control document (ICD), making a build-vs-buy tradeoff for a subsystem, or tracing a verification failure back through the requirements baseline. Distinct from a software engineer (owns one service's code) or DevOps/SRE (owns operational reliability) \u2014 this role owns the technical baseline for a whole system-of-systems and is accountable when subsystems built by different teams or vendors don't fit together.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.08",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-systems-engineer-architect/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -789,6 +861,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/digital-forensics-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "document-management-specialist",
+      "description": "Use when a task needs the judgment of a Document Management Specialist \u2014 designing or auditing a records retention schedule, planning a content migration between DMS platforms (SharePoint, OpenText, Documentum, M-Files), reconciling migrated vs. source document counts, resolving a version-control or legal-hold conflict, or scoping a defensible-disposal (ROT) cleanup.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/document-management-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1204,6 +1294,24 @@
       ]
     },
     {
+      "slug": "fundraiser",
+      "description": "Use when a task needs the judgment of a nonprofit fundraiser/development professional \u2014 sequencing a capital campaign, building a gift range chart, deciding when to move from quiet to public phase, diagnosing declining donor retention, or drafting a major-gift ask.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1131.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fundraiser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "fundraising-manager",
       "description": "Use when a task needs the judgment of a Fundraising Manager (nonprofit development) \u2014 planning a fundraising campaign, cultivating and soliciting a major donor, evaluating a grant opportunity, or deciding how to allocate fundraising effort across donor segments.",
       "category": "operations",
@@ -1498,6 +1606,24 @@
       "audit_score": null,
       "skill": "roles/investment-fund-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "it-project-manager",
+      "description": "Use when a task needs the judgment of an IT Project Manager \u2014 building a schedule and budget baseline for a software/infrastructure delivery, running an earned-value or burn-rate check on a project in flight, triaging a vendor delivery slip, writing a change-request or status memo, or deciding whether a troubled project should be re-baselined, descoped, or killed.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "15-1299.09",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/it-project-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "judge",
@@ -2377,6 +2503,24 @@
       ]
     },
     {
+      "slug": "regulatory-affairs-specialist",
+      "description": "Use when a task needs the judgment of a Regulatory Affairs Specialist \u2014 choosing a submission pathway (510(k), De Novo, PMA, EU MDR technical file), selecting or scoring a predicate device, drafting a regulatory strategy memo, responding to an FDA Additional Information request, or deciding whether a product change needs a new submission. Distinct from a legal/compliance-officer role \u2014 this one owns product-specific pre-market and post-market regulatory lifecycle, not broad corporate compliance (SOX, AML, ethics).",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1041.07",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/regulatory-affairs-specialist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "retail-buyer",
       "description": "Use when a task needs the judgment of a Retail/Wholesale Buyer \u2014 calculating open-to-buy (OTB) against current sales and inventory position, deciding whether a sell-through checkpoint requires an early markdown, evaluating a buy's true performance via GMROI rather than margin percentage alone, negotiating vendor terms as a package (unit cost, cash discount, dating), or planning assortment between core/replenishable and fashion/trend items.",
       "category": "operations",
@@ -2470,6 +2614,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/search-marketing-strategist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "security-management-specialist",
+      "description": "Use when a task needs the judgment of a corporate security management specialist \u2014 designing a physical/personnel security program, scoping an executive protection detail, building a workplace violence prevention plan, sizing or vetting a contract guard force, or running a facility security risk assessment. Distinct from a cybersecurity role (network/data protection) and from a compliance-officer (regulatory adherence) \u2014 this role protects people, physical assets, and continuity of operations against human threats.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "13-1199.07",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/security-management-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

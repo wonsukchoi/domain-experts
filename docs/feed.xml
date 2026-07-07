@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 11:52:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:00:16 +0000</lastBuildDate>
+  <item>
+    <title>Bioinformatics Technician</title>
+    <link>https://domainexperts.dev/roles/bioinformatics-technician/</link>
+    <guid>https://domainexperts.dev/roles/bioinformatics-technician/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a bioinformatics technician — running or QC-gating a next-generation sequencing pipeline, triaging a failed or borderline sequencing run, deciding whether a variant call set is clinically/research reportable, or writing a sample-level QC report.</description>
+  </item>
+  <item>
+    <title>Clinical Data Manager</title>
+    <link>https://domainexperts.dev/roles/clinical-data-manager/</link>
+    <guid>https://domainexperts.dev/roles/clinical-data-manager/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Clinical Data Manager — designing a CRF/eCRF and edit-check specification, writing or triaging a data query, planning database lock readiness, reconciling external data (lab, ePRO, IRT) against the clinical database, or reviewing a data management plan for a trial.</description>
+  </item>
+  <item>
+    <title>Computer Programmer</title>
+    <link>https://domainexperts.dev/roles/computer-programmer/</link>
+    <guid>https://domainexperts.dev/roles/computer-programmer/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a computer programmer implementing to a given specification — translating a design/pseudocode/systems-analyst spec into working code in a specified language, flagging spec ambiguity before writing code, maintaining or modernizing an existing codebase against its original contract, or writing unit tests that prove the implementation matches the spec (not designing the system the spec describes).</description>
+  </item>
+  <item>
+    <title>Computer Systems Engineer Architect</title>
+    <link>https://domainexperts.dev/roles/computer-systems-engineer-architect/</link>
+    <guid>https://domainexperts.dev/roles/computer-systems-engineer-architect/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a systems engineer/architect working at the whole-program level — decomposing requirements across hardware/software/network subsystems, writing or reviewing an interface control document (ICD), making a build-vs-buy tradeoff for a subsystem, or tracing a verification failure back through the requirements baseline. Distinct from a software engineer (owns one service&#x27;s code) or DevOps/SRE (owns operational reliability) — this role owns the technical baseline for a whole system-of-systems and is accountable when subsystems built by different teams or vendors don&#x27;t fit together.</description>
+  </item>
+  <item>
+    <title>Document Management Specialist</title>
+    <link>https://domainexperts.dev/roles/document-management-specialist/</link>
+    <guid>https://domainexperts.dev/roles/document-management-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Document Management Specialist — designing or auditing a records retention schedule, planning a content migration between DMS platforms (SharePoint, OpenText, Documentum, M-Files), reconciling migrated vs. source document counts, resolving a version-control or legal-hold conflict, or scoping a defensible-disposal (ROT) cleanup.</description>
+  </item>
+  <item>
+    <title>Fundraiser</title>
+    <link>https://domainexperts.dev/roles/fundraiser/</link>
+    <guid>https://domainexperts.dev/roles/fundraiser/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a nonprofit fundraiser/development professional — sequencing a capital campaign, building a gift range chart, deciding when to move from quiet to public phase, diagnosing declining donor retention, or drafting a major-gift ask.</description>
+  </item>
+  <item>
+    <title>It Project Manager</title>
+    <link>https://domainexperts.dev/roles/it-project-manager/</link>
+    <guid>https://domainexperts.dev/roles/it-project-manager/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of an IT Project Manager — building a schedule and budget baseline for a software/infrastructure delivery, running an earned-value or burn-rate check on a project in flight, triaging a vendor delivery slip, writing a change-request or status memo, or deciding whether a troubled project should be re-baselined, descoped, or killed.</description>
+  </item>
+  <item>
+    <title>Regulatory Affairs Specialist</title>
+    <link>https://domainexperts.dev/roles/regulatory-affairs-specialist/</link>
+    <guid>https://domainexperts.dev/roles/regulatory-affairs-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Regulatory Affairs Specialist — choosing a submission pathway (510(k), De Novo, PMA, EU MDR technical file), selecting or scoring a predicate device, drafting a regulatory strategy memo, responding to an FDA Additional Information request, or deciding whether a product change needs a new submission. Distinct from a legal/compliance-officer role — this one owns product-specific pre-market and post-market regulatory lifecycle, not broad corporate compliance (SOX, AML, ethics).</description>
+  </item>
+  <item>
+    <title>Security Management Specialist</title>
+    <link>https://domainexperts.dev/roles/security-management-specialist/</link>
+    <guid>https://domainexperts.dev/roles/security-management-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 18:59:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a corporate security management specialist — designing a physical/personnel security program, scoping an executive protection detail, building a workplace violence prevention plan, sizing or vetting a contract guard force, or running a facility security risk assessment. Distinct from a cybersecurity role (network/data protection) and from a compliance-officer (regulatory adherence) — this role protects people, physical assets, and continuity of operations against human threats.</description>
+  </item>
   <item>
     <title>Biostatistician</title>
     <link>https://domainexperts.dev/roles/biostatistician/</link>
