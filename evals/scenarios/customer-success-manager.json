@@ -1,0 +1,45 @@
+{
+  "role": "customer-success-manager",
+  "scenarios": [
+    {
+      "id": "csm-1",
+      "task": "I just found out the champion who originally bought our product at one of my accounts left the company last month. I've never really talked to anyone else there since she handled everything from their side and things were going smoothly. The account isn't up for renewal for a few more months so I'm not too worried yet.",
+      "criteria": [
+        "Names the champion's departure as a five-alarm signal, not a footnote, regardless of the renewal timeline",
+        "States that single-threading through one relationship left the CSM with no visibility into or relationship with other stakeholders",
+        "Recommends immediately identifying and building relationships with other stakeholders now rather than waiting for the renewal conversation to force it",
+        "States that the value case likely needs to be rebuilt from scratch with whoever remains, since the new stakeholders weren't part of the original buying decision"
+      ]
+    },
+    {
+      "id": "csm-2",
+      "task": "I try to give every account in my book the same level of attention — a monthly check-in call and equal response time — since it seems like the fairest way to manage my book of 80 accounts without playing favorites.",
+      "criteria": [
+        "Flags equal effort across all accounts as a failure mode, naming it as treating every account equally instead of triaging by health x value",
+        "States that this wastes scarce time on healthy or low-value accounts at the expense of at-risk, high-value accounts where intervention would actually change the outcome",
+        "Recommends segmenting the book explicitly by value and health first, before deciding effort allocation",
+        "Notes that 'fairness' framed as equal time isn't actually the right goal — the goal is where intervention changes the outcome"
+      ]
+    },
+    {
+      "id": "csm-3",
+      "task": "For this quarter's business review with a key account, I'm planning to walk through everything new we've shipped in the product over the last quarter — it's a good chance to showcase the roadmap and get them excited about what's coming.",
+      "criteria": [
+        "Flags a feature-showcase QBR as the feature-dumping failure mode rather than an effective use of the meeting",
+        "States that the QBR's actual purpose is restating achieved value in the customer's own business terms (time saved, revenue impact, risk reduced), not a feature-usage report",
+        "Recommends connecting any new features specifically back to the outcome the customer bought, rather than presenting them as general roadmap news",
+        "Notes that leaving the value connection for the customer to make themselves usually means they won't make it, and it needs to be stated explicitly"
+      ]
+    },
+    {
+      "id": "csm-4",
+      "task": "One of my accounts has been at-risk for months — usage has never really taken off despite three separate re-onboarding attempts, extra training sessions, and weekly check-ins from me. I'm planning to double down further this quarter with even more hands-on sessions since I don't want to give up on them.",
+      "criteria": [
+        "Raises the possibility that this is a genuine fit mismatch rather than a savable at-risk account, given repeated intervention attempts with no improvement",
+        "Names this as the over-rescuing-lost-causes failure mode — pouring disproportionate effort into an account that may not have been a fit from the start",
+        "States that continuing to pour effort here has an opportunity cost: it takes time away from other accounts where intervention would actually work",
+        "Recommends diagnosing whether this is fundamentally a fit problem before committing to more of the same intervention that has already failed multiple times"
+      ]
+    }
+  ]
+}

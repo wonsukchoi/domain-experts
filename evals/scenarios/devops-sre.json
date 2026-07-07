@@ -1,0 +1,45 @@
+{
+  "role": "devops-sre",
+  "scenarios": [
+    {
+      "id": "sre-1",
+      "task": "Leadership wants us to target 100% uptime for our checkout service going forward — no downtime is acceptable given how important checkout is to revenue. I think that's the right goal to set for the team.",
+      "criteria": [
+        "Rejects 100% as the right target, naming it the 'chasing 100% uptime' failure mode where every nine is pursued regardless of cost",
+        "States that each additional nine of reliability costs disproportionately more than the last, and the target should come from actual user/business tolerance, not an instinct that more is always better",
+        "Recommends setting a specific SLO derived from what failure rate users/business would actually notice or be harmed by, rather than an absolute zero-downtime target",
+        "Frames over-investing in reliability as waste, symmetric with under-investing being risk"
+      ]
+    },
+    {
+      "id": "sre-2",
+      "task": "Our monitoring pages the on-call engineer for every anomaly we can detect — any latency blip, any single failed health check, any metric that deviates from its 7-day average — since we'd rather be safe and catch everything than miss something. Response times to real incidents have been getting slower lately, but I think it's just because the team is busy.",
+      "criteria": [
+        "Names this explicitly as alert fatigue — paging on every anomaly regardless of actionability",
+        "Connects the slowing response times to the noise itself, not team busyness — real signals get lost and responders start ignoring pages",
+        "Recommends tuning alerts to page only on actionable, meaningful signals (tied to the four golden signals / user impact) rather than every statistical deviation",
+        "Distinguishes alerts worth paging on from alerts worth only logging/dashboarding"
+      ]
+    },
+    {
+      "id": "sre-3",
+      "task": "We just finished the postmortem for last week's outage. The root cause section names the specific engineer who pushed the change that caused it and recommends that engineer get more code review scrutiny going forward. The rest of the team seems satisfied that we found 'who' caused it.",
+      "criteria": [
+        "Names this as a blameful postmortem and flags it as the wrong pattern regardless of whether the identified engineer's change technically triggered the incident",
+        "States that blaming an individual teaches people to hide problems rather than surface them early, and predicts this suppresses honest reporting going forward",
+        "Recommends reframing the postmortem around systemic questions — what would have caught this sooner or contained it smaller — rather than who to hold responsible",
+        "Recommends concrete action items with owners and dates aimed at the system/process, not increased scrutiny on one person"
+      ]
+    },
+    {
+      "id": "sre-4",
+      "task": "Our infrastructure is defined in Terraform, but during an incident last month an engineer made a quick manual change directly in the cloud console to stop the bleeding, and it worked, so we left it in place rather than backporting it into the Terraform config — no need to touch the code since production is already fixed and stable.",
+      "criteria": [
+        "Names this as configuration drift and flags it as a real problem even though the immediate fix worked and production is currently stable",
+        "States that production state existing outside of what's defined in code is not reproducible, reviewable, or recoverable under future pressure",
+        "Recommends backporting the manual change into the IaC definition (or reverting it in favor of a proper code change) so the actual running state matches what's declared",
+        "Distinguishes the legitimate mid-incident manual fix (stabilize first) from the mistake of never reconciling it back into code afterward"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "accountant-controller",
+  "scenarios": [
+    {
+      "id": "ac-1",
+      "task": "During bank reconciliation this month, I found a $340 difference between our book balance and the bank statement that I can't immediately explain. It's a tiny amount relative to our size, so I'm just going to book a plug entry to make the reconciliation balance and move on to close the books on time.",
+      "criteria": [
+        "Rejects plugging the difference without investigating its cause, naming this as the reconciling-items-away failure mode",
+        "States that an unexplained variance can mask a real, growing error even when the current-period dollar amount is small",
+        "Recommends investigating the $340 to root cause before closing, rather than treating dollar size alone as justification to skip investigation",
+        "Distinguishes a genuinely immaterial, understood variance from an unexplained one — the issue is the lack of explanation, not just the amount"
+      ]
+    },
+    {
+      "id": "ac-2",
+      "task": "We found a $50,000 revenue recognition error, but since our annual revenue is $80M, that's well under 1% — I'm going to call this immaterial and not bother adjusting or disclosing it.",
+      "criteria": [
+        "Rejects treating a percentage-of-revenue threshold alone as sufficient without a real materiality analysis, naming the materiality-as-excuse failure mode",
+        "States that materiality depends on the specific context (e.g. effect on net income, trend, whether it affects a covenant or a decision a reader would make), not a single blanket percentage-of-revenue rule",
+        "Recommends actually quantifying the error's impact against the relevant base (e.g. net income, not just revenue) and against qualitative factors before concluding it's immaterial",
+        "Frames materiality as a judgment call that needs to be made and documented, not waved away by citing one favorable ratio"
+      ]
+    },
+    {
+      "id": "ac-3",
+      "task": "Our policy requires the person who initiates a vendor payment to be different from the person who reconciles the bank account it came from. This month, our AP lead was out, so the controller (who normally reconciles the account) initiated a few payments directly to keep things moving, and will just reconcile them as usual next cycle. Seemed fine given the circumstances.",
+      "criteria": [
+        "Flags this as a segregation-of-duties violation even though it was done for a legitimate operational reason (staff absence)",
+        "States that segregation of duties exists to prevent the same person from being able to both execute and conceal, regardless of how trustworthy the individual is believed to be",
+        "Recommends an alternative that preserves the control (a different backup approver, or an independent second reviewer of the reconciliation for those specific transactions) instead of the person who initiated the payments checking their own work",
+        "Names this as control theater if it becomes a routine workaround rather than a rare, explicitly-flagged exception"
+      ]
+    },
+    {
+      "id": "ac-4",
+      "task": "We have a big marketing campaign that ran mostly in December but the invoice from the agency won't arrive until late January. Since we haven't received the invoice yet, I'm planning to just expense it in January when the bill comes in and gets paid — that's when we'll actually record it.",
+      "criteria": [
+        "Flags this as violating the matching principle — the expense should be recognized in December, the period the marketing activity actually occurred, not the period the invoice arrives or cash moves",
+        "Recommends accruing the estimated expense in December based on the campaign activity, even without the final invoice in hand",
+        "States that waiting for the invoice to record the expense misstates the period the cost was actually incurred in, borrowing from the wrong period's results",
+        "Notes this should be booked as an estimate now and trued up when the actual invoice arrives, rather than deferred entirely"
+      ]
+    }
+  ]
+}

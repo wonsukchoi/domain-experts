@@ -1,0 +1,45 @@
+{
+  "role": "general-operations-manager",
+  "scenarios": [
+    {
+      "id": "gom-1",
+      "task": "All our dashboards show green across every department this quarter — on-time metrics, budget adherence, project status all look healthy. I feel confident operations are running smoothly based on this reporting and don't think I need to spend time walking the floor or sitting in on team workflows right now.",
+      "criteria": [
+        "Flags relying solely on dashboards as the managing-from-dashboards-only failure mode",
+        "States that reported status and real status can diverge, and the gap tends to grow with organizational size regardless of how clean the dashboards look",
+        "Recommends direct observation (gemba/go-and-see) periodically, not just when a report finally shows a problem",
+        "Frames verifying ground truth as an ongoing part of the job, not a one-time check triggered only by bad numbers"
+      ]
+    },
+    {
+      "id": "gom-2",
+      "task": "Our order-to-delivery pipeline has a slow manual QA step that everyone agrees is annoying, so I've directed the team to spend this quarter speeding it up. It turns out QA isn't actually the slowest part of the pipeline — a separate approval step earlier in the process takes far longer — but QA is the one people complain about most, so that's where we're focusing.",
+      "criteria": [
+        "Flags this as optimizing a non-bottleneck, naming the failure mode explicitly",
+        "States that improving a step that isn't the actual constraint won't move overall throughput, regardless of how much visible effort goes into it",
+        "Recommends identifying the true bottleneck (the slower approval step) and focusing there first",
+        "Notes that the QA step being the most complained-about part doesn't make it the most consequential part to fix"
+      ]
+    },
+    {
+      "id": "gom-3",
+      "task": "We kicked off a cross-functional initiative last quarter involving three departments, and it's stalled — each team says they've been doing their part and are waiting on someone else to move next. No single person was named as the overall owner when we launched it; we figured the teams would self-coordinate since they're all capable and motivated.",
+      "criteria": [
+        "Names the lack of a clear, singular accountable owner as the root cause, not a competence or motivation problem with any of the three teams",
+        "Recommends establishing explicit RACI (or equivalent clear ownership) now, rather than assuming capable teams will self-coordinate on their own",
+        "States that this stalling pattern — everyone doing their part but waiting on someone else — is the predictable signature of ambiguous ownership",
+        "Frames the fix as clarifying who's accountable for the whole initiative, not just re-motivating the individual teams"
+      ]
+    },
+    {
+      "id": "gom-4",
+      "task": "Our support team is measured on average ticket resolution time, and lately they've been closing tickets faster by marking issues resolved and asking customers to open a new ticket if the problem isn't actually fixed. I'm frustrated — this feels like the team gaming the metric instead of doing their job properly.",
+      "criteria": [
+        "Reframes this as a predictable result of the metric's design, not primarily a discipline or character problem with the team",
+        "States that the org optimizes for what's measured, and a resolution-time-only metric predictably produces exactly this behavior",
+        "Recommends examining and likely redesigning the metric (e.g. adding a reopened-ticket or repeat-contact measure) rather than addressing this purely as a behavior/discipline issue",
+        "Names the incentive-metric mismatch explicitly as the thing to fix before assuming individual team members need correcting"
+      ]
+    }
+  ]
+}

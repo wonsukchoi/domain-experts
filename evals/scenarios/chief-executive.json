@@ -1,0 +1,45 @@
+{
+  "role": "chief-executive",
+  "scenarios": [
+    {
+      "id": "ce-1",
+      "task": "For next year's strategy, I want to pursue all five of the promising opportunities the leadership team identified — a new product line, international expansion, a platform partnership, an enterprise upsell motion, and a new self-serve tier. They're all genuinely attractive and I don't want to leave good opportunities on the table.",
+      "criteria": [
+        "Flags pursuing all five as the strategy-as-wish-list failure mode, naming it explicitly",
+        "States that a strategy that doesn't rule anything out isn't actually a strategy, regardless of how attractive each individual opportunity is",
+        "Recommends explicitly choosing which few things the company will focus resources on and declining or deferring the rest",
+        "Frames the real job as choosing what to say no to, not just deciding what sounds promising enough to say yes to"
+      ]
+    },
+    {
+      "id": "ce-2",
+      "task": "I just announced to the whole company that cross-team collaboration is our top priority this year. Our comp and promotion criteria are still based entirely on individual output metrics per team, same as before — I don't think that needs to change since the announcement itself should shift behavior.",
+      "criteria": [
+        "Flags the mismatch between the announced priority and the unchanged incentive structure, naming it as incentive-strategy mismatch",
+        "States that the organization behaves according to its actual incentive structure, not its stated priorities, regardless of how the announcement was communicated",
+        "Recommends checking and likely changing comp/promotion criteria to actually reward collaborative behavior if that's the real goal",
+        "Predicts the announced priority won't change behavior on its own while individual-output incentives remain in place"
+      ]
+    },
+    {
+      "id": "ce-3",
+      "task": "Every request to change a page in our internal wiki, adjust a Slack channel's settings, or pick a new lunch vendor now has to come to me for approval, since I want to make sure I'm staying on top of everything happening in the company as we scale.",
+      "criteria": [
+        "Flags this as treating clearly reversible, low-stakes decisions as one-way doors, naming the over-centralization failure mode",
+        "States that reversible decisions should be made fast and cheaply by whoever is closest to the information, not centralized through the CEO",
+        "Recommends explicitly classifying decisions by reversibility and delegating the two-way-door ones",
+        "Notes the cost of over-centralizing: it slows the organization and burns the CEO's attention on things that didn't need it"
+      ]
+    },
+    {
+      "id": "ce-4",
+      "task": "My board updates and weekly leadership reports have been consistently positive for the last two quarters — every team reports being on track, no major red flags have come up through the normal reporting chain. I feel good about where things stand based on what I'm hearing.",
+      "criteria": [
+        "Questions whether consistently positive reporting reflects reality or filtered information, naming the losing-the-disconfirming-signal failure mode",
+        "States that information degrades in accuracy as it travels up through layers with an incentive to soften bad news",
+        "Recommends actively seeking disconfirming signal through channels less subject to that filtering — skip-levels, direct customer contact, anonymous feedback — rather than trusting the reporting chain alone",
+        "Frames consistently good news with no dissent as itself worth investigating, not simply reassuring"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "chief-sustainability-officer",
+  "scenarios": [
+    {
+      "id": "cso-1",
+      "task": "Our CEO wants to publicly announce a commitment to 'net zero by 2035' at next month's investor day — it'll generate great press and investor sentiment. We don't yet have a baseline emissions inventory or measurement system in place, but I figure we can build that out over the next year or two while the commitment is already public.",
+      "criteria": [
+        "Flags announcing the commitment before a baseline and measurement system exist as overclaiming relative to measurement maturity",
+        "States that a public number without a real accounting method behind it is a marketing claim, not a strategy, and creates a credibility liability once progress is checked",
+        "Recommends establishing the baseline and tracking infrastructure before or alongside the public commitment, not as an afterthought built out post-announcement",
+        "Notes the asymmetric greenwashing risk: an unsubstantiated bold claim is punished harder than a more modest, provable one"
+      ]
+    },
+    {
+      "id": "cso-2",
+      "task": "Our sustainability report highlights a 15% year-over-year reduction in our direct facility and electricity emissions, and that's the headline number we're leading with. We're a consumer goods company with a large supplier base and complex sourcing, but supply chain emissions are hard to measure so we haven't included them in this report.",
+      "criteria": [
+        "Flags omitting Scope 3 from the report as a real problem for a company with a large supply chain, naming this as the ignoring-Scope-3 failure mode",
+        "States that for a consumer goods company with complex sourcing, Scope 3 likely dwarfs the reported Scope 1/2 figures, meaning the headline number represents a small share of actual impact",
+        "Recommends beginning supplier engagement and estimation methodology for Scope 3 rather than continuing to report only the more flattering, controllable figures",
+        "Distinguishes the difficulty of measuring Scope 3 from an excuse to omit it entirely"
+      ]
+    },
+    {
+      "id": "cso-3",
+      "task": "I'm pitching a supply chain resilience and energy-efficiency initiative to leadership, but I'm framing the pitch entirely around it being the right thing to do environmentally and our responsibility as a company — I think leading with the values case is the most authentic way to get buy-in.",
+      "criteria": [
+        "Flags a purely values-based pitch as unlikely to survive budget pressure, naming the values-only-framing failure mode",
+        "Recommends building the case in the same terms leadership uses for other investments — cost avoidance, risk reduction, regulatory readiness — even though the underlying motivation may be values-based",
+        "States that initiatives framed only as moral obligations get cut first when budgets tighten",
+        "Recommends specifically identifying the co-benefits (e.g. energy cost savings, supply chain risk reduction) and leading with those for internal buy-in, not abandoning the values framing but pairing it with the business case"
+      ]
+    },
+    {
+      "id": "cso-4",
+      "task": "We made a public pledge last year to eliminate single-use plastic packaging by 2027. It was announced by the CEO in a press release, but no specific team, budget, or project owner was ever assigned to actually execute against it — it's just generally understood as a company goal everyone should keep in mind.",
+      "criteria": [
+        "Flags the absence of a specific accountable owner and budget as a real problem, not just an implementation detail",
+        "States that a public pledge with no owner behind it becomes a credibility liability the moment progress is checked",
+        "Recommends assigning a specific team and budget now, with a measurable trajectory toward the 2027 target, rather than leaving it as a generally-understood goal",
+        "Names this as the no-internal-owner-for-public-commitments failure mode explicitly"
+      ]
+    }
+  ]
+}

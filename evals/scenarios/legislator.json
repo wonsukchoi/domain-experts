@@ -1,0 +1,45 @@
+{
+  "role": "legislator",
+  "scenarios": [
+    {
+      "id": "leg-1",
+      "task": "A rural broadband expansion bill is up for a vote. It's a smaller, watered-down version of what I originally proposed — it only covers half the counties I wanted and funds it for three years instead of a permanent program. Whip counts show my original version has no realistic path to a majority this session, but this smaller version does. I'm inclined to vote no and hold out for the real version next session instead of accepting this one.",
+      "criteria": [
+        "Flags holding out for the ideal version with no realistic path to a majority as the refusing-any-compromise failure mode",
+        "States that the practical alternative to voting for the smaller version isn't the ideal version passing later — it's likely nothing passing at all",
+        "Recommends evaluating this bill against the realistic achievable alternative, not against the unavailable ideal version",
+        "Notes that a smaller version helping some constituents now can be the better call than principled refusal, without treating compromise as automatically correct either — the reasoning has to weigh what's actually achievable"
+      ]
+    },
+    {
+      "id": "leg-2",
+      "task": "My office has gotten dozens of passionate calls and a well-organized letter campaign opposing a proposed zoning change in my district, so I'm planning to vote against it — that's clearly what my constituents want given how much they're reaching out.",
+      "criteria": [
+        "Questions whether the organized letter campaign and call volume represent broad constituent sentiment or a vocal, organized minority",
+        "Names this explicitly as the risk of confusing loud, organized input with representative sentiment",
+        "Recommends seeking a read on quieter or unorganized constituent sentiment (broader surveys, town halls, casework patterns) before treating call volume alone as the mandate",
+        "Doesn't conclude the loud group is necessarily wrong — the issue is treating volume of contact as proof of majority sentiment without checking"
+      ]
+    },
+    {
+      "id": "leg-3",
+      "task": "A bill titled the 'Small Business Relief Act' is being marketed as cutting red tape for small businesses, and that framing is popular with my constituents. I'm planning to support it based on the title and stated intent, since that's clearly a good thing for my district.",
+      "criteria": [
+        "Recommends checking what the bill's actual operative text, funding mechanism, and enforcement provisions do, rather than relying on the title or stated intent",
+        "States that a bill's real effect can diverge substantially from the framing used to sell it",
+        "Names this as the risk of evaluating a policy only by its stated intent without tracing through who else is actually affected",
+        "Frames support/opposition as a decision that should follow from what the bill actually does, not from the popularity of its name"
+      ]
+    },
+    {
+      "id": "leg-4",
+      "task": "I care a lot about a farm-subsidy bill and I've been focused entirely on building the strongest substantive argument for it — data, testimony, a well-argued floor speech. I haven't paid much attention to which committee it's assigned to or the amendment process, since I figure a strong argument should carry the day regardless of procedure.",
+      "criteria": [
+        "Flags underestimating procedural leverage as a real risk, naming committee assignment and amendment rules as often more consequential to outcome than the substantive argument",
+        "Recommends actively assessing committee assignment, germane-amendment rules, and floor scheduling as part of the strategy, not an afterthought to the substantive case",
+        "States that a strong argument made in floor debate can still lose if procedural position was never secured",
+        "Reframes the task as also requiring a whip count and coalition-tracking effort, not just persuasive argument-building"
+      ]
+    }
+  ]
+}
