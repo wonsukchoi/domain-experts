@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 246 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 255 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -494,7 +494,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>29 — Healthcare Practitioners and Technical</strong> (3/96 drafted)</summary>
+<summary><strong>29 — Healthcare Practitioners and Technical</strong> (12/96 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -504,24 +504,24 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 29-1023.00 | Orthodontists |  |
 |  | 29-1024.00 | Prosthodontists |  |
 |  | 29-1029.00 | Dentists, All Other Specialists |  |
-|  | 29-1031.00 | Dietitians and Nutritionists |  |
+| ✅ | 29-1031.00 | Dietitians and Nutritionists | [`dietitian-nutritionist`](./roles/dietitian-nutritionist/SKILL.md) |
 |  | 29-1041.00 | Optometrists |  |
-|  | 29-1051.00 | Pharmacists |  |
-|  | 29-1071.00 | Physician Assistants |  |
+| ✅ | 29-1051.00 | Pharmacists | [`pharmacist`](./roles/pharmacist/SKILL.md) |
+| ✅ | 29-1071.00 | Physician Assistants | [`physician-assistant`](./roles/physician-assistant/SKILL.md) |
 |  | 29-1071.01 | Anesthesiologist Assistants |  |
 |  | 29-1081.00 | Podiatrists |  |
-|  | 29-1122.00 | Occupational Therapists |  |
+| ✅ | 29-1122.00 | Occupational Therapists | [`occupational-therapist`](./roles/occupational-therapist/SKILL.md) |
 |  | 29-1122.01 | Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists |  |
-|  | 29-1123.00 | Physical Therapists |  |
+| ✅ | 29-1123.00 | Physical Therapists | [`physical-therapist`](./roles/physical-therapist/SKILL.md) |
 |  | 29-1124.00 | Radiation Therapists |  |
 |  | 29-1125.00 | Recreational Therapists |  |
 |  | 29-1126.00 | Respiratory Therapists |  |
-|  | 29-1127.00 | Speech-Language Pathologists |  |
+| ✅ | 29-1127.00 | Speech-Language Pathologists | [`speech-language-pathologist`](./roles/speech-language-pathologist/SKILL.md) |
 |  | 29-1128.00 | Exercise Physiologists |  |
 |  | 29-1129.00 | Therapists, All Other |  |
 |  | 29-1129.01 | Art Therapists |  |
 |  | 29-1129.02 | Music Therapists |  |
-|  | 29-1131.00 | Veterinarians |  |
+| ✅ | 29-1131.00 | Veterinarians | [`veterinarian`](./roles/veterinarian/SKILL.md) |
 | ✅ | 29-1141.00 | Registered Nurses | [`registered-nurse`](./roles/registered-nurse/SKILL.md) |
 |  | 29-1141.01 | Acute Care Nurses |  |
 |  | 29-1141.02 | Advanced Practice Psychiatric Nurses |  |
@@ -529,7 +529,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 29-1141.04 | Clinical Nurse Specialists |  |
 |  | 29-1151.00 | Nurse Anesthetists |  |
 |  | 29-1161.00 | Nurse Midwives |  |
-|  | 29-1171.00 | Nurse Practitioners |  |
+| ✅ | 29-1171.00 | Nurse Practitioners | [`nurse-practitioner`](./roles/nurse-practitioner/SKILL.md) |
 |  | 29-1181.00 | Audiologists |  |
 |  | 29-1211.00 | Anesthesiologists |  |
 |  | 29-1212.00 | Cardiologists |  |
@@ -590,7 +590,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 29-2099.08 | Patient Representatives |  |
 |  | 29-9021.00 | Health Information Technologists and Medical Registrars |  |
 |  | 29-9091.00 | Athletic Trainers |  |
-|  | 29-9092.00 | Genetic Counselors |  |
+| ✅ | 29-9092.00 | Genetic Counselors | [`genetic-counselor`](./roles/genetic-counselor/SKILL.md) |
 |  | 29-9093.00 | Surgical Assistants |  |
 |  | 29-9099.00 | Healthcare Practitioners and Technical Workers, All Other |  |
 |  | 29-9099.01 | Midwives |  |
