@@ -128,6 +128,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <title>{name} — Domain Experts</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{canonical}">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -135,6 +136,11 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:title" content="{name} — Domain Experts">
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="article">
+<meta property="og:url" content="{canonical}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{name} — Domain Experts">
+<meta name="twitter:description" content="{description}">
+<script type="application/ld+json">{schema}</script>
 </head>
 <body>
 <header>
@@ -174,17 +180,27 @@ def build():
         raw = skill_path.read_text()
         body = split_frontmatter(raw)
         content_html = markdown_to_html(body, slug)
+        canonical = f"{SITE_URL}/roles/{slug}/"
+        schema = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "DefinedTerm",
+            "name": title_case(slug),
+            "description": r["description"],
+            "url": canonical,
+            "inDefinedTermSet": f"{SITE_URL}/",
+        })
 
         page = PAGE_TEMPLATE.format(
             name=html.escape(title_case(slug)),
             description=html.escape(r["description"]),
-            canonical=f"{SITE_URL}/roles/{slug}/",
+            canonical=canonical,
             content=content_html,
             source=REPO_BLOB + r["skill"],
             category=html.escape(r["category"]),
             status=html.escape(r["status"]),
             maturity=html.escape(r["maturity"]),
             slug=slug,
+            schema=schema,
         )
 
         page_dir = OUT_DIR / slug
@@ -204,7 +220,34 @@ def build():
         f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n"
     )
 
+    inject_index_schema(roles)
+
     print(f"Built {len(urls)} role pages + sitemap.xml + robots.txt")
+
+
+def inject_index_schema(roles):
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": i + 1,
+                "url": f"{SITE_URL}/roles/{r['slug']}/",
+                "name": title_case(r["slug"]),
+            }
+            for i, r in enumerate(roles)
+        ],
+    }
+    index_path = ROOT / "docs" / "index.html"
+    html_text = index_path.read_text()
+    html_text = re.sub(
+        r'(<script type="application/ld\+json" id="role-schema">)(.*?)(</script>)',
+        lambda m: m.group(1) + json.dumps(schema) + m.group(3),
+        html_text,
+        flags=re.DOTALL,
+    )
+    index_path.write_text(html_text)
 
 
 if __name__ == "__main__":
