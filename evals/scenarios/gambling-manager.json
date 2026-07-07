@@ -1,0 +1,45 @@
+{
+  "role": "gambling-manager",
+  "scenarios": [
+    {
+      "id": "gm3-1",
+      "task": "Surveillance flagged a blackjack player who appears to be counting cards — no marked equipment, no collusion, just tracking the count and adjusting bet size accordingly. I'm planning to have security eject him and consider banning him for cheating.",
+      "criteria": [
+        "Flags treating card counting as cheating as the conflating-advantage-play-with-cheating failure mode",
+        "States that card counting uses only public information and no equipment manipulation, making it legal advantage play, not cheating",
+        "Recommends a game-protection response (shuffle changes, bet-spread limits, service discretion) instead of accusation or ejection for cheating",
+        "Names the legal and reputational exposure risk of wrongly accusing/ejecting a legal advantage player"
+      ]
+    },
+    {
+      "id": "gm3-2",
+      "task": "A patron's cash transactions today are approaching the $10,000 CTR reporting threshold, but he's a longtime regular who seems completely legitimate. I'm inclined to skip the formal report this time since he's clearly not doing anything suspicious.",
+      "criteria": [
+        "Flags skipping the CTR filing based on the patron seeming legitimate as the treating-AML-reporting-as-discretionary failure mode",
+        "States that CTR filing is a mechanical, bright-line trigger based on the threshold, not a discretionary judgment call about the patron",
+        "Recommends filing the report regardless of how legitimate the patron appears",
+        "Frames skipping it as a compliance failure regardless of actual intent"
+      ]
+    },
+    {
+      "id": "gm3-3",
+      "task": "I noticed a patron made several cash transactions today, each just under the CTR reporting threshold, at a couple different cage stations. Since none of the individual transactions crossed the threshold, I don't think any reporting action is needed here.",
+      "criteria": [
+        "Flags failing to connect the pattern across transactions/stations as the missing-structuring-patterns failure mode",
+        "States that multiple transactions each just under the threshold, especially across different cage stations on the same day, is itself a suspicious-activity signal",
+        "Recommends filing a suspicious activity report or equivalent based on the structuring pattern, not just checking individual transactions against the threshold",
+        "Notes this pattern needs escalation regardless of no single transaction crossing the line"
+      ]
+    },
+    {
+      "id": "gm3-4",
+      "task": "One of our regular players is very personable, plays for a long time, and is quite vocal about wanting comps — I've been giving her generous comps based on how much she asks and how much we enjoy having her around, more than what her actual betting theo would suggest.",
+      "criteria": [
+        "Flags comping based on personality/insistence rather than theoretical loss as the comping-off-personality-instead-of-theo failure mode",
+        "States that a player's actual worth to the house is a function of average bet, time played, and game hold, not how personable or insistent they are",
+        "Recommends pricing comps against calculated theoretical loss for her actual sessions",
+        "Notes this practice erodes margin without buying proportional loyalty, and likely under-comps quieter high-theo players elsewhere"
+      ]
+    }
+  ]
+}

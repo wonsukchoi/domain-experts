@@ -1,0 +1,45 @@
+{
+  "role": "lodging-manager",
+  "scenarios": [
+    {
+      "id": "lm-1",
+      "task": "Occupancy has been running a bit soft, so I dropped our rate by 15% and occupancy jumped 8 points as a result. I'm reporting this as a clear win since occupancy is now much higher than before.",
+      "criteria": [
+        "Flags evaluating success by occupancy movement alone without checking the RevPAR effect, naming the chasing-occupancy-at-the-expense-of-RevPAR failure mode",
+        "States that RevPAR (ADR × occupancy), not either input alone, is the real performance number",
+        "Recommends calculating whether the occupancy gain actually offset the rate cut in the RevPAR calculation before calling it a win",
+        "Notes that an 8-point occupancy gain can still be a net RevPAR loss if the rate cut was proportionally larger"
+      ]
+    },
+    {
+      "id": "lm-2",
+      "task": "We're deciding how much inventory to push through our OTA channel versus direct booking. The OTA bookings show a higher average headline rate than our direct bookings, so I'm planning to allocate more inventory to the OTA channel based on that comparison.",
+      "criteria": [
+        "Flags comparing channels on gross/headline rate as the evaluating-channels-on-gross-rate failure mode",
+        "States that OTA commission (typically 15-25%) needs to be netted out before comparing channel value",
+        "Recommends comparing net rate after commission between channels, not gross booking rate",
+        "Notes that a lower-headline direct booking can out-earn a higher-headline OTA booking once commission is included"
+      ]
+    },
+    {
+      "id": "lm-3",
+      "task": "We schedule housekeeping and front-desk staff using a fixed weekly template based on typical occupancy levels, rather than adjusting week to week based on actual current bookings and forecast.",
+      "criteria": [
+        "Flags the fixed template scheduling approach as the static-labor-scheduling failure mode",
+        "States that occupancy volatility is the norm in lodging, and a static template produces the standard overstaffed-slow/understaffed-peak pattern",
+        "Recommends building labor schedules from a rolling occupancy forecast (bookings on hand plus typical pickup pattern), refreshed close to the date",
+        "Frames labor as a largely variable cost that should track the forecast, not a fixed staffing plan"
+      ]
+    },
+    {
+      "id": "lm-4",
+      "task": "A guest had a maintenance issue in their room (AC not working) last night. The front desk agent told them someone would look into compensation options and to check back in a day or two once we sort out what's appropriate, rather than resolving it on the spot.",
+      "criteria": [
+        "Flags delaying compensation/resolution as the slow-or-grudging-service-recovery failure mode",
+        "States that guests judge the property almost entirely on how the recovery was handled, not on whether the original failure happened",
+        "Recommends front-desk staff have clear authority to resolve issues immediately within policy, rather than escalating and delaying",
+        "Notes that a delayed, uncertain recovery compounds the original failure into a worse guest outcome than prompt resolution would have"
+      ]
+    }
+  ]
+}

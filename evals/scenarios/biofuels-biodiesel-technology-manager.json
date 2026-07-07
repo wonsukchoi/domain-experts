@@ -1,0 +1,45 @@
+{
+  "role": "biofuels-biodiesel-technology-manager",
+  "scenarios": [
+    {
+      "id": "bbtm-1",
+      "task": "We're comparing two candidate conversion processes for R&D investment. Process A yields 88% fuel from feedstock; Process B yields only 81% but uses a lower-carbon-intensity pathway. I'm recommending we prioritize Process A since it clearly produces more fuel per unit of feedstock.",
+      "criteria": [
+        "Flags ranking by yield alone as the ranking-technologies-by-yield-alone failure mode",
+        "States that credit-adjusted revenue per unit feedstock (fuel value plus CI-score-driven credit value) is the correct comparison metric, not yield in isolation",
+        "Recommends calculating the credit-adjusted revenue for both processes before making the prioritization decision",
+        "Notes that the lower-yield, lower-CI process could generate more total revenue depending on the credit regime"
+      ]
+    },
+    {
+      "id": "bbtm-2",
+      "task": "Our process technology is on track to be commercially ready in about a year. We're planning to start the regulatory pathway approval process (e.g. an EPA RFS pathway petition) once the technology is fully validated and ready to deploy, so we're not spending effort on regulatory work before we know the technology will actually work.",
+      "criteria": [
+        "Flags waiting until technical readiness to start pathway approval as the treating-pathway-approval-as-a-late-administrative-step failure mode",
+        "States that pathway determinations can take years and don't start their clock earlier just because the technology becomes ready sooner",
+        "Recommends starting the regulatory pathway approval process in parallel with pilot/demonstration work now, not after technical validation completes",
+        "Frames this as a parallel critical-path item, not a sequential step following technology readiness"
+      ]
+    },
+    {
+      "id": "bbtm-3",
+      "task": "We're designing our conversion process tightly optimized around one specific, currently cheap feedstock's exact chemistry, which maximizes near-term yield. The plant is expected to operate for 15+ years.",
+      "criteria": [
+        "Flags optimizing tightly around a single feedstock for a long-life asset as the over-optimizing-for-one-feedstock-without-pricing-lock-in failure mode",
+        "States that this locks in exposure to that feedstock's price and supply volatility over the plant's long operating life",
+        "Recommends weighing the cost of feedstock flexibility investment against the plant's actual operating horizon and the specific feedstock's volatility, rather than defaulting to single-feedstock optimization",
+        "Notes that a 15-year asset justifies more flexibility investment than a shorter-horizon project would"
+      ]
+    },
+    {
+      "id": "bbtm-4",
+      "task": "We developed a novel catalyst formulation improvement. It feels like a major innovation to the team, so we're planning to protect it as a trade secret rather than filing a patent, to avoid the public disclosure a patent requires.",
+      "criteria": [
+        "Questions the trade-secret choice based on how novel the innovation feels rather than whether it's actually observable post-deployment",
+        "States that the IP protection choice should be based on whether the innovation is inferable from the product stream or equipment inspection, not on internal excitement about its novelty",
+        "Recommends assessing observability first: if the catalyst formulation can be reverse-engineered from the product or equipment teardown, it's a weak trade-secret candidate and should be patented instead",
+        "Frames the decision as a bet on detectability, not on which protection 'feels stronger'"
+      ]
+    }
+  ]
+}

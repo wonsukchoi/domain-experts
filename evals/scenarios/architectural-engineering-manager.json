@@ -1,0 +1,45 @@
+{
+  "role": "architectural-engineering-manager",
+  "scenarios": [
+    {
+      "id": "aem-1",
+      "task": "A client on a fixed-fee project keeps asking for small additional items — an extra rendering here, a minor redesign there. Each one is small enough that I've just been doing them for free to keep the relationship smooth, rather than raising it as a scope conversation each time.",
+      "criteria": [
+        "Flags repeatedly absorbing small out-of-scope items for free as the absorbing-scope-creep-to-preserve-the-relationship failure mode",
+        "States that this trains the client to expect it and quietly destroys the project's margin, regardless of how small each individual item seems",
+        "Recommends logging each request as a potential additional-services item and pricing it before doing the work, per the pre-agreed contract mechanism",
+        "Notes the fix is a mechanism decided before the request arrives, not an improvised negotiation each time"
+      ]
+    },
+    {
+      "id": "aem-2",
+      "task": "We're bidding on a competitive project and I want to quote below our usual target multiplier to win it, since the client is clearly price-sensitive and we really want this project in our portfolio. I'm confident we'll make it up through efficient execution.",
+      "criteria": [
+        "Flags quoting below target multiplier based on hoped-for efficiency gains as the pricing-to-win-instead-of-to-target-multiplier failure mode",
+        "States that this should be a conscious loss-leader decision if made at all, not an assumption that efficiency will close the gap",
+        "Recommends explicitly deciding and documenting this as a loss-leader if pursued, rather than expecting the project to be profitable on hope",
+        "Notes the risk of being surprised the project 'should have been profitable but wasn't'"
+      ]
+    },
+    {
+      "id": "aem-3",
+      "task": "We just signed a new project. We don't have a specific team identified yet, but based on our typical project timelines we're confident some staff will free up from other projects by the time this one needs to ramp up.",
+      "criteria": [
+        "Flags booking the project on projected rather than confirmed staffing as the selling-work-before-confirming-staffing failure mode",
+        "States that this is exactly how schedule slip and understaffed review conditions (the precursor to E&O claims) originate",
+        "Recommends confirming specific staff with actual open capacity before or immediately after signing, not assuming capacity will materialize",
+        "Frames an unstaffed signed project as a liability, not simply a sales win"
+      ]
+    },
+    {
+      "id": "aem-4",
+      "task": "This project is running over budget, so I'm planning to cut back on the independent peer review hours for the structural lateral system calculations to help bring the project back in line with the fee, since we need to trim costs somewhere.",
+      "criteria": [
+        "Flags cutting peer review on a life-safety/structural element under budget pressure as the cutting-peer-review-under-fee-pressure failure mode",
+        "States that review rigor should scale with liability exposure, not with remaining fee, and life-safety-critical elements should keep review regardless of budget performance",
+        "Recommends finding cost savings elsewhere and treating the peer review as a fixed, non-negotiable line item",
+        "Frames this as trading a small visible cost now for a much larger, invisible-until-it-happens liability exposure later"
+      ]
+    }
+  ]
+}

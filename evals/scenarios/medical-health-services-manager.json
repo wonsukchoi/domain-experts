@@ -1,0 +1,45 @@
+{
+  "role": "medical-health-services-manager",
+  "scenarios": [
+    {
+      "id": "mhsm-1",
+      "task": "Our claim denial rate has risen noticeably over the last quarter. My read is that payers have just been getting more aggressive about denying claims lately, and there's not much we can do internally except keep appealing denials as they come in.",
+      "criteria": [
+        "Flags attributing the rise to payer behavior without root-cause investigation as the blaming-payers-without-root-cause-investigation failure mode",
+        "States that a rising denial rate almost always traces to a specific, fixable upstream cause (documentation, coding, authorization, eligibility) rather than payer behavior alone",
+        "Recommends isolating the root cause by category before concluding it's external payer policy change",
+        "Frames this as a process-quality signal to investigate internally first, not primarily an external problem to appeal around"
+      ]
+    },
+    {
+      "id": "mhsm-2",
+      "task": "A proposed patient safety initiative (additional infection-control training and monitoring) would cost $30,000 this year with no clear budget-line revenue offset. I'm inclined to decline it since it's a pure expense with no financial return I can point to.",
+      "criteria": [
+        "Flags evaluating the initiative as pure cost without quantifying the adverse-event cost it would likely prevent, naming the evaluating-quality-initiatives-as-pure-cost failure mode",
+        "States that a preventable infection or safety event typically costs far more than the upstream investment that would prevent it",
+        "Recommends quantifying the initiative against the specific adverse-event cost it's expected to avoid (e.g. average cost of a hospital-acquired infection) before deciding",
+        "Reframes the decision from 'pure expense' to a cost-avoidance calculation"
+      ]
+    },
+    {
+      "id": "mhsm-3",
+      "task": "Our accreditation survey is coming up in six weeks. We're organizing a focused effort to get documentation and protocols fully compliant and ready to show inspectors, since that's when it really counts.",
+      "criteria": [
+        "Flags scrambling to compliance-ready status specifically ahead of the survey as the compliance-theater-ahead-of-scheduled-survey failure mode",
+        "States that a compliance posture that only exists right before a scheduled inspection is itself evidence day-to-day operations aren't actually meeting the standard",
+        "Recommends maintaining continuous survey-readiness as the operating standard rather than treating it as a pre-survey project",
+        "Notes that the gap between paper-compliant-for-survey and actually-compliant day to day is exactly where real patient-safety risk lives"
+      ]
+    },
+    {
+      "id": "mhsm-4",
+      "task": "A nurse reported a medication near-miss (caught before reaching the patient). My plan is to document this in the staff member's personnel file and have a serious conversation about being more careful going forward, since errors like this shouldn't happen.",
+      "criteria": [
+        "Flags a punitive, individual-focused response to the near-miss report as the punitive-response-to-reported-errors failure mode",
+        "States that punitive responses to reported errors suppress future reporting, which guarantees the systemic cause goes unaddressed and recurs",
+        "Recommends a root-cause/systems analysis (why did the near-miss happen, what allowed it) rather than individual blame or personnel-file documentation",
+        "Frames this as preserving the reporting culture needed to catch problems early, not excusing the underlying issue"
+      ]
+    }
+  ]
+}

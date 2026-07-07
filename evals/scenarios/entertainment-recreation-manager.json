@@ -1,0 +1,45 @@
+{
+  "role": "entertainment-recreation-manager",
+  "scenarios": [
+    {
+      "id": "erm-1",
+      "task": "We set our whole summer season's staffing schedule back in the spring based on typical historical attendance patterns, and we're sticking with that plan throughout the season regardless of week-to-week weather forecasts or local event calendars.",
+      "criteria": [
+        "Flags relying solely on the pre-set seasonal schedule as the static-seasonal-staffing failure mode",
+        "States that this produces chronic overstaffing on slow days and understaffing on peak days without a rolling short-term forecast adjustment",
+        "Recommends building staffing from a rolling short-term forecast (weather, pre-sale data, local events) refreshed close to the operating date",
+        "Doesn't reject having a baseline seasonal plan — the issue is never adjusting it against short-term signals"
+      ]
+    },
+    {
+      "id": "erm-2",
+      "task": "Our rain-day contingency plan (indoor programming, rebooking policy) is the same regardless of which day of the season it is — we apply the identical plan to a slow weekday in the off-season and to our highest-revenue holiday weekend.",
+      "criteria": [
+        "Flags applying uniform contingency capacity across the calendar as the even-contingency-investment-across-the-calendar failure mode",
+        "States that a bad-weather day during peak season represents a disproportionate share of annual revenue loss compared to the same weather in the off-season",
+        "Recommends sizing contingency investment disproportionately to each specific window's revenue concentration, not spreading it evenly",
+        "Frames peak-window contingency as having outsized value specifically, not as a uniform baseline requirement"
+      ]
+    },
+    {
+      "id": "erm-3",
+      "task": "We're implementing virtual queuing/timed entry across every single attraction in the park uniformly, since it seems like the fairest and most consistent approach for all guests regardless of which ride they're visiting.",
+      "criteria": [
+        "Flags uniform queue management across all attractions as the uniform-queue-management failure mode",
+        "States that the guest-experience and secondary-spend payoff concentrates specifically on attractions where wait time is actually the binding constraint on satisfaction",
+        "Recommends applying capacity-managed queuing specifically to the highest-demand attractions rather than uniformly everywhere",
+        "Notes that applying it everywhere (or nowhere) misses where the actual value concentrates"
+      ]
+    },
+    {
+      "id": "erm-4",
+      "task": "We're short on labor budget this season, so we're compressing lifeguard and ride-operator training time and reducing supervisory coverage on the water attractions to save on labor cost, treating our large seasonal workforce as largely interchangeable.",
+      "criteria": [
+        "Flags compressing training and supervision on physically risky activities to save labor cost as the treating-seasonal-staff-as-interchangeable failure mode",
+        "States that undertraining or under-supervising creates a real safety risk disguised as a staffing efficiency, not just a service-quality tradeoff",
+        "Recommends treating training depth and supervision ratios on safety-relevant activities as a safety control, not a labor-cost line to cut",
+        "Frames this the same category error as compromising a hard operating limit under demand pressure"
+      ]
+    }
+  ]
+}

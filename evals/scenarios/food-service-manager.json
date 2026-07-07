@@ -1,0 +1,45 @@
+{
+  "role": "food-service-manager",
+  "scenarios": [
+    {
+      "id": "fsm-1",
+      "task": "I schedule next week's staffing based on exactly what we sold last week — same shifts, same headcount, adjusted only if last week was clearly unusual.",
+      "criteria": [
+        "Flags scheduling purely off last week's raw numbers as the scheduling-labor-to-last-weeks-numbers failure mode",
+        "States that this produces chronic overstaffing on slow shifts and understaffing on peaks rather than tracking actual demand",
+        "Recommends building the schedule from a rolling sales forecast (trailing same-day-of-week average, adjusted for known events), not last week's actuals alone",
+        "Distinguishes appropriately discounting one unusual week from using raw trailing data uncritically"
+      ]
+    },
+    {
+      "id": "fsm-2",
+      "task": "Our signature dish has been on the menu since we opened and is well-loved by regulars, but it has a low contribution margin and takes significant prep labor. I'm keeping it on the menu at its current price and placement since it's part of our identity.",
+      "criteria": [
+        "Flags keeping the item based on sentiment/identity without checking margin data as the keeping-a-menu-item-on-sentiment-instead-of-margin-data failure mode",
+        "Recommends evaluating the item on its margin × popularity quadrant (reposition, reprice, or reconsider) rather than protecting it purely because it's a signature dish",
+        "States that a low-margin item consuming significant prep labor and shelf space needs deliberate evaluation, not automatic protection",
+        "Doesn't necessarily recommend cutting it — the issue is deciding without the margin analysis"
+      ]
+    },
+    {
+      "id": "fsm-3",
+      "task": "We're slammed tonight and short-staffed. To keep up with the rush, the kitchen skipped the scheduled temperature checks on the walk-in this shift since there wasn't time, planning to catch up on logging once things calm down.",
+      "criteria": [
+        "Flags skipping temperature checks under labor/time pressure as the cutting-safety-adjacent-corners-under-labor-pressure failure mode",
+        "States that food safety is categorically prior to labor/schedule pressure, not a tradeoff decided on a cost or time basis",
+        "Recommends the checks happen regardless of how busy the shift is, treating this as non-negotiable",
+        "Rejects 'catch up on logging later' as an acceptable substitute for the actual check happening on schedule"
+      ]
+    },
+    {
+      "id": "fsm-4",
+      "task": "We ran out of our usual higher-quality cut of beef for a dish, so the kitchen substituted a cheaper cut without telling front-of-house or adjusting the menu price, since the dish still basically tastes similar and it avoids an awkward 'we're out of X' conversation with guests.",
+      "criteria": [
+        "Flags the silent substitution without price adjustment or staff/guest notice as the silent-ingredient-substitution failure mode",
+        "States that this quietly erodes both margin accounting accuracy and guest trust simultaneously",
+        "Recommends either 86'ing the dish and communicating the reason, or adjusting price/menu description transparently, rather than substituting silently",
+        "Frames avoiding the awkward conversation as the wrong tradeoff against trust and margin accuracy"
+      ]
+    }
+  ]
+}
