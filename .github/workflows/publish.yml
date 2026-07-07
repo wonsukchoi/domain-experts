@@ -5,6 +5,11 @@ on:
     tags:
       - "v*.*.*"
 
+# Least-privilege by default: no job/step below may reference `secrets.*`
+# (there are none configured for this repo — trusted publishing needs zero
+# stored credentials) or `env:` blocks carrying tokens. If a future edit adds
+# a secret here, that's a sign this workflow's threat model changed and needs
+# re-review, not a routine change.
 permissions:
   contents: read
   id-token: write # required for npm OIDC trusted publishing — no NPM_TOKEN needed
@@ -13,9 +18,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # Actions pinned to commit SHA, not a mutable tag — a compromised or
+      # re-tagged upstream action can't silently swap in malicious code
+      # between now and whenever this workflow next runs.
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false # don't leave a repo-write token on disk for later steps
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: "20"
           registry-url: "https://registry.npmjs.org"
@@ -32,8 +42,20 @@ jobs:
             exit 1
           fi
 
-      - name: Sanity-check package contents
-        run: npm pack --dry-run
+      - name: Fail if the tarball contains anything that shouldn't ship
+        run: |
+          set -e
+          npm pack --json > /tmp/pack.json
+          FILES=$(node -p "require('/tmp/pack.json')[0].files.map(f => f.path).join('\n')")
+          echo "$FILES"
+          # package.json's "files" allowlist already scopes what npm includes,
+          # but this catches a sensitive file accidentally checked into one of
+          # those allowed directories (skills/, commands/, data/, bin/).
+          if echo "$FILES" | grep -Eiq '(^|/)\.env|\.npmrc$|\.pem$|\.key$|id_rsa|id_ed25519|credentials?\.|secrets?\.(json|ya?ml)|\.aws/|\.ssh/'; then
+            echo "::error::Tarball contains a file matching a secret/credential pattern — aborting publish"
+            exit 1
+          fi
+          rm -f domain-experts-*.tgz /tmp/pack.json
 
       - name: Publish
-        run: npm publish
+        run: npm publish --provenance
