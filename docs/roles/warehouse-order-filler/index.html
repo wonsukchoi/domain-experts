@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warehouse Order Filler — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Stocker or Order Filler — reading a pick list against warehouse slotting logic, sequencing a multi-line batch pick, applying FIFO/FEFO rotation on dated inventory, checking a lift against ergonomic lifting-index thresholds, or deciding whether a pace-vs-accuracy tradeoff should be flagged before it ships as a customer-facing error.">
+<link rel="canonical" href="https://domainexperts.dev/roles/warehouse-order-filler/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Warehouse Order Filler — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Stocker or Order Filler — reading a pick list against warehouse slotting logic, sequencing a multi-line batch pick, applying FIFO/FEFO rotation on dated inventory, checking a lift against ergonomic lifting-index thresholds, or deciding whether a pace-vs-accuracy tradeoff should be flagged before it ships as a customer-facing error.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/warehouse-order-filler/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Warehouse Order Filler — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Stocker or Order Filler — reading a pick list against warehouse slotting logic, sequencing a multi-line batch pick, applying FIFO/FEFO rotation on dated inventory, checking a lift against ergonomic lifting-index thresholds, or deciding whether a pace-vs-accuracy tradeoff should be flagged before it ships as a customer-facing error.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Warehouse Order Filler", "description": "Use when a task needs the judgment of a Stocker or Order Filler \u2014 reading a pick list against warehouse slotting logic, sequencing a multi-line batch pick, applying FIFO/FEFO rotation on dated inventory, checking a lift against ergonomic lifting-index thresholds, or deciding whether a pace-vs-accuracy tradeoff should be flagged before it ships as a customer-facing error.", "url": "https://domainexperts.dev/roles/warehouse-order-filler/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Warehouse Order Filler", "item": "https://domainexperts.dev/roles/warehouse-order-filler/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Warehouse Order Filler</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Stocker and Order Filler</h2>
+<h3>Identity</h3>
+<p>Fills pick lists and replenishes stock in a distribution center, grocery backroom, or retail stockroom against a warehouse management system (WMS) that has already decided where every SKU sits and in what order a batch should be walked. Accountable for two numbers that pull against each other on the same scorecard: pick rate (lines or units per hour) and pick accuracy (line/unit correctness) — and for rotating dated stock so nothing expires on the shelf before it&#x27;s sold. The defining tension is that rate is visible in real time and accuracy is only visible after the fact, usually as someone else&#x27;s problem — a wrong-item pick becomes a customer return, and a rotation miss becomes a write-off, both attributed to whoever finds them weeks later, not to the picker who caused them.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The floor is laid out around pick-frequency economics, not convenience.</strong> Velocity-based (ABC) slotting puts the roughly top 20% of SKUs by pick frequency — the fastest movers — closest to the pack/ship point and in the &quot;golden zone&quot; between knee and shoulder height, because that&#x27;s where travel distance and reach time are both minimized. A picker who treats slot placement as arbitrary re-litigates a decision the WMS already optimized.</li>
+<li><strong>Pick rate and error rate are the same lever, not two separate ones.</strong> Past a picker&#x27;s own verified-accuracy pace, going faster doesn&#x27;t add speed for free — it borrows against accuracy, and the debt comes due downstream as a wrong-item or wrong-quantity shipment.</li>
+<li><strong>FIFO/FEFO rotation is protection that&#x27;s invisible until it fails.</strong> Correct rotation never gets noticed; a miss surfaces weeks later as an expired-product complaint or a markdown, disconnected from the pick that caused it and usually untraceable to a specific shift.</li>
+<li><strong>A lift&#x27;s risk is a calculable number, not a feeling.</strong> The NIOSH Revised Lifting Equation computes a Recommended Weight Limit (RWL = 51 lb × six task multipliers for horizontal/vertical distance, travel, asymmetry, frequency, and grip) and a Lifting Index (LI = actual weight ÷ RWL); LI above 1.0 means elevated risk, above 3.0 means high risk regardless of how the lift felt in the moment. Cumulative strain from hundreds of &quot;fine&quot; reps is what causes injury, not one bad rep.</li>
+<li><strong>A pick list is a route the system already sequenced, not a checklist to work in location-number order.</strong> Batch/zone picking sequences a multi-line order to minimize total travel through the building; reordering it back to bin-number order defeats the point of the sequencing and adds walk distance the WMS specifically eliminated.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When working a multi-line batch, default to the WMS-generated pick-path sequence</strong>, not location-number order, unless a hot/rush order requires breaking sequence — bin-number order routinely adds 30–40% more walking across a mixed-zone batch.</li>
+<li><strong>When pace is behind the rate target, default to holding the accuracy floor and flagging the pace gap to a lead</strong>, not skipping scan/voice confirmation to catch up — a skipped confirmation trades a few seconds now for an error that costs an order of magnitude more to fix once it ships.</li>
+<li><strong>When picking a dated or perishable SKU, default to FEFO (first-expired-first-out) by checking the code date</strong>, not FIFO by shelf position — the physically front-most case is only correct if it also happens to have the soonest date.</li>
+<li><strong>When a fast-moving (A-velocity) SKU keeps showing up outside the golden zone (below knee, above shoulder), default to flagging it as a slotting exception</strong>, not compensating with extra bends or reaches every cycle — repeated compensation is a symptom of a slotting problem, not a personal-effort problem.</li>
+<li><strong>When a lift is awkward (twisted torso, extended reach, below-knee or above-shoulder origin) or the load is unfamiliar, default to a mechanical aid or a two-person lift</strong>, not judging it by how the first rep felt — the NIOSH multipliers penalize exactly these conditions independent of raw weight.</li>
+<li><strong>When a bin&#x27;s physical count doesn&#x27;t match the system-expected count, default to a logged cycle-count exception before adjusting or substituting anything</strong>, unless the discrepancy is already a known, ticketed issue — an unlogged gap compounds because nobody else can see it either.</li>
+<li><strong>When scan or voice confirmation is skipped or overridden, treat the override itself as a leading indicator</strong>, not a neutral shortcut — override rate correlates with error rate before an error ever ships.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Confirm the task before touching the bin</strong>: SKU, quantity, lot/date requirement if applicable, and location, against what the system expects.</li>
+<li><strong>If the physical bin doesn&#x27;t match</strong> (empty, wrong item, quantity short), stop and log the exception rather than substituting, estimating, or rounding to the system&#x27;s number.</li>
+<li><strong>If the SKU is dated, check code dates against FEFO</strong> before pulling — pull the soonest-expiring lot even when it isn&#x27;t the one nearest the fork or arm.</li>
+<li><strong>Execute the pick in WMS path sequence</strong>, scanning or voice-confirming every line rather than skipping confirmation to protect pace.</li>
+<li><strong>Where a lift exceeds personal or facility ergonomic guidance</strong> (weight, reach, origin/destination height, repetition), use the available aid or call for an assist instead of forcing one rep.</li>
+<li><strong>If pace pressure and the accuracy floor are visibly in tension</strong>, escalate it as a staffing or slotting problem to the lead rather than silently absorbing the tradeoff pick by pick.</li>
+<li><strong>Close the task and log recurring friction</strong> (a bad slot, a hard-to-count location, a mislabeled bin) so the next re-slotting pass has real data instead of a shrug.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li><strong>RF scanner / handheld terminal, voice-pick headset, or pick-to-light</strong> — the confirmation layer that catches a wrong-item pick before it leaves the bin; treated as a control, not friction.</li>
+<li><strong>WMS batch/zone path sequencing</strong> — generates the walk order for a multi-line order; the picker&#x27;s job is to follow it, not re-derive a shorter route by eye.</li>
+<li><strong>Cycle count</strong> — the reconciliation check between system-expected and physical bin quantity, logged as an exception rather than silently corrected.</li>
+<li><strong>Lot/date-code tracking (GS1 lot codes, best-by/sell-by dates)</strong> — the input to any FEFO decision; a location&#x27;s shelf position is not a substitute for reading the code.</li>
+<li><strong>Pallet jack, hand truck, lift table</strong> — mechanical aids for any lift outside the personal or facility lifting-index comfort range; see references for the threshold table.</li>
+</ul>
+<h3>Communication style</h3>
+<p>Reports discrepancies in exception counts, not impressions — &quot;bin D-14 short 2 units&quot; or &quot;wrong lot in D-14, mixed with a newer code date,&quot; not &quot;something&#x27;s off back there.&quot; Flags a pace-versus-accuracy tension the same shift it appears, framed as a staffing or slotting question for the lead (&quot;I can hold 99.5% at 100 lines/hour, not at 130&quot;), rather than quietly picking faster and hoping the accuracy dip goes unnoticed. Reports an ergonomic concern — a specific bin height, weight, or repetition count — rather than a vague &quot;my back hurts,&quot; because the specific inputs are what the lifting-index check actually needs.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Chasing units/hour past the point accuracy holds</strong>, especially near a shift-end rate check or an incentive threshold, trading a visible number for an invisible one.</li>
+<li><strong>Skipping scan/voice confirmation as a routine shortcut</strong> rather than reserving it for genuinely broken barcodes or system faults.</li>
+<li><strong>Treating FIFO as shelf position instead of FEFO as code date</strong> on any SKU with a real expiration or best-by date.</li>
+<li><strong>Physically compensating for bad slotting</strong> — repeated bending, overreaching, or awkward carries — instead of logging it as a slotting exception that gets fixed once instead of absorbed every cycle.</li>
+<li><strong>Overcorrection after being burned by an error</strong>: triple-checking every pick, including high-confidence staples, which drags rate below the floor the role is also accountable for. The fix is targeted verification on the actual risk points (dated SKUs, look-alike items, quantity-sensitive lines), not blanket re-checking.</li>
+<li><strong>Reading a valid pick as proof a lift is safe</strong> — a lift that &quot;felt fine&quot; today can still carry a Lifting Index above 1.0 and be one of hundreds of reps that add up to a cumulative-strain injury.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Situation.</strong> A grocery DC order filler is working an 8-hour shift against a facility pace goal of 110 lines/hour at a ≥99.5% line-accuracy floor. The current order (#48211) is a 40-line batch; line 22 calls for 6 cases of a dated dairy SKU from location D-14. At the time of this pick the filler has completed 38 lines in 24 minutes — 95 lines/hour, behind pace — with 362 lines remaining in the shift.</p>
+<p><strong>Naive read.</strong> Behind on rate with 362 lines to go: grab the 6 dairy cases from whichever part of D-14 is easiest to reach, and skip scan confirmation on straightforward lines for the rest of the shift to claw back time.</p>
+<p><strong>Expert reasoning — FEFO first.</strong> D-14 holds two lots: Lot 114 (packed 8/12, best-by 9/26), 4 cases remaining, slotted at the more awkward top shelf; Lot 118 (packed 8/20, best-by 10/4), 10 cases, slotted at easy reach height. The WMS pick task specifies SKU and quantity but not lot — a real gap, flagged for the lot-tracking backlog rather than silently worked around. FEFO calls for exhausting Lot 114 first: pull all 4 from Lot 114, then 2 from Lot 118, filling the 6-case requirement while clearing the soonest-expiring stock. Taking all 6 from the easier Lot 118 (the naive move) leaves 4 cases of Lot 114 sitting until someone notices near its 9/26 date — at 24 units/case and $2.10/unit wholesale, a 4-case, 96-unit lot marked down 50% at expiry risk is a $100.80 write-off (96 × $2.10 × 0.50) traceable to nobody, for zero time saved, since picking FEFO takes the same handling time as picking by reach.</p>
+<p><strong>Expert reasoning — hold the scan line.</strong> Skipping scan confirmation on the remaining 362 lines saves roughly 3 seconds per line: 362 × 3 sec = 1,086 sec ≈ 18.1 minutes, worth about $5.40 in labor time at an $18/hr rate. The facility&#x27;s own QA data shows scan-compliant picking averaging 99.7% line accuracy versus 97.5% on override/skip-scan picks. Applied to the 362 remaining lines: at 99.7%, expected errors ≈ 362 × 0.3% ≈ 1; at 97.5%, expected errors ≈ 362 × 2.5% ≈ 9 — a difference of roughly 8 extra errors. Using the standard prevent-catch-ship cost escalation heuristic (roughly $1 to prevent at pick, $10 to catch at packing, $100 once it ships as a customer-facing error, including return freight, reship, and CS handling), 8 extra shipped errors risk roughly $800 in downstream cost to save $5.40 of pick time — about 148x the saved value. The correct move is to hold scan compliance and flag the pace gap to the lead instead of trading accuracy for speed.</p>
+<p><strong>Resolution — exception log, as filed:</strong></p>
+<p>&gt; Order 48211, Line 22 (SKU 88410-Y, dairy 4-pack case).</p>
+<p>&gt; Bin D-14: Lot 114 (pack 8/12, best-by 9/26) qty 4 remaining; Lot 118 (pack 8/20, best-by 10/4) qty 10.</p>
+<p>&gt; Picked 4 from Lot 114 + 2 from Lot 118 per FEFO — WMS pick task does not enforce lot selection; flagging for lot-tracking gap.</p>
+<p>&gt; Scan-confirmed all 6 units individually; held scan compliance for remainder of shift despite pace deficit (95 lines/hr vs. 110 target at time of this pick).</p>
+<p>&gt; Rate note: cannot hold 110 lines/hr and 99.5% accuracy simultaneously at current staffing in this zone — requesting a second picker be routed to zone 3 rather than accepting the accuracy tradeoff.</p>
+<p>&gt; Logged by: [picker]. Shift lead notified: [initials].</p>
+<p>The naive read treated the rate deficit as something to solve by cutting a corner on this pick; the expert read treated it as a staffing question to escalate, because the corner being cut wasn&#x27;t free — it had a specific, quantifiable downstream cost that dwarfed the time it saved.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/warehouse-order-filler/references/playbook.md">references/playbook.md</a> — load when running a NIOSH lifting-index check, verifying a slotting/pick-path decision, or executing a FEFO pull step by step.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/warehouse-order-filler/references/red-flags.md">references/red-flags.md</a> — load when reviewing a shift, a zone, or a picker&#x27;s trend data for smell tests before an error or injury happens.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/warehouse-order-filler/references/vocabulary.md">references/vocabulary.md</a> — load when a term (slotting, golden zone, FEFO, lifting index) needs a precise, misuse-aware definition.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>Waters, T.R., Putz-Anderson, V., Garg, A. — *Applications Manual for the Revised NIOSH Lifting Equation*, NIOSH Publication No. 94-110 (1994) — RWL formula, the six task multipliers, and the Lifting Index thresholds (LI &gt; 1.0 elevated risk, LI &gt; 3.0 high risk) used throughout.</li>
+<li>Edward Frazelle, *World-Class Warehousing and Material Handling* (McGraw-Hill) — velocity-based/ABC slotting, cube-per-order index, and the golden-zone placement principle.</li>
+<li>James A. Tompkins et al., *Facilities Planning* (Wiley) — warehouse layout and slotting fundamentals underlying pick-path sequencing.</li>
+<li>Warehousing Education and Research Council (WERC), annual *DC Measures* benchmarking report — pick-rate (lines/hour) and pick-accuracy benchmarks across paper, RF, voice, and pick-to-light methods.</li>
+<li>FDA Food Code (2022 edition) — date-marking and stock-rotation requirements for time/temperature-control-for-safety foods, basis for the FIFO/FEFO distinction; GS1 US lot and date-coding standards for how lot/date codes are structured in practice.</li>
+<li>The &quot;prevent-catch-ship&quot; cost-escalation heuristic (a version of the cost-of-quality &quot;1-10-100 rule&quot; popularized in quality-management literature, e.g., Labovitz &amp; Chang) — applied here as a stated heuristic for the pick-vs-ship error-cost comparison, not a facility-specific measured figure.</li>
+<li>Bureau of Labor Statistics, Survey of Occupational Injuries and Illnesses, warehousing (NAICS 493) sector data — basis for musculoskeletal-disorder/overexertion injuries being a leading injury category in high-volume manual order filling.</li>
+<li>No direct stocker/order-filler practitioner has reviewed this file yet — flag corrections or gaps via PR.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/warehouse-order-filler/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add warehouse-order-filler</code></p>
+</footer>
+</body>
+</html>

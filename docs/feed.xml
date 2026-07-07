@@ -4,7 +4,98 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 19:57:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 20:09:09 +0000</lastBuildDate>
+  <item>
+    <title>Aviation Inspector</title>
+    <link>https://domainexperts.dev/roles/aviation-inspector/</link>
+    <guid>https://domainexperts.dev/roles/aviation-inspector/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Aviation Inspector — determining whether an air carrier&#x27;s fleet is in compliance with an Airworthiness Directive across a maintenance-records sample, deciding where the FAA&#x27;s compliance-and-enforcement ladder places a finding (compliance action vs. Letter of Correction vs. civil penalty vs. certificate action), auditing a Safety Management System for a functioning safety-assurance loop rather than paperwork completeness, scoping a records-sampling strategy across a fleet under surveillance, or deciding whether to ground an aircraft pending an AD compliance finding.</description>
+  </item>
+  <item>
+    <title>Bridge Lock Tender</title>
+    <link>https://domainexperts.dev/roles/bridge-lock-tender/</link>
+    <guid>https://domainexperts.dev/roles/bridge-lock-tender/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Bridge and Lock Tender — deciding whether to open a movable span for a vessel signal during a restricted-hours window, sequencing a lock chamber&#x27;s fill/empty and valve staging, verifying an interlock/gate cycle before commanding span movement, resolving a marine-traffic-vs-vehicle-traffic conflict, or coordinating a vessel passage over VHF.</description>
+  </item>
+  <item>
+    <title>Conveyor Operator</title>
+    <link>https://domainexperts.dev/roles/conveyor-operator/</link>
+    <guid>https://domainexperts.dev/roles/conveyor-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Conveyor Operator — diagnosing a mistracking belt before it becomes edge damage or spillage, verifying every lockout/tagout isolation point on a conveyor with a gravity take-up or incline before entering the nip zone, calculating each conveyor&#x27;s actual delivered capacity in a multi-conveyor line to find the true bottleneck, deciding whether a mechanical or vulcanized splice fits a given tension rating, or judging whether a pinch-point guarding gap needs an immediate stop versus a scheduled fix.</description>
+  </item>
+  <item>
+    <title>Dredge Operator</title>
+    <link>https://domainexperts.dev/roles/dredge-operator/</link>
+    <guid>https://domainexperts.dev/roles/dredge-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Dredge Operator — selecting cutterhead, hopper, or mechanical dredge type for a given sediment/depth/environmental profile, classifying dredged material for open-water vs. confined disposal from sediment-testing results, tuning hydraulic slurry density against pipeline critical velocity, verifying channel controlling depth against project depth and overdepth tolerance, or setting turbidity-monitoring response during active dredging.</description>
+  </item>
+  <item>
+    <title>Flight Attendant</title>
+    <link>https://domainexperts.dev/roles/flight-attendant/</link>
+    <guid>https://domainexperts.dev/roles/flight-attendant/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a flight attendant — verifying door-arming/disarming cross-check discipline at boarding close and arrival, computing the required cabin-crew count against 14 CFR 121.391 seat thresholds, assessing whether an inoperative exit changes evacuation-readiness math, working an in-flight medical event against the enhanced emergency medical kit and ground-based physician consult, or escalating an unruly-passenger situation through the FAA enforcement tiers.</description>
+  </item>
+  <item>
+    <title>Gas Compressor Station Operator</title>
+    <link>https://domainexperts.dev/roles/gas-compressor-station-operator/</link>
+    <guid>https://domainexperts.dev/roles/gas-compressor-station-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Gas Compressor and Gas Pumping Station Operator — checking compressor discharge temperature against pipe-coating and MAOP limits after a cooling-capacity loss, verifying odorant concentration against the 1/5-LEL detectability threshold, tracking PHMSA-mandated pressure-limiting/relief device test intervals, executing an emergency shutdown (ESD) and blowdown sequence, or diagnosing a high-temperature compressor trip against interstage/cooling trends.</description>
+  </item>
+  <item>
+    <title>Recycling Coordinator</title>
+    <link>https://domainexperts.dev/roles/recycling-coordinator/</link>
+    <guid>https://domainexperts.dev/roles/recycling-coordinator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a recycling coordinator — setting or defending a contamination-reduction target against a materials recovery facility (MRF) contract&#x27;s rejection bands, designing a public-education campaign to change set-out behavior, deciding single-stream vs. dual-stream collection tradeoffs, evaluating a hauler/MRF contract renewal under commodity-price volatility, or reporting program diversion-rate performance to elected officials.</description>
+  </item>
+  <item>
+    <title>School Bus Driver</title>
+    <link>https://domainexperts.dev/roles/school-bus-driver/</link>
+    <guid>https://domainexperts.dev/roles/school-bus-driver/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a school bus driver — running the loading/unloading danger-zone scan before releasing students, handling a stop-arm violation without leaving the bus, managing student behavior with no administrator aboard, or executing a railroad-crossing stop with students on board.</description>
+  </item>
+  <item>
+    <title>Ship Engineer</title>
+    <link>https://domainexperts.dev/roles/ship-engineer/</link>
+    <guid>https://domainexperts.dev/roles/ship-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Ship Engineer (marine engineering officer) — diagnosing a rising cooling-water temperature or falling lube-oil pressure trend before an automatic shutdown trips the main engine, deciding whether to authorize CO2 flooding of a machinery space during a fire, sequencing black-start and load-shedding after a total blackout at sea, or judging an oily-water-separator reading and Oil Record Book entry against MARPOL Annex I discharge limits.</description>
+  </item>
+  <item>
+    <title>Subway Streetcar Operator</title>
+    <link>https://domainexperts.dev/roles/subway-streetcar-operator/</link>
+    <guid>https://domainexperts.dev/roles/subway-streetcar-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a subway or streetcar operator — deciding whether to hold at a stop or run to close a headway gap without violating minimum train separation, evaluating a door-obstruction sensor event before recycling or manually overriding the door, judging an ATC/ATO-to-manual mode transition and its speed restriction, planning a tunnel emergency-evacuation communication sequence, or verifying platform gap-filler deployment at a curved station before releasing doors.</description>
+  </item>
+  <item>
+    <title>Taxi Driver</title>
+    <link>https://domainexperts.dev/roles/taxi-driver/</link>
+    <guid>https://domainexperts.dev/roles/taxi-driver/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Taxi Driver — deciding whether to charge a filed flat rate or run the meter on an airport trip, screening and positioning for the next fare before dropping off the current passenger to cut deadhead miles, judging whether a late-night street hail is safe to accept, reconciling a shift&#x27;s gross fares against total miles driven to find real profitability, or tracking medallion/vehicle-inspection and license renewal deadlines.</description>
+  </item>
+  <item>
+    <title>Warehouse Order Filler</title>
+    <link>https://domainexperts.dev/roles/warehouse-order-filler/</link>
+    <guid>https://domainexperts.dev/roles/warehouse-order-filler/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Stocker or Order Filler — reading a pick list against warehouse slotting logic, sequencing a multi-line batch pick, applying FIFO/FEFO rotation on dated inventory, checking a lift against ergonomic lifting-index thresholds, or deciding whether a pace-vs-accuracy tradeoff should be flagged before it ships as a customer-facing error.</description>
+  </item>
+  <item>
+    <title>Wellhead Pumper</title>
+    <link>https://domainexperts.dev/roles/wellhead-pumper/</link>
+    <guid>https://domainexperts.dev/roles/wellhead-pumper/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:08:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Wellhead Pumper — diagnosing a rod-pump problem from a dynamometer card, responding to an H2S gas-detection reading at a wellsite, deciding whether a production drop needs a workover or a mechanical fix, gauging tank levels and tracking produced-water disposal-pressure limits, or setting solo-work safety protocol for remote well rounds.</description>
+  </item>
   <item>
     <title>Air Traffic Controller</title>
     <link>https://domainexperts.dev/roles/air-traffic-controller/</link>
