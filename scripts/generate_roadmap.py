@@ -200,6 +200,12 @@ def write_roles_json(roles):
             "references": sorted(
                 p.name for p in (ROLES_DIR / slug / "references").glob("*.md")
             ) if (ROLES_DIR / slug / "references").is_dir() else [],
+            # "us" is the implicit baseline every SKILL.md is written to — no
+            # overlay file needed for it. Overlay files add deltas on top.
+            "jurisdictions": ["us"] + sorted(
+                p.stem for p in (ROLES_DIR / slug / "references" / "jurisdictions").glob("*.md")
+                if p.stem != "us"
+            ) if (ROLES_DIR / slug / "references" / "jurisdictions").is_dir() else ["us"],
         }
         for slug, fm in sorted(roles.items())
     ]

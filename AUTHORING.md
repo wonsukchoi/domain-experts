@@ -122,6 +122,32 @@ Filled examples, never descriptions of examples. A template an agent can execute
 
 Roles whose human counterpart is licensed (law, medicine, financial advice, structural/safety engineering, tax) must carry a blockquote disclaimer at the top of the SKILL.md body: reasoning aid, not professional advice; jurisdiction/context matters; licensed professional signs off. See `lawyer-contracts/SKILL.md` for the pattern.
 
+## Jurisdiction overlays (optional)
+
+A role's SKILL.md and references/ are the US baseline — every role implicitly carries `"us"` in `data/roles.json`'s `jurisdictions` field, no overlay file required. Where a country's law changes what the role actually does (not just terminology), add a delta-only overlay instead of forking the whole role. Never add a `us.md` overlay — lint rejects it, since the baseline already covers it.
+
+```
+roles/<role-slug>/references/jurisdictions/<iso2>.md   # lowercase ISO 3166-1 alpha-2, e.g. kr.md, jp.md
+```
+
+Frontmatter (exact):
+
+```yaml
+---
+country: KR                    # uppercase ISO 3166-1 alpha-2
+regulator: <agency name>       # the body whose rules this overlay cites
+as_of: YYYY-MM-DD
+---
+```
+
+Body is a *delta*, not a rewrite: only the statutes, thresholds, forms, and agency names that differ from the US baseline in SKILL.md. Same no-invented-numbers rule as everywhere else — every cited threshold traces to a named statute or regulator. Ends with this exact disclaimer line, verbatim except the two fills:
+
+```
+Laws cited current as of <as_of> — verify against <regulator> before acting; not legal advice.
+```
+
+`data/roles.json`'s `jurisdictions` field is auto-generated from the filenames present — never hand-edit it.
+
 ## Banned patterns (lint list)
 
 Phrases — presence of any is a review flag:

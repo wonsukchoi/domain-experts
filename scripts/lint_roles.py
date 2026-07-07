@@ -225,6 +225,37 @@ def lint_role(role_dir, require_v2, errors, warnings, all_slugs):
             err(f"vocabulary.md too thin: {n_use}x 'in use', {n_mis}x "
                 "'misuse' — need >=8 misuse-aware terms")
 
+    # --- jurisdiction overlays (optional) ---
+    juris_dir = refs / "jurisdictions"
+    if juris_dir.is_dir():
+        for jf in sorted(juris_dir.glob("*.md")):
+            jslug = f"jurisdictions/{jf.name}"
+            if jf.stem == "us":
+                err(f"{jslug}: 'us' is the implicit SKILL.md baseline, "
+                    "not an overlay — delete this file")
+            elif not re.fullmatch(r"[a-z]{2}\.md", jf.name):
+                err(f"{jslug}: filename must be lowercase ISO 3166-1 alpha-2 + .md")
+            jtext = jf.read_text(encoding="utf-8")
+            jfm = parse_frontmatter(jtext)
+            if jfm is None:
+                err(f"{jslug}: no frontmatter block")
+                continue
+            country = jfm.get("country", "")
+            if not re.fullmatch(r"[A-Z]{2}", country):
+                err(f"{jslug}: country '{country}' must be uppercase ISO 3166-1 alpha-2")
+            if not jfm.get("regulator"):
+                err(f"{jslug}: missing regulator")
+            as_of = jfm.get("as_of", "")
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", as_of):
+                err(f"{jslug}: as_of '{as_of}' not in YYYY-MM-DD form")
+            jbody = jtext.split("---\n", 2)[2] if jtext.count("---\n") >= 2 else jtext
+            if "verify against" not in jbody.lower() or "not legal advice" not in jbody.lower():
+                err(f"{jslug}: missing required disclaimer line "
+                    "(\"Laws cited current as of <as_of> — verify against "
+                    "<regulator> before acting; not legal advice.\")")
+            if len(jbody.strip()) < 200:
+                err(f"{jslug}: body too thin — overlay must cite real deltas, not a stub")
+
 
 def main(argv):
     added_paths = []

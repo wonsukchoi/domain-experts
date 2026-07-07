@@ -164,7 +164,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <main class="role-page">
 {content}
   <p class="source-link"><a href="{source}">View SKILL.md source on GitHub</a> &middot; maturity: {maturity}</p>
-</main>
+{jurisdictions}</main>
 <footer>
   <p>Install this role: <code>npx domain-experts add {slug}</code></p>
 </footer>
@@ -213,6 +213,14 @@ def build():
             ],
         })
 
+        jurisdictions = r.get("jurisdictions") or ["us"]
+        overlays = [j for j in jurisdictions if j != "us"]
+        badges = "US (baseline)" + "".join(
+            f' &middot; <a href="{REPO_BLOB}roles/{slug}/references/jurisdictions/{j}.md">{j.upper()}</a>'
+            for j in overlays
+        )
+        jurisdictions_html = f'  <p class="jurisdictions">Jurisdiction: {badges}</p>\n'
+
         page = PAGE_TEMPLATE.format(
             name=html.escape(title_case(slug)),
             description=html.escape(r["description"]),
@@ -225,6 +233,7 @@ def build():
             slug=slug,
             schema=schema,
             breadcrumb=breadcrumb,
+            jurisdictions=jurisdictions_html,
         )
 
         page_dir = OUT_DIR / slug

@@ -14,7 +14,9 @@
       "audit_score": null,
       "skill": "roles/accountant-controller/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "actuary",
@@ -33,7 +35,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "administrative-law-judge",
@@ -52,7 +56,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "administrative-services-manager",
@@ -67,7 +73,9 @@
       "audit_score": null,
       "skill": "roles/administrative-services-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "adult-esl-instructor",
@@ -86,7 +94,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "advertising-promotions-manager",
@@ -101,7 +111,9 @@
       "audit_score": null,
       "skill": "roles/advertising-promotions-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "advertising-sales-agent",
@@ -120,7 +132,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "aerospace-engineer",
@@ -139,7 +153,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "agricultural-manager",
@@ -154,7 +170,9 @@
       "audit_score": null,
       "skill": "roles/agricultural-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "animal-scientist",
@@ -173,7 +191,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "application-security-engineer",
@@ -192,7 +212,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "architect",
@@ -211,7 +233,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "architectural-engineering-manager",
@@ -230,7 +254,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "archivist",
@@ -249,7 +275,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "art-director",
@@ -268,7 +296,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "astronomer",
@@ -287,7 +317,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "atmospheric-scientist",
@@ -306,7 +338,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "audiologist",
@@ -325,7 +359,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "auto-damage-appraiser",
@@ -344,7 +380,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "bill-account-collector",
@@ -363,7 +401,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "billing-posting-clerk",
@@ -382,7 +422,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "biochemist",
@@ -401,7 +443,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "biofuels-biodiesel-technology-manager",
@@ -420,7 +464,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "biofuels-production-manager",
@@ -435,7 +481,9 @@
       "audit_score": null,
       "skill": "roles/biofuels-production-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "bioinformatics-technician",
@@ -454,7 +502,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "biomass-power-plant-manager",
@@ -469,7 +519,9 @@
       "audit_score": null,
       "skill": "roles/biomass-power-plant-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "biomedical-engineer",
@@ -488,7 +540,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "biostatistician",
@@ -507,7 +561,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "blockchain-engineer",
@@ -526,7 +582,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "bookkeeping-accounting-clerk",
@@ -545,7 +603,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "brokerage-clerk",
@@ -564,7 +624,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "brownfield-redevelopment-specialist",
@@ -583,7 +645,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "budget-analyst",
@@ -602,7 +666,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "business-continuity-planner",
@@ -621,7 +687,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "business-intelligence-analyst",
@@ -640,7 +708,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "cargo-freight-agent",
@@ -659,7 +729,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "chemical-engineer",
@@ -678,7 +750,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "chemist",
@@ -697,7 +771,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "chief-executive",
@@ -712,7 +788,9 @@
       "audit_score": null,
       "skill": "roles/chief-executive/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "chief-sustainability-officer",
@@ -727,7 +805,9 @@
       "audit_score": null,
       "skill": "roles/chief-sustainability-officer/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "child-family-social-worker",
@@ -746,7 +826,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "chiropractor",
@@ -765,7 +847,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "civil-engineer",
@@ -784,7 +868,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "claims-adjuster",
@@ -803,7 +889,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "clergy",
@@ -822,7 +910,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "clinical-counseling-psychologist",
@@ -841,7 +931,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "clinical-data-manager",
@@ -860,7 +952,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "clinical-research-coordinator",
@@ -879,7 +973,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "commercial-industrial-designer",
@@ -898,7 +994,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "community-health-worker",
@@ -917,7 +1015,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "compensation-benefits-manager",
@@ -932,7 +1032,9 @@
       "audit_score": null,
       "skill": "roles/compensation-benefits-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "compensation-benefits-specialist",
@@ -951,7 +1053,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "compliance-manager",
@@ -970,7 +1074,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "compliance-officer",
@@ -989,7 +1095,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "computer-information-research-scientist",
@@ -1008,7 +1116,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "computer-information-systems-manager",
@@ -1023,7 +1133,9 @@
       "audit_score": null,
       "skill": "roles/computer-information-systems-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "computer-programmer",
@@ -1042,7 +1154,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "computer-systems-analyst",
@@ -1061,7 +1175,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "computer-systems-engineer-architect",
@@ -1080,7 +1196,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "computer-user-support-specialist",
@@ -1099,7 +1217,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "conservation-scientist",
@@ -1118,7 +1238,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "construction-manager",
@@ -1133,7 +1255,9 @@
       "audit_score": null,
       "skill": "roles/construction-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "coroner",
@@ -1152,7 +1276,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "correctional-officer",
@@ -1171,7 +1297,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "correspondence-clerk",
@@ -1190,7 +1318,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "cost-estimator",
@@ -1209,7 +1339,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "courier-messenger",
@@ -1228,7 +1360,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "court-municipal-license-clerk",
@@ -1247,7 +1381,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "court-reporter",
@@ -1266,7 +1402,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "credit-analyst",
@@ -1285,7 +1423,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "credit-authorizer-checker-clerk",
@@ -1304,7 +1444,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "credit-counselor",
@@ -1323,7 +1465,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "customer-service-representative",
@@ -1342,7 +1486,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "customer-success-manager",
@@ -1357,7 +1503,9 @@
       "audit_score": null,
       "skill": "roles/customer-success-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "customs-border-protection-officer",
@@ -1376,7 +1524,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "customs-broker",
@@ -1395,7 +1545,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "data-engineer",
@@ -1414,7 +1566,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "data-entry-keyer",
@@ -1433,7 +1587,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "data-scientist",
@@ -1452,7 +1608,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "data-warehousing-specialist",
@@ -1471,7 +1629,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "database-administrator",
@@ -1490,7 +1650,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "database-architect",
@@ -1509,7 +1671,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "dental-hygienist",
@@ -1528,7 +1692,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "dentist-general",
@@ -1547,7 +1713,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "desktop-publisher",
@@ -1566,7 +1734,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "detective-criminal-investigator",
@@ -1585,7 +1755,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "devops-sre",
@@ -1600,7 +1772,9 @@
       "audit_score": null,
       "skill": "roles/devops-sre/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "dietitian-nutritionist",
@@ -1619,7 +1793,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "digital-forensics-analyst",
@@ -1638,7 +1814,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "dispatcher",
@@ -1657,7 +1835,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "document-management-specialist",
@@ -1676,7 +1856,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "economist",
@@ -1695,7 +1877,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "editor",
@@ -1714,7 +1898,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "education-administrator-k12",
@@ -1729,7 +1915,9 @@
       "audit_score": null,
       "skill": "roles/education-administrator-k12/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "education-administrator-other",
@@ -1744,7 +1932,9 @@
       "audit_score": null,
       "skill": "roles/education-administrator-other/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "education-administrator-postsecondary",
@@ -1759,7 +1949,9 @@
       "audit_score": null,
       "skill": "roles/education-administrator-postsecondary/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "education-childcare-administrator-preschool",
@@ -1774,7 +1966,9 @@
       "audit_score": null,
       "skill": "roles/education-childcare-administrator-preschool/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "electrical-engineer",
@@ -1793,7 +1987,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "electrician",
@@ -1812,7 +2008,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "elementary-school-teacher",
@@ -1831,7 +2029,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "eligibility-interviewer",
@@ -1850,7 +2050,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "embedded-firmware-engineer",
@@ -1869,7 +2071,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "emergency-management-director",
@@ -1888,7 +2092,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "entertainment-recreation-manager",
@@ -1907,7 +2113,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "environmental-compliance-inspector",
@@ -1926,7 +2134,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "environmental-engineer",
@@ -1945,7 +2155,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "environmental-scientist",
@@ -1964,7 +2176,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "epidemiologist",
@@ -1983,7 +2197,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "equal-opportunity-representative",
@@ -2002,7 +2218,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "executive-administrative-assistant",
@@ -2021,7 +2239,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "facilities-manager",
@@ -2036,7 +2256,9 @@
       "audit_score": null,
       "skill": "roles/facilities-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "farm-labor-contractor",
@@ -2055,7 +2277,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "farm-products-buyer",
@@ -2074,7 +2298,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fashion-designer",
@@ -2093,7 +2319,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "file-clerk",
@@ -2112,7 +2340,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "film-video-editor",
@@ -2131,7 +2361,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "financial-analyst",
@@ -2146,7 +2378,9 @@
       "audit_score": null,
       "skill": "roles/financial-analyst/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "financial-examiner",
@@ -2165,7 +2399,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "financial-manager",
@@ -2184,7 +2420,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "financial-quantitative-analyst",
@@ -2203,7 +2441,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "financial-risk-specialist",
@@ -2222,7 +2462,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fire-inspector-investigator",
@@ -2241,7 +2483,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "firefighter",
@@ -2260,7 +2504,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "first-line-supervisor-office-admin",
@@ -2279,7 +2525,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fish-and-game-warden",
@@ -2298,7 +2546,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fitness-wellness-coordinator",
@@ -2317,7 +2567,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "floral-designer",
@@ -2336,7 +2588,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "food-scientist",
@@ -2355,7 +2609,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "food-service-manager",
@@ -2374,7 +2630,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "forensic-science-technician",
@@ -2393,7 +2651,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "forester",
@@ -2412,7 +2672,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fraud-examiner",
@@ -2431,7 +2693,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "frontend-engineer",
@@ -2450,7 +2714,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "full-stack-developer",
@@ -2469,7 +2735,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fundraiser",
@@ -2488,7 +2756,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "fundraising-manager",
@@ -2503,7 +2773,9 @@
       "audit_score": null,
       "skill": "roles/fundraising-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "funeral-home-manager",
@@ -2522,7 +2794,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "gambling-cage-worker",
@@ -2541,7 +2815,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "gambling-manager",
@@ -2560,7 +2836,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "game-designer",
@@ -2579,7 +2857,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "general-operations-manager",
@@ -2594,7 +2874,9 @@
       "audit_score": null,
       "skill": "roles/general-operations-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "genetic-counselor",
@@ -2613,7 +2895,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "geneticist",
@@ -2632,7 +2916,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "geoscientist",
@@ -2651,7 +2937,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "geothermal-production-manager",
@@ -2666,7 +2954,9 @@
       "audit_score": null,
       "skill": "roles/geothermal-production-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "gis-technologist",
@@ -2685,7 +2975,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "government-property-inspector",
@@ -2704,7 +2996,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "graphic-designer",
@@ -2723,7 +3017,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "health-informatics-specialist",
@@ -2742,7 +3038,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "healthcare-social-worker",
@@ -2761,7 +3059,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "high-school-teacher",
@@ -2780,7 +3080,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "hotel-motel-desk-clerk",
@@ -2799,7 +3101,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "hr-people-manager",
@@ -2814,7 +3118,9 @@
       "audit_score": null,
       "skill": "roles/hr-people-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "hr-specialist",
@@ -2833,7 +3139,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "hydroelectric-production-manager",
@@ -2848,7 +3156,9 @@
       "audit_score": null,
       "skill": "roles/hydroelectric-production-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "hydrologist",
@@ -2867,7 +3177,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "industrial-engineer",
@@ -2886,7 +3198,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "industrial-organizational-psychologist",
@@ -2905,7 +3219,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "industrial-production-manager",
@@ -2920,7 +3236,9 @@
       "audit_score": null,
       "skill": "roles/industrial-production-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "information-security-analyst",
@@ -2939,7 +3257,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "instructional-coordinator",
@@ -2958,7 +3278,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "insurance-claims-processing-clerk",
@@ -2977,7 +3299,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "insurance-sales-agent",
@@ -2996,7 +3320,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "insurance-underwriter",
@@ -3015,7 +3341,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "intelligence-analyst",
@@ -3034,7 +3362,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "interior-designer",
@@ -3053,7 +3383,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "interviewer-except-eligibility-loan",
@@ -3072,7 +3404,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "investment-fund-manager",
@@ -3087,7 +3421,9 @@
       "audit_score": null,
       "skill": "roles/investment-fund-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "it-project-manager",
@@ -3106,7 +3442,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "judge",
@@ -3125,7 +3463,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "judicial-law-clerk",
@@ -3144,7 +3484,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "labor-relations-specialist",
@@ -3163,7 +3505,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "landscape-architect",
@@ -3182,7 +3526,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "lawyer-contracts",
@@ -3202,7 +3548,9 @@
         "review-checklist.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "legal-secretary",
@@ -3221,7 +3569,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "legislator",
@@ -3236,7 +3586,9 @@
       "audit_score": null,
       "skill": "roles/legislator/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "librarian",
@@ -3255,7 +3607,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "library-assistant-clerical",
@@ -3274,7 +3628,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "loan-interviewer-clerk",
@@ -3293,7 +3649,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "loan-officer",
@@ -3312,7 +3670,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "lodging-manager",
@@ -3331,7 +3691,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "logistician",
@@ -3350,7 +3712,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "logistics-analyst",
@@ -3369,7 +3733,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "logistics-engineer",
@@ -3388,7 +3754,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "loss-prevention-manager",
@@ -3407,7 +3775,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "management-analyst",
@@ -3426,7 +3796,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "marketing-manager",
@@ -3441,7 +3813,9 @@
       "audit_score": null,
       "skill": "roles/marketing-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "marketing-strategist",
@@ -3460,7 +3834,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "marriage-family-therapist",
@@ -3479,7 +3855,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "mathematician",
@@ -3498,7 +3876,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "mechanical-engineer",
@@ -3517,7 +3897,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "mediator",
@@ -3536,7 +3918,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "medical-health-services-manager",
@@ -3555,7 +3939,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "medical-scientist",
@@ -3574,7 +3960,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "medical-secretary",
@@ -3593,7 +3981,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "meeting-event-planner",
@@ -3612,7 +4002,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "mental-health-counselor",
@@ -3631,7 +4023,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "merchandise-displayer",
@@ -3650,7 +4044,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "meter-reader-utilities",
@@ -3669,7 +4065,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "microbiologist",
@@ -3688,7 +4086,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "ml-engineer",
@@ -3707,7 +4107,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "mobile-engineer",
@@ -3726,7 +4128,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "natural-sciences-manager",
@@ -3745,7 +4149,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "network-architect",
@@ -3764,7 +4170,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "network-support-specialist",
@@ -3783,7 +4191,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "network-systems-administrator",
@@ -3802,7 +4212,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "new-accounts-clerk",
@@ -3822,6 +4234,7 @@
         "vocabulary.md"
       ],
       "jurisdictions": [
+        "us",
         "kr"
       ]
     },
@@ -3842,7 +4255,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "nuclear-engineer",
@@ -3861,7 +4276,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "nurse-practitioner",
@@ -3880,7 +4297,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "occupational-health-safety-specialist",
@@ -3899,7 +4318,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "occupational-therapist",
@@ -3918,7 +4339,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "office-clerk-general",
@@ -3937,7 +4360,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "office-machine-operator",
@@ -3956,7 +4381,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "online-merchant",
@@ -3975,7 +4402,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "operations-research-analyst",
@@ -3994,7 +4423,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "optometrist",
@@ -4013,7 +4444,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "oral-maxillofacial-surgeon",
@@ -4032,7 +4465,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "order-clerk",
@@ -4051,7 +4486,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "orthodontist",
@@ -4070,7 +4507,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "paralegal",
@@ -4089,7 +4528,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "paramedic",
@@ -4108,7 +4549,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "payroll-timekeeping-clerk",
@@ -4127,7 +4570,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "penetration-tester",
@@ -4146,7 +4591,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "personal-financial-advisor",
@@ -4165,7 +4612,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "personal-property-appraiser",
@@ -4184,7 +4633,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "pharmacist",
@@ -4203,7 +4654,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "photographer",
@@ -4222,7 +4675,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "physical-therapist",
@@ -4241,7 +4696,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "physician-assistant",
@@ -4260,7 +4717,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "physician-clinical-reasoning",
@@ -4275,7 +4734,9 @@
       "audit_score": null,
       "skill": "roles/physician-clinical-reasoning/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "physicist",
@@ -4294,7 +4755,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "platform-engineer",
@@ -4313,7 +4776,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "podiatrist",
@@ -4332,7 +4797,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "police-patrol-officer",
@@ -4351,7 +4818,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "postal-service-clerk",
@@ -4370,7 +4839,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "postmaster-mail-superintendent",
@@ -4389,7 +4860,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "postsecondary-educator",
@@ -4408,7 +4881,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "preschool-teacher",
@@ -4427,7 +4902,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "private-detective-investigator",
@@ -4446,7 +4923,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "probation-officer",
@@ -4465,7 +4944,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "producer-director",
@@ -4484,7 +4965,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "product-manager",
@@ -4503,7 +4986,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "production-planning-expediting-clerk",
@@ -4522,7 +5007,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "project-management-specialist",
@@ -4541,7 +5028,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "proofreader-copy-marker",
@@ -4560,7 +5049,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "property-real-estate-manager",
@@ -4579,7 +5070,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "prosthodontist",
@@ -4598,7 +5091,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "public-relations-manager",
@@ -4613,7 +5108,9 @@
       "audit_score": null,
       "skill": "roles/public-relations-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "public-relations-specialist",
@@ -4632,7 +5129,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "public-safety-telecommunicator",
@@ -4651,7 +5150,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "purchasing-agent",
@@ -4670,7 +5171,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "purchasing-manager",
@@ -4685,7 +5188,9 @@
       "audit_score": null,
       "skill": "roles/purchasing-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "quality-control-systems-manager",
@@ -4700,7 +5205,9 @@
       "audit_score": null,
       "skill": "roles/quality-control-systems-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "real-estate-appraiser",
@@ -4719,7 +5226,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "real-estate-broker",
@@ -4738,7 +5247,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "receptionist",
@@ -4757,7 +5268,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "registered-nurse",
@@ -4776,7 +5289,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "regulatory-affairs-manager",
@@ -4795,7 +5310,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "regulatory-affairs-specialist",
@@ -4814,7 +5331,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "rehabilitation-counselor",
@@ -4833,7 +5352,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "reservation-transportation-ticket-agent",
@@ -4852,7 +5373,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "retail-buyer",
@@ -4871,7 +5394,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "sales-account-executive",
@@ -4886,7 +5411,9 @@
       "audit_score": null,
       "skill": "roles/sales-account-executive/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "sales-engineer",
@@ -4905,7 +5432,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "sales-manager",
@@ -4920,7 +5449,9 @@
       "audit_score": null,
       "skill": "roles/sales-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "school-career-counselor",
@@ -4939,7 +5470,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "school-psychologist",
@@ -4958,7 +5491,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "search-marketing-strategist",
@@ -4977,7 +5512,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "secretary-general",
@@ -4996,7 +5533,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "securities-sales-agent",
@@ -5015,7 +5554,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "security-management-specialist",
@@ -5034,7 +5575,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "security-manager",
@@ -5049,7 +5592,9 @@
       "audit_score": null,
       "skill": "roles/security-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "set-exhibit-designer",
@@ -5068,7 +5613,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "shipping-receiving-inventory-clerk",
@@ -5087,7 +5634,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "social-community-service-manager",
@@ -5106,7 +5655,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "sociologist",
@@ -5125,7 +5676,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "software-engineer",
@@ -5140,7 +5693,9 @@
       "audit_score": null,
       "skill": "roles/software-engineer/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "software-qa-analyst",
@@ -5159,7 +5714,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "soil-plant-scientist",
@@ -5178,7 +5735,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "sound-engineering-technician",
@@ -5197,7 +5756,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "spa-manager",
@@ -5216,7 +5777,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "special-education-teacher",
@@ -5235,7 +5798,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "special-effects-animator",
@@ -5254,7 +5819,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "speech-language-pathologist",
@@ -5273,7 +5840,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "statistical-assistant",
@@ -5292,7 +5861,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "statistician",
@@ -5311,7 +5882,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "substance-abuse-counselor",
@@ -5330,7 +5903,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "supply-chain-manager",
@@ -5345,7 +5920,9 @@
       "audit_score": null,
       "skill": "roles/supply-chain-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "survey-researcher",
@@ -5364,7 +5941,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "sustainability-specialist",
@@ -5383,7 +5962,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "talent-agent",
@@ -5402,7 +5983,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "tax-preparer",
@@ -5421,7 +6004,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "tax-revenue-agent",
@@ -5440,7 +6025,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "technical-recruiter",
@@ -5455,7 +6042,9 @@
       "audit_score": null,
       "skill": "roles/technical-recruiter/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "technical-writer",
@@ -5474,7 +6063,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "telecommunications-engineering-specialist",
@@ -5493,7 +6084,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "telephone-operator",
@@ -5512,7 +6105,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "teller",
@@ -5531,7 +6126,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "title-examiner",
@@ -5550,7 +6147,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "training-development-manager",
@@ -5565,7 +6164,9 @@
       "audit_score": null,
       "skill": "roles/training-development-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "training-development-specialist",
@@ -5584,7 +6185,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "translator-interpreter",
@@ -5603,7 +6206,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "transportation-storage-distribution-manager",
@@ -5618,7 +6223,9 @@
       "audit_score": null,
       "skill": "roles/transportation-storage-distribution-manager/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "travel-agent",
@@ -5637,7 +6244,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "treasurer-controller",
@@ -5652,7 +6261,9 @@
       "audit_score": null,
       "skill": "roles/treasurer-controller/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "tutor",
@@ -5671,7 +6282,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "urban-regional-planner",
@@ -5690,7 +6303,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "ux-designer",
@@ -5705,7 +6320,9 @@
       "audit_score": null,
       "skill": "roles/ux-designer/SKILL.md",
       "references": [],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "veterinarian",
@@ -5724,7 +6341,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "water-resource-specialist",
@@ -5743,7 +6362,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "web-administrator",
@@ -5762,7 +6383,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "weighers-measurers-checkers-samplers",
@@ -5781,7 +6404,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "wind-energy-development-manager",
@@ -5800,7 +6425,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "wind-energy-operations-manager",
@@ -5819,7 +6446,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "word-processor-typist",
@@ -5838,7 +6467,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     },
     {
       "slug": "zoologist-wildlife-biologist",
@@ -5857,7 +6488,9 @@
         "red-flags.md",
         "vocabulary.md"
       ],
-      "jurisdictions": []
+      "jurisdictions": [
+        "us"
+      ]
     }
   ]
 }
