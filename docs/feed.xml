@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 19:35:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 19:46:05 +0000</lastBuildDate>
+  <item>
+    <title>Boilermaker</title>
+    <link>https://domainexperts.dev/roles/boilermaker/</link>
+    <guid>https://domainexperts.dev/roles/boilermaker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Boilermaker — qualifying or selecting a welding procedure for a pressure-boundary repair, deciding whether a defect is a code &quot;repair&quot; or an &quot;alteration&quot; under the National Board Inspection Code, sizing a tube-to-drum rolled joint expansion, reading radiographic or ultrasonic weld inspection results against acceptance criteria, or setting a post-repair hydrostatic test pressure and hold time.</description>
+  </item>
+  <item>
+    <title>Construction Laborer</title>
+    <link>https://domainexperts.dev/roles/construction-laborer/</link>
+    <guid>https://domainexperts.dev/roles/construction-laborer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a construction laborer — determining which OSHA-mandated protective system (sloping, benching, shoring, or shielding) a trench needs given its soil classification and depth, working as spotter/signal person on a crane or heavy-equipment lift, staging material and equipment on an active multi-trade site, or reading which hazard zone (excavation, crane swing, electrical rough-in) is live as work moves across the site.</description>
+  </item>
+  <item>
+    <title>Construction Painter</title>
+    <link>https://domainexperts.dev/roles/construction-painter/</link>
+    <guid>https://domainexperts.dev/roles/construction-painter/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a construction/maintenance painter — scoping an exterior or interior repaint, diagnosing why a paint job failed (blistering, alligatoring, peeling), pricing a job against real coat-count and prep requirements, deciding whether EPA lead-paint rules apply, or timing application against moisture and weather conditions.</description>
+  </item>
+  <item>
+    <title>Fence Erector</title>
+    <link>https://domainexperts.dev/roles/fence-erector/</link>
+    <guid>https://domainexperts.dev/roles/fence-erector/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fence Erector — sizing post footing depth and diameter against frost line and wind load, verifying a boundary survey before setting posts on a property line, specifying a pool or child-safety barrier to code, engineering a gate for a wide or heavy opening, or diagnosing a heaving, leaning, or sagging fence.</description>
+  </item>
+  <item>
+    <title>Hazmat Removal Worker</title>
+    <link>https://domainexperts.dev/roles/hazmat-removal-worker/</link>
+    <guid>https://domainexperts.dev/roles/hazmat-removal-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a hazardous materials removal worker — verifying negative-pressure asbestos containment integrity before and during Class I removal, sizing negative air machines and calculating required air changes per hour, selecting respirator class (APR vs. PAPR vs. supplied-air) against a measured or assumed exposure level, interpreting post-abatement clearance results (PCM/TEM fiber counts or lead dust-wipe results) as a pass/fail gate, or setting up IICRC S520 mold containment and negative air for a Condition 3 remediation.</description>
+  </item>
+  <item>
+    <title>Operating Engineer</title>
+    <link>https://domainexperts.dev/roles/operating-engineer/</link>
+    <guid>https://domainexperts.dev/roles/operating-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Operating Engineer — re-checking a crane&#x27;s load chart before a pick when the working radius will change mid-lift, deciding whether a utility locate mark requires hand-digging before mechanized excavation, verifying excavation grade against a laser/GPS benchmark, setting up a swing-radius exclusion zone and signal-person protocol near ground crews, or judging on-outriggers vs on-rubber lift capacity for a pick.</description>
+  </item>
+  <item>
+    <title>Pipelayer</title>
+    <link>https://domainexperts.dev/roles/pipelayer/</link>
+    <guid>https://domainexperts.dev/roles/pipelayer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Pipelayer — setting or verifying gravity-sewer or water-main grade from stationed invert elevations, classifying trench soil and selecting a protective system under OSHA Subpart P, selecting bedding class and compaction targets by pipe material, checking water/sewer horizontal and vertical separation at a crossing, or diagnosing a slope, deflection, or compaction defect before backfill sign-off.</description>
+  </item>
+  <item>
+    <title>Plasterer Stucco Mason</title>
+    <link>https://domainexperts.dev/roles/plasterer-stucco-mason/</link>
+    <guid>https://domainexperts.dev/roles/plasterer-stucco-mason/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a plasterer / stucco mason — laying out control joints on a large stucco elevation, scheduling cure time between scratch/brown/finish coats against a construction deadline, specifying weather-resistive-barrier and lath detailing behind stucco, setting a weep-screed/flashing detail at the base of a wall, or diagnosing a moisture-intrusion or cracking failure in traditional stucco or EIFS.</description>
+  </item>
+  <item>
+    <title>Reinforcing Iron Rebar Worker</title>
+    <link>https://domainexperts.dev/roles/reinforcing-iron-rebar-worker/</link>
+    <guid>https://domainexperts.dev/roles/reinforcing-iron-rebar-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a reinforcing iron and rebar worker — computing a Class A/B tension lap-splice length for a specific bar size, grade, and concrete strength before a pour, verifying concrete-cover distances and chair/bolster heights during placement, checking bar-grade mill marks against the design&#x27;s specified grade before tying a splice, deciding whether epoxy-coating damage on a bar requires patch repair or outright rejection, or reading a bar-bending schedule against the structural drawings for a placement conflict.</description>
+  </item>
+  <item>
+    <title>Solar Photovoltaic Installer</title>
+    <link>https://domainexperts.dev/roles/solar-photovoltaic-installer/</link>
+    <guid>https://domainexperts.dev/roles/solar-photovoltaic-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Solar Photovoltaic Installer — sizing a PV string against cold-weather Voc and inverter max input voltage, specifying rapid-shutdown equipment to meet NEC 690.12, sizing a backfeed breaker against the NEC 705.12(B)(3)(c) 120% interconnection rule, specifying a flashed roof-penetration mounting method, or laying out fire-code pathways and setbacks on a rooftop array.</description>
+  </item>
+  <item>
+    <title>Stonemason</title>
+    <link>https://domainexperts.dev/roles/stonemason/</link>
+    <guid>https://domainexperts.dev/roles/stonemason/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Stonemason — selecting a stone type/density class for a climate&#x27;s freeze-thaw exposure, sizing stone-veneer anchor spacing from unit weight and rated anchor capacity, laying out a dry-stack wall&#x27;s batter for gravity stability, choosing a compatible repair mortar for historic stone restoration, or diagnosing a spalling/delamination failure in existing stonework.</description>
+  </item>
+  <item>
+    <title>Tile Stone Setter</title>
+    <link>https://domainexperts.dev/roles/tile-stone-setter/</link>
+    <guid>https://domainexperts.dev/roles/tile-stone-setter/</guid>
+    <pubDate>Wed, 08 Jul 2026 02:45:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tile and Stone Setter — selecting a shower waterproofing method against the drain type, specifying mortar coverage and trowel size for large-format tile or a wet area, setting a lippage tolerance and leveling-clip plan, choosing grout/sealer chemistry for natural stone, or reviewing a tile contractor&#x27;s quote for missing substrate or membrane line items.</description>
+  </item>
   <item>
     <title>Brickmason Blockmason</title>
     <link>https://domainexperts.dev/roles/brickmason-blockmason/</link>
