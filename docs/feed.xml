@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 20:09:09 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 20:23:35 +0000</lastBuildDate>
+  <item>
+    <title>Airfield Operations Specialist</title>
+    <link>https://domainexperts.dev/roles/airfield-operations-specialist/</link>
+    <guid>https://domainexperts.dev/roles/airfield-operations-specialist/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of an airfield operations specialist — running a Part 139 self-inspection of the movement area, assigning a Runway Condition Code (RwyCC) after snow/ice contamination, deciding whether a discovered hazard needs an immediate NOTAM, triggering a Wildlife Hazard Assessment after a strike or sighting, or judging a FOD find as immediate-closure versus scheduled removal.</description>
+  </item>
+  <item>
+    <title>Driver Sales Worker</title>
+    <link>https://domainexperts.dev/roles/driver-sales-worker/</link>
+    <guid>https://domainexperts.dev/roles/driver-sales-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Driver/Sales Worker on a direct-store-delivery (DSD) route — negotiating a shelf-facing or planogram change with a store manager, resizing a standing order after a shelf or demand change, deciding whether to pull code-dated product before a stale credit hits, reconciling a route&#x27;s revenue-per-stop against cost-per-stop, or deciding whether to fight for shelf space back from a competitor.</description>
+  </item>
+  <item>
+    <title>Hoist Winch Operator</title>
+    <link>https://domainexperts.dev/roles/hoist-winch-operator/</link>
+    <guid>https://domainexperts.dev/roles/hoist-winch-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hoist and Winch Operator — reading a winch drum&#x27;s layer-specific line-pull rating instead of the bare-drum nameplate figure for a load near the top of a multi-layer wind, verifying an anti-two-block device is functional and not bypassed before a hoist that brings the block near the boom tip or headframe sheave, confirming brake holding capacity before leaving a load suspended on the hook, checking fleet angle and drum spooling before a lift, or choosing the operating discipline that applies to a mine hoist, a marine cargo/mooring winch, or a construction material hoist.</description>
+  </item>
+  <item>
+    <title>Light Truck Driver</title>
+    <link>https://domainexperts.dev/roles/light-truck-driver/</link>
+    <guid>https://domainexperts.dev/roles/light-truck-driver/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Light Truck Driver — checking whether a vehicle reassignment crosses the 26,001 lb CDL threshold, deciding whether to skip a backing safety check to hit a delivery-window cutoff, classifying a proof-of-delivery or signature exception, planning stop-sequencing against a shift&#x27;s on-duty time budget, or responding to a residential hazard (loose dog, blocked driveway, unsafe backing approach) mid-route.</description>
+  </item>
+  <item>
+    <title>Machine Feeder Offbearer</title>
+    <link>https://domainexperts.dev/roles/machine-feeder-offbearer/</link>
+    <guid>https://domainexperts.dev/roles/machine-feeder-offbearer/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Machine Feeder and Offbearer — timing a manual feed/discharge task against a machine&#x27;s actual cycle time to find a hidden bottleneck, verifying a two-hand control or presence-sensing device&#x27;s minimum safety distance after a tooling or stock changeover, deciding whether a point-of-operation exposure needs a pullback device versus a restraint device versus presence-sensing, judging whether a light-curtain nuisance trip is an ergonomic fix or a defeat-in-progress, or holding a station when pace pressure has pushed hands closer to the point of operation than the safeguard&#x27;s timing allows.</description>
+  </item>
+  <item>
+    <title>Motorboat Operator</title>
+    <link>https://domainexperts.dev/roles/motorboat-operator/</link>
+    <guid>https://domainexperts.dev/roles/motorboat-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Motorboat Operator — a licensed small-craft operator running tour boats, water taxis, harbor launches, or patrol/workboats — checking a passenger count against a vessel&#x27;s Certificate of Inspection before departure, deciding how to handle a following sea or bar crossing without broaching, running a pre-departure passenger safety briefing, verifying whether an OUPV (&quot;six-pack&quot;) license covers a given job, or timing a man-overboard response in cold water.</description>
+  </item>
+  <item>
+    <title>Parking Attendant</title>
+    <link>https://domainexperts.dev/roles/parking-attendant/</link>
+    <guid>https://domainexperts.dev/roles/parking-attendant/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a valet/parking attendant — intaking a guest&#x27;s vehicle and documenting its condition, managing key custody during a shift, deciding how to stage or stack cars for a lot&#x27;s density and departure pattern, staffing a valet stand for a predicted rush, or handling a disputed-damage or lost-ticket claim after the fact.</description>
+  </item>
+  <item>
+    <title>Rail Yard Engineer</title>
+    <link>https://domainexperts.dev/roles/rail-yard-engineer/</link>
+    <guid>https://domainexperts.dev/roles/rail-yard-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Rail Yard Engineer, Dinkey Operator, or Hostler — deciding kick versus couple-and-shove for a cut of cars in flat switching, computing a safe release/coupling speed given rollout distance and rolling resistance, verifying blue-signal protection before an engine move onto an occupied track, pacing a shove to a hump crest against the tower&#x27;s called spacing, or moving a locomotive within terminal track limits as a hostler for fueling or servicing.</description>
+  </item>
+  <item>
+    <title>Sailor Marine Oiler</title>
+    <link>https://domainexperts.dev/roles/sailor-marine-oiler/</link>
+    <guid>https://domainexperts.dev/roles/sailor-marine-oiler/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Sailor/Marine Oiler (unlicensed deck or engine-room rating) — positioning crew clear of a mooring line&#x27;s snap-back zone before heaving in, running an engine-room gauge/sounding round and deciding what&#x27;s a normal reading versus what needs escalation to the engineer of the watch, sequencing a chipping/priming/painting preservation cycle on exposed steel, or checking a vessel&#x27;s abandon-ship and lifeboat drill compliance against SOLAS intervals.</description>
+  </item>
+  <item>
+    <title>Tank Loader</title>
+    <link>https://domainexperts.dev/roles/tank-loader/</link>
+    <guid>https://domainexperts.dev/roles/tank-loader/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tank Car, Truck, and Ship Loader — verifying bonding/grounding continuity before starting a flammable-liquid transfer, setting overfill-prevention trip points and outage volume for a compartment, connecting and confirming a vapor-recovery system before liquid flow starts, controlling initial fill rate on a switch-loaded compartment, or cross-checking shipping papers and placards against the actual loaded product before releasing a vehicle or vessel for transport.</description>
+  </item>
+  <item>
+    <title>Vehicle Cleaner</title>
+    <link>https://domainexperts.dev/roles/vehicle-cleaner/</link>
+    <guid>https://domainexperts.dev/roles/vehicle-cleaner/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a fleet vehicle cleaner — running a bus/aircraft/rental-car turnaround clean against a fixed schedule window, responding to a bodily-fluid spill under bloodborne-pathogen protocol, choosing a chemical or pressure-washer setting that won&#x27;t damage the surface it&#x27;s meant to clean, or logging a found passenger item into chain of custody.</description>
+  </item>
+  <item>
+    <title>Vehicle Systems Inspector</title>
+    <link>https://domainexperts.dev/roles/vehicle-systems-inspector/</link>
+    <guid>https://domainexperts.dev/roles/vehicle-systems-inspector/</guid>
+    <pubDate>Wed, 08 Jul 2026 03:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transportation Vehicle, Equipment and Systems Inspector — selecting a Level I vs Level II vs Level III roadside inspection under time and lane constraints, applying CVSA out-of-service criteria to a measured brake pushrod stroke or tire tread reading, applying the 20%-of-brakes aggregate rule across a commercial motor vehicle, verifying a hazmat placard against a shipping paper&#x27;s hazard class and aggregate weight, or distinguishing a CVSA decal from a DOT annual inspection sticker on a disputed call.</description>
+  </item>
   <item>
     <title>Aviation Inspector</title>
     <link>https://domainexperts.dev/roles/aviation-inspector/</link>
