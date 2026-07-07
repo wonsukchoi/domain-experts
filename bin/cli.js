@@ -246,6 +246,45 @@ function cmdMatch(query, opts) {
   }
 }
 
+// Map '## Heading' -> body text, mirroring scripts/lint_roles.py's
+// section_bodies so preview shows exactly what the linter validates.
+function sectionBodies(text) {
+  const parts = text.split(/^## +(.+?)\s*$/m);
+  const out = {};
+  for (let i = 1; i < parts.length - 1; i += 2) out[parts[i].trim()] = parts[i + 1];
+  return out;
+}
+
+async function cmdPreview(slug) {
+  if (!slug) {
+    console.error("Usage: domain-experts preview <slug>");
+    process.exit(1);
+  }
+  const roles = loadRoles();
+  const role = findRoleOrMeta(slug, roles);
+  if (!role) {
+    console.error(`No role "${slug}" found. Run "domain-experts list" to see available roles.`);
+    process.exit(1);
+  }
+  const text = await readRoleFile(role.file, role.skillPath);
+  const body = text.split("---\n", 3).length >= 3 ? text.split("---\n").slice(2).join("---\n") : text;
+  const sections = sectionBodies(body);
+
+  console.log(`# ${slug}\n`);
+  for (const name of ["Identity", "Worked example"]) {
+    if (sections[name]) {
+      console.log(`## ${name}`);
+      console.log(sections[name].trim());
+      console.log("");
+    }
+  }
+  if (!sections["Identity"] && !sections["Worked example"]) {
+    console.log("(legacy-format role — showing raw file)\n");
+    console.log(body.trim());
+  }
+  console.log(`Full file: domain-experts add ${slug}`);
+}
+
 async function cmdAdd(slug, opts) {
   if (!slug) {
     console.error("Usage: domain-experts add <slug> [--to <dir>]");
@@ -499,6 +538,7 @@ Usage:
   domain-experts list                 List all available roles
   domain-experts search <query>       Search roles by slug/description/category
   domain-experts match "<job/task>" [--json]  Best-guess role match for a natural-language ask
+  domain-experts preview <slug>       Print a role's Identity + Worked example, no install
   domain-experts add <slug> [--to dir]  Copy a role (SKILL.md + references/) into <dir> (default: .claude/skills/<slug>/)
   domain-experts command [--tool <id>] [--global] [--to path]
                                        Install the /domain-expert command/prompt for <id>
@@ -525,6 +565,9 @@ async function main() {
       break;
     case "match":
       cmdMatch(positional.join(" "), opts);
+      break;
+    case "preview":
+      await cmdPreview(positional[0]);
       break;
     case "add":
       await cmdAdd(positional[0], opts);
