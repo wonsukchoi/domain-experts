@@ -27,7 +27,6 @@ function render() {
       <div class="badges">
         <span class="badge">${escapeHtml(r.category)}</span>
         <span class="badge status-${r.status}">${escapeHtml(r.status)}</span>
-        <span class="badge maturity-${r.maturity}">${escapeHtml(r.maturity)}</span>
       </div>
       <p>${escapeHtml(r.description)}</p>
     </a>

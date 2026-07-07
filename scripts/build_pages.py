@@ -151,11 +151,11 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <header>
   <p class="links"><a href="../../index.html">&larr; All roles</a></p>
   <h1>{name}</h1>
-  <p class="tagline role-tagline">{category} &middot; {status} &middot; {maturity}</p>
+  <p class="tagline role-tagline">{category} &middot; {status}</p>
 </header>
 <main class="role-page">
 {content}
-  <p class="source-link"><a href="{source}">View SKILL.md source on GitHub</a></p>
+  <p class="source-link"><a href="{source}">View SKILL.md source on GitHub</a> &middot; maturity: {maturity}</p>
 </main>
 <footer>
   <p>Install this role: <code>npx domain-experts add {slug}</code></p>
