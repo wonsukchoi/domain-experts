@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 14:03:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 14:13:32 +0000</lastBuildDate>
+  <item>
+    <title>Bill Account Collector</title>
+    <link>https://domainexperts.dev/roles/bill-account-collector/</link>
+    <guid>https://domainexperts.dev/roles/bill-account-collector/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a bill and account collector — prioritizing a delinquent-account portfolio by recovery likelihood, structuring a payment plan against a debtor&#x27;s stated ability to pay, drafting an FDCPA/Reg F-compliant collection communication, handling a cease-and-desist or debt dispute, or deciding when an account should be written off or referred to legal.</description>
+  </item>
+  <item>
+    <title>Billing Posting Clerk</title>
+    <link>https://domainexperts.dev/roles/billing-posting-clerk/</link>
+    <guid>https://domainexperts.dev/roles/billing-posting-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a billing and posting clerk — generating an invoice against a rate/contract schedule, applying an incoming payment across multiple open invoices, processing a credit memo or adjustment, or investigating an aging-report discrepancy.</description>
+  </item>
+  <item>
+    <title>Cargo Freight Agent</title>
+    <link>https://domainexperts.dev/roles/cargo-freight-agent/</link>
+    <guid>https://domainexperts.dev/roles/cargo-freight-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a cargo/freight agent — quoting a shipment across air/ocean/ground modes, calculating dimensional weight vs actual weight for billing, classifying freight by NMFC density class, preparing bill-of-lading/customs documentation, or processing a cargo-damage claim.</description>
+  </item>
+  <item>
+    <title>Loan Interviewer Clerk</title>
+    <link>https://domainexperts.dev/roles/loan-interviewer-clerk/</link>
+    <guid>https://domainexperts.dev/roles/loan-interviewer-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a loan interviewer/processor — verifying a loan application&#x27;s document completeness against investor guidelines, tracking and clearing underwriting conditions, sourcing a large deposit or gap in employment history, or drafting a conditions-needed letter to a borrower. Distinct from loan-officer (owns qualification math, product structuring, and disclosure-timing decisions) — this role verifies and assembles the file loan-officer and underwriting rely on, it doesn&#x27;t qualify or price the loan.</description>
+  </item>
+  <item>
+    <title>Payroll Timekeeping Clerk</title>
+    <link>https://domainexperts.dev/roles/payroll-timekeeping-clerk/</link>
+    <guid>https://domainexperts.dev/roles/payroll-timekeeping-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a payroll and timekeeping clerk — recalculating overtime after a non-discretionary bonus changes the regular rate of pay, resolving a timesheet exception before a payroll run locks, applying a garnishment order within its legal withholding limit, or correcting an off-cycle payroll error. Distinct from an accountant/controller, who owns the general ledger and financial statements, not individual paycheck accuracy.</description>
+  </item>
+  <item>
+    <title>Proofreader Copy Marker</title>
+    <link>https://domainexperts.dev/roles/proofreader-copy-marker/</link>
+    <guid>https://domainexperts.dev/roles/proofreader-copy-marker/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a proofreader — running a final pre-print/pre-publish accuracy pass on a laid-out proof, marking corrections with standard proofreader&#x27;s marks, checking style-guide consistency, distinguishing a typo from a factual error that needs escalation, or verifying that a prior round&#x27;s corrections were applied without introducing new errors.</description>
+  </item>
+  <item>
+    <title>Reservation Transportation Ticket Agent</title>
+    <link>https://domainexperts.dev/roles/reservation-transportation-ticket-agent/</link>
+    <guid>https://domainexperts.dev/roles/reservation-transportation-ticket-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a reservation and transportation ticket agent — rebooking passengers during an irregular-operations (IROP) event, calculating denied-boarding compensation for an oversold flight, interpreting a single carrier&#x27;s fare-class change/cancellation rules, or triaging a day-of-travel standby list.</description>
+  </item>
+  <item>
+    <title>Shipping Receiving Inventory Clerk</title>
+    <link>https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/</link>
+    <guid>https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:13:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a shipping, receiving, and inventory clerk — inspecting an inbound shipment against a packing slip and purchase order, investigating a cycle-count discrepancy, resolving a put-away or pick-location error, or verifying an outbound shipment&#x27;s packing and labeling against the order before it ships.</description>
+  </item>
   <item>
     <title>Brokerage Clerk</title>
     <link>https://domainexperts.dev/roles/brokerage-clerk/</link>

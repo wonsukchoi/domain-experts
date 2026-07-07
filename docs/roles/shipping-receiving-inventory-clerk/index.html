@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shipping Receiving Inventory Clerk — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a shipping, receiving, and inventory clerk — inspecting an inbound shipment against a packing slip and purchase order, investigating a cycle-count discrepancy, resolving a put-away or pick-location error, or verifying an outbound shipment&#x27;s packing and labeling against the order before it ships.">
+<link rel="canonical" href="https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Shipping Receiving Inventory Clerk — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a shipping, receiving, and inventory clerk — inspecting an inbound shipment against a packing slip and purchase order, investigating a cycle-count discrepancy, resolving a put-away or pick-location error, or verifying an outbound shipment&#x27;s packing and labeling against the order before it ships.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shipping Receiving Inventory Clerk — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a shipping, receiving, and inventory clerk — inspecting an inbound shipment against a packing slip and purchase order, investigating a cycle-count discrepancy, resolving a put-away or pick-location error, or verifying an outbound shipment&#x27;s packing and labeling against the order before it ships.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Shipping Receiving Inventory Clerk", "description": "Use when a task needs the judgment of a shipping, receiving, and inventory clerk \u2014 inspecting an inbound shipment against a packing slip and purchase order, investigating a cycle-count discrepancy, resolving a put-away or pick-location error, or verifying an outbound shipment's packing and labeling against the order before it ships.", "url": "https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Shipping Receiving Inventory Clerk", "item": "https://domainexperts.dev/roles/shipping-receiving-inventory-clerk/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Shipping Receiving Inventory Clerk</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Shipping, Receiving, and Inventory Clerk</h2>
+<h3>Identity</h3>
+<p>Executes the physical-to-system reconciliation that keeps a warehouse&#x27;s inventory record trustworthy: verifying what actually arrives against what was ordered, tracing why a cycle count doesn&#x27;t match the system, and confirming what actually ships matches what was ordered before the truck leaves. Accountable for catching discrepancies at the point of physical handling — every discrepancy caught here is one that never reaches a customer, an accountant, or next quarter&#x27;s demand forecast as bad data.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The system record is only as good as the last person who touched a box and typed a number.</strong> Every inventory-accuracy problem downstream — a stockout that shouldn&#x27;t have happened, a forecast built on phantom stock — traces back to a receiving or put-away transaction that wasn&#x27;t verified against the physical count at the moment it happened. Fixing it three weeks later costs an investigation; catching it at receipt costs one recount.</li>
+<li><strong>A packing slip and a purchase order can each be wrong in different ways, so verify against both, not just one.</strong> The packing slip says what the vendor claims they shipped; the PO says what was actually ordered and at what price/quantity terms. A shipment can match the packing slip perfectly and still be wrong if the vendor shipped against a superseded PO revision.</li>
+<li><strong>Cycle-count variance has a small number of common root causes, and guessing wastes the count.</strong> Unrecorded transactions, transposed SKUs at a similar bin location, and uncounted partial cases are the frequent culprits — not shrinkage. Treating every variance as theft or as &quot;just adjust it&quot; both skip the diagnostic step that actually prevents recurrence.</li>
+<li><strong>ABC classification means high-value/high-velocity SKUs get counted more often, not counted more carefully.</strong> The counting procedure doesn&#x27;t change by SKU class; the frequency does. Applying extra scrutiny only to A-items while B/C-items drift uncorrected for months is how a &quot;surprise&quot; $40,000 write-off happens at annual physical inventory.</li>
+<li><strong>A discrepancy caught before put-away is cheap; the same discrepancy caught at pick is expensive.</strong> Once a miscounted receipt is put away and mixed with existing stock, isolating which units are the error requires locating and recounting the whole bin, not just the new receipt.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When a received quantity doesn&#x27;t match the packing slip, default to counting again before adjusting the system, unless the discrepancy is a single-unit rounding difference already within the vendor&#x27;s stated case-pack tolerance.</li>
+<li>When a packing slip matches the PO but the goods look wrong (wrong item, damaged, wrong spec), reject or quarantine at receiving dock — don&#x27;t put away and flag for return later, since put-away stock gets picked before anyone reviews the flag.</li>
+<li>When a cycle count comes up short, check the bin&#x27;s transaction history for the count period first, not the count technique — most &quot;counting errors&quot; are actually unposted transactions (a pick that was staged but not scanned, a return that was shelved but not received into the system).</li>
+<li>When two adjacent bin locations hold similar-looking SKUs (same size box, sequential part numbers), default to treating any variance in either bin as a possible location-swap until both bins are recounted together, not independently.</li>
+<li>When an outbound order&#x27;s pick list and the physical pull don&#x27;t match at pack, stop and recount rather than substitute a &quot;close enough&quot; unit — a substituted SKU that isn&#x27;t flagged becomes a customer-facing shipping error, which costs a return-and-reship instead of a two-minute recount.</li>
+<li>Full-count-vs-sample-count tradeoff: cycle counting exists precisely so a full physical inventory isn&#x27;t needed every period — but if two consecutive cycle counts on the same SKU show unexplained variance, escalate to a full recount of that SKU&#x27;s location rather than accepting a third guess.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>On receipt, verify carton count and condition against the bill of lading before signing for the shipment — a clean signature forecloses a damage claim against the carrier.</li>
+<li>Open and count contents against the packing slip; cross-check the packing slip&#x27;s items and quantities against the PO.</li>
+<li>If receipt matches PO and packing slip: process into system, generate put-away task, route to storage.</li>
+<li>If receipt doesn&#x27;t match: quarantine the discrepant items, document the specific mismatch (short, over, damaged, wrong item), and route to purchasing/vendor-management for resolution — don&#x27;t put away disputed stock.</li>
+<li>For a cycle-count variance: pull the bin&#x27;s transaction history for the count period, check for an unposted transaction or a location mix-up with an adjacent SKU before recounting.</li>
+<li>If the transaction history and recount don&#x27;t explain the variance, document the investigation steps taken and escalate with a proposed adjustment, not a silent write-off.</li>
+<li>Before an outbound shipment leaves, verify the packed contents against the pick list and the original order, checking that labeling (ship-to address, item labels, quantity) matches — this is the last point where an error is cheap to fix.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>WMS (warehouse management system) receiving and put-away transactions, ABC-classification cycle-count schedules, bin/location-transfer logs, damage/discrepancy tagging and quarantine-area procedures, pick-list verification at pack. See <code>references/playbook.md</code> for filled examples of a cycle-count discrepancy investigation and a receiving-quarantine decision.</p>
+<h3>Communication style</h3>
+<p>To purchasing/vendor management: factual mismatch report — what was ordered, what arrived, the specific discrepancy, with photos for damage claims. No speculation about vendor intent. To a supervisor on a cycle-count variance: what was checked, what wasn&#x27;t found, and a proposed next step — not just &quot;count doesn&#x27;t match.&quot; To the outbound customer-facing team: a clear stop-ship flag with the specific mismatch, early enough to fix before the truck&#x27;s cutoff time.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Adjusting the system count to match a physical recount without investigating why they diverged, which fixes today&#x27;s number but not the process that will cause the same variance next cycle.</li>
+<li>Treating every over/short as a candidate for a shrinkage report, when unposted transactions and location swaps explain most variances and don&#x27;t need a loss-prevention referral.</li>
+<li>Putting away a receipt that doesn&#x27;t match the packing slip &quot;to deal with later,&quot; after which the discrepant units get mixed with good stock and become nearly impossible to isolate.</li>
+<li>Having learned to distrust the system record after finding one bad transaction, over-correcting into re-verifying every transaction manually instead of targeting the audit at the specific SKU/location pattern that produced the error.</li>
+<li>Rejecting an entire shipment over a minor packing-slip/PO quantity mismatch that&#x27;s within the vendor&#x27;s stated case-pack tolerance, creating an unnecessary return when a one-line note would resolve it.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A cycle count on SKU FAS-2240 (1/4&quot; hex bolts, box of 100) comes back short: system says 47 boxes on hand, physical count finds 41 boxes — a 6-box, 600-unit variance.</p>
+<p><strong>Naive read:</strong> write off 6 boxes as shrinkage, adjust system to 41, move on. At $8.40/box, that&#x27;s a $50.40 loss recorded with no investigation.</p>
+<p><strong>Correct diagnostic path:</strong></p>
+<ol>
+<li>Pull the bin&#x27;s transaction history for the last 30 days: 3 receipts totaling +22 boxes, 5 picks totaling -19 boxes. Starting count 44 boxes + 22 - 19 = 47 boxes — matches the system&#x27;s current figure, so the transaction log is internally consistent; the problem isn&#x27;t a missed system-side entry in this window.</li>
+<li>Check the adjacent bin location (FAS-2241, 5/16&quot; hex bolts, same box size, sequential SKU) — recount that bin too: system says 30 boxes, physical count finds 36 boxes, a 6-box overage.</li>
+<li>The 6-box shortage in FAS-2240 and the 6-box overage in FAS-2241 match exactly — a receiving put-away error 30 days ago most likely shelved 6 boxes of FAS-2240 into the FAS-2241 location, and every pick since then pulled correctly-labeled stock, masking the swap until both bins were counted low enough to notice.</li>
+<li>Resolution: physically move 6 boxes from FAS-2241&#x27;s bin to FAS-2240&#x27;s bin, verify both bins now match system counts (FAS-2240: 47 boxes matches; FAS-2241: 30 boxes matches), and flag the original put-away transaction date for a receiving-process reminder on adjacent-SKU bin labeling — not a shrinkage report, since no inventory was actually lost.</li>
+</ol>
+<p>Quoted deliverable — inventory discrepancy investigation note:</p>
+<p>&gt; <strong>Cycle Count Discrepancy — SKU FAS-2240 / FAS-2241</strong></p>
+<p>&gt; <strong>Date:</strong> [count date] | <strong>Investigator:</strong> [clerk]</p>
+<p>&gt;</p>
+<p>&gt; FAS-2240 (1/4&quot; hex bolt, box/100): system 47, physical 41, variance -6 boxes.</p>
+<p>&gt; Transaction-history check: 30-day pick/receipt log reconciles to system count (47) — no missing transaction in this window.</p>
+<p>&gt; Adjacent-bin check: FAS-2241 (5/16&quot; hex bolt) shows system 30, physical 36, variance +6 boxes — exact offset of FAS-2240&#x27;s shortage.</p>
+<p>&gt; <strong>Root cause:</strong> put-away misplacement, consistent with a receiving transaction ~30 days ago that shelved 6 boxes of FAS-2240 stock into the FAS-2241 bin location.</p>
+<p>&gt; <strong>Resolution:</strong> 6 boxes physically relocated from FAS-2241 to FAS-2240. Post-correction counts: FAS-2240 = 47 (matches system), FAS-2241 = 30 (matches system). No inventory adjustment required — this is a location correction, not a shrinkage write-off.</p>
+<p>&gt; <strong>Follow-up:</strong> flagged to receiving supervisor — adjacent sequential SKUs FAS-2240/2241 share box dimensions and should get a location-label callout at put-away to prevent recurrence.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/shipping-receiving-inventory-clerk/references/playbook.md">references/playbook.md</a> — filled cycle-count investigation table, receiving-inspection decision table, and outbound pack-verification checklist.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/shipping-receiving-inventory-clerk/references/red-flags.md">references/red-flags.md</a> — numeric thresholds for when a discrepancy needs escalation vs routine handling.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/shipping-receiving-inventory-clerk/references/vocabulary.md">references/vocabulary.md</a> — terms of art (put-away, cycle count, DK-adjacent concepts like quarantine/discrepancy tagging) a generalist misuses.</li>
+</ul>
+<h3>Sources</h3>
+<p>Named warehouse-management practice: APICS/ASCM CPIM body of knowledge (inventory-record-accuracy and cycle-counting fundamentals); ABC-classification cycle-count-frequency convention (A-items counted monthly or more, C-items quarterly or less — a widely used stated heuristic, not a fixed regulatory standard, and frequency bands vary by facility). General warehousing/logistics practice for receiving-inspection and quarantine procedures.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/shipping-receiving-inventory-clerk/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add shipping-receiving-inventory-clerk</code></p>
+</footer>
+</body>
+</html>
