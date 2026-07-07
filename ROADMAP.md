@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 195 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 204 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -249,7 +249,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>19 — Life, Physical, and Social Science</strong> (9/66 drafted)</summary>
+<summary><strong>19 — Life, Physical, and Social Science</strong> (18/66 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -257,23 +257,23 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 19-1012.00 | Food Scientists and Technologists |  |
 |  | 19-1013.00 | Soil and Plant Scientists |  |
 |  | 19-1021.00 | Biochemists and Biophysicists |  |
-|  | 19-1022.00 | Microbiologists |  |
+| ✅ | 19-1022.00 | Microbiologists | [`microbiologist`](./roles/microbiologist/SKILL.md) |
 |  | 19-1023.00 | Zoologists and Wildlife Biologists |  |
 |  | 19-1029.00 | Biological Scientists, All Other |  |
 |  | 19-1029.01 | Bioinformatics Scientists |  |
 |  | 19-1029.02 | Molecular and Cellular Biologists |  |
-|  | 19-1029.03 | Geneticists |  |
+| ✅ | 19-1029.03 | Geneticists | [`geneticist`](./roles/geneticist/SKILL.md) |
 |  | 19-1029.04 | Biologists |  |
-|  | 19-1031.00 | Conservation Scientists |  |
+| ✅ | 19-1031.00 | Conservation Scientists | [`conservation-scientist`](./roles/conservation-scientist/SKILL.md) |
 |  | 19-1031.02 | Range Managers |  |
 |  | 19-1031.03 | Park Naturalists |  |
 |  | 19-1032.00 | Foresters |  |
 | ✅ | 19-1041.00 | Epidemiologists | [`epidemiologist`](./roles/epidemiologist/SKILL.md) |
-|  | 19-1042.00 | Medical Scientists, Except Epidemiologists |  |
+| ✅ | 19-1042.00 | Medical Scientists, Except Epidemiologists | [`medical-scientist`](./roles/medical-scientist/SKILL.md) |
 |  | 19-1099.00 | Life Scientists, All Other |  |
 |  | 19-2011.00 | Astronomers |  |
 |  | 19-2012.00 | Physicists |  |
-|  | 19-2021.00 | Atmospheric and Space Scientists |  |
+| ✅ | 19-2021.00 | Atmospheric and Space Scientists | [`atmospheric-scientist`](./roles/atmospheric-scientist/SKILL.md) |
 | ✅ | 19-2031.00 | Chemists | [`chemist`](./roles/chemist/SKILL.md) |
 |  | 19-2032.00 | Materials Scientists |  |
 | ✅ | 19-2041.00 | Environmental Scientists and Specialists, Including Health | [`environmental-scientist`](./roles/environmental-scientist/SKILL.md) |
@@ -281,19 +281,19 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 19-2041.02 | Environmental Restoration Planners |  |
 |  | 19-2041.03 | Industrial Ecologists |  |
 |  | 19-2042.00 | Geoscientists, Except Hydrologists and Geographers |  |
-|  | 19-2043.00 | Hydrologists |  |
+| ✅ | 19-2043.00 | Hydrologists | [`hydrologist`](./roles/hydrologist/SKILL.md) |
 |  | 19-2099.00 | Physical Scientists, All Other |  |
 |  | 19-2099.01 | Remote Sensing Scientists and Technologists |  |
 | ✅ | 19-3011.00 | Economists | [`economist`](./roles/economist/SKILL.md) |
 |  | 19-3011.01 | Environmental Economists |  |
-|  | 19-3022.00 | Survey Researchers |  |
+| ✅ | 19-3022.00 | Survey Researchers | [`survey-researcher`](./roles/survey-researcher/SKILL.md) |
 | ✅ | 19-3032.00 | Industrial-Organizational Psychologists | [`industrial-organizational-psychologist`](./roles/industrial-organizational-psychologist/SKILL.md) |
 | ✅ | 19-3033.00 | Clinical and Counseling Psychologists | [`clinical-counseling-psychologist`](./roles/clinical-counseling-psychologist/SKILL.md) |
-|  | 19-3034.00 | School Psychologists |  |
+| ✅ | 19-3034.00 | School Psychologists | [`school-psychologist`](./roles/school-psychologist/SKILL.md) |
 |  | 19-3039.00 | Psychologists, All Other |  |
 |  | 19-3039.02 | Neuropsychologists |  |
 |  | 19-3039.03 | Clinical Neuropsychologists |  |
-|  | 19-3041.00 | Sociologists |  |
+| ✅ | 19-3041.00 | Sociologists | [`sociologist`](./roles/sociologist/SKILL.md) |
 | ✅ | 19-3051.00 | Urban and Regional Planners | [`urban-regional-planner`](./roles/urban-regional-planner/SKILL.md) |
 |  | 19-3091.00 | Anthropologists and Archeologists |  |
 |  | 19-3092.00 | Geographers |  |
