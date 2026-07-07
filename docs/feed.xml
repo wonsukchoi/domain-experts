@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 16:28:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 17:42:12 +0000</lastBuildDate>
+  <item>
+    <title>Agricultural Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/agricultural-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-equipment-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Agricultural Equipment Operator — calibrating planter seed population and singulation, diagnosing combine header or separator loss, sequencing planting or harvest across fields under a weather-constrained window, sizing machinery capacity in acres/hour against a season&#x27;s acreage, or evaluating PTO/grain-bin entrapment safety on a job site.</description>
+  </item>
+  <item>
+    <title>Agricultural Grader Sorter</title>
+    <link>https://domainexperts.dev/roles/agricultural-grader-sorter/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-grader-sorter/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Agricultural Grader/Sorter — calling a defect grade on a moving packing line, deciding whether a lot with a marginal QC sample gets accepted, hand re-sorted, downgraded, or held, choosing where to station a human grader relative to an optical sorter, or diagnosing why a lot&#x27;s cull rate or customer chargebacks spiked.</description>
+  </item>
+  <item>
+    <title>Agricultural Inspector</title>
+    <link>https://domainexperts.dev/roles/agricultural-inspector/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-inspector/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Agricultural Inspector — grading a lot of produce against a USDA grade standard&#x27;s defect tolerances, evaluating agricultural water test results against FSMA microbial thresholds, checking a pesticide residue result against the commodity-specific EPA tolerance, deciding whether a finding warrants a stop-sale order versus a corrective-action letter, or verifying a facility&#x27;s traceability records against a recall deadline.</description>
+  </item>
+  <item>
+    <title>Animal Breeder</title>
+    <link>https://domainexperts.dev/roles/animal-breeder/</link>
+    <guid>https://domainexperts.dev/roles/animal-breeder/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a livestock geneticist/animal breeder — selecting a sire against EPDs or genomic data, screening a proposed mating for inbreeding risk, deciding AI versus natural service, timing an estrus-synchronization protocol, or defending a breeding-goal tradeoff to a herd owner.</description>
+  </item>
+  <item>
+    <title>Crop Nursery Farmworker</title>
+    <link>https://domainexperts.dev/roles/crop-nursery-farmworker/</link>
+    <guid>https://domainexperts.dev/roles/crop-nursery-farmworker/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a crop, nursery, or greenhouse farmworker — judging harvest timing/ripeness by crop, reconciling piece-rate earnings against the minimum-wage or AEWR floor, deciding whether it&#x27;s safe to re-enter a pesticide-treated field or greenhouse, managing heat-illness risk during peak-season labor, or running greenhouse IPM scouting and climate setpoint checks.</description>
+  </item>
+  <item>
+    <title>Faller</title>
+    <link>https://domainexperts.dev/roles/faller/</link>
+    <guid>https://domainexperts.dev/roles/faller/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a faller — reading a standing tree&#x27;s lean and hang weight to pick a felling direction, deciding whether a tree can be brought down by hand or needs mechanical assist, planning notch/hinge/backcut geometry and escape routes before the first cut, or assessing a snag/widow-maker/hung-tree hazard before a crew works under it.</description>
+  </item>
+  <item>
+    <title>Farming Fishing Forestry Supervisor</title>
+    <link>https://domainexperts.dev/roles/farming-fishing-forestry-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/farming-fishing-forestry-supervisor/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a first-line farming/fishing/forestry crew supervisor — setting or reconciling a piece rate against minimum-wage law, deciding whether to push a harvest through a weather window, staffing an H-2A or day-haul crew for a perishable pick, or sequencing field entry around a pesticide re-entry interval.</description>
+  </item>
+  <item>
+    <title>Fishing Hunting Worker</title>
+    <link>https://domainexperts.dev/roles/fishing-hunting-worker/</link>
+    <guid>https://domainexperts.dev/roles/fishing-hunting-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fishing and Hunting Worker — deciding whether to fish in marginal weather against a quota deadline, reading vessel stability and freeboard margin, running crew-share trip economics against fuel and bait costs, managing bycatch caps and gear compliance (TEDs/BRDs), or responding to cold-water man-overboard risk.</description>
+  </item>
+  <item>
+    <title>Forest Conservation Worker</title>
+    <link>https://domainexperts.dev/roles/forest-conservation-worker/</link>
+    <guid>https://domainexperts.dev/roles/forest-conservation-worker/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forest and Conservation Worker — planning or executing a seedling-planting contract, diagnosing a failed reforestation stocking survey, sizing fireline or a fuel break for a burn or suppression assignment, scheduling herbicide or mechanical treatment for invasive-species control, or setting a daily crew production quota for planting or thinning.</description>
+  </item>
+  <item>
+    <title>Log Grader Scaler</title>
+    <link>https://domainexperts.dev/roles/log-grader-scaler/</link>
+    <guid>https://domainexperts.dev/roles/log-grader-scaler/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Log Grader and Scaler — computing board-foot volume of a log or truckload under the Scribner/Doyle/International 1/4-inch scale rules, assigning a log grade (peeler/sawmill/utility) from measured defect, calculating a sweep/crook/rot deduction, or resolving a scale dispute between a logger or landowner and a mill.</description>
+  </item>
+  <item>
+    <title>Logging Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/logging-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/logging-equipment-operator/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs senior logging-equipment-operator judgment — matching a feller-buncher/skidder/forwarder system to a cutting block&#x27;s slope and stand, sequencing machines to avoid a felling-vs-extraction bottleneck, deciding when winch-assist or cable yarding replaces ground-based equipment, handling a hung tree without leaving the cab, or reconciling machine-hour cost against delivered $/ton.</description>
+  </item>
+  <item>
+    <title>Ranch Aquacultural Farmworker</title>
+    <link>https://domainexperts.dev/roles/ranch-aquacultural-farmworker/</link>
+    <guid>https://domainexperts.dev/roles/ranch-aquacultural-farmworker/</guid>
+    <pubDate>Wed, 08 Jul 2026 00:41:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Ranch and Aquacultural Farmworker — scoring livestock body condition and lameness, responding to a dissolved-oxygen crash in an aquaculture pond, running low-stress animal handling for vet work or transport, applying herd or pond biosecurity and quarantine protocol, or diagnosing a feed-conversion-ratio drift before it becomes a mortality event.</description>
+  </item>
   <item>
     <title>Housekeeping Janitorial Supervisor</title>
     <link>https://domainexperts.dev/roles/housekeeping-janitorial-supervisor/</link>
