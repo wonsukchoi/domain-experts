@@ -14,13 +14,17 @@ A criterion is written as an observable behavior a practitioner would show ("fla
 
 ## Run
 
-Requires the `claude` CLI (any agent CLI works with `--cmd`).
+Requires the `claude` CLI by default (any agent CLI following the `--model <m> -p <prompt>` convention works with `--cmd`). `--backend` swaps the whole invocation style instead:
 
 ```sh
 python3 evals/run_evals.py                         # all scenarios, all roles
 python3 evals/run_evals.py financial-manager       # one role
 python3 evals/run_evals.py financial-manager --only fm-1
 python3 evals/run_evals.py --model claude-haiku-4-5-20251001   # cheaper runs
+
+# Other backends — same scenarios, same judge logic, different model under test:
+python3 evals/run_evals.py --backend ollama --model llama3.1        # local model via `ollama run`
+OPENAI_API_KEY=sk-... python3 evals/run_evals.py --backend openai --model gpt-4o-mini
 ```
 
 Results land in `evals/results/<UTC timestamp>.json` plus a printed summary table. Results are point-in-time measurements against a specific model — they are **not** committed as ongoing truth; re-run when roles or models change.

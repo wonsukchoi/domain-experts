@@ -5,6 +5,13 @@ Run skill-vs-baseline evals. See evals/README.md.
 Usage:
     python3 evals/run_evals.py [role-slug ...] [--only <scenario-id>]
                                [--model <model>] [--cmd <agent command>]
+                               [--backend claude|ollama|openai]
+
+Backends (default: claude):
+    claude/cli  subprocess, `<cmd> --model <m> -p <prompt>` (Claude Code convention)
+    ollama      subprocess, `ollama run <model> <prompt>` (local models)
+    openai      OpenAI-compatible Chat Completions API; needs OPENAI_API_KEY
+                (or OPENAI_BASE_URL for a local/self-hosted endpoint)
 
 For each scenario, produces a baseline response (generic expert prompt) and
 a skill response (SKILL.md as context), then a blind judge scores both
@@ -14,10 +21,12 @@ against the scenario's observable criteria in randomized A/B order.
 import argparse
 import datetime
 import json
+import os
 import random
 import re
 import subprocess
 import sys
+import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -49,7 +58,9 @@ Reply with ONLY a JSON object, no prose, shaped exactly like:
 """
 
 
-def run_agent(cmd, model, prompt, timeout=300):
+def run_agent_cli(cmd, model, prompt, timeout=300):
+    """Default backend: any CLI following Claude Code's `--model <m> -p <prompt>`
+    convention (Claude Code, and anything shimmed to look like it)."""
     argv = list(cmd)
     if model:
         argv += ["--model", model]
@@ -60,29 +71,79 @@ def run_agent(cmd, model, prompt, timeout=300):
     return r.stdout.strip()
 
 
-def judge(cmd, model, task, resp_a, resp_b, criteria):
+def run_agent_ollama(cmd, model, prompt, timeout=300):
+    """Local backend: `ollama run <model> <prompt>` — no --model/-p flags,
+    model is positional and required."""
+    if not model:
+        raise RuntimeError("--backend ollama requires --model <name>")
+    argv = list(cmd) + ["run", model, prompt]
+    r = subprocess.run(argv, capture_output=True, text=True, timeout=timeout)
+    if r.returncode != 0:
+        raise RuntimeError(f"{argv[0]} failed: {r.stderr[:500]}")
+    return r.stdout.strip()
+
+
+def run_agent_openai(cmd, model, prompt, timeout=300):
+    """OpenAI-compatible Chat Completions backend — stdlib only, no SDK
+    dependency. Works against api.openai.com or any drop-in-compatible
+    endpoint via OPENAI_BASE_URL (e.g. a local vLLM/llama.cpp server)."""
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    if not api_key and "OPENAI_BASE_URL" not in os.environ:
+        raise RuntimeError("--backend openai requires OPENAI_API_KEY (or a local OPENAI_BASE_URL)")
+    base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
+    body = json.dumps({
+        "model": model or "gpt-4o-mini",
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        f"{base_url.rstrip('/')}/chat/completions",
+        data=body,
+        method="POST",
+        headers={
+            "Content-Type": "application/json",
+            **({"Authorization": f"Bearer {api_key}"} if api_key else {}),
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    return data["choices"][0]["message"]["content"].strip()
+
+
+BACKENDS = {
+    "claude": run_agent_cli,
+    "cli": run_agent_cli,
+    "ollama": run_agent_ollama,
+    "openai": run_agent_openai,
+}
+
+
+def run_agent(backend, cmd, model, prompt, timeout=300):
+    return BACKENDS[backend](cmd, model, prompt, timeout)
+
+
+def judge(backend, cmd, model, task, resp_a, resp_b, criteria):
     prompt = JUDGE_PROMPT.format(
         task=task,
         a=resp_a,
         b=resp_b,
         criteria="\n".join(f"{i+1}. {c}" for i, c in enumerate(criteria)),
     )
-    out = run_agent(cmd, model, prompt)
+    out = run_agent(backend, cmd, model, prompt)
     m = re.search(r"\{.*\}", out, re.DOTALL)
     if not m:
         raise ValueError(f"judge returned no JSON: {out[:300]}")
     return json.loads(m.group(0))
 
 
-def run_scenario(cmd, model, judge_model, slug, skill_text, sc):
+def run_scenario(backend, cmd, model, judge_model, slug, skill_text, sc):
     role_title = slug.replace("-", " ")
     print(f"[{sc['id']}] running...", flush=True)
     baseline = run_agent(
-        cmd, model,
+        backend, cmd, model,
         f"You are an experienced {role_title}. A colleague asks:\n\n{sc['task']}",
     )
     skilled = run_agent(
-        cmd, model,
+        backend, cmd, model,
         "Adopt the following professional role definition completely — its "
         "principles, heuristics, red flags, and decision framework — and answer "
         f"the question at the end in that role.\n\n{skill_text}\n\n"
@@ -92,7 +153,7 @@ def run_scenario(cmd, model, judge_model, slug, skill_text, sc):
     # Blind, randomized order.
     skill_is_a = random.random() < 0.5
     a, b = (skilled, baseline) if skill_is_a else (baseline, skilled)
-    j = judge(cmd, judge_model, sc["task"], a, b, sc["criteria"])
+    j = judge(backend, cmd, judge_model, sc["task"], a, b, sc["criteria"])
     verdicts = j["criteria"]
 
     skill_letter = "A" if skill_is_a else "B"
@@ -131,7 +192,11 @@ def main():
     ap.add_argument("--judge-model", default=None,
                     help="model for the judge (default: same as --model); use a stronger one")
     ap.add_argument("--workers", type=int, default=3, help="concurrent scenarios")
-    ap.add_argument("--cmd", default="claude", help="agent CLI command (default: claude)")
+    ap.add_argument("--cmd", default="claude", help="agent CLI command (default: claude; ignored for --backend openai)")
+    ap.add_argument("--backend", default="claude", choices=sorted(BACKENDS),
+                     help="how to run the agent: claude/cli (subprocess, --model/-p convention), "
+                          "ollama (subprocess, `ollama run <model> <prompt>`), "
+                          "openai (OpenAI-compatible Chat Completions API; needs OPENAI_API_KEY)")
     args = ap.parse_args()
     cmd = args.cmd.split()
     judge_model = args.judge_model or args.model
@@ -156,7 +221,7 @@ def main():
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
         futures = [
-            ex.submit(run_scenario, cmd, args.model, judge_model, slug, skill_text, sc)
+            ex.submit(run_scenario, args.backend, cmd, args.model, judge_model, slug, skill_text, sc)
             for slug, skill_text, sc in jobs
         ]
         results = []
@@ -171,7 +236,9 @@ def main():
 
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     out = RESULTS / f"{stamp}.json"
-    out.write_text(json.dumps({"model": args.model, "results": results}, indent=2))
+    out.write_text(json.dumps(
+        {"backend": args.backend, "model": args.model, "results": results}, indent=2
+    ))
 
     wins = sum(1 for r in results if r["winner"] == "skill")
     ties = sum(1 for r in results if r["winner"] == "tie")
