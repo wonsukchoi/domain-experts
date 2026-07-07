@@ -1,5 +1,5 @@
 {
-  "count": 443,
+  "count": 455,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -238,6 +238,27 @@
       ]
     },
     {
+      "slug": "air-traffic-controller",
+      "description": "Use when a task needs the judgment of an air traffic controller \u2014 sequencing and spacing arrivals/departures, resolving a projected loss of separation, applying wake-turbulence separation between mismatched aircraft categories, deciding when to query a read-back, or working a facility through a saturation/traffic-management event.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/air-traffic-controller/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "aircraft-mechanic",
       "description": "Use when a task needs the judgment of a certificated aircraft mechanic \u2014 triaging a maintenance discrepancy, deciding whether an item can be MEL-deferred or grounds the aircraft, working out an Airworthiness Directive's compliance deadline, reviewing a torque/safety-wire job before sign-off, or writing a return-to-service log entry.",
       "category": "operations",
@@ -249,6 +270,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/aircraft-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "ambulance-driver-attendant",
+      "description": "Use when a task needs the judgment of an ambulance driver/attendant (non-EMT) \u2014 deciding emergency-vehicle driving mode, clearing an intersection under lights-and-siren, handling a scheduled inter-facility or discharge transport, securing and lifting a patient on a stretcher/gurney, or responding to time pressure from family or a sending facility to \"run it hot.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ambulance-driver-attendant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1503,6 +1545,27 @@
       ]
     },
     {
+      "slug": "commercial-pilot",
+      "description": "Use when a task needs the judgment of a commercial pilot \u2014 computing density-altitude-adjusted takeoff/landing distance against runway available, checking weight-and-balance CG against the envelope (not just gross weight), deciding an IFR/VFR go/no-go against personal minimums instead of legal minimums, interpreting a METAR/TAF (TEMPO/PROB groups, 1-2-3 alternate rule) for a go decision, or setting divert/turn-back triggers before a flight departs.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/commercial-pilot/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "community-health-worker",
       "description": "Use when a task needs the judgment of a Community Health Worker \u2014 screening a client for social-determinants-of-health barriers, triaging a referral to housing/food/transportation resources, translating a clinical instruction into a teach-back-verified action plan, or deciding whether a no-show pattern signals disengagement or an unaddressed barrier.",
       "category": "healthcare",
@@ -2048,6 +2111,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/court-reporter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "crane-tower-operator",
+      "description": "Use when a task needs the judgment of a Crane and Tower Operator \u2014 deciding whether current gust readings require a stand-down given a specific load's sail area, running a blind lift through a signal person when the pick or landing zone is outside the cab's sightline, reading a fixed installation's load chart at the counterweight/jib configuration actually installed, calculating each crane's load share on a two-crane tandem pick, or judging when to set the jib to free-slew ahead of a wind event.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/crane-tower-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4261,6 +4345,27 @@
       ]
     },
     {
+      "slug": "heavy-truck-driver",
+      "description": "Use when a task needs the judgment of a Heavy and Tractor-Trailer Truck Driver \u2014 planning a delivery commitment against Hours of Service clocks, deciding whether a load is properly cargo-secured before departure, categorizing a pre-trip inspection defect as out-of-service or driveable, handling an ELD malfunction or exception code, or weighing fatigue risk against dispatch pressure to keep rolling.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-3032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/heavy-truck-driver/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "high-school-teacher",
       "description": "Use when a task needs the judgment of a Secondary School Teacher \u2014 backward-designing a unit from a standard, distinguishing formative from summative assessment design, differentiating instruction for a mixed-ability classroom, running a classroom behavior escalation ladder, or defending a grade against a parent dispute with rubric-anchored evidence.",
       "category": "other",
@@ -4538,6 +4643,27 @@
       "audit_score": null,
       "skill": "roles/industrial-production-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "industrial-truck-operator",
+      "description": "Use when a task needs the judgment of an Industrial Truck and Tractor Operator \u2014 checking a load against a forklift's rated capacity and load center, judging stability-triangle tip-over risk before raising or tilting a load, verifying rack beam load-capacity before stacking a pallet, managing pedestrian-forklift traffic in a shared warehouse aisle, or deciding whether an operator needs recertification after an incident.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/industrial-truck-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -5072,6 +5198,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/locksmith-safe-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "locomotive-engineer",
+      "description": "Use when a task needs the judgment of a locomotive engineer \u2014 planning a brake application and train-handling sequence for a loaded train on a descending grade, interpreting a signal aspect and determining absolute versus permissive authority, managing slack-action risk during a throttle-to-brake transition, reasoning about a positive train control (PTC) penalty-brake enforcement event, or evaluating an Hours of Service rest-period question before accepting or continuing an assignment.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/locomotive-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7289,6 +7436,27 @@
       ]
     },
     {
+      "slug": "railroad-conductor-yardmaster",
+      "description": "Use when a task needs the judgment of a Railroad Conductor or Yardmaster \u2014 building an outbound train's block order from a classification yard, verifying blue-signal protection before authorizing a move onto an occupied track, checking hazmat placarding and buffer-car placement against a train consist, deciding whether a train's operative-brake percentage is legal to depart on, or running a shoving movement with radio/hand-signal point protection.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-4031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/railroad-conductor-yardmaster/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "ranch-aquacultural-farmworker",
       "description": "Use when a task needs the judgment of a Ranch and Aquacultural Farmworker \u2014 scoring livestock body condition and lameness, responding to a dissolved-oxygen crash in an aquaculture pond, running low-stress animal handling for vet work or transport, applying herd or pond biosecurity and quarantine protocol, or diagnosing a feed-conversion-ratio drift before it becomes a mortality event.",
       "category": "operations",
@@ -7384,6 +7552,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/refractory-materials-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "refuse-collector",
+      "description": "Use when a task needs the judgment of a refuse and recyclable material collector \u2014 deciding whether to back a truck without a spotter, screening a recycling container for contamination, clearing a hopper/packer jam, or re-sequencing a route that's running behind schedule.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/refuse-collector/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7886,6 +8075,27 @@
       ]
     },
     {
+      "slug": "ship-captain",
+      "description": "Use when a task needs the judgment of a Ship Captain / Deck Officer \u2014 determining give-way/stand-on status and the required collision-avoidance action in a crossing, overtaking, or head-on encounter, calculating available stability (GM) margin before a heavy-weather passage or a loading change, correcting a dead-reckoning track for set and drift, assessing STCW rest-hour compliance and watch-bill fatigue risk, or deciding whether to escalate a bridge situation to the master under Bridge Resource Management practice.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-5021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ship-captain/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "shipping-receiving-inventory-clerk",
       "description": "Use when a task needs the judgment of a shipping, receiving, and inventory clerk \u2014 inspecting an inbound shipment against a packing slip and purchase order, investigating a cycle-count discrepancy, resolving a put-away or pick-location error, or verifying an outbound shipment's packing and labeling against the order before it ships.",
       "category": "operations",
@@ -7918,6 +8128,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/short-order-cook/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "shuttle-driver-chauffeur",
+      "description": "Use when a task needs the judgment of a Shuttle Driver/Chauffeur \u2014 building a multi-stop pickup schedule with per-stop buffer time, deciding whether to hold or re-sequence a route when a passenger runs late, checking a manifest's luggage against a vehicle's cargo capacity, briefing on client-confidentiality norms for private transport, or setting defensive-driving following distance for passenger-carrying vehicles.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-3053.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/shuttle-driver-chauffeur/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8700,6 +8931,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/training-development-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "transit-bus-driver",
+      "description": "Use when a task needs the judgment of a transit or intercity bus driver \u2014 running a pre-trip lift/ramp check, securing a wheelchair passenger, deciding whether to hold following distance and speed against on-time-performance pressure, de-escalating a passenger disturbance, or logging an ADA equipment failure and delay code.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-3052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/transit-bus-driver/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
