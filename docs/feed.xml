@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 12:34:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:41:47 +0000</lastBuildDate>
+  <item>
+    <title>Adult Esl Instructor</title>
+    <link>https://domainexperts.dev/roles/adult-esl-instructor/</link>
+    <guid>https://domainexperts.dev/roles/adult-esl-instructor/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Adult ESL/Basic Education Instructor — placing a new adult learner using standardized assessment scores, designing life-context-relevant lesson content for working adults, tracking NRS-reportable level gains, addressing attendance/retention barriers, or preparing a learner for GED/HSE or workplace English benchmarks.</description>
+  </item>
+  <item>
+    <title>Archivist</title>
+    <link>https://domainexperts.dev/roles/archivist/</link>
+    <guid>https://domainexperts.dev/roles/archivist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an archivist — appraising whether a donated or transferred collection has enduring value, deciding a processing level for a backlog, writing a finding aid, triaging preservation under budget constraints, or resolving a records-restriction question.</description>
+  </item>
+  <item>
+    <title>Elementary School Teacher</title>
+    <link>https://domainexperts.dev/roles/elementary-school-teacher/</link>
+    <guid>https://domainexperts.dev/roles/elementary-school-teacher/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Elementary School Teacher — interpreting a running record or fluency check against grade-level benchmarks, deciding whether a struggling reader needs a Tier 2 intervention, running a self-contained classroom&#x27;s daily schedule across multiple subjects, implementing (not writing) an IEP/504 accommodation with fidelity, or writing a parent-conference summary grounded in assessment data.</description>
+  </item>
+  <item>
+    <title>Instructional Coordinator</title>
+    <link>https://domainexperts.dev/roles/instructional-coordinator/</link>
+    <guid>https://domainexperts.dev/roles/instructional-coordinator/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Instructional Coordinator — auditing curriculum coverage against a state test blueprint, checking standards alignment at the cognitive-complexity (DOK) level not just the topic level, diagnosing an assessment-score drop down to the standard and DOK level before revising curriculum, or designing a professional-development plan tied to one observable classroom practice.</description>
+  </item>
+  <item>
+    <title>Librarian</title>
+    <link>https://domainexperts.dev/roles/librarian/</link>
+    <guid>https://domainexperts.dev/roles/librarian/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Librarian — building or reallocating a collection-development budget, running a weeding/deselection pass, conducting a reference interview, designing an information-literacy instruction session, or resolving a cataloging-consistency backlog.</description>
+  </item>
+  <item>
+    <title>Postsecondary Educator</title>
+    <link>https://domainexperts.dev/roles/postsecondary-educator/</link>
+    <guid>https://domainexperts.dev/roles/postsecondary-educator/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postsecondary Educator — designing a course from learning objectives backward, building or applying a grading rubric, responding to a grade appeal or academic-integrity case, or allocating time across a teaching/research/service load.</description>
+  </item>
+  <item>
+    <title>Preschool Teacher</title>
+    <link>https://domainexperts.dev/roles/preschool-teacher/</link>
+    <guid>https://domainexperts.dev/roles/preschool-teacher/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Preschool Teacher — designing a play-based learning activity for 3-5 year olds, reading a developmental-screening result and deciding whether to refer, writing a parent note about a behavior or developmental concern, planning classroom routines and transitions, or handling a ratio/supervision compliance question in the classroom itself.</description>
+  </item>
+  <item>
+    <title>Special Education Teacher</title>
+    <link>https://domainexperts.dev/roles/special-education-teacher/</link>
+    <guid>https://domainexperts.dev/roles/special-education-teacher/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a special education teacher — writing a legally-defensible IEP goal, distinguishing an accommodation from a modification, interpreting present-levels data to set a progress-monitoring target, prepping for an IEP meeting or manifestation determination review, or resolving a disagreement between a parent&#x27;s request and what the data supports.</description>
+  </item>
+  <item>
+    <title>Tutor</title>
+    <link>https://domainexperts.dev/roles/tutor/</link>
+    <guid>https://domainexperts.dev/roles/tutor/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:41:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tutor — running a diagnostic to isolate the true prerequisite skill gap behind a student&#x27;s struggle, sequencing sessions by leverage instead of client-requested topic order, setting realistic score-improvement targets for test prep, building spaced review into a session plan so gains stick, or reporting progress against diagnostic data to a paying parent/client.</description>
+  </item>
   <item>
     <title>Chemist</title>
     <link>https://domainexperts.dev/roles/chemist/</link>
