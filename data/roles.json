@@ -1,5 +1,5 @@
 {
-  "count": 326,
+  "count": 334,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -186,6 +186,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/animal-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "animal-trainer",
+      "description": "Use when a task needs the judgment of an animal trainer \u2014 designing a behavior-modification plan for a specific problem behavior, choosing a reinforcement schedule and deciding when to raise criteria, structuring session length and frequency to avoid fatigue or frustration plateaus, or setting a handler/public safety protocol around a training animal.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/animal-trainer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -831,6 +852,27 @@
       ]
     },
     {
+      "slug": "childcare-worker",
+      "description": "Use when a task needs the judgment of a Childcare Worker \u2014 checking ratio/headcount compliance across mixed-age groups, deciding whether a fall or minor incident needs a written report versus a verbal mention at pickup, redirecting a behavior problem in an unstructured (non-curriculum) setting, or triaging which of several simultaneous demands (a crying toddler, a fight over a toy, a diaper) gets attention first.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-9011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/childcare-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "chiropractor",
       "description": "Use when a task needs the judgment of a chiropractor \u2014 screening a spinal or musculoskeletal complaint for red flags before manipulation, choosing a manipulation technique given a patient's risk profile, designing a care plan with a defined reassessment checkpoint, or deciding whether to continue, modify, or discharge a course of care.",
       "category": "healthcare",
@@ -1212,6 +1254,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/computer-user-support-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "concierge",
+      "description": "Use when a task needs the judgment of a Concierge \u2014 securing a reservation at a fully-booked restaurant or sold-out venue, coordinating a multi-vendor guest request (dinner, transportation, and a gift delivery) inside a tight window, deciding when to pivot from a failed Plan A to a same-caliber Plan B, or navigating a paid-referral relationship without letting the commission distort the recommendation.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-6012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/concierge/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2076,6 +2139,27 @@
       ]
     },
     {
+      "slug": "embalmer",
+      "description": "Use when a task needs the judgment of an embalmer \u2014 assessing a case's decomposition stage and preservation difficulty, calculating an arterial-fluid dilution ratio for a specific case condition, choosing a restorative-art approach for trauma or discoloration, or working through a bloodborne-pathogen exposure-control decision.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/embalmer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "embedded-firmware-engineer",
       "description": "Use when a task needs the judgment of an Embedded/Firmware Engineer \u2014 analyzing worst-case execution time for a hard real-time deadline, choosing static over dynamic memory allocation to avoid fragmentation on a long-uptime device, keeping an interrupt service routine minimal and deferring work to the main loop, synchronizing a variable shared between an ISR and main context to prevent a torn read, or verifying a hardware register interaction against the datasheet's exact timing rather than observed bench behavior.",
       "category": "engineering",
@@ -2255,6 +2339,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/executive-administrative-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "exercise-trainer",
+      "description": "Use when a task needs the judgment of an Exercise Trainer or Group Fitness Instructor \u2014 screening a new client before programming intensity, running a movement assessment and picking a corrective substitution, progressing (or holding) a client's training load across weeks, distinguishing normal post-exercise soreness from an injury signal, or writing a session/program card a client can actually follow.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-9031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/exercise-trainer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3035,6 +3140,27 @@
       "skill": "roles/graphic-designer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "hairdresser-cosmetologist",
+      "description": "Use when a task needs the judgment of a licensed hairdresser/cosmetologist \u2014 formulating a hair-color correction against a target level and tone, deciding whether a chemical service is safe to perform over existing color or a prior relaxer, reading a strand test before committing to a full head of bleach, or sequencing multiple clients' processing times in one chair.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-5012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hairdresser-cosmetologist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -5807,6 +5933,27 @@
       ]
     },
     {
+      "slug": "skincare-specialist",
+      "description": "Use when a task needs the judgment of a skincare specialist (esthetician) \u2014 assessing Fitzpatrick skin type and current actives before selecting a chemical-peel or exfoliation strength, screening for a contraindication or drug interaction (isotretinoin, recent retinoid use, photosensitizing medication), sequencing a client's at-home active-ingredient routine to avoid over-exfoliation, or recognizing a lesion that needs a dermatologist referral instead of a facial.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-5094.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/skincare-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "social-community-service-manager",
       "description": "Use when a task needs the judgment of a Social and Community Service Manager \u2014 evaluating a new grant against mission fit and true cost, reconciling a braided funding budget across restricted and unrestricted sources, setting or defending caseload ratios against funder-required staffing, responding to a funder outcome-reporting requirement (e.g. HUD APR), or deciding how to close an indirect-cost recovery gap.",
       "category": "operations",
@@ -6312,6 +6459,27 @@
       "skill": "roles/title-examiner/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "tour-guide",
+      "description": "Use when a task needs the judgment of a tour guide \u2014 building a route-timing plan against a fixed tour length, calibrating narrative depth to a group's visible engagement, running a headcount/safety protocol for a walking or bus tour, or re-routing a tour in real time around a weather or closure disruption.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-7011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tour-guide/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],

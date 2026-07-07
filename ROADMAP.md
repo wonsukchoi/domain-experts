@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 316 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 324 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -706,14 +706,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>39 — Personal Care and Service</strong> (0/34 drafted)</summary>
+<summary><strong>39 — Personal Care and Service</strong> (8/34 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 |  | 39-1013.00 | First-Line Supervisors of Gambling Services Workers |  |
 |  | 39-1014.00 | First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services |  |
 |  | 39-1022.00 | First-Line Supervisors of Personal Service Workers |  |
-|  | 39-2011.00 | Animal Trainers |  |
+| ✅ | 39-2011.00 | Animal Trainers | [`animal-trainer`](./roles/animal-trainer/SKILL.md) |
 |  | 39-2021.00 | Animal Caretakers |  |
 |  | 39-3011.00 | Gambling Dealers |  |
 |  | 39-3012.00 | Gambling and Sports Book Writers and Runners |  |
@@ -724,23 +724,23 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 39-3092.00 | Costume Attendants |  |
 |  | 39-3093.00 | Locker Room, Coatroom, and Dressing Room Attendants |  |
 |  | 39-3099.00 | Entertainment Attendants and Related Workers, All Other |  |
-|  | 39-4011.00 | Embalmers |  |
+| ✅ | 39-4011.00 | Embalmers | [`embalmer`](./roles/embalmer/SKILL.md) |
 |  | 39-4012.00 | Crematory Operators |  |
 |  | 39-4021.00 | Funeral Attendants |  |
 |  | 39-4031.00 | Morticians, Undertakers, and Funeral Arrangers |  |
 |  | 39-5011.00 | Barbers |  |
-|  | 39-5012.00 | Hairdressers, Hairstylists, and Cosmetologists |  |
+| ✅ | 39-5012.00 | Hairdressers, Hairstylists, and Cosmetologists | [`hairdresser-cosmetologist`](./roles/hairdresser-cosmetologist/SKILL.md) |
 |  | 39-5091.00 | Makeup Artists, Theatrical and Performance |  |
 |  | 39-5092.00 | Manicurists and Pedicurists |  |
 |  | 39-5093.00 | Shampooers |  |
-|  | 39-5094.00 | Skincare Specialists |  |
+| ✅ | 39-5094.00 | Skincare Specialists | [`skincare-specialist`](./roles/skincare-specialist/SKILL.md) |
 |  | 39-6011.00 | Baggage Porters and Bellhops |  |
-|  | 39-6012.00 | Concierges |  |
-|  | 39-7011.00 | Tour Guides and Escorts |  |
+| ✅ | 39-6012.00 | Concierges | [`concierge`](./roles/concierge/SKILL.md) |
+| ✅ | 39-7011.00 | Tour Guides and Escorts | [`tour-guide`](./roles/tour-guide/SKILL.md) |
 |  | 39-7012.00 | Travel Guides |  |
-|  | 39-9011.00 | Childcare Workers |  |
+| ✅ | 39-9011.00 | Childcare Workers | [`childcare-worker`](./roles/childcare-worker/SKILL.md) |
 |  | 39-9011.01 | Nannies |  |
-|  | 39-9031.00 | Exercise Trainers and Group Fitness Instructors |  |
+| ✅ | 39-9031.00 | Exercise Trainers and Group Fitness Instructors | [`exercise-trainer`](./roles/exercise-trainer/SKILL.md) |
 |  | 39-9032.00 | Recreation Workers |  |
 |  | 39-9041.00 | Residential Advisors |  |
 |  | 39-9099.00 | Personal Care and Service Workers, All Other |  |
