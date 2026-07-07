@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 264 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 272 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,7 +779,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (1/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (9/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -800,7 +800,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 43-4031.00 | Court, Municipal, and License Clerks |  |
 |  | 43-4041.00 | Credit Authorizers, Checkers, and Clerks |  |
 |  | 43-4051.00 | Customer Service Representatives |  |
-|  | 43-4061.00 | Eligibility Interviewers, Government Programs |  |
+| ✅ | 43-4061.00 | Eligibility Interviewers, Government Programs | [`eligibility-interviewer`](./roles/eligibility-interviewer/SKILL.md) |
 |  | 43-4071.00 | File Clerks |  |
 |  | 43-4081.00 | Hotel, Motel, and Resort Desk Clerks |  |
 |  | 43-4111.00 | Interviewers, Except Eligibility and Loan |  |
@@ -815,23 +815,23 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 43-5011.00 | Cargo and Freight Agents |  |
 |  | 43-5011.01 | Freight Forwarders |  |
 |  | 43-5021.00 | Couriers and Messengers |  |
-|  | 43-5031.00 | Public Safety Telecommunicators |  |
-|  | 43-5032.00 | Dispatchers, Except Police, Fire, and Ambulance |  |
+| ✅ | 43-5031.00 | Public Safety Telecommunicators | [`public-safety-telecommunicator`](./roles/public-safety-telecommunicator/SKILL.md) |
+| ✅ | 43-5032.00 | Dispatchers, Except Police, Fire, and Ambulance | [`dispatcher`](./roles/dispatcher/SKILL.md) |
 |  | 43-5041.00 | Meter Readers, Utilities |  |
 |  | 43-5051.00 | Postal Service Clerks |  |
 |  | 43-5052.00 | Postal Service Mail Carriers |  |
 |  | 43-5053.00 | Postal Service Mail Sorters, Processors, and Processing Machine Operators |  |
-|  | 43-5061.00 | Production, Planning, and Expediting Clerks |  |
+| ✅ | 43-5061.00 | Production, Planning, and Expediting Clerks | [`production-planning-expediting-clerk`](./roles/production-planning-expediting-clerk/SKILL.md) |
 |  | 43-5071.00 | Shipping, Receiving, and Inventory Clerks |  |
 |  | 43-5111.00 | Weighers, Measurers, Checkers, and Samplers, Recordkeeping |  |
-|  | 43-6011.00 | Executive Secretaries and Executive Administrative Assistants |  |
-|  | 43-6012.00 | Legal Secretaries and Administrative Assistants |  |
-|  | 43-6013.00 | Medical Secretaries and Administrative Assistants |  |
+| ✅ | 43-6011.00 | Executive Secretaries and Executive Administrative Assistants | [`executive-administrative-assistant`](./roles/executive-administrative-assistant/SKILL.md) |
+| ✅ | 43-6012.00 | Legal Secretaries and Administrative Assistants | [`legal-secretary`](./roles/legal-secretary/SKILL.md) |
+| ✅ | 43-6013.00 | Medical Secretaries and Administrative Assistants | [`medical-secretary`](./roles/medical-secretary/SKILL.md) |
 |  | 43-6014.00 | Secretaries and Administrative Assistants, Except Legal, Medical, and Executive |  |
 |  | 43-9021.00 | Data Entry Keyers |  |
 |  | 43-9022.00 | Word Processors and Typists |  |
 |  | 43-9031.00 | Desktop Publishers |  |
-|  | 43-9041.00 | Insurance Claims and Policy Processing Clerks |  |
+| ✅ | 43-9041.00 | Insurance Claims and Policy Processing Clerks | [`insurance-claims-processing-clerk`](./roles/insurance-claims-processing-clerk/SKILL.md) |
 |  | 43-9051.00 | Mail Clerks and Mail Machine Operators, Except Postal Service |  |
 |  | 43-9061.00 | Office Clerks, General |  |
 |  | 43-9071.00 | Office Machine Operators, Except Computer |  |

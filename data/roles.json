@@ -1,5 +1,5 @@
 {
-  "count": 274,
+  "count": 282,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1354,6 +1354,24 @@
       ]
     },
     {
+      "slug": "dispatcher",
+      "description": "Use when a task needs the judgment of a Dispatcher \u2014 assigning a new job to the best available driver/technician in real time, managing an ETA slip and deciding who to notify, triaging a coverage gap in a service territory, sequencing a driver's remaining stops after a delay, or deciding whether a job needs to be reassigned versus the customer rescheduled.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-5032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dispatcher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "document-management-specialist",
       "description": "Use when a task needs the judgment of a Document Management Specialist \u2014 designing or auditing a records retention schedule, planning a content migration between DMS platforms (SharePoint, OpenText, Documentum, M-Files), reconciling migrated vs. source document counts, resolving a version-control or legal-hold conflict, or scoping a defensible-disposal (ROT) cleanup.",
       "category": "operations",
@@ -1518,6 +1536,24 @@
       ]
     },
     {
+      "slug": "eligibility-interviewer",
+      "description": "Use when a task needs the judgment of an eligibility interviewer for government benefit programs \u2014 calculating household income against a means-tested program's limits, determining household composition for benefit purposes, judging whether submitted verification documents are sufficient, or distinguishing a documentation gap from a fraud indicator.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/eligibility-interviewer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "embedded-firmware-engineer",
       "description": "Use when a task needs the judgment of an Embedded/Firmware Engineer \u2014 analyzing worst-case execution time for a hard real-time deadline, choosing static over dynamic memory allocation to avoid fragmentation on a long-uptime device, keeping an interrupt service routine minimal and deferring work to the main loop, synchronizing a variable shared between an ISR and main context to prevent a torn read, or verifying a hardware register interaction against the datasheet's exact timing rather than observed bench behavior.",
       "category": "engineering",
@@ -1655,6 +1691,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/equal-opportunity-representative/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "executive-administrative-assistant",
+      "description": "Use when a task needs the judgment of an executive administrative assistant \u2014 triaging a stacked calendar against competing priorities, deciding what reaches an executive versus what gets redirected, reconciling a multi-city travel itinerary or expense report, drafting on an executive's behalf within a delegated-authority boundary, or handling a scheduling conflict across time zones.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-6011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/executive-administrative-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2476,6 +2530,24 @@
       ]
     },
     {
+      "slug": "insurance-claims-processing-clerk",
+      "description": "Use when a task needs the judgment of an insurance claims and policy processing clerk \u2014 checking a submitted claim for intake completeness before it's routed to an adjuster, validating claim/procedure codes against a policy's coverage terms, processing a policy endorsement or change request, or drafting a claim-status update to a policyholder. Distinct from a claims adjuster or underwriter \u2014 this role verifies and routes, it does not decide coverage, payout, or risk pricing.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-9041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/insurance-claims-processing-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "insurance-sales-agent",
       "description": "Use when a task needs the judgment of an Insurance Sales Agent \u2014 running a life-insurance needs analysis, comparing coverage across carriers for a client, structuring a policy recommendation around a premium budget, handling a price-vs-coverage objection, or explaining a commission/renewal structure to a client asking why a quote changed at renewal.",
       "category": "sales",
@@ -2667,6 +2739,24 @@
         "clause-playbook.md",
         "red-flags.md",
         "review-checklist.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "legal-secretary",
+      "description": "Use when a task needs the judgment of a legal secretary \u2014 running a conflict-of-interest check before opening a new matter, troubleshooting a rejected e-filing, formatting a document to a court's local-rule specifications, coordinating a multi-party deposition or hearing calendar, or triaging incoming correspondence for a supervising attorney.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-6012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/legal-secretary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
         "vocabulary.md"
       ]
     },
@@ -2962,6 +3052,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/medical-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "medical-secretary",
+      "description": "Use when a task needs the judgment of a Medical Secretary or Administrative Assistant \u2014 triaging a scheduling request by clinical urgency, timing an insurance-eligibility re-verification, working backward from an appointment date to set a prior-authorization submission deadline, or applying HIPAA's minimum-necessary standard to a records-release request.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-6013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-secretary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3703,6 +3811,24 @@
       ]
     },
     {
+      "slug": "production-planning-expediting-clerk",
+      "description": "Use when a task needs the judgment of a production planning and expediting clerk \u2014 tracking work orders against a master production schedule, triaging a material shortage and deciding what to expedite first, reconciling vendor delivery promises against a build date, or writing a schedule-slip notification to affected downstream teams.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-5061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/production-planning-expediting-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "project-management-specialist",
       "description": "Use when a task needs the judgment of a project management specialist \u2014 building or recomputing an EVM-based schedule/cost forecast, running a status report and RAID log cycle, assessing schedule health before trusting a critical path, sizing a contingency vs. management reserve, evaluating a change request against baseline tolerance, or preparing a variance/exception report for a sponsor. Distinct from a project/program manager or engineering manager (who own people decisions, team composition, and delivery authority) \u2014 this role owns the plan's mechanics: the schedule, the budget, the risk register, and the honesty of the forecast, executed largely through influence rather than authority (O*NET 13-1082.00).",
       "category": "operations",
@@ -3784,6 +3910,24 @@
       "skill": "roles/public-relations-specialist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "public-safety-telecommunicator",
+      "description": "Use when a task needs the judgment of a 911 public safety telecommunicator \u2014 triaging an emergency call to a protocol determinant code, deciding when to dispatch versus keep questioning, verifying a caller's location against unreliable ANI/ALI data, delivering pre-arrival instructions (e.g. telephone CPR), or writing a CAD case log.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-5031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/public-safety-telecommunicator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
