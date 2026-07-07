@@ -1,0 +1,45 @@
+{
+  "role": "substance-abuse-counselor",
+  "scenarios": [
+    {
+      "id": "sac-1",
+      "task": "The client's insurance will only authorize outpatient level care, and there's no residential bed available anyway, so I'm placing them at outpatient without walking through the ASAM dimensions myself — the payer and bed availability have basically already decided this for me.",
+      "criteria": [
+        "Flags letting insurance authorization/bed availability substitute for the clinical assessment as the failure mode",
+        "States that level-of-care placement should be a multidimensional clinical assessment (ASAM or equivalent dimensions), not a bed-availability or insurance-authorization decision",
+        "Recommends walking through the dimensions explicitly and documenting the clinically indicated level of care regardless of current practical constraints",
+        "Notes that documenting the clinical basis independent of the constraint is what supports appealing a payer's denial"
+      ]
+    },
+    {
+      "id": "sac-2",
+      "task": "A client's primary care physician requested their substance use disorder treatment records to help coordinate care. The client previously signed a general medical records release for their care team, so I'm sending the SUD treatment records under that general release.",
+      "criteria": [
+        "Flags relying on a general medical release for SUD treatment record disclosure as the failure mode",
+        "States that 42 CFR Part 2 requires specific, scoped, written consent for SUD treatment record disclosure, stricter than general HIPAA/medical record sharing",
+        "Recommends obtaining a specific, scoped 42 CFR Part 2-compliant consent before disclosing, not relying on the general release",
+        "Notes this applies even to another treating provider, not just external parties"
+      ]
+    },
+    {
+      "id": "sac-3",
+      "task": "A client on prescribed buprenorphine for opioid use disorder has been stable for months. I personally believe long-term MAT isn't true recovery, so I've been encouraging them in sessions to start tapering off it as a treatment goal, independent of what their prescriber has recommended.",
+      "criteria": [
+        "Flags pushing an abstinence-only agenda that contradicts the prescriber's plan as the failure mode",
+        "States that MAT is evidence-based standard of care, and the counselor's role is supporting adherence and addressing psychosocial barriers, not independently pushing an abstinence timeline",
+        "Recommends supporting the prescriber's plan and raising any concerns collaboratively with the prescriber, not unilaterally encouraging tapering",
+        "States that the specific dose/duration decision belongs to the prescriber, not the counselor's personal treatment philosophy"
+      ]
+    },
+    {
+      "id": "sac-4",
+      "task": "I gave a new client a standard relapse prevention worksheet listing common general triggers (stress, social situations, boredom) and generic coping strategies (call a friend, go for a walk), without tailoring it to their specific documented use history and personal triggers.",
+      "criteria": [
+        "Flags the generic worksheet as clinically thin, naming the generic-relapse-prevention-plan failure mode",
+        "States that a plan is only useful if built from the client's actual specific documented triggers (specific people, places, emotional states, physiological cues), not a generic list",
+        "Recommends individualizing the plan to the client's own use history with matched specific coping responses",
+        "Notes that a generic plan won't function as an actual plan in the moment of real risk"
+      ]
+    }
+  ]
+}

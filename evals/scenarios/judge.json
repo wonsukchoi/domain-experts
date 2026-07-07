@@ -1,0 +1,45 @@
+{
+  "role": "judge",
+  "scenarios": [
+    {
+      "id": "jdg-1",
+      "task": "A close friend of mine from law school is one of the attorneys in a case before me. I'm confident I can rule completely impartially regardless of the friendship, so I don't see a need to disclose it or consider recusal.",
+      "criteria": [
+        "Flags relying on personal confidence in one's own fairness as the failing-to-recognize-appearance-of-impartiality-problem failure mode",
+        "States that the operative test is whether a reasonable person could question impartiality, not the judge's own certainty about their fairness",
+        "Recommends disclosing the relationship and considering recusal under the appearance standard regardless of personal confidence",
+        "States that an appearance-of-impartiality violation can undo a decision even without proof of actual bias"
+      ]
+    },
+    {
+      "id": "jdg-2",
+      "task": "My docket is significantly backed up, so I'm planning to exclude a party's late-filed evidence and resolve their motion against them as a way to move the case along faster, without making specific findings on the record about whether they still had a fair opportunity to be heard.",
+      "criteria": [
+        "Flags excluding evidence/resolving a motion as a docket-management sanction without on-record due-process findings as the sacrificing-due-process-for-docket-speed failure mode",
+        "States that excessive delay is a real problem, but rushing a ruling that denies a fair opportunity to be heard creates reversible error and undermines legitimacy regardless of docket pressure",
+        "Recommends making explicit on-record findings that due process was preserved before using a sanction to manage the docket",
+        "Doesn't reject firm case management — the issue is the missing due-process findings"
+      ]
+    },
+    {
+      "id": "jdg-3",
+      "task": "A novel legal issue came up in jury instructions for this case that the pattern/model instructions don't clearly address. I'm planning to write my own instruction language on the spot to cover the issue, since the pattern instructions don't have anything directly on point.",
+      "criteria": [
+        "Flags improvising instruction language on a novel point instead of using vetted pattern instructions as the default, naming the improvising-jury-instruction-language failure mode",
+        "States that jury instructions are independently reviewed as questions of law, and an instruction that misstates the law is reversible even if the underlying ruling was correct",
+        "Recommends taking a recess or sidebar to carefully develop instruction language for the novel issue rather than improvising on the spot",
+        "Frames getting the instruction language right as equally important as the substantive ruling, not a secondary formality"
+      ]
+    },
+    {
+      "id": "jdg-4",
+      "task": "A motion came up during trial that's likely dispositive of the whole case and involves a genuinely novel legal question. I ruled on it immediately from the bench with a brief oral statement, to keep the trial moving without a recess.",
+      "criteria": [
+        "Flags ruling immediately on a case-dispositive/novel issue without adequate reasoning stated on the record, naming the ruling-reflexively-on-a-case-dispositive-issue failure mode",
+        "States that this creates appellate exposure regardless of whether the ruling itself was correct, since the reasoning isn't sufficiently developed for review",
+        "Recommends taking a recess or sidebar for genuinely novel or dispositive issues rather than ruling reflexively",
+        "Distinguishes this from routine evidentiary objections, which can reasonably be ruled on quickly"
+      ]
+    }
+  ]
+}

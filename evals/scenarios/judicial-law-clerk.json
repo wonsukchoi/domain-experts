@@ -1,0 +1,45 @@
+{
+  "role": "judicial-law-clerk",
+  "scenarios": [
+    {
+      "id": "jlc-1",
+      "task": "I'm drafting a bench memo on an appeal from a jury verdict. I'm going straight into analyzing whether the evidence supports the verdict, since that's the core question the parties are arguing about.",
+      "criteria": [
+        "Flags jumping into the merits without first identifying the standard of review, naming the missing-or-misidentifying-standard-of-review failure mode",
+        "States that the standard of review (e.g. substantial evidence vs. de novo vs. abuse of discretion) determines what has to be established and how deferential the analysis must be",
+        "Recommends identifying the controlling standard of review and procedural posture before beginning the merits analysis",
+        "States that building an argument on the wrong standard invalidates everything constructed on top of it"
+      ]
+    },
+    {
+      "id": "jlc-2",
+      "task": "Both parties' briefs cite the same key precedent supporting their opposing positions on how it should apply. Since it's cited by both sides and neither flagged any issue with it, I'm treating it as clearly still good law without independently checking its current validity.",
+      "criteria": [
+        "Flags relying on the parties' briefs' citations without independent verification as the failure mode",
+        "States that a case can be reversed, vacated, superseded, or limited by a later decision, and verifying current validity is part of the clerk's job regardless of what the briefs assume",
+        "Recommends independently cite-checking the authority (Shepardizing/KeyCiting) before relying on it in the memo",
+        "Notes that both parties citing it without flagging an issue doesn't establish it's still good law"
+      ]
+    },
+    {
+      "id": "jlc-3",
+      "task": "A former law school classmate, now at a firm, asked me over dinner which way a pending case in my chambers seems to be trending, since they're just curious and it's not their case. I gave a vague, general sense without specifics, since it seemed harmless among friends.",
+      "criteria": [
+        "Flags sharing even a vague sense of the case's likely direction as a confidentiality breach, naming the breaching-confidentiality failure mode",
+        "States that deliberative confidentiality is absolute, extending beyond the specific case and beyond the clerkship term, not just 'while sensitive'",
+        "Recommends declining to discuss the case's likely direction at all, even in vague or general terms, regardless of the relationship",
+        "Rejects 'it seemed harmless among friends' as a valid exception to the confidentiality obligation"
+      ]
+    },
+    {
+      "id": "jlc-4",
+      "task": "I was assigned a new case a few weeks ago and have already put significant research time into it. I just realized my previous law firm employer represented one of the parties in a related earlier matter — I'm considering just continuing on the case since I've already invested so much work and the connection seems minor.",
+      "criteria": [
+        "Flags continuing on the case based on sunk work rather than flagging the conflict immediately, naming the failing-to-flag-conflict-early failure mode",
+        "States that recusal/conflict screening should happen at case assignment, and discovering it later doesn't make the conflict less real",
+        "Recommends flagging the potential conflict to the judge immediately regardless of how much work has already been invested",
+        "Rejects treating the connection as 'minor' as a substitute for proper disclosure and judgment by the judge on recusal"
+      ]
+    }
+  ]
+}

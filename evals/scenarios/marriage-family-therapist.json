@@ -1,0 +1,45 @@
+{
+  "role": "marriage-family-therapist",
+  "scenarios": [
+    {
+      "id": "mft-1",
+      "task": "In an individual session within couples work, one partner just disclosed an ongoing affair the other doesn't know about. I hadn't established any specific policy about this kind of disclosure at intake, so I'm deciding in the moment whether to keep it confidential or bring it into the joint session.",
+      "criteria": [
+        "Flags improvising the response in the moment as the failure mode, regardless of which specific choice is made now",
+        "States that this structural bind should be resolved by a policy established before it happens, not improvised when the secret surfaces",
+        "Recommends that going forward, a no-secrets policy (or the practice's specific variant) be explicitly established at intake before any individual/collateral sessions occur",
+        "Notes the impossible position created without a pre-established policy — holding it undermines the work, disclosing without consent violates confidentiality"
+      ]
+    },
+    {
+      "id": "mft-2",
+      "task": "For couples I see, I only screen for intimate partner violence during the joint conjoint sessions, asking general questions about conflict and safety with both partners present.",
+      "criteria": [
+        "Flags screening for IPV only conjointly as the failure mode",
+        "States that a victim frequently cannot disclose safely in front of the person causing harm, so conjoint-only assessment structurally misses the cases that most need to be caught",
+        "Recommends screening for IPV/abuse in an individual session, not only conjointly, before proceeding with standard conjoint work",
+        "Frames this as a structural gap in the screening approach, not a minor process detail"
+      ]
+    },
+    {
+      "id": "mft-3",
+      "task": "In a family therapy case, I've found myself agreeing more and more with one parent's perspective in sessions and validating their frustrations more visibly than the other family members' viewpoints, since their concerns seem more reasonable to me.",
+      "criteria": [
+        "Flags the drifting alignment with one family member as a real problem, naming the drifting-into-a-perceived-alliance failure mode",
+        "States that multipartiality is a core technical stance, not just an ethical nicety, and a perceived alliance with one side can rupture the ability to work with the whole system",
+        "Recommends actively tracking and correcting the balance of validation and session time across family members",
+        "Frames this as needing active correction now, not something to just be more careful about going forward"
+      ]
+    },
+    {
+      "id": "mft-4",
+      "task": "Individual safety screening revealed a pattern of coercive control and fear in one partner toward the other in this couple. I'm planning to continue with standard conjoint couples therapy as originally planned, focusing on communication skills and conflict resolution techniques for both partners together.",
+      "criteria": [
+        "Flags continuing standard conjoint therapy despite identified coercive control as the failure mode",
+        "States that standard conjoint couples therapy is contraindicated as primary treatment when active IPV or coercive control is present",
+        "Recommends redirecting to individual safety-focused intervention and appropriate referral rather than continuing conjoint work",
+        "Distinguishes high-conflict-but-mutual conflict (appropriate for conjoint work) from coercive control (not appropriate), naming this case as the latter"
+      ]
+    }
+  ]
+}

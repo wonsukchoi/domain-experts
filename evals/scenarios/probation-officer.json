@@ -1,0 +1,45 @@
+{
+  "role": "probation-officer",
+  "scenarios": [
+    {
+      "id": "po-1",
+      "task": "This individual was convicted of a serious offense, so I'm placing them on the most intensive supervision tier automatically, without weighting their validated risk assessment score, which actually came back low-risk based on their criminal history and other factors.",
+      "criteria": [
+        "Flags setting supervision intensity by offense severity rather than the validated risk score as the failure mode",
+        "States that supervision intensity should match the actuarially-assessed risk level, not offense type or severity alone",
+        "Recommends setting supervision level according to the low-risk score, not the offense's severity",
+        "Notes that treating a low-risk individual as high-risk because of offense type alone can be counterproductive"
+      ]
+    },
+    {
+      "id": "po-2",
+      "task": "An individual assessed as low-risk is being placed into our most intensive supervision program (frequent check-ins, group programming with higher-risk peers) since I figure more supervision is always safer regardless of what the risk assessment says.",
+      "criteria": [
+        "Flags over-supervising a low-risk individual as a real problem, naming the over-supervising-low-risk-individuals failure mode",
+        "States that over-supervising low-risk individuals can increase recidivism by disrupting prosocial stability and mixing them with higher-risk peers",
+        "Recommends matching supervision intensity to the assessed risk level, reducing intensity for the low-risk individual rather than defaulting to more supervision",
+        "Rejects the assumption that more supervision is always safer regardless of risk level"
+      ]
+    },
+    {
+      "id": "po-3",
+      "task": "I'm writing a presentence investigation report and I've focused on presenting the facts that support the sentence I personally think is appropriate, while giving less emphasis to mitigating factors that might argue for a different outcome.",
+      "criteria": [
+        "Flags writing the PSI as advocacy for a particular outcome as the failure mode",
+        "States that a PSI has to be factually accurate, sourced, and balanced, not advocacy for a particular sentence, since the judge substantially relies on it",
+        "Recommends presenting a balanced picture including mitigating factors with every factual claim sourced to a specific record",
+        "Notes that errors or unbalanced characterizations in a PSI are difficult to correct after the fact and can shape a sentence for years"
+      ]
+    },
+    {
+      "id": "po-4",
+      "task": "The risk-needs assessment for this individual flagged substance abuse and antisocial peer associations as their top criminogenic needs, but their case plan is mostly built around generic goals like improving self-esteem and general life satisfaction.",
+      "criteria": [
+        "Flags prioritizing non-criminogenic needs over the identified criminogenic ones as the failure mode",
+        "States that criminogenic needs (antisocial attitudes/associates, substance abuse, employment instability) carry the evidence base for reducing recidivism, unlike general wellness goals",
+        "Recommends rebuilding the case plan around the specific criminogenic needs the assessment identified (substance abuse, antisocial associates)",
+        "Doesn't reject wellness goals entirely — the issue is finite resources going to lower-evidence targets over the flagged criminogenic needs"
+      ]
+    }
+  ]
+}

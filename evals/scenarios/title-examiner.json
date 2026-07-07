@@ -1,0 +1,45 @@
+{
+  "role": "title-examiner",
+  "scenarios": [
+    {
+      "id": "te-1",
+      "task": "I'm searching the encumbrance indexes for this property, but I'm only running the search against the current owner's name since they're the one on title now and the one this transaction is about.",
+      "criteria": [
+        "Flags searching only the current owner's name as the searching-only-the-current-owners-name failure mode",
+        "States that an encumbrance recorded against a prior owner in the chain can still be enforceable today and attach to the property regardless of subsequent transfers",
+        "Recommends searching every name that has appeared anywhere in the chain of title, not just the current owner",
+        "Notes this is a common way a live encumbrance gets missed"
+      ]
+    },
+    {
+      "id": "te-2",
+      "task": "I found competing claims on this property and I'm analyzing priority as if this were a pure notice jurisdiction, since that's the most common recording statute type I usually see, without confirming which type actually governs this specific state.",
+      "criteria": [
+        "Flags assuming the recording statute type without confirming it for this jurisdiction as the failure mode",
+        "States that whether the jurisdiction is race, notice, or race-notice changes the entire priority analysis, and the same facts produce different outcomes under each",
+        "Recommends confirming the specific jurisdiction's recording statute type before analyzing the priority dispute",
+        "Notes that assuming based on habit or common frequency risks a wrong priority conclusion"
+      ]
+    },
+    {
+      "id": "te-3",
+      "task": "I found a tax lien recorded against the property 22 years ago. I'm treating it as a current live encumbrance requiring resolution before closing, without checking whether it's still enforceable under the jurisdiction's lien duration statute.",
+      "criteria": [
+        "Flags treating the old lien as automatically live without checking its enforcement period, naming the failing-to-check-whether-a-found-lien-has-expired failure mode",
+        "Recommends verifying whether the lien is still enforceable under the jurisdiction's specific duration statute, or already satisfied/released, before treating it as a current encumbrance",
+        "States that a dead instrument shouldn't be treated as a live encumbrance requiring cure",
+        "Doesn't assume it's automatically expired either — the issue is not checking"
+      ]
+    },
+    {
+      "id": "te-4",
+      "task": "I found a minor, decades-old defect in the chain of title — a missing notarization on an old deed that's otherwise clearly valid and undisputed. I'm requiring a full curative action (a corrective deed or quiet title action) before recommending the commitment proceed, treating every defect the same way.",
+      "criteria": [
+        "Flags treating every defect as requiring the same (most conservative) cure as the treating-every-defect-as-requiring-a-cure failure mode",
+        "States that not every defect is fatal — some can be insured over with underwriting approval rather than requiring a full cure",
+        "Recommends classifying this specific defect (curable, insurable-with-exception, or fatal) and considering whether insuring over it with an exception is faster and legally sufficient",
+        "Doesn't dismiss the defect — the issue is reflexively defaulting to the most expensive resolution without triage"
+      ]
+    }
+  ]
+}

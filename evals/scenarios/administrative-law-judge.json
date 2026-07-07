@@ -1,0 +1,45 @@
+{
+  "role": "administrative-law-judge",
+  "scenarios": [
+    {
+      "id": "alj-1",
+      "task": "In my draft decision, I wrote that the claimant's testimony 'is not fully credible' and moved on to the RFC analysis, without tying that statement to a specific inconsistency or piece of record evidence.",
+      "criteria": [
+        "Flags the conclusory credibility finding without a specific record anchor as the writing-boilerplate-credibility-findings failure mode",
+        "States that a credibility finding must identify the exact inconsistency or piece of evidence supporting it, not a general characterization",
+        "Recommends revising the finding to cite the specific record evidence that supports the credibility determination",
+        "States this is a common and predictable ground for remand regardless of whether the underlying judgment is sound"
+      ]
+    },
+    {
+      "id": "alj-2",
+      "task": "The agency's mandatory evaluation framework requires steps in a specific order, but in this case it seemed more efficient to address the vocational step first since the medical evidence was straightforward, then circle back to fill in the earlier required steps in the written decision.",
+      "criteria": [
+        "Flags reordering the mandatory sequential steps as the skipping-or-misordering-steps failure mode",
+        "States that skipping or reordering a required step is itself reversible error, independent of whether the substantive conclusion was correct",
+        "Recommends following the agency's required step-by-step framework in the specified order regardless of perceived efficiency",
+        "Notes this is a procedural error separate from the merits of the ultimate decision"
+      ]
+    },
+    {
+      "id": "alj-3",
+      "task": "My docket has an unusually high caseload this month, so I'm planning to issue shorter, more templated decisions across several cases to keep pace, even though some of them have significant contrary evidence in the record that a fuller decision would normally need to address.",
+      "criteria": [
+        "Flags using caseload pressure to justify thinner decisions as the treating-caseload-pressure-as-justification-for-a-thin-decision failure mode",
+        "States that each decision independently must meet the substantial-evidence and due-process floor regardless of docket volume",
+        "Recommends addressing significant contrary evidence in each decision regardless of time pressure",
+        "Notes that a boilerplate decision undermines the whole caseload's reversal rate, not just the individual case"
+      ]
+    },
+    {
+      "id": "alj-4",
+      "task": "I personally think the agency's current regulatory framework for weighing this type of evidence is not the best approach, so in this decision I'm applying my own preferred weighing method instead of the framework the regulations specify.",
+      "criteria": [
+        "Flags substituting personal policy preference for the agency's governing regulations as the applying-personal-policy-views-instead-of-agency-regulations failure mode",
+        "States that an ALJ operates within the agency's own governing regulatory framework and has more constrained interpretive latitude than an Article III judge",
+        "Recommends applying the agency's specified framework regardless of personal disagreement with its approach",
+        "Frames personal disagreement with the regulation as not a valid basis for deviating from it in a decision"
+      ]
+    }
+  ]
+}
