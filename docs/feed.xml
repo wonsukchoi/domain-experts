@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:38:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:47:24 +0000</lastBuildDate>
+  <item>
+    <title>Audiologist</title>
+    <link>https://domainexperts.dev/roles/audiologist/</link>
+    <guid>https://domainexperts.dev/roles/audiologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of an audiologist — interpreting an audiogram to classify hearing-loss type and severity, deciding whether a conductive component warrants an ENT referral before amplification, verifying a hearing-aid fitting against prescriptive targets, screening a vestibular/balance complaint, or writing an audiometric report for a referring physician.</description>
+  </item>
+  <item>
+    <title>Chiropractor</title>
+    <link>https://domainexperts.dev/roles/chiropractor/</link>
+    <guid>https://domainexperts.dev/roles/chiropractor/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of a chiropractor — screening a spinal or musculoskeletal complaint for red flags before manipulation, choosing a manipulation technique given a patient&#x27;s risk profile, designing a care plan with a defined reassessment checkpoint, or deciding whether to continue, modify, or discharge a course of care.</description>
+  </item>
+  <item>
+    <title>Dental Hygienist</title>
+    <link>https://domainexperts.dev/roles/dental-hygienist/</link>
+    <guid>https://domainexperts.dev/roles/dental-hygienist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of a dental hygienist — full-mouth periodontal charting and staging, sequencing scaling and root planing across quadrants, deciding whether a finding needs escalation back to the dentist, or building a home-care compliance plan for a patient with active periodontal disease.</description>
+  </item>
+  <item>
+    <title>Dentist General</title>
+    <link>https://domainexperts.dev/roles/dentist-general/</link>
+    <guid>https://domainexperts.dev/roles/dentist-general/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed General Dentist — assessing caries risk and deciding restore-vs-monitor, choosing a restorative material for a specific tooth, phasing a multi-procedure treatment plan by urgency and budget, reading a radiograph for diagnostic findings, or deciding when a case exceeds general-practice scope and needs a specialist referral.</description>
+  </item>
+  <item>
+    <title>Optometrist</title>
+    <link>https://domainexperts.dev/roles/optometrist/</link>
+    <guid>https://domainexperts.dev/roles/optometrist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Optometrist (OD) — determining a refractive correction, evaluating intraocular pressure and optic-nerve findings for glaucoma risk, triaging a red or symptomatic eye for urgent referral, fitting contact lens parameters including vertex-distance power conversion, or deciding whether a finding needs ophthalmology referral versus in-office management.</description>
+  </item>
+  <item>
+    <title>Oral Maxillofacial Surgeon</title>
+    <link>https://domainexperts.dev/roles/oral-maxillofacial-surgeon/</link>
+    <guid>https://domainexperts.dev/roles/oral-maxillofacial-surgeon/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Oral and Maxillofacial Surgeon — scoring extraction/impaction difficulty, evaluating nerve-injury risk from a panoramic radiograph, selecting an anesthesia/sedation level for office-based surgery, planning orthognathic (jaw-repositioning) surgery, or managing a post-surgical complication like dry socket or persistent numbness.</description>
+  </item>
+  <item>
+    <title>Orthodontist</title>
+    <link>https://domainexperts.dev/roles/orthodontist/</link>
+    <guid>https://domainexperts.dev/roles/orthodontist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of an orthodontist — classifying a malocclusion, running a space analysis to decide extraction vs non-extraction, timing growth-modification treatment in a growing patient, selecting appliance mechanics and an anchorage plan, or designing a retention protocol.</description>
+  </item>
+  <item>
+    <title>Podiatrist</title>
+    <link>https://domainexperts.dev/roles/podiatrist/</link>
+    <guid>https://domainexperts.dev/roles/podiatrist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of a podiatrist — staging a diabetic foot ulcer and deciding whether debridement is safe, screening for loss of protective sensation and peripheral arterial disease before a treatment plan, choosing offloading vs surgical correction for a foot/ankle deformity, or interpreting a gait/biomechanical exam against a recurrent-ulceration or overuse-injury pattern.</description>
+  </item>
+  <item>
+    <title>Prosthodontist</title>
+    <link>https://domainexperts.dev/roles/prosthodontist/</link>
+    <guid>https://domainexperts.dev/roles/prosthodontist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:47:04 +0700</pubDate>
+    <description>Use when a task needs the judgment of a prosthodontist — planning a dental-implant case against bone quality and site anatomy, designing a full-mouth reconstruction and setting occlusal vertical dimension, choosing a crown/bridge/denture material under load-bearing constraints, or working through a Kennedy-classified partial-denture design.</description>
+  </item>
   <item>
     <title>Dietitian Nutritionist</title>
     <link>https://domainexperts.dev/roles/dietitian-nutritionist/</link>
