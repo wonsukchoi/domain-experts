@@ -1,0 +1,45 @@
+{
+  "role": "administrative-services-manager",
+  "scenarios": [
+    {
+      "id": "asm-1",
+      "task": "Leadership is asking me to justify our facilities/admin budget for next year. My honest pitch is that nothing has gone wrong this year — no outages, no vendor failures, no complaints — so I'm a little worried they'll read that as evidence we can cut the budget rather than evidence it's working.",
+      "criteria": [
+        "Names the specific risk explicitly: nothing going wrong is the result of adequate investment, not evidence the budget can be safely reduced",
+        "Recommends framing the pitch around risk avoided and reliability maintained, translating the invisible success into what would have happened without the investment",
+        "Flags under-resourcing invisible reliability as a real organizational failure mode to actively push back against, not just a communication problem",
+        "Suggests concrete ways to make the invisible value visible (e.g. cost of comparable failures elsewhere, near-misses caught proactively) rather than just asserting things are fine"
+      ]
+    },
+    {
+      "id": "asm-2",
+      "task": "We've been putting off some recommended maintenance on our building's HVAC system since everything is still working fine day to day, and it's not currently causing any problems. I'd rather not spend the money until something actually breaks.",
+      "criteria": [
+        "Flags waiting until failure as the reactive-only-maintenance pattern",
+        "States that deferred maintenance compounds — a small, currently fixable issue tends to become a much larger and more expensive failure later",
+        "Recommends proactive preventive maintenance now rather than waiting for a failure, framing this as systematically cheaper over time, not just cautious",
+        "Doesn't treat 'nothing's broken yet' as evidence maintenance is unnecessary"
+      ]
+    },
+    {
+      "id": "asm-3",
+      "task": "Every purchase request, from a $40 office supply order to a $40,000 vendor contract, goes through the same multi-step approval chain in our organization, since I want consistent oversight and don't want to make exceptions that could look inconsistent.",
+      "criteria": [
+        "Flags applying the same heavy approval process to low-risk and high-risk spend as the uniform-control-applied-regardless-of-risk failure mode",
+        "States that this creates unnecessary friction on routine low-risk purchases without a corresponding reduction in risk",
+        "Recommends setting the convenience-control dial deliberately by risk and frequency category — lighter process for low-risk routine purchases, tighter control for high-risk spend",
+        "Notes that uniform friction breeds workarounds rather than actually improving oversight where it matters"
+      ]
+    },
+    {
+      "id": "asm-4",
+      "task": "We've used the same office-cleaning and facilities vendor for six years. The contract auto-renews each year and I've never really re-evaluated it since we haven't had major complaints — it's just been running on autopilot.",
+      "criteria": [
+        "Flags the auto-renewing, unreviewed vendor relationship as the vendor-relationships-on-autopilot failure mode",
+        "States that this risks missing both cost savings and service-quality improvements available elsewhere",
+        "Recommends periodically re-evaluating total cost of ownership and current fit, not just renewing by default absent a complaint",
+        "Notes that absence of complaints isn't the same as confirming the vendor is still the best current option"
+      ]
+    }
+  ]
+}

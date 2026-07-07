@@ -1,0 +1,45 @@
+{
+  "role": "advertising-promotions-manager",
+  "scenarios": [
+    {
+      "id": "apm-1",
+      "task": "We have $150K approved for this quarter's campaign. My plan is to figure out how to spend the full $150K effectively across the channels we usually use, then set our reach and frequency expectations based on what that budget buys.",
+      "criteria": [
+        "Flags starting from the budget rather than the objective as the budget-first-planning failure mode",
+        "Recommends starting from the specific campaign objective and target audience, determining the reach/frequency/channel mix that objective requires, then checking cost against budget — not the reverse",
+        "States that starting from 'how do we spend this' tends to produce a plan optimized for spend rather than outcome",
+        "Asks what the specific objective and audience are before accepting the budget-driven planning approach"
+      ]
+    },
+    {
+      "id": "apm-2",
+      "task": "The creative brief I'm sending the agency says: 'Promote our brand broadly to raise awareness and appeal to as many potential customers as possible, showcasing our full range of products.' I think giving them a wide mandate like this gives the creative team maximum room to be creative.",
+      "criteria": [
+        "Flags this as a vague creative brief, naming under-specification of audience and message as the failure mode, not creative freedom",
+        "States that a broad, unfocused brief produces work that tries to appeal to everyone and lands with no one specifically",
+        "Recommends tightening the brief to one specific audience, one core message, and one desired action",
+        "Distinguishes over-specifying execution (bad) from under-specifying the who/what/why (also bad) — the fix is specificity on audience/message, not dictating visuals"
+      ]
+    },
+    {
+      "id": "apm-3",
+      "task": "Our ad platform's dashboard shows this channel drove 2,400 conversions last month with a strong last-click attribution model, so I'm planning to shift more budget into it since it's clearly our best-performing channel by a wide margin.",
+      "criteria": [
+        "Flags trusting the platform's self-reported last-click attribution at face value as a failure mode",
+        "States that last-click and platform-reported attribution systematically over-credit the channel closest to conversion",
+        "Recommends validating with a holdout test or incrementality check before reallocating significant budget based on this number alone",
+        "Notes the specific conflict of interest — the platform reporting the number benefits from the budget shift its own numbers justify"
+      ]
+    },
+    {
+      "id": "apm-4",
+      "task": "One channel has been performing really well for us for over a year, so we've concentrated almost all of our paid budget there since it's clearly the highest-return option and there's no reason to spread spend into weaker-performing channels.",
+      "criteria": [
+        "Flags heavy concentration in a single channel as the single-channel-overreliance failure mode, even given strong current performance",
+        "States the specific risks this creates — cost inflation, algorithm changes, or audience fatigue in that one channel — that a diversified plan would avoid",
+        "Recommends maintaining some channel diversity as risk management, not purely as a hedge against underperformance",
+        "Doesn't argue against the channel's current strong performance, only against concentrating essentially all spend there"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "public-relations-manager",
+  "scenarios": [
+    {
+      "id": "prm-1",
+      "task": "A minor issue is starting to surface on social media about one of our products. We don't have full details yet — the internal team is still investigating — but I want to put out a statement right now saying the reports are inaccurate and there's no issue, just to stop the chatter before it spreads further.",
+      "criteria": [
+        "Flags issuing a denial before the facts are fully known as the minimizing-before-facts-known failure mode",
+        "States that a fast, wrong statement costs more credibility than a short delay for accuracy, especially if it has to be walked back once facts emerge",
+        "Recommends getting the facts confirmed first, even under time pressure, before communicating anything definitive",
+        "Notes that a denial that later proves wrong compounds the original problem with a credibility problem"
+      ]
+    },
+    {
+      "id": "prm-2",
+      "task": "A story about our company is developing in the press and on social media, and we don't have all the answers yet. My plan is to decline all comment and not engage publicly at all until we have a fully complete picture, so we don't say anything we might have to correct later.",
+      "criteria": [
+        "Flags going completely dark as a failure mode, not a safe default, naming the going-dark-during-a-developing-story pattern",
+        "States that silence doesn't stop the narrative from forming — it just means the organization isn't part of shaping it, and other voices fill the gap",
+        "Recommends engaging with what can be honestly said now (including what's still unknown) rather than declining all comment",
+        "Distinguishes appropriate caution about stating unconfirmed facts from the mistake of engaging with the situation at all"
+      ]
+    },
+    {
+      "id": "prm-3",
+      "task": "For this incident, I'm drafting three different messages: a reassuring, minimal-detail version for customers, a more detailed version with different emphasis for investors, and a third version for employees that includes some additional internal context not in the other two. Each is tailored to what that audience cares about most.",
+      "criteria": [
+        "Checks whether the underlying facts stated are identical across all three versions, not just whether the tailoring itself is appropriate",
+        "States that different audiences can get different emphasis and detail level, but never different facts about the same event",
+        "Flags the risk explicitly: inconsistent messaging across audiences gets discovered and treated as evidence of dishonesty",
+        "Doesn't reject tailoring messages per audience — the concern is specifically whether the facts underneath diverge"
+      ]
+    },
+    {
+      "id": "prm-4",
+      "task": "For our crisis statement about a service outage, I want to commit to a specific fix and a public 48-hour timeline to demonstrate we're taking this seriously and give people confidence — I haven't confirmed the 48 hours with the engineering team yet but it sounds like a reasonable target.",
+      "criteria": [
+        "Flags committing to a specific, unconfirmed timeline as the overpromising-in-the-recovery-message failure mode",
+        "States that this sets up a second credibility failure if the 48-hour promise slips, which is worse than not giving a specific number in the first place",
+        "Recommends confirming the timeline with the relevant internal team before making any public commitment to it",
+        "Distinguishes conveying that the issue is being taken seriously from committing to an unverified specific deadline"
+      ]
+    }
+  ]
+}

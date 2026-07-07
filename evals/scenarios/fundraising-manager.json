@@ -1,0 +1,45 @@
+{
+  "role": "fundraising-manager",
+  "scenarios": [
+    {
+      "id": "fm-1",
+      "task": "I just identified a new prospect with strong major-gift capacity. I'm planning to reach out this week with a specific ask for a $50,000 gift toward our capital campaign, since I want to move quickly while the opportunity is fresh and they clearly have the means to give.",
+      "criteria": [
+        "Flags soliciting before genuine cultivation as the asking-before-cultivating failure mode",
+        "States that a solicitation without prior relationship-building reads as transactional and undermines the relationship it depends on",
+        "Recommends sequencing cultivation first — understanding the donor's motivations and building trust — before bringing a specific ask",
+        "Doesn't reject moving with reasonable speed, but flags the missing cultivation step specifically, not the timeline itself"
+      ]
+    },
+    {
+      "id": "fm-2",
+      "task": "We closed out our annual campaign successfully and hit our fundraising target. Now that the ask cycle is done, my team is moving on to planning next year's campaign strategy — we'll circle back with donors again when it's time for the next ask.",
+      "criteria": [
+        "Flags the absence of any planned stewardship/impact reporting between the ask and the next campaign as the neglecting-stewardship failure mode",
+        "States that a donor who never learns what their gift accomplished has no reason to give again, regardless of how good the original cultivation was",
+        "Recommends building impact reporting into the calendar as a standing deliverable before the next solicitation cycle, not treating the ask as the end of the relationship",
+        "Frames stewardship as the mechanism that makes the next ask possible, not an optional extra"
+      ]
+    },
+    {
+      "id": "fm-3",
+      "task": "I try to give every donor in our database roughly the same amount of personal outreach and relationship attention regardless of their giving history or capacity, since I don't want to seem like we only care about the big donors.",
+      "criteria": [
+        "Flags even-effort cultivation across all donors as a failure mode, naming the Pareto-principle mismatch in fundraising",
+        "States that a small number of major donors typically provide the large majority of revenue, and spreading cultivation time evenly wastes it where it has the least leverage",
+        "Recommends segmenting donors by capacity and relationship stage, concentrating individualized cultivation on major-gift prospects while using efficient systematized outreach for the broader base",
+        "Distinguishes appropriate care for all donors from equal deployment of the scarcest cultivation resource — relationship-building time"
+      ]
+    },
+    {
+      "id": "fm-4",
+      "task": "For our grant application, I'm planning to state that our program served 5,000 people last year, which rounds up from our actual verified count of about 3,200 — it's a stronger number and will help our case, and the difference is mostly people we're confident we reached informally even if we didn't track them individually.",
+      "criteria": [
+        "Flags rounding up the reported outcome to an unverified, materially different number as overstating impact, regardless of the stated confidence in the informal reach",
+        "States that this is a durable reputational risk, not a clever positioning move — a funder who discovers the discrepancy withholds future gifts and can damage trust with other funders",
+        "Recommends reporting the verified count and, if relevant, separately and honestly describing the additional informal reach rather than blending it into one inflated number",
+        "Frames the mission's actual, verifiable outcomes as the real product, not something to round up for a stronger pitch"
+      ]
+    }
+  ]
+}

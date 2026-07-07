@@ -1,0 +1,45 @@
+{
+  "role": "treasurer-controller",
+  "scenarios": [
+    {
+      "id": "tc-1",
+      "task": "Our income statement shows strong profitability this quarter, so I'm not too worried about our cash position — a profitable company shouldn't have liquidity problems, and the numbers clearly show we're doing well.",
+      "criteria": [
+        "Flags equating profitability with liquidity safety as a distinct, dangerous error, naming the confusing-profitability-with-liquidity failure mode",
+        "States that a company can be profitable on paper and still fail if it can't meet an obligation on the specific day it's due",
+        "Recommends checking actual cash flow forecasts and liquidity position directly rather than inferring it from the income statement",
+        "Frames liquidity risk as managed on a faster, tighter timescale than quarterly profitability"
+      ]
+    },
+    {
+      "id": "tc-2",
+      "task": "We keep essentially all of our corporate cash reserves in a single high-yield account at one bank, well above the insured deposit limit — it's the best rate we found and consolidating there made things simple to manage.",
+      "criteria": [
+        "Flags concentrating cash in one institution beyond insured/safe limits as a real risk, regardless of the attractive yield",
+        "States that this is the counterpart failure to excess conservatism — a concentration risk that doesn't show up as an obvious line-item problem until something goes wrong with that institution",
+        "Recommends structuring cash across a liquidity ladder (multiple institutions/instruments matched to access speed and safety needs), not chasing yield in one place",
+        "Balances the recommendation against the legitimate desire for yield — the issue is concentration, not seeking any yield at all"
+      ]
+    },
+    {
+      "id": "tc-3",
+      "task": "A business unit leader is pushing me to characterize a large one-time item as recurring revenue in this quarter's internal reporting, since it would make their numbers look stronger heading into a board review. I'm inclined to accommodate this since it's just internal reporting and we can clarify externally later if needed.",
+      "criteria": [
+        "Flags accommodating the request as compromising reporting independence, regardless of it being 'just internal' reporting",
+        "States that adjusting characterization to please operational pressure undermines the entire premise and value of independent financial reporting",
+        "Recommends refusing the favorable mischaracterization and, if the pressure continues, escalating the tension transparently rather than quietly accommodating it",
+        "Rejects the 'internal vs external' distinction as a justification, since internal reporting still needs to reflect actual financial substance for decisions built on it"
+      ]
+    },
+    {
+      "id": "tc-4",
+      "task": "Our external auditors are starting this year's audit. My plan is to present them with a clean, finished set of financials and answer only the specific questions they ask, without proactively raising the couple of judgment calls we made this year that could be interpreted differently — no need to invite extra scrutiny if they don't ask.",
+      "criteria": [
+        "Flags withholding known judgment calls from proactive disclosure as an adversarial audit posture, naming the failure mode explicitly",
+        "States that a collaborative approach — proactively surfacing uncertain judgment calls — produces a better, faster audit and genuinely better assurance, not just more scrutiny",
+        "Recommends proactively bringing the judgment calls to the auditors with supporting reasoning, rather than waiting to see if they're asked about",
+        "Frames the audit as a resource for genuine assurance rather than a compliance obligation to minimize exposure to"
+      ]
+    }
+  ]
+}

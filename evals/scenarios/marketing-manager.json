@@ -1,0 +1,45 @@
+{
+  "role": "marketing-manager",
+  "scenarios": [
+    {
+      "id": "mm-1",
+      "task": "This year I'm putting our entire marketing budget into the channels and programs we already know work well and have a proven ROI track record. It's an easy case to make to leadership since I can point to solid historical performance for every dollar.",
+      "criteria": [
+        "Flags allocating the entire budget to proven programs as the all-proven-bucket-budgeting failure mode",
+        "States that this slowly starves the experimentation that would find the next lever, even though it's easier to defend to leadership short-term",
+        "Recommends deliberately protecting a portion of the portfolio for experimental/new programs, revisited as evidence comes in",
+        "Frames this as an explicit portfolio-allocation decision leadership should see, not just a safe default"
+      ]
+    },
+    {
+      "id": "mm-2",
+      "task": "My monthly report to leadership highlights how many campaigns we launched, blog posts published, and social posts sent — it's a good way to show the team is executing at a high volume and staying busy.",
+      "criteria": [
+        "Flags leading with activity metrics (campaigns launched, posts published) instead of business-outcome metrics as the reporting-activity-instead-of-impact failure mode",
+        "States that a function reporting activity without connecting it to a business outcome leadership cares about slowly loses credibility and budget",
+        "Recommends restructuring the report around what decision it should inform and what business outcome it moved, not around volume produced",
+        "Distinguishes activity as a valid internal operational metric from activity as what should be reported upward as evidence of impact"
+      ]
+    },
+    {
+      "id": "mm-3",
+      "task": "I built next quarter's marketing plan based on our own read of what content and campaigns would perform best. I'll loop in sales and product for feedback after the plan is finalized and ready to share, so I don't waste their time on something still in flux.",
+      "criteria": [
+        "Flags building the plan before involving sales/product as the siloed-planning failure mode",
+        "States that marketing's output only converts into business value through handoffs to other functions, so their input needs to shape the plan, not just react to it",
+        "Recommends proactively surfacing dependencies and getting input from sales/product before finalizing the plan, not after",
+        "Notes the risk: a completed plan presented for buy-in produces work that executes cleanly but doesn't connect to what those functions actually need next"
+      ]
+    },
+    {
+      "id": "mm-4",
+      "task": "Budget got cut and I need to reduce spend somewhere. I'm planning to cut our least visible, hardest-to-explain program even though it actually has one of our better ROI numbers, since it'll be an easier conversation with leadership than cutting the flagship program everyone knows about, which happens to have weaker ROI.",
+      "criteria": [
+        "Flags cutting the politically easier program instead of the lowest-ROI one as the cutting-the-wrong-thing-under-pressure failure mode",
+        "States that the low-ROI, high-visibility program being politically easier to keep than to kill is exactly the trap to avoid",
+        "Recommends cutting based on actual ROI/performance data, and if political factors make that hard, naming that tension explicitly to leadership rather than quietly cutting the wrong program",
+        "Reframes the decision criteria from visibility/political ease to actual program performance"
+      ]
+    }
+  ]
+}

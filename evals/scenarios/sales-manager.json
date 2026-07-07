@@ -1,0 +1,45 @@
+{
+  "role": "sales-manager",
+  "scenarios": [
+    {
+      "id": "sm-1",
+      "task": "I review my team's numbers in depth at the end of each quarter to see who hit target and who didn't. During the quarter I mostly let reps run their own process and only step in if someone asks for help.",
+      "criteria": [
+        "Flags reviewing performance only at quarter-end as the managing-only-the-lagging-number failure mode",
+        "States that pipeline coverage is a leading indicator that would have shown a likely miss months earlier, before it's too late to fix within the quarter",
+        "Recommends reviewing pipeline coverage against quota on a fixed, more frequent cadence, not waiting for the lagging revenue number",
+        "Notes that waiting for reps to self-identify a problem misses the point — the manager's job includes catching thin coverage proactively"
+      ]
+    },
+    {
+      "id": "sm-2",
+      "task": "In our last forecast call, a rep flagged that a big deal she had listed as 'commit' was actually now at risk since a key stakeholder went quiet. I was frustrated in the meeting since that deal was central to our number, and I let her know the team needs to be more careful about what gets called commit in the first place.",
+      "criteria": [
+        "Flags reacting negatively to the honest at-risk flag as the punishing-honest-forecast-reporting failure mode",
+        "States that this response trains the team to only report good news, destroying the forecast's usefulness as a real signal going forward",
+        "Recommends responding to the flag with problem-solving (what can be done about the stalled stakeholder) rather than frustration about the miscategorization",
+        "Reframes psychological safety in forecast conversations as a functional requirement, not a soft nicety, given what's at stake if reps stop reporting honestly"
+      ]
+    },
+    {
+      "id": "sm-3",
+      "task": "I split our team's total quota evenly across all six reps, giving everyone the exact same number — that feels like the fairest way to set targets since no one can complain about being treated differently.",
+      "criteria": [
+        "Flags an even split across reps as potentially unfair despite being numerically equal, naming the uneven-quota-treated-as-fair failure mode",
+        "States that an even split across territories of different actual potential sets some reps up to fail and others to coast",
+        "Recommends grounding quota/territory design in actual bottom-up market/account potential per territory, reconciled with the top-down number",
+        "Distinguishes equal treatment (same number) from fair treatment (a number that reflects actual territory potential)"
+      ]
+    },
+    {
+      "id": "sm-4",
+      "task": "One of my reps has a huge deal that's stuck, so I've started jumping on the calls myself and driving the negotiation directly since I have more experience closing deals like this and don't want to risk losing it.",
+      "criteria": [
+        "Flags personally taking over the deal as the selling-instead-of-managing failure mode",
+        "States that this caps the manager's impact at their own personal capacity instead of the whole team's, and stunts the rep's development",
+        "Recommends coaching the rep through the deal (specific next steps, stakeholder strategy) rather than taking it over directly",
+        "Distinguishes appropriate manager involvement (strategic coaching, joining a call to support) from replacing the rep as the deal owner"
+      ]
+    }
+  ]
+}
