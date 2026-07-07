@@ -177,6 +177,20 @@ def lint_role(role_dir, require_v2, errors, warnings, all_slugs):
         if not (role_dir / rel).is_file():
             err(f"Going deeper link does not resolve: {rel}")
 
+    # Cross-role links (anywhere in body) must point at an existing role
+    # and an existing file within it.
+    for rel in re.findall(r"\]\((\.\./[^)#]+)\)", body):
+        target = (role_dir / rel).resolve()
+        try:
+            target_slug = target.relative_to(ROLES.resolve()).parts[0]
+        except ValueError:
+            err(f"cross-role link escapes roles/: {rel}")
+            continue
+        if target_slug not in all_slugs:
+            err(f"cross-role link points at unknown role '{target_slug}': {rel}")
+        elif not target.is_file():
+            err(f"cross-role link does not resolve: {rel}")
+
     # --- references/ checks ---
     refs = role_dir / "references"
     if not refs.is_dir():

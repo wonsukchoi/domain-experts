@@ -1,5 +1,5 @@
 {
-  "count": 223,
+  "count": 232,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -213,6 +213,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/archivist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "art-director",
+      "description": "Use when a task needs the judgment of an Art Director \u2014 commissioning and choosing between divergent creative concepts for a campaign, triaging client feedback into concept vs. execution notes, pressure-testing a concept against a production budget/timeline before it's locked in, or managing a shoot/production budget across a multi-deliverable campaign.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/art-director/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -665,6 +683,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/clinical-research-coordinator/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "commercial-industrial-designer",
+      "description": "Use when a task needs the judgment of a Commercial/Industrial Designer \u2014 designing the form, ergonomics, and manufacturability of a physical product, choosing between manufacturing processes at a given volume, selecting materials/finishes under a cost or durability constraint, or planning a prototyping sequence before tooling commitment.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/commercial-industrial-designer/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -1138,6 +1174,24 @@
       ]
     },
     {
+      "slug": "editor",
+      "description": "Use when a task needs the judgment of a manuscript or content editor \u2014 diagnosing structural problems in a draft, writing a developmental edit letter, running a line-edit or copyedit pass, deciding what to cut to hit a word-count target, or triaging conflicting author feedback.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/editor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "education-administrator-k12",
       "description": "Use when a task needs the judgment of a K-12 Education Administrator (principal/assistant principal/district administrator) \u2014 making a school-level policy or resource-allocation decision, handling a discipline or safety incident, evaluating a curriculum or staffing decision, or balancing competing demands from teachers, parents, students, and district requirements.",
       "category": "operations",
@@ -1435,6 +1489,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/farm-products-buyer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "film-video-editor",
+      "description": "Use when a task needs the judgment of a Film and Video Editor \u2014 cutting a rough assembly down to a target runtime, diagnosing why a scene isn't playing, structuring a revision-round process with a director/client, or preparing a picture-locked timeline for sound/color finishing.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/film-video-editor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2098,6 +2170,24 @@
       ]
     },
     {
+      "slug": "interior-designer",
+      "description": "Use when a task needs the judgment of an Interior Designer \u2014 space-planning a commercial or residential layout against code-minimum clearances, selecting and specifying finishes/furniture within a budget, designing a lighting plan against footcandle targets, checking a layout for ADA accessible-route/clear-floor-space compliance, or reconciling a finish-schedule budget against a client's allowance.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1025.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/interior-designer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "investment-fund-manager",
       "description": "Use when a task needs the judgment of an Investment Fund Manager \u2014 making or evaluating a portfolio allocation decision, assessing a fund's risk exposure, deciding on a buy/sell/hold call, or communicating fund performance and strategy to investors/limited partners.",
       "category": "finance",
@@ -2681,6 +2771,24 @@
       ]
     },
     {
+      "slug": "news-journalist",
+      "description": "Use when a task needs the judgment of a News Journalist \u2014 deciding whether a claim has enough independent corroboration to publish, handling an anonymous or off-the-record source without burning credibility, structuring a breaking-news story under deadline, or triaging which parts of a developing story are confirmed versus still rumor.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/news-journalist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "nuclear-engineer",
       "description": "Use when a task needs the judgment of a Nuclear Engineer \u2014 sizing radiation shielding against a dose target, screening a proposed plant change under 10 CFR 50.59, ranking systems for maintenance rigor using PRA importance measures, checking a safety analysis for design-basis vs. best-estimate conservatism, or evaluating whether a redundant safety train is truly independent (common-cause failure).",
       "category": "engineering",
@@ -3049,6 +3157,24 @@
       "audit_score": null,
       "skill": "roles/public-relations-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "public-relations-specialist",
+      "description": "Use when a task needs the judgment of a Public Relations Specialist \u2014 writing and targeting a media pitch, building a tiered reporter list, drafting a press release, testing a launch message before it goes wide, or drafting a fast holding statement while facts are still being confirmed.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/public-relations-specialist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "purchasing-agent",
@@ -3613,6 +3739,24 @@
       "references": []
     },
     {
+      "slug": "technical-writer",
+      "description": "Use when a task needs the judgment of a Technical Writer \u2014 architecting API/developer documentation, auditing documentation coverage against support-ticket volume, classifying content by Di\u00e1taxis type (reference/how-to/tutorial/explanation), designing a docs-as-code workflow, or diagnosing why users can't self-serve from existing docs.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/technical-writer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "telecommunications-engineering-specialist",
       "description": "Use when a task needs the judgment of a Telecommunications Engineering Specialist \u2014 specifying structured cabling category/distance against a speed requirement, computing a fiber link's insertion-loss budget, sizing PBX/VoIP trunk groups from traffic data, planning carrier circuit provisioning lead time against a project timeline, or designing and validating wireless/DAS coverage via RF site survey.",
       "category": "engineering",
@@ -3674,6 +3818,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/training-development-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "translator-interpreter",
+      "description": "Use when a task needs the judgment of a translator or interpreter \u2014 translating a technical/legal/marketing document, deciding between light and full machine-translation post-editing, choosing simultaneous vs consecutive interpretation for an assignment, resolving an ambiguous or untranslatable source term, or preparing a certified translation for a legal/immigration/court requirement.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/translator-interpreter/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

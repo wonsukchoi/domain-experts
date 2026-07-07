@@ -252,15 +252,9 @@ async function cmdAdd(slug, opts) {
     process.exit(1);
   }
   const roles = loadRoles();
-  let role = roles.find((r) => r.slug === slug);
-  if (!role) {
-    // Meta-skills (e.g. the router) live in skills/, not roles/ — small
-    // enough that they still ship bundled in the package.
-    const metaFile = path.join(__dirname, "..", "skills", slug, "SKILL.md");
-    if (fs.existsSync(metaFile)) {
-      role = { slug, file: metaFile, skillPath: `skills/${slug}/SKILL.md`, referencePaths: [] };
-    }
-  }
+  // Meta-skills (e.g. the router) live in skills/, not roles/ — small
+  // enough that they still ship bundled in the package.
+  let role = findRoleOrMeta(slug, roles);
   if (!role) {
     console.error(`No role "${slug}" found. Run "domain-experts list" to see available roles.`);
     process.exit(1);
@@ -292,6 +286,96 @@ async function cmdAdd(slug, opts) {
     }
     process.exit(1);
   }
+}
+
+function findRoleOrMeta(slug, roles) {
+  let role = roles.find((r) => r.slug === slug);
+  if (!role) {
+    const metaFile = path.join(__dirname, "..", "skills", slug, "SKILL.md");
+    if (fs.existsSync(metaFile)) {
+      role = { slug, file: metaFile, skillPath: `skills/${slug}/SKILL.md`, referencePaths: [] };
+    }
+  }
+  return role;
+}
+
+async function cmdInit(roleSlugs, opts) {
+  console.log("Installing domain-expert router...");
+  await cmdAdd("domain-expert-router", {});
+  console.log("\nInstalling /domain-expert command...");
+  await cmdCommand(opts);
+  for (const slug of roleSlugs) {
+    console.log(`\nInstalling role "${slug}"...`);
+    await cmdAdd(slug, {});
+  }
+  console.log(
+    `\nDone. Start a new session, then try: ${TOOLS[opts.tool || "claude"].usage}`
+  );
+}
+
+async function cmdUpdate(opts) {
+  const baseDir = path.resolve(opts.to || path.join(".claude", "skills"));
+  if (!fs.existsSync(baseDir)) {
+    console.error(`No installed skills found at "${baseDir}".`);
+    process.exit(1);
+  }
+  const roles = loadRoles();
+  const installedSlugs = fs
+    .readdirSync(baseDir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    .filter((slug) => fs.existsSync(path.join(baseDir, slug, "SKILL.md")));
+
+  if (installedSlugs.length === 0) {
+    console.log(`No installed roles found in "${baseDir}".`);
+    return;
+  }
+
+  let updated = 0;
+  let unchanged = 0;
+  let missing = 0;
+  for (const slug of installedSlugs) {
+    const role = findRoleOrMeta(slug, roles);
+    if (!role) {
+      console.log(`? ${slug}: no longer in the role index, skipping`);
+      missing++;
+      continue;
+    }
+    const targetDir = path.join(baseDir, slug);
+    try {
+      const remoteSkill = await readRoleFile(role.file, role.skillPath);
+      const localSkillPath = path.join(targetDir, "SKILL.md");
+      const localSkill = fs.existsSync(localSkillPath)
+        ? fs.readFileSync(localSkillPath, "utf8")
+        : null;
+      let changed = remoteSkill !== localSkill;
+      fs.writeFileSync(localSkillPath, remoteSkill);
+
+      for (const refPath of role.referencePaths) {
+        const localRefFile = path.join(__dirname, "..", refPath);
+        const remoteRef = await readRoleFile(localRefFile, refPath);
+        const refsDir = path.join(targetDir, "references");
+        fs.mkdirSync(refsDir, { recursive: true });
+        const localRefPath = path.join(refsDir, path.basename(refPath));
+        const localRef = fs.existsSync(localRefPath)
+          ? fs.readFileSync(localRefPath, "utf8")
+          : null;
+        if (remoteRef !== localRef) changed = true;
+        fs.writeFileSync(localRefPath, remoteRef);
+      }
+
+      if (changed) {
+        console.log(`* ${slug}: updated`);
+        updated++;
+      } else {
+        console.log(`  ${slug}: up to date`);
+        unchanged++;
+      }
+    } catch (err) {
+      console.log(`! ${slug}: failed (${err.message})`);
+    }
+  }
+  console.log(`\n${updated} updated, ${unchanged} up to date, ${missing} skipped.`);
 }
 
 // Each entry's projectPath/globalPath match that tool's *documented* custom
@@ -420,6 +504,10 @@ Usage:
                                        Install the /domain-expert command/prompt for <id>
                                        (default: claude). --global installs to the tool's
                                        user-level directory instead of the project directory.
+  domain-experts init [slug...] [--tool <id>] [--global]
+                                       One-shot setup: router + /domain-expert command,
+                                       plus any role slugs passed.
+  domain-experts update [--to dir]    Re-fetch all installed roles (default: .claude/skills/)
 
   Supported --tool values: ${Object.keys(TOOLS).join(", ")}
 
@@ -443,6 +531,12 @@ async function main() {
       break;
     case "command":
       await cmdCommand(opts);
+      break;
+    case "init":
+      await cmdInit(positional, opts);
+      break;
+    case "update":
+      await cmdUpdate(opts);
       break;
     case "help":
     case "--help":
