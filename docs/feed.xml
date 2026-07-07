@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 15:05:23 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 15:11:34 +0000</lastBuildDate>
+  <item>
+    <title>Animal Trainer</title>
+    <link>https://domainexperts.dev/roles/animal-trainer/</link>
+    <guid>https://domainexperts.dev/roles/animal-trainer/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of an animal trainer — designing a behavior-modification plan for a specific problem behavior, choosing a reinforcement schedule and deciding when to raise criteria, structuring session length and frequency to avoid fatigue or frustration plateaus, or setting a handler/public safety protocol around a training animal.</description>
+  </item>
+  <item>
+    <title>Childcare Worker</title>
+    <link>https://domainexperts.dev/roles/childcare-worker/</link>
+    <guid>https://domainexperts.dev/roles/childcare-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Childcare Worker — checking ratio/headcount compliance across mixed-age groups, deciding whether a fall or minor incident needs a written report versus a verbal mention at pickup, redirecting a behavior problem in an unstructured (non-curriculum) setting, or triaging which of several simultaneous demands (a crying toddler, a fight over a toy, a diaper) gets attention first.</description>
+  </item>
+  <item>
+    <title>Concierge</title>
+    <link>https://domainexperts.dev/roles/concierge/</link>
+    <guid>https://domainexperts.dev/roles/concierge/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Concierge — securing a reservation at a fully-booked restaurant or sold-out venue, coordinating a multi-vendor guest request (dinner, transportation, and a gift delivery) inside a tight window, deciding when to pivot from a failed Plan A to a same-caliber Plan B, or navigating a paid-referral relationship without letting the commission distort the recommendation.</description>
+  </item>
+  <item>
+    <title>Embalmer</title>
+    <link>https://domainexperts.dev/roles/embalmer/</link>
+    <guid>https://domainexperts.dev/roles/embalmer/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of an embalmer — assessing a case&#x27;s decomposition stage and preservation difficulty, calculating an arterial-fluid dilution ratio for a specific case condition, choosing a restorative-art approach for trauma or discoloration, or working through a bloodborne-pathogen exposure-control decision.</description>
+  </item>
+  <item>
+    <title>Exercise Trainer</title>
+    <link>https://domainexperts.dev/roles/exercise-trainer/</link>
+    <guid>https://domainexperts.dev/roles/exercise-trainer/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Exercise Trainer or Group Fitness Instructor — screening a new client before programming intensity, running a movement assessment and picking a corrective substitution, progressing (or holding) a client&#x27;s training load across weeks, distinguishing normal post-exercise soreness from an injury signal, or writing a session/program card a client can actually follow.</description>
+  </item>
+  <item>
+    <title>Hairdresser Cosmetologist</title>
+    <link>https://domainexperts.dev/roles/hairdresser-cosmetologist/</link>
+    <guid>https://domainexperts.dev/roles/hairdresser-cosmetologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed hairdresser/cosmetologist — formulating a hair-color correction against a target level and tone, deciding whether a chemical service is safe to perform over existing color or a prior relaxer, reading a strand test before committing to a full head of bleach, or sequencing multiple clients&#x27; processing times in one chair.</description>
+  </item>
+  <item>
+    <title>Skincare Specialist</title>
+    <link>https://domainexperts.dev/roles/skincare-specialist/</link>
+    <guid>https://domainexperts.dev/roles/skincare-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a skincare specialist (esthetician) — assessing Fitzpatrick skin type and current actives before selecting a chemical-peel or exfoliation strength, screening for a contraindication or drug interaction (isotretinoin, recent retinoid use, photosensitizing medication), sequencing a client&#x27;s at-home active-ingredient routine to avoid over-exfoliation, or recognizing a lesion that needs a dermatologist referral instead of a facial.</description>
+  </item>
+  <item>
+    <title>Tour Guide</title>
+    <link>https://domainexperts.dev/roles/tour-guide/</link>
+    <guid>https://domainexperts.dev/roles/tour-guide/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:11:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a tour guide — building a route-timing plan against a fixed tour length, calibrating narrative depth to a group&#x27;s visible engagement, running a headcount/safety protocol for a walking or bus tour, or re-routing a tour in real time around a weather or closure disruption.</description>
+  </item>
   <item>
     <title>Dental Assistant</title>
     <link>https://domainexperts.dev/roles/dental-assistant/</link>
