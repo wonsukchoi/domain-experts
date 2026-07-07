@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 298 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 307 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,13 +779,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (35/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (44/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 43-1011.00 | First-Line Supervisors of Office and Administrative Support Workers | [`first-line-supervisor-office-admin`](./roles/first-line-supervisor-office-admin/SKILL.md) |
 |  | 43-2011.00 | Switchboard Operators, Including Answering Service |  |
-|  | 43-2021.00 | Telephone Operators |  |
+| ✅ | 43-2021.00 | Telephone Operators | [`telephone-operator`](./roles/telephone-operator/SKILL.md) |
 |  | 43-2099.00 | Communications Equipment Operators, All Other |  |
 | ✅ | 43-3011.00 | Bill and Account Collectors | [`bill-account-collector`](./roles/bill-account-collector/SKILL.md) |
 | ✅ | 43-3021.00 | Billing and Posting Clerks | [`billing-posting-clerk`](./roles/billing-posting-clerk/SKILL.md) |
@@ -803,7 +803,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 43-4061.00 | Eligibility Interviewers, Government Programs | [`eligibility-interviewer`](./roles/eligibility-interviewer/SKILL.md) |
 | ✅ | 43-4071.00 | File Clerks | [`file-clerk`](./roles/file-clerk/SKILL.md) |
 | ✅ | 43-4081.00 | Hotel, Motel, and Resort Desk Clerks | [`hotel-motel-desk-clerk`](./roles/hotel-motel-desk-clerk/SKILL.md) |
-|  | 43-4111.00 | Interviewers, Except Eligibility and Loan |  |
+| ✅ | 43-4111.00 | Interviewers, Except Eligibility and Loan | [`interviewer-except-eligibility-loan`](./roles/interviewer-except-eligibility-loan/SKILL.md) |
 | ✅ | 43-4121.00 | Library Assistants, Clerical | [`library-assistant-clerical`](./roles/library-assistant-clerical/SKILL.md) |
 | ✅ | 43-4131.00 | Loan Interviewers and Clerks | [`loan-interviewer-clerk`](./roles/loan-interviewer-clerk/SKILL.md) |
 | ✅ | 43-4141.00 | New Accounts Clerks | [`new-accounts-clerk`](./roles/new-accounts-clerk/SKILL.md) |
@@ -814,10 +814,10 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 43-4199.00 | Information and Record Clerks, All Other |  |
 | ✅ | 43-5011.00 | Cargo and Freight Agents | [`cargo-freight-agent`](./roles/cargo-freight-agent/SKILL.md) |
 |  | 43-5011.01 | Freight Forwarders |  |
-|  | 43-5021.00 | Couriers and Messengers |  |
+| ✅ | 43-5021.00 | Couriers and Messengers | [`courier-messenger`](./roles/courier-messenger/SKILL.md) |
 | ✅ | 43-5031.00 | Public Safety Telecommunicators | [`public-safety-telecommunicator`](./roles/public-safety-telecommunicator/SKILL.md) |
 | ✅ | 43-5032.00 | Dispatchers, Except Police, Fire, and Ambulance | [`dispatcher`](./roles/dispatcher/SKILL.md) |
-|  | 43-5041.00 | Meter Readers, Utilities |  |
+| ✅ | 43-5041.00 | Meter Readers, Utilities | [`meter-reader-utilities`](./roles/meter-reader-utilities/SKILL.md) |
 | ✅ | 43-5051.00 | Postal Service Clerks | [`postal-service-clerk`](./roles/postal-service-clerk/SKILL.md) |
 |  | 43-5052.00 | Postal Service Mail Carriers |  |
 |  | 43-5053.00 | Postal Service Mail Sorters, Processors, and Processing Machine Operators |  |
@@ -827,14 +827,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 43-6011.00 | Executive Secretaries and Executive Administrative Assistants | [`executive-administrative-assistant`](./roles/executive-administrative-assistant/SKILL.md) |
 | ✅ | 43-6012.00 | Legal Secretaries and Administrative Assistants | [`legal-secretary`](./roles/legal-secretary/SKILL.md) |
 | ✅ | 43-6013.00 | Medical Secretaries and Administrative Assistants | [`medical-secretary`](./roles/medical-secretary/SKILL.md) |
-|  | 43-6014.00 | Secretaries and Administrative Assistants, Except Legal, Medical, and Executive |  |
-|  | 43-9021.00 | Data Entry Keyers |  |
-|  | 43-9022.00 | Word Processors and Typists |  |
+| ✅ | 43-6014.00 | Secretaries and Administrative Assistants, Except Legal, Medical, and Executive | [`secretary-general`](./roles/secretary-general/SKILL.md) |
+| ✅ | 43-9021.00 | Data Entry Keyers | [`data-entry-keyer`](./roles/data-entry-keyer/SKILL.md) |
+| ✅ | 43-9022.00 | Word Processors and Typists | [`word-processor-typist`](./roles/word-processor-typist/SKILL.md) |
 | ✅ | 43-9031.00 | Desktop Publishers | [`desktop-publisher`](./roles/desktop-publisher/SKILL.md) |
 | ✅ | 43-9041.00 | Insurance Claims and Policy Processing Clerks | [`insurance-claims-processing-clerk`](./roles/insurance-claims-processing-clerk/SKILL.md) |
 |  | 43-9051.00 | Mail Clerks and Mail Machine Operators, Except Postal Service |  |
-|  | 43-9061.00 | Office Clerks, General |  |
-|  | 43-9071.00 | Office Machine Operators, Except Computer |  |
+| ✅ | 43-9061.00 | Office Clerks, General | [`office-clerk-general`](./roles/office-clerk-general/SKILL.md) |
+| ✅ | 43-9071.00 | Office Machine Operators, Except Computer | [`office-machine-operator`](./roles/office-machine-operator/SKILL.md) |
 | ✅ | 43-9081.00 | Proofreaders and Copy Markers | [`proofreader-copy-marker`](./roles/proofreader-copy-marker/SKILL.md) |
 | ✅ | 43-9111.00 | Statistical Assistants | [`statistical-assistant`](./roles/statistical-assistant/SKILL.md) |
 |  | 43-9199.00 | Office and Administrative Support Workers, All Other |  |
