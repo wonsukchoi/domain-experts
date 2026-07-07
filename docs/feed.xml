@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:57:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 14:03:47 +0000</lastBuildDate>
+  <item>
+    <title>Brokerage Clerk</title>
+    <link>https://domainexperts.dev/roles/brokerage-clerk/</link>
+    <guid>https://domainexperts.dev/roles/brokerage-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a brokerage clerk — resolving a trade-break/reconciliation exception before settlement, recomputing a weighted-average execution price across partial fills, processing a corporate action&#x27;s effect on share count and cost basis, or responding to a DK (don&#x27;t-know) notice from a contra broker.</description>
+  </item>
+  <item>
+    <title>Court Municipal License Clerk</title>
+    <link>https://domainexperts.dev/roles/court-municipal-license-clerk/</link>
+    <guid>https://domainexperts.dev/roles/court-municipal-license-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a court, municipal, or license clerk — checking a pro se filing for procedural completeness, calculating a court filing fee or fee-waiver eligibility, processing a license or permit application against an eligibility checklist, determining whether a case record is public or sealed, or making a docket entry.</description>
+  </item>
+  <item>
+    <title>Credit Authorizer Checker Clerk</title>
+    <link>https://domainexperts.dev/roles/credit-authorizer-checker-clerk/</link>
+    <guid>https://domainexperts.dev/roles/credit-authorizer-checker-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a credit authorizer, checker, or clerk — deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application&#x27;s income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating — this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.</description>
+  </item>
+  <item>
+    <title>Customer Service Representative</title>
+    <link>https://domainexperts.dev/roles/customer-service-representative/</link>
+    <guid>https://domainexperts.dev/roles/customer-service-representative/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Customer Service Representative — de-escalating an angry customer, deciding whether a policy exception is worth the cost, deciding when to escalate versus resolve on the spot, drafting a resolution response, or diagnosing why first-call-resolution is low for an issue type.</description>
+  </item>
+  <item>
+    <title>File Clerk</title>
+    <link>https://domainexperts.dev/roles/file-clerk/</link>
+    <guid>https://domainexperts.dev/roles/file-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a File Clerk — designing or diagnosing a filing/classification system, running a misfile-rate audit, sequencing a records-retention purge, indexing a physical-to-digital conversion batch, or resolving a lost-file/charge-out tracking gap.</description>
+  </item>
+  <item>
+    <title>Hotel Motel Desk Clerk</title>
+    <link>https://domainexperts.dev/roles/hotel-motel-desk-clerk/</link>
+    <guid>https://domainexperts.dev/roles/hotel-motel-desk-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hotel/Motel Desk Clerk — resolving a walk (an arriving guest with no room) at check-in, verifying a rate-code discrepancy against the PMS, optimizing room assignment against housekeeping status and guest requests, or deciding compensation within (or beyond) authority limits during a service failure.</description>
+  </item>
+  <item>
+    <title>Order Clerk</title>
+    <link>https://domainexperts.dev/roles/order-clerk/</link>
+    <guid>https://domainexperts.dev/roles/order-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an order clerk — verifying an order entry against a price list and inventory availability, deciding whether a shortfall needs a substitution offer or a straight backorder, resolving a SKU or unit-of-measure mismatch before it reaches fulfillment, or handling an order-change/cancellation request against a cutoff window.</description>
+  </item>
+  <item>
+    <title>Receptionist</title>
+    <link>https://domainexperts.dev/roles/receptionist/</link>
+    <guid>https://domainexperts.dev/roles/receptionist/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a receptionist or front-desk information clerk — triaging a multi-line phone queue under time pressure, deciding whether a visitor gets escorted back or asked to wait, de-escalating an upset caller before routing them, or running a visitor-badge/security-check procedure.</description>
+  </item>
+  <item>
+    <title>Teller</title>
+    <link>https://domainexperts.dev/roles/teller/</link>
+    <guid>https://domainexperts.dev/roles/teller/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:03:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a bank teller — balancing a cash drawer and tracing an over/short, deciding whether a large cash transaction needs a Currency Transaction Report, recognizing a possible check-kiting or structuring pattern, applying Regulation CC funds-availability holds to a deposit, or spotting a likely elder-financial-abuse withdrawal. Distinct from a personal financial advisor or loan officer — this role executes transactions and screens them for compliance/fraud signals, it does not advise on products or approve credit.</description>
+  </item>
   <item>
     <title>Dispatcher</title>
     <link>https://domainexperts.dev/roles/dispatcher/</link>

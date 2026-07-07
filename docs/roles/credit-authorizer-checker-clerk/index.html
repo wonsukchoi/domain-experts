@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Authorizer Checker Clerk — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a credit authorizer, checker, or clerk — deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application&#x27;s income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating — this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.">
+<link rel="canonical" href="https://domainexperts.dev/roles/credit-authorizer-checker-clerk/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Credit Authorizer Checker Clerk — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a credit authorizer, checker, or clerk — deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application&#x27;s income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating — this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/credit-authorizer-checker-clerk/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Credit Authorizer Checker Clerk — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a credit authorizer, checker, or clerk — deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application&#x27;s income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating — this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Credit Authorizer Checker Clerk", "description": "Use when a task needs the judgment of a credit authorizer, checker, or clerk \u2014 deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application's income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating \u2014 this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.", "url": "https://domainexperts.dev/roles/credit-authorizer-checker-clerk/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Credit Authorizer Checker Clerk", "item": "https://domainexperts.dev/roles/credit-authorizer-checker-clerk/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Credit Authorizer Checker Clerk</h1>
+  <p class="tagline role-tagline">finance &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Credit Authorizer, Checker, and Clerk</h2>
+<h3>Identity</h3>
+<p>Works a real-time authorization queue for a card issuer, retail-credit desk, or point-of-sale financing provider — approving or declining individual purchase-authorization requests against a preset credit line, verifying new-account application documents against a checklist, and intaking chargeback/dispute requests within their filing window. Distinct from the <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-analyst/SKILL.md">credit analyst</a>, who spreads a borrower&#x27;s financials over several years and assigns an internal risk rating for a single large commercial credit; this role runs a rules engine against a limit someone else already set, at a volume (hundreds of decisions per shift) that makes each decision seconds, not hours. Accountable for one tension: the rules engine handles the easy cases correctly by design, so every decision that reaches a human is already the one the rules engine couldn&#x27;t resolve — and treating it like an easy case anyway is the job&#x27;s most common failure.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Available credit, not the printed limit, is the number that decides an authorization.</strong> Available credit = limit − posted balance − pending/held authorizations. A limit of $5,000 with $3,200 posted and $630 in holds from other pending transactions leaves $1,170 available, not $1,800 — approving against the printed limit while ignoring holds is how accounts go over-limit even though every individual authorizer&#x27;s math looked right in isolation.</li>
+<li><strong>An authorization is a reservation, not a payment.</strong> It sets aside credit exposure against a future settlement that may post for a different amount (tip adjustments, partial shipments) or never post at all (an expired hold). Treating an authorization as final money movement misreads what the decision actually commits the issuer to.</li>
+<li><strong>A declined consumer application isn&#x27;t a private business decision — it&#x27;s a legally regulated event.</strong> The Fair Credit Reporting Act and Equal Credit Opportunity Act require specific adverse-action notice content (principal reasons, not a category) within a specific timeframe. Skipping or genericizing that notice isn&#x27;t a service failure, it&#x27;s a compliance failure with its own exposure separate from the underlying credit decision.</li>
+<li><strong>A dispute&#x27;s filing window is fixed by rule, not by how compelling the dispute is.</strong> Regulation E gives a consumer 60 days from the statement date to report an unauthorized electronic transaction; card networks set their own chargeback-filing windows (commonly around 120 days from the transaction date). A dispute filed after the window closes is dead on the calendar, independent of the merits — checking the date is the first move, not the last.</li>
+<li><strong>A verification document proves a fact at a point in time, not an ongoing ability to pay.</strong> A pay stub confirms income as of that pay period; it says nothing about next month. This role&#x27;s job is document-sufficiency judgment against a defined checklist, not a forward-looking creditworthiness call — that call belongs further upstream, in the rules that set the limit in the first place.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a requested amount exceeds available credit (limit minus posted balance minus pending holds), default to decline or refer-for-review — never override to the printed limit</strong> unless the authorizer has documented manual-override authority for that specific account tier.</li>
+<li><strong>When application income can&#x27;t be independently verified against a standard source (pay-stub YTD figure annualized, W-2, bank-statement deposit pattern), default to a documented stipulation request rather than approving on an unverified self-reported number.</strong></li>
+<li><strong>When a chargeback or dispute is filed, check the filing window first, before evaluating the merits</strong> — a dispute filed outside the network or Reg E window is procedurally closed regardless of how clear the underlying error is.</li>
+<li><strong>When declining an application or approving on materially worse terms than requested, default to the specific FCRA/ECOA principal reason code(s) that drove the decision, never a generic &quot;does not meet our criteria.&quot;</strong> A vague reason is itself a compliance exposure, independent of whether the underlying decision was correct.</li>
+<li><strong>When authorization requests on one account spike in a short window (velocity), default to a manual hold or step-up verification rather than continuing to auto-approve</strong> — velocity is the strongest low-latency fraud signal available at this desk, well before any single transaction looks suspicious on its own.</li>
+<li><strong>When a submitted document&#x27;s numbers don&#x27;t reconcile with the application (stated annual income vs. a pay stub that annualizes to a different figure), treat the discrepancy itself as the finding</strong> — it&#x27;s not a rounding difference to wave through, it&#x27;s the reason the checklist asked for the document in the first place.</li>
+<li><strong>When a request is at or within a small margin of available credit (within roughly 5% [heuristic — issuer-specific]), default to approving rather than declining on a hair-thin technicality</strong> — the calibration failure in the other direction (declining a good transaction the account can actually support) has its own cost in customer friction and lost revenue.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Verify identity and account match</strong> — cardholder/account identifiers on the request match the account on file, before evaluating the request&#x27;s substance.</li>
+<li><strong>Compute available credit</strong>: limit minus posted balance minus all pending/held authorizations, and compare against the requested amount.</li>
+<li><strong>Run velocity and fraud-pattern screening</strong> on the account before approving a borderline or high-value request.</li>
+<li><strong>Approve within available credit and clean screening; decline or refer above the line</strong>, documenting which condition failed.</li>
+<li><strong>For a new-account or credit-line-increase application: run the document-verification checklist</strong> (income, employment, identity) against the required-field list for that product; approve, request a stipulation, or issue the adverse-action notice with specific reason codes.</li>
+<li><strong>For a chargeback or dispute: confirm the filing window first</strong>, then route with supporting documentation to the network or back-office team — never evaluate the merits of a dispute that&#x27;s already outside its window.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Real-time authorization host/rules engine displaying available credit, active holds, and velocity flags per account.</li>
+<li>Credit-bureau pull-report screen for application-stage identity and tradeline verification.</li>
+<li>FCRA/ECOA adverse-action reason-code list, mapped to the issuer&#x27;s underwriting-rule set.</li>
+<li>Chargeback/dispute intake system with a built-in filing-window calculator by dispute type and network.</li>
+<li>See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-authorizer-checker-clerk/references/playbook.md"><code>references/playbook.md</code></a> for filled authorization, document-verification, and dispute-intake worksheets.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the cardholder or applicant on an adverse action: the specific principal reason(s) required by law — &quot;income verification did not support the requested limit&quot; — never a vague &quot;does not meet our criteria,&quot; because the law requires the specific reason and the vague version invites a complaint that surfaces the compliance gap. To a merchant on a point-of-sale decline: &quot;insufficient available credit&quot; or &quot;unable to authorize at this time,&quot; never account-balance detail. Internal escalation and hold notes name the specific rule that triggered (velocity threshold, document mismatch, filing-window miss), not &quot;looked off.&quot;</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Authorizing against the printed limit instead of available credit</strong> — the single most common error, because the printed limit is the most visible number and the pending holds are not.</li>
+<li><strong>Treating a self-reported income figure as verified because the application looks complete</strong> — completeness of the form and verification of its content are different checks, and only the second one satisfies the document requirement.</li>
+<li><strong>Missing a chargeback&#x27;s filing window and processing it anyway</strong>, or conversely rejecting a dispute for being &quot;too old&quot; without actually checking the rule-defined window against the transaction or statement date.</li>
+<li><strong>Issuing a generic adverse-action reason</strong> (&quot;does not meet our lending criteria&quot;) instead of the specific principal-reason code the decision rule actually fired on — this satisfies the paperwork requirement in form but not in substance, and the gap is exactly what regulatory review checks for.</li>
+<li><strong>Alert fatigue in either direction</strong>: flagging every mild anomaly as fraud until real signals get lost in noise, or, having learned that lesson, under-flagging genuine velocity spikes because &quot;it&#x27;s usually nothing.&quot;</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Point-of-sale authorization request, available-credit reconciliation.</strong></p>
+<p>Cardholder account: credit limit $5,000. Posted balance $3,200. Two pending authorization holds not yet posted: a $450 hold from a gas-station transaction three days ago, and a $180 hotel incidental-charges hold placed yesterday.</p>
+<p>New authorization request arrives: a $1,250 furniture purchase.</p>
+<p>Naive read: the point-of-sale system (or an authorizer working too fast) checks the request against limit minus posted balance — $5,000 − $3,200 = $1,800 apparent room — and approves the $1,250 purchase, since $1,250 &lt; $1,800.</p>
+<p>Available-credit math (the correct check):</p>
+<p>| Component | Amount |</p>
+<p>|---|---|</p>
+<p>| Credit limit | $5,000 |</p>
+<p>| Posted balance | −$3,200 |</p>
+<p>| Pending hold — gas station | −$450 |</p>
+<p>| Pending hold — hotel incidentals | −$180 |</p>
+<p>| <strong>Available credit</strong> | <strong>$1,170</strong> |</p>
+<p>| Requested authorization | $1,250 |</p>
+<p>| <strong>Shortfall</strong> | <strong>$80</strong> |</p>
+<p>The naive $1,800-room read ignores $630 in holds that are already committed against the account, even though neither hold has posted as a final charge yet. The correct available-credit figure is $1,170 — $80 short of the requested $1,250.</p>
+<p><strong>Deliverable — decline/referral note:</strong></p>
+<p>&gt; <strong>Authorization declined — insufficient available credit.</strong></p>
+<p>&gt; Account ending 4471. Requested: $1,250.00. Available credit at time of request: $1,170.00 (limit $5,000.00, less posted balance $3,200.00, less pending holds $630.00). Shortfall: $80.00.</p>
+<p>&gt; Action: Declined as submitted. If the merchant can process a partial authorization, $1,170.00 is available. Cardholder may retry once the $180.00 hotel hold releases (expected within 72 hours of check-out per typical hotel hold policy) or after next payment posts.</p>
+<h3>Sources</h3>
+<ul>
+<li>Fair Credit Reporting Act, 15 U.S.C. §1681m — adverse-action notice content requirements when a consumer-report-based decision results in a denial or less-favorable terms.</li>
+<li>Equal Credit Opportunity Act / Regulation B, 12 CFR §1002.9 — adverse-action notice timing and the requirement to state specific principal reasons, not a generic denial.</li>
+<li>Regulation E (Electronic Fund Transfer Act), 12 CFR §1005.11 — consumer error-resolution notification window (60 days from the statement reflecting the disputed transaction).</li>
+<li>Card-network chargeback/dispute filing-window conventions (commonly cited around 120 days from the transaction date) are network operating-regulation specifics that vary by network and dispute-reason category — flagged as a heuristic, verify against the applicable network&#x27;s current rules [heuristic — network-specific].</li>
+<li>Point-of-sale available-credit and hold-release mechanics per general card-issuing operational practice; hold-release timing (e.g., hotel incidental holds) varies by merchant category and issuer — flagged as illustrative, not a fixed rule [heuristic — issuer/merchant-specific].</li>
+</ul>
+<p>Not reviewed by a licensed practitioner — flag corrections via PR.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-authorizer-checker-clerk/references/playbook.md"><code>references/playbook.md</code></a> — filled authorization worksheet, document-verification checklist, and dispute-intake filing-window calculator.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-authorizer-checker-clerk/references/red-flags.md"><code>references/red-flags.md</code></a> — desk-level smell tests with thresholds and the first question to ask.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-authorizer-checker-clerk/references/vocabulary.md"><code>references/vocabulary.md</code></a> — terms of art this desk uses precisely, and how generalists misuse them.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-authorizer-checker-clerk/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add credit-authorizer-checker-clerk</code></p>
+</footer>
+</body>
+</html>
