@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "count": 178,
-=======
   "count": 187,
->>>>>>> Stashed changes
   "roles": [
     {
       "slug": "accountant-controller",

@@ -4,74 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-<<<<<<< Updated upstream
-  <lastBuildDate>Tue, 07 Jul 2026 12:00:16 +0000</lastBuildDate>
-=======
-  <lastBuildDate>Tue, 07 Jul 2026 12:07:52 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:10:23 +0000</lastBuildDate>
   <item>
-    <title>Nuclear Engineer</title>
-    <link>https://domainexperts.dev/roles/nuclear-engineer/</link>
-    <guid>https://domainexperts.dev/roles/nuclear-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of a Nuclear Engineer — sizing radiation shielding against a dose target, screening a proposed plant change under 10 CFR 50.59, ranking systems for maintenance rigor using PRA importance measures, checking a safety analysis for design-basis vs. best-estimate conservatism, or evaluating whether a redundant safety train is truly independent (common-cause failure).</description>
-  </item>
-  <item>
-    <title>Landscape Architect</title>
-    <link>https://domainexperts.dev/roles/landscape-architect/</link>
-    <guid>https://domainexperts.dev/roles/landscape-architect/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of a Landscape Architect — designing a site grading/drainage plan, selecting a planting palette for a climate and soil profile, resolving a hardscape-vs-planting tradeoff, sizing stormwater detention against a design storm, or navigating zoning setbacks and easements on a site plan.</description>
-  </item>
-  <item>
-    <title>Industrial Engineer</title>
-    <link>https://domainexperts.dev/roles/industrial-engineer/</link>
-    <guid>https://domainexperts.dev/roles/industrial-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of an Industrial Engineer — balancing an assembly line against takt time, redesigning a facility layout to cut travel distance, setting a labor time standard from a time study, diagnosing which station is the real throughput bottleneck, or screening whether a proposed automation project&#x27;s payback justifies the capital.</description>
-  </item>
-  <item>
-    <title>Environmental Engineer</title>
-    <link>https://domainexperts.dev/roles/environmental-engineer/</link>
-    <guid>https://domainexperts.dev/roles/environmental-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of an environmental engineer — designing or sizing a wastewater/water treatment process, drafting or reviewing an NPDES or Title V air permit application, scoping a contaminated-site remediation (RI/FS), evaluating whether a process change triggers a permit modification, or checking a discharge/emissions dataset against regulatory limits.</description>
-  </item>
-  <item>
-    <title>Electrical Engineer</title>
-    <link>https://domainexperts.dev/roles/electrical-engineer/</link>
-    <guid>https://domainexperts.dev/roles/electrical-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of an Electrical Engineer working in power systems — sizing a service or feeder from NEC demand factors, running a short-circuit study and checking breaker interrupting ratings, computing arc-flash incident energy and assigning a PPE category, checking protective-device coordination (selectivity), or reviewing a single-line diagram before construction.</description>
-  </item>
-  <item>
-    <title>Chemical Engineer</title>
-    <link>https://domainexperts.dev/roles/chemical-engineer/</link>
-    <guid>https://domainexperts.dev/roles/chemical-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of a Chemical Engineer — closing a mass/energy balance around a reactor or separation unit, evaluating scale-up risk from bench to pilot to plant, reviewing a HAZOP finding or LOPA scenario for a covered process, sizing relief for a runaway-reaction or fire case, or checking a process safety information (PSI) package against OSHA 1910.119 before startup.</description>
-  </item>
-  <item>
-    <title>Biomedical Engineer</title>
-    <link>https://domainexperts.dev/roles/biomedical-engineer/</link>
-    <guid>https://domainexperts.dev/roles/biomedical-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of a biomedical/bioengineering engineer — running a design control phase (inputs, outputs, verification, validation) for a medical device, scoring a Design FMEA and deciding whether a failure mode needs mitigation, planning a human factors/usability validation study, building a design traceability matrix, or writing a design verification or risk-mitigation report. Distinct from a regulatory-affairs-specialist (owns the submission/clearance process, not the engineering itself) and from a clinical-data-manager/biostatistician (trial data and analysis, not device design).</description>
+    <title>Aerospace Engineer</title>
+    <link>https://domainexperts.dev/roles/aerospace-engineer/</link>
+    <guid>https://domainexperts.dev/roles/aerospace-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Aerospace Engineer — reconciling a vehicle mass/weight budget against a certification limit, computing a structural margin of safety, choosing a means of compliance for an FAA certification basis, tracing a weight-growth overrun back to a design decision, or evaluating a propulsion/aerodynamics tradeoff against a range or payload requirement.</description>
   </item>
   <item>
     <title>Architect</title>
     <link>https://domainexperts.dev/roles/architect/</link>
     <guid>https://domainexperts.dev/roles/architect/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
     <description>Use when a task needs the judgment of a licensed Architect — programming a building&#x27;s spatial/functional requirements against a budget, developing a design concept against a zoning/code envelope, evaluating a fee proposal or scope-creep request, resolving a code-compliance conflict between disciplines, or working through a construction-phase change order&#x27;s cost and schedule impact.</description>
   </item>
   <item>
-    <title>Aerospace Engineer</title>
-    <link>https://domainexperts.dev/roles/aerospace-engineer/</link>
-    <guid>https://domainexperts.dev/roles/aerospace-engineer/</guid>
-    <pubDate>Tue, 07 Jul 2026 12:07:52 +0000</pubDate>
-    <description>Use when a task needs the judgment of an Aerospace Engineer — reconciling a vehicle mass/weight budget against a certification limit, computing a structural margin of safety, choosing a means of compliance for an FAA certification basis, tracing a weight-growth overrun back to a design decision, or evaluating a propulsion/aerodynamics tradeoff against a range or payload requirement.</description>
+    <title>Biomedical Engineer</title>
+    <link>https://domainexperts.dev/roles/biomedical-engineer/</link>
+    <guid>https://domainexperts.dev/roles/biomedical-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a biomedical/bioengineering engineer — running a design control phase (inputs, outputs, verification, validation) for a medical device, scoring a Design FMEA and deciding whether a failure mode needs mitigation, planning a human factors/usability validation study, building a design traceability matrix, or writing a design verification or risk-mitigation report. Distinct from a regulatory-affairs-specialist (owns the submission/clearance process, not the engineering itself) and from a clinical-data-manager/biostatistician (trial data and analysis, not device design).</description>
   </item>
->>>>>>> Stashed changes
+  <item>
+    <title>Chemical Engineer</title>
+    <link>https://domainexperts.dev/roles/chemical-engineer/</link>
+    <guid>https://domainexperts.dev/roles/chemical-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chemical Engineer — closing a mass/energy balance around a reactor or separation unit, evaluating scale-up risk from bench to pilot to plant, reviewing a HAZOP finding or LOPA scenario for a covered process, sizing relief for a runaway-reaction or fire case, or checking a process safety information (PSI) package against OSHA 1910.119 before startup.</description>
+  </item>
+  <item>
+    <title>Electrical Engineer</title>
+    <link>https://domainexperts.dev/roles/electrical-engineer/</link>
+    <guid>https://domainexperts.dev/roles/electrical-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electrical Engineer working in power systems — sizing a service or feeder from NEC demand factors, running a short-circuit study and checking breaker interrupting ratings, computing arc-flash incident energy and assigning a PPE category, checking protective-device coordination (selectivity), or reviewing a single-line diagram before construction.</description>
+  </item>
+  <item>
+    <title>Environmental Engineer</title>
+    <link>https://domainexperts.dev/roles/environmental-engineer/</link>
+    <guid>https://domainexperts.dev/roles/environmental-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an environmental engineer — designing or sizing a wastewater/water treatment process, drafting or reviewing an NPDES or Title V air permit application, scoping a contaminated-site remediation (RI/FS), evaluating whether a process change triggers a permit modification, or checking a discharge/emissions dataset against regulatory limits.</description>
+  </item>
+  <item>
+    <title>Industrial Engineer</title>
+    <link>https://domainexperts.dev/roles/industrial-engineer/</link>
+    <guid>https://domainexperts.dev/roles/industrial-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Industrial Engineer — balancing an assembly line against takt time, redesigning a facility layout to cut travel distance, setting a labor time standard from a time study, diagnosing which station is the real throughput bottleneck, or screening whether a proposed automation project&#x27;s payback justifies the capital.</description>
+  </item>
+  <item>
+    <title>Landscape Architect</title>
+    <link>https://domainexperts.dev/roles/landscape-architect/</link>
+    <guid>https://domainexperts.dev/roles/landscape-architect/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Landscape Architect — designing a site grading/drainage plan, selecting a planting palette for a climate and soil profile, resolving a hardscape-vs-planting tradeoff, sizing stormwater detention against a design storm, or navigating zoning setbacks and easements on a site plan.</description>
+  </item>
+  <item>
+    <title>Nuclear Engineer</title>
+    <link>https://domainexperts.dev/roles/nuclear-engineer/</link>
+    <guid>https://domainexperts.dev/roles/nuclear-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:08:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nuclear Engineer — sizing radiation shielding against a dose target, screening a proposed plant change under 10 CFR 50.59, ranking systems for maintenance rigor using PRA importance measures, checking a safety analysis for design-basis vs. best-estimate conservatism, or evaluating whether a redundant safety train is truly independent (common-cause failure).</description>
+  </item>
   <item>
     <title>Bioinformatics Technician</title>
     <link>https://domainexperts.dev/roles/bioinformatics-technician/</link>
