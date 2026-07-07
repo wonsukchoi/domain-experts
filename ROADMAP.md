@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 373 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 385 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -937,19 +937,19 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>49 — Installation, Maintenance, and Repair</strong> (12/52 drafted)</summary>
+<summary><strong>49 — Installation, Maintenance, and Repair</strong> (24/52 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 49-1011.00 | First-Line Supervisors of Mechanics, Installers, and Repairers | [`mechanics-installers-supervisor`](./roles/mechanics-installers-supervisor/SKILL.md) |
 | ✅ | 49-2011.00 | Computer, Automated Teller, and Office Machine Repairers | [`computer-atm-office-machine-repairer`](./roles/computer-atm-office-machine-repairer/SKILL.md) |
-|  | 49-2021.00 | Radio, Cellular, and Tower Equipment Installers and Repairers |  |
+| ✅ | 49-2021.00 | Radio, Cellular, and Tower Equipment Installers and Repairers | [`radio-tower-technician`](./roles/radio-tower-technician/SKILL.md) |
 |  | 49-2022.00 | Telecommunications Equipment Installers and Repairers, Except Line Installers |  |
-|  | 49-2091.00 | Avionics Technicians |  |
+| ✅ | 49-2091.00 | Avionics Technicians | [`avionics-technician`](./roles/avionics-technician/SKILL.md) |
 |  | 49-2092.00 | Electric Motor, Power Tool, and Related Repairers |  |
 |  | 49-2093.00 | Electrical and Electronics Installers and Repairers, Transportation Equipment |  |
 |  | 49-2094.00 | Electrical and Electronics Repairers, Commercial and Industrial Equipment |  |
-|  | 49-2095.00 | Electrical and Electronics Repairers, Powerhouse, Substation, and Relay |  |
+| ✅ | 49-2095.00 | Electrical and Electronics Repairers, Powerhouse, Substation, and Relay | [`powerhouse-substation-electrician`](./roles/powerhouse-substation-electrician/SKILL.md) |
 |  | 49-2096.00 | Electronic Equipment Installers and Repairers, Motor Vehicles |  |
 |  | 49-2097.00 | Audiovisual Equipment Installers and Repairers |  |
 | ✅ | 49-2098.00 | Security and Fire Alarm Systems Installers | [`security-fire-alarm-installer`](./roles/security-fire-alarm-installer/SKILL.md) |
@@ -958,11 +958,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 49-3022.00 | Automotive Glass Installers and Repairers |  |
 | ✅ | 49-3023.00 | Automotive Service Technicians and Mechanics | [`auto-service-technician`](./roles/auto-service-technician/SKILL.md) |
 | ✅ | 49-3031.00 | Bus and Truck Mechanics and Diesel Engine Specialists | [`diesel-truck-mechanic`](./roles/diesel-truck-mechanic/SKILL.md) |
-|  | 49-3041.00 | Farm Equipment Mechanics and Service Technicians |  |
-|  | 49-3042.00 | Mobile Heavy Equipment Mechanics, Except Engines |  |
+| ✅ | 49-3041.00 | Farm Equipment Mechanics and Service Technicians | [`farm-equipment-mechanic`](./roles/farm-equipment-mechanic/SKILL.md) |
+| ✅ | 49-3042.00 | Mobile Heavy Equipment Mechanics, Except Engines | [`heavy-equipment-mechanic`](./roles/heavy-equipment-mechanic/SKILL.md) |
 |  | 49-3043.00 | Rail Car Repairers |  |
 |  | 49-3051.00 | Motorboat Mechanics and Service Technicians |  |
-|  | 49-3052.00 | Motorcycle Mechanics |  |
+| ✅ | 49-3052.00 | Motorcycle Mechanics | [`motorcycle-mechanic`](./roles/motorcycle-mechanic/SKILL.md) |
 |  | 49-3053.00 | Outdoor Power Equipment and Other Small Engine Mechanics |  |
 |  | 49-3091.00 | Bicycle Repairers |  |
 |  | 49-3092.00 | Recreational Vehicle Service Technicians |  |
@@ -970,25 +970,25 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 49-9011.00 | Mechanical Door Repairers |  |
 |  | 49-9012.00 | Control and Valve Installers and Repairers, Except Mechanical Door |  |
 | ✅ | 49-9021.00 | Heating, Air Conditioning, and Refrigeration Mechanics and Installers | [`hvac-technician`](./roles/hvac-technician/SKILL.md) |
-|  | 49-9031.00 | Home Appliance Repairers |  |
+| ✅ | 49-9031.00 | Home Appliance Repairers | [`home-appliance-repairer`](./roles/home-appliance-repairer/SKILL.md) |
 | ✅ | 49-9041.00 | Industrial Machinery Mechanics | [`industrial-machinery-mechanic`](./roles/industrial-machinery-mechanic/SKILL.md) |
 |  | 49-9043.00 | Maintenance Workers, Machinery |  |
 | ✅ | 49-9044.00 | Millwrights | [`millwright`](./roles/millwright/SKILL.md) |
 |  | 49-9045.00 | Refractory Materials Repairers, Except Brickmasons |  |
 | ✅ | 49-9051.00 | Electrical Power-Line Installers and Repairers | [`power-line-installer`](./roles/power-line-installer/SKILL.md) |
-|  | 49-9052.00 | Telecommunications Line Installers and Repairers |  |
+| ✅ | 49-9052.00 | Telecommunications Line Installers and Repairers | [`telecom-line-installer`](./roles/telecom-line-installer/SKILL.md) |
 |  | 49-9061.00 | Camera and Photographic Equipment Repairers |  |
-|  | 49-9062.00 | Medical Equipment Repairers |  |
+| ✅ | 49-9062.00 | Medical Equipment Repairers | [`medical-equipment-repairer`](./roles/medical-equipment-repairer/SKILL.md) |
 |  | 49-9063.00 | Musical Instrument Repairers and Tuners |  |
 |  | 49-9064.00 | Watch and Clock Repairers |  |
 |  | 49-9069.00 | Precision Instrument and Equipment Repairers, All Other |  |
 |  | 49-9071.00 | Maintenance and Repair Workers, General |  |
-|  | 49-9081.00 | Wind Turbine Service Technicians |  |
+| ✅ | 49-9081.00 | Wind Turbine Service Technicians | [`wind-turbine-technician`](./roles/wind-turbine-technician/SKILL.md) |
 |  | 49-9091.00 | Coin, Vending, and Amusement Machine Servicers and Repairers |  |
 | ✅ | 49-9092.00 | Commercial Divers | [`commercial-diver`](./roles/commercial-diver/SKILL.md) |
-|  | 49-9094.00 | Locksmiths and Safe Repairers |  |
+| ✅ | 49-9094.00 | Locksmiths and Safe Repairers | [`locksmith-safe-repairer`](./roles/locksmith-safe-repairer/SKILL.md) |
 |  | 49-9095.00 | Manufactured Building and Mobile Home Installers |  |
-|  | 49-9096.00 | Riggers |  |
+| ✅ | 49-9096.00 | Riggers | [`rigger`](./roles/rigger/SKILL.md) |
 |  | 49-9097.00 | Signal and Track Switch Repairers |  |
 |  | 49-9098.00 | Helpers--Installation, Maintenance, and Repair Workers |  |
 |  | 49-9099.00 | Installation, Maintenance, and Repair Workers, All Other |  |

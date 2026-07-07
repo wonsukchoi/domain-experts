@@ -1,5 +1,5 @@
 {
-  "count": 383,
+  "count": 395,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -543,6 +543,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/auto-service-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "avionics-technician",
+      "description": "Use when a task needs the judgment of an avionics technician \u2014 chasing an intermittent nav/comm or autopilot fault that \"checks good\" on the ground, deciding whether an avionics upgrade needs an STC or qualifies for field approval, verifying bonding resistance and wire-bundle separation on an install, cross-checking a new LRU's DO-160 environmental qualification against its install location, or writing an avionics discrepancy/return-to-service entry.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/avionics-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2744,6 +2765,27 @@
       ]
     },
     {
+      "slug": "farm-equipment-mechanic",
+      "description": "Use when a task needs the judgment of a Farm Equipment Mechanic \u2014 diagnosing an ECU fault code on a combine or tractor before swapping parts, pressure-testing a hydraulic circuit on a planter or sprayer, troubleshooting a PTO or ISOBUS/CAN-bus communication fault, triaging a harvest-season breakdown against dealer-only diagnostic tool access, or scoping a pre-season inspection program against in-season failure risk.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/farm-equipment-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "farm-labor-contractor",
       "description": "Use when a task needs the judgment of a Farm Labor Contractor \u2014 verifying FLC license/registration requirements before recruiting workers, preparing a compliant wage and job disclosure, truing up piece-rate pay against minimum wage, calculating an H-2A three-quarter guarantee shortfall, or evaluating joint-employer liability exposure with a grower client.",
       "category": "operations",
@@ -3736,6 +3778,27 @@
       ]
     },
     {
+      "slug": "heavy-equipment-mechanic",
+      "description": "Use when a task needs the judgment of a Mobile Heavy Equipment Mechanic \u2014 diagnosing a slow or drifting hydraulic cylinder on an excavator/dozer/loader, measuring undercarriage wear to decide replace-now vs run-on, deciding whether to repair on the job site or haul the machine to the shop, sequencing OEM PM intervals for abrasive-site duty cycles, or investigating a repeat hydraulic component failure tied to fluid contamination.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/heavy-equipment-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "high-school-teacher",
       "description": "Use when a task needs the judgment of a Secondary School Teacher \u2014 backward-designing a unit from a standard, distinguishing formative from summative assessment design, differentiating instruction for a mixed-ability classroom, running a classroom behavior escalation ladder, or defending a grade against a parent dispute with rubric-anchored evidence.",
       "category": "other",
@@ -3747,6 +3810,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/high-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "home-appliance-repairer",
+      "description": "Use when a task needs the judgment of a Home Appliance Repairer \u2014 diagnosing a refrigerator, washer, dryer, dishwasher, or range fault from a customer's symptom description, deciding repair vs. replace on an aging unit, sequencing truck-stock parts to fix a call in one visit, checking a unit against an open safety recall before billing a repair, or scoping sealed-system refrigerant work under EPA rules.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/home-appliance-repairer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4515,6 +4599,27 @@
       ]
     },
     {
+      "slug": "locksmith-safe-repairer",
+      "description": "Use when a task needs the judgment of a Locksmith and Safe Repairer \u2014 verifying authority before a lockout or entry job, deciding rekey vs. cylinder replacement, designing or repairing a master key system, translating a safe-buying question into a burglary/fire rating class, or scoping a lost-combination safe job.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9094.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/locksmith-safe-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "lodging-manager",
       "description": "Use when a task needs the judgment of a Lodging/Hotel Manager \u2014 setting room rates against occupancy forecast (revenue management), evaluating overbooking risk, diagnosing a RevPAR or ADR variance, managing a guest service recovery situation, or balancing housekeeping/labor cost against occupancy swings.",
       "category": "operations",
@@ -4889,6 +4994,27 @@
       ]
     },
     {
+      "slug": "medical-equipment-repairer",
+      "description": "Use when a task needs the judgment of a medical equipment repairer (biomedical equipment technician / BMET) \u2014 triaging simultaneous work orders by patient-safety criticality, deciding whether a device passes electrical-safety and functional return-to-service testing, setting or revising a risk-based PM interval, investigating a repeat-fault device for a recall or reportable-event pattern, or preparing equipment records for a Joint Commission or CMS survey. Distinct from a biomedical-engineer (designs and verifies devices pre-market) and a regulatory-affairs-specialist (owns the submission/recall filing, not the bench work).",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9062.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-equipment-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "medical-health-services-manager",
       "description": "Use when a task needs the judgment of a Medical and Health Services Manager (practice manager, clinical department administrator, hospital unit manager) \u2014 managing clinical staffing against patient volume, evaluating a billing/reimbursement or denial-rate problem, handling a patient safety or compliance incident, or balancing quality metrics against cost pressure. Distinct from a physician's clinical-reasoning role \u2014 this one manages the operational and administrative system clinicians work within.",
       "category": "healthcare",
@@ -5154,6 +5280,27 @@
       "skill": "roles/mortician-funeral-arranger/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "motorcycle-mechanic",
+      "description": "Use when a task needs senior motorcycle-mechanic judgment \u2014 running a T-CLOCS-style intake inspection on a vague handling complaint, diagnosing a rough-idle or no-start complaint on a fleet split between carbureted and fuel-injected machines, deciding whether chain/sprocket or tire wear is ride-safe versus stop-ship, scoping a valve-clearance service against architecture-specific spec, or pricing seasonal storage-prep against the spring comeback it prevents.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-3052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/motorcycle-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -6062,6 +6209,27 @@
       ]
     },
     {
+      "slug": "powerhouse-substation-electrician",
+      "description": "Use when a task needs the judgment of a powerhouse/substation electrician \u2014 planning and independently verifying a switching order to de-energize substation equipment (transformers, breakers, buses) for maintenance, interpreting a dissolved gas analysis (DGA) trend to decide whether a transformer stays in service, testing and coordinating protective relays against NERC PRC-005 intervals, or selecting arc-flash PPE from an equipment-specific incident-energy study rather than voltage class alone.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2095.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/powerhouse-substation-electrician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "preschool-teacher",
       "description": "Use when a task needs the judgment of a Preschool Teacher \u2014 designing a play-based learning activity for 3-5 year olds, reading a developmental-screening result and deciding whether to refer, writing a parent note about a behavior or developmental concern, planning classroom routines and transitions, or handling a ratio/supervision compliance question in the classroom itself.",
       "category": "other",
@@ -6407,6 +6575,27 @@
       ]
     },
     {
+      "slug": "radio-tower-technician",
+      "description": "Use when a task needs senior radio/cellular/tower-technician judgment \u2014 deciding whether an RF power-down authorization from a carrier NOC (network operations center) is actually sufficient before a climber works near a live antenna, validating a tower-specific rescue plan before a climb, diagnosing a failed VSWR or PIM reading after antenna installation, or triaging an obstruction-light outage against the FAA notification clock.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/radio-tower-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "ranch-aquacultural-farmworker",
       "description": "Use when a task needs the judgment of a Ranch and Aquacultural Farmworker \u2014 scoring livestock body condition and lameness, responding to a dissolved-oxygen crash in an aquaculture pond, running low-stress animal handling for vet work or transport, applying herd or pond biosecurity and quarantine protocol, or diagnosing a feed-conversion-ratio drift before it becomes a mortality event.",
       "category": "operations",
@@ -6628,6 +6817,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/retail-buyer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "rigger",
+      "description": "Use when a task needs the judgment of a rigger \u2014 writing an engineered lift plan for a critical or tandem-crane pick, calculating load share and center of gravity for an asymmetric multi-point lift, selecting and derating slings/shackles for hitch type and D/d ratio, setting an exclusion zone and tag-line plan for a suspended-load lift, or inspecting rigging gear against numeric rejection criteria before use.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9096.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/rigger/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7370,6 +7580,27 @@
       ]
     },
     {
+      "slug": "telecom-line-installer",
+      "description": "Use when a task needs the judgment of a telecommunications line installer/repairer \u2014 calculating an OTDR (optical time-domain reflectometer) loss budget for a new fiber run, sequencing pole attachment and make-ready coordination with a power utility on a joint-use pole, diagnosing a fault from OTDR traces before dispatching a truck, or evaluating whether a splice closure or bend-radius shortcut is actually safe to ship.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/telecom-line-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "telecommunications-engineering-specialist",
       "description": "Use when a task needs the judgment of a Telecommunications Engineering Specialist \u2014 specifying structured cabling category/distance against a speed requirement, computing a fiber link's insertion-loss budget, sizing PBX/VoIP trunk groups from traffic data, planning carrier circuit provisioning lead time against a project timeline, or designing and validating wireless/DAS coverage via RF site survey.",
       "category": "engineering",
@@ -7827,6 +8058,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/wind-energy-operations-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "wind-turbine-technician",
+      "description": "Use when a task needs senior wind-turbine-service-technician judgment \u2014 deciding whether a climb/rescue plan is valid to proceed on a given tower today, reading gearbox oil analysis or SCADA vibration trends to schedule a repair before failure, setting or verifying tower- and blade-bolt torque/re-torque procedure, or triaging a lightning-strike or drivetrain-alarm event.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/wind-turbine-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
