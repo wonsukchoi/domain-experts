@@ -88,22 +88,23 @@ header h1 {
   text-transform: uppercase;
   color: var(--accent);
   text-shadow: 0 0 8px var(--accent), 0 0 20px var(--accent);
-  animation: slogan-glow 2.4s ease-in-out infinite alternate;
-}
-
-@keyframes slogan-glow {
-  from { text-shadow: 0 0 6px var(--accent), 0 0 14px transparent; }
-  to   { text-shadow: 0 0 10px var(--accent), 0 0 26px var(--accent); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .slogan { animation: none; text-shadow: 0 0 8px var(--accent), 0 0 20px var(--accent); }
 }
 
 .tagline {
   color: var(--text-dim);
   margin: 0.25rem 0;
   font-size: 1.05rem;
+}
+
+.oss-badge {
+  display: inline-block;
+  margin: 0.6rem 0 0;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .links { margin: var(--space-2) 0 0; }
@@ -119,6 +120,12 @@ header h1 {
 }
 
 .links a:hover { border-color: currentColor; }
+
+.dl-badge {
+  vertical-align: middle;
+  margin-left: 0.35rem;
+  border-radius: 3px;
+}
 
 /* ---------- Layout ---------- */
 
@@ -232,6 +239,7 @@ main {
   position: sticky;
   top: 0;
   background: var(--bg);
+  box-shadow: 0 1px 0 var(--border);
   padding: var(--space-2) 0;
   z-index: 10;
 }
@@ -255,9 +263,15 @@ main {
   appearance: none;
   -webkit-appearance: none;
   padding-right: 2.4rem;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23667' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.9rem center;
+}
+
+@media (prefers-color-scheme: dark) {
+  #category-filter {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  }
 }
 
 #search:hover, #category-filter:hover { border-color: var(--accent); }
@@ -320,6 +334,7 @@ main {
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -331,7 +346,7 @@ main {
 }
 
 .badge {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 500;
   padding: 0.2rem 0.55rem;
   border-radius: 999px;

@@ -31,10 +31,12 @@
 <header>
   <h1>Domain Experts</h1>
   <p class="slogan">all human experts into AI agents</p>
+  <p class="oss-badge">Open source · MIT licensed</p>
   <span id="role-count" hidden></span>
   <p class="links">
     <a href="https://github.com/wonsukchoi/domain-experts">GitHub</a> ·
-    <a href="https://www.npmjs.com/package/domain-experts">npm</a> ·
+    <a href="https://github.com/wonsukchoi/domain-experts/blob/main/LICENSE">MIT License</a> ·
+    <a href="https://www.npmjs.com/package/domain-experts">npm <img class="dl-badge" src="https://img.shields.io/npm/dt/domain-experts.svg?label=downloads&color=2563eb" alt="npm downloads" width="110" height="20" loading="lazy"></a> ·
     <a href="https://github.com/wonsukchoi/domain-experts/blob/main/docs/FAQ.md">FAQ</a> ·
     <a href="https://github.com/wonsukchoi/domain-experts/blob/main/docs/CHANGELOG.md">Changelog</a> ·
     <a href="feed.xml">RSS</a>
@@ -49,7 +51,7 @@
     </select>
   </div>
 
-  <p id="result-count" class="result-count"></p>
+  <p id="result-count" class="result-count" aria-live="polite"></p>
   <div id="role-list" class="role-list"></div>
 
   <section class="intro">
@@ -82,6 +84,7 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/</cod
 
 <footer>
   <p>Install any role: <code>npx domain-experts add &lt;slug&gt;</code></p>
+  <p>Open source, MIT licensed. <a href="https://github.com/wonsukchoi/domain-experts">Fork it on GitHub</a> — corrections and new roles welcome.</p>
 </footer>
 
 <script src="app.js"></script>
