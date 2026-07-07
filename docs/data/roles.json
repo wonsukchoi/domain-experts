@@ -1,5 +1,5 @@
 {
-  "count": 343,
+  "count": 351,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -396,6 +396,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/auto-damage-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "barista",
+      "description": "Use when a task needs the judgment of a barista \u2014 dialing in a new bag of espresso, diagnosing a sour or bitter shot, steaming milk to a target texture and temperature, managing a rush-hour drink queue, or deciding when a grind adjustment (versus a distribution or equipment problem) is the actual fix.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-3023.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/barista/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1945,6 +1966,48 @@
       ]
     },
     {
+      "slug": "dining-room-attendant",
+      "description": "Use when a task needs the judgment of a Dining Room Attendant or Bartender Helper \u2014 triaging which table to bus first during a rush, sequencing a table reset, setting bar-back par levels and restock timing, writing or triaging a side-work checklist, or diagnosing why table turn time or bar throughput has slipped.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-9011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dining-room-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dishwasher",
+      "description": "Use when a task needs the judgment of a Dishwasher/kitchen steward \u2014 triaging a backed-up dish pit mid-rush, verifying sanitizer concentration or dish-machine rinse temperature against food-safety spec, deciding what routes to the three-compartment sink versus the dish machine, diagnosing a spike in breakage, or handling a machine failure mid-service.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-9021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dishwasher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "dispatcher",
       "description": "Use when a task needs the judgment of a Dispatcher \u2014 assigning a new job to the best available driver/technician in real time, managing an ETA slip and deciding who to notify, triaging a coverage gap in a service territory, sequencing a driver's remaining stops after a delay, or deciding whether a job needs to be reassigned versus the customer rescheduled.",
       "category": "operations",
@@ -2492,6 +2555,48 @@
       ]
     },
     {
+      "slug": "fast-food-cook",
+      "description": "Use when a task needs the judgment of a Fast Food Cook \u2014 running a franchise grill/fry station strictly to a corporate build-to-spec card, enforcing quality-hold-timer discard windows on fries/burgers/chicken against a manager who wants to keep serving aging product, calibrating a fryer's oil-change threshold from a TPM meter reading, hitting drive-thru speed-of-service time targets during a rush, or training a first-shift crew member on a scripted station.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fast-food-cook/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "fast-food-counter-worker",
+      "description": "Use when a task needs the judgment of a front-counter fast food or counter worker \u2014 taking a drive-thru, kiosk-assist, or walk-up order accurately against a ticking speed-of-service clock, handling cash/card payment and till reconciliation at handoff, defusing a wrong-order or refund complaint on the spot, disclosing allergen information at the register, or running a suggestive-sell script without slowing the line.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-3023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fast-food-counter-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "file-clerk",
       "description": "Use when a task needs the judgment of a File Clerk \u2014 designing or diagnosing a filing/classification system, running a misfile-rate audit, sequencing a records-retention purge, indexing a physical-to-digital conversion batch, or resolving a lost-file/charge-out tracking gap.",
       "category": "operations",
@@ -2793,6 +2898,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/food-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "food-server-nonrestaurant",
+      "description": "Use when a task needs the judgment of a food server in a nonrestaurant setting \u2014 executing a banquet event order (BEO) for a plated or buffet event with a fixed server-to-guest ratio, running a hospital or long-term-care tray line against therapeutic-diet and allergen tickets, timing a simultaneous course drop across a banquet room, reconciling a guaranteed headcount against actual attendance, or verifying a tray/plate against its ticket before it leaves the line.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-3041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/food-server-nonrestaurant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3306,6 +3432,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/high-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "host-hostess",
+      "description": "Use when a task needs the judgment of a restaurant host or hostess \u2014 quoting and managing walk-in wait times, deciding which table and section a party goes to, handling a late reservation against the no-show grace period, pacing large-party seating so the kitchen doesn't get slammed, or rebalancing server sections mid-shift.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-9031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/host-hostess/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6882,6 +7029,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/veterinary-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "waiter-waitress",
+      "description": "Use when a task needs the judgment of a waiter/waitress \u2014 sequencing course-fire timing with the kitchen across a multi-table section, triaging a section under pacing overload, upselling without reading as commission-chasing, reconciling tip-pool and tip-credit math, or handling an allergen disclosure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "35-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/waiter-waitress/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 15:43:42 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 15:58:01 +0000</lastBuildDate>
+  <item>
+    <title>Barista</title>
+    <link>https://domainexperts.dev/roles/barista/</link>
+    <guid>https://domainexperts.dev/roles/barista/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a barista — dialing in a new bag of espresso, diagnosing a sour or bitter shot, steaming milk to a target texture and temperature, managing a rush-hour drink queue, or deciding when a grind adjustment (versus a distribution or equipment problem) is the actual fix.</description>
+  </item>
+  <item>
+    <title>Dining Room Attendant</title>
+    <link>https://domainexperts.dev/roles/dining-room-attendant/</link>
+    <guid>https://domainexperts.dev/roles/dining-room-attendant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Dining Room Attendant or Bartender Helper — triaging which table to bus first during a rush, sequencing a table reset, setting bar-back par levels and restock timing, writing or triaging a side-work checklist, or diagnosing why table turn time or bar throughput has slipped.</description>
+  </item>
+  <item>
+    <title>Dishwasher</title>
+    <link>https://domainexperts.dev/roles/dishwasher/</link>
+    <guid>https://domainexperts.dev/roles/dishwasher/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Dishwasher/kitchen steward — triaging a backed-up dish pit mid-rush, verifying sanitizer concentration or dish-machine rinse temperature against food-safety spec, deciding what routes to the three-compartment sink versus the dish machine, diagnosing a spike in breakage, or handling a machine failure mid-service.</description>
+  </item>
+  <item>
+    <title>Fast Food Cook</title>
+    <link>https://domainexperts.dev/roles/fast-food-cook/</link>
+    <guid>https://domainexperts.dev/roles/fast-food-cook/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fast Food Cook — running a franchise grill/fry station strictly to a corporate build-to-spec card, enforcing quality-hold-timer discard windows on fries/burgers/chicken against a manager who wants to keep serving aging product, calibrating a fryer&#x27;s oil-change threshold from a TPM meter reading, hitting drive-thru speed-of-service time targets during a rush, or training a first-shift crew member on a scripted station.</description>
+  </item>
+  <item>
+    <title>Fast Food Counter Worker</title>
+    <link>https://domainexperts.dev/roles/fast-food-counter-worker/</link>
+    <guid>https://domainexperts.dev/roles/fast-food-counter-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a front-counter fast food or counter worker — taking a drive-thru, kiosk-assist, or walk-up order accurately against a ticking speed-of-service clock, handling cash/card payment and till reconciliation at handoff, defusing a wrong-order or refund complaint on the spot, disclosing allergen information at the register, or running a suggestive-sell script without slowing the line.</description>
+  </item>
+  <item>
+    <title>Food Server Nonrestaurant</title>
+    <link>https://domainexperts.dev/roles/food-server-nonrestaurant/</link>
+    <guid>https://domainexperts.dev/roles/food-server-nonrestaurant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a food server in a nonrestaurant setting — executing a banquet event order (BEO) for a plated or buffet event with a fixed server-to-guest ratio, running a hospital or long-term-care tray line against therapeutic-diet and allergen tickets, timing a simultaneous course drop across a banquet room, reconciling a guaranteed headcount against actual attendance, or verifying a tray/plate against its ticket before it leaves the line.</description>
+  </item>
+  <item>
+    <title>Host Hostess</title>
+    <link>https://domainexperts.dev/roles/host-hostess/</link>
+    <guid>https://domainexperts.dev/roles/host-hostess/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a restaurant host or hostess — quoting and managing walk-in wait times, deciding which table and section a party goes to, handling a late reservation against the no-show grace period, pacing large-party seating so the kitchen doesn&#x27;t get slammed, or rebalancing server sections mid-shift.</description>
+  </item>
+  <item>
+    <title>Waiter Waitress</title>
+    <link>https://domainexperts.dev/roles/waiter-waitress/</link>
+    <guid>https://domainexperts.dev/roles/waiter-waitress/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:57:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a waiter/waitress — sequencing course-fire timing with the kitchen across a multi-table section, triaging a section under pacing overload, upselling without reading as commission-chasing, reconciling tip-pool and tip-credit math, or handling an allergen disclosure.</description>
+  </item>
   <item>
     <title>Bartender</title>
     <link>https://domainexperts.dev/roles/bartender/</link>
