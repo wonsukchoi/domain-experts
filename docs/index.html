@@ -7,6 +7,8 @@
 <meta name="description" content="Browse crowdsourced job-role agent skills from the Domain Experts repo.">
 <link rel="canonical" href="https://domainexperts.dev/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="Domain Experts — New Roles" href="feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +17,7 @@
 <meta property="og:title" content="Domain Experts — Browse Roles">
 <meta property="og:description" content="Browse crowdsourced job-role agent skills from the Domain Experts repo.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Domain Experts">
 <meta property="og:url" content="https://domainexperts.dev/">
 <meta property="og:image" content="https://domainexperts.dev/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -39,8 +42,8 @@
 
 <main>
   <div class="controls">
-    <input id="search" type="search" placeholder="Search roles (e.g. actuary, network, mathematician)…" autocomplete="off">
-    <select id="category-filter">
+    <input id="search" type="search" placeholder="Search roles (e.g. actuary, network, mathematician)…" autocomplete="off" aria-label="Search roles">
+    <select id="category-filter" aria-label="Filter by category">
       <option value="">All categories</option>
     </select>
   </div>

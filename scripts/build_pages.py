@@ -131,6 +131,8 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{canonical}">
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -138,6 +140,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:title" content="{name} — Domain Experts">
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="https://domainexperts.dev/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
