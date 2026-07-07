@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 272 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 281 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,7 +779,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (9/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (18/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -793,23 +793,23 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 43-3041.00 | Gambling Cage Workers |  |
 |  | 43-3051.00 | Payroll and Timekeeping Clerks |  |
 |  | 43-3061.00 | Procurement Clerks |  |
-|  | 43-3071.00 | Tellers |  |
+| ✅ | 43-3071.00 | Tellers | [`teller`](./roles/teller/SKILL.md) |
 |  | 43-3099.00 | Financial Clerks, All Other |  |
-|  | 43-4011.00 | Brokerage Clerks |  |
+| ✅ | 43-4011.00 | Brokerage Clerks | [`brokerage-clerk`](./roles/brokerage-clerk/SKILL.md) |
 |  | 43-4021.00 | Correspondence Clerks |  |
-|  | 43-4031.00 | Court, Municipal, and License Clerks |  |
-|  | 43-4041.00 | Credit Authorizers, Checkers, and Clerks |  |
-|  | 43-4051.00 | Customer Service Representatives |  |
+| ✅ | 43-4031.00 | Court, Municipal, and License Clerks | [`court-municipal-license-clerk`](./roles/court-municipal-license-clerk/SKILL.md) |
+| ✅ | 43-4041.00 | Credit Authorizers, Checkers, and Clerks | [`credit-authorizer-checker-clerk`](./roles/credit-authorizer-checker-clerk/SKILL.md) |
+| ✅ | 43-4051.00 | Customer Service Representatives | [`customer-service-representative`](./roles/customer-service-representative/SKILL.md) |
 | ✅ | 43-4061.00 | Eligibility Interviewers, Government Programs | [`eligibility-interviewer`](./roles/eligibility-interviewer/SKILL.md) |
-|  | 43-4071.00 | File Clerks |  |
-|  | 43-4081.00 | Hotel, Motel, and Resort Desk Clerks |  |
+| ✅ | 43-4071.00 | File Clerks | [`file-clerk`](./roles/file-clerk/SKILL.md) |
+| ✅ | 43-4081.00 | Hotel, Motel, and Resort Desk Clerks | [`hotel-motel-desk-clerk`](./roles/hotel-motel-desk-clerk/SKILL.md) |
 |  | 43-4111.00 | Interviewers, Except Eligibility and Loan |  |
 |  | 43-4121.00 | Library Assistants, Clerical |  |
 |  | 43-4131.00 | Loan Interviewers and Clerks |  |
 |  | 43-4141.00 | New Accounts Clerks |  |
-|  | 43-4151.00 | Order Clerks |  |
+| ✅ | 43-4151.00 | Order Clerks | [`order-clerk`](./roles/order-clerk/SKILL.md) |
 |  | 43-4161.00 | Human Resources Assistants, Except Payroll and Timekeeping |  |
-|  | 43-4171.00 | Receptionists and Information Clerks |  |
+| ✅ | 43-4171.00 | Receptionists and Information Clerks | [`receptionist`](./roles/receptionist/SKILL.md) |
 |  | 43-4181.00 | Reservation and Transportation Ticket Agents and Travel Clerks |  |
 |  | 43-4199.00 | Information and Record Clerks, All Other |  |
 |  | 43-5011.00 | Cargo and Freight Agents |  |

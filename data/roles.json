@@ -1,5 +1,5 @@
 {
-  "count": 282,
+  "count": 291,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -475,6 +475,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/bookkeeping-accounting-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "brokerage-clerk",
+      "description": "Use when a task needs the judgment of a brokerage clerk \u2014 resolving a trade-break/reconciliation exception before settlement, recomputing a weighted-average execution price across partial fills, processing a corporate action's effect on share count and cost basis, or responding to a DK (don't-know) notice from a contra broker.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/brokerage-clerk/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1056,6 +1074,24 @@
       ]
     },
     {
+      "slug": "court-municipal-license-clerk",
+      "description": "Use when a task needs the judgment of a court, municipal, or license clerk \u2014 checking a pro se filing for procedural completeness, calculating a court filing fee or fee-waiver eligibility, processing a license or permit application against an eligibility checklist, determining whether a case record is public or sealed, or making a docket entry.",
+      "category": "legal",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/court-municipal-license-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "court-reporter",
       "description": "Use when a task needs the judgment of a Court Reporter \u2014 producing a realtime or CART feed during a deposition or trial, triaging a QC pass on a draft transcript before certification, drafting or applying an errata sheet under FRCP 30(e), reading back testimony from steno notes on a judge's request, or handling a sealed-record or in-camera confidentiality flag.",
       "category": "legal",
@@ -1092,6 +1128,24 @@
       ]
     },
     {
+      "slug": "credit-authorizer-checker-clerk",
+      "description": "Use when a task needs the judgment of a credit authorizer, checker, or clerk \u2014 deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application's income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating \u2014 this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/credit-authorizer-checker-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "credit-counselor",
       "description": "Use when a task needs the judgment of a Credit Counselor \u2014 calculating debt-to-income ratio and disposable income to test debt management plan (DMP) feasibility, comparing DMP versus debt settlement versus bankruptcy for a specific client's financial situation, negotiating and applying creditor interest-rate concessions, selecting a debt payoff order matched to a client's follow-through pattern, or providing federally required pre-bankruptcy credit counseling.",
       "category": "finance",
@@ -1103,6 +1157,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/credit-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "customer-service-representative",
+      "description": "Use when a task needs the judgment of a Customer Service Representative \u2014 de-escalating an angry customer, deciding whether a policy exception is worth the cost, deciding when to escalate versus resolve on the spot, drafting a resolution response, or diagnosing why first-call-resolution is low for an issue type.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/customer-service-representative/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1784,6 +1856,24 @@
       ]
     },
     {
+      "slug": "file-clerk",
+      "description": "Use when a task needs the judgment of a File Clerk \u2014 designing or diagnosing a filing/classification system, running a misfile-rate audit, sequencing a records-retention purge, indexing a physical-to-digital conversion batch, or resolving a lost-file/charge-out tracking gap.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/file-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "film-video-editor",
       "description": "Use when a task needs the judgment of a Film and Video Editor \u2014 cutting a rough assembly down to a target runtime, diagnosing why a scene isn't playing, structuring a revision-round process with a director/client, or preparing a picture-locked timeline for sound/color finishing.",
       "category": "other",
@@ -2373,6 +2463,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/high-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "hotel-motel-desk-clerk",
+      "description": "Use when a task needs the judgment of a Hotel/Motel Desk Clerk \u2014 resolving a walk (an arriving guest with no room) at check-in, verifying a rate-code discrepancy against the PMS, optimizing room assignment against housekeeping status and guest requests, or deciding compensation within (or beyond) authority limits during a service failure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hotel-motel-desk-clerk/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3419,6 +3527,24 @@
       ]
     },
     {
+      "slug": "order-clerk",
+      "description": "Use when a task needs the judgment of an order clerk \u2014 verifying an order entry against a price list and inventory availability, deciding whether a shortfall needs a substitution offer or a straight backorder, resolving a SKU or unit-of-measure mismatch before it reaches fulfillment, or handling an order-change/cancellation request against a cutoff window.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4151.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/order-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "orthodontist",
       "description": "Use when a task needs the judgment of an orthodontist \u2014 classifying a malocclusion, running a space analysis to decide extraction vs non-extraction, timing growth-modification treatment in a growing patient, selecting appliance mechanics and an anchorage plan, or designing a retention protocol.",
       "category": "healthcare",
@@ -4010,6 +4136,24 @@
       "skill": "roles/real-estate-broker/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "receptionist",
+      "description": "Use when a task needs the judgment of a receptionist or front-desk information clerk \u2014 triaging a multi-line phone queue under time pressure, deciding whether a visitor gets escorted back or asked to wait, de-escalating an upset caller before routing them, or running a visitor-badge/security-check procedure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-4171.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/receptionist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ]
@@ -4632,6 +4776,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/telecommunications-engineering-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "teller",
+      "description": "Use when a task needs the judgment of a bank teller \u2014 balancing a cash drawer and tracing an over/short, deciding whether a large cash transaction needs a Currency Transaction Report, recognizing a possible check-kiting or structuring pattern, applying Regulation CC funds-availability holds to a deposit, or spotting a likely elder-financial-abuse withdrawal. Distinct from a personal financial advisor or loan officer \u2014 this role executes transactions and screens them for compliance/fraud signals, it does not advise on products or approve credit.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-3071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/teller/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
