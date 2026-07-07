@@ -40,6 +40,8 @@ Không cần cài đặt gì — `npx` sẽ tự lấy về từ npm. Nếu dùn
 
 **Đang dùng Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, hoặc Amp?** `npx domain-experts command --tool <id>` sẽ cài lệnh slash `/domain-expert` cho công cụ đó — khởi động lại phiên làm việc và chạy `/domain-expert review this vendor contract`. Nó tự tìm, nạp, và suy luận đúng vai trò cần thiết chỉ trong một bước, không cần tự làm thao tác `match`/`add` thủ công.
 
+> **Nếu bạn `git clone` repo này thay vì dùng CLI:** đừng trỏ đường dẫn phát hiện skill của công cụ bạn thẳng vào thư mục `roles/`. Thư mục này chứa hơn 200 file `SKILL.md` riêng lẻ, và hầu hết công cụ (kể cả Claude Code) sẽ tải tên và mô tả của mọi skill phát hiện được vào system prompt gốc — bạn sẽ phải trả chi phí token đó mỗi phiên làm việc cho những vai trò chẳng bao giờ dùng tới. Chỉ cài [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) (hoặc dùng lệnh `add`/`init` của CLI, làm y hệt vậy) — đây là một skill nhẹ duy nhất, chỉ đọc một `roles/<slug>/SKILL.md` cụ thể khi tác vụ thật sự cần đến.
+
 Hoặc bỏ qua bước thủ công hoàn toàn: nạp [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) một lần duy nhất, agent của bạn sẽ tự phát hiện tác vụ cần chuyên gia nào, tự động kéo toàn bộ ngữ cảnh của vai trò đó, và thẳng thắn báo cho bạn biết khi một vai trò chưa được phủ sóng thay vì tự ứng biến. Bạn cứ tiếp tục làm việc, chuyên môn phù hợp sẽ tự xuất hiện.
 
 ## "Sao không bảo Claude đóng vai luôn?"

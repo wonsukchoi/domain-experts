@@ -40,6 +40,8 @@ Não precisa instalar nada — o `npx` busca direto do npm. Usa com frequência?
 
 **Usa Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code ou Amp?** `npx domain-experts command --tool <id>` instala um comando de barra `/domain-expert` para a sua ferramenta — reinicie a sessão e rode `/domain-expert review this vendor contract`. Ele encontra o papel certo, carrega e raciocina como esse especialista em uma única etapa, sem o vaivém manual de `match`/`add`.
 
+> **Se você fez `git clone` deste repositório em vez de usar a CLI:** não aponte a descoberta de skills da sua ferramenta diretamente para `roles/`. Esse diretório tem mais de 200 arquivos `SKILL.md` individuais, e a maioria das ferramentas (incluindo o Claude Code) carrega o nome e a descrição de cada skill descoberto no prompt de sistema base — você pagaria esse custo em tokens a cada sessão por papéis que nunca usa. Instale apenas [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) (ou use os comandos `add`/`init` da CLI, que fazem o mesmo) — é um único skill leve que lê um `roles/<slug>/SKILL.md` específico sob demanda, só quando uma tarefa realmente precisa dele.
+
 Ou pule a etapa manual por completo: carregue [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) uma vez, e seu agente detecta sozinho de qual especialista a tarefa precisa, puxa automaticamente o contexto completo do papel e avisa com honestidade quando um papel ainda não está coberto, em vez de improvisar. Você continua trabalhando; a expertise certa aparece por conta própria.
 
 ## "Não basta pedir para o Claude agir como um CFO?"

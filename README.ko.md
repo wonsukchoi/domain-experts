@@ -40,6 +40,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 **Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, Amp를 쓰고 계신가요?** `npx domain-experts command --tool <id>`를 실행하면 `/domain-expert` 슬래시 명령이 설치됩니다 — 세션을 재시작하고 `/domain-expert review this vendor contract`를 실행하세요. 매칭, 로드, 해당 역할로서의 추론까지 한 번에 처리되어, 수동으로 `match`/`add`를 오갈 필요가 없습니다.
 
+> **이 저장소를 CLI 대신 `git clone`으로 받으셨다면:** 도구의 스킬 탐색 경로를 `roles/` 디렉터리에 직접 연결하지 마세요. 이 디렉터리에는 200개가 넘는 개별 `SKILL.md` 파일이 있고, Claude Code를 포함한 대부분의 도구는 탐색된 모든 스킬의 이름과 설명을 기본 시스템 프롬프트에 로드합니다 — 매 세션마다 쓰지도 않는 역할들 때문에 토큰 비용을 치르게 됩니다. [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) 하나만 설치하세요(또는 동일하게 동작하는 CLI의 `add`/`init` 명령을 사용하세요) — 이 가벼운 단일 스킬이 실제로 작업에 필요할 때만 특정 `roles/<slug>/SKILL.md`를 그때그때 읽어옵니다.
+
 아니면 수동 단계 자체를 건너뛸 수도 있습니다. [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md)를 한 번만 로드해두면, 에이전트가 작업에 어떤 전문가가 필요한지 스스로 감지하고, 해당 역할의 전체 컨텍스트를 자동으로 불러오며, 아직 커버되지 않은 역할이면 즉흥적으로 지어내지 않고 솔직하게 알려줍니다. 여러분은 계속 일하면 되고, 알맞은 전문성이 알아서 나타납니다.
 
 ## "그냥 Claude한테 CFO처럼 굴라고 시키면 안 되나요?"

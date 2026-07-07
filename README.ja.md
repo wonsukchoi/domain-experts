@@ -40,6 +40,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 **Claude Code、Codex、Gemini CLI、Cursor、Windsurf、Roo Code、Ampを使っている?** `npx domain-experts command --tool <id>` を実行すると `/domain-expert` スラッシュコマンドがインストールされる — セッションを再起動して `/domain-expert review this vendor contract` を実行するだけでいい。マッチング・読み込み・推論を一度に、適切なロールとして行ってくれる。手作業での `match`/`add` の往復は不要だ。
 
+> **CLI ではなくこのリポジトリを `git clone` した場合:** ツールのスキル検出先を `roles/` ディレクトリに直接向けないこと。このディレクトリには200以上の個別 `SKILL.md` ファイルがあり、Claude Code を含むほとんどのツールは検出したスキル全ての名前と説明をベースのシステムプロンプトに読み込む — 使わないロールのためだけに毎セッション、そのトークンコストを払うことになる。インストールするのは [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) 一つだけ(または同じことをする CLI の `add`/`init` コマンドを使う)— これは軽量な単一スキルで、タスクが実際に必要とした時にだけ特定の `roles/<slug>/SKILL.md` をオンデマンドで読み込む。
+
 あるいは手作業のステップを丸ごとスキップする方法もある。[`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) を一度読み込ませておけば、エージェントがタスクにどの専門家が必要かを自動検出し、そのロールの全コンテキストを自動で取り込み、まだカバーされていないロールについては即興で取り繕わず正直に伝えてくれる。あなたは作業を続けるだけで、適切な専門知識が自ずと現れる。
 
 ## Claudeに「CFOのふりをして」と言うだけではダメなのか?

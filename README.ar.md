@@ -40,6 +40,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 **تستخدم Claude Code أو Codex أو Gemini CLI أو Cursor أو Windsurf أو Roo Code أو Amp؟** يقوم الأمر `npx domain-experts command --tool <id>` بتثبيت أمر شرطة مائلة `/domain-expert` فيها — أعد تشغيل الجلسة ثم نفّذ `/domain-expert review this vendor contract`. يقوم بالمطابقة والتحميل والتفكير كالدور الصحيح في خطوة واحدة، دون الحاجة لتكرار خطوتي `match` و`add` يدويًا.
 
+> **إذا استنسخت (`git clone`) هذا المستودع بدلاً من استخدام الـCLI:** لا تُوجّه اكتشاف المهارات في أداتك مباشرةً إلى مجلد `roles/`. يحتوي هذا المجلد على أكثر من 200 ملف `SKILL.md` منفصل، ومعظم الأدوات (بما فيها Claude Code) تُحمّل اسم ووصف كل مهارة مكتشفة في موجّه النظام الأساسي — ستدفع تكلفة هذه الرموز في كل جلسة مقابل أدوار لا تستخدمها أبدًا. ثبّت فقط [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) (أو استخدم أوامر `add`/`init` من الـCLI، التي تؤدي نفس الغرض) — وهي مهارة واحدة خفيفة تقرأ ملف `roles/<slug>/SKILL.md` محدد عند الطلب فقط، عندما تحتاج مهمة ما إليه فعليًا.
+
 أو تخطَّ الخطوة اليدوية كليًا: حمّل [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) مرة واحدة، وسيكتشف عميلك تلقائيًا أي خبير تحتاجه المهمة، ويسحب سياق الدور الكامل تلقائيًا، ويخبرك بصدق حين لا يكون الدور مُغطّى بعد بدلًا من الارتجال. تستمر أنت في العمل، وتظهر الخبرة المناسبة من تلقاء نفسها.
 
 ## "أليس بإمكاني فقط أن أطلب من Claude أن يتصرف كمدير مالي؟"

@@ -43,6 +43,8 @@ Want the whole setup in one shot instead? `npx domain-experts init lawyer-contra
 
 **Using Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, or Amp?** `npx domain-experts command --tool <id>` installs a `/domain-expert` slash command for it — restart your session and run `/domain-expert review this vendor contract`. It matches, loads, and reasons as the right role in one step, no manual `match`/`add` dance.
 
+> **If you `git clone` this repo instead of using the CLI:** do not point your tool's skill-discovery at `roles/` directly. That directory holds 200+ individual `SKILL.md` files, and most tools (including Claude Code) auto-load every discovered skill's name+description into the base system prompt — you'd pay that token cost every session for roles you never use. Install only [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) (or run the CLI's `add`/`init` commands, which do the same thing) — it's a single lightweight skill that reads a specific `roles/<slug>/SKILL.md` on demand, once a task actually needs it.
+
 Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) once, and your agent detects which expert a task needs, pulls the role's full context automatically, and tells you honestly when a role isn't covered yet instead of improvising. You keep working; the right expertise shows up by itself.
 
 ## "Can't I just tell Claude to act like a CFO?"

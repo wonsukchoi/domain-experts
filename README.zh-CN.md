@@ -40,6 +40,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 **在用 Claude Code、Codex、Gemini CLI、Cursor、Windsurf、Roo Code 或 Amp？** `npx domain-experts command --tool <id>` 会为它安装一个 `/domain-expert` 斜杠命令——重启会话后运行 `/domain-expert review this vendor contract` 即可。它会一步完成匹配、加载并以正确的角色进行推理，省去手动 `match`/`add` 的来回操作。
 
+> **如果你是 `git clone` 这个仓库而不是用 CLI：** 不要把你工具的技能发现路径直接指向 `roles/` 目录。这个目录下有 200 多个独立的 `SKILL.md` 文件，而包括 Claude Code 在内的大多数工具会把发现的每个技能的名称和描述都加载进基础系统提示词——你会为一堆用不到的角色，在每个会话里都白白付出这份 token 成本。只安装 [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) 这一个（或者用 CLI 的 `add`/`init` 命令，效果一样）——这是一个轻量的单一技能，只有任务真正需要时才会按需读取具体的 `roles/<slug>/SKILL.md`。
+
 或者干脆跳过手动这一步：加载一次 [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md)，你的 agent 就会自动识别任务需要哪位专家、自动拉取该角色的完整上下文，并且在某个角色还没被覆盖时如实告诉你，而不是硬着头皮临场发挥。你只管继续干活，合适的专业能力会自己出现。
 
 ## "我直接让 Claude 扮演 CFO 不就行了吗？"

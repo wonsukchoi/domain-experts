@@ -40,6 +40,8 @@ Tidak perlu instalasi — `npx` mengambilnya langsung dari npm. Sering dipakai? 
 
 **Menggunakan Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, atau Amp?** `npx domain-experts command --tool <id>` memasang slash command `/domain-expert` untuknya — mulai ulang sesi Anda lalu jalankan `/domain-expert review this vendor contract`. Perintah ini mencocokkan, memuat, dan bernalar sebagai peran yang tepat dalam satu langkah, tanpa perlu proses manual `match`/`add`.
 
+> **Jika Anda meng-`git clone` repo ini alih-alih pakai CLI:** jangan arahkan penemuan skill alat Anda langsung ke direktori `roles/`. Direktori ini berisi lebih dari 200 file `SKILL.md` individual, dan sebagian besar alat (termasuk Claude Code) memuat nama dan deskripsi setiap skill yang ditemukan ke system prompt dasar — Anda akan membayar biaya token itu di setiap sesi untuk peran-peran yang tidak pernah Anda pakai. Instal hanya [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) (atau gunakan perintah `add`/`init` dari CLI, yang melakukan hal sama) — ini satu skill ringan yang membaca `roles/<slug>/SKILL.md` tertentu sesuai kebutuhan, hanya saat tugas benar-benar memerlukannya.
+
 Atau lewati langkah manual sepenuhnya: muat [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) sekali saja, dan agent Anda akan mendeteksi sendiri ahli mana yang dibutuhkan suatu tugas, menarik konteks penuh peran tersebut secara otomatis, dan memberi tahu Anda dengan jujur saat suatu peran belum tercakup alih-alih mengarang jawaban. Anda tetap bekerja seperti biasa; keahlian yang tepat muncul dengan sendirinya.
 
 ## "Tidak bisakah saya tinggal bilang ke Claude untuk berperan sebagai CFO?"
