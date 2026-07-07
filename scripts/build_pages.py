@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "roles.json"
 ROLES_DIR = ROOT / "roles"
 OUT_DIR = ROOT / "docs" / "roles"
-SITE_URL = "https://wonsukchoi.github.io/domain-experts"
+SITE_URL = "https://domainexperts.dev"
 REPO_BLOB = "https://github.com/wonsukchoi/domain-experts/blob/main/"
 
 
