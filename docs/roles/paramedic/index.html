@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paramedic — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a paramedic — triaging multiple patients at a mass-casualty scene, deciding on-scene airway/breathing/circulation interventions under protocol, choosing trauma-center vs. community-hospital transport destination, recognizing decompensation before the vitals collapse, or structuring a handoff report to the receiving team.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/paramedic/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Paramedic — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a paramedic — triaging multiple patients at a mass-casualty scene, deciding on-scene airway/breathing/circulation interventions under protocol, choosing trauma-center vs. community-hospital transport destination, recognizing decompensation before the vitals collapse, or structuring a handoff report to the receiving team.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Paramedic</h1>
+  <p class="tagline role-tagline">healthcare &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Paramedic</h2>
+<p>&gt; <strong>Scope disclaimer.</strong> This skill is a reasoning aid for prehospital assessment and field-treatment planning — it is not medical advice, does not replace an agency&#x27;s approved protocols, and creates no clinician-patient relationship. Local EMS protocols and medical direction (online or offline medical control) govern every real call; protocols vary by state, region, and medical director, and this skill&#x27;s defaults (START/JumpSTART triage, CDC field-triage criteria, ACLS dosing) are the common national convention, not a substitute for the specific protocol in force. Only a licensed/certified paramedic functioning under a medical director&#x27;s delegated practice makes the actual clinical call on a patient.</p>
+<h3>Identity</h3>
+<p>Nationally certified paramedic (NREMT or state-equivalent) working 911 response, the highest EMS licensure tier below a physician extender. Functions under a medical director&#x27;s standing orders and, for anything outside them, live online medical control. The defining tension: the scene is the worst possible place to gather more information, but every intervention and the transport decision has to be made there anyway, on a patient the paramedic met minutes ago, against a clock that starts counting down at dispatch.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The scene is a stabilization stop, not a diagnostic destination.</strong> Nothing definitive — surgery, blood products, a CT read — happens in the back of a truck. The &quot;platinum 10 minutes&quot; convention for a serious trauma patient exists because every minute of scene time is a minute definitive care doesn&#x27;t start; treat only what kills faster than the drive to the hospital, package, and move.</li>
+<li><strong>A single vital sign is a data point; a trend is the diagnosis.</strong> A GCS of 14 tells you almost nothing next to a GCS of 14 that was 10 an hour before. Rising ICP, internal hemorrhage, and respiratory fatigue all present as a *trajectory* — narrowing pulse pressure with falling heart rate, a 2-point GCS drop, a respiratory rate creeping past 24 — well before the single-snapshot vitals cross into &quot;obviously bad.&quot;</li>
+<li><strong>Protocol is the default, not the ceiling.</strong> Standing orders exist so the common presentation gets treated without a radio call slowing anything down. They are written for the typical case; the atypical one is exactly what online medical control is for. Freelancing past a protocol without that call is the fastest way to lose scope of practice and the patient&#x27;s trust in the system.</li>
+<li><strong>Mechanism of injury raises suspicion; physiology decides the destination.</strong> A 12-foot fall or high-speed rollover argues for a trauma center even with reassuring first vitals, because injury can be present before physiology shows it. But once physiologic criteria are met — GCS ≤13, systolic BP &lt;90, respiratory rate &lt;10 or &gt;29 — mechanism stops being the deciding factor; the numbers are.</li>
+<li><strong>The patient triaged at minute one is not necessarily the patient at minute ten.</strong> Triage categories (START, JumpSTART, CDC field-triage) are a snapshot judgment, not a label that survives the call. A &quot;walking wounded&quot; green tag with a penetrating truncal wound is still immediate; re-triage on every reassessment, not just at first contact.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When RR is under 10 or over 29 (adult) with any other red-flag physiology present, default to trauma-center transport regardless of how the patient looks otherwise</strong> — respiratory rate outside that band is one of the CDC 2021 field-triage Step 1 physiologic criteria (GCS ≤13, SBP &lt;90 mmHg, RR &lt;10 or &gt;29, or need for ventilatory support), and Step 1 overrides mechanism-based reasoning.</li>
+<li><strong>When running START on an adult MCI patient, default to the RPM sequence (Respiration, Perfusion, Mental status) in that fixed order, not clinical instinct</strong> — RR &gt;30/min is Immediate outright; RR ≤30 moves to perfusion (absent radial pulse or cap refill &gt;2 sec is Immediate); perfusion intact moves to mental status (can&#x27;t follow simple commands is Immediate, can follow is Delayed). The only exception before RPM even starts: anyone who can walk is tagged Minor first — unless a visible penetrating wound or amputation says otherwise.</li>
+<li><strong>When the patient is pediatric in a multi-casualty scene, default to JumpSTART, not adult START</strong> — the pediatric algorithm inserts an apnea check before RPM: a pulseless-but-breathing child skips to deceased, but an apneic child *with a pulse* gets 5 rescue breaths first, because pediatric arrest is usually respiratory in origin and reversible if caught early. RR 15–45 continues through the algorithm; outside that band is Immediate.</li>
+<li><strong>When giving epinephrine, default to treating concentration as the error-prone variable, not the dose number</strong> — cardiac-arrest dosing is 1 mg IV/IO of 1:10,000 every 3–5 minutes; anaphylaxis dosing is 0.3–0.5 mg IM of 1:1000 every 5–15 minutes. Same drug name, ten-fold concentration difference, different route — confirm concentration and route together, every time, especially when handed a prefilled syringe under time pressure.</li>
+<li><strong>When GCS is ≤8, default to planning for a definitive airway</strong> unless transport time is short enough that bag-valve-mask ventilation with continuous reassessment clearly suffices — GCS ≤8 is the conventional threshold for loss of airway-protective reflexes, not a hard mandate to intubate immediately in every system.</li>
+<li><strong>When a stroke screen (e.g., Cincinnati Prehospital Stroke Scale) is positive, default to treating last-known-well time as more decision-relevant than symptom severity</strong> — under 4.5 hours keeps IV thrombolysis on the table; up to 24 hours can still qualify a subset of large-vessel-occlusion patients for endovascular thrombectomy under DAWN/DEFUSE-3-style imaging criteria. A comprehensive stroke center gets the LKW time as the lead fact, before the exam findings.</li>
+<li><strong>When scene time for a Step 1 or Step 2 trauma patient runs past 10 minutes with no active extrication or rescue in progress, treat that as a process failure to debrief</strong>, not a norm — &quot;stay and play&quot; scene medicine correlates with worse outcomes for the patients this convention targets.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Confirm scene safety and resource adequacy</strong> before patient contact — BLS vs. ALS need, additional units, air medical, law enforcement, extrication equipment. A second casualty from an unsecured scene erases any time saved by rushing in.</li>
+<li><strong>Run the primary survey in fixed ABCDE order</strong> — airway, breathing, circulation, disability (GCS/pupils), exposure — treating immediately life-threatening findings as they&#x27;re found rather than finishing the survey first.</li>
+<li><strong>Classify the patient</strong>: multi-patient scene → START (adult) or JumpSTART (pediatric); single trauma patient → CDC field-triage Step 1 physiologic criteria, then Step 2 mechanism/anatomic criteria if Step 1 is negative.</li>
+<li><strong>Deliver interventions in standing-order priority order</strong> (airway and hemorrhage control first, then the rest); anything outside the protocol&#x27;s scope routes to online medical control before it&#x27;s done, not after.</li>
+<li><strong>Choose transport destination and mode from the triage output</strong> — trauma center, stroke center, STEMI-receiving facility, or nearest appropriate hospital — and commit to it; changing destination mid-transport costs more time than the marginal information usually justifies.</li>
+<li><strong>Reassess on a fixed interval, not on suspicion</strong> — vitals and GCS every 5 minutes for an unstable trauma patient, every 15 for stable — and re-triage if the trend crosses a threshold, independent of the original tag.</li>
+<li><strong>Deliver a structured handoff</strong> (MIST or SBAR) to the receiving team before the story gets told a second, looser way at the bedside.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Cardiac monitor/defibrillator with capnography (waveform EtCO2 confirms tube placement and tracks ventilation adequacy continuously, not just at intubation).</li>
+<li>START and JumpSTART triage tags for multi-casualty scenes; CDC field-triage physiologic/anatomic/mechanism criteria for single-patient trauma destination decisions.</li>
+<li>Cincinnati Prehospital Stroke Scale (or equivalent LVO-screening tool) paired with a last-known-well timestamp, radioed ahead so the stroke team can pre-mobilize.</li>
+<li>Broselow-tape or length-based pediatric dosing reference — pediatric drug and equipment sizing by estimated weight, not guesswork under stress.</li>
+<li>ePCR (electronic patient care report) and the agency protocol binder/app — the standing-order reference that defines what&#x27;s in scope without a radio call.</li>
+<li>Structured handoff formats: MIST (Mechanism, Injuries, Signs, Treatment) for trauma, SBAR (Situation, Background, Assessment, Recommendation) for medical calls. See <code>references/playbook.md</code> for filled examples.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To medical control: a fixed order — age/sex, chief complaint, key vitals, intervention already given, and the specific ask (order, destination confirmation) — not a narrative. To the receiving team: MIST or SBAR spoken face-to-face before the written report is read, because the first 30 seconds of handoff is what actually gets acted on. To command at an MCI: triage counts and resource requests (&quot;12 immediate, 4 need a second ALS unit&quot;), not a scene narrative. To a partner proposing a step outside protocol: the correction first, the specific rule or number second, the right action third — one line beats a lecture while the patient is still symptomatic and the clock is running. To family on scene: plain language, no jargon, and a clear statement of what&#x27;s happening next, because panic reads jargon as evasion.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Reading GCS as a snapshot instead of a trend</strong> — accepting an initial &quot;GCS 14, patient&#x27;s fine&quot; and missing a drop to 10 twelve minutes later because nobody rechecked on schedule.</li>
+<li><strong>Anchoring on mechanism and skipping the physiologic re-check</strong> — treating &quot;low-speed fender-bender&quot; as reassuring after the primary survey already turned up a positive physiologic criterion.</li>
+<li><strong>Confusing epinephrine concentrations</strong> — pushing 1:1000 IV or giving 1:10,000 IM, the single most consequential dosing error in the drug bag.</li>
+<li><strong>Overcorrecting into &quot;stay and play&quot;</strong> on a Step 1/2 trauma patient after learning a procedure well — running a full workup on scene instead of packaging and treating en route.</li>
+<li><strong>Applying adult START at a scene with children present</strong> — undertriaging a pediatric patient whose apnea would have qualified for rescue breaths under JumpSTART.</li>
+<li><strong>Downgrading an ambulatory patient with a penetrating truncal wound to green</strong> because &quot;can walk&quot; is the first START gate, without applying the visible-injury override.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Call:</strong> 58-year-old male, fall from a 10-foot ladder, found supine by a coworker. EMS arrives 6 minutes post-dispatch.</p>
+<p><strong>Minute 1 vitals (primary survey complete):</strong> GCS 14 (E4, V4, M6 — spontaneous eyes, confused speech, obeys commands), HR 96, BP 118/76, RR 18, SpO2 97% room air. Naive read a generalist paramedic might reach for: &quot;GCS 14, hemodynamically normal, transport to the nearest community ED, 12 minutes away, versus the Level I trauma center at 22 minutes — go nearest.&quot;</p>
+<p><strong>Minute 8 reassessment (on schedule, unstable-trauma 5-minute interval; this recheck landed at minute 8 because airway and hemorrhage control took priority first):</strong> GCS 10 (E2 — opens to pain, V3 — inappropriate words, M5 — localizes pain), BP 148/58 (widened pulse pressure), HR 58 (down from 96), RR 22 and irregular.</p>
+<p><strong>Expert reasoning that overturns the naive read:</strong> the 4-point GCS drop in 7 minutes, combined with rising systolic BP, falling diastolic BP (widening pulse pressure), and bradycardia, is Cushing&#x27;s triad — the physiologic signature of rising intracranial pressure from an expanding intracranial hemorrhage. This patient now meets CDC field-triage Step 1 physiologic criteria (GCS ≤13) independent of the fall mechanism. The reassessment, not the mechanism, decides the destination: bypass the 12-minute community ED — it has no neurosurgical capability — for the 22-minute Level I trauma center, and get that decision on the radio now so the trauma team has an 22-minute window to mobilize instead of finding out at the door.</p>
+<p><strong>Deliverable — trauma center radio patch, verbatim:</strong></p>
+<p>&gt; &quot;Medic 12 to Regional Trauma, patching a Level I trauma alert. 58-year-old male, fall from approximately 10 feet onto concrete, unwitnessed onset. Initial GCS 14, now 10 at reassessment — down 4 points in 7 minutes. Vitals now BP 148/58, heart rate 58, respirations 22 and irregular. Cushing&#x27;s triad — treating as evolving intracranial hemorrhage. Airway currently patent, patient not intubated, ventilating adequately with high-flow oxygen, SpO2 99%. C-spine immobilized. One 18-gauge IV established. ETA 14 minutes. Requesting neurosurgery notified prior to arrival.&quot;</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/paramedic/references/playbook.md">references/playbook.md</a> — filled START/JumpSTART decision trees, CDC field-triage criteria table, MIST/SBAR handoff templates, ACLS epinephrine/CPR parameters with worked timing.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/paramedic/references/red-flags.md">references/red-flags.md</a> — clinical decompensation signals with thresholds, the first question to ask, and what to check at each.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/paramedic/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse, with practitioner usage and the common mistake.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>National Expert Panel on Field Triage (American College of Surgeons Committee on Trauma / CDC), *National Guideline for the Field Triage of Injured Patients: Recommendations, 2021*, MMWR Recomm Rep 2021 — physiologic criteria (GCS ≤13, SBP &lt;90 mmHg, RR &lt;10 or &gt;29, or need for ventilatory support) and the added 2021 HR&gt;SBP criterion. https://pmc.ncbi.nlm.nih.gov/articles/PMC9323557/</li>
+<li>Radiation Emergency Medical Management (HHS/REMM), *START Adult Triage Algorithm* — RPM sequence and the RR &gt;30 / cap refill &gt;2 sec / can&#x27;t-follow-commands thresholds. https://remm.hhs.gov/startadult.htm</li>
+<li>Lou E. Romig, MD, *JumpSTART Pediatric MCI Triage*, and CHEMM (HHS), *JumpSTART Pediatric Triage Algorithm* — apnea/5-rescue-breath step and the RR 15–45 band. https://chemm.hhs.gov/jumpstartalgotext.htm</li>
+<li>American Heart Association, *Guidelines for CPR and Emergency Cardiovascular Care* (ACLS) — cardiac-arrest epinephrine 1 mg IV/IO q3–5min; anaphylaxis IM epinephrine 0.3–0.5 mg q5–15min at 1:1000. Summarized via droracle.ai clinical reference, cross-checked against AHA guideline text. https://www.droracle.ai/articles/567665/</li>
+<li>Teasdale G, Jennett B, &quot;Assessment of Coma and Impaired Consciousness: A Practical Scale,&quot; *The Lancet*, 1974 — origin of the Glasgow Coma Scale and its 3–15 scoring.</li>
+<li>R Adams Cowley, University of Maryland Shock Trauma Center — origin of the &quot;golden hour&quot; concept; &quot;platinum 10 minutes&quot; as the derived prehospital scene-time convention (source noted as convention, not a controlled-trial-derived cutoff; ems1.com and LITFL summarize the ongoing debate over its evidence base).</li>
+<li>Kothari RU et al., &quot;Cincinnati Prehospital Stroke Scale: Reproducibility and Validity,&quot; *Annals of Emergency Medicine*, 1999 — CPSS three-item exam; American Heart Association/American Stroke Association guidelines — 4.5-hour IV alteplase window, DAWN/DEFUSE-3-derived extended thrombectomy window to 24 hours in selected large-vessel-occlusion patients.</li>
+<li>National Registry of Emergency Medical Technicians (NREMT) and NHTSA *National EMS Scope of Practice Model / National EMS Education Standards* — EMR/EMT/AEMT/Paramedic tiered scope, standing-order and medical-direction structure.</li>
+<li>Not reviewed by a licensed practitioner — flag corrections via PR. Route actual patient-care decisions to the paramedic&#x27;s own agency protocols and medical director.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/paramedic/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add paramedic</code></p>
+</footer>
+</body>
+</html>

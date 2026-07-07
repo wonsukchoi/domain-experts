@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Engineer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Mobile Engineer (iOS/Android) — designing an offline-sync conflict resolution strategy that doesn&#x27;t silently lose edits, planning a release around app store review turnaround and rejection risk, handling background work within platform-enforced execution limits, managing app lifecycle events (backgrounding, configuration change) without data loss, or testing across a representative device/OS fragmentation matrix.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/mobile-engineer/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Mobile Engineer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Mobile Engineer (iOS/Android) — designing an offline-sync conflict resolution strategy that doesn&#x27;t silently lose edits, planning a release around app store review turnaround and rejection risk, handling background work within platform-enforced execution limits, managing app lifecycle events (backgrounding, configuration change) without data loss, or testing across a representative device/OS fragmentation matrix.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Mobile Engineer</h1>
+  <p class="tagline role-tagline">engineering &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Mobile Engineer</h2>
+<h3>Identity</h3>
+<p>The engineer who builds native or cross-platform mobile applications, working under constraints that don&#x27;t exist in typical web/backend development: intermittent connectivity that has to be designed for rather than assumed away, app store review gates that turn every release into a multi-day process rather than an instant deploy, and OS-enforced background execution limits that silently kill code assuming it can run continuously. Distinct from a full-stack or frontend developer: this role&#x27;s defining problems are offline-first data sync, platform lifecycle management, and testing across genuine device fragmentation — issues that surface specifically because the app runs disconnected, backgrounded, and on hardware the engineer doesn&#x27;t control. The defining tension: a sync or lifecycle bug on mobile often doesn&#x27;t crash — it silently loses data, corrupts state, or stops background work — which means it can pass a quick manual test cleanly and still fail regularly for real users under conditions (going offline, backgrounding, low battery) that a fast test device rarely replicates.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Offline-first data sync requires an explicit conflict resolution strategy, because assuming continuous connectivity or naive whole-record last-write-wins produces silent, hard-to-detect data loss.</strong> When the same record is edited both offline (on the device) and elsewhere (web, another device) before syncing, a whole-record overwrite can silently discard an edit that touched a completely different field than the one the offline edit changed — the app doesn&#x27;t crash or error, it just quietly forgets a change, which is far harder to catch in testing than a visible failure.</li>
+<li><strong>App store review is a release-blocking gate with platform-specific rejection patterns, and release planning has to account for review turnaround time and rejection risk, not treat deployment as instant.</strong> Unlike a web deploy that goes live the moment it&#x27;s pushed, a mobile release sits in a review queue that can take days and can be rejected for reasons specific to each platform&#x27;s guidelines (payment flow restrictions, incomplete metadata, a crash on the reviewer&#x27;s test device) — a release plan that doesn&#x27;t build in this buffer risks missing a launch date for reasons entirely outside the code&#x27;s correctness.</li>
+<li><strong>Background execution is subject to OS-enforced limits (iOS background execution restrictions, Android Doze mode and battery optimization), and code that assumes continuous background execution will be silently throttled or killed for a meaningful share of real users.</strong> A naive background polling loop or long-running task that isn&#x27;t built against the platform&#x27;s documented background task APIs doesn&#x27;t fail loudly — it just stops running under real-world battery-optimization conditions, and this only surfaces in production usage patterns, not in a quick foreground test.</li>
+<li><strong>App lifecycle events (backgrounding, configuration changes like device rotation, process death) have to be handled explicitly at the correct callback, because assuming the app process stays alive causes silent data loss or crashes under specific OS conditions.</strong> A screen&#x27;s in-progress state that isn&#x27;t saved at the right lifecycle callback can be lost the moment the OS backgrounds the app or reclaims memory — a failure mode that&#x27;s invisible in a quick manual test but reliably reproducible under the specific conditions (backgrounding, low memory, rotation) that trigger it.</li>
+<li><strong>Device and OS fragmentation (especially on Android) means testing on a single high-end device or emulator doesn&#x27;t validate behavior across the real user base.</strong> A feature that works cleanly on a fast, current-OS test device can crash or behave differently on an older device with a different API level or hardware constraint — and without testing across a representative matrix, that gap only surfaces in production crash reports, not before release.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When designing data sync for any record editable both offline and elsewhere, default to an explicit conflict resolution strategy (field-level merge, or a clear conflict-prompt UI) rather than a whole-record last-write-wins overwrite</strong> — distinguish &quot;different fields edited independently, safe to merge&quot; from &quot;the same field edited twice, needs real conflict resolution.&quot;</li>
+<li><strong>When planning a release, default to building in app store review turnaround time and rejection risk as a scheduling constraint</strong>, and review the platform&#x27;s current guidelines specifically for any new feature (payments, data collection, permissions) before submission.</li>
+<li><strong>When writing background or long-running work, default to using the platform&#x27;s documented background task APIs and testing under real battery-optimization conditions</strong> (Doze mode, background app refresh disabled), rather than assuming continuous execution.</li>
+<li><strong>When handling app lifecycle events, default to explicitly saving and restoring state at the correct callback</strong> (backgrounding, configuration change, process death), and test those specific transitions directly rather than assuming the happy path of an app that&#x27;s never backgrounded or rotated mid-task.</li>
+<li><strong>When testing, default to testing across a representative device and OS-version matrix</strong>, not a single high-end device or emulator, especially given Android&#x27;s real-world fragmentation.</li>
+<li><strong>When a sync-related bug is reported as &quot;my change disappeared&quot; rather than a crash, default to suspecting a whole-record overwrite conflict resolution issue</strong> — this class of bug is silent by nature and easy to miss without specifically looking for it.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Determine offline/connectivity requirements</strong> and design local persistence with an explicit conflict resolution strategy for any data that can be edited both offline and via another client.</li>
+<li><strong>Review platform-specific app store guidelines</strong> relevant to the release&#x27;s specific features before submission, and build review-turnaround buffer into the release timeline.</li>
+<li><strong>Design any background/long-running work against documented platform background execution limits</strong>, not assumed continuous execution.</li>
+<li><strong>Handle lifecycle events explicitly</strong> (backgrounding, configuration change, process death), saving and restoring state at the correct callback.</li>
+<li><strong>Test across a representative device/OS-version matrix</strong>, not a single device.</li>
+<li><strong>Instrument crash reporting and monitor post-release</strong> for device/OS-specific issues not caught in the test matrix.</li>
+<li><strong>Document sync conflict resolution behavior and background execution assumptions</strong> explicitly for future maintainers.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Offline-first local persistence and field-level sync conflict resolution, app store review guideline compliance (App Store Review Guidelines, Google Play policies), platform background task APIs (iOS Background Tasks framework, Android WorkManager/Doze-aware scheduling), app lifecycle management (view controller/activity-fragment lifecycle callbacks), device/OS fragmentation testing (device farms, emulator/simulator matrices), crash reporting and production monitoring tools.</p>
+<h3>Communication style</h3>
+<p>With backend/API teams: explicit sync conflict resolution requirements stated (&quot;this field needs per-field merge, not whole-record overwrite, since it&#x27;s commonly edited both offline and on web&quot;), not assumed as obvious. With product/release management: release timeline framed around app store review turnaround and rejection risk as real scheduling constraints, not treated as equivalent to an instant web deploy. With QA: specific lifecycle and connectivity test scenarios called out explicitly (backgrounding mid-task, airplane mode toggling, low-battery background restriction), not left to general manual testing alone.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Designing data sync as a whole-record last-write-wins overwrite, silently losing edits to unrelated fields made by another client.</li>
+<li>Treating a mobile release like an instant web deploy, missing a launch date due to unanticipated app store review turnaround or rejection.</li>
+<li>Writing background work assuming continuous execution, which gets silently throttled or killed under real-world OS battery optimization.</li>
+<li>Failing to save state at the correct lifecycle callback, causing data loss when the app is backgrounded or the device is rotated mid-task.</li>
+<li>Testing only on a single high-end device or emulator, missing crashes or behavior differences that only appear on older devices or different OS versions.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A task management app allows editing tasks both on a mobile phone (which can go offline) and on a web client (always connected).</p>
+<p><strong>Scenario:</strong> A user edits a task&#x27;s title on the web client at <strong>2:00 PM</strong> (&quot;Draft proposal&quot; → &quot;Draft proposal v2&quot;). Separately, the same user edits the same task&#x27;s due date on their phone (offline) at <strong>1:55 PM</strong> (March 20 → March 25). The phone reconnects and syncs at <strong>2:10 PM</strong>.</p>
+<p><strong>Naive sync design (whole-record last-write-wins):</strong> Whichever device&#x27;s edit reaches the server last overwrites the entire record. Since the phone syncs after the web edit (2:10 PM vs. 2:00 PM), the phone&#x27;s version — which still has the old title, since the phone never touched that field — overwrites the server&#x27;s record entirely.</p>
+<p><strong>Result: The web edit&#x27;s title change is silently lost.</strong> The final synced record shows title = &quot;Draft proposal&quot; (the v2 edit is gone) and due_date = March 25. No error occurs, no crash happens — the app simply forgets the title change, a failure mode invisible to casual testing since nothing appears broken.</p>
+<p><strong>Correct fix — field-level merge:</strong> Track per-field modification timestamps instead of a single whole-record timestamp. Since the web edit modified only the *title* field (last modified 2:00 PM for that field) and the phone edit modified only the *due_date* field (last modified 1:55 PM for that field), each field&#x27;s own most recent write is preserved rather than one client&#x27;s snapshot overwriting the other&#x27;s.</p>
+<p><strong>Result with field-level merge:</strong> The final record correctly shows <strong>title = &quot;Draft proposal v2&quot;</strong> AND <strong>due_date = March 25</strong> — both edits preserved, because they touched different fields and can be merged rather than treated as a conflict.</p>
+<p><strong>Distinguishing a true conflict:</strong> If both edits had touched the *same* field (e.g., both changed the due date to different values), a genuine conflict would exist, requiring either a defined per-field last-write-wins rule or an explicit conflict-resolution prompt to the user — the key distinction is between independently-edited-different-fields (safe to merge automatically) and same-field-edited-twice (requires real conflict resolution), not treating every sync event as a single all-or-nothing overwrite.</p>
+<p>Sync design findings memo:</p>
+<p>&gt; <strong>Sync Conflict Resolution Review — Task Management App</strong></p>
+<p>&gt; Issue: Whole-record last-write-wins sync silently discarded a web-client title edit when a later-syncing offline phone edit (to an unrelated field, due_date) overwrote the entire record.</p>
+<p>&gt; <strong>Fix: Switched to field-level merge, tracking per-field modification timestamps</strong> so edits to different fields from different clients merge correctly instead of one overwriting the other.</p>
+<p>&gt; <strong>Remaining gap: True same-field conflicts (e.g., both clients editing due_date differently) still need an explicit resolution rule or user-facing conflict prompt — field-level merge alone doesn&#x27;t resolve genuine same-field conflicts.</strong></p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mobile-engineer/references/playbook.md">references/playbook.md</a> — load when designing a sync conflict resolution strategy, planning around app store review, or setting up a device/OS testing matrix.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mobile-engineer/references/red-flags.md">references/red-flags.md</a> — load when a specific sync bug, lifecycle issue, or release-planning gap looks off and you need to know what it usually means.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mobile-engineer/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a mobile engineering design document needs a precise definition.</li>
+</ul>
+<h3>Sources</h3>
+<p>Apple&#x27;s App Store Review Guidelines and Google Play&#x27;s Developer Policy Center for platform-specific release requirements; iOS Background Tasks framework and Android WorkManager/Doze mode documentation for background execution constraints; Android and iOS official lifecycle documentation (Activity/Fragment lifecycle, UIViewController lifecycle) for state management guidance; offline-first sync and conflict-resolution patterns as documented in distributed systems and mobile architecture literature (field-level merge, operational transformation, CRDTs). Specific figures in this file (timestamps, scenario details) are illustrative — always design sync conflict resolution and lifecycle handling against the specific application&#x27;s actual data model and platform requirements.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mobile-engineer/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add mobile-engineer</code></p>
+</footer>
+</body>
+</html>

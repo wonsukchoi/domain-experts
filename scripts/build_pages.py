@@ -1,0 +1,204 @@
+#!/usr/bin/env python3
+"""Generate static per-role HTML pages under docs/roles/<slug>/ for SEO.
+
+Reads data/roles.json + roles/<slug>/SKILL.md, converts the markdown body
+to plain HTML with a minimal hand-rolled converter (no dependencies), and
+writes one static page per role plus docs/sitemap.xml.
+
+Re-run after any role content changes:
+    python3 scripts/build_pages.py
+"""
+import html
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data" / "roles.json"
+ROLES_DIR = ROOT / "roles"
+OUT_DIR = ROOT / "docs" / "roles"
+SITE_URL = "https://wonsukchoi.github.io/domain-experts"
+REPO_BLOB = "https://github.com/wonsukchoi/domain-experts/blob/main/"
+
+
+def title_case(slug):
+    return " ".join(w[0].upper() + w[1:] for w in slug.split("-"))
+
+
+def split_frontmatter(text):
+    if text.startswith("---"):
+        end = text.find("\n---", 3)
+        if end != -1:
+            return text[end + 4:].lstrip("\n")
+    return text
+
+
+INLINE_CODE = re.compile(r"`([^`]+)`")
+BOLD = re.compile(r"\*\*([^*]+)\*\*")
+LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+
+
+def resolve_link(url, slug):
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+    return REPO_BLOB + f"roles/{slug}/" + url.lstrip("./")
+
+
+def inline(text, slug):
+    text = html.escape(text)
+    text = INLINE_CODE.sub(lambda m: f"<code>{m.group(1)}</code>", text)
+    text = BOLD.sub(lambda m: f"<strong>{m.group(1)}</strong>", text)
+    text = LINK.sub(
+        lambda m: f'<a href="{resolve_link(html.unescape(m.group(2)), slug)}">{m.group(1)}</a>',
+        text,
+    )
+    return text
+
+
+def markdown_to_html(body, slug):
+    lines = body.split("\n")
+    out = []
+    list_stack = None  # 'ul' or 'ol'
+    in_code = False
+    code_buf = []
+
+    def close_list():
+        nonlocal list_stack
+        if list_stack:
+            out.append(f"</{list_stack}>")
+            list_stack = None
+
+    for line in lines:
+        if line.strip().startswith("```"):
+            if in_code:
+                out.append(f"<pre><code>{html.escape(chr(10).join(code_buf))}</code></pre>")
+                code_buf = []
+                in_code = False
+            else:
+                close_list()
+                in_code = True
+            continue
+        if in_code:
+            code_buf.append(line)
+            continue
+
+        stripped = line.strip()
+        if not stripped:
+            close_list()
+            continue
+
+        m = re.match(r"^(#{1,4})\s+(.*)$", stripped)
+        if m:
+            close_list()
+            level = len(m.group(1)) + 1  # h1 reserved for page title
+            level = min(level, 6)
+            out.append(f"<h{level}>{inline(m.group(2), slug)}</h{level}>")
+            continue
+
+        m = re.match(r"^-\s+(.*)$", stripped)
+        if m:
+            if list_stack != "ul":
+                close_list()
+                out.append("<ul>")
+                list_stack = "ul"
+            out.append(f"<li>{inline(m.group(1), slug)}</li>")
+            continue
+
+        m = re.match(r"^\d+\.\s+(.*)$", stripped)
+        if m:
+            if list_stack != "ol":
+                close_list()
+                out.append("<ol>")
+                list_stack = "ol"
+            out.append(f"<li>{inline(m.group(1), slug)}</li>")
+            continue
+
+        close_list()
+        out.append(f"<p>{inline(stripped, slug)}</p>")
+
+    close_list()
+    return "\n".join(out)
+
+
+PAGE_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{name} — Domain Experts</title>
+<meta name="description" content="{description}">
+<link rel="canonical" href="{canonical}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="{name} — Domain Experts">
+<meta property="og:description" content="{description}">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>{name}</h1>
+  <p class="tagline role-tagline">{category} &middot; {status} &middot; {maturity}</p>
+</header>
+<main class="role-page">
+{content}
+  <p class="source-link"><a href="{source}">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add {slug}</code></p>
+</footer>
+</body>
+</html>
+"""
+
+
+def build():
+    data = json.loads(DATA.read_text())
+    roles = data["roles"]
+    urls = []
+
+    for r in roles:
+        slug = r["slug"]
+        skill_path = ROOT / r["skill"]
+        if not skill_path.exists():
+            continue
+        raw = skill_path.read_text()
+        body = split_frontmatter(raw)
+        content_html = markdown_to_html(body, slug)
+
+        page = PAGE_TEMPLATE.format(
+            name=html.escape(title_case(slug)),
+            description=html.escape(r["description"]),
+            canonical=f"{SITE_URL}/roles/{slug}/",
+            content=content_html,
+            source=REPO_BLOB + r["skill"],
+            category=html.escape(r["category"]),
+            status=html.escape(r["status"]),
+            maturity=html.escape(r["maturity"]),
+            slug=slug,
+        )
+
+        page_dir = OUT_DIR / slug
+        page_dir.mkdir(parents=True, exist_ok=True)
+        (page_dir / "index.html").write_text(page)
+        urls.append(f"{SITE_URL}/roles/{slug}/")
+
+    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+               f"  <url><loc>{SITE_URL}/</loc></url>"]
+    for u in urls:
+        sitemap.append(f"  <url><loc>{u}</loc></url>")
+    sitemap.append("</urlset>")
+    (ROOT / "docs" / "sitemap.xml").write_text("\n".join(sitemap) + "\n")
+
+    (ROOT / "docs" / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n"
+    )
+
+    print(f"Built {len(urls)} role pages + sitemap.xml + robots.txt")
+
+
+if __name__ == "__main__":
+    build()

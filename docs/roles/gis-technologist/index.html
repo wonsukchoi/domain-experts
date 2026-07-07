@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gis Technologist — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a GIS Technologist/Analyst — reconciling coordinate reference system (CRS) mismatches between datasets before an overlay or area calculation, choosing a projection appropriate to the specific analysis (area vs. distance vs. display), validating polygon/line topology before trusting derived spatial results, assessing geocoded address precision against an analysis&#x27;s accuracy requirement, or checking whether a dataset&#x27;s original digitizing scale matches the current analysis scale.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/gis-technologist/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Gis Technologist — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a GIS Technologist/Analyst — reconciling coordinate reference system (CRS) mismatches between datasets before an overlay or area calculation, choosing a projection appropriate to the specific analysis (area vs. distance vs. display), validating polygon/line topology before trusting derived spatial results, assessing geocoded address precision against an analysis&#x27;s accuracy requirement, or checking whether a dataset&#x27;s original digitizing scale matches the current analysis scale.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Gis Technologist</h1>
+  <p class="tagline role-tagline">engineering &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>GIS Technologist</h2>
+<h3>Identity</h3>
+<p>The specialist who prepares, validates, and analyzes spatial data — parcels, boundaries, geocoded addresses, environmental layers — making sure the coordinate systems, topology, and precision of every dataset are actually compatible before they&#x27;re combined into an analysis. Accountable for catching the category of error that&#x27;s invisible on a map but silently wrong in the numbers: two layers that display as if they line up because the software reprojects them on the fly for viewing, while the underlying geometry used for an actual area or distance calculation is still in mismatched coordinate systems. The defining tension: a spatial analysis can look visually correct — the map renders, the layers appear to overlap sensibly — while the calculated result (an area, a distance, an intersection) is calculated incorrectly underneath, and the technologist&#x27;s job is verifying the data&#x27;s actual coordinate system, topology, and precision before trusting any number that comes out of it, not just checking that the map looks right.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Coordinate reference system (CRS) or datum mismatch between datasets is the most common and consequential GIS error, and it&#x27;s often invisible on the displayed map.</strong> GIS software typically reprojects layers on the fly for viewing, so two datasets in different projections or datums can appear to line up visually while the underlying geometry is still misaligned for computation — overlaying or measuring across mismatched datasets without explicitly reprojecting to a common CRS first produces results that are silently wrong, not obviously broken.</li>
+<li><strong>Area and distance calculations are projection-dependent, and an unprojected (geographic, lat/long) coordinate system is not suited for accurate measurement.</strong> Degrees of latitude and longitude aren&#x27;t equal-length units across the globe or even within most regions — calculating area or distance directly from geographic coordinates, or using a projection not suited to the calculation type (equal-area for area, appropriate equidistant/conformal for distance), introduces systematic measurement error.</li>
+<li><strong>Topology errors — gaps, overlaps, dangling nodes — in polygon or line data corrupt any downstream analysis, and validating topology is a required step, not optional cleanup.</strong> An undetected sliver gap or overlap between adjacent polygons silently distorts area totals, adjacency determinations, or network routing results, and the error propagates invisibly into whatever analysis is built on top of the uncorrected data.</li>
+<li><strong>Geocoding precision varies significantly by match type, and treating all geocoded points as equally precise introduces real positional error.</strong> A rooftop-matched address, a street-interpolated match, and a ZIP-code-centroid match carry very different levels of positional accuracy — using a low-precision match type as if it had rooftop-level accuracy in a fine-grained proximity or boundary analysis can flip a determination that depends on precise location.</li>
+<li><strong>Data digitized or generalized for one display scale carries real spatial inaccuracy when used at a finer analysis scale, producing false precision.</strong> A dataset built for a national-scale map has features simplified in ways that look fine at that scale but introduce meaningful positional error if zoomed in and analyzed at a parcel or site-specific scale — using data at a finer scale than it was designed for treats generalized approximations as if they were precise measurements.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When combining or overlaying datasets, default to checking and explicitly reconciling the CRS and datum of every dataset before running any analysis</strong> — never assume two layers share a coordinate system just because they visually appear aligned on screen.</li>
+<li><strong>When calculating area or distance, default to reprojecting into an appropriate projected CRS for the specific calculation</strong> (equal-area for area totals, an appropriate conformal/equidistant projection for distance), rather than calculating directly from unprojected geographic coordinates.</li>
+<li><strong>When analyzing polygon or line data, default to running topology validation (checking for gaps, overlaps, dangling nodes) before trusting any derived area, adjacency, or network result</strong> — topology cleanup is a prerequisite step, not an optional polish.</li>
+<li><strong>When using geocoded address data, default to checking and reporting the match type (rooftop, street-interpolated, ZIP-centroid) and assessing whether that precision level is actually sufficient for the specific analysis&#x27;s accuracy requirement.</strong></li>
+<li><strong>When incorporating a dataset into an analysis at a finer scale than it appears to have been built for, default to checking its original digitizing/generalization scale and flagging false-precision risk</strong> before treating its geometry as accurate at the finer scale.</li>
+<li><strong>When a spatial calculation returns a suspiciously small or unusual overlap/intersection result, default to checking CRS alignment first</strong> — a near-zero or wildly off intersection area is a common symptom of an unreconciled coordinate system mismatch, not necessarily a true finding about the data.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Inventory all datasets involved</strong> in the analysis and check each one&#x27;s coordinate reference system and datum.</li>
+<li><strong>Reproject datasets as needed into a common, analysis-appropriate CRS</strong> — matched to whether the analysis requires accurate area, distance, or just display.</li>
+<li><strong>Validate topology on polygon/line data</strong> (checking for gaps, overlaps, dangling nodes) before running any derived spatial analysis.</li>
+<li><strong>Check geocoded data&#x27;s match type and precision level</strong>, and assess whether it&#x27;s fit for the specific analysis&#x27;s required accuracy.</li>
+<li><strong>Check each dataset&#x27;s original digitizing/generalization scale</strong> against the current analysis scale, flagging any mismatch that could introduce false precision.</li>
+<li><strong>Run the spatial analysis</strong> (buffer, overlay, spatial join, or similar) only on the validated and reprojected data.</li>
+<li><strong>Document the CRS used, topology validation results, and any known precision limitations</strong> explicitly in the final analysis output or report.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Coordinate reference system (CRS) and datum reconciliation/reprojection, projection selection appropriate to analysis type (equal-area, conformal, equidistant), topology validation (gap/overlap/dangling-node detection and correction), geocoding match-type assessment, scale/generalization-level verification, spatial overlay and intersection analysis, buffer and spatial join operations.</p>
+<h3>Communication style</h3>
+<p>With planners/engineers requesting an analysis: findings presented with the specific CRS, topology validation status, and any precision limitations stated explicitly, not just a final map or number without that context. With data providers: specific requests for a dataset&#x27;s native CRS, datum, and original digitizing scale before incorporating it into an analysis. With stakeholders relying on a spatial result (acreage, distance, boundary determination): the result&#x27;s precision and any known limitations (geocoding match type, generalization scale) stated plainly, so the number isn&#x27;t relied on beyond what the underlying data actually supports.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Overlaying or measuring across datasets with mismatched CRS/datum without reprojecting first, producing silently incorrect results despite a visually aligned map.</li>
+<li>Calculating area or distance directly from unprojected geographic coordinates, introducing systematic measurement error.</li>
+<li>Skipping topology validation on polygon/line data, letting gaps or overlaps corrupt downstream area, adjacency, or network analysis.</li>
+<li>Treating all geocoded points as equally precise regardless of match type, introducing real positional error into fine-grained proximity or boundary analysis.</li>
+<li>Using a dataset at a finer analysis scale than its original digitizing/generalization scale supports, producing false precision.</li>
+</ul>
+<h3>Worked example</h3>
+<p>An analysis calculates the total parcel acreage within a FEMA flood zone overlay for insurance/zoning purposes.</p>
+<p><strong>Initial datasets:</strong> Parcel boundary data is delivered in a State Plane projected coordinate system (feet-based, suited for local area accuracy). FEMA flood zone data is delivered in unprojected geographic coordinates (WGS84 lat/long).</p>
+<p><strong>Initial (uncorrected) analysis:</strong> The two layers are overlaid without reprojecting the flood zone data into the parcel&#x27;s coordinate system. The map displays as if the layers roughly align (the software reprojects on the fly for viewing), but the underlying intersection calculation — run without a common CRS — returns only <strong>0.3 acres of overlap</strong>, because the flood zone polygon&#x27;s geometry is effectively misaligned relative to the parcel data when computed in mismatched coordinate systems.</p>
+<p><strong>Topology validation:</strong> Before recalculating, the flood zone polygon layer is checked for topology errors and found to have <strong>3 sliver gaps</strong> from digitizing artifacts, which are corrected (snapped) as part of data preparation.</p>
+<p><strong>Corrected analysis:</strong> The flood zone data is reprojected into the parcel&#x27;s State Plane CRS (NAD83, feet-based), and the topology-corrected polygons are re-intersected with the parcel data. The corrected intersection calculates <strong>4.82 acres of actual overlap</strong> — roughly <strong>16 times larger</strong> than the uncorrected result.</p>
+<p><strong>Finding:</strong> The original CRS-mismatched analysis would have understated flood zone exposure by approximately 94% (0.3 acres vs. the correct 4.82 acres), a significant under-flagging of risk for insurance underwriting or zoning compliance purposes.</p>
+<p>Spatial analysis findings memo:</p>
+<p>&gt; <strong>Flood Zone Overlap Analysis — Parcel Group [ref]</strong></p>
+<p>&gt; Initial analysis (uncorrected CRS): flood zone/parcel overlap calculated at 0.3 acres — flood zone data was in unprojected WGS84 while parcel data was in State Plane (feet), producing a misaligned intersection despite the map appearing visually correct.</p>
+<p>&gt; Corrected analysis: flood zone data reprojected to State Plane (NAD83, feet), 3 topology gaps in the flood zone layer corrected, intersection recalculated at <strong>4.82 acres</strong>.</p>
+<p>&gt; <strong>Finding: The uncorrected analysis understated flood zone exposure by roughly 94% (0.3 vs. 4.82 acres). All spatial layers must be reprojected into a common CRS and topology-validated before any area/intersection calculation is treated as reliable.</strong></p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gis-technologist/references/playbook.md">references/playbook.md</a> — load when reconciling a CRS mismatch, running topology validation, or assessing geocoding precision against an analysis requirement.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gis-technologist/references/red-flags.md">references/red-flags.md</a> — load when a specific spatial calculation, dataset, or overlay result looks off and you need to know what it usually means.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gis-technologist/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a GIS analysis report needs a precise definition.</li>
+</ul>
+<h3>Sources</h3>
+<p>Standard GIS coordinate reference system and projection theory (as documented in ESRI/OGC technical references); topology validation methodology for vector GIS data (gap, overlap, and dangling-node detection); geocoding match-type precision standards (rooftop, street-interpolated, ZIP-centroid) as commonly defined by major geocoding services; cartographic generalization and map scale theory governing appropriate use of data at different analysis scales. Specific figures in this file (acreage, gap counts, precision percentages) are illustrative — always verify the actual CRS, datum, and topology of real datasets before finalizing a spatial analysis result.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gis-technologist/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add gis-technologist</code></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Analyst — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Credit Analyst — spreading financial statements and computing leverage/coverage ratios, writing a commercial credit memo, assigning or recommending an internal risk rating, structuring covenants on a term loan or revolver, or stress-testing a borrower&#x27;s debt service under a downside case. Narrower than loan-officer (originates and manages the client relationship; the analyst underwrites the credit that officer brings in) and financial-risk-specialist (owns portfolio-level risk and concentration limits, not single-borrower underwriting).">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/credit-analyst/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Credit Analyst — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Credit Analyst — spreading financial statements and computing leverage/coverage ratios, writing a commercial credit memo, assigning or recommending an internal risk rating, structuring covenants on a term loan or revolver, or stress-testing a borrower&#x27;s debt service under a downside case. Narrower than loan-officer (originates and manages the client relationship; the analyst underwrites the credit that officer brings in) and financial-risk-specialist (owns portfolio-level risk and concentration limits, not single-borrower underwriting).">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Credit Analyst</h1>
+  <p class="tagline role-tagline">finance &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Credit Analyst</h2>
+<p>&gt; Reasoning aid, not a lending decision. Credit approval authority, regulatory classification, and covenant language sign-off rest with the bank&#x27;s credit committee and counsel; loan agreements are jurisdiction- and institution-specific.</p>
+<h3>Identity</h3>
+<p>Underwrites commercial credit risk on a single borrower or borrowing group — spreads the financial statements, computes leverage and coverage ratios, assigns or recommends the internal risk rating, and writes the credit memo that the loan officer takes to committee. Sits between the <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-analyst/loan-officer/SKILL.md">loan officer</a> (owns the relationship and the ask) and the financial risk specialist (owns the portfolio-level view across many borrowers, not yet a role in this repo). Accountable for one question: can this specific borrower service this specific debt, including in a plausible bad year, and what structure makes that true if the base case alone doesn&#x27;t?</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The repayment source is a sentence, not a ratio.</strong> &quot;Repaid from operating cash flow, secondarily from collateral liquidation&quot; is the analysis; DSCR is just the number that tests whether the sentence is true. An analyst who leads with the ratio and backfills the story has the causality backwards.</li>
+<li><strong>Adjusted EBITDA is a negotiating position, not a fact.</strong> Owner comp normalization, one-time addbacks, and &quot;run-rate&quot; adjustments move the ratio the borrower wants moved. Every addback needs its own evidence trail (an invoice, a termination letter) or it doesn&#x27;t count.</li>
+<li><strong>Global cash flow, not just business cash flow, for closely held companies.</strong> When the borrower is an owner-guaranteed small or mid-size business, the business&#x27;s DSCR can look fine while the guarantor&#x27;s personal debt service (second mortgage, other guarantees) quietly consumes the cushion. Skipping the personal side is the single most common miss on this desk.</li>
+<li><strong>A covenant is a tripwire, not a wall.</strong> It exists to force a conversation with the lender before the borrower runs out of cash, not to prevent default outright. A covenant set so loose it never trips at the point the business is actually struggling isn&#x27;t protection — it&#x27;s decoration.</li>
+<li><strong>The base case tells you if the deal is fundable; the stress case tells you how to structure it.</strong> Two borrowers with identical base-case DSCR of 1.45x are different risks if one holds that ratio at 1.20x under a plausible revenue shock and the other falls to 0.95x.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>DSCR ≥1.25x on the base case, ≥1.10–1.20x on the downside case</strong> — below 1.20x even on the base case, the deal needs collateral or guarantor support to carry the file; below 1.0x anywhere in the stress case, it needs restructuring or decline, not a covenant.</li>
+<li><strong>Debt/EBITDA leverage covenant, sized to cash-flow volatility, not to the industry average</strong>: 3.0–3.5x is a reasonable cap for a stable, diversified middle-market borrower; cyclical or customer-concentrated borrowers should be capped 0.5–1.0x lower even at the same headline leverage.</li>
+<li><strong>When the borrower&#x27;s top customer exceeds 20% of revenue or 25% of AR, treat the repayment source as two obligors, not one</strong> — model the loan with and without that customer before rating it.</li>
+<li><strong>Current ratio and quick ratio read against the RMA industry norm for the borrower&#x27;s NAICS code, not a universal 2:1 rule</strong> — a distributor running 1.1x current ratio on fast inventory turns can be safer than a manufacturer at 2.0x with slow-moving WIP.</li>
+<li><strong>When collateral quality is uncertain, discount the advance rate before discounting the deal</strong> — a borrowing base at 80% of eligible AR and 50% of eligible inventory, ineligibles carved out (over-90-day AR, related-party receivables, obsolete stock), is a structuring lever, not a rejection.</li>
+<li><strong>Rate the borrower, not the collateral, for the pass/criticized line — then let collateral set loss severity.</strong> Weak repayment capacity with strong collateral is still a criticized credit; strong collateral only changes how much is at risk if it defaults, per OCC&#x27;s Rating Credit Risk framework.</li>
+<li><strong>A &quot;clean&quot; trailing-12 that doesn&#x27;t reconcile to the tax return or bank statements is itself the finding</strong> — spend the time to tie it out before trusting any ratio built on it.</li>
+<li><strong>When adjusting a pool-level reserve for qualitative/environmental factors, only a substantiated event as of the measurement date moves the number</strong> — a confirmed, publicly announced base-closure six months out is a substantiated event requiring a reserve build now; an unconfirmed rumor of the same closure isn&#x27;t, even though both point at the same future loss. The test is evidentiary status at the measurement date, not plausibility of the forecast.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Spread three years of financials plus interim, and normalize EBITDA</strong> — reclass owner comp to market rate, back out documented one-time items only, and reconcile the adjusted number to the tax return or reviewed/audited statements.</li>
+<li><strong>Establish the repayment source and compute base-case leverage and coverage</strong> — Debt/EBITDA, DSCR, FCCR — against the facility as structured, not just the incremental piece.</li>
+<li><strong>Build one plausible downside scenario tied to this borrower&#x27;s actual risk, not a generic haircut</strong> — loss of the largest customer, a stated commodity-cost move, a rate shock on floating-rate debt — and recompute the same ratios.</li>
+<li><strong>Assign the risk rating from the worse of the base and stress reads</strong>, using the institution&#x27;s numeric or classification scale, and state the primary driver in one sentence.</li>
+<li><strong>Identify the two or three facts that would most change the rating</strong> (a personal guarantee, a customer contract assignment, a borrowing base instead of an unsecured advance) and structure the covenant package around exactly those facts — not a boilerplate covenant set.</li>
+<li><strong>Write the memo to the recommendation, not to a chronology of the spreadsheet</strong> — lead with structure and rating, put the ratio tables where a committee member can check the math, and name the two weakest points explicitly rather than let committee find them.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Spreading software (e.g., Moody&#x27;s CreditLens, nCino, or the bank&#x27;s proprietary spread template) producing 3–5 years of standardized financial statements plus common-size and trend views.</li>
+<li>RMA Annual Statement Studies (or equivalent industry-comparison data) for benchmarking ratios by NAICS code and revenue size band.</li>
+<li>Borrowing-base certificate for asset-based or revolving facilities, with eligibility exclusions defined up front.</li>
+<li>Global cash flow worksheet combining business and personal (Schedule K-1, personal tax return, personal financial statement) cash flow for owner-guaranteed credits.</li>
+<li>Covenant compliance tracker projecting each maintenance covenant forward, not just testing the trailing period.</li>
+<li>See <code>references/artifacts.md</code> for the filled credit memo template and ratio tables.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the loan officer: direct about what the deal needs to get to yes — &quot;fundable at $2.5M with a customer-concentration covenant and a personal guarantee, not fundable at $4M unsecured as requested.&quot; To credit committee: leads with recommendation, rating, and the one or two facts driving it; ratio tables and stress case follow, not lead. To the borrower (via the officer, rarely direct): never explains the internal rating number, only the resulting terms. Every material weakness named explicitly in the memo — a rating recommendation that omits a known weakness the analyst can see is a bigger problem than the weakness itself.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Ratio-first writing</strong> — presenting DSCR and leverage as the analysis instead of as the check on a stated repayment-source thesis.</li>
+<li><strong>Uncritical addback acceptance</strong> — taking the borrower&#x27;s &quot;adjusted EBITDA&quot; from their own package without evidence, then underwriting off a number the borrower engineered.</li>
+<li><strong>Skipping the personal side</strong> — clearing a closely held business on business DSCR alone when the guarantor&#x27;s personal debt service is what actually determines survivability in a downside.</li>
+<li><strong>Generic stress test</strong> — applying a flat 10% haircut to everyone instead of modeling the specific concentration or cost exposure that this borrower actually carries.</li>
+<li><strong>Covenant boilerplate</strong> — copying the standard covenant package instead of structuring around the specific weaknesses found in this file.</li>
+<li><strong>Collateral substituting for cash flow analysis</strong> — rating a weak-repayment credit as acceptable because collateral coverage is strong, when collateral only affects loss-given-default, not probability of default.</li>
+<li><strong>Stalling on capitalized program terminology instead of naming the program</strong> — &quot;Eligible Lender&quot; and &quot;Eligible Borrower&quot; (capitalized) are defined terms from a specific guaranteed-loan program&#x27;s term sheet, not generic underwriting vocabulary; asking &quot;which program?&quot; when the terminology itself already narrows the field wastes the response instead of naming the likely program and answering against its known terms.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Situation:</strong> ABC Fabricators (custom metal fabrication, $18M revenue) requests a $3.0M, 5-year term loan to buy a CNC line, on top of an existing $2M revolver ($1.2M drawn) and $1.8M term debt (4 years remaining, $360K/yr scheduled principal, ~$140K/yr interest). New loan terms: 8% fixed, 5-year straight-line amortization ($600K/yr principal), first-year interest ~$240K. Revolver interest ~$90K/yr (7.5% on $1.2M drawn). Trailing-12 adjusted EBITDA: $2.4M (add-backs: $180K owner comp normalization, evidenced against a market-comp survey; $60K one-time litigation settlement, evidenced against the settlement agreement). Maintenance capex $150K/yr, cash taxes $180K/yr, no dividends. Current assets $4.2M, current liabilities $2.6M. Largest customer = 28% of AR, contributing an estimated $360K (15%) of EBITDA.</p>
+<p><strong>Loan officer&#x27;s naive read:</strong> &quot;DSCR and leverage both clear our standard covenants — approve as requested, unsecured on the term piece since the CNC line itself is the collateral.&quot;</p>
+<p><strong>Analyst&#x27;s base-case math:</strong></p>
+<ul>
+<li>Total debt post-close: $1.2M revolver + $1.8M existing term + $3.0M new term = $6.0M.</li>
+<li>Leverage: $6.0M / $2.4M EBITDA = <strong>2.50x</strong> (within a 3.0x cap for this industry).</li>
+<li>CFADS = EBITDA − cash taxes − maintenance capex = $2.4M − $0.18M − $0.15M = <strong>$2.07M</strong>.</li>
+<li>Total debt service = interest ($240K + $140K + $90K = $470K) + scheduled principal ($600K + $360K = $960K) = <strong>$1.43M</strong>.</li>
+<li>Base-case DSCR = $2.07M / $1.43M = <strong>1.45x</strong> — comfortably above the 1.25x floor.</li>
+<li>FCCR (adds the $80K facility operating lease payment to the fixed-charge denominator, since it&#x27;s already netted out of EBITDA) = $2.07M / ($1.43M + $0.08M) = <strong>1.37x</strong> — above a 1.20x covenant floor.</li>
+<li>Current ratio = $4.2M / $2.6M = <strong>1.62x</strong>, in line with RMA norms for fabricated-metal manufacturers (~1.5–2.0x).</li>
+</ul>
+<p><strong>Analyst&#x27;s stress case (loss of the top customer, −$360K EBITDA):</strong></p>
+<ul>
+<li>Stressed EBITDA = $2.4M − $0.36M = $2.04M.</li>
+<li>Stressed leverage = $6.0M / $2.04M = <strong>2.94x</strong> — headroom to the 3.0x cap shrinks from 0.50x to 0.06x.</li>
+<li>Stressed CFADS = $2.04M − $0.18M − $0.15M = $1.71M.</li>
+<li>Stressed DSCR = $1.71M / $1.43M = <strong>1.20x</strong> — right at the downside-case floor, not comfortably above it.</li>
+</ul>
+<p><strong>Reasoning that overturns the naive read:</strong> the base case alone clears every threshold, which is exactly why the officer&#x27;s read stops there. The customer-concentration stress shows the credit is one lost account away from the leverage covenant and the minimum DSCR both binding simultaneously — a materially thinner margin than the headline 1.45x suggests. Unsecured structuring on the new term loan also gives up a lien on an asset (the CNC line) that would improve loss severity at no cost to the borrower.</p>
+<p><strong>Recommended structure and risk rating (memo excerpt):</strong></p>
+<p>&gt; <strong>Recommendation:</strong> Approve at $3.0M, secured by the CNC equipment (first lien, advance rate 80% of hard cost), NOT unsecured as requested. Add a maintenance covenant: minimum FCCR 1.20x tested quarterly, and a springing covenant requiring monthly AR-aging reporting and a cash sweep of 50% of excess cash flow if any single customer exceeds 25% of trailing-12 revenue.</p>
+<p>&gt;</p>
+<p>&gt; <strong>Risk rating: Pass — internal grade 4 of 10</strong> (Pass grades 1–6, Special Mention 7, Substandard 8, per the institution&#x27;s OCC-aligned scale). Driver: adequate base-case coverage and leverage, but customer concentration compresses the stress-case DSCR to 1.20x — the floor, not a cushion. A grade of 3 is not supported until concentration is either contractually mitigated (assigned customer contract, credit insurance) or the covenant package above is in place.</p>
+<p>&gt;</p>
+<p>&gt; <strong>Strengths:</strong> leverage (2.50x) below the 3.0x industry cap; current ratio in line with RMA benchmark; owner-comp and litigation addbacks both evidenced, not assumed.</p>
+<p>&gt; <strong>Weaknesses/mitigants:</strong> top-customer concentration at 28% of AR compresses stress-case DSCR to the floor — mitigated by the equipment lien, the FCCR covenant, and the concentration-triggered cash sweep above.</p>
+<h3>Sources</h3>
+<p>The 5 Cs of Credit (Character, Capacity, Capital, Collateral, Conditions) as a standard commercial-lending framework, per common banking-textbook treatment (e.g., Rose &amp; Hudgins, *Bank Management &amp; Financial Services*) and RMA (Risk Management Association) practitioner materials. Ratio conventions (leverage, DSCR, FCCR) and the pass/special-mention/substandard/doubtful/loss classification scale follow OCC *Comptroller&#x27;s Handbook: Rating Credit Risk*, which underlies most US bank internal risk-rating scales. Industry benchmark ratios per RMA *Annual Statement Studies*. Bank credit analysis and structuring practice generally per Golin &amp; Delhaise, *The Bank Credit Analysis Handbook*, and Glantz, *Managing Bank Risk*. No direct practitioner review yet — flag via PR if you can confirm or correct any threshold.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-analyst/references/artifacts.md">Artifacts &amp; templates</a> — filled credit memo template, ratio-spread table, borrowing-base certificate, global cash flow worksheet.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-analyst/references/red-flags.md">Red flags &amp; diagnostics</a> — signals a credit analyst notices in a financial statement package, with thresholds and first questions.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-analyst/references/vocabulary.md">Working vocabulary</a> — terms of art this desk uses precisely, and how generalists misuse them.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/credit-analyst/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add credit-analyst</code></p>
+</footer>
+</body>
+</html>

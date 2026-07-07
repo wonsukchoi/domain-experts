@@ -1,5 +1,3 @@
-const REPO_BASE = "https://github.com/wonsukchoi/domain-experts/blob/main/";
-
 const roleList = document.getElementById("role-list");
 const searchInput = document.getElementById("search");
 const categoryFilter = document.getElementById("category-filter");
@@ -24,7 +22,7 @@ function render() {
   resultCount.textContent = `${filtered.length} of ${roles.length} roles`;
 
   roleList.innerHTML = filtered.map(r => `
-    <a class="role-card" href="${REPO_BASE}${r.skill}" target="_blank" rel="noopener">
+    <a class="role-card" href="roles/${r.slug}/">
       <h3>${escapeHtml(titleCase(r.slug))}</h3>
       <div class="badges">
         <span class="badge">${escapeHtml(r.category)}</span>

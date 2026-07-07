@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Warehousing Specialist — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Data Warehousing Specialist — defining the grain of a fact table before modeling it, choosing a slowly changing dimension (SCD) type for a dimension attribute, designing an incremental ETL/ELT load strategy against a full-refresh alternative, resolving a conformed-dimension conflict across source systems, or diagnosing why a BI report&#x27;s numbers don&#x27;t reconcile to the source system.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/data-warehousing-specialist/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Data Warehousing Specialist — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Data Warehousing Specialist — defining the grain of a fact table before modeling it, choosing a slowly changing dimension (SCD) type for a dimension attribute, designing an incremental ETL/ELT load strategy against a full-refresh alternative, resolving a conformed-dimension conflict across source systems, or diagnosing why a BI report&#x27;s numbers don&#x27;t reconcile to the source system.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Data Warehousing Specialist</h1>
+  <p class="tagline role-tagline">engineering &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Data Warehousing Specialist</h2>
+<h3>Identity</h3>
+<p>The engineer who designs the dimensional models, ETL/ELT pipelines, and conformed dimensions that let a business report the same numbers the same way across every team and every tool. Accountable for a specific, expensive-to-fix failure mode: a warehouse that reconciles perfectly in testing but silently double-counts, drops, or misdates records the moment a source system changes shape, a late-arriving record shows up, or two departments&#x27; &quot;customer&quot; tables turn out to mean slightly different things. The defining tension: a dimensional model and load strategy that look correct against a snapshot of clean, on-time source data still have to survive dirty data, late-arriving facts, and dimension attributes that change mid-history — and the layer where that survival is designed (grain definition, SCD handling, incremental load logic) is invisible in a schema diagram and only surfaces as a wrong number in someone&#x27;s board deck.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The grain of a fact table — the exact definition of what one row represents — has to be declared before any measure or dimension is added, not inferred after the fact.</strong> &quot;One row per order&quot; and &quot;one row per order line&quot; look like the same table until a query double-counts order-level totals by summing across line-level grain, or a required measure (line-level discount) turns out not to exist at the coarser grain chosen.</li>
+<li><strong>A slowly changing dimension&#x27;s history-tracking behavior (SCD type) is a business decision about whether the past should be rewritten or preserved, not a technical default.</strong> Overwriting a customer&#x27;s region on change (Type 1) is correct for correcting data entry errors but silently rewrites history for a legitimate move — misapplying Type 1 where Type 2 (effective-dated rows) was needed erases the ability to report historical facts against the dimension state that was true at the time.</li>
+<li><strong>Incremental load logic has to explicitly define what &quot;changed since last load&quot; means for this source, and late-arriving or backdated records break naive watermark logic.</strong> A load that filters on <code>modified_date &gt; last_run_timestamp</code> misses records inserted late with an old business date, or records updated by a batch process that doesn&#x27;t touch the modified-date column — the watermark strategy has to match how the specific source actually produces and updates records.</li>
+<li><strong>A conformed dimension means the same business entity resolves to the same key and the same attribute values regardless of which fact table or source system references it — reconciling this across source systems is a data-governance decision, not just a join.</strong> Two source systems&#x27; &quot;customer&quot; dimensions with different definitions of an active customer will produce dashboards that both look correct and disagree, and the disagreement is invisible until someone compares two reports side by side.</li>
+<li><strong>Reconciliation against the source system is the load&#x27;s actual correctness test, not row-count parity alone.</strong> A load can move the exact same row count as the source and still be wrong — duplicated inserts offsetting dropped updates, or a join fanning out rows — so validation has to check that aggregate measures (sums, counts by a known dimension) match the source, not just that row counts line up.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When starting any fact table design, default to declaring the grain in one sentence before adding a single column</strong> — if the sentence needs &quot;and&quot; to describe two different things a row could represent, the grain isn&#x27;t settled yet.</li>
+<li><strong>When a dimension attribute might change over time, default to asking whether a report needs to show &quot;as it was then&quot; or &quot;as it is now&quot; for that specific attribute</strong> — Type 2 (effective-dated rows) for the former, Type 1 (overwrite) for the latter, and don&#x27;t apply one SCD type to an entire dimension table by convention when different attributes need different treatment.</li>
+<li><strong>When designing an incremental load, default to identifying the source&#x27;s actual change-capture mechanism (CDC log, modified-date column, batch flag) before writing the extraction query</strong> — a load strategy invented without checking this will miss the specific way this source actually signals changes.</li>
+<li><strong>When two source systems both claim to be authoritative for the same dimension, default to treating the conflict as a business-rule decision to escalate, not a technical merge to resolve unilaterally.</strong></li>
+<li><strong>When validating a completed load, default to reconciling aggregate measures against the source (sum of order amounts, count of active customers by a known cut) rather than row-count parity alone</strong> — row counts can match while the underlying data is still wrong.</li>
+<li>Named framework — <strong>Kimball dimensional modeling (star schema, conformed dimensions, bus matrix)</strong>: the standard vocabulary and structure for this work, but becomes cargo-cult when a bus matrix is built without validating it against the actual, current set of fact tables and business processes it&#x27;s supposed to represent.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Declare the grain of each fact table in one sentence</strong> before modeling any measure or dimension against it.</li>
+<li><strong>Identify dimensions the fact table needs</strong>, and for each dimension attribute, decide its SCD type based on whether historical reporting needs to reflect &quot;as it was then.&quot;</li>
+<li><strong>Identify the source system&#x27;s actual change-capture mechanism</strong> for each feed, and design the incremental load logic to match it (not a generic timestamp filter assumed to work).</li>
+<li><strong>Resolve conformed-dimension conflicts across source systems explicitly</strong> — escalate genuine business-rule disagreements rather than silently picking one source&#x27;s definition.</li>
+<li><strong>Build the load with explicit handling for late-arriving and backdated records</strong>, not just on-time records matching the happy path.</li>
+<li><strong>Reconcile the completed load against the source using aggregate measures</strong>, not row-count parity alone, before treating the load as validated.</li>
+<li><strong>Document the grain, SCD choices, and conformed-dimension decisions</strong> so a downstream analyst querying the warehouse understands exactly what a row represents and how history is (or isn&#x27;t) preserved.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Kimball-style dimensional modeling (star schema, fact/dimension tables, bus matrix), SCD implementation patterns (Type 1 overwrite, Type 2 effective-dated rows with <code>effective_date</code>/<code>end_date</code>/<code>is_current</code> flags, Type 3 limited history columns), surrogate key generation and management, ETL/ELT orchestration and incremental/CDC load design, source-to-target reconciliation queries (aggregate measure comparison), data quality/conformed-dimension governance documentation, OLAP/BI semantic layer design for query performance.</p>
+<h3>Communication style</h3>
+<p>With source system owners: change-capture and data-quality questions framed around the specific mechanism (&quot;does this table have a reliable modified-date column, or does a batch update bypass it?&quot;), not a general &quot;can we get your data.&quot; With BI/analyst teams: dimension and SCD behavior explained in terms of what a specific report will and won&#x27;t show (&quot;this join will show the customer&#x27;s region as of today, not as of the order date — if you need order-time region, use the Type 2 history table instead&quot;). With business stakeholders on conformed-dimension conflicts: the disagreement stated as a business-rule decision to make (&quot;system A counts a customer active with any order in 12 months, system B uses 6 months — which definition should the warehouse use, and who else&#x27;s numbers change if we pick one?&quot;), not resolved unilaterally and presented as already settled.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Modeling a fact table&#x27;s measures and dimensions before the grain is declared, discovering mid-build that two different grains were assumed for different parts of the table.</li>
+<li>Applying Type 1 (overwrite) to a dimension attribute that a historical report actually needs preserved as-of-transaction-date, silently rewriting reportable history.</li>
+<li>Writing incremental load logic against a generic <code>modified_date &gt; last_run</code> filter without checking whether the source actually updates that column on every relevant change, missing late or backdated records.</li>
+<li>Merging two source systems&#x27; conflicting dimension definitions unilaterally instead of escalating the conflict as a business-rule decision, producing a warehouse number nobody agreed to.</li>
+<li>Validating a load with row-count parity alone, missing an aggregate-measure discrepancy caused by offsetting duplicate/dropped rows or a fan-out join.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A retail company&#x27;s warehouse needs a <code>fact_orders</code> table, sourced from an order-management system that also feeds a <code>dim_customer</code> table.</p>
+<p><strong>Grain declaration:</strong> The naive read starts building at &quot;one row per order&quot; — until the discount measure turns out to be captured per line item, not per order. <strong>Grain is redeclared as: one row per order line item.</strong> Order-level totals are now a <code>SUM()</code> aggregation over this grain, not a separately stored measure — avoiding a double-count risk if both an order-level total and its constituent line amounts were stored and later summed together.</p>
+<p><strong>SCD type decision for <code>dim_customer.region</code>:</strong> A customer moved from the West region to the East region on 2026-03-15. The naive read applies Type 1 (overwrite) uniformly across the whole customer dimension, as the team had done for the <code>email</code> attribute (correctly Type 1 — no historical reporting need). But <strong><code>region</code> requires Type 2</strong>: a quarterly regional sales report run for Q1 2026 needs orders placed before 2026-03-15 attributed to West, and orders after to East. Implementing Type 2 for <code>region</code> produces two rows for this customer:</p>
+<p>| customer_key | customer_id | region | effective_date | end_date | is_current |</p>
+<p>|---|---|---|---|---|---|</p>
+<p>| 4471 | C-9082 | West | 2024-01-01 | 2026-03-14 | N |</p>
+<p>| 8823 | C-9082 | East | 2026-03-15 | 9999-12-31 | Y |</p>
+<p>Orders joined to <code>dim_customer</code> on <code>customer_key</code> (not <code>customer_id</code>) correctly attribute pre-move orders to key 4471 (West) and post-move orders to key 8823 (East).</p>
+<p><strong>Incremental load validation:</strong> The source system&#x27;s <code>modified_date</code> column is confirmed (by checking with the source system owner) to update on every row change including a nightly batch reconciliation job — so <code>WHERE modified_date &gt; @last_run_watermark</code> is a valid change-capture filter for this source. A late-arriving order (business date 2026-02-10, inserted into the source on 2026-02-14 due to a batch delay) is correctly picked up because its <code>modified_date</code> reflects the 2026-02-14 insert, not the 2026-02-10 business date — confirming the watermark logic keys off the right column.</p>
+<p><strong>Reconciliation check:</strong> Row count for the load matches the source extract (48,213 rows both sides) — but the naive read would stop there. Pulling the aggregate check — <code>SUM(order_line_amount)</code> for the load period — shows <strong>$1,842,006.50 in the warehouse vs. $1,839,411.00 in the source</strong>, a <strong>$2,595.50 discrepancy</strong> despite matching row counts. Investigation finds a join to <code>dim_promotion</code> fanning out 11 order lines with multiple applicable promotions into duplicate rows with the full line amount repeated. <strong>Fix: join to a bridge table for the many-to-many promotion relationship instead of a direct fan-out join</strong>, then re-reconcile to confirmed $0.00 discrepancy.</p>
+<p>Load validation memo:</p>
+<p>&gt; <strong>fact_orders Load — Reconciliation Report, period 2026-02-01 to 2026-02-28</strong></p>
+<p>&gt; Grain: one row per order line item (redeclared from initial &quot;one row per order&quot; assumption after discount measure was found to be line-level).</p>
+<p>&gt; SCD: <code>dim_customer.region</code> implemented as Type 2 (effective-dated) to support historical regional reporting; <code>email</code> remains Type 1.</p>
+<p>&gt; Load watermark: <code>modified_date</code>-based, confirmed valid against source&#x27;s batch update behavior; late-arriving order (business date 2026-02-10, source-inserted 2026-02-14) correctly captured.</p>
+<p>&gt; Reconciliation: Row count matched source (48,213) but <strong>aggregate measure did not</strong> ($2,595.50 discrepancy) — traced to a promotion fan-out join, fixed via bridge table. <strong>Post-fix reconciliation: $0.00 discrepancy.</strong></p>
+<p>&gt; <strong>Row-count parity alone would have passed this load with a $2,595.50 error in it — aggregate reconciliation is the actual correctness test.</strong></p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/data-warehousing-specialist/references/playbook.md">references/playbook.md</a> — load when declaring a fact table&#x27;s grain, choosing an SCD type, or designing an incremental load and reconciliation check.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/data-warehousing-specialist/references/red-flags.md">references/red-flags.md</a> — load when a warehouse number, load result, or dimension design looks off and you need to know what it usually means.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/data-warehousing-specialist/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a dimensional modeling or ETL discussion needs a precise definition.</li>
+</ul>
+<h3>Sources</h3>
+<p>Ralph Kimball and Margy Ross, *The Data Warehouse Toolkit* (Kimball dimensional modeling methodology: grain declaration, star schema, SCD types 1-3, conformed dimensions, bus matrix); standard ETL/ELT change-data-capture practice for incremental load design; source-to-target reconciliation as standard data warehouse QA practice. Specific figures in the worked example (row counts, dollar amounts, dates) are illustrative — always reconcile against actual source system data for a real load validation.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/data-warehousing-specialist/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add data-warehousing-specialist</code></p>
+</footer>
+</body>
+</html>

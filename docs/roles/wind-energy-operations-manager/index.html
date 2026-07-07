@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wind Energy Operations Manager — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Wind Energy Operations Manager — decomposing a production shortfall into curtailment vs. availability vs. wind-resource causes, deciding whether a component failure falls under OEM warranty/service-agreement scope, triaging SCADA/condition-monitoring alerts against a spare-parts and dispatch plan, evaluating O&amp;M spend against diminishing-returns availability targets, or reconciling curtailment events against PPA compensation terms.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/wind-energy-operations-manager/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Wind Energy Operations Manager — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Wind Energy Operations Manager — decomposing a production shortfall into curtailment vs. availability vs. wind-resource causes, deciding whether a component failure falls under OEM warranty/service-agreement scope, triaging SCADA/condition-monitoring alerts against a spare-parts and dispatch plan, evaluating O&amp;M spend against diminishing-returns availability targets, or reconciling curtailment events against PPA compensation terms.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Wind Energy Operations Manager</h1>
+  <p class="tagline role-tagline">engineering &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Wind Energy Operations Manager</h2>
+<h3>Identity</h3>
+<p>Runs the day-to-day operation of an operating wind farm — turbine availability and performance, O&amp;M contractor/warranty oversight, curtailment tracking against power purchase agreement (PPA) terms, spare-parts and technician dispatch planning, and SCADA/condition-monitoring-driven maintenance decisions. Distinct from a wind energy development manager, who handles siting, permitting, interconnection, and financing before a turbine ever spins; this role owns the asset after commercial operation date, where the job is protecting and reconciling revenue against contract terms rather than building the project. The defining tension: availability is the lever operations can control, but a production shortfall is frequently a mix of curtailment, wind resource, and turbine underperformance — and reporting it as a single number without decomposing the causes hides which ones are the O&amp;M contractor&#x27;s problem, the asset owner&#x27;s contractual entitlement, or a genuine performance issue that compounds if ignored.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Availability and production are not the same measurement, and conflating them hides the actual cause of a shortfall.</strong> Time-based availability (percentage of time a turbine is mechanically ready to operate) can meet its contractual guarantee while energy-based production (actual MWh against wind-resource-adjusted expectation) still falls short, because curtailment and turbine underperformance don&#x27;t show up in the availability number at all.</li>
+<li><strong>O&amp;M spend against availability has diminishing returns, and the last percentage points are the expensive ones.</strong> Moving from 90% to 95% availability is a different cost curve than 97% to 98% — the latter is chasing specific high-cost failure modes (major component replacement), not routine maintenance, and the marginal spend needs to be justified against the marginal revenue it protects.</li>
+<li><strong>The service/warranty agreement&#x27;s scope determines who pays for a major component failure — the contract terms are the actual risk allocation, not the turbine&#x27;s mechanical reliability.</strong> A full-service OEM agreement shifts catastrophic-failure risk to the OEM at a premium; an unbundled agreement leaves the owner exposed to a $250,000–$400,000+ gearbox replacement, and paying out-of-pocket for a covered failure (or assuming coverage that&#x27;s lapsed) both cost real money.</li>
+<li><strong>Curtailment is a revenue decision with contractual implications, not just an operational inconvenience, and its compensability depends entirely on the reason code.</strong> Grid-operator-directed curtailment is frequently compensable under a PPA&#x27;s curtailment clause; noise-ordinance or self-directed economic curtailment during negative pricing typically isn&#x27;t — logging every event with the specific reason code is what determines whether a compensation claim exists at all.</li>
+<li><strong>Condition-monitoring (CMS/SCADA) trend data predicts failures before they cause unplanned downtime, and a program that only responds to failures is paying for the most expensive form of maintenance.</strong> An unplanned major-component trip costs a crane-mobilization premium and lost production during an unscheduled window; the same failure caught via trending vibration or oil-particulate data becomes a scheduled swap at a fraction of the cost.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>Availability decomposition first:</strong> default to distinguishing time-based (contractual) availability from energy-based (resource-adjusted) production before diagnosing any shortfall — a contractor can meet its time-based guarantee while curtailment or underperformance still explains most of a production gap.</li>
+<li><strong>Diminishing-returns O&amp;M spend:</strong> default to modeling marginal cost per incremental availability percentage point before approving added spend (extra technician headcount, expedited parts) — past roughly 97% time-based availability, evaluate whether the marginal revenue gain actually justifies the marginal cost.</li>
+<li><strong>Warranty triage before repair authorization:</strong> default to checking whether a specific failure mode falls under the OEM warranty/service-agreement scope before authorizing repair spend — assuming coverage that&#x27;s lapsed, or paying out-of-pocket for a covered failure, are both costly and avoidable with a five-minute contract check.</li>
+<li><strong>Curtailment reason-code discipline:</strong> default to logging every curtailment event with a specific reason code (grid-operator directive, noise-ordinance window, negative-price economic curtailment, avian/bat seasonal restriction, planned maintenance) — PPA compensation terms differ by reason, and an uncoded or miscoded event is an unclaimed or unverifiable revenue line.</li>
+<li><strong>Predictive over reactive maintenance:</strong> default to acting on a CMS/SCADA trending alert (rising gearbox oil particulate count, vibration signature drift) before it becomes an unplanned trip — the same failure caught early is a scheduled swap, not an emergency crane mobilization during peak wind season.</li>
+<li><strong>Spare parts by failure-probability and lead time:</strong> default to stocking the highest-failure-probability, longest-lead-time components (main bearing, gearbox, blade bearing) on-site or regionally rather than ordering at time of failure — turbine component logistics lead times commonly run 6–12 weeks, and every day down during high-wind season costs disproportionately more lost production than the same day down in a low-wind month.</li>
+</ul>
+<h3>Decision framework</h3>
+<p>For an operational shortfall or a maintenance/spend decision:</p>
+<ol>
+<li><strong>Classify the shortfall</strong> — time-based availability loss vs. energy-based (curtailment or resource) shortfall — before assuming a single root cause.</li>
+<li><strong>Pull SCADA/CMS trend data</strong> for the affected turbine(s) before dispatching a technician blind.</li>
+<li><strong>Check warranty/service-agreement scope</strong> for the specific failure mode before authorizing repair spend.</li>
+<li><strong>Log every curtailment event with its specific reason code</strong> and cross-check against the PPA&#x27;s compensation clause.</li>
+<li><strong>Prioritize technician dispatch by lost-production-value per day</strong>, not simple ticket order or arrival sequence.</li>
+<li><strong>Evaluate spare-parts lead time against the current stocking plan</strong>, expediting only when the lead time exceeds the current high-wind-season exposure window.</li>
+<li><strong>Close the loop</strong> by feeding the confirmed failure mode back into the CMS alert thresholds, so the same pattern is caught earlier on other turbines.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>SCADA historian and condition-monitoring system (CMS) — vibration, oil-particulate, and temperature trending by turbine and component.</li>
+<li>Production reporting reconciled against wind-resource-adjusted expected output (met-tower data applied to each turbine&#x27;s power curve), not raw MWh alone.</li>
+<li>O&amp;M contract and OEM warranty/service-agreement tracker, mapped by component and coverage window.</li>
+<li>Curtailment log with mandatory reason codes tied to the specific PPA compensation clause each maps to.</li>
+<li>Spare-parts inventory plan ranked by failure probability and logistics lead time (see <code>references/playbook.md</code>).</li>
+<li>Technician dispatch model prioritized by estimated lost-production-value per day of downtime.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the asset owner/investors: availability and production reported against resource-adjusted expectation, not raw MWh, with cost-to-serve tied to specific failure modes rather than a single blended O&amp;M cost number. To the O&amp;M contractor/OEM: warranty and performance disputes documented with SCADA/CMS evidence and factual, non-adversarial language. To technicians: dispatch priority framed by lost-production-value, with safety protocol (lockout/tagout, fall protection at height) stated as non-negotiable regardless of production pressure.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Reporting raw production without resource-adjustment</strong>, making it impossible to tell whether a shortfall is curtailment, a bad wind quarter, or turbine underperformance.</li>
+<li><strong>Chasing availability past the point of diminishing O&amp;M spend return</strong>, approving expedited parts or added staffing that costs more than the marginal revenue it protects.</li>
+<li><strong>Missing a warranty coverage window or scope detail</strong>, paying out-of-pocket for a failure that should have been an OEM claim.</li>
+<li><strong>Logging curtailment inconsistently or lumping reason codes into &quot;other,&quot;</strong> missing a compensable grid-operator-directed curtailment claim under the PPA.</li>
+<li><strong>Running a reactive-only maintenance program</strong>, responding to trips instead of acting on CMS trend data that predicted the failure weeks earlier.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Context:</strong> 150MW wind farm (60 × 2.5MW turbines). O&amp;M contract guarantees 97% time-based availability, with liquidated damages owed by the contractor for shortfalls below that. This quarter&#x27;s actual production: 92,000 MWh against a wind-resource-adjusted expected production of 108,000 MWh (based on met-tower data applied to each turbine&#x27;s power curve) — a <strong>16,000 MWh shortfall, 14.8% below expected.</strong></p>
+<p><strong>Naive read:</strong> &quot;The O&amp;M contractor reported 97.8% time-based availability, which meets the guarantee — the shortfall must just be a bad wind quarter, nothing actionable.&quot;</p>
+<p><strong>Wind energy operations manager&#x27;s reasoning:</strong></p>
+<ol>
+<li>*Time-based availability meeting the guarantee doesn&#x27;t explain an energy-based shortfall — decompose before accepting the &quot;bad wind year&quot; framing.* Pulling the curtailment log (with reason codes) for the quarter: 620 turbine-hours of nighttime noise-ordinance curtailment across 14 turbines (contractually uncompensated), 380 turbine-hours of self-directed economic curtailment during negative-pricing periods, and 210 turbine-hours logged as &quot;other&quot; that on closer review were grid-operator-directed curtailment events — compensable under the PPA&#x27;s curtailment clause but never coded or claimed.</li>
+<li>*Quantify each category at an average 1.8MW output for the affected turbines during those conditions.* Noise-ordinance curtailment: 620 × 1.8 = 1,116 MWh (uncompensated, contractual limitation — quantified, not claimable). Economic curtailment: 380 × 1.8 = 684 MWh (self-directed to avoid negative pricing — this was revenue-protective, not a loss to remediate). Grid-directed curtailment: 210 × 1.8 = 378 MWh, compensable at the PPA&#x27;s $45/MWh curtailment-compensation rate = <strong>$17,010 in unclaimed compensation.</strong></li>
+<li>*Reconcile the remainder.* 16,000 MWh total shortfall − 1,116 (noise) − 684 (economic) − 378 (grid-directed) = <strong>13,822 MWh (86% of the total shortfall) unexplained by curtailment.</strong> This is too large a share to write off as &quot;wind resource variance&quot; without checking whether it&#x27;s a turbine-performance issue.</li>
+<li>*Recommend the actual next step, not acceptance of the shortfall.* A per-turbine SCADA-vs-power-curve verification study is needed to determine whether the 13,822 MWh gap is genuine wind-resource shortfall (below what the met-tower forecast, itself imperfect, predicted) or a fleet-wide underperformance issue — blade soiling, yaw misalignment, or icing — that would compound every quarter if left uninvestigated.</li>
+<li>*The naive read would have cost the farm a real, quantified line item and masked a bigger open question.* Accepting &quot;contractor met its guarantee, must be the wind&quot; skips a $17,010 compensation claim and defers a power-curve investigation that&#x27;s 86% of the shortfall&#x27;s explanation, not a rounding error.</li>
+</ol>
+<p><strong>Deliverable — quarterly performance memo to the asset owner (excerpt):</strong></p>
+<p>&gt; <strong>Q1 Production Shortfall Analysis — 150MW Wind Farm</strong></p>
+<p>&gt; Actual: 92,000 MWh vs. resource-adjusted expected 108,000 MWh (16,000 MWh / 14.8% shortfall). O&amp;M contractor&#x27;s reported 97.8% time-based availability meets the 97% guarantee — no liquidated-damages claim applies.</p>
+<p>&gt; Curtailment decomposition: 1,116 MWh noise-ordinance (uncompensated, contractual), 684 MWh self-directed economic curtailment (revenue-protective, avoided negative pricing), 378 MWh grid-operator-directed curtailment <strong>miscoded as &quot;other&quot; — filing PPA compensation claim for $17,010.</strong></p>
+<p>&gt; <strong>13,822 MWh (86% of shortfall) remains unexplained by curtailment.</strong> Recommending a per-turbine SCADA-vs-power-curve verification study before attributing this to wind-resource variance — potential blade soiling or yaw misalignment issue that would recur and compound if unaddressed.</p>
+<p>&gt; Curtailment reason-code logging process to be corrected immediately with the O&amp;M contractor to prevent future misclassification of compensable events.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/wind-energy-operations-manager/references/playbook.md">references/playbook.md</a> — load when building the availability decomposition model, spare-parts stocking plan, or curtailment reason-code/PPA reconciliation.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/wind-energy-operations-manager/references/red-flags.md">references/red-flags.md</a> — load when triaging whether a performance, warranty, or curtailment signal needs escalation.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/wind-energy-operations-manager/references/vocabulary.md">references/vocabulary.md</a> — load when an availability, curtailment, or contract term needs precision (time-based vs. energy-based availability, full-service vs. unbundled O&amp;M agreement, curtailment reason codes).</li>
+</ul>
+<h3>Sources</h3>
+<p>IEC 61400 series (wind turbine performance and availability measurement standards); NREL wind plant performance and reliability benchmarking reports; typical PPA curtailment-compensation clause structures as used in U.S. utility-scale wind contracts (terms vary by contract — verify against the specific agreement); OEM full-service and unbundled service-agreement structures common in the utility-scale wind industry. No direct wind-energy-operations-manager practitioner review yet — flag corrections via PR.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/wind-energy-operations-manager/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add wind-energy-operations-manager</code></p>
+</footer>
+</body>
+</html>

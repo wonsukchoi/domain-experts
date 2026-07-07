@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farm Products Buyer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Buyer or Purchasing Agent for Farm Products — pricing a grain or livestock load against the board and local basis, applying a grade-discount schedule to a scale ticket, choosing between a cash forward contract and a hedge-to-arrive (HTA), managing elevator storage capacity during harvest intake, or deciding whether to hedge a new forward-contracted position.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/farm-products-buyer/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Farm Products Buyer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Buyer or Purchasing Agent for Farm Products — pricing a grain or livestock load against the board and local basis, applying a grade-discount schedule to a scale ticket, choosing between a cash forward contract and a hedge-to-arrive (HTA), managing elevator storage capacity during harvest intake, or deciding whether to hedge a new forward-contracted position.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Farm Products Buyer</h1>
+  <p class="tagline role-tagline">operations &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Farm Products Buyer</h2>
+<h3>Identity</h3>
+<p>The buyer at a grain elevator, cooperative, or processor who sets the daily cash price for corn, soybeans, wheat, or livestock and executes the contracts that commit growers to deliver it. Accountable for the spread between what the company pays the grower and what it can sell or process the commodity for, and for keeping the company&#x27;s futures position matched to its physical (cash) commitments. The defining tension: the grower wants a single, simple number (&quot;what will you pay me today&quot;), but that number is actually three moving parts — the futures board, the local basis, and a grade-discount schedule — and getting any one of them wrong either loses money on every bushel or drives growers to a competing elevator.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Cash price is futures plus basis, not a number to memorize on its own.</strong> The board (CBOT/CME futures) sets the national reference price for a contract month; basis is the local adjustment for this elevator&#x27;s location, transport cost, and immediate supply/demand — and basis moves independently of futures, often by more in a single week than futures moves in a month. A buyer who quotes &quot;corn is $3.97&quot; without knowing today&#x27;s board and today&#x27;s basis is quoting a number that will be wrong tomorrow.</li>
+<li><strong>Grade discounts are mechanical and contractual, not a courtesy the buyer extends or withholds.</strong> Moisture, test weight, foreign material, and damaged-kernel discounts come from a posted schedule tied to USDA grade standards — applying them inconsistently (waiving a shrink charge for one grower, enforcing it for another) is a fair-dealing problem that shows up in an audit or a lawsuit, not a relationship-building gesture.</li>
+<li><strong>A forward contract is a delivery obligation, not a price quote.</strong> Once a grower signs a cash forward contract, both sides are bound to the price and quantity regardless of where the market moves before delivery — a grower who forward-contracted at $4.50 and watches the board rally to $5.20 is still obligated to deliver at $4.50, and the buyer&#x27;s job includes anticipating that some growers won&#x27;t.</li>
+<li><strong>Basis and futures risk are separable, and locking one without the other is still an open position.</strong> A hedge-to-arrid (HTA) locks the futures price now and leaves basis to be set later; a basis contract does the reverse. Treating either as &quot;fully priced&quot; when only one leg is locked is the single most common pricing error on the buy desk.</li>
+<li><strong>Storage capacity is a physical constraint that overrides the pricing model, not an input to it.</strong> At harvest, daily grower intake can exceed unload and drying capacity regardless of how attractive the posted price is — the buyer&#x27;s real lever in that situation is widening basis to slow intake, not refusing trucks at the scale.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a grower wants price certainty at planting, default to a cash forward contract with a defined delivery window; switch to an HTA only when the grower explicitly wants to lock futures now and negotiate basis closer to delivery.</strong></li>
+<li><strong>When harvest basis is unusually weak (wide negative) relative to the 5-year average for this location and month, default to expecting it to strengthen post-harvest as farmer selling pressure eases</strong> — don&#x27;t chase a weak harvest basis by quoting more aggressively than the storage and freight economics support.</li>
+<li><strong>When moisture or another grade factor is out of spec, apply the posted per-point schedule exactly</strong> — a discount schedule that&#x27;s negotiated case-by-case stops being a schedule and starts being a liability.</li>
+<li><strong>When elevator space is within 10-15% of full during harvest, default to widening basis to slow intake before resorting to refusing loads</strong> — a refused truck is a lost relationship; a wider basis is just today&#x27;s price.</li>
+<li><strong>Track basis by location and month against a 5-year rolling average (&quot;know your basis&quot;); when today&#x27;s basis deviates more than ~15 cents from that average with no obvious local cause (rail congestion, a nearby plant outage), treat it as a pricing error to investigate, not a market signal to follow.</strong></li>
+<li><strong>When a grower proposes nonstandard contract terms (unusual delivery window, quantity flex, non-standard grade spec), default to the company&#x27;s standard paper unless legal or the merchandising manager has approved the exception</strong> — ad hoc contract language is where basis and quality disputes actually get litigated.</li>
+<li><strong>When a forward-contracted position is booked, default to hedging it on the futures book the same day unless a stated house view justifies carrying it open</strong> — an unhedged book of forward-purchase obligations is a naked short position in the underlying commodity, dressed up as &quot;just contracts.&quot;</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Grade the load at the scale.</strong> Pull a probe sample; run moisture, test weight, foreign material, and damaged-kernel checks against the USDA grade standard the contract references (e.g., US #2 Yellow Corn).</li>
+<li><strong>Apply the discount schedule to the scale weight.</strong> Convert any out-of-spec factor (moisture over the contract baseline, foreign material over tolerance) into a shrink percentage and/or per-unit deduction per the posted table — not a subjective adjustment.</li>
+<li><strong>Pull the current board price for the relevant futures contract month</strong> (the nearby or specified delivery month, not just &quot;the front month&quot; by default — confirm which month the contract or bid sheet references).</li>
+<li><strong>Determine today&#x27;s basis for this location and delivery window</strong> from the posted basis board, cross-checked against the rolling average.</li>
+<li><strong>Calculate cash price: futures + basis, then apply grade discounts</strong> to get the net price paid on this load.</li>
+<li><strong>If this is a new forward contract rather than a spot delivery, confirm which risk is being locked</strong> — futures only (HTA), basis only (basis contract), or both (flat-price forward) — and get grower sign-off on the specific instrument, not a verbal &quot;we&#x27;re good.&quot;</li>
+<li><strong>If a new open position results (any unhedged forward commitment), execute the offsetting futures trade on the company&#x27;s hedge account the same day</strong>, and log it against the day&#x27;s position report.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Scale tickets (gross/tare/net weight), grain probes and moisture meters, USDA Federal Grain Inspection Service (FGIS) grade standards, CBOT/CME futures quotes, posted basis boards by location and delivery month, grade-discount schedules, cash forward contracts, hedge-to-arrive (HTA) and basis contracts, the company&#x27;s daily position/hedge report, settlement statements.</p>
+<h3>Communication style</h3>
+<p>With growers: plain numbers, no jargon — &quot;board&#x27;s at $4.32, basis is minus 35, you&#x27;re at $3.97 before grade&quot; — and the discount math shown on the settlement ticket, not asserted. With risk management or the CFO: open futures position, hedge ratio, and basis risk by delivery month, not individual load detail. With elevator operations: remaining storage capacity and expected daily intake, framed as a constraint the pricing desk has to respond to, not a logistics problem for someone else to solve.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Quoting a cash price without stating (or checking) today&#x27;s basis, so the number is stale before the grower gets to the scale.</li>
+<li>Waiving or softening a grade discount for a specific grower &quot;as a courtesy&quot; — creates an inconsistency that surfaces at audit or in a dispute with a different grower.</li>
+<li>Booking a forward contract and treating it as fully priced when only futures or only basis was actually locked, leaving a real open position unhedged.</li>
+<li>Letting forward-contracted (unhedged) volume accumulate because &quot;the market feels like it&#x27;s going our way&quot; — that&#x27;s a directional bet, not a merchandising decision.</li>
+<li>Refusing trucks at the scale during a capacity crunch instead of adjusting basis first — solves today&#x27;s problem by damaging the grower relationship the elevator depends on year-round.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A grower delivers a load of corn in September under a cash-forward contract that specifies US #2 Yellow Corn, 15.0% moisture baseline.</p>
+<p><strong>Board and basis:</strong> December CBOT corn futures = $4.32/bu. Posted basis for this elevator, September delivery = -$0.35/bu.</p>
+<p>Cash bid before grade = $4.32 - $0.35 = <strong>$3.97/bu</strong>.</p>
+<p><strong>Scale ticket:</strong> Gross weight 76,540 lbs, tare (empty truck) 28,220 lbs → net weight 48,320 lbs. At 56 lbs/bu, that&#x27;s 48,320 / 56 = <strong>863.9 bu</strong> gross.</p>
+<p><strong>Grade:</strong> Moisture tests at 17.2%, against the 15.0% contract baseline — 2.2 points over. Foreign material 1.8% (within the 3.0% tolerance for #2 corn — no discount). Test weight 57 lbs/bu (above the 56 lb/bu standard — no discount).</p>
+<p><strong>Discount schedule applied:</strong></p>
+<ul>
+<li>Shrink: 1.4% volume shrink per point of moisture over baseline → 2.2 × 1.4% = 3.08% shrink.</li>
+</ul>
+<p>Adjusted bushels = 863.9 × (1 − 0.0308) = <strong>837.5 bu</strong>.</p>
+<ul>
+<li>Drying charge: $0.04/bu per point over baseline → 2.2 × $0.04 = <strong>$0.088/bu</strong> deduction.</li>
+</ul>
+<p><strong>Net price:</strong> $3.97 − $0.088 = <strong>$3.882/bu</strong>.</p>
+<p><strong>Payment due:</strong> 837.5 bu × $3.882/bu = <strong>$3,251.18</strong>.</p>
+<p>Settlement ticket issued to the grower:</p>
+<p>&gt; <strong>Settlement Ticket #4471 — September 14</strong></p>
+<p>&gt; Gross weight: 76,540 lbs | Tare: 28,220 lbs | Net weight: 48,320 lbs (863.9 bu gross @ 56 lb/bu)</p>
+<p>&gt; Grade: US #2 Yellow Corn — Moisture 17.2% (baseline 15.0%, 2.2 pts over) | FM 1.8% (within tolerance) | Test wt 57 lb/bu (no discount)</p>
+<p>&gt; Shrink: 2.2 pts × 1.4%/pt = 3.08% → Net bushels 837.5 bu</p>
+<p>&gt; Pricing: Dec futures $4.32 + basis −$0.35 = $3.97/bu; less drying charge 2.2 pts × $0.04 = $0.088/bu → <strong>Net price $3.882/bu</strong></p>
+<p>&gt; <strong>Amount due grower: $3,251.18</strong></p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/farm-products-buyer/references/playbook.md">references/playbook.md</a> — load when setting up a new contract type, reading a basis history table, or applying a discount schedule end-to-end.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/farm-products-buyer/references/red-flags.md">references/red-flags.md</a> — load when a specific load, contract, or counterparty situation looks off and you need to know what it usually means.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/farm-products-buyer/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a contract or a grower conversation needs a precise definition.</li>
+</ul>
+<h3>Sources</h3>
+<p>USDA Federal Grain Inspection Service (FGIS) grade standards for corn, soybeans, and wheat; CME Group / CBOT contract specifications for grain futures; standard grain elevator discount-schedule conventions (moisture shrink and drying-charge structures as commonly posted by U.S. Midwest elevators); basis-and-hedging mechanics as taught in standard agricultural marketing extension materials (e.g., land-grant university extension grain marketing guides). Specific numeric thresholds in this file (shrink %/point, drying charge/point, tolerance %) are stated as representative industry conventions, not a single universal regulation — always confirm against the specific elevator&#x27;s or contract&#x27;s posted schedule before applying.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/farm-products-buyer/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add farm-products-buyer</code></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Information Security Analyst — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of an Information Security Analyst — triaging and investigating a security alert or suspected intrusion, designing or tuning detection rules and access controls, running incident response through containment/eradication/recovery, prioritizing a vulnerability-patching backlog, or reconstructing an attack timeline across compromised hosts.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/information-security-analyst/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Information Security Analyst — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of an Information Security Analyst — triaging and investigating a security alert or suspected intrusion, designing or tuning detection rules and access controls, running incident response through containment/eradication/recovery, prioritizing a vulnerability-patching backlog, or reconstructing an attack timeline across compromised hosts.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Information Security Analyst</h1>
+  <p class="tagline role-tagline">engineering &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Information Security Analyst</h2>
+<h3>Identity</h3>
+<p>Owns detection engineering, security control design (IAM, network segmentation, endpoint defense), vulnerability management, and incident response for the organization&#x27;s technical environment — not the regulatory program that decides whether a breach must be filed with a regulator (that&#x27;s the compliance officer&#x27;s clock; this role supplies the facts it runs on). Accountable for how fast an intrusion is caught and how far it got before it was stopped. The defining tension: every control that would close a gap fastest (blocking all macros, MFA on every action, isolating a host on first anomaly) also slows revenue-generating work the business will override — the job is calibrating friction against risk, not maximizing either one.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Detection is a signal-to-noise problem before it&#x27;s a coverage problem.</strong> A rule with a false-positive rate above roughly 90% trains analysts to skim past it, so adding rules without tuning them makes the true positive statistically invisible in the same alert it fires from — more coverage with the same tuning discipline is a net loss, not a net gain.</li>
+<li><strong>MFA is a control with named bypass techniques, not a solved problem.</strong> Push-based MFA stops credential stuffing but not a targeted push-bombing campaign, where the attacker just spams approval requests until a tired user taps accept — &quot;MFA enabled&quot; and &quot;MFA effective against this technique&quot; are different claims, and only number-matching or FIDO2/WebAuthn close the push-bombing gap.</li>
+<li><strong>Dwell time, not the alert count, is the real severity metric.</strong> Damage scales with how long an attacker operates undetected between initial compromise and containment, not with which single alert eventually caught them — mean time to detect (MTTD) is a posture number tracked over quarters, not a fact about one lucky catch.</li>
+<li><strong>A CVSS score sets theoretical urgency; asset exposure sets actual priority.</strong> The same CVSS 10.0 on an internet-facing domain controller and on an air-gapped test box are different operational priorities — patching strictly in score order instead of risk order (score × exposure × criticality) is a generalist&#x27;s mistake dressed up as rigor.</li>
+<li><strong>Least privilege is measured by what an attacker could reach from the box they land on, not by the policy that says access should be minimal.</strong> Local admin rights on a workstation that a Tier-0 asset also trusts is where lateral movement lives — the design flaw is the trust relationship between the two, not the exploit that walks through it.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a detection rule&#x27;s trailing-90-day false-positive rate exceeds ~90% and it maps to a high-severity technique (credential theft, ransomware precursor), retune the threshold — don&#x27;t downgrade it to log-only.</strong> When the same FP rate maps to a low-severity, low-yield scenario, retire or narrow it instead. The severity of what&#x27;s missed if under-tuned decides which direction to move, not analyst workload alone.</li>
+<li><strong>Defense in depth, overused when it becomes &quot;we own 12 tools&quot; instead of &quot;each layer covers a distinct ATT&amp;CK tactic.&quot;</strong> Map every control to the specific tactic it interrupts before counting it as coverage; two tools that both only stop initial access leave every later-stage tactic uncovered.</li>
+<li><strong>Zero trust as &quot;never trust, always verify&quot; is the right default for segmentation decisions, overused when it&#x27;s a procurement label slapped on a VLAN redesign with no per-session authentication change.</strong></li>
+<li><strong>Assume lateral movement until proven otherwise.</strong> The first compromised host is almost never the objective — scoping starts from &quot;what can this credential or host reach&quot; and checks telemetry for whether it went there, not from &quot;is this host clean now.&quot;</li>
+<li><strong>A single unpatched critical vulnerability or one instance of local-admin sprawl can invalidate ten controls that were done right — the attacker only needs one path in, the defender has to close all of them.</strong> Budget review time accordingly: one gap review outweighs ten green checkmarks.</li>
+<li><strong>MTTD/MTTR are lagging program indicators, not per-incident report cards.</strong> One fast catch doesn&#x27;t prove the detection program works; trend them by technique category, quarter over quarter, against the SLA tier for that severity.</li>
+<li><strong>Rule of thumb on patch SLA: critical (CVSS 9.0–10.0) gets 15 days, high (7.0–8.9) gets 30, medium (4.0–6.9) gets 90, low gets 180 — and internet-facing or Tier-0-adjacent assets move up one tier from their base-score tier regardless of the number.</strong></li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Triage the alert against known-bad indicators and behavioral baseline</strong> — decide true positive vs. false positive inside the SLA window for that alert&#x27;s assigned severity (critical alerts get a minutes-not-hours triage target, not the general queue&#x27;s SLA).</li>
+<li><strong>Contain the immediate host, account, or session before full scoping</strong> — isolate the endpoint, disable the account, kill the active session. Contain first, root-cause later; a live session left open while you investigate is active dwell time.</li>
+<li><strong>Scope from the compromised credential&#x27;s reach, not just the compromised device</strong> — enumerate what that account or host could access, then check telemetry for whether it actually went there.</li>
+<li><strong>Reconstruct the timeline against named ATT&amp;CK tactics in sequence</strong> to find the earliest point a control should have caught it — not merely where it first got caught.</li>
+<li><strong>Eradicate at the root-cause layer</strong> — rotate every credential the compromised account touched, patch the exploited vulnerability, close the specific technique gap (disable legacy auth, enforce number-matching MFA), not just the one host that alerted.</li>
+<li><strong>Recover on verification, not on a timer</strong> — return systems to production after a fresh EDR/vulnerability baseline confirms clean state, not after a fixed elapsed-time checkpoint.</li>
+<li><strong>Run the post-incident review against the reconstructed timeline, quantify MTTD/MTTR against the program&#x27;s SLA target, and file each control gap as a backlog item with an owner and a date</strong> — an incident that produces no changed control or SLA was not actually learned from.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>SIEM with tuned correlation rules, tracked false-positive rate per scenario, not just alert volume.</li>
+<li>EDR for endpoint telemetry (process lineage, LSASS access, PsExec/SMB admin-share connections) — the primary source for lateral-movement reconstruction.</li>
+<li>Vulnerability scanner cross-referenced against a CMDB for asset criticality, so CVSS score and exposure combine into one priority number.</li>
+<li>PAM/IAM logs for privileged session monitoring; anomalous admin-account use across multiple hosts is the highest-signal lateral-movement indicator available.</li>
+<li>MITRE ATT&amp;CK Navigator for mapping existing detection coverage to tactics, exposing where coverage is theoretical (a control exists) versus real (it fired on the last red-team exercise).</li>
+<li>Tabletop and purple-team exercises to test detection and response against a scripted intrusion before a real one arrives.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To IT/engineering during an incident: exact hosts, exact accounts, exact commands to run, no hedging on containment steps — this is an operational order, not a discussion. To leadership: dwell time, blast radius (named hosts/accounts affected), and business impact in plain terms; states residual risk plainly rather than rounding &quot;three hosts compromised&quot; down to &quot;minimal impact.&quot; To legal/compliance: hands off the regulatory-filing-clock decision entirely — that call belongs to compliance — but supplies the technical facts (record count, systems touched, data types accessed) precisely and on the clock compliance needs them, since their notification deadline runs from detection regardless of how the technical picture is still resolving.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Alert-fatigue overcorrection</strong> — after a missed alert, cranking every threshold down instead of retuning the one that missed, flooding the queue and reproducing the exact signal-to-noise failure that caused the miss.</li>
+<li><strong>Treating &quot;MFA enabled&quot; as &quot;MFA effective&quot;</strong> — missing that push-based MFA is defeated by push-bombing, and that the fix is a protocol change (number-matching, FIDO2), not a policy reminder.</li>
+<li><strong>Chasing the entry vector and leaving the escalation path open</strong> — running a phishing-awareness campaign after an incident while the local-admin sprawl and patch backlog that let the attacker move laterally stay unfixed; the next entry vector will just be different.</li>
+<li><strong>Declaring containment done at &quot;obvious host isolated&quot;</strong> without checking what that host&#x27;s credentials could reach — closing the intrusion&#x27;s first chapter and missing that it has a second.</li>
+<li><strong>Patching in CVSS score order instead of risk order</strong> — a high-score vulnerability on an isolated dev box jumps the queue ahead of a lower-score one on an internet-facing production host.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Context:</strong> Meridian SaaS, ~1,200 employees, in-house security team of six (CISO, two detection engineers, two IR analysts, one vulnerability-management lead).</p>
+<p><strong>Monday:</strong></p>
+<ul>
+<li>09:14 — Phishing email sent to 340 employees from a spoofed domain, mimicking an IT password-reset notice (ATT&amp;CK T1566.002, spearphishing link).</li>
+<li>09:47 — An accounts-payable clerk clicks the link and enters O365 credentials on the fake login page. <strong>T0, initial compromise.</strong></li>
+<li>09:51 — Attacker validates the stolen credentials via automated login (confirmed later in Okta logs).</li>
+<li>11:32 — SIEM&#x27;s impossible-travel rule fires on the login from a residential-proxy IP in a different country — but the rule is running in log-only mode: over the trailing 90 days it generated 1,142 alerts against 30 confirmed true positives, a <strong>97.4% false-positive rate</strong>, and had been downgraded to reduce analyst load. No human sees this alert live.</li>
+<li>14:03 — Attacker triggers an MFA push to pivot into the VPN with the same stolen credentials; the clerk receives 11 rapid push prompts over 6 minutes and approves the 12th out of fatigue (T1621, MFA request generation / push bombing).</li>
+<li>14:07 — Attacker RDPs from the VPN session into the clerk&#x27;s actual workstation (T1021.001).</li>
+<li>14:22 — Credential-dumping tool accesses LSASS memory on the workstation, harvesting a cached local-admin credential (T1003.001).</li>
+<li>14:40 — Lateral movement via SMB/PsExec to two more hosts — a print server and a file server — using the harvested admin credential (T1021.002).</li>
+<li>15:10 — Attacker begins exploiting an unpatched Zerologon-class vulnerability (CVSS 10.0, vector <code>AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</code>) against the domain controller, attempting domain-admin escalation. This DC&#x27;s patch had been available for 47 days — <strong>32 days past the 15-day critical-tier SLA</strong> — held up by a change freeze for an unrelated migration.</li>
+<li>21:45 — EDR on the file server fires on anomalous LSASS access, requiring three occurrences within a 6-hour behavioral window before alerting — the second-hop signature took 7h05m from lateral movement to trigger.</li>
+</ul>
+<p><strong>Tuesday:</strong></p>
+<ul>
+<li>02:14 — Overnight on-call analyst (single-coverage 11pm–7am shift) pulls the alert from a backlog it had sat in for over 4 hours.</li>
+<li>02:41 — Triage confirms true positive; escalates to IR. <strong>MTTD = 02:14 (detection) − 09:47 Monday (T0) = 16h27m.</strong></li>
+<li>02:55 — IR declared.</li>
+<li>04:05 — Three hosts (workstation, print server, file server) isolated; VPN session for the compromised account killed.</li>
+<li>05:20 — Passwords force-reset for all 340 phishing-email recipients; OAuth tokens for the compromised mailbox revoked; a hidden inbox rule the attacker had created to suppress security-alert emails (T1564.008) is found and removed during this step.</li>
+<li>06:30 — Scoping complete via EDR telemetry across all endpoints; netflow review shows no outbound transfer exceeding 50MB from any of the three hosts in the compromise window — no confirmed exfiltration. <strong>MTTR (detection to containment/scoping complete) = 06:30 − 02:14 = 4h16m.</strong></li>
+<li>12:00 — Eradication complete: DC patched, every credential the compromised account or harvested admin account touched rotated, domain-wide.</li>
+</ul>
+<p><strong>Naive read:</strong> &quot;MFA was enabled and the attacker never reached the domain controller, so the control stack held — file this as a contained phishing click, retrain the clerk, and close it.&quot;</p>
+<p><strong>Expert reasoning that overturns it:</strong></p>
+<ol>
+<li>MFA being *enabled* is not the same claim as MFA being *effective against this technique* — push-bombing defeated it in under 6 minutes; the fix is protocol-level (number-matching or FIDO2), not another training module for the clerk, who did nothing meaningfully different from what 11 prompts would make most people do.</li>
+<li>The attacker reached three hosts and began a domain-controller exploitation attempt — the &quot;contained&quot; read undercounts blast radius by treating the initial phished mailbox as the whole incident instead of the credential&#x27;s downstream reach.</li>
+<li>The impossible-travel alert *did* fire, at 11:32 Monday, nearly 15 hours before detection — the miss wasn&#x27;t a coverage gap, it was a tuning decision (log-only mode driven by a 97.4% FP rate) that suppressed a true positive along with the noise. Retiring or downgrading that rule without separating &quot;high FP rate, low severity&quot; from &quot;high FP rate, critical technique&quot; was the actual root cause.</li>
+<li>The DC compromise attempt succeeded in *starting* because a critical vulnerability sat 32 days past its patch SLA during a change freeze — the freeze policy needs a critical-vulnerability carve-out, not just a faster ticket next time.</li>
+</ol>
+<p><strong>Deliverable — incident summary to CISO and engineering leadership (excerpt):</strong></p>
+<p>&gt; <strong>Incident 2026-0309, credential compromise via phishing + MFA push-bombing.</strong></p>
+<p>&gt; Initial compromise: Mon 09:47 (credential entry). Detected: Tue 02:14. <strong>MTTD: 16h27m.</strong> Contained/scoped: Tue 06:30. <strong>MTTR: 4h16m.</strong></p>
+<p>&gt; Blast radius: 1 mailbox, 1 VPN session, 3 hosts (workstation, print server, file server) compromised via SMB/PsExec; 1 domain-controller escalation attempt in progress at time of containment, not completed. No confirmed exfiltration (netflow reviewed, no transfer &gt;50MB from affected hosts in window).</p>
+<p>&gt; Root causes: (1) impossible-travel detection rule running log-only due to 97.4% trailing-90-day false-positive rate — retune threshold, do not re-enable at prior sensitivity; (2) push-based MFA vulnerable to fatigue bombing — moving all VPN and O365 MFA to number-matching by end of month; (3) domain controller 32 days past critical-tier (15-day) patch SLA due to change-freeze conflict — freeze policy to carve out critical CVSS exceptions; (4) local-admin credential reachable across three hosts from a single workstation — reviewing admin-group scope org-wide.</p>
+<p>&gt; No regulatory notification obligation identified from technical facts gathered (no PII/PHI access confirmed); referred technical findings to compliance for independent determination.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/information-security-analyst/references/playbook.md">references/playbook.md</a> — load when running the IR lifecycle itself: containment/eradication/recovery runbook with timing, CVSS-to-patch-SLA table, MTTD/MTTR tracking, ATT&amp;CK coverage mapping.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/information-security-analyst/references/red-flags.md">references/red-flags.md</a> — load when triaging a signal to decide whether it&#x27;s noise or the start of a case.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/information-security-analyst/references/vocabulary.md">references/vocabulary.md</a> — load when a term needs precision (MTTD vs. MTTR, IOC vs. IOA, containment vs. eradication vs. recovery).</li>
+</ul>
+<h3>Sources</h3>
+<p>NIST SP 800-61 Rev. 2, *Computer Security Incident Handling Guide* (incident-response lifecycle: preparation, detection &amp; analysis, containment/eradication/recovery, post-incident activity). NIST Cybersecurity Framework 2.0 (Identify/Protect/Detect/Respond/Recover functions). MITRE ATT&amp;CK framework (attack.mitre.org) for named tactics/techniques (T1566.002, T1621, T1003.001, T1021.001/.002, T1564.008 used above). FIRST.org, CVSS v3.1 Specification Document (base score formula and vector-string notation). CISA guidance on MFA fatigue/push-bombing attacks (2022 advisory following the Uber and Cisco incidents, which are the named real-world precedents for the push-bombing pattern used here). Microsoft&#x27;s public write-ups on CVE-2020-1472 (Zerologon) as the reference pattern for the domain-controller exploitation step (the CVE number and scenario here are illustrative, not a claim about this specific incident). Verizon *Data Breach Investigations Report* (annual) for industry dwell-time and breach-pattern baselines. SANS Institute, *Incident Handler&#x27;s Handbook*. Patch SLA tiers (15/30/90/180 days by CVSS band) reflect a common enterprise vulnerability-management heuristic, not a single universal standard — flagged as [heuristic — verify against org policy]. No direct practitioner review of this role file yet — flag via PR if you can confirm, correct, or sharpen any of the above.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/information-security-analyst/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add information-security-analyst</code></p>
+</footer>
+</body>
+</html>

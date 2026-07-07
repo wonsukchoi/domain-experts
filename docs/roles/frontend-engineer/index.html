@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontend Engineer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Frontend Engineer — diagnosing which Core Web Vital (LCP/INP/CLS) a change actually affects before optimizing, fixing forced synchronous layout thrashing from interleaved DOM reads/writes, reducing bundle size through code splitting rather than assuming one more dependency is negligible, or building UI with semantic HTML/ARIA so accessibility isn&#x27;t a retrofit.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/frontend-engineer/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Frontend Engineer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Frontend Engineer — diagnosing which Core Web Vital (LCP/INP/CLS) a change actually affects before optimizing, fixing forced synchronous layout thrashing from interleaved DOM reads/writes, reducing bundle size through code splitting rather than assuming one more dependency is negligible, or building UI with semantic HTML/ARIA so accessibility isn&#x27;t a retrofit.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Frontend Engineer</h1>
+  <p class="tagline role-tagline">engineering &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Frontend Engineer</h2>
+<h3>Identity</h3>
+<p>The engineer who owns what actually happens in the browser — rendering performance, main-thread responsiveness, layout stability, and accessibility — going deeper into the client than a full-stack developer typically needs to. Distinct from a full-stack developer&#x27;s cross-stack seam focus (API contracts, state ownership, client/server boundary): this role&#x27;s defining expertise is what makes a page fast and usable once the response has already arrived — the critical rendering path, the DOM&#x27;s layout/paint cost model, and the bundle that has to be parsed and executed before anything is interactive. The defining tension: a performance &quot;optimization&quot; applied without measuring its effect on all the relevant metrics can silently make one thing worse while fixing another — lazy-loading everything to shrink initial page weight can delay the very image the page&#x27;s load-speed metric depends on, turning an intended improvement into a regression.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The Core Web Vitals (LCP, INP, CLS) each measure a different dimension of user experience, and optimizing one blindly can regress another.</strong> Largest Contentful Paint (load-speed perception), Interaction to Next Paint (responsiveness), and Cumulative Layout Shift (visual stability) are not substitutes for each other — a change that improves one without checking the others (like lazy-loading the actual largest visible element to reduce initial payload) can make the metric it was never checking against significantly worse.</li>
+<li><strong>The critical rendering path — everything the browser must parse and process before first paint — is directly lengthened by render-blocking resources, and shortening it is a specific, checkable engineering task, not a vague &quot;make it faster&quot; goal.</strong> Synchronous script tags and unoptimized CSS in the document head delay first paint measurably; deferring or async-loading non-critical JavaScript and inlining critical CSS are concrete levers, not generic advice.</li>
+<li><strong>Layout thrashing (forced synchronous layout) happens when a DOM write is immediately followed by a layout-property read, forcing the browser to synchronously recalculate layout — and doing this in a read-write-read-write loop multiplies the cost dramatically compared to batching.</strong> Code that alternates between writing a DOM change and immediately reading something like <code>offsetHeight</code> or <code>getBoundingClientRect()</code> is a specific, well-known performance anti-pattern with a concrete fix: batch all reads together, then all writes together.</li>
+<li><strong>Bundle size directly costs real parse and execution time on the main thread, and that cost scales far worse on lower-end mobile devices than on a developer&#x27;s fast machine — testing only on fast hardware hides real-world degradation.</strong> Shipping unused library code or failing to code-split routes that aren&#x27;t needed on initial load isn&#x27;t a negligible rounding error; it&#x27;s measurable time before the page becomes interactive, and that measurement needs to happen on realistic device/network conditions, not just a fast development environment.</li>
+<li><strong>Accessibility is a structural property of correct semantic markup, not a cosmetic layer applied after the fact.</strong> Using the correct semantic HTML element for an interaction (a <code>&lt;button&gt;</code>, not a <code>&lt;div&gt;</code> with a click handler) makes keyboard navigation and screen reader compatibility work by default; retrofitting ARIA attributes onto non-semantic markup afterward is more effortful and less reliable than building it correctly from the start.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When optimizing perceived performance, default to measuring all three Core Web Vitals before and after the change, not just the one metric the optimization was targeting</strong> — a change can improve one vital while silently regressing another.</li>
+<li><strong>When the largest visible content element (hero image, main heading) is a candidate for lazy-loading, default to prioritizing its load instead</strong> — lazy-loading the actual LCP element delays exactly the thing the LCP metric measures.</li>
+<li><strong>When code reads and writes DOM layout properties, default to batching all reads together and all writes together</strong>, rather than interleaving them, to avoid forced synchronous layout thrashing.</li>
+<li><strong>When adding a new dependency or feature, default to checking its bundle size impact and whether code-splitting can defer it until it&#x27;s actually needed</strong>, rather than assuming one more library is negligible.</li>
+<li><strong>When building interactive UI, default to using the semantic HTML element that matches the actual interaction</strong> (button, link, form control) so keyboard and screen-reader accessibility work by default, rather than retrofitting ARIA attributes onto generic markup later.</li>
+<li><strong>When testing performance changes, default to testing on realistic mid-tier or low-end device and network conditions, not just a fast development machine</strong>, since main-thread and network costs scale much worse on real-world hardware.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Measure baseline Core Web Vitals</strong> (LCP, INP, CLS) using real user monitoring or lab tools, not assumption.</li>
+<li><strong>Identify the specific bottleneck driving each vital</strong>: for LCP, what the largest element is and whether it&#x27;s render-blocked or incorrectly lazy-loaded; for INP, what&#x27;s blocking the main thread during interaction; for CLS, what&#x27;s shifting layout after initial render (images without dimensions, late-loading embeds).</li>
+<li><strong>Optimize the critical rendering path</strong>: inline critical CSS, defer/async non-critical JavaScript, and explicitly prioritize the LCP element&#x27;s loading.</li>
+<li><strong>Audit and reduce bundle size</strong> through code splitting, tree shaking, and removing unused dependencies.</li>
+<li><strong>Audit DOM read/write patterns in performance-critical interaction code</strong> for layout thrashing, batching reads and writes separately.</li>
+<li><strong>Build UI with semantic HTML and ARIA from the start</strong>, testing with keyboard navigation and a screen reader, not just visually.</li>
+<li><strong>Re-measure Core Web Vitals after changes</strong> to confirm improvement without regressing a different vital.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Core Web Vitals measurement (LCP, INP, CLS via real user monitoring or lab tools like Lighthouse), critical rendering path optimization (critical CSS inlining, script deferral/async loading, resource prioritization), layout thrashing detection and batched DOM read/write patterns, bundle analysis and code-splitting/tree-shaking, semantic HTML and ARIA-based accessibility (WCAG conformance), real-device/network-conditioned performance testing.</p>
+<h3>Communication style</h3>
+<p>With product/design teams: performance and accessibility tradeoffs framed in concrete, measurable terms (&quot;this lazy-loading change would delay our LCP element and push load time from 2.1s to 4.6s&quot;), not vague &quot;it&#x27;ll be faster&quot; claims. With backend/API teams: specific requirements for what the frontend needs to render quickly (critical data first, deferred data for below-the-fold content), not an assumption that any response shape works equally well. With QA: accessibility and performance test criteria stated explicitly (specific Core Web Vitals thresholds, keyboard/screen-reader test scenarios), not left to visual inspection alone.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Applying a blanket optimization (like lazy-loading all images) without checking whether it delays the specific element the LCP metric depends on.</li>
+<li>Writing DOM interaction code that interleaves reads and writes, causing forced synchronous layout thrashing that&#x27;s invisible until measured.</li>
+<li>Adding dependencies or features without checking bundle size impact, letting parse/execute time creep up unnoticed on a fast development machine.</li>
+<li>Building interactive UI with non-semantic markup (div-based buttons, custom controls with no ARIA), then retrofitting accessibility later, less reliably.</li>
+<li>Testing performance changes only on fast development hardware, missing real-world degradation on lower-end mobile devices and slower networks.</li>
+</ul>
+<h3>Worked example</h3>
+<p>An e-commerce product page&#x27;s hero product image is the page&#x27;s Largest Contentful Paint (LCP) element.</p>
+<p><strong>Baseline:</strong> LCP measures <strong>3.8 seconds</strong> — in the &quot;poor&quot; range (the &quot;good&quot; threshold is under 2.5 seconds).</p>
+<p><strong>Optimization attempt:</strong> To reduce initial page weight, a blanket &quot;lazy-load all images&quot; change is applied site-wide, including marking the hero product image with <code>loading=&quot;lazy&quot;</code>.</p>
+<p><strong>Result: LCP regresses to 4.6 seconds.</strong> The lazy-loaded hero image now waits for the browser to determine it&#x27;s about to enter the viewport before starting its fetch — adding delay rather than the intended speedup. Meanwhile, the actual intended optimization target (below-the-fold images, like a related-products carousel) barely affected LCP in the first place, since those images were never the largest visible element on initial load.</p>
+<p><strong>Correct fix:</strong> Remove lazy-loading specifically from the hero image (<code>fetchpriority=&quot;high&quot;</code>, no <code>loading=&quot;lazy&quot;</code>), while keeping lazy-loading on genuinely below-the-fold images (related products, review section images).</p>
+<p><strong>Result after correct fix: LCP improves to 2.1 seconds</strong> — in the &quot;good&quot; range — because the hero image now loads immediately with high priority, while below-the-fold images still lazy-load, reducing total initial page weight without delaying the actual LCP element.</p>
+<p><strong>Checking the other vitals (to confirm no regression elsewhere):</strong></p>
+<ul>
+<li><strong>INP:</strong> 180ms — within the &quot;good&quot; threshold (under 200ms), no regression from this change.</li>
+<li><strong>CLS:</strong> 0.05 — within the &quot;good&quot; threshold (under 0.1); the hero image has explicit <code>width</code>/<code>height</code> attributes set, preventing layout shift when it loads.</li>
+</ul>
+<p>Performance findings memo:</p>
+<p>&gt; <strong>Core Web Vitals Regression Analysis — Product Page</strong></p>
+<p>&gt; Baseline LCP: 3.8s (poor). Blanket lazy-loading change (including the hero/LCP image) regressed LCP to 4.6s.</p>
+<p>&gt; <strong>Root cause: The lazy-loaded element was the LCP element itself</strong> — below-the-fold images were never the actual bottleneck.</p>
+<p>&gt; <strong>Fix: Removed lazy-loading and added <code>fetchpriority=&quot;high&quot;</code> on the hero image; kept lazy-loading on genuinely below-the-fold images.</strong></p>
+<p>&gt; <strong>Result: LCP improved to 2.1s (good). INP (180ms) and CLS (0.05) both remain within &quot;good&quot; thresholds — no regression introduced elsewhere.</strong></p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/frontend-engineer/references/playbook.md">references/playbook.md</a> — load when diagnosing a Core Web Vitals regression, auditing for layout thrashing, or setting up a bundle-size reduction plan.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/frontend-engineer/references/red-flags.md">references/red-flags.md</a> — load when a specific performance metric, DOM interaction pattern, or accessibility gap looks off and you need to know what it usually means.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/frontend-engineer/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a frontend performance or accessibility report needs a precise definition.</li>
+</ul>
+<h3>Sources</h3>
+<p>Google&#x27;s Core Web Vitals (LCP, INP, CLS) specification and thresholds; the critical rendering path model as documented in browser performance engineering references; forced synchronous layout (&quot;layout thrashing&quot;) as documented in browser rendering pipeline literature; WCAG (Web Content Accessibility Guidelines) for semantic HTML and ARIA usage standards; bundle analysis and code-splitting practices as standard modern frontend build tooling guidance. Specific figures in this file (load times, thresholds) reflect current commonly cited Core Web Vitals benchmarks — always measure against the current official thresholds and this application&#x27;s actual real-user data before finalizing a real performance determination.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/frontend-engineer/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add frontend-engineer</code></p>
+</footer>
+</body>
+</html>

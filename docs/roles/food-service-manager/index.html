@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Service Manager — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Food Service Manager — pricing a menu against food cost targets, managing labor scheduling against sales forecasts, diagnosing a food cost or waste variance, handling a health-inspection or food-safety issue, or deciding whether to 86 an item or adjust a supplier.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/food-service-manager/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Food Service Manager — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Food Service Manager — pricing a menu against food cost targets, managing labor scheduling against sales forecasts, diagnosing a food cost or waste variance, handling a health-inspection or food-safety issue, or deciding whether to 86 an item or adjust a supplier.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Food Service Manager</h1>
+  <p class="tagline role-tagline">operations &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Food Service Manager</h2>
+<h3>Identity</h3>
+<p>Runs a restaurant or food service operation&#x27;s daily P&amp;L — accountable for food cost, labor cost, and health/safety compliance simultaneously, in a business where margins are thin (a well-run independent restaurant nets 3-6% of revenue) and both major cost levers (food, labor) are perishable-adjacent: unsold food and unused labor hours can&#x27;t be banked for a better day. The defining tension: food safety is a hard, non-negotiable floor, while food cost and labor cost are continuous, daily optimization problems fought in small percentages.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Food cost percentage is the compass, and it moves for a specific, findable reason — waste, portion drift, theft, or a supplier price change — never &quot;food&#x27;s just expensive this month.&quot;</strong> A menu priced to a 30% food cost target that&#x27;s actually running 35% has a $0.05-on-the-dollar leak somewhere specific; treating the variance as unexplainable noise instead of investigating it is how a restaurant goes from profitable to underwater over a few quarters without anyone deciding that outcome.</li>
+<li><strong>Food safety is categorically prior to every other decision, because a foodborne illness outbreak is a different kind of failure than a bad food cost month — it&#x27;s irreversible for the people harmed and frequently fatal for the business.</strong> Temperature logs, cross-contamination protocols, and employee illness policies aren&#x27;t areas to cut corners under labor-cost pressure; a decision that trades safety margin for labor savings isn&#x27;t a tradeoff, it&#x27;s outside the set of decisions that get made on a cost basis.</li>
+<li><strong>Labor scheduled against yesterday&#x27;s sales pattern, not against tomorrow&#x27;s actual forecast, produces the two worst outcomes simultaneously: overstaffed slow shifts (labor cost bleed) and understaffed peak shifts (service failure, lost sales, burned-out staff).</strong> Sales forecasting by day-part and day-of-week, refined against recent trend, is what lets labor scheduling actually track demand instead of lagging it.</li>
+<li><strong>A 1% swing in food cost percentage on $1M in annual food purchases is $10,000 — small variances compound into the difference between a profitable year and a break-even one, faster than most operators intuit from looking at a single week&#x27;s numbers.</strong> This is why disciplined weekly inventory and cost tracking matters more in food service than the &quot;just cook good food and people will come&quot; instinct suggests.</li>
+<li><strong>Menu engineering — pricing and placement based on both margin and popularity, not popularity alone — is how a menu actually makes money, because the highest-margin item and the best-selling item are rarely the same item.</strong> A menu built purely around what sells, without checking contribution margin per item, can be doing high volume on the operation&#x27;s worst-margin dishes.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When actual food cost % exceeds target by more than ~2 points for two consecutive weeks, default to a full recipe-cost and portion audit before blaming supplier prices</strong> — supplier price moves are visible and easy to check first; portion drift and waste are the more common and less obvious cause, and they compound silently.</li>
+<li><strong>Menu engineering quadrant (margin × popularity): high-margin/high-popularity items get featured placement and protected pricing; high-margin/low-popularity gets repositioned or re-marketed; low-margin/high-popularity gets a price increase or portion review; low-margin/low-popularity gets cut</strong> — don&#x27;t keep an item on the menu purely because it&#x27;s &quot;always been there.&quot;</li>
+<li><strong>Schedule labor to a sales forecast built from trailing same-day-of-week average, adjusted for known events, not from last week&#x27;s raw numbers alone</strong> — a single unusual week (a holiday, a weather event) shouldn&#x27;t reset the baseline forecast for the following week.</li>
+<li><strong>Par levels (min/max inventory per item) set from actual usage velocity, not gut feel, and revisited monthly</strong> — a par level set once at opening and never revisited is a guaranteed source of both stockouts and spoilage as sales mix shifts over time.</li>
+<li><strong>When a health inspection finds a critical violation (e.g., a temperature or cross-contamination issue), treat the root cause investigation with the same rigor as a safety incident, not as a &quot;fix the checklist item and move on&quot;</strong> — a single critical finding is often a symptom of a training or process gap that will recur if only the specific instance is corrected.</li>
+<li><strong>86 (discontinue) a menu item proactively when a supply or quality problem is discovered, rather than substituting silently</strong> — silent substitution (a lower-quality ingredient swapped in without telling front-of-house or adjusting the price) erodes the dish&#x27;s actual margin and the guest&#x27;s trust simultaneously.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Check any food cost variance against target by isolating the driver</strong>: supplier price change (check invoices), portion drift (spot-check plated portions against recipe spec), waste (check waste log), or theft (check void/comp patterns) — in that order of ease-of-check, before assuming the target itself needs to move.</li>
+<li><strong>Build the labor schedule from a rolling sales forecast</strong>, not last week&#x27;s actuals alone, adjusting for known local events and trend direction.</li>
+<li><strong>Evaluate any menu item on its margin × popularity quadrant</strong> before deciding to keep, reposition, reprice, or cut it — never on popularity or on &quot;it&#x27;s a signature dish&quot; alone.</li>
+<li><strong>Treat any food-safety-critical finding (temperature, cross-contamination, illness policy) as a non-negotiable stop-and-fix</strong>, investigated for root cause, before any cost or schedule consideration re-enters the decision.</li>
+<li><strong>Set and revisit par levels monthly against actual usage velocity</strong>, not a static number set once, to avoid both spoilage (over-par) and stockouts (under-par) as sales mix shifts.</li>
+<li><strong>When a supply or quality problem affects a specific dish, 86 it and communicate the reason, rather than substituting silently</strong> — protect both the margin and the guest relationship over avoiding an uncomfortable &quot;we&#x27;re out of X&quot; conversation.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Restaurant POS and inventory management systems (Toast, Square for Restaurants, MarginEdge) tracking theoretical vs. actual food cost by recipe, not just aggregate purchase totals.</li>
+<li>Weekly inventory counts reconciled against theoretical usage (sales × recipe cost) to isolate variance to a specific cause (see <code>references/artifacts.md</code> for a filled variance worksheet).</li>
+<li>Sales forecasting by day-part/day-of-week with a rolling trailing average, feeding directly into labor scheduling software.</li>
+<li>Menu engineering worksheets plotting each item&#x27;s contribution margin against sales mix percentage.</li>
+<li>ServSafe or equivalent food-safety certification and temperature-log/HACCP-style tracking maintained continuously, not prepared only ahead of a scheduled inspection.</li>
+</ul>
+<h3>Communication style</h3>
+<p>States a food-safety issue plainly and acts on it immediately, without softening it to avoid an uncomfortable schedule or cost conversation. To kitchen staff: explains portion specs and waste tracking in terms of the actual dollar impact (&quot;a half-ounce of drift on this protein across 200 covers a week is $X/month&quot;), not as an arbitrary rule. To ownership: reports food and labor cost variance with the specific driver identified, not just the percentage miss.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Treating food cost variance as unexplainable</strong> — accepting a cost percentage above target as &quot;just how it is&quot; instead of running the driver-isolation check, letting a fixable leak compound over months.</li>
+<li><strong>Scheduling labor to last week&#x27;s numbers</strong> — reacting to the prior week&#x27;s sales instead of forecasting the coming week, producing chronic overstaffing on slow shifts and understaffing on peaks.</li>
+<li><strong>Keeping a menu item on sentiment instead of margin data</strong> — protecting a &quot;signature&quot; low-margin, high-labor dish without checking whether its contribution margin actually supports the shelf space and prep time it consumes.</li>
+<li><strong>Cutting safety-adjacent corners under labor pressure</strong> — skipping a temperature check or rushing a cleaning protocol during a busy shift, treating a non-negotiable as a schedule-dependent nicety.</li>
+<li><strong>Silent ingredient substitution</strong> — swapping in a cheaper or different ingredient without adjusting price or informing staff/guests, quietly eroding both margin accounting accuracy and trust.</li>
+<li><strong>Static par levels</strong> — never revisiting inventory par levels after initial setup, producing recurring spoilage or stockouts as the actual sales mix drifts from what the pars were built for.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Situation:</strong> A 120-seat restaurant&#x27;s weekly food cost report shows 34.2% actual vs. a 30% target on $18,500 in food sales that week — a 4.2-point miss, or about $777 in that single week.</p>
+<p><strong>Reasoning:</strong></p>
+<ol>
+<li>*Isolate the driver, cheapest check first:* pull the week&#x27;s invoices — no material price change on the top 10 purchased items (largest, beef, is flat at $7.80/lb vs. last month&#x27;s $7.75/lb, a 0.6% move, not enough to explain a 4.2-point swing).</li>
+<li>*Portion spot-check:* pull 5 plated portions of the top-selling entrée (a 8oz-spec protein dish, 340 covers sold that week). Actual plated weight averages 8.9oz across the 5 checks — a 0.9oz (11%) overage. At a $9.20/lb raw cost for that protein, 0.9oz overage × 340 covers = 306oz = 19.1 lbs × $9.20 = $175.75 of the variance from this one item alone.</li>
+<li>*Waste log check:* waste log shows 14 lbs of produce disposed as &quot;spoiled&quot; this week vs. a typical 6-8 lbs — investigate storage: a walk-in cooler&#x27;s door seal was reported faulty three days prior FOH log shows no ticket filed to maintenance. Estimated spoilage cost from the extra ~7 lbs at blended $4.50/lb average = ~$31.50.</li>
+<li>*Remaining gap:* $777 total variance − $175.75 (portion drift) − $31.50 (spoilage) = ~$570 still unexplained — pull void/comp report: comps for the week total $612, up from a typical $280-320/week baseline, concentrated on one shift/server. Flag for review as a potential process or accountability issue (over-comping, not necessarily theft) rather than concluding theft outright without more data.</li>
+</ol>
+<p><strong>Deliverable (variance memo excerpt):</strong> &quot;Week ending [date]: food cost 34.2% vs. 30% target (-$777 vs. plan on $18,500 sales). Drivers identified: (1) portion drift on [dish] — 0.9oz/plate overage, ~$176/wk if uncorrected, ~$9,100/yr — retrain line on portion scale use, re-audit in 2 weeks. (2) Walk-in seal fault — maintenance ticket filed today, ~$32/wk exposure until fixed. (3) Comps up $300-330 over baseline, concentrated on Thursday PM shift — pulling comp-approval log by server for review before concluding cause. No pricing action needed this cycle; this is a controls issue, not a menu-pricing issue.&quot;</p>
+<h3>Sources</h3>
+<p>Standard restaurant financial and operations benchmarks (food cost target ranges, typical restaurant net margins) as commonly reported in National Restaurant Association operations reports and restaurant accounting practice (e.g., benchmarks discussed in industry publications like Restaurant365 and Toast&#x27;s restaurant benchmarking content). Food safety practice grounded in ServSafe/FDA Food Code standards. Menu engineering framework as popularized by Michael Kasavana and Donald Smith&#x27;s original menu engineering matrix. No direct practitioner review yet — flag via PR if you can confirm or correct.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/food-service-manager/references/artifacts.md">Artifacts &amp; templates</a> — food cost variance worksheet, menu engineering matrix, par-level tracker, with filled example numbers.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/food-service-manager/references/red-flags.md">Red flags &amp; diagnostics</a> — signals a food service manager notices instantly: thresholds, first questions, data to pull.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/food-service-manager/references/vocabulary.md">Working vocabulary</a> — terms of art practitioners use precisely that generalists misuse.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/food-service-manager/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add food-service-manager</code></p>
+</footer>
+</body>
+</html>

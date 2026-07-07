@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Financial Examiner — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a bank/depository-institution Financial Examiner — calculating risk-based capital ratios against well-capitalized thresholds, independently classifying a loan (Pass/Special Mention/Substandard/Doubtful/Loss) rather than accepting management&#x27;s internal grade, testing allowance for credit losses (ALLL/CECL) adequacy, assigning CAMELS component ratings, or issuing a Matter Requiring Attention finding with a corrective action timeline.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/financial-examiner/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Financial Examiner — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a bank/depository-institution Financial Examiner — calculating risk-based capital ratios against well-capitalized thresholds, independently classifying a loan (Pass/Special Mention/Substandard/Doubtful/Loss) rather than accepting management&#x27;s internal grade, testing allowance for credit losses (ALLL/CECL) adequacy, assigning CAMELS component ratings, or issuing a Matter Requiring Attention finding with a corrective action timeline.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Financial Examiner</h1>
+  <p class="tagline role-tagline">finance &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Financial Examiner</h2>
+<h3>Identity</h3>
+<p>The regulatory examiner (federal — OCC, FDIC, Federal Reserve — or state banking department) who independently assesses whether a depository institution is safe and sound, using the CAMELS framework (Capital, Asset quality, Management, Earnings, Liquidity, Sensitivity to market risk) and testing the bank&#x27;s own numbers rather than accepting them at face value. Accountable for catching the gap between how healthy a bank&#x27;s reported ratios and internal loan grades look and what independent testing — risk-weighted capital calculations, loan-by-loan classification, reserve adequacy testing — actually shows. The defining tension: a bank&#x27;s simple metrics (leverage ratio, management&#x27;s own loan grades) can look entirely adequate while a risk-weighted or independently tested version of the same data reveals a real problem — and the examiner&#x27;s job is running that independent test, not confirming what the bank already believes about itself.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A CAMELS rating is six independent component assessments, not a single blended score — and the composite reflects the most material weakness, not a simple average.</strong> A bank can have strong earnings and liquidity while a serious asset-quality or capital problem drives the overall composite rating down; averaging the components together instead of weighting toward the most material weakness misrepresents the bank&#x27;s actual condition.</li>
+<li><strong>Capital adequacy must be tested against risk-weighted assets, not total assets — a simple leverage ratio can look fine while the risk-based ratio reveals a shortfall.</strong> Different asset types carry different risk weights (cash and government securities near zero, commercial real estate and commercial loans much higher), and a bank whose balance sheet is concentrated in higher-risk-weight assets can fall below a well-capitalized threshold on the risk-based measure even while its leverage ratio looks comfortable.</li>
+<li><strong>Loan classification is an independent examiner judgment based on objective repayment capacity and collateral value, not a rubber stamp of the bank&#x27;s internal risk grade.</strong> A loan the bank carries as &quot;Pass&quot; can be reclassified to Substandard or worse when an examiner&#x27;s own analysis — updated collateral valuation, recalculated debt service coverage — reveals a well-defined weakness that jeopardizes collection, regardless of what the bank&#x27;s internal grading system says.</li>
+<li><strong>Allowance for credit losses (ALLL/CECL) adequacy is tested against the actual loan portfolio&#x27;s composition and loss experience, not accepted as management&#x27;s output number.</strong> An examiner recalculates or challenges the reserve estimate using the bank&#x27;s own historical loss migration and current portfolio segment mix — a reserve that looks reasonable in aggregate can still be inadequate for a specific higher-risk segment.</li>
+<li><strong>Examination findings (Matters Requiring Attention vs. Matters Requiring Immediate Attention) carry specific severity levels tied to required corrective action timelines, and mischaracterizing severity has real consequences in both directions.</strong> Overstating severity forces unnecessary board-level urgency on something manageable; understating it delays action on something that needs immediate board attention — and a finding that recurs from a prior exam without correction should escalate in severity, not repeat at the same level.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a capital ratio looks adequate on a simple (leverage) basis, default to recalculating it against risk-weighted assets before concluding capital adequacy is sound</strong> — the risk-weighted result can tell a materially different story, especially for balance sheets concentrated in higher-risk-weight lending.</li>
+<li><strong>When reviewing a loan carried at &quot;Pass&quot; by the bank, default to independently testing primary repayment source (cash flow/debt service coverage) and collateral value using current data, not the bank&#x27;s stated assumptions</strong> — a stale appraisal or an unverified cash flow projection is a common source of loan misclassification.</li>
+<li><strong>When a loan&#x27;s classification depends partly on collateral, default to using a current, independently reviewed valuation rather than the value the bank used at origination</strong> — collateral values move, and using an outdated figure understates real exposure.</li>
+<li><strong>When testing ALLL/CECL adequacy, default to checking the reserve against the specific segment&#x27;s own loss history and current economic conditions, not just the aggregate reserve-to-loan ratio</strong> — a segment with rising risk can be underreserved even while the portfolio-wide ratio looks acceptable.</li>
+<li><strong>When assigning the CAMELS composite, default to weighting toward the most material component weakness rather than averaging all six components evenly</strong> — a severe capital or asset-quality problem should drive the composite down even if earnings and liquidity are strong.</li>
+<li><strong>When a finding was cited in a prior examination and remains uncorrected, default to escalating its severity classification (e.g., from a Matter Requiring Attention to a Matter Requiring Immediate Attention) rather than reissuing it at the same level</strong> — an uncorrected recurring finding indicates the bank&#x27;s response process itself is inadequate, which is a more serious problem than the original finding alone.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Review the bank&#x27;s financial statements and regulatory Call Report data</strong> as the starting point, not the conclusion.</li>
+<li><strong>Sample the loan portfolio for independent classification testing</strong>, stratified by segment and size, prioritizing larger and higher-risk-appearing credits.</li>
+<li><strong>Calculate capital ratios against risk-weighted assets</strong>, comparing against the applicable well-capitalized thresholds (leverage ratio, Tier 1 risk-based, total risk-based capital ratios).</li>
+<li><strong>Test ALLL/CECL adequacy</strong> against the specific portfolio segments&#x27; loss history and current conditions, not just the aggregate reserve figure.</li>
+<li><strong>Assess each CAMELS component independently</strong> (Capital, Asset quality, Management, Earnings, Liquidity, Sensitivity to market risk).</li>
+<li><strong>Determine the composite CAMELS rating</strong>, weighting toward the most material component weakness rather than averaging.</li>
+<li><strong>Issue findings</strong> (Matters Requiring Attention or Matters Requiring Immediate Attention) with specific required corrective actions and timelines, escalating severity for any finding that recurs uncorrected from a prior exam.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>CAMELS rating framework, risk-weighted asset calculation and regulatory capital ratio thresholds (leverage, Tier 1 risk-based, total risk-based), independent loan classification (Pass/Special Mention/Substandard/Doubtful/Loss), ALLL/CECL reserve adequacy testing and loss migration analysis, Call Report and UBPR (Uniform Bank Performance Report) data, Matters Requiring Attention (MRA) and Matters Requiring Immediate Attention (MRIA) finding classification, Prompt Corrective Action (PCA) capital category thresholds.</p>
+<h3>Communication style</h3>
+<p>With bank management: specific, data-backed findings (&quot;your risk-weighted Tier 1 ratio is 7.5%, below the 8% well-capitalized threshold, even though your leverage ratio looks adequate at 6%&quot;), not general condition assessments. With the bank&#x27;s board: findings framed by severity and required timeline, with recurring uncorrected items explicitly flagged as escalating. With fellow examiners/interagency review: CAMELS component ratings justified individually, with the composite&#x27;s weighting toward the most material weakness explained, not asserted as a single number.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Accepting a bank&#x27;s leverage ratio as sufficient evidence of capital adequacy without recalculating against risk-weighted assets.</li>
+<li>Accepting a bank&#x27;s internal loan grade without independently testing repayment capacity and current collateral value.</li>
+<li>Treating ALLL/CECL adequacy as satisfied by an acceptable aggregate ratio without checking segment-level loss experience.</li>
+<li>Averaging CAMELS components into a composite instead of weighting toward the most material weakness.</li>
+<li>Reissuing a prior finding at the same severity level when it has recurred uncorrected, rather than escalating it.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Part 1 — Capital adequacy.</strong> A bank reports total assets of $500 million and Tier 1 capital of $30 million.</p>
+<p><strong>Simple leverage ratio:</strong> $30M ÷ $500M = <strong>6%</strong> — above the 5% well-capitalized leverage ratio threshold; looks adequate on this measure alone.</p>
+<p><strong>Risk-weighted assets calculation:</strong></p>
+<ul>
+<li>Cash and government securities: $50M × 0% risk weight = $0</li>
+<li>Residential mortgages: $100M × 50% risk weight = $50M</li>
+<li>Commercial real estate: $250M × 100% risk weight = $250M</li>
+<li>Commercial and industrial loans: $100M × 100% risk weight = $100M</li>
+<li><strong>Total risk-weighted assets: $0 + $50M + $250M + $100M = $400M</strong></li>
+</ul>
+<p><strong>Tier 1 risk-based capital ratio:</strong> $30M ÷ $400M = <strong>7.5%</strong> — below the 8% well-capitalized threshold for the Tier 1 risk-based ratio, placing the bank in the &quot;adequately capitalized&quot; Prompt Corrective Action category despite the leverage ratio looking fine.</p>
+<p><strong>Part 2 — Loan classification.</strong> A $2 million commercial loan is carried by bank management as &quot;Pass.&quot;</p>
+<p><strong>Independent examiner testing:</strong></p>
+<ul>
+<li>Collateral: Bank&#x27;s valuation used a 3-year-old appraisal at $2.2M; examiner obtains an updated appraisal showing current orderly liquidation value of <strong>$1.5M</strong>.</li>
+<li>Repayment capacity: Examiner recalculates the borrower&#x27;s global debt service coverage ratio (DSCR) using updated financials: <strong>0.85</strong> — below 1.0, indicating operating cash flow is insufficient to service the debt.</li>
+</ul>
+<p><strong>Classification determination:</strong> With DSCR below 1.0 (primary repayment source insufficient) and collateral value ($1.5M) below the loan balance ($2M, leaving a $500K unsecured/uncollateralized exposure), this loan has a well-defined weakness jeopardizing collection — <strong>reclassified from Pass to Substandard.</strong></p>
+<p><strong>Specific reserve calculation:</strong> Uncollateralized exposure: $2M loan − $1.5M collateral value = <strong>$500,000</strong>. Applying an estimated loss severity of 40% on that exposure: $500,000 × 40% = <strong>$200,000 additional specific reserve required</strong>, beyond whatever general reserve the bank already holds against this segment.</p>
+<p>Examination findings memo:</p>
+<p>&gt; <strong>Examination Findings — [Bank Name], [Exam Date]</strong></p>
+<p>&gt; <strong>Finding 1 (Capital — MRA):</strong> Tier 1 risk-based capital ratio is 7.5%, below the 8% well-capitalized threshold, despite a 6% leverage ratio appearing adequate. Bank falls into the &quot;adequately capitalized&quot; PCA category. Corrective action required within 60 days: capital restoration plan or capital injection.</p>
+<p>&gt; <strong>Finding 2 (Asset Quality — MRA):</strong> $2M commercial loan reclassified from Pass to Substandard based on updated collateral valuation ($1.5M current vs. $2.2M at origination) and recalculated DSCR of 0.85. Additional specific reserve of $200,000 required.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/financial-examiner/references/playbook.md">references/playbook.md</a> — load when calculating risk-weighted capital ratios, running loan classification testing, or assigning CAMELS component ratings.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/financial-examiner/references/red-flags.md">references/red-flags.md</a> — load when a specific ratio, loan, or reserve figure looks off and you need to know what it usually means.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/financial-examiner/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a Call Report or examination record needs a precise definition.</li>
+</ul>
+<h3>Sources</h3>
+<p>Interagency Uniform Financial Institutions Rating System (CAMELS) as used by the Federal Reserve, FDIC, OCC, and state banking regulators; Basel III risk-based capital framework and Prompt Corrective Action (PCA) capital category thresholds under 12 CFR Part 324/325; Uniform Retail Credit Classification and Account Management Policy for loan classification standards; Current Expected Credit Losses (CECL) accounting standard (ASC 326) for allowance adequacy. Specific figures in this file (risk weights, thresholds, reserve percentages) reflect commonly cited regulatory conventions — always confirm against the current applicable regulatory capital framework and the specific charter type&#x27;s requirements before finalizing a determination.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/financial-examiner/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add financial-examiner</code></p>
+</footer>
+</body>
+</html>

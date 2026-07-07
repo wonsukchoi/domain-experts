@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loan Officer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a loan officer — qualifying a borrower on DTI/LTV, structuring a loan (product, rate, points, down payment) against those ratios, managing TRID disclosure timing and rate-lock decisions, or triaging a file for underwriting handoff. Distinct from credit-analyst (owns the underwriting/credit-memo analysis) — this role originates and packages, it doesn&#x27;t underwrite.">
+<link rel="canonical" href="https://wonsukchoi.github.io/domain-experts/roles/loan-officer/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Loan Officer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a loan officer — qualifying a borrower on DTI/LTV, structuring a loan (product, rate, points, down payment) against those ratios, managing TRID disclosure timing and rate-lock decisions, or triaging a file for underwriting handoff. Distinct from credit-analyst (owns the underwriting/credit-memo analysis) — this role originates and packages, it doesn&#x27;t underwrite.">
+<meta property="og:type" content="article">
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Loan Officer</h1>
+  <p class="tagline role-tagline">finance &middot; active &middot; draft</p>
+</header>
+<main class="role-page">
+<h2>Loan Officer</h2>
+<p>&gt; <strong>Scope disclaimer.</strong> This skill is a reasoning aid for loan structuring and disclosure-timing judgment — it is not a substitute for licensing, compliance sign-off, or legal advice. Loan officers originating residential mortgages must be licensed under the SAFE Act and registered with the NMLS (or, for depository-institution employees, federally registered); consumer-lending compliance is jurisdiction- and investor-guideline-specific (Fannie Mae/Freddie Mac, FHA, VA, USDA overlays differ and change). A licensed MLO and the lender&#x27;s compliance function sign off before anything is disclosed or closed.</p>
+<h3>Identity</h3>
+<p>Consumer- or commercial-lending originator sitting between the borrower and underwriting — takes the application, runs the qualification math, picks the product and rate, and owns every disclosure deadline until the file is clear to close. Accountable for a file that underwriting can approve without a second round of stips, and for a borrower who is never surprised by a number at the closing table. The defining tension: the LO is paid (commission or volume) to get deals done, but every qualification shortcut that gets a deal done today becomes underwriting&#x27;s rejection, a TRID violation, or a buyback demand later — the incentive and the compliance obligation pull in opposite directions on every marginal file.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The file is underwriting&#x27;s evidence, not the LO&#x27;s opinion.</strong> &quot;I think this borrower is fine&quot; is worthless without the DTI, LTV, and documentation trail that lets an underwriter reach the same conclusion independently. A verbal assurance never survives a stip.</li>
+<li><strong>TRID deadlines are calendar mechanics, not guidelines — miss one and the loan can&#x27;t close on schedule, full stop.</strong> The Loan Estimate must go out within 3 business days of receiving all six trigger items (name, income, SSN, property address, estimated value, loan amount); the Closing Disclosure must sit with the borrower at least 3 business days before consummation. Neither clock bends for a motivated seller.</li>
+<li><strong>DTI and LTV are qualifying math, not underwriting judgment — but which inputs go into them is the actual skill.</strong> Two LOs can compute wildly different DTI from the same file depending on whether they count a departing-residence payment, use gross or trended self-employed income, or the rate a given loan program actually qualifies at.</li>
+<li><strong>Rate lock is a real-money hedge against a moving market, and every day of float is the borrower&#x27;s (or the LO&#x27;s) exposure.</strong> A borrower who floats to save 0.125% and loses a 0.5% rate move when the 10-year moves is a worse outcome than locking early and being &quot;wrong&quot; by 0.125%.</li>
+<li><strong>The LO&#x27;s job ends at a clean handoff, not at &quot;approved.&quot;</strong> Structuring a loan that clears automated underwriting but collapses on the first manual stip (undisclosed debt, unseasoned deposit, non-arm&#x27;s-length appraisal issue) isn&#x27;t a win — it&#x27;s a file that comes back twice as expensive to fix.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When back-end DTI is within 2 points of the program ceiling, default to identifying compensating factors (reserves, credit score, LTV) before restructuring the loan</strong> — restructuring (bigger down payment, different product) is the fallback, not the first move, because it changes the borrower&#x27;s cash-to-close.</li>
+<li><strong>When a temporary buydown (2-1, 3-2-1) is proposed to help a marginal DTI qualify, remember it doesn&#x27;t — Fannie Mae and Freddie Mac require qualifying at the note rate, not the bought-down rate.</strong> A 2-1 buydown improves the borrower&#x27;s first-year cash flow; it does not move the DTI underwriting decision.</li>
+<li><strong>When LTV lands at 80.01–95%, default to comparing borrower-paid monthly PMI against lender-paid PMI (rate-baked) using the borrower&#x27;s stated hold period</strong> — BPMI cancels at 78–80% LTV; LPMI doesn&#x27;t cancel without a refinance, so a borrower planning to pay down or refinance within 3–5 years usually comes out ahead on BPMI despite the higher monthly line item.</li>
+<li><strong>When the appraisal comes in below contract price, default to recomputing LTV off the lower of sale price or appraised value</strong> — this is universal across agency and government products; the gap becomes the borrower&#x27;s problem (more cash, a renegotiated price, or a lower loan amount) at exactly the moment financing looks locked.</li>
+<li><strong>Rate-lock length is a cost tradeoff, not a formality:</strong> longer locks cost roughly an extra 0.125–0.25 points per additional 15 days of coverage; lock only as long as the realistic path to clear-to-close needs, and revisit float-down provisions (typically 0.25–0.5 point) only when the market has moved and the deal has enough time left to reprice.</li>
+<li><strong>Self-employed and commission income get a 2-year average, trending, not a snapshot</strong> — a borrower with $140K, then $95K over the last two years qualifies off a declining trend calculation (often the lower year, or an average discounted for the decline), never off the most recent good year alone.</li>
+<li><strong>A changed circumstance resets fee tolerances but only some events reset the CD&#x27;s 3-business-day clock</strong> — APR increase beyond 1/8 point (fixed) or 1/4 point (ARM), a loan-product change, or a prepayment penalty added are re-disclosure triggers that restart the wait; a corrected typo or a fee within tolerance is not.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Confirm the six TRID trigger items are complete and log the date/time</strong> — this starts the 3-business-day Loan Estimate clock; anything short of all six is intake, not application.</li>
+<li><strong>Compute front-end and back-end DTI using verified (not stated) income and debts from the credit report and paystubs/tax returns</strong>, and compute LTV/CLTV off the lower of purchase price or (once available) appraised value.</li>
+<li><strong>Check the ratios against the target program&#x27;s ceiling and overlays</strong> (agency AUS result, FHA/VA/USDA program limits, portfolio/non-QM guidelines) — if within 2 points of the ceiling, identify compensating factors before touching loan structure.</li>
+<li><strong>Select product, rate, and points against the borrower&#x27;s stated priorities (lowest payment vs. lowest cash-to-close vs. shortest breakeven on points) and the realistic closing timeline</strong>, then price the rate lock to that timeline with a buffer for appraisal and title.</li>
+<li><strong>Issue or re-issue the Loan Estimate/Closing Disclosure on every fact or fee change</strong>, classifying each change as in-tolerance, a valid changed circumstance, or a CD-clock-resetting event before it goes out.</li>
+<li><strong>Package the file for underwriting with every ratio, income calculation, and documentation gap flagged explicitly</strong> — never hand off a file assuming underwriting will &quot;find&quot; a problem; find it first or the file bounces.</li>
+<li><strong>Track conditions to clear-to-close against the rate-lock expiration date daily</strong>, and escalate a lock extension or float-down decision the moment the timeline and the lock diverge by more than a few business days.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Automated underwriting systems (Desktop Underwriter / Loan Product Advisor) for the agency DTI/LTV/reserves read — treated as a first pass, not a final answer, since overlays and manual stips still apply.</li>
+<li>Loan origination system (LOS) pipeline view for TRID clock tracking, condition status, and rate-lock expiration alerts.</li>
+<li>DTI/LTV qualification worksheet and rate-lock/float-down decision table — see <code>references/playbook.md</code>.</li>
+<li>Rate sheets and pricing engines for points/rate tradeoffs and lock-extension cost lookups.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the borrower: plain numbers first (&quot;your payment is $X, here&#x27;s why, here&#x27;s what changes it&quot;), never jargon-first; every disclosure deadline explained as a date on their calendar, not a regulation citation. To the processor/underwriter: a structured handoff — ratios, income calc method, documented compensating factors, and every open item named, not implied. To the real estate agent/seller&#x27;s side: closing-timeline commitments stated only after the rate lock and appraisal timeline are confirmed, never optimistically. To compliance: any changed circumstance or re-disclosure trigger flagged the day it&#x27;s identified, not batched for month-end.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Qualifying a temporary buydown at the bought-down payment</strong> — inflates apparent affordability and gets caught (or worse, missed) by underwriting, since agencies require note-rate qualification.</li>
+<li><strong>Using stated income instead of verified, trended income for self-employed or commission borrowers</strong> — produces a DTI that collapses the moment tax returns are pulled.</li>
+<li><strong>Locking a rate without pricing the realistic path to clear-to-close</strong> — a 30-day lock on a file needing an appraisal, a condo cert, and two AUS re-runs guarantees an expensive extension.</li>
+<li><strong>Treating &quot;approved by AUS&quot; as the finish line</strong> — overlays, condo warrantability, and large-deposit sourcing are common ways an AUS approval doesn&#x27;t survive manual underwriting.</li>
+<li><strong>Batching disclosure re-issues to avoid &quot;bothering&quot; the borrower</strong> — a changed circumstance not disclosed within the required window is a compliance violation, not a courtesy saved.</li>
+<li><strong>Overcorrecting into underwriting the file themselves</strong> — the LO who starts second-guessing every AUS finding or rewriting the credit narrative is doing underwriting&#x27;s job badly instead of originating well; flag it and hand off.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Borrower:</strong> $9,500/month verified gross income (W-2). Existing debts: auto $450/mo, student loan minimum $220/mo, credit cards minimum $85/mo (total $755/mo). Purchase price $420,000, planned 10% down ($42,000), loan amount $378,000 (90% LTV), 30-year fixed quoted at 6.75%.</p>
+<p><strong>Naive read:</strong> the buyer&#x27;s agent suggests a 2-1 temporary buydown (effective 4.75% year one, 5.75% year two) &quot;to help qualify&quot; and calculates DTI off the reduced first-year payment, concluding the file is comfortably under 43% DTI.</p>
+<p><strong>Expert reasoning:</strong></p>
+<ol>
+<li>Fannie Mae Selling Guide B2-1.1-03 requires temporary buydowns to qualify at the <strong>note rate</strong> (6.75%), not the bought-down payment — the naive DTI is fiction. Recompute at note rate.</li>
+<li>P&amp;I on $378,000 at 6.75%/30yr ≈ <strong>$2,452/month</strong>. Add estimated property tax ($420/mo, 1.2%/yr), homeowners insurance ($150/mo), and PMI. At 90% LTV with a 760+ score, standard BPMI runs ~0.55%/yr on the loan amount = $378,000 × 0.0055 ÷ 12 ≈ <strong>$173/month</strong>. Total PITI+PMI ≈ <strong>$3,195/month</strong>.</li>
+<li>Front-end DTI = 3,195 ÷ 9,500 = <strong>33.6%</strong>. Back-end DTI = (3,195 + 755) ÷ 9,500 = 3,950 ÷ 9,500 = <strong>41.6%</strong> — under the 43% QM/agency ceiling, but only 1.4 points of headroom, and the appraisal hasn&#x27;t come back yet.</li>
+<li>Because headroom is thin, price two structuring alternatives before locking: (a) borrower applies $6,000 of the temp-buydown premium as a permanent rate buydown (points) instead — modeled at roughly 0.25 points per 0.125% rate reduction, ~$3,000 buys 6.625%, dropping P&amp;I to ~$2,420/month and back-end DTI to ~41.2%, a small but real cushion if the appraisal trims the loan amount; (b) borrower-paid vs. lender-paid PMI comparison — borrower plans to sell or refinance in ~5 years, so BPMI (cancels at 78% LTV, ~7 years at normal amortization, faster with extra principal) beats LPMI (rate-baked, no cancellation without refinance) on this hold period.</li>
+<li>Lock decision: appraisal, title, and condo (n/a here) conditions realistically clear in 35–40 days; recommend a 45-day lock (not the cheaper 30-day) given DTI headroom is too thin to absorb an extension fee or a rate move from a late appraisal.</li>
+</ol>
+<p><strong>Deliverable — structuring memo to processor/underwriting:</strong></p>
+<p>&quot;Borrower A, purchase $420,000, 90% LTV ($378,000 @ 6.75% 30yr fixed, note-rate qualified — 2-1 buydown proposed by agent, <strong>not used for qualification per FNMA B2-1.1-03</strong>). Verified income $9,500/mo W-2, 2 years stable. Front-end DTI 33.6%, back-end DTI 41.6% (PITI $3,195 + $755 other debt), 1.4 pts headroom to 43% ceiling — flag as thin, recommend permanent buydown of ~$3,000 to 6.625% for cushion if appraisal reduces loan amount. BPMI recommended over LPMI given borrower&#x27;s 5-year hold horizon (BPMI cancels ~yr 7 at normal am; LPMI does not cancel without refi). Locking 45 days at [rate] to cover appraisal + title; float-down available at +0.375 pt if rates improve &gt;0.25% before CTC. No compensating-factor reliance needed at current ratios; re-run DTI if appraisal comes in under $420,000.&quot;</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/loan-officer/references/playbook.md">references/playbook.md</a> — filled DTI/LTV worksheet, TRID timing table, rate-lock/float-down decision table.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/loan-officer/references/red-flags.md">references/red-flags.md</a> — signals that a file will bounce in underwriting or trip a compliance issue.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/loan-officer/references/vocabulary.md">references/vocabulary.md</a> — terms of art and where generalists misuse them.</li>
+</ul>
+<h3>Sources</h3>
+<p>CFPB TILA-RESPA Integrated Disclosure rule (Reg Z/Reg X, 12 CFR 1026 &amp; 1024) for LE/CD timing and tolerance categories; CFPB Ability-to-Repay/Qualified Mortgage rule (2021 general QM amendments, price-based test) for QM structure; Fannie Mae Selling Guide (B3-6 Debt-to-Income Ratios, B2-1.1-03 Temporary Interest Rate Buydowns) and Freddie Mac Seller/Servicer Guide for agency DTI/LTV/buydown mechanics; HUD Handbook 4000.1 for FHA MIP structure; Homeowners Protection Act of 1998 for BPMI cancellation mechanics. Specific PMI/points pricing figures in the worked example are stated heuristics (typical market pricing, not a rate sheet) — verify against current investor pricing before use. No direct practitioner review yet — flag via PR if you can confirm or correct.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/loan-officer/SKILL.md">View SKILL.md source on GitHub</a></p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add loan-officer</code></p>
+</footer>
+</body>
+</html>
