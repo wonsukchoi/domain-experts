@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 177 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 186 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -249,7 +249,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>19 — Life, Physical, and Social Science</strong> (0/66 drafted)</summary>
+<summary><strong>19 — Life, Physical, and Social Science</strong> (9/66 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -268,15 +268,15 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 19-1031.02 | Range Managers |  |
 |  | 19-1031.03 | Park Naturalists |  |
 |  | 19-1032.00 | Foresters |  |
-|  | 19-1041.00 | Epidemiologists |  |
+| ✅ | 19-1041.00 | Epidemiologists | [`epidemiologist`](./roles/epidemiologist/SKILL.md) |
 |  | 19-1042.00 | Medical Scientists, Except Epidemiologists |  |
 |  | 19-1099.00 | Life Scientists, All Other |  |
 |  | 19-2011.00 | Astronomers |  |
 |  | 19-2012.00 | Physicists |  |
 |  | 19-2021.00 | Atmospheric and Space Scientists |  |
-|  | 19-2031.00 | Chemists |  |
+| ✅ | 19-2031.00 | Chemists | [`chemist`](./roles/chemist/SKILL.md) |
 |  | 19-2032.00 | Materials Scientists |  |
-|  | 19-2041.00 | Environmental Scientists and Specialists, Including Health |  |
+| ✅ | 19-2041.00 | Environmental Scientists and Specialists, Including Health | [`environmental-scientist`](./roles/environmental-scientist/SKILL.md) |
 |  | 19-2041.01 | Climate Change Policy Analysts |  |
 |  | 19-2041.02 | Environmental Restoration Planners |  |
 |  | 19-2041.03 | Industrial Ecologists |  |
@@ -284,17 +284,17 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 19-2043.00 | Hydrologists |  |
 |  | 19-2099.00 | Physical Scientists, All Other |  |
 |  | 19-2099.01 | Remote Sensing Scientists and Technologists |  |
-|  | 19-3011.00 | Economists |  |
+| ✅ | 19-3011.00 | Economists | [`economist`](./roles/economist/SKILL.md) |
 |  | 19-3011.01 | Environmental Economists |  |
 |  | 19-3022.00 | Survey Researchers |  |
-|  | 19-3032.00 | Industrial-Organizational Psychologists |  |
-|  | 19-3033.00 | Clinical and Counseling Psychologists |  |
+| ✅ | 19-3032.00 | Industrial-Organizational Psychologists | [`industrial-organizational-psychologist`](./roles/industrial-organizational-psychologist/SKILL.md) |
+| ✅ | 19-3033.00 | Clinical and Counseling Psychologists | [`clinical-counseling-psychologist`](./roles/clinical-counseling-psychologist/SKILL.md) |
 |  | 19-3034.00 | School Psychologists |  |
 |  | 19-3039.00 | Psychologists, All Other |  |
 |  | 19-3039.02 | Neuropsychologists |  |
 |  | 19-3039.03 | Clinical Neuropsychologists |  |
 |  | 19-3041.00 | Sociologists |  |
-|  | 19-3051.00 | Urban and Regional Planners |  |
+| ✅ | 19-3051.00 | Urban and Regional Planners | [`urban-regional-planner`](./roles/urban-regional-planner/SKILL.md) |
 |  | 19-3091.00 | Anthropologists and Archeologists |  |
 |  | 19-3092.00 | Geographers |  |
 |  | 19-3093.00 | Historians |  |
@@ -313,11 +313,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 19-4051.02 | Nuclear Monitoring Technicians |  |
 |  | 19-4061.00 | Social Science Research Assistants |  |
 |  | 19-4071.00 | Forest and Conservation Technicians |  |
-|  | 19-4092.00 | Forensic Science Technicians |  |
+| ✅ | 19-4092.00 | Forensic Science Technicians | [`forensic-science-technician`](./roles/forensic-science-technician/SKILL.md) |
 |  | 19-4099.00 | Life, Physical, and Social Science Technicians, All Other |  |
 |  | 19-4099.01 | Quality Control Analysts |  |
 |  | 19-4099.03 | Remote Sensing Technicians |  |
-|  | 19-5011.00 | Occupational Health and Safety Specialists |  |
+| ✅ | 19-5011.00 | Occupational Health and Safety Specialists | [`occupational-health-safety-specialist`](./roles/occupational-health-safety-specialist/SKILL.md) |
 |  | 19-5012.00 | Occupational Health and Safety Technicians |  |
 
 </details>
