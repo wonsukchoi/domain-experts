@@ -1,5 +1,5 @@
 {
-  "count": 359,
+  "count": 371,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -158,6 +158,69 @@
       ]
     },
     {
+      "slug": "agricultural-equipment-operator",
+      "description": "Use when a task needs the judgment of an Agricultural Equipment Operator \u2014 calibrating planter seed population and singulation, diagnosing combine header or separator loss, sequencing planting or harvest across fields under a weather-constrained window, sizing machinery capacity in acres/hour against a season's acreage, or evaluating PTO/grain-bin entrapment safety on a job site.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-2091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/agricultural-equipment-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "agricultural-grader-sorter",
+      "description": "Use when a task needs the judgment of an Agricultural Grader/Sorter \u2014 calling a defect grade on a moving packing line, deciding whether a lot with a marginal QC sample gets accepted, hand re-sorted, downgraded, or held, choosing where to station a human grader relative to an optical sorter, or diagnosing why a lot's cull rate or customer chargebacks spiked.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/agricultural-grader-sorter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "agricultural-inspector",
+      "description": "Use when a task needs the judgment of an Agricultural Inspector \u2014 grading a lot of produce against a USDA grade standard's defect tolerances, evaluating agricultural water test results against FSMA microbial thresholds, checking a pesticide residue result against the commodity-specific EPA tolerance, deciding whether a finding warrants a stop-sale order versus a corrective-action letter, or verifying a facility's traceability records against a recall deadline.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/agricultural-inspector/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "agricultural-manager",
       "description": "Use when a task needs the judgment of a Farmer, Rancher, or other Agricultural Manager \u2014 making a planting/breeding/production decision under weather and market uncertainty, managing land and input costs, evaluating a capital investment (equipment, irrigation), or deciding how to respond to a crop/livestock health issue.",
       "category": "operations",
@@ -170,6 +233,27 @@
       "audit_score": null,
       "skill": "roles/agricultural-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "animal-breeder",
+      "description": "Use when a task needs the judgment of a livestock geneticist/animal breeder \u2014 selecting a sire against EPDs or genomic data, screening a proposed mating for inbreeding risk, deciding AI versus natural service, timing an estrus-synchronization protocol, or defending a breeding-goal tradeoff to a herd owner.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/animal-breeder/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -1596,6 +1680,27 @@
       ]
     },
     {
+      "slug": "crop-nursery-farmworker",
+      "description": "Use when a task needs the judgment of a crop, nursery, or greenhouse farmworker \u2014 judging harvest timing/ripeness by crop, reconciling piece-rate earnings against the minimum-wage or AEWR floor, deciding whether it's safe to re-enter a pesticide-treated field or greenhouse, managing heat-illness risk during peak-season labor, or running greenhouse IPM scouting and climate setpoint checks.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-2092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/crop-nursery-farmworker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "customer-service-representative",
       "description": "Use when a task needs the judgment of a Customer Service Representative \u2014 de-escalating an angry customer, deciding whether a policy exception is worth the cost, deciding when to escalate versus resolve on the spot, drafting a resolution response, or diagnosing why first-call-resolution is low for an issue type.",
       "category": "operations",
@@ -2492,6 +2597,27 @@
       ]
     },
     {
+      "slug": "faller",
+      "description": "Use when a task needs the judgment of a faller \u2014 reading a standing tree's lean and hang weight to pick a felling direction, deciding whether a tree can be brought down by hand or needs mechanical assist, planning notch/hinge/backcut geometry and escape routes before the first cut, or assessing a snag/widow-maker/hung-tree hazard before a crew works under it.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-4021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/faller/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "farm-labor-contractor",
       "description": "Use when a task needs the judgment of a Farm Labor Contractor \u2014 verifying FLC license/registration requirements before recruiting workers, preparing a compliant wage and job disclosure, truing up piece-rate pay against minimum wage, calculating an H-2A three-quarter guarantee shortfall, or evaluating joint-employer liability exposure with a grower client.",
       "category": "operations",
@@ -2524,6 +2650,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/farm-products-buyer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "farming-fishing-forestry-supervisor",
+      "description": "Use when a task needs the judgment of a first-line farming/fishing/forestry crew supervisor \u2014 setting or reconciling a piece rate against minimum-wage law, deciding whether to push a harvest through a weather window, staffing an H-2A or day-haul crew for a perishable pick, or sequencing field entry around a pesticide re-entry interval.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/farming-fishing-forestry-supervisor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2824,6 +2971,27 @@
       ]
     },
     {
+      "slug": "fishing-hunting-worker",
+      "description": "Use when a task needs the judgment of a Fishing and Hunting Worker \u2014 deciding whether to fish in marginal weather against a quota deadline, reading vessel stability and freeboard margin, running crew-share trip economics against fuel and bait costs, managing bycatch caps and gear compliance (TEDs/BRDs), or responding to cold-water man-overboard risk.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fishing-hunting-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "fitness-wellness-coordinator",
       "description": "Use when a task needs the judgment of a Fitness & Wellness Coordinator \u2014 screening a new participant for exercise readiness, sizing or defending a program's participation target, structuring a wellness incentive against HIPAA/ADA limits, auditing emergency-response readiness, or drawing the line between health coaching and a referral.",
       "category": "healthcare",
@@ -2982,6 +3150,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/forensic-science-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "forest-conservation-worker",
+      "description": "Use when a task needs the judgment of a Forest and Conservation Worker \u2014 planning or executing a seedling-planting contract, diagnosing a failed reforestation stocking survey, sizing fireline or a fuel break for a burn or suppression assignment, scheduling herbicide or mechanical treatment for invasive-species control, or setting a daily crew production quota for planting or thinning.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/forest-conservation-worker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4171,6 +4360,48 @@
       "skill": "roles/lodging-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "log-grader-scaler",
+      "description": "Use when a task needs the judgment of a Log Grader and Scaler \u2014 computing board-foot volume of a log or truckload under the Scribner/Doyle/International 1/4-inch scale rules, assigning a log grade (peeler/sawmill/utility) from measured defect, calculating a sweep/crook/rot deduction, or resolving a scale dispute between a logger or landowner and a mill.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-4023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/log-grader-scaler/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "logging-equipment-operator",
+      "description": "Use when a task needs senior logging-equipment-operator judgment \u2014 matching a feller-buncher/skidder/forwarder system to a cutting block's slope and stand, sequencing machines to avoid a felling-vs-extraction bottleneck, deciding when winch-assist or cable yarding replaces ground-based equipment, handling a hung tree without leaving the cab, or reconciling machine-hour cost against delivered $/ton.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-4022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/logging-equipment-operator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -5940,6 +6171,27 @@
       "audit_score": null,
       "skill": "roles/quality-control-systems-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "ranch-aquacultural-farmworker",
+      "description": "Use when a task needs the judgment of a Ranch and Aquacultural Farmworker \u2014 scoring livestock body condition and lameness, responding to a dissolved-oxygen crash in an aquaculture pond, running low-stress animal handling for vet work or transport, applying herd or pond biosecurity and quarantine protocol, or diagnosing a feed-conversion-ratio drift before it becomes a mortality event.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "45-2093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ranch-aquacultural-farmworker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

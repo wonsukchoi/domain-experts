@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 349 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 361 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -842,23 +842,23 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>45 — Farming, Fishing, and Forestry</strong> (0/14 drafted)</summary>
+<summary><strong>45 — Farming, Fishing, and Forestry</strong> (12/14 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 45-1011.00 | First-Line Supervisors of Farming, Fishing, and Forestry Workers |  |
-|  | 45-2011.00 | Agricultural Inspectors |  |
-|  | 45-2021.00 | Animal Breeders |  |
-|  | 45-2041.00 | Graders and Sorters, Agricultural Products |  |
-|  | 45-2091.00 | Agricultural Equipment Operators |  |
-|  | 45-2092.00 | Farmworkers and Laborers, Crop, Nursery, and Greenhouse |  |
-|  | 45-2093.00 | Farmworkers, Farm, Ranch, and Aquacultural Animals |  |
+| ✅ | 45-1011.00 | First-Line Supervisors of Farming, Fishing, and Forestry Workers | [`farming-fishing-forestry-supervisor`](./roles/farming-fishing-forestry-supervisor/SKILL.md) |
+| ✅ | 45-2011.00 | Agricultural Inspectors | [`agricultural-inspector`](./roles/agricultural-inspector/SKILL.md) |
+| ✅ | 45-2021.00 | Animal Breeders | [`animal-breeder`](./roles/animal-breeder/SKILL.md) |
+| ✅ | 45-2041.00 | Graders and Sorters, Agricultural Products | [`agricultural-grader-sorter`](./roles/agricultural-grader-sorter/SKILL.md) |
+| ✅ | 45-2091.00 | Agricultural Equipment Operators | [`agricultural-equipment-operator`](./roles/agricultural-equipment-operator/SKILL.md) |
+| ✅ | 45-2092.00 | Farmworkers and Laborers, Crop, Nursery, and Greenhouse | [`crop-nursery-farmworker`](./roles/crop-nursery-farmworker/SKILL.md) |
+| ✅ | 45-2093.00 | Farmworkers, Farm, Ranch, and Aquacultural Animals | [`ranch-aquacultural-farmworker`](./roles/ranch-aquacultural-farmworker/SKILL.md) |
 |  | 45-2099.00 | Agricultural Workers, All Other |  |
-|  | 45-3031.00 | Fishing and Hunting Workers |  |
-|  | 45-4011.00 | Forest and Conservation Workers |  |
-|  | 45-4021.00 | Fallers |  |
-|  | 45-4022.00 | Logging Equipment Operators |  |
-|  | 45-4023.00 | Log Graders and Scalers |  |
+| ✅ | 45-3031.00 | Fishing and Hunting Workers | [`fishing-hunting-worker`](./roles/fishing-hunting-worker/SKILL.md) |
+| ✅ | 45-4011.00 | Forest and Conservation Workers | [`forest-conservation-worker`](./roles/forest-conservation-worker/SKILL.md) |
+| ✅ | 45-4021.00 | Fallers | [`faller`](./roles/faller/SKILL.md) |
+| ✅ | 45-4022.00 | Logging Equipment Operators | [`logging-equipment-operator`](./roles/logging-equipment-operator/SKILL.md) |
+| ✅ | 45-4023.00 | Log Graders and Scalers | [`log-grader-scaler`](./roles/log-grader-scaler/SKILL.md) |
 |  | 45-4029.00 | Logging Workers, All Other |  |
 
 </details>
