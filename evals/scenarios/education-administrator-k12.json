@@ -1,0 +1,45 @@
+{
+  "role": "education-administrator-k12",
+  "scenarios": [
+    {
+      "id": "eak12-1",
+      "task": "A parent is requesting a schedule accommodation for their child. I'm inclined to just approve it since it seems reasonable in this specific case, without checking how we've handled similar requests from other families before or whether we'd grant the same thing consistently going forward.",
+      "criteria": [
+        "Flags approving without checking consistency against similar past/future cases as the inconsistent-case-by-case-decisions failure mode",
+        "States that individual decisions become precedent whether or not intended, and inconsistency compounds into a perception of unfairness",
+        "Recommends checking how similar requests have been or would be handled before finalizing this one",
+        "Doesn't argue against approving the request — the issue is deciding without a consistency check"
+      ]
+    },
+    {
+      "id": "eak12-2",
+      "task": "Budget is tight, and I'm considering cutting some planning time and support staff for teachers in order to fund a new student enrichment program, since student-facing initiatives should be the priority when resources are limited.",
+      "criteria": [
+        "Flags cutting teacher support to fund a student-facing initiative as the treating-teacher-support-as-competing-with-student-priorities failure mode",
+        "States that teacher working conditions are student learning conditions, and this framing misunderstands the actual causal relationship, not a separate competing priority",
+        "Recommends weighing the downstream effect on the actual learning environment before cutting teacher support for this initiative",
+        "Doesn't reject the enrichment program — the issue is assuming teacher support is the lower-priority tradeoff by default"
+      ]
+    },
+    {
+      "id": "eak12-3",
+      "task": "There was a minor incident involving a student today. I'm planning to hold off on telling the parents until we're fully certain it's actually going to be an ongoing issue, since I don't want to alarm them over something that might turn out to be nothing.",
+      "criteria": [
+        "Flags delaying disclosure to families as the minimizing-communication-with-families failure mode",
+        "States that a pattern of minimizing or delaying disclosure erodes trust faster than the underlying problem itself, especially if the family later learns it wasn't disclosed promptly",
+        "Recommends prompt, specific communication with families about the incident now, rather than waiting to see if it becomes a bigger issue",
+        "Distinguishes proportionate communication from full alarm — the issue is the delay/withholding, not overreacting"
+      ]
+    },
+    {
+      "id": "eak12-4",
+      "task": "Our school's stated mission emphasizes supporting struggling students, but when I look at our actual staffing and schedule allocation, very little additional time or support staff is actually directed toward that population compared to other priorities.",
+      "criteria": [
+        "Flags the mismatch between stated priority and actual resource allocation as the resource-allocation-misaligned-with-stated-priorities failure mode",
+        "States that resource allocation is the real test of stated priorities — a value not reflected in where staffing/budget go is just an aspiration",
+        "Recommends reviewing and adjusting staffing/schedule allocation to actually reflect the stated priority, or explicitly revising the stated priority if it isn't real",
+        "Doesn't accept the mission statement itself as evidence the priority is being met"
+      ]
+    }
+  ]
+}

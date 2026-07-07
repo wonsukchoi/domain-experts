@@ -1,0 +1,45 @@
+{
+  "role": "construction-manager",
+  "scenarios": [
+    {
+      "id": "cm-1",
+      "task": "The team has been putting significant coordination effort into speeding up a few tasks that have fallen behind schedule, since they're the most visibly late items on our tracker. I haven't checked whether these specific tasks are actually on the critical path.",
+      "criteria": [
+        "Flags directing effort at the most visibly late tasks without checking critical-path status as the managing-the-whole-task-list-instead-of-the-critical-path failure mode",
+        "States that only tasks on the critical path (zero float) actually determine the project's finish date — accelerating off-path tasks doesn't move it",
+        "Recommends identifying the actual critical path before directing schedule-recovery effort anywhere",
+        "Notes that visible lateness isn't the same as critical-path impact"
+      ]
+    },
+    {
+      "id": "cm-2",
+      "task": "This is a renovation of an older building with real unknowns about existing conditions (structure, utilities, hidden issues). Our schedule and budget were built with no contingency buffer, since we wanted to present the tightest, most competitive numbers to the client.",
+      "criteria": [
+        "Flags planning with zero contingency on a renovation project with real unknown conditions as the zero-or-inadequate-contingency failure mode",
+        "States that unexpected site conditions are a near-certainty on this kind of project, not an edge case, and a plan without contingency for them is unrealistic",
+        "Recommends building contingency sized to this project's actual uncertainty (higher for renovation/unknown-condition work) into both schedule and budget",
+        "Frames presenting a tight number with no contingency as setting up a predictable failure, not genuine competitiveness"
+      ]
+    },
+    {
+      "id": "cm-3",
+      "task": "A critical-path task depends on a permit approval and an inspection. We're planning to submit the permit request right when the prior task finishes, since that's when we'll actually be ready for the inspection to happen.",
+      "criteria": [
+        "Flags submitting the permit request only once ready for inspection as the underestimating-submittal-inspection-lead-times failure mode",
+        "States that approvals and inspections have real lead times that need to be planned backward from the critical-path need date, not initiated only once work is ready",
+        "Recommends submitting the permit request early enough that the approval lead time doesn't itself become the critical-path bottleneck",
+        "Frames this as a common, avoidable source of schedule delay"
+      ]
+    },
+    {
+      "id": "cm-4",
+      "task": "A subcontractor submitted an RFI (request for information) about a field question that's blocking their next step. It seems like a fairly minor clarification, so it's sitting in the queue behind some other items we consider more important, without an urgent target for responding.",
+      "criteria": [
+        "Flags deprioritizing the RFI based on it seeming minor rather than checking its critical-path impact, naming the slow-RFI-resolution failure mode",
+        "States that an unresolved RFI blocking critical-path work stalls the whole project regardless of how small the underlying question seems",
+        "Recommends checking whether this RFI is blocking critical-path work and prioritizing fast resolution if so, rather than judging urgency by the question's apparent size",
+        "Notes that the cost of a slow response is often much larger than the apparent size of the question"
+      ]
+    }
+  ]
+}

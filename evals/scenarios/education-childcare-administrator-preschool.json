@@ -1,0 +1,45 @@
+{
+  "role": "education-childcare-administrator-preschool",
+  "scenarios": [
+    {
+      "id": "ecap-1",
+      "task": "We staff every classroom at exactly the state-required minimum child-to-staff ratio, since that's what the law requires and staffing any higher would increase our costs unnecessarily.",
+      "criteria": [
+        "Flags staffing exactly at the legal minimum with no buffer as the treating-minimum-ratio-compliance-as-adequate-margin failure mode",
+        "States that staffing exactly to the minimum leaves no resilience for unpredictable moments (an incident, a sudden staff absence) where the minimum proves insufficient",
+        "Recommends building in some margin above the legal minimum ratio rather than treating it as a cost target to hit exactly",
+        "Frames this as a genuine risk-management gap, not just a preference for extra spending"
+      ]
+    },
+    {
+      "id": "ecap-2",
+      "task": "Our staff turnover has been rising steadily this year. I've been treating it as a recruiting pipeline issue — we just need to hire faster to backfill open positions — rather than something to dig deeper into.",
+      "criteria": [
+        "Flags treating rising turnover purely as a hiring/backfill problem as the ignoring-turnover-as-a-quality-signal failure mode",
+        "States that turnover should be read as a leading indicator of program quality and caregiving consistency, not just a staffing-cost problem",
+        "Recommends investigating the underlying cause (compensation, workload, management issues) rather than only speeding up recruiting",
+        "Connects the turnover trend to its effect on children's caregiving relationship consistency, not just operational continuity"
+      ]
+    },
+    {
+      "id": "ecap-3",
+      "task": "We pass every state licensing inspection with no issues and meet every regulatory requirement exactly. I consider that sufficient evidence that we're running a high-quality program.",
+      "criteria": [
+        "Flags equating licensing compliance with program quality as the compliance-as-ceiling-thinking failure mode",
+        "States that licensing requirements are a floor meant to prevent the worst outcomes, not a definition of a genuinely strong developmental program",
+        "Recommends evaluating the program against developmental and relational goals (curriculum quality, caregiving consistency, family engagement) beyond the compliance baseline",
+        "Doesn't dismiss the value of compliance — the issue is treating it as sufficient rather than a baseline"
+      ]
+    },
+    {
+      "id": "ecap-4",
+      "task": "To improve program quality, we've been adding staff, materials, and lower ratios beyond what's required, funded by keeping tuition increases well below what would actually cover the added costs — we're running at a deepening loss but the program quality has genuinely improved.",
+      "criteria": [
+        "Flags funding quality improvements through unsustainable margin compression as the quality-investment-beyond-financial-sustainability failure mode",
+        "States that a program that can't sustain its own cost structure isn't serving families well over the timeframe that actually matters, regardless of current quality",
+        "Recommends checking quality investments against a realistic, sustainable financial model rather than funding them through an unsustainable deepening loss",
+        "Frames financial sustainability as itself a component of quality, not separate from or opposed to it"
+      ]
+    }
+  ]
+}

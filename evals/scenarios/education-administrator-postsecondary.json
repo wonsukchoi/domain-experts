@@ -1,0 +1,45 @@
+{
+  "role": "education-administrator-postsecondary",
+  "scenarios": [
+    {
+      "id": "eap-1",
+      "task": "I've decided to restructure our core curriculum requirements — I have a clear plan and I'm confident it's the right call academically. I'm planning to announce it to faculty as the new policy next week, and I'll take questions at the announcement meeting.",
+      "criteria": [
+        "Flags announcing an already-finalized decision as bypassing shared governance, naming the failure mode explicitly",
+        "States that faculty consent on curriculum matters is a structural requirement, not a courtesy step, and routing around it typically fails or damages trust even if the decision has merit",
+        "Recommends engaging established governance processes (curriculum committee, department vote) genuinely before finalizing the decision, not after",
+        "Distinguishes a genuinely consultative process from informing faculty of a decision already made"
+      ]
+    },
+    {
+      "id": "eap-2",
+      "task": "We need to reduce department size due to budget pressure. I'm planning to handle this the same way a business would handle a staff reduction — identify underperforming positions and eliminate them on a normal HR timeline, including several tenured faculty lines.",
+      "criteria": [
+        "Flags applying a standard business restructuring process to tenured faculty positions as the treating-tenured-faculty-like-at-will-staff failure mode",
+        "States that tenured positions require a different process and timeline reflecting real, often contractually established protections, not a normal HR restructuring timeline",
+        "Recommends using appropriate governance and tenure-specific processes for any changes affecting protected faculty positions",
+        "Notes the legal and trust risks of skipping this distinction, beyond just the specific faculty affected"
+      ]
+    },
+    {
+      "id": "eap-3",
+      "task": "Our program just passed its accreditation review with no findings. I'm treating this as confirmation that we're providing strong educational value and don't need a separate look at program quality right now.",
+      "criteria": [
+        "Flags treating accreditation standing as evidence of educational quality as the compliance-mistaken-for-quality failure mode",
+        "States that accreditation is a floor requirement, not a definition of quality, and says relatively little about whether the program is actually serving students well",
+        "Recommends a separate, deliberate quality evaluation distinct from compliance/accreditation status",
+        "Doesn't dismiss the value of good accreditation standing — the issue is treating it as sufficient evidence of quality"
+      ]
+    },
+    {
+      "id": "eap-4",
+      "task": "We're launching a new graduate program and built the financial business case on an optimistic enrollment projection that assumes strong demand based on general interest in the field, since that's the number that makes the program's launch look most attractive to leadership.",
+      "criteria": [
+        "Flags building the business case on an optimistic, not conservative, enrollment projection as the optimistic-program-financial-planning failure mode",
+        "States that a program launched on unrealistic enrollment assumptions creates a financial and reputational problem later that a more conservative assessment would have surfaced earlier",
+        "Recommends stress-testing the financial model against a realistic or lower-enrollment scenario before launch",
+        "Frames presenting the most attractive number to leadership as the wrong basis for the actual planning decision"
+      ]
+    }
+  ]
+}

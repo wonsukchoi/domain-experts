@@ -1,0 +1,45 @@
+{
+  "role": "education-administrator-other",
+  "scenarios": [
+    {
+      "id": "eao-1",
+      "task": "Our marketing to prospective participants and our reports to our board both highlight strong enrollment growth this year. Completion rates have actually been declining, but enrollment is the number we're leading with since it's trending in the right direction.",
+      "criteria": [
+        "Flags leading with enrollment while completion declines as the optimizing-for-enrollment-over-completion failure mode",
+        "States that completion, not enrollment, is the real measure of program value, and the gap between the two is where real design problems hide",
+        "Recommends investigating why completion is declining even as enrollment grows, rather than continuing to report enrollment as the headline success metric",
+        "Frames the enrollment/completion gap as itself the thing needing explanation, not a detail to omit from reporting"
+      ]
+    },
+    {
+      "id": "eao-2",
+      "task": "Our program marketing claims graduates typically get hired into a specific well-paying role in the field, based on outcomes from when the program launched five years ago. We haven't checked whether that claim still holds given how much the field has changed since then.",
+      "criteria": [
+        "Flags relying on outdated outcome data as the unvalidated-outcome-claims failure mode",
+        "States that participants are making a direct cost-benefit decision based on this claim, and it needs current data validating it still holds",
+        "Recommends re-validating the job/outcome claim with current placement and wage data before continuing to use it in marketing",
+        "Doesn't assume the original claim is now false — the issue is the absence of recent validation"
+      ]
+    },
+    {
+      "id": "eao-3",
+      "task": "Our curriculum for this trade certification hasn't changed much in the past several years — it was carefully designed originally and covers the fundamentals well, so we haven't felt a need to revisit it against what employers in the field currently need.",
+      "criteria": [
+        "Flags the lack of ongoing employer/industry validation as the curriculum-drift-from-employer-need failure mode",
+        "States that curriculum designed well historically can lose real market value if it's not regularly validated against current industry need",
+        "Recommends engaging directly and regularly with employers in the field to check the curriculum still maps to current requirements",
+        "Doesn't assume the curriculum is now outdated — the issue is the absence of ongoing validation regardless of original design quality"
+      ]
+    },
+    {
+      "id": "eao-4",
+      "task": "We put most of our program budget and attention into strong academic content and instruction quality. Advising and financial aid navigation support exist but are pretty minimal — we consider them a secondary support function compared to the core academic program.",
+      "criteria": [
+        "Flags treating advising/support services as secondary to academic content as the support-services-treated-as-peripheral failure mode",
+        "States that practical barriers (not academic difficulty) are often the actual driver of non-completion for this population, so under-resourced support can undercut strong academic content",
+        "Recommends resourcing and designing support services with the same intentionality as the academic content, not as an afterthought",
+        "Notes that content quality doesn't matter for outcomes if participants can't navigate the practical barriers to attending consistently"
+      ]
+    }
+  ]
+}

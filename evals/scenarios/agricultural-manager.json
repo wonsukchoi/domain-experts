@@ -1,0 +1,45 @@
+{
+  "role": "agricultural-manager",
+  "scenarios": [
+    {
+      "id": "agm-1",
+      "task": "I'm planning next season's input purchases and equipment financing based on this year's favorable price and yield forecasts, since that's our best current estimate of what to expect.",
+      "criteria": [
+        "Flags planning solely against the favorable/expected scenario as the planning-only-against-the-expected-scenario failure mode",
+        "Recommends running break-even analysis under a more conservative price/yield scenario before committing to the financing",
+        "States that committing based only on favorable assumptions without checking resilience under a worse case is a common source of financial stress in a bad year",
+        "Doesn't reject using the favorable forecast as a planning input — the issue is not also checking the downside case"
+      ]
+    },
+    {
+      "id": "agm-2",
+      "task": "We're fully exposed to whatever the market price turns out to be at harvest — we haven't used forward contracts, futures, or crop insurance, since it seems simpler to just take whatever price the market gives us when the crop is ready.",
+      "criteria": [
+        "Flags full exposure to price risk with no hedging as the full-exposure-to-price-risk-without-hedging failure mode",
+        "States that the operation is a price-taker in a market it doesn't control, and hedging instruments exist specifically to manage this risk",
+        "Recommends using available hedging instruments (forward contracts, futures, crop insurance) appropriate to the operation's scale rather than accepting full exposure by default",
+        "Frames this as an avoidable risk-management gap, not an unavoidable cost of farming"
+      ]
+    },
+    {
+      "id": "agm-3",
+      "task": "We've been maximizing this year's output by increasing tillage intensity and grazing density beyond our usual levels, since it's boosting this season's yield and herd output noticeably.",
+      "criteria": [
+        "Flags pushing tillage/grazing intensity for short-term output gains as the maximizing-this-years-yield-at-the-expense-of-long-term-productivity failure mode",
+        "States that these practices can degrade long-term soil or land productive capacity even while boosting the current season's numbers",
+        "Recommends evaluating the practice against its multi-year effect on land/herd productivity, not just this season's output",
+        "Frames soil and herd health as a capital account being drawn down, not an unrelated concern separate from this year's yield"
+      ]
+    },
+    {
+      "id": "agm-4",
+      "task": "Last season we made a well-reasoned planting decision based on the best available seasonal forecast at the time, but an unusual, largely unforecastable weather event hurt the yield anyway. I'm treating this as a mistake we need to avoid repeating and am planning to make a very different, more conservative decision this year based purely on last year's bad outcome.",
+      "criteria": [
+        "Flags judging the prior decision as wrong purely because of the bad outcome, naming the judging-past-decisions-purely-by-outcome failure mode",
+        "States that a well-reasoned decision that turned out badly due to unforecastable conditions isn't evidence of poor judgment",
+        "Recommends evaluating whether the reasoning process at the time was actually sound, rather than reflexively overcorrecting based on last year's result alone",
+        "Distinguishes a genuinely flawed decision process from a sound decision that had a bad outcome due to genuine uncertainty"
+      ]
+    }
+  ]
+}

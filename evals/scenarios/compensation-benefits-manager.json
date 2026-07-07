@@ -1,0 +1,45 @@
+{
+  "role": "compensation-benefits-manager",
+  "scenarios": [
+    {
+      "id": "cbm-1",
+      "task": "For benchmarking our software engineering roles, I'm using a broad national tech-industry average salary survey, since it's the most comprehensive industry-wide dataset we have access to.",
+      "criteria": [
+        "Flags using a broad industry-wide average as the generic-benchmarking failure mode",
+        "States that the relevant comparison set is who the organization actually competes with for that specific talent (role, level, geography), not a generic industry average",
+        "Recommends benchmarking against the actual competitive talent market for this specific role and geography",
+        "Notes that a broad average can produce pay decisions calibrated to the wrong comparison set even though it looks data-driven"
+      ]
+    },
+    {
+      "id": "cbm-2",
+      "task": "We're comparing our offer to a competing offer a candidate received, and we're doing it purely on base salary since that's the cleanest apples-to-apples number to compare.",
+      "criteria": [
+        "Flags comparing base salary alone as the base-salary-only-comparison failure mode",
+        "States that total compensation (base, bonus, equity, benefits) is the real unit of comparison, and a base-only comparison can misrepresent competitiveness",
+        "Recommends comparing full package value between the two offers rather than base salary in isolation",
+        "Notes that different components matter differently to different candidates, which a base-only view misses entirely"
+      ]
+    },
+    {
+      "id": "cbm-3",
+      "task": "We haven't run a formal pay equity analysis in a while — we plan to look into it if a complaint ever comes up, but haven't proactively scheduled one otherwise.",
+      "criteria": [
+        "Flags waiting for a complaint to trigger analysis as the reactive-only-equity-audits failure mode",
+        "States that unexplained gaps found proactively are cheaper and less damaging to address than ones surfaced by a complaint or external event",
+        "Recommends running pay equity audits on a regular, proactive cadence controlling for legitimate factors (role, level, tenure, performance)",
+        "Frames this as a standing practice, not a reactive response mechanism"
+      ]
+    },
+    {
+      "id": "cbm-4",
+      "task": "We don't have defined negotiation ranges per level — final offers are largely determined by how much a candidate pushes back during the offer conversation, and whoever negotiates hardest tends to end up with a meaningfully better package.",
+      "criteria": [
+        "Flags the absence of bounded negotiation ranges as the unbounded-negotiation failure mode",
+        "States that this systematically rewards negotiation assertiveness rather than role/market value, and compounds into structural inequity over time",
+        "Recommends establishing defined negotiation ranges per level to constrain how much individual negotiation skill alone can distort pay outcomes",
+        "Names the specific risk: pay ends up correlated with who negotiates more assertively rather than the value of the work"
+      ]
+    }
+  ]
+}
