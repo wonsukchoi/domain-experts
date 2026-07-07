@@ -1,0 +1,45 @@
+{
+  "role": "financial-risk-specialist",
+  "scenarios": [
+    {
+      "id": "frs-1",
+      "task": "I'm reporting this portfolio's 1-day 95% VaR as $500,000 to the risk committee. I'm not including an expected shortfall figure since VaR is the standard metric everyone expects to see.",
+      "criteria": [
+        "Flags reporting VaR alone without expected shortfall as the failure mode",
+        "States that VaR is a probabilistic threshold, not a worst-case number, and doesn't tell you how bad losses get beyond that threshold",
+        "Recommends reporting expected shortfall (conditional VaR) alongside VaR to capture tail severity",
+        "States that a VaR-only report tells only part of the story"
+      ]
+    },
+    {
+      "id": "frs-2",
+      "task": "I'm setting this desk's daily VaR limit at $1 million since that's the round number that seems typical for a book of this size in the industry, without deriving it from our actual capital base and stated risk appetite.",
+      "criteria": [
+        "Flags adopting an industry-typical round number without deriving it from capital base as the failure mode",
+        "States that a risk limit is only meaningful when derived from actual capital base and stated risk appetite, not adopted as an industry-typical figure",
+        "Recommends deriving the limit from the organization's actual capital base and a stated risk-appetite percentage",
+        "States that an undebrived limit can't be defended when someone asks why it's set where it is"
+      ]
+    },
+    {
+      "id": "frs-3",
+      "task": "The trading desk describes this position as 'fully hedged' using an offsetting instrument with a somewhat different underlying and expiration timing. I'm accepting this characterization and reporting the position as having no meaningful remaining risk.",
+      "criteria": [
+        "Flags accepting 'hedged' without quantifying residual basis risk as the failure mode",
+        "States that a hedge reduces exposure but virtually never eliminates it, and residual basis risk needs to be quantified, not assumed away",
+        "Recommends quantifying the residual basis risk from the timing/instrument/underlying differences before accepting the position as meaningfully hedged",
+        "States that 'hedged' without a number attached is an incomplete answer"
+      ]
+    },
+    {
+      "id": "frs-4",
+      "task": "For this quarter's stress test, I'm only running scenarios based on replaying historical crisis periods (2008, a past drawdown) that are already in our historical dataset.",
+      "criteria": [
+        "Flags relying only on historical scenarios as the failure mode",
+        "States that the next crisis rarely repeats the last one's exact shape, and historical-only scenarios miss genuinely novel stress paths",
+        "Recommends including at least one scenario beyond the historical dataset's worst observed event, and considering a reverse stress test",
+        "Explains that reverse stress testing works backward from a specified loss level to find what conditions would produce it, catching breaking points historical replay can't"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "computer-information-research-scientist",
+  "scenarios": [
+    {
+      "id": "cirs-1",
+      "task": "My paper includes a formal derivation with several equations characterizing the proposed loss function, but the actual training code just uses a simpler heuristic loss that doesn't correspond to what the equations describe. I'm keeping the derivation in since it makes the method look more rigorous.",
+      "criteria": [
+        "Flags including the equation that doesn't recur in the code as mathiness, naming the failure mode explicitly",
+        "States that mathiness is an equation that looks rigorous but adds no precision beyond the prose, and doesn't recur in the algorithm or code",
+        "Recommends removing the decorative derivation or making the code actually implement what the equations describe",
+        "States that this borrows credibility the analysis hasn't earned"
+      ]
+    },
+    {
+      "id": "cirs-2",
+      "task": "My paper's reproducibility statement says 'code and data available upon request from the authors,' since I haven't set up a public repository yet but I'm happy to share materials if someone actually emails me.",
+      "criteria": [
+        "Flags 'available upon request' as reproducibility theater, naming the failure mode",
+        "States that reproducibility is a released-artifact fact, not a claimed property, and 'upon request' is a known substitute pattern for an actual repo link and commit hash",
+        "Recommends publishing an actual repository with a pinned environment and commit hash rather than an upon-request offer",
+        "Notes that a claim of reproducibility with nothing actually submitted doesn't clear even the lowest artifact badge tier"
+      ]
+    },
+    {
+      "id": "cirs-3",
+      "task": "I'm planning an experiment that manipulates what content users see on a platform to study behavioral effects. I'm proceeding based on the platform's existing general terms of service, which broadly cover data use, without a separate project-specific consent or IRB-equivalent review.",
+      "criteria": [
+        "Flags relying on the platform's general terms of service as sufficient sign-off, naming the ToS-as-consent failure mode",
+        "States that a platform's blanket data-use policy was never scoped to cover a behavior-manipulating experiment and isn't a substitute for project-specific review",
+        "Recommends routing this experiment through a project-specific consent or IRB-equivalent review before collecting data",
+        "References the historical precedent of this exact failure mode being publicly walked back after the fact"
+      ]
+    },
+    {
+      "id": "cirs-4",
+      "task": "I'm finalizing my NSF CISE proposal. The scientific content is strong, but the Project Description runs 17 pages against the 15-page cap, and I'm treating that as a soft target I can slightly exceed given how compelling the science is.",
+      "criteria": [
+        "Flags treating the page cap as a soft target as the failure mode",
+        "States that proposal caps are mechanical, pass/fail gates a program officer checks first, not soft targets to negotiate against scientific quality",
+        "Recommends cutting the Project Description to meet the 15-page cap before submission, regardless of scientific strength",
+        "States that a scientifically strong proposal exceeding the cap gets administratively returned unread"
+      ]
+    }
+  ]
+}

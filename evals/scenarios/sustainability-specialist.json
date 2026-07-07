@@ -1,0 +1,45 @@
+{
+  "role": "sustainability-specialist",
+  "scenarios": [
+    {
+      "id": "ss2-1",
+      "task": "I'm presenting our Scope 3 emissions estimate (derived from spend-based industry averages) in the same table, with the same decimal precision, as our metered Scope 1 and Scope 2 figures, without any distinguishing note about its estimation basis.",
+      "criteria": [
+        "Flags presenting Scope 3 with the same apparent precision as metered data as the failure mode",
+        "States that Scope 1/2 are typically measurable with real precision while Scope 3 is often estimated, and presenting them with uniform precision misrepresents the data",
+        "Recommends flagging the Scope 3 figure's estimation methodology and confidence level explicitly, distinct from the metered data",
+        "Notes this overstates confidence in what is fundamentally a modeled estimate"
+      ]
+    },
+    {
+      "id": "ss2-2",
+      "task": "For our corporate GHG footprint, we're using operational control boundary for one subsidiary (which excludes a high-emissions joint venture from our total) and equity share boundary for another subsidiary (which includes a favorable low-emissions joint venture), each choice individually justifiable.",
+      "criteria": [
+        "Flags switching boundary methodology between entities as the failure mode",
+        "States that the organizational boundary approach should be applied consistently across every entity, not adjusted per entity to produce a favorable result",
+        "Recommends applying one consistent boundary method across the entire consolidation",
+        "States that this undermines the footprint's credibility even if each individual choice has a plausible justification"
+      ]
+    },
+    {
+      "id": "ss2-3",
+      "task": "We're preparing our sustainability report under a framework (like CSRD/ESRS) that specifically requires double materiality. I ran a single materiality assessment focused only on financial materiality (how sustainability issues affect the company), since that's the analysis I'm most familiar with.",
+      "criteria": [
+        "Flags running single materiality when the framework requires double materiality as a compliance failure",
+        "States that some frameworks specifically require both financial materiality and impact materiality, and a single-materiality assessment under such a framework is noncompliant",
+        "Recommends running the full double materiality assessment (both financial and impact) as required by the applicable framework",
+        "Frames this as a compliance requirement, not just an analytical preference"
+      ]
+    },
+    {
+      "id": "ss2-4",
+      "task": "For calculating Scope 2 emissions from purchased electricity, I'm using a generic global-average grid emission factor rather than the specific regional grid factor for the actual location and year of the electricity purchased, since the global average is simpler to apply consistently.",
+      "criteria": [
+        "Flags defaulting to a generic global-average factor when a more specific one is available as the failure mode",
+        "States that the most geographically and temporally specific factor available produces a materially different and more defensible result than a generic global-average or outdated figure",
+        "Recommends using the current-year regional grid emission factor instead of the generic global average",
+        "Notes this is a common, avoidable source of error"
+      ]
+    }
+  ]
+}

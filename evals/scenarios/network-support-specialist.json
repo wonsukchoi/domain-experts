@@ -1,0 +1,45 @@
+{
+  "role": "network-support-specialist",
+  "scenarios": [
+    {
+      "id": "nss-1",
+      "task": "I found a clear duplex mismatch signature (late collisions on the near side, and the peer already confirmed hard-set to full-duplex in a recent change ticket) and fixed it by correcting the duplex setting. Interface counters cleared and throughput returned to normal. I'm now re-running the entire 7-step diagnosis from scratch to double-check, since I learned that verification matters.",
+      "criteria": [
+        "Flags re-running the full diagnosis from scratch as unnecessary overcorrection, naming the overcorrecting-on-verify-end-to-end failure mode",
+        "States that the targeted end-to-end check the fix actually warrants (confirming the specific counters cleared and functionality returned) is sufficient here, not a full re-diagnosis",
+        "Recommends running the specific verification tied to the already-proven cause rather than re-litigating it",
+        "Notes this burns resolution-clock time without adding diagnostic value"
+      ]
+    },
+    {
+      "id": "nss-2",
+      "task": "I found late collisions on our near-side interface counters, and the peer device is a customer's own router outside our organization's control. I'm insisting we get access to pull the far-end counters before taking any action, even though the near-side signature alone is already sufficient to act on.",
+      "criteria": [
+        "Flags insisting on far-end counters that are outside the org's control and add nothing to an already-sufficient near-side signature as overcorrection",
+        "States that when the far end is outside the org's control and the near-side signature alone is sufficient to act on, escalating for that data delays the fix without de-risking it",
+        "Recommends acting on the sufficient near-side evidence rather than blocking on unavailable/unnecessary far-end data",
+        "Distinguishes this from cases where far-end data genuinely is needed and available"
+      ]
+    },
+    {
+      "id": "nss-3",
+      "task": "Throughput on a link dropped right after a maintenance window that included an unrelated ACL push. I'm attributing the throughput drop to that ACL change based purely on the timing, even though the interface counters actually show a classic duplex-mismatch fingerprint (late collisions on one side, CRC errors on the other) that has nothing to do with ACLs.",
+      "criteria": [
+        "Flags blaming the most recent change by proximity in time without confirming its mechanism as the overcorrecting-on-recent-change-matters failure mode",
+        "States that recency should be treated as one lead to test, not confirmation, especially when the counter signature points to a different, unrelated cause",
+        "Recommends investigating the duplex-mismatch signature the counters actually show rather than attributing the issue to the ACL push",
+        "Notes that pinning the cause on an unrelated recent change delays finding the actual root cause"
+      ]
+    },
+    {
+      "id": "nss-4",
+      "task": "One user is loudly and repeatedly escalating a minor, single-workstation connectivity issue, insisting it be treated as the highest priority. Meanwhile a whole building segment has a reported but calmly-worded outage ticket. I'm prioritizing the loud single-user ticket as P1 since it's demanding immediate attention.",
+      "criteria": [
+        "Flags prioritizing by escalation volume/urgency of tone rather than actual scope of impact as the failure mode",
+        "States that severity is defined by scope of impact, not by how urgently the ticket was escalated",
+        "Recommends prioritizing the whole-segment outage as the higher severity ticket regardless of the loud single-user complaint's tone",
+        "States that getting this backward burns the SLA clock on the wrong ticket first"
+      ]
+    }
+  ]
+}

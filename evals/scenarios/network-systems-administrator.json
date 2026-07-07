@@ -1,0 +1,45 @@
+{
+  "role": "network-systems-administrator",
+  "scenarios": [
+    {
+      "id": "nsa-1",
+      "task": "The Ansible playbook ran across the fleet and reported 'changed' with exit code 0 on every device. I'm treating this as confirmation the change succeeded and the service is running correctly on all devices, without an independent health check.",
+      "criteria": [
+        "Flags trusting the automation tool's own success signal without independent verification as the failure mode",
+        "States that the tool running successfully isn't the same as verifying the outcome it was supposed to produce",
+        "Recommends running an independent health check (e.g. confirming the service is actually up and responding) rather than relying on the automation's own reported status",
+        "Notes that a subset of devices can report success while the service never actually came back up"
+      ]
+    },
+    {
+      "id": "nsa-2",
+      "task": "During the bake window after a firmware push, I only monitored BGP/OSPF reconvergence and VPN reconnect rate, since those were the two metrics named in the rollback trigger. Both held clean throughout the window, so I'm calling the change fully successful.",
+      "criteria": [
+        "Flags watching only the named rollback-trigger metrics as potentially missing an unmeasured regression, naming the failure mode",
+        "States that a clean bake on the named signals can still miss something the firmware push regressed that those specific metrics don't cover",
+        "Recommends broader monitoring or spot-checking during the bake window beyond just the named rollback triggers, especially for behaviors not directly captured by those two metrics",
+        "Doesn't dismiss the two named metrics — the issue is treating them as the complete picture"
+      ]
+    },
+    {
+      "id": "nsa-3",
+      "task": "During an emergency, I hand-patched one device directly to fix an urgent issue, then moved on without updating the Ansible/NetBox source-of-truth record for that device.",
+      "criteria": [
+        "Flags not updating the config-management source of truth after the emergency hand-patch as the failure mode",
+        "States that the live device and the recorded config now diverge, risking the next fleet-wide push reverting the emergency fix or failing against a device that no longer matches its recorded state",
+        "Recommends updating the config-management source of truth to reflect the emergency change as soon as possible after the incident",
+        "Frames this as a standing risk until reconciled, not a one-time inconvenience"
+      ]
+    },
+    {
+      "id": "nsa-4",
+      "task": "A staged rollout batch failed its bake window and I rolled it back correctly. I noted the rollback in the incident log and moved on to other priorities, without rescheduling the fixed version with an owner and a new date.",
+      "criteria": [
+        "Flags letting the deferred remediation drop off the backlog without rescheduling as the failure mode",
+        "States that rolling back correctly isn't sufficient — the underlying vulnerability or deadline reopens with no one visibly on the hook if the fix isn't rescheduled",
+        "Recommends rescheduling the fixed version with a specific owner and date rather than letting it quietly drop from the backlog",
+        "Notes the risk if this was tied to a compliance/exploitation deadline like a KEV remediation window"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "credit-counselor",
+  "scenarios": [
+    {
+      "id": "cc2-1",
+      "task": "I'm calculating this client's proposed DMP payment using an assumed generic reduced rate of 10% APR across all their creditors, without checking what our agency's actual currently negotiated concession rates are with these specific creditors.",
+      "criteria": [
+        "Flags using an assumed generic rate instead of verified agency-negotiated terms as the failure mode",
+        "States that a DMP's value comes from actual negotiated creditor concessions, not a generic assumed rate",
+        "Recommends verifying the actual current negotiated concession rates for these specific creditors before calculating the DMP payment",
+        "Notes that assuming a generic rate overstates what the plan will actually accomplish"
+      ]
+    },
+    {
+      "id": "cc2-2",
+      "task": "After calculating this client's proposed DMP payment with real negotiated rates, the payment still exceeds their disposable income by a meaningful margin. I'm enrolling them in the DMP anyway since it's still better than their current situation.",
+      "criteria": [
+        "Flags enrolling the client in an unsustainable DMP as the failure mode",
+        "States that when a proposed DMP payment exceeds sustainable disposable income, the counselor should escalate to bankruptcy or settlement options rather than enroll the client in an unsustainable plan",
+        "Recommends evaluating debt settlement or bankruptcy instead, given the DMP doesn't fit",
+        "States that 'better than current situation' doesn't make an unsustainable plan the right recommendation"
+      ]
+    },
+    {
+      "id": "cc2-3",
+      "task": "A client needs pre-bankruptcy credit counseling. I'm providing it through our agency without checking whether we're specifically on the approved provider list for the bankruptcy court district where the client is filing.",
+      "criteria": [
+        "Flags providing counseling without confirming approved-provider status for the specific court district as the failure mode",
+        "States that federal law requires counseling from a specifically approved agency for the applicable court district, not just any nonprofit-sounding provider",
+        "Recommends confirming this agency's approval status for the applicable district before providing the counseling",
+        "States that counseling from an unapproved agency doesn't satisfy the legal requirement regardless of quality"
+      ]
+    },
+    {
+      "id": "cc2-4",
+      "task": "This client has abandoned two prior debt payoff attempts before completing them. I'm recommending the avalanche method (highest interest rate first) since it's mathematically optimal for minimizing total interest paid.",
+      "criteria": [
+        "Flags defaulting to the mathematically optimal method without considering the client's follow-through history as the failure mode",
+        "States that the right payoff order should match the client's actual behavioral pattern, and this client's history of abandoning plans favors the snowball method for early momentum",
+        "Recommends the snowball method (smallest balance first) given this client's specific follow-through history",
+        "States that a technically superior plan nobody sticks with is worse than a good-enough plan that gets completed"
+      ]
+    }
+  ]
+}

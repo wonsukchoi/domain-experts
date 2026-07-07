@@ -1,0 +1,45 @@
+{
+  "role": "computer-user-support-specialist",
+  "scenarios": [
+    {
+      "id": "cuss-1",
+      "task": "A caller says they're a VP and their account is locked right before an urgent board call in 5 minutes, insisting there's no time to verify identity through a separate channel. I'm resetting their MFA and credentials directly based on the urgency of the situation.",
+      "criteria": [
+        "Flags skipping identity verification under time pressure as the failure mode",
+        "States that identity verification is a precondition on any account-state action, not a step that yields to urgency",
+        "Recommends verifying identity through an independent channel before performing the reset, regardless of the stated urgency",
+        "References the pattern of real breaches (e.g. the MGM-style incident) that started with exactly this kind of skipped verification under pressure"
+      ]
+    },
+    {
+      "id": "cuss-2",
+      "task": "A ticket came in tagged as L1-capable, but I escalated it to tier 2 immediately without spending the couple minutes checking the obvious, most common cause first, since escalating felt like the safer, faster move.",
+      "criteria": [
+        "Flags reflexive escalation without testing the obvious cause first as the failure mode",
+        "States that the boring, obvious cause should be tested before escalating or reaching for an exotic explanation",
+        "Recommends spending the brief time to test the obvious theory before escalating an L1-capable ticket",
+        "Notes this shows up as a %Resolved-L1-Capable miss even when aggregate FCR looks fine"
+      ]
+    },
+    {
+      "id": "cuss-3",
+      "task": "The same user has submitted 'internet is down' incidents five times in the past week, each resolved individually by restarting their connection. I've closed all five tickets as resolved without ever opening a problem ticket to investigate the shared root cause.",
+      "criteria": [
+        "Flags closing repeated incidents without opening a problem ticket as the failure mode",
+        "States that a problem is the shared root cause under repeated incidents, and collapsing incident and problem tickets means the same incidents keep recurring — resolved every time, fixed never",
+        "Recommends opening a problem ticket to investigate the shared root cause behind the repeated incidents",
+        "Names the specific pattern (same-symptom recurrence) as the trigger for treating this as a problem, not just another incident"
+      ]
+    },
+    {
+      "id": "cuss-4",
+      "task": "A user asked a low-risk question about their printer's IP address configuration. I ran the same full identity-verification process through an independent channel that I use for account/credential changes, since I've learned to always verify identity carefully.",
+      "criteria": [
+        "Flags applying heavy verification to a low-risk, non-account-touching request as overcorrection",
+        "States that identity verification is specifically required for requests touching identity, credentials, MFA, or account-state changes, not every request",
+        "Recommends reserving the heavy verification gate for account-state-touching requests and handling low-risk informational requests normally",
+        "Notes this overcorrection drags average speed to answer down for no security benefit on this request type"
+      ]
+    }
+  ]
+}
