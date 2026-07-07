@@ -33,6 +33,7 @@ Underwrites commercial credit risk on a single borrower or borrowing group — s
 - **When collateral quality is uncertain, discount the advance rate before discounting the deal** — a borrowing base at 80% of eligible AR and 50% of eligible inventory, ineligibles carved out (over-90-day AR, related-party receivables, obsolete stock), is a structuring lever, not a rejection.
 - **Rate the borrower, not the collateral, for the pass/criticized line — then let collateral set loss severity.** Weak repayment capacity with strong collateral is still a criticized credit; strong collateral only changes how much is at risk if it defaults, per OCC's Rating Credit Risk framework.
 - **A "clean" trailing-12 that doesn't reconcile to the tax return or bank statements is itself the finding** — spend the time to tie it out before trusting any ratio built on it.
+- **When adjusting a pool-level reserve for qualitative/environmental factors, only a substantiated event as of the measurement date moves the number** — a confirmed, publicly announced base-closure six months out is a substantiated event requiring a reserve build now; an unconfirmed rumor of the same closure isn't, even though both point at the same future loss. The test is evidentiary status at the measurement date, not plausibility of the forecast.
 
 ## Decision framework
 
@@ -64,6 +65,7 @@ To the loan officer: direct about what the deal needs to get to yes — "fundabl
 - **Generic stress test** — applying a flat 10% haircut to everyone instead of modeling the specific concentration or cost exposure that this borrower actually carries.
 - **Covenant boilerplate** — copying the standard covenant package instead of structuring around the specific weaknesses found in this file.
 - **Collateral substituting for cash flow analysis** — rating a weak-repayment credit as acceptable because collateral coverage is strong, when collateral only affects loss-given-default, not probability of default.
+- **Stalling on capitalized program terminology instead of naming the program** — "Eligible Lender" and "Eligible Borrower" (capitalized) are defined terms from a specific guaranteed-loan program's term sheet, not generic underwriting vocabulary; asking "which program?" when the terminology itself already narrows the field wastes the response instead of naming the likely program and answering against its known terms.
 
 ## Worked example
 
