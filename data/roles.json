@@ -1,5 +1,5 @@
 {
-  "count": 317,
+  "count": 326,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1666,6 +1666,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/database-architect/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dental-assistant",
+      "description": "Use when a task needs the judgment of a dental assistant \u2014 sequencing instrument transfer during a procedure, troubleshooting a retake-worthy radiograph before re-exposing the patient, tracing a failed sterilization-cycle indicator back to the affected instrument batches, or timing a chairside material mix against its working-time window across multiple prepped teeth.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dental-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3860,6 +3881,27 @@
       ]
     },
     {
+      "slug": "massage-therapist",
+      "description": "Use when a task needs the judgment of a massage therapist \u2014 screening a new client's intake form for contraindications, choosing a technique for a presenting condition, calibrating pressure/duration to a client's tolerance, or deciding when a finding requires referring the client back to a physician instead of proceeding with the session.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/massage-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mathematician",
       "description": "Use when a task needs the judgment of a mathematician \u2014 refereeing or verifying a proof before publication, deciding whether a computed numerical result is trustworthy enough to act on, scoping a grant proposal or technical report to the right level of rigor, or isolating a disputed claim in a paper to the one step it actually turns on.",
       "category": "other",
@@ -3923,6 +3965,27 @@
       ]
     },
     {
+      "slug": "medical-assistant",
+      "description": "Use when a task needs the judgment of a medical assistant \u2014 taking and triaging vital signs against a standing-order escalation threshold, administering an injection or 12-lead EKG under a physician's standing order, switching between clinical and administrative tasks within one patient visit, or deciding whether a finding is inside scope-of-practice to handle versus must go straight to the physician or nurse.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "medical-health-services-manager",
       "description": "Use when a task needs the judgment of a Medical and Health Services Manager (practice manager, clinical department administrator, hospital unit manager) \u2014 managing clinical staffing against patient volume, evaluating a billing/reimbursement or denial-rate problem, handling a patient safety or compliance incident, or balancing quality metrics against cost pressure. Distinct from a physician's clinical-reasoning role \u2014 this one manages the operational and administrative system clinicians work within.",
       "category": "healthcare",
@@ -3976,6 +4039,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/medical-secretary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "medical-transcriptionist",
+      "description": "Use when a task needs the judgment of a Medical Transcriptionist \u2014 editing a speech-recognition draft for a dictated clinical note, disambiguating a sound-alike drug name or ambiguous abbreviation from dictation, deciding whether a dictation inconsistency should be silently corrected or flagged back to the provider, or managing report turnaround against a clinical-urgency deadline.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9094.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-transcriptionist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4302,6 +4386,27 @@
       ]
     },
     {
+      "slug": "nursing-assistant",
+      "description": "Use when a task needs the judgment of a Certified Nursing Assistant (CNA) \u2014 taking and reporting vital signs, assisting with ADLs (bathing, toileting, transfers, feeding), observing and reporting a fall risk or skin-integrity change, or deciding whether something observed needs to go to the nurse now versus at the next scheduled check-in.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-1131.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nursing-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "occupational-health-safety-specialist",
       "description": "Use when a task needs the judgment of an occupational health and safety specialist \u2014 running a workplace hazard assessment, investigating a recordable incident's root cause, interpreting industrial-hygiene sampling data (noise, chemical exposure) against OSHA limits, designing a hierarchy-of-controls fix, or building an OSHA 300-log-driven safety program review. Distinct from a security-management-specialist (human/physical-threat protection) \u2014 this role owns exposure, hazard, and injury risk from the work itself, not from bad actors.",
       "category": "operations",
@@ -4334,6 +4439,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/occupational-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "occupational-therapy-assistant",
+      "description": "Use when a task needs the judgment of an occupational therapy assistant (COTA) \u2014 running a treatment session against an OT's established plan, documenting session progress toward the OT's goals, deciding whether a change in a patient's presentation can be handled within the existing plan or requires flagging the supervising OT for reassessment, or adapting a therapeutic activity to a patient's day-to-day tolerance within the plan's parameters.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/occupational-therapy-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4659,6 +4785,27 @@
       ]
     },
     {
+      "slug": "phlebotomist",
+      "description": "Use when a task needs the judgment of a phlebotomist \u2014 sequencing a multi-tube blood draw in the correct order, deciding whether a specimen meets rejection criteria, working through positive-patient-identification and mislabeling-prevention steps, or judging when a difficult venipuncture needs escalation instead of another attempt.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9097.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/phlebotomist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "photographer",
       "description": "Use when a task needs the judgment of a professional photographer \u2014 planning exposure/lighting for a shoot, building a shot list with coverage for an irreplaceable event, structuring a usage-licensing fee for commercial images, diagnosing a lighting or exposure problem from EXIF/histogram data, or setting up a non-destructive post-processing workflow.",
       "category": "design",
@@ -4691,6 +4838,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/physical-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "physical-therapist-assistant",
+      "description": "Use when a task needs the judgment of a physical therapist assistant \u2014 progressing an exercise within a supervising PT's set parameters, deciding whether a patient's session-to-session change stays inside the plan of care or needs PT reassessment, re-testing an outcome measure and reporting the result, or recognizing a status change (new pain pattern, fall, medication change) that isn't the PTA's call to manage alone.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/physical-therapist-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6336,6 +6504,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/veterinarian/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "veterinary-assistant",
+      "description": "Use when a task needs the judgment of a veterinary assistant \u2014 selecting a restraint technique for a fractious or fearful patient, monitoring post-surgical vital-sign trends and deciding when to escalate to the veterinarian, checking a laboratory-animal housing setup against husbandry-standard cage density, or administering a medication under a veterinarian's direction and documenting it correctly.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9096.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/veterinary-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
