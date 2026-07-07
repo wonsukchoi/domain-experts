@@ -75,9 +75,29 @@ header {
 
 header h1 {
   margin: 0 0 var(--space-1);
-  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  font-size: clamp(2.6rem, 6vw, 4.2rem);
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+.slogan {
+  margin: 0.4rem 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent), 0 0 20px var(--accent);
+  animation: slogan-glow 2.4s ease-in-out infinite alternate;
+}
+
+@keyframes slogan-glow {
+  from { text-shadow: 0 0 6px var(--accent), 0 0 14px transparent; }
+  to   { text-shadow: 0 0 10px var(--accent), 0 0 26px var(--accent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slogan { animation: none; text-shadow: 0 0 8px var(--accent), 0 0 20px var(--accent); }
 }
 
 .tagline {
@@ -106,6 +126,100 @@ main {
   max-width: 1120px;
   margin: 0 auto;
   padding: var(--space-4) var(--space-2) var(--space-5);
+}
+
+/* ---------- Intro ---------- */
+
+.intro {
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+}
+
+.intro > p {
+  max-width: 700px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0 0 var(--space-3);
+}
+
+.intro pre {
+  border-left: 2px solid var(--accent);
+  padding: 0.2rem 0 0.2rem var(--space-2);
+  margin: 0 0 var(--space-4);
+  overflow-x: auto;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85rem;
+  line-height: 1.75;
+  color: var(--text-dim);
+}
+
+.intro-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--space-3);
+}
+
+.intro-row {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(180px, 260px) 1fr;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-top: 1px solid var(--border);
+}
+
+.intro-row:first-child { border-top: 1px solid var(--border-strong); }
+
+.intro-row-num {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  padding-top: 0.15rem;
+}
+
+.intro-row h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.intro-row p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+.intro-row code {
+  background: var(--bg-raised);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  border: 1px solid var(--border);
+}
+
+.intro-more {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin: 0;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border);
+}
+
+.intro-more a { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .intro-row {
+    grid-template-columns: 2rem 1fr;
+    grid-template-areas: "num title" ". body";
+  }
+  .intro-row-num { grid-area: num; }
+  .intro-row h3 { grid-area: title; }
+  .intro-row p { grid-area: body; }
 }
 
 /* ---------- Controls ---------- */

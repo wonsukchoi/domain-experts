@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 159 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 168 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -78,7 +78,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>13 — Business and Financial Operations</strong> (45/50 drafted)</summary>
+<summary><strong>13 — Business and Financial Operations</strong> (48/50 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -93,7 +93,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1041.03 | Equal Opportunity Representatives and Officers | [`equal-opportunity-representative`](./roles/equal-opportunity-representative/SKILL.md) |
 | ✅ | 13-1041.04 | Government Property Inspectors and Investigators | [`government-property-inspector`](./roles/government-property-inspector/SKILL.md) |
 | ✅ | 13-1041.06 | Coroners | [`coroner`](./roles/coroner/SKILL.md) |
-|  | 13-1041.07 | Regulatory Affairs Specialists |  |
+| ✅ | 13-1041.07 | Regulatory Affairs Specialists | [`regulatory-affairs-specialist`](./roles/regulatory-affairs-specialist/SKILL.md) |
 | ✅ | 13-1041.08 | Customs Brokers | [`customs-broker`](./roles/customs-broker/SKILL.md) |
 | ✅ | 13-1051.00 | Cost Estimators | [`cost-estimator`](./roles/cost-estimator/SKILL.md) |
 | ✅ | 13-1071.00 | Human Resources Specialists | [`hr-specialist`](./roles/hr-specialist/SKILL.md) |
@@ -105,7 +105,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1082.00 | Project Management Specialists | [`project-management-specialist`](./roles/project-management-specialist/SKILL.md) |
 | ✅ | 13-1111.00 | Management Analysts | [`management-analyst`](./roles/management-analyst/SKILL.md) |
 | ✅ | 13-1121.00 | Meeting, Convention, and Event Planners | [`meeting-event-planner`](./roles/meeting-event-planner/SKILL.md) |
-|  | 13-1131.00 | Fundraisers |  |
+| ✅ | 13-1131.00 | Fundraisers | [`fundraiser`](./roles/fundraiser/SKILL.md) |
 | ✅ | 13-1141.00 | Compensation, Benefits, and Job Analysis Specialists | [`compensation-benefits-specialist`](./roles/compensation-benefits-specialist/SKILL.md) |
 | ✅ | 13-1151.00 | Training and Development Specialists | [`training-development-specialist`](./roles/training-development-specialist/SKILL.md) |
 | ✅ | 13-1161.00 | Market Research Analysts and Marketing Specialists | [`marketing-strategist`](./roles/marketing-strategist/SKILL.md) |
@@ -114,7 +114,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 13-1199.04 | Business Continuity Planners | [`business-continuity-planner`](./roles/business-continuity-planner/SKILL.md) |
 | ✅ | 13-1199.05 | Sustainability Specialists | [`sustainability-specialist`](./roles/sustainability-specialist/SKILL.md) |
 | ✅ | 13-1199.06 | Online Merchants | [`online-merchant`](./roles/online-merchant/SKILL.md) |
-|  | 13-1199.07 | Security Management Specialists |  |
+| ✅ | 13-1199.07 | Security Management Specialists | [`security-management-specialist`](./roles/security-management-specialist/SKILL.md) |
 | ♻️ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
 | ✅ | 13-2022.00 | Appraisers of Personal and Business Property | [`personal-property-appraiser`](./roles/personal-property-appraiser/SKILL.md) |
 | ✅ | 13-2023.00 | Appraisers and Assessors of Real Estate | [`real-estate-appraiser`](./roles/real-estate-appraiser/SKILL.md) |
@@ -136,7 +136,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>15 — Computer and Mathematical</strong> (30/38 drafted)</summary>
+<summary><strong>15 — Computer and Mathematical</strong> (36/38 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -152,7 +152,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 15-1243.00 | Database Architects | [`database-architect`](./roles/database-architect/SKILL.md) |
 | ✅ | 15-1243.01 | Data Warehousing Specialists | [`data-warehousing-specialist`](./roles/data-warehousing-specialist/SKILL.md) |
 | ✅ | 15-1244.00 | Network and Computer Systems Administrators | [`network-systems-administrator`](./roles/network-systems-administrator/SKILL.md) |
-|  | 15-1251.00 | Computer Programmers |  |
+| ✅ | 15-1251.00 | Computer Programmers | [`computer-programmer`](./roles/computer-programmer/SKILL.md) |
 | ♻️ | 15-1252.00 | Software Developers | [`software-engineer`](./roles/software-engineer/SKILL.md) |
 | ✅ | 15-1253.00 | Software Quality Assurance Analysts and Testers | [`software-qa-analyst`](./roles/software-qa-analyst/SKILL.md) |
 | ✅ | 15-1254.00 | Web Developers | [`full-stack-developer`](./roles/full-stack-developer/SKILL.md) |
@@ -161,13 +161,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 15-1299.00 | Computer Occupations, All Other |  |
 | ✅ | 15-1299.01 | Web Administrators | [`web-administrator`](./roles/web-administrator/SKILL.md) |
 | ✅ | 15-1299.02 | Geographic Information Systems Technologists and Technicians | [`gis-technologist`](./roles/gis-technologist/SKILL.md) |
-|  | 15-1299.03 | Document Management Specialists |  |
+| ✅ | 15-1299.03 | Document Management Specialists | [`document-management-specialist`](./roles/document-management-specialist/SKILL.md) |
 | ✅ | 15-1299.04 | Penetration Testers | [`penetration-tester`](./roles/penetration-tester/SKILL.md) |
 | ✅ | 15-1299.05 | Information Security Engineers | [`application-security-engineer`](./roles/application-security-engineer/SKILL.md) |
 | ✅ | 15-1299.06 | Digital Forensics Analysts | [`digital-forensics-analyst`](./roles/digital-forensics-analyst/SKILL.md) |
 | ✅ | 15-1299.07 | Blockchain Engineers | [`blockchain-engineer`](./roles/blockchain-engineer/SKILL.md) |
-|  | 15-1299.08 | Computer Systems Engineers/Architects |  |
-|  | 15-1299.09 | Information Technology Project Managers |  |
+| ✅ | 15-1299.08 | Computer Systems Engineers/Architects | [`computer-systems-engineer-architect`](./roles/computer-systems-engineer-architect/SKILL.md) |
+| ✅ | 15-1299.09 | Information Technology Project Managers | [`it-project-manager`](./roles/it-project-manager/SKILL.md) |
 | ✅ | 15-2011.00 | Actuaries | [`actuary`](./roles/actuary/SKILL.md) |
 | ✅ | 15-2021.00 | Mathematicians | [`mathematician`](./roles/mathematician/SKILL.md) |
 | ✅ | 15-2031.00 | Operations Research Analysts | [`operations-research-analyst`](./roles/operations-research-analyst/SKILL.md) |
@@ -175,9 +175,9 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 15-2041.01 | Biostatisticians | [`biostatistician`](./roles/biostatistician/SKILL.md) |
 | ✅ | 15-2051.00 | Data Scientists | [`data-scientist`](./roles/data-scientist/SKILL.md) |
 | ✅ | 15-2051.01 | Business Intelligence Analysts | [`business-intelligence-analyst`](./roles/business-intelligence-analyst/SKILL.md) |
-|  | 15-2051.02 | Clinical Data Managers |  |
+| ✅ | 15-2051.02 | Clinical Data Managers | [`clinical-data-manager`](./roles/clinical-data-manager/SKILL.md) |
 |  | 15-2099.00 | Mathematical Science Occupations, All Other |  |
-|  | 15-2099.01 | Bioinformatics Technicians |  |
+| ✅ | 15-2099.01 | Bioinformatics Technicians | [`bioinformatics-technician`](./roles/bioinformatics-technician/SKILL.md) |
 
 </details>
 
