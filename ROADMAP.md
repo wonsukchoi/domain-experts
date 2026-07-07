@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 239 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 246 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -626,7 +626,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>33 — Protective Service</strong> (2/28 drafted)</summary>
+<summary><strong>33 — Protective Service</strong> (9/28 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -636,20 +636,20 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 33-1091.00 | First-Line Supervisors of Security Workers |  |
 |  | 33-1099.00 | First-Line Supervisors of Protective Service Workers, All Other |  |
 | ✅ | 33-2011.00 | Firefighters | [`firefighter`](./roles/firefighter/SKILL.md) |
-|  | 33-2021.00 | Fire Inspectors and Investigators |  |
+| ✅ | 33-2021.00 | Fire Inspectors and Investigators | [`fire-inspector-investigator`](./roles/fire-inspector-investigator/SKILL.md) |
 |  | 33-2022.00 | Forest Fire Inspectors and Prevention Specialists |  |
 |  | 33-3011.00 | Bailiffs |  |
-|  | 33-3012.00 | Correctional Officers and Jailers |  |
-|  | 33-3021.00 | Detectives and Criminal Investigators |  |
+| ✅ | 33-3012.00 | Correctional Officers and Jailers | [`correctional-officer`](./roles/correctional-officer/SKILL.md) |
+| ✅ | 33-3021.00 | Detectives and Criminal Investigators | [`detective-criminal-investigator`](./roles/detective-criminal-investigator/SKILL.md) |
 |  | 33-3021.02 | Police Identification and Records Officers |  |
-|  | 33-3021.06 | Intelligence Analysts |  |
-|  | 33-3031.00 | Fish and Game Wardens |  |
+| ✅ | 33-3021.06 | Intelligence Analysts | [`intelligence-analyst`](./roles/intelligence-analyst/SKILL.md) |
+| ✅ | 33-3031.00 | Fish and Game Wardens | [`fish-and-game-warden`](./roles/fish-and-game-warden/SKILL.md) |
 |  | 33-3041.00 | Parking Enforcement Workers |  |
 | ✅ | 33-3051.00 | Police and Sheriff's Patrol Officers | [`police-patrol-officer`](./roles/police-patrol-officer/SKILL.md) |
-|  | 33-3051.04 | Customs and Border Protection Officers |  |
+| ✅ | 33-3051.04 | Customs and Border Protection Officers | [`customs-border-protection-officer`](./roles/customs-border-protection-officer/SKILL.md) |
 |  | 33-3052.00 | Transit and Railroad Police |  |
 |  | 33-9011.00 | Animal Control Workers |  |
-|  | 33-9021.00 | Private Detectives and Investigators |  |
+| ✅ | 33-9021.00 | Private Detectives and Investigators | [`private-detective-investigator`](./roles/private-detective-investigator/SKILL.md) |
 |  | 33-9031.00 | Gambling Surveillance Officers and Gambling Investigators |  |
 |  | 33-9032.00 | Security Guards |  |
 |  | 33-9091.00 | Crossing Guards and Flaggers |  |
