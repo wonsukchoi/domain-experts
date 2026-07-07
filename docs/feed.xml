@@ -4,7 +4,56 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:17:23 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:23:39 +0000</lastBuildDate>
+  <item>
+    <title>Correctional Officer</title>
+    <link>https://domainexperts.dev/roles/correctional-officer/</link>
+    <guid>https://domainexperts.dev/roles/correctional-officer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a correctional officer or jailer — scoring an inmate-classification instrument, deciding a use-of-force response level, running a cell/contraband search, preparing evidence for a disciplinary hearing, or screening an inmate for suicide/mental-health crisis risk.</description>
+  </item>
+  <item>
+    <title>Customs Border Protection Officer</title>
+    <link>https://domainexperts.dev/roles/customs-border-protection-officer/</link>
+    <guid>https://domainexperts.dev/roles/customs-border-protection-officer/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Customs and Border Protection officer — scoring a shipment or traveler for secondary-inspection referral, evaluating a manifest discrepancy for contraband risk, deciding whether a traveler is admissible under immigration law, structuring a seizure or penalty referral, or triaging a primary-inspection queue under time pressure.</description>
+  </item>
+  <item>
+    <title>Detective Criminal Investigator</title>
+    <link>https://domainexperts.dev/roles/detective-criminal-investigator/</link>
+    <guid>https://domainexperts.dev/roles/detective-criminal-investigator/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a detective/criminal investigator — developing and stress-testing a case theory against alternate explanations, reconciling conflicting timestamps (DVR, cell tower, witness-reported) into a defensible timeline, structuring a suspect/witness interview using a non-accusatorial method, drafting a probable-cause affidavit, or evaluating whether a confession or eyewitness identification is being treated with the right level of certainty.</description>
+  </item>
+  <item>
+    <title>Fire Inspector Investigator</title>
+    <link>https://domainexperts.dev/roles/fire-inspector-investigator/</link>
+    <guid>https://domainexperts.dev/roles/fire-inspector-investigator/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fire Inspector/Investigator — determining fire cause and origin from scene evidence, evaluating fire-code compliance during an occupancy inspection, calculating required egress width against occupant load, distinguishing arson indicators from accidental-cause fire dynamics, or drafting a code-violation notice or cause-classification report.</description>
+  </item>
+  <item>
+    <title>Fish And Game Warden</title>
+    <link>https://domainexperts.dev/roles/fish-and-game-warden/</link>
+    <guid>https://domainexperts.dev/roles/fish-and-game-warden/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fish and Game Warden — evaluating a bag-limit or license-compliance check, calculating restitution/civil-penalty exposure for a poaching case, assessing search-and-seizure authority for a wildlife stop, building a chain-of-custody plan for degrading evidence, or investigating a habitat/environmental wildlife crime.</description>
+  </item>
+  <item>
+    <title>Intelligence Analyst</title>
+    <link>https://domainexperts.dev/roles/intelligence-analyst/</link>
+    <guid>https://domainexperts.dev/roles/intelligence-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a law-enforcement or security Intelligence Analyst — building an Analysis of Competing Hypotheses (ACH) matrix from fragmentary reporting, grading source reliability and information credibility on the Admiralty scale, mapping a criminal network&#x27;s link chart to find the actual facilitator, calibrating confidence language in an intelligence bulletin, or red-teaming a fast-forming analytic consensus.</description>
+  </item>
+  <item>
+    <title>Private Detective Investigator</title>
+    <link>https://domainexperts.dev/roles/private-detective-investigator/</link>
+    <guid>https://domainexperts.dev/roles/private-detective-investigator/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:23:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Private Detective or Investigator — planning a surveillance operation within wiretap/trespass legal limits, running a skip-trace to locate a subject from public-records fragments, scoping a background-investigation engagement for a client, or deciding whether an investigative finding is admissible/usable given how it was obtained.</description>
+  </item>
   <item>
     <title>Advertising Sales Agent</title>
     <link>https://domainexperts.dev/roles/advertising-sales-agent/</link>
