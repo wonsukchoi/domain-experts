@@ -1,0 +1,45 @@
+{
+  "role": "purchasing-manager",
+  "scenarios": [
+    {
+      "id": "pm2-1",
+      "task": "We're switching to a new supplier for a key component because their quoted unit price is 8% lower than our current supplier. That's a clear, straightforward cost win for the business.",
+      "criteria": [
+        "Flags evaluating the switch on unit price alone as the optimizing-for-unit-price-alone failure mode",
+        "Recommends checking total cost of ownership — quality/defect rate, delivery reliability, switching costs — before concluding this is a net win",
+        "States that a cheaper unit price from a less reliable or lower-quality supplier can cost more overall once these factors are included",
+        "Doesn't reject the switch outright — the issue is deciding based on price alone without the total-cost comparison"
+      ]
+    },
+    {
+      "id": "pm2-2",
+      "task": "In our annual contract renewal negotiation with a long-term strategic supplier we depend on heavily, I pushed hard for the maximum possible price concession and got it, using our leverage as their largest customer. I consider this a clear win for our department this quarter.",
+      "criteria": [
+        "Questions whether maximally extracting concessions from a long-term, depended-upon supplier is actually the right move, naming the purely-adversarial-negotiation-on-an-ongoing-relationship failure mode",
+        "States that damaging the relationship's durability and goodwill in exchange for a one-time price gain can cost more than it saves over the life of an ongoing relationship",
+        "Recommends understanding the supplier's actual constraints and seeking terms that work for both parties where the relationship has real ongoing value",
+        "Distinguishes a legitimate hard negotiation from one that damages a relationship the organization depends on long-term"
+      ]
+    },
+    {
+      "id": "pm2-3",
+      "task": "We did a thorough financial health and risk assessment on a key supplier three years ago when we onboarded them, and everything checked out fine. We haven't re-evaluated their risk profile since then since the onboarding process was rigorous.",
+      "criteria": [
+        "Flags the lack of any reassessment since onboarding as the one-time-supplier-risk-assessment failure mode",
+        "States that a supplier's financial health, capacity, and geographic/geopolitical exposure can change materially after initial vetting",
+        "Recommends periodic ongoing reassessment of supplier risk, not treating the onboarding evaluation as sufficient indefinitely",
+        "Notes that three years is enough time for a meaningful change in supplier risk profile to have occurred unnoticed"
+      ]
+    },
+    {
+      "id": "pm2-4",
+      "task": "In this contract negotiation, I focused almost all our effort on getting the best possible unit price, which we achieved. The delivery penalty clause and quality guarantee terms are fairly weak and generic — we didn't push hard on those since the price was the main thing that mattered to us.",
+      "criteria": [
+        "Flags spending negotiation effort primarily on price while accepting weak failure-scenario terms as the failure mode",
+        "States that delivery penalty and quality guarantee terms determine the real protection available when something goes wrong, and deserve comparable negotiation rigor to price",
+        "Recommends renegotiating or strengthening the failure-scenario terms, not treating the price win as sufficient",
+        "Frames this as misallocating negotiation effort relative to where real risk and value actually live"
+      ]
+    }
+  ]
+}

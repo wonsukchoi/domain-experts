@@ -1,0 +1,45 @@
+{
+  "role": "training-development-manager",
+  "scenarios": [
+    {
+      "id": "tdm-1",
+      "task": "We're rolling out a new customer service process. The plan is a single half-day training session covering everything employees need to know, with no follow-up sessions or check-ins planned afterward — the session itself is thoroughly designed and covers all the content.",
+      "criteria": [
+        "Flags the lack of any follow-up or reinforcement as the one-and-done-training-design failure mode, regardless of how well the single session is designed",
+        "States that learning not reinforced on the job decays quickly, and a single session without follow-through produces a poor return",
+        "Recommends building reinforcement, application opportunities, and manager follow-up into the program design, not just the initial session",
+        "Doesn't fault the session content itself — the issue is the absence of anything after it"
+      ]
+    },
+    {
+      "id": "tdm-2",
+      "task": "We just ran a leadership development workshop and the post-session survey scores were excellent — participants rated it very highly. I'm reporting this as clear evidence the program was a success.",
+      "criteria": [
+        "Flags relying on satisfaction scores alone as the measuring-only-satisfaction failure mode",
+        "States that satisfaction is a weak, easy-to-game proxy for actual impact, citing that the real test is behavior change and business outcome",
+        "Recommends measuring whether participants' on-the-job behavior actually changed and whether it affected a business outcome, not stopping at reaction-level data",
+        "References or implies a framework like Kirkpatrick's levels — reaction is the weakest evidence, not sufficient on its own"
+      ]
+    },
+    {
+      "id": "tdm-3",
+      "task": "For a new technical skill our engineers need to apply in varied, unpredictable real situations, we've designed a training program that's mostly lecture-style presentations covering the concepts thoroughly, since we want to make sure the theoretical foundation is solid before they start using it.",
+      "criteria": [
+        "Flags a passive, lecture-heavy format for a skill that needs to transfer to varied real situations as the failure mode",
+        "States that adult learners need active practice and relevance to real problems, and a lecture-style format optimized for information transfer produces weak retention and application for this kind of skill",
+        "Recommends redesigning toward active practice opportunities connected to real scenarios, not just conceptual presentation",
+        "Doesn't reject conceptual grounding entirely — the issue is the format being predominantly passive for a skill requiring practiced application"
+      ]
+    },
+    {
+      "id": "tdm-4",
+      "task": "A small number of employees occasionally need to run an uncommon, fairly simple year-end reporting process. We're building a full multi-session formal training program with a certification component to make sure everyone who might ever need to do this is thoroughly trained.",
+      "criteria": [
+        "Flags building a full formal training program for an infrequent, simple task as the overbuilding-for-a-narrow-need failure mode",
+        "Recommends a lighter-weight solution (a job aid, checklist, or brief just-in-time reference) matched to the actual scale and durability of this need",
+        "States that the scale/formality of the learning intervention should match the actual need, not default to the function's most familiar tool",
+        "Frames the full certification program as overinvestment relative to how infrequent and simple the task actually is"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "transportation-storage-distribution-manager",
+  "scenarios": [
+    {
+      "id": "tsdm-1",
+      "task": "We use expedited 2-day shipping as our standard for everything we ship, from high-value time-sensitive electronics to bulk low-value replacement parts that customers wouldn't mind waiting a week for. It keeps things simple to have one shipping standard across the board.",
+      "criteria": [
+        "Flags applying one shipping speed/cost standard across very different urgency/value categories as the uniform-shipping-policy failure mode",
+        "States that this overspends on genuinely low-urgency goods while the simplicity doesn't offset the real cost difference",
+        "Recommends segmenting shipping policy by actual product urgency and value rather than one blanket standard",
+        "Notes this isn't an argument for slower shipping everywhere — the point is matching speed to what each category actually needs"
+      ]
+    },
+    {
+      "id": "tsdm-2",
+      "task": "We keep a flat 15% safety stock buffer on every SKU across all our warehouse locations, since it's simple to apply consistently and has generally kept us out of trouble.",
+      "criteria": [
+        "Flags a flat percentage buffer across all SKUs/locations as the arbitrary-safety-stock-levels failure mode",
+        "States that the right safety stock level is a function of each product/location's actual demand and lead-time variability, not a fixed rule of thumb",
+        "Recommends calculating safety stock statistically from real demand and lead-time variance per product/location combination",
+        "Notes that a flat rule predictably produces both unnecessary carrying cost in low-variability cases and stockouts in high-variability ones"
+      ]
+    },
+    {
+      "id": "tsdm-3",
+      "task": "We're switching to a cheaper ocean freight option for a key product line instead of air freight, since the freight cost is significantly lower per unit. I'm recommending the switch based on that cost comparison.",
+      "criteria": [
+        "Flags comparing freight cost alone as the freight-cost-only-mode-selection failure mode",
+        "States that total landed cost — including inventory carrying cost over the longer transit time and stockout/service-risk impact — needs to be compared, not freight cost in isolation",
+        "Recommends calculating the total landed cost difference between the two options before recommending the switch",
+        "Notes the longer, less predictable transit time could offset or exceed the freight savings once carrying cost and service risk are included"
+      ]
+    },
+    {
+      "id": "tsdm-4",
+      "task": "Sales just promised a major new customer 24-hour delivery turnaround nationwide as part of closing the deal. I wasn't consulted before the commitment was made, and I'm not sure our current network capacity can actually support that turnaround consistently across every region.",
+      "criteria": [
+        "Flags the commitment being made without checking it against actual network capacity as the overcommitting-network-capability failure mode",
+        "Recommends immediately assessing whether the network can actually support this turnaround before it becomes a customer-facing failure, rather than silently trying to absorb the gap",
+        "States that this kind of unchecked commitment predictably surfaces later as a customer-facing service failure instead of an internally managed constraint",
+        "Recommends establishing a process where service commitments are checked against network capacity before being made to customers going forward"
+      ]
+    }
+  ]
+}

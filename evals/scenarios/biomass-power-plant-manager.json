@@ -1,0 +1,45 @@
+{
+  "role": "biomass-power-plant-manager",
+  "scenarios": [
+    {
+      "id": "bppm-1",
+      "task": "We source essentially all of our biomass fuel from one long-standing regional supplier, since the relationship is reliable and the logistics are simple to manage with just one source instead of coordinating multiple suppliers.",
+      "criteria": [
+        "Flags relying on a single fuel source as the single-source-fuel-dependency failure mode, regardless of how reliable it has been historically",
+        "States that this creates vulnerability to a seasonal shortfall or price spike from that one source disrupting plant operation",
+        "Recommends diversifying fuel sourcing across multiple suppliers/types where the combustion system allows",
+        "Doesn't dismiss the value of a reliable relationship — the issue is the lack of diversification as a risk management gap"
+      ]
+    },
+    {
+      "id": "bppm-2",
+      "task": "We run the combustion system with the same fixed air/fuel ratio and temperature settings regardless of which fuel batch comes in, since it's simpler to operate with one consistent setting rather than adjusting for every batch.",
+      "criteria": [
+        "Flags fixed operating parameters regardless of fuel batch characteristics as the fixed-combustion-parameters-despite-fuel-variability failure mode",
+        "States that fuel moisture, particle size, and calorific value vary by source/season, and a process tuned for one batch can cause problems (slagging, fouling, incomplete combustion) with a different batch",
+        "Recommends testing incoming fuel batches and adjusting combustion parameters based on measured characteristics rather than a fixed recipe",
+        "Notes operational problems traced to fuel variation are more likely under fixed settings, not evidence of an unrelated equipment issue"
+      ]
+    },
+    {
+      "id": "bppm-3",
+      "task": "We've built up a large biomass fuel stockpile over several months to buffer against future supply uncertainty, and we're planning to just let it sit until we need it, since more buffer inventory seems like a safe, conservative approach.",
+      "criteria": [
+        "Flags extended storage without degradation management as a real risk, naming the extended-fuel-storage-without-degradation-management failure mode",
+        "States that biomass fuel degrades in storage in ways that differ from coal or gas — moisture absorption, quality decay, and spontaneous combustion risk",
+        "Recommends managing storage with monitoring (moisture, temperature) and planned turnover to minimize extended storage time, rather than treating the stockpile as stable indefinitely",
+        "Doesn't reject having a buffer — the issue is the lack of active degradation and fire-risk management"
+      ]
+    },
+    {
+      "id": "bppm-4",
+      "task": "We found a fuel source with an attractive price quote at origin, quite a bit farther away than our usual sourcing radius. I'm planning to add them as a supplier based on that favorable origin price.",
+      "criteria": [
+        "Flags evaluating the source on origin price alone as the ignoring-transport-cost-radius failure mode",
+        "States that biomass has relatively low energy density per unit of transport cost, so a distant source that looks attractive at origin may not be economically viable once transport is included",
+        "Recommends calculating the real delivered cost including transport before deciding, not just the quoted origin price",
+        "Frames the fuel-supply radius as a real economic constraint, not just a logistical preference"
+      ]
+    }
+  ]
+}

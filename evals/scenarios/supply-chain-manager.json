@@ -1,0 +1,45 @@
+{
+  "role": "supply-chain-manager",
+  "scenarios": [
+    {
+      "id": "scm-1",
+      "task": "Purchasing negotiated a great unit cost by committing to large batch orders, and production increased batch sizes to hit their own efficiency targets. Both teams are hitting their individual metrics, but we've noticed inventory levels and total carrying costs have risen a lot recently.",
+      "criteria": [
+        "Flags that each function optimizing its own local metric (unit cost, batch efficiency) can degrade total system performance, naming the chasing-local-efficiency failure mode",
+        "States that purchasing and production's individually-optimal choices produced a worse whole-chain outcome (excess inventory, higher total cost)",
+        "Recommends evaluating decisions against total system cost and performance, not each function's local metric in isolation",
+        "Recommends coordinating the batch-size and purchasing decisions jointly rather than letting each function optimize independently"
+      ]
+    },
+    {
+      "id": "scm-2",
+      "task": "We run a lean, just-in-time supply chain across every input in our product, including a critical, hard-to-substitute component with a single supplier and long lead times, since minimizing inventory carrying cost has been our standing operational priority.",
+      "criteria": [
+        "Flags applying lean/JIT uniformly to a critical, hard-to-substitute, long-lead-time input as the defaulting-to-lean-without-evaluating-disruption-cost failure mode",
+        "States that the right efficiency-resilience position should be based on the actual cost of disruption for that specific input, not a uniform lean default across the whole chain",
+        "Recommends evaluating this specific input for more resilience investment (buffer stock, multi-sourcing) given its criticality and substitution difficulty",
+        "Doesn't reject lean practices generally — flags the mismatch specifically for this critical, hard-to-substitute input"
+      ]
+    },
+    {
+      "id": "scm-3",
+      "task": "Demand at the retail end has been fairly stable with only small fluctuations, but our raw material suppliers report wildly swinging order volumes from us. We're planning to have a serious conversation with our demand planning team since their forecasting seems to be badly miscalibrated given how much it's swinging.",
+      "criteria": [
+        "Flags attributing the amplified swings to a single team's forecasting failure as the treating-bullwhip-as-a-forecasting-failure failure mode",
+        "Names this explicitly as the bullwhip effect — a structural amplification property of the system, not a sign that any one stage's forecasting is bad",
+        "Recommends addressing it with shared demand visibility and coordinated planning across stages (e.g. S&OP), not disciplining or retraining the demand planning team",
+        "States that each stage reacting to its immediate downstream stage rather than real end-demand signal is the actual root cause"
+      ]
+    },
+    {
+      "id": "scm-4",
+      "task": "A disruption just occurred somewhere in our supply chain, but by the time we found out about it and understood how big the impact actually was, several days had already passed and the damage had compounded significantly. Our visibility into what's happening at each stage has always been pretty limited, and we've just accepted that as normal.",
+      "criteria": [
+        "Flags the delayed detection itself as a major contributor to the damage, naming the poor-visibility-delaying-disruption-response failure mode",
+        "States that a disruption's damage is often determined more by how quickly it's detected and understood than by the disruption's raw severity",
+        "Recommends investing in real-time visibility across the chain proportional to how much faster detection would reduce damage from plausible disruption scenarios",
+        "Rejects treating limited visibility as an acceptable normal state rather than a real, addressable risk factor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "hydroelectric-production-manager",
+  "scenarios": [
+    {
+      "id": "hpm-1",
+      "task": "Budget is tight this year, so a scheduled dam safety inspection (checking for seepage and structural movement) is being pushed back a few months, along with some other lower-priority maintenance items, to stay within this year's spending target.",
+      "criteria": [
+        "Flags deferring the safety-relevant inspection under budget pressure as the treating-dam-safety-as-budget-negotiable failure mode",
+        "States that dam safety operates under a categorically different risk tolerance than routine equipment maintenance, given the catastrophic and irreversible nature of a structural failure",
+        "Recommends treating this inspection as non-negotiable against the budget cycle, funded regardless of other deferred maintenance items",
+        "Rejects grouping it with 'other lower-priority maintenance items' as an equivalent category of deferral"
+      ]
+    },
+    {
+      "id": "hpm-2",
+      "task": "We built our reservoir operating plan for the year around the median hydrologic forecast for inflow, which gives us a clean, single operating target to plan generation, irrigation delivery, and flood control storage against.",
+      "criteria": [
+        "Flags planning around only the median forecast as the single-forecast-reservoir-planning failure mode",
+        "States that a plan built only around the expected case is unprepared for a plausible dry (insufficient water for commitments) or wet (insufficient storage capacity) scenario",
+        "Recommends planning against a range of hydrologic scenarios (wet, median, dry), not committing to operations that only work under the expected case",
+        "Doesn't reject having a primary planning case, but flags the absence of scenario planning around it"
+      ]
+    },
+    {
+      "id": "hpm-3",
+      "task": "It's currently storm season and we're supposed to maintain reserved flood-control storage capacity in the reservoir, but generation prices are unusually high right now and it would be profitable to use some of that reserved capacity for additional power generation instead.",
+      "criteria": [
+        "Flags using reserved flood-control storage for generation during storm-risk season as the treating-flood-control-storage-as-flexible failure mode",
+        "States that flood control storage is a standing operational commitment, not a discretionary buffer available whenever it's financially convenient",
+        "Recommends maintaining the flood-control reserve regardless of the current generation price opportunity",
+        "Frames using it for generation right now as undermining the facility's actual flood-risk-management function"
+      ]
+    },
+    {
+      "id": "hpm-4",
+      "task": "Our minimum ecological flow requirement downstream is technically satisfied by our current release schedule, hitting the minimum flow number on paper, even though the timing and temperature of those releases don't really match what the ecological requirement was actually designed to support.",
+      "criteria": [
+        "Flags meeting the letter of the requirement while undermining its actual ecological intent as the minimal-compliance-ecological-flow-management failure mode",
+        "States that ecological flow requirements are a genuine constraint to plan around, not a target to minimally satisfy on paper",
+        "Recommends adjusting the release schedule's timing/temperature to genuinely serve the requirement's intent, not just the numeric minimum",
+        "Names the regulatory and reputational risk of minimal-compliance-only management as scrutiny increases"
+      ]
+    }
+  ]
+}

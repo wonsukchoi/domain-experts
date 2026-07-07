@@ -1,0 +1,45 @@
+{
+  "role": "biofuels-production-manager",
+  "scenarios": [
+    {
+      "id": "bpm-1",
+      "task": "We run our process with a fixed set of operating parameters — temperature, enzyme dosing, residence time — based on our original design spec for the feedstock. When yield comes in lower than expected on some batches, we usually chalk it up to normal process variation rather than adjusting parameters batch to batch.",
+      "criteria": [
+        "Flags running fixed parameters regardless of actual incoming feedstock characteristics as the assuming-feedstock-consistency failure mode",
+        "States that feedstock is a variable biological input (moisture, oil content, contaminants) and a process tuned to one assumed spec will underperform against real variability",
+        "Recommends real-time feedstock quality testing feeding into adjusted operating parameters, rather than a fixed recipe regardless of input variation",
+        "Questions attributing yield shortfalls to 'normal variation' without checking whether they correlate with measurable feedstock characteristic changes"
+      ]
+    },
+    {
+      "id": "bpm-2",
+      "task": "We increased enzyme dosing and residence time to push conversion yield up another 3%, and it worked — output volume is measurably higher. I'm calling this a clear efficiency win for the plant.",
+      "criteria": [
+        "Questions whether the yield gain is a net economic win once the full cost of the additional enzyme and energy/residence-time input is accounted for",
+        "Flags this as potentially the chasing-yield-past-the-point-of-net-value failure mode if the added input cost exceeds the value of the incremental product",
+        "Recommends comparing the cost of the additional enzyme/energy input against the value of the 3% extra output before calling it a win",
+        "Distinguishes a genuine yield/economic improvement from a yield-metric improvement that costs more than it's worth"
+      ]
+    },
+    {
+      "id": "bpm-3",
+      "task": "Our co-product (distillers grains) just gets sold at whatever the going rate is to whichever buyer is easiest to arrange — we don't spend much time on co-product quality control or marketing since our main focus is the primary fuel product.",
+      "criteria": [
+        "Flags treating the co-product as an afterthought as a real economic issue, naming the treating-co-products-as-an-afterthought failure mode",
+        "States that co-product revenue is often a material part of overall plant economics, not a secondary byproduct",
+        "Recommends actively managing co-product quality and market positioning with the same rigor as the primary product",
+        "Frames this as leaving real value on the table, not just a minor operational gap"
+      ]
+    },
+    {
+      "id": "bpm-4",
+      "task": "We're planning a major capital expansion based on current fuel blending mandate levels and fuel credit prices, which make the expansion's economics look very attractive. I'm treating these current incentive levels as a stable input to our long-term financial projections.",
+      "criteria": [
+        "Flags assuming current blending mandates/fuel credit levels are permanent as the assuming-current-incentives-are-permanent failure mode",
+        "States that regulatory and incentive structures are subject to policy change on a timescale the plant doesn't control, and this is a distinct risk category from operational risk",
+        "Recommends explicit scenario planning for incentive-level changes as part of the capital decision, not treating current policy as a stable given",
+        "Frames this as a policy-dependency risk that needs to be modeled and disclosed separately, not folded silently into the base case"
+      ]
+    }
+  ]
+}
