@@ -20,6 +20,23 @@
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0f17;
+    --bg-raised: #131a26;
+    --border: #22293a;
+    --border-strong: #334155;
+    --text: #e5e9f0;
+    --text-dim: #94a3b8;
+    --accent: #60a5fa;
+    --accent-dim: #1e2a44;
+    --draft: #fbbf24;
+    --draft-bg: #3a2f0f;
+    --active: #4ade80;
+    --active-bg: #12301d;
+  }
+}
+
 * { box-sizing: border-box; }
 
 html { -webkit-text-size-adjust: 100%; }
