@@ -1,5 +1,5 @@
 {
-  "count": 334,
+  "count": 335,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4335,6 +4335,27 @@
       "skill": "roles/mobile-engineer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mortician-funeral-arranger",
+      "description": "Use when a task needs the judgment of a Mortician/Funeral Arranger \u2014 running an arrangement conference with a grieving family, verifying death-certificate informant details against a primary source, itemizing a General Price List selection against a family's budget expectation, coordinating religious/cultural timing requirements into a service plan, or determining who holds legal authority to decide when family members disagree.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-4031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mortician-funeral-arranger/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],

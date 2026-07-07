@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 324 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 325 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -706,7 +706,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>39 — Personal Care and Service</strong> (8/34 drafted)</summary>
+<summary><strong>39 — Personal Care and Service</strong> (9/34 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -727,7 +727,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 39-4011.00 | Embalmers | [`embalmer`](./roles/embalmer/SKILL.md) |
 |  | 39-4012.00 | Crematory Operators |  |
 |  | 39-4021.00 | Funeral Attendants |  |
-|  | 39-4031.00 | Morticians, Undertakers, and Funeral Arrangers |  |
+| ✅ | 39-4031.00 | Morticians, Undertakers, and Funeral Arrangers | [`mortician-funeral-arranger`](./roles/mortician-funeral-arranger/SKILL.md) |
 |  | 39-5011.00 | Barbers |  |
 | ✅ | 39-5012.00 | Hairdressers, Hairstylists, and Cosmetologists | [`hairdresser-cosmetologist`](./roles/hairdresser-cosmetologist/SKILL.md) |
 |  | 39-5091.00 | Makeup Artists, Theatrical and Performance |  |
