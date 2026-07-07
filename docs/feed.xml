@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:23:39 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:38:06 +0000</lastBuildDate>
+  <item>
+    <title>Dietitian Nutritionist</title>
+    <link>https://domainexperts.dev/roles/dietitian-nutritionist/</link>
+    <guid>https://domainexperts.dev/roles/dietitian-nutritionist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Registered Dietitian Nutritionist — calculating caloric/macronutrient needs for a clinical case, designing a medical-nutrition-therapy plan for a disease-specific condition (renal, diabetic, oncology), setting an enteral or parenteral feeding prescription, or screening/triaging malnutrition risk.</description>
+  </item>
+  <item>
+    <title>Genetic Counselor</title>
+    <link>https://domainexperts.dev/roles/genetic-counselor/</link>
+    <guid>https://domainexperts.dev/roles/genetic-counselor/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a genetic counselor — calculating a consultand&#x27;s pedigree-based or Bayesian-modified risk of carrying or developing a genetic condition, structuring pretest/posttest counseling for a genetic-testing decision, communicating a variant classification&#x27;s family implications, or navigating informed consent and psychosocial fallout around a genetic result.</description>
+  </item>
+  <item>
+    <title>Nurse Practitioner</title>
+    <link>https://domainexperts.dev/roles/nurse-practitioner/</link>
+    <guid>https://domainexperts.dev/roles/nurse-practitioner/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a nurse practitioner — working a differential diagnosis from a presenting complaint, deciding whether a finding is manageable within NP scope or needs physician/specialist referral, applying a clinical decision rule to justify or skip a test, or writing a visit note&#x27;s assessment-and-plan under a specific state&#x27;s practice-authority model.</description>
+  </item>
+  <item>
+    <title>Occupational Therapist</title>
+    <link>https://domainexperts.dev/roles/occupational-therapist/</link>
+    <guid>https://domainexperts.dev/roles/occupational-therapist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of an occupational therapist — assessing activities-of-daily-living (ADL) independence after injury or illness, recommending adaptive equipment or home modifications, selecting a cognitive-rehabilitation approach after a neurologic event, or building a return-to-work/return-to-independent-living functional-capacity case.</description>
+  </item>
+  <item>
+    <title>Pharmacist</title>
+    <link>https://domainexperts.dev/roles/pharmacist/</link>
+    <guid>https://domainexperts.dev/roles/pharmacist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed Pharmacist — checking a drug-interaction or contraindication before dispensing, verifying a dose against renal/hepatic-adjusted ranges, evaluating a therapeutic-substitution or formulary swap, reconciling medications at a care transition, or drafting a pharmacist-intervention note to a prescriber.</description>
+  </item>
+  <item>
+    <title>Physical Therapist</title>
+    <link>https://domainexperts.dev/roles/physical-therapist/</link>
+    <guid>https://domainexperts.dev/roles/physical-therapist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a physical therapist — screening a musculoskeletal complaint for red flags requiring physician referral, building a plan of care with measurable functional goals, tracking outcome-measure change to justify continued treatment or discharge, or interpreting a goniometry/strength deficit against normative values.</description>
+  </item>
+  <item>
+    <title>Physician Assistant</title>
+    <link>https://domainexperts.dev/roles/physician-assistant/</link>
+    <guid>https://domainexperts.dev/roles/physician-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a physician assistant — working up an undifferentiated complaint within a delegated scope of practice, deciding when a case needs escalation to the supervising/collaborating physician, applying a validated clinical decision rule to avoid unnecessary testing, or navigating a state-specific practice-agreement boundary (prescribing authority, cosignature requirements).</description>
+  </item>
+  <item>
+    <title>Speech Language Pathologist</title>
+    <link>https://domainexperts.dev/roles/speech-language-pathologist/</link>
+    <guid>https://domainexperts.dev/roles/speech-language-pathologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a speech-language pathologist — screening or interpreting a swallow (dysphagia) evaluation, differentially diagnosing an articulation vs. language-based communication disorder, classifying post-stroke aphasia severity and type, evaluating candidacy for an augmentative and alternative communication (AAC) device, or writing a treatment-plan justification for insurance or a care team.</description>
+  </item>
+  <item>
+    <title>Veterinarian</title>
+    <link>https://domainexperts.dev/roles/veterinarian/</link>
+    <guid>https://domainexperts.dev/roles/veterinarian/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:37:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a veterinarian — calculating a weight-based drug dose across species with different metabolic clearance, working a species-specific differential diagnosis, assessing zoonotic-disease risk from an animal exposure, counseling an owner through an end-of-life/euthanasia decision, or weighing herd-level vs individual-animal treatment tradeoffs in production-animal practice.</description>
+  </item>
   <item>
     <title>Correctional Officer</title>
     <link>https://domainexperts.dev/roles/correctional-officer/</link>

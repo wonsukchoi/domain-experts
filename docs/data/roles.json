@@ -1,5 +1,5 @@
 {
-  "count": 256,
+  "count": 265,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1246,6 +1246,24 @@
       "references": []
     },
     {
+      "slug": "dietitian-nutritionist",
+      "description": "Use when a task needs the judgment of a Registered Dietitian Nutritionist \u2014 calculating caloric/macronutrient needs for a clinical case, designing a medical-nutrition-therapy plan for a disease-specific condition (renal, diabetic, oncology), setting an enteral or parenteral feeding prescription, or screening/triaging malnutrition risk.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dietitian-nutritionist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "digital-forensics-analyst",
       "description": "Use when a task needs the judgment of a Digital Forensics Analyst \u2014 capturing volatile evidence before it's lost, creating and hash-verifying a forensic disk image, documenting chain of custody from point of seizure, correcting for clock skew and timezone mismatches when building a cross-source timeline, or identifying anti-forensic activity (log wiping, timestomping) in an investigation.",
       "category": "engineering",
@@ -2058,6 +2076,24 @@
       "audit_score": null,
       "skill": "roles/general-operations-manager/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "genetic-counselor",
+      "description": "Use when a task needs the judgment of a genetic counselor \u2014 calculating a consultand's pedigree-based or Bayesian-modified risk of carrying or developing a genetic condition, structuring pretest/posttest counseling for a genetic-testing decision, communicating a variant classification's family implications, or navigating informed consent and psychosocial fallout around a genetic result.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-9092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/genetic-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "geneticist",
@@ -3077,6 +3113,24 @@
       ]
     },
     {
+      "slug": "nurse-practitioner",
+      "description": "Use when a task needs the judgment of a nurse practitioner \u2014 working a differential diagnosis from a presenting complaint, deciding whether a finding is manageable within NP scope or needs physician/specialist referral, applying a clinical decision rule to justify or skip a test, or writing a visit note's assessment-and-plan under a specific state's practice-authority model.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1171.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nurse-practitioner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "occupational-health-safety-specialist",
       "description": "Use when a task needs the judgment of an occupational health and safety specialist \u2014 running a workplace hazard assessment, investigating a recordable incident's root cause, interpreting industrial-hygiene sampling data (noise, chemical exposure) against OSHA limits, designing a hierarchy-of-controls fix, or building an OSHA 300-log-driven safety program review. Distinct from a security-management-specialist (human/physical-threat protection) \u2014 this role owns exposure, hazard, and injury risk from the work itself, not from bad actors.",
       "category": "operations",
@@ -3088,6 +3142,24 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/occupational-health-safety-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "occupational-therapist",
+      "description": "Use when a task needs the judgment of an occupational therapist \u2014 assessing activities-of-daily-living (ADL) independence after injury or illness, recommending adaptive equipment or home modifications, selecting a cognitive-rehabilitation approach after a neurologic event, or building a return-to-work/return-to-independent-living functional-capacity case.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1122.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/occupational-therapist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3221,6 +3293,24 @@
       ]
     },
     {
+      "slug": "pharmacist",
+      "description": "Use when a task needs the judgment of a licensed Pharmacist \u2014 checking a drug-interaction or contraindication before dispensing, verifying a dose against renal/hepatic-adjusted ranges, evaluating a therapeutic-substitution or formulary swap, reconciling medications at a care transition, or drafting a pharmacist-intervention note to a prescriber.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pharmacist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "photographer",
       "description": "Use when a task needs the judgment of a professional photographer \u2014 planning exposure/lighting for a shoot, building a shot list with coverage for an irreplaceable event, structuring a usage-licensing fee for commercial images, diagnosing a lighting or exposure problem from EXIF/histogram data, or setting up a non-destructive post-processing workflow.",
       "category": "design",
@@ -3232,6 +3322,42 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/photographer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "physical-therapist",
+      "description": "Use when a task needs the judgment of a physical therapist \u2014 screening a musculoskeletal complaint for red flags requiring physician referral, building a plan of care with measurable functional goals, tracking outcome-measure change to justify continued treatment or discharge, or interpreting a goniometry/strength deficit against normative values.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1123.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/physical-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
+      "slug": "physician-assistant",
+      "description": "Use when a task needs the judgment of a physician assistant \u2014 working up an undifferentiated complaint within a delegated scope of practice, deciding when a case needs escalation to the supervising/collaborating physician, applying a validated clinical decision rule to avoid unnecessary testing, or navigating a state-specific practice-agreement boundary (prescribing authority, cosignature requirements).",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/physician-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3999,6 +4125,24 @@
       ]
     },
     {
+      "slug": "speech-language-pathologist",
+      "description": "Use when a task needs the judgment of a speech-language pathologist \u2014 screening or interpreting a swallow (dysphagia) evaluation, differentially diagnosing an articulation vs. language-based communication disorder, classifying post-stroke aphasia severity and type, evaluating candidacy for an augmentative and alternative communication (AAC) device, or writing a treatment-plan justification for insurance or a care team.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1127.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/speech-language-pathologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
+    },
+    {
       "slug": "statistician",
       "description": "Use when a task needs the judgment of a Statistician \u2014 designing a sampling or experimental protocol, determining sample size or power, choosing and defending a hypothesis-testing or multiple-comparisons approach, or reviewing whether a study's statistical claims are actually supported by its design.",
       "category": "other",
@@ -4351,6 +4495,24 @@
       "audit_score": null,
       "skill": "roles/ux-designer/SKILL.md",
       "references": []
+    },
+    {
+      "slug": "veterinarian",
+      "description": "Use when a task needs the judgment of a veterinarian \u2014 calculating a weight-based drug dose across species with different metabolic clearance, working a species-specific differential diagnosis, assessing zoonotic-disease risk from an animal exposure, counseling an owner through an end-of-life/euthanasia decision, or weighing herd-level vs individual-animal treatment tradeoffs in production-animal practice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1131.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/veterinarian/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ]
     },
     {
       "slug": "water-resource-specialist",
