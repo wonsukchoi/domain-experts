@@ -1,5 +1,5 @@
 {
-  "count": 351,
+  "count": 359,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3484,6 +3484,27 @@
       ]
     },
     {
+      "slug": "housekeeping-janitorial-supervisor",
+      "description": "Use when a task needs the judgment of a housekeeping or janitorial supervisor \u2014 building a daily room-attendant assignment against a credit quota, deciding how to absorb same-day call-outs without blowing inspection scores, reading a housekeeping inspection or guest-complaint trend, sizing a janitorial crew against square footage, or responding to a chemical-labeling or bloodborne-pathogen compliance gap.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/housekeeping-janitorial-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "hr-people-manager",
       "description": "Use when a task needs the judgment of an HR/people manager \u2014 handling a performance issue, designing compensation or leveling decisions, resolving a workplace conflict, structuring a hiring process, or navigating an org design/headcount decision.",
       "category": "operations",
@@ -3846,6 +3867,27 @@
       ]
     },
     {
+      "slug": "janitor-cleaner",
+      "description": "Use when a task needs the judgment of a commercial Janitor/Cleaner \u2014 sequencing a nightly building-wide cleaning route under a fixed shift-time budget, deciding floor-care chemical and strip/recoat cycles, responding to a bodily-fluid or biohazard spill, mixing chemicals safely across mixed surface types, or triaging which tasks get cut when a shift runs over.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/janitor-cleaner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "judge",
       "description": "Use when a task needs the judgment of a Judge, Magistrate Judge, or Magistrate \u2014 ruling on an evidentiary objection or motion in real time versus deferring it for fuller consideration, deciding whether to recuse under an appearance-of-impartiality standard, individualizing a criminal sentence against the required statutory factors instead of applying a guideline range mechanically, balancing docket/case-management pressure against a party's due process right to be heard, or choosing pattern versus improvised jury instruction language on a contested legal point.",
       "category": "legal",
@@ -3922,6 +3964,48 @@
       "skill": "roles/landscape-architect/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "landscaping-groundskeeping-worker",
+      "description": "Use when a task needs the judgment of a Landscaping and Groundskeeping Worker \u2014 diagnosing why a lawn or bed is declining on-site (drought vs. disease vs. insect vs. mechanical injury), setting mowing height and frequency by turf species, calibrating irrigation run-time or fertilizer spreader rate, sequencing a single crew's task order on a property, or judging equipment/PPE safety before a cut.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/landscaping-groundskeeping-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "landscaping-supervisor",
+      "description": "Use when a task needs the judgment of a Landscaping Supervisor \u2014 building a daily multi-crew mow/maintenance route, deciding whether to call off spraying or mowing for weather, job-costing a route that's bleeding margin to drive time, staffing a licensed-applicator ratio across crews, or handling an equipment-safety incident or seasonal-labor shortfall.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-1012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/landscaping-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -4169,6 +4253,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/loss-prevention-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "maid-housekeeping-cleaner",
+      "description": "Use when a task needs the judgment of a hotel guest room attendant / housekeeper \u2014 sequencing a room turn under a per-room time budget, deciding checkout vs. stay-over vs. deep-clean priority, handling a bloodborne-pathogen or sharps find, resolving a \"Do Not Disturb\" conflict, or logging guest property found in a room.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/maid-housekeeping-cleaner/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5153,6 +5258,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/personal-property-appraiser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pest-control-worker",
+      "description": "Use when a task needs the judgment of a licensed pest control technician/PCO \u2014 diagnosing a pest or wood-destroying-organism (WDO) infestation, calculating a legal termiticide or insecticide application rate, writing a WDO/NPMA-33 inspection report for a real estate transaction, deciding between trench-and-treat vs. rod injection vs. bait, or evaluating a termite retreatment/repair warranty claim.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pest-control-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pesticide-handler-vegetation",
+      "description": "Use when a task needs the judgment of a Pesticide Handler, Sprayer, or Applicator (Vegetation) \u2014 calibrating a boom or backpack sprayer for a right-of-way or roadside herbicide job, choosing herbicide mode-of-action and buffer zones near water or sensitive crops, setting REI and re-entry timing under the Worker Protection Standard, diagnosing a drift or non-target-damage complaint, or reviewing a vegetation-management spray plan for label and safety compliance.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-3012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pesticide-handler-vegetation/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6933,6 +7080,27 @@
       "audit_score": null,
       "skill": "roles/treasurer-controller/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "tree-trimmer-pruner",
+      "description": "Use when a task needs the judgment of a tree trimmer/pruner \u2014 deciding whether a limb or union is structurally sound enough to leave, planning a rigged removal near a power line, setting a pruning cut plan that respects live-crown limits, or rating a tree's failure risk before crews or property are exposed to it.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "37-3013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tree-trimmer-pruner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

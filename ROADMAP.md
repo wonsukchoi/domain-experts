@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 341 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 349 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -688,19 +688,19 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>37 — Building and Grounds Cleaning and Maintenance</strong> (0/10 drafted)</summary>
+<summary><strong>37 — Building and Grounds Cleaning and Maintenance</strong> (8/10 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 37-1011.00 | First-Line Supervisors of Housekeeping and Janitorial Workers |  |
-|  | 37-1012.00 | First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers |  |
-|  | 37-2011.00 | Janitors and Cleaners, Except Maids and Housekeeping Cleaners |  |
-|  | 37-2012.00 | Maids and Housekeeping Cleaners |  |
+| ✅ | 37-1011.00 | First-Line Supervisors of Housekeeping and Janitorial Workers | [`housekeeping-janitorial-supervisor`](./roles/housekeeping-janitorial-supervisor/SKILL.md) |
+| ✅ | 37-1012.00 | First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers | [`landscaping-supervisor`](./roles/landscaping-supervisor/SKILL.md) |
+| ✅ | 37-2011.00 | Janitors and Cleaners, Except Maids and Housekeeping Cleaners | [`janitor-cleaner`](./roles/janitor-cleaner/SKILL.md) |
+| ✅ | 37-2012.00 | Maids and Housekeeping Cleaners | [`maid-housekeeping-cleaner`](./roles/maid-housekeeping-cleaner/SKILL.md) |
 |  | 37-2019.00 | Building Cleaning Workers, All Other |  |
-|  | 37-2021.00 | Pest Control Workers |  |
-|  | 37-3011.00 | Landscaping and Groundskeeping Workers |  |
-|  | 37-3012.00 | Pesticide Handlers, Sprayers, and Applicators, Vegetation |  |
-|  | 37-3013.00 | Tree Trimmers and Pruners |  |
+| ✅ | 37-2021.00 | Pest Control Workers | [`pest-control-worker`](./roles/pest-control-worker/SKILL.md) |
+| ✅ | 37-3011.00 | Landscaping and Groundskeeping Workers | [`landscaping-groundskeeping-worker`](./roles/landscaping-groundskeeping-worker/SKILL.md) |
+| ✅ | 37-3012.00 | Pesticide Handlers, Sprayers, and Applicators, Vegetation | [`pesticide-handler-vegetation`](./roles/pesticide-handler-vegetation/SKILL.md) |
+| ✅ | 37-3013.00 | Tree Trimmers and Pruners | [`tree-trimmer-pruner`](./roles/tree-trimmer-pruner/SKILL.md) |
 |  | 37-3019.00 | Grounds Maintenance Workers, All Other |  |
 
 </details>
