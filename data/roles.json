@@ -1,5 +1,5 @@
 {
-  "count": 468,
+  "count": 480,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -270,6 +270,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/aircraft-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "airfield-operations-specialist",
+      "description": "Use when a task needs the judgment of an airfield operations specialist \u2014 running a Part 139 self-inspection of the movement area, assigning a Runway Condition Code (RwyCC) after snow/ice contamination, deciding whether a discovered hazard needs an immediate NOTAM, triggering a Wildlife Hazard Assessment after a strike or sighting, or judging a FOD find as immediate-closure versus scheduled removal.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/airfield-operations-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2785,6 +2806,27 @@
       ]
     },
     {
+      "slug": "driver-sales-worker",
+      "description": "Use when a task needs the judgment of a Driver/Sales Worker on a direct-store-delivery (DSD) route \u2014 negotiating a shelf-facing or planogram change with a store manager, resizing a standing order after a shelf or demand change, deciding whether to pull code-dated product before a stale credit hits, reconciling a route's revenue-per-stop against cost-per-stop, or deciding whether to fight for shelf space back from a competitor.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/driver-sales-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "drywall-ceiling-tile-installer",
       "description": "Use when a task needs the judgment of a drywall and ceiling tile installer \u2014 specifying a fire-rated wall/ceiling assembly to a UL design number, hitting an STC target on a demising wall, choosing board type for a wet area, placing control joints on a long run, or diagnosing why a finished assembly failed inspection or a sound/mold complaint.",
       "category": "operations",
@@ -4513,6 +4555,27 @@
       ]
     },
     {
+      "slug": "hoist-winch-operator",
+      "description": "Use when a task needs the judgment of a Hoist and Winch Operator \u2014 reading a winch drum's layer-specific line-pull rating instead of the bare-drum nameplate figure for a load near the top of a multi-layer wind, verifying an anti-two-block device is functional and not bypassed before a hoist that brings the block near the boom tip or headframe sheave, confirming brake holding capacity before leaving a load suspended on the hook, checking fleet angle and drum spooling before a lift, or choosing the operating discipline that applies to a mine hoist, a marine cargo/mooring winch, or a construction material hoist.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hoist-winch-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "home-appliance-repairer",
       "description": "Use when a task needs the judgment of a Home Appliance Repairer \u2014 diagnosing a refrigerator, washer, dryer, dishwasher, or range fault from a customer's symptom description, deciding repair vs. replace on an aging unit, sequencing truck-stock parts to fix a call in one visit, checking a unit against an open safety recall before billing a repair, or scoping sealed-system refrigerant work under EPA rules.",
       "category": "operations",
@@ -5271,6 +5334,27 @@
       ]
     },
     {
+      "slug": "light-truck-driver",
+      "description": "Use when a task needs the judgment of a Light Truck Driver \u2014 checking whether a vehicle reassignment crosses the 26,001 lb CDL threshold, deciding whether to skip a backing safety check to hit a delivery-window cutoff, classifying a proof-of-delivery or signature exception, planning stop-sequencing against a shift's on-duty time budget, or responding to a residential hazard (loose dog, blocked driveway, unsafe backing approach) mid-route.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-3033.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/light-truck-driver/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "loan-interviewer-clerk",
       "description": "Use when a task needs the judgment of a loan interviewer/processor \u2014 verifying a loan application's document completeness against investor guidelines, tracking and clearing underwriting conditions, sourcing a large deposit or gap in employment history, or drafting a conditions-needed letter to a borrower. Distinct from loan-officer (owns qualification math, product structuring, and disclosure-timing decisions) \u2014 this role verifies and assembles the file loan-officer and underwriting rely on, it doesn't qualify or price the loan.",
       "category": "finance",
@@ -5492,6 +5576,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/loss-prevention-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "machine-feeder-offbearer",
+      "description": "Use when a task needs the judgment of a Machine Feeder and Offbearer \u2014 timing a manual feed/discharge task against a machine's actual cycle time to find a hidden bottleneck, verifying a two-hand control or presence-sensing device's minimum safety distance after a tooling or stock changeover, deciding whether a point-of-operation exposure needs a pullback device versus a restraint device versus presence-sensing, judging whether a light-curtain nuisance trip is an ergonomic fix or a defeat-in-progress, or holding a station when pace pressure has pushed hands closer to the point of operation than the safeguard's timing allows.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7063.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/machine-feeder-offbearer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6128,6 +6233,27 @@
       ]
     },
     {
+      "slug": "motorboat-operator",
+      "description": "Use when a task needs the judgment of a Motorboat Operator \u2014 a licensed small-craft operator running tour boats, water taxis, harbor launches, or patrol/workboats \u2014 checking a passenger count against a vessel's Certificate of Inspection before departure, deciding how to handle a following sea or bar crossing without broaching, running a pre-departure passenger safety briefing, verifying whether an OUPV (\"six-pack\") license covers a given job, or timing a man-overboard response in cold water.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-5022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/motorboat-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "motorcycle-mechanic",
       "description": "Use when a task needs senior motorcycle-mechanic judgment \u2014 running a T-CLOCS-style intake inspection on a vague handling complaint, diagnosing a rough-idle or no-start complaint on a fleet split between carbureted and fuel-injected machines, deciding whether chain/sprocket or tire wear is ride-safe versus stop-ship, scoping a valve-clearance service against architecture-specific spec, or pricing seasonal storage-prep against the spring comeback it prevents.",
       "category": "operations",
@@ -6644,6 +6770,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/paramedic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "parking-attendant",
+      "description": "Use when a task needs the judgment of a valet/parking attendant \u2014 intaking a guest's vehicle and documenting its condition, managing key custody during a shift, deciding how to stage or stack cars for a lot's density and departure pattern, staffing a valet stand for a predicted rush, or handling a disputed-damage or lost-ticket claim after the fact.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/parking-attendant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7562,6 +7709,27 @@
       ]
     },
     {
+      "slug": "rail-yard-engineer",
+      "description": "Use when a task needs the judgment of a Rail Yard Engineer, Dinkey Operator, or Hostler \u2014 deciding kick versus couple-and-shove for a cut of cars in flat switching, computing a safe release/coupling speed given rollout distance and rolling resistance, verifying blue-signal protection before an engine move onto an occupied track, pacing a shove to a hump crest against the tower's called spacing, or moving a locomotive within terminal track limits as a hostler for fueling or servicing.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-4013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/rail-yard-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "railroad-conductor-yardmaster",
       "description": "Use when a task needs the judgment of a Railroad Conductor or Yardmaster \u2014 building an outbound train's block order from a classification yard, verifying blue-signal protection before authorizing a move onto an occupied track, checking hazmat placarding and buffer-car placement against a train consist, deciding whether a train's operative-brake percentage is legal to depart on, or running a shoving movement with radio/hand-signal point protection.",
       "category": "operations",
@@ -7951,6 +8119,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/rv-service-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sailor-marine-oiler",
+      "description": "Use when a task needs the judgment of a Sailor/Marine Oiler (unlicensed deck or engine-room rating) \u2014 positioning crew clear of a mooring line's snap-back zone before heaving in, running an engine-room gauge/sounding round and deciding what's a normal reading versus what needs escalation to the engineer of the watch, sequencing a chipping/priming/painting preservation cycle on exposed steel, or checking a vessel's abandon-ship and lifeboat drill compliance against SOLAS intervals.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-5011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sailor-marine-oiler/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8844,6 +9033,27 @@
       ]
     },
     {
+      "slug": "tank-loader",
+      "description": "Use when a task needs the judgment of a Tank Car, Truck, and Ship Loader \u2014 verifying bonding/grounding continuity before starting a flammable-liquid transfer, setting overfill-prevention trip points and outage volume for a compartment, connecting and confirming a vapor-recovery system before liquid flow starts, controlling initial fill rate on a switch-loaded compartment, or cross-checking shipping papers and placards against the actual loaded product before releasing a vehicle or vessel for transport.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7121.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tank-loader/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "tax-preparer",
       "description": "Use when a task needs the judgment of a paid individual/small-business tax return preparer \u2014 reconstructing income from client documents, choosing the right forms and schedules, computing tax liability including self-employment tax, running EITC/CTC/AOTC/HOH due-diligence checks, reconciling withholding against actual liability, or drafting a response to an IRS notice (CP2000, audit letter). Not a tax-strategy/CFO role (see financial-manager) \u2014 this is return-preparation and filing-compliance craft for the current filing season.",
       "category": "finance",
@@ -9365,6 +9575,48 @@
       "audit_score": null,
       "skill": "roles/ux-designer/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "vehicle-cleaner",
+      "description": "Use when a task needs the judgment of a fleet vehicle cleaner \u2014 running a bus/aircraft/rental-car turnaround clean against a fixed schedule window, responding to a bodily-fluid spill under bloodborne-pathogen protocol, choosing a chemical or pressure-washer setting that won't damage the surface it's meant to clean, or logging a found passenger item into chain of custody.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-7061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/vehicle-cleaner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "vehicle-systems-inspector",
+      "description": "Use when a task needs the judgment of a Transportation Vehicle, Equipment and Systems Inspector \u2014 selecting a Level I vs Level II vs Level III roadside inspection under time and lane constraints, applying CVSA out-of-service criteria to a measured brake pushrod stroke or tire tread reading, applying the 20%-of-brakes aggregate rule across a commercial motor vehicle, verifying a hazmat placard against a shipping paper's hazard class and aggregate weight, or distinguishing a CVSA decal from a DOT annual inspection sticker on a disputed call.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6051.07",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/vehicle-systems-inspector/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
