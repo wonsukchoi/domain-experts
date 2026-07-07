@@ -4,7 +4,91 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 17:57:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 18:08:55 +0000</lastBuildDate>
+  <item>
+    <title>Avionics Technician</title>
+    <link>https://domainexperts.dev/roles/avionics-technician/</link>
+    <guid>https://domainexperts.dev/roles/avionics-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an avionics technician — chasing an intermittent nav/comm or autopilot fault that &quot;checks good&quot; on the ground, deciding whether an avionics upgrade needs an STC or qualifies for field approval, verifying bonding resistance and wire-bundle separation on an install, cross-checking a new LRU&#x27;s DO-160 environmental qualification against its install location, or writing an avionics discrepancy/return-to-service entry.</description>
+  </item>
+  <item>
+    <title>Farm Equipment Mechanic</title>
+    <link>https://domainexperts.dev/roles/farm-equipment-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/farm-equipment-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Farm Equipment Mechanic — diagnosing an ECU fault code on a combine or tractor before swapping parts, pressure-testing a hydraulic circuit on a planter or sprayer, troubleshooting a PTO or ISOBUS/CAN-bus communication fault, triaging a harvest-season breakdown against dealer-only diagnostic tool access, or scoping a pre-season inspection program against in-season failure risk.</description>
+  </item>
+  <item>
+    <title>Heavy Equipment Mechanic</title>
+    <link>https://domainexperts.dev/roles/heavy-equipment-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/heavy-equipment-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mobile Heavy Equipment Mechanic — diagnosing a slow or drifting hydraulic cylinder on an excavator/dozer/loader, measuring undercarriage wear to decide replace-now vs run-on, deciding whether to repair on the job site or haul the machine to the shop, sequencing OEM PM intervals for abrasive-site duty cycles, or investigating a repeat hydraulic component failure tied to fluid contamination.</description>
+  </item>
+  <item>
+    <title>Home Appliance Repairer</title>
+    <link>https://domainexperts.dev/roles/home-appliance-repairer/</link>
+    <guid>https://domainexperts.dev/roles/home-appliance-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Home Appliance Repairer — diagnosing a refrigerator, washer, dryer, dishwasher, or range fault from a customer&#x27;s symptom description, deciding repair vs. replace on an aging unit, sequencing truck-stock parts to fix a call in one visit, checking a unit against an open safety recall before billing a repair, or scoping sealed-system refrigerant work under EPA rules.</description>
+  </item>
+  <item>
+    <title>Locksmith Safe Repairer</title>
+    <link>https://domainexperts.dev/roles/locksmith-safe-repairer/</link>
+    <guid>https://domainexperts.dev/roles/locksmith-safe-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Locksmith and Safe Repairer — verifying authority before a lockout or entry job, deciding rekey vs. cylinder replacement, designing or repairing a master key system, translating a safe-buying question into a burglary/fire rating class, or scoping a lost-combination safe job.</description>
+  </item>
+  <item>
+    <title>Medical Equipment Repairer</title>
+    <link>https://domainexperts.dev/roles/medical-equipment-repairer/</link>
+    <guid>https://domainexperts.dev/roles/medical-equipment-repairer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a medical equipment repairer (biomedical equipment technician / BMET) — triaging simultaneous work orders by patient-safety criticality, deciding whether a device passes electrical-safety and functional return-to-service testing, setting or revising a risk-based PM interval, investigating a repeat-fault device for a recall or reportable-event pattern, or preparing equipment records for a Joint Commission or CMS survey. Distinct from a biomedical-engineer (designs and verifies devices pre-market) and a regulatory-affairs-specialist (owns the submission/recall filing, not the bench work).</description>
+  </item>
+  <item>
+    <title>Motorcycle Mechanic</title>
+    <link>https://domainexperts.dev/roles/motorcycle-mechanic/</link>
+    <guid>https://domainexperts.dev/roles/motorcycle-mechanic/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs senior motorcycle-mechanic judgment — running a T-CLOCS-style intake inspection on a vague handling complaint, diagnosing a rough-idle or no-start complaint on a fleet split between carbureted and fuel-injected machines, deciding whether chain/sprocket or tire wear is ride-safe versus stop-ship, scoping a valve-clearance service against architecture-specific spec, or pricing seasonal storage-prep against the spring comeback it prevents.</description>
+  </item>
+  <item>
+    <title>Powerhouse Substation Electrician</title>
+    <link>https://domainexperts.dev/roles/powerhouse-substation-electrician/</link>
+    <guid>https://domainexperts.dev/roles/powerhouse-substation-electrician/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a powerhouse/substation electrician — planning and independently verifying a switching order to de-energize substation equipment (transformers, breakers, buses) for maintenance, interpreting a dissolved gas analysis (DGA) trend to decide whether a transformer stays in service, testing and coordinating protective relays against NERC PRC-005 intervals, or selecting arc-flash PPE from an equipment-specific incident-energy study rather than voltage class alone.</description>
+  </item>
+  <item>
+    <title>Radio Tower Technician</title>
+    <link>https://domainexperts.dev/roles/radio-tower-technician/</link>
+    <guid>https://domainexperts.dev/roles/radio-tower-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs senior radio/cellular/tower-technician judgment — deciding whether an RF power-down authorization from a carrier NOC (network operations center) is actually sufficient before a climber works near a live antenna, validating a tower-specific rescue plan before a climb, diagnosing a failed VSWR or PIM reading after antenna installation, or triaging an obstruction-light outage against the FAA notification clock.</description>
+  </item>
+  <item>
+    <title>Rigger</title>
+    <link>https://domainexperts.dev/roles/rigger/</link>
+    <guid>https://domainexperts.dev/roles/rigger/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a rigger — writing an engineered lift plan for a critical or tandem-crane pick, calculating load share and center of gravity for an asymmetric multi-point lift, selecting and derating slings/shackles for hitch type and D/d ratio, setting an exclusion zone and tag-line plan for a suspended-load lift, or inspecting rigging gear against numeric rejection criteria before use.</description>
+  </item>
+  <item>
+    <title>Telecom Line Installer</title>
+    <link>https://domainexperts.dev/roles/telecom-line-installer/</link>
+    <guid>https://domainexperts.dev/roles/telecom-line-installer/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a telecommunications line installer/repairer — calculating an OTDR (optical time-domain reflectometer) loss budget for a new fiber run, sequencing pole attachment and make-ready coordination with a power utility on a joint-use pole, diagnosing a fault from OTDR traces before dispatching a truck, or evaluating whether a splice closure or bend-radius shortcut is actually safe to ship.</description>
+  </item>
+  <item>
+    <title>Wind Turbine Technician</title>
+    <link>https://domainexperts.dev/roles/wind-turbine-technician/</link>
+    <guid>https://domainexperts.dev/roles/wind-turbine-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 01:08:42 +0700</pubDate>
+    <description>Use when a task needs senior wind-turbine-service-technician judgment — deciding whether a climb/rescue plan is valid to proceed on a given tower today, reading gearbox oil analysis or SCADA vibration trends to schedule a repair before failure, setting or verifying tower- and blade-bolt torque/re-torque procedure, or triaging a lightning-strike or drivetrain-alarm event.</description>
+  </item>
   <item>
     <title>Aircraft Mechanic</title>
     <link>https://domainexperts.dev/roles/aircraft-mechanic/</link>
