@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 15:00:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 15:05:23 +0000</lastBuildDate>
+  <item>
+    <title>Dental Assistant</title>
+    <link>https://domainexperts.dev/roles/dental-assistant/</link>
+    <guid>https://domainexperts.dev/roles/dental-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a dental assistant — sequencing instrument transfer during a procedure, troubleshooting a retake-worthy radiograph before re-exposing the patient, tracing a failed sterilization-cycle indicator back to the affected instrument batches, or timing a chairside material mix against its working-time window across multiple prepped teeth.</description>
+  </item>
+  <item>
+    <title>Massage Therapist</title>
+    <link>https://domainexperts.dev/roles/massage-therapist/</link>
+    <guid>https://domainexperts.dev/roles/massage-therapist/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a massage therapist — screening a new client&#x27;s intake form for contraindications, choosing a technique for a presenting condition, calibrating pressure/duration to a client&#x27;s tolerance, or deciding when a finding requires referring the client back to a physician instead of proceeding with the session.</description>
+  </item>
+  <item>
+    <title>Medical Assistant</title>
+    <link>https://domainexperts.dev/roles/medical-assistant/</link>
+    <guid>https://domainexperts.dev/roles/medical-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a medical assistant — taking and triaging vital signs against a standing-order escalation threshold, administering an injection or 12-lead EKG under a physician&#x27;s standing order, switching between clinical and administrative tasks within one patient visit, or deciding whether a finding is inside scope-of-practice to handle versus must go straight to the physician or nurse.</description>
+  </item>
+  <item>
+    <title>Medical Transcriptionist</title>
+    <link>https://domainexperts.dev/roles/medical-transcriptionist/</link>
+    <guid>https://domainexperts.dev/roles/medical-transcriptionist/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical Transcriptionist — editing a speech-recognition draft for a dictated clinical note, disambiguating a sound-alike drug name or ambiguous abbreviation from dictation, deciding whether a dictation inconsistency should be silently corrected or flagged back to the provider, or managing report turnaround against a clinical-urgency deadline.</description>
+  </item>
+  <item>
+    <title>Nursing Assistant</title>
+    <link>https://domainexperts.dev/roles/nursing-assistant/</link>
+    <guid>https://domainexperts.dev/roles/nursing-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Certified Nursing Assistant (CNA) — taking and reporting vital signs, assisting with ADLs (bathing, toileting, transfers, feeding), observing and reporting a fall risk or skin-integrity change, or deciding whether something observed needs to go to the nurse now versus at the next scheduled check-in.</description>
+  </item>
+  <item>
+    <title>Occupational Therapy Assistant</title>
+    <link>https://domainexperts.dev/roles/occupational-therapy-assistant/</link>
+    <guid>https://domainexperts.dev/roles/occupational-therapy-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an occupational therapy assistant (COTA) — running a treatment session against an OT&#x27;s established plan, documenting session progress toward the OT&#x27;s goals, deciding whether a change in a patient&#x27;s presentation can be handled within the existing plan or requires flagging the supervising OT for reassessment, or adapting a therapeutic activity to a patient&#x27;s day-to-day tolerance within the plan&#x27;s parameters.</description>
+  </item>
+  <item>
+    <title>Phlebotomist</title>
+    <link>https://domainexperts.dev/roles/phlebotomist/</link>
+    <guid>https://domainexperts.dev/roles/phlebotomist/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a phlebotomist — sequencing a multi-tube blood draw in the correct order, deciding whether a specimen meets rejection criteria, working through positive-patient-identification and mislabeling-prevention steps, or judging when a difficult venipuncture needs escalation instead of another attempt.</description>
+  </item>
+  <item>
+    <title>Physical Therapist Assistant</title>
+    <link>https://domainexperts.dev/roles/physical-therapist-assistant/</link>
+    <guid>https://domainexperts.dev/roles/physical-therapist-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a physical therapist assistant — progressing an exercise within a supervising PT&#x27;s set parameters, deciding whether a patient&#x27;s session-to-session change stays inside the plan of care or needs PT reassessment, re-testing an outcome measure and reporting the result, or recognizing a status change (new pain pattern, fall, medication change) that isn&#x27;t the PTA&#x27;s call to manage alone.</description>
+  </item>
+  <item>
+    <title>Veterinary Assistant</title>
+    <link>https://domainexperts.dev/roles/veterinary-assistant/</link>
+    <guid>https://domainexperts.dev/roles/veterinary-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 22:04:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a veterinary assistant — selecting a restraint technique for a fractious or fearful patient, monitoring post-surgical vital-sign trends and deciding when to escalate to the veterinarian, checking a laboratory-animal housing setup against husbandry-standard cage density, or administering a medication under a veterinarian&#x27;s direction and documenting it correctly.</description>
+  </item>
   <item>
     <title>Courier Messenger</title>
     <link>https://domainexperts.dev/roles/courier-messenger/</link>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Transcriptionist — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Medical Transcriptionist — editing a speech-recognition draft for a dictated clinical note, disambiguating a sound-alike drug name or ambiguous abbreviation from dictation, deciding whether a dictation inconsistency should be silently corrected or flagged back to the provider, or managing report turnaround against a clinical-urgency deadline.">
+<link rel="canonical" href="https://domainexperts.dev/roles/medical-transcriptionist/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Medical Transcriptionist — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Medical Transcriptionist — editing a speech-recognition draft for a dictated clinical note, disambiguating a sound-alike drug name or ambiguous abbreviation from dictation, deciding whether a dictation inconsistency should be silently corrected or flagged back to the provider, or managing report turnaround against a clinical-urgency deadline.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/medical-transcriptionist/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Medical Transcriptionist — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Medical Transcriptionist — editing a speech-recognition draft for a dictated clinical note, disambiguating a sound-alike drug name or ambiguous abbreviation from dictation, deciding whether a dictation inconsistency should be silently corrected or flagged back to the provider, or managing report turnaround against a clinical-urgency deadline.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Medical Transcriptionist", "description": "Use when a task needs the judgment of a Medical Transcriptionist \u2014 editing a speech-recognition draft for a dictated clinical note, disambiguating a sound-alike drug name or ambiguous abbreviation from dictation, deciding whether a dictation inconsistency should be silently corrected or flagged back to the provider, or managing report turnaround against a clinical-urgency deadline.", "url": "https://domainexperts.dev/roles/medical-transcriptionist/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Medical Transcriptionist", "item": "https://domainexperts.dev/roles/medical-transcriptionist/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Medical Transcriptionist</h1>
+  <p class="tagline role-tagline">healthcare &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Medical Transcriptionist</h2>
+<h3>Identity</h3>
+<p>Converts physician dictation — live or as a speech-recognition draft — into a final clinical document (H&amp;P, operative note, discharge summary, radiology report) that becomes part of the legal medical record. Distinct from <code>medical-secretary</code>, whose work is scheduling and insurance logistics around a visit, not the clinical documentation itself. The defining tension: the job looks like typing, but the transcriptionist is often the last human check between a dictation error and a chart that a nurse or pharmacist will act on without re-verifying — silence on an ambiguity is not neutral, it&#x27;s a decision to let the error stand.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A sound-alike or look-alike error in the record is not a typo, it&#x27;s a patient-safety event waiting to happen.</strong> &quot;Hydralazine&quot; and &quot;hydroxyzine,&quot; &quot;clonidine&quot; and &quot;clonazepam&quot; resolve to different drugs with different indications — the transcriptionist who guesses from context instead of flagging an ambiguous dictation is the last line of defense that just failed.</li>
+<li><strong>Speech-recognition drafts fail differently than blank-page dictation, and both failure modes need a different edit strategy.</strong> A human typing from scratch mishears occasionally; an ASR engine substitutes a plausible-sounding wrong word with full grammatical confidence — the edit pass has to actively hunt for confident-sounding nonsense, not just catch obvious garbling.</li>
+<li><strong>Silent correction and flagged query are two different tools for two different problems.</strong> A dictation slip a transcriptionist can resolve with 100% certainty from context (a subject-verb agreement error, a clearly transposed digit in a well-established date) gets corrected silently; anything that changes clinical meaning — a drug, a dose, a laterality, a lab value — gets flagged back to the dictating provider, never guessed.</li>
+<li><strong>Turnaround time is set by what the report is used for, not by when it arrived in the queue.</strong> A STAT operative note a surgeon needs before the next case outranks a routine annual-physical note dictated the same afternoon, regardless of arrival order — treating the queue as first-in-first-out is a scheduling choice, not a neutral default.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a drug name is ambiguous from audio alone, default to flagging it rather than picking the more common drug</strong> — frequency in the population is not evidence about this patient, and a wrong guess with high confidence is worse than an obvious blank.</li>
+<li><strong>When an ASR draft reads as fluent but the clinical logic doesn&#x27;t track (e.g., a lab value wildly outside a plausible range for the stated diagnosis), default to treating it as a probable substitution error, not an unusual case</strong> — verify against the number pattern (ASR mishears digits and units more than it mishears diagnoses).</li>
+<li><strong>When laterality (left/right) is unclear or contradicted elsewhere in the same dictation, default to flagging, never inferring from &quot;which side is usually affected.&quot;</strong> Laterality errors in an operative or radiology report are a wrong-site-surgery risk category, not a stylistic nitpick.</li>
+<li><strong>When a provider&#x27;s dictation habit is well-established (a surgeon who always says &quot;right&quot; when the schedule confirms right), a repeat pattern earns faster silent handling — but the first time a pattern breaks, treat it as new, not as more of the same.</strong></li>
+<li><strong>Report-turnaround priority follows clinical use, not document type.</strong> A discharge summary needed for a same-day transfer outranks an operative note from a routine elective case dictated an hour earlier — sort by downstream urgency, not queue position.</li>
+<li><strong>Named speech-recognition editing standard (AHDI&#x27;s &quot;full verbatim vs. edited&quot; framework) — useful for setting the house style baseline, garbage-in when the account&#x27;s own style guide contradicts it and nobody has reconciled the two.</strong></li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Confirm patient identity and encounter type against the order before opening dictation — transcribing the right words into the wrong chart is a worse failure than any single-word error inside a correct one.</li>
+<li>Play or read the full dictation once before editing — context from later in the note frequently resolves an ambiguity heard early (a drug name that seemed unclear at minute 2 becomes obvious once the allergy list is dictated at minute 4).</li>
+<li>Run the speech-recognition draft (if present) against the audio sentence by sentence, correcting for fluent-sounding wrong words, not just garbled ones.</li>
+<li>For every ambiguity that survives full-context review, classify it: resolvable-with-certainty (correct silently) vs. changes-clinical-meaning-or-can&#x27;t-be-confirmed (flag).</li>
+<li>For a flagged item, draft a specific query naming the exact word/value in question and its location in the document — not a general &quot;please clarify,&quot; which forces the provider to re-listen to the whole dictation.</li>
+<li>Route the flagged note back to the provider queue and hold the document as a draft, not final, until resolved — a flagged item does not get transcribed as a guess &quot;for now.&quot;</li>
+<li>Before finalizing, re-check patient identifiers, laterality, and any drug/dose/allergy statements a second time as a dedicated pass — these are the error categories with downstream harm, so they get a check independent of the general edit pass.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Speech-recognition (ASR) editing software with playback-speed control and word-level audio sync; EHR-integrated transcription queues with STAT/routine/discharge priority flags; drug-name verification against a current formulary/sound-alike list (not memory, since new drug names enter the market faster than habit updates); style-guide reference for the account&#x27;s silent-correction-vs-flag threshold (accounts vary, and a generic default is a starting point, not a substitute for the account&#x27;s actual policy).</p>
+<h3>Communication style</h3>
+<p>To the dictating provider: a flagged query names the specific ambiguous word, its timestamp in the audio, and the two or three most likely resolutions — not an open-ended &quot;unclear, please advise,&quot; which costs the provider a full re-listen. To the transcription-service supervisor: turnaround-risk flags (a STAT report likely to miss its SLA) are raised as soon as the risk is visible, not after the deadline has already passed. To QA/auditors: an error-rate report distinguishes clinically-significant errors (drug, dose, laterality, allergy) from stylistic ones — a single wrong drug name outweighs twenty minor punctuation misses, and a report that treats them as equivalent obscures the metric that matters.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Resolving an ambiguity from &quot;what&#x27;s usually dictated&quot; instead of flagging it</strong> — pattern-matching to the common case is exactly the shortcut that fails on the atypical patient, which is disproportionately the patient whose chart most needs to be right.</li>
+<li><strong>Treating every ASR error as equally low-stakes because the draft &quot;mostly reads fine&quot;</strong> — a fluent-sounding wrong word is the most dangerous ASR failure mode precisely because it doesn&#x27;t look like an error.</li>
+<li><strong>Overcorrecting after a near-miss</strong> — having caught one dangerous silent-correction error, flagging every minor stylistic ambiguity back to a busy provider, which trains providers to ignore queries and defeats the purpose of flagging the ones that matter.</li>
+<li><strong>Letting turnaround pressure erode the identifier/laterality/drug re-check pass</strong> — cutting the dedicated safety pass to hit a queue-clearing target is the trade that produces the errors this role exists to catch.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A transcriptionist is editing a speech-recognition draft of a post-operative note dictated by a surgeon. The ASR draft reads: &quot;Patient tolerated the procedure well. Post-operatively, the patient was started on <strong>clonidine</strong> 0.5mg twice daily for blood pressure management, with plans to titrate as needed.&quot;</p>
+<p>Naive read: &quot;clonidine&quot; is a real, commonly-prescribed antihypertensive, the dose (0.5mg) and indication (&quot;blood pressure management&quot;) are both consistent with clonidine&#x27;s actual use — nothing here looks wrong on its face, so the draft passes as correct.</p>
+<p>Expert read: the surgeon&#x27;s note earlier states the patient has a history of &quot;anxiety, managed previously with <strong>clonazepam</strong>.&quot; Cross-referencing the allergy/medication-history section against this new order: clonidine (an antihypertensive, typical dose range 0.1–0.3mg twice daily to start) and clonazepam (a benzodiazepine, typical dose 0.5mg) are acoustically near-identical on fast dictation, and the dose stated — 0.5mg — matches clonazepam&#x27;s typical starting dose, not clonidine&#x27;s. The combination of (a) acoustic similarity, (b) a dose that fits one drug&#x27;s typical range far better than the other&#x27;s, and (c) the patient&#x27;s existing anxiety history makes clonazepam continuation clinically at least as plausible as a new clonidine order — meaning this cannot be resolved with certainty from context alone.</p>
+<p>Reconciliation: 0.5mg is outside clonidine&#x27;s typical 0.1–0.3mg starting range (a red flag on its own) but squarely inside clonazepam&#x27;s typical 0.5mg dosing (a red flag confirming ambiguity, not resolving it) — the mismatch between the stated drug name and the stated dose is exactly the signal that this needs a query, not a guess in either direction.</p>
+<p>Deliverable (query sent to the surgeon&#x27;s message queue, note held as draft):</p>
+<p>&gt; <strong>Transcription query — Op note, [patient MRN], dictated [date/time]:</strong></p>
+<p>&gt; At approximately 14 minutes into the dictation, the medication order is unclear between &quot;clonidine&quot; and &quot;clonazepam&quot; — both are acoustically similar in the recording. The stated dose (0.5mg BID) is outside typical clonidine starting range (0.1–0.3mg) but matches typical clonazepam dosing, and the patient&#x27;s history notes prior clonazepam use for anxiety. Please confirm the intended medication and dose before this note is finalized. Document held as draft pending your response.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/medical-transcriptionist/references/playbook.md">references/playbook.md</a> — load when running the full transcription/edit/flag workflow end-to-end or setting up an account&#x27;s silent-correction-vs-flag threshold.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/medical-transcriptionist/references/red-flags.md">references/red-flags.md</a> — load when a dictation contains an ambiguity and you need the specific smell tests for whether it&#x27;s safe to resolve silently.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/medical-transcriptionist/references/vocabulary.md">references/vocabulary.md</a> — load for AHDI/ASR/HIM terminology a generalist would misuse.</li>
+</ul>
+<h3>Sources</h3>
+<p>AHDI (Association for Healthcare Documentation Integrity) Book of Style for Medical Transcription (verbatim-vs-edited-style framework); ISMP (Institute for Safe Medication Practices) List of Confused Drug Names; ASR-editing accuracy practice as documented in HIM (Health Information Management) industry literature (Nuance/3M/M*Modal editing-workflow guidance); typical dosing ranges cited are illustrative reference points from standard drug-reference sources, not a substitute for a current formulary — flagged as [heuristic — needs practitioner check] for any specific drug pair in practice. No direct practitioner review yet.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/medical-transcriptionist/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add medical-transcriptionist</code></p>
+</footer>
+</body>
+</html>
