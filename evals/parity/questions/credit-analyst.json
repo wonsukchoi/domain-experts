@@ -1,0 +1,38 @@
+{
+  "role": "credit-analyst",
+  "questions": [
+    {
+      "id": "credit-analyst-fed-2014-leveraged-ev-coverage",
+      "question": "Does a low ratio of debt-to-enterprise value offset other underwriting weaknesses that might be present in a leveraged loan transaction, such as weak cash flow or high balance sheet debt ratios?",
+      "expert_answer": "No. Strong enterprise value coverage alone is insufficient to avoid a non-pass risk rating if other factors call into question the borrower's ability to repay. Examiners evaluate all aspects of a leveraged transaction.",
+      "source": {
+        "site": "federalreserve-faq",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20141107a3.pdf",
+        "answer_author": "Federal Reserve Board, FDIC, OCC (interagency FAQ for March 2013 Leveraged Lending Guidance, Nov. 7, 2014)",
+        "license": "public domain (U.S. government work, 17 U.S.C. 105)"
+      }
+    },
+    {
+      "id": "credit-analyst-fdic-2006-alll-forecasting",
+      "question": "May institutions project or forecast changes in facts and circumstances that arise after the balance sheet date when estimating the amount of loss under FAS 5 in a group of loans with similar risk characteristics at the balance sheet date?",
+      "expert_answer": "No. In developing loss measurements for groups of loans with similar risk characteristics, an institution should consider the impact of current qualitative or environmental factors that exist as of the balance sheet date. For example, assume an institution's borrowers depend upon revenues and personal incomes generated from a local military base. If a public announcement was made prior to the balance sheet date that the base would be closed within the next six to eight months, the event of the impending closure changes the collectibility of, and the estimated credit losses within, the loan portfolio in the current period. Therefore, the ALLL level would likely require adjustment based upon the event of the announcement. In contrast, suppose there is a rumor circulating that a local military base may close. However, the institution has not been able to substantiate the rumor as of the balance sheet date. Since the rumor is unsubstantiated, it is not an event that would likely require adjustments to the ALLL level.",
+      "source": {
+        "site": "fdic-faq",
+        "url": "https://www.fdic.gov/sites/default/files/2024-03/fil06105b.pdf",
+        "answer_author": "OCC, Federal Reserve, FDIC, NCUA, OTS (interagency Q&A on Accounting for Loan and Lease Losses, 2006)",
+        "license": "public domain (U.S. government work, 17 U.S.C. 105)"
+      }
+    },
+    {
+      "id": "credit-analyst-fed-2020-mslp-underwriting",
+      "question": "How should an Eligible Lender evaluate an Eligible Borrower's creditworthiness?",
+      "expert_answer": "Eligible Lenders should view the eligibility criteria in the term sheets as the minimum requirements for the Program. Eligible Lenders are expected to conduct an assessment of each potential borrower's financial condition at the time of the potential borrower's application. Eligible Lenders will apply their own underwriting standards in evaluating the financial condition and creditworthiness of a potential borrower. An Eligible Lender may require additional information and documentation in making this evaluation and will ultimately determine whether an Eligible Borrower is approved for a Program loan in light of these considerations. Businesses that otherwise meet the Eligible Borrower requirements may not be approved for a loan or receive the maximum allowable amount.",
+      "source": {
+        "site": "federalreserve-faq",
+        "url": "https://www.federalreserve.gov/monetarypolicy/files/main-street-lending-faqs.pdf",
+        "answer_author": "Federal Reserve Board (Main Street Lending Program FAQs; archival, program wound down Jan. 2021)",
+        "license": "public domain (U.S. government work, 17 U.S.C. 105)"
+      }
+    }
+  ]
+}

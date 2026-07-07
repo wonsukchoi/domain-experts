@@ -1,0 +1,38 @@
+{
+  "role": "compliance-officer",
+  "questions": [
+    {
+      "id": "compliance-officer-fincen-2021-keepopen",
+      "question": "Can a financial institution maintain an account or customer relationship for which it has received a written \"keep open\" request from law enforcement, even though the financial institution has identified suspicious or potentially illicit activity?",
+      "expert_answer": "Yes. Law enforcement may have an interest in ensuring that certain accounts and customer relationships remain open notwithstanding suspicious or potential criminal activity. A financial institution may decide to maintain an account based on a written \"keep open\" request from a law enforcement agency, however, it is not obligated to do so. A financial institution should not be criticized solely for its decision to maintain an account relationship at the request of law enforcement or for its decision to close the account. Ultimately, the decision to maintain or close an account should be made by a financial institution in accordance with its own policies, procedures, and processes. If financial institutions keep such an account open as requested by law enforcement, they are still required to comply with all applicable BSA requirements, including requirements to conduct ongoing risk-based monitoring, and, as appropriate, file SARs, including continuing activity SARs.",
+      "source": {
+        "site": "fincen-faq",
+        "url": "https://www.fincen.gov/system/files/2021-01/Joint%20SAR%20FAQs%20Final%20508.pdf",
+        "answer_author": "FinCEN, Federal Reserve, FDIC, NCUA, OCC (joint interagency FAQ, Jan. 19, 2021)",
+        "license": "public domain (U.S. government work, 17 U.S.C. 105)"
+      }
+    },
+    {
+      "id": "compliance-officer-fincen-2021-negativenews",
+      "question": "Is a financial institution required to file a SAR based solely on negative news?",
+      "expert_answer": "No. The existence of negative news related to a customer or other activity at a financial institution does not by itself indicate that the criteria requiring the filing of a SAR have been met, and does not automatically require the filing of a SAR by a financial institution. A financial institution may review media reports, news articles and/or other references to assist in its performance of customer due diligence, as well as its evaluation of any transactions or activity it considers unusual or potentially suspicious. Financial institutions should comply with applicable regulatory requirements and follow their established policies, procedures, and processes to determine the extent to which it investigates and evaluates negative news, including the source and reliability of the news, to determine if a SAR filing is required.",
+      "source": {
+        "site": "fincen-faq",
+        "url": "https://www.fincen.gov/system/files/2021-01/Joint%20SAR%20FAQs%20Final%20508.pdf",
+        "answer_author": "FinCEN, Federal Reserve, FDIC, NCUA, OCC (joint interagency FAQ, Jan. 19, 2021)",
+        "license": "public domain (U.S. government work, 17 U.S.C. 105)"
+      }
+    },
+    {
+      "id": "compliance-officer-fincen-2025-structuring",
+      "question": "Is a financial institution required to file a SAR for a transaction or a series of transactions with a value at or near the currency transaction reporting (CTR) threshold (i.e., over $10,000) absent information that the transaction or series of transactions is designed to evade BSA reporting requirements?",
+      "expert_answer": "No. The mere presence of a transaction or series of transactions by or on behalf of the same person at or near the $10,000 CTR threshold is not information sufficient to require the filing of a SAR. Financial institutions are only required to file a SAR if the institution knows, suspects, or has reason to suspect that the transaction or series of transactions are designed to evade CTR reporting requirements. A financial institution's AML/CFT program should be designed to detect and report structuring. The extent and specific parameters under which a financial institution must monitor accounts and transactions for suspicious activity should be commensurate with the level of money laundering and terrorist financing risk of the specific institution, considering the type of products and services it offers, the locations it serves, and the nature of its customers.",
+      "source": {
+        "site": "fincen-faq",
+        "url": "https://www.fincen.gov/system/files/2025-10/SAR-FAQs-October-2025.pdf",
+        "answer_author": "FinCEN, Federal Reserve, FDIC, NCUA, OCC (joint interagency FAQ, Oct. 9, 2025)",
+        "license": "public domain (U.S. government work, 17 U.S.C. 105)"
+      }
+    }
+  ]
+}
