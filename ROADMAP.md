@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 168 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 177 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,30 +182,30 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (2/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (11/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 17-1011.00 | Architects, Except Landscape and Naval |  |
-|  | 17-1012.00 | Landscape Architects |  |
+| ✅ | 17-1011.00 | Architects, Except Landscape and Naval | [`architect`](./roles/architect/SKILL.md) |
+| ✅ | 17-1012.00 | Landscape Architects | [`landscape-architect`](./roles/landscape-architect/SKILL.md) |
 |  | 17-1021.00 | Cartographers and Photogrammetrists |  |
 |  | 17-1022.00 | Surveyors |  |
 |  | 17-1022.01 | Geodetic Surveyors |  |
-|  | 17-2011.00 | Aerospace Engineers |  |
+| ✅ | 17-2011.00 | Aerospace Engineers | [`aerospace-engineer`](./roles/aerospace-engineer/SKILL.md) |
 |  | 17-2021.00 | Agricultural Engineers |  |
-|  | 17-2031.00 | Bioengineers and Biomedical Engineers |  |
-|  | 17-2041.00 | Chemical Engineers |  |
+| ✅ | 17-2031.00 | Bioengineers and Biomedical Engineers | [`biomedical-engineer`](./roles/biomedical-engineer/SKILL.md) |
+| ✅ | 17-2041.00 | Chemical Engineers | [`chemical-engineer`](./roles/chemical-engineer/SKILL.md) |
 | ✅ | 17-2051.00 | Civil Engineers | [`civil-engineer`](./roles/civil-engineer/SKILL.md) |
 |  | 17-2051.01 | Transportation Engineers |  |
 |  | 17-2051.02 | Water/Wastewater Engineers |  |
 |  | 17-2061.00 | Computer Hardware Engineers |  |
-|  | 17-2071.00 | Electrical Engineers |  |
+| ✅ | 17-2071.00 | Electrical Engineers | [`electrical-engineer`](./roles/electrical-engineer/SKILL.md) |
 |  | 17-2072.00 | Electronics Engineers, Except Computer |  |
 |  | 17-2072.01 | Radio Frequency Identification Device Specialists |  |
-|  | 17-2081.00 | Environmental Engineers |  |
+| ✅ | 17-2081.00 | Environmental Engineers | [`environmental-engineer`](./roles/environmental-engineer/SKILL.md) |
 |  | 17-2111.00 | Health and Safety Engineers, Except Mining Safety Engineers and Inspectors |  |
 |  | 17-2111.02 | Fire-Prevention and Protection Engineers |  |
-|  | 17-2112.00 | Industrial Engineers |  |
+| ✅ | 17-2112.00 | Industrial Engineers | [`industrial-engineer`](./roles/industrial-engineer/SKILL.md) |
 |  | 17-2112.01 | Human Factors Engineers and Ergonomists |  |
 |  | 17-2112.02 | Validation Engineers |  |
 |  | 17-2112.03 | Manufacturing Engineers |  |
@@ -215,7 +215,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 17-2141.01 | Fuel Cell Engineers |  |
 |  | 17-2141.02 | Automotive Engineers |  |
 |  | 17-2151.00 | Mining and Geological Engineers, Including Mining Safety Engineers |  |
-|  | 17-2161.00 | Nuclear Engineers |  |
+| ✅ | 17-2161.00 | Nuclear Engineers | [`nuclear-engineer`](./roles/nuclear-engineer/SKILL.md) |
 |  | 17-2171.00 | Petroleum Engineers |  |
 |  | 17-2199.00 | Engineers, All Other |  |
 |  | 17-2199.03 | Energy Engineers, Except Wind and Solar |  |
