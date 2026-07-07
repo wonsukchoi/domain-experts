@@ -1,0 +1,34 @@
+name: suggest-role-requests
+
+on:
+  schedule:
+    - cron: "0 15 * * 1" # Mondays, 15:00 UTC
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Max new issues to open"
+        required: false
+        default: "5"
+      dry_run:
+        description: "Print candidates without opening issues"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  suggest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Suggest role-request issues for uncovered O*NET occupations
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/suggest_role_requests.py \
+            --count "${{ github.event.inputs.count || 5 }}" \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}

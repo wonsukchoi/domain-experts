@@ -13,6 +13,7 @@ npm releases are snapshots — `npx domain-experts` users get the role library a
 - `domain-experts update [--to dir]` CLI subcommand — re-fetches every role installed under a skills directory from the library and reports updated/unchanged/skipped, so `add` no longer leaves a permanently static snapshot
 - `domain-experts preview <slug>` CLI subcommand — prints a role's Identity + Worked example sections without installing it
 - `evals/run_evals.py --backend openai|ollama|cli` — evals no longer locked to the `claude` CLI; run the same scenarios/judge against OpenAI-compatible APIs or local Ollama models
+- `scripts/suggest_role_requests.py` + weekly `.github/workflows/role-requests.yml` — auto-opens `role-request` issues for uncovered O*NET occupations, ranked by `data/gap-log.jsonl` signal when present, deduped against already-open issues
 - `scripts/lint_roles.py` now resolves every `../<slug>/...` cross-role link anywhere in a SKILL.md body (not just Going deeper), catching references to renamed or nonexistent roles
 
 ## [0.3.0] — 2026-07-06
