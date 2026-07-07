@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 14:18:50 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 14:45:42 +0000</lastBuildDate>
+  <item>
+    <title>Correspondence Clerk</title>
+    <link>https://domainexperts.dev/roles/correspondence-clerk/</link>
+    <guid>https://domainexperts.dev/roles/correspondence-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Correspondence Clerk — selecting and customizing a template response to a standardized written inquiry, triaging a correspondence queue against SLA deadlines, deciding when a form letter suffices versus needs escalation, or auditing a response-template library for staleness.</description>
+  </item>
+  <item>
+    <title>Desktop Publisher</title>
+    <link>https://domainexperts.dev/roles/desktop-publisher/</link>
+    <guid>https://domainexperts.dev/roles/desktop-publisher/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Desktop Publisher — laying out a multi-page document on a grid system, applying typesetting rules (kerning, leading, widow/orphan control), preflighting a file for print (bleed, color mode, image resolution) before it goes to press, or deciding between a template and a custom layout under a deadline.</description>
+  </item>
+  <item>
+    <title>First Line Supervisor Office Admin</title>
+    <link>https://domainexperts.dev/roles/first-line-supervisor-office-admin/</link>
+    <guid>https://domainexperts.dev/roles/first-line-supervisor-office-admin/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a first-line supervisor of office and administrative support workers — building a coverage schedule for a clerical team, deciding how to backfill a callout without creating a coverage gap, documenting a performance issue defensibly, triaging a growing backlog across a team, or planning a cross-training rotation.</description>
+  </item>
+  <item>
+    <title>Gambling Cage Worker</title>
+    <link>https://domainexperts.dev/roles/gambling-cage-worker/</link>
+    <guid>https://domainexperts.dev/roles/gambling-cage-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a gambling cage worker — reconciling a cage bank at end of shift, issuing or redeeming a marker against a patron&#x27;s credit limit, processing a fill or credit slip between the cage and a table game, or determining whether a large cash transaction triggers a Title 31 CTR.</description>
+  </item>
+  <item>
+    <title>Library Assistant Clerical</title>
+    <link>https://domainexperts.dev/roles/library-assistant-clerical/</link>
+    <guid>https://domainexperts.dev/roles/library-assistant-clerical/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Library Assistant, Clerical — running a circulation-desk shift (checkout, checkin, holds), triaging a patron question into locate-it-yourself vs escalate-to-the-librarian, diagnosing a shelf-reading accuracy problem, or applying the fine/fee schedule to a dispute.</description>
+  </item>
+  <item>
+    <title>New Accounts Clerk</title>
+    <link>https://domainexperts.dev/roles/new-accounts-clerk/</link>
+    <guid>https://domainexperts.dev/roles/new-accounts-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a new accounts clerk — opening a personal or business deposit account under CIP/KYC requirements, screening a new customer against the OFAC SDN list, identifying beneficial owners on a legal-entity account, setting up a signature card with the correct authority scope, or matching a customer&#x27;s stated need to the right account product.</description>
+  </item>
+  <item>
+    <title>Postal Service Clerk</title>
+    <link>https://domainexperts.dev/roles/postal-service-clerk/</link>
+    <guid>https://domainexperts.dev/roles/postal-service-clerk/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postal Service Clerk — calculating postage for a package by weight/dimension/zone, choosing between certified/registered/insured mail service levels, screening a shipment for hazardous-materials/mailability restrictions, or resolving a rate discrepancy at the retail window.</description>
+  </item>
+  <item>
+    <title>Statistical Assistant</title>
+    <link>https://domainexperts.dev/roles/statistical-assistant/</link>
+    <guid>https://domainexperts.dev/roles/statistical-assistant/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Statistical Assistant — designing a data-collection form for consistency, running double-entry verification and reconciling discrepancies, applying range/consistency checks before data is released for analysis, maintaining a dataset codebook, or producing a basic tabulation/cross-tab under a researcher&#x27;s specification.</description>
+  </item>
+  <item>
+    <title>Weighers Measurers Checkers Samplers</title>
+    <link>https://domainexperts.dev/roles/weighers-measurers-checkers-samplers/</link>
+    <guid>https://domainexperts.dev/roles/weighers-measurers-checkers-samplers/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:45:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a weigher, measurer, checker, or recordkeeping sampler — verifying a scale ticket&#x27;s net weight against a bill of lading, deciding whether a tare weight is still valid for a specific vehicle, applying an AQL sampling plan to an incoming lot, or writing up a weight/quantity discrepancy for a carrier claim.</description>
+  </item>
   <item>
     <title>Bill Account Collector</title>
     <link>https://domainexperts.dev/roles/bill-account-collector/</link>

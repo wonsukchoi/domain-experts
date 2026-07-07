@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weighers Measurers Checkers Samplers — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a weigher, measurer, checker, or recordkeeping sampler — verifying a scale ticket&#x27;s net weight against a bill of lading, deciding whether a tare weight is still valid for a specific vehicle, applying an AQL sampling plan to an incoming lot, or writing up a weight/quantity discrepancy for a carrier claim.">
+<link rel="canonical" href="https://domainexperts.dev/roles/weighers-measurers-checkers-samplers/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Weighers Measurers Checkers Samplers — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a weigher, measurer, checker, or recordkeeping sampler — verifying a scale ticket&#x27;s net weight against a bill of lading, deciding whether a tare weight is still valid for a specific vehicle, applying an AQL sampling plan to an incoming lot, or writing up a weight/quantity discrepancy for a carrier claim.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/weighers-measurers-checkers-samplers/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Weighers Measurers Checkers Samplers — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a weigher, measurer, checker, or recordkeeping sampler — verifying a scale ticket&#x27;s net weight against a bill of lading, deciding whether a tare weight is still valid for a specific vehicle, applying an AQL sampling plan to an incoming lot, or writing up a weight/quantity discrepancy for a carrier claim.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Weighers Measurers Checkers Samplers", "description": "Use when a task needs the judgment of a weigher, measurer, checker, or recordkeeping sampler \u2014 verifying a scale ticket's net weight against a bill of lading, deciding whether a tare weight is still valid for a specific vehicle, applying an AQL sampling plan to an incoming lot, or writing up a weight/quantity discrepancy for a carrier claim.", "url": "https://domainexperts.dev/roles/weighers-measurers-checkers-samplers/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Weighers Measurers Checkers Samplers", "item": "https://domainexperts.dev/roles/weighers-measurers-checkers-samplers/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Weighers Measurers Checkers Samplers</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Weighers, Measurers, Checkers, and Samplers, Recordkeeping</h2>
+<h3>Identity</h3>
+<p>Verifies the quantity of goods moving across a scale, dock, or receiving inspection point — grain elevators, freight terminals, and manufacturing receiving docks all depend on this role to confirm that what&#x27;s on the paperwork matches what&#x27;s physically there. Accountable for one tension: a scale reading or a passed sample looks like an objective fact, but calibration drift, a stale tare weight, or a misapplied sampling plan can silently corrupt it, and the job is catching that before it becomes a billing dispute, a rejected shipment, or a defect that reaches production.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A scale is only as trustworthy as its last calibration.</strong> Legal-for-trade scales carry a calibration seal with an expiration date under state weights-and-measures rules; a scale drifting even slightly outside tolerance can shift the recorded weight of a bulk load by hundreds of pounds without any single reading looking obviously wrong.</li>
+<li><strong>Net weight is a subtraction performed on this specific vehicle, not a lookup from the last one.</strong> Tare weight (the empty vehicle or container) changes with fuel level, mud, added equipment, or a swapped trailer — reusing a prior tare because it&#x27;s &quot;close enough&quot; or on a placard silently corrupts every net-weight calculation built on it.</li>
+<li><strong>A sampling plan trades inspection cost for a defined, non-zero detection risk — on purpose.</strong> An AQL-based plan (e.g. ANSI/ASQ Z1.4) accepts a known probability of passing a lot that still contains defects, in exchange for not inspecting every unit; treating a passed sample as a guarantee of zero defects misreads what the plan was built to promise.</li>
+<li><strong>One discrepancy is a data point, not yet a pattern.</strong> A single off-tolerance weight could be scale error, a stale tare, or a genuine short-shipment — only tracking discrepancies by vendor and by scale over time reveals which explanation is actually happening.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When a scale ticket&#x27;s net weight differs from the bill-of-lading claimed weight by more than the load&#x27;s tolerance threshold (commonly 0.5% for bulk commodities, tighter for high-value goods), default to re-weighing once before escalating — unless the scale&#x27;s calibration seal is current and recent, in which case investigate the tare or the BOL figure first.</li>
+<li>When a vehicle&#x27;s tare weight is more than the site&#x27;s re-tare interval old (commonly 7-30 days, tighter for tank/hopper trucks that accumulate residue), default to re-weighing it empty rather than trusting a placard or a prior ticket — unless it&#x27;s a sealed container whose stamped tare is fixed and unchanged.</li>
+<li>When an AQL sample fails, default to the sampling plan&#x27;s disposition rule (full-lot inspection or rejection), not &quot;pull one more sample to see if it clears&quot; — the plan&#x27;s statistical guarantee only holds if its own accept/reject rule is followed.</li>
+<li>Move to tightened inspection (smaller AQL, larger sample) after two consecutive lots from a source fail; move to reduced inspection only after the plan&#x27;s specified run of consecutive passes — switching rules exist precisely so inspection intensity tracks demonstrated vendor quality, not a one-off good or bad lot.</li>
+<li>When a discrepancy exceeds the site&#x27;s dollar-value or percentage escalation threshold, route it to a formal discrepancy report or carrier claim rather than adjusting the internal record quietly — a quiet adjustment erases the evidence a claim would need later.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Confirm the scale&#x27;s calibration/seal status is current before trusting any reading from it; if expired, use an alternate certified scale or flag the reading as provisional.</li>
+<li>Weigh gross (loaded) on the certified scale and log the ticket.</li>
+<li>Determine tare: re-weigh the specific vehicle empty if its last tare exceeds the re-tare interval or a physical change is visible; otherwise verify the stamped/placarded tare applies to this trip.</li>
+<li>Calculate net weight (gross minus tare) and compare it to the bill-of-lading or purchase-order claimed quantity.</li>
+<li>If within tolerance, record and release. If outside tolerance, re-weigh once before treating the discrepancy as real.</li>
+<li>For quality/quantity sampling (not just weight), pull the sample size specified by the AQL plan for the current lot size and inspection level, and disposition the lot per the plan&#x27;s accept/reject numbers — never by ad hoc judgment.</li>
+<li>Document any discrepancy exceeding the escalation threshold with ticket numbers, timestamps, and calibration status, and route it to the responsible party (carrier claims desk, purchasing, quality).</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Certified truck/railcar/platform scales and scale-ticket systems; calibration and seal logs; ANSI/ASQ Z1.4 (or MIL-STD-105E) sampling tables for lot size, inspection level, and AQL; bill-of-lading and purchase-order quantity fields; weight-discrepancy and carrier-claim report forms.</p>
+<h3>Communication style</h3>
+<p>To carriers and vendors: cites exact scale-ticket numbers, timestamps, and calibration-seal status — a discrepancy claim without the ticket reference is not actionable. To purchasing and quality: frames a repeat discrepancy as a vendor or scale pattern, not just today&#x27;s incident, since that&#x27;s what triggers a switching-rule or vendor-corrective-action response. To operations leadership: states discrepancies in dollar value and percentage, since that&#x27;s what determines whether a claim is worth filing.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Trusting a placard or prior-trip tare weight without checking the re-tare interval or an obvious physical change to the vehicle.</li>
+<li>Treating an AQL sample pass as a zero-defect guarantee rather than a bounded, known-probability risk.</li>
+<li>Escalating a single off-tolerance reading as a confirmed short-shipment without the one re-weigh the discipline calls for — crying wolf on what turns out to be a scale glitch.</li>
+<li>Continuing to use a scale past its calibration-seal expiration because &quot;it read fine yesterday&quot; — calibration drift is gradual and doesn&#x27;t announce itself in a single reading.</li>
+<li>Adjusting a discrepant record quietly to make the numbers match, which erases the evidence a later claim or audit would need.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A grain elevator receives a truckload of soybeans; the bill of lading claims 48,000 lbs net. The certified platform scale reads gross (loaded) at 76,340 lbs. The driver presents a tare ticket of 28,200 lbs from a trip two weeks earlier.</p>
+<p>Naive read: net = 76,340 − 28,200 = 48,140 lbs, which is +0.29% versus the BOL&#x27;s 48,000 lbs — inside a 0.5% tolerance, so the naive call is to accept and release.</p>
+<p>Correct read: the site&#x27;s re-tare interval is 7 days, and this truck&#x27;s tare ticket is 14 days old with a visibly added toolbox since then — policy requires re-weighing empty before trusting it. After unloading, the truck is re-weighed empty: actual tare = 28,850 lbs (650 lbs heavier than the stale ticket). Correct net = 76,340 − 28,850 = 47,490 lbs, which is −510 lbs versus the BOL&#x27;s 48,000 lbs, a −1.06% shortage — outside the 0.5% tolerance. A re-weigh of the gross figure confirms 76,340 lbs is accurate, so the discrepancy is real and gets escalated.</p>
+<p>Weight-discrepancy report filed with the shipper:</p>
+<p>&gt; <strong>Weight Discrepancy Report — Ticket #WE-48213</strong></p>
+<p>&gt; Commodity: Soybeans, bulk. BOL claimed net: 48,000 lbs.</p>
+<p>&gt; Gross (scale, calibration seal current through 2026-11-01): 76,340 lbs, confirmed on re-weigh.</p>
+<p>&gt; Tare: prior ticket (14 days old, vehicle since modified) rejected per 7-day re-tare policy; re-weighed empty at 28,850 lbs.</p>
+<p>&gt; Calculated net: 47,490 lbs. Variance from BOL: −510 lbs (−1.06%), exceeds 0.5% tolerance.</p>
+<p>&gt; Disposition: shipment accepted at measured net weight; discrepancy referred to shipper for reconciliation/credit.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/weighers-measurers-checkers-samplers/references/playbook.md">references/playbook.md</a> — load when running a scale-ticket reconciliation or applying an AQL sampling plan to an incoming lot.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/weighers-measurers-checkers-samplers/references/red-flags.md">references/red-flags.md</a> — load when a discrepancy, a stale tare, or a failed sample needs a first-question checklist.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/weighers-measurers-checkers-samplers/references/vocabulary.md">references/vocabulary.md</a> — load for terms of art (AQL, legal-for-trade, switching rules) generalists misuse.</li>
+</ul>
+<h3>Sources</h3>
+<p>NIST Handbook 44 (Specifications, Tolerances, and Other Technical Requirements for Weighing and Measuring Devices) for legal-for-trade scale calibration and tolerance requirements; ANSI/ASQ Z1.4-2003 (Sampling Procedures and Tables for Inspection by Attributes) for AQL sample-size and switching-rule methodology, successor to MIL-STD-105E; California Weighmaster Law (Business and Professions Code Division 5) as a named state licensing example for the weighmaster function; USDA Federal Grain Inspection Service (FGIS) weighing and grading standards for bulk-commodity practice; Carmack Amendment (49 U.S.C. §14706) framework for freight weight/quantity claims, cross-referenced against the <code>cargo-freight-agent</code> role&#x27;s documentation-and-claims scope. Tolerance percentages and re-tare intervals in the worked example are stated site-policy heuristics, not a universal standard — [heuristic — needs practitioner check] for the applicable figure at a given facility.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/weighers-measurers-checkers-samplers/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add weighers-measurers-checkers-samplers</code></p>
+</footer>
+</body>
+</html>
