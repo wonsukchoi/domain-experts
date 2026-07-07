@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Domain Experts — New Roles</title>
+  <link>https://domainexperts.dev/</link>
+  <description>New job-role agent skills added to Domain Experts.</description>
+  <lastBuildDate>Tue, 07 Jul 2026 11:42:01 +0000</lastBuildDate>
+  <item>
+    <title>Biostatistician</title>
+    <link>https://domainexperts.dev/roles/biostatistician/</link>
+    <guid>https://domainexperts.dev/roles/biostatistician/</guid>
+    <pubDate>Tue, 07 Jul 2026 15:24:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biostatistician — designing a clinical trial&#x27;s sample size and analysis plan, choosing a survival-analysis or censoring-aware method, preparing a DSMB safety readout, or judging whether a trial&#x27;s efficacy claim survives ITT vs. per-protocol scrutiny.</description>
+  </item>
+  <item>
+    <title>Business Intelligence Analyst</title>
+    <link>https://domainexperts.dev/roles/business-intelligence-analyst/</link>
+    <guid>https://domainexperts.dev/roles/business-intelligence-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 15:24:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Business Intelligence Analyst — reconciling a metric discrepancy between reports, designing a dimensional model or semantic layer for self-service dashboards, setting a data freshness/latency SLA, or diagnosing why a dashboard&#x27;s aggregate number is misleading.</description>
+  </item>
+  <item>
+    <title>Statistician</title>
+    <link>https://domainexperts.dev/roles/statistician/</link>
+    <guid>https://domainexperts.dev/roles/statistician/</guid>
+    <pubDate>Tue, 07 Jul 2026 15:24:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Statistician — designing a sampling or experimental protocol, determining sample size or power, choosing and defending a hypothesis-testing or multiple-comparisons approach, or reviewing whether a study&#x27;s statistical claims are actually supported by its design.</description>
+  </item>
+  <item>
+    <title>Web Administrator</title>
+    <link>https://domainexperts.dev/roles/web-administrator/</link>
+    <guid>https://domainexperts.dev/roles/web-administrator/</guid>
+    <pubDate>Tue, 07 Jul 2026 15:24:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Web Administrator — diagnosing an outage or slow-page incident, planning a TLS/DNS cutover, deciding CDN vs origin caching policy, or hardening a web server/WAF configuration against a specific threat.</description>
+  </item>
+  <item>
+    <title>Data Warehousing Specialist</title>
+    <link>https://domainexperts.dev/roles/data-warehousing-specialist/</link>
+    <guid>https://domainexperts.dev/roles/data-warehousing-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:41:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Data Warehousing Specialist — defining the grain of a fact table before modeling it, choosing a slowly changing dimension (SCD) type for a dimension attribute, designing an incremental ETL/ELT load strategy against a full-refresh alternative, resolving a conformed-dimension conflict across source systems, or diagnosing why a BI report&#x27;s numbers don&#x27;t reconcile to the source system.</description>
+  </item>
+  <item>
+    <title>Telecommunications Engineering Specialist</title>
+    <link>https://domainexperts.dev/roles/telecommunications-engineering-specialist/</link>
+    <guid>https://domainexperts.dev/roles/telecommunications-engineering-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:37:30 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Telecommunications Engineering Specialist — specifying structured cabling category/distance against a speed requirement, computing a fiber link&#x27;s insertion-loss budget, sizing PBX/VoIP trunk groups from traffic data, planning carrier circuit provisioning lead time against a project timeline, or designing and validating wireless/DAS coverage via RF site survey.</description>
+  </item>
+  <item>
+    <title>Operations Research Analyst</title>
+    <link>https://domainexperts.dev/roles/operations-research-analyst/</link>
+    <guid>https://domainexperts.dev/roles/operations-research-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:28:36 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Operations Research Analyst — formulating a linear or mixed-integer optimization model for allocation/scheduling/blending, sizing safety stock or staffing under a target service level, deciding whether to re-optimize a disrupted schedule from scratch or patch it by hand under time pressure, diagnosing why a solver is slow or returns a spuriously-feasible answer, or translating a model&#x27;s output into a recommendation a non-technical sponsor will act on.</description>
+  </item>
+  <item>
+    <title>Mathematician</title>
+    <link>https://domainexperts.dev/roles/mathematician/</link>
+    <guid>https://domainexperts.dev/roles/mathematician/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:27:21 +0700</pubDate>
+    <description>Use when a task needs the judgment of a mathematician — refereeing or verifying a proof before publication, deciding whether a computed numerical result is trustworthy enough to act on, scoping a grant proposal or technical report to the right level of rigor, or isolating a disputed claim in a paper to the one step it actually turns on.</description>
+  </item>
+  <item>
+    <title>Network Systems Administrator</title>
+    <link>https://domainexperts.dev/roles/network-systems-administrator/</link>
+    <guid>https://domainexperts.dev/roles/network-systems-administrator/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:26:37 +0700</pubDate>
+    <description>Use when a task needs the judgment of a network/systems administrator — triaging a connectivity or outage incident, sequencing an emergency patch or firmware rollout across a device fleet, reviewing backup-job and monitoring coverage, setting account-access and password policy, or planning a WAN circuit order or data-center/office move.</description>
+  </item>
+  <item>
+    <title>Computer User Support Specialist</title>
+    <link>https://domainexperts.dev/roles/computer-user-support-specialist/</link>
+    <guid>https://domainexperts.dev/roles/computer-user-support-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:25:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer User Support Specialist — triaging an inbound ticket&#x27;s severity and SLA clock before troubleshooting it, verifying a caller&#x27;s identity before any password/MFA/account-state change, walking a live incident through a structured troubleshooting sequence instead of guessing at a fix, deciding whether a request is an incident, a service request, or the underlying problem behind a string of incidents, or judging whether a ticket should resolve at tier 1 or genuinely needs escalation.</description>
+  </item>
+  <item>
+    <title>Network Support Specialist</title>
+    <link>https://domainexperts.dev/roles/network-support-specialist/</link>
+    <guid>https://domainexperts.dev/roles/network-support-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:24:22 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer Network Support Specialist — diagnosing a duplex mismatch from interface error counters, isolating a Path MTU Discovery black hole that hangs large transfers but not small ones, resolving DHCP scope exhaustion producing APIPA addresses, containing a broadcast storm traced to a missing BPDU Guard, or triaging a live ticket&#x27;s severity against a response-time SLA before diagnosing it.</description>
+  </item>
+  <item>
+    <title>Computer Information Research Scientist</title>
+    <link>https://domainexperts.dev/roles/computer-information-research-scientist/</link>
+    <guid>https://domainexperts.dev/roles/computer-information-research-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:22:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer and Information Research Scientist — designing an ablation to attribute an empirical gain, budgeting an NSF CISE proposal against page and content limits, deciding what reproducibility artifacts to release with a paper, screening a draft for mathiness or terminology misuse, or scoping the consent/ethics review needed before running an experiment on real users.</description>
+  </item>
+  <item>
+    <title>Embedded Firmware Engineer</title>
+    <link>https://domainexperts.dev/roles/embedded-firmware-engineer/</link>
+    <guid>https://domainexperts.dev/roles/embedded-firmware-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 03:01:33 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Embedded/Firmware Engineer — analyzing worst-case execution time for a hard real-time deadline, choosing static over dynamic memory allocation to avoid fragmentation on a long-uptime device, keeping an interrupt service routine minimal and deferring work to the main loop, synchronizing a variable shared between an ISR and main context to prevent a torn read, or verifying a hardware register interaction against the datasheet&#x27;s exact timing rather than observed bench behavior.</description>
+  </item>
+  <item>
+    <title>Application Security Engineer</title>
+    <link>https://domainexperts.dev/roles/application-security-engineer/</link>
+    <guid>https://domainexperts.dev/roles/application-security-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:35:16 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Application Security Engineer — checking whether an endpoint verifies object-level authorization (not just authentication), running threat modeling at design time rather than deferring security review to the end, triaging a dependency vulnerability by actual reachability rather than CVSS score alone, combining SAST/DAST/SCA tooling to cover their distinct blind spots, or applying context-specific output encoding to untrusted input. Distinct from an information security analyst — this role works inside the SDLC to prevent vulnerabilities before they ship, not detect and respond to intrusions in production.</description>
+  </item>
+  <item>
+    <title>Platform Engineer</title>
+    <link>https://domainexperts.dev/roles/platform-engineer/</link>
+    <guid>https://domainexperts.dev/roles/platform-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:30:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Platform/Infrastructure Engineer — designing a golden path for a common developer workflow, setting a self-service abstraction&#x27;s level with an explicit escape hatch, diagnosing why platform adoption is low, enforcing infrastructure-as-code against configuration drift, or planning a staged rollout given a shared platform&#x27;s multi-tenant blast radius. Distinct from a DevOps/SRE role — this one builds the tools and abstractions other engineers use, not the operational reliability of production systems.</description>
+  </item>
+  <item>
+    <title>Mobile Engineer</title>
+    <link>https://domainexperts.dev/roles/mobile-engineer/</link>
+    <guid>https://domainexperts.dev/roles/mobile-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:27:34 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mobile Engineer (iOS/Android) — designing an offline-sync conflict resolution strategy that doesn&#x27;t silently lose edits, planning a release around app store review turnaround and rejection risk, handling background work within platform-enforced execution limits, managing app lifecycle events (backgrounding, configuration change) without data loss, or testing across a representative device/OS fragmentation matrix.</description>
+  </item>
+  <item>
+    <title>Frontend Engineer</title>
+    <link>https://domainexperts.dev/roles/frontend-engineer/</link>
+    <guid>https://domainexperts.dev/roles/frontend-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:24:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Frontend Engineer — diagnosing which Core Web Vital (LCP/INP/CLS) a change actually affects before optimizing, fixing forced synchronous layout thrashing from interleaved DOM reads/writes, reducing bundle size through code splitting rather than assuming one more dependency is negligible, or building UI with semantic HTML/ARIA so accessibility isn&#x27;t a retrofit.</description>
+  </item>
+  <item>
+    <title>Data Engineer</title>
+    <link>https://domainexperts.dev/roles/data-engineer/</link>
+    <guid>https://domainexperts.dev/roles/data-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:21:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Data Engineer — designing an idempotent pipeline operation so retries and backfills don&#x27;t corrupt data, choosing event-time over processing-time partitioning for time-series aggregation, enforcing schema compatibility rules before an upstream change propagates downstream, adding automated data quality checks to a pipeline, or deciding between batch and streaming architecture for a specific freshness requirement.</description>
+  </item>
+  <item>
+    <title>Ml Engineer</title>
+    <link>https://domainexperts.dev/roles/ml-engineer/</link>
+    <guid>https://domainexperts.dev/roles/ml-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:16:13 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Machine Learning/AI Engineer — checking a train/test split for data leakage, choosing an evaluation metric that accounts for class imbalance rather than defaulting to accuracy, verifying training and serving feature computation match (train-serving skew), monitoring a deployed model for data/concept drift, or deciding whether a hyperparameter-tuning process has silently overfit to the test set.</description>
+  </item>
+  <item>
+    <title>Blockchain Engineer</title>
+    <link>https://domainexperts.dev/roles/blockchain-engineer/</link>
+    <guid>https://domainexperts.dev/roles/blockchain-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 02:00:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Blockchain Engineer — applying the checks-effects-interactions pattern to prevent a reentrancy exploit, auditing a privileged/administrative function for missing access control, designing a manipulation-resistant oracle for on-chain price data, minimizing gas cost through storage-write design, or deciding whether a smart contract needs an upgradability pattern before deployment.</description>
+  </item>
+  <item>
+    <title>Software Qa Analyst</title>
+    <link>https://domainexperts.dev/roles/software-qa-analyst/</link>
+    <guid>https://domainexperts.dev/roles/software-qa-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:57:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Software QA Analyst/Tester — designing boundary value and equivalence-partition test cases for an input range, checking a test suite&#x27;s shape against the test pyramid (unit vs. integration vs. E2E ratio), interpreting code coverage as a gap-finder rather than a quality guarantee, triaging a flaky test, prioritizing test effort by risk, or classifying a bug&#x27;s severity and priority.</description>
+  </item>
+  <item>
+    <title>Health Informatics Specialist</title>
+    <link>https://domainexperts.dev/roles/health-informatics-specialist/</link>
+    <guid>https://domainexperts.dev/roles/health-informatics-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:55:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Health Informatics Specialist — diagnosing why a clinical quality measure (eCQM/HEDIS) rate looks off, checking whether required data is captured as structured/coded fields versus free text, redesigning a clinical decision support (CDS) alert with a high override rate, resolving an interoperability gap caused by terminology/code mapping, or reconciling an HL7 v2 to FHIR data mapping during a system integration.</description>
+  </item>
+  <item>
+    <title>Gis Technologist</title>
+    <link>https://domainexperts.dev/roles/gis-technologist/</link>
+    <guid>https://domainexperts.dev/roles/gis-technologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:46:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a GIS Technologist/Analyst — reconciling coordinate reference system (CRS) mismatches between datasets before an overlay or area calculation, choosing a projection appropriate to the specific analysis (area vs. distance vs. display), validating polygon/line topology before trusting derived spatial results, assessing geocoded address precision against an analysis&#x27;s accuracy requirement, or checking whether a dataset&#x27;s original digitizing scale matches the current analysis scale.</description>
+  </item>
+  <item>
+    <title>Network Architect</title>
+    <link>https://domainexperts.dev/roles/network-architect/</link>
+    <guid>https://domainexperts.dev/roles/network-architect/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:43:07 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer Network Architect — auditing a redundancy design for hidden single points of failure, sizing WAN/link capacity against busy-hour rather than average utilization, designing network segmentation around trust boundaries, calculating QoS bandwidth reservation for real-time traffic like VoIP, or selecting a routing protocol matched to topology scale and convergence requirements.</description>
+  </item>
+  <item>
+    <title>Database Architect</title>
+    <link>https://domainexperts.dev/roles/database-architect/</link>
+    <guid>https://domainexperts.dev/roles/database-architect/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:28:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Database Architect — choosing a normalization level matched to the actual workload, resolving a CAP theorem tradeoff (consistency vs. availability) for a distributed data store, selecting a sharding/partition key aligned with the dominant query pattern, validating an indexing strategy against real query plans, or deriving RPO/RTO backup and replication requirements from actual business impact.</description>
+  </item>
+  <item>
+    <title>Digital Forensics Analyst</title>
+    <link>https://domainexperts.dev/roles/digital-forensics-analyst/</link>
+    <guid>https://domainexperts.dev/roles/digital-forensics-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:19:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Digital Forensics Analyst — capturing volatile evidence before it&#x27;s lost, creating and hash-verifying a forensic disk image, documenting chain of custody from point of seizure, correcting for clock skew and timezone mismatches when building a cross-source timeline, or identifying anti-forensic activity (log wiping, timestomping) in an investigation.</description>
+  </item>
+  <item>
+    <title>Logistics Engineer</title>
+    <link>https://domainexperts.dev/roles/logistics-engineer/</link>
+    <guid>https://domainexperts.dev/roles/logistics-engineer/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:15:33 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Logistics Engineer — evaluating the total-cost tradeoff of adding or consolidating distribution facilities, using a center-of-gravity model as a starting point for facility location, slotting a warehouse by pick velocity (ABC classification), or sizing facility throughput/capacity against peak rather than average demand.</description>
+  </item>
+  <item>
+    <title>Retail Buyer</title>
+    <link>https://domainexperts.dev/roles/retail-buyer/</link>
+    <guid>https://domainexperts.dev/roles/retail-buyer/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:12:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Retail/Wholesale Buyer — calculating open-to-buy (OTB) against current sales and inventory position, deciding whether a sell-through checkpoint requires an early markdown, evaluating a buy&#x27;s true performance via GMROI rather than margin percentage alone, negotiating vendor terms as a package (unit cost, cash discount, dating), or planning assortment between core/replenishable and fashion/trend items.</description>
+  </item>
+  <item>
+    <title>Fraud Examiner</title>
+    <link>https://domainexperts.dev/roles/fraud-examiner/</link>
+    <guid>https://domainexperts.dev/roles/fraud-examiner/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:09:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fraud Examiner (occupational fraud investigator) — establishing predication before opening a formal investigation, running Benford&#x27;s Law or ratio analysis to generate investigative leads from financial data, sequencing witness interviews before an admission-seeking interview of the primary suspect, quantifying a fraud loss, or recommending control remediation that closes the opportunity leg of the fraud triangle.</description>
+  </item>
+  <item>
+    <title>Personal Property Appraiser</title>
+    <link>https://domainexperts.dev/roles/personal-property-appraiser/</link>
+    <guid>https://domainexperts.dev/roles/personal-property-appraiser/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:06:55 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Personal and Business Property Appraiser — selecting the correct value premise (fair market value, replacement cost, or liquidation value) for the appraisal&#x27;s intended use, resolving authentication and condition as threshold questions for art/antiques/collectibles, building a comparable-sales adjustment for a unique item, valuing business machinery/equipment via the cost approach, or meeting IRS qualified appraisal requirements for a charitable donation.</description>
+  </item>
+  <item>
+    <title>Online Merchant</title>
+    <link>https://domainexperts.dev/roles/online-merchant/</link>
+    <guid>https://domainexperts.dev/roles/online-merchant/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:03:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Online Merchant/e-commerce operator — calculating a SKU&#x27;s true net contribution margin after payment fees, shipping, and expected returns, comparing customer acquisition cost against channel-specific lifetime value, deciding between a marketplace and owned-store channel for a product, monitoring chargeback ratio against card-network thresholds, or setting inventory reorder points that weigh stockout against overstock cost.</description>
+  </item>
+  <item>
+    <title>Search Marketing Strategist</title>
+    <link>https://domainexperts.dev/roles/search-marketing-strategist/</link>
+    <guid>https://domainexperts.dev/roles/search-marketing-strategist/</guid>
+    <pubDate>Tue, 07 Jul 2026 01:01:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Search Marketing Strategist — matching keyword intent to the right organic vs. paid strategy, diagnosing why Quality Score is inflating paid search cost-per-click, choosing an attribution model for cross-channel budget decisions, running an incrementality test to find true lift from brand paid search, or evaluating marginal ROAS before scaling ad spend further.</description>
+  </item>
+  <item>
+    <title>Financial Quantitative Analyst</title>
+    <link>https://domainexperts.dev/roles/financial-quantitative-analyst/</link>
+    <guid>https://domainexperts.dev/roles/financial-quantitative-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:55:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Financial Quantitative Analyst — pricing a derivative and calculating its Greeks (delta, gamma, vega, theta), estimating P&amp;L impact from a large price move using gamma-adjusted rather than linear delta approximation, checking a trading strategy backtest for lookahead/survivorship bias and overfitting, evaluating Monte Carlo simulation convergence, or distinguishing implied from historical volatility.</description>
+  </item>
+  <item>
+    <title>Sustainability Specialist</title>
+    <link>https://domainexperts.dev/roles/sustainability-specialist/</link>
+    <guid>https://domainexperts.dev/roles/sustainability-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:51:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Sustainability Specialist — calculating Scope 1/2/3 greenhouse gas emissions with appropriate boundary and emission-factor choices, distinguishing location-based from market-based Scope 2 accounting, checking a proposed emissions-reduction target against science-based target trajectory requirements, running a materiality assessment for sustainability reporting, or flagging data-quality tiers in a footprint calculation.</description>
+  </item>
+  <item>
+    <title>Credit Counselor</title>
+    <link>https://domainexperts.dev/roles/credit-counselor/</link>
+    <guid>https://domainexperts.dev/roles/credit-counselor/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:48:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Credit Counselor — calculating debt-to-income ratio and disposable income to test debt management plan (DMP) feasibility, comparing DMP versus debt settlement versus bankruptcy for a specific client&#x27;s financial situation, negotiating and applying creditor interest-rate concessions, selecting a debt payoff order matched to a client&#x27;s follow-through pattern, or providing federally required pre-bankruptcy credit counseling.</description>
+  </item>
+  <item>
+    <title>Financial Risk Specialist</title>
+    <link>https://domainexperts.dev/roles/financial-risk-specialist/</link>
+    <guid>https://domainexperts.dev/roles/financial-risk-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:45:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Financial Risk Specialist — calculating Value at Risk (VaR) and expected shortfall for a portfolio, stress-testing a risk estimate against correlation breakdown in a crisis scenario, comparing a VaR figure against a capital-based risk limit, quantifying residual basis risk after a hedge, or designing a reverse stress test to find a portfolio&#x27;s breaking point.</description>
+  </item>
+  <item>
+    <title>Real Estate Appraiser</title>
+    <link>https://domainexperts.dev/roles/real-estate-appraiser/</link>
+    <guid>https://domainexperts.dev/roles/real-estate-appraiser/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:42:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Real Estate Appraiser — selecting and adjusting comparable sales in a sales comparison approach, determining a property&#x27;s highest and best use, reconciling divergent value indications from the sales comparison, cost, and income approaches, or maintaining appraiser independence on a mortgage lending assignment.</description>
+  </item>
+  <item>
+    <title>Tax Revenue Agent</title>
+    <link>https://domainexperts.dev/roles/tax-revenue-agent/</link>
+    <guid>https://domainexperts.dev/roles/tax-revenue-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:39:27 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tax Examiner or Revenue Agent — determining which statute of limitations applies to an audit (3-year, 6-year, or unlimited), reconstructing unreported income via a bank deposit or similar indirect method, applying the Cohan rule to estimate a substantiated-but-undocumented deduction, distinguishing an accuracy-related penalty from civil fraud based on badges of fraud, or verifying collection due process notice requirements before a lien or levy.</description>
+  </item>
+  <item>
+    <title>Financial Examiner</title>
+    <link>https://domainexperts.dev/roles/financial-examiner/</link>
+    <guid>https://domainexperts.dev/roles/financial-examiner/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:36:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a bank/depository-institution Financial Examiner — calculating risk-based capital ratios against well-capitalized thresholds, independently classifying a loan (Pass/Special Mention/Substandard/Doubtful/Loss) rather than accepting management&#x27;s internal grade, testing allowance for credit losses (ALLL/CECL) adequacy, assigning CAMELS component ratings, or issuing a Matter Requiring Attention finding with a corrective action timeline.</description>
+  </item>
+  <item>
+    <title>Business Continuity Planner</title>
+    <link>https://domainexperts.dev/roles/business-continuity-planner/</link>
+    <guid>https://domainexperts.dev/roles/business-continuity-planner/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:32:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Business Continuity Planner — running a business impact analysis (BIA) to derive recovery time objectives, mapping process dependencies to find single points of failure, evaluating whether current recovery capability meets a process&#x27;s maximum tolerable downtime, designing or debriefing a tabletop exercise, or building the cost-benefit case for a continuity investment.</description>
+  </item>
+  <item>
+    <title>Equal Opportunity Representative</title>
+    <link>https://domainexperts.dev/roles/equal-opportunity-representative/</link>
+    <guid>https://domainexperts.dev/roles/equal-opportunity-representative/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:19:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Equal Opportunity Representative or Officer — running an adverse-impact analysis on hiring or promotion selection rates, conducting an availability analysis to set affirmative action placement goals, evaluating a compensation-equity regression for unexplained pay gaps, or preparing an affirmative action plan (AAP) for an OFCCP audit.</description>
+  </item>
+  <item>
+    <title>Government Property Inspector</title>
+    <link>https://domainexperts.dev/roles/government-property-inspector/</link>
+    <guid>https://domainexperts.dev/roles/government-property-inspector/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:16:36 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Government Property Inspector or Investigator — reconciling a contractor&#x27;s government property records against a physical inventory sample, investigating a loss/damage/destruction report for timeliness and completeness, evaluating a contractor&#x27;s property management system against FAR requirements, or determining whether idle property has gone through proper disposition screening.</description>
+  </item>
+  <item>
+    <title>Farm Labor Contractor</title>
+    <link>https://domainexperts.dev/roles/farm-labor-contractor/</link>
+    <guid>https://domainexperts.dev/roles/farm-labor-contractor/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:14:02 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Farm Labor Contractor — verifying FLC license/registration requirements before recruiting workers, preparing a compliant wage and job disclosure, truing up piece-rate pay against minimum wage, calculating an H-2A three-quarter guarantee shortfall, or evaluating joint-employer liability exposure with a grower client.</description>
+  </item>
+  <item>
+    <title>Labor Relations Specialist</title>
+    <link>https://domainexperts.dev/roles/labor-relations-specialist/</link>
+    <guid>https://domainexperts.dev/roles/labor-relations-specialist/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:11:27 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Labor Relations Specialist — processing a grievance against a collective bargaining agreement (CBA), applying the just-cause standard to a disciplinary decision, determining whether an unwritten practice has become binding past practice, tracking a grievance against contractual response deadlines, or preparing a case for arbitration.</description>
+  </item>
+  <item>
+    <title>Logistics Analyst</title>
+    <link>https://domainexperts.dev/roles/logistics-analyst/</link>
+    <guid>https://domainexperts.dev/roles/logistics-analyst/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:07:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Logistics Analyst — selecting shipping mode (parcel/LTL/FTL/intermodal) against a weight-and-cube breakeven, comparing carriers on total landed cost rather than quoted rate, auditing a freight invoice against the bill of lading and contract rates, calculating on-time-in-full (OTIF) performance, or analyzing a shipping lane&#x27;s volume and cost trend.</description>
+  </item>
+  <item>
+    <title>Environmental Compliance Inspector</title>
+    <link>https://domainexperts.dev/roles/environmental-compliance-inspector/</link>
+    <guid>https://domainexperts.dev/roles/environmental-compliance-inspector/</guid>
+    <pubDate>Tue, 07 Jul 2026 00:03:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Environmental Compliance Inspector — reviewing discharge monitoring reports or emissions data against permit limits, classifying a facility&#x27;s hazardous waste generator status, calculating a penalty for a documented violation, deciding whether an exceedance warrants a Notice of Violation versus informal correction, or scoping a multimedia (air/water/waste) inspection.</description>
+  </item>
+  <item>
+    <title>Auto Damage Appraiser</title>
+    <link>https://domainexperts.dev/roles/auto-damage-appraiser/</link>
+    <guid>https://domainexperts.dev/roles/auto-damage-appraiser/</guid>
+    <pubDate>Mon, 06 Jul 2026 23:58:56 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Auto Damage Insurance Appraiser — writing a repair estimate from photos or an in-person inspection, deciding repair vs. total loss against a state total-loss formula, evaluating a body shop&#x27;s supplement request for hidden damage, determining actual cash value (ACV) for a totaled vehicle, or reconciling an OEM-vs-aftermarket-parts dispute.</description>
+  </item>
+  <item>
+    <title>Coroner</title>
+    <link>https://domainexperts.dev/roles/coroner/</link>
+    <guid>https://domainexperts.dev/roles/coroner/</guid>
+    <pubDate>Mon, 06 Jul 2026 23:55:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Coroner or medicolegal death investigator — determining whether a death is reportable/jurisdictional, distinguishing cause of death from manner of death, estimating a postmortem interval from scene findings, deciding whether an autopsy or toxicology screen is warranted, or completing a death certificate under scrutiny.</description>
+  </item>
+  <item>
+    <title>Customs Broker</title>
+    <link>https://domainexperts.dev/roles/customs-broker/</link>
+    <guid>https://domainexperts.dev/roles/customs-broker/</guid>
+    <pubDate>Mon, 06 Jul 2026 23:52:36 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed Customs Broker — classifying goods under the Harmonized Tariff Schedule (HTS), calculating landed duty and fees on an import entry, determining country of origin and free-trade-agreement eligibility, filing an Importer Security Filing (ISF) or entry summary, or deciding whether a classification or valuation position is defensible under CBP&#x27;s &quot;reasonable care&quot; standard.</description>
+  </item>
+  <item>
+    <title>Farm Products Buyer</title>
+    <link>https://domainexperts.dev/roles/farm-products-buyer/</link>
+    <guid>https://domainexperts.dev/roles/farm-products-buyer/</guid>
+    <pubDate>Mon, 06 Jul 2026 23:48:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Buyer or Purchasing Agent for Farm Products — pricing a grain or livestock load against the board and local basis, applying a grade-discount schedule to a scale ticket, choosing between a cash forward contract and a hedge-to-arrive (HTA), managing elevator storage capacity during harvest intake, or deciding whether to hedge a new forward-contracted position.</description>
+  </item>
+  <item>
+    <title>Talent Agent</title>
+    <link>https://domainexperts.dev/roles/talent-agent/</link>
+    <guid>https://domainexperts.dev/roles/talent-agent/</guid>
+    <pubDate>Mon, 06 Jul 2026 23:44:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a talent agent or business manager for artists, performers, or athletes — negotiating a representation or performance contract, structuring commission on a deal, checking whether a procurement act crosses into licensed-agent territory, tracking a contract&#x27;s termination/renewal clock, or flagging a conflict-of-interest in how the agency gets paid.</description>
+  </item>
+  <item>
+    <title>Fitness Wellness Coordinator</title>
+    <link>https://domainexperts.dev/roles/fitness-wellness-coordinator/</link>
+    <guid>https://domainexperts.dev/roles/fitness-wellness-coordinator/</guid>
+    <pubDate>Mon, 06 Jul 2026 23:26:43 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fitness &amp; Wellness Coordinator — screening a new participant for exercise readiness, sizing or defending a program&#x27;s participation target, structuring a wellness incentive against HIPAA/ADA limits, auditing emergency-response readiness, or drawing the line between health coaching and a referral.</description>
+  </item>
+  <item>
+    <title>Compensation Benefits Specialist</title>
+    <link>https://domainexperts.dev/roles/compensation-benefits-specialist/</link>
+    <guid>https://domainexperts.dev/roles/compensation-benefits-specialist/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:44:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Compensation, Benefits, and Job Analysis Specialist — market-pricing a job against salary survey data, scoring a job through a point-factor or IPE job evaluation, running a pay-equity regression or cohort analysis, building or refreshing a salary structure and compa-ratio bands, classifying a job family&#x27;s FLSA exemption status through the duties test, or modeling benefits plan cost (loss ratio, PEPM, self-funded vs. fully insured). Distinct from hr-people-manager (owns the comp/leveling judgment calls — whether to approve an exception, promote someone into a level), hr-specialist (owns individual-case leave/I-9/ADA/FLSA reclassification for one employee&#x27;s drifted duties), and compensation-benefits-manager (owns pay philosophy, negotiation-range policy, and the department that runs this work). This role owns the mechanics: the survey match, the point score, the regression, the band math — the analysis those upstream policy and downstream judgment calls are made against.</description>
+  </item>
+  <item>
+    <title>Credit Analyst</title>
+    <link>https://domainexperts.dev/roles/credit-analyst/</link>
+    <guid>https://domainexperts.dev/roles/credit-analyst/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:44:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Credit Analyst — spreading financial statements and computing leverage/coverage ratios, writing a commercial credit memo, assigning or recommending an internal risk rating, structuring covenants on a term loan or revolver, or stress-testing a borrower&#x27;s debt service under a downside case. Narrower than loan-officer (originates and manages the client relationship; the analyst underwrites the credit that officer brings in) and financial-risk-specialist (owns portfolio-level risk and concentration limits, not single-borrower underwriting).</description>
+  </item>
+  <item>
+    <title>Loan Officer</title>
+    <link>https://domainexperts.dev/roles/loan-officer/</link>
+    <guid>https://domainexperts.dev/roles/loan-officer/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:44:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a loan officer — qualifying a borrower on DTI/LTV, structuring a loan (product, rate, points, down payment) against those ratios, managing TRID disclosure timing and rate-lock decisions, or triaging a file for underwriting handoff. Distinct from credit-analyst (owns the underwriting/credit-memo analysis) — this role originates and packages, it doesn&#x27;t underwrite.</description>
+  </item>
+  <item>
+    <title>Project Management Specialist</title>
+    <link>https://domainexperts.dev/roles/project-management-specialist/</link>
+    <guid>https://domainexperts.dev/roles/project-management-specialist/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:44:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a project management specialist — building or recomputing an EVM-based schedule/cost forecast, running a status report and RAID log cycle, assessing schedule health before trusting a critical path, sizing a contingency vs. management reserve, evaluating a change request against baseline tolerance, or preparing a variance/exception report for a sponsor. Distinct from a project/program manager or engineering manager (who own people decisions, team composition, and delivery authority) — this role owns the plan&#x27;s mechanics: the schedule, the budget, the risk register, and the honesty of the forecast, executed largely through influence rather than authority (O*NET 13-1082.00).</description>
+  </item>
+  <item>
+    <title>Tax Preparer</title>
+    <link>https://domainexperts.dev/roles/tax-preparer/</link>
+    <guid>https://domainexperts.dev/roles/tax-preparer/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:44:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a paid individual/small-business tax return preparer — reconstructing income from client documents, choosing the right forms and schedules, computing tax liability including self-employment tax, running EITC/CTC/AOTC/HOH due-diligence checks, reconciling withholding against actual liability, or drafting a response to an IRS notice (CP2000, audit letter). Not a tax-strategy/CFO role (see financial-manager) — this is return-preparation and filing-compliance craft for the current filing season.</description>
+  </item>
+  <item>
+    <title>Training Development Specialist</title>
+    <link>https://domainexperts.dev/roles/training-development-specialist/</link>
+    <guid>https://domainexperts.dev/roles/training-development-specialist/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:44:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Training and Development Specialist — running a training needs assessment down to task/objective level, choosing a delivery format (ILT vs eLearning vs blended) for a given audience and constraint set, building a curriculum or storyboard from learning objectives, designing and executing a Kirkpatrick Level 1–4 evaluation instrument, or administering LMS structure (course assignment, SCORM/xAPI tracking, completion reporting). Distinct from training-development-manager (owns program strategy, budget, skill/will/systems diagnosis, and whether training is the right intervention at all) — this role owns the build once that call is made: the instructional design mechanics, the needs-assessment fieldwork, and the LMS/evaluation execution.</description>
+  </item>
+  <item>
+    <title>Claims Adjuster</title>
+    <link>https://domainexperts.dev/roles/claims-adjuster/</link>
+    <guid>https://domainexperts.dev/roles/claims-adjuster/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:42:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a senior property &amp; casualty claims adjuster — scoping a water-damage or auto-collision loss, deciding total-loss vs. repair on a damaged vehicle, drafting or checking a reservation-of-rights letter, deciding when a claim needs an SIU fraud referral vs. a routine recorded statement, or working out whether a coverage dispute should go to appraisal or litigation. A reasoning aid, not licensed adjusting authority.</description>
+  </item>
+  <item>
+    <title>Purchasing Agent</title>
+    <link>https://domainexperts.dev/roles/purchasing-agent/</link>
+    <guid>https://domainexperts.dev/roles/purchasing-agent/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:39:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Purchasing Agent — cutting a purchase order against the correct procurement method, running an RFQ/RFP and scoring the quotes, applying dollar-threshold rules (micro-purchase, simplified acquisition, sole-source) to a specific buy, reconciling a three-way match discrepancy between PO/receipt/invoice, or catching split-purchase and maverick-spend patterns before they become audit findings.</description>
+  </item>
+  <item>
+    <title>Hr Specialist</title>
+    <link>https://domainexperts.dev/roles/hr-specialist/</link>
+    <guid>https://domainexperts.dev/roles/hr-specialist/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:37:56 +0700</pubDate>
+    <description>Use when a task needs the judgment of an HR specialist/HR generalist — determining FMLA or leave eligibility, running the ADA interactive process, maintaining I-9 and personnel-file compliance, administering benefits enrollment, designing a new-hire onboarding sequence, or handling an EEOC charge or background-check adverse action notice. Distinct from hr-people-manager (owns comp/leveling/termination judgment calls and org design) and technical-recruiter (owns sourcing through offer close) — this role owns the compliance-and-operations ground floor: the paperwork, deadlines, and recordkeeping that, done wrong, create legal exposure regardless of how good the people decisions above it are.</description>
+  </item>
+  <item>
+    <title>Game Designer</title>
+    <link>https://domainexperts.dev/roles/game-designer/</link>
+    <guid>https://domainexperts.dev/roles/game-designer/</guid>
+    <pubDate>Mon, 06 Jul 2026 22:26:11 +0700</pubDate>
+    <description>Use when a task needs senior game-designer judgment for 2D mobile puzzle games — tuning a level&#x27;s difficulty against retention and monetization data, designing or auditing a live-ops level pipeline and cadence, architecting a monetization mechanic against the core loop, diagnosing why a specific level is churning or under-converting players, or scoping a new feature/platform port before it ships.</description>
+  </item>
+  <item>
+    <title>Child Family Social Worker</title>
+    <link>https://domainexperts.dev/roles/child-family-social-worker/</link>
+    <guid>https://domainexperts.dev/roles/child-family-social-worker/</guid>
+    <pubDate>Mon, 06 Jul 2026 21:36:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Child, Family, and School Social Worker — distinguishing an immediate child-safety determination from a longer-term risk assessment, deciding whether an in-home safety plan can control an identified danger versus removal being required, building a safety plan with specific and verifiable (not vague) elements, documenting a case contemporaneously and factually for a court-involved record, or engaging a family&#x27;s specific context and strengths rather than a generic checklist.</description>
+  </item>
+  <item>
+    <title>School Career Counselor</title>
+    <link>https://domainexperts.dev/roles/school-career-counselor/</link>
+    <guid>https://domainexperts.dev/roles/school-career-counselor/</guid>
+    <pubDate>Mon, 06 Jul 2026 21:28:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a School (Educational, Guidance, and Career) Counselor — stating the limits of confidentiality to a student before a substantive disclosure, triaging whether a student&#x27;s presenting issue fits brief school-based support or needs an outside clinical referral, applying a mandated-reporting threshold without weighing it against rapport concerns, reasoning through the multi-year consequences of a course/track placement decision, or defending counseling time against non-counseling duty creep using caseload and ASCA-model data.</description>
+  </item>
+  <item>
+    <title>Marriage Family Therapist</title>
+    <link>https://domainexperts.dev/roles/marriage-family-therapist/</link>
+    <guid>https://domainexperts.dev/roles/marriage-family-therapist/</guid>
+    <pubDate>Mon, 06 Jul 2026 21:15:07 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Marriage and Family Therapist — establishing a no-secrets policy before starting individual/collateral sessions within couples or family work, screening for intimate partner violence individually before proceeding with conjoint therapy, reframing a family&#x27;s presenting problem (e.g. &quot;our teenager is the problem&quot;) into a systemic assessment, maintaining multipartiality across family members, or designing a treatment plan that targets the relational pattern rather than only the identified patient.</description>
+  </item>
+  <item>
+    <title>Probation Officer</title>
+    <link>https://domainexperts.dev/roles/probation-officer/</link>
+    <guid>https://domainexperts.dev/roles/probation-officer/</guid>
+    <pubDate>Mon, 06 Jul 2026 21:08:21 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Probation Officer or Correctional Treatment Specialist — setting supervision intensity to match a validated risk assessment score rather than offense type alone, classifying a violation as technical vs. new offense and choosing a graduated sanction instead of defaulting to revocation, prioritizing case plan interventions around the specific criminogenic needs an assessment identifies, documenting a case-specific override of an actuarial risk tool&#x27;s recommendation, or writing a factually balanced presentence investigation report.</description>
+  </item>
+  <item>
+    <title>Substance Abuse Counselor</title>
+    <link>https://domainexperts.dev/roles/substance-abuse-counselor/</link>
+    <guid>https://domainexperts.dev/roles/substance-abuse-counselor/</guid>
+    <pubDate>Mon, 06 Jul 2026 21:02:00 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Substance Abuse and Behavioral Disorder Counselor — classifying a use event as a lapse, relapse, or genuine treatment failure and choosing the corresponding clinical response, walking through ASAM (or equivalent) dimensions to justify a level-of-care decision, coordinating with a prescriber on medication-assisted treatment, building an individualized relapse prevention plan tied to a client&#x27;s specific triggers, or managing a disclosure of substance use disorder treatment information under 42 CFR Part 2.</description>
+  </item>
+  <item>
+    <title>Title Examiner</title>
+    <link>https://domainexperts.dev/roles/title-examiner/</link>
+    <guid>https://domainexperts.dev/roles/title-examiner/</guid>
+    <pubDate>Mon, 06 Jul 2026 20:56:16 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Title Examiner, Abstractor, or Searcher — tracing an unbroken chain of title back to the required search period, classifying a title defect as curable, insurable-with-exception, or fatal, verifying whether a same-name judgment or lien actually attaches to the subject property, determining priority between competing claims under a race/notice/race-notice recording statute, or producing a title commitment listing required curative actions and exceptions.</description>
+  </item>
+  <item>
+    <title>Judge</title>
+    <link>https://domainexperts.dev/roles/judge/</link>
+    <guid>https://domainexperts.dev/roles/judge/</guid>
+    <pubDate>Mon, 06 Jul 2026 20:52:11 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Judge, Magistrate Judge, or Magistrate — ruling on an evidentiary objection or motion in real time versus deferring it for fuller consideration, deciding whether to recuse under an appearance-of-impartiality standard, individualizing a criminal sentence against the required statutory factors instead of applying a guideline range mechanically, balancing docket/case-management pressure against a party&#x27;s due process right to be heard, or choosing pattern versus improvised jury instruction language on a contested legal point.</description>
+  </item>
+  <item>
+    <title>Administrative Law Judge</title>
+    <link>https://domainexperts.dev/roles/administrative-law-judge/</link>
+    <guid>https://domainexperts.dev/roles/administrative-law-judge/</guid>
+    <pubDate>Mon, 06 Jul 2026 20:42:22 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Administrative Law Judge, Adjudicator, or Hearing Officer — applying a mandatory sequential/structured evaluation framework in required order, weighing conflicting medical or vocational opinion evidence using specific regulatory factors, writing findings that explicitly address significant contrary evidence in the record, drafting a credibility/consistency finding tied to specific record citations, or checking whether a draft decision would survive substantial-evidence review.</description>
+  </item>
+  <item>
+    <title>Judicial Law Clerk</title>
+    <link>https://domainexperts.dev/roles/judicial-law-clerk/</link>
+    <guid>https://domainexperts.dev/roles/judicial-law-clerk/</guid>
+    <pubDate>Mon, 06 Jul 2026 20:37:46 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Judicial Law Clerk — drafting a bench memo or draft opinion that steelmans both sides before recommending an outcome, identifying the controlling standard of review before analyzing the merits, verifying that cited authority is still good law, flagging an unresolved circuit split rather than resolving it unprompted, or screening a new case assignment for a recusal/conflict issue.</description>
+  </item>
+  <item>
+    <title>Brownfield Redevelopment Specialist</title>
+    <link>https://domainexperts.dev/roles/brownfield-redevelopment-specialist/</link>
+    <guid>https://domainexperts.dev/roles/brownfield-redevelopment-specialist/</guid>
+    <pubDate>Mon, 06 Jul 2026 20:25:00 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Brownfield Redevelopment Specialist and Site Manager — confirming landowner liability protections (BFPP/AAI) before a contaminated-site acquisition closes, matching a cleanup standard to the actual reuse plan instead of defaulting to the most conservative one, sequencing a brownfield funding stack (EPA grants, state VCP, tax credits) by eligibility dependency, or deciding whether an institutional control/deed restriction needs disclosure to a lender or buyer.</description>
+  </item>
+  <item>
+    <title>Wind Energy Development Manager</title>
+    <link>https://domainexperts.dev/roles/wind-energy-development-manager/</link>
+    <guid>https://domainexperts.dev/roles/wind-energy-development-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:34:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Wind Energy Development Manager — sequencing land control, interconnection, permitting, and offtake gates to kill an unviable project at the cheapest stage, stress-testing project economics against an interconnection cost-allocation study, deciding whether to proceed to detailed permitting/engineering spend, negotiating land option terms against a realistic development timeline, or tracking tax-credit safe-harbor deadlines against the procurement schedule.</description>
+  </item>
+  <item>
+    <title>Wind Energy Operations Manager</title>
+    <link>https://domainexperts.dev/roles/wind-energy-operations-manager/</link>
+    <guid>https://domainexperts.dev/roles/wind-energy-operations-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:30:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Wind Energy Operations Manager — decomposing a production shortfall into curtailment vs. availability vs. wind-resource causes, deciding whether a component failure falls under OEM warranty/service-agreement scope, triaging SCADA/condition-monitoring alerts against a spare-parts and dispatch plan, evaluating O&amp;M spend against diminishing-returns availability targets, or reconciling curtailment events against PPA compensation terms.</description>
+  </item>
+  <item>
+    <title>Spa Manager</title>
+    <link>https://domainexperts.dev/roles/spa-manager/</link>
+    <guid>https://domainexperts.dev/roles/spa-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:25:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Spa Manager — deciding whether a revenue shortfall is a demand problem or a scheduling/room-hour utilization problem, standardizing the service menu against treatment-room turnover, setting or enforcing a no-show/cancellation policy, classifying therapists as employees vs. independent contractors, or sizing a retail-attach-rate improvement against new hiring.</description>
+  </item>
+  <item>
+    <title>Funeral Home Manager</title>
+    <link>https://domainexperts.dev/roles/funeral-home-manager/</link>
+    <guid>https://domainexperts.dev/roles/funeral-home-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:22:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Funeral Home Manager — running a General Price List (GPL) and FTC Funeral Rule compliant arrangement conference, structuring a guaranteed vs. non-guaranteed preneed contract, deciding cash-advance item markup disclosure, modeling break-even case volume against a rising cremation mix, or staffing licensed-director coverage for after-hours first call.</description>
+  </item>
+  <item>
+    <title>Loss Prevention Manager</title>
+    <link>https://domainexperts.dev/roles/loss-prevention-manager/</link>
+    <guid>https://domainexperts.dev/roles/loss-prevention-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:17:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Loss Prevention Manager — decomposing a shrink number into external/internal/administrative/vendor causes, triaging exception-based-reporting (EBR) flags into an investigation, deciding whether a shoplifting or refund-fraud case meets the evidentiary bar for apprehension, investigating suspected employee theft or collusion, or building the case for loss-prevention technology/staffing spend against measured ROI.</description>
+  </item>
+  <item>
+    <title>Regulatory Affairs Manager</title>
+    <link>https://domainexperts.dev/roles/regulatory-affairs-manager/</link>
+    <guid>https://domainexperts.dev/roles/regulatory-affairs-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:10:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Regulatory Affairs Manager — choosing a product&#x27;s regulatory pathway (510(k) vs. De Novo vs. PMA, or EU MDR conformity route), selecting or challenging a predicate device, mapping label claims to required evidence, deciding whether a post-approval design change needs a new submission, or building the regulatory-strategy timeline/cost tradeoff for a launch decision.</description>
+  </item>
+  <item>
+    <title>Compliance Manager</title>
+    <link>https://domainexperts.dev/roles/compliance-manager/</link>
+    <guid>https://domainexperts.dev/roles/compliance-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 19:03:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Compliance Manager — sizing and defending a compliance program&#x27;s headcount/budget, deciding build-vs-buy on monitoring or case-management technology, choosing a centralized-vs-embedded staffing model, translating a new regulatory obligation into a costed resourcing ask, or reporting program coverage to executives/the board.</description>
+  </item>
+  <item>
+    <title>Full Stack Developer</title>
+    <link>https://domainexperts.dev/roles/full-stack-developer/</link>
+    <guid>https://domainexperts.dev/roles/full-stack-developer/</guid>
+    <pubDate>Mon, 06 Jul 2026 18:31:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a full-stack developer — shipping a feature end to end across UI, API, and database; designing the client/server contract; choosing a rendering strategy (SSR/CSR/SSG); diagnosing whether a slow page is network, render, or query; or deciding where a piece of state should live.</description>
+  </item>
+  <item>
+    <title>Mediator</title>
+    <link>https://domainexperts.dev/roles/mediator/</link>
+    <guid>https://domainexperts.dev/roles/mediator/</guid>
+    <pubDate>Mon, 06 Jul 2026 18:09:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional mediator or arbitrator — structuring a mediation agenda and caucus sequence, testing a party&#x27;s BATNA/WATNA against their stated position, breaking an impasse with a bracket or mediator&#x27;s proposal, deciding whether a dispute suits mediation vs. binding arbitration, or drafting an enforceable settlement term sheet or arbitration award.</description>
+  </item>
+  <item>
+    <title>Paralegal</title>
+    <link>https://domainexperts.dev/roles/paralegal/</link>
+    <guid>https://domainexperts.dev/roles/paralegal/</guid>
+    <pubDate>Mon, 06 Jul 2026 18:09:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a paralegal — drafting and organizing discovery responses and privilege logs, calendaring litigation deadlines and statutes of limitations, preparing trial exhibit and witness binders, cite-checking briefs to Bluebook form, or triaging document-review batches for e-discovery.</description>
+  </item>
+  <item>
+    <title>Paramedic</title>
+    <link>https://domainexperts.dev/roles/paramedic/</link>
+    <guid>https://domainexperts.dev/roles/paramedic/</guid>
+    <pubDate>Mon, 06 Jul 2026 18:09:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a paramedic — triaging multiple patients at a mass-casualty scene, deciding on-scene airway/breathing/circulation interventions under protocol, choosing trauma-center vs. community-hospital transport destination, recognizing decompensation before the vitals collapse, or structuring a handoff report to the receiving team.</description>
+  </item>
+  <item>
+    <title>Real Estate Broker</title>
+    <link>https://domainexperts.dev/roles/real-estate-broker/</link>
+    <guid>https://domainexperts.dev/roles/real-estate-broker/</guid>
+    <pubDate>Mon, 06 Jul 2026 18:09:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Real Estate Broker — pricing a listing with a comparative market analysis (CMA), drafting or negotiating a listing or buyer-representation agreement, structuring an offer with contingencies or an escalation clause, advising on appraisal-gap risk, or reconciling competing offers in a multiple-offer negotiation.</description>
+  </item>
+  <item>
+    <title>Sales Engineer</title>
+    <link>https://domainexperts.dev/roles/sales-engineer/</link>
+    <guid>https://domainexperts.dev/roles/sales-engineer/</guid>
+    <pubDate>Mon, 06 Jul 2026 18:09:06 +0700</pubDate>
+    <description>Use when a task needs sales-engineer judgment — scoping a proof-of-concept with measurable success criteria, running a technical discovery call and qualifying deal fit, building or presenting a competitive-bake-off demo, answering an RFP&#x27;s technical sections, or writing a technical-win exit report that hands off to closing.</description>
+  </item>
+  <item>
+    <title>Actuary</title>
+    <link>https://domainexperts.dev/roles/actuary/</link>
+    <guid>https://domainexperts.dev/roles/actuary/</guid>
+    <pubDate>Mon, 06 Jul 2026 07:53:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Actuary — estimating unpaid claim reserves with chain-ladder or Bornhuetter-Ferguson methods, building or reviewing a rate indication from loss experience, applying credibility weighting to thin or volatile data, drafting a statement of actuarial opinion, or diagnosing whether a reserve or pricing assumption has stopped matching reality.</description>
+  </item>
+  <item>
+    <title>Budget Analyst</title>
+    <link>https://domainexperts.dev/roles/budget-analyst/</link>
+    <guid>https://domainexperts.dev/roles/budget-analyst/</guid>
+    <pubDate>Mon, 06 Jul 2026 07:53:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Budget Analyst — reviewing a department&#x27;s budget request or decision package for a new program, building or reconciling a budget-to-actual variance report, phasing costs for a new facility or position against its real start date, or advising on reserve/fund-balance adequacy ahead of a budget cycle.</description>
+  </item>
+  <item>
+    <title>Database Administrator</title>
+    <link>https://domainexperts.dev/roles/database-administrator/</link>
+    <guid>https://domainexperts.dev/roles/database-administrator/</guid>
+    <pubDate>Mon, 06 Jul 2026 07:53:08 +0700</pubDate>
+    <description>Use when a task needs senior database-administrator judgment — diagnosing replication lag or a stalled query, sizing a connection pool or index, planning a schema migration on a live table, running backup/restore and failover drills, or triaging a production incident traced to the database.</description>
+  </item>
+  <item>
+    <title>Penetration Tester</title>
+    <link>https://domainexperts.dev/roles/penetration-tester/</link>
+    <guid>https://domainexperts.dev/roles/penetration-tester/</guid>
+    <pubDate>Mon, 06 Jul 2026 07:53:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a penetration tester — scoping a pentest and drafting rules of engagement, triaging automated scanner output into confirmed findings, chaining low/medium findings into a real attack path, scoring findings with CVSS base and environmental metrics, or writing a client-facing report that survives a developer&#x27;s &quot;prove it&quot; pushback.</description>
+  </item>
+  <item>
+    <title>Personal Financial Advisor</title>
+    <link>https://domainexperts.dev/roles/personal-financial-advisor/</link>
+    <guid>https://domainexperts.dev/roles/personal-financial-advisor/</guid>
+    <pubDate>Mon, 06 Jul 2026 07:53:08 +0700</pubDate>
+    <description>Use when a task needs the judgment of a personal financial advisor — building a retirement income plan, evaluating a Social Security claiming strategy, structuring a tax-loss harvesting and asset-location plan, drafting an Investment Policy Statement, or stress-testing a plan against sequence-of-returns and longevity risk.</description>
+  </item>
+  <item>
+    <title>Electrician</title>
+    <link>https://domainexperts.dev/roles/electrician/</link>
+    <guid>https://domainexperts.dev/roles/electrician/</guid>
+    <pubDate>Mon, 06 Jul 2026 03:42:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electrician — sizing a service panel upgrade with an NEC load calculation, troubleshooting a tripping breaker or dead circuit systematically, checking wire gauge/ampacity and voltage drop for a circuit run, resolving a code-vs-inspector interpretation dispute, or deciding when a job (aluminum wiring, knob-and-tube, undersized service) exceeds the immediate scope.</description>
+  </item>
+  <item>
+    <title>Graphic Designer</title>
+    <link>https://domainexperts.dev/roles/graphic-designer/</link>
+    <guid>https://domainexperts.dev/roles/graphic-designer/</guid>
+    <pubDate>Mon, 06 Jul 2026 03:42:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Graphic Designer — designing or critiquing a logo/brand identity system, writing brand guidelines that others will apply, choosing a typographic scale and pairing, evaluating a color palette for legibility and contrast (not just aesthetics), or preparing a print or digital production file (CMYK build, bleed, resolution).</description>
+  </item>
+  <item>
+    <title>High School Teacher</title>
+    <link>https://domainexperts.dev/roles/high-school-teacher/</link>
+    <guid>https://domainexperts.dev/roles/high-school-teacher/</guid>
+    <pubDate>Mon, 06 Jul 2026 03:42:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Secondary School Teacher — backward-designing a unit from a standard, distinguishing formative from summative assessment design, differentiating instruction for a mixed-ability classroom, running a classroom behavior escalation ladder, or defending a grade against a parent dispute with rubric-anchored evidence.</description>
+  </item>
+  <item>
+    <title>Mechanical Engineer</title>
+    <link>https://domainexperts.dev/roles/mechanical-engineer/</link>
+    <guid>https://domainexperts.dev/roles/mechanical-engineer/</guid>
+    <pubDate>Mon, 06 Jul 2026 03:42:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mechanical Engineer — interpreting FEA stress results for fatigue vs. yield risk, selecting a factor of safety by load-case criticality, choosing between materials on strength-to-weight and manufacturability tradeoffs, running a tolerance stack-up on an assembly, or reviewing a CAD design for manufacturability before release to production.</description>
+  </item>
+  <item>
+    <title>Mental Health Counselor</title>
+    <link>https://domainexperts.dev/roles/mental-health-counselor/</link>
+    <guid>https://domainexperts.dev/roles/mental-health-counselor/</guid>
+    <pubDate>Mon, 06 Jul 2026 03:42:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mental Health Counselor — running a suicide risk assessment and safety plan, choosing between CBT/DBT/MI for a presenting problem, deciding whether a case needs a level-of-care step-up (IOP/inpatient) or a psychiatry referral, writing a defensible progress note, or navigating a duty-to-warn situation.</description>
+  </item>
+  <item>
+    <title>Bookkeeping Accounting Clerk</title>
+    <link>https://domainexperts.dev/roles/bookkeeping-accounting-clerk/</link>
+    <guid>https://domainexperts.dev/roles/bookkeeping-accounting-clerk/</guid>
+    <pubDate>Mon, 06 Jul 2026 02:10:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Bookkeeping, Accounting, and Auditing Clerk — reconciling a bank or credit card account, resolving an AP three-way-match discrepancy before payment, coding an expense to the correct account and department, tracing a general ledger discrepancy to root cause, or running a month-end close checklist.</description>
+  </item>
+  <item>
+    <title>Civil Engineer</title>
+    <link>https://domainexperts.dev/roles/civil-engineer/</link>
+    <guid>https://domainexperts.dev/roles/civil-engineer/</guid>
+    <pubDate>Mon, 06 Jul 2026 02:10:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Civil Engineer — sizing stormwater detention/drainage systems, checking foundation bearing capacity against a geotechnical report, verifying IBC/ASCE 7 code compliance for site civil work, reviewing construction RFIs against stamped drawings, or evaluating value-engineering changes for safety-margin impact.</description>
+  </item>
+  <item>
+    <title>Firefighter</title>
+    <link>https://domainexperts.dev/roles/firefighter/</link>
+    <guid>https://domainexperts.dev/roles/firefighter/</guid>
+    <pubDate>Mon, 06 Jul 2026 02:10:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Firefighter — sizing up a structure fire on arrival and calling offensive/defensive/transitional strategy, sequencing search-and-rescue against fire attack, budgeting SCBA air for an interior task, coordinating ventilation timing with an attack line, or handling a mayday/firefighter-down declaration.</description>
+  </item>
+  <item>
+    <title>Police Patrol Officer</title>
+    <link>https://domainexperts.dev/roles/police-patrol-officer/</link>
+    <guid>https://domainexperts.dev/roles/police-patrol-officer/</guid>
+    <pubDate>Mon, 06 Jul 2026 02:10:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Police and Sheriff&#x27;s Patrol Officer — deciding whether force is objectively reasonable under Graham v. Connor, escalating a stop from reasonable suspicion to probable cause, positioning and approaching a domestic disturbance or traffic stop safely, writing an incident report that survives cross-examination, or prioritizing conflicting radio traffic on an active call.</description>
+  </item>
+  <item>
+    <title>Registered Nurse</title>
+    <link>https://domainexperts.dev/roles/registered-nurse/</link>
+    <guid>https://domainexperts.dev/roles/registered-nurse/</guid>
+    <pubDate>Mon, 06 Jul 2026 02:10:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Registered Nurse — recognizing early clinical deterioration from vital-sign trends, prioritizing a multi-patient assignment by acuity, escalating a change in patient condition to a physician (SBAR), applying medication-safety checks under time pressure, or delegating tasks to techs/CNAs within their scope.</description>
+  </item>
+  <item>
+    <title>Computer Systems Analyst</title>
+    <link>https://domainexperts.dev/roles/computer-systems-analyst/</link>
+    <guid>https://domainexperts.dev/roles/computer-systems-analyst/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:57:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer Systems Analyst — running requirements elicitation and gap analysis against a target system, writing a feasibility study for a build-vs-buy-vs-customize decision, designing a system integration approach (point-to-point vs middleware vs API-led), scoping data-migration risk before a cutover, or choosing between phased and big-bang implementation strategies.</description>
+  </item>
+  <item>
+    <title>Information Security Analyst</title>
+    <link>https://domainexperts.dev/roles/information-security-analyst/</link>
+    <guid>https://domainexperts.dev/roles/information-security-analyst/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:57:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Information Security Analyst — triaging and investigating a security alert or suspected intrusion, designing or tuning detection rules and access controls, running incident response through containment/eradication/recovery, prioritizing a vulnerability-patching backlog, or reconstructing an attack timeline across compromised hosts.</description>
+  </item>
+  <item>
+    <title>Insurance Underwriter</title>
+    <link>https://domainexperts.dev/roles/insurance-underwriter/</link>
+    <guid>https://domainexperts.dev/roles/insurance-underwriter/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:57:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Insurance Underwriter — pricing a commercial property &amp; casualty renewal with exposure-based rating, deciding a deductible vs. SIR structure, assessing whether a risk&#x27;s modeled catastrophe exposure needs facultative reinsurance, writing a referral memo for a risk outside binding authority, or reconciling a loss ratio into an indicated rate change.</description>
+  </item>
+  <item>
+    <title>Management Analyst</title>
+    <link>https://domainexperts.dev/roles/management-analyst/</link>
+    <guid>https://domainexperts.dev/roles/management-analyst/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:57:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Management Analyst — sizing a cost-reduction target and building the FTE/spend bridge to hit it, redesigning span of control and org layers, running a shared-services consolidation or build-vs-buy study, mapping a broken cross-functional process before recommending a fix, or reconciling an executive&#x27;s headcount-cut mandate against what&#x27;s actually achievable.</description>
+  </item>
+  <item>
+    <title>Meeting Event Planner</title>
+    <link>https://domainexperts.dev/roles/meeting-event-planner/</link>
+    <guid>https://domainexperts.dev/roles/meeting-event-planner/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:57:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Meeting, Convention, and Event Planner — negotiating a hotel/venue contract (room block, attrition, F&amp;B minimum), running a competitive venue RFP, reconciling a post-event master bill against contract minimums, building an on-site run-of-show and contingency plan, or sizing an event budget per attendee.</description>
+  </item>
+  <item>
+    <title>Compliance Officer</title>
+    <link>https://domainexperts.dev/roles/compliance-officer/</link>
+    <guid>https://domainexperts.dev/roles/compliance-officer/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:47:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Compliance Officer — deciding whether a suspected violation triggers a mandatory regulatory filing or disclosure, designing or risk-rating a compliance monitoring program, running a violation investigation to root cause, briefing a board/audit committee on compliance findings, or responding to a regulatory exam finding.</description>
+  </item>
+  <item>
+    <title>Cost Estimator</title>
+    <link>https://domainexperts.dev/roles/cost-estimator/</link>
+    <guid>https://domainexperts.dev/roles/cost-estimator/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:47:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cost Estimator — building a conceptual (Class 5) budget from a napkin sketch, developing a hard-bid estimate from complete construction documents, leveling subcontractor bids before award, making a bid/no-bid call on an RFP, or reconciling a design-development estimate against an owner&#x27;s target budget.</description>
+  </item>
+  <item>
+    <title>Emergency Management Director</title>
+    <link>https://domainexperts.dev/roles/emergency-management-director/</link>
+    <guid>https://domainexperts.dev/roles/emergency-management-director/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:47:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Emergency Management Director — activating and staffing an EOC for a developing hazard, sequencing a disaster declaration and FEMA Public Assistance/Individual Assistance request, sizing shelter and resource needs against real population and capacity numbers, designing or critiquing a tabletop exercise, or writing an after-action report and improvement plan.</description>
+  </item>
+  <item>
+    <title>Logistician</title>
+    <link>https://domainexperts.dev/roles/logistician/</link>
+    <guid>https://domainexperts.dev/roles/logistician/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:47:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Logistician — sizing safety stock and reorder points for a SKU-location, choosing a transportation mode or shipment frequency on a specific lane, evaluating a distribution-network or DC-count change, reconciling a demand forecast into an inventory plan, or diagnosing why a service-level or freight-cost number moved.</description>
+  </item>
+  <item>
+    <title>Social Community Service Manager</title>
+    <link>https://domainexperts.dev/roles/social-community-service-manager/</link>
+    <guid>https://domainexperts.dev/roles/social-community-service-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:47:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Social and Community Service Manager — evaluating a new grant against mission fit and true cost, reconciling a braided funding budget across restricted and unrestricted sources, setting or defending caseload ratios against funder-required staffing, responding to a funder outcome-reporting requirement (e.g. HUD APR), or deciding how to close an indirect-cost recovery gap.</description>
+  </item>
+  <item>
+    <title>Clinical Research Coordinator</title>
+    <link>https://domainexperts.dev/roles/clinical-research-coordinator/</link>
+    <guid>https://domainexperts.dev/roles/clinical-research-coordinator/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:29:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Clinical Research Coordinator — managing patient recruitment/enrollment against a trial&#x27;s screen-fail rate, handling a protocol deviation, tracking informed consent and regulatory documentation, or coordinating a multi-visit study schedule against patient retention risk.</description>
+  </item>
+  <item>
+    <title>Natural Sciences Manager</title>
+    <link>https://domainexperts.dev/roles/natural-sciences-manager/</link>
+    <guid>https://domainexperts.dev/roles/natural-sciences-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:29:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Natural Sciences Manager (R&amp;D lab director, science department head) — allocating research budget/headcount across competing projects, deciding whether to kill or continue a research program, evaluating a grant/publication strategy tradeoff, or managing the tension between scientific rigor and delivery deadlines.</description>
+  </item>
+  <item>
+    <title>Postmaster Mail Superintendent</title>
+    <link>https://domainexperts.dev/roles/postmaster-mail-superintendent/</link>
+    <guid>https://domainexperts.dev/roles/postmaster-mail-superintendent/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:29:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postmaster or Mail Superintendent — managing a post office/mail processing facility&#x27;s delivery-point growth and route planning, diagnosing a service performance (on-time delivery) shortfall, handling a mail security or chain-of-custody incident, or balancing seasonal volume surges against staffing.</description>
+  </item>
+  <item>
+    <title>Property Real Estate Manager</title>
+    <link>https://domainexperts.dev/roles/property-real-estate-manager/</link>
+    <guid>https://domainexperts.dev/roles/property-real-estate-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:29:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Property/Real Estate/Community Association Manager — setting rent against vacancy/market data, evaluating a capital improvement vs. deferred maintenance tradeoff, handling a tenant dispute or eviction decision, managing an HOA/community association reserve fund, or deciding on a vendor/maintenance contract.</description>
+  </item>
+  <item>
+    <title>Water Resource Specialist</title>
+    <link>https://domainexperts.dev/roles/water-resource-specialist/</link>
+    <guid>https://domainexperts.dev/roles/water-resource-specialist/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:29:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Water Resource Specialist — allocating water rights/supply across competing uses, evaluating a drought contingency or conservation program, assessing a water quality or supply-reliability risk, or balancing environmental flow requirements against municipal/agricultural demand.</description>
+  </item>
+  <item>
+    <title>Entertainment Recreation Manager</title>
+    <link>https://domainexperts.dev/roles/entertainment-recreation-manager/</link>
+    <guid>https://domainexperts.dev/roles/entertainment-recreation-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:18:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Entertainment and Recreation Manager (theme park, arena, recreation facility, tour operation) — planning attraction/facility capacity against attendance forecasts, evaluating a guest safety or ride-operations decision, pricing admission/season-pass programs, or managing seasonal staffing and weather-driven demand swings.</description>
+  </item>
+  <item>
+    <title>Food Service Manager</title>
+    <link>https://domainexperts.dev/roles/food-service-manager/</link>
+    <guid>https://domainexperts.dev/roles/food-service-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:18:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Food Service Manager — pricing a menu against food cost targets, managing labor scheduling against sales forecasts, diagnosing a food cost or waste variance, handling a health-inspection or food-safety issue, or deciding whether to 86 an item or adjust a supplier.</description>
+  </item>
+  <item>
+    <title>Gambling Manager</title>
+    <link>https://domainexperts.dev/roles/gambling-manager/</link>
+    <guid>https://domainexperts.dev/roles/gambling-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:18:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Gambling/Gaming Manager — managing table game or slot floor operations, evaluating a hold percentage variance, handling a suspected advantage play or cheating incident, ensuring regulatory/AML compliance, or deciding on comp/credit extension to a player.</description>
+  </item>
+  <item>
+    <title>Lodging Manager</title>
+    <link>https://domainexperts.dev/roles/lodging-manager/</link>
+    <guid>https://domainexperts.dev/roles/lodging-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:18:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Lodging/Hotel Manager — setting room rates against occupancy forecast (revenue management), evaluating overbooking risk, diagnosing a RevPAR or ADR variance, managing a guest service recovery situation, or balancing housekeeping/labor cost against occupancy swings.</description>
+  </item>
+  <item>
+    <title>Medical Health Services Manager</title>
+    <link>https://domainexperts.dev/roles/medical-health-services-manager/</link>
+    <guid>https://domainexperts.dev/roles/medical-health-services-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:18:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical and Health Services Manager (practice manager, clinical department administrator, hospital unit manager) — managing clinical staffing against patient volume, evaluating a billing/reimbursement or denial-rate problem, handling a patient safety or compliance incident, or balancing quality metrics against cost pressure. Distinct from a physician&#x27;s clinical-reasoning role — this one manages the operational and administrative system clinicians work within.</description>
+  </item>
+  <item>
+    <title>Architectural Engineering Manager</title>
+    <link>https://domainexperts.dev/roles/architectural-engineering-manager/</link>
+    <guid>https://domainexperts.dev/roles/architectural-engineering-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:03:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Architecture/Engineering firm or department manager — pricing a project fee (lump sum vs. hourly vs. % of construction cost), staffing a project against backlog, evaluating scope creep on a fixed-fee job, managing professional liability exposure, or deciding whether to pursue a project given current utilization.</description>
+  </item>
+  <item>
+    <title>Biofuels Biodiesel Technology Manager</title>
+    <link>https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager/</link>
+    <guid>https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 01:03:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biofuels/Biodiesel Technology and Product Development Manager — deciding whether a lab/bench-scale process is ready to scale up, evaluating feedstock flexibility tradeoffs in process design, pricing a technology&#x27;s value against regulatory credit pathways (RFS RIN, LCFS CI score), or managing IP strategy for a novel conversion process. Distinct from biofuels-production-manager, which runs an existing operating facility — this role owns R&amp;D and commercialization of new or improved process technology.</description>
+  </item>
+  <item>
+    <title>Education Administrator K12</title>
+    <link>https://domainexperts.dev/roles/education-administrator-k12/</link>
+    <guid>https://domainexperts.dev/roles/education-administrator-k12/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:57:03 +0700</pubDate>
+    <description>Use when a task needs the judgment of a K-12 Education Administrator (principal/assistant principal/district administrator) — making a school-level policy or resource-allocation decision, handling a discipline or safety incident, evaluating a curriculum or staffing decision, or balancing competing demands from teachers, parents, students, and district requirements.</description>
+  </item>
+  <item>
+    <title>Education Administrator Other</title>
+    <link>https://domainexperts.dev/roles/education-administrator-other/</link>
+    <guid>https://domainexperts.dev/roles/education-administrator-other/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:57:03 +0700</pubDate>
+    <description>Use when a task needs the judgment of an education administrator in a non-traditional setting — adult/continuing education, vocational or trade school, corporate/organizational training department, or other education programs outside standard K-12 or degree-granting postsecondary institutions. Covers the O*NET &quot;Education Administrators, All Other&quot; catch-all.</description>
+  </item>
+  <item>
+    <title>Education Administrator Postsecondary</title>
+    <link>https://domainexperts.dev/roles/education-administrator-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/education-administrator-postsecondary/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:57:03 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postsecondary Education Administrator (dean, department chair, provost-level, or program director) — making a program/curriculum decision, managing faculty and enrollment/budget tradeoffs, evaluating an accreditation or academic policy issue, or balancing academic mission against institutional financial sustainability.</description>
+  </item>
+  <item>
+    <title>Agricultural Manager</title>
+    <link>https://domainexperts.dev/roles/agricultural-manager/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:51:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Farmer, Rancher, or other Agricultural Manager — making a planting/breeding/production decision under weather and market uncertainty, managing land and input costs, evaluating a capital investment (equipment, irrigation), or deciding how to respond to a crop/livestock health issue.</description>
+  </item>
+  <item>
+    <title>Compensation Benefits Manager</title>
+    <link>https://domainexperts.dev/roles/compensation-benefits-manager/</link>
+    <guid>https://domainexperts.dev/roles/compensation-benefits-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:51:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Compensation and Benefits Manager — designing or evaluating a pay structure/leveling system, benchmarking compensation against market, deciding on a benefits package tradeoff, or auditing for pay equity issues. Narrower and more specialized than the broader hr-people-manager role&#x27;s compensation-adjacent heuristics.</description>
+  </item>
+  <item>
+    <title>Construction Manager</title>
+    <link>https://domainexperts.dev/roles/construction-manager/</link>
+    <guid>https://domainexperts.dev/roles/construction-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:51:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Construction Manager — planning or sequencing a construction project, evaluating a schedule/cost tradeoff, managing subcontractors and site safety, or responding to an unexpected site condition or delay.</description>
+  </item>
+  <item>
+    <title>Education Childcare Administrator Preschool</title>
+    <link>https://domainexperts.dev/roles/education-childcare-administrator-preschool/</link>
+    <guid>https://domainexperts.dev/roles/education-childcare-administrator-preschool/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:51:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Education and Childcare Administrator for Preschool/Daycare settings — running a preschool or childcare center&#x27;s operations, evaluating a curriculum or staffing decision, handling a licensing/regulatory compliance issue, or balancing enrollment/financial sustainability against program quality.</description>
+  </item>
+  <item>
+    <title>Training Development Manager</title>
+    <link>https://domainexperts.dev/roles/training-development-manager/</link>
+    <guid>https://domainexperts.dev/roles/training-development-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:51:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Training and Development Manager — designing a learning/training program, evaluating whether training is the right solution to a performance gap, measuring training effectiveness, or allocating a learning and development budget.</description>
+  </item>
+  <item>
+    <title>Biomass Power Plant Manager</title>
+    <link>https://domainexperts.dev/roles/biomass-power-plant-manager/</link>
+    <guid>https://domainexperts.dev/roles/biomass-power-plant-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:45:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biomass Power Plant Manager — running a biomass-fired power generation facility, managing fuel supply logistics and quality variability, evaluating combustion/efficiency problems, or balancing generation output against fuel cost and emissions constraints.</description>
+  </item>
+  <item>
+    <title>Hydroelectric Production Manager</title>
+    <link>https://domainexperts.dev/roles/hydroelectric-production-manager/</link>
+    <guid>https://domainexperts.dev/roles/hydroelectric-production-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:45:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hydroelectric Production Manager — running a hydroelectric power facility, managing water resource allocation and reservoir levels, evaluating dam safety and equipment maintenance decisions, or balancing generation output against competing water uses (irrigation, flood control, ecological flow).</description>
+  </item>
+  <item>
+    <title>Purchasing Manager</title>
+    <link>https://domainexperts.dev/roles/purchasing-manager/</link>
+    <guid>https://domainexperts.dev/roles/purchasing-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:45:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Purchasing Manager — negotiating a supplier contract, evaluating a sourcing decision (single vs. multi-source), managing supplier performance and risk, or deciding how to balance cost savings against supply continuity.</description>
+  </item>
+  <item>
+    <title>Supply Chain Manager</title>
+    <link>https://domainexperts.dev/roles/supply-chain-manager/</link>
+    <guid>https://domainexperts.dev/roles/supply-chain-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:45:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Supply Chain Manager — designing or evaluating an end-to-end supply chain strategy, balancing efficiency against resilience, managing demand/supply planning, or deciding how to respond to a supply chain disruption. Broader, more strategic scope than transportation-storage-distribution-manager&#x27;s physical execution focus or purchasing-manager&#x27;s sourcing/negotiation focus.</description>
+  </item>
+  <item>
+    <title>Transportation Storage Distribution Manager</title>
+    <link>https://domainexperts.dev/roles/transportation-storage-distribution-manager/</link>
+    <guid>https://domainexperts.dev/roles/transportation-storage-distribution-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:45:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transportation, Storage, and Distribution Manager — planning warehouse/distribution network operations, evaluating a carrier or logistics vendor decision, managing inventory flow across a distribution network, or diagnosing a fulfillment/delivery performance problem. Broader logistics-network focus than supply-chain-manager&#x27;s end-to-end strategic scope.</description>
+  </item>
+  <item>
+    <title>Biofuels Production Manager</title>
+    <link>https://domainexperts.dev/roles/biofuels-production-manager/</link>
+    <guid>https://domainexperts.dev/roles/biofuels-production-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:41:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biofuels Production Manager — running a biofuel production facility (ethanol, biodiesel, renewable diesel), managing feedstock supply and quality variability, evaluating a yield or efficiency problem, or balancing production economics against commodity price swings.</description>
+  </item>
+  <item>
+    <title>Geothermal Production Manager</title>
+    <link>https://domainexperts.dev/roles/geothermal-production-manager/</link>
+    <guid>https://domainexperts.dev/roles/geothermal-production-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:41:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Geothermal Production Manager — running a geothermal power plant or well field&#x27;s daily operations, managing reservoir output decline, evaluating a well workover or drilling decision, or balancing production rate against long-term reservoir sustainability.</description>
+  </item>
+  <item>
+    <title>Industrial Production Manager</title>
+    <link>https://domainexperts.dev/roles/industrial-production-manager/</link>
+    <guid>https://domainexperts.dev/roles/industrial-production-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:41:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Industrial Production Manager — running a manufacturing plant/production line, diagnosing a throughput or quality problem, planning capacity and staffing against demand, or evaluating a process change or capital investment on the production floor.</description>
+  </item>
+  <item>
+    <title>Investment Fund Manager</title>
+    <link>https://domainexperts.dev/roles/investment-fund-manager/</link>
+    <guid>https://domainexperts.dev/roles/investment-fund-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:41:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Investment Fund Manager — making or evaluating a portfolio allocation decision, assessing a fund&#x27;s risk exposure, deciding on a buy/sell/hold call, or communicating fund performance and strategy to investors/limited partners.</description>
+  </item>
+  <item>
+    <title>Quality Control Systems Manager</title>
+    <link>https://domainexperts.dev/roles/quality-control-systems-manager/</link>
+    <guid>https://domainexperts.dev/roles/quality-control-systems-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:41:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Quality Control Systems Manager — designing or auditing a quality management system, investigating a defect/non-conformance, deciding whether a product batch should ship, or evaluating a supplier&#x27;s quality capability. Narrower than industrial-production-manager&#x27;s broader production-floor scope — this role owns the quality function and its systems specifically.</description>
+  </item>
+  <item>
+    <title>Computer Information Systems Manager</title>
+    <link>https://domainexperts.dev/roles/computer-information-systems-manager/</link>
+    <guid>https://domainexperts.dev/roles/computer-information-systems-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:37:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer and Information Systems Manager (IT Manager/Director/CIO-adjacent) — planning IT infrastructure and systems strategy, evaluating a technology vendor or platform decision, allocating an IT budget, or managing IT risk (security, uptime, technical debt) at an organizational level. Broader than the devops-sre or software-engineer roles — this one owns IT as a business function, not a specific engineering discipline.</description>
+  </item>
+  <item>
+    <title>Facilities Manager</title>
+    <link>https://domainexperts.dev/roles/facilities-manager/</link>
+    <guid>https://domainexperts.dev/roles/facilities-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:37:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Facilities Manager — planning building/space maintenance and capital projects, evaluating a facilities vendor or contractor, responding to a building system failure, or deciding how to allocate a facilities budget across maintenance, safety, and capacity needs.</description>
+  </item>
+  <item>
+    <title>Financial Manager</title>
+    <link>https://domainexperts.dev/roles/financial-manager/</link>
+    <guid>https://domainexperts.dev/roles/financial-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:37:10 +0700</pubDate>
+    <description>Use when a task needs CFO-level judgment — capital structure and funding decisions, cash runway and liquidity management, financial risk oversight, board/investor reporting, or pricing the financial consequences of a strategic choice before it&#x27;s made. Broader than financial-analyst (builds the models) or accountant-controller (closes the books) — this role owns the finance function&#x27;s direction and the company&#x27;s financial survivability.</description>
+  </item>
+  <item>
+    <title>Security Manager</title>
+    <link>https://domainexperts.dev/roles/security-manager/</link>
+    <guid>https://domainexperts.dev/roles/security-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:37:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a (physical/corporate) Security Manager — designing physical access controls, assessing a facility or event&#x27;s security risk, responding to a security incident, or deciding how to allocate a security budget across prevention, detection, and response. Distinct from a cybersecurity/information-security role — this one covers physical and personnel security.</description>
+  </item>
+  <item>
+    <title>Treasurer Controller</title>
+    <link>https://domainexperts.dev/roles/treasurer-controller/</link>
+    <guid>https://domainexperts.dev/roles/treasurer-controller/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:37:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a senior Treasurer or Controller overseeing an organization&#x27;s cash/liquidity management and financial reporting function at an executive level — managing banking relationships and liquidity, overseeing the close and external audit process, or making a treasury policy decision (investment of cash, hedging, debt covenants). More senior/strategic than accountant-controller&#x27;s day-to-day close and controls focus.</description>
+  </item>
+  <item>
+    <title>Administrative Services Manager</title>
+    <link>https://domainexperts.dev/roles/administrative-services-manager/</link>
+    <guid>https://domainexperts.dev/roles/administrative-services-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:30:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Administrative Services Manager — running the operational/facilities/office-services backbone of an organization, evaluating a vendor contract, allocating a facilities/admin budget, or diagnosing why internal operational support is failing a growing organization.</description>
+  </item>
+  <item>
+    <title>Fundraising Manager</title>
+    <link>https://domainexperts.dev/roles/fundraising-manager/</link>
+    <guid>https://domainexperts.dev/roles/fundraising-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:30:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fundraising Manager (nonprofit development) — planning a fundraising campaign, cultivating and soliciting a major donor, evaluating a grant opportunity, or deciding how to allocate fundraising effort across donor segments.</description>
+  </item>
+  <item>
+    <title>Marketing Manager</title>
+    <link>https://domainexperts.dev/roles/marketing-manager/</link>
+    <guid>https://domainexperts.dev/roles/marketing-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:30:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Marketing Manager — running a marketing team/function, allocating budget across programs, approving campaign plans, or reporting marketing performance to leadership. Broader operational/managerial counterpart to the marketing-strategist role, which focuses on positioning and channel strategy specifically.</description>
+  </item>
+  <item>
+    <title>Public Relations Manager</title>
+    <link>https://domainexperts.dev/roles/public-relations-manager/</link>
+    <guid>https://domainexperts.dev/roles/public-relations-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:30:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Public Relations Manager — shaping how an organization is perceived by media and the public, handling a press inquiry, preparing crisis communications, or deciding what and how to disclose in a sensitive situation.</description>
+  </item>
+  <item>
+    <title>Sales Manager</title>
+    <link>https://domainexperts.dev/roles/sales-manager/</link>
+    <guid>https://domainexperts.dev/roles/sales-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:30:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Sales Manager — coaching and managing a sales team, setting or evaluating quota/territory design, running pipeline reviews, or diagnosing why a team is missing its number. Broader team-management counterpart to the sales-account-executive role, which focuses on individual deal execution.</description>
+  </item>
+  <item>
+    <title>Advertising Promotions Manager</title>
+    <link>https://domainexperts.dev/roles/advertising-promotions-manager/</link>
+    <guid>https://domainexperts.dev/roles/advertising-promotions-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:19:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Advertising and Promotions Manager — planning a paid media campaign, briefing and evaluating creative, negotiating with agencies/media vendors, or deciding how to allocate a promotions budget across formats and timing. Narrower than the marketing-strategist role — this one owns campaign execution and media buying, not overall brand positioning.</description>
+  </item>
+  <item>
+    <title>Chief Executive</title>
+    <link>https://domainexperts.dev/roles/chief-executive/</link>
+    <guid>https://domainexperts.dev/roles/chief-executive/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:19:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a CEO/chief executive — setting company strategy, allocating scarce resources (capital, headcount, attention) across competing priorities, making a call that only the top of the org can make, or communicating direction to the board, investors, or the whole company.</description>
+  </item>
+  <item>
+    <title>Chief Sustainability Officer</title>
+    <link>https://domainexperts.dev/roles/chief-sustainability-officer/</link>
+    <guid>https://domainexperts.dev/roles/chief-sustainability-officer/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:19:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chief Sustainability Officer — evaluating an environmental/social initiative&#x27;s business case, responding to ESG disclosure or regulatory requirements, assessing greenwashing risk, or prioritizing sustainability investments against their actual impact and cost.</description>
+  </item>
+  <item>
+    <title>General Operations Manager</title>
+    <link>https://domainexperts.dev/roles/general-operations-manager/</link>
+    <guid>https://domainexperts.dev/roles/general-operations-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:19:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a General/Operations Manager — coordinating multiple departments toward shared execution, diagnosing why cross-functional work is stalling, allocating resources across competing operational priorities, or improving how an organization actually runs day to day.</description>
+  </item>
+  <item>
+    <title>Legislator</title>
+    <link>https://domainexperts.dev/roles/legislator/</link>
+    <guid>https://domainexperts.dev/roles/legislator/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:19:52 +0700</pubDate>
+    <description>Use when a task needs to model the reasoning process of an elected legislator — evaluating a bill&#x27;s tradeoffs, weighing constituent interests against broader policy effects, navigating a vote under incomplete information, or understanding how legislative compromise and coalition-building actually work. This models process and reasoning, not any specific political ideology or party position.</description>
+  </item>
+  <item>
+    <title>Accountant Controller</title>
+    <link>https://domainexperts.dev/roles/accountant-controller/</link>
+    <guid>https://domainexperts.dev/roles/accountant-controller/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:07:56 +0700</pubDate>
+    <description>Use when a task needs the judgment of an accountant/financial controller — closing the books, ensuring GAAP-compliant reporting, designing internal controls, reviewing an accounting treatment question, or catching a discrepancy in financial records. Distinct from a financial analyst role — this one is accountable for the accuracy of what happened, not for forecasting what will happen.</description>
+  </item>
+  <item>
+    <title>Customer Success Manager</title>
+    <link>https://domainexperts.dev/roles/customer-success-manager/</link>
+    <guid>https://domainexperts.dev/roles/customer-success-manager/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:07:56 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Customer Success Manager — driving product adoption after the sale, assessing renewal/churn risk, handling an at-risk account, or deciding how to prioritize limited attention across a book of accounts.</description>
+  </item>
+  <item>
+    <title>Devops Sre</title>
+    <link>https://domainexperts.dev/roles/devops-sre/</link>
+    <guid>https://domainexperts.dev/roles/devops-sre/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:07:56 +0700</pubDate>
+    <description>Use when a task needs the judgment of a DevOps/Site Reliability Engineer — designing deployment pipelines, setting SLOs/error budgets, responding to or reviewing an incident, or making infrastructure/reliability tradeoffs. Distinct from a backend software engineer role — this one owns the system&#x27;s operational health across all services, not one service&#x27;s feature code.</description>
+  </item>
+  <item>
+    <title>Physician Clinical Reasoning</title>
+    <link>https://domainexperts.dev/roles/physician-clinical-reasoning/</link>
+    <guid>https://domainexperts.dev/roles/physician-clinical-reasoning/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:07:56 +0700</pubDate>
+    <description>Use when a task needs the judgment and diagnostic reasoning process of a physician — working through a differential diagnosis, evaluating clinical evidence, or reasoning about diagnostic uncertainty. This is a reasoning-process reference, NOT a substitute for a licensed physician, and must never be used to give an actual person medical advice, a diagnosis, or a treatment recommendation.</description>
+  </item>
+  <item>
+    <title>Technical Recruiter</title>
+    <link>https://domainexperts.dev/roles/technical-recruiter/</link>
+    <guid>https://domainexperts.dev/roles/technical-recruiter/</guid>
+    <pubDate>Mon, 06 Jul 2026 00:07:56 +0700</pubDate>
+    <description>Use when a task needs the judgment of a technical recruiter/talent acquisition partner — sourcing candidates, screening resumes, structuring an interview process, evaluating a candidate against a role, or closing an offer. Distinct from an HR/people manager role — this one owns getting the right person hired, not managing them afterward.</description>
+  </item>
+  <item>
+    <title>Data Scientist</title>
+    <link>https://domainexperts.dev/roles/data-scientist/</link>
+    <guid>https://domainexperts.dev/roles/data-scientist/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:57:26 +0700</pubDate>
+    <description>Use when a task needs senior data-scientist judgment — designing or reading out an experiment, investigating a metric move, deciding whether a causal claim holds, or judging whether a model or analysis actually supports the decision it&#x27;s being used for.</description>
+  </item>
+  <item>
+    <title>Hr People Manager</title>
+    <link>https://domainexperts.dev/roles/hr-people-manager/</link>
+    <guid>https://domainexperts.dev/roles/hr-people-manager/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:57:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of an HR/people manager — handling a performance issue, designing compensation or leveling decisions, resolving a workplace conflict, structuring a hiring process, or navigating an org design/headcount decision.</description>
+  </item>
+  <item>
+    <title>Lawyer Contracts</title>
+    <link>https://domainexperts.dev/roles/lawyer-contracts/</link>
+    <guid>https://domainexperts.dev/roles/lawyer-contracts/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:57:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of a senior commercial contracts attorney — reviewing or redlining agreements (MSAs, SaaS, licensing, vendor, distribution), spotting where the real risk allocation lives, choosing negotiation positions and fallbacks, or translating legal exposure into business terms. US commercial law default (state common law + UCC Article 2). A reasoning aid, not legal advice.</description>
+  </item>
+  <item>
+    <title>Marketing Strategist</title>
+    <link>https://domainexperts.dev/roles/marketing-strategist/</link>
+    <guid>https://domainexperts.dev/roles/marketing-strategist/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:57:26 +0700</pubDate>
+    <description>Use when a task needs senior marketing-strategist judgment — positioning a product, choosing and pruning channels, splitting budget across brand and performance, evaluating campaign ideas, or diagnosing why demand or CAC has gone sideways.</description>
+  </item>
+  <item>
+    <title>Sales Account Executive</title>
+    <link>https://domainexperts.dev/roles/sales-account-executive/</link>
+    <guid>https://domainexperts.dev/roles/sales-account-executive/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:57:26 +0700</pubDate>
+    <description>Use when a task needs the judgment of a B2B sales account executive — qualifying a deal, handling objections, negotiating terms, forecasting pipeline, or deciding whether/how to pursue an opportunity.</description>
+  </item>
+  <item>
+    <title>Financial Analyst</title>
+    <link>https://domainexperts.dev/roles/financial-analyst/</link>
+    <guid>https://domainexperts.dev/roles/financial-analyst/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:51:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a corporate/investment financial analyst — building or reviewing financial models, evaluating whether a business decision makes financial sense, interpreting financial statements, or assessing an investment/budget tradeoff.</description>
+  </item>
+  <item>
+    <title>Product Manager</title>
+    <link>https://domainexperts.dev/roles/product-manager/</link>
+    <guid>https://domainexperts.dev/roles/product-manager/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:51:12 +0700</pubDate>
+    <description>Use when a task needs senior product-manager judgment — prioritizing between features with real tradeoffs, writing PRDs and decision docs, translating stakeholder requests into problems, killing underperforming features, or deciding what not to build.</description>
+  </item>
+  <item>
+    <title>Software Engineer</title>
+    <link>https://domainexperts.dev/roles/software-engineer/</link>
+    <guid>https://domainexperts.dev/roles/software-engineer/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:51:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a senior backend software engineer — designing systems, reviewing code for correctness/reliability/maintainability, making build-vs-buy or architecture tradeoffs, or debugging production issues under real constraints (not toy-problem correctness).</description>
+  </item>
+  <item>
+    <title>Ux Designer</title>
+    <link>https://domainexperts.dev/roles/ux-designer/</link>
+    <guid>https://domainexperts.dev/roles/ux-designer/</guid>
+    <pubDate>Sun, 05 Jul 2026 23:51:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a UX/product designer — evaluating or designing an interface, flow, or interaction, critiquing usability, or resolving tradeoffs between simplicity, flexibility, and business goals in a product&#x27;s design.</description>
+  </item>
+</channel>
+</rss>

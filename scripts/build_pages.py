@@ -11,6 +11,8 @@ Re-run after any role content changes:
 import html
 import json
 import re
+import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -224,8 +226,65 @@ def build():
     )
 
     inject_index_schema(roles)
+    build_feed(roles)
 
-    print(f"Built {len(urls)} role pages + sitemap.xml + robots.txt")
+    print(f"Built {len(urls)} role pages + sitemap.xml + robots.txt + feed.xml")
+
+
+def role_added_dates():
+    out = subprocess.run(
+        ["git", "log", "--diff-filter=A", "--name-only",
+         "--format=COMMIT:%aI", "--", "roles/*/SKILL.md"],
+        cwd=ROOT, capture_output=True, text=True, check=True,
+    ).stdout
+    dates = {}
+    current = None
+    for line in out.splitlines():
+        if line.startswith("COMMIT:"):
+            current = line[len("COMMIT:"):]
+        elif line.strip():
+            dates.setdefault(line, current)
+    return dates
+
+
+def build_feed(roles):
+    dates = role_added_dates()
+    items = []
+    for r in roles:
+        path = f"roles/{r['slug']}/SKILL.md"
+        iso = dates.get(path)
+        dt = datetime.fromisoformat(iso) if iso else datetime.now(timezone.utc)
+        items.append((dt, r))
+    items.sort(key=lambda pair: pair[0], reverse=True)
+
+    rfc822 = lambda dt: dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+    now = rfc822(datetime.now(timezone.utc))
+
+    entries = []
+    for dt, r in items:
+        url = f"{SITE_URL}/roles/{r['slug']}/"
+        entries.append(
+            "  <item>\n"
+            f"    <title>{html.escape(title_case(r['slug']))}</title>\n"
+            f"    <link>{url}</link>\n"
+            f"    <guid>{url}</guid>\n"
+            f"    <pubDate>{rfc822(dt)}</pubDate>\n"
+            f"    <description>{html.escape(r['description'])}</description>\n"
+            "  </item>"
+        )
+
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        "<channel>\n"
+        "  <title>Domain Experts — New Roles</title>\n"
+        f"  <link>{SITE_URL}/</link>\n"
+        "  <description>New job-role agent skills added to Domain Experts.</description>\n"
+        f"  <lastBuildDate>{now}</lastBuildDate>\n"
+        + "\n".join(entries)
+        + "\n</channel>\n</rss>\n"
+    )
+    (ROOT / "docs" / "feed.xml").write_text(feed)
 
 
 def inject_index_schema(roles):
