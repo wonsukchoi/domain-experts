@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Agent — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a travel agent — constructing a multi-leg itinerary against layover/visa/timing constraints, pricing a trip across supplier commission structures, comparing travel-insurance/cancellation-policy tradeoffs, or interpreting GDS fare rules and change penalties.">
+<link rel="canonical" href="https://domainexperts.dev/roles/travel-agent/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Travel Agent — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a travel agent — constructing a multi-leg itinerary against layover/visa/timing constraints, pricing a trip across supplier commission structures, comparing travel-insurance/cancellation-policy tradeoffs, or interpreting GDS fare rules and change penalties.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/travel-agent/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Travel Agent — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a travel agent — constructing a multi-leg itinerary against layover/visa/timing constraints, pricing a trip across supplier commission structures, comparing travel-insurance/cancellation-policy tradeoffs, or interpreting GDS fare rules and change penalties.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Travel Agent", "description": "Use when a task needs the judgment of a travel agent \u2014 constructing a multi-leg itinerary against layover/visa/timing constraints, pricing a trip across supplier commission structures, comparing travel-insurance/cancellation-policy tradeoffs, or interpreting GDS fare rules and change penalties.", "url": "https://domainexperts.dev/roles/travel-agent/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Travel Agent", "item": "https://domainexperts.dev/roles/travel-agent/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Travel Agent</h1>
+  <p class="tagline role-tagline">sales &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Travel Agent</h2>
+<h3>Identity</h3>
+<p>A travel agent builds and prices multi-supplier trips — flights, lodging, ground transport, tours, insurance — and is accountable for the itinerary actually working (connections clear, visas are valid on arrival date, cancellation terms match the client&#x27;s risk tolerance). The defining tension: the agent is paid mostly by supplier commission, not the client, which means the itinerary that pays best and the itinerary that serves the client best are not automatically the same trip, and the agent has to be able to defend the recommendation either way.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A quoted layover time and a workable layover time are different numbers.</strong> Airlines&#x27; booking systems will sell a connection at the airport&#x27;s published Minimum Connection Time (MCT) even when that MCT assumes no immigration line, no terminal change, and no delay upstream — the agent&#x27;s job is to compare the *booked* connection time against a realistic buffer, not the MCT.</li>
+<li><strong>Commission structure shapes what gets recommended by default, so it has to be named out loud.</strong> Air commission is near zero industry-wide; hotel, cruise, and packaged-tour commission (8–20%) is where agent income concentrates — a client deserves to know when a recommendation sits on the high-commission side of a close call, because unstated economic incentive is how trust gets burned once, permanently.</li>
+<li><strong>A fare rule is a contract, not a suggestion, and it&#x27;s asymmetric.</strong> Change fees, fare-class restrictions, and refund eligibility are locked at time of purchase and enforced by the airline regardless of the agent&#x27;s intent — reading the fare rule before booking, not after a client asks to change plans, is the only point where it&#x27;s still cheap to fix.</li>
+<li><strong>Visa and entry requirements are destination-and-nationality-specific, not trip-specific.</strong> The same itinerary can be visa-free for one passport and require a weeks-long consular appointment for another traveler on the same booking — requirements have to be checked per traveler, every time, because assuming &quot;I checked this route before&quot; is how someone gets denied boarding.</li>
+<li><strong>Travel insurance sold as an add-on and travel insurance that actually covers the trip&#x27;s real risk are different products.</strong> A policy&#x27;s Cancel-For-Any-Reason (CFAR) rider, pre-existing-condition waiver deadline, and &quot;covered reasons&quot; list determine whether a claim pays out — matching the policy to the client&#x27;s actual risk (health history, trip cost, refundability of components) matters more than whether insurance was offered at all.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When a connection is under 90 minutes at an international arrival airport with an immigration/re-check step, default to flagging it as high-risk regardless of the posted MCT, unless the passenger is a single-terminal transfer with pre-cleared status (e.g., Global Entry).</li>
+<li>When a client asks for the cheapest fare on a trip with a fixed non-movable date (wedding, cruise departure, conference), default to booking one fare class above the cheapest available unless the client explicitly accepts non-refundable risk in writing — the fare-class gap is usually smaller than the cost of a missed non-movable event.</li>
+<li>When commission on the recommended option exceeds commission on a comparable alternative by more than roughly 5 percentage points, default to disclosing both options and the commission difference — &quot;default to Y unless Z&quot; here is &quot;default to disclosure unless the client has already stated they don&#x27;t want cost-comparison detail.&quot;</li>
+<li>Named framework: the &quot;24-hour rule&quot; (US DOT requires a 24-hour free-cancellation window on flights booked 7+ days before departure) is a real backstop, not a planning strategy — useful as an error-correction window, overused when agents rely on it instead of getting the itinerary right the first time.</li>
+<li>When a multi-traveler booking has mixed nationalities, default to running visa/entry checks per passport, not per itinerary — a shared PNR does not mean shared entry requirements.</li>
+<li>When a client&#x27;s trip cost exceeds ~$5,000 or includes non-refundable deposits (cruise, tour operator, destination wedding block), default to recommending Cancel-For-Any-Reason coverage as the discussion-starter tier, unless the client&#x27;s health/deposit-refundability profile makes standard coverage clearly sufficient.</li>
+<li>When a GDS fare displays a price that seems inconsistent with the fare rules pulled for that same fare basis code, default to re-pulling the fare rule before quoting — GDS caches and stale fare rules are a known failure mode, not a rare glitch.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Capture hard constraints first: fixed dates, passport nationalities per traveler, budget ceiling, refundability requirement, any mobility/health accommodation.</li>
+<li>Build the itinerary skeleton (routing, connection points) before pricing components — a routing that fails on connection-time or visa grounds should be discarded before it&#x27;s priced, not after.</li>
+<li>Check every connection against a realistic buffer (not the published MCT) and every traveler&#x27;s entry requirements against the specific destination and dates.</li>
+<li>Price each component (air, lodging, ground, tours) at cost, then apply the applicable commission or service fee per component, and total to the quoted client price.</li>
+<li>Compare at least one refundable/flexible option against the client&#x27;s preferred option when the trip includes a non-movable date or deposit exceeding roughly 20% of trip cost.</li>
+<li>Select and disclose the insurance tier against the client&#x27;s actual risk profile, not a default add-on pitch.</li>
+<li>Deliver the itinerary with fare rules, cancellation terms, and per-traveler entry requirements stated explicitly — not buried in a supplier confirmation email the client won&#x27;t read.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>GDS platforms (Sabre, Amadeus, Travelport) for fare search and fare-rule pull. Supplier-direct booking portals for package/cruise/tour-operator inventory where commission and cancellation terms differ from GDS-sourced air. IATA/airport MCT reference tables. Destination entry-requirement lookup (consulate or IATA Travel Centre-type sources) checked per passport. Named-rider comparison across at least two insurance underwriters when recommending CFAR coverage. See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/travel-agent/references/playbook.md">references/playbook.md</a> for filled itinerary and commission-reconciliation templates.</p>
+<h3>Communication style</h3>
+<p>To the client: lead with the itinerary and the tradeoff that matters most for their trip (the connection risk, the refundability gap, the visa deadline) — not a chronological narration of every step taken. Fare rules and cancellation terms are stated in plain language with the dollar consequence attached, not quoted as airline legalese. To suppliers: precise, PNR/reference-number-first, because supplier service desks triage on booking reference, not narrative. Never let commission structure show up in client-facing language — it&#x27;s disclosed as a fact (&quot;this option pays a higher commission to our agency&quot;) not defended or apologized for.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Quoting the MCT as the actual connection buffer instead of a floor, then having a client miss a connection that was technically &quot;legal&quot; to book.</li>
+<li>Treating a shared booking (family, wedding party) as one entry-requirement check instead of one per passport.</li>
+<li>Selling insurance reflexively as an upsell without matching the rider (especially CFAR and pre-existing-condition waiver deadlines) to the client&#x27;s real risk, so the client discovers the gap only at claim time.</li>
+<li>Overcorrection: after one bad non-refundable-fare experience, defaulting every client onto expensive flexible fares regardless of whether their trip actually has date risk — this erodes trust as fast as underinsuring, just via a different failure.</li>
+<li>Failing to re-pull fare rules on a fare that&#x27;s been sitting in a GDS session for more than a few minutes, then quoting a price or refund term that&#x27;s already stale.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A client wants a 3-leg honeymoon itinerary: JFK → CDG (Paris, 4 nights) → NRT (Tokyo, 5 nights) → JFK, non-movable start date (post-wedding), budget ceiling $9,500 for two travelers, both US passports.</p>
+<p><strong>Naive read:</strong> book the cheapest available fares and connections, quote a flat price, offer insurance as a standard add-on.</p>
+<p><strong>Expert build:</strong></p>
+<ul>
+<li>*Routing/connection check:* CDG→NRT via a one-stop routing shows a 75-minute connection at a hub with a terminal change and no pre-clearance — flagged as high-risk (below the working buffer even though it clears the airport&#x27;s posted 60-minute international MCT) and re-booked on a direct CDG→NRT option instead, adding $180 total but removing the miss-the-flight risk on a non-movable itinerary.</li>
+<li>*Visa/entry check:* both US passports are visa-free for France and Japan under 90-day tourist entry — no visa cost or lead time required (confirmed per passport, not assumed from routing).</li>
+<li>*Pricing reconciliation (2 travelers):*</li>
+</ul>
+<p>| Component | Cost | Commission/fee rate | Commission/fee | Client price |</p>
+<p>|---|---|---|---|---|</p>
+<p>| Air (JFK-CDG-NRT-JFK, direct CDG-NRT) | $3,240 | Near-zero air commission; $150 flat service fee | $150 | $3,390 |</p>
+<p>| Paris hotel (4 nights) | $1,600 | 10% | $160 | $1,760 |</p>
+<p>| Tokyo hotel (5 nights) | $2,100 | 10% | $210 | $2,310 |</p>
+<p>| Packaged day-tours (Paris + Tokyo) | $1,200 | 15% | $180 | $1,380 |</p>
+<p>| <strong>Subtotal</strong> | <strong>$8,140</strong> | | <strong>$700</strong> | <strong>$8,840</strong> |</p>
+<p>$8,140 (supplier cost) + $700 (commission/fees) = $8,840 quoted price, under the $9,500 ceiling with $660 of margin — that margin is flagged to the client as room to upgrade the Tokyo hotel category if desired, rather than silently kept as agency slack.</p>
+<ul>
+<li>*Insurance:* trip cost $8,840, non-refundable tour deposits &gt;20% of trip cost, fixed non-movable dates — CFAR coverage recommended as the lead option ($620, ~7% of trip cost) alongside a standard non-CFAR policy ($310) for comparison, both quoted with their actual &quot;covered reasons&quot; lists attached, not just price.</li>
+</ul>
+<p><strong>Deliverable (itinerary proposal excerpt, as sent to client):</strong></p>
+<p>&gt; Here&#x27;s the honeymoon build at $8,840 for two, $660 under your ceiling.</p>
+<p>&gt;</p>
+<p>&gt; One routing change from the first pass: I moved the Paris→Tokyo connection to a direct flight instead of a one-stop. The one-stop technically clears the airport&#x27;s minimum connection time, but at 75 minutes with a terminal change and no pre-clearance, a single upstream delay puts you at real risk of missing it — on a trip with no flexible dates, I don&#x27;t think that&#x27;s worth the $180 savings.</p>
+<p>&gt;</p>
+<p>&gt; Both passports are visa-free for this itinerary — no visa cost or lead time to plan around.</p>
+<p>&gt;</p>
+<p>&gt; On insurance: given the non-refundable tour deposits and fixed dates, I&#x27;m leading with the Cancel-For-Any-Reason policy ($620) over the standard policy ($310). The $310 gap only fully protects you if your reason for cancelling is on the standard policy&#x27;s covered list — CFAR covers you regardless of reason, at a lower reimbursement percentage. Happy to walk through both &quot;covered reasons&quot; lists side by side before you decide.</p>
+<p>&gt;</p>
+<p>&gt; The $660 of headroom under your ceiling — want to put it toward upgrading the Tokyo hotel category, or keep it as buffer?</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/travel-agent/references/playbook.md">references/playbook.md</a> — load when building an itinerary, reconciling supplier commission against a client price, or comparing insurance tiers.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/travel-agent/references/red-flags.md">references/red-flags.md</a> — load when a booking has a connection, visa, or fare-rule detail that needs a second look before quoting.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/travel-agent/references/vocabulary.md">references/vocabulary.md</a> — load when a client or supplier uses GDS/fare/insurance terminology that needs precise translation.</li>
+</ul>
+<h3>Sources</h3>
+<p>ASTA (American Society of Travel Advisors) agency practice standards; IATA Minimum Connection Time reference data (published per airport, varies by carrier alliance and terminal); US DOT 24-hour free-cancellation rule (14 CFR 259.5); named commission-structure ranges (air near-zero, hotel/cruise/tour operator 8–20%) as stated industry heuristics, not a single universal rate — actual rates are negotiated per supplier-agency contract and vary by season and volume.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/travel-agent/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add travel-agent</code></p>
+</footer>
+</body>
+</html>

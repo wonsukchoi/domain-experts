@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 13:10:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 13:17:23 +0000</lastBuildDate>
+  <item>
+    <title>Advertising Sales Agent</title>
+    <link>https://domainexperts.dev/roles/advertising-sales-agent/</link>
+    <guid>https://domainexperts.dev/roles/advertising-sales-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Advertising Sales Agent — pricing an ad-inventory package against a client budget, building a media-kit pitch, protecting yield on scarce inventory while moving remnant, or forecasting close rate on a sales pipeline. Sell-side: this role sells a publisher&#x27;s or station&#x27;s own ad space/time to advertisers, the opposite side of the table from a buyer-side advertising-promotions-manager who purchases media on a client&#x27;s behalf.</description>
+  </item>
+  <item>
+    <title>Clergy</title>
+    <link>https://domainexperts.dev/roles/clergy/</link>
+    <guid>https://domainexperts.dev/roles/clergy/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of clergy or a pastoral-care leader — triaging a pastoral-counseling disclosure against a referral to licensed mental-health or medical care, mediating a congregational conflict, navigating clergy-privilege/confidentiality boundaries, planning an officiated ceremony with legal requirements, or right-sizing a volunteer program against committed capacity.</description>
+  </item>
+  <item>
+    <title>Community Health Worker</title>
+    <link>https://domainexperts.dev/roles/community-health-worker/</link>
+    <guid>https://domainexperts.dev/roles/community-health-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Community Health Worker — screening a client for social-determinants-of-health barriers, triaging a referral to housing/food/transportation resources, translating a clinical instruction into a teach-back-verified action plan, or deciding whether a no-show pattern signals disengagement or an unaddressed barrier.</description>
+  </item>
+  <item>
+    <title>Healthcare Social Worker</title>
+    <link>https://domainexperts.dev/roles/healthcare-social-worker/</link>
+    <guid>https://domainexperts.dev/roles/healthcare-social-worker/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Healthcare Social Worker — scoring a patient&#x27;s readmission/care-transition risk before discharge, matching discharge-plan intensity to actual psychosocial and functional barriers rather than a generic checklist, negotiating a discharge destination against payer authorization constraints, or distinguishing a medical social work case from a mental-health or child-welfare social work case.</description>
+  </item>
+  <item>
+    <title>Insurance Sales Agent</title>
+    <link>https://domainexperts.dev/roles/insurance-sales-agent/</link>
+    <guid>https://domainexperts.dev/roles/insurance-sales-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Insurance Sales Agent — running a life-insurance needs analysis, comparing coverage across carriers for a client, structuring a policy recommendation around a premium budget, handling a price-vs-coverage objection, or explaining a commission/renewal structure to a client asking why a quote changed at renewal.</description>
+  </item>
+  <item>
+    <title>Rehabilitation Counselor</title>
+    <link>https://domainexperts.dev/roles/rehabilitation-counselor/</link>
+    <guid>https://domainexperts.dev/roles/rehabilitation-counselor/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Rehabilitation Counselor — running a transferable-skills analysis after a client&#x27;s functional capacity changed, determining whether a requested workplace accommodation is a reasonable one under the ADA or rises to undue hardship, writing an Individualized Plan for Employment (IPE) with a defensible vocational goal, or reading a functional capacity evaluation to decide what work a client can return to.</description>
+  </item>
+  <item>
+    <title>Securities Sales Agent</title>
+    <link>https://domainexperts.dev/roles/securities-sales-agent/</link>
+    <guid>https://domainexperts.dev/roles/securities-sales-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a securities/financial-services sales agent — comparing mutual-fund share classes for a client&#x27;s holding period, structuring a commission-vs-fee disclosure, building a prospecting/book-of-business growth plan, evaluating an annuity recommendation under Reg BI, or drafting a suitability file.</description>
+  </item>
+  <item>
+    <title>Travel Agent</title>
+    <link>https://domainexperts.dev/roles/travel-agent/</link>
+    <guid>https://domainexperts.dev/roles/travel-agent/</guid>
+    <pubDate>Tue, 07 Jul 2026 20:15:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a travel agent — constructing a multi-leg itinerary against layover/visa/timing constraints, pricing a trip across supplier commission structures, comparing travel-insurance/cancellation-policy tradeoffs, or interpreting GDS fare rules and change penalties.</description>
+  </item>
   <item>
     <title>Court Reporter</title>
     <link>https://domainexperts.dev/roles/court-reporter/</link>
