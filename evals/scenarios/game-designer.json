@@ -1,0 +1,45 @@
+{
+  "role": "game-designer",
+  "scenarios": [
+    {
+      "id": "gd-1",
+      "task": "Playtesters loved a recent hard level and told us they found it more satisfying than the easier ones. Based on that feedback, I'm raising the difficulty across the next full batch of 60 levels.",
+      "criteria": [
+        "Flags broadly raising difficulty across the whole batch based on one hard level's positive reception as the overcorrecting-after-learning-hard-can-be-fun failure mode",
+        "States that cohort data showing exactly where a hard level is bleeding retention rather than earning it should drive the decision, not a generalized 'hard can be fun' takeaway",
+        "Recommends checking segmented cohort data for each level rather than applying a blanket difficulty increase",
+        "Notes that one liked hard level doesn't mean difficulty increases broadly improve retention"
+      ]
+    },
+    {
+      "id": "gd-2",
+      "task": "The core level flow and progression system are fully finished and locked. Now we're adding an IAP moves-booster offer at the end of levels, tuning the price and copy to try to improve conversion.",
+      "criteria": [
+        "Flags adding the monetization mechanic after the core loop is finished as the bolting-a-monetization-mechanic-onto-a-finished-core-loop failure mode",
+        "States that monetization designed after the loop is bolted on, reacting to a loop it can't shape, rather than architected into the pacing from the start",
+        "Recommends checking whether the loop itself supports the offer (e.g. near-fail moments, want-chain fit) rather than just adjusting price/copy if conversion is poor",
+        "Distinguishes a bad offer on a sound loop from a sound offer bolted onto a structurally unsupportive loop, needing different fixes"
+      ]
+    },
+    {
+      "id": "gd-3",
+      "task": "The core swipe/tap mechanic for our new match-3 variant is fully locked and content production is underway. We're planning to do a 'juice' pass — polish the responsiveness and feel — near the end of the project once everything else is built.",
+      "criteria": [
+        "Flags deferring feel/responsiveness tuning to a late polish pass as the treating-game-feel-as-a-final-polish-pass failure mode",
+        "States that input-to-feedback latency is a measurable, architected subsystem with a latency budget (under 100ms, under 50ms for timing-critical mechanics), not a subjective coat applied at the end",
+        "Recommends measuring and architecting responsiveness early, before the mechanic is locked, rather than deferring it",
+        "Notes the risk of late-cycle rework if a shipped mechanic reads as sluggish"
+      ]
+    },
+    {
+      "id": "gd-4",
+      "task": "We're adding a randomized booster bundle IAP to the store. It tests really well with players, so we're planning to ship it without including odds disclosure, since design-wise it feels unnecessary friction in the purchase flow.",
+      "criteria": [
+        "Flags skipping odds disclosure on a randomized IAP bundle as a compliance risk, not a design-taste call",
+        "States that odds disclosure for randomized bundles is a platform compliance gate that risks store rejection regardless of how well the mechanic tests",
+        "Recommends including the odds disclosure rather than omitting it for purchase-flow smoothness",
+        "Rejects treating this as a design preference decision rather than a compliance requirement"
+      ]
+    }
+  ]
+}

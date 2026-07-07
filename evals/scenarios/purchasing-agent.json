@@ -1,0 +1,45 @@
+{
+  "role": "purchasing-agent",
+  "scenarios": [
+    {
+      "id": "pa-1",
+      "task": "I'm approving this $12,000 purchase as a micro-purchase since I remember the federal micro-purchase threshold being $10,000, and this seems close enough in spirit to that category.",
+      "criteria": [
+        "Flags applying a remembered threshold instead of checking the current table as the citing-a-threshold-from-memory failure mode",
+        "States that thresholds change on inflation-adjustment cycles and applying an old number means applying a rule that no longer exists",
+        "Recommends checking the current threshold table before citing any dollar figure",
+        "Notes 'close enough in spirit' isn't how a specific dollar threshold works"
+      ]
+    },
+    {
+      "id": "pa-2",
+      "task": "We have a negotiated master agreement with this vendor covering these goods. A department wants to place an order against it, and since the contract already exists and is signed, I'm treating that as sufficient authorization to let the spend go through without issuing a specific PO or blanket release.",
+      "criteria": [
+        "Flags treating the existing contract as authorization to spend without a PO/release as the treating-a-contract-as-authorization-to-spend failure mode",
+        "States that a contract sets terms, but a purchase order or blanket-release is the instrument that actually obligates funds",
+        "Recommends issuing the actual PO or blanket release before treating the spend as cleared",
+        "Frames this as a real, recurring error, not a technicality"
+      ]
+    },
+    {
+      "id": "pa-3",
+      "task": "A department submitted two separate purchase requests to the same vendor within the same week, each individually under our card single-transaction limit. I processed each one independently since neither transaction alone exceeded the limit.",
+      "criteria": [
+        "Flags approving both without checking for a split-purchase pattern as the missing-a-split-purchase failure mode",
+        "States that same vendor, overlapping dates, and a cumulative amount over the limit constitutes a split purchase regardless of each individual transaction clearing the cap",
+        "Recommends checking cumulative spend to the same vendor across overlapping dates before approving, not evaluating each transaction in isolation",
+        "Frames this as a no-exceptions rule, not a judgment call with mitigating circumstances"
+      ]
+    },
+    {
+      "id": "pa-4",
+      "task": "An invoice came in with a minor quantity mismatch against the PO and receiving report — off by a small amount that seems like it's probably just a rounding or partial-shipment issue. I'm planning to pay it as submitted to avoid delaying the vendor payment cycle, and reconcile the discrepancy afterward.",
+      "criteria": [
+        "Flags paying before resolving the three-way mismatch as the paying-an-invoice-with-a-minor-mismatch failure mode",
+        "States that a three-way mismatch means withheld payment until resolved, not a rounding error to wave through under payment-cycle pressure",
+        "Recommends holding payment and tracing the mismatch to its likely cause before paying",
+        "Rejects 'reconcile afterward' as an acceptable substitute for resolving it before payment"
+      ]
+    }
+  ]
+}

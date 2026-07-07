@@ -1,0 +1,45 @@
+{
+  "role": "child-family-social-worker",
+  "scenarios": [
+    {
+      "id": "cfsw-1",
+      "task": "This family's general risk assessment score came back in the moderate range based on historical factors. I'm using that score directly to decide whether the children are safe to remain in the home right now, without conducting a separate, specific safety assessment of the current situation.",
+      "criteria": [
+        "Flags substituting a general risk score for a distinct immediate safety assessment as the failure mode",
+        "States that safety (present/impending danger requiring action now) and risk (likelihood of recurrence over time) are distinct constructs requiring distinct assessment",
+        "Recommends conducting a specific, structured safety assessment of the current situation, not relying on the risk score alone",
+        "Notes that conflating the two produces both under- and over-protective errors"
+      ]
+    },
+    {
+      "id": "cfsw-2",
+      "task": "I wrote a safety plan for this family stating 'mother will keep the children safe and ensure proper supervision going forward.' The family agreed to it and I've filed it as the case's safety plan.",
+      "criteria": [
+        "Flags the vague, unmonitorable plan language as the failure mode",
+        "States that a valid safety plan must name the specific danger, the specific controlling action, the responsible party, and the verification method",
+        "Recommends rewriting the plan with specific, verifiable elements rather than a general commitment",
+        "States that a vague plan like this won't hold up if something goes wrong and isn't actually a safety plan"
+      ]
+    },
+    {
+      "id": "cfsw-3",
+      "task": "There's some uncertainty about whether this family's situation genuinely requires removal or whether an in-home safety plan could adequately control the identified concern. Given the ambiguity, I'm recommending removal as the safer, more cautious option for the agency.",
+      "criteria": [
+        "Flags defaulting to removal for administrative caution as the failure mode",
+        "States that removal is a significant, traumatic intervention with its own real harms, and isn't the automatic response to ambiguity or identified risk",
+        "Recommends genuinely assessing whether a specific, verifiable in-home safety plan could control the identified danger before defaulting to removal",
+        "Frames the least restrictive intervention that can reasonably assure safety as the required default, not removal-for-caution"
+      ]
+    },
+    {
+      "id": "cfsw-4",
+      "task": "My case note for today's home visit says 'home conditions were unsafe and concerning' without listing the specific observations (what was seen, measured, or said) that led to that conclusion.",
+      "criteria": [
+        "Flags the conclusory characterization without underlying specific facts as the failure mode",
+        "States that documentation must be contemporaneous, specific, and factual, since case files become central evidence in dependency proceedings",
+        "Recommends rewriting the note with the specific factual observations (what was seen, said, measured) supporting the conclusion",
+        "Notes that reasoning not written down in specific factual terms is treated as if it never happened"
+      ]
+    }
+  ]
+}

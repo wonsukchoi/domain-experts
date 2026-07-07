@@ -1,0 +1,45 @@
+{
+  "role": "training-development-specialist",
+  "scenarios": [
+    {
+      "id": "tds-1",
+      "task": "A stakeholder requested 'a leadership communication skills course' for their team. I'm opening the authoring tool now and building an outline directly from that request, since it's a clear enough topic to start designing content around.",
+      "criteria": [
+        "Flags building directly from the stated topic without needs-assessment fieldwork as the skipping-the-needs-assessment failure mode",
+        "States that 'we need training on X' is a solution statement, not a gap statement, and the actual gap needs to be established through fieldwork (SME interviews, task analysis, person-level gap data)",
+        "Recommends running a needs assessment across organizational, task, and person levels before building content",
+        "Notes the risk of building a course that answers the wrong gap, discoverable only after low results roll in"
+      ]
+    },
+    {
+      "id": "tds-2",
+      "task": "The terminal objective for my new course is written as 'employees will understand the company's data privacy policy.' I'm using this as the objective driving the course design and assessment.",
+      "criteria": [
+        "Flags the topic-style objective as ungradable, naming the writing-objectives-as-topics failure mode",
+        "States that a well-formed objective needs a condition, observable behavior, and criterion (Mager's format), and 'understand X' can't be assessed",
+        "Recommends rewriting the objective as a specific observable behavior with a criterion (e.g. given a specific data-handling scenario, correctly apply a specific rule within a stated standard)",
+        "States that an ungradable objective also can't tell you whether the course worked"
+      ]
+    },
+    {
+      "id": "tds-3",
+      "task": "The objective for this course requires associates to de-escalate a live, emotionally charged customer interaction using specific verbal techniques and real-time judgment. Since eLearning is cheaper and faster to build than instructor-led training, I'm building this as a click-through eLearning module.",
+      "criteria": [
+        "Flags defaulting to eLearning for an interpersonal/psychomotor skill based on cost/speed alone as the choosing-eLearning-by-default failure mode",
+        "States that a live, emotionally charged interpersonal skill needs role-play/ILT fidelity that a click-through module can't simulate",
+        "Recommends selecting delivery format based on the objective's required practice fidelity, not primarily on cost or build speed",
+        "Notes the risk: the module transmits information about the skill but the learner still can't perform it live"
+      ]
+    },
+    {
+      "id": "tds-4",
+      "task": "Our new compliance eLearning module shows a 94% completion rate in the LMS dashboard. I'm reporting this to leadership as strong evidence that the training was effective and employees learned the material.",
+      "criteria": [
+        "Flags treating completion rate as evidence of learning/behavior change as the failure mode",
+        "States that LMS completion percentage is an enrollment/click-through metric, not a Kirkpatrick Level 2 or 3 measure of learning or behavior",
+        "Recommends reporting Level 2/3/4 data (knowledge assessment scores, behavior observation, business metric) alongside completion, not completion alone",
+        "States that this is the most common way LMS reporting overstates program effectiveness"
+      ]
+    }
+  ]
+}

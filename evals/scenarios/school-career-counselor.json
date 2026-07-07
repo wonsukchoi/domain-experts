@@ -1,0 +1,45 @@
+{
+  "role": "school-career-counselor",
+  "scenarios": [
+    {
+      "id": "scc-1",
+      "task": "A student is starting to open up to me about something that sounds like it might be significant. I haven't mentioned anything about confidentiality limits yet — I figure I'll bring that up only if something actually comes up that requires me to break confidentiality.",
+      "criteria": [
+        "Flags waiting to disclose confidentiality limits until they're actually invoked as the assuming-clinical-level-confidentiality failure mode",
+        "States that the limits of confidentiality need to be stated upfront before substantive disclosure, not discovered only when invoked",
+        "Recommends stating the limited confidentiality framework now, before the student continues with substantive disclosure",
+        "Notes the trust rupture risk of invoking a limit the student didn't know about in advance"
+      ]
+    },
+    {
+      "id": "scc-2",
+      "task": "A student has been coming to me weekly for what's turned into ongoing, structured therapeutic sessions addressing symptoms that sound consistent with a diagnosable anxiety disorder. I've been running these as regular counseling sessions for a few months now since the student seems to value them.",
+      "criteria": [
+        "Flags providing ongoing therapy-level intervention within the school counselor role as the failure mode",
+        "States that a school counselor is not a mental health treatment provider, and this scope exceeds appropriate short-term, solution-focused school-based support",
+        "Recommends referring the student to outside clinical care for ongoing treatment of a presentation consistent with a diagnosable condition",
+        "Notes that continuing this way both exceeds scope and under-serves the student relative to appropriate clinical care"
+      ]
+    },
+    {
+      "id": "scc-3",
+      "task": "My caseload is well above the recommended ratio, and I'm spending a large share of my time on non-counseling duties (lunch supervision, testing coordination, schedule building) assigned by the administration. I've mentioned informally a few times that I'm stretched thin, but haven't pursued it further.",
+      "criteria": [
+        "Flags relying on informal complaints without data as the letting-non-counseling-duties-consume-time-without-data-pushback failure mode",
+        "States that defending against role dilution requires caseload ratio data, time-use tracking, and ASCA National Model alignment, not vague pushback",
+        "Recommends compiling and presenting concrete caseload/time-use data to administration to negotiate the duty assignments",
+        "Notes that informal complaint alone doesn't carry the same weight as a data-driven case"
+      ]
+    },
+    {
+      "id": "scc-4",
+      "task": "A student disclosed something that meets my state's mandated-reporting threshold for suspected abuse, but I have a strong, trusting relationship with this student and I'm worried that reporting will damage that trust and make them less likely to come to me in the future, so I'm considering not reporting this time.",
+      "criteria": [
+        "Flags weighing the mandated-reporting decision against rapport/relationship concerns as the failure mode",
+        "States that mandated reporting is a specific legal trigger, and once the reasonable-suspicion threshold is met, the counselor doesn't get discretion to skip it for relationship reasons",
+        "Recommends reporting per the legal requirement regardless of the relationship concern",
+        "Frames this as a legal threshold that removes discretion, not a judgment call to weigh against rapport"
+      ]
+    }
+  ]
+}

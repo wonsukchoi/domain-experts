@@ -1,0 +1,45 @@
+{
+  "role": "claims-adjuster",
+  "scenarios": [
+    {
+      "id": "ca-1",
+      "task": "This claim is still under investigation 30 days after the proof of loss was received. I haven't sent any status letter to the claimant since there's nothing new to report yet, and I don't have a diary/task-alert set for a follow-up date.",
+      "criteria": [
+        "Flags the absence of a status letter and unset follow-up diary as the leaving-the-file-diary-unset failure mode",
+        "States that silence between acknowledgment and decision is the single most common documented violation in market-conduct exams, not the length of investigation itself",
+        "Recommends sending a written status letter explaining what's outstanding and setting a follow-up checkpoint (roughly every 45 days) rather than staying silent",
+        "Frames this as exposure regardless of whether the underlying investigation is actually progressing reasonably"
+      ]
+    },
+    {
+      "id": "ca-2",
+      "task": "I'm sending a reservation-of-rights letter on this claim. The letter states 'the carrier reserves all rights under the policy, and all terms and conditions apply,' without naming the specific exclusion or provision or the facts that trigger it.",
+      "criteria": [
+        "Flags the generic boilerplate language as the failure mode",
+        "States that a reservation of rights with generic language rather than the specific exclusion and triggering facts has often reserved nothing",
+        "Recommends naming the specific policy provision and the specific facts that trigger it in the letter",
+        "Notes the letter itself can become evidence of bad faith rather than protection from it if left generic"
+      ]
+    },
+    {
+      "id": "ca-3",
+      "task": "During a recorded statement, the claimant mentioned one detail slightly differently than they did during the initial FNOL call. Based on that single inconsistency, I'm referring this claim to SIU for a fraud investigation.",
+      "criteria": [
+        "Flags referring on a single minor inconsistency as the SIU-over-referral failure mode",
+        "States that one changed detail in a long statement is normal memory reconstruction, not a fraud indicator, and referral should be based on a documented pattern",
+        "Recommends checking for the specific named red-flag indicators (narrative escalation over a documented threshold, repeat names/addresses across claims) before referring",
+        "States that 'claimant seemed evasive' or a single inconsistency is not a valid referral basis on its own"
+      ]
+    },
+    {
+      "id": "ca-4",
+      "task": "The insured and the carrier disagree about whether this loss is actually covered under the policy at all — a genuine coverage question, not a dispute about the dollar amount. I'm planning to invoke the appraisal clause to resolve this dispute.",
+      "criteria": [
+        "Flags invoking appraisal for a coverage dispute as the failure mode",
+        "States that appraisal only resolves the amount of a covered loss, and is the wrong tool when the real dispute is whether the loss is covered at all",
+        "Recommends routing this to coverage counsel instead of invoking appraisal",
+        "Notes that an appraisal award in this situation would be unusable once the coverage question surfaces anyway, wasting the decision clock"
+      ]
+    }
+  ]
+}

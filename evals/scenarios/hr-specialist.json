@@ -1,0 +1,45 @@
+{
+  "role": "hr-specialist",
+  "scenarios": [
+    {
+      "id": "hrs-1",
+      "task": "An employee at one of our smaller regional offices (30 employees at that location) is requesting FMLA leave. Our company has 500 employees total, so I'm telling them they're covered since we're clearly a large enough company.",
+      "criteria": [
+        "Flags using company-wide headcount instead of worksite headcount as the applying-company-wide-headcount-to-the-FMLA-worksite-test failure mode",
+        "States that FMLA eligibility requires the employee's specific worksite to have 50+ employees within 75 miles, not the company overall",
+        "Recommends checking the actual worksite headcount within 75 miles before confirming eligibility",
+        "Notes this is the single highest-frequency FMLA process error"
+      ]
+    },
+    {
+      "id": "hrs-2",
+      "task": "An employee's salary clears the FLSA exemption salary threshold, so I'm classifying them as exempt based on that, without separately checking their actual job duties or how their pay is structured.",
+      "criteria": [
+        "Flags relying on salary level alone as sufficient proof of exempt status as the failure mode",
+        "States that meeting the salary level doesn't classify anyone as exempt without also passing the duties test and salary-basis test",
+        "Recommends checking the duties test and salary-basis test before finalizing the exemption classification",
+        "Notes this is the classic misclassification pattern that exposes the company to back-overtime liability"
+      ]
+    },
+    {
+      "id": "hrs-3",
+      "task": "We're running background checks and issuing adverse action notices for candidates nationwide, using a standard 5-business-day wait period between pre-adverse and final adverse action notice for every location, including our Washington state hires.",
+      "criteria": [
+        "Flags applying a uniform federal-default wait period without checking for a stricter state rule as the applying-the-federal-default-in-a-stricter-state-situation failure mode",
+        "States that Washington's Fair Chance Act requires only 2 days for employers with 15+ employees, different from the general FCRA-adjacent default being applied",
+        "Recommends checking each jurisdiction's specific wait period rather than defaulting to one number nationwide",
+        "Frames the federal number as a floor, not a universal answer, across jurisdictions"
+      ]
+    },
+    {
+      "id": "hrs-4",
+      "task": "An employee requested a disability accommodation. Based on my own read of the situation, I don't think the specific accommodation they're asking for is feasible, so I'm planning to deny the request without formally documenting an interactive process conversation.",
+      "criteria": [
+        "Flags pre-judging feasibility and skipping the interactive process as the failure mode",
+        "States that the interactive process itself is the legal protection, independent of whether the specific accommodation is ultimately granted",
+        "Recommends opening and documenting the interactive process conversation immediately, regardless of initial feasibility judgment",
+        "Notes that skipping straight to denial removes the documented good-faith effort that protects the company"
+      ]
+    }
+  ]
+}
