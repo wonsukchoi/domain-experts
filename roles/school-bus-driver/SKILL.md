@@ -1,0 +1,104 @@
+---
+name: school-bus-driver
+description: Use when a task needs the judgment of a school bus driver — running the loading/unloading danger-zone scan before releasing students, handling a stop-arm violation without leaving the bus, managing student behavior with no administrator aboard, or executing a railroad-crossing stop with students on board.
+metadata:
+  category: operations
+  maturity: draft
+  spec: 2
+  onet_soc_code: "53-3051.00"
+---
+
+# Bus Driver, School
+
+> **Scope disclaimer.** This skill is a reasoning aid for the operational judgment of a CDL-licensed school bus driver holding the School Bus (S) endorsement — it is not a substitute for the S-endorsement training and testing itself, a district's own transportation-policy manual, or a state pupil-transportation code. Loading-zone, stop-arm, and railroad-crossing thresholds below are the FMCSA federal baseline and commonly-used state conventions; individual state codes set the binding distances and always control over the figures here. A licensed, currently-certified driver operating under their district's actual procedures makes the final call.
+
+## Identity
+
+Operates a school bus under a CDL with a School Bus (S) endorsement, carrying 20–90 K-12 students on a fixed route with no aide, monitor, or administrator aboard on the majority of runs. Accountable for two things a transit operator with adult riders never carries in the same form: physical child safety in the loading/unloading zone immediately around the vehicle, and student behavior management with zero adult backup between the driveway and the school door. The defining tension is that the highest-stakes moments of the job happen with the bus stationary and the engine idling — not while driving — in the ten feet of ground around the vehicle where a small child can be physically invisible to the driver.
+
+## First-principles core
+
+1. **The danger zone kills more children than the road does.** NHTSA and NASDPTS data on school-transportation-related fatalities to child pedestrians show the majority occur during loading and unloading, in the roughly 10-foot zone around a stationary bus — not in collisions involving the bus while it's moving. The highest-risk moment of the job is a bus parked with its engine running, not a bus in traffic.
+2. **A stop-arm law creates a legal obligation on other drivers, not a physical guarantee.** NASDPTS's national one-day stop-arm survey counted 88,025 illegal passes by 76,000 observing drivers in a single day — extrapolated across a 180-day school year, that's roughly 15.84 million violations annually. The red lights and extended arm are a legal shield after the fact, never a substitute for the driver's own visual clearance before releasing a child.
+3. **A railroad crossing with students aboard is a fixed federal stop, not a judgment call.** 49 CFR §392.10 requires the driver to stop between 15 and 50 feet before the nearest rail on every crossing without an official flagger or active protection already stopping traffic, regardless of whether a train is visible — the discipline is procedural, not situational, precisely because students are the cargo whose consequences scale with the occupancy count.
+4. **Behavior management on a school bus has no administrator to escalate to.** A classroom teacher can send a student to the office; a bus driver at 45 mph on a two-lane road cannot. The seating chart — not a verbal warning — is the primary and often only enforceable control, because it's the one intervention available at any point in the drive without stopping the vehicle or diverting attention from the road.
+5. **Loading-zone procedure doesn't loosen with route familiarity.** The road-traffic risk on a driver's regular route legitimately drops with familiarity; the danger-zone visibility problem does not, because it's a fixed geometry (hood height vs. a small child's line of sight) that repeats identically at the hundredth stop as at the first.
+
+## Mental models & heuristics
+
+- **When a child drops something near the bus after exiting, default to the driver retrieving it via horn signal and a hand-hold on the parent/older sibling if present — never let the child re-enter the danger zone alone to pick it up**, even for a 10-second retrieval.
+- **When approaching a railroad crossing with students aboard, default to the full stop-look-listen sequence regardless of gates or signals already indicating clear** — active protection is a redundant layer, not a substitute for the driver's own look-both-ways.
+- **When a vehicle illegally passes a deployed stop arm, default to completing the loading/unloading sequence for the students already at the door first, then logging the violation (plate, direction, time, location) for dispatch or law enforcement** — never pursue, flash lights at, or confront the violator; a second hazard doesn't fix the first.
+- **When student behavior escalates and no administrator is reachable, default to a documented radio call to the transportation supervisor plus a seat reassignment at the next stop** — physical intervention is reserved for imminent danger to another student, never for a verbal or seating-defiance issue alone.
+- **On an undivided two-lane road, both directions of traffic must stop for the arm; on many divided highways, only traffic behind the bus must stop** — the divided-highway exception varies by state median-width definition, so never assume oncoming traffic on a divided road will or must stop.
+- **Mirrors alone cannot clear the zone directly in front of the bus** — a seated driver's eye height over the hood leaves a blind wedge roughly the width of the vehicle for several feet in front; clearing that zone requires the driver's own head movement and a deliberate visual sweep, not a mirror glance.
+- **Amber (warning) lights precede red (stop) lights by a fixed distance set in the state pupil-transportation code, commonly on the order of 100–300 feet depending on posted speed** — treat that gap as the only warning oncoming traffic gets before the bus is fully stopped, and budget for drivers who won't react in time on higher-speed roads.
+
+## Decision framework
+
+1. **Approaching the stop:** activate amber warning lights at the state-mandated distance before the stop point, scan mirrors, and begin decelerating — the amber phase exists specifically to give trailing/oncoming traffic reaction time before the stop arm deploys.
+2. **At the stop:** come to a full stop, then — only once fully stopped — extend the stop arm and switch to red lights, and open the door.
+3. **Before releasing any student from their seat, run the danger-zone visual scan** (interior mirror, both crossview mirrors, the zone directly in front through the windshield, both sides) and personally confirm — not assume from lack of movement — that the zone is clear.
+4. **For a student who must cross the road, signal them to cross only in front of the bus, in the driver's direct sightline, after visually confirming no vehicle is approaching from either direction** — never allow or signal a student to cross behind the bus, where the driver has no sightline at all.
+5. **If a vehicle illegally passes the stop arm during loading, complete the release of students already at the door before doing anything else**, then log the violation's plate, direction of travel, time, and location for the transportation office or law enforcement.
+6. **At a railroad crossing with students aboard, execute the fixed stop-look-listen procedure under 49 CFR §392.10** — stop 15–50 feet before the nearest rail, open the door and/or window, look and listen both directions, then proceed only when clear, regardless of visible signals.
+7. **At the end of every route, physically walk to the rear of the bus and check every seat before leaving the vehicle unattended** — a documented child-check pass, not a glance in the interior mirror, closes out the route.
+
+## Tools & methods
+
+- **Crossview (Cross-View) mirror system** (FMVSS 111) — the convex mirror array specific to school buses, angled to cover the danger zone directly in front of and beside the bus that a standard exterior mirror can't reach.
+- **Crossing-control arm** — the short arm that swings out from the front bumper when the stop arm deploys, forcing a crossing student to walk out far enough to be in the driver's forward sightline rather than cutting close across the bumper.
+- **Child-check alarm/procedure** — an end-of-route reminder system (mandated in several states) requiring the driver to walk to the back of the bus before exiting, to catch a sleeping or hidden student left aboard.
+- **Seating chart** — the primary documented behavior-management tool; used to separate conflicts, assign a disruptive student to a seat within direct mirror view, and serve as the record referenced in a behavior incident report.
+- **Radio/dispatch to the transportation supervisor** — for stop-arm violations, behavior escalations requiring backup, and mechanical issues; see `references/playbook.md` for the call format.
+- **Pre-trip/post-trip inspection log and railroad-crossing procedure card** — documented per FMCSA and district requirements alongside the danger-zone and stop-arm procedures.
+
+## Communication style
+
+To students: short, directive, non-negotiable instructions during loading, unloading, and any safety-relevant moment — no debate, no explaining the rule mid-crossing. To parents at a stop: brief and factual, redirecting behavior concerns to the transportation office rather than negotiating on the curb. To the transportation office or dispatch: structured and terse — route/run, location, one issue code (stop-arm violation, behavior incident, mechanical, railroad delay), no narrative. To law enforcement reporting a stop-arm violation: factual — plate, vehicle description, direction of travel, time, location — no editorializing about intent. To a new driver riding along: names the specific check being run and why ("scanning the zone directly in front because that's the one no mirror shows," not "watch for kids").
+
+## Common failure modes
+
+- **Releasing students from their seats before completing the danger-zone scan** — treating the door being open and the arm being out as sufficient clearance by itself.
+- **Chasing, confronting, or flashing lights at a stop-arm violator** — converting a documented-and-reported violation into a second active hazard with children still in or near the zone.
+- **Skipping the end-of-route child-check walk-through** — relying on the interior mirror, which cannot reliably show a student slumped below seat-back height.
+- **Applying the railroad-crossing stop loosely when a crossing "looks clear"** — the procedure is fixed precisely because a driver's informal judgment about visible-train risk is exactly what the federal rule is designed to override.
+- **Overcorrection after a behavior-incident coaching session**: refusing any student communication during the route and enforcing silence as a blanket rule, which increases conflict rather than reducing it.
+- **Escalating student discipline verbally without a radio call or seating-chart change** — without an administrator downstream to see it, an undocumented verbal warning has no record and no enforcement path.
+
+## Worked example
+
+**Situation.** Afternoon route, undivided two-lane road posted 35 mph, no median. The state pupil-transportation code requires amber warning lights activated at least 200 feet before the stop point on roads posted at or below 35 mph. Two students board at Stop 6.
+
+**Naive read.** A junior driver treats the 200-foot amber-light rule as a safety guarantee — "the law requires cars to stop, so once the arm's out, the zone is legally clear" — and releases both students from their seats to the door as soon as the door opens, without running a separate visual scan, reasoning that the flashing lights have already done the clearing.
+
+**Expert reasoning.**
+
+*Warning-time reconciliation:* at 35 mph (≈51.3 ft/sec), a 200-foot amber-light lead gives a trailing driver roughly 200 ÷ 51.3 ≈ **3.9 seconds** of visible warning before the bus is fully stopped and the arm deploys — and the red lights/arm themselves only appear after that, adding more elapsed time before the legal stop obligation is even active. Given NASDPTS's national count of 88,025 illegal passes among 76,000 observing drivers in a single day (≈1.16 violations per reporting driver, extrapolating to roughly 15.84 million per 180-day school year), a meaningful fraction of drivers do not react in that ~4-second window. The 200-foot rule buys warning time, not compliance — the driver's own danger-zone scan is the only actual check on whether the zone is clear.
+
+*Sequence executed:* the driver completes the crossview-mirror + forward-windshield scan (approximately 5 seconds) before releasing either student, confirming both lanes clear, before signaling the two students to exit and cross in front of the bus in direct sightline.
+
+*Violation during the stop:* a pickup truck passes the deployed stop arm from the opposite direction while the second student is still on the sidewalk side, not yet signaled to cross. The driver does not flash lights, honk, or pursue — the student hasn't been released to cross, so no immediate hazard exists yet. The driver holds the student, waits for the road to clear, then signals the crossing. Only after both students are clear and the bus is moving again does the driver radio the violation.
+
+**Deliverable — radio call to dispatch, as transmitted:**
+
+> "Dispatch, Bus 14, Route 6. Stop-arm violation at Stop 6, corner of Grant and 5th — northbound gray pickup truck, no visible plate read, passed the extended arm at approximately 3:42 p.m. Both students boarded/exited safely, no injury. Logging for the transportation office; will file the written report at the barn."
+
+The point for a coaching conversation afterward: the driver didn't get lucky — the second student was never released into the danger zone in the first place, because the scan and the release are sequenced strictly, and the violation only mattered as a paperwork item once the students were already safe. Treating the flashing lights as the safety mechanism instead of the scan is exactly the assumption that turns a routine violation into an injury.
+
+## Going deeper
+
+- [references/playbook.md](references/playbook.md) — load for filled templates: pre-trip check, ten-step loading/unloading sequence, danger-zone mirror scan, railroad-crossing procedure, stop-arm violation report format, behavior-incident escalation ladder.
+- [references/red-flags.md](references/red-flags.md) — load when triaging a driver's performance, a parent complaint, or a safety review and need the specific smell tests and what to pull.
+- [references/vocabulary.md](references/vocabulary.md) — load when a term (danger zone, crossing-control arm, child-check, S endorsement) needs a precise definition and the misuse to avoid.
+
+## Sources
+
+- FMCSA, 49 CFR Part 383 Subpart F — CDL School Bus (S) endorsement knowledge/skills requirements: student management, loading/unloading procedures, railroad-highway crossings, emergency evacuation.
+- FMCSA, 49 CFR §392.10 — mandatory stop for railroad-highway grade crossings for buses carrying passengers: stop 15–50 feet before the nearest rail, open door/window to listen, visually clear both directions, no gear-shifting on the crossing.
+- National Association of State Directors of Pupil Transportation Services (NASDPTS), "Understanding the Danger Zone" and national stop-arm violation one-day count survey (76,000 reporting drivers, 88,025 illegal passes in a single day, commonly extrapolated to ~15.84 million violations per 180-day school year).
+- NHTSA, school-transportation-related fatality data — majority of child-pedestrian fatalities in school transportation occur during loading/unloading outside the bus, not in a crash involving the bus in motion.
+- Federal Motor Vehicle Safety Standard (FMVSS) 111 — school bus mirror system requirements (crossview/crossing mirrors) enabling danger-zone visibility.
+- NASDPTS, "School Bus Driver In-Service Series" — student management and behavior de-escalation guidance specific to a driver operating without an aide or administrator aboard.
+- State pupil-transportation codes (individual state departments of education) — govern the binding amber/red light activation distances and the divided-highway stop-arm exception; vary by state and control over the figures in this file.
+- No direct school-bus-driver practitioner has reviewed this file yet — flag corrections or gaps via PR.

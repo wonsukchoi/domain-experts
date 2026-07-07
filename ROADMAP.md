@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 445 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 458 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -1119,13 +1119,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>53 — Transportation and Material Moving</strong> (12/57 drafted)</summary>
+<summary><strong>53 — Transportation and Material Moving</strong> (25/57 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 |  | 53-1041.00 | Aircraft Cargo Handling Supervisors |  |
 |  | 53-1042.00 | First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand |  |
-|  | 53-1042.01 | Recycling Coordinators |  |
+| ✅ | 53-1042.01 | Recycling Coordinators | [`recycling-coordinator`](./roles/recycling-coordinator/SKILL.md) |
 |  | 53-1043.00 | First-Line Supervisors of Material-Moving Machine and Vehicle Operators |  |
 |  | 53-1044.00 | First-Line Supervisors of Passenger Attendants |  |
 |  | 53-1049.00 | First-Line Supervisors of Transportation Workers, All Other |  |
@@ -1133,39 +1133,39 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 53-2012.00 | Commercial Pilots | [`commercial-pilot`](./roles/commercial-pilot/SKILL.md) |
 | ✅ | 53-2021.00 | Air Traffic Controllers | [`air-traffic-controller`](./roles/air-traffic-controller/SKILL.md) |
 |  | 53-2022.00 | Airfield Operations Specialists |  |
-|  | 53-2031.00 | Flight Attendants |  |
+| ✅ | 53-2031.00 | Flight Attendants | [`flight-attendant`](./roles/flight-attendant/SKILL.md) |
 | ✅ | 53-3011.00 | Ambulance Drivers and Attendants, Except Emergency Medical Technicians | [`ambulance-driver-attendant`](./roles/ambulance-driver-attendant/SKILL.md) |
 |  | 53-3031.00 | Driver/Sales Workers |  |
 | ✅ | 53-3032.00 | Heavy and Tractor-Trailer Truck Drivers | [`heavy-truck-driver`](./roles/heavy-truck-driver/SKILL.md) |
 |  | 53-3033.00 | Light Truck Drivers |  |
-|  | 53-3051.00 | Bus Drivers, School |  |
+| ✅ | 53-3051.00 | Bus Drivers, School | [`school-bus-driver`](./roles/school-bus-driver/SKILL.md) |
 | ✅ | 53-3052.00 | Bus Drivers, Transit and Intercity | [`transit-bus-driver`](./roles/transit-bus-driver/SKILL.md) |
 | ✅ | 53-3053.00 | Shuttle Drivers and Chauffeurs | [`shuttle-driver-chauffeur`](./roles/shuttle-driver-chauffeur/SKILL.md) |
-|  | 53-3054.00 | Taxi Drivers |  |
+| ✅ | 53-3054.00 | Taxi Drivers | [`taxi-driver`](./roles/taxi-driver/SKILL.md) |
 |  | 53-3099.00 | Motor Vehicle Operators, All Other |  |
 | ✅ | 53-4011.00 | Locomotive Engineers | [`locomotive-engineer`](./roles/locomotive-engineer/SKILL.md) |
 |  | 53-4013.00 | Rail Yard Engineers, Dinkey Operators, and Hostlers |  |
 |  | 53-4022.00 | Railroad Brake, Signal, and Switch Operators and Locomotive Firers |  |
 | ✅ | 53-4031.00 | Railroad Conductors and Yardmasters | [`railroad-conductor-yardmaster`](./roles/railroad-conductor-yardmaster/SKILL.md) |
-|  | 53-4041.00 | Subway and Streetcar Operators |  |
+| ✅ | 53-4041.00 | Subway and Streetcar Operators | [`subway-streetcar-operator`](./roles/subway-streetcar-operator/SKILL.md) |
 |  | 53-4099.00 | Rail Transportation Workers, All Other |  |
 |  | 53-5011.00 | Sailors and Marine Oilers |  |
 | ✅ | 53-5021.00 | Captains, Mates, and Pilots of Water Vessels | [`ship-captain`](./roles/ship-captain/SKILL.md) |
 |  | 53-5022.00 | Motorboat Operators |  |
-|  | 53-5031.00 | Ship Engineers |  |
-|  | 53-6011.00 | Bridge and Lock Tenders |  |
+| ✅ | 53-5031.00 | Ship Engineers | [`ship-engineer`](./roles/ship-engineer/SKILL.md) |
+| ✅ | 53-6011.00 | Bridge and Lock Tenders | [`bridge-lock-tender`](./roles/bridge-lock-tender/SKILL.md) |
 |  | 53-6021.00 | Parking Attendants |  |
 |  | 53-6031.00 | Automotive and Watercraft Service Attendants |  |
 |  | 53-6032.00 | Aircraft Service Attendants |  |
 |  | 53-6041.00 | Traffic Technicians |  |
 |  | 53-6051.00 | Transportation Inspectors |  |
-|  | 53-6051.01 | Aviation Inspectors |  |
+| ✅ | 53-6051.01 | Aviation Inspectors | [`aviation-inspector`](./roles/aviation-inspector/SKILL.md) |
 |  | 53-6051.07 | Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation |  |
 |  | 53-6061.00 | Passenger Attendants |  |
 |  | 53-6099.00 | Transportation Workers, All Other |  |
-|  | 53-7011.00 | Conveyor Operators and Tenders |  |
+| ✅ | 53-7011.00 | Conveyor Operators and Tenders | [`conveyor-operator`](./roles/conveyor-operator/SKILL.md) |
 | ✅ | 53-7021.00 | Crane and Tower Operators | [`crane-tower-operator`](./roles/crane-tower-operator/SKILL.md) |
-|  | 53-7031.00 | Dredge Operators |  |
+| ✅ | 53-7031.00 | Dredge Operators | [`dredge-operator`](./roles/dredge-operator/SKILL.md) |
 |  | 53-7041.00 | Hoist and Winch Operators |  |
 | ✅ | 53-7051.00 | Industrial Truck and Tractor Operators | [`industrial-truck-operator`](./roles/industrial-truck-operator/SKILL.md) |
 |  | 53-7061.00 | Cleaners of Vehicles and Equipment |  |
@@ -1173,10 +1173,10 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 53-7062.04 | Recycling and Reclamation Workers |  |
 |  | 53-7063.00 | Machine Feeders and Offbearers |  |
 |  | 53-7064.00 | Packers and Packagers, Hand |  |
-|  | 53-7065.00 | Stockers and Order Fillers |  |
-|  | 53-7071.00 | Gas Compressor and Gas Pumping Station Operators |  |
+| ✅ | 53-7065.00 | Stockers and Order Fillers | [`warehouse-order-filler`](./roles/warehouse-order-filler/SKILL.md) |
+| ✅ | 53-7071.00 | Gas Compressor and Gas Pumping Station Operators | [`gas-compressor-station-operator`](./roles/gas-compressor-station-operator/SKILL.md) |
 |  | 53-7072.00 | Pump Operators, Except Wellhead Pumpers |  |
-|  | 53-7073.00 | Wellhead Pumpers |  |
+| ✅ | 53-7073.00 | Wellhead Pumpers | [`wellhead-pumper`](./roles/wellhead-pumper/SKILL.md) |
 | ✅ | 53-7081.00 | Refuse and Recyclable Material Collectors | [`refuse-collector`](./roles/refuse-collector/SKILL.md) |
 |  | 53-7121.00 | Tank Car, Truck, and Ship Loaders |  |
 |  | 53-7199.00 | Material Moving Workers, All Other |  |
