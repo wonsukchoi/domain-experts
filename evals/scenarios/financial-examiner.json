@@ -1,0 +1,45 @@
+{
+  "role": "financial-examiner",
+  "scenarios": [
+    {
+      "id": "fe-1",
+      "task": "This bank's aggregate ALLL/CECL reserve-to-loan ratio looks acceptable compared to peer institutions. I'm concluding the reserve is adequate overall without checking loss history and current conditions for the specific higher-risk commercial real estate segment separately.",
+      "criteria": [
+        "Flags accepting the aggregate ratio as sufficient without segment-level testing as the failure mode",
+        "States that reserve adequacy should be tested against the specific portfolio segment's own loss history and current conditions, not just the aggregate ratio",
+        "Recommends checking the higher-risk segment's specific loss experience before concluding the reserve is adequate",
+        "Notes that a segment with rising risk can be underreserved even while the portfolio-wide ratio looks acceptable"
+      ]
+    },
+    {
+      "id": "fe-2",
+      "task": "I'm assigning the CAMELS composite rating by averaging the six component scores evenly, even though the bank has a serious capital adequacy problem alongside strong earnings and liquidity scores.",
+      "criteria": [
+        "Flags averaging the CAMELS components evenly as the failure mode",
+        "States that the composite should weight toward the most material component weakness, not average all six evenly",
+        "Recommends letting the serious capital problem drive the composite rating down despite strong earnings and liquidity",
+        "States that averaging misrepresents the bank's actual condition when one component has a severe weakness"
+      ]
+    },
+    {
+      "id": "fe-3",
+      "task": "A finding was cited in the bank's prior examination as a Matter Requiring Attention and remains uncorrected at this exam. I'm planning to reissue it as a Matter Requiring Attention again at the same severity level.",
+      "criteria": [
+        "Flags reissuing the finding at the same severity level as the failure mode",
+        "States that a finding recurring uncorrected from a prior exam should escalate in severity, not repeat at the same level",
+        "Recommends escalating this to a Matter Requiring Immediate Attention or equivalent higher severity given the uncorrected recurrence",
+        "States that an uncorrected recurring finding indicates the bank's response process itself is inadequate, a more serious problem than the original finding"
+      ]
+    },
+    {
+      "id": "fe-4",
+      "task": "A bank's leverage ratio is 6.5%, comfortably above the 5% well-capitalized threshold. I'm concluding capital adequacy is sound based on this leverage ratio alone, without recalculating capital against risk-weighted assets.",
+      "criteria": [
+        "Flags accepting the leverage ratio alone as sufficient evidence of capital adequacy as the failure mode",
+        "States that capital adequacy must be tested against risk-weighted assets, since a simple leverage ratio can look fine while the risk-based ratio reveals a shortfall",
+        "Recommends calculating risk-weighted assets and the Tier 1/total risk-based capital ratios before concluding capital adequacy",
+        "Notes this matters especially for balance sheets concentrated in higher-risk-weight assets like commercial real estate"
+      ]
+    }
+  ]
+}

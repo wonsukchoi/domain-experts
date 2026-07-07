@@ -1,0 +1,45 @@
+{
+  "role": "government-property-inspector",
+  "scenarios": [
+    {
+      "id": "gpi-1",
+      "task": "My physical inventory sample of 40 out of 400 accountable units found 2 discrepancies. I'm reporting this as a limited issue affecting just those 2 units, without extrapolating what the discrepancy rate implies for the full population.",
+      "criteria": [
+        "Flags treating the sample discrepancy as isolated to the items checked as the failure mode",
+        "States that a sample discrepancy rate should be extrapolated to the full population to estimate potential exposure",
+        "Recommends calculating the extrapolated exposure (discrepancy rate × total population) rather than reporting only the sample's raw count",
+        "Notes this changes the risk picture and may warrant an expanded inventory"
+      ]
+    },
+    {
+      "id": "gpi-2",
+      "task": "A contractor reported a property loss last week. I'm measuring reporting timeliness against when I think the loss reasonably should have been noticed based on normal inventory cycles, rather than checking the contractor's actual documented discovery date.",
+      "criteria": [
+        "Flags measuring timeliness against an assumed 'should have known' date instead of actual documented discovery as the failure mode",
+        "States that timeliness should be measured against the contractor's actual discovery date, not an assumption about when discovery should have occurred",
+        "Recommends pulling the contractor's documented discovery date and comparing that against the contract's required reporting window",
+        "Notes this distinction determines whether a separate reporting-timeliness violation actually exists"
+      ]
+    },
+    {
+      "id": "gpi-3",
+      "task": "A contractor disposed of a batch of idle government property through their own scrap process. I'm accepting this disposal as compliant since the disposal method itself (scrapping) seems like a reasonable way to handle unused property.",
+      "criteria": [
+        "Flags accepting the disposal without confirming the required screening/reutilization process was followed first as the failure mode",
+        "States that disposition requires going through a defined screening and authorization process before disposal, and skipping it is a violation regardless of whether the disposal method chosen was otherwise reasonable",
+        "Recommends verifying the screening process was completed before the disposal, not just evaluating the disposal method's reasonableness",
+        "States that a contractor cannot simply scrap, sell, or repurpose idle property on its own judgment"
+      ]
+    },
+    {
+      "id": "gpi-4",
+      "task": "This contractor seems very diligent and organized overall — clean facilities, responsive staff, well-documented records in most areas. Based on that overall impression, I'm rating their property management system as satisfactory without checking each required outcome area (records, physical inventory results, subcontractor control, utilization, maintenance, disposition) independently.",
+      "criteria": [
+        "Flags forming an overall impression instead of checking each required outcome area independently as the failure mode",
+        "States that a property management system is evaluated against specific, defined outcomes, not a general impression of how careful the contractor seems",
+        "Recommends evaluating each required outcome area independently before issuing an overall rating",
+        "Notes that a contractor can look diligent overall while still failing a specific required outcome that a general impression would mask"
+      ]
+    }
+  ]
+}

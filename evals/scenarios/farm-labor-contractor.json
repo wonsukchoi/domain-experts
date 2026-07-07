@@ -1,0 +1,45 @@
+{
+  "role": "farm-labor-contractor",
+  "scenarios": [
+    {
+      "id": "flc-1",
+      "task": "Workers already traveled to the job site and started working this week. I'm now preparing the written wage and job disclosure to give them, since it made more sense to finalize the paperwork once everyone actually arrived and started.",
+      "criteria": [
+        "Flags delivering the disclosure after travel/work has begun as the failure mode",
+        "States that the written disclosure must be delivered at time of recruitment, before travel or work begins, not after arrival",
+        "Recommends delivering the disclosure before any worker travel commitment is made, going forward",
+        "States that even if the late-delivered terms match what's paid, this doesn't satisfy the requirement"
+      ]
+    },
+    {
+      "id": "flc-2",
+      "task": "Our contract with the grower client states that we (the farm labor contractor) are the sole employer of all recruited workers, and the grower bears no wage, housing, or safety liability. Based on that contract language, I'm advising the grower they have zero compliance exposure regardless of how involved they are in supervising the workers.",
+      "criteria": [
+        "Flags relying on the contract's labeling alone to determine liability as the failure mode",
+        "States that courts/agencies apply an economic-realities/joint-employer test based on actual control (supervision, equipment, hire/fire authority), not the contract's labeling",
+        "Recommends assessing the actual division of control between the contractor and grower to determine real joint-employer exposure",
+        "States that a grower found to be a joint employer is liable regardless of what the contract says"
+      ]
+    },
+    {
+      "id": "flc-3",
+      "task": "We're housing this season's crew in accommodations we haven't yet inspected against the temporary labor camp standard, since the housing looks fine and workers are already moving in for the season.",
+      "criteria": [
+        "Flags housing workers before inspection against the applicable standard as the failure mode",
+        "States that temporary labor camp housing is subject to specific, inspectable safety standards, not general 'reasonable' conditions",
+        "Recommends inspecting the housing against the applicable standard before any worker occupies it",
+        "States that this creates liability whether or not an incident actually occurs"
+      ]
+    },
+    {
+      "id": "flc-4",
+      "task": "Our H-2A contract period didn't provide the promised amount of work for this crew. I'm planning to just informally adjust their pay somewhat going forward to make up for it, without calculating the specific three-quarter guarantee shortfall owed.",
+      "criteria": [
+        "Flags informally adjusting pay instead of calculating the specific guarantee shortfall as the failure mode",
+        "States that the three-quarter guarantee is a specific, calculable shortfall payment against the full contract period's promised workdays, not a discretionary make-good",
+        "Recommends calculating the specific shortfall owed against the contract period's guaranteed workdays and paying that amount",
+        "Rejects an informal, uncalculated pay adjustment as satisfying this obligation"
+      ]
+    }
+  ]
+}

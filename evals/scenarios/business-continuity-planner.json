@@ -1,0 +1,45 @@
+{
+  "role": "business-continuity-planner",
+  "scenarios": [
+    {
+      "id": "bcp-1",
+      "task": "IT has already committed to a 4-hour recovery target for this system based on what seemed technically achievable. I'm now running the business impact analysis to justify that number after the fact.",
+      "criteria": [
+        "Flags setting the RTO before conducting the BIA and rationalizing it afterward as the failure mode",
+        "States that RTO should be derived from the BIA's cost-of-downtime curve and MTD, not set first and rationalized afterward",
+        "Recommends conducting the BIA independently and deriving the RTO from its findings, even if it conflicts with the pre-committed number",
+        "States that setting the target first and rationalizing afterward gets the sequence backwards"
+      ]
+    },
+    {
+      "id": "bcp-2",
+      "task": "This process's maximum tolerable downtime is 6 hours based on contractual constraints. I'm setting the recovery time objective at exactly 6 hours to match.",
+      "criteria": [
+        "Flags setting RTO equal to MTD with no margin as the failure mode",
+        "States that RTO must sit meaningfully below MTD, since real recovery processes routinely run longer than planned",
+        "Recommends setting RTO with a real buffer below the 6-hour MTD, not equal to it",
+        "States that a buffer is what actually protects the organization if recovery execution runs long"
+      ]
+    },
+    {
+      "id": "bcp-3",
+      "task": "We have a thorough, well-written disaster recovery plan for a critical process that's never actually been tested through a tabletop or failover exercise. I'm treating it as a demonstrated, reliable recovery capability in our risk reporting.",
+      "criteria": [
+        "Flags treating the untested plan as a demonstrated capability as the failure mode",
+        "States that an untested plan is a document, not a demonstrated capability, regardless of how complete or well-written it looks",
+        "Recommends testing the plan (tabletop, simulation, or full failover) before representing it as a working recovery capability",
+        "Notes that untested plans fail at exactly the assumptions only a real test would surface"
+      ]
+    },
+    {
+      "id": "bcp-4",
+      "task": "We just ran a tabletop exercise and it found zero gaps — everything worked exactly as planned. I'm reporting this as strong confirmation that our continuity plan is solid and doesn't need further testing rigor.",
+      "criteria": [
+        "Flags treating a clean tabletop result as confirmation of plan quality as the failure mode",
+        "States that a tabletop finding zero gaps is more likely evidence of an under-rigorous scenario than a flawless plan",
+        "Recommends designing a harder, more rigorous scenario for the next exercise rather than treating this as sufficient validation",
+        "Frames finding gaps as the expected, valuable outcome of a well-designed exercise"
+      ]
+    }
+  ]
+}

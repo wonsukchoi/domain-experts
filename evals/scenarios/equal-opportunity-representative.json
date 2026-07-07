@@ -1,0 +1,45 @@
+{
+  "role": "equal-opportunity-representative",
+  "scenarios": [
+    {
+      "id": "eor-1",
+      "task": "I found adverse impact in the overall hiring pipeline for a job group (aggregate selection rates fail the four-fifths rule). I'm reporting this finding to leadership as 'the hiring process has adverse impact' without breaking it down by specific stage (application-to-interview, interview-to-offer, offer-to-hire).",
+      "criteria": [
+        "Flags reporting only the aggregate finding without stage-level breakdown as the failure mode",
+        "States that breaking the analysis down by specific stage is necessary to find where the disparity is actually introduced",
+        "Recommends analyzing selection rates at each stage separately before recommending a fix",
+        "States that an aggregate finding without stage-level analysis doesn't tell you what to fix"
+      ]
+    },
+    {
+      "id": "eor-2",
+      "task": "I'm setting this year's placement goal for a job group based on a general company-wide diversity target we've committed to, rather than deriving it from actual external labor-market availability data and internal promotable-pool data for this specific job group.",
+      "criteria": [
+        "Flags setting the goal from an aspirational target instead of availability data as the failure mode",
+        "States that a placement goal must be derived from actual qualified labor-market data for the specific job group and recruitment area, not an aspirational target",
+        "Recommends conducting availability analysis combining external labor-market and internal promotable-pool data for this specific job group",
+        "Notes that using an aspirational target undermines both legal defensibility and practical usefulness"
+      ]
+    },
+    {
+      "id": "eor-3",
+      "task": "We have a placement goal for a job group this year. A hiring manager is treating it as a specific numeric requirement, planning to make sure a hire from the underrepresented group happens for this particular open position to make sure we hit the number.",
+      "criteria": [
+        "Flags treating the goal as a numeric requirement applied to a specific hiring decision as the failure mode",
+        "States that a placement goal is a benchmark worked toward through good-faith recruitment and outreach efforts, not a quota applied to individual hiring decisions",
+        "Recommends pursuing broad good-faith recruitment/outreach efforts rather than making a specific hire to hit the number",
+        "States that making a specific hire to hit a number invites a reverse-discrimination claim"
+      ]
+    },
+    {
+      "id": "eor-4",
+      "task": "We found a raw, unadjusted 12% pay gap between two groups in a job category. I'm reporting this raw gap directly as evidence of a pay-equity violation, without running a regression controlling for legitimate factors like tenure, performance, and job level.",
+      "criteria": [
+        "Flags treating the raw gap as proof of discrimination without controlling for legitimate factors as the failure mode",
+        "States that a raw compensation gap is a starting point for investigation, not proof of a violation, until legitimate job-related factors are controlled for",
+        "Recommends running a regression analysis controlling for tenure, performance, education, level, and prior experience before characterizing the gap as unexplained",
+        "Notes the failure mode also applies in reverse — accepting management's explanation without verification is equally wrong"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "real-estate-appraiser",
+  "scenarios": [
+    {
+      "id": "rea-1",
+      "task": "A single-family home sits on a large lot in an area that has been rezoned for higher-density multi-family development, with several nearby lots already redeveloped that way. I'm valuing the property strictly based on its current single-family use and comparable single-family sales, without conducting a highest and best use analysis.",
+      "criteria": [
+        "Flags valuing strictly on current use without HBU analysis as the failure mode",
+        "States that a value opinion should reflect highest and best use (legally permissible, physically possible, financially feasible, maximally productive), not necessarily current use",
+        "Recommends conducting a highest and best use analysis (as vacant and as improved) given the realistic redevelopment potential",
+        "States that appraising strictly to current use when a higher use is realistically available understates value"
+      ]
+    },
+    {
+      "id": "rea-2",
+      "task": "For this investment property, the sales comparison approach indicates $1.2M and the income approach indicates $1.5M. I'm reconciling these by simply averaging the two to get $1.35M.",
+      "criteria": [
+        "Flags averaging the approaches instead of reconciling by data quality as the failure mode",
+        "States that reconciliation means judging which approach's data and methodology are most trustworthy for this specific assignment and property type, not splitting the difference",
+        "Recommends weighting the income approach more heavily for this investment-grade property if its rent/expense data is reliable, rather than a mechanical average",
+        "Notes that for investment property, the income approach often deserves more weight than for owner-occupied residential"
+      ]
+    },
+    {
+      "id": "rea-3",
+      "task": "On a mortgage lending assignment, the loan officer selected me as the appraiser and mentioned during a call that a certain value would be needed for the loan to go through as structured.",
+      "criteria": [
+        "Flags the loan officer selecting the appraiser and commenting on target value as an AIR violation, naming the failure mode explicitly",
+        "States that appraiser independence is a specific legal requirement on lending assignments, not just professional best practice",
+        "Recommends declining to engage through this channel and routing the assignment through a process that excludes loan production staff from appraiser selection and value discussions",
+        "States that this creates legal exposure for the lender and appraiser regardless of whether the resulting value happened to be accurate"
+      ]
+    },
+    {
+      "id": "rea-4",
+      "task": "I'm asked to appraise a property's value as of a date two years ago for an estate valuation. I'm using current comparable sales and current market conditions to develop the value opinion, since that's the data I have readily available.",
+      "criteria": [
+        "Flags using current market data for a retrospective effective date as the failure mode",
+        "States that a retrospective appraisal must be supported by market data available or knowable as of that past date, not current conditions",
+        "Recommends using comparable sales and market data from around the specified past effective date, not current data",
+        "States that conflating the two produces a value opinion that doesn't actually answer the question the assignment requires"
+      ]
+    }
+  ]
+}

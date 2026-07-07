@@ -1,0 +1,45 @@
+{
+  "role": "tax-revenue-agent",
+  "scenarios": [
+    {
+      "id": "tra-1",
+      "task": "A taxpayer reported $100,000 gross income and my bank deposit analysis found $60,000 of unreported income. I'm applying the standard 3-year statute of limitations without checking whether this crosses the 25%-of-gross-income threshold for the extended 6-year window.",
+      "criteria": [
+        "Flags applying the standard 3-year period without checking the 25% threshold as the failure mode",
+        "States that the statute extends to 6 years when unreported income exceeds 25% of reported gross income, and this must be checked, not assumed",
+        "Recommends calculating whether $60,000 exceeds 25% of $100,000 ($25,000) — it does — and applying the extended 6-year statute accordingly",
+        "Notes that applying the wrong trigger can either time-bar a valid assessment or miss an assessment window that should still be open"
+      ]
+    },
+    {
+      "id": "tra-2",
+      "task": "A taxpayer significantly underreported income and I have solid evidence supporting the deficiency under a preponderance-of-evidence standard. Based on the size of the underreporting alone, I'm asserting civil fraud and applying the 75% fraud penalty.",
+      "criteria": [
+        "Flags asserting fraud based on evidence that only meets the preponderance standard as the failure mode",
+        "States that civil fraud requires clear and convincing evidence, a meaningfully higher bar than the preponderance standard used for an ordinary deficiency",
+        "Recommends checking for actual badges of fraud (concealment, implausible explanations, destroyed records) meeting the clear-and-convincing standard before asserting fraud, rather than defaulting to it because the underreporting is large",
+        "Distinguishes large underreporting alone from fraud-specific evidentiary indicators"
+      ]
+    },
+    {
+      "id": "tra-3",
+      "task": "A taxpayer proposed an installment agreement payment amount based on what they say they can afford. I'm accepting their proposed monthly payment amount without independently calculating their reasonable collection potential from assets and income capacity.",
+      "criteria": [
+        "Flags accepting the taxpayer's proposed amount without independent verification as the failure mode",
+        "States that reasonable collection potential should be independently calculated (assets plus future income capacity), not accepted at face value from the taxpayer's proposal",
+        "Recommends calculating RCP independently before accepting or countering the proposed payment amount",
+        "Notes this applies to both installment agreements and offers in compromise"
+      ]
+    },
+    {
+      "id": "tra-4",
+      "task": "I'm proceeding with a levy on a taxpayer's account. I believe all the necessary notices were probably sent at some point during this case, so I'm moving forward without specifically verifying each required Collection Due Process notice was issued and its waiting period elapsed in the correct sequence.",
+      "criteria": [
+        "Flags proceeding without specifically verifying the CDP notice sequence as the failure mode",
+        "States that collection actions require specific procedural notices in sequence, and skipping or failing to verify one can invalidate the action even when the underlying tax debt is valid",
+        "Recommends verifying each required notice was actually sent and its waiting period elapsed, in the correct sequence, before proceeding with the levy",
+        "States that a procedurally defective collection action can be reversed on procedural grounds regardless of the debt's legitimacy"
+      ]
+    }
+  ]
+}
