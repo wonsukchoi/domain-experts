@@ -1,0 +1,45 @@
+{
+  "role": "loan-officer",
+  "scenarios": [
+    {
+      "id": "lo-1",
+      "task": "A self-employed borrower's most recent tax year shows $140,000 in income, a strong improvement over the prior two years which averaged around $95,000. I'm qualifying the DTI off the most recent, higher year since it's the most current and accurate reflection of their earnings.",
+      "criteria": [
+        "Flags qualifying off the single most recent year instead of a trended average as the using-stated-instead-of-verified-trended-income failure mode",
+        "States that self-employed/commission income needs a 2-year trended average, not a snapshot of the best or most recent year",
+        "Recommends computing DTI off the trended average (or the appropriately discounted figure), not the highest single year",
+        "Notes this produces a DTI that will collapse once underwriting pulls the full tax return history"
+      ]
+    },
+    {
+      "id": "lo-2",
+      "task": "I'm locking this borrower's rate for the shortest, cheapest 30-day option available, even though the file still needs an appraisal, a condo certification, and two AUS re-runs that realistically won't clear for 40+ days.",
+      "criteria": [
+        "Flags locking a rate shorter than the realistic path to clear-to-close as the locking-without-pricing-the-realistic-timeline failure mode",
+        "States that a lock too short for the actual conditions-clearing timeline guarantees an expensive extension",
+        "Recommends pricing the lock length against the realistic timeline (appraisal, title, condo cert, AUS) with a buffer, not the cheapest option",
+        "Frames rate-lock length as a cost tradeoff decision, not a formality to minimize upfront"
+      ]
+    },
+    {
+      "id": "lo-3",
+      "task": "The file cleared automated underwriting (AUS) with an approve/eligible finding. I'm treating this as the finish line and moving on to the next file without checking for overlays, condo warrantability issues, or large-deposit sourcing that might come up in manual underwriting.",
+      "criteria": [
+        "Flags treating the AUS approval as the finish line as the failure mode",
+        "States that overlays, condo warrantability, and large-deposit sourcing are common ways an AUS approval doesn't survive manual underwriting",
+        "Recommends proactively checking for these issues and flagging them before handoff, not assuming AUS approval is sufficient",
+        "Frames a bounced file at manual underwriting as twice as expensive to fix as catching it upfront"
+      ]
+    },
+    {
+      "id": "lo-4",
+      "task": "A few small fee changes and a changed circumstance have come up on this file over the past couple weeks. I'm planning to batch them together and issue one combined re-disclosure at the end of the month instead of disclosing each one as it's identified, so I don't bother the borrower repeatedly.",
+      "criteria": [
+        "Flags batching disclosure re-issues instead of disclosing promptly as the batching-disclosure-re-issues failure mode",
+        "States that a changed circumstance not disclosed within the required window is a compliance violation, not a courtesy saved by batching",
+        "Recommends flagging and re-disclosing each qualifying change as it's identified, not batching them for convenience",
+        "Distinguishes changes within tolerance (no re-disclosure needed) from actual changed-circumstance triggers requiring timely disclosure"
+      ]
+    }
+  ]
+}

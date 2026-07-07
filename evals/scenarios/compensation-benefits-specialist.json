@@ -1,0 +1,45 @@
+{
+  "role": "compensation-benefits-specialist",
+  "scenarios": [
+    {
+      "id": "cbs-1",
+      "task": "I'm recommending we target P75 market pricing across all of our job families going forward, since we want to be a competitive employer and pay well relative to the market.",
+      "criteria": [
+        "Flags targeting P75 broadly without tying it to attrition data or specific hard-to-fill designations as the anchoring-to-P75-without-justification failure mode",
+        "States that a target percentile is a philosophy decision that should be tied to actual attrition risk or a named critical/hard-to-fill designation, not applied broadly for general competitiveness",
+        "Recommends reserving P65-P75 targeting for roles with demonstrated attrition risk or hard-to-fill status, defaulting to P50 otherwise",
+        "Notes this inflates the whole budget for a retention gain that's only real for a handful of roles"
+      ]
+    },
+    {
+      "id": "cbs-2",
+      "task": "Our salary structure midpoints were last refreshed 2 years ago. No employees have complained about pay, so I'm treating the current midpoints as still valid and haven't flagged them for a refresh this cycle.",
+      "criteria": [
+        "Flags treating the stale midpoint as still valid due to absence of complaints as the failure mode",
+        "States that a stale midpoint silently misclassifies employees' real standing in the band even when no paycheck changes, and this drift is invisible until an outside offer surfaces it",
+        "Recommends refreshing the survey benchmark and midpoint on a regular cycle regardless of whether complaints have surfaced",
+        "Frames absence of complaints as not evidence the midpoint is still accurate"
+      ]
+    },
+    {
+      "id": "cbs-3",
+      "task": "The current incumbent in this role is an exceptionally strong performer, so I'm scoring the job evaluation (point-factor) higher than the job description alone would support, to reflect how much value this person actually brings.",
+      "criteria": [
+        "Flags scoring the job higher based on incumbent performance as the grade-inflating-a-job-because-of-the-incumbent failure mode",
+        "States that job evaluation scores the job's content, not the person filling it, and incumbent performance shouldn't factor into the score",
+        "Recommends scoring the job based on its actual content/requirements, keeping incumbent identity and performance excluded from the scoring inputs",
+        "States that this corrupts the job architecture for whoever holds the role next"
+      ]
+    },
+    {
+      "id": "cbs-4",
+      "task": "We're investigating a potential pay gap between two demographic groups in a job family. I'm planning to apply the four-fifths rule to determine whether there's a problem, comparing the selection rates in this pay-equity analysis.",
+      "criteria": [
+        "Flags applying the four-fifths rule to a pay-equity question as a methodology mismatch",
+        "States that the four-fifths rule is a selection-rate test for adverse impact in hiring, not a pay-equity methodology",
+        "Recommends using a regression or cohort-comparison analysis appropriate for pay-equity questions instead",
+        "Names this as a tell that the wrong test is about to be applied to the wrong data"
+      ]
+    }
+  ]
+}

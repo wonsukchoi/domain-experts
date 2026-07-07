@@ -1,0 +1,45 @@
+{
+  "role": "credit-analyst",
+  "scenarios": [
+    {
+      "id": "ca2-1",
+      "task": "The borrower's package shows 'adjusted EBITDA' with several addbacks (owner perks, a one-time consulting fee, some 'non-recurring' expenses). I'm using their adjusted figure as the basis for my ratios since it's what they submitted and it looks reasonable.",
+      "criteria": [
+        "Flags accepting the borrower's addbacks without evidence as the uncritical-addback-acceptance failure mode",
+        "States that every addback needs its own evidence trail (invoice, termination letter, etc.) or it doesn't count",
+        "Recommends verifying each addback against documentation before using the adjusted EBITDA figure in ratio calculations",
+        "Notes the risk of underwriting off a number the borrower engineered rather than one that's evidenced"
+      ]
+    },
+    {
+      "id": "ca2-2",
+      "task": "This is a closely-held small business with an owner guarantor. I'm clearing the deal based on the business's DSCR alone, which looks solid, without pulling the guarantor's personal tax returns or personal financial statement.",
+      "criteria": [
+        "Flags clearing the deal on business DSCR alone without checking personal debt service as the skipping-the-personal-side failure mode",
+        "States that global cash flow (business plus personal) matters for owner-guaranteed credits, since personal debt service can quietly consume the cushion the business DSCR shows",
+        "Recommends pulling the guarantor's personal tax returns/financial statement and computing global cash flow before clearing the deal",
+        "Names this as the single most common miss on this desk"
+      ]
+    },
+    {
+      "id": "ca2-3",
+      "task": "I'm structuring this credit with our standard covenant package — the same set of financial covenants we apply to most middle-market term loans — without specifically tailoring them to the weaknesses I identified in this particular borrower's file.",
+      "criteria": [
+        "Flags applying a standard covenant package without tailoring to this file's specific weaknesses as the covenant-boilerplate failure mode",
+        "States that covenants should be structured around the specific facts that would most change the rating, not a generic set applied regardless of file",
+        "Recommends identifying the two or three facts that would most change the rating and structuring covenants around exactly those",
+        "Rejects copying the standard package as a substitute for genuine structuring"
+      ]
+    },
+    {
+      "id": "ca2-4",
+      "task": "This borrower has weak and inconsistent repayment capacity, but the loan is heavily secured by strong collateral (real estate at a low advance rate). Based on the collateral strength, I'm rating this credit as acceptable/pass.",
+      "criteria": [
+        "Flags rating based on collateral strength despite weak repayment capacity as the collateral-substituting-for-cash-flow-analysis failure mode",
+        "States that collateral only affects loss-given-default, not probability of default, per the OCC Rating Credit Risk framework",
+        "Recommends rating the borrower (not the collateral) for the pass/criticized determination, then letting collateral inform loss severity separately",
+        "States that weak repayment capacity with strong collateral is still a criticized credit"
+      ]
+    }
+  ]
+}

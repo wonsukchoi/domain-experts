@@ -1,0 +1,45 @@
+{
+  "role": "tax-preparer",
+  "scenarios": [
+    {
+      "id": "tp-1",
+      "task": "A client claiming Head of Household status and the EITC verbally confirmed to me that their child lived with them more than half the year. I've noted 'client confirmed' in my file and am proceeding to claim both without any further documentation.",
+      "criteria": [
+        "Flags relying on verbal confirmation alone as insufficient due diligence, naming the treating-verbal-confirmation-as-due-diligence failure mode",
+        "States that Form 8867 due diligence requires a contemporaneous, documented basis in the file, not just a verbal yes",
+        "Recommends documenting the specific questions asked and answers received supporting HOH/EITC eligibility, not a bare 'client confirmed' note",
+        "Notes the per-failure penalty exposure for inadequate due diligence documentation"
+      ]
+    },
+    {
+      "id": "tp-2",
+      "task": "After reading about preparer penalty exposure, I've started declining every gray-area deduction or credit position for my clients, even ones with a reasonable factual basis, just to avoid any possible exam risk.",
+      "criteria": [
+        "Flags blanket conservatism across all gray-area positions as the overcorrecting-into-blanket-conservatism failure mode",
+        "States that declining every gray-area position regardless of its actual basis leaves legitimate deductions unclaimed and underserves clients",
+        "Recommends evaluating each position on its actual facts and using disclosure (Form 8275) for positions with some but not full support, rather than reflexively declining all of them",
+        "Distinguishes genuinely unsupportable positions from ones with a reasonable basis that are just being avoided out of general penalty fear"
+      ]
+    },
+    {
+      "id": "tp-3",
+      "task": "My client has significant 1099/Schedule C income and made no estimated tax payments this year, resulting in a large balance due and an underpayment penalty. I've filed the return as-is without discussing quarterly estimated payments for next year.",
+      "criteria": [
+        "Flags not addressing next year's estimated payments as the skipping-the-estimated-tax-conversation failure mode",
+        "States that this leaves the client to repeat the same underpayment penalty next year",
+        "Recommends setting up a quarterly estimated payment plan or safe-harbor calculation for the client going forward",
+        "Frames this as a standard part of closing out a return with material self-employment income, not an optional add-on"
+      ]
+    },
+    {
+      "id": "tp-4",
+      "task": "A client received a CP2000 notice claiming they underreported income, with a proposed balance due. I'm advising them to just pay the proposed amount since the IRS's automated system presumably has accurate third-party data.",
+      "criteria": [
+        "Flags agreeing to the CP2000 amount without independently verifying it as the agreeing-to-a-CP2000-balance-without-checking failure mode",
+        "States that automated underreporter matching is frequently wrong on duplicates, timing, or basis, and is a computer's guess, not a verdict",
+        "Recommends verifying the IRS's numbers against the filed return and source documents before agreeing to anything",
+        "States that the client should only pay if the notice is actually confirmed correct after review"
+      ]
+    }
+  ]
+}

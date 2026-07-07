@@ -1,0 +1,45 @@
+{
+  "role": "project-management-specialist",
+  "scenarios": [
+    {
+      "id": "pms2-1",
+      "task": "A lead has reported this task as '90% complete' for the third status cycle in a row, based on how much time has been spent on it relative to the original estimate.",
+      "criteria": [
+        "Flags reporting percent-complete based on time/effort elapsed rather than objective completion criteria as the failure mode",
+        "States that earned value should be tied to objective, pre-defined completion criteria per task, not duration consumed or a lead's gut feel",
+        "Recommends asking which specific defined sub-tasks or milestones are actually done rather than accepting a confidence-based percentage",
+        "Names this as the '90% done for three reports running' pattern explicitly"
+      ]
+    },
+    {
+      "id": "pms2-2",
+      "task": "The project is facing a cost overrun that exceeds my delegated contingency authority. I'm planning to just draw down from the sponsor's management reserve directly to cover it, since it's the same pool of contingency-type money conceptually.",
+      "criteria": [
+        "Flags treating management reserve as something the specialist can authorize as the failure mode",
+        "States that contingency reserve is money the specialist spends deliberately against named risks, while management reserve is not theirs to authorize",
+        "Recommends routing the request to the sponsor/CCB rather than drawing on management reserve directly",
+        "States that blurring the two either invites unapproved raids on the sponsor's reserve or misrepresents what's actually being spent"
+      ]
+    },
+    {
+      "id": "pms2-3",
+      "task": "Having learned that adding headcount to a late project usually backfires, I'm refusing a request to bring in a narrow-scope contractor for a single, well-isolated integration fix with minimal ramp-up needed, treating it the same as adding general engineering headcount to a broadly late project.",
+      "criteria": [
+        "Flags refusing the narrow-scope addition on reflex as the overcorrecting-on-Brookss-Law failure mode",
+        "States that Brooks's Law is about coordination overhead swamping throughput on broad, ongoing work, not a categorical ban on any additional resourcing",
+        "Recommends evaluating the narrow, well-isolated contractor addition on its own merits rather than reflexively refusing it",
+        "Distinguishes a specialist brought in for one isolated task from adding general headcount to a broadly late team"
+      ]
+    },
+    {
+      "id": "pms2-4",
+      "task": "The project's variance is looking bad against the original baseline, so I've quietly adjusted the plan/baseline figures to make the numbers look more reasonable, without running it through change control or logging an approved rebaseline event.",
+      "criteria": [
+        "Flags quietly adjusting the baseline without formal change control as the silent-rebaselining failure mode",
+        "States that rebaselining must be a discrete, dated, approved event, and skipping that corrupts every EVM variance number that follows",
+        "Recommends running any baseline change through the proper change control process with sponsor/CCB approval and logging it",
+        "Notes this is exactly the mechanism that lets a bad variance disappear from the record without genuine resolution"
+      ]
+    }
+  ]
+}

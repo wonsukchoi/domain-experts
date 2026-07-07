@@ -1,0 +1,45 @@
+{
+  "role": "talent-agent",
+  "scenarios": [
+    {
+      "id": "ta-1",
+      "task": "As a personal manager (not a licensed talent agent), I relayed the studio's specific offer number back to my client and gave my opinion on whether they should push back on it, since I was just helping as a friend and passing along information.",
+      "criteria": [
+        "Flags this activity as crossing into unlicensed procurement, naming the manager-crossing-into-procurement failure mode",
+        "States that negotiating deal terms, not just cold-soliciting, is the licensable act, and the illegal-agent doctrine doesn't care about the manager's intent",
+        "Recommends recognizing this as procurement requiring a licensed agent, not informal friendly advice",
+        "Notes the risk of the resulting contract being voided retroactively under the illegal-agent doctrine"
+      ]
+    },
+    {
+      "id": "ta-2",
+      "task": "A studio is offering to pay our agency a packaging-style fee directly, separate from and in addition to our client's episodic pay, structured as a percentage of the show's future profits. I'm evaluating whether to recommend the deal to my client based on the client's episodic terms alone, without factoring in our own separate fee from the studio.",
+      "criteria": [
+        "Flags evaluating the deal without modeling the agency's own side-payment as the missing-packaging-conflict failure mode",
+        "States that whoever the money passes through first owns the conflict, and a buyer-side payment to the agency is a real conflict, not a coincidence",
+        "Recommends disclosing the arrangement and modeling the client's outcome as if the agent were unpaid by the studio, checking whether the recommendation changes",
+        "States that if the recommendation changes once the side-payment is removed, the conflict is real"
+      ]
+    },
+    {
+      "id": "ta-3",
+      "task": "One of my clients' contracts has a termination-for-inactivity clock that's approaching its trigger date in about three weeks. I haven't been tracking it closely since the relationship seems fine and there's no indication the client wants to leave.",
+      "criteria": [
+        "Flags not actively tracking the approaching termination clock as the letting-the-clock-lapse-unnoticed failure mode",
+        "States that termination and renewal clocks are the real leverage in an ongoing deal and should be tracked proactively, not assumed fine because the relationship seems stable",
+        "Recommends securing a bona fide offer before the deadline to reset the clock, given it's within 30 days of tripping",
+        "Notes that a lapsed clock can hand the client or a competing agent a clean exit exactly when least expected"
+      ]
+    },
+    {
+      "id": "ta-4",
+      "task": "A new client relationship is starting, and I'm planning to charge a modest upfront 'administrative fee' before we've placed them in any role, in addition to our standard commission once work is secured, since it helps cover our initial onboarding costs.",
+      "criteria": [
+        "Flags charging any upfront fee before placement as a near-categorical red flag, not a negotiable term",
+        "States that agencies in these verticals are paid from client proceeds, never before them, and an upfront administrative/reading fee is a scam pattern, not a legitimate business practice",
+        "Recommends not charging any fee ahead of placement, structuring compensation entirely through commission on secured work",
+        "Doesn't accept 'covers onboarding costs' as a valid justification for the upfront fee"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "fitness-wellness-coordinator",
+  "scenarios": [
+    {
+      "id": "fwc-1",
+      "task": "We purchased and installed an AED at our facility this quarter. I'm considering our emergency-response safety program complete now that the equipment is in place.",
+      "criteria": [
+        "Flags treating the AED purchase alone as a complete safety program as the failure mode",
+        "States that the written emergency-response plan with a drilled staff response is the actual safety program, not the equipment on the wall",
+        "Recommends developing and drilling a written response policy with public-access defibrillation procedures, not stopping at equipment acquisition",
+        "Cites the survival-rate decline per minute of delayed defibrillation as the reasoning for why a plan (not just equipment) matters"
+      ]
+    },
+    {
+      "id": "fwc-2",
+      "task": "A participant reported feeling nauseous and dizzy mid-session. After a brief pause, I had them redo the same exercise since they said they felt okay to continue, and they completed the set without incident.",
+      "criteria": [
+        "Flags continuing the activity after a reported symptom rather than stopping and referring out as the failure mode",
+        "States that a participant reporting symptoms should trigger stopping and reassessment immediately, documented regardless of how minor it looks",
+        "Recommends referring to appropriate medical evaluation rather than resuming the same activity based on the participant's self-report of feeling okay",
+        "Notes this is the exact fact pattern that both breaches scope-of-practice boundaries and can convert a waiver's protection into an unenforceable gross-negligence claim"
+      ]
+    },
+    {
+      "id": "fwc-3",
+      "task": "We're expanding our wellness program to two new state locations and rolling out the same liability waiver template and incentive structure we use at our home-state location, since it's already drafted and legally reviewed once.",
+      "criteria": [
+        "Flags assuming the same waiver/incentive design is compliant across all states as the failure mode",
+        "States that waiver enforceability varies significantly by state (some states treat fitness waivers as unenforceable as a matter of public policy) and incentive ceilings are a re-checked compliance question, not a fixed fact",
+        "Recommends verifying waiver enforceability and incentive compliance separately for each new jurisdiction before rolling out the same template",
+        "Rejects treating a single template as portable across state lines"
+      ]
+    },
+    {
+      "id": "fwc-4",
+      "task": "During a coaching session, a participant started describing symptoms that sound like they might need medication or a specific treatment plan for a diagnosed condition. I'm continuing to coach them through lifestyle changes addressing what they described, since it's related to their overall wellness goals.",
+      "criteria": [
+        "Flags continuing to coach on what sounds like a diagnosis/treatment-level issue as the coaching-drifting-toward-diagnosis failure mode",
+        "States that when a coaching conversation drifts toward diagnosis, medication, or a treatment plan, the coach should refer out immediately rather than continuing",
+        "Recommends referring the participant to an appropriate medical provider rather than continuing to coach on this specific issue",
+        "Frames this scope-of-practice boundary as a core competency the coach is crossing, not a minor overlap"
+      ]
+    }
+  ]
+}
