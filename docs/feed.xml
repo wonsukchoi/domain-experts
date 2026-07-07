@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 14:45:42 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 14:53:56 +0000</lastBuildDate>
+  <item>
+    <title>Courier Messenger</title>
+    <link>https://domainexperts.dev/roles/courier-messenger/</link>
+    <guid>https://domainexperts.dev/roles/courier-messenger/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a courier or messenger — sequencing a multi-stop route against hard delivery windows, deciding what proof-of-delivery a shipment requires, handling a chain-of-custody transfer for a legal or medical item, or resolving a refused-delivery/no-answer exception against the sender&#x27;s fallback instructions.</description>
+  </item>
+  <item>
+    <title>Data Entry Keyer</title>
+    <link>https://domainexperts.dev/roles/data-entry-keyer/</link>
+    <guid>https://domainexperts.dev/roles/data-entry-keyer/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Data Entry Keyer — resolving an illegible or ambiguous source-document field before keying it, running key-verification (double-key) reconciliation on a batch, deciding whether a production-speed quota is compromising accuracy, or sampling a completed batch for a quality-control audit.</description>
+  </item>
+  <item>
+    <title>Interviewer Except Eligibility Loan</title>
+    <link>https://domainexperts.dev/roles/interviewer-except-eligibility-loan/</link>
+    <guid>https://domainexperts.dev/roles/interviewer-except-eligibility-loan/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a survey/field interviewer — administering a structured questionnaire without introducing bias, handling respondent refusal or reluctance mid-interview, tracking quota-cell fill against a sampling target, or deciding whether an incomplete interview needs a callback or a replacement respondent.</description>
+  </item>
+  <item>
+    <title>Meter Reader Utilities</title>
+    <link>https://domainexperts.dev/roles/meter-reader-utilities/</link>
+    <guid>https://domainexperts.dev/roles/meter-reader-utilities/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a utility meter reader — investigating a consumption anomaly against a seasonal baseline, deciding whether a low or zero read is a tamper indicator versus a benign explanation, reconciling accumulated estimated reads against a new actual read, or recognizing a field safety hazard before proceeding with a read.</description>
+  </item>
+  <item>
+    <title>Office Clerk General</title>
+    <link>https://domainexperts.dev/roles/office-clerk-general/</link>
+    <guid>https://domainexperts.dev/roles/office-clerk-general/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a general office clerk — triaging which of several competing clerical tasks to finish today, covering for an absent specialist without dropping their queue, deciding what to defer and what to hand off at shift-end, or setting up a small office&#x27;s task-priority system from scratch.</description>
+  </item>
+  <item>
+    <title>Office Machine Operator</title>
+    <link>https://domainexperts.dev/roles/office-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/office-machine-operator/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of an office machine operator — running a high-volume copy/print job, triaging a jam or malfunction against calling for service, reconciling a postage meter after a mailing run, or scheduling paper stock and setup time across a day&#x27;s queue of jobs.</description>
+  </item>
+  <item>
+    <title>Secretary General</title>
+    <link>https://domainexperts.dev/roles/secretary-general/</link>
+    <guid>https://domainexperts.dev/roles/secretary-general/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a general office secretary or administrative assistant — resolving a scheduling or task-priority collision across two or more managers with no single principal&#x27;s authority to arbitrate, flagging a weekly capacity overcommitment before it causes a missed deadline, applying a team&#x27;s tie-break rule to a competing-deadline conflict, or logging and routing incoming requests across a shared support queue.</description>
+  </item>
+  <item>
+    <title>Telephone Operator</title>
+    <link>https://domainexperts.dev/roles/telephone-operator/</link>
+    <guid>https://domainexperts.dev/roles/telephone-operator/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a telephone operator — relaying a Telecommunications Relay Service (TRS) call verbatim between a text/sign caller and a hearing party, resolving a directory-assistance lookup with an ambiguous or misspelled name, deciding whether a call qualifies for emergency-line prioritization, or handling an offensive or distressing relayed call within FCC neutrality rules.</description>
+  </item>
+  <item>
+    <title>Word Processor Typist</title>
+    <link>https://domainexperts.dev/roles/word-processor-typist/</link>
+    <guid>https://domainexperts.dev/roles/word-processor-typist/</guid>
+    <pubDate>Tue, 07 Jul 2026 21:51:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a word processor/typist — transcribing dictation or handwritten drafts into a formatted document, applying a style template consistently across a long document, reconciling which of several draft versions is the approved one before finalizing, or catching a transcription ambiguity before it ships as a wrong word.</description>
+  </item>
   <item>
     <title>Correspondence Clerk</title>
     <link>https://domainexperts.dev/roles/correspondence-clerk/</link>
