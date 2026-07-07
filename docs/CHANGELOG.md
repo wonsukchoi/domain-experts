@@ -8,6 +8,12 @@ npm releases are snapshots — `npx domain-experts` users get the role library a
 
 ## [Unreleased]
 
+### Added
+- `domain-experts init [slug...]` CLI subcommand — one-shot setup: installs the router skill, the `/domain-expert` command, and any named roles
+- `domain-experts update [--to dir]` CLI subcommand — re-fetches every role installed under a skills directory from the library and reports updated/unchanged/skipped, so `add` no longer leaves a permanently static snapshot
+- `domain-experts preview <slug>` CLI subcommand — prints a role's Identity + Worked example sections without installing it
+- `scripts/lint_roles.py` now resolves every `../<slug>/...` cross-role link anywhere in a SKILL.md body (not just Going deeper), catching references to renamed or nonexistent roles
+
 ## [0.3.0] — 2026-07-06
 
 ### Added

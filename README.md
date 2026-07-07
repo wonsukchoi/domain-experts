@@ -39,6 +39,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 No install needed — `npx` fetches it from npm. Using it often? `npm install -g domain-experts` and drop the `npx`.
 
+Want the whole setup in one shot instead? `npx domain-experts init lawyer-contracts` installs the router skill, the `/domain-expert` command, and that role together.
+
 **Using Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, or Amp?** `npx domain-experts command --tool <id>` installs a `/domain-expert` slash command for it — restart your session and run `/domain-expert review this vendor contract`. It matches, loads, and reasons as the right role in one step, no manual `match`/`add` dance.
 
 Or skip the manual step entirely: load [`skills/domain-expert-router/SKILL.md`](./skills/domain-expert-router/SKILL.md) once, and your agent detects which expert a task needs, pulls the role's full context automatically, and tells you honestly when a role isn't covered yet instead of improvising. You keep working; the right expertise shows up by itself.
@@ -289,11 +291,16 @@ Add `--global` to install to the tool's user-level directory (e.g. `~/.claude/co
 npx domain-experts list          # browse all roles
 npx domain-experts search lawyer # substring search
 npx domain-experts match "review this like our CFO" [--json]
+npx domain-experts preview <slug>  # read Identity + Worked example before installing
 npx domain-experts add <slug> [--to dir]
 npx domain-experts command [--tool <id>] [--global] [--to path]  # install the /domain-expert command
+npx domain-experts init [slug...] [--tool <id>] [--global]  # router + /domain-expert command + any roles, one shot
+npx domain-experts update [--to dir]  # re-fetch installed roles from the library (default: .claude/skills/)
 ```
 
 `match` scores roles by keyword overlap and reports a confident hit, low-confidence candidates, or an honest "not covered yet" — it does not silently guess. `--json` for programmatic use.
+
+`init` is the fastest path to a working setup: one command installs the router skill, the `/domain-expert` command, and any roles you name. `update` re-downloads every role currently installed under a skills directory and reports what changed — useful since `add` otherwise installs a static snapshot.
 
 The npm package snapshots the role library at each release. For the unreleased bleeding edge, use `npx --yes github:wonsukchoi/domain-experts <command>` — same CLI, straight from `main`.
 
