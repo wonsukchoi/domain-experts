@@ -4,7 +4,70 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 12:48:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:57:34 +0000</lastBuildDate>
+  <item>
+    <title>Animal Scientist</title>
+    <link>https://domainexperts.dev/roles/animal-scientist/</link>
+    <guid>https://domainexperts.dev/roles/animal-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Animal Scientist — formulating a least-cost livestock ration against nutrient requirements, evaluating breeding stock using EPDs or a selection index, diagnosing a feed-conversion-ratio decline, or designing a growth/reproduction performance-monitoring plan for a livestock operation.</description>
+  </item>
+  <item>
+    <title>Astronomer</title>
+    <link>https://domainexperts.dev/roles/astronomer/</link>
+    <guid>https://domainexperts.dev/roles/astronomer/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an astronomer — calculating exposure time or signal-to-noise for a target, writing the feasibility math for a telescope-time proposal, reducing photometric or spectroscopic data, distinguishing a systematic error floor from statistical noise, or reviewing an observational result for calibration or upper-limit red flags.</description>
+  </item>
+  <item>
+    <title>Biochemist</title>
+    <link>https://domainexperts.dev/roles/biochemist/</link>
+    <guid>https://domainexperts.dev/roles/biochemist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biochemist — determining enzyme kinetics (Km/Vmax, inhibition mechanism) from rate data, choosing a structural-biology method (X-ray crystallography, cryo-EM, or NMR) for a target, designing or interpreting a binding assay (ITC, SPR, fluorescence polarization), or selecting a protein-purification strategy and diagnosing why a prep failed.</description>
+  </item>
+  <item>
+    <title>Food Scientist</title>
+    <link>https://domainexperts.dev/roles/food-scientist/</link>
+    <guid>https://domainexperts.dev/roles/food-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Food Scientist — designing an accelerated shelf-life study, running a HACCP hazard analysis on a process step, planning a sensory-evaluation protocol (triangle test, descriptive panel), or reformulating a product for cost/nutrition targets without breaking stability or safety.</description>
+  </item>
+  <item>
+    <title>Forester</title>
+    <link>https://domainexperts.dev/roles/forester/</link>
+    <guid>https://domainexperts.dev/roles/forester/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forester — cruising a stand to estimate merchantable timber volume and value, recommending a harvest or thinning prescription, selecting a silvicultural system for regeneration, calculating financial vs. biological rotation age, or evaluating whether a stand&#x27;s stocking or growth data supports a proposed cut.</description>
+  </item>
+  <item>
+    <title>Geoscientist</title>
+    <link>https://domainexperts.dev/roles/geoscientist/</link>
+    <guid>https://domainexperts.dev/roles/geoscientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Geoscientist — correlating well logs across a stratigraphic section, estimating hydrocarbon or mineral reserves volumetrically, assessing geologic-hazard risk for a site, or interpreting subsurface structure from seismic or core data.</description>
+  </item>
+  <item>
+    <title>Physicist</title>
+    <link>https://domainexperts.dev/roles/physicist/</link>
+    <guid>https://domainexperts.dev/roles/physicist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Physicist — designing an experiment to control systematic error, propagating measurement uncertainty through a derived quantity, evaluating whether a model fits data (chi-squared/goodness-of-fit), running a dimensional-analysis sanity check on a formula, or deciding whether an apparent signal is real or a statistical/systematic artifact.</description>
+  </item>
+  <item>
+    <title>Soil Plant Scientist</title>
+    <link>https://domainexperts.dev/roles/soil-plant-scientist/</link>
+    <guid>https://domainexperts.dev/roles/soil-plant-scientist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a soil and plant scientist — interpreting a soil test into a fertilizer/lime recommendation, building a nutrient management plan, diagnosing a suspected nutrient deficiency or pH-limited yield, or evaluating land-capability suitability for a proposed crop or land use.</description>
+  </item>
+  <item>
+    <title>Zoologist Wildlife Biologist</title>
+    <link>https://domainexperts.dev/roles/zoologist-wildlife-biologist/</link>
+    <guid>https://domainexperts.dev/roles/zoologist-wildlife-biologist/</guid>
+    <pubDate>Tue, 07 Jul 2026 19:57:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Zoologist/Wildlife Biologist — estimating a wildlife population size from mark-recapture or distance-sampling data, assessing whether survey data supports a trend claim, evaluating a species-status-assessment or listing petition&#x27;s population science, reviewing a population-viability analysis, or interpreting a habitat-suitability model against ground-truthed occupancy.</description>
+  </item>
   <item>
     <title>Atmospheric Scientist</title>
     <link>https://domainexperts.dev/roles/atmospheric-scientist/</link>
