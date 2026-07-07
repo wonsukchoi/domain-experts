@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 409 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 421 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -864,42 +864,42 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>47 — Construction and Extraction</strong> (1/65 drafted)</summary>
+<summary><strong>47 — Construction and Extraction</strong> (13/65 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 47-1011.00 | First-Line Supervisors of Construction Trades and Extraction Workers |  |
+| ✅ | 47-1011.00 | First-Line Supervisors of Construction Trades and Extraction Workers | [`construction-trades-supervisor`](./roles/construction-trades-supervisor/SKILL.md) |
 |  | 47-1011.03 | Solar Energy Installation Managers |  |
 |  | 47-2011.00 | Boilermakers |  |
-|  | 47-2021.00 | Brickmasons and Blockmasons |  |
+| ✅ | 47-2021.00 | Brickmasons and Blockmasons | [`brickmason-blockmason`](./roles/brickmason-blockmason/SKILL.md) |
 |  | 47-2022.00 | Stonemasons |  |
-|  | 47-2031.00 | Carpenters |  |
+| ✅ | 47-2031.00 | Carpenters | [`carpenter`](./roles/carpenter/SKILL.md) |
 |  | 47-2041.00 | Carpet Installers |  |
 |  | 47-2042.00 | Floor Layers, Except Carpet, Wood, and Hard Tiles |  |
 |  | 47-2043.00 | Floor Sanders and Finishers |  |
 |  | 47-2044.00 | Tile and Stone Setters |  |
-|  | 47-2051.00 | Cement Masons and Concrete Finishers |  |
+| ✅ | 47-2051.00 | Cement Masons and Concrete Finishers | [`cement-mason-concrete-finisher`](./roles/cement-mason-concrete-finisher/SKILL.md) |
 |  | 47-2053.00 | Terrazzo Workers and Finishers |  |
 |  | 47-2061.00 | Construction Laborers |  |
 |  | 47-2071.00 | Paving, Surfacing, and Tamping Equipment Operators |  |
 |  | 47-2072.00 | Pile Driver Operators |  |
 |  | 47-2073.00 | Operating Engineers and Other Construction Equipment Operators |  |
-|  | 47-2081.00 | Drywall and Ceiling Tile Installers |  |
+| ✅ | 47-2081.00 | Drywall and Ceiling Tile Installers | [`drywall-ceiling-tile-installer`](./roles/drywall-ceiling-tile-installer/SKILL.md) |
 |  | 47-2082.00 | Tapers |  |
 | ✅ | 47-2111.00 | Electricians | [`electrician`](./roles/electrician/SKILL.md) |
-|  | 47-2121.00 | Glaziers |  |
+| ✅ | 47-2121.00 | Glaziers | [`glazier`](./roles/glazier/SKILL.md) |
 |  | 47-2131.00 | Insulation Workers, Floor, Ceiling, and Wall |  |
 |  | 47-2132.00 | Insulation Workers, Mechanical |  |
 |  | 47-2141.00 | Painters, Construction and Maintenance |  |
 |  | 47-2142.00 | Paperhangers |  |
 |  | 47-2151.00 | Pipelayers |  |
-|  | 47-2152.00 | Plumbers, Pipefitters, and Steamfitters |  |
+| ✅ | 47-2152.00 | Plumbers, Pipefitters, and Steamfitters | [`plumber-pipefitter-steamfitter`](./roles/plumber-pipefitter-steamfitter/SKILL.md) |
 |  | 47-2152.04 | Solar Thermal Installers and Technicians |  |
 |  | 47-2161.00 | Plasterers and Stucco Masons |  |
 |  | 47-2171.00 | Reinforcing Iron and Rebar Workers |  |
-|  | 47-2181.00 | Roofers |  |
-|  | 47-2211.00 | Sheet Metal Workers |  |
-|  | 47-2221.00 | Structural Iron and Steel Workers |  |
+| ✅ | 47-2181.00 | Roofers | [`roofer`](./roles/roofer/SKILL.md) |
+| ✅ | 47-2211.00 | Sheet Metal Workers | [`sheet-metal-worker`](./roles/sheet-metal-worker/SKILL.md) |
+| ✅ | 47-2221.00 | Structural Iron and Steel Workers | [`structural-iron-steel-worker`](./roles/structural-iron-steel-worker/SKILL.md) |
 |  | 47-2231.00 | Solar Photovoltaic Installers |  |
 |  | 47-3011.00 | Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters |  |
 |  | 47-3012.00 | Helpers--Carpenters |  |
@@ -908,9 +908,9 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 47-3015.00 | Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters |  |
 |  | 47-3016.00 | Helpers--Roofers |  |
 |  | 47-3019.00 | Helpers, Construction Trades, All Other |  |
-|  | 47-4011.00 | Construction and Building Inspectors |  |
+| ✅ | 47-4011.00 | Construction and Building Inspectors | [`construction-building-inspector`](./roles/construction-building-inspector/SKILL.md) |
 |  | 47-4011.01 | Energy Auditors |  |
-|  | 47-4021.00 | Elevator and Escalator Installers and Repairers |  |
+| ✅ | 47-4021.00 | Elevator and Escalator Installers and Repairers | [`elevator-escalator-installer`](./roles/elevator-escalator-installer/SKILL.md) |
 |  | 47-4031.00 | Fence Erectors |  |
 |  | 47-4041.00 | Hazardous Materials Removal Workers |  |
 |  | 47-4051.00 | Highway Maintenance Workers |  |
