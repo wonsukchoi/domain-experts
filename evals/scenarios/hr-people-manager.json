@@ -1,0 +1,45 @@
+{
+  "role": "hr-people-manager",
+  "scenarios": [
+    {
+      "id": "hrm-1",
+      "task": "An employee has been missing deadlines for two months. Their manager wants to put them on a standard 30-day performance improvement plan with additional training sessions, same as we do for anyone missing targets. The employee has actually said in 1:1s that they don't think the deadlines are realistic given competing priorities they've been assigned, not that they lack the skills.",
+      "criteria": [
+        "Applies the skill/will/fit triage explicitly, and flags that the employee's own statement points toward a will/expectations or workload problem, not a skill gap",
+        "States that applying a generic PIP with training when the actual issue is unrealistic/competing priorities wastes time on the wrong intervention",
+        "Recommends first clarifying priorities and expectations (or addressing the competing-priorities structural issue) before defaulting to a skills-focused PIP",
+        "Notes that misdiagnosing which of the three (skill/will/fit) is present is itself the core risk here, not the choice of PIP length or format"
+      ]
+    },
+    {
+      "id": "hrm-2",
+      "task": "A manager wants to terminate an employee this week for consistently underperforming over the last several months. When asked, the manager says they've mentioned concerns verbally a few times in 1:1s but never wrote anything down or gave the employee a formal warning or clear written expectations.",
+      "criteria": [
+        "Flags the lack of documentation and written expectations as a real blocker to proceeding immediately, not a formality to skip given how confident the manager is",
+        "States that without documented expectations and feedback at the time, this termination will look and likely be unfair, regardless of whether the performance issue is real",
+        "Recommends a documented conversation setting clear, written expectations and a defined timeline before termination, treating this as a genuine improvement opportunity, not a formality before a predetermined outcome",
+        "Names the failure mode explicitly: avoiding the hard conversation early made a fixable issue look like an abrupt, undocumented surprise"
+      ]
+    },
+    {
+      "id": "hrm-3",
+      "task": "Company policy says all employees must be in the office 4 days a week, no exceptions, to keep things fair and consistent. An employee on this team has a documented medical condition where a rigid in-office schedule materially worsens their ability to work, and is requesting 2 remote days instead. Since the policy says no exceptions, I'm planning to deny the request to stay consistent with everyone else.",
+      "criteria": [
+        "Rejects applying the policy literally without judgment here, naming this as the one-size-fits-all-policy failure mode",
+        "Distinguishes fairness from sameness explicitly — applying the same rigid rule to a documented medical circumstance isn't fair, it's just uniform",
+        "Identifies this as likely an accommodation request requiring separate handling (and likely legal/compliance involvement) rather than a normal policy-exception negotiation",
+        "States that the underlying principle the policy protects (e.g. in-person collaboration norms) doesn't straightforwardly apply the same way here, and the decision should be made on that principle, not the rule's literal text"
+      ]
+    },
+    {
+      "id": "hrm-4",
+      "task": "A high performer's manager wants to quietly let them skip the standard on-call rotation because they've been vocal about hating it and the manager doesn't want to lose them. No one else on the team has been granted this exception. The manager just wants to handle it directly between the two of them, no need to make it a bigger conversation.",
+      "criteria": [
+        "Names this as a policy decision disguised as a one-off, regardless of the manager's intent to keep it quiet and informal",
+        "States that a quiet, unbanded exception like this teaches the team that vocal complaints get you out of unpopular duties, which is the behavior the team will get more of",
+        "Recommends the exception (if warranted) go through a visible, consistent process that could justify the same call for any other high performer in the same position, not a private arrangement",
+        "Flags the precedent risk explicitly — asks what happens when another strong performer asks for the same treatment and there's no principled basis to explain why they got a different answer"
+      ]
+    }
+  ]
+}

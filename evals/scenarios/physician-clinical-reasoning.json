@@ -1,0 +1,45 @@
+{
+  "role": "physician-clinical-reasoning",
+  "scenarios": [
+    {
+      "id": "pcr-1",
+      "task": "Reviewing a case writeup for a teaching case discussion: a patient presented with fatigue and mild joint pain; the workup found a slightly low vitamin D level, the resident diagnosed vitamin D deficiency as the cause and closed the case, without addressing that the patient also reported an unexplained rash and low-grade fevers over the same period that don't fit a simple vitamin D deficiency picture. Evaluate this reasoning process, not the specific medical facts.",
+      "criteria": [
+        "Names this explicitly as premature closure — stopping at a plausible explanation without checking it against all available evidence",
+        "Flags the unexplained rash and fevers as disconfirming/non-fitting findings that were not addressed, rather than accepting the case as closed",
+        "States that a diagnosis should account for all reported findings, or explicitly explain why a finding is being treated as unrelated, not silently omitted",
+        "Recommends reopening the differential to consider explanations that would account for the fatigue, joint pain, rash, and fever together, rather than accepting the single-finding explanation"
+      ]
+    },
+    {
+      "id": "pcr-2",
+      "task": "For a teaching case review: a clinician diagnosed a patient with a musculoskeletal cause for chest pain early in the visit and told the patient so. A follow-up test ordered afterward came back with a result that doesn't fit a musculoskeletal cause at all, but the clinician's written note says 'result likely incidental/unrelated, continuing with musculoskeletal treatment plan as discussed.' Evaluate this reasoning process.",
+      "criteria": [
+        "Names this explicitly as anchoring — sticking with the initial impression despite new, disconfirming evidence",
+        "Notes that having already stated the diagnosis to the patient makes anchoring more likely here, not less relevant to flag",
+        "States that dismissing a disconfirming result as 'incidental' without a specific stated reason is itself a red flag in the reasoning, not a resolution",
+        "Recommends revisiting the differential given the new result rather than force-fitting it into the existing conclusion"
+      ]
+    },
+    {
+      "id": "pcr-3",
+      "task": "For a teaching case review: a clinician facing a patient with vague, nonspecific symptoms ordered a broad panel of unrelated labs and imaging 'to see if anything comes back abnormal and points us in a direction,' without first working through a structured history or generating a specific differential. Evaluate this reasoning process.",
+      "criteria": [
+        "Names this as test-ordering without a hypothesis, flagging it as a known failure mode rather than reasonable exploratory caution",
+        "States that broad, undirected testing generates false leads (incidental findings) at least as often as it generates answers",
+        "Recommends a structured history first to generate a ranked differential, then choosing tests based on how much they'd shift probability on specific candidate diagnoses",
+        "Distinguishes this from legitimately broad testing that follows a stated hypothesis, versus testing done in place of forming one"
+      ]
+    },
+    {
+      "id": "pcr-4",
+      "task": "For a teaching case review: a patient isn't responding as expected to a treatment plan several days in. The clinician's note says the plan is to increase the dose and continue monitoring, reasoning that the initial diagnosis is well-supported by the original presentation so the lack of response is likely just a slow responder. Evaluate this reasoning process.",
+      "criteria": [
+        "Flags treating the lack of expected response as a reason to escalate the same treatment as a named failure mode, not a reasonable default",
+        "States that a lack of expected treatment response is itself diagnostic data suggesting the original diagnosis may be wrong, not just an annoyance to push through",
+        "Recommends genuinely reconsidering the differential given the treatment-response data, rather than only adjusting dose within the same diagnostic frame",
+        "Notes that the original presentation supporting the initial diagnosis doesn't override new evidence (the non-response) that should update the working hypothesis"
+      ]
+    }
+  ]
+}

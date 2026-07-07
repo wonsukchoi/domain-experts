@@ -1,0 +1,45 @@
+{
+  "role": "financial-analyst",
+  "scenarios": [
+    {
+      "id": "fa-1",
+      "task": "We've already spent $2.1M building out this new warehouse automation system over the last year. It's behind schedule and the latest projection shows it'll take another $800K to finish, with uncertain payback. Given how much we've already invested, I don't think we can walk away now — we should finish it.",
+      "criteria": [
+        "Explicitly names this as sunk-cost reasoning and states the $2.1M already spent is irrelevant to the forward decision",
+        "Reframes the decision as a comparison between the incremental $800K plus its expected payback versus the next-best use of that same $800K",
+        "States that 'we've already invested this much' is not itself evidence the project is worth finishing",
+        "Recommends evaluating the remaining spend on its own forward-looking merits, independent of the amount already sunk"
+      ]
+    },
+    {
+      "id": "fa-2",
+      "task": "For the board deck, I want to show next year's revenue forecast as a single number — $14.37M — since that looks more rigorous and precise than a range. The underlying assumptions (close rate, average deal size, churn) each have real uncertainty, but a specific number is more decision-useful for the board than a vague range.",
+      "criteria": [
+        "Rejects presenting a single point estimate to that level of precision as false precision, given the stated uncertainty in the underlying assumptions",
+        "States that a specific-looking number implies confidence the inputs don't actually support",
+        "Recommends presenting a range (best/base/worst) or explicit sensitivity around the 2-3 assumptions the forecast is most sensitive to, instead of laundering uncertainty into one confident figure",
+        "Notes that a range is more decision-useful for a board, not less, because it shows what would have to be true for the outcome to differ"
+      ]
+    },
+    {
+      "id": "fa-3",
+      "task": "Gross margin improved from 42% to 51% this quarter compared to last — great news, our cost efficiency initiatives are clearly working as planned.",
+      "criteria": [
+        "Checks whether the margin improvement came from the numerator (costs actually falling) or the denominator (revenue growing/mix shifting) before crediting the cost-efficiency initiative",
+        "Names this explicitly as a denominator-blindness check — a ratio can move because either side changed",
+        "States that a margin percentage improvement is not on its own evidence that the specific initiative caused it",
+        "Recommends pulling the underlying cost and revenue figures separately to confirm which side actually moved and by how much"
+      ]
+    },
+    {
+      "id": "fa-4",
+      "task": "We're evaluating whether to open a new retail location. The projection shows it'll be profitable — positive net income by year two. Since it makes money, I think that's enough to justify approving it.",
+      "criteria": [
+        "Rejects 'profitable in isolation' as sufficient justification, invoking opportunity cost — the relevant comparison is against the next-best use of the same capital, not just profit vs. no investment",
+        "Asks what return the same capital could generate in the next-best alternative (another location, a different channel, paying down debt, returning capital) before accepting the recommendation",
+        "States that a project can be profitable and still be a bad decision if a better-returning alternative exists for the same capital",
+        "Frames the actual decision as a comparison between alternatives, not a binary profitable/not-profitable test on this one project"
+      ]
+    }
+  ]
+}

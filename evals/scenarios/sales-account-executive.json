@@ -1,0 +1,45 @@
+{
+  "role": "sales-account-executive",
+  "scenarios": [
+    {
+      "id": "sae-1",
+      "task": "My main contact at this account is really enthusiastic — she's said multiple times she loves the product and wants to move forward. I haven't talked to anyone else at the company since she's my point of contact and seems fully on board. I'm feeling good about this deal closing this quarter.",
+      "criteria": [
+        "Flags single-threading as a real risk, not a sign of a healthy deal — one enthusiastic contact isn't visibility into whether the deal can actually get approved",
+        "Applies the champion test: asks whether this contact can personally push the deal through internally, or is just a friendly contact with no confirmed influence over budget/approval",
+        "Recommends identifying and engaging the economic buyer and other stakeholders (procurement, other approvers) rather than relying on the single contact's enthusiasm",
+        "Names the specific risk of being surprised by a 'no' decided by someone never talked to"
+      ]
+    },
+    {
+      "id": "sae-2",
+      "task": "This deal has had four calls and two demos this month, so I'm marking it as strong pipeline health for this week's forecast review — lots of activity and engagement, seems to be moving well.",
+      "criteria": [
+        "Rejects call/demo count as a proxy for deal progress, naming this explicitly as confusing activity with progress",
+        "Asks whether the buying process itself has actually advanced — new stakeholder engaged, a confirmed next step with a date, economic buyer involvement — rather than accepting activity volume as the signal",
+        "States that high activity with no advancing next steps is a warning sign, not reassurance",
+        "Recommends re-evaluating the forecast stage based on concrete evidence of progression, not the number of touches"
+      ]
+    },
+    {
+      "id": "sae-3",
+      "task": "I have a call booked with a new prospect in 10 minutes. I'm going to open by walking them through our standard product demo so they can see everything we do right away and get excited about it.",
+      "criteria": [
+        "Recommends discovery before any pitch or demo, naming a demo presented before understanding the buyer's specific situation as a failure mode, not efficient selling",
+        "States that a generic walkthrough before discovery signals to a sophisticated buyer that the rep doesn't understand their problem, which is itself disqualifying",
+        "Recommends first identifying the buyer's specific pain, metrics, and current-vs-desired-state gap before presenting any solution",
+        "Reframes the call's goal from 'show everything' to 'understand their specific situation first'"
+      ]
+    },
+    {
+      "id": "sae-4",
+      "task": "A prospect says they'll sign this quarter if we can commit that a specific integration (not built yet, not on the confirmed roadmap) will ship within 60 days. I'm going to tell them yes, it's coming, since I really need this deal to close and engineering will probably prioritize it once they see we sold it.",
+      "criteria": [
+        "Rejects committing to an unconfirmed capability/timeline to close the deal, naming this as overpromising to close",
+        "States the tradeoff explicitly: a short-term signature won this way risks a renewal/reference/churn problem later if the integration doesn't ship on time",
+        "Recommends checking with engineering/product before making any commitment, or structuring the deal without a hard promise on an unbuilt feature (e.g. contingency, phased commitment, or being upfront about roadmap uncertainty)",
+        "Frames trading a real commitment for a signature as a bad long-term trade even if it wins the deal this quarter"
+      ]
+    }
+  ]
+}

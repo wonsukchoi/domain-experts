@@ -1,0 +1,45 @@
+{
+  "role": "ux-designer",
+  "scenarios": [
+    {
+      "id": "ux-1",
+      "task": "Two power users on our team asked for a setting to switch between the old and new dashboard layouts, since they each prefer a different one for their workflow. I'm planning to add a toggle in settings so everyone can pick — seems like the fair way to resolve it without picking a side. Good plan?",
+      "criteria": [
+        "Rejects adding a permanent settings toggle as the default resolution, naming it the 'just add a setting' failure mode that burdens every future user with a decision",
+        "Asks what specific problem each layout solves for those two users before accepting a bifurcation, rather than treating the request as already-justified",
+        "Proposes checking whether one well-designed layout with progressive disclosure (e.g. a scoped 'bulk mode' for the power-user action) can serve both needs before permanently forking the navigation",
+        "Names the compounding maintenance/consistency cost of a permanent fork as the reason to resist it, not just a vague preference for simplicity"
+      ]
+    },
+    {
+      "id": "ux-2",
+      "task": "I just finished redesigning our checkout flow. I've walked through it myself probably 50 times over the last two weeks and it feels completely smooth now, no hesitation anywhere. I think we're ready to ship without a testing round since I've basically already user-tested it myself extensively.",
+      "criteria": [
+        "Explicitly rejects designer fluency as evidence of usability, naming it as worthless evidence per the 'you are not the user' principle",
+        "States that the designer's speed/comfort reflects memorization of the path, not what a first-time user will experience",
+        "Recommends putting the flow in front of people who have never seen it and watching for hesitation, misread labels, or missing controls, before shipping",
+        "Names a concrete plausible failure mode of skipping this (e.g. a support-ticket spike from users misreading an optional field as required) rather than a generic 'testing is good' statement"
+      ]
+    },
+    {
+      "id": "ux-3",
+      "task": "On our new mobile order screen, the primary 'Place Order' button is in the top-right corner because that's where we've put primary actions on our desktop site for years, and we want to stay consistent. The thumb-reachable bottom area is currently used for a promotional banner. Sound right?",
+      "criteria": [
+        "Flags the top-right placement on mobile as violating Fitts's Law — the priority action should be where it's easiest to reach (thumb's resting position), not just where desktop convention put it",
+        "Distinguishes when consistency is the right call (matching an established convention users already rely on) from when it's misapplied (carrying a desktop-specific spatial convention into a physically different mobile interaction model)",
+        "Identifies the promotional banner occupying the easy-reach zone while the primary action sits in a hard-to-reach spot as a priority-inversion problem",
+        "Recommends moving the primary action to the reachable zone rather than accepting the current layout on consistency grounds alone"
+      ]
+    },
+    {
+      "id": "ux-4",
+      "task": "Our growth team wants the unsubscribe flow to require confirming through 3 extra screens each trying to talk the user out of leaving, since it measurably reduces churn in A/B tests. I'm going to just implement it since the data supports it and it's a common pattern other products use.",
+      "criteria": [
+        "Names this as a business-goal-vs-user-goal conflict rather than treating the A/B test win as sufficient justification on its own",
+        "Insists the tradeoff (churn-metric gain vs. user trust/friction cost) be made explicit and surfaced to stakeholders by name, not silently implemented because the data technically supports it",
+        "Rejects 'other products use this pattern' as sufficient justification, distinguishing copying a competitor's pattern from understanding why it works and whether the cost is acceptable here",
+        "Frames this as a decision stakeholders should own knowingly, not a design detail the designer should decide unilaterally"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "role": "software-engineer",
+  "scenarios": [
+    {
+      "id": "se-1",
+      "task": "Our notification-sending code lives inside the main API monolith, and every time we touch it we have to redeploy the whole app. I want to pull it out into its own microservice so we can scale and deploy it independently. Seems like the obvious right call given where we're headed.",
+      "criteria": [
+        "Asks what's actually failing today (CPU/scale bottleneck vs. deploy coupling vs. team-ownership problem) before accepting the microservice framing",
+        "Identifies that if the real pain is deploy coupling, a well-defined internal module boundary with an independent deploy pipeline inside the monolith solves it more cheaply and reversibly than a network hop",
+        "Names the new failure mode a network split introduces (notification service down becomes its own outage/on-call burden) as a real cost, not a free win",
+        "Rejects justifying the split on future scalability that hasn't been shown to exist yet, naming this as solving an imagined problem instead of the real one"
+      ]
+    },
+    {
+      "id": "se-2",
+      "task": "We're seeing an intermittent bug where a small percentage of orders silently don't get their confirmation email. I added a try/catch around the email-sending call so it fails gracefully instead of crashing the whole checkout request — problem solved, checkout no longer breaks.",
+      "criteria": [
+        "Flags the catch-and-do-nothing pattern as turning a loud, debuggable failure into a silent one, naming this as the silent-failure-handling failure mode",
+        "States that 'checkout no longer breaks' isn't the same as 'the bug is fixed' — the underlying email-send failure is now invisible instead of resolved",
+        "Recommends logging/alerting on the caught failure (and likely a retry or dead-letter queue) rather than a bare catch with no action",
+        "Insists on finding why the send intermittently fails rather than treating graceful degradation of the symptom as sufficient"
+      ]
+    },
+    {
+      "id": "se-3",
+      "task": "Error rates on our checkout API spiked right after this morning's deploy, but the deploy only touched an unrelated admin dashboard feature, so the team's current theory is it must be a database connection pool issue that's been building up for days and just happened to surface now. We're investigating the connection pool.",
+      "criteria": [
+        "Pushes back on ruling out the deploy as the cause just because the changed code looks unrelated, invoking the 'deploy is guilty until proven innocent' heuristic",
+        "Recommends checking exactly what changed in the deploy (dependencies, shared config, migrations, infra changes bundled with the 'unrelated' feature) before pursuing the slower-building alternate theory",
+        "Notes that correlation in time (spike right after deploy) is strong evidence that shouldn't be dismissed by an unrelated-looking diff alone",
+        "Treats the connection-pool theory as a parallel check, not the primary lead, given the timing correlation"
+      ]
+    },
+    {
+      "id": "se-4",
+      "task": "We're doing a big-bang release this weekend that replaces our old payment-processing flow with a new one entirely — old code removed, new code in, all at once, tested thoroughly in staging. No feature flag since the whole point is the old flow goes away for good. Rollout plan is solid, let's ship it.",
+      "criteria": [
+        "Asks for the rollback plan specifically and treats its absence (or 'we removed the old code so there's nothing to roll back to') as a blocker, not a detail",
+        "States that staging tests are a proxy for production behavior and can lie under real traffic/data/concurrency, so passing staging isn't sufficient justification for a big-bang irreversible release",
+        "Recommends a reversible rollout mechanism (feature flag, parallel-run/shadow traffic, staged cutover keeping old code deployable) specifically because payment processing is high-stakes",
+        "Reframes the plan as reversibility-first: describe how to undo this deploy before describing how to ship it"
+      ]
+    }
+  ]
+}

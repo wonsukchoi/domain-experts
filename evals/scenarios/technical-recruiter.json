@@ -1,0 +1,45 @@
+{
+  "role": "technical-recruiter",
+  "scenarios": [
+    {
+      "id": "tr-1",
+      "task": "After each candidate's onsite loop, we all jump on a call and the most senior interviewer usually shares their read first since they have the most experience — it helps focus the discussion quickly and we generally end up agreeing with their take.",
+      "criteria": [
+        "Flags this as anchoring on the first/most senior interviewer's opinion, naming it explicitly as a bias risk, not an efficient way to focus discussion",
+        "Recommends each interviewer submit independent, structured scores before any group discussion happens",
+        "States that group agreement following the senior voice isn't necessarily convergent signal — it's often the loudest/most senior opinion disproportionately shaping the outcome",
+        "Recommends discussing discrepancies after independent scoring, not deferring to seniority as a shortcut"
+      ]
+    },
+    {
+      "id": "tr-2",
+      "task": "We have a candidate who did a great first-round interview three weeks ago. We're still deciding internally on next steps and haven't reached out, but I figure once we know what we want to do we'll just message them then — no point sending an update if there's nothing new to report yet.",
+      "criteria": [
+        "Flags three weeks of silence as a real problem regardless of whether there's a 'real update' to share, naming this as the ghosting failure mode",
+        "States that candidate experience/employer brand damage happens from the silence itself, not just from an eventual bad outcome",
+        "Recommends proactively communicating status (even 'still deciding, will update by X date') rather than waiting until there's a decision to report",
+        "Notes that this candidate becomes either a promoter or detractor in their network regardless of hire outcome, and prolonged silence pushes toward detractor"
+      ]
+    },
+    {
+      "id": "tr-3",
+      "task": "We're way behind on time-to-fill for this role, so I'm compressing the loop — skipping the independent scorecard step and going straight from interviews to a quick verbal thumbs-up/down from each interviewer so we can move to offer faster.",
+      "criteria": [
+        "Flags this as optimizing purely for speed at the cost of the rigor that would catch a bad fit, naming the failure mode explicitly",
+        "States that dropping structured, independent scoring reintroduces the noisy, unstructured-interview problem the process was built to avoid",
+        "Distinguishes this from legitimate process streamlining — recommends keeping structured scoring even if other steps compress, rather than dropping the highest-signal step to save time",
+        "Names the actual tradeoff being made (time-to-fill vs. quality-of-hire) explicitly rather than treating the shortcut as a free win"
+      ]
+    },
+    {
+      "id": "tr-4",
+      "task": "For our behavioral interview stage, I've written good hypothetical questions like 'what would you do if a teammate missed a deadline that blocked your work?' — candidates give thoughtful answers and it's a strong part of the signal we collect.",
+      "criteria": [
+        "Flags hypothetical 'what would you do' questions as weaker signal than behavioral 'tell me about a time you...' questions",
+        "States the reason explicitly: a hypothetical only tests how well someone can describe an ideal response, not what they actually did",
+        "Recommends rewriting the questions to ask for specific past instances instead of hypothetical scenarios",
+        "Doesn't reject the topic/competency being tested, only the hypothetical framing of the question"
+      ]
+    }
+  ]
+}
