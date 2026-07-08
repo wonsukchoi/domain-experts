@@ -1,5 +1,5 @@
 {
-  "count": 507,
+  "count": 512,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -503,6 +503,27 @@
       "skill": "roles/architect/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "architectural-civil-drafter",
+      "description": "Use when a task needs the judgment of an Architectural and Civil Drafter \u2014 setting up a CAD sheet at the correct scale and viewport scale factor, applying NCS/AIA layer and sheet-numbering standards, dimensioning a wall assembly or site plan per governing convention, managing xrefs and revision clouds across a sheet set, or QC-checking a drawing set before issuance.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/architectural-civil-drafter/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -3284,6 +3305,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/emergency-management-director/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "energy-engineer",
+      "description": "Use when a task needs the judgment of an Energy Engineer working on building and industrial energy efficiency \u2014 running an ASHRAE Level 1/2/3 energy audit, calculating envelope heat loss/gain with the degree-day method, comparing HVAC equipment on SEER/EER/IEER/COP rather than nameplate alone, designing an IPMVP measurement and verification (M&V) plan, or ranking energy conservation measures (ECMs) by savings-to-investment ratio for a capital plan. Distinct from a wind-energy-engineer or solar/PV engineer (own generation-asset design and yield) and from an electrical-engineer (owns utility-scale power delivery and protection) \u2014 this role owns the demand side: how much energy a building or process actually needs, and which retrofit reduces that number with numbers that hold up after the fact.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/energy-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6485,6 +6527,27 @@
       ]
     },
     {
+      "slug": "mining-geological-engineer",
+      "description": "Use when a task needs the judgment of a Mining and Geological Engineer \u2014 running a pit-slope or underground-opening stability check (limit-equilibrium factor of safety, RMR/Q ground support design), setting an economic cutoff grade or reading a grade-tonnage curve for reserve definition, sizing mine ventilation airflow against MSHA quantity standards, or sequencing extraction/stope design for an ore body under a stability or economic constraint.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2151.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mining-geological-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "ml-engineer",
       "description": "Use when a task needs the judgment of a Machine Learning/AI Engineer \u2014 checking a train/test split for data leakage, choosing an evaluation metric that accounts for class imbalance rather than defaulting to accuracy, verifying training and serving feature computation match (train-serving skew), monitoring a deployed model for data/concept drift, or deciding whether a hyperparameter-tuning process has silently overfit to the test set.",
       "category": "engineering",
@@ -7421,6 +7484,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/photographer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "photonics-engineer",
+      "description": "Use when a task needs the judgment of a Photonics Engineer \u2014 sizing a Gaussian-beam coupling lens system between a laser source and a single-mode fiber, closing an optical fiber link power budget in dB with end-of-life margin, specifying a diffraction-limited focusing or imaging lens against the Rayleigh criterion, classifying a laser source's hazard class and computing MPE/NOHD per ANSI Z136.1, or diagnosing a beam-quality or link-loss failure.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.07",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/photonics-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8560,6 +8644,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/rigger/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "robotics-engineer",
+      "description": "Use when a task needs the judgment of a Robotics Engineer \u2014 deriving forward/inverse kinematics for a serial-link manipulator from Denavit-Hartenberg parameters, sizing a joint actuator and gearbox against gravity and inertial torque, tuning a joint position-control loop from measured plant response, selecting an encoder or sensor to meet an end-effector accuracy budget, or computing a protective separation distance for a collaborative deployment under ISO/TS 15066. Distinct from an embedded-firmware-engineer (writes the real-time code that runs on the motor controller, taking the control law as a given input) and a robotics-technician (installs, calibrates, and repairs a robot already designed) \u2014 this role owns the system-level engineering decisions of kinematic structure, actuator/sensor selection, and control-loop design that produce the motion spec those two execute against.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.08",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/robotics-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

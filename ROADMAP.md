@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 497 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 502 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (26/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (31/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -214,19 +214,19 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2141.00 | Mechanical Engineers | [`mechanical-engineer`](./roles/mechanical-engineer/SKILL.md) |
 |  | 17-2141.01 | Fuel Cell Engineers |  |
 |  | 17-2141.02 | Automotive Engineers |  |
-|  | 17-2151.00 | Mining and Geological Engineers, Including Mining Safety Engineers |  |
+| ✅ | 17-2151.00 | Mining and Geological Engineers, Including Mining Safety Engineers | [`mining-geological-engineer`](./roles/mining-geological-engineer/SKILL.md) |
 | ✅ | 17-2161.00 | Nuclear Engineers | [`nuclear-engineer`](./roles/nuclear-engineer/SKILL.md) |
 | ✅ | 17-2171.00 | Petroleum Engineers | [`petroleum-engineer`](./roles/petroleum-engineer/SKILL.md) |
 |  | 17-2199.00 | Engineers, All Other |  |
-|  | 17-2199.03 | Energy Engineers, Except Wind and Solar |  |
+| ✅ | 17-2199.03 | Energy Engineers, Except Wind and Solar | [`energy-engineer`](./roles/energy-engineer/SKILL.md) |
 |  | 17-2199.05 | Mechatronics Engineers |  |
 |  | 17-2199.06 | Microsystems Engineers |  |
-|  | 17-2199.07 | Photonics Engineers |  |
-|  | 17-2199.08 | Robotics Engineers |  |
+| ✅ | 17-2199.07 | Photonics Engineers | [`photonics-engineer`](./roles/photonics-engineer/SKILL.md) |
+| ✅ | 17-2199.08 | Robotics Engineers | [`robotics-engineer`](./roles/robotics-engineer/SKILL.md) |
 |  | 17-2199.09 | Nanosystems Engineers |  |
 |  | 17-2199.10 | Wind Energy Engineers |  |
 |  | 17-2199.11 | Solar Energy Systems Engineers |  |
-|  | 17-3011.00 | Architectural and Civil Drafters |  |
+| ✅ | 17-3011.00 | Architectural and Civil Drafters | [`architectural-civil-drafter`](./roles/architectural-civil-drafter/SKILL.md) |
 |  | 17-3012.00 | Electrical and Electronics Drafters |  |
 |  | 17-3013.00 | Mechanical Drafters |  |
 |  | 17-3019.00 | Drafters, All Other |  |
