@@ -10630,6 +10630,27 @@
       ]
     },
     {
+      "slug": "validation-engineer",
+      "description": "Use when a task needs the judgment of a Validation Engineer \u2014 authoring or reviewing an IQ/OQ/PQ or process-performance-qualification (PPQ) protocol and justifying the batch/run count, computing a cleaning-validation acceptance limit (MACO from a toxicologically derived PDE/HBEL versus legacy 10 ppm or 1/1000-dose criteria), classifying a computerized system under GAMP 5 to scope CSV/CSA testing depth, auditing an existing validation package for regulatory compliance before batch release, or investigating an analytical-method validation failure against ICH Q2 acceptance criteria. Distinct from a manufacturing-engineer (owns making a process capable \u2014 fixturing, Cpk, PFMEA) \u2014 this role owns formally proving and documenting that a process, system, method, or piece of software meets its predefined requirements before it is allowed to run; the deliverable is an approved protocol or report, not a capability number.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2112.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/validation-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "vehicle-cleaner",
       "description": "Use when a task needs the judgment of a fleet vehicle cleaner \u2014 running a bus/aircraft/rental-car turnaround clean against a fixed schedule window, responding to a bodily-fluid spill under bloodborne-pathogen protocol, choosing a chemical or pressure-washer setting that won't damage the surface it's meant to clean, or logging a found passenger item into chain of custody.",
       "category": "operations",

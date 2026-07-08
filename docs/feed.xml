@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 11:09:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 11:10:27 +0000</lastBuildDate>
+  <item>
+    <title>Validation Engineer</title>
+    <link>https://domainexperts.dev/roles/validation-engineer/</link>
+    <guid>https://domainexperts.dev/roles/validation-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 18:06:02 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Validation Engineer — authoring or reviewing an IQ/OQ/PQ or process-performance-qualification (PPQ) protocol and justifying the batch/run count, computing a cleaning-validation acceptance limit (MACO from a toxicologically derived PDE/HBEL versus legacy 10 ppm or 1/1000-dose criteria), classifying a computerized system under GAMP 5 to scope CSV/CSA testing depth, auditing an existing validation package for regulatory compliance before batch release, or investigating an analytical-method validation failure against ICH Q2 acceptance criteria. Distinct from a manufacturing-engineer (owns making a process capable — fixturing, Cpk, PFMEA) — this role owns formally proving and documenting that a process, system, method, or piece of software meets its predefined requirements before it is allowed to run; the deliverable is an approved protocol or report, not a capability number.</description>
+  </item>
   <item>
     <title>Rfid Device Specialist</title>
     <link>https://domainexperts.dev/roles/rfid-device-specialist/</link>
