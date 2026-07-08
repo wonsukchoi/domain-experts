@@ -1,5 +1,5 @@
 {
-  "count": 527,
+  "count": 532,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -480,6 +480,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/animal-trainer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "anthropologist-archeologist",
+      "description": "Use when a task needs the judgment of an Anthropologist/Archeologist working in cultural resource management (CRM) \u2014 scoping a Section 106 Phase I identification survey, designing a shovel-test-pit sampling strategy, evaluating National Register of Historic Places eligibility under Criteria A-D, interpreting excavation stratigraphy via a Harris matrix and radiocarbon results, or running the ethnographic field-methods branch (participant observation, informant interviewing) for a cultural-anthropology component of a project.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/anthropologist-archeologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1006,6 +1027,27 @@
       "audit_score": null,
       "skill": "roles/biofuels-production-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "bioinformatics-scientist",
+      "description": "Use when a task needs the judgment of a Bioinformatics Scientist \u2014 designing a differential-expression or GWAS analysis with correct multiple-testing correction, calling and triaging variants from NGS data using genotype-likelihood confidence rather than raw allele counts, interpreting a BLAST/DIAMOND homology search, choosing or building a genomics pipeline (aligner, caller, normalization method) for a specific data-generating process, or judging whether a computational-biology analysis's statistical design actually supports the biological claim being made. Distinct from a bioinformatics-technician (executes and QC-gates an established pipeline someone else designed) and a data-scientist (general product/experimentation judgment, not genomics-specific statistics) \u2014 this role owns which method and statistical model a genomics question requires, and why.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-1029.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/bioinformatics-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -4685,6 +4727,27 @@
       ]
     },
     {
+      "slug": "geographer",
+      "description": "Use when a task needs the judgment of a Geographer \u2014 testing whether a spatial pattern in demographic, environmental, or event data is real clustering versus noise (Moran's I, Getis-Ord Gi*), choosing a choropleth classification method that doesn't distort the underlying data structure, diagnosing whether a county/region-level correlation will reverse under a different areal aggregation (MAUP), selecting a map projection appropriate to a thematic research map's story, or deciding when a spatial regression needs a spatial-lag/error term instead of OLS.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/geographer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "geoscientist",
       "description": "Use when a task needs the judgment of a Geoscientist \u2014 correlating well logs across a stratigraphic section, estimating hydrocarbon or mineral reserves volumetrically, assessing geologic-hazard risk for a site, or interpreting subsurface structure from seismic or core data.",
       "category": "other",
@@ -6338,6 +6401,27 @@
       ]
     },
     {
+      "slug": "materials-scientist",
+      "description": "Use when a task needs the judgment of a Materials Scientist \u2014 establishing a structure-property relationship for a new or candidate material, indexing/interpreting an XRD pattern (phase ID, lattice parameter, crystallite size, microstrain), interpreting a DSC/TGA thermal-analysis scan, reconciling a measured property against a micromechanics or thermodynamic model, or designing a synthesis/processing experiment matrix for a materials-development campaign. Distinct from a materials-engineer (selects and qualifies an existing material for a specific designed part, and diagnoses why a fielded part failed) \u2014 this role develops and characterizes new materials in the lab, establishing why a structure produces a property in the first place, before any application-specific part exists.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/materials-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mathematician",
       "description": "Use when a task needs the judgment of a mathematician \u2014 refereeing or verifying a proof before publication, deciding whether a computed numerical result is trustworthy enough to act on, scoping a grant proposal or technical report to the right level of rigor, or isolating a disputed claim in a paper to the one step it actually turns on.",
       "category": "other",
@@ -6811,6 +6895,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mobile-home-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "molecular-cellular-biologist",
+      "description": "Use when a task needs the judgment of a Molecular and Cellular Biologist \u2014 quantifying gene expression change from qPCR (\u0394\u0394Ct/Pfaffl), validating a Western blot for quantitative comparison, designing or power-analyzing a cell-based knockdown/knockout experiment, or reconciling a discrepancy between mRNA and protein knockdown data.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-1029.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/molecular-cellular-biologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

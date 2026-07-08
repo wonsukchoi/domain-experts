@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 10:05:06 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 10:14:33 +0000</lastBuildDate>
+  <item>
+    <title>Anthropologist Archeologist</title>
+    <link>https://domainexperts.dev/roles/anthropologist-archeologist/</link>
+    <guid>https://domainexperts.dev/roles/anthropologist-archeologist/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:14:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Anthropologist/Archeologist working in cultural resource management (CRM) — scoping a Section 106 Phase I identification survey, designing a shovel-test-pit sampling strategy, evaluating National Register of Historic Places eligibility under Criteria A-D, interpreting excavation stratigraphy via a Harris matrix and radiocarbon results, or running the ethnographic field-methods branch (participant observation, informant interviewing) for a cultural-anthropology component of a project.</description>
+  </item>
+  <item>
+    <title>Bioinformatics Scientist</title>
+    <link>https://domainexperts.dev/roles/bioinformatics-scientist/</link>
+    <guid>https://domainexperts.dev/roles/bioinformatics-scientist/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:14:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Bioinformatics Scientist — designing a differential-expression or GWAS analysis with correct multiple-testing correction, calling and triaging variants from NGS data using genotype-likelihood confidence rather than raw allele counts, interpreting a BLAST/DIAMOND homology search, choosing or building a genomics pipeline (aligner, caller, normalization method) for a specific data-generating process, or judging whether a computational-biology analysis&#x27;s statistical design actually supports the biological claim being made. Distinct from a bioinformatics-technician (executes and QC-gates an established pipeline someone else designed) and a data-scientist (general product/experimentation judgment, not genomics-specific statistics) — this role owns which method and statistical model a genomics question requires, and why.</description>
+  </item>
+  <item>
+    <title>Geographer</title>
+    <link>https://domainexperts.dev/roles/geographer/</link>
+    <guid>https://domainexperts.dev/roles/geographer/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:14:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Geographer — testing whether a spatial pattern in demographic, environmental, or event data is real clustering versus noise (Moran&#x27;s I, Getis-Ord Gi*), choosing a choropleth classification method that doesn&#x27;t distort the underlying data structure, diagnosing whether a county/region-level correlation will reverse under a different areal aggregation (MAUP), selecting a map projection appropriate to a thematic research map&#x27;s story, or deciding when a spatial regression needs a spatial-lag/error term instead of OLS.</description>
+  </item>
+  <item>
+    <title>Materials Scientist</title>
+    <link>https://domainexperts.dev/roles/materials-scientist/</link>
+    <guid>https://domainexperts.dev/roles/materials-scientist/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:14:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Materials Scientist — establishing a structure-property relationship for a new or candidate material, indexing/interpreting an XRD pattern (phase ID, lattice parameter, crystallite size, microstrain), interpreting a DSC/TGA thermal-analysis scan, reconciling a measured property against a micromechanics or thermodynamic model, or designing a synthesis/processing experiment matrix for a materials-development campaign. Distinct from a materials-engineer (selects and qualifies an existing material for a specific designed part, and diagnoses why a fielded part failed) — this role develops and characterizes new materials in the lab, establishing why a structure produces a property in the first place, before any application-specific part exists.</description>
+  </item>
+  <item>
+    <title>Molecular Cellular Biologist</title>
+    <link>https://domainexperts.dev/roles/molecular-cellular-biologist/</link>
+    <guid>https://domainexperts.dev/roles/molecular-cellular-biologist/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:14:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Molecular and Cellular Biologist — quantifying gene expression change from qPCR (ΔΔCt/Pfaffl), validating a Western blot for quantitative comparison, designing or power-analyzing a cell-based knockdown/knockout experiment, or reconciling a discrepancy between mRNA and protein knockdown data.</description>
+  </item>
   <item>
     <title>Civil Engineering Technician</title>
     <link>https://domainexperts.dev/roles/civil-engineering-technician/</link>
