@@ -1294,7 +1294,12 @@ Queries the CLI's `match` command couldn't confidently resolve, logged to `data/
 
 Roles flagged `status: needs-refresh` in frontmatter — a periodic re-score against AUTHORING.md's rubric came back below threshold, or a cited source went stale. Not removed from the library, just due for a revision PR.
 
-**None currently flagged.**
+| Repo role | Last audited | Audit score |
+|---|---|---|
+| [`accountant-controller`](./roles/accountant-controller/SKILL.md) | 2026-07-08 | 5/18 |
+| [`administrative-law-judge`](./roles/administrative-law-judge/SKILL.md) | 2026-07-08 | 13/18 |
+| [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) | 2026-07-08 | 7/18 |
+| [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) | 2026-07-08 | 5/18 |
 
 ## Deprecated
 

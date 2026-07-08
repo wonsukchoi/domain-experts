@@ -6,6 +6,9 @@ metadata:
   maturity: draft
   spec: 2
   onet_soc_code: "23-1021.00"
+  status: needs-refresh
+  last_audited: "2026-07-08"
+  audit_score: 13
 ---
 
 # Administrative Law Judge, Adjudicator, and Hearing Officer

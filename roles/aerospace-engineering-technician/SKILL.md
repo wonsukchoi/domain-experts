@@ -6,6 +6,9 @@ metadata:
   maturity: draft
   spec: 2
   onet_soc_code: "17-3021.00"
+  status: active
+  last_audited: "2026-07-08"
+  audit_score: 18
 ---
 
 # Aerospace Engineering and Operations Technologist/Technician
