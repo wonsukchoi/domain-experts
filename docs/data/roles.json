@@ -1,5 +1,5 @@
 {
-  "count": 537,
+  "count": 538,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6855,6 +6855,27 @@
       "skill": "roles/microbiologist/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "microsystems-engineer",
+      "description": "Use when a task needs the judgment of a Microsystems Engineer \u2014 sizing a MEMS actuator's usable travel against electrostatic pull-in, checking a layout against a foundry's DRIE aspect-ratio and process-layer capability, writing a failure/reliability analysis for a stiction or hinge-creep complaint, specifying a hermeticity or shock/thermal-cycling qualification plan, or deciding between an MPW shuttle run and a dedicated prototype lot.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.06",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/microsystems-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],

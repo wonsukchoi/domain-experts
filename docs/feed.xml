@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:25:42 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:27:52 +0000</lastBuildDate>
+  <item>
+    <title>Microsystems Engineer</title>
+    <link>https://domainexperts.dev/roles/microsystems-engineer/</link>
+    <guid>https://domainexperts.dev/roles/microsystems-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:27:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Microsystems Engineer — sizing a MEMS actuator&#x27;s usable travel against electrostatic pull-in, checking a layout against a foundry&#x27;s DRIE aspect-ratio and process-layer capability, writing a failure/reliability analysis for a stiction or hinge-creep complaint, specifying a hermeticity or shock/thermal-cycling qualification plan, or deciding between an MPW shuttle run and a dedicated prototype lot.</description>
+  </item>
   <item>
     <title>Mechatronics Engineer</title>
     <link>https://domainexperts.dev/roles/mechatronics-engineer/</link>
