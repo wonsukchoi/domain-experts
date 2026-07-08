@@ -1,5 +1,5 @@
 {
-  "count": 522,
+  "count": 527,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1600,6 +1600,27 @@
       "skill": "roles/civil-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "civil-engineering-technician",
+      "description": "Use when a task needs the judgment of a Civil Engineering Technician \u2014 running and interpreting a concrete field acceptance test (slump, air content, cylinder breaks against ACI 318 criteria), verifying soil compaction against a Proctor density curve, reconciling a concrete or rebar quantity takeoff against a pay application, or documenting a field condition that deviates from the approved plans for the engineer of record.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/civil-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -3231,6 +3252,27 @@
       ]
     },
     {
+      "slug": "electrical-engineering-technician",
+      "description": "Use when a task needs the judgment of an Electrical and Electronic Engineering Technologist/Technician \u2014 bench-testing a prototype board against a power or timing spec, isolating a resistive fault in a power path with node-to-node voltage-drop measurements, checking whether an oscilloscope's own bandwidth is limiting a rise-time measurement before trusting it, running a power-supply load-regulation sweep, or evaluating ESD-event provenance and IPC-A-610 acceptance on a returned unit.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electrical-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "electrician",
       "description": "Use when a task needs the judgment of an Electrician \u2014 sizing a service panel upgrade with an NEC load calculation, troubleshooting a tripping breaker or dead circuit systematically, checking wire gauge/ampacity and voltage drop for a circuit run, resolving a code-vs-inspector interpretation dispute, or deciding when a job (aluminum wiring, knob-and-tube, undersized service) exceeds the immediate scope.",
       "category": "other",
@@ -3475,6 +3517,27 @@
       "skill": "roles/environmental-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "environmental-engineering-technician",
+      "description": "Use when a task needs the judgment of an Environmental Engineering Technologist/Technician \u2014 verifying field meter calibration before a sampling event, computing a flow-proportional composite sampling program, checking chain-of-custody entries against 40 CFR 136 holding times, running an air-monitoring isokinetic sampling check, or deciding whether a field QC exception invalidates a sample.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3025.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -5177,6 +5240,27 @@
       ]
     },
     {
+      "slug": "industrial-engineering-technician",
+      "description": "Use when a task needs the judgment of an Industrial Engineering Technologist/Technician \u2014 sizing a time study or work-sampling study to hit a target confidence and precision, computing normal and standard time from rated stopwatch observations plus a PFD allowance, screening foreign elements/outliers out of raw time-study data, auditing whether an engineer's line balance is still holding against re-timed station data, or validating a work-sampling-derived allowance against the tabled PFD percentage it's about to replace.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3026.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/industrial-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "industrial-machinery-mechanic",
       "description": "Use when a task needs the judgment of an Industrial Machinery Mechanic \u2014 reading vibration/thermal/oil-analysis trends to catch a bearing or gearbox failure before it happens, tracing a fault to lubrication, misalignment, or a design/loading flaw instead of just swapping the part, setting PM/PdM intervals on production-critical rotating equipment, or planning a laser shaft alignment or LOTO-governed repair.",
       "category": "operations",
@@ -6330,6 +6414,27 @@
       "skill": "roles/mechanical-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mechanical-engineering-technician",
+      "description": "Use when a task needs the judgment of a Mechanical Engineering Technologist/Technician \u2014 inspecting a machined or fabricated part's hole pattern or feature true position on a CMM against a GD&T callout with MMC bonus tolerance, instrumenting a test rig with a strain-gauge Wheatstone bridge (quarter/half/full) to measure bending or axial strain, verifying a load cell's calibration against a reference standard before a proof-load or fatigue test, reducing raw strain or thermal test data into stress and comparing it against a predicted (hand-calc or FEA) value, or building and dispositioning a first-article prototype against the released drawing. Distinct from a mechanical-engineer or mechanical-drafter (own the design, the analysis, and the tolerance scheme) \u2014 this role builds, instruments, measures, and tests the physical hardware those roles specified, closing the loop with a real measurement rather than deriving a new design.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3027.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mechanical-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],

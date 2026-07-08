@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 09:57:01 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 10:05:06 +0000</lastBuildDate>
+  <item>
+    <title>Civil Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/civil-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/civil-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:04:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Civil Engineering Technician — running and interpreting a concrete field acceptance test (slump, air content, cylinder breaks against ACI 318 criteria), verifying soil compaction against a Proctor density curve, reconciling a concrete or rebar quantity takeoff against a pay application, or documenting a field condition that deviates from the approved plans for the engineer of record.</description>
+  </item>
+  <item>
+    <title>Electrical Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/electrical-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/electrical-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:04:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electrical and Electronic Engineering Technologist/Technician — bench-testing a prototype board against a power or timing spec, isolating a resistive fault in a power path with node-to-node voltage-drop measurements, checking whether an oscilloscope&#x27;s own bandwidth is limiting a rise-time measurement before trusting it, running a power-supply load-regulation sweep, or evaluating ESD-event provenance and IPC-A-610 acceptance on a returned unit.</description>
+  </item>
+  <item>
+    <title>Environmental Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/environmental-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/environmental-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:04:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Environmental Engineering Technologist/Technician — verifying field meter calibration before a sampling event, computing a flow-proportional composite sampling program, checking chain-of-custody entries against 40 CFR 136 holding times, running an air-monitoring isokinetic sampling check, or deciding whether a field QC exception invalidates a sample.</description>
+  </item>
+  <item>
+    <title>Industrial Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/industrial-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/industrial-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:04:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Industrial Engineering Technologist/Technician — sizing a time study or work-sampling study to hit a target confidence and precision, computing normal and standard time from rated stopwatch observations plus a PFD allowance, screening foreign elements/outliers out of raw time-study data, auditing whether an engineer&#x27;s line balance is still holding against re-timed station data, or validating a work-sampling-derived allowance against the tabled PFD percentage it&#x27;s about to replace.</description>
+  </item>
+  <item>
+    <title>Mechanical Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/mechanical-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/mechanical-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:04:51 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mechanical Engineering Technologist/Technician — inspecting a machined or fabricated part&#x27;s hole pattern or feature true position on a CMM against a GD&amp;T callout with MMC bonus tolerance, instrumenting a test rig with a strain-gauge Wheatstone bridge (quarter/half/full) to measure bending or axial strain, verifying a load cell&#x27;s calibration against a reference standard before a proof-load or fatigue test, reducing raw strain or thermal test data into stress and comparing it against a predicted (hand-calc or FEA) value, or building and dispositioning a first-article prototype against the released drawing. Distinct from a mechanical-engineer or mechanical-drafter (own the design, the analysis, and the tolerance scheme) — this role builds, instruments, measures, and tests the physical hardware those roles specified, closing the loop with a real measurement rather than deriving a new design.</description>
+  </item>
   <item>
     <title>Calibration Technician</title>
     <link>https://domainexperts.dev/roles/calibration-technician/</link>
