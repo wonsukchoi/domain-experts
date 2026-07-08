@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 529 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 530 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (53/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (54/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -233,7 +233,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-3021.00 | Aerospace Engineering and Operations Technologists and Technicians | [`aerospace-engineering-technician`](./roles/aerospace-engineering-technician/SKILL.md) |
 | ✅ | 17-3022.00 | Civil Engineering Technologists and Technicians | [`civil-engineering-technician`](./roles/civil-engineering-technician/SKILL.md) |
 | ✅ | 17-3023.00 | Electrical and Electronic Engineering Technologists and Technicians | [`electrical-engineering-technician`](./roles/electrical-engineering-technician/SKILL.md) |
-|  | 17-3024.00 | Electro-Mechanical and Mechatronics Technologists and Technicians |  |
+| ✅ | 17-3024.00 | Electro-Mechanical and Mechatronics Technologists and Technicians | [`electromechanical-technician`](./roles/electromechanical-technician/SKILL.md) |
 | ✅ | 17-3024.01 | Robotics Technicians | [`robotics-technician`](./roles/robotics-technician/SKILL.md) |
 | ✅ | 17-3025.00 | Environmental Engineering Technologists and Technicians | [`environmental-engineering-technician`](./roles/environmental-engineering-technician/SKILL.md) |
 | ✅ | 17-3026.00 | Industrial Engineering Technologists and Technicians | [`industrial-engineering-technician`](./roles/industrial-engineering-technician/SKILL.md) |
