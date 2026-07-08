@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:30:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:31:36 +0000</lastBuildDate>
+  <item>
+    <title>Photonics Technician</title>
+    <link>https://domainexperts.dev/roles/photonics-technician/</link>
+    <guid>https://domainexperts.dev/roles/photonics-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:31:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Photonics Technician — inspecting a fiber end-face against IEC 61300-3-35 pass/fail zone criteria, fusion- or mechanical-splicing fiber and verifying the loss against budget, reading an OTDR trace for a fault that may be hidden in a dead zone, running an L-I-V sweep and burn-in on a laser diode, or handling and hermeticity-testing an ESD-sensitive optoelectronic package under GR-468-CORE.</description>
+  </item>
   <item>
     <title>Automotive Engineering Technician</title>
     <link>https://domainexperts.dev/roles/automotive-engineering-technician/</link>
