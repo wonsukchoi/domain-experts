@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:31:36 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:32:22 +0000</lastBuildDate>
+  <item>
+    <title>Biologist</title>
+    <link>https://domainexperts.dev/roles/biologist/</link>
+    <guid>https://domainexperts.dev/roles/biologist/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:32:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biologist — designing a study and identifying its true experimental unit before data collection starts, running a power analysis to size a sample, judging whether a published or preclinical finding warrants trust without independent replication, sequencing IACUC/IBC/field-permit approvals before biosafety or wildlife work begins, or scoping a grant-funded research plan against realistic funding odds.</description>
+  </item>
   <item>
     <title>Photonics Technician</title>
     <link>https://domainexperts.dev/roles/photonics-technician/</link>
