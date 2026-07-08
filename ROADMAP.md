@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 487 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 492 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (16/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (21/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -196,15 +196,15 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2031.00 | Bioengineers and Biomedical Engineers | [`biomedical-engineer`](./roles/biomedical-engineer/SKILL.md) |
 | ✅ | 17-2041.00 | Chemical Engineers | [`chemical-engineer`](./roles/chemical-engineer/SKILL.md) |
 | ✅ | 17-2051.00 | Civil Engineers | [`civil-engineer`](./roles/civil-engineer/SKILL.md) |
-|  | 17-2051.01 | Transportation Engineers |  |
+| ✅ | 17-2051.01 | Transportation Engineers | [`transportation-engineer`](./roles/transportation-engineer/SKILL.md) |
 | ✅ | 17-2051.02 | Water/Wastewater Engineers | [`water-wastewater-engineer`](./roles/water-wastewater-engineer/SKILL.md) |
-|  | 17-2061.00 | Computer Hardware Engineers |  |
+| ✅ | 17-2061.00 | Computer Hardware Engineers | [`computer-hardware-engineer`](./roles/computer-hardware-engineer/SKILL.md) |
 | ✅ | 17-2071.00 | Electrical Engineers | [`electrical-engineer`](./roles/electrical-engineer/SKILL.md) |
-|  | 17-2072.00 | Electronics Engineers, Except Computer |  |
+| ✅ | 17-2072.00 | Electronics Engineers, Except Computer | [`electronics-engineer`](./roles/electronics-engineer/SKILL.md) |
 |  | 17-2072.01 | Radio Frequency Identification Device Specialists |  |
 | ✅ | 17-2081.00 | Environmental Engineers | [`environmental-engineer`](./roles/environmental-engineer/SKILL.md) |
-|  | 17-2111.00 | Health and Safety Engineers, Except Mining Safety Engineers and Inspectors |  |
-|  | 17-2111.02 | Fire-Prevention and Protection Engineers |  |
+| ✅ | 17-2111.00 | Health and Safety Engineers, Except Mining Safety Engineers and Inspectors | [`health-safety-engineer`](./roles/health-safety-engineer/SKILL.md) |
+| ✅ | 17-2111.02 | Fire-Prevention and Protection Engineers | [`fire-protection-engineer`](./roles/fire-protection-engineer/SKILL.md) |
 | ✅ | 17-2112.00 | Industrial Engineers | [`industrial-engineer`](./roles/industrial-engineer/SKILL.md) |
 |  | 17-2112.01 | Human Factors Engineers and Ergonomists |  |
 |  | 17-2112.02 | Validation Engineers |  |

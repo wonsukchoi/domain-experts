@@ -1,5 +1,5 @@
 {
-  "count": 497,
+  "count": 502,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1856,6 +1856,27 @@
       ]
     },
     {
+      "slug": "computer-hardware-engineer",
+      "description": "Use when a task needs the judgment of a Computer Hardware Engineer \u2014 designing a power delivery network and selecting decoupling capacitors for a digital IC's core rail, budgeting a high-speed signal's rise time against trace impedance and via stub length, closing static timing on a board-level DDR or SerDes interface, sizing thermal resistance for a package's TDP, or reviewing a PCB layout for signal- or power-integrity risk before fab release.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-hardware-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "computer-information-research-scientist",
       "description": "Use when a task needs the judgment of a Computer and Information Research Scientist \u2014 designing an ablation to attribute an empirical gain, budgeting an NSF CISE proposal against page and content limits, deciding what reproducibility artifacts to release with a paper, screening a draft for mathiness or terminology misuse, or scoping the consent/ethics review needed before running an experiment on real users.",
       "category": "engineering",
@@ -3126,6 +3147,27 @@
       ]
     },
     {
+      "slug": "electronics-engineer",
+      "description": "Use when a task needs the judgment of an Electronics Engineer working on RF, analog, and mixed-signal hardware \u2014 closing an RF link budget for a wireless telemetry radio, sizing an op-amp or instrumentation-amplifier front end against a gain-bandwidth constraint, designing an anti-alias or IF filter to a cutoff and Q, pre-checking a design against FCC/IEC EMC radiated-emissions limits before formal compliance testing, or picking between a superheterodyne and direct-conversion receiver architecture.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electronics-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "elementary-school-teacher",
       "description": "Use when a task needs the judgment of an Elementary School Teacher \u2014 interpreting a running record or fluency check against grade-level benchmarks, deciding whether a struggling reader needs a Tier 2 intervention, running a self-contained classroom's daily schedule across multiple subjects, implementing (not writing) an IEP/504 accommodation with fidelity, or writing a parent-conference summary grounded in assessment data.",
       "category": "other",
@@ -3780,6 +3822,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/fire-inspector-investigator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "fire-protection-engineer",
+      "description": "Use when a task needs the judgment of a Fire Protection Engineer \u2014 sizing a sprinkler system's hydraulic demand against NFPA 13's density/area method (Hazen-Williams pipe network calc, K-factor discharge), analyzing a hydrant flow test to decide whether a fire pump is required, calculating occupant load and required egress width under IBC/NFPA 101, laying out fire alarm detection and notification per NFPA 72, or reviewing a life-safety/means-of-egress plan for code compliance.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2111.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fire-protection-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4629,6 +4692,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/health-informatics-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "health-safety-engineer",
+      "description": "Use when a task needs the judgment of a Health and Safety Engineer \u2014 sizing a machine-guarding safeguard distance from measured stop time, scoring a hazard on a risk assessment matrix and deciding whether a control is sufficient, running or scheduling a process hazard analysis (PHA/HAZOP) on a covered chemical process, evaluating a lockout/tagout or confined-space engineering control, or reconciling an OSHA recordable incident rate against a proposed capital fix. Distinct from an occupational-health-safety-specialist (owns exposure monitoring, industrial hygiene sampling, incident investigation) and a fire-prevention-and-protection engineer (owns fire suppression and detection system design) \u2014 this role owns engineering out mechanical, chemical-process, and energy hazards at the design and control-selection stage.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2111.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/health-safety-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9750,6 +9834,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/transportation-electrical-electronics-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "transportation-engineer",
+      "description": "Use when a task needs the judgment of a Transportation Engineer (PE) \u2014 running an HCM capacity/level-of-service analysis for a signalized or unsignalized intersection, checking stopping/intersection sight distance against AASHTO Green Book standards, sizing and warranting a left- or right-turn lane, building a traffic impact study's trip generation/distribution/assignment chain, or deciding between geometric mitigation, a turn lane, and a signal for a capacity or safety deficiency.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2051.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/transportation-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
