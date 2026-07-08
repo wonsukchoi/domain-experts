@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 528 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 529 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (52/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (53/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -223,7 +223,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2199.06 | Microsystems Engineers | [`microsystems-engineer`](./roles/microsystems-engineer/SKILL.md) |
 | ✅ | 17-2199.07 | Photonics Engineers | [`photonics-engineer`](./roles/photonics-engineer/SKILL.md) |
 | ✅ | 17-2199.08 | Robotics Engineers | [`robotics-engineer`](./roles/robotics-engineer/SKILL.md) |
-|  | 17-2199.09 | Nanosystems Engineers |  |
+| ✅ | 17-2199.09 | Nanosystems Engineers | [`nanosystems-engineer`](./roles/nanosystems-engineer/SKILL.md) |
 | ✅ | 17-2199.10 | Wind Energy Engineers | [`wind-energy-engineer`](./roles/wind-energy-engineer/SKILL.md) |
 | ✅ | 17-2199.11 | Solar Energy Systems Engineers | [`solar-energy-systems-engineer`](./roles/solar-energy-systems-engineer/SKILL.md) |
 | ✅ | 17-3011.00 | Architectural and Civil Drafters | [`architectural-civil-drafter`](./roles/architectural-civil-drafter/SKILL.md) |
