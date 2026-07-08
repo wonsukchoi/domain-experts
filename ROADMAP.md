@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 522 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 523 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (46/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (47/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -207,7 +207,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2111.02 | Fire-Prevention and Protection Engineers | [`fire-protection-engineer`](./roles/fire-protection-engineer/SKILL.md) |
 | ✅ | 17-2112.00 | Industrial Engineers | [`industrial-engineer`](./roles/industrial-engineer/SKILL.md) |
 | ✅ | 17-2112.01 | Human Factors Engineers and Ergonomists | [`human-factors-engineer`](./roles/human-factors-engineer/SKILL.md) |
-|  | 17-2112.02 | Validation Engineers |  |
+| ✅ | 17-2112.02 | Validation Engineers | [`validation-engineer`](./roles/validation-engineer/SKILL.md) |
 | ✅ | 17-2112.03 | Manufacturing Engineers | [`manufacturing-engineer`](./roles/manufacturing-engineer/SKILL.md) |
 | ✅ | 17-2121.00 | Marine Engineers and Naval Architects | [`marine-engineer-naval-architect`](./roles/marine-engineer-naval-architect/SKILL.md) |
 | ✅ | 17-2131.00 | Materials Engineers | [`materials-engineer`](./roles/materials-engineer/SKILL.md) |
