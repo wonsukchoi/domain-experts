@@ -1,5 +1,5 @@
 {
-  "count": 535,
+  "count": 536,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4637,6 +4637,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/gas-compressor-station-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "general-engineer",
+      "description": "Use when a task needs cross-disciplinary generalist-engineer judgment \u2014 scoping a problem that doesn't sit inside one named discipline, deciding whether to proceed in-house or route to a specialist, reviewing a fabricator's shop-drawing or spec substitution for load-path or interface impact, writing an interface control document across a contractor/team boundary, or drafting a design-decision memo that states the margin and what could break it.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/general-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
