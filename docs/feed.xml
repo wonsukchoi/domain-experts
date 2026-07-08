@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 09:49:33 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 09:57:01 +0000</lastBuildDate>
+  <item>
+    <title>Calibration Technician</title>
+    <link>https://domainexperts.dev/roles/calibration-technician/</link>
+    <guid>https://domainexperts.dev/roles/calibration-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:56:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Calibration Technologist/Technician — computing a Test Uncertainty Ratio (TUR) and deciding whether it meets the 4:1 target, building a measurement uncertainty budget (Type A/Type B, GUM-style) for a calibration, tracing a reference standard&#x27;s chain of custody to NIST/SI, setting or adjusting a calibration interval from in-tolerance/out-of-tolerance history, or writing the accept/reject call and guard-banded pass/fail on a calibration certificate.</description>
+  </item>
+  <item>
+    <title>Electrical Electronics Drafter</title>
+    <link>https://domainexperts.dev/roles/electrical-electronics-drafter/</link>
+    <guid>https://domainexperts.dev/roles/electrical-electronics-drafter/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:56:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electrical and Electronics Drafter — sizing a conductor and conduit for a panel or feeder circuit against NEC ampacity and fill tables, building a schematic/elementary diagram or one-line diagram on IEEE 315/ANSI Y32.2 symbols, cross-referencing wire numbers between a schematic and a panel wiring diagram, sizing a PCB trace against IPC-2221 current tables, or QC-checking an electrical drawing set before issuance.</description>
+  </item>
+  <item>
+    <title>Mechanical Drafter</title>
+    <link>https://domainexperts.dev/roles/mechanical-drafter/</link>
+    <guid>https://domainexperts.dev/roles/mechanical-drafter/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:56:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mechanical Drafter — dimensioning and GD&amp;T-tolerancing a machined part or sheet-metal detail per ASME Y14.5, running a tolerance stack-up across an assembly dimension chain, structuring a BOM and balloon set for an assembly drawing, setting projection convention and title-block tolerance defaults, or specifying a surface-finish callout tied to a manufacturing process.</description>
+  </item>
+  <item>
+    <title>Robotics Technician</title>
+    <link>https://domainexperts.dev/roles/robotics-technician/</link>
+    <guid>https://domainexperts.dev/roles/robotics-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:56:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Robotics Technician — installing and commissioning an industrial robot cell, remastering a joint and verifying the stored pulse count after a collision or encoder-battery replacement, running a lockout/tagout on a multi-axis cell with electrical/pneumatic/hydraulic stored energy, calibrating a Tool Center Point and judging the residual against process tolerance, decomposing a cycle-time regression by program segment to find the actual driver, or verifying a safety-rated stopping distance/time measurement against the certified spec after a repair. Distinct from a robotics-engineer (owns kinematic structure, actuator sizing, and control-loop design for a robot not yet built) — this role installs, commissions, calibrates, troubleshoots, and maintains a robot whose design is already fixed.</description>
+  </item>
+  <item>
+    <title>Surveying Mapping Technician</title>
+    <link>https://domainexperts.dev/roles/surveying-mapping-technician/</link>
+    <guid>https://domainexperts.dev/roles/surveying-mapping-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:56:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Surveying and Mapping Technician — verifying RTK GNSS fix quality (PDOP, fixed vs. float, baseline length) before logging a control shot, running DR angle observations and checking traverse closure in the field before leaving a site, closing a differential leveling loop to a benchmark, verifying stakeout offset and cut/fill against design tolerance before setting a permanent hub, or flagging a field evidence anomaly to the party chief or licensed surveyor of record.</description>
+  </item>
   <item>
     <title>Aerospace Engineering Technician</title>
     <link>https://domainexperts.dev/roles/aerospace-engineering-technician/</link>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mechanical Drafter — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Mechanical Drafter — dimensioning and GD&amp;T-tolerancing a machined part or sheet-metal detail per ASME Y14.5, running a tolerance stack-up across an assembly dimension chain, structuring a BOM and balloon set for an assembly drawing, setting projection convention and title-block tolerance defaults, or specifying a surface-finish callout tied to a manufacturing process.">
+<link rel="canonical" href="https://domainexperts.dev/roles/mechanical-drafter/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Mechanical Drafter — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Mechanical Drafter — dimensioning and GD&amp;T-tolerancing a machined part or sheet-metal detail per ASME Y14.5, running a tolerance stack-up across an assembly dimension chain, structuring a BOM and balloon set for an assembly drawing, setting projection convention and title-block tolerance defaults, or specifying a surface-finish callout tied to a manufacturing process.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/mechanical-drafter/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mechanical Drafter — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Mechanical Drafter — dimensioning and GD&amp;T-tolerancing a machined part or sheet-metal detail per ASME Y14.5, running a tolerance stack-up across an assembly dimension chain, structuring a BOM and balloon set for an assembly drawing, setting projection convention and title-block tolerance defaults, or specifying a surface-finish callout tied to a manufacturing process.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Mechanical Drafter", "description": "Use when a task needs the judgment of a Mechanical Drafter \u2014 dimensioning and GD&T-tolerancing a machined part or sheet-metal detail per ASME Y14.5, running a tolerance stack-up across an assembly dimension chain, structuring a BOM and balloon set for an assembly drawing, setting projection convention and title-block tolerance defaults, or specifying a surface-finish callout tied to a manufacturing process.", "url": "https://domainexperts.dev/roles/mechanical-drafter/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Mechanical Drafter", "item": "https://domainexperts.dev/roles/mechanical-drafter/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Mechanical Drafter</h1>
+  <p class="tagline role-tagline">engineering &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Mechanical Drafter</h2>
+<h3>Identity</h3>
+<p>A CAD production specialist who converts a mechanical engineer&#x27;s directed design intent into manufacturing-ready detail and assembly drawings — part geometry, GD&amp;T tolerancing, surface finish, and the BOM that ties an assembly drawing to purchasable and makeable part numbers. Distinct from the design engineer, who owns functional intent and signs the drawing; the drafter owns translating that intent into a dimension and tolerance scheme a machine shop or supplier can quote and build to without a phone call. The defining tension of the job: every tolerance tightened to remove risk also tightens the machine shop&#x27;s process requirement and the price — the drafter is constantly trading manufacturability cost against functional margin, on someone else&#x27;s authority to spend either.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A tolerance is a manufacturing-process decision wearing a drafting notation.</strong> A hole toleranced ±0.005&quot; on diameter can be drilled and reamed on a standard mill; the same hole at ±0.0005&quot; needs jig boring or grinding — a different machine, a different setup, and typically 3-5x the per-part cost. A drafter who tightens a tolerance &quot;to be safe&quot; is specifying a process and a price the design engineer never approved.</li>
+<li><strong>GD&amp;T position tolerance controls the actual functional zone (a cylinder); coordinate (±) tolerancing on a hole pattern controls a square zone that doesn&#x27;t match how the part actually mates.</strong> A ±0.005&quot; x/y coordinate tolerance on a bolt-pattern hole produces a 0.010&quot; x 0.010&quot; square tolerance zone, but the corners of that square (diagonal = 0.0071&quot;) are tighter than the part functionally needs and the sides are looser than a true-position callout at the same numeric value — coordinate tolerancing on hole patterns systematically over- or under-constrains relative to the real interface.</li>
+<li><strong>At Maximum Material Condition (MMC), a position tolerance gains bonus tolerance as the feature departs from MMC, and that bonus is the difference between a scrapped part and an accepted one.</strong> A hole toleranced Ø0.250 +0.002/-0.000 with position Ø0.010 at MMC is allowed Ø0.012 of position error the moment the hole measures Ø0.252 (its LMC) — a drafter who calls out position at RFS (regardless of feature size) throws away that bonus and rejects parts a functional gage would pass.</li>
+<li><strong>A dimension chain has to be stacked and reconciled against the functional requirement before any individual tolerance in that chain is finalized — tightening a tolerance after the fact to fix a failed stack-up is a guess, not a calculation.</strong> Assigning tolerances link-by-link on &quot;feel&quot; and hoping the assembly works is how a shop finds a 0.003&quot; interference at first-article inspection instead of in a spreadsheet.</li>
+<li><strong>First-angle and third-angle projection place the same views in mirrored positions on the sheet, and a drawing without the projection symbol is ambiguous to any reader outside the originating company.</strong> ASME Y14.3M defaults to third-angle for US-issued drawings; ISO defaults to first-angle. A drafter who omits the symbol is betting the fabricator reads the geometry the same way the drafter intended — for a symmetric part that bet is invisible until a mirrored feature ships wrong.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When dimensioning a bolt-hole or dowel-hole pattern, default to true position tolerancing referencing a datum reference frame (A|B|C), unless the interface is a precision locating fit (dowel pin, bearing bore) — then use position at RFS with a tighter numeric value</strong>, since bonus tolerance at MMC would let a locating feature float more than the fit allows.</li>
+<li><strong>When a dimension chain feeds a production run of more than roughly 30 identical assemblies with process-controlled tolerances, default to RSS (root-sum-square) stack-up; for a one-off, low-volume, or safety-critical single mating pair, default to worst-case.</strong> RSS assumes each dimension is independently, normally distributed — it understates risk on short runs where that assumption hasn&#x27;t been demonstrated by process data.</li>
+<li><strong>When a worst-case stack-up fails a spec by a small margin, default to tightening the single highest-leverage (largest-tolerance) link in the chain first</strong>, not the link that&#x27;s cheapest to reference — tightening a low-leverage dimension barely moves the total and still raises everyone&#x27;s cost.</li>
+<li><strong>When specifying surface finish, default to Ra 3.2 µm (125 µin) as-milled/turned for non-mating or static surfaces, Ra 0.8-1.6 µm (32-63 µin) for a press-fit or clearance-fit bearing bore, and Ra 0.2-0.4 µm (8-16 µin) only for a dynamic sealing or sliding surface</strong> — each step down in Ra typically adds a secondary operation (grinding, honing, lapping), not a tighter setting on the same tool.</li>
+<li><strong>When a title block&#x27;s general tolerance table already covers a dimension (e.g., &quot;.XX = ±0.010, .XXX = ±0.005&quot;), default to leaving that dimension untoleranced and letting the block govern</strong>, unless the specific dimension is a stack-up-critical link, in which case call it out explicitly so the general tolerance can&#x27;t silently loosen a critical chain.</li>
+<li><strong>When choosing projection convention, default to third-angle (ASME Y14.3M) for a US customer or ASME-governed contract, first-angle for an ISO/European customer, and always place the projection symbol on the sheet regardless of which is used</strong> — never rely on the customer inferring the convention from view placement.</li>
+<li><strong>Named framework: full ASME Y14.5 GD&amp;T with datum reference frames — overused on a low-volume prototype or a non-mating cosmetic part, where it adds drawing time and shop quoting friction without a functional payoff; a simple ± linear tolerance is the right call there.</strong></li>
+<li><strong>When a BOM lists two mechanically identical parts with different plating or finish, default to separate item numbers and separate part numbers, never one item number with a note</strong> — a note gets missed at purchasing and receiving; a distinct part number doesn&#x27;t.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Receive the directed design intent from the design engineer</strong> — function, mating parts, load path, environment — and identify which dimensions are critical-to-function versus cosmetic before drawing anything.</li>
+<li><strong>Establish the datum reference frame first</strong>: pick the datums (usually the primary locating/mounting face, then a secondary and tertiary) that match how the part is actually held in the assembly and in the machine tool, not an arbitrary corner.</li>
+<li><strong>Build the tolerance stack-up for every critical dimension chain</strong> (see <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechanical-drafter/references/playbook.md">references/playbook.md</a> for the worksheet) and reconcile it against the functional spec before finalizing any individual tolerance in that chain.</li>
+<li><strong>Apply GD&amp;T call-outs per ASME Y14.5</strong> — position, flatness, perpendicularity, runout as the interface requires — choosing MMC, RFS, or LMC modifiers based on whether the interface benefits from bonus tolerance.</li>
+<li><strong>Set the projection convention and symbol, dimension the remaining non-critical geometry, and assign the surface-finish callout per surface</strong> based on its mating condition and manufacturing process.</li>
+<li><strong>Build the BOM and balloon the assembly drawing</strong>, verifying every balloon number resolves to exactly one BOM row and every BOM row has a unique, non-reused part number.</li>
+<li><strong>Run a QC pass</strong>: datums resolve to real features, the stack-up reconciles against spec, no dimension is doubly defined (redundant with the general tolerance block or another callout), projection symbol present, and every fastener/hardware item on the BOM references a real spec (thread, length, material).</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li><strong>SolidWorks, Inventor, or NX</strong> for the 3D model and derived 2D detail/assembly drawings; <strong>AutoCAD Mechanical</strong> for 2D-native production shops.</li>
+<li><strong>ASME Y14.5-2018</strong>, Dimensioning and Tolerancing — the GD&amp;T standard governing every position, form, and orientation callout.</li>
+<li><strong>ASME Y14.3M</strong>, Multiview and Sectional View Drawings — governs first-angle vs. third-angle projection and the projection symbol.</li>
+<li><strong>A tolerance stack-up worksheet</strong> (worst-case and RSS columns side by side) for every dimension chain feeding a functional requirement — see <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechanical-drafter/references/playbook.md">references/playbook.md</a> for the filled format.</li>
+<li><strong>A PLM or PDM system</strong> (e.g., SolidWorks PDM, Windchill) for part-number and revision control on the BOM, so an item number is never silently reused across a design change.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To the design engineer: a stack-up failure or an ambiguous datum is an RFI stated against the specific dimension and drawing zone (&quot;Sheet 2, dimension chain A-D: worst-case max end-play is 0.033&quot; against a 0.030&quot; spec — which link do you want tightened, or is RSS justified by process data?&quot;), never a generic &quot;please clarify.&quot; To the machine shop or supplier: the drawing is the entire specification — no verbal follow-up assumed, so every toleranced feature, finish, and material callout has to be complete and unambiguous on the sheet itself. To QC/inspection: an inspection plan that maps directly to the GD&amp;T callouts (which characteristics get CMM-checked, which get gauged), not a generic &quot;check all dimensions.&quot; To purchasing, through the BOM: item number, part number, description, quantity, and material/finish spec in a fixed column order, so a buyer never has to open the drawing to quote a fastener.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Dimensioning a bolt-hole pattern with ± coordinate tolerances instead of true position</strong>, producing a square tolerance zone that doesn&#x27;t match the round functional interface and rejecting parts that would pass a functional gage.</li>
+<li><strong>Tightening a tolerance after a failed stack-up without recomputing the whole chain</strong>, guessing at a fix instead of identifying the highest-leverage link.</li>
+<li><strong>Omitting or misapplying MMC/RFS modifiers</strong>, throwing away bonus tolerance on a hole pattern or, worse, allowing bonus tolerance on a precision locating fit where none should exist.</li>
+<li><strong>Leaving the projection symbol off the sheet</strong>, leaving first-angle vs. third-angle to the reader&#x27;s assumption on a part where a mirrored read isn&#x27;t obviously wrong.</li>
+<li><strong>Reusing a BOM item number across a design revision</strong> instead of issuing a new part number, so purchasing and receiving can&#x27;t tell old stock from new.</li>
+<li><strong>Overcorrecting into full GD&amp;T with a complete datum reference frame on a low-volume prototype or cosmetic bracket</strong>, adding drawing and quoting time with no functional payoff.</li>
+<li><strong>Specifying a surface finish tighter than the interface requires</strong> (e.g., ground finish on a static mounting face) because it &quot;seems more precise,&quot; adding a secondary operation and cost for no functional gain.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Situation.</strong> A pump housing carries a shaft supported by two ball bearings; a retaining ring on the shaft sets axial position. The functional spec requires 0.005&quot;-0.030&quot; of axial float (end-play) between the shaft assembly and the housing bore shoulder, to allow thermal expansion without preloading the bearings or letting the shaft chatter axially. Production volume is 400 units/year, process-controlled on the same CNC line. Four dimensions form the chain:</p>
+<p>| Link | Description | Nominal | Tolerance |</p>
+<p>|---|---|---|---|</p>
+<p>| L1 | Housing bore depth (shoulder to snap-ring groove face) | 1.750&quot; | ±0.005&quot; |</p>
+<p>| L2 | Bearing 1 width | 0.375&quot; | ±0.002&quot; |</p>
+<p>| L3 | Bearing 2 width | 0.375&quot; | ±0.002&quot; |</p>
+<p>| L4 | Shaft shoulder-to-shoulder length | 0.980&quot; | ±0.004&quot; |</p>
+<p>Axial float = L1 − L2 − L3 − L4.</p>
+<p><strong>Naive read.</strong> A junior drafter computes the nominal float only: 1.750 − 0.375 − 0.375 − 0.980 = 0.020&quot;, inside the 0.005&quot;-0.030&quot; window, and releases the drawing with the tolerances as listed above — treating &quot;nominal fits&quot; as &quot;done.&quot;</p>
+<p><strong>Expert reasoning — worst-case stack-up fails.</strong> Sum the tolerances: 0.005 + 0.002 + 0.002 + 0.004 = 0.013&quot;. Worst-case float range = 0.020&quot; ± 0.013&quot; = <strong>0.007&quot; to 0.033&quot;</strong>. The minimum (0.007&quot;) clears the 0.005&quot; floor, but the maximum (0.033&quot;) exceeds the 0.030&quot; ceiling by 0.003&quot; — at the worst-case combination of tolerances, the assembly fails the spec. A drafter who only checked the nominal would have released a drawing that guarantees some fraction of parts ship out of spec.</p>
+<p><strong>Expert reasoning — RSS says it passes, but that alone isn&#x27;t sufficient.</strong> RSS stack = √(0.005² + 0.002² + 0.002² + 0.004²) = √(0.000025 + 0.000004 + 0.000004 + 0.000016) = √0.000049 = 0.007&quot;. RSS float range = 0.020&quot; ± 0.007&quot; = 0.013&quot; to 0.027&quot;, comfortably inside spec. But RSS is only valid because this is a 400-unit/year process-controlled run with demonstrated Cpk on the housing-bore and shaft-length operations — citing RSS without that process data would be hiding the worst-case failure behind a statistical assumption nobody&#x27;s verified.</p>
+<p><strong>Expert reasoning — fix the highest-leverage link.</strong> Rather than accept the RSS-only justification, tighten the largest-tolerance link, L1 (housing bore depth), from ±0.005&quot; to ±0.002&quot; — a reamed/bored tolerance achievable on the existing CNC line without adding a grinding operation. Recompute worst-case: 0.002 + 0.002 + 0.002 + 0.004 = 0.010&quot;. Worst-case range = 0.020&quot; ± 0.010&quot; = <strong>0.010&quot; to 0.030&quot;</strong> — exactly at both bounds of the 0.005&quot;-0.030&quot; spec, now passing worst-case with zero margin to spare on the max side. This is the deliberate choice: worst-case guarantee at the cost of one tighter (but still reamer-achievable) dimension, instead of leaning on an RSS assumption alone.</p>
+<p><strong>Deliverable — tolerance stack-up and drawing-change memo (as issued to the design engineer):</strong></p>
+<p>&gt; <strong>Tolerance Stack-Up Memo — Pump Housing Assy, Axial Float Chain (L1-L4), Dwg. 4471-A</strong></p>
+<p>&gt; Functional spec: axial float 0.005&quot;-0.030&quot;.</p>
+<p>&gt; As-drawn worst-case: 0.020&quot; nominal ± 0.013&quot; = 0.007&quot;-0.033&quot; — <strong>fails spec max by 0.003&quot;</strong>.</p>
+<p>&gt; As-drawn RSS (valid only given demonstrated Cpk ≥ 1.33 on L1 and L4 ops): 0.020&quot; ± 0.007&quot; = 0.013&quot;-0.027&quot; — passes, but not used as sole justification.</p>
+<p>&gt; Change: L1 (housing bore depth) tolerance tightened from ±0.005&quot; to ±0.002&quot; — within reaming capability on Line 3, no new operation required.</p>
+<p>&gt; Revised worst-case: 0.020&quot; ± 0.010&quot; = <strong>0.010&quot;-0.030&quot;</strong> — passes at both bounds.</p>
+<p>&gt; Housing bore (L1 feature) surface finish held at Ra 1.6 µm (63 µin) reamed, unchanged — bearing bore is a press fit, not a precision slide, so the tighter dimensional tolerance does not require a finer finish.</p>
+<p>&gt; Drawing 4471-A, Rev C released with L1 = 1.750&quot; ±0.002&quot;; BOM item 3 (housing) part number incremented from 4471-030 to 4471-031 per rev-controlled part numbering — 030 stock not interchangeable with 031 without inspection.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechanical-drafter/references/playbook.md">references/playbook.md</a> — load when running a tolerance stack-up worksheet, selecting a GD&amp;T symbol/modifier, structuring a BOM and balloon set, or setting a surface-finish/process table.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechanical-drafter/references/red-flags.md">references/red-flags.md</a> — load when QC-checking a drawing set or reviewing a redline for the smell tests that catch a tolerancing, datum, or BOM error before release.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechanical-drafter/references/vocabulary.md">references/vocabulary.md</a> — load when a term in a spec, redline, or GD&amp;T callout needs its precise drafting meaning, not the generic one.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>ASME Y14.5-2018, *Dimensioning and Tolerancing* — GD&amp;T symbols, MMC/RFS/LMC modifiers, datum reference frame rules, bonus-tolerance calculation.</li>
+<li>ASME Y14.3M, *Multiview and Sectional View Drawings* — first-angle vs. third-angle projection convention and required projection symbol.</li>
+<li>ASME Y14.36M, *Surface Texture Symbols* — Ra callout format and its relationship to manufacturing process.</li>
+<li>Alex Krulikowski, *Fundamentals of Geometric Dimensioning and Tolerancing* — MMC bonus-tolerance worked examples; the square-vs-cylindrical tolerance-zone comparison for coordinate vs. position tolerancing.</li>
+<li>Machinery&#x27;s Handbook (Industrial Press) — general tolerance grades, achievable process tolerance by operation (drilling/reaming/grinding), surface-finish-by-process reference tables.</li>
+<li>Worst-case vs. RSS stack-up methodology is a widely applied industry practice (see any GD&amp;T or tolerance-stack-up training curriculum, e.g. ASME/SAE tolerance-stacking courses) — the specific numeric example here is constructed for this document; verify against your own process capability data before applying RSS to a real production decision.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechanical-drafter/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add mechanical-drafter</code></p>
+</footer>
+</body>
+</html>
