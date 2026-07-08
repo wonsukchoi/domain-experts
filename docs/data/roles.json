@@ -1,5 +1,5 @@
 {
-  "count": 492,
+  "count": 497,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -148,6 +148,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/aerospace-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "agricultural-engineer",
+      "description": "Use when a task needs the judgment of an agricultural engineer \u2014 sizing a center-pivot or drip irrigation system's peak capacity against crop water demand, computing lateral grain-bin wall pressure with Janssen's equation, sizing a waterway or tile-drainage system with Manning's equation and an NRCS design-storm return period, or building a manure/nutrient first-year availability mass balance against a crop's N requirement.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/agricultural-engineer/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -1272,6 +1293,27 @@
       "skill": "roles/carpenter/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cartographer-photogrammetrist",
+      "description": "Use when a task needs the judgment of a Cartographer/Photogrammetrist \u2014 designing an aerial or LiDAR acquisition flight plan against a stated accuracy class, running an NSSDA checkpoint accuracy test on a delivered orthophoto or DTM, choosing a horizontal/vertical datum and geoid model for a georeferencing project, diagnosing why a state-plane grid distance disagrees with a field-surveyed ground distance, or specifying LiDAR point-density and classification requirements for a bare-earth deliverable.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-1021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cartographer-photogrammetrist/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -4370,6 +4412,27 @@
       ]
     },
     {
+      "slug": "geodetic-surveyor",
+      "description": "Use when a task needs the judgment of a geodetic surveyor \u2014 designing a static GNSS control network and choosing session length/redundancy for a target order/class, processing baselines through OPUS and running a minimally- then fully-constrained least-squares adjustment, converting GNSS ellipsoidal heights to orthometric elevations with the correct geoid model, evaluating whether a coordinate deliverable's datum/frame/epoch is stated correctly, or deciding whether existing published NSRS control is adequate to tie a new project to.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-1022.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/geodetic-surveyor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "geoscientist",
       "description": "Use when a task needs the judgment of a Geoscientist \u2014 correlating well logs across a stratigraphic section, estimating hydrocarbon or mineral reserves volumetrically, assessing geologic-hazard risk for a site, or interpreting subsurface structure from seismic or core data.",
       "category": "other",
@@ -5264,6 +5327,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/labor-relations-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "land-surveyor",
+      "description": "Use when a task needs the judgment of a licensed Land Surveyor \u2014 retracing a boundary from a recorded plat and found monuments, computing a traverse closure and deciding whether to accept or re-observe a course, resolving a conflict between a record deed call and physical monument evidence, preparing an ALTA/NSPS Land Title Survey, or evaluating whether an occupation line raises an unwritten-rights issue.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-1022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/land-surveyor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9971,6 +10055,27 @@
       "skill": "roles/water-resource-specialist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "water-wastewater-engineer",
+      "description": "Use when a task needs the judgment of a water/wastewater engineer \u2014 sizing a lift/pump station wet well and force main, computing chlorine contact time (CT) for Giardia/virus inactivation credit, checking a clarifier or filter against Ten States Standards hydraulic and organic loading criteria, sizing a chemical feed system across the full design-flow range, or reviewing a treatment plant's SDWA/NPDES compliance math against actual SCADA or lab data.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2051.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/water-wastewater-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],

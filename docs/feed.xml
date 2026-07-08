@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 07 Jul 2026 20:34:38 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 08:59:37 +0000</lastBuildDate>
+  <item>
+    <title>Agricultural Engineer</title>
+    <link>https://domainexperts.dev/roles/agricultural-engineer/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 15:59:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of an agricultural engineer — sizing a center-pivot or drip irrigation system&#x27;s peak capacity against crop water demand, computing lateral grain-bin wall pressure with Janssen&#x27;s equation, sizing a waterway or tile-drainage system with Manning&#x27;s equation and an NRCS design-storm return period, or building a manure/nutrient first-year availability mass balance against a crop&#x27;s N requirement.</description>
+  </item>
+  <item>
+    <title>Cartographer Photogrammetrist</title>
+    <link>https://domainexperts.dev/roles/cartographer-photogrammetrist/</link>
+    <guid>https://domainexperts.dev/roles/cartographer-photogrammetrist/</guid>
+    <pubDate>Wed, 08 Jul 2026 15:59:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cartographer/Photogrammetrist — designing an aerial or LiDAR acquisition flight plan against a stated accuracy class, running an NSSDA checkpoint accuracy test on a delivered orthophoto or DTM, choosing a horizontal/vertical datum and geoid model for a georeferencing project, diagnosing why a state-plane grid distance disagrees with a field-surveyed ground distance, or specifying LiDAR point-density and classification requirements for a bare-earth deliverable.</description>
+  </item>
+  <item>
+    <title>Geodetic Surveyor</title>
+    <link>https://domainexperts.dev/roles/geodetic-surveyor/</link>
+    <guid>https://domainexperts.dev/roles/geodetic-surveyor/</guid>
+    <pubDate>Wed, 08 Jul 2026 15:59:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a geodetic surveyor — designing a static GNSS control network and choosing session length/redundancy for a target order/class, processing baselines through OPUS and running a minimally- then fully-constrained least-squares adjustment, converting GNSS ellipsoidal heights to orthometric elevations with the correct geoid model, evaluating whether a coordinate deliverable&#x27;s datum/frame/epoch is stated correctly, or deciding whether existing published NSRS control is adequate to tie a new project to.</description>
+  </item>
+  <item>
+    <title>Land Surveyor</title>
+    <link>https://domainexperts.dev/roles/land-surveyor/</link>
+    <guid>https://domainexperts.dev/roles/land-surveyor/</guid>
+    <pubDate>Wed, 08 Jul 2026 15:59:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed Land Surveyor — retracing a boundary from a recorded plat and found monuments, computing a traverse closure and deciding whether to accept or re-observe a course, resolving a conflict between a record deed call and physical monument evidence, preparing an ALTA/NSPS Land Title Survey, or evaluating whether an occupation line raises an unwritten-rights issue.</description>
+  </item>
+  <item>
+    <title>Water Wastewater Engineer</title>
+    <link>https://domainexperts.dev/roles/water-wastewater-engineer/</link>
+    <guid>https://domainexperts.dev/roles/water-wastewater-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 15:59:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a water/wastewater engineer — sizing a lift/pump station wet well and force main, computing chlorine contact time (CT) for Giardia/virus inactivation credit, checking a clarifier or filter against Ten States Standards hydraulic and organic loading criteria, sizing a chemical feed system across the full design-flow range, or reviewing a treatment plant&#x27;s SDWA/NPDES compliance math against actual SCADA or lab data.</description>
+  </item>
   <item>
     <title>Aircraft Cargo Supervisor</title>
     <link>https://domainexperts.dev/roles/aircraft-cargo-supervisor/</link>
