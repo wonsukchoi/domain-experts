@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 09:40:50 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 09:49:33 +0000</lastBuildDate>
+  <item>
+    <title>Aerospace Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/aerospace-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/aerospace-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:49:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Aerospace Engineering and Operations Technologist/Technician — verifying an installed fastener&#x27;s preload against a drawing&#x27;s torque callout via the T=K·D·F relationship, reducing strain-gauge data from a structural proof-load test into stress and checking it against an FEA-predicted margin, selecting and executing an NDI method against a defect type and material, reducing a wind-tunnel test point&#x27;s dynamic-pressure and Reynolds-number data, or ballooning and dispositioning an AS9102 first article inspection. Distinct from an aerospace-engineer (owns the design, structural analysis, and certification basis) — this role builds, instruments, tests, and inspects the hardware the engineer specified, closing the loop with measurement rather than deriving a new analysis.</description>
+  </item>
+  <item>
+    <title>Automotive Engineer</title>
+    <link>https://domainexperts.dev/roles/automotive-engineer/</link>
+    <guid>https://domainexperts.dev/roles/automotive-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:49:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Automotive Engineer — computing weight transfer and tire friction-circle limits for a braking-while-cornering maneuver to set brake-force distribution, sizing a powertrain and gear ratio against a 0-60 mph acceleration target while checking traction versus power limits, sizing a crumple zone&#x27;s crush distance against FMVSS 208 occupant-deceleration limits, or checking a powertrain-mount or driveline natural frequency against engine firing-order excitation for NVH isolation. Distinct from an automotive-service-technician (diagnoses and repairs a vehicle already designed) — this role owns the system-level design decisions (structure, powertrain sizing, suspension geometry, restraint/crash structure, NVH) that produce the vehicle the technician later services.</description>
+  </item>
+  <item>
+    <title>Non Destructive Testing Specialist</title>
+    <link>https://domainexperts.dev/roles/non-destructive-testing-specialist/</link>
+    <guid>https://domainexperts.dev/roles/non-destructive-testing-specialist/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:49:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Non-Destructive Testing Specialist — sizing an ultrasonic (UT) weld indication with the DAC/6dB-drop technique and deciding whether it&#x27;s planar or volumetric, calculating radiographic (RT) exposure time and geometric unsharpness for a source-to-film setup, verifying a magnetic particle (MT) yoke or prod meets code field-strength minimums, evaluating a discontinuity against ASME Section V / API 510 / API 570 acceptance criteria, or computing corrosion rate and remaining life from a UT thickness survey.</description>
+  </item>
+  <item>
+    <title>Solar Energy Systems Engineer</title>
+    <link>https://domainexperts.dev/roles/solar-energy-systems-engineer/</link>
+    <guid>https://domainexperts.dev/roles/solar-energy-systems-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:49:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Solar Energy Systems Engineer working on PV generation design — sizing a string against NEC 690.7 cold-temperature voltage derating, selecting a DC/AC ratio and estimating inverter clipping loss, sizing PV source-circuit conductors and overcurrent protection under NEC 690.8/690.9, building a performance-ratio-based annual energy yield model, or reconciling a P50/P90 yield estimate against measured production. Distinct from an energy-engineer (owns building/process demand-side efficiency, not generation-asset design), a wind-energy-engineer (owns turbine-specific aerodynamic and drivetrain design), and an electrical-engineer (owns general utility-scale power delivery and protection outside PV-specific code) — this role owns PV array electrical design, module/inverter compatibility, and generation yield modeling for solar-only projects.</description>
+  </item>
+  <item>
+    <title>Wind Energy Engineer</title>
+    <link>https://domainexperts.dev/roles/wind-energy-engineer/</link>
+    <guid>https://domainexperts.dev/roles/wind-energy-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:49:17 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Wind Energy Engineer — estimating annual energy production (AEP) from a Weibull wind resource against a turbine power curve, running IEC 61400 design load cases on a tower/foundation, sizing wind farm turbine spacing against wake losses, matching turbine IEC wind class to site extremes, or reconciling a P50/P90 energy estimate for project financing. Distinct from a wind-turbine-technician (field service/repair of installed turbines), a wind-energy-operations-manager (post-COD asset/availability management), a wind-energy-development-manager (siting/permitting/financing gates — decides whether to fund this role&#x27;s design work), and an energy-engineer (explicitly excludes wind — owns demand-side building/industrial efficiency).</description>
+  </item>
   <item>
     <title>Architectural Civil Drafter</title>
     <link>https://domainexperts.dev/roles/architectural-civil-drafter/</link>
