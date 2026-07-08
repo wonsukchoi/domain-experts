@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 09:13:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 09:23:45 +0000</lastBuildDate>
+  <item>
+    <title>Human Factors Engineer</title>
+    <link>https://domainexperts.dev/roles/human-factors-engineer/</link>
+    <guid>https://domainexperts.dev/roles/human-factors-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:23:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Human Factors Engineer/Ergonomist — computing a NIOSH Lifting Index for a manual-material-handling task, scoring a workstation posture with RULA or REBA, sizing a workstation, reach, or clearance dimension against ANSI/HFES 100 anthropometric percentiles, evaluating an interface&#x27;s speed-accuracy tradeoff with Fitts&#x27;s Law, or running a usability test and interpreting a System Usability Scale score against a task-error rate. Distinct from a health-safety-engineer (owns mechanical/chemical/energy hazard elimination) and a commercial-industrial-designer (owns product form and manufacturability) — this role owns the fit between human capability (physical and cognitive) and a task, tool, or interface.</description>
+  </item>
+  <item>
+    <title>Manufacturing Engineer</title>
+    <link>https://domainexperts.dev/roles/manufacturing-engineer/</link>
+    <guid>https://domainexperts.dev/roles/manufacturing-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:23:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Manufacturing Engineer — designing or diagnosing a workholding/fixture against a print&#x27;s GD&amp;T datum scheme, running or reading a process capability study (Cpk/Ppk) and deciding whether a process is fit to release, computing a tolerance stack-up to decide worst-case versus statistical (RSS) tolerancing, building or reviewing a PFMEA and control plan for a new process, or computing OEE to separate a real capacity shortfall from a performance or quality loss. Distinct from an industrial-engineer (owns labor/line balancing against takt time, facility layout, time standards) and a quality-control-systems-manager (owns the QMS, non-conformance disposition, and batch-release decision) — this role owns the process and tooling engineering that makes a print&#x27;s tolerances physically achievable and repeatable.</description>
+  </item>
+  <item>
+    <title>Marine Engineer Naval Architect</title>
+    <link>https://domainexperts.dev/roles/marine-engineer-naval-architect/</link>
+    <guid>https://domainexperts.dev/roles/marine-engineer-naval-architect/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:23:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Marine Engineer / Naval Architect — computing displacement and hydrostatic particulars from hull-form coefficients, running an intact stability (GM/righting-arm) check against IMO IS Code criteria, calculating minimum freeboard under the International Convention on Load Lines, estimating required propulsion power via the Admiralty coefficient method, or reviewing a stability booklet or midship scantling against a classification society&#x27;s rules.</description>
+  </item>
+  <item>
+    <title>Materials Engineer</title>
+    <link>https://domainexperts.dev/roles/materials-engineer/</link>
+    <guid>https://domainexperts.dev/roles/materials-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:23:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Materials Engineer — selecting an alloy or process for a design under a strength/weight/cost constraint, running a fatigue-life or mean-stress (Goodman/Gerber) calculation on a loaded component, doing root-cause fractography and fitness-for-service on a field failure, specifying a heat-treatment or hardenability callout for a given section size, or setting an inspection interval from a fracture-mechanics critical flaw size. Distinct from a materials-scientist (develops new materials and characterizes fundamental structure-property relationships in the lab) and a mechanical-engineer (takes material properties as a given input to size a structure) — this role owns the applied engineering questions of which material, which process, and why a specific part actually broke.</description>
+  </item>
+  <item>
+    <title>Petroleum Engineer</title>
+    <link>https://domainexperts.dev/roles/petroleum-engineer/</link>
+    <guid>https://domainexperts.dev/roles/petroleum-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:23:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Petroleum Engineer — fitting and correcting a decline curve to estimate EUR and book reserves, running a material balance check against a volumetric OOIP/OGIP estimate, sizing a well&#x27;s producing rate with nodal analysis (IPR x VLP intersection), checking a casing or tubing string&#x27;s burst/collapse design factor against a load case, evaluating a waterflood&#x27;s voidage replacement ratio, or classifying reserves under SPE-PRMS/SEC categories for a reserves report.</description>
+  </item>
   <item>
     <title>Computer Hardware Engineer</title>
     <link>https://domainexperts.dev/roles/computer-hardware-engineer/</link>

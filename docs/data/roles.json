@@ -1,5 +1,5 @@
 {
-  "count": 502,
+  "count": 507,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4950,6 +4950,27 @@
       ]
     },
     {
+      "slug": "human-factors-engineer",
+      "description": "Use when a task needs the judgment of a Human Factors Engineer/Ergonomist \u2014 computing a NIOSH Lifting Index for a manual-material-handling task, scoring a workstation posture with RULA or REBA, sizing a workstation, reach, or clearance dimension against ANSI/HFES 100 anthropometric percentiles, evaluating an interface's speed-accuracy tradeoff with Fitts's Law, or running a usability test and interpreting a System Usability Scale score against a task-error rate. Distinct from a health-safety-engineer (owns mechanical/chemical/energy hazard elimination) and a commercial-industrial-designer (owns product form and manufacturability) \u2014 this role owns the fit between human capability (physical and cognitive) and a task, tool, or interface.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2112.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/human-factors-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "hvac-technician",
       "description": "Use when a task needs senior HVAC-technician judgment \u2014 verifying refrigerant charge against a manufacturer target, sizing or right-sizing equipment against a Manual J load, diagnosing a short-cycling or poor-dehumidification complaint, reading static pressure and airflow to separate a duct problem from a charge problem, or handling refrigerant under EPA Section 608 requirements.",
       "category": "operations",
@@ -5943,6 +5964,48 @@
       ]
     },
     {
+      "slug": "manufacturing-engineer",
+      "description": "Use when a task needs the judgment of a Manufacturing Engineer \u2014 designing or diagnosing a workholding/fixture against a print's GD&T datum scheme, running or reading a process capability study (Cpk/Ppk) and deciding whether a process is fit to release, computing a tolerance stack-up to decide worst-case versus statistical (RSS) tolerancing, building or reviewing a PFMEA and control plan for a new process, or computing OEE to separate a real capacity shortfall from a performance or quality loss. Distinct from an industrial-engineer (owns labor/line balancing against takt time, facility layout, time standards) and a quality-control-systems-manager (owns the QMS, non-conformance disposition, and batch-release decision) \u2014 this role owns the process and tooling engineering that makes a print's tolerances physically achievable and repeatable.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2112.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/manufacturing-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "marine-engineer-naval-architect",
+      "description": "Use when a task needs the judgment of a Marine Engineer / Naval Architect \u2014 computing displacement and hydrostatic particulars from hull-form coefficients, running an intact stability (GM/righting-arm) check against IMO IS Code criteria, calculating minimum freeboard under the International Convention on Load Lines, estimating required propulsion power via the Admiralty coefficient method, or reviewing a stability booklet or midship scantling against a classification society's rules.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2121.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/marine-engineer-naval-architect/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "marketing-manager",
       "description": "Use when a task needs the judgment of a Marketing Manager \u2014 running a marketing team/function, allocating budget across programs, approving campaign plans, or reporting marketing performance to leadership. Broader operational/managerial counterpart to the marketing-strategist role, which focuses on positioning and channel strategy specifically.",
       "category": "marketing",
@@ -6034,6 +6097,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/material-moving-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "materials-engineer",
+      "description": "Use when a task needs the judgment of a Materials Engineer \u2014 selecting an alloy or process for a design under a strength/weight/cost constraint, running a fatigue-life or mean-stress (Goodman/Gerber) calculation on a loaded component, doing root-cause fractography and fitness-for-service on a field failure, specifying a heat-treatment or hardenability callout for a given section size, or setting an inspection interval from a fracture-mechanics critical flaw size. Distinct from a materials-scientist (develops new materials and characterizes fundamental structure-property relationships in the lab) and a mechanical-engineer (takes material properties as a given input to size a structure) \u2014 this role owns the applied engineering questions of which material, which process, and why a specific part actually broke.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2131.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/materials-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7253,6 +7337,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/pesticide-handler-vegetation/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "petroleum-engineer",
+      "description": "Use when a task needs the judgment of a Petroleum Engineer \u2014 fitting and correcting a decline curve to estimate EUR and book reserves, running a material balance check against a volumetric OOIP/OGIP estimate, sizing a well's producing rate with nodal analysis (IPR x VLP intersection), checking a casing or tubing string's burst/collapse design factor against a load case, evaluating a waterflood's voidage replacement ratio, or classifying reserves under SPE-PRMS/SEC categories for a reserves report.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2171.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/petroleum-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
