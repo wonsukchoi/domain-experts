@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:28:11 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:28:52 +0000</lastBuildDate>
+  <item>
+    <title>Electromechanical Technician</title>
+    <link>https://domainexperts.dev/roles/electromechanical-technician/</link>
+    <guid>https://domainexperts.dev/roles/electromechanical-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:28:41 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electromechanical Technician — meggering a motor and reading polarization index, zone-classifying a vibration reading against ISO 10816/20816, decay-testing a pneumatic cylinder, pull-testing a crimp against IPC/WHMA-A-620, diagnosing a PLC rung that &quot;looks right but won&#x27;t fire,&quot; or selecting arc-flash PPE category before opening an enclosure.</description>
+  </item>
   <item>
     <title>Nanosystems Engineer</title>
     <link>https://domainexperts.dev/roles/nanosystems-engineer/</link>
