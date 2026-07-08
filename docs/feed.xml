@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:29:27 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:30:51 +0000</lastBuildDate>
+  <item>
+    <title>Automotive Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/automotive-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/automotive-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:30:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Automotive Engineering Technician — setting up and instrumenting test equipment (strain-gauge bridges, thermocouples, load/torque sensors) to an engineer&#x27;s written test plan, selecting DAQ sample rate and an SAE J211 CFC filter class for a vehicle test channel, verifying instrument calibration (torque wrench, thermocouple, load cell, shunt-cal check on a strain bridge) against a traceable standard before a test run, reducing dyno or road-load test data (SAE J1349 power correction, rainflow-counted durability damage fraction) into engineering units, and documenting test results against the engineer&#x27;s target with stated margin. Distinct from an automotive engineer (owns the system-level design decisions — structure, powertrain sizing, suspension geometry, NVH) — this role installs the sensors, configures the DAQ, executes the instrumented test, and reduces the data under a design and test plan the engineer specified.</description>
+  </item>
   <item>
     <title>Nanotechnology Engineering Technician</title>
     <link>https://domainexperts.dev/roles/nanotechnology-engineering-technician/</link>
