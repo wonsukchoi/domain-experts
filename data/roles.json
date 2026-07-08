@@ -1,5 +1,5 @@
 {
-  "count": 532,
+  "count": 533,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8961,6 +8961,27 @@
       "skill": "roles/retail-buyer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "rfid-device-specialist",
+      "description": "Use when a task needs the judgment of an RFID Device Specialist \u2014 running a site RF survey before a warehouse or retail RFID deployment, diagnosing a degraded read rate or dead zone on an installed portal, selecting tag/reader/antenna configurations against FCC/ETSI power limits, or bridging RFID event data into a legacy WMS/ERP that can't ingest it natively.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2072.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/rfid-device-specialist/SKILL.md",
+      "references": [
+        "deployment-playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
