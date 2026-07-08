@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 526 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 527 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (50/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (51/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -219,7 +219,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2171.00 | Petroleum Engineers | [`petroleum-engineer`](./roles/petroleum-engineer/SKILL.md) |
 | ✅ | 17-2199.00 | Engineers, All Other | [`general-engineer`](./roles/general-engineer/SKILL.md) |
 | ✅ | 17-2199.03 | Energy Engineers, Except Wind and Solar | [`energy-engineer`](./roles/energy-engineer/SKILL.md) |
-|  | 17-2199.05 | Mechatronics Engineers |  |
+| ✅ | 17-2199.05 | Mechatronics Engineers | [`mechatronics-engineer`](./roles/mechatronics-engineer/SKILL.md) |
 |  | 17-2199.06 | Microsystems Engineers |  |
 | ✅ | 17-2199.07 | Photonics Engineers | [`photonics-engineer`](./roles/photonics-engineer/SKILL.md) |
 | ✅ | 17-2199.08 | Robotics Engineers | [`robotics-engineer`](./roles/robotics-engineer/SKILL.md) |
