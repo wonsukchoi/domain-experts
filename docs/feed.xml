@@ -4,7 +4,21 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 11:10:27 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:18:57 +0000</lastBuildDate>
+  <item>
+    <title>Fuel Cell Engineer</title>
+    <link>https://domainexperts.dev/roles/fuel-cell-engineer/</link>
+    <guid>https://domainexperts.dev/roles/fuel-cell-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:18:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fuel Cell Engineer — diagnosing PEMFC voltage-decay data to identify the degradation mechanism, setting stack clamping torque/compression for a new build, designing or interpreting an accelerated stress test protocol, specifying start-stop or cold-start mitigation strategy, or evaluating whether a durability/efficiency claim actually meets DOE-style targets simultaneously rather than one at a time.</description>
+  </item>
+  <item>
+    <title>General Engineer</title>
+    <link>https://domainexperts.dev/roles/general-engineer/</link>
+    <guid>https://domainexperts.dev/roles/general-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:18:44 +0700</pubDate>
+    <description>Use when a task needs cross-disciplinary generalist-engineer judgment — scoping a problem that doesn&#x27;t sit inside one named discipline, deciding whether to proceed in-house or route to a specialist, reviewing a fabricator&#x27;s shop-drawing or spec substitution for load-path or interface impact, writing an interface control document across a contractor/team boundary, or drafting a design-decision memo that states the margin and what could break it.</description>
+  </item>
   <item>
     <title>Validation Engineer</title>
     <link>https://domainexperts.dev/roles/validation-engineer/</link>

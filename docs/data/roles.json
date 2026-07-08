@@ -1,5 +1,5 @@
 {
-  "count": 533,
+  "count": 536,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4462,6 +4462,27 @@
       ]
     },
     {
+      "slug": "fuel-cell-engineer",
+      "description": "Use when a task needs the judgment of a Fuel Cell Engineer \u2014 diagnosing PEMFC voltage-decay data to identify the degradation mechanism, setting stack clamping torque/compression for a new build, designing or interpreting an accelerated stress test protocol, specifying start-stop or cold-start mitigation strategy, or evaluating whether a durability/efficiency claim actually meets DOE-style targets simultaneously rather than one at a time.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2141.01",
+      "parent": "mechanical-engineer",
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fuel-cell-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "full-stack-developer",
       "description": "Use when a task needs the judgment of a full-stack developer \u2014 shipping a feature end to end across UI, API, and database; designing the client/server contract; choosing a rendering strategy (SSR/CSR/SSG); diagnosing whether a slow page is network, render, or query; or deciding where a piece of state should live.",
       "category": "engineering",
@@ -4616,6 +4637,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/gas-compressor-station-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "general-engineer",
+      "description": "Use when a task needs cross-disciplinary generalist-engineer judgment \u2014 scoping a problem that doesn't sit inside one named discipline, deciding whether to proceed in-house or route to a specialist, reviewing a fabricator's shop-drawing or spec substitution for load-path or interface impact, writing an interface control document across a contractor/team boundary, or drafting a design-decision memo that states the margin and what could break it.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/general-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
