@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:27:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:28:11 +0000</lastBuildDate>
+  <item>
+    <title>Nanosystems Engineer</title>
+    <link>https://domainexperts.dev/roles/nanosystems-engineer/</link>
+    <guid>https://domainexperts.dev/roles/nanosystems-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:27:58 +0700</pubDate>
+    <description>Use when a task needs nanosystems-engineer judgment — choosing a nanofabrication process for a target production volume, diagnosing an ALD or lithography conformality/overlay failure from metrology data, designing nanomaterial exposure controls with no regulatory PEL to lean on, or judging whether a nanomaterial or nanoscale device claim is actually production-ready versus still lab-stage.</description>
+  </item>
   <item>
     <title>Microsystems Engineer</title>
     <link>https://domainexperts.dev/roles/microsystems-engineer/</link>
