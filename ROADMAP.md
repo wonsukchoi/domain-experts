@@ -207,7 +207,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2111.02 | Fire-Prevention and Protection Engineers | [`fire-protection-engineer`](./roles/fire-protection-engineer/SKILL.md) |
 | ✅ | 17-2112.00 | Industrial Engineers | [`industrial-engineer`](./roles/industrial-engineer/SKILL.md) |
 | ✅ | 17-2112.01 | Human Factors Engineers and Ergonomists | [`human-factors-engineer`](./roles/human-factors-engineer/SKILL.md) |
-|  | 17-2112.02 | Validation Engineers |  |
+| ✅ | 17-2112.02 | Validation Engineers | [`validation-engineer`](./roles/validation-engineer/SKILL.md) |
 | ✅ | 17-2112.03 | Manufacturing Engineers | [`manufacturing-engineer`](./roles/manufacturing-engineer/SKILL.md) |
 | ✅ | 17-2121.00 | Marine Engineers and Naval Architects | [`marine-engineer-naval-architect`](./roles/marine-engineer-naval-architect/SKILL.md) |
 | ✅ | 17-2131.00 | Materials Engineers | [`materials-engineer`](./roles/materials-engineer/SKILL.md) |
