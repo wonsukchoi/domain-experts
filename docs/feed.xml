@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:28:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:29:27 +0000</lastBuildDate>
+  <item>
+    <title>Nanotechnology Engineering Technician</title>
+    <link>https://domainexperts.dev/roles/nanotechnology-engineering-technician/</link>
+    <guid>https://domainexperts.dev/roles/nanotechnology-engineering-technician/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:29:15 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nanotechnology Engineering Technician — running or qualifying an RCA wet-clean sequence, diagnosing atomic layer deposition growth-per-cycle drift mid-run, sampling cleanroom air for engineered-nanomaterial exposure against NIOSH RELs, troubleshooting AFM probe wear or image-resolution loss, or verifying ISO 14644-1 cleanroom classification and ESD/gowning compliance before a fab run.</description>
+  </item>
   <item>
     <title>Electromechanical Technician</title>
     <link>https://domainexperts.dev/roles/electromechanical-technician/</link>
