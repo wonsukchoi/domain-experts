@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 492 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 497 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (21/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (26/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -206,17 +206,17 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2111.00 | Health and Safety Engineers, Except Mining Safety Engineers and Inspectors | [`health-safety-engineer`](./roles/health-safety-engineer/SKILL.md) |
 | ✅ | 17-2111.02 | Fire-Prevention and Protection Engineers | [`fire-protection-engineer`](./roles/fire-protection-engineer/SKILL.md) |
 | ✅ | 17-2112.00 | Industrial Engineers | [`industrial-engineer`](./roles/industrial-engineer/SKILL.md) |
-|  | 17-2112.01 | Human Factors Engineers and Ergonomists |  |
+| ✅ | 17-2112.01 | Human Factors Engineers and Ergonomists | [`human-factors-engineer`](./roles/human-factors-engineer/SKILL.md) |
 |  | 17-2112.02 | Validation Engineers |  |
-|  | 17-2112.03 | Manufacturing Engineers |  |
-|  | 17-2121.00 | Marine Engineers and Naval Architects |  |
-|  | 17-2131.00 | Materials Engineers |  |
+| ✅ | 17-2112.03 | Manufacturing Engineers | [`manufacturing-engineer`](./roles/manufacturing-engineer/SKILL.md) |
+| ✅ | 17-2121.00 | Marine Engineers and Naval Architects | [`marine-engineer-naval-architect`](./roles/marine-engineer-naval-architect/SKILL.md) |
+| ✅ | 17-2131.00 | Materials Engineers | [`materials-engineer`](./roles/materials-engineer/SKILL.md) |
 | ✅ | 17-2141.00 | Mechanical Engineers | [`mechanical-engineer`](./roles/mechanical-engineer/SKILL.md) |
 |  | 17-2141.01 | Fuel Cell Engineers |  |
 |  | 17-2141.02 | Automotive Engineers |  |
 |  | 17-2151.00 | Mining and Geological Engineers, Including Mining Safety Engineers |  |
 | ✅ | 17-2161.00 | Nuclear Engineers | [`nuclear-engineer`](./roles/nuclear-engineer/SKILL.md) |
-|  | 17-2171.00 | Petroleum Engineers |  |
+| ✅ | 17-2171.00 | Petroleum Engineers | [`petroleum-engineer`](./roles/petroleum-engineer/SKILL.md) |
 |  | 17-2199.00 | Engineers, All Other |  |
 |  | 17-2199.03 | Energy Engineers, Except Wind and Solar |  |
 |  | 17-2199.05 | Mechatronics Engineers |  |
