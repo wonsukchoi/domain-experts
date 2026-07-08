@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 10:24:38 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 11:09:58 +0000</lastBuildDate>
+  <item>
+    <title>Rfid Device Specialist</title>
+    <link>https://domainexperts.dev/roles/rfid-device-specialist/</link>
+    <guid>https://domainexperts.dev/roles/rfid-device-specialist/</guid>
+    <pubDate>Wed, 08 Jul 2026 17:44:33 +0700</pubDate>
+    <description>Use when a task needs the judgment of an RFID Device Specialist — running a site RF survey before a warehouse or retail RFID deployment, diagnosing a degraded read rate or dead zone on an installed portal, selecting tag/reader/antenna configurations against FCC/ETSI power limits, or bridging RFID event data into a legacy WMS/ERP that can&#x27;t ingest it natively.</description>
+  </item>
   <item>
     <title>Anthropologist Archeologist</title>
     <link>https://domainexperts.dev/roles/anthropologist-archeologist/</link>
