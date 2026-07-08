@@ -6,6 +6,9 @@ metadata:
   maturity: draft
   spec: 2
   onet_soc_code: "25-3011.00"
+  status: active
+  last_audited: "2026-07-08"
+  audit_score: 18
 ---
 
 # Adult ESL/Basic Education Instructor

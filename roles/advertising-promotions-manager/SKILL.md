@@ -5,6 +5,9 @@ metadata:
   category: marketing
   maturity: draft
   onet_soc_code: "11-2011.00"
+  status: needs-refresh
+  last_audited: "2026-07-08"
+  audit_score: 5
 ---
 
 # Advertising and Promotions Manager
