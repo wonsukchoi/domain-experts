@@ -1,5 +1,5 @@
 {
-  "count": 542,
+  "count": 543,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8009,6 +8009,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/photonics-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "photonics-technician",
+      "description": "Use when a task needs the judgment of a Photonics Technician \u2014 inspecting a fiber end-face against IEC 61300-3-35 pass/fail zone criteria, fusion- or mechanical-splicing fiber and verifying the loss against budget, reading an OTDR trace for a fault that may be hidden in a dead zone, running an L-I-V sweep and burn-in on a laser diode, or handling and hermeticity-testing an ESD-sensitive optoelectronic package under GR-468-CORE.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3029.08",
+      "parent": "photonics-engineer",
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/photonics-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
