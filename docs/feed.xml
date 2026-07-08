@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 09:23:45 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 09:40:50 +0000</lastBuildDate>
+  <item>
+    <title>Architectural Civil Drafter</title>
+    <link>https://domainexperts.dev/roles/architectural-civil-drafter/</link>
+    <guid>https://domainexperts.dev/roles/architectural-civil-drafter/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:40:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Architectural and Civil Drafter — setting up a CAD sheet at the correct scale and viewport scale factor, applying NCS/AIA layer and sheet-numbering standards, dimensioning a wall assembly or site plan per governing convention, managing xrefs and revision clouds across a sheet set, or QC-checking a drawing set before issuance.</description>
+  </item>
+  <item>
+    <title>Energy Engineer</title>
+    <link>https://domainexperts.dev/roles/energy-engineer/</link>
+    <guid>https://domainexperts.dev/roles/energy-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:40:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Energy Engineer working on building and industrial energy efficiency — running an ASHRAE Level 1/2/3 energy audit, calculating envelope heat loss/gain with the degree-day method, comparing HVAC equipment on SEER/EER/IEER/COP rather than nameplate alone, designing an IPMVP measurement and verification (M&amp;V) plan, or ranking energy conservation measures (ECMs) by savings-to-investment ratio for a capital plan. Distinct from a wind-energy-engineer or solar/PV engineer (own generation-asset design and yield) and from an electrical-engineer (owns utility-scale power delivery and protection) — this role owns the demand side: how much energy a building or process actually needs, and which retrofit reduces that number with numbers that hold up after the fact.</description>
+  </item>
+  <item>
+    <title>Mining Geological Engineer</title>
+    <link>https://domainexperts.dev/roles/mining-geological-engineer/</link>
+    <guid>https://domainexperts.dev/roles/mining-geological-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:40:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mining and Geological Engineer — running a pit-slope or underground-opening stability check (limit-equilibrium factor of safety, RMR/Q ground support design), setting an economic cutoff grade or reading a grade-tonnage curve for reserve definition, sizing mine ventilation airflow against MSHA quantity standards, or sequencing extraction/stope design for an ore body under a stability or economic constraint.</description>
+  </item>
+  <item>
+    <title>Photonics Engineer</title>
+    <link>https://domainexperts.dev/roles/photonics-engineer/</link>
+    <guid>https://domainexperts.dev/roles/photonics-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:40:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Photonics Engineer — sizing a Gaussian-beam coupling lens system between a laser source and a single-mode fiber, closing an optical fiber link power budget in dB with end-of-life margin, specifying a diffraction-limited focusing or imaging lens against the Rayleigh criterion, classifying a laser source&#x27;s hazard class and computing MPE/NOHD per ANSI Z136.1, or diagnosing a beam-quality or link-loss failure.</description>
+  </item>
+  <item>
+    <title>Robotics Engineer</title>
+    <link>https://domainexperts.dev/roles/robotics-engineer/</link>
+    <guid>https://domainexperts.dev/roles/robotics-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:40:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Robotics Engineer — deriving forward/inverse kinematics for a serial-link manipulator from Denavit-Hartenberg parameters, sizing a joint actuator and gearbox against gravity and inertial torque, tuning a joint position-control loop from measured plant response, selecting an encoder or sensor to meet an end-effector accuracy budget, or computing a protective separation distance for a collaborative deployment under ISO/TS 15066. Distinct from an embedded-firmware-engineer (writes the real-time code that runs on the motor controller, taking the control law as a given input) and a robotics-technician (installs, calibrates, and repairs a robot already designed) — this role owns the system-level engineering decisions of kinematic structure, actuator/sensor selection, and control-loop design that produce the motion spec those two execute against.</description>
+  </item>
   <item>
     <title>Human Factors Engineer</title>
     <link>https://domainexperts.dev/roles/human-factors-engineer/</link>
