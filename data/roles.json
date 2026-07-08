@@ -1,5 +1,5 @@
 {
-  "count": 533,
+  "count": 535,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4452,6 +4452,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/frontend-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "fuel-cell-engineer",
+      "description": "Use when a task needs the judgment of a Fuel Cell Engineer \u2014 diagnosing PEMFC voltage-decay data to identify the degradation mechanism, setting stack clamping torque/compression for a new build, designing or interpreting an accelerated stress test protocol, specifying start-stop or cold-start mitigation strategy, or evaluating whether a durability/efficiency claim actually meets DOE-style targets simultaneously rather than one at a time.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2141.01",
+      "parent": "mechanical-engineer",
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fuel-cell-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
