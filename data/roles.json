@@ -1,5 +1,5 @@
 {
-  "count": 536,
+  "count": 537,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6580,6 +6580,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mechanics-installers-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mechatronics-engineer",
+      "description": "Use when a task needs the judgment of a Mechatronics Engineer \u2014 designing a backlash-compensation or motion-control algorithm for an electromechanical assembly, choosing motor-side vs. load-side sensor placement, matching inertia ratio and gearing on a servo axis, specifying an EMC/grounding scheme for a mixed mechanical-electrical assembly, or diagnosing whether a field failure is mechanical, electrical, or firmware in origin.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-2199.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mechatronics-engineer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
