@@ -1,5 +1,5 @@
 {
-  "count": 543,
+  "count": 544,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1085,6 +1085,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/bioinformatics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "biologist",
+      "description": "Use when a task needs the judgment of a Biologist \u2014 designing a study and identifying its true experimental unit before data collection starts, running a power analysis to size a sample, judging whether a published or preclinical finding warrants trust without independent replication, sequencing IACUC/IBC/field-permit approvals before biosafety or wildlife work begins, or scoping a grant-funded research plan against realistic funding odds.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-1029.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
