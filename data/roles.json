@@ -1,5 +1,5 @@
 {
-  "count": 517,
+  "count": 522,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1291,6 +1291,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/business-intelligence-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "calibration-technician",
+      "description": "Use when a task needs the judgment of a Calibration Technologist/Technician \u2014 computing a Test Uncertainty Ratio (TUR) and deciding whether it meets the 4:1 target, building a measurement uncertainty budget (Type A/Type B, GUM-style) for a calibration, tracing a reference standard's chain of custody to NIST/SI, setting or adjusting a calibration interval from in-tolerance/out-of-tolerance history, or writing the accept/reject call and guard-banded pass/fail on a calibration certificate.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3028.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/calibration-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3158,6 +3179,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/electric-motor-power-tool-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "electrical-electronics-drafter",
+      "description": "Use when a task needs the judgment of an Electrical and Electronics Drafter \u2014 sizing a conductor and conduit for a panel or feeder circuit against NEC ampacity and fill tables, building a schematic/elementary diagram or one-line diagram on IEEE 315/ANSI Y32.2 symbols, cross-referencing wire numbers between a schematic and a panel wiring diagram, sizing a PCB trace against IPC-2221 current tables, or QC-checking an electrical drawing set before issuance.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electrical-electronics-drafter/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6254,6 +6296,27 @@
       ]
     },
     {
+      "slug": "mechanical-drafter",
+      "description": "Use when a task needs the judgment of a Mechanical Drafter \u2014 dimensioning and GD&T-tolerancing a machined part or sheet-metal detail per ASME Y14.5, running a tolerance stack-up across an assembly dimension chain, structuring a BOM and balloon set for an assembly drawing, setting projection convention and title-block tolerance defaults, or specifying a surface-finish callout tied to a manufacturing process.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mechanical-drafter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mechanical-engineer",
       "description": "Use when a task needs the judgment of a Mechanical Engineer \u2014 interpreting FEA stress results for fatigue vs. yield risk, selecting a factor of safety by load-case criticality, choosing between materials on strength-to-weight and manufacturability tradeoffs, running a tolerance stack-up on an assembly, or reviewing a CAD design for manufacturability before release to production.",
       "category": "engineering",
@@ -8738,6 +8801,27 @@
       ]
     },
     {
+      "slug": "robotics-technician",
+      "description": "Use when a task needs the judgment of a Robotics Technician \u2014 installing and commissioning an industrial robot cell, remastering a joint and verifying the stored pulse count after a collision or encoder-battery replacement, running a lockout/tagout on a multi-axis cell with electrical/pneumatic/hydraulic stored energy, calibrating a Tool Center Point and judging the residual against process tolerance, decomposing a cycle-time regression by program segment to find the actual driver, or verifying a safety-rated stopping distance/time measurement against the certified spec after a repair. Distinct from a robotics-engineer (owns kinematic structure, actuator sizing, and control-loop design for a robot not yet built) \u2014 this role installs, commissions, calibrates, troubleshoots, and maintains a robot whose design is already fixed.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3024.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/robotics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "roofer",
       "description": "Use when a task needs the judgment of a Roofer \u2014 planning fall protection and anchor points for a steep-slope job, specifying a nailing pattern against a wind-zone rating, matching a roofing system to a measured slope, sizing and balancing attic intake/exhaust ventilation, or specifying ice-and-water shield extent for a climate zone.",
       "category": "operations",
@@ -9653,6 +9737,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/survey-researcher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "surveying-mapping-technician",
+      "description": "Use when a task needs the judgment of a Surveying and Mapping Technician \u2014 verifying RTK GNSS fix quality (PDOP, fixed vs. float, baseline length) before logging a control shot, running DR angle observations and checking traverse closure in the field before leaving a site, closing a differential leveling loop to a benchmark, verifying stakeout offset and cut/fill against design tolerance before setting a permanent hub, or flagging a field evidence anomaly to the party chief or licensed surveyor of record.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/surveying-mapping-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

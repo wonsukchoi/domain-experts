@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 507 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 512 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -182,7 +182,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>17 — Architecture and Engineering</strong> (36/59 drafted)</summary>
+<summary><strong>17 — Architecture and Engineering</strong> (41/59 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -227,24 +227,24 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 17-2199.10 | Wind Energy Engineers | [`wind-energy-engineer`](./roles/wind-energy-engineer/SKILL.md) |
 | ✅ | 17-2199.11 | Solar Energy Systems Engineers | [`solar-energy-systems-engineer`](./roles/solar-energy-systems-engineer/SKILL.md) |
 | ✅ | 17-3011.00 | Architectural and Civil Drafters | [`architectural-civil-drafter`](./roles/architectural-civil-drafter/SKILL.md) |
-|  | 17-3012.00 | Electrical and Electronics Drafters |  |
-|  | 17-3013.00 | Mechanical Drafters |  |
+| ✅ | 17-3012.00 | Electrical and Electronics Drafters | [`electrical-electronics-drafter`](./roles/electrical-electronics-drafter/SKILL.md) |
+| ✅ | 17-3013.00 | Mechanical Drafters | [`mechanical-drafter`](./roles/mechanical-drafter/SKILL.md) |
 |  | 17-3019.00 | Drafters, All Other |  |
 | ✅ | 17-3021.00 | Aerospace Engineering and Operations Technologists and Technicians | [`aerospace-engineering-technician`](./roles/aerospace-engineering-technician/SKILL.md) |
 |  | 17-3022.00 | Civil Engineering Technologists and Technicians |  |
 |  | 17-3023.00 | Electrical and Electronic Engineering Technologists and Technicians |  |
 |  | 17-3024.00 | Electro-Mechanical and Mechatronics Technologists and Technicians |  |
-|  | 17-3024.01 | Robotics Technicians |  |
+| ✅ | 17-3024.01 | Robotics Technicians | [`robotics-technician`](./roles/robotics-technician/SKILL.md) |
 |  | 17-3025.00 | Environmental Engineering Technologists and Technicians |  |
 |  | 17-3026.00 | Industrial Engineering Technologists and Technicians |  |
 |  | 17-3026.01 | Nanotechnology Engineering Technologists and Technicians |  |
 |  | 17-3027.00 | Mechanical Engineering Technologists and Technicians |  |
 |  | 17-3027.01 | Automotive Engineering Technicians |  |
-|  | 17-3028.00 | Calibration Technologists and Technicians |  |
+| ✅ | 17-3028.00 | Calibration Technologists and Technicians | [`calibration-technician`](./roles/calibration-technician/SKILL.md) |
 |  | 17-3029.00 | Engineering Technologists and Technicians, Except Drafters, All Other |  |
 | ✅ | 17-3029.01 | Non-Destructive Testing Specialists | [`non-destructive-testing-specialist`](./roles/non-destructive-testing-specialist/SKILL.md) |
 |  | 17-3029.08 | Photonics Technicians |  |
-|  | 17-3031.00 | Surveying and Mapping Technicians |  |
+| ✅ | 17-3031.00 | Surveying and Mapping Technicians | [`surveying-mapping-technician`](./roles/surveying-mapping-technician/SKILL.md) |
 
 </details>
 
