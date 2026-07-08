@@ -1,5 +1,5 @@
 {
-  "count": 541,
+  "count": 542,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -816,6 +816,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/automotive-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "automotive-engineering-technician",
+      "description": "Use when a task needs the judgment of an Automotive Engineering Technician \u2014 setting up and instrumenting test equipment (strain-gauge bridges, thermocouples, load/torque sensors) to an engineer's written test plan, selecting DAQ sample rate and an SAE J211 CFC filter class for a vehicle test channel, verifying instrument calibration (torque wrench, thermocouple, load cell, shunt-cal check on a strain bridge) against a traceable standard before a test run, reducing dyno or road-load test data (SAE J1349 power correction, rainflow-counted durability damage fraction) into engineering units, and documenting test results against the engineer's target with stated margin. Distinct from an automotive engineer (owns the system-level design decisions \u2014 structure, powertrain sizing, suspension geometry, NVH) \u2014 this role installs the sensors, configures the DAQ, executes the instrumented test, and reduces the data under a design and test plan the engineer specified.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3027.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/automotive-engineering-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
