@@ -1,5 +1,5 @@
 {
-  "count": 539,
+  "count": 540,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3326,6 +3326,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/electrician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "electromechanical-technician",
+      "description": "Use when a task needs the judgment of an Electromechanical Technician \u2014 meggering a motor and reading polarization index, zone-classifying a vibration reading against ISO 10816/20816, decay-testing a pneumatic cylinder, pull-testing a crimp against IPC/WHMA-A-620, diagnosing a PLC rung that \"looks right but won't fire,\" or selecting arc-flash PPE category before opening an enclosure.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "17-3024.00",
+      "parent": "mechatronics-engineer",
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electromechanical-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
