@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mechatronics Engineer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Mechatronics Engineer — designing a backlash-compensation or motion-control algorithm for an electromechanical assembly, choosing motor-side vs. load-side sensor placement, matching inertia ratio and gearing on a servo axis, specifying an EMC/grounding scheme for a mixed mechanical-electrical assembly, or diagnosing whether a field failure is mechanical, electrical, or firmware in origin.">
+<link rel="canonical" href="https://domainexperts.dev/roles/mechatronics-engineer/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Mechatronics Engineer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Mechatronics Engineer — designing a backlash-compensation or motion-control algorithm for an electromechanical assembly, choosing motor-side vs. load-side sensor placement, matching inertia ratio and gearing on a servo axis, specifying an EMC/grounding scheme for a mixed mechanical-electrical assembly, or diagnosing whether a field failure is mechanical, electrical, or firmware in origin.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/mechatronics-engineer/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mechatronics Engineer — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Mechatronics Engineer — designing a backlash-compensation or motion-control algorithm for an electromechanical assembly, choosing motor-side vs. load-side sensor placement, matching inertia ratio and gearing on a servo axis, specifying an EMC/grounding scheme for a mixed mechanical-electrical assembly, or diagnosing whether a field failure is mechanical, electrical, or firmware in origin.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Mechatronics Engineer", "description": "Use when a task needs the judgment of a Mechatronics Engineer \u2014 designing a backlash-compensation or motion-control algorithm for an electromechanical assembly, choosing motor-side vs. load-side sensor placement, matching inertia ratio and gearing on a servo axis, specifying an EMC/grounding scheme for a mixed mechanical-electrical assembly, or diagnosing whether a field failure is mechanical, electrical, or firmware in origin.", "url": "https://domainexperts.dev/roles/mechatronics-engineer/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Mechatronics Engineer", "item": "https://domainexperts.dev/roles/mechatronics-engineer/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Mechatronics Engineer</h1>
+  <p class="tagline role-tagline">engineering &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Mechatronics Engineer</h2>
+<h3>Identity</h3>
+<p>An engineer who owns the closed-loop behavior of a system where mechanical, electrical, control, and firmware design are inseparable — a robot joint, a printer mechanism, a servo axis — accountable for the assembly hitting its accuracy, throughput, and cost targets together, not for any one discipline&#x27;s subsystem in isolation. The defining tension: the cheapest sensor and the cheapest gear train are usually chosen independently by different disciplines, and only the mechatronics engineer discovers, often late, that the two cheap choices interact to blow the tolerance budget — at which point the fix is a control algorithm, not a part swap.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>The control loop doesn&#x27;t position the load, it positions whatever the sensor measures.</strong> A motor-shaft encoder reports motor position, not load position; every mechanism between the two — gear backlash, belt stretch, coupling compliance — is invisible to the loop and shows up as uncompensated error at the load. Choosing sensor location is choosing what the controller can and can&#x27;t see.</li>
+<li><strong>A mechanical error becomes a controls problem the moment the sensor sits upstream of it.</strong> Backlash, once accepted as a mechanical characteristic rather than eliminated, must be compensated in software (directional pre-load, reversal dither) or it reads directly into positioning error — there is no controller gain that removes it.</li>
+<li><strong>Disciplines designed in isolation and integrated at the end compromise cost and performance that concurrent design would have caught.</strong> The V-model exists because a mechanical decision (gear ratio, mass) and an electrical decision (sensor resolution, drive current) bound each other&#x27;s achievable tolerance and bandwidth; sequencing them hides the interaction until final assembly, when it&#x27;s expensive to fix.</li>
+<li><strong>A symptom&#x27;s domain and a defect&#x27;s domain are often different.</strong> Electrical-looking faults (intermittent warning lights, erratic motion) can have a chemical or mechanical root cause; conversely, plenty of &quot;hardware&quot; field complaints resolve with a firmware reflash. Isolating which domain actually owns the defect, before ordering a part or a fix, is the job.</li>
+<li><strong>Noise coupling is a geometry problem, not a wire-gauge problem.</strong> Induced noise voltage scales with loop area times the rate of field change (V ≈ A·dB/dt) — minimizing conductor loop area and lead length does more than upgrading cable spec, and a mis-terminated shield defeats the shielding entirely regardless of cable quality.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When sizing a coupled (geared/belted) servo axis, keep reflected load-to-rotor inertia ratio ≤5:1, and treat 10:1 as the acceptable ceiling</strong> before tuning gets difficult and settling time degrades; direct-drive axes tolerate ratios orders of magnitude higher because there&#x27;s no compliant coupling to excite. Above ceiling, default to adding a gear reducer — a reducer of ratio G divides reflected load inertia by G².</li>
+<li><strong>When keeping a servo loop stable, default to structural resonance ≥3× the velocity-loop bandwidth and ≥6× the position-loop bandwidth</strong>, not just &quot;as high as it happens to be&quot; — margins tighter than that get tuned around at commissioning and reappear as instability once seals, bearings, or joints loosen and damping drops in the field.</li>
+<li><strong>When backlash or compliance sits between the sensor and the load, default to load-side (direct) sensing</strong> unless the cost savings of motor-side sensing are paired with an explicit, calibrated compensation algorithm — motor-side sensing without compensation is a silent accuracy failure, not a cheaper equivalent.</li>
+<li><strong>When scoping a system spanning mechanical, electrical, and firmware concurrently, decompose top-down (requirement → functional → logical → physical, per VDI 2206) and integrate bottom-up with verification at each level</strong> — sequencing disciplines instead of running them concurrently is the named failure mode: cost and performance get compromised by decisions made without the other domain&#x27;s constraints in view.</li>
+<li><strong>When a cheaper sensor is proposed, price the calibration/compensation engineering it requires against the sensor cost delta</strong> — moving to coarser or worse-placed sensing doesn&#x27;t remove the error, it exports it to controls engineering as added algorithm and calibration cost.</li>
+<li><strong>For EMC, bypass every IC&#x27;s power pin locally with a 0.1 µF ceramic capacitor plus a bulk 10s–100s µF cap, terminate cable shields at one end only (the controller end) to avoid ground loops, and never pigtail a shield</strong> — unbraiding a shield into a single twisted lead and landing it under a screw is the single most common EMC mistake and defeats the shield&#x27;s purpose.</li>
+<li><strong>When a field failure recurs across multiple builds of the same design, check firmware/calibration state before replacing hardware</strong> — a hardware-presenting fault that clears on reflash across many units points at firmware or calibration, not a part.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Set functional and tolerance requirements across all domains concurrently</strong> — position/velocity accuracy, cycle time, cost ceiling — as one requirement set, not separate mechanical and electrical specs handed off in sequence.</li>
+<li><strong>Run domain-specific concept design in parallel, and explicitly flag every cross-domain dependency</strong> — where a mechanical choice (gear ratio, backlash spec) bounds what an electrical/control choice (sensor resolution, achievable bandwidth) can deliver.</li>
+<li><strong>Choose sensor/actuator topology by asking what error sources sit between sensor and load</strong>, and size the drivetrain by inertia-ratio matching before locking in a gear ratio.</li>
+<li><strong>Model the closed loop — mechanical dynamics plus control law — before committing to hardware</strong>, checking resonance margin against target loop bandwidths and backlash against the tolerance budget.</li>
+<li><strong>Integrate bottom-up per the V-model&#x27;s verification leg</strong>, treating EMC/grounding as a system-integration check, not a per-subsystem afterthought.</li>
+<li><strong>On a field failure, isolate the domain (mechanical wear, electrical/EMC, firmware/calibration) before ordering a hardware fix.</strong></li>
+<li><strong>Write the qualification test report tracing every measured result back to the originating requirement</strong>, not just a pass/fail table.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>VDI 2206 V-model artifacts — requirement/functional/logical/physical (RFLP) decomposition documents driving concurrent domain design and staged integration verification.</li>
+<li>SolidWorks/Creo for mechanical CAD; MATLAB/Simulink for control-law and closed-loop dynamic simulation before hardware commitment.</li>
+<li>PLC and motion-controller programming environments; servo autotuning and frequency-response (Bode) analyzers to verify inertia ratio and bandwidth margin against the resonance heuristic.</li>
+<li>Backlash and resolution calibration procedures, and qualification test reports that trace measured performance to requirement IDs — see <code>references/playbook.md</code> for filled templates.</li>
+</ul>
+<h3>Communication style</h3>
+<p>With mechanical peers: tolerance budgets and backlash numbers, in millimeters and ratios, not gain values. With electrical/controls peers: sensor placement rationale, resolution/update-rate arithmetic, and shield-termination points. With firmware: encoder counts and servo-loop timing, since that&#x27;s the language a compensation algorithm gets specified in. With leadership: reduce to pass/fail against the tolerance spec plus a risk register naming which domain owns each open risk — never a symptom description without an assigned domain, because an unassigned symptom is how integration bugs live past their prototype.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Treating backlash as a controls problem to tune away</strong> instead of applying the compensation algorithm (First-principles #2) or relocating the sensor.</li>
+<li><strong>Designing mechanical, electrical, and firmware in isolation and integrating only at final assembly</strong>, discovering the cross-domain interaction only after tooling is committed (First-principles #3).</li>
+<li><strong>Committing to a gear ratio without checking the reflected inertia ratio</strong>, then discovering instability at commissioning and tuning around it aggressively instead of revisiting the ratio (see resonance-margin heuristic under Mental models for why the aggressive tune doesn&#x27;t hold long-term).</li>
+<li><strong>EMC as a checklist item instead of a geometry decision</strong> — adding bypass caps and shielded cable without addressing loop area or shield termination, then treating the residual noise as unexplained.</li>
+<li><strong>Overcorrection: assuming every field complaint is firmware</strong> because a past batch resolved on reflash, missing a genuine hardware/materials-chemistry defect the next time.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Setup.</strong> An inkjet printer&#x27;s service-station wiper mechanism must stop within ±0.5 mm of target. The gear train between motor and wiper carriage has 2.1 mm of measured backlash (<code>B_raw</code>, per the end-of-line measurement procedure in <code>references/playbook.md</code> §2). Cost drove the choice of a motor-shaft rotary encoder (upstream of the gear train) over a load-side linear encoder: 1000 counts/mm (load-equivalent scale), servo loop updating at 500 Hz.</p>
+<p><strong>Naive read.</strong> &quot;Encoder resolution is 1/1000 mm per count — three orders of magnitude finer than the ±0.5 mm target, so the spec is comfortably met.&quot;</p>
+<p><strong>Expert reasoning.</strong> Resolution isn&#x27;t accuracy when the sensor sits upstream of the error source: the motor-side encoder cannot see the 2.1 mm of gear backlash between it and the load, so any position the encoder reports as &quot;on target&quot; can correspond to a load position anywhere within that 2.1 mm slop band, depending on the direction of last motion. The 2.1 mm backlash band is 4.2× the ±0.5 mm tolerance window — uncompensated, the mechanism fails its spec by a wide margin despite the encoder being far finer than needed. The controller doesn&#x27;t position the wiper; it positions the motor shaft, and the gap between the two is exactly the backlash. Fine resolution also bounds the smallest velocity change the loop can act on: at 1000 counts/mm and a 500 Hz update rate, minimum detectable velocity change is (1/1000 mm) ÷ (1/500 s) = 0.5 mm/s — the granularity available for a reversal-dither compensation move.</p>
+<p><strong>Resolution chosen.</strong> Rather than retrofit a load-side encoder, add a backlash-compensation algorithm: on every direction reversal, drive an extra 2.2 mm — the measured 2.1 mm backlash plus a 0.1 mm process margin, never the measured value exactly, since undershoot leaves residual backlash error and overshoot re-opens backlash on the other side — before resuming normal position control, calibrated per-unit at test since backlash varies with gear wear and tolerance stack-up. This keeps the ±0.5 mm target achievable on the cheaper motor-side sensor.</p>
+<p><strong>Written deliverable (design memo excerpt).</strong> &quot;Motor-side encoding retained. Measured gear-train backlash is 2.1 mm, 4.2× the ±0.5 mm stopping-accuracy requirement, and is invisible to the motor-shaft sensor — uncompensated, expect ~2.1 mm worst-case stopping error on direction reversal. Recommend a reversal-dither compensation move of 2.2 mm (measured backlash plus a 0.1 mm process margin, ±0.2 mm tolerance on the compensation value itself, re-verified at 6-month PM intervals as gear wear increases backlash) rather than a load-side encoder retrofit, which would add $[sensor delta] per unit against a one-time algorithm cost. Servo update rate (500 Hz) and encoder resolution (1000 counts/mm) give 0.5 mm/s minimum velocity-command granularity, sufficient to execute the dither move without overshoot. Risk: backlash grows with gear wear; compensation value needs a service-interval recalibration step, tracked as an open item against the maintenance plan, not the initial qualification.&quot;</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechatronics-engineer/references/playbook.md">Playbook</a> — filled V-model requirement-to-verification traceability example, backlash-compensation calibration procedure, and inertia-ratio/gearbox sizing worksheet.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechatronics-engineer/references/red-flags.md">Red flags</a> — smell tests for mechatronic system integration: what each usually means, the first question to ask, the data to pull.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechatronics-engineer/references/vocabulary.md">Vocabulary</a> — terms generalists misuse, with practitioner usage and the common misuse spelled out.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>W. Bolton, *Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering*, 7th ed. (Pearson) — canonical framing of mechatronics as integrated design rather than bolted-together disciplines.</li>
+<li>VDI 2206, &quot;Design methodology for mechatronic systems&quot; (Verein Deutscher Ingenieure, 2004; revised 2021) — source for the V-model and the 2021 RFLP (requirement-functional-logical-physical) decomposition.</li>
+<li>Doug Harriman, &quot;Five Tips for Mechatronic System Integration&quot; — source for the inkjet wiper backlash/accuracy numbers, the resolution/update-rate arithmetic, the &quot;the control system positions the encoder&quot; framing, and the isolated-disciplines failure mode.</li>
+<li>Motion Control &amp; Motor Association / automate.org guidance on inertia mismatch, corroborated by servo-vendor engineering notes — source for the 5:1/10:1 inertia-ratio heuristic, the G² gearbox-reduction relationship, and the 3×/6× resonance-margin heuristic [heuristic — needs practitioner check on exact resonance multiplier, sources range 3–6×].</li>
+<li>Northwestern Mechatronics Wiki, &quot;Shielding, Grounding, Noise Suppression&quot; (Hades group) and jj-lapp.com EMC guides — source for the 0.1 µF bypass-cap value, the V ≈ A·dB/dt noise-coupling relationship, the pigtail anti-pattern, and one-end shield grounding.</li>
+<li>VW/Škoda DQ200 DSG &quot;mechatronic unit&quot; field-failure record (warranty-extension notices, multi-region TSB pattern) — source for the symptom-vs-defect-domain failure mode (solder/fluid chemistry root cause, firmware-reflash resolution pattern).</li>
+<li>O*NET-SOC 17-2199.05 task list used as coverage skeleton only, not quoted.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/mechatronics-engineer/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add mechatronics-engineer</code></p>
+</footer>
+</body>
+</html>

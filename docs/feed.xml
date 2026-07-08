@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 15:18:57 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 15:25:42 +0000</lastBuildDate>
+  <item>
+    <title>Mechatronics Engineer</title>
+    <link>https://domainexperts.dev/roles/mechatronics-engineer/</link>
+    <guid>https://domainexperts.dev/roles/mechatronics-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 22:25:31 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mechatronics Engineer — designing a backlash-compensation or motion-control algorithm for an electromechanical assembly, choosing motor-side vs. load-side sensor placement, matching inertia ratio and gearing on a servo axis, specifying an EMC/grounding scheme for a mixed mechanical-electrical assembly, or diagnosing whether a field failure is mechanical, electrical, or firmware in origin.</description>
+  </item>
   <item>
     <title>Fuel Cell Engineer</title>
     <link>https://domainexperts.dev/roles/fuel-cell-engineer/</link>
