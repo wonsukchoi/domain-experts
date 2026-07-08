@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 533 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 534 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -249,7 +249,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>19 — Life, Physical, and Social Science</strong> (32/66 drafted)</summary>
+<summary><strong>19 — Life, Physical, and Social Science</strong> (33/66 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -263,7 +263,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 19-1029.01 | Bioinformatics Scientists | [`bioinformatics-scientist`](./roles/bioinformatics-scientist/SKILL.md) |
 | ✅ | 19-1029.02 | Molecular and Cellular Biologists | [`molecular-cellular-biologist`](./roles/molecular-cellular-biologist/SKILL.md) |
 | ✅ | 19-1029.03 | Geneticists | [`geneticist`](./roles/geneticist/SKILL.md) |
-|  | 19-1029.04 | Biologists |  |
+| ✅ | 19-1029.04 | Biologists | [`biologist`](./roles/biologist/SKILL.md) |
 | ✅ | 19-1031.00 | Conservation Scientists | [`conservation-scientist`](./roles/conservation-scientist/SKILL.md) |
 |  | 19-1031.02 | Range Managers |  |
 |  | 19-1031.03 | Park Naturalists |  |
