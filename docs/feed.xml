@@ -4,7 +4,42 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 08 Jul 2026 08:59:37 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 09:13:58 +0000</lastBuildDate>
+  <item>
+    <title>Computer Hardware Engineer</title>
+    <link>https://domainexperts.dev/roles/computer-hardware-engineer/</link>
+    <guid>https://domainexperts.dev/roles/computer-hardware-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:13:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer Hardware Engineer — designing a power delivery network and selecting decoupling capacitors for a digital IC&#x27;s core rail, budgeting a high-speed signal&#x27;s rise time against trace impedance and via stub length, closing static timing on a board-level DDR or SerDes interface, sizing thermal resistance for a package&#x27;s TDP, or reviewing a PCB layout for signal- or power-integrity risk before fab release.</description>
+  </item>
+  <item>
+    <title>Electronics Engineer</title>
+    <link>https://domainexperts.dev/roles/electronics-engineer/</link>
+    <guid>https://domainexperts.dev/roles/electronics-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:13:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electronics Engineer working on RF, analog, and mixed-signal hardware — closing an RF link budget for a wireless telemetry radio, sizing an op-amp or instrumentation-amplifier front end against a gain-bandwidth constraint, designing an anti-alias or IF filter to a cutoff and Q, pre-checking a design against FCC/IEC EMC radiated-emissions limits before formal compliance testing, or picking between a superheterodyne and direct-conversion receiver architecture.</description>
+  </item>
+  <item>
+    <title>Fire Protection Engineer</title>
+    <link>https://domainexperts.dev/roles/fire-protection-engineer/</link>
+    <guid>https://domainexperts.dev/roles/fire-protection-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:13:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fire Protection Engineer — sizing a sprinkler system&#x27;s hydraulic demand against NFPA 13&#x27;s density/area method (Hazen-Williams pipe network calc, K-factor discharge), analyzing a hydrant flow test to decide whether a fire pump is required, calculating occupant load and required egress width under IBC/NFPA 101, laying out fire alarm detection and notification per NFPA 72, or reviewing a life-safety/means-of-egress plan for code compliance.</description>
+  </item>
+  <item>
+    <title>Health Safety Engineer</title>
+    <link>https://domainexperts.dev/roles/health-safety-engineer/</link>
+    <guid>https://domainexperts.dev/roles/health-safety-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:13:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Health and Safety Engineer — sizing a machine-guarding safeguard distance from measured stop time, scoring a hazard on a risk assessment matrix and deciding whether a control is sufficient, running or scheduling a process hazard analysis (PHA/HAZOP) on a covered chemical process, evaluating a lockout/tagout or confined-space engineering control, or reconciling an OSHA recordable incident rate against a proposed capital fix. Distinct from an occupational-health-safety-specialist (owns exposure monitoring, industrial hygiene sampling, incident investigation) and a fire-prevention-and-protection engineer (owns fire suppression and detection system design) — this role owns engineering out mechanical, chemical-process, and energy hazards at the design and control-selection stage.</description>
+  </item>
+  <item>
+    <title>Transportation Engineer</title>
+    <link>https://domainexperts.dev/roles/transportation-engineer/</link>
+    <guid>https://domainexperts.dev/roles/transportation-engineer/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:13:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transportation Engineer (PE) — running an HCM capacity/level-of-service analysis for a signalized or unsignalized intersection, checking stopping/intersection sight distance against AASHTO Green Book standards, sizing and warranting a left- or right-turn lane, building a traffic impact study&#x27;s trip generation/distribution/assignment chain, or deciding between geometric mitigation, a turn lane, and a signal for a capacity or safety deficiency.</description>
+  </item>
   <item>
     <title>Agricultural Engineer</title>
     <link>https://domainexperts.dev/roles/agricultural-engineer/</link>
