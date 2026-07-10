@@ -1,5 +1,5 @@
 {
-  "count": 569,
+  "count": 570,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3893,6 +3893,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/exercise-trainer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "extrusion-drawing-machine-operator",
+      "description": "Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) \u2014 calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/extrusion-drawing-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

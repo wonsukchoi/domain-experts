@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 559 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 560 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (21/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (22/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1020,7 +1020,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-3092.00 | Food Batchmakers |  |
 |  | 51-3093.00 | Food Cooking Machine Operators and Tenders |  |
 |  | 51-3099.00 | Food Processing Workers, All Other |  |
-|  | 51-4021.00 | Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic |  |
+| ✅ | 51-4021.00 | Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic | [`extrusion-drawing-machine-operator`](./roles/extrusion-drawing-machine-operator/SKILL.md) |
 |  | 51-4022.00 | Forging Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4023.00 | Rolling Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4031.00 | Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic |  |
