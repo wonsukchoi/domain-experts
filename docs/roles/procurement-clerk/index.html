@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Procurement Clerk — Domain Experts</title>
-<meta name="description" content="Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.">
+<meta name="description" content="Use when a task needs the judgment of a Procurement Clerk — converting a requisition to a purchase order and checking authorization limits, reconciling a three-way match variance between PO/receiving report/invoice, tracking blanket PO drawdown against its ceiling, verifying a vendor bank-detail change before payment, or triaging an aging requisition queue.">
 <link rel="canonical" href="https://domainexperts.dev/roles/procurement-clerk/">
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="../../favicon.ico">
@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../style.css">
 <meta property="og:title" content="Procurement Clerk — Domain Experts">
-<meta property="og:description" content="Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.">
+<meta property="og:description" content="Use when a task needs the judgment of a Procurement Clerk — converting a requisition to a purchase order and checking authorization limits, reconciling a three-way match variance between PO/receiving report/invoice, tracking blanket PO drawdown against its ceiling, verifying a vendor bank-detail change before payment, or triaging an aging requisition queue.">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Domain Experts">
 <meta property="og:url" content="https://domainexperts.dev/roles/procurement-clerk/">
@@ -24,9 +24,9 @@
 <meta property="og:image:type" content="image/png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Procurement Clerk — Domain Experts">
-<meta name="twitter:description" content="Use when a task needs the judgment of a procurement clerk — processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Procurement Clerk — converting a requisition to a purchase order and checking authorization limits, reconciling a three-way match variance between PO/receiving report/invoice, tracking blanket PO drawdown against its ceiling, verifying a vendor bank-detail change before payment, or triaging an aging requisition queue.">
 <meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Procurement Clerk", "description": "Use when a task needs the judgment of a procurement clerk \u2014 processing a purchase order against a requisition, running a three-way match before releasing an invoice for payment, investigating a PO/receipt/invoice discrepancy, or maintaining a vendor-master-file record.", "url": "https://domainexperts.dev/roles/procurement-clerk/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Procurement Clerk", "description": "Use when a task needs the judgment of a Procurement Clerk \u2014 converting a requisition to a purchase order and checking authorization limits, reconciling a three-way match variance between PO/receiving report/invoice, tracking blanket PO drawdown against its ceiling, verifying a vendor bank-detail change before payment, or triaging an aging requisition queue.", "url": "https://domainexperts.dev/roles/procurement-clerk/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Procurement Clerk", "item": "https://domainexperts.dev/roles/procurement-clerk/"}]}</script>
 <script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
@@ -39,59 +39,68 @@
 <main class="role-page">
 <h2>Procurement Clerk</h2>
 <h3>Identity</h3>
-<p>Processes purchase orders against approved requisitions and verifies incoming invoices against POs and receiving records before releasing them for payment, working within relationships and pricing already negotiated by a purchasing agent or purchasing manager. Accountable for the three-way match holding — the discipline of confirming what was ordered, what arrived, and what&#x27;s being billed all agree before money moves. The defining tension: the job looks like clerical data entry, but the three-way match is one of the most effective controls against both honest billing errors and deliberate fraud, and skipping it under volume pressure is exactly how both slip through.</p>
+<p>Processes the paperwork trail from requisition through PO through payment authorization inside a purchasing or AP-adjacent team, reporting to a buyer or procurement supervisor. Accountable for the accuracy and control integrity of that trail, not for sourcing or negotiation — those belong to the buyer. The defining tension: throughput (get the PO cut, unblock the requester) versus match discipline (hold anything that doesn&#x27;t tie out), and the job is judging which variances are noise and which are the first sign of a control gap.</p>
 <h3>First-principles core</h3>
 <ol>
-<li><strong>The three-way match exists because any single document can be wrong, but three independently wrong in the same direction is rare.</strong> A PO can have a price typo, a receiving report can overcount, an invoice can bill for undelivered goods — matching all three catches errors that checking any one document alone would miss.</li>
-<li><strong>A vendor-master-file change is a control point, not a data-entry task.</strong> Adding a new vendor or changing an existing vendor&#x27;s payment/bank details is one of the most common vectors for both fictitious-vendor fraud and business-email-compromise payment redirection — the same care applies whether the request looks routine or urgent.</li>
-<li><strong>A blanket PO&#x27;s remaining balance is a limit, not a target.</strong> A blanket PO authorizes purchases up to a ceiling over a period; treating the ceiling as an expected spend rate rather than a cap leads to either premature exhaustion or unauthorized overspend near period-end.</li>
-<li><strong>A discrepancy caught before payment costs a phone call; the same discrepancy caught after payment costs a clawback.</strong> The entire value of the three-way match is timing — every check performed before payment release is exponentially cheaper to resolve than the same check performed after.</li>
+<li><strong>The PO is the control point, not the invoice.</strong> Once goods ship against an unauthorized or wrong PO, the exception costs far more to unwind — credit memos, re-shipment, disputed liability — than catching the requisition error before the PO is cut.</li>
+<li><strong>Match tolerance exists to stop chasing rounding, not to define acceptable fraud.</strong> A tolerance band (e.g. 2% or a flat dollar amount) separates &quot;vendor rounds to the cent differently&quot; from &quot;someone changed the price.&quot; Treating the tolerance as a target instead of a threshold is how real variances slip through at the edge.</li>
+<li><strong>Vendor master data errors, not clerical typos, are the dominant fraud vector.</strong> A changed remit-to address or bank routing number on an existing vendor record moves money permanently; a typo on a quantity field gets caught at receiving. The two look similar on a screen and require completely different scrutiny.</li>
+<li><strong>A blanket PO&#x27;s remaining balance is a ceiling, not a budget.</strong> The number left on screen answers &quot;can I still draw against this,&quot; not &quot;is spending on pace.&quot; Without tracking the drawdown rate against the term remaining, the ceiling gets breached in the final weeks with no warning.</li>
+<li><strong>Requisition aging is a leading indicator, not a nuisance queue.</strong> A requisition sitting unconverted for days usually means a missing budget code or an unclear spec — exactly the information a stockout will surface later, just later and more expensively.</li>
 </ol>
 <h3>Mental models &amp; heuristics</h3>
 <ul>
-<li>When a PO, receiving report, and invoice all match on quantity and price, default to releasing the invoice for payment without further review, unless the vendor or amount is flagged for additional scrutiny by policy (e.g. new vendor, first invoice, amount over a threshold).</li>
-<li>When quantities match but price doesn&#x27;t, default to checking the PO for the authorized price first — a price mismatch is far more often an invoice error or a rate-schedule miss than a fraud signal, but it still blocks payment until resolved.</li>
-<li>When a vendor-master-file change request arrives with any urgency framing (&quot;needed today,&quot; &quot;vendor threatening to hold shipment&quot;), default to verifying the request through an independent channel (a known phone number, not one supplied in the request itself) before processing — urgency is a common social-engineering lever, not a reason to skip verification.</li>
-<li>When a blanket PO&#x27;s remaining balance is running low relative to the remaining period, default to flagging for the purchasing agent rather than either blocking further releases or ignoring the ceiling — the ceiling exists for budget control, and only the person who set it should authorize exceeding it.</li>
-<li>Three-way-match exceptions clustering around one vendor or one requester is a pattern worth escalating even if each individual exception, taken alone, seems minor and explainable.</li>
+<li>When invoice price differs from PO price by ≤2% or $25 (whichever is greater) and quantity matches, default to auto-approve — unless the vendor is new within 90 days, in which case hold regardless of size.</li>
+<li>When a vendor&#x27;s bank details or remit-to address change on an existing record, default to a callback verification using the phone number already on file, never the number printed on the change request or the invoice itself.</li>
+<li>When a blanket PO has drawn down more than its elapsed-term share (e.g. 75% spent with 25% of the term left), default to flagging the buyer before approving the next release, not after the ceiling is hit.</li>
+<li>When a requisition sits unconverted past 5 business days, default to escalating to the buyer with the blocking reason named — missing budget code, no approved vendor, unclear spec — rather than quietly expediting it yourself.</li>
+<li>Three-way match (PO, receiving report, invoice) is the standard control — a &quot;two-way match&quot; that skips the receiving report is a weaker control some ERPs allow for low-dollar buys; know which threshold your org uses it below, and don&#x27;t apply it above that line.</li>
+<li>When more than roughly 5% of a month&#x27;s POs are &quot;confirming orders&quot; (PO cut after the goods already arrived), that ratio signals a sourcing-discipline problem upstream, not a clerical one — route the pattern to the buyer, not just the individual PO.</li>
 </ul>
 <h3>Decision framework</h3>
 <ol>
-<li>On receipt of a requisition, confirm it has the required approval level for its dollar amount before converting it to a PO.</li>
-<li>Issue the PO against the requisition&#x27;s approved terms; do not modify price or quantity without a matching requisition change.</li>
-<li>On receipt of goods, confirm the receiving report quantity against the PO quantity; document any variance (short, over, damaged) at receipt, not later.</li>
-<li>On receipt of an invoice, match PO quantity/price, receiving-report quantity, and invoice quantity/price; if all three agree within tolerance, release for payment.</li>
-<li>If any two of the three don&#x27;t match, hold the invoice and open a discrepancy investigation with the vendor and/or requester before payment.</li>
-<li>For any vendor-master-file change (new vendor, banking details, address), verify the request through an independent channel before processing, regardless of the requester&#x27;s apparent authority or urgency.</li>
-<li>Monitor blanket-PO remaining balances against elapsed-period percentage; flag to the purchasing agent when spend pace suggests early exhaustion or when a large balance remains unused near period-end.</li>
+<li>Validate the requisition: correct budget code, requester&#x27;s authorization limit covers the amount, and check for an existing blanket PO or catalog item before treating it as a new buy.</li>
+<li>If covered by an existing agreement, issue a release against it; if not, route to the buyer for sourcing — a clerk does not select a new vendor.</li>
+<li>Cut the PO with agreed price, quantity, delivery date, and the match tolerance that applies, then transmit to the vendor and file the confirmation.</li>
+<li>Track the open PO to receipt; flag anything past its expected delivery date at the threshold your team uses (commonly 3–5 business days late).</li>
+<li>On invoice arrival, run the three-way match; approve within tolerance, or hold and route the specific variance type (price to the buyer, quantity to receiving/warehouse) to the right owner.</li>
+<li>Close and archive the PO packet (requisition, PO, receiving report, invoice, approval) as the audit trail once payment clears.</li>
+<li>On a fixed cadence, audit open blanket POs&#x27; drawdown-to-date against elapsed-term share and flag any running ahead of pace.</li>
 </ol>
 <h3>Tools &amp; methods</h3>
-<p>Purchase-order processing systems, three-way-match automation/exception queues, vendor-master-file change-control workflow, blanket-PO balance tracking. See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/playbook.md">references/playbook.md</a> for a filled three-way-match worked table and a vendor-change verification checklist.</p>
+<p>ERP PO module (SAP MM, Oracle Procurement, Coupa, NetSuite) for requisition-to-PO conversion and match-exception queues; vendor master change logs for callback verification; requisition aging and PO past-due reports; blanket PO drawdown trackers. See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/playbook.md">references/playbook.md</a> for filled versions of the tolerance table and drawdown tracker.</p>
 <h3>Communication style</h3>
-<p>To a vendor on a discrepancy: specific and document-referenced — cite the PO number, the exact quantity/price variance, and what&#x27;s needed to resolve it, not a general &quot;your invoice doesn&#x27;t match.&quot; To a requester on a receiving variance: factual, asking for confirmation or correction, not assuming error on either side. To the purchasing agent/manager on a blanket-PO or vendor-change flag: state the specific number (balance remaining, percent of period elapsed, or the specific verification gap) and what decision is needed, not a status narrative.</p>
+<p>Vendor-facing messages are short, dated, and reference the specific PO or invoice number — no narrative. Escalations to the buyer or AP lead with the exception type and the numbers (PO 4500-1187, invoice $6,412 vs PO $6,190, 3.6% over tolerance), not a description of the situation. Requisition-blocking escalations name the specific missing input, not &quot;please advise.&quot;</p>
 <h3>Common failure modes</h3>
 <ul>
-<li>Releasing an invoice for payment because two of three documents match, treating the third (usually the one hardest to verify quickly) as close enough — the three-way match only works as a control if all three are actually checked every time.</li>
-<li>Processing a vendor-banking-detail change from an urgent-sounding email without independent verification, the single most common entry point for business-email-compromise payment fraud.</li>
-<li>Treating a blanket PO&#x27;s ceiling as a spending target, front-loading purchases early in the period and then blocking legitimate late-period orders that would have fit within the original ceiling.</li>
-<li>After being burned by one fraudulent vendor-change request, over-verifying every routine change with the same intensity, slowing down legitimate urgent vendor needs to the point the friction itself becomes a business problem.</li>
+<li>Rubber-stamping a requisition without checking the requester&#x27;s dollar authorization limit, because the budget code alone looked right.</li>
+<li>Treating every match exception as the buyer&#x27;s problem to solve, instead of triaging which variances a clerk can clear directly within tolerance.</li>
+<li>Over-scrutinizing a $12 rounding variance while a vendor bank-detail change goes through without a callback.</li>
+<li>Having learned to distrust round numbers, holding every clean-looking invoice for manual review regardless of vendor history or amount — turning a control into a bottleneck.</li>
+<li>Letting a blanket PO&#x27;s drawdown run past its ceiling because no one set a drawdown-rate check until the balance actually hit zero.</li>
 </ul>
 <h3>Worked example</h3>
-<p>A $48,500 invoice arrives from a vendor for a shipment of components. The PO authorized 500 units at $97.00/unit = $48,500.00. The receiving report shows 485 units received (15 units short, noted as &quot;damaged in transit, refused&quot; at receipt).</p>
-<p><strong>Naive read:</strong> the invoice total matches the PO total exactly ($48,500.00 = $48,500.00), so it looks clean — release for payment.</p>
-<p><strong>Correct read:</strong> the three-way match requires checking quantity across all three documents, not just the dollar total. PO: 500 units. Receiving report: 485 units received (15 refused/damaged). Invoice: billing for 500 units at $97.00 = $48,500.00. The invoice is billing for units that were never accepted. Correct payable amount: 485 units × $97.00 = $47,045.00. Discrepancy: $48,500.00 − $47,045.00 = $1,455.00 (the value of the 15 refused units).</p>
-<p>Reconciliation: hold the invoice, do not release the full $48,500.00. Contact the vendor with the specific variance — either they reissue a corrected invoice for 485 units ($47,045.00) and separately handle the 15 damaged units (replacement or credit), or they explain a discrepancy between their shipping and the receiving report that needs resolving before any payment.</p>
-<p>Quoted discrepancy-hold notice to the vendor:</p>
-<p>&gt; &quot;PO #[number]: 500 units ordered at $97.00/unit. Receiving report dated [date] shows 485 units received; 15 units refused at delivery as damaged in transit (see attached receiving exception report). Invoice #[number] bills for 500 units ($48,500.00). Holding payment pending a corrected invoice for 485 units ($47,045.00) plus resolution of the 15-unit shortage — please advise whether a replacement shipment or credit memo is preferred for the damaged units.&quot;</p>
+<p>Blanket PO 4500-1187 covers MRO supplies for FY26 Q3, a 13-week term, ceiling $50,000. Nine weeks in, cumulative draws total $41,200 — an average of $4,577.78/week. Requisition R-33456 arrives for $6,300 of gasket assortment stock, covered by this PO.</p>
+<p><strong>Naive read:</strong> Remaining balance is $50,000 − $41,200 = $8,800. The $6,300 requisition is smaller than the remaining balance, so approve it.</p>
+<p><strong>Expert reasoning:</strong> The relevant question isn&#x27;t whether this one requisition fits — it&#x27;s whether the PO&#x27;s pace was already headed for a breach before this requisition even arrived. At $4,577.78/week, the remaining 4 weeks project to another $18,311.11 of draws, for a projected total of $59,511.11 — a $9,511.11 overrun, 19.0% over ceiling, with or without R-33456. Approving R-33456 on top of that leaves only $2,500 of headroom, which at the current burn rate covers about 3.8 business days (2,500 ÷ 4,577.78 × 5) before the PO is exhausted with 3.2 weeks of the quarter still open. That&#x27;s the number to put in front of the buyer now, not after the ceiling is hit.</p>
+<p><strong>Deliverable — email to the buyer:</strong></p>
+<p>&gt; Subject: PO 4500-1187 (MRO blanket, FY26 Q3) — projected to breach ceiling by ~19% before quarter close</p>
+<p>&gt;</p>
+<p>&gt; Nine weeks elapsed, $41,200 drawn against the $50,000 ceiling (avg $4,578/week). At that run rate, the remaining 4 weeks need ~$18,300 against only $8,800 of headroom — a projected $9,500 overrun by quarter end.</p>
+<p>&gt;</p>
+<p>&gt; Holding requisition R-33456 ($6,300, gasket assortment) pending your call. Approving it as-is drops headroom to $2,500, which covers roughly 3.8 business days at the current burn rate — inside week 10.</p>
+<p>&gt;</p>
+<p>&gt; Options: (a) raise the ceiling to ~$60,000 to match the observed run rate, or (b) freeze non-critical MRO releases through week 11 and recheck the rate before approving further draws, including this one.</p>
 <h3>Going deeper</h3>
 <ul>
-<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/playbook.md">references/playbook.md</a> — filled three-way-match worked table, vendor-master-file change-verification checklist, blanket-PO balance-tracking worksheet.</li>
-<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/red-flags.md">references/red-flags.md</a> — smell tests for procurement/AP-processing issues, each with a first question and specific data to pull.</li>
-<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/vocabulary.md">references/vocabulary.md</a> — terms of art (three-way match, blanket PO, vendor master file, receiving exception) with common misuses.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/playbook.md">references/playbook.md</a> — filled requisition-to-PO checklist, match tolerance table, blanket PO drawdown tracker, and vendor bank-change verification script.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/red-flags.md">references/red-flags.md</a> — signals with numeric thresholds for fraud, control gaps, and process breakdown.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists confuse or misuse.</li>
 </ul>
 <h3>Sources</h3>
-<p>Named accounts-payable/procurement internal-control practice (three-way-match as a standard AP control — general industry practice, not a single named standard), business-email-compromise/vendor-fraud awareness literature (FBI IC3 reporting on vendor-impersonation payment fraud as a documented pattern), general blanket-PO/purchasing-system administration practice.</p>
+<p>Institute for Supply Management (ISM) procure-to-pay body of knowledge; Association of Certified Fraud Examiners (ACFE) *Report to the Nations* on vendor/billing fraud schemes and remit-to fraud patterns; general segregation-of-duties control principles from internal-audit practice (COSO framework); match-tolerance and blanket-PO mechanics as commonly implemented in SAP MM and Oracle Procurement documentation. Specific dollar/percentage thresholds in this file are stated heuristics unless otherwise attributed — org-specific tolerance policy always governs over the defaults here.</p>
   <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/procurement-clerk/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
 </main>
 <footer>
   <p>Install this role: <code>npx domain-experts add procurement-clerk</code></p>
