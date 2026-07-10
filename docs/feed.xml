@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 16:36:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 16:40:45 +0000</lastBuildDate>
+  <item>
+    <title>Textile Cutting Machine Operator</title>
+    <link>https://domainexperts.dev/roles/textile-cutting-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/textile-cutting-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 23:40:33 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Textile Cutting Machine Operator — calculating actual marker efficiency percentage rather than judging a layout by visual impression, setting ply height to the fabric/equipment-specific accuracy limit rather than maximum physical capacity, allowing documented fabric relaxation time before cutting, or maintaining consistent orientation across a marker for directional fabric.</description>
+  </item>
   <item>
     <title>Furniture Finisher</title>
     <link>https://domainexperts.dev/roles/furniture-finisher/</link>
