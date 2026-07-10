@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:57:27 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 16:09:46 +0000</lastBuildDate>
+  <item>
+    <title>Manufacturing Potter</title>
+    <link>https://domainexperts.dev/roles/manufacturing-potter/</link>
+    <guid>https://domainexperts.dev/roles/manufacturing-potter/</guid>
+    <pubDate>Fri, 10 Jul 2026 23:09:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Manufacturing Potter — calculating wet-form dimensions from a target fired size and the clay body&#x27;s total shrinkage rate, verifying documented glaze fit before selecting a glaze for a clay body, slowing firing ramp rate through critical temperature ranges like quartz inversion, or verifying actual heat-work with pyrometric cones rather than the kiln controller&#x27;s readout alone.</description>
+  </item>
   <item>
     <title>Crushing Grinding Machine Operator</title>
     <link>https://domainexperts.dev/roles/crushing-grinding-machine-operator/</link>

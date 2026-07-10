@@ -1,5 +1,5 @@
 {
-  "count": 585,
+  "count": 586,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6752,6 +6752,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/manufacturing-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "manufacturing-potter",
+      "description": "Use when a task needs the judgment of a Manufacturing Potter \u2014 calculating wet-form dimensions from a target fired size and the clay body's total shrinkage rate, verifying documented glaze fit before selecting a glaze for a clay body, slowing firing ramp rate through critical temperature ranges like quartz inversion, or verifying actual heat-work with pyrometric cones rather than the kiln controller's readout alone.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9195.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/manufacturing-potter/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
