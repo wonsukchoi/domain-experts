@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 561 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 562 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (23/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (24/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1025,7 +1025,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-4023.00 | Rolling Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4031.00 | Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4032.00 | Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic |  |
-|  | 51-4033.00 | Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic |  |
+| ✅ | 51-4033.00 | Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic | [`grinding-machine-operator`](./roles/grinding-machine-operator/SKILL.md) |
 |  | 51-4034.00 | Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4035.00 | Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 | ✅ | 51-4041.00 | Machinists | [`machinist`](./roles/machinist/SKILL.md) |

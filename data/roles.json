@@ -1,5 +1,5 @@
 {
-  "count": 571,
+  "count": 572,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -5177,6 +5177,27 @@
       "skill": "roles/graphic-designer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "grinding-machine-operator",
+      "description": "Use when a task needs the judgment of a Grinding/Lapping/Polishing/Buffing Machine Operator \u2014 deciding whether a wheel past its dressing interval needs a burn check even when Ra readings stay in spec, verifying surface finish against a measured Ra value rather than feel, matching stock removal rate to a wheel/coolant combination's heat capacity, or catching a skipped step in an abrasive grit progression.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4033.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/grinding-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
