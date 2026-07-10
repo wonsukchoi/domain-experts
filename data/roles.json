@@ -1,5 +1,5 @@
 {
-  "count": 574,
+  "count": 575,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -7759,6 +7759,27 @@
       "skill": "roles/nuclear-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "nuclear-power-reactor-operator",
+      "description": "Use when a task needs the judgment of a Nuclear Power Reactor Operator \u2014 planning a power change around the xenon-135 transient's delayed peak rather than just the immediate reactivity effect, verifying shutdown margin against the worst-case stuck-rod condition rather than observed rod positions, accounting for a control rod's position-dependent worth, or deciding whether to deviate from an approved procedure's step sequence.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nuclear-power-reactor-operator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
