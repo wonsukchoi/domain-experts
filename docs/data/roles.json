@@ -1,5 +1,5 @@
 {
-  "count": 556,
+  "count": 557,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8530,6 +8530,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/power-line-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "power-plant-operator",
+      "description": "Use when a task needs the judgment of a Power Plant Operator \u2014 diagnosing whether a drum-level change during a load ramp is real or shrink/swell by cross-checking feedwater against steam flow, deciding whether to escalate a water-chemistry excursion despite no active trip, setting a startup/shutdown ramp rate against the plant's most thermally-restrictive component, or triaging an alarm that doesn't match the expected process state.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/power-plant-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

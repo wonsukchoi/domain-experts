@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:32:12 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:36:21 +0000</lastBuildDate>
+  <item>
+    <title>Power Plant Operator</title>
+    <link>https://domainexperts.dev/roles/power-plant-operator/</link>
+    <guid>https://domainexperts.dev/roles/power-plant-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:36:09 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Power Plant Operator — diagnosing whether a drum-level change during a load ramp is real or shrink/swell by cross-checking feedwater against steam flow, deciding whether to escalate a water-chemistry excursion despite no active trip, setting a startup/shutdown ramp rate against the plant&#x27;s most thermally-restrictive component, or triaging an alarm that doesn&#x27;t match the expected process state.</description>
+  </item>
   <item>
     <title>Cabinetmaker</title>
     <link>https://domainexperts.dev/roles/cabinetmaker/</link>
