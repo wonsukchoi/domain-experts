@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:36:21 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:41:12 +0000</lastBuildDate>
+  <item>
+    <title>Foundry Mold Coremaker</title>
+    <link>https://domainexperts.dev/roles/foundry-mold-coremaker/</link>
+    <guid>https://domainexperts.dev/roles/foundry-mold-coremaker/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:40:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Foundry Mold and Coremaker — computing pattern dimensions from an alloy-specific shrink rule, sizing a riser via the modulus method to confirm it solidifies after the section it feeds, isolating whether a gas defect traces to sand moisture, core binder gassing, or vent inadequacy, or calculating actual casting yield rather than comparing scrap counts alone.</description>
+  </item>
   <item>
     <title>Power Plant Operator</title>
     <link>https://domainexperts.dev/roles/power-plant-operator/</link>
