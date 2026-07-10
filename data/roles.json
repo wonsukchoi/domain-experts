@@ -1,5 +1,5 @@
 {
-  "count": 552,
+  "count": 553,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -879,6 +879,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/avionics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "baker",
+      "description": "Use when a task needs the judgment of a Baker \u2014 scaling a formula using baker's percentages to hit an exact batch weight, diagnosing whether a fermentation problem traces to dough temperature or mixing development, judging proof readiness from a poke test rather than a fixed clock, or tracing a poor-oven-spring result back to over- or under-proofing instead of the oven.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/baker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
