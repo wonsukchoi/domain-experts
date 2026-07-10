@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 16:13:02 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 16:20:52 +0000</lastBuildDate>
+  <item>
+    <title>Food Roasting Drying Machine Operator</title>
+    <link>https://domainexperts.dev/roles/food-roasting-drying-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/food-roasting-drying-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 23:20:37 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Food/Tobacco Roasting, Baking, and Drying Machine Operator — projecting total process time from the declining-rate (falling-rate period) moisture-loss curve rather than extrapolating an early constant rate, verifying internal doneness/moisture directly rather than trusting surface color alone, monitoring the full temperature/time profile rather than just the endpoint, or re-validating a process after a batch size change.</description>
+  </item>
   <item>
     <title>Cooling Freezing Equipment Operator</title>
     <link>https://domainexperts.dev/roles/cooling-freezing-equipment-operator/</link>

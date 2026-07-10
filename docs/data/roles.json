@@ -1,5 +1,5 @@
 {
-  "count": 587,
+  "count": 588,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4578,6 +4578,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/food-preparation-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "food-roasting-drying-machine-operator",
+      "description": "Use when a task needs the judgment of a Food/Tobacco Roasting, Baking, and Drying Machine Operator \u2014 projecting total process time from the declining-rate (falling-rate period) moisture-loss curve rather than extrapolating an early constant rate, verifying internal doneness/moisture directly rather than trusting surface color alone, monitoring the full temperature/time profile rather than just the endpoint, or re-validating a process after a batch size change.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-3091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/food-roasting-drying-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
