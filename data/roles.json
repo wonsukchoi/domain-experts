@@ -1,5 +1,5 @@
 {
-  "count": 579,
+  "count": 580,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1934,6 +1934,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cnc-programmer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "coating-painting-spraying-machine-operator",
+      "description": "Use when a task needs the judgment of a Coating/Painting/Spraying Machine Operator \u2014 calculating wet film thickness from a target dry film thickness and the coating's percent volume solids, deciding whether flash-off time can be shortened to increase throughput, verifying cure by actual part temperature rather than oven setpoint, or tracing an adhesion failure back to surface prep rather than the coating application.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9124.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/coating-painting-spraying-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
