@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 568 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 569 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (30/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (31/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1096,7 +1096,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-9081.00 | Dental Laboratory Technicians | [`dental-laboratory-technician`](./roles/dental-laboratory-technician/SKILL.md) |
 | ✅ | 51-9082.00 | Medical Appliance Technicians | [`medical-appliance-technician`](./roles/medical-appliance-technician/SKILL.md) |
 | ✅ | 51-9083.00 | Ophthalmic Laboratory Technicians | [`ophthalmic-laboratory-technician`](./roles/ophthalmic-laboratory-technician/SKILL.md) |
-|  | 51-9111.00 | Packaging and Filling Machine Operators and Tenders |  |
+| ✅ | 51-9111.00 | Packaging and Filling Machine Operators and Tenders | [`packaging-filling-machine-operator`](./roles/packaging-filling-machine-operator/SKILL.md) |
 |  | 51-9123.00 | Painting, Coating, and Decorating Workers |  |
 |  | 51-9124.00 | Coating, Painting, and Spraying Machine Setters, Operators, and Tenders |  |
 |  | 51-9141.00 | Semiconductor Processing Technicians |  |

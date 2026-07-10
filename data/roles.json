@@ -1,5 +1,5 @@
 {
-  "count": 578,
+  "count": 579,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8135,6 +8135,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/orthodontist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "packaging-filling-machine-operator",
+      "description": "Use when a task needs the judgment of a Packaging/Filling Machine Operator \u2014 calculating a fill target's overfill margin from the process's actual measured standard deviation rather than aiming exactly at label weight, setting checkweigher reject thresholds from regulatory requirements rather than habit, verifying headspace against its functional purpose for a sealed/thermally-processed container, or re-verifying fill accuracy after a machine speed increase.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9111.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/packaging-filling-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
