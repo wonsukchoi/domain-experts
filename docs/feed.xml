@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:56:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:00:53 +0000</lastBuildDate>
+  <item>
+    <title>Stationary Engineer Boiler Operator</title>
+    <link>https://domainexperts.dev/roles/stationary-engineer-boiler-operator/</link>
+    <guid>https://domainexperts.dev/roles/stationary-engineer-boiler-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:00:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Stationary Engineer/Boiler Operator — recalculating required blowdown rate after a steam production increase, deciding whether a safety valve or low-water cutoff test is overdue and non-negotiable, tuning combustion via flue gas O2/CO analysis rather than flame appearance, or recognizing that one safety system&#x27;s recent test doesn&#x27;t verify another.</description>
+  </item>
   <item>
     <title>Nuclear Power Reactor Operator</title>
     <link>https://domainexperts.dev/roles/nuclear-power-reactor-operator/</link>
