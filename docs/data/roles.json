@@ -1,5 +1,5 @@
 {
-  "count": 584,
+  "count": 585,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2762,6 +2762,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/crop-nursery-farmworker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "crushing-grinding-machine-operator",
+      "description": "Use when a task needs the judgment of a Crushing/Grinding Machine Operator \u2014 recognizing that classifier cut point, not mill residence time alone, determines what reports to finished product in a closed-circuit grinding operation, monitoring circulating load as a distinct diagnostic variable, matching grinding media size to the target size reduction, or verifying product size via actual sieve/laser analysis rather than mill parameters.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/crushing-grinding-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

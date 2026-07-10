@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:53:38 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:57:27 +0000</lastBuildDate>
+  <item>
+    <title>Crushing Grinding Machine Operator</title>
+    <link>https://domainexperts.dev/roles/crushing-grinding-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/crushing-grinding-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:57:14 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Crushing/Grinding Machine Operator — recognizing that classifier cut point, not mill residence time alone, determines what reports to finished product in a closed-circuit grinding operation, monitoring circulating load as a distinct diagnostic variable, matching grinding media size to the target size reduction, or verifying product size via actual sieve/laser analysis rather than mill parameters.</description>
+  </item>
   <item>
     <title>Separation Still Machine Operator</title>
     <link>https://domainexperts.dev/roles/separation-still-machine-operator/</link>
