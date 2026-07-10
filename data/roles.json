@@ -1,5 +1,5 @@
 {
-  "count": 562,
+  "count": 563,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10804,6 +10804,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/tile-stone-setter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "tire-builder",
+      "description": "Use when a task needs the judgment of a Tire Builder \u2014 measuring a ply/belt splice against its specified tolerance rather than accepting any visible overlap, checking rubber component stock against its tack window before building, deciding whether a detected air pocket must be corrected before curing, or tracing a recurring defect back to a specific build station or stock batch.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9197.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tire-builder/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
