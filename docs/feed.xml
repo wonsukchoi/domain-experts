@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:38:49 +0000</lastBuildDate>
+  <item>
+    <title>Grinding Machine Operator</title>
+    <link>https://domainexperts.dev/roles/grinding-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/grinding-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:38:36 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Grinding/Lapping/Polishing/Buffing Machine Operator — deciding whether a wheel past its dressing interval needs a burn check even when Ra readings stay in spec, verifying surface finish against a measured Ra value rather than feel, matching stock removal rate to a wheel/coolant combination&#x27;s heat capacity, or catching a skipped step in an abrasive grit progression.</description>
+  </item>
   <item>
     <title>Glass Blower Molder</title>
     <link>https://domainexperts.dev/roles/glass-blower-molder/</link>
