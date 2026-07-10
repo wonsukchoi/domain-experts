@@ -1,5 +1,5 @@
 {
-  "count": 549,
+  "count": 550,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -11208,6 +11208,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/weighers-measurers-checkers-samplers/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "welder",
+      "description": "Use when a task needs the judgment of a Welder \u2014 computing actual heat input from as-run voltage/amperage/travel speed against a WPS's qualified range, deciding whether a joint's carbon equivalent requires preheat before striking an arc, planning a weld sequence to control distortion, or diagnosing a recurring defect (undercut, lack of fusion) to a specific parameter rather than \"bad technique.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4121.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/welder/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
