@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 547 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 548 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (9/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (10/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1033,7 +1033,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-4052.00 | Pourers and Casters, Metal |  |
 |  | 51-4061.00 | Model Makers, Metal and Plastic |  |
 |  | 51-4062.00 | Patternmakers, Metal and Plastic |  |
-|  | 51-4071.00 | Foundry Mold and Coremakers |  |
+| ✅ | 51-4071.00 | Foundry Mold and Coremakers | [`foundry-mold-coremaker`](./roles/foundry-mold-coremaker/SKILL.md) |
 |  | 51-4072.00 | Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4081.00 | Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic |  |
 | ✅ | 51-4111.00 | Tool and Die Makers | [`tool-die-maker`](./roles/tool-die-maker/SKILL.md) |

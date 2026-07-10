@@ -1,5 +1,5 @@
 {
-  "count": 557,
+  "count": 558,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4536,6 +4536,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/forester/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "foundry-mold-coremaker",
+      "description": "Use when a task needs the judgment of a Foundry Mold and Coremaker \u2014 computing pattern dimensions from an alloy-specific shrink rule, sizing a riser via the modulus method to confirm it solidifies after the section it feeds, isolating whether a gas defect traces to sand moisture, core binder gassing, or vent inadequacy, or calculating actual casting yield rather than comparing scrap counts alone.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/foundry-mold-coremaker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
