@@ -1,5 +1,5 @@
 {
-  "count": 619,
+  "count": 623,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -5668,6 +5668,27 @@
       ]
     },
     {
+      "slug": "health-education-specialist",
+      "description": "Use when a task needs the judgment of a Health Education Specialist \u2014 diagnosing low participation or completion in a health promotion program, designing a PRECEDE-PROCEED needs assessment and logic model, writing SMART objectives and a RE-AIM evaluation plan for a grant, or reviewing patient/community materials against health-literacy and behavior-change standards.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/health-education-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "health-informatics-specialist",
       "description": "Use when a task needs the judgment of a Health Informatics Specialist \u2014 diagnosing why a clinical quality measure (eCQM/HEDIS) rate looks off, checking whether required data is captured as structured/coded fields versus free text, redesigning a clinical decision support (CDS) alert with a high override rate, resolving an interoperability gap caused by terminology/code mapping, or reconciling an HL7 v2 to FHIR data mapping during a system integration.",
       "category": "healthcare",
@@ -5990,6 +6011,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/human-factors-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "human-services-assistant",
+      "description": "Use when a task needs the judgment of a Human Services Assistant \u2014 screening a client's eligibility for public benefits or emergency assistance, triaging a walk-in request against a broader unmet-needs picture, deciding whether a disclosure or no-show pattern requires escalation to a supervising social worker, running a coordinated-entry or VI-SPDAT-style intake, or facilitating a psychoeducation/support group under agency ground rules.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/human-services-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7672,6 +7714,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mental-health-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mental-health-substance-abuse-social-worker",
+      "description": "Use when a task needs the judgment of a Mental Health and Substance Abuse Social Worker \u2014 routing a co-occurring client to integrated vs. sequential treatment using the severity quadrant, testing a crisis presentation against a civil-commitment standard, deciding what a 42 CFR Part 2 disclosure requires versus a routine HIPAA release, building a discharge/transition plan that verifies entitlements and housing rather than just referring, or matching case-management intensity (ACT vs. standard) to hospitalization and stability history.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-1023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mental-health-substance-abuse-social-worker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -10366,6 +10429,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/reinforcing-iron-rebar-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "religious-education-director",
+      "description": "Use when a task needs the judgment of a Religious Education Director \u2014 vetting a curriculum against denominational doctrine before adopting it, right-sizing a volunteer teacher corps to committed capacity, writing or auditing a child-safety/background-check policy, or building an education-ministry budget case for a finance committee or board.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "21-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/religious-education-director/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

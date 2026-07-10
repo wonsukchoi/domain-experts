@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 609 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 613 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -323,7 +323,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>21 — Community and Social Service</strong> (10/18 drafted)</summary>
+<summary><strong>21 — Community and Social Service</strong> (14/18 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -335,15 +335,15 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 21-1019.00 | Counselors, All Other |  |
 | ✅ | 21-1021.00 | Child, Family, and School Social Workers | [`child-family-social-worker`](./roles/child-family-social-worker/SKILL.md) |
 | ✅ | 21-1022.00 | Healthcare Social Workers | [`healthcare-social-worker`](./roles/healthcare-social-worker/SKILL.md) |
-|  | 21-1023.00 | Mental Health and Substance Abuse Social Workers |  |
+| ✅ | 21-1023.00 | Mental Health and Substance Abuse Social Workers | [`mental-health-substance-abuse-social-worker`](./roles/mental-health-substance-abuse-social-worker/SKILL.md) |
 |  | 21-1029.00 | Social Workers, All Other |  |
-|  | 21-1091.00 | Health Education Specialists |  |
+| ✅ | 21-1091.00 | Health Education Specialists | [`health-education-specialist`](./roles/health-education-specialist/SKILL.md) |
 | ✅ | 21-1092.00 | Probation Officers and Correctional Treatment Specialists | [`probation-officer`](./roles/probation-officer/SKILL.md) |
-|  | 21-1093.00 | Social and Human Service Assistants |  |
+| ✅ | 21-1093.00 | Social and Human Service Assistants | [`human-services-assistant`](./roles/human-services-assistant/SKILL.md) |
 | ✅ | 21-1094.00 | Community Health Workers | [`community-health-worker`](./roles/community-health-worker/SKILL.md) |
 |  | 21-1099.00 | Community and Social Service Specialists, All Other |  |
 | ✅ | 21-2011.00 | Clergy | [`clergy`](./roles/clergy/SKILL.md) |
-|  | 21-2021.00 | Directors, Religious Activities and Education |  |
+| ✅ | 21-2021.00 | Directors, Religious Activities and Education | [`religious-education-director`](./roles/religious-education-director/SKILL.md) |
 |  | 21-2099.00 | Religious Workers, All Other |  |
 
 </details>
