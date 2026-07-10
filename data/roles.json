@@ -1,5 +1,5 @@
 {
-  "count": 591,
+  "count": 592,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -11350,6 +11350,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/teller/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "textile-cutting-machine-operator",
+      "description": "Use when a task needs the judgment of a Textile Cutting Machine Operator \u2014 calculating actual marker efficiency percentage rather than judging a layout by visual impression, setting ply height to the fabric/equipment-specific accuracy limit rather than maximum physical capacity, allowing documented fabric relaxation time before cutting, or maintaining consistent orientation across a marker for directional fabric.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6062.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/textile-cutting-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
