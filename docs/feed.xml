@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:10:10 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:16:56 +0000</lastBuildDate>
+  <item>
+    <title>Packaging Filling Machine Operator</title>
+    <link>https://domainexperts.dev/roles/packaging-filling-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/packaging-filling-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:16:43 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Packaging/Filling Machine Operator — calculating a fill target&#x27;s overfill margin from the process&#x27;s actual measured standard deviation rather than aiming exactly at label weight, setting checkweigher reject thresholds from regulatory requirements rather than habit, verifying headspace against its functional purpose for a sealed/thermally-processed container, or re-verifying fill accuracy after a machine speed increase.</description>
+  </item>
   <item>
     <title>Mixing Blending Machine Operator</title>
     <link>https://domainexperts.dev/roles/mixing-blending-machine-operator/</link>
