@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:10:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:15:06 +0000</lastBuildDate>
+  <item>
+    <title>Butcher</title>
+    <link>https://domainexperts.dev/roles/butcher/</link>
+    <guid>https://domainexperts.dev/roles/butcher/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:14:54 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Butcher/Meat Cutter — computing true cost per sellable pound from a primal&#x27;s actual cutting yield, allocating a primal&#x27;s cost across cut categories by relative market value, pricing dry-aged product against its finished (not green) weight, or diagnosing whether a below-average yield traces to cutting spec rather than the animal itself.</description>
+  </item>
   <item>
     <title>Baker</title>
     <link>https://domainexperts.dev/roles/baker/</link>
