@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 535 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 536 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,7 +779,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (45/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (46/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -819,7 +819,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 43-5032.00 | Dispatchers, Except Police, Fire, and Ambulance | [`dispatcher`](./roles/dispatcher/SKILL.md) |
 | ✅ | 43-5041.00 | Meter Readers, Utilities | [`meter-reader-utilities`](./roles/meter-reader-utilities/SKILL.md) |
 | ✅ | 43-5051.00 | Postal Service Clerks | [`postal-service-clerk`](./roles/postal-service-clerk/SKILL.md) |
-|  | 43-5052.00 | Postal Service Mail Carriers |  |
+| ✅ | 43-5052.00 | Postal Service Mail Carriers | [`postal-service-mail-carrier`](./roles/postal-service-mail-carrier/SKILL.md) |
 |  | 43-5053.00 | Postal Service Mail Sorters, Processors, and Processing Machine Operators |  |
 | ✅ | 43-5061.00 | Production, Planning, and Expediting Clerks | [`production-planning-expediting-clerk`](./roles/production-planning-expediting-clerk/SKILL.md) |
 | ✅ | 43-5071.00 | Shipping, Receiving, and Inventory Clerks | [`shipping-receiving-inventory-clerk`](./roles/shipping-receiving-inventory-clerk/SKILL.md) |

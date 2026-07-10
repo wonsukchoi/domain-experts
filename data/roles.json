@@ -1,5 +1,5 @@
 {
-  "count": 545,
+  "count": 546,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8299,6 +8299,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/postal-service-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "postal-service-mail-carrier",
+      "description": "Use when a task needs the judgment of a Postal Service Mail Carrier \u2014 casing non-machine-sorted mail into delivery-point order, deciding whether a route's actual time overage justifies requesting a Count and Inspection, handling a dog-on-premises or access-blocked delivery point, verifying a hold-mail or forwarding order before delivering, or triaging a cluster-box-unit access failure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "43-5052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/postal-service-mail-carrier/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
