@@ -1,5 +1,5 @@
 {
-  "count": 560,
+  "count": 561,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -5852,6 +5852,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/janitor-cleaner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "jeweler",
+      "description": "Use when a task needs the judgment of a Jeweler/Precious Stone and Metal Worker \u2014 calculating a wax pattern's dimensions from a target ring size and alloy-specific casting shrinkage rate, verifying stone setting security by prong metal thickness rather than visual tightness, reconciling metal weight in/out on a job, or deciding whether a specific gemstone can safely tolerate ultrasonic cleaning or heat during a repair.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/jeweler/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

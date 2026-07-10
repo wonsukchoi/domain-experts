@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:49:30 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:54:01 +0000</lastBuildDate>
+  <item>
+    <title>Jeweler</title>
+    <link>https://domainexperts.dev/roles/jeweler/</link>
+    <guid>https://domainexperts.dev/roles/jeweler/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:53:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Jeweler/Precious Stone and Metal Worker — calculating a wax pattern&#x27;s dimensions from a target ring size and alloy-specific casting shrinkage rate, verifying stone setting security by prong metal thickness rather than visual tightness, reconciling metal weight in/out on a job, or deciding whether a specific gemstone can safely tolerate ultrasonic cleaning or heat during a repair.</description>
+  </item>
   <item>
     <title>Printing Press Operator</title>
     <link>https://domainexperts.dev/roles/printing-press-operator/</link>
