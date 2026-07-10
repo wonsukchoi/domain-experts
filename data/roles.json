@@ -1,5 +1,5 @@
 {
-  "count": 550,
+  "count": 551,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10638,6 +10638,27 @@
       "skill": "roles/title-examiner/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "tool-die-maker",
+      "description": "Use when a task needs the judgment of a Tool and Die Maker \u2014 compensating a stamping die for material springback before cutting the forming angle, setting punch-to-die clearance for a given material and thickness, scaling an injection mold cavity for resin shrinkage, sequencing progressive die stations against carrier-web integrity, or re-verifying critical dimensions after heat treatment before final fitting.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4111.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tool-die-maker/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
