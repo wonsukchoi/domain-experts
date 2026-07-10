@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:16:52 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:21:04 +0000</lastBuildDate>
+  <item>
+    <title>Photographic Process Worker</title>
+    <link>https://domainexperts.dev/roles/photographic-process-worker/</link>
+    <guid>https://domainexperts.dev/roles/photographic-process-worker/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:20:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Photographic Process Worker — calculating a time-temperature compensation when processing chemistry runs off standard temperature, verifying chemistry condition via a densitometer control strip rather than visual judgment, deciding whether fixer exhaustion requires extended fixing time, or preventing cross-contamination when switching processes on shared equipment.</description>
+  </item>
   <item>
     <title>Etcher Engraver</title>
     <link>https://domainexperts.dev/roles/etcher-engraver/</link>

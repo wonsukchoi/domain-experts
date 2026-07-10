@@ -1,5 +1,5 @@
 {
-  "count": 567,
+  "count": 568,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8261,6 +8261,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/photographer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "photographic-process-worker",
+      "description": "Use when a task needs the judgment of a Photographic Process Worker \u2014 calculating a time-temperature compensation when processing chemistry runs off standard temperature, verifying chemistry condition via a densitometer control strip rather than visual judgment, deciding whether fixer exhaustion requires extended fixing time, or preventing cross-contamination when switching processes on shared equipment.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9151.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/photographic-process-worker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
