@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 12:18:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 12:21:45 +0000</lastBuildDate>
+  <item>
+    <title>Postal Service Mail Sorter</title>
+    <link>https://domainexperts.dev/roles/postal-service-mail-sorter/</link>
+    <guid>https://domainexperts.dev/roles/postal-service-mail-sorter/</guid>
+    <pubDate>Fri, 10 Jul 2026 19:21:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postal Service Mail Sorter/Processing Machine Operator — diagnosing why a run&#x27;s reject rate spiked above baseline, deciding whether a throughput shortfall traces to jams or a speed-setting error, triaging a REC keying backlog against downstream delivery risk, or handling mixed-class trays arriving at a single-class machine.</description>
+  </item>
   <item>
     <title>Postal Service Mail Carrier</title>
     <link>https://domainexperts.dev/roles/postal-service-mail-carrier/</link>
