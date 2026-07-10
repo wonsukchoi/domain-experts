@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 543 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 544 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (5/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (6/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1013,7 +1013,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-2092.00 | Team Assemblers |  |
 |  | 51-2099.00 | Assemblers and Fabricators, All Other |  |
 | ✅ | 51-3011.00 | Bakers | [`baker`](./roles/baker/SKILL.md) |
-|  | 51-3021.00 | Butchers and Meat Cutters |  |
+| ✅ | 51-3021.00 | Butchers and Meat Cutters | [`butcher`](./roles/butcher/SKILL.md) |
 |  | 51-3022.00 | Meat, Poultry, and Fish Cutters and Trimmers |  |
 |  | 51-3023.00 | Slaughterers and Meat Packers |  |
 |  | 51-3091.00 | Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders |  |

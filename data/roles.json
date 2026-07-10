@@ -1,5 +1,5 @@
 {
-  "count": 553,
+  "count": 554,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1396,6 +1396,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/business-intelligence-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "butcher",
+      "description": "Use when a task needs the judgment of a Butcher/Meat Cutter \u2014 computing true cost per sellable pound from a primal's actual cutting yield, allocating a primal's cost across cut categories by relative market value, pricing dry-aged product against its finished (not green) weight, or diagnosing whether a below-average yield traces to cutting spec rather than the animal itself.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-3021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/butcher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
