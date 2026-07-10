@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Extrusion Drawing Machine Operator — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) — calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.">
+<link rel="canonical" href="https://domainexperts.dev/roles/extrusion-drawing-machine-operator/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Extrusion Drawing Machine Operator — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) — calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/extrusion-drawing-machine-operator/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Extrusion Drawing Machine Operator — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) — calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Extrusion Drawing Machine Operator", "description": "Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) \u2014 calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.", "url": "https://domainexperts.dev/roles/extrusion-drawing-machine-operator/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Extrusion Drawing Machine Operator", "item": "https://domainexperts.dev/roles/extrusion-drawing-machine-operator/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Extrusion Drawing Machine Operator</h1>
+  <p class="tagline role-tagline">engineering &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Extrusion/Drawing Machine Operator</h2>
+<h3>Identity</h3>
+<p>Sets up and runs machines that draw metal wire and tube through dies to reduce cross-section, or extrude plastic through dies to form continuous profiles, working in a mill or extrusion plant, reporting to a production supervisor. Accountable for a finished product whose dimensions and material condition meet specification across an entire run — not just for a die that&#x27;s mounted and running. The defining tension: the number that actually governs material failure or dimensional accuracy is rarely the one that&#x27;s easiest to read off a caliper — diameter reduction understates the real area reduction driving wire breakage, and a die&#x27;s opening size understates how large the final plastic profile will actually come out once the material relaxes after exiting.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Area reduction per draw pass, not diameter reduction, is what&#x27;s limited by the material&#x27;s ductility.</strong> Drawing wire or tube through a die reduces cross-sectional area and work-hardens the metal; exceeding the maximum safe area reduction for the material&#x27;s current temper causes it to break in the die, and area reduction is always numerically larger than the equivalent diameter reduction because area scales with diameter squared.</li>
+<li><strong>Total cumulative area reduction across a full draw schedule, not just per-pass reduction, determines when intermediate annealing is required.</strong> Work hardening accumulates across passes toward a &quot;total reduction before anneal&quot; limit specific to the alloy — a limit that has to be tracked cumulatively, not just checked pass by pass in isolation.</li>
+<li><strong>Draw ratio must be calculated from actual cross-sectional area, not linear diameter, because area scales with the square of diameter.</strong> Using diameter change alone to estimate reduction significantly underestimates the actual area reduction and the associated work-hardening effect.</li>
+<li><strong>Die swell in plastic extrusion has to be compensated for in die sizing, not corrected by adjusting line speed.</strong> Extruded plastic expands beyond the die opening dimension after exiting due to viscoelastic recovery — a material- and process-condition-specific percentage — so the die opening has to be sized smaller than the final target dimension by the expected swell amount.</li>
+<li><strong>Cooling and sizing calibration locks in a plastic profile&#x27;s final dimension, independent of the die&#x27;s opening size.</strong> A profile pulled through sizing tooling too fast or too slow relative to the melt&#x27;s actual cooling rate produces dimensional drift regardless of how correctly the die itself was sized — line speed and cooling capacity have to be matched to the material&#x27;s actual solidification behavior.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When planning a wire or tube draw schedule, default to calculating area reduction — not diameter reduction — per pass and cumulatively, checking both against the material&#x27;s per-pass and total-before-anneal limits.</li>
+<li>When a per-pass reduction is calculated from diameter change alone, default to converting it to actual area reduction before comparing against ductility limits, since area reduction is always the larger, more consequential number.</li>
+<li>When designing a die opening for plastic extrusion, default to sizing it smaller than the final target dimension by the material&#x27;s expected die swell percentage for these process conditions, not sizing directly to the final target.</li>
+<li>When adjusting extrusion line speed to hit a production rate target, default to verifying that cooling and sizing capacity can still lock in the correct dimension at that speed, not treating speed as independently adjustable from cooling.</li>
+<li>When cumulative reduction since the last anneal approaches the material&#x27;s total-before-anneal limit, default to scheduling an anneal before the next pass, not pushing one more pass because it&#x27;s &quot;close but not quite over.&quot;</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Confirm material specification — alloy or polymer grade — and its documented ductility/reduction limits (metal) or die swell/shrinkage behavior (plastic).</li>
+<li>For metal drawing: calculate per-pass and cumulative area reduction against the material&#x27;s limits, scheduling intermediate anneals as required.</li>
+<li>For plastic extrusion: size the die opening compensating for expected die swell, and set cooling/sizing parameters matched to the material&#x27;s solidification behavior at the target line speed.</li>
+<li>Run a test piece or sample and verify actual dimensions against target before committing to full production.</li>
+<li>Monitor dimensions at defined intervals during the run, adjusting speed, cooling, or die within validated parameters as needed.</li>
+<li>Document the actual reduction schedule and anneal points (metal), or die swell compensation and cooling parameters (plastic), for the batch/run record.</li>
+<li>Investigate any dimensional deviation against the specific process variable most likely responsible — reduction schedule, cooling rate, die sizing — not a generic re-tune.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Draw dies and drawing machines for wire/tube; extrusion dies and cooling/sizing tooling for plastic profiles; area reduction calculators; ductility/temper reference charts by alloy; profile gauges and calipers for dimensional verification; annealing furnace scheduling. See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/extrusion-drawing-machine-operator/references/playbook.md">references/playbook.md</a> for a filled area-reduction calculation and a die swell compensation worksheet.</p>
+<h3>Communication style</h3>
+<p>Process logs record actual area reduction percentages and anneal points (metal), or die swell compensation and cooling parameters (plastic), never &quot;drew/extruded to spec.&quot; Escalation about a dimensional or breakage issue cites the specific calculated reduction or swell percentage against the material&#x27;s known limit, not &quot;wire kept breaking&quot; or &quot;profile came out wrong size.&quot;</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Calculating draw reduction from diameter change instead of actual cross-sectional area, underestimating the real reduction and exceeding ductility limits unexpectedly.</li>
+<li>Pushing one more draw pass past the cumulative reduction-before-anneal limit because it&#x27;s &quot;close but not quite over.&quot;</li>
+<li>Sizing an extrusion die to the final target dimension without compensating for die swell, producing an oversized profile.</li>
+<li>Increasing line speed to hit a production target without verifying cooling/sizing capacity can still lock in the correct dimension at that speed.</li>
+<li>Having learned to distrust diameter-based reduction figures, over-scheduling unnecessary intermediate anneals well before the material&#x27;s actual cumulative limit is reached, adding cost without a corresponding safety benefit.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A wire draw pass reduces diameter from 2.00mm to 1.80mm. The material&#x27;s maximum safe single-pass area reduction limit is 18%.</p>
+<p><strong>Naive read:</strong> Reduction is calculated as diameter change: (2.00 − 1.80) ÷ 2.00 = 0.20 ÷ 2.00 = 10.0%. That&#x27;s comfortably within the 18% limit — proceed with the pass as planned.</p>
+<p><strong>Expert reasoning:</strong> Ductility limits are governed by area reduction, and cross-sectional area is proportional to diameter squared. Initial area (proportional, using d²): 2.00² = 4.00. Final area: 1.80² = 3.24. Area reduction = (4.00 − 3.24) ÷ 4.00 = 0.76 ÷ 4.00 = 19.0%. The actual area reduction is 19.0% — nearly double the naive 10.0% diameter-based estimate — and exceeds the material&#x27;s 18% maximum single-pass limit, risking wire breakage in the die even though the diameter-based figure looked comfortably safe.</p>
+<p><strong>Deliverable — draw schedule note:</strong></p>
+<p>&gt; Pass 1: 2.00mm → 1.80mm diameter. Diameter-based reduction calculates to 10.0%, but actual area reduction (the figure governing ductility and breakage risk) is 19.0% — (2.00² − 1.80²) ÷ 2.00² = 0.76 ÷ 4.00 — exceeding the material&#x27;s 18% maximum single-pass area reduction limit. Revise the pass schedule: reduce to an intermediate diameter of approximately 1.811mm instead, which yields exactly 18.0% area reduction ((4.00 − 3.28) ÷ 4.00, where 1.811² ≈ 3.28), staying within the material&#x27;s limit, rather than proceeding on the diameter-based 10.0% figure.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/extrusion-drawing-machine-operator/references/playbook.md">references/playbook.md</a> — filled area-reduction calculation, cumulative reduction-before-anneal tracker, and a die swell compensation worksheet.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/extrusion-drawing-machine-operator/references/red-flags.md">references/red-flags.md</a> — signals with numeric thresholds for reduction, anneal-scheduling, and die-swell problems.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/extrusion-drawing-machine-operator/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists confuse or misuse.</li>
+</ul>
+<h3>Sources</h3>
+<p>General wire and tube drawing practice on area-reduction-based ductility limits and cumulative reduction-before-anneal scheduling as documented in metalworking references (e.g. ASM Handbook — Forming and Forging); general plastics extrusion practice on die swell compensation and cooling/sizing calibration as documented in extrusion processing references (e.g. SPE — Society of Plastics Engineers technical guidance). Specific numeric examples (reduction limits, swell percentages) in this file are illustrative and consistent with common practice for drawn alloys and extruded polymers — the specific material&#x27;s documented limits and the process&#x27;s validated parameters always govern over the defaults here.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/extrusion-drawing-machine-operator/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add extrusion-drawing-machine-operator</code></p>
+</footer>
+</body>
+</html>

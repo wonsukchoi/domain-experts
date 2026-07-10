@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:26:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:30:43 +0000</lastBuildDate>
+  <item>
+    <title>Extrusion Drawing Machine Operator</title>
+    <link>https://domainexperts.dev/roles/extrusion-drawing-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/extrusion-drawing-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:30:27 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) — calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.</description>
+  </item>
   <item>
     <title>Chemical Plant Operator</title>
     <link>https://domainexperts.dev/roles/chemical-plant-operator/</link>
