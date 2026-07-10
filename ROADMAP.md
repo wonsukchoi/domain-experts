@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 545 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 546 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (7/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (8/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1062,7 +1062,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-6092.00 | Fabric and Apparel Patternmakers |  |
 |  | 51-6093.00 | Upholsterers |  |
 |  | 51-6099.00 | Textile, Apparel, and Furnishings Workers, All Other |  |
-|  | 51-7011.00 | Cabinetmakers and Bench Carpenters |  |
+| ✅ | 51-7011.00 | Cabinetmakers and Bench Carpenters | [`cabinetmaker`](./roles/cabinetmaker/SKILL.md) |
 |  | 51-7021.00 | Furniture Finishers |  |
 |  | 51-7031.00 | Model Makers, Wood |  |
 |  | 51-7032.00 | Patternmakers, Wood |  |

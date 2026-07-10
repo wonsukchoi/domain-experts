@@ -1,5 +1,5 @@
 {
-  "count": 555,
+  "count": 556,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1417,6 +1417,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/butcher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cabinetmaker",
+      "description": "Use when a task needs the judgment of a Cabinetmaker/Bench Carpenter \u2014 calculating expected seasonal wood movement for a solid panel and designing joinery to accommodate it, deciding whether incoming lumber needs to acclimate before milling, choosing a joint type by its actual load path rather than appearance or speed, or diagnosing a delivered piece's gaps or cracks as an acclimation/movement issue rather than a joinery defect.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-7011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cabinetmaker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
