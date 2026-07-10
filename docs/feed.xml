@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:49:46 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:53:38 +0000</lastBuildDate>
+  <item>
+    <title>Separation Still Machine Operator</title>
+    <link>https://domainexperts.dev/roles/separation-still-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/separation-still-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:53:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Separating/Filtering/Still Machine Operator — calculating effective theoretical stages from tray count and tray efficiency rather than nameplate tray count alone, setting reflux ratio at the calculated minimum for target purity rather than a conservative default, reassessing feed tray location after a feed composition change, or verifying separator throughput against required residence time.</description>
+  </item>
   <item>
     <title>Plating Machine Operator</title>
     <link>https://domainexperts.dev/roles/plating-machine-operator/</link>

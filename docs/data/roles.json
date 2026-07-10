@@ -1,5 +1,5 @@
 {
-  "count": 583,
+  "count": 584,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10212,6 +10212,27 @@
       "audit_score": null,
       "skill": "roles/security-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "separation-still-machine-operator",
+      "description": "Use when a task needs the judgment of a Separating/Filtering/Still Machine Operator \u2014 calculating effective theoretical stages from tray count and tray efficiency rather than nameplate tray count alone, setting reflux ratio at the calculated minimum for target purity rather than a conservative default, reassessing feed tray location after a feed composition change, or verifying separator throughput against required residence time.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/separation-still-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
