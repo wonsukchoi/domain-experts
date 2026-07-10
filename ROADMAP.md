@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 566 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 567 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (28/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (29/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1029,7 +1029,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-4034.00 | Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4035.00 | Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 | ✅ | 51-4041.00 | Machinists | [`machinist`](./roles/machinist/SKILL.md) |
-|  | 51-4051.00 | Metal-Refining Furnace Operators and Tenders |  |
+| ✅ | 51-4051.00 | Metal-Refining Furnace Operators and Tenders | [`metal-refining-furnace-operator`](./roles/metal-refining-furnace-operator/SKILL.md) |
 |  | 51-4052.00 | Pourers and Casters, Metal |  |
 |  | 51-4061.00 | Model Makers, Metal and Plastic |  |
 |  | 51-4062.00 | Patternmakers, Metal and Plastic |  |

@@ -1,5 +1,5 @@
 {
-  "count": 576,
+  "count": 577,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -7210,6 +7210,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/merchandise-displayer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "metal-refining-furnace-operator",
+      "description": "Use when a task needs the judgment of a Metal-Refining Furnace Operator \u2014 calculating an alloy addition that accounts for element-specific recovery rate rather than assuming 1:1 addition-to-result, recalculating additions from the current heat's actual assay rather than reusing a prior heat's amounts, adjusting slag basicity for the specific refining reaction required, or verifying actual tap temperature against the target rather than time-in-furnace.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/metal-refining-furnace-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
