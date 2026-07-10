@@ -1,5 +1,5 @@
 {
-  "count": 577,
+  "count": 578,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -7336,6 +7336,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mining-geological-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mixing-blending-machine-operator",
+      "description": "Use when a task needs the judgment of a Mixing/Blending Machine Operator \u2014 deciding whether a low-concentration ingredient needs a premix step before full-batch incorporation, verifying blend uniformity via multi-location sampling and CV calculation rather than appearance, recognizing that more mixing time isn't always better, or re-validating uniformity when a formula is scaled to a larger batch size.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mixing-blending-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
