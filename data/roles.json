@@ -1,5 +1,5 @@
 {
-  "count": 559,
+  "count": 560,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8614,6 +8614,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/preschool-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "printing-press-operator",
+      "description": "Use when a task needs the judgment of a Printing Press Operator \u2014 diagnosing whether a color drift is a dot-gain problem versus a general density problem, deciding whether measured registration error is within tolerance for process-color work, recalibrating press settings when a job moves to a different substrate, or deciding whether a makeready-approved run still needs mid-run spot-checks.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-5112.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/printing-press-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
