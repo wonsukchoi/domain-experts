@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 12:15:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 12:18:18 +0000</lastBuildDate>
+  <item>
+    <title>Postal Service Mail Carrier</title>
+    <link>https://domainexperts.dev/roles/postal-service-mail-carrier/</link>
+    <guid>https://domainexperts.dev/roles/postal-service-mail-carrier/</guid>
+    <pubDate>Fri, 10 Jul 2026 19:18:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postal Service Mail Carrier — casing non-machine-sorted mail into delivery-point order, deciding whether a route&#x27;s actual time overage justifies requesting a Count and Inspection, handling a dog-on-premises or access-blocked delivery point, verifying a hold-mail or forwarding order before delivering, or triaging a cluster-box-unit access failure.</description>
+  </item>
   <item>
     <title>Procurement Clerk</title>
     <link>https://domainexperts.dev/roles/procurement-clerk/</link>
