@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:13:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:16:52 +0000</lastBuildDate>
+  <item>
+    <title>Etcher Engraver</title>
+    <link>https://domainexperts.dev/roles/etcher-engraver/</link>
+    <guid>https://domainexperts.dev/roles/etcher-engraver/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:16:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Etcher/Engraver — compensating a resist pattern for expected undercut before etching fine detail, calculating etch time from a known etch rate rather than judging completion visually, verifying a functional engraving&#x27;s line width/depth against its actual accuracy requirement, or re-validating process parameters on a new material batch before production.</description>
+  </item>
   <item>
     <title>Medical Appliance Technician</title>
     <link>https://domainexperts.dev/roles/medical-appliance-technician/</link>

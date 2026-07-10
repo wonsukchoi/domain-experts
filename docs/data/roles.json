@@ -1,5 +1,5 @@
 {
-  "count": 566,
+  "count": 567,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3809,6 +3809,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/equal-opportunity-representative/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "etcher-engraver",
+      "description": "Use when a task needs the judgment of an Etcher/Engraver \u2014 compensating a resist pattern for expected undercut before etching fine detail, calculating etch time from a known etch rate rather than judging completion visually, verifying a functional engraving's line width/depth against its actual accuracy requirement, or re-validating process parameters on a new material batch before production.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9194.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/etcher-engraver/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
