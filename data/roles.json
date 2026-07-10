@@ -1,5 +1,5 @@
 {
-  "count": 575,
+  "count": 576,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10518,6 +10518,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/speech-language-pathologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "stationary-engineer-boiler-operator",
+      "description": "Use when a task needs the judgment of a Stationary Engineer/Boiler Operator \u2014 recalculating required blowdown rate after a steam production increase, deciding whether a safety valve or low-water cutoff test is overdue and non-negotiable, tuning combustion via flue gas O2/CO analysis rather than flame appearance, or recognizing that one safety system's recent test doesn't verify another.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/stationary-engineer-boiler-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
