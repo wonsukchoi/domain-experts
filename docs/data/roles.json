@@ -1,5 +1,5 @@
 {
-  "count": 565,
+  "count": 566,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6874,6 +6874,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mediator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "medical-appliance-technician",
+      "description": "Use when a task needs the judgment of a Medical Appliance Technician \u2014 rectifying a positive model with zone-specific relief and build-up rather than uniform clearance, deciding whether bench alignment requires dynamic gait adjustment before delivery, selecting device material/rigidity by patient weight and activity level, or diagnosing a localized pain complaint against the socket's pressure map.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9082.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-appliance-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
