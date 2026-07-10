@@ -1,5 +1,5 @@
 {
-  "count": 582,
+  "count": 583,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8740,6 +8740,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/platform-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "plating-machine-operator",
+      "description": "Use when a task needs the judgment of a Plating Machine Operator \u2014 calculating plating time from Faraday's law adjusted for actual cathode efficiency rather than a theoretical deposition rate, setting current density from part surface area rather than a fixed amperage, verifying thickness in recessed areas given a bath's throwing power, or confirming surface activation before plating rather than general cleaning alone.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4193.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/plating-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
