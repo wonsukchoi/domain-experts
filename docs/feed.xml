@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 12:21:45 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 12:27:31 +0000</lastBuildDate>
+  <item>
+    <title>Mail Clerk</title>
+    <link>https://domainexperts.dev/roles/mail-clerk/</link>
+    <guid>https://domainexperts.dev/roles/mail-clerk/</guid>
+    <pubDate>Fri, 10 Jul 2026 19:27:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mail Clerk (mailroom operator, non-postal) — reconciling why a department&#x27;s meter usage spiked above baseline, screening a package against suspicious-mail indicators, logging chain-of-custody on a certified or signed-for item, resolving a persistently misrouted internal addressee, or rate-shopping outgoing mail against carrier weight/zone breaks.</description>
+  </item>
   <item>
     <title>Postal Service Mail Sorter</title>
     <link>https://domainexperts.dev/roles/postal-service-mail-sorter/</link>
