@@ -1,5 +1,5 @@
 {
-  "count": 554,
+  "count": 555,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10266,6 +10266,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/structural-iron-steel-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "structural-metal-fabricator",
+      "description": "Use when a task needs the judgment of a Structural Metal Fabricator/Fitter \u2014 checking root gap against a WPS's allowed tolerance before tacking, catching cumulative fit-up error that stacks across a multi-piece assembly even though every segment passed its own check, deciding whether to correct a fit-up gap or reject a compensating weld request, or accounting for mill camber/sweep before assembly.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/structural-metal-fabricator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
