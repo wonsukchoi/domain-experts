@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 570 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 571 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (32/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (33/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1087,7 +1087,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-9022.00 | Grinding and Polishing Workers, Hand |  |
 | ✅ | 51-9023.00 | Mixing and Blending Machine Setters, Operators, and Tenders | [`mixing-blending-machine-operator`](./roles/mixing-blending-machine-operator/SKILL.md) |
 |  | 51-9031.00 | Cutters and Trimmers, Hand |  |
-|  | 51-9032.00 | Cutting and Slicing Machine Setters, Operators, and Tenders |  |
+| ✅ | 51-9032.00 | Cutting and Slicing Machine Setters, Operators, and Tenders | [`cutting-slicing-machine-operator`](./roles/cutting-slicing-machine-operator/SKILL.md) |
 |  | 51-9041.00 | Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders |  |
 |  | 51-9051.00 | Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders |  |
 |  | 51-9061.00 | Inspectors, Testers, Sorters, Samplers, and Weighers |  |

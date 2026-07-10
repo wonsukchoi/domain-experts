@@ -1,5 +1,5 @@
 {
-  "count": 580,
+  "count": 581,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2842,6 +2842,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/customs-broker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cutting-slicing-machine-operator",
+      "description": "Use when a task needs the judgment of a Cutting/Slicing Machine Operator \u2014 calculating a portion weight overweight margin from measured weight variability to minimize giveaway while staying compliant, verifying a thickness setting against a new product lot's actual density rather than reusing a prior lot's setting, diagnosing declining cut quality as a blade-condition issue rather than compensating with thickness/speed, or adapting cut pattern to irregular input to improve yield.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cutting-slicing-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
