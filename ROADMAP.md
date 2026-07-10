@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 534 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 535 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,7 +779,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (44/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (45/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -792,7 +792,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 43-3031.00 | Bookkeeping, Accounting, and Auditing Clerks | [`bookkeeping-accounting-clerk`](./roles/bookkeeping-accounting-clerk/SKILL.md) |
 | ✅ | 43-3041.00 | Gambling Cage Workers | [`gambling-cage-worker`](./roles/gambling-cage-worker/SKILL.md) |
 | ✅ | 43-3051.00 | Payroll and Timekeeping Clerks | [`payroll-timekeeping-clerk`](./roles/payroll-timekeeping-clerk/SKILL.md) |
-|  | 43-3061.00 | Procurement Clerks |  |
+| ✅ | 43-3061.00 | Procurement Clerks | [`procurement-clerk`](./roles/procurement-clerk/SKILL.md) |
 | ✅ | 43-3071.00 | Tellers | [`teller`](./roles/teller/SKILL.md) |
 |  | 43-3099.00 | Financial Clerks, All Other |  |
 | ✅ | 43-4011.00 | Brokerage Clerks | [`brokerage-clerk`](./roles/brokerage-clerk/SKILL.md) |
