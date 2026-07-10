@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:30:43 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:35:31 +0000</lastBuildDate>
+  <item>
+    <title>Glass Blower Molder</title>
+    <link>https://domainexperts.dev/roles/glass-blower-molder/</link>
+    <guid>https://domainexperts.dev/roles/glass-blower-molder/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:35:15 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Glass Blower/Molder/Bender/Finisher — verifying COE compatibility before fusing two glass pieces, calculating an annealing schedule from a piece&#x27;s thickest cross-section rather than its average wall thickness, confirming a full annealing temperature profile rather than treating kiln time as sufficient, or adjusting working temperature when switching between glass types.</description>
+  </item>
   <item>
     <title>Extrusion Drawing Machine Operator</title>
     <link>https://domainexperts.dev/roles/extrusion-drawing-machine-operator/</link>

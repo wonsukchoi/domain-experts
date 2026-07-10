@@ -1,5 +1,5 @@
 {
-  "count": 570,
+  "count": 571,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -5091,6 +5091,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/gis-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "glass-blower-molder",
+      "description": "Use when a task needs the judgment of a Glass Blower/Molder/Bender/Finisher \u2014 verifying COE compatibility before fusing two glass pieces, calculating an annealing schedule from a piece's thickest cross-section rather than its average wall thickness, confirming a full annealing temperature profile rather than treating kiln time as sufficient, or adjusting working temperature when switching between glass types.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9195.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/glass-blower-molder/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
