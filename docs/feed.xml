@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:37:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:49:46 +0000</lastBuildDate>
+  <item>
+    <title>Plating Machine Operator</title>
+    <link>https://domainexperts.dev/roles/plating-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/plating-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:49:34 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Plating Machine Operator — calculating plating time from Faraday&#x27;s law adjusted for actual cathode efficiency rather than a theoretical deposition rate, setting current density from part surface area rather than a fixed amperage, verifying thickness in recessed areas given a bath&#x27;s throwing power, or confirming surface activation before plating rather than general cleaning alone.</description>
+  </item>
   <item>
     <title>Heat Treating Equipment Operator</title>
     <link>https://domainexperts.dev/roles/heat-treating-equipment-operator/</link>
