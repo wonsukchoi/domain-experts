@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 537 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 538 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,7 +779,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (47/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (48/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -832,7 +832,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 43-9022.00 | Word Processors and Typists | [`word-processor-typist`](./roles/word-processor-typist/SKILL.md) |
 | ✅ | 43-9031.00 | Desktop Publishers | [`desktop-publisher`](./roles/desktop-publisher/SKILL.md) |
 | ✅ | 43-9041.00 | Insurance Claims and Policy Processing Clerks | [`insurance-claims-processing-clerk`](./roles/insurance-claims-processing-clerk/SKILL.md) |
-|  | 43-9051.00 | Mail Clerks and Mail Machine Operators, Except Postal Service |  |
+| ✅ | 43-9051.00 | Mail Clerks and Mail Machine Operators, Except Postal Service | [`mail-clerk`](./roles/mail-clerk/SKILL.md) |
 | ✅ | 43-9061.00 | Office Clerks, General | [`office-clerk-general`](./roles/office-clerk-general/SKILL.md) |
 | ✅ | 43-9071.00 | Office Machine Operators, Except Computer | [`office-machine-operator`](./roles/office-machine-operator/SKILL.md) |
 | ✅ | 43-9081.00 | Proofreaders and Copy Markers | [`proofreader-copy-marker`](./roles/proofreader-copy-marker/SKILL.md) |
