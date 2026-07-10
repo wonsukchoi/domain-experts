@@ -1,5 +1,5 @@
 {
-  "count": 592,
+  "count": 619,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -296,6 +296,27 @@
       "audit_score": null,
       "skill": "roles/agricultural-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "agricultural-technician",
+      "description": "Use when a task needs the judgment of an Agricultural Technician \u2014 designing a soil, tissue, or seed sampling plan, interpreting pest scouting counts against an economic threshold, calibrating spray/seeding equipment, or troubleshooting a field data discrepancy before it reaches the agronomist or scientist who acts on it.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/agricultural-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -1137,6 +1158,27 @@
       ]
     },
     {
+      "slug": "biological-technician",
+      "description": "Use when a task needs the judgment of a Biological Technician \u2014 troubleshooting a failed assay or contaminated culture, deciding whether a batch of lab data is trustworthy enough to report, auditing a bench's SOP/QC discipline, or diagnosing calibration and reagent-lot problems behind inconsistent results.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biological-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "biologist",
       "description": "Use when a task needs the judgment of a Biologist \u2014 designing a study and identifying its true experimental unit before data collection starts, running a power analysis to size a sample, judging whether a published or preclinical finding warrants trust without independent replication, sequencing IACUC/IBC/field-permit approvals before biosafety or wildlife work begins, or scoping a grant-funded research plan against realistic funding odds.",
       "category": "other",
@@ -1658,6 +1700,27 @@
       ]
     },
     {
+      "slug": "chemical-technician",
+      "description": "Use when a task needs the judgment of a Chemical Technician \u2014 running a routine or non-routine lab analysis under an SOP, reading a control chart or calibration-check trend for drift, deciding whether to release, hold, or escalate a QC result, troubleshooting an instrument or reagent problem on the bench, or handling chain-of-custody and hazardous-chemical storage/documentation.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chemical-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "chemist",
       "description": "Use when a task needs the judgment of a Chemist \u2014 developing or validating an analytical method (HPLC, GC, spectroscopy), designing a synthesis route and reconciling a reaction yield, diagnosing an out-of-specification (OOS) lab result, interpreting a spectrum to confirm structure or purity, or reviewing a stability/degradation study.",
       "category": "other",
@@ -1860,6 +1923,27 @@
       ]
     },
     {
+      "slug": "climate-policy-analyst",
+      "description": "Use when a task needs the judgment of a climate change policy analyst \u2014 evaluating a proposed emissions rule's cost-benefit case, comparing carbon-pricing instruments (tax vs. cap-and-trade), drafting regulatory comment letters or legislative issue briefs, or assessing whether a climate proposal survives legal/political feasibility review.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2041.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/climate-policy-analyst/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "clinical-counseling-psychologist",
       "description": "Use when a task needs the judgment of a doctoral-level Clinical or Counseling Psychologist \u2014 building a psychological test battery to answer a referral question, interpreting a WAIS/MMPI/PAI profile against validity indices, working a differential diagnosis (e.g. ADHD vs. anxiety-driven inattention, depression vs. early dementia), or writing a feedback-session-ready diagnostic formulation report.",
       "category": "healthcare",
@@ -1892,6 +1976,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/clinical-data-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "clinical-neuropsychologist",
+      "description": "Use when a task needs the judgment of a board-certified Clinical Neuropsychologist \u2014 building a neuropsychological battery to localize a brain-behavior deficit, adjudicating performance validity before interpreting any cognitive score, distinguishing a dementia subtype or mTBI sequela from a psychiatric or malingering cause, or writing a forensic, pre-surgical (epilepsy/tumor), or serial-retest report.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3039.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/clinical-neuropsychologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3840,6 +3945,27 @@
       ]
     },
     {
+      "slug": "environmental-economist",
+      "description": "Use when a task needs the judgment of an Environmental Economist \u2014 valuing a non-market environmental good (clean air, a wetland, an endangered species) for a benefit-cost analysis, building a regulatory impact analysis (RIA) for a pollution rule, sizing natural resource damages after a spill or contamination event, or picking a discount rate for a policy with cost and benefit streams decades apart.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3011.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-economist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "environmental-engineer",
       "description": "Use when a task needs the judgment of an environmental engineer \u2014 designing or sizing a wastewater/water treatment process, drafting or reviewing an NPDES or Title V air permit application, scoping a contaminated-site remediation (RI/FS), evaluating whether a process change triggers a permit modification, or checking a discharge/emissions dataset against regulatory limits.",
       "category": "engineering",
@@ -3874,6 +4000,48 @@
       "skill": "roles/environmental-engineering-technician/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "environmental-health-specialist",
+      "description": "Use when a task needs the judgment of an Environmental Health Specialist (Registered Sanitarian) \u2014 classifying a food-establishment temperature violation as critical vs. priority-foundation, determining pool closure and hyperchlorination protocol after a fecal/vomit incident, evaluating a septic percolation test against site-limiting conditions, deciding whether a complaint pattern meets the threshold for an outbreak investigation, or issuing an imminent-health-hazard closure.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-health-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "environmental-restoration-planner",
+      "description": "Use when a task needs the judgment of an Environmental Restoration Planner \u2014 screening or comparing CERCLA/RCRA remedial alternatives against the nine evaluation criteria, building a life-cycle cost estimate for a Feasibility Study, scoping a stream or wetland restoration design against a reference reach, sizing compensatory mitigation credits, drafting a Statement of Work or Remedial Action Work Plan, or scoping a Five-Year Review for a site with land-use controls in place.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2041.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-restoration-planner/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -4630,6 +4798,27 @@
       ]
     },
     {
+      "slug": "food-science-technician",
+      "description": "Use when a task needs the judgment of a Food Science Technician \u2014 troubleshooting an out-of-spec lab result before it triggers a batch hold, verifying instrument calibration mid-run, executing HACCP CCP or environmental (Listeria) monitoring per SOP, or running and interpreting a sensory difference test.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/food-science-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "food-scientist",
       "description": "Use when a task needs the judgment of a Food Scientist \u2014 designing an accelerated shelf-life study, running a HACCP hazard analysis on a process step, planning a sensory-evaluation protocol (triangle test, descriptive panel), or reformulating a product for cost/nutrition targets without breaking stability or safety.",
       "category": "other",
@@ -4725,6 +4914,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/forensic-science-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "forest-conservation-technician",
+      "description": "Use when a task needs the judgment of a Forest and Conservation Technician \u2014 running a prism (BAF) timber cruise plot and resolving borderline tree calls, relocating and remeasuring a permanent inventory plot, laying out a fuel-load transect or forest-health/pest survey, taking an increment core to age or growth-check a stand, or QA-checking field data before it enters the inventory database.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/forest-conservation-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5210,6 +5420,27 @@
       ]
     },
     {
+      "slug": "geological-technician",
+      "description": "Use when a task needs the judgment of a Geological Technician \u2014 logging drill core and computing RQD, running or reviewing an exploration QAQC sample-insertion scheme (blanks/duplicates/standards), describing and classifying a soil or rock sample against ASTM criteria, or flagging a field data-quality problem (low core recovery, instrument drift, chain-of-custody break) for the geologist of record.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/geological-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "geoscientist",
       "description": "Use when a task needs the judgment of a Geoscientist \u2014 correlating well logs across a stratigraphic section, estimating hydrocarbon or mineral reserves volumetrically, assessing geologic-hazard risk for a site, or interpreting subsurface structure from seismic or core data.",
       "category": "other",
@@ -5584,6 +5815,27 @@
       ]
     },
     {
+      "slug": "historian",
+      "description": "Use when a task needs the judgment of a historian \u2014 evaluating whether a primary source can bear the weight of a claim, reconciling conflicting accounts of an event, determining National Register of Historic Places eligibility for a property, structuring an oral-history interview and consent process, or building a historiography-grounded argument for peer review.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/historian/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "hoist-winch-operator",
       "description": "Use when a task needs the judgment of a Hoist and Winch Operator \u2014 reading a winch drum's layer-specific line-pull rating instead of the bare-drum nameplate figure for a load near the top of a multi-layer wind, verifying an anti-two-block device is functional and not bypassed before a hoist that brings the block near the boom tip or headframe sheave, confirming brake holding capacity before leaving a load suspended on the hook, checking fleet angle and drum spooling before a lift, or choosing the operating discipline that applies to a mine hoist, a marine cargo/mooring winch, or a construction material hoist.",
       "category": "operations",
@@ -5786,6 +6038,27 @@
       ]
     },
     {
+      "slug": "hydrologic-technician",
+      "description": "Use when a task needs the judgment of a Hydrologic Technician \u2014 taking and computing a streamflow (discharge) measurement, deciding whether a rating curve needs a shift, siting or servicing a stream gage, running field water-quality calibration and sampling, or triaging a suspect record before it's published.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4044.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hydrologic-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "hydrologist",
       "description": "Use when a task needs the judgment of a hydrologist \u2014 running a flood-frequency analysis to set a design discharge, building a watershed water balance, modeling groundwater flow or drawdown from a pumping test, evaluating a water-rights allocation question, or reviewing a stormwater/streamflow dataset for a permit or engineering design input.",
       "category": "other",
@@ -5797,6 +6070,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/hydrologist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "industrial-ecologist",
+      "description": "Use when a task needs the judgment of an Industrial Ecologist \u2014 scoping and running a life-cycle assessment (LCA), evaluating a byproduct-exchange or industrial-symbiosis proposal, auditing a recycled-content or \"circular economy\" claim, or building a facility- or regional-scale material/energy flow analysis (MFA).",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2041.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/industrial-ecologist/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -7913,6 +8207,27 @@
       ]
     },
     {
+      "slug": "neuropsychologist",
+      "description": "Use when a task needs the judgment of a doctoral-level Clinical Neuropsychologist \u2014 designing a test battery for a dementia/TBI/epilepsy referral, checking whether a cognitive profile is valid before trusting it, interpreting a score pattern for brain-behavior localization, applying a reliable-change calculation to serial testing, or writing a neuropsychological evaluation report a neurologist or court can act on.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3039.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/neuropsychologist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "new-accounts-clerk",
       "description": "Use when a task needs the judgment of a new accounts clerk \u2014 opening a personal or business deposit account under CIP/KYC requirements, screening a new customer against the OFAC SDN list, identifying beneficial owners on a legal-entity account, setting up a signature card with the correct authority scope, or matching a customer's stated need to the right account product.",
       "category": "finance",
@@ -7998,6 +8313,27 @@
       ]
     },
     {
+      "slug": "nuclear-monitoring-technician",
+      "description": "Use when a task needs the judgment of a Nuclear Monitoring Technician \u2014 converting a raw survey meter count into a dpm/100cm2 or dose-rate result against an action level, deciding whether a \"not detected\" reading actually clears an item given the instrument's MDA, calculating stay time from an actual dose-rate survey map rather than an RWP estimate, or judging whether a CAM alarm needs an independent grab-sample count before it's dismissed.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4051.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nuclear-monitoring-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "nuclear-power-reactor-operator",
       "description": "Use when a task needs the judgment of a Nuclear Power Reactor Operator \u2014 planning a power change around the xenon-135 transient's delayed peak rather than just the immediate reactivity effect, verifying shutdown margin against the worst-case stuck-rod condition rather than observed rod positions, accounting for a control rod's position-dependent worth, or deciding whether to deviate from an approved procedure's step sequence.",
       "category": "engineering",
@@ -8009,6 +8345,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/nuclear-power-reactor-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "nuclear-technician",
+      "description": "Use when a task needs the judgment of a Nuclear Technician \u2014 planning a radiation work permit's stay-time and dose budget, telling a contamination problem apart from an exposure-rate problem, responding to a frisker or air-sample alarm, deciding whether a posted survey is still valid before letting someone enter, or reading dosimetry/bioassay results against ALARA administrative levels.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nuclear-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8072,6 +8429,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/occupational-health-safety-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "occupational-health-safety-technician",
+      "description": "Use when a task needs the judgment of an occupational health and safety technician \u2014 calibrating and deploying air/noise sampling equipment, running a quantitative or qualitative respirator fit test, calculating an exposure result from raw pump/lab data and validating it against QC criteria, building a defensible chain-of-custody package, or deciding whether a field data point is usable or must be voided and redone. Distinct from an occupational-health-safety-specialist (19-5011.00), who designs the sampling strategy and the control program; this role executes the sampling plan and owns whether the resulting data would survive an audit.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-5012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/occupational-health-safety-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8387,6 +8765,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/paramedic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "park-naturalist",
+      "description": "Use when a task needs the judgment of a park naturalist \u2014 designing or revising an interpretive program (guided walk, campfire talk, Junior Ranger activity), deciding how to handle a wildlife or invasive-species encounter during a program, setting group-size or buffer-distance limits for a public event near sensitive resources, or drafting interpretive signage/text.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-1031.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/park-naturalist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8960,6 +9359,27 @@
       ]
     },
     {
+      "slug": "political-scientist",
+      "description": "Use when a task needs the judgment of a Political Scientist \u2014 reading a public-opinion poll or forecast for what it actually supports, designing a comparative or quasi-experimental study of an institutional or policy question, checking whether an aggregate political pattern licenses the individual-level claim being made about it, or writing a policy-relevant readout that separates statistical significance from political significance.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3094.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/political-scientist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "postal-service-clerk",
       "description": "Use when a task needs the judgment of a Postal Service Clerk \u2014 calculating postage for a package by weight/dimension/zone, choosing between certified/registered/insured mail service levels, screening a shipment for hazardous-materials/mailability restrictions, or resolving a rate discrepancy at the retail window.",
       "category": "operations",
@@ -9118,6 +9538,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/powerhouse-substation-electrician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "precision-agriculture-technician",
+      "description": "Use when a task needs the judgment of a Precision Agriculture Technician \u2014 calibrating a yield monitor or RTK guidance system, choosing a soil-sampling or management-zone strategy, building and validating a variable-rate prescription file for a controller, diagnosing yield-map or as-applied data errors, or troubleshooting an ISOBUS/rate-controller integration issue.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4012.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/precision-agriculture-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9519,6 +9960,27 @@
       ]
     },
     {
+      "slug": "quality-control-analyst",
+      "description": "Use when a task needs the judgment of a Quality Control Analyst \u2014 investigating an out-of-specification (OOS) or out-of-trend (OOT) lab result, deciding whether to invalidate a result or escalate an investigation, reading a control chart for a special-cause signal, checking whether a sampling plan actually supports a lot-disposition call, or reviewing a batch record/CoA for a data-integrity gap.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/quality-control-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "quality-control-systems-manager",
       "description": "Use when a task needs the judgment of a Quality Control Systems Manager \u2014 designing or auditing a quality management system, investigating a defect/non-conformance, deciding whether a product batch should ship, or evaluating a supplier's quality capability. Narrower than industrial-production-manager's broader production-floor scope \u2014 this role owns the quality function and its systems specifically.",
       "category": "operations",
@@ -9652,6 +10114,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/ranch-aquacultural-farmworker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "range-manager",
+      "description": "Use when a task needs the judgment of a Range Manager \u2014 setting or adjusting permitted AUMs against actual forage production, assessing rangeland health or riparian proper functioning condition, scoping a grazing allotment management plan or annual operating instructions, or diagnosing whether a rangeland site has crossed an ecological threshold that requires restoration rather than rest.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-1031.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/range-manager/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9883,6 +10366,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/reinforcing-iron-rebar-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "remote-sensing-scientist",
+      "description": "Use when a task needs the judgment of a Remote Sensing Scientist \u2014 choosing a sensor and correction chain for a monitoring program, running an atmospheric or geometric correction before trusting a spectral index, designing a classification accuracy assessment with a defensible confidence interval, or explaining why a mapped change area is biased and what the corrected number is.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-2099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/remote-sensing-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "remote-sensing-technician",
+      "description": "Use when a task needs the judgment of a Remote Sensing Technician \u2014 planning a UAS or airborne acquisition against a stated accuracy spec, running a radiometric/geometric correction chain in the correct order, quality-checking an orthomosaic or LiDAR-derived DEM against control before delivery, root-causing a checkpoint or band-misregistration failure, or deciding whether a sensor calibration file is still current enough to fly.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4099.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/remote-sensing-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -10588,6 +11113,27 @@
       "references": [
         "playbook.md",
         "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "social-science-research-assistant",
+      "description": "Use when a task needs the judgment of a Social Science Research Assistant \u2014 checking inter-rater reliability on qualitative coding before it scales, drafting or amending an IRB protocol/consent script, cleaning and de-identifying a participant dataset, or triaging a literature-review search strategy against a PI's deadline.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-4061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/social-science-research-assistant/SKILL.md",
+      "references": [
+        "red-flags.md",
+        "research-playbook.md",
         "vocabulary.md"
       ],
       "jurisdictions": [
@@ -11663,6 +12209,27 @@
       "skill": "roles/transportation-engineer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "transportation-planner",
+      "description": "Use when a task needs the judgment of a Transportation Planner \u2014 assembling or fiscally constraining a Metropolitan Transportation Plan (MTP) or TIP project list, scoring and prioritizing capital projects against adopted criteria, validating a travel demand model against traffic counts, running an environmental-justice/Title VI benefits-burdens check on a project list, or writing a corridor study's purpose-and-need statement ahead of NEPA.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "19-3099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/transportation-planner/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
