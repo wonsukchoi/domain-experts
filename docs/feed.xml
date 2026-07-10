@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:00:53 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:06:08 +0000</lastBuildDate>
+  <item>
+    <title>Metal Refining Furnace Operator</title>
+    <link>https://domainexperts.dev/roles/metal-refining-furnace-operator/</link>
+    <guid>https://domainexperts.dev/roles/metal-refining-furnace-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:05:54 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Metal-Refining Furnace Operator — calculating an alloy addition that accounts for element-specific recovery rate rather than assuming 1:1 addition-to-result, recalculating additions from the current heat&#x27;s actual assay rather than reusing a prior heat&#x27;s amounts, adjusting slag basicity for the specific refining reaction required, or verifying actual tap temperature against the target rather than time-in-furnace.</description>
+  </item>
   <item>
     <title>Stationary Engineer Boiler Operator</title>
     <link>https://domainexperts.dev/roles/stationary-engineer-boiler-operator/</link>
