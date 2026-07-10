@@ -1,5 +1,5 @@
 {
-  "count": 590,
+  "count": 591,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4952,6 +4952,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/funeral-home-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "furniture-finisher",
+      "description": "Use when a task needs the judgment of a Furniture Finisher \u2014 deciding whether a wood species needs a wash coat before staining to prevent blotching, adjusting flash-off/cure time for actual shop temperature and humidity rather than a product's standard schedule, completing a full sanding grit progression before advancing, or verifying full cure rather than surface-dry before rubbing out a finish.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-7021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/furniture-finisher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
