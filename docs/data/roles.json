@@ -1,5 +1,5 @@
 {
-  "count": 581,
+  "count": 582,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -5385,6 +5385,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/healthcare-social-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "heat-treating-equipment-operator",
+      "description": "Use when a task needs the judgment of a Heat Treating Equipment Operator \u2014 calculating carburizing time from the square-root diffusion relationship rather than scaling linearly with target case depth, matching quenchant/agitation to a specific alloy's hardenability, verifying tempering against a target hardness/toughness balance, or releasing a part based on actual hardness testing rather than recipe compliance alone.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4191.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/heat-treating-equipment-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

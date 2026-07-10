@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:28:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:37:39 +0000</lastBuildDate>
+  <item>
+    <title>Heat Treating Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/heat-treating-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/heat-treating-equipment-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Heat Treating Equipment Operator — calculating carburizing time from the square-root diffusion relationship rather than scaling linearly with target case depth, matching quenchant/agitation to a specific alloy&#x27;s hardenability, verifying tempering against a target hardness/toughness balance, or releasing a part based on actual hardness testing rather than recipe compliance alone.</description>
+  </item>
   <item>
     <title>Cutting Slicing Machine Operator</title>
     <link>https://domainexperts.dev/roles/cutting-slicing-machine-operator/</link>
