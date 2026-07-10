@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:05:32 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:10:48 +0000</lastBuildDate>
+  <item>
+    <title>Baker</title>
+    <link>https://domainexperts.dev/roles/baker/</link>
+    <guid>https://domainexperts.dev/roles/baker/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:10:33 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Baker — scaling a formula using baker&#x27;s percentages to hit an exact batch weight, diagnosing whether a fermentation problem traces to dough temperature or mixing development, judging proof readiness from a poke test rather than a fixed clock, or tracing a poor-oven-spring result back to over- or under-proofing instead of the oven.</description>
+  </item>
   <item>
     <title>Cnc Programmer</title>
     <link>https://domainexperts.dev/roles/cnc-programmer/</link>
