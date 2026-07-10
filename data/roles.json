@@ -1,5 +1,5 @@
 {
-  "count": 558,
+  "count": 559,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -11065,6 +11065,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/tutor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "upholsterer",
+      "description": "Use when a task needs the judgment of an Upholsterer \u2014 calculating actual fabric yardage for a patterned fabric accounting for repeat length, selecting foam by density and ILD rather than hand-feel alone, deciding whether a substituted suspension system discloses a durability mismatch, or diagnosing a nap-direction or pattern-match defect on a finished panel.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/upholsterer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
