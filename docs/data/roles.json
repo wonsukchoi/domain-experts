@@ -1,5 +1,5 @@
 {
-  "count": 548,
+  "count": 549,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6290,6 +6290,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/machinery-maintenance-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "machinist",
+      "description": "Use when a task needs the judgment of a Machinist \u2014 reading GD&T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/machinist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

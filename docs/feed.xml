@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 12:27:31 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 12:32:14 +0000</lastBuildDate>
+  <item>
+    <title>Machinist</title>
+    <link>https://domainexperts.dev/roles/machinist/</link>
+    <guid>https://domainexperts.dev/roles/machinist/</guid>
+    <pubDate>Fri, 10 Jul 2026 19:32:02 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Machinist — reading GD&amp;T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.</description>
+  </item>
   <item>
     <title>Mail Clerk</title>
     <link>https://domainexperts.dev/roles/mail-clerk/</link>

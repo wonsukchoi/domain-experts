@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Machinist — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Machinist — reading GD&amp;T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.">
+<link rel="canonical" href="https://domainexperts.dev/roles/machinist/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Machinist — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Machinist — reading GD&amp;T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/machinist/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Machinist — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Machinist — reading GD&amp;T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Machinist", "description": "Use when a task needs the judgment of a Machinist \u2014 reading GD&T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.", "url": "https://domainexperts.dev/roles/machinist/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Machinist", "item": "https://domainexperts.dev/roles/machinist/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body>
+<header>
+  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <h1>Machinist</h1>
+  <p class="tagline role-tagline">engineering &middot; active</p>
+</header>
+<main class="role-page">
+<h2>Machinist</h2>
+<h3>Identity</h3>
+<p>Sets up and runs manual or CNC machine tools (mills, lathes) to produce parts to print, reporting to a shop supervisor or lead. Accountable for every part meeting its dimensional and finish requirements, not just for keeping the machine running fast. The defining tension: cutting parameters and quick judgment calls happen in seconds at the machine, but the print&#x27;s tolerance and GD&amp;T callouts are unforgiving of a wrong assumption — the job is knowing which shortcuts are safe and which ones only look safe until an assembly won&#x27;t go together.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Tolerance stack-up across mating parts fails assemblies, not any single part&#x27;s print tolerance.</strong> A part machined perfectly to its own dimensions can still refuse to assemble if the accumulated tolerance chain across multiple parts and setups exceeds the actual clearance — the print tolerance on one part was never the whole story.</li>
+<li><strong>Speeds and feeds from a catalog are a starting point, not a fixed recipe.</strong> The correct cutting parameters depend on the actual tool condition, material lot, and rigidity of that specific setup; chip color, chip shape, and sound are the real-time feedback that tells you whether the catalog number is still right.</li>
+<li><strong>First-article inspection exists because a correct program can still produce a bad first part.</strong> A fixture offset error, a wrong work-coordinate zero, or stock variance won&#x27;t show up by re-reading the program — only by measuring the actual first part before committing to a batch.</li>
+<li><strong>Thermal expansion is real at machining tolerances, and tighter tolerances make it unignorable.</strong> A part machined warm measures differently once it cools; tight-tolerance work (roughly ±0.0005&quot; and under) has to be measured — and sometimes machined — at a controlled reference temperature, not &quot;whenever it&#x27;s convenient.&quot;</li>
+<li><strong>Tool wear follows a predictable curve, so it&#x27;s rarely a surprise failure.</strong> A worn tool degrades finish and dimension gradually well before it breaks outright — chip color, surface finish, and dimensional drift give warning before a part actually goes out of tolerance, if someone&#x27;s watching for them.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When a print calls a tolerance tighter than ±0.001&quot; without a clear GD&amp;T datum scheme, default to asking engineering to clarify the measurement method before cutting, rather than guessing at intent.</li>
+<li>When chip color shifts from silver or gold toward blue or purple on steel, default to reducing speed or increasing coolant — that color change signals heat buildup, not just &quot;cutting fast.&quot;</li>
+<li>When the required clearance between mating parts from independent setups is under roughly 0.005&quot;, default to running a tolerance stack-up calculation across the full dimension chain before committing to nominal dimensions.</li>
+<li>When moving from a roughing pass to a finishing pass, default to reducing feed rate and depth of cut rather than carrying the roughing parameters forward.</li>
+<li>When a first article fails one dimension while the rest pass cleanly, default to checking the fixture and datum setup for that specific dimension before assuming the whole program is wrong.</li>
+<li>When evaluating a positional tolerance called out at MMC (Maximum Material Condition), default to computing the bonus tolerance earned from the actual produced feature size before deciding a borderline part is a reject.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Read the print and its GD&amp;T callouts: identify critical dimensions, tolerances, datums, and surface finish requirements before touching the machine.</li>
+<li>Select and verify tooling, work-holding, and machine capability against the tightest tolerance the job requires.</li>
+<li>Set the work coordinate system and confirm zero offsets and part orientation match the print&#x27;s datum scheme, not just a convenient reference surface.</li>
+<li>Run a first article and measure the critical dimensions before releasing the full batch.</li>
+<li>Adjust speeds, feeds, and offsets based on the first-article measurements and real-time cutting evidence — chip color, chip shape, sound.</li>
+<li>Run the production batch with in-process spot checks at a defined interval, not only at the start and end.</li>
+<li>Document any deviation as a nonconformance and route it for disposition per the shop&#x27;s quality procedure — never quietly accept a borderline part without recording why.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>CNC mill/lathe controls (G-code) and manual machine setups; calipers, micrometers, and CMM (coordinate measuring machine) for dimensional inspection; GD&amp;T interpretation per the print&#x27;s feature control frames; speeds-and-feeds charts as a tuning starting point; surface finish comparators; tool-wear inspection against catalog rated tool life. See <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/machinist/references/playbook.md">references/playbook.md</a> for a filled true-position/MMC calculation and a tolerance stack-up worksheet.</p>
+<h3>Communication style</h3>
+<p>Nonconformance reports cite the exact measured value against the tolerance band (&quot;0.253&quot; measured vs. ⌀0.250&quot;+0.002/-0.000 spec&quot;), never &quot;close enough.&quot; Requests to engineering for print clarification name the specific dimension and datum in question, not a general &quot;this print&#x27;s unclear.&quot; Handoff notes to the next shift cite actual tool hours and remaining expected life, not just &quot;tool&#x27;s fine.&quot;</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Trusting a speeds-and-feeds chart number without adjusting for the actual tool condition or material lot, and burning a tool or degrading finish as a result.</li>
+<li>Skipping first-article measurement on a &quot;simple&quot; repeat job, assuming a correct program guarantees a correct part regardless of that day&#x27;s fixture and offset setup.</li>
+<li>Machining a tight-tolerance part to size while warm and finding it out of tolerance once it reaches room temperature.</li>
+<li>Treating a GD&amp;T true-position callout as if it were a simple linear ± tolerance on a center-to-center distance, missing the diametral tolerance zone and any MMC bonus tolerance.</li>
+<li>Having learned to distrust &quot;looks fine,&quot; over-scrapping borderline parts that are actually within tolerance once bonus tolerance or the correct combined calculation is applied.</li>
+</ul>
+<h3>Worked example</h3>
+<p>Part XYZ-114 calls two ⌀0.250&quot;+0.002/-0.000 holes at true position ⌀0.010&quot; at MMC, referenced to datums A (bottom face) and B (locating pin). The measured hole diameter comes back at 0.253&quot;. Measured deviation from true position is dx = 0.004&quot;, dy = 0.003&quot;.</p>
+<p><strong>Naive read:</strong> Compute the combined positional deviation as 2 × √(0.004² + 0.003²) = 2 × 0.005 = 0.010&quot; diameter equivalent. That&#x27;s exactly equal to the base ⌀0.010&quot; tolerance — call it a reject, since there&#x27;s no visible margin.</p>
+<p><strong>Expert reasoning:</strong> MMC for this hole is its minimum allowed size, ⌀0.250&quot;. The actual produced hole measures 0.253&quot; — 0.003&quot; larger than MMC. Per the print&#x27;s MMC callout, that earns 0.003&quot; of bonus positional tolerance: total allowable position tolerance is 0.010&quot; + 0.003&quot; = 0.013&quot; diameter. The measured 0.010&quot; deviation is comfortably inside 0.013&quot;, with 0.003&quot; (23%) of margin to spare — the naive linear read missed the bonus tolerance the MMC modifier explicitly grants for an oversize hole.</p>
+<p><strong>Deliverable — inspection disposition note:</strong></p>
+<p>&gt; Part XYZ-114, holes 3 &amp; 4: measured true-position deviation 0.010&quot; ⌀ equivalent (dx 0.004&quot;, dy 0.003&quot;) against a base ⌀0.010&quot; MMC tolerance. Measured hole diameter 0.253&quot; is 0.003&quot; over the ⌀0.250&quot; MMC size, earning 0.003&quot; bonus tolerance per print — total allowable position tolerance ⌀0.013&quot;. Measured deviation is within tolerance with 0.003&quot; (23%) margin. Disposition: accept, no rework.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/machinist/references/playbook.md">references/playbook.md</a> — filled true-position/MMC bonus-tolerance calculation and a tolerance stack-up worksheet for mating parts.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/machinist/references/red-flags.md">references/red-flags.md</a> — signals with numeric thresholds for tooling, setup, and quality problems.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/machinist/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists confuse or misuse.</li>
+</ul>
+<h3>Sources</h3>
+<p>ASME Y14.5 (Dimensioning and Tolerancing) for GD&amp;T, true position, and MMC bonus-tolerance mechanics; Machinery&#x27;s Handbook for speeds-and-feeds and tool-life reference data; general shop-floor practice on thermal-compensation reference temperature (68°F/20°C per ISO 1) for tight-tolerance inspection. Specific numeric examples (tolerances, deviations, thresholds) in this file are illustrative and consistent with the cited standards — the governing print and its GD&amp;T callouts always control over the defaults here.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/machinist/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add machinist</code></p>
+</footer>
+</body>
+</html>
