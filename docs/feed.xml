@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:21:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:26:04 +0000</lastBuildDate>
+  <item>
+    <title>Chemical Plant Operator</title>
+    <link>https://domainexperts.dev/roles/chemical-plant-operator/</link>
+    <guid>https://domainexperts.dev/roles/chemical-plant-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:25:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chemical Plant and System Operator — reconciling a batch&#x27;s mass balance to catch a leak or unaccounted reaction that individually normal readings would miss, responding to an early exotherm temperature trend before it accelerates, prioritizing simultaneous alarms by consequence severity rather than order of occurrence, or flagging a combination of near-limit variables that no single-variable check would catch.</description>
+  </item>
   <item>
     <title>Photographic Process Worker</title>
     <link>https://domainexperts.dev/roles/photographic-process-worker/</link>
