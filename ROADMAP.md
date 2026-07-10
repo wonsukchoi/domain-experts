@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 557 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 558 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (19/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (20/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1100,7 +1100,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-9123.00 | Painting, Coating, and Decorating Workers |  |
 |  | 51-9124.00 | Coating, Painting, and Spraying Machine Setters, Operators, and Tenders |  |
 |  | 51-9141.00 | Semiconductor Processing Technicians |  |
-|  | 51-9151.00 | Photographic Process Workers and Processing Machine Operators |  |
+| ✅ | 51-9151.00 | Photographic Process Workers and Processing Machine Operators | [`photographic-process-worker`](./roles/photographic-process-worker/SKILL.md) |
 |  | 51-9161.00 | Computer Numerically Controlled Tool Operators |  |
 | ✅ | 51-9162.00 | Computer Numerically Controlled Tool Programmers | [`cnc-programmer`](./roles/cnc-programmer/SKILL.md) |
 |  | 51-9191.00 | Adhesive Bonding Machine Operators and Tenders |  |
