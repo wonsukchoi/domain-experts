@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:16:56 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:22:14 +0000</lastBuildDate>
+  <item>
+    <title>Coating Painting Spraying Machine Operator</title>
+    <link>https://domainexperts.dev/roles/coating-painting-spraying-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/coating-painting-spraying-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:21:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Coating/Painting/Spraying Machine Operator — calculating wet film thickness from a target dry film thickness and the coating&#x27;s percent volume solids, deciding whether flash-off time can be shortened to increase throughput, verifying cure by actual part temperature rather than oven setpoint, or tracing an adhesion failure back to surface prep rather than the coating application.</description>
+  </item>
   <item>
     <title>Packaging Filling Machine Operator</title>
     <link>https://domainexperts.dev/roles/packaging-filling-machine-operator/</link>
