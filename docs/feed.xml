@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 16:09:46 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 16:13:02 +0000</lastBuildDate>
+  <item>
+    <title>Cooling Freezing Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/cooling-freezing-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/cooling-freezing-equipment-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 23:12:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cooling/Freezing Equipment Operator — calculating freezing time for a new product thickness via the thickness-squared relationship rather than assuming linear scaling, verifying freezing completion by actual core/thermal-center temperature rather than surface temperature or elapsed time, recognizing a temperature plateau as expected latent-heat removal rather than a malfunction, or matching belt speed/residence time to the calculated freezing time requirement.</description>
+  </item>
   <item>
     <title>Manufacturing Potter</title>
     <link>https://domainexperts.dev/roles/manufacturing-potter/</link>
