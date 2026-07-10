@@ -1,5 +1,5 @@
 {
-  "count": 561,
+  "count": 562,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10514,6 +10514,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/sustainability-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "tailor-dressmaker",
+      "description": "Use when a task needs the judgment of a Tailor/Dressmaker/Custom Sewer \u2014 diagnosing a specific fitting wrinkle pattern to a targeted pattern adjustment rather than uniform resizing, selecting ease allowance appropriate to a garment's style and fabric, adjusting construction approach for a stretch or bias-cut fabric, or verifying a garment's actual seam allowance before quoting an alteration.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tailor-dressmaker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

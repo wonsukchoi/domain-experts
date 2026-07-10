@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 551 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 552 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (13/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (14/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1053,7 +1053,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-6041.00 | Shoe and Leather Workers and Repairers |  |
 |  | 51-6042.00 | Shoe Machine Operators and Tenders |  |
 |  | 51-6051.00 | Sewers, Hand |  |
-|  | 51-6052.00 | Tailors, Dressmakers, and Custom Sewers |  |
+| ✅ | 51-6052.00 | Tailors, Dressmakers, and Custom Sewers | [`tailor-dressmaker`](./roles/tailor-dressmaker/SKILL.md) |
 |  | 51-6061.00 | Textile Bleaching and Dyeing Machine Operators and Tenders |  |
 |  | 51-6062.00 | Textile Cutting Machine Setters, Operators, and Tenders |  |
 |  | 51-6063.00 | Textile Knitting and Weaving Machine Setters, Operators, and Tenders |  |
