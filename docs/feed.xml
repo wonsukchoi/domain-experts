@@ -4,7 +4,196 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 16:40:45 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 18:37:50 +0000</lastBuildDate>
+  <item>
+    <title>Agricultural Technician</title>
+    <link>https://domainexperts.dev/roles/agricultural-technician/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Agricultural Technician — designing a soil, tissue, or seed sampling plan, interpreting pest scouting counts against an economic threshold, calibrating spray/seeding equipment, or troubleshooting a field data discrepancy before it reaches the agronomist or scientist who acts on it.</description>
+  </item>
+  <item>
+    <title>Biological Technician</title>
+    <link>https://domainexperts.dev/roles/biological-technician/</link>
+    <guid>https://domainexperts.dev/roles/biological-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biological Technician — troubleshooting a failed assay or contaminated culture, deciding whether a batch of lab data is trustworthy enough to report, auditing a bench&#x27;s SOP/QC discipline, or diagnosing calibration and reagent-lot problems behind inconsistent results.</description>
+  </item>
+  <item>
+    <title>Chemical Technician</title>
+    <link>https://domainexperts.dev/roles/chemical-technician/</link>
+    <guid>https://domainexperts.dev/roles/chemical-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chemical Technician — running a routine or non-routine lab analysis under an SOP, reading a control chart or calibration-check trend for drift, deciding whether to release, hold, or escalate a QC result, troubleshooting an instrument or reagent problem on the bench, or handling chain-of-custody and hazardous-chemical storage/documentation.</description>
+  </item>
+  <item>
+    <title>Climate Policy Analyst</title>
+    <link>https://domainexperts.dev/roles/climate-policy-analyst/</link>
+    <guid>https://domainexperts.dev/roles/climate-policy-analyst/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a climate change policy analyst — evaluating a proposed emissions rule&#x27;s cost-benefit case, comparing carbon-pricing instruments (tax vs. cap-and-trade), drafting regulatory comment letters or legislative issue briefs, or assessing whether a climate proposal survives legal/political feasibility review.</description>
+  </item>
+  <item>
+    <title>Clinical Neuropsychologist</title>
+    <link>https://domainexperts.dev/roles/clinical-neuropsychologist/</link>
+    <guid>https://domainexperts.dev/roles/clinical-neuropsychologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified Clinical Neuropsychologist — building a neuropsychological battery to localize a brain-behavior deficit, adjudicating performance validity before interpreting any cognitive score, distinguishing a dementia subtype or mTBI sequela from a psychiatric or malingering cause, or writing a forensic, pre-surgical (epilepsy/tumor), or serial-retest report.</description>
+  </item>
+  <item>
+    <title>Environmental Economist</title>
+    <link>https://domainexperts.dev/roles/environmental-economist/</link>
+    <guid>https://domainexperts.dev/roles/environmental-economist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Environmental Economist — valuing a non-market environmental good (clean air, a wetland, an endangered species) for a benefit-cost analysis, building a regulatory impact analysis (RIA) for a pollution rule, sizing natural resource damages after a spill or contamination event, or picking a discount rate for a policy with cost and benefit streams decades apart.</description>
+  </item>
+  <item>
+    <title>Environmental Health Specialist</title>
+    <link>https://domainexperts.dev/roles/environmental-health-specialist/</link>
+    <guid>https://domainexperts.dev/roles/environmental-health-specialist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Environmental Health Specialist (Registered Sanitarian) — classifying a food-establishment temperature violation as critical vs. priority-foundation, determining pool closure and hyperchlorination protocol after a fecal/vomit incident, evaluating a septic percolation test against site-limiting conditions, deciding whether a complaint pattern meets the threshold for an outbreak investigation, or issuing an imminent-health-hazard closure.</description>
+  </item>
+  <item>
+    <title>Environmental Restoration Planner</title>
+    <link>https://domainexperts.dev/roles/environmental-restoration-planner/</link>
+    <guid>https://domainexperts.dev/roles/environmental-restoration-planner/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Environmental Restoration Planner — screening or comparing CERCLA/RCRA remedial alternatives against the nine evaluation criteria, building a life-cycle cost estimate for a Feasibility Study, scoping a stream or wetland restoration design against a reference reach, sizing compensatory mitigation credits, drafting a Statement of Work or Remedial Action Work Plan, or scoping a Five-Year Review for a site with land-use controls in place.</description>
+  </item>
+  <item>
+    <title>Food Science Technician</title>
+    <link>https://domainexperts.dev/roles/food-science-technician/</link>
+    <guid>https://domainexperts.dev/roles/food-science-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Food Science Technician — troubleshooting an out-of-spec lab result before it triggers a batch hold, verifying instrument calibration mid-run, executing HACCP CCP or environmental (Listeria) monitoring per SOP, or running and interpreting a sensory difference test.</description>
+  </item>
+  <item>
+    <title>Forest Conservation Technician</title>
+    <link>https://domainexperts.dev/roles/forest-conservation-technician/</link>
+    <guid>https://domainexperts.dev/roles/forest-conservation-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forest and Conservation Technician — running a prism (BAF) timber cruise plot and resolving borderline tree calls, relocating and remeasuring a permanent inventory plot, laying out a fuel-load transect or forest-health/pest survey, taking an increment core to age or growth-check a stand, or QA-checking field data before it enters the inventory database.</description>
+  </item>
+  <item>
+    <title>Geological Technician</title>
+    <link>https://domainexperts.dev/roles/geological-technician/</link>
+    <guid>https://domainexperts.dev/roles/geological-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Geological Technician — logging drill core and computing RQD, running or reviewing an exploration QAQC sample-insertion scheme (blanks/duplicates/standards), describing and classifying a soil or rock sample against ASTM criteria, or flagging a field data-quality problem (low core recovery, instrument drift, chain-of-custody break) for the geologist of record.</description>
+  </item>
+  <item>
+    <title>Historian</title>
+    <link>https://domainexperts.dev/roles/historian/</link>
+    <guid>https://domainexperts.dev/roles/historian/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a historian — evaluating whether a primary source can bear the weight of a claim, reconciling conflicting accounts of an event, determining National Register of Historic Places eligibility for a property, structuring an oral-history interview and consent process, or building a historiography-grounded argument for peer review.</description>
+  </item>
+  <item>
+    <title>Hydrologic Technician</title>
+    <link>https://domainexperts.dev/roles/hydrologic-technician/</link>
+    <guid>https://domainexperts.dev/roles/hydrologic-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hydrologic Technician — taking and computing a streamflow (discharge) measurement, deciding whether a rating curve needs a shift, siting or servicing a stream gage, running field water-quality calibration and sampling, or triaging a suspect record before it&#x27;s published.</description>
+  </item>
+  <item>
+    <title>Industrial Ecologist</title>
+    <link>https://domainexperts.dev/roles/industrial-ecologist/</link>
+    <guid>https://domainexperts.dev/roles/industrial-ecologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Industrial Ecologist — scoping and running a life-cycle assessment (LCA), evaluating a byproduct-exchange or industrial-symbiosis proposal, auditing a recycled-content or &quot;circular economy&quot; claim, or building a facility- or regional-scale material/energy flow analysis (MFA).</description>
+  </item>
+  <item>
+    <title>Neuropsychologist</title>
+    <link>https://domainexperts.dev/roles/neuropsychologist/</link>
+    <guid>https://domainexperts.dev/roles/neuropsychologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a doctoral-level Clinical Neuropsychologist — designing a test battery for a dementia/TBI/epilepsy referral, checking whether a cognitive profile is valid before trusting it, interpreting a score pattern for brain-behavior localization, applying a reliable-change calculation to serial testing, or writing a neuropsychological evaluation report a neurologist or court can act on.</description>
+  </item>
+  <item>
+    <title>Nuclear Monitoring Technician</title>
+    <link>https://domainexperts.dev/roles/nuclear-monitoring-technician/</link>
+    <guid>https://domainexperts.dev/roles/nuclear-monitoring-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nuclear Monitoring Technician — converting a raw survey meter count into a dpm/100cm2 or dose-rate result against an action level, deciding whether a &quot;not detected&quot; reading actually clears an item given the instrument&#x27;s MDA, calculating stay time from an actual dose-rate survey map rather than an RWP estimate, or judging whether a CAM alarm needs an independent grab-sample count before it&#x27;s dismissed.</description>
+  </item>
+  <item>
+    <title>Nuclear Technician</title>
+    <link>https://domainexperts.dev/roles/nuclear-technician/</link>
+    <guid>https://domainexperts.dev/roles/nuclear-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nuclear Technician — planning a radiation work permit&#x27;s stay-time and dose budget, telling a contamination problem apart from an exposure-rate problem, responding to a frisker or air-sample alarm, deciding whether a posted survey is still valid before letting someone enter, or reading dosimetry/bioassay results against ALARA administrative levels.</description>
+  </item>
+  <item>
+    <title>Occupational Health Safety Technician</title>
+    <link>https://domainexperts.dev/roles/occupational-health-safety-technician/</link>
+    <guid>https://domainexperts.dev/roles/occupational-health-safety-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of an occupational health and safety technician — calibrating and deploying air/noise sampling equipment, running a quantitative or qualitative respirator fit test, calculating an exposure result from raw pump/lab data and validating it against QC criteria, building a defensible chain-of-custody package, or deciding whether a field data point is usable or must be voided and redone. Distinct from an occupational-health-safety-specialist (19-5011.00), who designs the sampling strategy and the control program; this role executes the sampling plan and owns whether the resulting data would survive an audit.</description>
+  </item>
+  <item>
+    <title>Park Naturalist</title>
+    <link>https://domainexperts.dev/roles/park-naturalist/</link>
+    <guid>https://domainexperts.dev/roles/park-naturalist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a park naturalist — designing or revising an interpretive program (guided walk, campfire talk, Junior Ranger activity), deciding how to handle a wildlife or invasive-species encounter during a program, setting group-size or buffer-distance limits for a public event near sensitive resources, or drafting interpretive signage/text.</description>
+  </item>
+  <item>
+    <title>Political Scientist</title>
+    <link>https://domainexperts.dev/roles/political-scientist/</link>
+    <guid>https://domainexperts.dev/roles/political-scientist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Political Scientist — reading a public-opinion poll or forecast for what it actually supports, designing a comparative or quasi-experimental study of an institutional or policy question, checking whether an aggregate political pattern licenses the individual-level claim being made about it, or writing a policy-relevant readout that separates statistical significance from political significance.</description>
+  </item>
+  <item>
+    <title>Precision Agriculture Technician</title>
+    <link>https://domainexperts.dev/roles/precision-agriculture-technician/</link>
+    <guid>https://domainexperts.dev/roles/precision-agriculture-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Precision Agriculture Technician — calibrating a yield monitor or RTK guidance system, choosing a soil-sampling or management-zone strategy, building and validating a variable-rate prescription file for a controller, diagnosing yield-map or as-applied data errors, or troubleshooting an ISOBUS/rate-controller integration issue.</description>
+  </item>
+  <item>
+    <title>Quality Control Analyst</title>
+    <link>https://domainexperts.dev/roles/quality-control-analyst/</link>
+    <guid>https://domainexperts.dev/roles/quality-control-analyst/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Quality Control Analyst — investigating an out-of-specification (OOS) or out-of-trend (OOT) lab result, deciding whether to invalidate a result or escalate an investigation, reading a control chart for a special-cause signal, checking whether a sampling plan actually supports a lot-disposition call, or reviewing a batch record/CoA for a data-integrity gap.</description>
+  </item>
+  <item>
+    <title>Range Manager</title>
+    <link>https://domainexperts.dev/roles/range-manager/</link>
+    <guid>https://domainexperts.dev/roles/range-manager/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Range Manager — setting or adjusting permitted AUMs against actual forage production, assessing rangeland health or riparian proper functioning condition, scoping a grazing allotment management plan or annual operating instructions, or diagnosing whether a rangeland site has crossed an ecological threshold that requires restoration rather than rest.</description>
+  </item>
+  <item>
+    <title>Remote Sensing Scientist</title>
+    <link>https://domainexperts.dev/roles/remote-sensing-scientist/</link>
+    <guid>https://domainexperts.dev/roles/remote-sensing-scientist/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Remote Sensing Scientist — choosing a sensor and correction chain for a monitoring program, running an atmospheric or geometric correction before trusting a spectral index, designing a classification accuracy assessment with a defensible confidence interval, or explaining why a mapped change area is biased and what the corrected number is.</description>
+  </item>
+  <item>
+    <title>Remote Sensing Technician</title>
+    <link>https://domainexperts.dev/roles/remote-sensing-technician/</link>
+    <guid>https://domainexperts.dev/roles/remote-sensing-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Remote Sensing Technician — planning a UAS or airborne acquisition against a stated accuracy spec, running a radiometric/geometric correction chain in the correct order, quality-checking an orthomosaic or LiDAR-derived DEM against control before delivery, root-causing a checkpoint or band-misregistration failure, or deciding whether a sensor calibration file is still current enough to fly.</description>
+  </item>
+  <item>
+    <title>Social Science Research Assistant</title>
+    <link>https://domainexperts.dev/roles/social-science-research-assistant/</link>
+    <guid>https://domainexperts.dev/roles/social-science-research-assistant/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Social Science Research Assistant — checking inter-rater reliability on qualitative coding before it scales, drafting or amending an IRB protocol/consent script, cleaning and de-identifying a participant dataset, or triaging a literature-review search strategy against a PI&#x27;s deadline.</description>
+  </item>
+  <item>
+    <title>Transportation Planner</title>
+    <link>https://domainexperts.dev/roles/transportation-planner/</link>
+    <guid>https://domainexperts.dev/roles/transportation-planner/</guid>
+    <pubDate>Sat, 11 Jul 2026 01:37:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transportation Planner — assembling or fiscally constraining a Metropolitan Transportation Plan (MTP) or TIP project list, scoring and prioritizing capital projects against adopted criteria, validating a travel demand model against traffic counts, running an environmental-justice/Title VI benefits-burdens check on a project list, or writing a corridor study&#x27;s purpose-and-need statement ahead of NEPA.</description>
+  </item>
   <item>
     <title>Textile Cutting Machine Operator</title>
     <link>https://domainexperts.dev/roles/textile-cutting-machine-operator/</link>
