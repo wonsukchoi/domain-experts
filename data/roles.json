@@ -1,5 +1,5 @@
 {
-  "count": 564,
+  "count": 565,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -7820,6 +7820,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/operations-research-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "ophthalmic-laboratory-technician",
+      "description": "Use when a task needs the judgment of an Ophthalmic Laboratory Technician \u2014 checking a ground lens's axis tolerance against its actual cylinder power on a lensometer, diagnosing missing or induced prism at the optical center, deciding whether a lens must be regrounded before edging, or selecting base curve by the prescription's power range rather than a default.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9083.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ophthalmic-laboratory-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 554 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 555 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (16/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (17/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1095,7 +1095,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-9071.06 | Gem and Diamond Workers |  |
 | ✅ | 51-9081.00 | Dental Laboratory Technicians | [`dental-laboratory-technician`](./roles/dental-laboratory-technician/SKILL.md) |
 |  | 51-9082.00 | Medical Appliance Technicians |  |
-|  | 51-9083.00 | Ophthalmic Laboratory Technicians |  |
+| ✅ | 51-9083.00 | Ophthalmic Laboratory Technicians | [`ophthalmic-laboratory-technician`](./roles/ophthalmic-laboratory-technician/SKILL.md) |
 |  | 51-9111.00 | Packaging and Filling Machine Operators and Tenders |  |
 |  | 51-9123.00 | Painting, Coating, and Decorating Workers |  |
 |  | 51-9124.00 | Coating, Painting, and Spraying Machine Setters, Operators, and Tenders |  |
