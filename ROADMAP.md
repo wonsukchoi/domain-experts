@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 556 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 557 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (18/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (19/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1106,7 +1106,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-9191.00 | Adhesive Bonding Machine Operators and Tenders |  |
 |  | 51-9192.00 | Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders |  |
 |  | 51-9193.00 | Cooling and Freezing Equipment Operators and Tenders |  |
-|  | 51-9194.00 | Etchers and Engravers |  |
+| ✅ | 51-9194.00 | Etchers and Engravers | [`etcher-engraver`](./roles/etcher-engraver/SKILL.md) |
 |  | 51-9195.00 | Molders, Shapers, and Casters, Except Metal and Plastic |  |
 |  | 51-9195.03 | Stone Cutters and Carvers, Manufacturing |  |
 |  | 51-9195.04 | Glass Blowers, Molders, Benders, and Finishers |  |
