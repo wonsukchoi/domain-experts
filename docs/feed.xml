@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 15:06:08 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 15:10:10 +0000</lastBuildDate>
+  <item>
+    <title>Mixing Blending Machine Operator</title>
+    <link>https://domainexperts.dev/roles/mixing-blending-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/mixing-blending-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 22:09:53 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mixing/Blending Machine Operator — deciding whether a low-concentration ingredient needs a premix step before full-batch incorporation, verifying blend uniformity via multi-location sampling and CV calculation rather than appearance, recognizing that more mixing time isn&#x27;t always better, or re-validating uniformity when a formula is scaled to a larger batch size.</description>
+  </item>
   <item>
     <title>Metal Refining Furnace Operator</title>
     <link>https://domainexperts.dev/roles/metal-refining-furnace-operator/</link>
