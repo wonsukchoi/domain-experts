@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 16:32:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 16:36:18 +0000</lastBuildDate>
+  <item>
+    <title>Furniture Finisher</title>
+    <link>https://domainexperts.dev/roles/furniture-finisher/</link>
+    <guid>https://domainexperts.dev/roles/furniture-finisher/</guid>
+    <pubDate>Fri, 10 Jul 2026 23:36:03 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Furniture Finisher — deciding whether a wood species needs a wash coat before staining to prevent blotching, adjusting flash-off/cure time for actual shop temperature and humidity rather than a product&#x27;s standard schedule, completing a full sanding grit progression before advancing, or verifying full cure rather than surface-dry before rubbing out a finish.</description>
+  </item>
   <item>
     <title>Fabric Apparel Patternmaker</title>
     <link>https://domainexperts.dev/roles/fabric-apparel-patternmaker/</link>
