@@ -1,5 +1,5 @@
 {
-  "count": 563,
+  "count": 564,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2947,6 +2947,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/dental-hygienist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dental-laboratory-technician",
+      "description": "Use when a task needs the judgment of a Dental Laboratory Technician \u2014 calculating wax pattern dimensions from a die measurement and alloy-specific casting shrinkage, rejecting a restoration built on a flawed impression or scan, verifying occlusal contacts against the articulator-mounted bite rather than sculpting by eye, or prioritizing value over hue when finalizing a shade match.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dental-laboratory-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
