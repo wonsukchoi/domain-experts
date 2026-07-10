@@ -1,5 +1,5 @@
 {
-  "count": 572,
+  "count": 573,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10972,6 +10972,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/teller/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "textile-dyeing-machine-operator",
+      "description": "Use when a task needs the judgment of a Textile Bleaching/Dyeing Machine Operator \u2014 recalculating bath concentration when a dye recipe's liquor ratio changes even though %owf stays the same, diagnosing which specific dye component in a multi-dye recipe is over/under-exhausting, tracing an uneven dye uptake defect back to an incomplete bleaching stage, or reproducing a prior batch's water quality and temperature profile, not just its recipe percentages.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/textile-dyeing-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
