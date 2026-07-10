@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 571 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 572 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (33/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (34/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1039,7 +1039,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-4111.00 | Tool and Die Makers | [`tool-die-maker`](./roles/tool-die-maker/SKILL.md) |
 | ✅ | 51-4121.00 | Welders, Cutters, Solderers, and Brazers | [`welder`](./roles/welder/SKILL.md) |
 |  | 51-4122.00 | Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders |  |
-|  | 51-4191.00 | Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic |  |
+| ✅ | 51-4191.00 | Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic | [`heat-treating-equipment-operator`](./roles/heat-treating-equipment-operator/SKILL.md) |
 |  | 51-4192.00 | Layout Workers, Metal and Plastic |  |
 |  | 51-4193.00 | Plating Machine Setters, Operators, and Tenders, Metal and Plastic |  |
 |  | 51-4194.00 | Tool Grinders, Filers, and Sharpeners |  |
