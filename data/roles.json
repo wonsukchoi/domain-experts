@@ -1,5 +1,5 @@
 {
-  "count": 589,
+  "count": 590,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4019,6 +4019,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/extrusion-drawing-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "fabric-apparel-patternmaker",
+      "description": "Use when a task needs the judgment of a Fabric/Apparel Patternmaker \u2014 deriving grade rule increments from a size chart's actual (possibly non-uniform) measurement differences rather than applying one uniform rule across the whole range, preserving ease allowance proportion at graded extreme sizes, moving internal pattern details proportionally with their body point during grading, or deciding whether a new pattern needs fit-test sampling at range extremes.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fabric-apparel-patternmaker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

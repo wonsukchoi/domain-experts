@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 579 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 580 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (41/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (42/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1059,7 +1059,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-6063.00 | Textile Knitting and Weaving Machine Setters, Operators, and Tenders |  |
 |  | 51-6064.00 | Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders |  |
 | ✅ | 51-6091.00 | Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers | [`synthetic-fiber-extrusion-operator`](./roles/synthetic-fiber-extrusion-operator/SKILL.md) |
-|  | 51-6092.00 | Fabric and Apparel Patternmakers |  |
+| ✅ | 51-6092.00 | Fabric and Apparel Patternmakers | [`fabric-apparel-patternmaker`](./roles/fabric-apparel-patternmaker/SKILL.md) |
 | ✅ | 51-6093.00 | Upholsterers | [`upholsterer`](./roles/upholsterer/SKILL.md) |
 |  | 51-6099.00 | Textile, Apparel, and Furnishings Workers, All Other |  |
 | ✅ | 51-7011.00 | Cabinetmakers and Bench Carpenters | [`cabinetmaker`](./roles/cabinetmaker/SKILL.md) |
