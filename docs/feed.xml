@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:42:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:49:56 +0000</lastBuildDate>
+  <item>
+    <title>Adhesive Bonding Machine Operator</title>
+    <link>https://domainexperts.dev/roles/adhesive-bonding-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/adhesive-bonding-machine-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:49:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Adhesive Bonding Machine Operator — distinguishing an open-time violation from a pot-life check, controlling bond line thickness with calibrated spacers rather than clamping pressure alone, verifying surface prep with a test rather than visual cleanliness, or confirming actual part temperature reached full cure rather than trusting chamber setpoint and elapsed time.</description>
+  </item>
   <item>
     <title>Textile Dyeing Machine Operator</title>
     <link>https://domainexperts.dev/roles/textile-dyeing-machine-operator/</link>

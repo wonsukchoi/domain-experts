@@ -1,5 +1,5 @@
 {
-  "count": 573,
+  "count": 574,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -32,6 +32,27 @@
       "skill": "roles/actuary/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "adhesive-bonding-machine-operator",
+      "description": "Use when a task needs the judgment of an Adhesive Bonding Machine Operator \u2014 distinguishing an open-time violation from a pot-life check, controlling bond line thickness with calibrated spacers rather than clamping pressure alone, verifying surface prep with a test rather than visual cleanliness, or confirming actual part temperature reached full cure rather than trusting chamber setpoint and elapsed time.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9191.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/adhesive-bonding-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
