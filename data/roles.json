@@ -1,5 +1,5 @@
 {
-  "count": 586,
+  "count": 587,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2510,6 +2510,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/conveyor-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cooling-freezing-equipment-operator",
+      "description": "Use when a task needs the judgment of a Cooling/Freezing Equipment Operator \u2014 calculating freezing time for a new product thickness via the thickness-squared relationship rather than assuming linear scaling, verifying freezing completion by actual core/thermal-center temperature rather than surface temperature or elapsed time, recognizing a temperature plateau as expected latent-heat removal rather than a malfunction, or matching belt speed/residence time to the calculated freezing time requirement.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9193.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cooling-freezing-equipment-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
