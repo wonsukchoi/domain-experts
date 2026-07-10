@@ -1,5 +1,5 @@
 {
-  "count": 588,
+  "count": 589,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -11018,6 +11018,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/sustainability-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "synthetic-fiber-extrusion-operator",
+      "description": "Use when a task needs the judgment of a Synthetic/Glass Fiber Extruding and Forming Machine Operator \u2014 calculating take-up speed from actual throughput rate and target denier rather than reusing a prior product's setting, setting draw ratio within the polymer's documented breakage-safe range, checking individual filament uniformity when aggregate denier looks fine but downstream breakage occurs, or diagnosing fiber breakage to a specific process variable rather than broadly reducing speed.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/synthetic-fiber-extrusion-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

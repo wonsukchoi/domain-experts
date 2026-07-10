@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 16:20:52 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 16:24:46 +0000</lastBuildDate>
+  <item>
+    <title>Synthetic Fiber Extrusion Operator</title>
+    <link>https://domainexperts.dev/roles/synthetic-fiber-extrusion-operator/</link>
+    <guid>https://domainexperts.dev/roles/synthetic-fiber-extrusion-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 23:24:30 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Synthetic/Glass Fiber Extruding and Forming Machine Operator — calculating take-up speed from actual throughput rate and target denier rather than reusing a prior product&#x27;s setting, setting draw ratio within the polymer&#x27;s documented breakage-safe range, checking individual filament uniformity when aggregate denier looks fine but downstream breakage occurs, or diagnosing fiber breakage to a specific process variable rather than broadly reducing speed.</description>
+  </item>
   <item>
     <title>Food Roasting Drying Machine Operator</title>
     <link>https://domainexperts.dev/roles/food-roasting-drying-machine-operator/</link>
