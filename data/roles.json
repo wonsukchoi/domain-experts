@@ -1,5 +1,5 @@
 {
-  "count": 568,
+  "count": 569,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1608,6 +1608,27 @@
       "skill": "roles/chemical-engineer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "chemical-plant-operator",
+      "description": "Use when a task needs the judgment of a Chemical Plant and System Operator \u2014 reconciling a batch's mass balance to catch a leak or unaccounted reaction that individually normal readings would miss, responding to an early exotherm temperature trend before it accelerates, prioritizing simultaneous alarms by consequence severity rather than order of occurrence, or flagging a combination of near-limit variables that no single-variable check would catch.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chemical-plant-operator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
