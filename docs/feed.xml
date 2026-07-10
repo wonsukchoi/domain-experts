@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:56:58 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:02:16 +0000</lastBuildDate>
+  <item>
+    <title>Tire Builder</title>
+    <link>https://domainexperts.dev/roles/tire-builder/</link>
+    <guid>https://domainexperts.dev/roles/tire-builder/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:02:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tire Builder — measuring a ply/belt splice against its specified tolerance rather than accepting any visible overlap, checking rubber component stock against its tack window before building, deciding whether a detected air pocket must be corrected before curing, or tracing a recurring defect back to a specific build station or stock batch.</description>
+  </item>
   <item>
     <title>Tailor Dressmaker</title>
     <link>https://domainexperts.dev/roles/tailor-dressmaker/</link>
