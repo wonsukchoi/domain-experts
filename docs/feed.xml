@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 14:49:56 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 14:56:26 +0000</lastBuildDate>
+  <item>
+    <title>Nuclear Power Reactor Operator</title>
+    <link>https://domainexperts.dev/roles/nuclear-power-reactor-operator/</link>
+    <guid>https://domainexperts.dev/roles/nuclear-power-reactor-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 21:56:11 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nuclear Power Reactor Operator — planning a power change around the xenon-135 transient&#x27;s delayed peak rather than just the immediate reactivity effect, verifying shutdown margin against the worst-case stuck-rod condition rather than observed rod positions, accounting for a control rod&#x27;s position-dependent worth, or deciding whether to deviate from an approved procedure&#x27;s step sequence.</description>
+  </item>
   <item>
     <title>Adhesive Bonding Machine Operator</title>
     <link>https://domainexperts.dev/roles/adhesive-bonding-machine-operator/</link>
