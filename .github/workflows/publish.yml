@@ -31,7 +31,9 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       # Trusted publishing needs npm >=11.5.1; setup-node's bundled npm may lag behind.
-      - run: npm install -g npm@latest
+      # Pinned to the npm 11 line (not @latest) — npm 12 requires Node >=22, which
+      # this job's Node 20 runtime doesn't satisfy.
+      - run: npm install -g npm@11
 
       - name: Verify tag matches package.json version
         run: |
