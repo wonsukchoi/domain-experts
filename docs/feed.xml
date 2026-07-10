@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 12:32:14 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 12:54:53 +0000</lastBuildDate>
+  <item>
+    <title>Welder</title>
+    <link>https://domainexperts.dev/roles/welder/</link>
+    <guid>https://domainexperts.dev/roles/welder/</guid>
+    <pubDate>Fri, 10 Jul 2026 19:54:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Welder — computing actual heat input from as-run voltage/amperage/travel speed against a WPS&#x27;s qualified range, deciding whether a joint&#x27;s carbon equivalent requires preheat before striking an arc, planning a weld sequence to control distortion, or diagnosing a recurring defect (undercut, lack of fusion) to a specific parameter rather than &quot;bad technique.</description>
+  </item>
   <item>
     <title>Machinist</title>
     <link>https://domainexperts.dev/roles/machinist/</link>
