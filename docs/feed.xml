@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 13:44:57 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:49:30 +0000</lastBuildDate>
+  <item>
+    <title>Printing Press Operator</title>
+    <link>https://domainexperts.dev/roles/printing-press-operator/</link>
+    <guid>https://domainexperts.dev/roles/printing-press-operator/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:49:16 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Printing Press Operator — diagnosing whether a color drift is a dot-gain problem versus a general density problem, deciding whether measured registration error is within tolerance for process-color work, recalibrating press settings when a job moves to a different substrate, or deciding whether a makeready-approved run still needs mid-run spot-checks.</description>
+  </item>
   <item>
     <title>Upholsterer</title>
     <link>https://domainexperts.dev/roles/upholsterer/</link>
