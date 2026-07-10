@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 12:59:51 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 10 Jul 2026 13:05:32 +0000</lastBuildDate>
+  <item>
+    <title>Cnc Programmer</title>
+    <link>https://domainexperts.dev/roles/cnc-programmer/</link>
+    <guid>https://domainexperts.dev/roles/cnc-programmer/</guid>
+    <pubDate>Fri, 10 Jul 2026 20:05:16 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Computer Numerically Controlled (CNC) Tool Programmer — calculating stepover from a scallop-height/surface-finish spec instead of picking one by feel, deciding whether a toolpath needs a dry run before cutting material on an unfamiliar post-processor/machine pairing, verifying datum consistency across multiple part setups, or diagnosing why cycle time jumped after a &quot;minor&quot; parameter change.</description>
+  </item>
   <item>
     <title>Tool Die Maker</title>
     <link>https://domainexperts.dev/roles/tool-die-maker/</link>

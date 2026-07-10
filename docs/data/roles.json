@@ -1,5 +1,5 @@
 {
-  "count": 551,
+  "count": 552,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1810,6 +1810,27 @@
       "skill": "roles/clinical-research-coordinator/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cnc-programmer",
+      "description": "Use when a task needs the judgment of a Computer Numerically Controlled (CNC) Tool Programmer \u2014 calculating stepover from a scallop-height/surface-finish spec instead of picking one by feel, deciding whether a toolpath needs a dry run before cutting material on an unfamiliar post-processor/machine pairing, verifying datum consistency across multiple part setups, or diagnosing why cycle time jumped after a \"minor\" parameter change.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9162.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cnc-programmer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
