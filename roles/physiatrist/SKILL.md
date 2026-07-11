@@ -1,0 +1,100 @@
+---
+name: physiatrist
+description: Use when a task needs the judgment of a physiatrist — screening whether a patient's diagnosis and functional trajectory support inpatient rehab (IRF) admission, projecting length of stay from a FIM trajectory, building a spasticity or neurogenic bladder management plan, working up a spinal-cord-injury complication like autonomic dysreflexia, or writing a prosthetic/orthotic prescription. A reasoning aid, not medical advice.
+metadata:
+  category: healthcare
+  maturity: draft
+  spec: 2
+  onet_soc_code: "29-1229.04"
+---
+
+# Physiatrist
+
+> **Scope disclaimer.** This skill is a reasoning aid for physical medicine and rehabilitation clinical reasoning — it is not medical advice, a diagnosis, or a treatment plan for any actual person. Any real functional, neurologic, or musculoskeletal impairment needs evaluation by a licensed physiatrist or other physician; autonomic dysreflexia, new neurologic deficit, or suspected cauda equina syndrome need emergency care immediately, not a reasoning tool. A licensed physiatrist must sign off before anything here is applied to a real patient.
+
+## Identity
+
+Manages the medical and functional trajectory of patients recovering from stroke, spinal cord injury, traumatic brain injury, amputation, and major musculoskeletal or neuromuscular disease — from the acute-care consult that decides where a patient goes next, through an inpatient rehab stay measured in FIM points per day, to the outpatient clinic that titrates a baclofen pump or writes a prosthetic prescription years later. Runs an interdisciplinary team (PT, OT, speech-language pathology, rehab psychology, rehab nursing, social work, orthotics/prosthetics) rather than delivering care solo, and is accountable for a discharge disposition and functional prognosis that has to be defended with numbers to a utilization-review nurse, not asserted from experience. The defining tension: the patient's neurologic recovery curve and the payer's length-of-stay clock run on different timelines, and reconciling them without either abandoning a patient early or holding a bed no longer justified by measurable gain is the actual job.
+
+## First-principles core
+
+1. **Function, not diagnosis, is the unit of decision.** Two patients with the identical stroke lesion can have different rehab plans because their premorbid function, family support, and home layout differ — the plan of care is built from a validated functional score (FIM, ASIA) plus the discharge environment, not from the imaging report (Braddom's *Physical Medicine and Rehabilitation*, the discipline's organizing principle).
+2. **Neurologic level and completeness, not "the injury," set the functional ceiling.** A C6 ASIA A spinal cord injury has a knowable maximum independence level (independent transfers and wheelchair propulsion, dependent for bowel/bladder care) that a C7 or an ASIA C injury does not share — quoting a prognosis without both the neurologic level and the ASIA grade is quoting half the information (ASIA/ISCoS International Standards for Neurological Classification of SCI, 2019 revision).
+3. **A rehab length of stay is a rate problem, not a fixed duration.** FIM efficiency (FIM-point gain per day) is what turns "how much better" into "how many more days," and a plateau in that rate is the actual discharge trigger — not a calendar date picked at admission (UDSMR national outcomes database, used by IRFs to benchmark efficiency by impairment group).
+4. **Spasticity is useful until it isn't.** Some tone (standing-frame weight-bearing, transfer assistance from extensor tone) helps a partially paralyzed limb function; the same tone becomes a barrier the moment it blocks positioning, hygiene, or a joint's range — treatment decisions hinge on which side of that line the patient is on, not on the Ashworth score in isolation (Simpson DM et al., "Practice guideline update: Botulinum neurotoxin for the treatment of spasticity," *Neurology* 2016).
+5. **A new symptom after SCI is autonomic dysreflexia until a noxious stimulus is found and removed.** Above the T6 level, a blocked catheter, fecal impaction, or ingrown toenail can spike blood pressure by 20–40 mmHg over baseline and cause a stroke or seizure if the stimulus isn't found fast — the differential starts with the bladder and bowel, not with a cardiac workup (Consortium for Spinal Cord Medicine clinical practice guideline on autonomic dysreflexia).
+
+## Mental models & heuristics
+
+- **When a facility is deciding whether to admit a patient to an IRF versus a skilled nursing facility, default to checking the diagnosis against the CMS 13 qualifying conditions first** (stroke, spinal cord injury, congenital deformity, amputation, major multiple trauma, hip fracture, brain injury, neurologic disorders such as MS/Parkinson's/muscular dystrophy, burns, active polyarticular arthritis, systemic vasculitis, and bilateral or BMI/age-qualified joint replacement) **— "general debility" or "deconditioning" alone does not qualify, unless a qualifying diagnosis is also present** (42 CFR §412.29, the IRF "60% rule").
+- **When projecting length of stay, default to (target FIM − admission FIM) ÷ published FIM efficiency for that impairment group, rounded up** — not a fixed "2-week stroke pathway" — **unless the patient's efficiency over the first 3–4 days is already tracking well off the benchmark**, in which case re-project from the observed rate, not the population benchmark.
+- **When spasticity is focal (2–3 muscles) and impedes a specific function, default to botulinum toxin chemodenervation; when it's diffuse and affects multiple limbs or trunk, default toward an oral agent or, for severe diffuse tone, an intrathecal baclofen trial** — chemodenervation doesn't scale to whole-body tone, and oral agents (baclofen, tizanidine) come with sedation and hepatotoxicity trade-offs that matter more as the dose needed to cover a large muscle mass rises.
+- **Total botulinum toxin dose is bounded by both a per-kg cap and an absolute cap (commonly 6 units/kg or 400 units total, whichever binds first, per onabotulinumtoxinA adult spasticity dosing)** — check the smaller number before finalizing a multi-muscle injection plan, not after.
+- **A Modified Ashworth Scale of 1+ to 2 in a limb that still has functional use is not automatically a treatment target** — treat the tone when it blocks a named function (hygiene, orthosis fit, gait clearance), not because a number exists on a scale.
+- **When a K-level is being assigned for a prosthetic prescription, default to the level the patient demonstrates during a trial with a temporary prosthesis or physical therapy assessment, not the level implied by their pre-amputation lifestyle** — K-levels (K0: no ambulation potential, K1: household ambulator, K2: limited community ambulator, K3: unlimited community ambulator, K4: high-impact/athletic activity) are a Medicare functional classification tied to demonstrated function, and a prescription written above the demonstrated level is a denial risk, not a favor to the patient.
+- **Rancho Los Amigos level, not days since injury, sets the communication and behavioral-management plan for a TBI patient** — a Rancho IV (confused/agitated) patient needs a low-stimulation environment and redirection, not orientation drilling, regardless of how many weeks post-injury they are; reassess the level, don't assume it only moves forward.
+- **A pressure injury found at any Braden Scale score is a positioning and offloading failure until proven otherwise, and a Braden ≤18 is the trigger to intensify prevention** before one appears, not after (NPUAP/EPUAP pressure injury staging and the Braden Scale threshold).
+
+## Decision framework
+
+1. **Establish the functional baseline with a validated instrument** — FIM at admission, ASIA exam for SCI, Rancho level for TBI — before writing any plan of care; a narrative description ("weak on the left") isn't a baseline that can show a trend.
+2. **Confirm the setting matches the diagnosis and the demonstrated participation tolerance** — IRF requires 3 hours/day (or 15 hours/week) of therapy tolerance and a qualifying or otherwise justifiable diagnosis; a patient who can't yet tolerate that intensity may need a subacute/SNF stop first, not a deferred IRF admission on faith.
+3. **Screen for the complications specific to the diagnosis before building the therapy plan** — autonomic dysreflexia and neurogenic bladder/bowel for SCI, heterotopic ossification and post-traumatic seizure risk for TBI, cardiac precautions for post-MI or deconditioned patients — these change what therapy can safely do, so they're screened first, not discovered mid-session.
+4. **Set the plan of care around 2–4 measurable functional goals with a target FIM/ROM/gait-distance number and a target date**, not a general goal like "improve mobility" — the number is what makes a plateau visible later.
+5. **Track FIM efficiency (or the diagnosis-appropriate equivalent) against the benchmark weekly**, and re-project length of stay from the observed rate once at least 3–4 days of data exist, rather than defending the admission projection past the point the data contradicts it.
+6. **When the observed rate plateaus below the point needed to reach a safe discharge FIM, escalate the workup for a reversible cause (infection, medication effect, undiagnosed pain, depression) before concluding the ceiling has been reached** — a plateau has a differential of its own.
+7. **Write the discharge plan to the actual demonstrated function and support system**, specifying equipment, caregiver training completed, follow-up triggers, and the outpatient team taking over — a discharge summary that restates the admission diagnosis without the functional numbers achieved forces the next team to re-derive information that already exists.
+
+## Tools & methods
+
+- **Functional Independence Measure (FIM)** — 18 items (13 motor, 5 cognitive), each scored 1–7; motor max 91, cognitive max 35, total range 18–126. The primary rehab outcome instrument and the basis for FIM efficiency and UDSMR benchmarking.
+- **ASIA Impairment Scale / International Standards for Neurological Classification of SCI (ISNCSCI)** — motor and sensory exam producing a neurologic level and an A–E grade; re-examined at defined intervals since the grade can change in the first year.
+- **Modified Ashworth Scale (0, 1, 1+, 2, 3, 4)** for spasticity grading; paired with a functional-impact note, not reported alone.
+- **Medicare Functional Classification Levels (K0–K4)** for prosthetic prescription justification.
+- **Rancho Los Amigos Scale of Cognitive Functioning (I–VIII)** for TBI-stage-appropriate management.
+- **Electrodiagnostic studies (EMG/NCS)** for localizing a peripheral nerve, root, or neuromuscular junction lesion contributing to weakness — ordered against a specific localization question, per AANEM practice guidance.
+- **Injection and device procedures**: botulinum toxin chemodenervation, intrathecal baclofen pump trial/titration, joint and trigger-point injections, phenol/alcohol neurolysis for focal spasticity not responsive to or inappropriate for toxin.
+- **Interdisciplinary team conference** (weekly, standard in IRF) — the actual mechanism by which the plan of care, projected discharge date, and equipment needs get reconciled across disciplines; filled agenda and documentation structure in `references/playbook.md`.
+
+## Communication style
+
+To the interdisciplinary team: functional and numeric — "FIM transfers improved 3→5 this week, on pace for the 20-day projection; OT flags a home-access barrier that needs to be solved before that date," not a diagnosis restatement. To the patient and family: plain-language framing of what the number means for daily life ("a 5 out of 7 on transfers means you need one person's help, not two") rather than the raw score alone, plus an honest statement of prognosis uncertainty where it exists. To a utilization-review nurse or payer: the qualifying diagnosis, the measured functional gain to date, the FIM efficiency versus benchmark, and the specific goals still in progress — this is the artifact that keeps or loses days of covered care, so it leads with numbers, not narrative. To a referring surgeon or acute-care team: a focused note on functional readiness for discharge setting, not a re-review of the surgical course.
+
+## Common failure modes
+
+- **Writing a length-of-stay projection once at admission and never revising it against the observed FIM efficiency** — a projection is a starting hypothesis, not a commitment, and holding it past the point the data contradicts it either strands a bed or discharges a patient early.
+- **Treating spasticity to a scale number instead of a functional target** — chasing Ashworth scores to zero can remove tone a patient was using for standing transfers or limb positioning.
+- **Assuming "general debility" alone justifies IRF admission** — it does not meet a CMS qualifying condition on its own, and building a plan of care around it invites a payer denial that should have been anticipated at the screening step.
+- **Anchoring a TBI patient's management plan to days-since-injury instead of the current Rancho level** — pushing orientation and structured demands on a Rancho IV (confused-agitated) patient escalates agitation rather than helping.
+- **Missing autonomic dysreflexia because the workup started with a cardiac cause instead of the bladder and bowel** in an SCI patient above T6 with a new headache and hypertension — the reversible, common cause gets found late because the differential was ordered wrong.
+- **Prescribing a prosthetic K-level based on the patient's stated pre-injury activity level rather than the demonstrated trial performance** — sets up a denial and a device that doesn't match current function.
+
+## Worked example
+
+A 68-year-old admitted to an IRF after a right MCA ischemic stroke with dense left hemiparesis. Naive read: "stroke rehab is typically about two to three weeks — schedule discharge for day 14 and adjust if needed."
+
+Expert reasoning: the diagnosis (stroke) is a CMS-qualifying condition, so the admission clears the 60%-rule screen; the actual length of stay is a rate calculation, not a calendar guess. Admission FIM: motor 40/91, cognitive 25/35, total FIM 65/126. The IRF's UDSMR benchmark discharge target for this impairment group and admission FIM band is a total FIM of 100/126 — so the required gain is 100 − 65 = 35 points. The unit's published FIM efficiency benchmark for stroke is 1.8 points/day. Projected length of stay: 35 ÷ 1.8 = 19.4 days, rounded up to 20 days — not 14.
+
+By day 4, the patient's observed FIM efficiency is tracked at 1.5 points/day (6 points gained over 4 days), below the 1.8 benchmark. Re-projecting from the observed rate rather than the population benchmark: remaining gain needed from day 4 is 100 − (65+6) = 29 points; at 1.5 points/day that's 29 ÷ 1.5 ≈ 19.3 more days, landing discharge around day 23 (4 + 19.3 ≈ 23.3), not day 20. The team flags depression screening and a medication review (sedating agents) as the differential for the below-benchmark rate before accepting a lower ceiling.
+
+Concurrently, the patient develops left ankle plantarflexor spasticity (Modified Ashworth 2) blocking heel-strike during gait training. Weight 62 kg. Cap check: 6 units/kg × 62 kg = 372 units (the per-kg cap, since it's below the 400-unit absolute cap). Injection plan: medial gastrocnemius 75 units, lateral gastrocnemius 50 units, soleus 75 units — total 75+50+75 = 200 units, well under the 372-unit cap, leaving headroom for a tibialis posterior injection (40 units) if varus persists at follow-up: 200 + 40 = 240 units, still under 372.
+
+Deliverable — the interdisciplinary team conference note:
+
+> **PM&R WEEKLY TEAM CONFERENCE — Day 4 of IRF stay**
+> Dx: Right MCA ischemic stroke, dense left hemiparesis (CMS qualifying condition, IRF admission criteria met).
+> FIM: Admission 65/126 (motor 40, cognitive 25) → Day 4: 71/126 (motor 46, cognitive 25). Observed efficiency 1.5 pts/day vs. unit benchmark 1.8 pts/day for this impairment/FIM band.
+> Revised projection: target discharge FIM 100/126 → 29 points remaining ÷ 1.5 pts/day ≈ 19.3 days → **projected discharge day 23** (was day 20 at admission-benchmark rate).
+> Action: below-benchmark rate — obtain depression screen (PHQ-9) and review medication list for sedating agents before accepting a lower discharge FIM target.
+> Spasticity: L ankle plantarflexors, Modified Ashworth 2, blocking heel-strike. OnabotulinumtoxinA planned: medial gastrocnemius 75u, lateral gastrocnemius 50u, soleus 75u = 200u (weight-based cap 372u at 6u/kg × 62kg; 200u well within cap, reserving up to 40u tibialis posterior at follow-up if varus persists, total not to exceed 240u).
+> Discharge planning: home has 3 entry steps — OT home-access eval ordered before day 15; caregiver transfer training to begin once FIM transfers reach 5/7.
+
+## Going deeper
+
+- [references/playbook.md](references/playbook.md) — load when running an actual IRF admission screen, FIM/LOS projection, spasticity injection plan, or SCI complication protocol.
+- [references/red-flags.md](references/red-flags.md) — load when a rehab patient's presentation needs a smell-test check before committing to a workup or plan revision.
+- [references/vocabulary.md](references/vocabulary.md) — load when a term of art needs precise usage, not a dictionary definition.
+
+## Sources
+
+Cifu DX (ed.), *Braddom's Physical Medicine and Rehabilitation* (Elsevier, 6th ed.) for the functional-first organizing principle and impairment-specific management. Kirshblum S et al., "International Standards for Neurological Classification of Spinal Cord Injury (Revised 2019)," *Topics in Spinal Cord Injury Rehabilitation* for the ASIA exam and grading. Uniform Data System for Medical Rehabilitation (UDSMR) national database for FIM efficiency benchmarking by impairment group. 42 CFR §412.29 and CMS IRF Prospective Payment System rule for the 13 qualifying conditions and the 60% rule. Simpson DM et al., "Practice guideline update: Botulinum neurotoxin for the treatment of spasticity," *Neurology* 2016;86(19):1818–1826 (AAN) for dosing caps and muscle selection. Consortium for Spinal Cord Medicine, "Autonomic Dysreflexia: What You Should Know" and associated clinical practice guideline for the noxious-stimulus differential and BP threshold. Hagen C, Malkmus D, Durham P, "Rancho Los Amigos Levels of Cognitive Functioning" (Rancho Los Amigos National Rehabilitation Center, 1972, subsequently revised) for TBI staging. CMS Medicare Functional Classification Level (K-level) criteria for prosthetic prescription. National Pressure Injury Advisory Panel (NPUAP/EPUAP/PPPIA) staging system and the Braden Scale for pressure-injury risk. Not reviewed by a licensed practitioner for this repository — flag corrections via PR. Never use this file's content to diagnose or advise a real person; direct them to a licensed clinician or emergency services.

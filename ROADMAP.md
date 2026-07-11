@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 679 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 746 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -494,7 +494,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>29 — Healthcare Practitioners and Technical</strong> (21/96 drafted)</summary>
+<summary><strong>29 — Healthcare Practitioners and Technical</strong> (88/96 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -508,92 +508,92 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 29-1041.00 | Optometrists | [`optometrist`](./roles/optometrist/SKILL.md) |
 | ✅ | 29-1051.00 | Pharmacists | [`pharmacist`](./roles/pharmacist/SKILL.md) |
 | ✅ | 29-1071.00 | Physician Assistants | [`physician-assistant`](./roles/physician-assistant/SKILL.md) |
-|  | 29-1071.01 | Anesthesiologist Assistants |  |
+| ✅ | 29-1071.01 | Anesthesiologist Assistants | [`anesthesiologist-assistant`](./roles/anesthesiologist-assistant/SKILL.md) |
 | ✅ | 29-1081.00 | Podiatrists | [`podiatrist`](./roles/podiatrist/SKILL.md) |
 | ✅ | 29-1122.00 | Occupational Therapists | [`occupational-therapist`](./roles/occupational-therapist/SKILL.md) |
-|  | 29-1122.01 | Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists |  |
+| ✅ | 29-1122.01 | Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists | [`vision-rehabilitation-therapist`](./roles/vision-rehabilitation-therapist/SKILL.md) |
 | ✅ | 29-1123.00 | Physical Therapists | [`physical-therapist`](./roles/physical-therapist/SKILL.md) |
-|  | 29-1124.00 | Radiation Therapists |  |
-|  | 29-1125.00 | Recreational Therapists |  |
-|  | 29-1126.00 | Respiratory Therapists |  |
+| ✅ | 29-1124.00 | Radiation Therapists | [`radiation-therapist`](./roles/radiation-therapist/SKILL.md) |
+| ✅ | 29-1125.00 | Recreational Therapists | [`recreational-therapist`](./roles/recreational-therapist/SKILL.md) |
+| ✅ | 29-1126.00 | Respiratory Therapists | [`respiratory-therapist`](./roles/respiratory-therapist/SKILL.md) |
 | ✅ | 29-1127.00 | Speech-Language Pathologists | [`speech-language-pathologist`](./roles/speech-language-pathologist/SKILL.md) |
-|  | 29-1128.00 | Exercise Physiologists |  |
+| ✅ | 29-1128.00 | Exercise Physiologists | [`exercise-physiologist`](./roles/exercise-physiologist/SKILL.md) |
 |  | 29-1129.00 | Therapists, All Other |  |
-|  | 29-1129.01 | Art Therapists |  |
-|  | 29-1129.02 | Music Therapists |  |
+| ✅ | 29-1129.01 | Art Therapists | [`art-therapist`](./roles/art-therapist/SKILL.md) |
+| ✅ | 29-1129.02 | Music Therapists | [`music-therapist`](./roles/music-therapist/SKILL.md) |
 | ✅ | 29-1131.00 | Veterinarians | [`veterinarian`](./roles/veterinarian/SKILL.md) |
 | ✅ | 29-1141.00 | Registered Nurses | [`registered-nurse`](./roles/registered-nurse/SKILL.md) |
-|  | 29-1141.01 | Acute Care Nurses |  |
-|  | 29-1141.02 | Advanced Practice Psychiatric Nurses |  |
+| ✅ | 29-1141.01 | Acute Care Nurses | [`critical-care-nurse`](./roles/critical-care-nurse/SKILL.md) |
+| ✅ | 29-1141.02 | Advanced Practice Psychiatric Nurses | [`psychiatric-nurse-practitioner`](./roles/psychiatric-nurse-practitioner/SKILL.md) |
 |  | 29-1141.03 | Critical Care Nurses |  |
-|  | 29-1141.04 | Clinical Nurse Specialists |  |
-|  | 29-1151.00 | Nurse Anesthetists |  |
-|  | 29-1161.00 | Nurse Midwives |  |
+| ✅ | 29-1141.04 | Clinical Nurse Specialists | [`clinical-nurse-specialist`](./roles/clinical-nurse-specialist/SKILL.md) |
+| ✅ | 29-1151.00 | Nurse Anesthetists | [`nurse-anesthetist`](./roles/nurse-anesthetist/SKILL.md) |
+| ✅ | 29-1161.00 | Nurse Midwives | [`nurse-midwife`](./roles/nurse-midwife/SKILL.md) |
 | ✅ | 29-1171.00 | Nurse Practitioners | [`nurse-practitioner`](./roles/nurse-practitioner/SKILL.md) |
 | ✅ | 29-1181.00 | Audiologists | [`audiologist`](./roles/audiologist/SKILL.md) |
-|  | 29-1211.00 | Anesthesiologists |  |
-|  | 29-1212.00 | Cardiologists |  |
-|  | 29-1213.00 | Dermatologists |  |
-|  | 29-1214.00 | Emergency Medicine Physicians |  |
-|  | 29-1215.00 | Family Medicine Physicians |  |
+| ✅ | 29-1211.00 | Anesthesiologists | [`anesthesiologist`](./roles/anesthesiologist/SKILL.md) |
+| ✅ | 29-1212.00 | Cardiologists | [`cardiologist`](./roles/cardiologist/SKILL.md) |
+| ✅ | 29-1213.00 | Dermatologists | [`dermatologist`](./roles/dermatologist/SKILL.md) |
+| ✅ | 29-1214.00 | Emergency Medicine Physicians | [`emergency-medicine-physician`](./roles/emergency-medicine-physician/SKILL.md) |
+| ✅ | 29-1215.00 | Family Medicine Physicians | [`family-physician`](./roles/family-physician/SKILL.md) |
 | ♻️ | 29-1216.00 | General Internal Medicine Physicians | [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) |
-|  | 29-1217.00 | Neurologists |  |
-|  | 29-1218.00 | Obstetricians and Gynecologists |  |
-|  | 29-1221.00 | Pediatricians, General |  |
-|  | 29-1222.00 | Physicians, Pathologists |  |
-|  | 29-1223.00 | Psychiatrists |  |
-|  | 29-1224.00 | Radiologists |  |
+| ✅ | 29-1217.00 | Neurologists | [`neurologist`](./roles/neurologist/SKILL.md) |
+| ✅ | 29-1218.00 | Obstetricians and Gynecologists | [`obstetrician-gynecologist`](./roles/obstetrician-gynecologist/SKILL.md) |
+| ✅ | 29-1221.00 | Pediatricians, General | [`pediatrician`](./roles/pediatrician/SKILL.md) |
+| ✅ | 29-1222.00 | Physicians, Pathologists | [`pathologist`](./roles/pathologist/SKILL.md) |
+| ✅ | 29-1223.00 | Psychiatrists | [`psychiatrist`](./roles/psychiatrist/SKILL.md) |
+| ✅ | 29-1224.00 | Radiologists | [`radiologist`](./roles/radiologist/SKILL.md) |
 |  | 29-1229.00 | Physicians, All Other |  |
-|  | 29-1229.01 | Allergists and Immunologists |  |
-|  | 29-1229.02 | Hospitalists |  |
-|  | 29-1229.03 | Urologists |  |
-|  | 29-1229.04 | Physical Medicine and Rehabilitation Physicians |  |
-|  | 29-1229.05 | Preventive Medicine Physicians |  |
-|  | 29-1229.06 | Sports Medicine Physicians |  |
-|  | 29-1241.00 | Ophthalmologists, Except Pediatric |  |
-|  | 29-1242.00 | Orthopedic Surgeons, Except Pediatric |  |
-|  | 29-1243.00 | Pediatric Surgeons |  |
+| ✅ | 29-1229.01 | Allergists and Immunologists | [`allergist-immunologist`](./roles/allergist-immunologist/SKILL.md) |
+| ✅ | 29-1229.02 | Hospitalists | [`hospitalist`](./roles/hospitalist/SKILL.md) |
+| ✅ | 29-1229.03 | Urologists | [`urologist`](./roles/urologist/SKILL.md) |
+| ✅ | 29-1229.04 | Physical Medicine and Rehabilitation Physicians | [`physiatrist`](./roles/physiatrist/SKILL.md) |
+| ✅ | 29-1229.05 | Preventive Medicine Physicians | [`preventive-medicine-physician`](./roles/preventive-medicine-physician/SKILL.md) |
+| ✅ | 29-1229.06 | Sports Medicine Physicians | [`sports-medicine-physician`](./roles/sports-medicine-physician/SKILL.md) |
+| ✅ | 29-1241.00 | Ophthalmologists, Except Pediatric | [`ophthalmologist`](./roles/ophthalmologist/SKILL.md) |
+| ✅ | 29-1242.00 | Orthopedic Surgeons, Except Pediatric | [`orthopedic-surgeon`](./roles/orthopedic-surgeon/SKILL.md) |
+| ✅ | 29-1243.00 | Pediatric Surgeons | [`pediatric-surgeon`](./roles/pediatric-surgeon/SKILL.md) |
 |  | 29-1249.00 | Surgeons, All Other |  |
-|  | 29-1291.00 | Acupuncturists |  |
+| ✅ | 29-1291.00 | Acupuncturists | [`acupuncturist`](./roles/acupuncturist/SKILL.md) |
 | ✅ | 29-1292.00 | Dental Hygienists | [`dental-hygienist`](./roles/dental-hygienist/SKILL.md) |
 |  | 29-1299.00 | Healthcare Diagnosing or Treating Practitioners, All Other |  |
-|  | 29-1299.01 | Naturopathic Physicians |  |
-|  | 29-1299.02 | Orthoptists |  |
-|  | 29-2011.00 | Medical and Clinical Laboratory Technologists |  |
-|  | 29-2011.01 | Cytogenetic Technologists |  |
-|  | 29-2011.02 | Cytotechnologists |  |
-|  | 29-2011.04 | Histotechnologists |  |
-|  | 29-2012.00 | Medical and Clinical Laboratory Technicians |  |
-|  | 29-2012.01 | Histology Technicians |  |
-|  | 29-2031.00 | Cardiovascular Technologists and Technicians |  |
-|  | 29-2032.00 | Diagnostic Medical Sonographers |  |
-|  | 29-2033.00 | Nuclear Medicine Technologists |  |
-|  | 29-2034.00 | Radiologic Technologists and Technicians |  |
-|  | 29-2035.00 | Magnetic Resonance Imaging Technologists |  |
-|  | 29-2036.00 | Medical Dosimetrists |  |
-|  | 29-2042.00 | Emergency Medical Technicians |  |
+| ✅ | 29-1299.01 | Naturopathic Physicians | [`naturopathic-physician`](./roles/naturopathic-physician/SKILL.md) |
+| ✅ | 29-1299.02 | Orthoptists | [`orthoptist`](./roles/orthoptist/SKILL.md) |
+| ✅ | 29-2011.00 | Medical and Clinical Laboratory Technologists | [`medical-laboratory-scientist`](./roles/medical-laboratory-scientist/SKILL.md) |
+| ✅ | 29-2011.01 | Cytogenetic Technologists | [`cytogenetic-technologist`](./roles/cytogenetic-technologist/SKILL.md) |
+| ✅ | 29-2011.02 | Cytotechnologists | [`cytotechnologist`](./roles/cytotechnologist/SKILL.md) |
+| ✅ | 29-2011.04 | Histotechnologists | [`histotechnologist`](./roles/histotechnologist/SKILL.md) |
+| ✅ | 29-2012.00 | Medical and Clinical Laboratory Technicians | [`medical-laboratory-technician`](./roles/medical-laboratory-technician/SKILL.md) |
+| ✅ | 29-2012.01 | Histology Technicians | [`histology-technician`](./roles/histology-technician/SKILL.md) |
+| ✅ | 29-2031.00 | Cardiovascular Technologists and Technicians | [`cardiovascular-technologist`](./roles/cardiovascular-technologist/SKILL.md) |
+| ✅ | 29-2032.00 | Diagnostic Medical Sonographers | [`diagnostic-medical-sonographer`](./roles/diagnostic-medical-sonographer/SKILL.md) |
+| ✅ | 29-2033.00 | Nuclear Medicine Technologists | [`nuclear-medicine-technologist`](./roles/nuclear-medicine-technologist/SKILL.md) |
+| ✅ | 29-2034.00 | Radiologic Technologists and Technicians | [`radiologic-technologist`](./roles/radiologic-technologist/SKILL.md) |
+| ✅ | 29-2035.00 | Magnetic Resonance Imaging Technologists | [`mri-technologist`](./roles/mri-technologist/SKILL.md) |
+| ✅ | 29-2036.00 | Medical Dosimetrists | [`medical-dosimetrist`](./roles/medical-dosimetrist/SKILL.md) |
+| ✅ | 29-2042.00 | Emergency Medical Technicians | [`emergency-medical-technician`](./roles/emergency-medical-technician/SKILL.md) |
 | ✅ | 29-2043.00 | Paramedics | [`paramedic`](./roles/paramedic/SKILL.md) |
-|  | 29-2051.00 | Dietetic Technicians |  |
-|  | 29-2052.00 | Pharmacy Technicians |  |
-|  | 29-2053.00 | Psychiatric Technicians |  |
-|  | 29-2055.00 | Surgical Technologists |  |
-|  | 29-2056.00 | Veterinary Technologists and Technicians |  |
-|  | 29-2057.00 | Ophthalmic Medical Technicians |  |
-|  | 29-2061.00 | Licensed Practical and Licensed Vocational Nurses |  |
-|  | 29-2072.00 | Medical Records Specialists |  |
-|  | 29-2081.00 | Opticians, Dispensing |  |
-|  | 29-2091.00 | Orthotists and Prosthetists |  |
-|  | 29-2092.00 | Hearing Aid Specialists |  |
+| ✅ | 29-2051.00 | Dietetic Technicians | [`dietetic-technician`](./roles/dietetic-technician/SKILL.md) |
+| ✅ | 29-2052.00 | Pharmacy Technicians | [`pharmacy-technician`](./roles/pharmacy-technician/SKILL.md) |
+| ✅ | 29-2053.00 | Psychiatric Technicians | [`psychiatric-technician`](./roles/psychiatric-technician/SKILL.md) |
+| ✅ | 29-2055.00 | Surgical Technologists | [`surgical-technologist`](./roles/surgical-technologist/SKILL.md) |
+| ✅ | 29-2056.00 | Veterinary Technologists and Technicians | [`veterinary-technician`](./roles/veterinary-technician/SKILL.md) |
+| ✅ | 29-2057.00 | Ophthalmic Medical Technicians | [`ophthalmic-technician`](./roles/ophthalmic-technician/SKILL.md) |
+| ✅ | 29-2061.00 | Licensed Practical and Licensed Vocational Nurses | [`licensed-practical-nurse`](./roles/licensed-practical-nurse/SKILL.md) |
+| ✅ | 29-2072.00 | Medical Records Specialists | [`medical-records-specialist`](./roles/medical-records-specialist/SKILL.md) |
+| ✅ | 29-2081.00 | Opticians, Dispensing | [`dispensing-optician`](./roles/dispensing-optician/SKILL.md) |
+| ✅ | 29-2091.00 | Orthotists and Prosthetists | [`orthotist-prosthetist`](./roles/orthotist-prosthetist/SKILL.md) |
+| ✅ | 29-2092.00 | Hearing Aid Specialists | [`hearing-aid-specialist`](./roles/hearing-aid-specialist/SKILL.md) |
 |  | 29-2099.00 | Health Technologists and Technicians, All Other |  |
-|  | 29-2099.01 | Neurodiagnostic Technologists |  |
-|  | 29-2099.05 | Ophthalmic Medical Technologists |  |
-|  | 29-2099.08 | Patient Representatives |  |
-|  | 29-9021.00 | Health Information Technologists and Medical Registrars |  |
-|  | 29-9091.00 | Athletic Trainers |  |
+| ✅ | 29-2099.01 | Neurodiagnostic Technologists | [`neurodiagnostic-technologist`](./roles/neurodiagnostic-technologist/SKILL.md) |
+| ✅ | 29-2099.05 | Ophthalmic Medical Technologists | [`ophthalmic-medical-technologist`](./roles/ophthalmic-medical-technologist/SKILL.md) |
+| ✅ | 29-2099.08 | Patient Representatives | [`patient-representative`](./roles/patient-representative/SKILL.md) |
+| ✅ | 29-9021.00 | Health Information Technologists and Medical Registrars | [`health-information-manager`](./roles/health-information-manager/SKILL.md) |
+| ✅ | 29-9091.00 | Athletic Trainers | [`athletic-trainer`](./roles/athletic-trainer/SKILL.md) |
 | ✅ | 29-9092.00 | Genetic Counselors | [`genetic-counselor`](./roles/genetic-counselor/SKILL.md) |
-|  | 29-9093.00 | Surgical Assistants |  |
+| ✅ | 29-9093.00 | Surgical Assistants | [`surgical-assistant`](./roles/surgical-assistant/SKILL.md) |
 |  | 29-9099.00 | Healthcare Practitioners and Technical Workers, All Other |  |
-|  | 29-9099.01 | Midwives |  |
+| ✅ | 29-9099.01 | Midwives | [`direct-entry-midwife`](./roles/direct-entry-midwife/SKILL.md) |
 
 </details>
 
