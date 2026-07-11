@@ -1,5 +1,5 @@
 {
-  "count": 637,
+  "count": 668,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -30,6 +30,27 @@
       "last_audited": "2026-07-08",
       "audit_score": 17,
       "skill": "roles/actuary/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "adapted-physical-education-specialist",
+      "description": "Use when a task needs the judgment of an Adapted Physical Education Specialist \u2014 writing a legally-defensible PE present level and annual goal from motor/fitness assessment data, choosing the right test battery and alternate items for a student's mobility profile, recommending a placement step on the PE least-restrictive-environment continuum, or distinguishing a motor/balance deficit from a behavioral avoidance pattern.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2059.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/adapted-physical-education-specialist/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -732,6 +753,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/art-director/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "art-drama-music-professor-postsecondary",
+      "description": "Use when a task needs the judgment of a Postsecondary Art, Drama, or Music Professor \u2014 diagnosing a jury/crit score that contradicts a semester of formative work, building a studio-art or performance tenure dossier around exhibitions and productions instead of publications, staffing applied one-on-one lessons or crit sections between adjuncts and full-time faculty, running a structured critique, or deciding whether a failed barrier jury means a change of major.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1121.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/art-drama-music-professor-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1637,6 +1679,27 @@
       ]
     },
     {
+      "slug": "career-technical-education-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Career/Technical Education Teacher, Postsecondary \u2014 defending a shrinking trade or health-science program against a cutback decision, backward-mapping a shop or lab curriculum to an industry credential's exam blueprint, resolving a competency-based grading dispute where a passing average hides a failed safety check-off, or setting the terms of an advisory-committee review or work-based-learning placement.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1194.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/career-technical-education-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "cargo-freight-agent",
       "description": "Use when a task needs the judgment of a cargo/freight agent \u2014 quoting a shipment across air/ocean/ground modes, calculating dimensional weight vs actual weight for billing, classifying freight by NMFC density class, preparing bill-of-lading/customs documentation, or processing a cargo-damage claim.",
       "category": "operations",
@@ -2249,6 +2312,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/commercial-pilot/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "communications-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Communications Teacher, Postsecondary \u2014 designing or norming a multi-section basic public-speaking course, resolving a cross-rater grading discrepancy on a speech rubric, screening for and accommodating communication apprehension, or choosing a rhetorical-criticism method for a media-analysis assignment.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1122.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/communications-teacher-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2982,6 +3066,27 @@
       ]
     },
     {
+      "slug": "criminal-justice-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Criminal Justice and Law Enforcement Teacher, Postsecondary \u2014 grading or defending a crime-trend assignment that must distinguish rate from raw count, mapping a CJ curriculum against ACJS certification standards or a state POST lesson-plan hour requirement, screening a student research protocol involving parolees, probationers, or incarcerated subjects for IRB Subpart C, or setting the liability and confidentiality terms for a ride-along or corrections practicum placement.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1111.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/criminal-justice-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "crop-nursery-farmworker",
       "description": "Use when a task needs the judgment of a crop, nursery, or greenhouse farmworker \u2014 judging harvest timing/ripeness by crop, reconciling piece-rate earnings against the minimum-wage or AEWR floor, deciding whether it's safe to re-enter a pesticide-treated field or greenhouse, managing heat-illness risk during peak-season labor, or running greenhouse IPM scouting and climate setpoint checks.",
       "category": "operations",
@@ -3016,6 +3121,48 @@
       "skill": "roles/crushing-grinding-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cte-teacher",
+      "description": "Use when a task needs the judgment of a Career/Technical Education (CTE) Secondary School Teacher \u2014 deciding whether a student is authorized to run a piece of shop equipment, diagnosing a Perkins V industry-credential attainment gap, placing a student into a work-based learning slot, resolving an articulation-credit dispute with a partner college, or triaging a CTSO competition-prep versus baseline-instruction time conflict.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cte-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "curator",
+      "description": "Use when a task needs the judgment of a museum or gallery curator \u2014 evaluating whether to accept a donated collection or object, writing an acquisition or deaccession recommendation, resolving a provenance or repatriation question, deciding a loan request, or drafting exhibition label copy.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-4012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/curator/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -3735,6 +3882,27 @@
       ]
     },
     {
+      "slug": "education-professor",
+      "description": "Use when a task needs the judgment of a tenure-track/tenured Education Professor in a teacher-preparation program \u2014 designing a licensure course unit against InTASC/CAEP standards, deciding whether a candidate's borderline edTPA score needs a targeted or full retake, triaging a failing student-teaching placement, or assembling CAEP self-study evidence for reaccreditation.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/education-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "electric-motor-power-tool-repairer",
       "description": "Use when a task needs the judgment of an electric-motor and power-tool repairer \u2014 reading a megohmmeter/polarization-index test to catch a winding fault before failure, deciding rewind vs. replace on a failed induction motor, isolating a bearing fault from a broken-rotor-bar fault, judging brush/commutator wear on a universal motor, or evaluating whether a rewind was actually done to spec.",
       "category": "operations",
@@ -4050,6 +4218,27 @@
       ]
     },
     {
+      "slug": "english-literature-professor",
+      "description": "Use when a task needs the judgment of an English Language and Literature Professor \u2014 backward-designing a first-year composition or literature syllabus against a shared outcomes rubric, deciding whether an AI-detection or plagiarism flag on a student essay warrants an integrity case, reading where a tenure case's monograph actually sits in a university press's pipeline, or handling a content complaint about an assigned literary text.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1123.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/english-literature-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "entertainment-recreation-manager",
       "description": "Use when a task needs the judgment of an Entertainment and Recreation Manager (theme park, arena, recreation facility, tour operation) \u2014 planning attraction/facility capacity against attendance forecasts, evaluating a guest safety or ride-operations decision, pricing admission/season-pass programs, or managing seasonal staffing and weather-driven demand swings.",
       "category": "operations",
@@ -4344,6 +4533,27 @@
       ]
     },
     {
+      "slug": "extension-educator",
+      "description": "Use when a task needs the judgment of a Cooperative Extension educator \u2014 designing a farm, family/consumer-sciences, or 4-H education program, defending a county appropriation with impact data, choosing whether to adapt a research-validated curriculum, building a volunteer delivery model, or writing an evaluation plan that goes beyond attendance and satisfaction.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-9021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/extension-educator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "extrusion-drawing-machine-operator",
       "description": "Use when a task needs the judgment of an Extruding and Drawing Machine Setter/Operator (metal and plastic) \u2014 calculating actual cross-sectional area reduction for a wire/tube draw pass rather than diameter-based reduction, scheduling intermediate anneals against cumulative area reduction limits, sizing a plastic extrusion die to compensate for die swell, or matching line speed to actual cooling/sizing capacity.",
       "category": "engineering",
@@ -4414,6 +4624,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/faller/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "family-consumer-sciences-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Family and Consumer Sciences Teacher, Postsecondary \u2014 mapping an FCS teacher-education curriculum to state/national content standards, diagnosing a Praxis licensure pass-rate drop, preparing a CAFCS or CAEP accreditation self-study, or sequencing a methods course that also trains pre-service teachers to run FCCLA STAR Events.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1192.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/family-consumer-sciences-teacher-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5061,6 +5292,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/food-service-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "foreign-language-literature-professor",
+      "description": "Use when a task needs the judgment of a Foreign Language and Literature Professor \u2014 building a program-review case for a language major facing enrollment scrutiny, validating or fixing a placement-test cut score, tracking majors against an ACTFL proficiency benchmark before graduation or student teaching, structuring a tenure case that spans language-pedagogy and literary scholarship, or redesigning a two-tiered language/literature curriculum into an integrated sequence.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1124.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/foreign-language-literature-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5941,6 +6193,27 @@
       ]
     },
     {
+      "slug": "health-sciences-professor",
+      "description": "Use when a task needs the judgment of a Health Sciences Professor teaching in an accredited health-professions program (nursing, allied health, pharmacy, dental hygiene, veterinary technology, or medical-school basic sciences) \u2014 diagnosing a licensure/board pass-rate drop, sizing a clinical-hours-to-simulation substitution, negotiating clinical placement capacity against cohort size, responding to a specialized-accreditor citation, or resolving a clinician-educator's teaching-vs-clinical effort conflict.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/health-sciences-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "healthcare-social-worker",
       "description": "Use when a task needs the judgment of a Healthcare Social Worker \u2014 scoring a patient's readmission/care-transition risk before discharge, matching discharge-plan intensity to actual psychosocial and functional barriers rather than a generic checklist, negotiating a discharge destination against payer authorization constraints, or distinguishing a medical social work case from a mental-health or child-welfare social work case.",
       "category": "healthcare",
@@ -6059,6 +6332,27 @@
       "skill": "roles/historian/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "history-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a History Teacher, Postsecondary \u2014 deciding coverage vs. depth for a survey syllabus vs. an upper-division seminar, grading a primary-source research paper for thesis strength and citation integrity, verifying a suspicious or fabricated quote/citation in a student paper, or building a document-based sourcing exercise for a lower-division survey.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1125.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/history-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -6786,6 +7080,48 @@
       ]
     },
     {
+      "slug": "kindergarten-teacher",
+      "description": "Use when a task needs the judgment of a Kindergarten Teacher \u2014 interpreting an early-literacy screener (letter-sound, phoneme segmentation) and deciding on Tier 2 intervention, evaluating a retention or redshirting question at year-end, planning whole-group instruction sized to a five-year-old's attention span, writing a kindergarten-entry or end-of-year parent conference summary, or triaging whether a behavior signal is a Child Find/IEP referral or a typical self-regulation gap.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/kindergarten-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "kinesiology-professor",
+      "description": "Use when a task needs the judgment of a Kinesiology / Recreation and Fitness Studies Postsecondary Professor \u2014 deciding whether to proceed with a lab fitness assessment or exercise test under current ACSM screening rules, building or defending a CAAHEP/CoAES self-study outcomes report, vetting a practicum or internship placement site, calibrating a psychomotor skills check-off across multiple lab sections, or resolving a classroom dispute over a settled-vs-open exercise-science claim.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1193.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/kinesiology-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "labor-relations-specialist",
       "description": "Use when a task needs the judgment of a Labor Relations Specialist \u2014 processing a grievance against a collective bargaining agreement (CBA), applying the just-cause standard to a disciplinary decision, determining whether an unwritten practice has become binding past practice, tracking a grievance against contractual response deadlines, or preparing a case for arbitration.",
       "category": "operations",
@@ -6891,6 +7227,27 @@
       ]
     },
     {
+      "slug": "law-professor",
+      "description": "Use when a task needs the judgment of a Law Professor \u2014 designing a 1L doctrinal course with a Socratic/case-method cold-call policy, evaluating a bar-passage risk against ABA accreditation standards, deciding where and how to place a law review article, or navigating tenure or contract-renewal review across the doctrinal, clinical, and legal-writing faculty tracks.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1112.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/law-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "lawyer-contracts",
       "description": "Use when a task needs the judgment of a senior commercial contracts attorney \u2014 reviewing or redlining agreements (MSAs, SaaS, licensing, vendor, distribution), spotting where the real risk allocation lives, choosing negotiation positions and fallbacks, or translating legal exposure into business terms. US commercial law default (state common law + UCC Article 2). A reasoning aid, not legal advice.",
       "category": "legal",
@@ -6983,6 +7340,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/library-assistant-clerical/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "library-science-professor",
+      "description": "Use when a task needs the judgment of a Library Science Professor (postsecondary LIS/iSchool faculty) \u2014 responding to an ALA accreditation site-visit finding, redesigning a required course after section pass rates diverge, allocating pre-tenure time across research/teaching/service, calibrating adjunct-taught sections against a shared rubric, or mapping curriculum to the ALA Core Competences of Librarianship.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1082.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/library-science-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "library-technician",
+      "description": "Use when a task needs the judgment of a Library Technician \u2014 evaluating whether an OCLC copy-cataloging match is safe to accept, triaging an interlibrary loan request or lending dispute, deciding when a late serial issue crosses into claim territory, or routing a cataloging/circulation edge case to the supervising librarian instead of guessing.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-4031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/library-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8081,6 +8480,48 @@
       ]
     },
     {
+      "slug": "middle-school-cte-teacher",
+      "description": "Use when a task needs the judgment of a Middle School Career/Technical Education Teacher \u2014 running day-one equipment safety certification for a new rotation cohort, backward-designing a compressed 6-9 week exploratory unit around one deliverable, separating career-interest signal data from skill-mastery grades, matching a CTSO (TSA/FCCLA) competitive event to what a cohort actually practiced, or telling a parent or counselor accurately what a completed rotation does and doesn't count toward under Perkins V.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/middle-school-cte-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "middle-school-teacher",
+      "description": "Use when a task needs the judgment of a Middle School Teacher \u2014 reading a cross-subject data pattern from an interdisciplinary team meeting, deciding whether a zero or grade drop reflects a mastery gap or an executive-function/compliance gap, designing an advisory period or interdisciplinary unit, ruling on a redo/retake request, or writing a parent progress note grounded in team data.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/middle-school-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "millwright",
       "description": "Use when a task needs the judgment of a millwright \u2014 rigging and setting a machine skid onto a new foundation, calculating sling-angle load factors for an asymmetric lift, leveling and epoxy-grouting a machine base, laser-aligning a motor-to-driven-equipment coupling within RPM-appropriate tolerance, or diagnosing a post-startup vibration/misalignment problem traced back to the install.",
       "category": "operations",
@@ -8346,6 +8787,27 @@
       "skill": "roles/mrf-sorter/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "museum-conservator",
+      "description": "Use when a task needs the judgment of a museum conservator \u2014 writing a condition report or treatment proposal, deciding whether damage warrants intervention, setting environmental (RH/temperature/light) parameters for a gallery or storage area, responding to a pest sighting or mold outbreak, or triaging a loan-incoming or disaster-recovery condition check.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-4013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/museum-conservator/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -8702,6 +9164,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/nursing-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "nursing-professor",
+      "description": "Use when a task needs the judgment of a Nursing Professor (Postsecondary) \u2014 building a clinical-judgment-aligned test blueprint, root-causing an NCLEX-RN pass-rate decline before a Board of Nursing review, resolving a high-stakes exit-exam progression dispute, writing a corrective action plan for a CCNE or ACEN accreditation cycle, or deciding whether a clinical group's staffing violates the state ratio cap.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nursing-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9290,6 +9773,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/pharmacist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "philosophy-religion-professor",
+      "description": "Use when a task needs the judgment of a Philosophy and Religion Professor (Postsecondary) \u2014 backward-designing a comparative-religion or ethics syllabus, responding to a bias or proselytizing complaint under academic-freedom and Establishment Clause norms, grading a philosophy paper's argument reconstruction, or deciding whether to keep competing for a scarce tenure-track opening versus pivot off the market.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1126.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/philosophy-religion-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11246,6 +11750,27 @@
       ]
     },
     {
+      "slug": "self-enrichment-instructor",
+      "description": "Use when a task needs the judgment of a Self-Enrichment Instructor \u2014 pricing and setting the break-even enrollment for a hobby/craft/movement class, designing a session-1 lesson so a mixed-skill adult cohort re-books, deciding whether to run, combine, or cancel an under-enrolled section, writing a studio's cancellation/no-show policy, or drawing the line on liability and scope for a non-credentialed class.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-3021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/self-enrichment-instructor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "separation-still-machine-operator",
       "description": "Use when a task needs the judgment of a Separating/Filtering/Still Machine Operator \u2014 calculating effective theoretical stages from tray count and tray efficiency rather than nameplate tray count alone, setting reflux ratio at the calculated minimum for target purity rather than a conservative default, reassessing feed tray location after a feed composition change, or verifying separator throughput against required residence time.",
       "category": "engineering",
@@ -11519,6 +12044,27 @@
       ]
     },
     {
+      "slug": "social-work-professor",
+      "description": "Use when a task needs the judgment of a tenure-track/tenured Social Work Professor in a CSWE-accredited BSW/MSW program \u2014 designing or mapping a practice course to EPAS competencies, deciding whether a field placement or agency partnership is accreditation-safe, weighing a field-liaison/service load against a tenure clock, or sizing program enrollment against field-education capacity.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1113.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/social-work-professor/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "sociologist",
       "description": "Use when a task needs the judgment of a Sociologist \u2014 designing a mixed-methods study of a social-structure or institutional-change question, building and validating a qualitative codebook, checking whether a group-level pattern supports the individual-level claim being made about it, or reading out a stratification/mobility finding for a policy audience.",
       "category": "other",
@@ -11530,6 +12076,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/sociologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sociology-professor",
+      "description": "Use when a task needs the judgment of a Sociology Professor \u2014 deciding how to evaluate a book-track versus article-track tenure file, scoping an IRB filing for ethnographic or interview fieldwork, designing a syllabus unit on a stratification topic (race, gender, class) without manufacturing false balance on settled findings, or triaging a journal desk rejection at a top generalist outlet.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1067.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sociology-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11673,6 +12240,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/spa-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-paraeducator",
+      "description": "Use when a task needs the judgment of a special education paraeducator \u2014 fading a prompt so a student doesn't become dependent on adult help, choosing a data-collection method for an IEP goal, deciding whether a refusal is a skill deficit or a behavior function, de-escalating a student before a behavior becomes a safety event, or writing a same-day data note for the case manager.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-9043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-paraeducator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11883,6 +12471,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/substance-abuse-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "substitute-teacher",
+      "description": "Use when a task needs the judgment of a Short-Term Substitute Teacher \u2014 verifying an unfamiliar classroom's plans and safety information on arrival, deciding what to do when posted lesson plans don't fill the period, running a compressed behavior-escalation ladder with no relationship capital, or writing a handoff note the returning teacher can act on without a follow-up conversation.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/substitute-teacher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -12131,6 +12740,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/taxi-driver/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "teaching-assistant",
+      "description": "Use when a task needs the judgment of a K-12 teaching assistant \u2014 running a small-group rotation under a teacher's lesson plan, deciding how much to prompt a struggling student versus stepping back, logging behavior or academic data for an IEP/504 team, or handling a hallway or recess incident before it escalates.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-9042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/teaching-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "teaching-assistant-postsecondary",
+      "description": "Use when a task needs the judgment of a postsecondary teaching assistant \u2014 leading a discussion or lab section, grading and norming a rubric across TAs, triaging a grade dispute or appeal, deciding whether a student disclosure triggers a Title IX report, or handling an academic-integrity incident during an exam.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-9044.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/teaching-assistant-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
