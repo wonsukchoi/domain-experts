@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 613 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 627 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,28 +365,28 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (10/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (24/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 |  | 25-1011.00 | Business Teachers, Postsecondary |  |
-|  | 25-1021.00 | Computer Science Teachers, Postsecondary |  |
-|  | 25-1022.00 | Mathematical Science Teachers, Postsecondary |  |
+| ✅ | 25-1021.00 | Computer Science Teachers, Postsecondary | [`computer-science-professor`](./roles/computer-science-professor/SKILL.md) |
+| ✅ | 25-1022.00 | Mathematical Science Teachers, Postsecondary | [`math-teacher-postsecondary`](./roles/math-teacher-postsecondary/SKILL.md) |
 |  | 25-1031.00 | Architecture Teachers, Postsecondary |  |
-|  | 25-1032.00 | Engineering Teachers, Postsecondary |  |
-|  | 25-1041.00 | Agricultural Sciences Teachers, Postsecondary |  |
-|  | 25-1042.00 | Biological Science Teachers, Postsecondary |  |
-|  | 25-1043.00 | Forestry and Conservation Science Teachers, Postsecondary |  |
-|  | 25-1051.00 | Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary |  |
+| ✅ | 25-1032.00 | Engineering Teachers, Postsecondary | [`engineering-professor`](./roles/engineering-professor/SKILL.md) |
+| ✅ | 25-1041.00 | Agricultural Sciences Teachers, Postsecondary | [`agricultural-sciences-professor`](./roles/agricultural-sciences-professor/SKILL.md) |
+| ✅ | 25-1042.00 | Biological Science Teachers, Postsecondary | [`biology-professor`](./roles/biology-professor/SKILL.md) |
+| ✅ | 25-1043.00 | Forestry and Conservation Science Teachers, Postsecondary | [`forestry-conservation-teacher-postsecondary`](./roles/forestry-conservation-teacher-postsecondary/SKILL.md) |
+| ✅ | 25-1051.00 | Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary | [`geoscience-professor`](./roles/geoscience-professor/SKILL.md) |
 |  | 25-1052.00 | Chemistry Teachers, Postsecondary |  |
-|  | 25-1053.00 | Environmental Science Teachers, Postsecondary |  |
-|  | 25-1054.00 | Physics Teachers, Postsecondary |  |
-|  | 25-1061.00 | Anthropology and Archeology Teachers, Postsecondary |  |
-|  | 25-1062.00 | Area, Ethnic, and Cultural Studies Teachers, Postsecondary |  |
-|  | 25-1063.00 | Economics Teachers, Postsecondary |  |
+| ✅ | 25-1053.00 | Environmental Science Teachers, Postsecondary | [`environmental-science-professor`](./roles/environmental-science-professor/SKILL.md) |
+| ✅ | 25-1054.00 | Physics Teachers, Postsecondary | [`physics-teacher-postsecondary`](./roles/physics-teacher-postsecondary/SKILL.md) |
+| ✅ | 25-1061.00 | Anthropology and Archeology Teachers, Postsecondary | [`anthropology-archaeology-professor`](./roles/anthropology-archaeology-professor/SKILL.md) |
+| ✅ | 25-1062.00 | Area, Ethnic, and Cultural Studies Teachers, Postsecondary | [`area-ethnic-cultural-studies-professor`](./roles/area-ethnic-cultural-studies-professor/SKILL.md) |
+| ✅ | 25-1063.00 | Economics Teachers, Postsecondary | [`economics-teacher-postsecondary`](./roles/economics-teacher-postsecondary/SKILL.md) |
 |  | 25-1064.00 | Geography Teachers, Postsecondary |  |
-|  | 25-1065.00 | Political Science Teachers, Postsecondary |  |
-|  | 25-1066.00 | Psychology Teachers, Postsecondary |  |
+| ✅ | 25-1065.00 | Political Science Teachers, Postsecondary | [`political-science-professor`](./roles/political-science-professor/SKILL.md) |
+| ✅ | 25-1066.00 | Psychology Teachers, Postsecondary | [`psychology-professor`](./roles/psychology-professor/SKILL.md) |
 |  | 25-1067.00 | Sociology Teachers, Postsecondary |  |
 |  | 25-1069.00 | Social Sciences Teachers, Postsecondary, All Other |  |
 |  | 25-1071.00 | Health Specialties Teachers, Postsecondary |  |
