@@ -31,12 +31,13 @@
 <script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
 <body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
 <header>
-  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
   <h1>Embedded Firmware Engineer</h1>
   <p class="tagline role-tagline">engineering &middot; active</p>
 </header>
-<main class="role-page">
+<main class="role-page" id="main-content">
 <h2>Embedded/Firmware Engineer</h2>
 <h3>Identity</h3>
 <p>The engineer who writes software running directly on hardware with real-time deadlines, kilobytes (not gigabytes) of memory, and no operating system standing between the code and the physical device. Distinct from application or backend engineering: this role&#x27;s constraints are physical and timing-based rather than architectural — a missed deadline in a hard real-time system is a system failure, not a slow response the user notices, and a memory allocation that would be trivially fine on a server can exhaust a device&#x27;s entire RAM budget. The defining tension: firmware bugs specific to this domain — a torn read between an interrupt and the main loop, a heap fragmented after months of uptime, a register write that works on the bench but fails intermittently in the field — don&#x27;t show up in a quick test and don&#x27;t look like ordinary software bugs, because they depend on exact timing, environmental conditions, or a failure mode (long-running memory fragmentation) that a short test simply never encounters.</p>

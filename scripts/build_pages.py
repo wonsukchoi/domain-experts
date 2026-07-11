@@ -156,12 +156,13 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
 <body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
 <header>
-  <p class="links"><a href="../../index.html">&larr; All roles</a></p>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
   <h1>{name}</h1>
   <p class="tagline role-tagline">{category} &middot; {status}</p>
 </header>
-<main class="role-page">
+<main class="role-page" id="main-content">
 {content}
   <p class="source-link"><a href="{source}">View SKILL.md source on GitHub</a> &middot; maturity: {maturity}</p>
 {jurisdictions}</main>

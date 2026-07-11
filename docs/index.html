@@ -32,6 +32,7 @@
 <script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
 <body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
 <header>
   <h1>Domain Experts</h1>
   <p class="slogan">all human experts into AI agents</p>
@@ -47,7 +48,7 @@
   </p>
 </header>
 
-<main>
+<main id="main-content">
   <section class="intro intro-top">
     <h2 class="visually-hidden">About Domain Experts</h2>
     <p>Open source library of <strong>job role definitions</strong> — the actual mental models, decision thresholds, and failure modes of real practitioners, structured so any AI agent can load one and reason like that expert. Ask your agent to "review this contract" and it answers with a senior contracts attorney's clause playbook and fallback ladders, not a generalist's summary of the internet.</p>
@@ -90,10 +91,11 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/</cod
   <section class="browse">
     <h2>Browse roles</h2>
     <div class="controls">
-      <input id="search" type="search" placeholder="Search roles (e.g. actuary, network, mathematician)…" autocomplete="off" aria-label="Search roles">
-      <select id="category-filter" aria-label="Filter by category">
-        <option value="">All categories</option>
-      </select>
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search roles (e.g. actuary, network, mathematician)…" autocomplete="off" aria-label="Search roles">
+        <button type="button" id="search-clear" aria-label="Clear search">&times;</button>
+      </div>
+      <div id="category-filter" class="category-chips" role="group" aria-label="Filter by category"></div>
     </div>
 
     <p id="result-count" class="result-count" aria-live="polite"></p>
