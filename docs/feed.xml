@@ -4,7 +4,154 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sat, 11 Jul 2026 05:54:33 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 06:10:04 +0000</lastBuildDate>
+  <item>
+    <title>Actor</title>
+    <link>https://domainexperts.dev/roles/actor/</link>
+    <guid>https://domainexperts.dev/roles/actor/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional Actor — breaking down sides for a self-tape audition, preparing a character choice for rehearsal, deciding between two conflicting bookings, reading a contract offer for scale vs. scale-plus terms, or diagnosing why callbacks aren&#x27;t converting to bookings.</description>
+  </item>
+  <item>
+    <title>Audio Video Technician</title>
+    <link>https://domainexperts.dev/roles/audio-video-technician/</link>
+    <guid>https://domainexperts.dev/roles/audio-video-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of an audio and video technician — setting up and operating audio/video equipment for a live event (concert, conference, keynote, broadcast remote), coordinating wireless mic frequencies on site, diagnosing a live audio/video signal-chain failure during a show, or sequencing a load-in against a fixed doors-open deadline.</description>
+  </item>
+  <item>
+    <title>Author</title>
+    <link>https://domainexperts.dev/roles/author/</link>
+    <guid>https://domainexperts.dev/roles/author/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional author — drafting or structurally revising a novel or narrative-nonfiction manuscript, writing a query letter or book proposal, evaluating a publishing contract&#x27;s royalty and rights terms, or diagnosing why a manuscript is getting rejected.</description>
+  </item>
+  <item>
+    <title>Broadcast Announcer</title>
+    <link>https://domainexperts.dev/roles/broadcast-announcer/</link>
+    <guid>https://domainexperts.dev/roles/broadcast-announcer/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a radio broadcast announcer or on-air disc jockey — backtiming a live break against a hard network join or legal ID, deciding what to cut when a caller or breaking-news read runs long, judging FCC indecency/EAS exposure on live content, structuring a voice-tracked shift so it doesn&#x27;t read as canned, or diagnosing why a daypart&#x27;s PPM numbers are sliding.</description>
+  </item>
+  <item>
+    <title>Broadcast Program Director</title>
+    <link>https://domainexperts.dev/roles/broadcast-program-director/</link>
+    <guid>https://domainexperts.dev/roles/broadcast-program-director/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Broadcast Program Director — diagnosing a ratings-book decline into cume vs. TSL causes, deciding whether a format flip is warranted versus a clock/rotation fix, setting spot-load and stopset structure against sales pressure, or clearing content through standards-and-practices and FCC compliance review.</description>
+  </item>
+  <item>
+    <title>Broadcast Technical Director</title>
+    <link>https://domainexperts.dev/roles/broadcast-technical-director/</link>
+    <guid>https://domainexperts.dev/roles/broadcast-technical-director/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Media Technical Director/Manager — calling a live broadcast switcher and owning the technical readiness sign-off, designing router/path redundancy and PTP failover for an IP production, resolving a timecode or loudness compliance defect found in rehearsal, or running the post-incident review after an on-air technical failure.</description>
+  </item>
+  <item>
+    <title>Broadcast Technician</title>
+    <link>https://domainexperts.dev/roles/broadcast-technician/</link>
+    <guid>https://domainexperts.dev/roles/broadcast-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Broadcast Technician — diagnosing a transmitter power/VSWR alarm, triaging an EAS (Emergency Alert System) relay failure, chasing a loudness-compliance complaint back to its source, or building the redundancy/failover plan for a master-control or transmitter site.</description>
+  </item>
+  <item>
+    <title>Camera Operator</title>
+    <link>https://domainexperts.dev/roles/camera-operator/</link>
+    <guid>https://domainexperts.dev/roles/camera-operator/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Camera Operator (television, video, or film) — deciding how to physically execute a director/DP&#x27;s shot on a moving or stabilized platform, reframing live for unpredictable subject movement, protecting a frame for multi-format delivery, or diagnosing why a take got flagged for reshoot.</description>
+  </item>
+  <item>
+    <title>Casting Director</title>
+    <link>https://domainexperts.dev/roles/casting-director/</link>
+    <guid>https://domainexperts.dev/roles/casting-director/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Casting Director — writing and placing a casting breakdown, triaging audition submissions into a shortlist, negotiating an actor&#x27;s quote and billing against an episodic budget, running a chemistry read for a lead pairing, or structuring a test-option deal for a series regular.</description>
+  </item>
+  <item>
+    <title>Choreographer</title>
+    <link>https://domainexperts.dev/roles/choreographer/</link>
+    <guid>https://domainexperts.dev/roles/choreographer/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a choreographer — building and teaching a dance number against a rehearsal-hour budget, staging repertory under a trust/estate&#x27;s licensing rules, planning a tech-week spacing and cueing schedule, or diagnosing why a piece isn&#x27;t reading from the audience.</description>
+  </item>
+  <item>
+    <title>Craft Artist</title>
+    <link>https://domainexperts.dev/roles/craft-artist/</link>
+    <guid>https://domainexperts.dev/roles/craft-artist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Craft Artist — pricing a handmade piece for retail, wholesale, or consignment, deciding whether to accept a gallery or boutique&#x27;s terms, preparing a jury submission for a craft show, handling a wholesale account that stopped reordering, or repricing a line after a material-cost move.</description>
+  </item>
+  <item>
+    <title>Dancer</title>
+    <link>https://domainexperts.dev/roles/dancer/</link>
+    <guid>https://domainexperts.dev/roles/dancer/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional dancer — preparing for a company audition, managing rehearsal load against injury risk, deciding whether to dance through pain or report it, negotiating a casting or return-to-dance plan with a rehearsal director, or critiquing a performance for technical and artistic fidelity to the choreography.</description>
+  </item>
+  <item>
+    <title>Dj</title>
+    <link>https://domainexperts.dev/roles/dj/</link>
+    <guid>https://domainexperts.dev/roles/dj/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a working disc jockey — building or troubleshooting an open-format club or wedding set, reading a dance floor that&#x27;s emptying, sequencing transitions by key and phrase, negotiating a mobile-DJ contract, or planning gear redundancy for a live paid event.</description>
+  </item>
+  <item>
+    <title>Fine Artist</title>
+    <link>https://domainexperts.dev/roles/fine-artist/</link>
+    <guid>https://domainexperts.dev/roles/fine-artist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a fine artist — pricing and raising prices on a body of work, evaluating a gallery representation or consignment offer, structuring a studio practice and production schedule, deciding whether to license or waive moral rights on a piece, or writing an artist statement or grant application that a juror won&#x27;t skim past.</description>
+  </item>
+  <item>
+    <title>Lighting Technician</title>
+    <link>https://domainexperts.dev/roles/lighting-technician/</link>
+    <guid>https://domainexperts.dev/roles/lighting-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a lighting technician — planning power distribution and phase balance for a lighting rig, patching and addressing DMX fixtures across universes, checking a rigging point&#x27;s load against its working load limit before a hang, or troubleshooting a fixture, cue, or followspot failure during tech or a live show.</description>
+  </item>
+  <item>
+    <title>Music Director Composer</title>
+    <link>https://domainexperts.dev/roles/music-director-composer/</link>
+    <guid>https://domainexperts.dev/roles/music-director-composer/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Music Director/Composer — spotting and scoring a film or TV cue against picture, budgeting a recording session or rehearsal cycle against a fixed number of union services, programming a concert or season against rental and rehearsal-time constraints, or reviewing a scoring/licensing deal for backend royalty exposure.</description>
+  </item>
+  <item>
+    <title>Musician</title>
+    <link>https://domainexperts.dev/roles/musician/</link>
+    <guid>https://domainexperts.dev/roles/musician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a working musician or singer — evaluating a gig offer (guarantee vs. door deal), structuring song/royalty splits before release, protecting vocal or hearing health under a heavy performance schedule, reading a booking/management/label contract, or deciding how to spend limited practice time.</description>
+  </item>
+  <item>
+    <title>Poet Lyricist</title>
+    <link>https://domainexperts.dev/roles/poet-lyricist/</link>
+    <guid>https://domainexperts.dev/roles/poet-lyricist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a working poet or lyricist — drafting and revising a poem or song lyric for sound and compression, deciding where and how to submit work to literary magazines or collaborators, negotiating songwriting splits or publication rights, or reading workshop feedback for signal versus noise.</description>
+  </item>
+  <item>
+    <title>Professional Athlete</title>
+    <link>https://domainexperts.dev/roles/professional-athlete/</link>
+    <guid>https://domainexperts.dev/roles/professional-athlete/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional or elite competitive athlete — planning a training block around a competition date, deciding whether to return to play after injury, reading fatigue/recovery data to adjust load, or evaluating a contract or endorsement deal against a short career window.</description>
+  </item>
+  <item>
+    <title>Sports Coach</title>
+    <link>https://domainexperts.dev/roles/sports-coach/</link>
+    <guid>https://domainexperts.dev/roles/sports-coach/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a sports coach or team scout — grading a recruit or transfer-portal target against roster need, building a weekly practice/training plan, deciding whether to rest or clear an injured player, or setting a depth chart under a talent evaluation disagreement.</description>
+  </item>
+  <item>
+    <title>Sports Official</title>
+    <link>https://domainexperts.dev/roles/sports-official/</link>
+    <guid>https://domainexperts.dev/roles/sports-official/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:09:39 +0700</pubDate>
+    <description>Use when a task needs the judgment of a sports official (umpire, referee, or crew chief) — ruling on a bang-bang or judgment-call play, running a video/monitor review under a time budget, de-escalating a coach or player argument, calibrating a crew&#x27;s positioning and coverage areas, or writing a postgame incident report.</description>
+  </item>
   <item>
     <title>Adapted Physical Education Specialist</title>
     <link>https://domainexperts.dev/roles/adapted-physical-education-specialist/</link>

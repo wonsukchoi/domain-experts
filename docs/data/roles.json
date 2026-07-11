@@ -1,5 +1,5 @@
 {
-  "count": 668,
+  "count": 689,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -14,6 +14,27 @@
       "audit_score": 5,
       "skill": "roles/accountant-controller/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "actor",
+      "description": "Use when a task needs the judgment of a professional Actor \u2014 breaking down sides for a self-tape audition, preparing a character choice for rehearsal, deciding between two conflicting bookings, reading a contract offer for scale vs. scale-plus terms, or diagnosing why callbacks aren't converting to bookings.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/actor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -826,6 +847,27 @@
       ]
     },
     {
+      "slug": "audio-video-technician",
+      "description": "Use when a task needs the judgment of an audio and video technician \u2014 setting up and operating audio/video equipment for a live event (concert, conference, keynote, broadcast remote), coordinating wireless mic frequencies on site, diagnosing a live audio/video signal-chain failure during a show, or sequencing a load-in against a fixed doors-open deadline.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/audio-video-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "audiologist",
       "description": "Use when a task needs the judgment of an audiologist \u2014 interpreting an audiogram to classify hearing-loss type and severity, deciding whether a conductive component warrants an ENT referral before amplification, verifying a hearing-aid fitting against prescriptive targets, screening a vestibular/balance complaint, or writing an audiometric report for a referring physician.",
       "category": "healthcare",
@@ -860,6 +902,27 @@
       "skill": "roles/audiovisual-equipment-installer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "author",
+      "description": "Use when a task needs the judgment of a professional author \u2014 drafting or structurally revising a novel or narrative-nonfiction manuscript, writing a query letter or book proposal, evaluating a publishing contract's royalty and rights terms, or diagnosing why a manuscript is getting rejected.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/author/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -1490,6 +1553,90 @@
       ]
     },
     {
+      "slug": "broadcast-announcer",
+      "description": "Use when a task needs the judgment of a radio broadcast announcer or on-air disc jockey \u2014 backtiming a live break against a hard network join or legal ID, deciding what to cut when a caller or breaking-news read runs long, judging FCC indecency/EAS exposure on live content, structuring a voice-tracked shift so it doesn't read as canned, or diagnosing why a daypart's PPM numbers are sliding.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/broadcast-announcer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "broadcast-program-director",
+      "description": "Use when a task needs the judgment of a Broadcast Program Director \u2014 diagnosing a ratings-book decline into cume vs. TSL causes, deciding whether a format flip is warranted versus a clock/rotation fix, setting spot-load and stopset structure against sales pressure, or clearing content through standards-and-practices and FCC compliance review.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2012.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/broadcast-program-director/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "broadcast-technical-director",
+      "description": "Use when a task needs the judgment of a Media Technical Director/Manager \u2014 calling a live broadcast switcher and owning the technical readiness sign-off, designing router/path redundancy and PTP failover for an IP production, resolving a timecode or loudness compliance defect found in rehearsal, or running the post-incident review after an on-air technical failure.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2012.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/broadcast-technical-director/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "broadcast-technician",
+      "description": "Use when a task needs the judgment of a Broadcast Technician \u2014 diagnosing a transmitter power/VSWR alarm, triaging an EAS (Emergency Alert System) relay failure, chasing a loudness-compliance complaint back to its source, or building the redundancy/failover plan for a master-control or transmitter site.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/broadcast-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "brokerage-clerk",
       "description": "Use when a task needs the judgment of a brokerage clerk \u2014 resolving a trade-break/reconciliation exception before settlement, recomputing a weighted-average execution price across partial fills, processing a corporate action's effect on share count and cost basis, or responding to a DK (don't-know) notice from a contra broker.",
       "category": "finance",
@@ -1679,6 +1826,27 @@
       ]
     },
     {
+      "slug": "camera-operator",
+      "description": "Use when a task needs the judgment of a Camera Operator (television, video, or film) \u2014 deciding how to physically execute a director/DP's shot on a moving or stabilized platform, reframing live for unpredictable subject movement, protecting a frame for multi-format delivery, or diagnosing why a take got flagged for reshoot.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/camera-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "career-technical-education-teacher-postsecondary",
       "description": "Use when a task needs the judgment of a Career/Technical Education Teacher, Postsecondary \u2014 defending a shrinking trade or health-science program against a cutback decision, backward-mapping a shop or lab curriculum to an industry credential's exam blueprint, resolving a competency-based grading dispute where a passing average hides a failed safety check-off, or setting the terms of an advisory-committee review or work-based-learning placement.",
       "category": "other",
@@ -1755,6 +1923,27 @@
       "skill": "roles/cartographer-photogrammetrist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "casting-director",
+      "description": "Use when a task needs the judgment of a Casting Director \u2014 writing and placing a casting breakdown, triaging audition submissions into a shortlist, negotiating an actor's quote and billing against an episodic budget, running a chemistry read for a lead pairing, or structuring a test-option deal for a series regular.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2012.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/casting-director/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -1976,6 +2165,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/chiropractor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "choreographer",
+      "description": "Use when a task needs the judgment of a choreographer \u2014 building and teaching a dance number against a rehearsal-hour budget, staging repertory under a trust/estate's licensing rules, planning a tech-week spacing and cueing schedule, or diagnosing why a piece isn't reading from the audience.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/choreographer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2982,6 +3192,27 @@
       ]
     },
     {
+      "slug": "craft-artist",
+      "description": "Use when a task needs the judgment of a Craft Artist \u2014 pricing a handmade piece for retail, wholesale, or consignment, deciding whether to accept a gallery or boutique's terms, preparing a jury submission for a craft show, handling a wholesale account that stopped reordering, or repricing a line after a material-cost move.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/craft-artist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "crane-tower-operator",
       "description": "Use when a task needs the judgment of a Crane and Tower Operator \u2014 deciding whether current gust readings require a stand-down given a specific load's sail area, running a blind lift through a signal person when the pick or landing zone is outside the cab's sightline, reading a fixed installation's load chart at the counterweight/jib configuration actually installed, calculating each crane's load share on a two-crane tandem pick, or judging when to set the jib to free-slew ahead of a wind event.",
       "category": "operations",
@@ -3262,6 +3493,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cutting-slicing-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dancer",
+      "description": "Use when a task needs the judgment of a professional dancer \u2014 preparing for a company audition, managing rehearsal load against injury risk, deciding whether to dance through pain or report it, negotiating a casting or return-to-dance plan with a rehearsal director, or critiquing a performance for technical and artistic fidelity to the choreography.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dancer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3657,6 +3909,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/dispatcher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dj",
+      "description": "Use when a task needs the judgment of a working disc jockey \u2014 building or troubleshooting an open-format club or wedding set, reading a dance floor that's emptying, sequencing transitions by key and phrase, negotiating a mobile-DJ contract, or planning gear redundancy for a live paid event.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dj/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4956,6 +5229,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/financial-risk-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "fine-artist",
+      "description": "Use when a task needs the judgment of a fine artist \u2014 pricing and raising prices on a body of work, evaluating a gallery representation or consignment offer, structuring a studio practice and production schedule, deciding whether to license or waive moral rights on a piece, or writing an artist statement or grant application that a juror won't skim past.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-1013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fine-artist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7413,6 +7707,27 @@
       ]
     },
     {
+      "slug": "lighting-technician",
+      "description": "Use when a task needs the judgment of a lighting technician \u2014 planning power distribution and phase balance for a lighting rig, patching and addressing DMX fixtures across universes, checking a rigging point's load against its working load limit before a hang, or troubleshooting a fixture, cue, or followspot failure during tech or a live show.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-4015.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/lighting-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "loan-interviewer-clerk",
       "description": "Use when a task needs the judgment of a loan interviewer/processor \u2014 verifying a loan application's document completeness against investor guidelines, tracking and clearing underwriting conditions, sourcing a large deposit or gap in employment history, or drafting a conditions-needed letter to a borrower. Distinct from loan-officer (owns qualification math, product structuring, and disclosure-timing decisions) \u2014 this role verifies and assembles the file loan-officer and underwriting rely on, it doesn't qualify or price the loan.",
       "category": "finance",
@@ -8816,6 +9131,27 @@
       ]
     },
     {
+      "slug": "music-director-composer",
+      "description": "Use when a task needs the judgment of a Music Director/Composer \u2014 spotting and scoring a film or TV cue against picture, budgeting a recording session or rehearsal cycle against a fixed number of union services, programming a concert or season against rental and rehearsal-time constraints, or reviewing a scoring/licensing deal for backend royalty exposure.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/music-director-composer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "musical-instrument-repairer-tuner",
       "description": "Use when a task needs the judgment of a Musical Instrument Repairer and Tuner \u2014 aurally tuning a piano to a stretched temperament, regulating a grand or upright action, reseating and leak-testing woodwind pads, aligning brass valves and slides, setting up a guitar or violin's action and neck relief, or diagnosing humidity-related damage to a wood instrument.",
       "category": "operations",
@@ -8827,6 +9163,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/musical-instrument-repairer-tuner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "musician",
+      "description": "Use when a task needs the judgment of a working musician or singer \u2014 evaluating a gig offer (guarantee vs. door deal), structuring song/royalty splits before release, protecting vocal or hearing health under a heavy performance schedule, reading a booking/management/label contract, or deciding how to spend limited practice time.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/musician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -10157,6 +10514,27 @@
       ]
     },
     {
+      "slug": "poet-lyricist",
+      "description": "Use when a task needs the judgment of a working poet or lyricist \u2014 drafting and revising a poem or song lyric for sound and compression, deciding where and how to submit work to literary magazines or collaborators, negotiating songwriting splits or publication rights, or reading workshop feedback for signal versus noise.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-3043.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/poet-lyricist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "police-patrol-officer",
       "description": "Use when a task needs the judgment of a Police and Sheriff's Patrol Officer \u2014 deciding whether force is objectively reasonable under Graham v. Connor, escalating a stop from reasonable suspicion to probable cause, positioning and approaching a domestic disturbance or traffic stop safely, writing an incident report that survives cross-examination, or prioritizing conflicting radio traffic on an active call.",
       "category": "other",
@@ -10588,6 +10966,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/production-planning-expediting-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "professional-athlete",
+      "description": "Use when a task needs the judgment of a professional or elite competitive athlete \u2014 planning a training block around a competition date, deciding whether to return to play after injury, reading fatigue/recovery data to adjust load, or evaluating a contract or endorsement deal against a short career window.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/professional-athlete/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -12324,6 +12723,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/speech-language-pathologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sports-coach",
+      "description": "Use when a task needs the judgment of a sports coach or team scout \u2014 grading a recruit or transfer-portal target against roster need, building a weekly practice/training plan, deciding whether to rest or clear an injured player, or setting a depth chart under a talent evaluation disagreement.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sports-coach/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sports-official",
+      "description": "Use when a task needs the judgment of a sports official (umpire, referee, or crew chief) \u2014 ruling on a bang-bang or judgment-call play, running a video/monitor review under a time budget, de-escalating a coach or player argument, calibrating a crew's positioning and coverage areas, or writing a postgame incident report.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "27-2023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sports-official/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
