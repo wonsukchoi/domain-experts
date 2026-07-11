@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 658 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 679 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -441,13 +441,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>27 — Arts, Design, Entertainment, Sports, and Media</strong> (19/45 drafted)</summary>
+<summary><strong>27 — Arts, Design, Entertainment, Sports, and Media</strong> (40/45 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 27-1011.00 | Art Directors | [`art-director`](./roles/art-director/SKILL.md) |
-|  | 27-1012.00 | Craft Artists |  |
-|  | 27-1013.00 | Fine Artists, Including Painters, Sculptors, and Illustrators |  |
+| ✅ | 27-1012.00 | Craft Artists | [`craft-artist`](./roles/craft-artist/SKILL.md) |
+| ✅ | 27-1013.00 | Fine Artists, Including Painters, Sculptors, and Illustrators | [`fine-artist`](./roles/fine-artist/SKILL.md) |
 | ✅ | 27-1014.00 | Special Effects Artists and Animators | [`special-effects-animator`](./roles/special-effects-animator/SKILL.md) |
 |  | 27-1019.00 | Artists and Related Workers, All Other |  |
 | ✅ | 27-1021.00 | Commercial and Industrial Designers | [`commercial-industrial-designer`](./roles/commercial-industrial-designer/SKILL.md) |
@@ -458,36 +458,36 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 27-1026.00 | Merchandise Displayers and Window Trimmers | [`merchandise-displayer`](./roles/merchandise-displayer/SKILL.md) |
 | ✅ | 27-1027.00 | Set and Exhibit Designers | [`set-exhibit-designer`](./roles/set-exhibit-designer/SKILL.md) |
 |  | 27-1029.00 | Designers, All Other |  |
-|  | 27-2011.00 | Actors |  |
+| ✅ | 27-2011.00 | Actors | [`actor`](./roles/actor/SKILL.md) |
 | ✅ | 27-2012.00 | Producers and Directors | [`producer-director`](./roles/producer-director/SKILL.md) |
-|  | 27-2012.03 | Media Programming Directors |  |
-|  | 27-2012.04 | Talent Directors |  |
-|  | 27-2012.05 | Media Technical Directors/Managers |  |
-|  | 27-2021.00 | Athletes and Sports Competitors |  |
-|  | 27-2022.00 | Coaches and Scouts |  |
-|  | 27-2023.00 | Umpires, Referees, and Other Sports Officials |  |
-|  | 27-2031.00 | Dancers |  |
-|  | 27-2032.00 | Choreographers |  |
-|  | 27-2041.00 | Music Directors and Composers |  |
-|  | 27-2042.00 | Musicians and Singers |  |
-|  | 27-2091.00 | Disc Jockeys, Except Radio |  |
+| ✅ | 27-2012.03 | Media Programming Directors | [`broadcast-program-director`](./roles/broadcast-program-director/SKILL.md) |
+| ✅ | 27-2012.04 | Talent Directors | [`casting-director`](./roles/casting-director/SKILL.md) |
+| ✅ | 27-2012.05 | Media Technical Directors/Managers | [`broadcast-technical-director`](./roles/broadcast-technical-director/SKILL.md) |
+| ✅ | 27-2021.00 | Athletes and Sports Competitors | [`professional-athlete`](./roles/professional-athlete/SKILL.md) |
+| ✅ | 27-2022.00 | Coaches and Scouts | [`sports-coach`](./roles/sports-coach/SKILL.md) |
+| ✅ | 27-2023.00 | Umpires, Referees, and Other Sports Officials | [`sports-official`](./roles/sports-official/SKILL.md) |
+| ✅ | 27-2031.00 | Dancers | [`dancer`](./roles/dancer/SKILL.md) |
+| ✅ | 27-2032.00 | Choreographers | [`choreographer`](./roles/choreographer/SKILL.md) |
+| ✅ | 27-2041.00 | Music Directors and Composers | [`music-director-composer`](./roles/music-director-composer/SKILL.md) |
+| ✅ | 27-2042.00 | Musicians and Singers | [`musician`](./roles/musician/SKILL.md) |
+| ✅ | 27-2091.00 | Disc Jockeys, Except Radio | [`dj`](./roles/dj/SKILL.md) |
 |  | 27-2099.00 | Entertainers and Performers, Sports and Related Workers, All Other |  |
-|  | 27-3011.00 | Broadcast Announcers and Radio Disc Jockeys |  |
+| ✅ | 27-3011.00 | Broadcast Announcers and Radio Disc Jockeys | [`broadcast-announcer`](./roles/broadcast-announcer/SKILL.md) |
 | ✅ | 27-3023.00 | News Analysts, Reporters, and Journalists | [`news-journalist`](./roles/news-journalist/SKILL.md) |
 | ✅ | 27-3031.00 | Public Relations Specialists | [`public-relations-specialist`](./roles/public-relations-specialist/SKILL.md) |
 | ✅ | 27-3041.00 | Editors | [`editor`](./roles/editor/SKILL.md) |
 | ✅ | 27-3042.00 | Technical Writers | [`technical-writer`](./roles/technical-writer/SKILL.md) |
-|  | 27-3043.00 | Writers and Authors |  |
-|  | 27-3043.05 | Poets, Lyricists and Creative Writers |  |
+| ✅ | 27-3043.00 | Writers and Authors | [`author`](./roles/author/SKILL.md) |
+| ✅ | 27-3043.05 | Poets, Lyricists and Creative Writers | [`poet-lyricist`](./roles/poet-lyricist/SKILL.md) |
 | ✅ | 27-3091.00 | Interpreters and Translators | [`translator-interpreter`](./roles/translator-interpreter/SKILL.md) |
 | ✅ | 27-3092.00 | Court Reporters and Simultaneous Captioners | [`court-reporter`](./roles/court-reporter/SKILL.md) |
 |  | 27-3099.00 | Media and Communication Workers, All Other |  |
-|  | 27-4011.00 | Audio and Video Technicians |  |
-|  | 27-4012.00 | Broadcast Technicians |  |
+| ✅ | 27-4011.00 | Audio and Video Technicians | [`audio-video-technician`](./roles/audio-video-technician/SKILL.md) |
+| ✅ | 27-4012.00 | Broadcast Technicians | [`broadcast-technician`](./roles/broadcast-technician/SKILL.md) |
 | ✅ | 27-4014.00 | Sound Engineering Technicians | [`sound-engineering-technician`](./roles/sound-engineering-technician/SKILL.md) |
-|  | 27-4015.00 | Lighting Technicians |  |
+| ✅ | 27-4015.00 | Lighting Technicians | [`lighting-technician`](./roles/lighting-technician/SKILL.md) |
 | ✅ | 27-4021.00 | Photographers | [`photographer`](./roles/photographer/SKILL.md) |
-|  | 27-4031.00 | Camera Operators, Television, Video, and Film |  |
+| ✅ | 27-4031.00 | Camera Operators, Television, Video, and Film | [`camera-operator`](./roles/camera-operator/SKILL.md) |
 | ✅ | 27-4032.00 | Film and Video Editors | [`film-video-editor`](./roles/film-video-editor/SKILL.md) |
 |  | 27-4099.00 | Media and Communication Equipment Workers, All Other |  |
 
