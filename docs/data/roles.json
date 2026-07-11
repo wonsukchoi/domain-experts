@@ -1,5 +1,5 @@
 {
-  "count": 689,
+  "count": 756,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -53,6 +53,27 @@
       "skill": "roles/actuary/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "acupuncturist",
+      "description": "Use when a task needs the judgment of a licensed acupuncturist \u2014 building a TCM pattern-differentiation-based treatment plan, choosing point combinations and needling technique for a presenting complaint, triaging a safety red flag (fainting, suspected pneumothorax, herb-drug interaction), or writing a SOAP note that justifies medical necessity for insurance. US scope-of-practice default (NCCAOM/state licensure). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1291.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/acupuncturist/SKILL.md",
+      "references": [
+        "clinical-playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -511,6 +532,27 @@
       ]
     },
     {
+      "slug": "allergist-immunologist",
+      "description": "Use when a task needs the judgment of an allergist/immunologist \u2014 interpreting a skin-prick or specific-IgE result against pretest probability, working up a \"penicillin allergy\" label for delabeling before a needed antibiotic, managing anaphylaxis and biphasic-reaction risk, stepping asthma therapy up or down, or evaluating suspected primary immunodeficiency.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1229.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/allergist-immunologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "ambulance-driver-attendant",
       "description": "Use when a task needs the judgment of an ambulance driver/attendant (non-EMT) \u2014 deciding emergency-vehicle driving mode, clearing an intersection under lights-and-siren, handling a scheduled inter-facility or discharge transport, securing and lifting a patient on a stretcher/gurney, or responding to time pressure from family or a sending facility to \"run it hot.",
       "category": "operations",
@@ -522,6 +564,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/ambulance-driver-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "anesthesiologist",
+      "description": "Use when a task needs the judgment of a board-certified anesthesiologist \u2014 building a preoperative anesthesia plan and risk stratification, choosing general vs. regional technique and airway strategy, managing an intraoperative crisis (difficult airway, malignant hyperthermia, local anesthetic systemic toxicity), or writing a PACU handoff and postoperative pain-management order set.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1211.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/anesthesiologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "anesthesiologist-assistant",
+      "description": "Use when a task needs the judgment of a Certified Anesthesiologist Assistant (CAA) working inside an Anesthesia Care Team \u2014 building and executing an intraoperative anesthetic plan under a directing anesthesiologist, reading a vital-sign trend for anesthesia-specific emergencies (malignant hyperthermia, local anesthetic systemic toxicity, awareness), deciding when a deviation is an immediate-escalation trigger versus an independently correctable event, or navigating the jurisdiction/concurrency limits of CAA practice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1071.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/anesthesiologist-assistant/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -805,6 +889,27 @@
       ]
     },
     {
+      "slug": "art-therapist",
+      "description": "Use when a task needs the judgment of an Art Therapist \u2014 matching art media to a client's regulation capacity via the Expressive Therapies Continuum, scoring a standardized directive (PPAT, KFD, DAP) with a validated instrument like FEATS as part of assessment, deciding between a directive and open-studio session structure, navigating informed consent and disposition for client-made artwork, or distinguishing an art-as-therapy approach from an art-psychotherapy approach for a given client.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1129.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/art-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "astronomer",
       "description": "Use when a task needs the judgment of an astronomer \u2014 calculating exposure time or signal-to-noise for a target, writing the feasibility math for a telescope-time proposal, reducing photometric or spectroscopic data, distinguishing a systematic error floor from statistical noise, or reviewing an observational result for calibration or upper-limit red flags.",
       "category": "other",
@@ -816,6 +921,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/astronomer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "athletic-trainer",
+      "description": "Use when a task needs the judgment of a certified athletic trainer \u2014 triaging an on-field or on-court injury, deciding same-day return-to-play vs. refer-out, running a concussion sideline assessment and graduated return-to-sport progression, recognizing exertional heat stroke or another sudden-death emergency, or writing the objective findings that justify a clearance decision.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-9091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/athletic-trainer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1847,6 +1973,48 @@
       ]
     },
     {
+      "slug": "cardiologist",
+      "description": "Use when a task needs the judgment of a board-certified cardiologist \u2014 triaging chest pain with a risk score, titrating heart-failure guideline-directed medical therapy, deciding revascularization strategy for stable or acute coronary disease, or working through anticoagulation decisions in atrial fibrillation. US practice default (ACC/AHA guideline framework). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1212.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cardiologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cardiovascular-technologist",
+      "description": "Use when a task needs the judgment of a Cardiovascular Technologist \u2014 measuring and grading a cardiac or vascular ultrasound finding, tracking contrast/anticoagulation/radiation limits during a live cath lab procedure, choosing between imaging modalities for a clinical question, or writing up a diagnostic study for physician sign-off.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cardiovascular-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "career-technical-education-teacher-postsecondary",
       "description": "Use when a task needs the judgment of a Career/Technical Education Teacher, Postsecondary \u2014 defending a shrinking trade or health-science program against a cutback decision, backward-mapping a shop or lab curriculum to an industry credential's exam blueprint, resolving a competency-based grading dispute where a passing average hides a failed safety check-off, or setting the terms of an advisory-committee review or work-based-learning placement.",
       "category": "other",
@@ -2354,6 +2522,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/clinical-neuropsychologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "clinical-nurse-specialist",
+      "description": "Use when a task needs the judgment of a Clinical Nurse Specialist \u2014 diagnosing why a unit-level outcome metric (CLABSI, falls, pressure injury) is off benchmark, designing and scaling a practice-change pilot, appraising whether a new clinical guideline actually fits the local population, writing a quarterly outcomes report to nursing leadership, or coaching staff nurses through a new protocol without formal authority over them. US hospital/health-system default; state nurse practice acts vary. A reasoning aid, not clinical or legal advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1141.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/clinical-nurse-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3318,6 +3507,27 @@
       ]
     },
     {
+      "slug": "critical-care-nurse",
+      "description": "Use when a task needs the judgment of an ICU/critical care RN \u2014 titrating a vasoactive drip within an ordered range and deciding when to escalate to a second agent, coordinating daily sedation-awakening and spontaneous-breathing trials on a ventilated patient, interpreting a hemodynamic/lactate trend against a resuscitation target, or working the ABCDEF bundle to prevent post-ICU complications.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1141.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/critical-care-nurse/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "crop-nursery-farmworker",
       "description": "Use when a task needs the judgment of a crop, nursery, or greenhouse farmworker \u2014 judging harvest timing/ripeness by crop, reconciling piece-rate earnings against the minimum-wage or AEWR floor, deciding whether it's safe to re-enter a pesticide-treated field or greenhouse, managing heat-illness risk during peak-season labor, or running greenhouse IPM scouting and climate setpoint checks.",
       "category": "operations",
@@ -3493,6 +3703,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cutting-slicing-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cytogenetic-technologist",
+      "description": "Use when a task needs the judgment of a Cytogenetic Technologist \u2014 choosing a culture/harvest protocol and band resolution for a specimen, applying ISCN clonality criteria to a metaphase count, deciding between karyotype, FISH, and chromosomal microarray for a clinical question, or writing and QCing an ISCN-formatted cytogenetics report.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2011.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cytogenetic-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cytotechnologist",
+      "description": "Use when a task needs the judgment of a cytotechnologist \u2014 screening a gynecologic (Pap test) slide and applying Bethesda System criteria, assessing non-gynecologic specimen adequacy (FNA rapid on-site evaluation, body fluid, brushing) against the relevant reporting system, deciding whether a finding can be signed out independently or must be referred to a pathologist, or auditing screening quality metrics (ASC:SIL ratio, rescreen concordance, workload compliance). A reasoning aid, not a substitute for a certified cytotechnologist or pathologist signing out an actual case.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2011.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cytotechnologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3734,6 +3986,27 @@
       ]
     },
     {
+      "slug": "dermatologist",
+      "description": "Use when a task needs the judgment of a dermatologist \u2014 triaging a pigmented lesion for melanoma risk, choosing a biopsy technique and reading the pathology in clinical context, staging a skin cancer to decide margins or Mohs referral, escalating psoriasis/eczema treatment by severity score, or managing isotretinoin risk under REMS/iPLEDGE rules.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1213.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dermatologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "desktop-publisher",
       "description": "Use when a task needs the judgment of a Desktop Publisher \u2014 laying out a multi-page document on a grid system, applying typesetting rules (kerning, leading, widow/orphan control), preflighting a file for print (bleed, color mode, image resolution) before it goes to press, or deciding between a template and a custom layout under a deadline.",
       "category": "design",
@@ -3793,6 +4066,27 @@
       ]
     },
     {
+      "slug": "diagnostic-medical-sonographer",
+      "description": "Use when a task needs the judgment of a Diagnostic Medical Sonographer \u2014 deciding whether a duplex, compression, or graded-compression ultrasound study is diagnostic versus technically limited, choosing when to interrupt a scanning protocol to escalate a real-time critical finding, setting scan technique and ALARA (TI/MI) parameters for a given exam type, or drafting the technical worksheet and preliminary findings a physician will interpret and sign.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/diagnostic-medical-sonographer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "diesel-truck-mechanic",
       "description": "Use when a task needs the judgment of a Diesel Truck Mechanic \u2014 diagnosing a DPF/DEF/SCR derate or fault code, deciding whether a defect meets CVSA out-of-service criteria, sequencing a PM-A/PM-B preventive maintenance interval, triaging a roadside breakdown against downtime cost, or writing up a DOT annual inspection failure.",
       "category": "operations",
@@ -3804,6 +4098,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/diesel-truck-mechanic/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dietetic-technician",
+      "description": "Use when a task needs the judgment of a Nutrition and Dietetics Technician, Registered (NDTR/DTR) \u2014 translating a physician's diet order into a texture/therapeutic tray specification, triaging a nutrition-screening or intake-decline signal for RDN escalation, auditing a tray line or food-safety log against a threshold, or drawing the line between routine dietetics work and a nutrition-diagnosis call that belongs to the supervising RDN.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dietetic-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3877,6 +4192,27 @@
       ]
     },
     {
+      "slug": "direct-entry-midwife",
+      "description": "Use when a task needs the judgment of a direct-entry midwife (CPM) practicing out-of-hospital birth \u2014 screening whether a pregnancy or labor is still eligible for a planned home/birth-center birth, deciding the exact moment to activate a transfer or 911 transport, running a postpartum-hemorrhage protocol without hospital blood-bank backup, or writing the SBAR handoff that hands a client to a receiving hospital.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-9099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/direct-entry-midwife/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "dishwasher",
       "description": "Use when a task needs the judgment of a Dishwasher/kitchen steward \u2014 triaging a backed-up dish pit mid-rush, verifying sanitizer concentration or dish-machine rinse temperature against food-safety spec, deciding what routes to the three-compartment sink versus the dish machine, diagnosing a spike in breakage, or handling a machine failure mid-service.",
       "category": "operations",
@@ -3909,6 +4245,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/dispatcher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "dispensing-optician",
+      "description": "Use when a task needs the judgment of a dispensing optician \u2014 translating a written prescription into a fitted pair of glasses, resolving frame/lens material tradeoffs, diagnosing why a finished pair doesn't feel or see right, or deciding whether a fit problem is remake, adjustment, or patient-adaptation.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dispensing-optician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4449,6 +4806,48 @@
       ]
     },
     {
+      "slug": "emergency-medical-technician",
+      "description": "Use when a task needs the judgment of an EMT (Basic Life Support tier) \u2014 deciding whether a chest-pain patient gets aspirin under protocol, dosing an epinephrine auto-injector for anaphylaxis and knowing when to repeat it, applying spinal-motion-restriction criteria instead of routine backboarding, recognizing the moment a call exceeds BLS scope and requesting ALS intercept, or working a patient refusal (AMA) to a legally defensible conclusion.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/emergency-medical-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "emergency-medicine-physician",
+      "description": "Use when a task needs the judgment of an emergency medicine physician \u2014 risk-stratifying an undifferentiated chief complaint against a can't-miss diagnosis, deciding an ED disposition (discharge/observation/admit/transfer) under time and bed pressure, reasoning through EMTALA screening-and-stabilization obligations, or triaging a department under crowding/boarding load.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1214.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/emergency-medicine-physician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "energy-engineer",
       "description": "Use when a task needs the judgment of an Energy Engineer working on building and industrial energy efficiency \u2014 running an ASHRAE Level 1/2/3 energy audit, calculating envelope heat loss/gain with the degree-day method, comparing HVAC equipment on SEER/EER/IEER/COP rather than nameplate alone, designing an IPMVP measurement and verification (M&V) plan, or ranking energy conservation measures (ECMs) by savings-to-investment ratio for a capital plan. Distinct from a wind-energy-engineer or solar/PV engineer (own generation-asset design and yield) and from an electrical-engineer (owns utility-scale power delivery and protection) \u2014 this role owns the demand side: how much energy a building or process actually needs, and which retrofit reduces that number with numbers that hold up after the fact.",
       "category": "engineering",
@@ -4785,6 +5184,27 @@
       ]
     },
     {
+      "slug": "exercise-physiologist",
+      "description": "Use when a task needs the judgment of an Exercise Physiologist \u2014 interpreting a graded exercise test and setting the intensity ceiling it implies, risk-stratifying a cardiac or pulmonary rehab patient for the required monitoring level, writing a heart-rate-reserve or RPE-based exercise prescription for a patient with a chronic disease, or deciding whether a functional-capacity change (6MWT, METs) is real progress or noise.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1128.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/exercise-physiologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "exercise-trainer",
       "description": "Use when a task needs the judgment of an Exercise Trainer or Group Fitness Instructor \u2014 screening a new client before programming intensity, running a movement assessment and picking a corrective substitution, progressing (or holding) a client's training load across weeks, distinguishing normal post-exercise soreness from an injury signal, or writing a session/program card a client can actually follow.",
       "category": "healthcare",
@@ -4918,6 +5338,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/family-consumer-sciences-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "family-physician",
+      "description": "Use when a task needs the judgment of a family medicine physician \u2014 running a primary-care visit with a limited time box, managing a patient with multiple concurrent chronic conditions, deciding what to work up today versus what to watch over time, triaging preventive-care gaps against the visit's actual agenda, or writing a referral/consult note. A reasoning aid modeling how a family physician thinks, not a substitute for a licensed physician, and never a diagnosis or treatment recommendation for a real person.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1215.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/family-physician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6466,6 +6907,27 @@
       ]
     },
     {
+      "slug": "health-information-manager",
+      "description": "Use when a task needs the judgment of a Health Information Manager / Health Information Technologist and Medical Registrar \u2014 resolving a master patient index (MPI) duplicate-record match, classifying a tumor as a single vs. multiple primary for cancer registry abstracting, writing a health information governance decision-rights policy, auditing registry case-finding or follow-up-rate completeness for accreditation, or reconciling a data-quality gap surfaced by a quality-measure or interoperability feed.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-9021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/health-information-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "health-safety-engineer",
       "description": "Use when a task needs the judgment of a Health and Safety Engineer \u2014 sizing a machine-guarding safeguard distance from measured stop time, scoring a hazard on a risk assessment matrix and deciding whether a control is sufficient, running or scheduling a process hazard analysis (PHA/HAZOP) on a covered chemical process, evaluating a lockout/tagout or confined-space engineering control, or reconciling an OSHA recordable incident rate against a proposed capital fix. Distinct from an occupational-health-safety-specialist (owns exposure monitoring, industrial hygiene sampling, incident investigation) and a fire-prevention-and-protection engineer (owns fire suppression and detection system design) \u2014 this role owns engineering out mechanical, chemical-process, and energy hazards at the design and control-selection stage.",
       "category": "engineering",
@@ -6519,6 +6981,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/healthcare-social-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "hearing-aid-specialist",
+      "description": "Use when a task needs the judgment of a hearing aid specialist (hearing instrument dispenser) \u2014 screening a patient's case history against FDA referral conditions before fitting, selecting and programming a device against a prescriptive target, verifying a fitting with real-ear measurement, troubleshooting a return/complaint (feedback, occlusion, \"tinny\" sound, poor hearing-in-noise), or pricing a device against a bundled-vs-itemized model.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hearing-aid-specialist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6613,6 +7096,27 @@
       ]
     },
     {
+      "slug": "histology-technician",
+      "description": "Use when a task needs the judgment of a Histology Technician (Histotechnician/Histotechnologist) \u2014 deciding how to gross-section and fix a specimen before it goes stale, troubleshooting a microtome or staining artifact, working an IHC control failure or antigen-retrieval mismatch, or investigating a floater or fixation-timing deviation before a case can sign out. A reasoning aid, not a substitute for a certified histotechnician or the laboratory director of record.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2012.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/histology-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "historian",
       "description": "Use when a task needs the judgment of a historian \u2014 evaluating whether a primary source can bear the weight of a claim, reconciling conflicting accounts of an event, determining National Register of Historic Places eligibility for a property, structuring an oral-history interview and consent process, or building a historiography-grounded argument for peer review.",
       "category": "other",
@@ -6655,6 +7159,27 @@
       ]
     },
     {
+      "slug": "histotechnologist",
+      "description": "Use when a task needs the judgment of a Histotechnologist \u2014 deciding a fixation, processing, or decalcification protocol for a specimen, troubleshooting a microtomy or staining artifact, triaging turnaround-time pressure against tissue-conservation for future testing, or reconciling a block/slide identity or floater problem before sign-out.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2011.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/histotechnologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "hoist-winch-operator",
       "description": "Use when a task needs the judgment of a Hoist and Winch Operator \u2014 reading a winch drum's layer-specific line-pull rating instead of the bare-drum nameplate figure for a load near the top of a multi-layer wind, verifying an anti-two-block device is functional and not bypassed before a hoist that brings the block near the boom tip or headframe sheave, confirming brake holding capacity before leaving a load suspended on the hook, checking fleet angle and drum spooling before a lift, or choosing the operating discipline that applies to a mine hoist, a marine cargo/mooring winch, or a construction material hoist.",
       "category": "operations",
@@ -6687,6 +7212,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/home-appliance-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "hospitalist",
+      "description": "Use when a task needs the judgment of a Hospitalist \u2014 deciding inpatient vs. observation admission status, triaging a differential during rounds, building or revising a discharge plan, or structuring a shift handoff.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1229.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hospitalist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7686,6 +8232,27 @@
       ]
     },
     {
+      "slug": "licensed-practical-nurse",
+      "description": "Use when a task needs the judgment of a Licensed Practical/Vocational Nurse (LPN/LVN) \u2014 running a change-in-condition check on a long-term-care resident with the Stop & Watch tool, deciding whether a delegated task or verbal order falls inside your state's LPN/LVN task list, escalating a decline via SBAR to an on-call RN or physician when no RN is on-site, or delegating tasks to CNAs within the five rights while also receiving delegation from an RN.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/licensed-practical-nurse/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "light-truck-driver",
       "description": "Use when a task needs the judgment of a Light Truck Driver \u2014 checking whether a vehicle reassignment crosses the 26,001 lb CDL threshold, deciding whether to skip a backing safety check to hit a delivery-window cutoff, classifying a proof-of-delivery or signature exception, planning stop-sequencing against a shift's on-duty time budget, or responding to a residential hazard (loose dog, blocked driveway, unsafe backing approach) mid-route.",
       "category": "operations",
@@ -8522,6 +9089,27 @@
       ]
     },
     {
+      "slug": "medical-dosimetrist",
+      "description": "Use when a task needs the judgment of a medical dosimetrist \u2014 designing an IMRT/VMAT beam arrangement and optimization objectives, resolving a PTV-coverage-vs-OAR-constraint conflict, evaluating a DVH and isodose distribution before physician sign-off, triaging a failed patient-specific QA, or writing a plan directive for therapy handoff. US radiation oncology default (AAPM/ASTRO practice norms).",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2036.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-dosimetrist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "medical-equipment-repairer",
       "description": "Use when a task needs the judgment of a medical equipment repairer (biomedical equipment technician / BMET) \u2014 triaging simultaneous work orders by patient-safety criticality, deciding whether a device passes electrical-safety and functional return-to-service testing, setting or revising a risk-based PM interval, investigating a repeat-fault device for a recall or reportable-event pattern, or preparing equipment records for a Joint Commission or CMS survey. Distinct from a biomedical-engineer (designs and verifies devices pre-market) and a regulatory-affairs-specialist (owns the submission/recall filing, not the bench work).",
       "category": "operations",
@@ -8556,6 +9144,69 @@
       "skill": "roles/medical-health-services-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "medical-laboratory-scientist",
+      "description": "Use when a task needs the judgment of a Medical Laboratory Scientist (Medical Technologist) \u2014 deciding whether a QC-failing analyzer run can release patient results, working a delta-check or hemolysis-index flag before reporting a chemistry value, handling a critical/panic value callback, or investigating why a lab's error rate or turnaround time is off target. US CLIA-regulated hospital/reference lab default. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-laboratory-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "medical-laboratory-technician",
+      "description": "Use when a task needs the judgment of a Medical Laboratory Technician \u2014 deciding whether to release a chemistry result against a Westgard QC violation, screening a specimen for hemolysis/lipemia/icterus interference before reporting, working a delta-check flag against a patient's prior result, or routing a critical value or blood bank discrepancy through the correct callback/rejection procedure.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-laboratory-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "medical-records-specialist",
+      "description": "Use when a task needs the judgment of a Medical Records Specialist / Health Information Management (HIM) professional \u2014 assigning ICD-10-CM/PCS or CPT codes from clinical documentation, drafting a compliant physician query, processing a release-of-information (ROI) request under HIPAA's minimum necessary standard, or building a defense response to a payer/RAC coding-denial audit.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/medical-records-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -9110,6 +9761,27 @@
       ]
     },
     {
+      "slug": "mri-technologist",
+      "description": "Use when a task needs the judgment of an ARRT(MR)-certified MRI technologist \u2014 screening a patient or implant for MR safety and zone entry, selecting or adjusting a pulse-sequence protocol against a diagnostic question and time budget, monitoring or predicting specific absorption rate (SAR) and gradient limits during a scan, judging gadolinium contrast eligibility against renal function, or troubleshooting a motion/artifact problem before images reach the radiologist. US practice default (ACR Manual on MR Safety, FDA/IEC SAR limits). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2035.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mri-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "museum-conservator",
       "description": "Use when a task needs the judgment of a museum conservator \u2014 writing a condition report or treatment proposal, deciding whether damage warrants intervention, setting environmental (RH/temperature/light) parameters for a gallery or storage area, responding to a pest sighting or mold outbreak, or triaging a loan-incoming or disaster-recovery condition check.",
       "category": "other",
@@ -9142,6 +9814,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/music-director-composer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "music-therapist",
+      "description": "Use when a task needs the judgment of a Music Therapist \u2014 designing a neurologic music therapy (RAS) gait-training protocol for a stroke or Parkinson's patient, sequencing music to de-escalate an agitated dementia or psychiatric client (iso principle), choosing melodic intonation therapy for non-fluent aphasia, screening a trauma-history client before improvisational or GIM-style work, or writing a functional progress note that ties a session's music choices to a measurable non-musical goal.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1129.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/music-therapist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9257,6 +9950,27 @@
       ]
     },
     {
+      "slug": "naturopathic-physician",
+      "description": "Use when a task needs the judgment of a licensed naturopathic physician (ND) \u2014 sequencing a treatment plan through the therapeutic order, checking a botanical/supplement against a patient's existing pharmaceuticals for interactions, deciding what falls inside versus outside a given state's licensed scope of practice, distinguishing a functional lab target from the lab's printed reference range, or writing a co-management referral to a prescribing physician. A reasoning aid modeling how a naturopathic physician thinks, not a substitute for a licensed provider, and never a diagnosis or treatment recommendation for a real person.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1299.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/naturopathic-physician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "network-architect",
       "description": "Use when a task needs the judgment of a Computer Network Architect \u2014 auditing a redundancy design for hidden single points of failure, sizing WAN/link capacity against busy-hour rather than average utilization, designing network segmentation around trust boundaries, calculating QoS bandwidth reservation for real-time traffic like VoIP, or selecting a routing protocol matched to topology scale and convergence requirements.",
       "category": "engineering",
@@ -9310,6 +10024,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/network-systems-administrator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "neurodiagnostic-technologist",
+      "description": "Use when a task needs the judgment of a neurodiagnostic technologist \u2014 running or troubleshooting a routine or ambulatory EEG, distinguishing artifact from a real epileptiform or ictal pattern, recognizing nonconvulsive status epilepticus on continuous ICU monitoring, or making a real-time alarm-criteria call during intraoperative neuromonitoring (SSEP/MEP/EMG).",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/neurodiagnostic-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "neurologist",
+      "description": "Use when a task needs the judgment of a neurologist \u2014 localizing a lesion from an exam and history, triaging a time-critical presentation (stroke, status epilepticus, acute weakness), building a differential for a chronic or progressive neurologic complaint, or deciding what workup a symptom actually warrants. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1217.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/neurologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9426,6 +10182,27 @@
       ]
     },
     {
+      "slug": "nuclear-medicine-technologist",
+      "description": "Use when a task needs the judgment of a Nuclear Medicine Technologist \u2014 verifying and administering a radiopharmaceutical dose, running gamma camera/PET or dose-calibrator quality control, deciding whether a radioactive-iodine therapy patient can be released under NRC criteria, troubleshooting an extravasated injection or a photopenic/artifactual image, or working out patient-prep and radiation-safety instructions for a scan or therapy.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2033.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nuclear-medicine-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "nuclear-monitoring-technician",
       "description": "Use when a task needs the judgment of a Nuclear Monitoring Technician \u2014 converting a raw survey meter count into a dpm/100cm2 or dose-rate result against an action level, deciding whether a \"not detected\" reading actually clears an item given the instrument's MDA, calculating stay time from an actual dose-rate survey map rather than an RWP estimate, or judging whether a CAM alarm needs an independent grab-sample count before it's dismissed.",
       "category": "engineering",
@@ -9489,6 +10266,48 @@
       ]
     },
     {
+      "slug": "nurse-anesthetist",
+      "description": "Use when a task needs the judgment of a Certified Registered Nurse Anesthetist (CRNA) \u2014 planning an anesthetic technique for a specific patient and procedure, working a difficult-airway or intraoperative crisis (malignant hyperthermia, local anesthetic systemic toxicity, high spinal), risk-stratifying a preoperative patient (ASA-PS, STOP-BANG, Apfel), or making an emergence/PACU-disposition call. US anesthesia practice default. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1151.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nurse-anesthetist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "nurse-midwife",
+      "description": "Use when a task needs the judgment of a certified nurse-midwife \u2014 triaging whether labor progress is normal variation or a genuine arrest disorder, deciding when a low-risk pregnancy or birth crosses into a consult/transfer situation, working a shared-decision-making conversation on induction or GBS prophylaxis, or writing a labor/postpartum note that documents the reasoning behind a management decision.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1161.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nurse-midwife/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "nurse-practitioner",
       "description": "Use when a task needs the judgment of a nurse practitioner \u2014 working a differential diagnosis from a presenting complaint, deciding whether a finding is manageable within NP scope or needs physician/specialist referral, applying a clinical decision rule to justify or skip a test, or writing a visit note's assessment-and-plan under a specific state's practice-authority model.",
       "category": "healthcare",
@@ -9542,6 +10361,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/nursing-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "obstetrician-gynecologist",
+      "description": "Use when a task needs the judgment of an OB-GYN \u2014 triaging an obstetric complaint by gestational age and urgency, deciding whether a gynecologic finding (adnexal mass, abnormal bleeding, abnormal cytology) stays in general practice or needs subspecialist referral, working a shared-decision conversation on induction, cesarean, or hysterectomy, or writing the operative/delivery note that documents the reasoning behind a management decision.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1218.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/obstetrician-gynecologist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9762,6 +10602,69 @@
       ]
     },
     {
+      "slug": "ophthalmic-medical-technologist",
+      "description": "Use when a task needs the judgment of an Ophthalmic Medical Technologist \u2014 running fluorescein or indocyanine green angiography and screening a dye-reaction risk, verifying axial length or biometry technique before an IOL calculation goes to the surgeon, checking whether an OCT or visual field result is reliable enough to file as a data point, or assisting in and documenting a minor ophthalmic surgical or laser procedure.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2099.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ophthalmic-medical-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "ophthalmic-technician",
+      "description": "Use when a task needs the judgment of an Ophthalmic Technician \u2014 running a pretesting workup (visual acuity, tonometry, visual fields, biometry) before an ophthalmologist's exam, flagging a measurement that's discordant or unreliable before it reaches the chart, judging whether it's safe to dilate a patient, or sequencing tests so the doctor's exam time goes to the actual problem.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2057.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ophthalmic-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "ophthalmologist",
+      "description": "Use when a task needs the judgment of a board-certified ophthalmologist \u2014 triaging acute vision loss or a red eye, deciding cataract surgery timing and IOL power selection, managing glaucoma medication escalation against target IOP, or sequencing anti-VEGF treatment for wet AMD or diabetic macular edema. US practice default (AAO Preferred Practice Pattern framework). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1241.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/ophthalmologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "optometrist",
       "description": "Use when a task needs the judgment of an Optometrist (OD) \u2014 determining a refractive correction, evaluating intraocular pressure and optic-nerve findings for glaucoma risk, triaging a red or symptomatic eye for urgent referral, fitting contact lens parameters including vertex-distance power conversion, or deciding whether a finding needs ophthalmology referral versus in-office management.",
       "category": "healthcare",
@@ -9836,6 +10739,69 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/orthodontist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "orthopedic-surgeon",
+      "description": "Use when a task needs the judgment of an Orthopedic Surgeon (adult, non-pediatric) \u2014 classifying a fracture and choosing fixation vs arthroplasty, sequencing trauma care in a polytrauma patient, selecting VTE prophylaxis and timing for hip fracture or joint-replacement surgery, triaging suspected acute compartment syndrome, or working up a painful joint replacement for periprosthetic infection versus aseptic loosening.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1242.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/orthopedic-surgeon/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "orthoptist",
+      "description": "Use when a task needs the judgment of a certified orthoptist \u2014 quantifying and classifying a strabismus or amblyopia workup, sequencing amblyopia occlusion/penalization therapy and judging whether a plateau is compliance or true treatment failure, distinguishing comitant from incomitant deviations, or building the sensorimotor referral note a surgeon will dose surgery from. A reasoning aid, not medical advice or a substitute for an in-person exam.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1299.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/orthoptist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "orthotist-prosthetist",
+      "description": "Use when a task needs the judgment of a certified orthotist/prosthetist (CPO) \u2014 selecting a socket design and components for a limb-loss patient, diagnosing the cause of a prosthetic or orthotic gait deviation, justifying a Medicare K-level and component choice in a letter of medical necessity, or deciding between a preparatory and definitive device during residual-limb maturation.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/orthotist-prosthetist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9972,6 +10938,48 @@
       ]
     },
     {
+      "slug": "pathologist",
+      "description": "Use when a task needs the judgment of an anatomic/clinical pathologist \u2014 writing or reviewing a surgical pathology synoptic report, working a differential from gross or microscopic findings toward an immunohistochemistry (IHC) panel, deciding whether a margin or a frozen-section call needs escalation, or reconciling a pathology result with a discordant clinical/radiologic finding. A reasoning aid, not a substitute for a licensed pathologist signing out an actual case.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1222.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pathologist/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "patient-representative",
+      "description": "Use when a task needs the judgment of a Patient Representative \u2014 triaging a patient complaint into complaint vs. grievance, running a service-recovery conversation after a bad experience, routing a billing dispute against a Good Faith Estimate, or verifying who is authorized to receive a patient's information.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2099.08",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/patient-representative/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "payroll-timekeeping-clerk",
       "description": "Use when a task needs the judgment of a payroll and timekeeping clerk \u2014 recalculating overtime after a non-discretionary bonus changes the regular rate of pay, resolving a timesheet exception before a payroll run locks, applying a garnishment order within its legal withholding limit, or correcting an off-cycle payroll error. Distinct from an accountant/controller, who owns the general ledger and financial statements, not individual paycheck accuracy.",
       "category": "finance",
@@ -9983,6 +10991,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/payroll-timekeeping-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pediatric-surgeon",
+      "description": "Use when a task needs the judgment of a pediatric general surgeon \u2014 triaging bilious vomiting or an acute abdomen in a neonate, deciding operative timing and staged-versus-definitive repair for congenital anomalies (malrotation, gastroschisis, CDH, biliary atresia), managing necrotizing enterocolitis by clinical stage, or working an acute scrotum against a salvage-time clock. US pediatric surgical practice (APSA guidelines). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1243.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pediatric-surgeon/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pediatrician",
+      "description": "Use when a task needs the judgment of a general outpatient pediatrician \u2014 triaging a sick-child complaint by age and risk, structuring a well-child visit against the periodicity schedule, deciding whether a fever or growth-curve change warrants workup versus reassurance, or navigating a vaccine-hesitant parent conversation. US primary-care pediatrics (AAP/CDC guidelines). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1221.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pediatrician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -10140,6 +11190,27 @@
       ]
     },
     {
+      "slug": "pharmacy-technician",
+      "description": "Use when a task needs the judgment of a Pharmacy Technician \u2014 verifying a new prescription before data entry, triaging an insurance claim rejection code, reconciling days'-supply math after a dose change, deciding a compounding beyond-use date, or catching a look-alike/sound-alike or high-alert medication error before pharmacist final check.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pharmacy-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "philosophy-religion-professor",
       "description": "Use when a task needs the judgment of a Philosophy and Religion Professor (Postsecondary) \u2014 backward-designing a comparative-religion or ethics syllabus, responding to a bias or proselytizing complaint under academic-freedom and Establishment Clause norms, grading a philosophy paper's argument reconstruction, or deciding whether to keep competing for a scarce tenure-track opening versus pivot off the market.",
       "category": "other",
@@ -10256,6 +11327,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/photonics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "physiatrist",
+      "description": "Use when a task needs the judgment of a physiatrist \u2014 screening whether a patient's diagnosis and functional trajectory support inpatient rehab (IRF) admission, projecting length of stay from a FIM trajectory, building a spasticity or neurogenic bladder management plan, working up a spinal-cord-injury complication like autonomic dysreflexia, or writing a prosthetic/orthotic prescription. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1229.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/physiatrist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -10808,6 +11900,27 @@
       ]
     },
     {
+      "slug": "preventive-medicine-physician",
+      "description": "Use when a task needs the judgment of a preventive medicine physician \u2014 deciding whether a population screening program should launch or continue, running an occupational exposure surveillance program and medical removal decisions, investigating a disease outbreak, or translating a clinical guideline (USPSTF, ACIP) into a program-level policy for a defined population.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1229.05",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/preventive-medicine-physician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "printing-press-operator",
       "description": "Use when a task needs the judgment of a Printing Press Operator \u2014 diagnosing whether a color drift is a dot-gain problem versus a general density problem, deciding whether measured registration error is within tolerance for process-color work, recalibrating press settings when a job moves to a different substrate, or deciding whether a makeready-approved run still needs mid-run spot-checks.",
       "category": "other",
@@ -11081,6 +12194,69 @@
       ]
     },
     {
+      "slug": "psychiatric-nurse-practitioner",
+      "description": "Use when a task needs the judgment of a board-certified Psychiatric-Mental Health Nurse Practitioner (PMHNP) \u2014 running a psychiatric intake or med-management visit, choosing or adjusting a psychotropic regimen, screening for bipolar spectrum before starting an antidepressant, stratifying suicide risk, or deciding when a case needs escalation to a collaborating psychiatrist or higher level of care. US practice default. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1141.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/psychiatric-nurse-practitioner/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "psychiatric-technician",
+      "description": "Use when a task needs the judgment of a psychiatric technician on an inpatient or residential behavioral-health unit \u2014 running milieu rounds and observation levels, scoring escalation risk and choosing a de-escalation response, deciding when a restraint/seclusion episode is and isn't justified, or distinguishing a medication side effect (akathisia, NMS) from psychiatric agitation. US practice default. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2053.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/psychiatric-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "psychiatrist",
+      "description": "Use when a task needs the judgment of a board-certified psychiatrist \u2014 building a differential across psychiatric and medical causes, choosing or titrating a psychopharmacologic regimen, assessing suicide/violence risk and disposition, or reasoning through treatment resistance. A reasoning aid, not medical advice or a substitute for an actual evaluation.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1223.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/psychiatrist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "psychology-professor",
       "description": "Use when a task needs the judgment of a tenure-track/tenured Psychology Professor \u2014 deciding whether a student's or your own \"significant\" finding is trustworthy before it's submitted, designing a course around retrieval practice instead of coverage, allocating a semester's time across the tenure-clock's research/teaching/service pillars, or handling an IRB amendment or authorship dispute.",
       "category": "other",
@@ -11258,6 +12434,27 @@
       ]
     },
     {
+      "slug": "radiation-therapist",
+      "description": "Use when a task needs the judgment of a radiation therapist \u2014 evaluating a daily setup-imaging shift against protocol tolerance before delivering a fraction, reconciling cumulative delivered dose against the prescription at a chart-check milestone, grading an acute skin/mucosal reaction and deciding whether to escalate, or interpreting whether a trend across consecutive fractions signals anatomic change rather than routine setup variance.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1124.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/radiation-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "radio-tower-technician",
       "description": "Use when a task needs senior radio/cellular/tower-technician judgment \u2014 deciding whether an RF power-down authorization from a carrier NOC (network operations center) is actually sufficient before a climber works near a live antenna, validating a tower-specific rescue plan before a climb, diagnosing a failed VSWR or PIM reading after antenna installation, or triaging an obstruction-light outage against the FAA notification clock.",
       "category": "operations",
@@ -11271,6 +12468,48 @@
       "skill": "roles/radio-tower-technician/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "radiologic-technologist",
+      "description": "Use when a task needs the judgment of a radiologic technologist \u2014 selecting and adjusting exposure technique for a diagnostic X-ray, deciding whether an image is diagnostic or needs a repeat, positioning a trauma or non-ambulatory patient, or applying ALARA and shielding decisions during a radiographic exam.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2034.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/radiologic-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "radiologist",
+      "description": "Use when a task needs the judgment of a board-certified diagnostic radiologist \u2014 classifying an incidental imaging finding against a validated follow-up guideline (Fleischner, BI-RADS, Lung-RADS, LI-RADS), triaging a finding for critical/urgent communication, structuring an actionable diagnostic report, or reasoning through a perceptual-error risk in image interpretation. US practice default (ACR practice parameters and appropriateness criteria). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1224.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/radiologist/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -11458,6 +12697,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/receptionist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "recreational-therapist",
+      "description": "Use when a task needs the judgment of a Certified Therapeutic Recreation Specialist (CTRS) \u2014 writing or auditing a recreational-therapy goal, deciding whether a leisure/activity intervention counts as billable treatment versus diversion, grading an activity for a dementia or behavioral-health client who is disengaging, or planning discharge/community-reintegration handoff.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1125.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/recreational-therapist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11710,6 +12970,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/reservation-transportation-ticket-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "respiratory-therapist",
+      "description": "Use when a task needs the judgment of a respiratory therapist \u2014 titrating mechanical ventilator settings against ABG and plateau-pressure targets, running and interpreting a spontaneous breathing trial for extubation readiness, titrating supplemental oxygen in a chronic CO2 retainer, or troubleshooting a sudden ventilator alarm or desaturation at the bedside.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1126.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/respiratory-therapist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -12754,6 +14035,27 @@
       ]
     },
     {
+      "slug": "sports-medicine-physician",
+      "description": "Use when a task needs the judgment of a sports medicine physician \u2014 clearing or restricting an athlete's return to play after injury or concussion, running a preparticipation cardiovascular screening, managing an on-field emergency (exertional heat stroke, sudden cardiac collapse, suspected spinal injury), diagnosing a bone stress injury or overtraining/RED-S presentation, or navigating team-physician conflict of interest against coach or parent pressure to clear an athlete early.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1229.06",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sports-medicine-physician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "sports-official",
       "description": "Use when a task needs the judgment of a sports official (umpire, referee, or crew chief) \u2014 ruling on a bang-bang or judgment-call play, running a video/monitor review under a time budget, de-escalating a coach or player argument, calibrating a crew's positioning and coverage areas, or writing a postgame incident report.",
       "category": "other",
@@ -12976,6 +14278,48 @@
       "audit_score": null,
       "skill": "roles/supply-chain-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "surgical-assistant",
+      "description": "Use when a task needs the judgment of a Certified Surgical Assistant (CSA) working directly in the operative field under a surgeon's direct supervision \u2014 providing retraction and exposure, controlling hemostasis, driving the laparoscopic/robotic camera, harvesting a conduit (saphenous vein, radial artery), closing tissue layers, or deciding when an intraoperative finding is a \"tell the surgeon now\" event versus a correctable one.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-9093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/surgical-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "surgical-technologist",
+      "description": "Use when a task needs the judgment of a Certified Surgical Technologist \u2014 setting up and defending a sterile field, resolving a sponge/sharp/instrument count discrepancy, sequencing instruments for a procedure from a preference card, deciding whether immediate-use steam sterilization is appropriate, or handling a surgical specimen at the field.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2055.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/surgical-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -13847,6 +15191,27 @@
       ]
     },
     {
+      "slug": "urologist",
+      "description": "Use when a task needs the judgment of a board-certified urologist \u2014 working up microhematuria or an elevated PSA, deciding active surveillance versus treatment for localized prostate cancer, managing a kidney stone (medical expulsive therapy versus ureteroscopy versus PCNL), risk-stratifying a bladder tumor for BCG versus cystectomy, or triaging acute scrotal pain for possible torsion. US practice default (AUA/EAU guideline framework). A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1229.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/urologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "ux-designer",
       "description": "Use when a task needs the judgment of a UX/product designer \u2014 evaluating or designing an interface, flow, or interaction, critiquing usability, or resolving tradeoffs between simplicity, flexibility, and business goals in a product's design.",
       "category": "design",
@@ -13959,6 +15324,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/veterinary-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "veterinary-technician",
+      "description": "Use when a task needs the judgment of a veterinary technician \u2014 calculating a drug or CRI dose and converting it to a pump rate, monitoring anesthetic depth and capnography/vital-sign trends during a procedure, staging periodontal disease from probe readings to decide scale-only vs. extraction referral, or selecting radiographic technique and positioning for a diagnostic-quality image.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-2056.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/veterinary-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "vision-rehabilitation-therapist",
+      "description": "Use when a task needs the judgment of a vision rehabilitation therapist / orientation and mobility specialist / low vision therapist \u2014 running a functional vision assessment, sequencing long-cane or ADL skills training after vision loss, prescribing a low-vision optical or electronic device, or evaluating a client's readiness for street-crossing or bioptic-driving training.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1122.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/vision-rehabilitation-therapist/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

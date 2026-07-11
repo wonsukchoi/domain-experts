@@ -4,7 +4,476 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sat, 11 Jul 2026 06:10:04 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 06:44:38 +0000</lastBuildDate>
+  <item>
+    <title>Acupuncturist</title>
+    <link>https://domainexperts.dev/roles/acupuncturist/</link>
+    <guid>https://domainexperts.dev/roles/acupuncturist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed acupuncturist — building a TCM pattern-differentiation-based treatment plan, choosing point combinations and needling technique for a presenting complaint, triaging a safety red flag (fainting, suspected pneumothorax, herb-drug interaction), or writing a SOAP note that justifies medical necessity for insurance. US scope-of-practice default (NCCAOM/state licensure). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Allergist Immunologist</title>
+    <link>https://domainexperts.dev/roles/allergist-immunologist/</link>
+    <guid>https://domainexperts.dev/roles/allergist-immunologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an allergist/immunologist — interpreting a skin-prick or specific-IgE result against pretest probability, working up a &quot;penicillin allergy&quot; label for delabeling before a needed antibiotic, managing anaphylaxis and biphasic-reaction risk, stepping asthma therapy up or down, or evaluating suspected primary immunodeficiency.</description>
+  </item>
+  <item>
+    <title>Anesthesiologist</title>
+    <link>https://domainexperts.dev/roles/anesthesiologist/</link>
+    <guid>https://domainexperts.dev/roles/anesthesiologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified anesthesiologist — building a preoperative anesthesia plan and risk stratification, choosing general vs. regional technique and airway strategy, managing an intraoperative crisis (difficult airway, malignant hyperthermia, local anesthetic systemic toxicity), or writing a PACU handoff and postoperative pain-management order set.</description>
+  </item>
+  <item>
+    <title>Anesthesiologist Assistant</title>
+    <link>https://domainexperts.dev/roles/anesthesiologist-assistant/</link>
+    <guid>https://domainexperts.dev/roles/anesthesiologist-assistant/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Certified Anesthesiologist Assistant (CAA) working inside an Anesthesia Care Team — building and executing an intraoperative anesthetic plan under a directing anesthesiologist, reading a vital-sign trend for anesthesia-specific emergencies (malignant hyperthermia, local anesthetic systemic toxicity, awareness), deciding when a deviation is an immediate-escalation trigger versus an independently correctable event, or navigating the jurisdiction/concurrency limits of CAA practice.</description>
+  </item>
+  <item>
+    <title>Art Therapist</title>
+    <link>https://domainexperts.dev/roles/art-therapist/</link>
+    <guid>https://domainexperts.dev/roles/art-therapist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Art Therapist — matching art media to a client&#x27;s regulation capacity via the Expressive Therapies Continuum, scoring a standardized directive (PPAT, KFD, DAP) with a validated instrument like FEATS as part of assessment, deciding between a directive and open-studio session structure, navigating informed consent and disposition for client-made artwork, or distinguishing an art-as-therapy approach from an art-psychotherapy approach for a given client.</description>
+  </item>
+  <item>
+    <title>Athletic Trainer</title>
+    <link>https://domainexperts.dev/roles/athletic-trainer/</link>
+    <guid>https://domainexperts.dev/roles/athletic-trainer/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a certified athletic trainer — triaging an on-field or on-court injury, deciding same-day return-to-play vs. refer-out, running a concussion sideline assessment and graduated return-to-sport progression, recognizing exertional heat stroke or another sudden-death emergency, or writing the objective findings that justify a clearance decision.</description>
+  </item>
+  <item>
+    <title>Cardiologist</title>
+    <link>https://domainexperts.dev/roles/cardiologist/</link>
+    <guid>https://domainexperts.dev/roles/cardiologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified cardiologist — triaging chest pain with a risk score, titrating heart-failure guideline-directed medical therapy, deciding revascularization strategy for stable or acute coronary disease, or working through anticoagulation decisions in atrial fibrillation. US practice default (ACC/AHA guideline framework). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Cardiovascular Technologist</title>
+    <link>https://domainexperts.dev/roles/cardiovascular-technologist/</link>
+    <guid>https://domainexperts.dev/roles/cardiovascular-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cardiovascular Technologist — measuring and grading a cardiac or vascular ultrasound finding, tracking contrast/anticoagulation/radiation limits during a live cath lab procedure, choosing between imaging modalities for a clinical question, or writing up a diagnostic study for physician sign-off.</description>
+  </item>
+  <item>
+    <title>Clinical Nurse Specialist</title>
+    <link>https://domainexperts.dev/roles/clinical-nurse-specialist/</link>
+    <guid>https://domainexperts.dev/roles/clinical-nurse-specialist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Clinical Nurse Specialist — diagnosing why a unit-level outcome metric (CLABSI, falls, pressure injury) is off benchmark, designing and scaling a practice-change pilot, appraising whether a new clinical guideline actually fits the local population, writing a quarterly outcomes report to nursing leadership, or coaching staff nurses through a new protocol without formal authority over them. US hospital/health-system default; state nurse practice acts vary. A reasoning aid, not clinical or legal advice.</description>
+  </item>
+  <item>
+    <title>Critical Care Nurse</title>
+    <link>https://domainexperts.dev/roles/critical-care-nurse/</link>
+    <guid>https://domainexperts.dev/roles/critical-care-nurse/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an ICU/critical care RN — titrating a vasoactive drip within an ordered range and deciding when to escalate to a second agent, coordinating daily sedation-awakening and spontaneous-breathing trials on a ventilated patient, interpreting a hemodynamic/lactate trend against a resuscitation target, or working the ABCDEF bundle to prevent post-ICU complications.</description>
+  </item>
+  <item>
+    <title>Cytogenetic Technologist</title>
+    <link>https://domainexperts.dev/roles/cytogenetic-technologist/</link>
+    <guid>https://domainexperts.dev/roles/cytogenetic-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cytogenetic Technologist — choosing a culture/harvest protocol and band resolution for a specimen, applying ISCN clonality criteria to a metaphase count, deciding between karyotype, FISH, and chromosomal microarray for a clinical question, or writing and QCing an ISCN-formatted cytogenetics report.</description>
+  </item>
+  <item>
+    <title>Cytotechnologist</title>
+    <link>https://domainexperts.dev/roles/cytotechnologist/</link>
+    <guid>https://domainexperts.dev/roles/cytotechnologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a cytotechnologist — screening a gynecologic (Pap test) slide and applying Bethesda System criteria, assessing non-gynecologic specimen adequacy (FNA rapid on-site evaluation, body fluid, brushing) against the relevant reporting system, deciding whether a finding can be signed out independently or must be referred to a pathologist, or auditing screening quality metrics (ASC:SIL ratio, rescreen concordance, workload compliance). A reasoning aid, not a substitute for a certified cytotechnologist or pathologist signing out an actual case.</description>
+  </item>
+  <item>
+    <title>Dermatologist</title>
+    <link>https://domainexperts.dev/roles/dermatologist/</link>
+    <guid>https://domainexperts.dev/roles/dermatologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a dermatologist — triaging a pigmented lesion for melanoma risk, choosing a biopsy technique and reading the pathology in clinical context, staging a skin cancer to decide margins or Mohs referral, escalating psoriasis/eczema treatment by severity score, or managing isotretinoin risk under REMS/iPLEDGE rules.</description>
+  </item>
+  <item>
+    <title>Diagnostic Medical Sonographer</title>
+    <link>https://domainexperts.dev/roles/diagnostic-medical-sonographer/</link>
+    <guid>https://domainexperts.dev/roles/diagnostic-medical-sonographer/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Diagnostic Medical Sonographer — deciding whether a duplex, compression, or graded-compression ultrasound study is diagnostic versus technically limited, choosing when to interrupt a scanning protocol to escalate a real-time critical finding, setting scan technique and ALARA (TI/MI) parameters for a given exam type, or drafting the technical worksheet and preliminary findings a physician will interpret and sign.</description>
+  </item>
+  <item>
+    <title>Dietetic Technician</title>
+    <link>https://domainexperts.dev/roles/dietetic-technician/</link>
+    <guid>https://domainexperts.dev/roles/dietetic-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nutrition and Dietetics Technician, Registered (NDTR/DTR) — translating a physician&#x27;s diet order into a texture/therapeutic tray specification, triaging a nutrition-screening or intake-decline signal for RDN escalation, auditing a tray line or food-safety log against a threshold, or drawing the line between routine dietetics work and a nutrition-diagnosis call that belongs to the supervising RDN.</description>
+  </item>
+  <item>
+    <title>Direct Entry Midwife</title>
+    <link>https://domainexperts.dev/roles/direct-entry-midwife/</link>
+    <guid>https://domainexperts.dev/roles/direct-entry-midwife/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a direct-entry midwife (CPM) practicing out-of-hospital birth — screening whether a pregnancy or labor is still eligible for a planned home/birth-center birth, deciding the exact moment to activate a transfer or 911 transport, running a postpartum-hemorrhage protocol without hospital blood-bank backup, or writing the SBAR handoff that hands a client to a receiving hospital.</description>
+  </item>
+  <item>
+    <title>Dispensing Optician</title>
+    <link>https://domainexperts.dev/roles/dispensing-optician/</link>
+    <guid>https://domainexperts.dev/roles/dispensing-optician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a dispensing optician — translating a written prescription into a fitted pair of glasses, resolving frame/lens material tradeoffs, diagnosing why a finished pair doesn&#x27;t feel or see right, or deciding whether a fit problem is remake, adjustment, or patient-adaptation.</description>
+  </item>
+  <item>
+    <title>Emergency Medical Technician</title>
+    <link>https://domainexperts.dev/roles/emergency-medical-technician/</link>
+    <guid>https://domainexperts.dev/roles/emergency-medical-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an EMT (Basic Life Support tier) — deciding whether a chest-pain patient gets aspirin under protocol, dosing an epinephrine auto-injector for anaphylaxis and knowing when to repeat it, applying spinal-motion-restriction criteria instead of routine backboarding, recognizing the moment a call exceeds BLS scope and requesting ALS intercept, or working a patient refusal (AMA) to a legally defensible conclusion.</description>
+  </item>
+  <item>
+    <title>Emergency Medicine Physician</title>
+    <link>https://domainexperts.dev/roles/emergency-medicine-physician/</link>
+    <guid>https://domainexperts.dev/roles/emergency-medicine-physician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an emergency medicine physician — risk-stratifying an undifferentiated chief complaint against a can&#x27;t-miss diagnosis, deciding an ED disposition (discharge/observation/admit/transfer) under time and bed pressure, reasoning through EMTALA screening-and-stabilization obligations, or triaging a department under crowding/boarding load.</description>
+  </item>
+  <item>
+    <title>Exercise Physiologist</title>
+    <link>https://domainexperts.dev/roles/exercise-physiologist/</link>
+    <guid>https://domainexperts.dev/roles/exercise-physiologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Exercise Physiologist — interpreting a graded exercise test and setting the intensity ceiling it implies, risk-stratifying a cardiac or pulmonary rehab patient for the required monitoring level, writing a heart-rate-reserve or RPE-based exercise prescription for a patient with a chronic disease, or deciding whether a functional-capacity change (6MWT, METs) is real progress or noise.</description>
+  </item>
+  <item>
+    <title>Family Physician</title>
+    <link>https://domainexperts.dev/roles/family-physician/</link>
+    <guid>https://domainexperts.dev/roles/family-physician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a family medicine physician — running a primary-care visit with a limited time box, managing a patient with multiple concurrent chronic conditions, deciding what to work up today versus what to watch over time, triaging preventive-care gaps against the visit&#x27;s actual agenda, or writing a referral/consult note. A reasoning aid modeling how a family physician thinks, not a substitute for a licensed physician, and never a diagnosis or treatment recommendation for a real person.</description>
+  </item>
+  <item>
+    <title>Health Information Manager</title>
+    <link>https://domainexperts.dev/roles/health-information-manager/</link>
+    <guid>https://domainexperts.dev/roles/health-information-manager/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Health Information Manager / Health Information Technologist and Medical Registrar — resolving a master patient index (MPI) duplicate-record match, classifying a tumor as a single vs. multiple primary for cancer registry abstracting, writing a health information governance decision-rights policy, auditing registry case-finding or follow-up-rate completeness for accreditation, or reconciling a data-quality gap surfaced by a quality-measure or interoperability feed.</description>
+  </item>
+  <item>
+    <title>Hearing Aid Specialist</title>
+    <link>https://domainexperts.dev/roles/hearing-aid-specialist/</link>
+    <guid>https://domainexperts.dev/roles/hearing-aid-specialist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a hearing aid specialist (hearing instrument dispenser) — screening a patient&#x27;s case history against FDA referral conditions before fitting, selecting and programming a device against a prescriptive target, verifying a fitting with real-ear measurement, troubleshooting a return/complaint (feedback, occlusion, &quot;tinny&quot; sound, poor hearing-in-noise), or pricing a device against a bundled-vs-itemized model.</description>
+  </item>
+  <item>
+    <title>Histology Technician</title>
+    <link>https://domainexperts.dev/roles/histology-technician/</link>
+    <guid>https://domainexperts.dev/roles/histology-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Histology Technician (Histotechnician/Histotechnologist) — deciding how to gross-section and fix a specimen before it goes stale, troubleshooting a microtome or staining artifact, working an IHC control failure or antigen-retrieval mismatch, or investigating a floater or fixation-timing deviation before a case can sign out. A reasoning aid, not a substitute for a certified histotechnician or the laboratory director of record.</description>
+  </item>
+  <item>
+    <title>Histotechnologist</title>
+    <link>https://domainexperts.dev/roles/histotechnologist/</link>
+    <guid>https://domainexperts.dev/roles/histotechnologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Histotechnologist — deciding a fixation, processing, or decalcification protocol for a specimen, troubleshooting a microtomy or staining artifact, triaging turnaround-time pressure against tissue-conservation for future testing, or reconciling a block/slide identity or floater problem before sign-out.</description>
+  </item>
+  <item>
+    <title>Hospitalist</title>
+    <link>https://domainexperts.dev/roles/hospitalist/</link>
+    <guid>https://domainexperts.dev/roles/hospitalist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hospitalist — deciding inpatient vs. observation admission status, triaging a differential during rounds, building or revising a discharge plan, or structuring a shift handoff.</description>
+  </item>
+  <item>
+    <title>Licensed Practical Nurse</title>
+    <link>https://domainexperts.dev/roles/licensed-practical-nurse/</link>
+    <guid>https://domainexperts.dev/roles/licensed-practical-nurse/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Licensed Practical/Vocational Nurse (LPN/LVN) — running a change-in-condition check on a long-term-care resident with the Stop &amp; Watch tool, deciding whether a delegated task or verbal order falls inside your state&#x27;s LPN/LVN task list, escalating a decline via SBAR to an on-call RN or physician when no RN is on-site, or delegating tasks to CNAs within the five rights while also receiving delegation from an RN.</description>
+  </item>
+  <item>
+    <title>Medical Dosimetrist</title>
+    <link>https://domainexperts.dev/roles/medical-dosimetrist/</link>
+    <guid>https://domainexperts.dev/roles/medical-dosimetrist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a medical dosimetrist — designing an IMRT/VMAT beam arrangement and optimization objectives, resolving a PTV-coverage-vs-OAR-constraint conflict, evaluating a DVH and isodose distribution before physician sign-off, triaging a failed patient-specific QA, or writing a plan directive for therapy handoff. US radiation oncology default (AAPM/ASTRO practice norms).</description>
+  </item>
+  <item>
+    <title>Medical Laboratory Scientist</title>
+    <link>https://domainexperts.dev/roles/medical-laboratory-scientist/</link>
+    <guid>https://domainexperts.dev/roles/medical-laboratory-scientist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical Laboratory Scientist (Medical Technologist) — deciding whether a QC-failing analyzer run can release patient results, working a delta-check or hemolysis-index flag before reporting a chemistry value, handling a critical/panic value callback, or investigating why a lab&#x27;s error rate or turnaround time is off target. US CLIA-regulated hospital/reference lab default. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Medical Laboratory Technician</title>
+    <link>https://domainexperts.dev/roles/medical-laboratory-technician/</link>
+    <guid>https://domainexperts.dev/roles/medical-laboratory-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical Laboratory Technician — deciding whether to release a chemistry result against a Westgard QC violation, screening a specimen for hemolysis/lipemia/icterus interference before reporting, working a delta-check flag against a patient&#x27;s prior result, or routing a critical value or blood bank discrepancy through the correct callback/rejection procedure.</description>
+  </item>
+  <item>
+    <title>Medical Records Specialist</title>
+    <link>https://domainexperts.dev/roles/medical-records-specialist/</link>
+    <guid>https://domainexperts.dev/roles/medical-records-specialist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Medical Records Specialist / Health Information Management (HIM) professional — assigning ICD-10-CM/PCS or CPT codes from clinical documentation, drafting a compliant physician query, processing a release-of-information (ROI) request under HIPAA&#x27;s minimum necessary standard, or building a defense response to a payer/RAC coding-denial audit.</description>
+  </item>
+  <item>
+    <title>Mri Technologist</title>
+    <link>https://domainexperts.dev/roles/mri-technologist/</link>
+    <guid>https://domainexperts.dev/roles/mri-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an ARRT(MR)-certified MRI technologist — screening a patient or implant for MR safety and zone entry, selecting or adjusting a pulse-sequence protocol against a diagnostic question and time budget, monitoring or predicting specific absorption rate (SAR) and gradient limits during a scan, judging gadolinium contrast eligibility against renal function, or troubleshooting a motion/artifact problem before images reach the radiologist. US practice default (ACR Manual on MR Safety, FDA/IEC SAR limits). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Music Therapist</title>
+    <link>https://domainexperts.dev/roles/music-therapist/</link>
+    <guid>https://domainexperts.dev/roles/music-therapist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Music Therapist — designing a neurologic music therapy (RAS) gait-training protocol for a stroke or Parkinson&#x27;s patient, sequencing music to de-escalate an agitated dementia or psychiatric client (iso principle), choosing melodic intonation therapy for non-fluent aphasia, screening a trauma-history client before improvisational or GIM-style work, or writing a functional progress note that ties a session&#x27;s music choices to a measurable non-musical goal.</description>
+  </item>
+  <item>
+    <title>Naturopathic Physician</title>
+    <link>https://domainexperts.dev/roles/naturopathic-physician/</link>
+    <guid>https://domainexperts.dev/roles/naturopathic-physician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed naturopathic physician (ND) — sequencing a treatment plan through the therapeutic order, checking a botanical/supplement against a patient&#x27;s existing pharmaceuticals for interactions, deciding what falls inside versus outside a given state&#x27;s licensed scope of practice, distinguishing a functional lab target from the lab&#x27;s printed reference range, or writing a co-management referral to a prescribing physician. A reasoning aid modeling how a naturopathic physician thinks, not a substitute for a licensed provider, and never a diagnosis or treatment recommendation for a real person.</description>
+  </item>
+  <item>
+    <title>Neurodiagnostic Technologist</title>
+    <link>https://domainexperts.dev/roles/neurodiagnostic-technologist/</link>
+    <guid>https://domainexperts.dev/roles/neurodiagnostic-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a neurodiagnostic technologist — running or troubleshooting a routine or ambulatory EEG, distinguishing artifact from a real epileptiform or ictal pattern, recognizing nonconvulsive status epilepticus on continuous ICU monitoring, or making a real-time alarm-criteria call during intraoperative neuromonitoring (SSEP/MEP/EMG).</description>
+  </item>
+  <item>
+    <title>Neurologist</title>
+    <link>https://domainexperts.dev/roles/neurologist/</link>
+    <guid>https://domainexperts.dev/roles/neurologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a neurologist — localizing a lesion from an exam and history, triaging a time-critical presentation (stroke, status epilepticus, acute weakness), building a differential for a chronic or progressive neurologic complaint, or deciding what workup a symptom actually warrants. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Nuclear Medicine Technologist</title>
+    <link>https://domainexperts.dev/roles/nuclear-medicine-technologist/</link>
+    <guid>https://domainexperts.dev/roles/nuclear-medicine-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nuclear Medicine Technologist — verifying and administering a radiopharmaceutical dose, running gamma camera/PET or dose-calibrator quality control, deciding whether a radioactive-iodine therapy patient can be released under NRC criteria, troubleshooting an extravasated injection or a photopenic/artifactual image, or working out patient-prep and radiation-safety instructions for a scan or therapy.</description>
+  </item>
+  <item>
+    <title>Nurse Anesthetist</title>
+    <link>https://domainexperts.dev/roles/nurse-anesthetist/</link>
+    <guid>https://domainexperts.dev/roles/nurse-anesthetist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Certified Registered Nurse Anesthetist (CRNA) — planning an anesthetic technique for a specific patient and procedure, working a difficult-airway or intraoperative crisis (malignant hyperthermia, local anesthetic systemic toxicity, high spinal), risk-stratifying a preoperative patient (ASA-PS, STOP-BANG, Apfel), or making an emergence/PACU-disposition call. US anesthesia practice default. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Nurse Midwife</title>
+    <link>https://domainexperts.dev/roles/nurse-midwife/</link>
+    <guid>https://domainexperts.dev/roles/nurse-midwife/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a certified nurse-midwife — triaging whether labor progress is normal variation or a genuine arrest disorder, deciding when a low-risk pregnancy or birth crosses into a consult/transfer situation, working a shared-decision-making conversation on induction or GBS prophylaxis, or writing a labor/postpartum note that documents the reasoning behind a management decision.</description>
+  </item>
+  <item>
+    <title>Obstetrician Gynecologist</title>
+    <link>https://domainexperts.dev/roles/obstetrician-gynecologist/</link>
+    <guid>https://domainexperts.dev/roles/obstetrician-gynecologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an OB-GYN — triaging an obstetric complaint by gestational age and urgency, deciding whether a gynecologic finding (adnexal mass, abnormal bleeding, abnormal cytology) stays in general practice or needs subspecialist referral, working a shared-decision conversation on induction, cesarean, or hysterectomy, or writing the operative/delivery note that documents the reasoning behind a management decision.</description>
+  </item>
+  <item>
+    <title>Ophthalmic Medical Technologist</title>
+    <link>https://domainexperts.dev/roles/ophthalmic-medical-technologist/</link>
+    <guid>https://domainexperts.dev/roles/ophthalmic-medical-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Ophthalmic Medical Technologist — running fluorescein or indocyanine green angiography and screening a dye-reaction risk, verifying axial length or biometry technique before an IOL calculation goes to the surgeon, checking whether an OCT or visual field result is reliable enough to file as a data point, or assisting in and documenting a minor ophthalmic surgical or laser procedure.</description>
+  </item>
+  <item>
+    <title>Ophthalmic Technician</title>
+    <link>https://domainexperts.dev/roles/ophthalmic-technician/</link>
+    <guid>https://domainexperts.dev/roles/ophthalmic-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Ophthalmic Technician — running a pretesting workup (visual acuity, tonometry, visual fields, biometry) before an ophthalmologist&#x27;s exam, flagging a measurement that&#x27;s discordant or unreliable before it reaches the chart, judging whether it&#x27;s safe to dilate a patient, or sequencing tests so the doctor&#x27;s exam time goes to the actual problem.</description>
+  </item>
+  <item>
+    <title>Ophthalmologist</title>
+    <link>https://domainexperts.dev/roles/ophthalmologist/</link>
+    <guid>https://domainexperts.dev/roles/ophthalmologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified ophthalmologist — triaging acute vision loss or a red eye, deciding cataract surgery timing and IOL power selection, managing glaucoma medication escalation against target IOP, or sequencing anti-VEGF treatment for wet AMD or diabetic macular edema. US practice default (AAO Preferred Practice Pattern framework). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Orthopedic Surgeon</title>
+    <link>https://domainexperts.dev/roles/orthopedic-surgeon/</link>
+    <guid>https://domainexperts.dev/roles/orthopedic-surgeon/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Orthopedic Surgeon (adult, non-pediatric) — classifying a fracture and choosing fixation vs arthroplasty, sequencing trauma care in a polytrauma patient, selecting VTE prophylaxis and timing for hip fracture or joint-replacement surgery, triaging suspected acute compartment syndrome, or working up a painful joint replacement for periprosthetic infection versus aseptic loosening.</description>
+  </item>
+  <item>
+    <title>Orthoptist</title>
+    <link>https://domainexperts.dev/roles/orthoptist/</link>
+    <guid>https://domainexperts.dev/roles/orthoptist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a certified orthoptist — quantifying and classifying a strabismus or amblyopia workup, sequencing amblyopia occlusion/penalization therapy and judging whether a plateau is compliance or true treatment failure, distinguishing comitant from incomitant deviations, or building the sensorimotor referral note a surgeon will dose surgery from. A reasoning aid, not medical advice or a substitute for an in-person exam.</description>
+  </item>
+  <item>
+    <title>Orthotist Prosthetist</title>
+    <link>https://domainexperts.dev/roles/orthotist-prosthetist/</link>
+    <guid>https://domainexperts.dev/roles/orthotist-prosthetist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a certified orthotist/prosthetist (CPO) — selecting a socket design and components for a limb-loss patient, diagnosing the cause of a prosthetic or orthotic gait deviation, justifying a Medicare K-level and component choice in a letter of medical necessity, or deciding between a preparatory and definitive device during residual-limb maturation.</description>
+  </item>
+  <item>
+    <title>Pathologist</title>
+    <link>https://domainexperts.dev/roles/pathologist/</link>
+    <guid>https://domainexperts.dev/roles/pathologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of an anatomic/clinical pathologist — writing or reviewing a surgical pathology synoptic report, working a differential from gross or microscopic findings toward an immunohistochemistry (IHC) panel, deciding whether a margin or a frozen-section call needs escalation, or reconciling a pathology result with a discordant clinical/radiologic finding. A reasoning aid, not a substitute for a licensed pathologist signing out an actual case.</description>
+  </item>
+  <item>
+    <title>Patient Representative</title>
+    <link>https://domainexperts.dev/roles/patient-representative/</link>
+    <guid>https://domainexperts.dev/roles/patient-representative/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Patient Representative — triaging a patient complaint into complaint vs. grievance, running a service-recovery conversation after a bad experience, routing a billing dispute against a Good Faith Estimate, or verifying who is authorized to receive a patient&#x27;s information.</description>
+  </item>
+  <item>
+    <title>Pediatric Surgeon</title>
+    <link>https://domainexperts.dev/roles/pediatric-surgeon/</link>
+    <guid>https://domainexperts.dev/roles/pediatric-surgeon/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a pediatric general surgeon — triaging bilious vomiting or an acute abdomen in a neonate, deciding operative timing and staged-versus-definitive repair for congenital anomalies (malrotation, gastroschisis, CDH, biliary atresia), managing necrotizing enterocolitis by clinical stage, or working an acute scrotum against a salvage-time clock. US pediatric surgical practice (APSA guidelines). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Pediatrician</title>
+    <link>https://domainexperts.dev/roles/pediatrician/</link>
+    <guid>https://domainexperts.dev/roles/pediatrician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a general outpatient pediatrician — triaging a sick-child complaint by age and risk, structuring a well-child visit against the periodicity schedule, deciding whether a fever or growth-curve change warrants workup versus reassurance, or navigating a vaccine-hesitant parent conversation. US primary-care pediatrics (AAP/CDC guidelines). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Pharmacy Technician</title>
+    <link>https://domainexperts.dev/roles/pharmacy-technician/</link>
+    <guid>https://domainexperts.dev/roles/pharmacy-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Pharmacy Technician — verifying a new prescription before data entry, triaging an insurance claim rejection code, reconciling days&#x27;-supply math after a dose change, deciding a compounding beyond-use date, or catching a look-alike/sound-alike or high-alert medication error before pharmacist final check.</description>
+  </item>
+  <item>
+    <title>Physiatrist</title>
+    <link>https://domainexperts.dev/roles/physiatrist/</link>
+    <guid>https://domainexperts.dev/roles/physiatrist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a physiatrist — screening whether a patient&#x27;s diagnosis and functional trajectory support inpatient rehab (IRF) admission, projecting length of stay from a FIM trajectory, building a spasticity or neurogenic bladder management plan, working up a spinal-cord-injury complication like autonomic dysreflexia, or writing a prosthetic/orthotic prescription. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Preventive Medicine Physician</title>
+    <link>https://domainexperts.dev/roles/preventive-medicine-physician/</link>
+    <guid>https://domainexperts.dev/roles/preventive-medicine-physician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a preventive medicine physician — deciding whether a population screening program should launch or continue, running an occupational exposure surveillance program and medical removal decisions, investigating a disease outbreak, or translating a clinical guideline (USPSTF, ACIP) into a program-level policy for a defined population.</description>
+  </item>
+  <item>
+    <title>Psychiatric Nurse Practitioner</title>
+    <link>https://domainexperts.dev/roles/psychiatric-nurse-practitioner/</link>
+    <guid>https://domainexperts.dev/roles/psychiatric-nurse-practitioner/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified Psychiatric-Mental Health Nurse Practitioner (PMHNP) — running a psychiatric intake or med-management visit, choosing or adjusting a psychotropic regimen, screening for bipolar spectrum before starting an antidepressant, stratifying suicide risk, or deciding when a case needs escalation to a collaborating psychiatrist or higher level of care. US practice default. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Psychiatric Technician</title>
+    <link>https://domainexperts.dev/roles/psychiatric-technician/</link>
+    <guid>https://domainexperts.dev/roles/psychiatric-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a psychiatric technician on an inpatient or residential behavioral-health unit — running milieu rounds and observation levels, scoring escalation risk and choosing a de-escalation response, deciding when a restraint/seclusion episode is and isn&#x27;t justified, or distinguishing a medication side effect (akathisia, NMS) from psychiatric agitation. US practice default. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Psychiatrist</title>
+    <link>https://domainexperts.dev/roles/psychiatrist/</link>
+    <guid>https://domainexperts.dev/roles/psychiatrist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified psychiatrist — building a differential across psychiatric and medical causes, choosing or titrating a psychopharmacologic regimen, assessing suicide/violence risk and disposition, or reasoning through treatment resistance. A reasoning aid, not medical advice or a substitute for an actual evaluation.</description>
+  </item>
+  <item>
+    <title>Radiation Therapist</title>
+    <link>https://domainexperts.dev/roles/radiation-therapist/</link>
+    <guid>https://domainexperts.dev/roles/radiation-therapist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a radiation therapist — evaluating a daily setup-imaging shift against protocol tolerance before delivering a fraction, reconciling cumulative delivered dose against the prescription at a chart-check milestone, grading an acute skin/mucosal reaction and deciding whether to escalate, or interpreting whether a trend across consecutive fractions signals anatomic change rather than routine setup variance.</description>
+  </item>
+  <item>
+    <title>Radiologic Technologist</title>
+    <link>https://domainexperts.dev/roles/radiologic-technologist/</link>
+    <guid>https://domainexperts.dev/roles/radiologic-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a radiologic technologist — selecting and adjusting exposure technique for a diagnostic X-ray, deciding whether an image is diagnostic or needs a repeat, positioning a trauma or non-ambulatory patient, or applying ALARA and shielding decisions during a radiographic exam.</description>
+  </item>
+  <item>
+    <title>Radiologist</title>
+    <link>https://domainexperts.dev/roles/radiologist/</link>
+    <guid>https://domainexperts.dev/roles/radiologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified diagnostic radiologist — classifying an incidental imaging finding against a validated follow-up guideline (Fleischner, BI-RADS, Lung-RADS, LI-RADS), triaging a finding for critical/urgent communication, structuring an actionable diagnostic report, or reasoning through a perceptual-error risk in image interpretation. US practice default (ACR practice parameters and appropriateness criteria). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Recreational Therapist</title>
+    <link>https://domainexperts.dev/roles/recreational-therapist/</link>
+    <guid>https://domainexperts.dev/roles/recreational-therapist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Certified Therapeutic Recreation Specialist (CTRS) — writing or auditing a recreational-therapy goal, deciding whether a leisure/activity intervention counts as billable treatment versus diversion, grading an activity for a dementia or behavioral-health client who is disengaging, or planning discharge/community-reintegration handoff.</description>
+  </item>
+  <item>
+    <title>Respiratory Therapist</title>
+    <link>https://domainexperts.dev/roles/respiratory-therapist/</link>
+    <guid>https://domainexperts.dev/roles/respiratory-therapist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a respiratory therapist — titrating mechanical ventilator settings against ABG and plateau-pressure targets, running and interpreting a spontaneous breathing trial for extubation readiness, titrating supplemental oxygen in a chronic CO2 retainer, or troubleshooting a sudden ventilator alarm or desaturation at the bedside.</description>
+  </item>
+  <item>
+    <title>Sports Medicine Physician</title>
+    <link>https://domainexperts.dev/roles/sports-medicine-physician/</link>
+    <guid>https://domainexperts.dev/roles/sports-medicine-physician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a sports medicine physician — clearing or restricting an athlete&#x27;s return to play after injury or concussion, running a preparticipation cardiovascular screening, managing an on-field emergency (exertional heat stroke, sudden cardiac collapse, suspected spinal injury), diagnosing a bone stress injury or overtraining/RED-S presentation, or navigating team-physician conflict of interest against coach or parent pressure to clear an athlete early.</description>
+  </item>
+  <item>
+    <title>Surgical Assistant</title>
+    <link>https://domainexperts.dev/roles/surgical-assistant/</link>
+    <guid>https://domainexperts.dev/roles/surgical-assistant/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Certified Surgical Assistant (CSA) working directly in the operative field under a surgeon&#x27;s direct supervision — providing retraction and exposure, controlling hemostasis, driving the laparoscopic/robotic camera, harvesting a conduit (saphenous vein, radial artery), closing tissue layers, or deciding when an intraoperative finding is a &quot;tell the surgeon now&quot; event versus a correctable one.</description>
+  </item>
+  <item>
+    <title>Surgical Technologist</title>
+    <link>https://domainexperts.dev/roles/surgical-technologist/</link>
+    <guid>https://domainexperts.dev/roles/surgical-technologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Certified Surgical Technologist — setting up and defending a sterile field, resolving a sponge/sharp/instrument count discrepancy, sequencing instruments for a procedure from a preference card, deciding whether immediate-use steam sterilization is appropriate, or handling a surgical specimen at the field.</description>
+  </item>
+  <item>
+    <title>Urologist</title>
+    <link>https://domainexperts.dev/roles/urologist/</link>
+    <guid>https://domainexperts.dev/roles/urologist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a board-certified urologist — working up microhematuria or an elevated PSA, deciding active surveillance versus treatment for localized prostate cancer, managing a kidney stone (medical expulsive therapy versus ureteroscopy versus PCNL), risk-stratifying a bladder tumor for BCG versus cystectomy, or triaging acute scrotal pain for possible torsion. US practice default (AUA/EAU guideline framework). A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Veterinary Technician</title>
+    <link>https://domainexperts.dev/roles/veterinary-technician/</link>
+    <guid>https://domainexperts.dev/roles/veterinary-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a veterinary technician — calculating a drug or CRI dose and converting it to a pump rate, monitoring anesthetic depth and capnography/vital-sign trends during a procedure, staging periodontal disease from probe readings to decide scale-only vs. extraction referral, or selecting radiographic technique and positioning for a diagnostic-quality image.</description>
+  </item>
+  <item>
+    <title>Vision Rehabilitation Therapist</title>
+    <link>https://domainexperts.dev/roles/vision-rehabilitation-therapist/</link>
+    <guid>https://domainexperts.dev/roles/vision-rehabilitation-therapist/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:44:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a vision rehabilitation therapist / orientation and mobility specialist / low vision therapist — running a functional vision assessment, sequencing long-cane or ADL skills training after vision loss, prescribing a low-vision optical or electronic device, or evaluating a client&#x27;s readiness for street-crossing or bioptic-driving training.</description>
+  </item>
   <item>
     <title>Actor</title>
     <link>https://domainexperts.dev/roles/actor/</link>
