@@ -1,5 +1,5 @@
 {
-  "count": 756,
+  "count": 766,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -4848,6 +4848,27 @@
       ]
     },
     {
+      "slug": "endoscopy-technician",
+      "description": "Use when a task needs the judgment of an Endoscopy Technician \u2014 deciding whether to release or quarantine a scope after a failed leak test or minimum-effective-concentration (MEC) reading, handling a point-of-use treatment delay against the manufacturer's reprocessing window, triaging a borescope finding on a working channel, or troubleshooting equipment and passing accessories during a live GI procedure.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9099.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/endoscopy-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "energy-engineer",
       "description": "Use when a task needs the judgment of an Energy Engineer working on building and industrial energy efficiency \u2014 running an ASHRAE Level 1/2/3 energy audit, calculating envelope heat loss/gain with the degree-day method, comparing HVAC equipment on SEER/EER/IEER/COP rather than nameplate alone, designing an IPMVP measurement and verification (M&V) plan, or ranking energy conservation measures (ECMs) by savings-to-investment ratio for a capital plan. Distinct from a wind-energy-engineer or solar/PV engineer (own generation-asset design and yield) and from an electrical-engineer (owns utility-scale power delivery and protection) \u2014 this role owns the demand side: how much energy a building or process actually needs, and which retrofit reduces that number with numbers that hold up after the fact.",
       "category": "engineering",
@@ -7212,6 +7233,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/home-appliance-repairer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "home-health-aide",
+      "description": "Use when a task needs the judgment of a Home Health Aide \u2014 assisting a client with personal care and ADLs in a private home, deciding whether a symptom or home condition needs to be reported to the supervising nurse now, distinguishing an in-scope personal-care task from an out-of-scope medical one, or handling a suspected abuse/neglect or home-safety concern.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-1121.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/home-health-aide/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -10455,6 +10497,27 @@
       ]
     },
     {
+      "slug": "occupational-therapy-aide",
+      "description": "Use when a task needs the judgment of an occupational therapy aide \u2014 deciding whether a request falls inside your delegated task list or needs escalation to the supervising OT/OTA, prepping a treatment room or transporting/transferring a patient safely within scope, writing an objective aide note versus a clinical progress note, or handling shared-equipment cleaning and supply turnover between patients.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/occupational-therapy-aide/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "occupational-therapy-assistant",
       "description": "Use when a task needs the judgment of an occupational therapy assistant (COTA) \u2014 running a treatment session against an OT's established plan, documenting session progress toward the OT's goals, deciding whether a change in a patient's presentation can be handled within the existing plan or requires flagging the supervising OT for reassessment, or adapting a therapeutic activity to a patient's day-to-day tolerance within the plan's parameters.",
       "category": "healthcare",
@@ -10718,6 +10781,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/order-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "orderly",
+      "description": "Use when a task needs the judgment of a hospital/long-term-care Orderly \u2014 transporting a patient by stretcher or wheelchair, executing a bed or room turnover between patients, choosing manual vs. mechanical-lift transfer, or handling transport under isolation precautions or to the morgue.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-1132.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/orderly/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11064,6 +11148,27 @@
       ]
     },
     {
+      "slug": "personal-care-aide",
+      "description": "Use when a task needs the judgment of a Personal Care Aide (PCA/home care aide) \u2014 helping a client with ADLs (bathing, dressing, toileting, transfers) in their own home, deciding whether an observed change (weight, skin, mood, intake) needs same-day escalation versus routine notes, structuring a home-safety or fall-risk check, or handling a medication-reminder boundary the aide isn't licensed to cross.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-1122.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/personal-care-aide/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "personal-financial-advisor",
       "description": "Use when a task needs the judgment of a personal financial advisor \u2014 building a retirement income plan, evaluating a Social Security claiming strategy, structuring a tax-loss harvesting and asset-location plan, drafting an Investment Policy Statement, or stress-testing a plan against sequence-of-returns and longevity risk.",
       "category": "finance",
@@ -11180,6 +11285,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/pharmacist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pharmacy-aide",
+      "description": "Use when a task needs the judgment of a Pharmacy Aide \u2014 triaging a phone call or counter question into \"answer it\" vs \"route to the pharmacist,\" receiving and reconciling a wholesaler delivery that includes controlled substances, logging a vaccine refrigerator temperature check, spotting a recurring shrink or cash-drawer discrepancy, or deciding what a clerical-support role can and can't touch in a given state.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9095.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pharmacy-aide/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11369,6 +11495,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/physical-therapist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "physical-therapist-aide",
+      "description": "Use when a task needs the judgment of a physical therapist aide \u2014 prepping and reset of treatment rooms between patients, applying pre-set thermal modalities (hot pack, cold pack, paraffin) within safety parameters, assisting patient transport/transfers under supervision, or classifying whether a requested task falls inside or outside the aide's delegable scope. Narrower than physical-therapist-assistant (licensed, treats independently under general supervision) \u2014 this role is unlicensed and everything patient-facing requires the supervising PT/PTA physically present.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/physical-therapist-aide/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -12184,6 +12331,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/prosthodontist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "psychiatric-aide",
+      "description": "Use when a task needs the judgment of a psychiatric aide on an inpatient psychiatric unit or state hospital ward \u2014 running ADL and rounds coverage for a patient assignment, deciding whether an observed behavior change is a \"tell the nurse now\" or \"chart it at rounds\" situation, choosing how to engage a withdrawn or agitated patient through activity rather than confrontation, or knowing what an aide can and can't do when a restraint response is called. US practice default. A reasoning aid, not medical advice.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-1133.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/psychiatric-aide/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -14014,6 +14182,27 @@
       ]
     },
     {
+      "slug": "speech-language-pathology-assistant",
+      "description": "Use when a task needs the judgment of a Speech-Language Pathology Assistant \u2014 running a scheduled articulation/language/fluency session from an existing plan of care, logging trial-by-trial data with cue levels, preparing a data summary for the supervising SLP's sign-off, or flagging that a request (goal change, screening choice, feeding task) is outside the assistant's scope.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/speech-language-pathology-assistant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "sports-coach",
       "description": "Use when a task needs the judgment of a sports coach or team scout \u2014 grading a recruit or transfer-portal target against roster need, building a weekly practice/training plan, deciding whether to rest or clear an injured player, or setting a depth chart under a talent evaluation disagreement.",
       "category": "other",
@@ -14132,6 +14321,27 @@
       "skill": "roles/statistician/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sterile-processing-technician",
+      "description": "Use when a task needs the judgment of a sterile processing technician \u2014 deciding whether a tray is safe to release, running a biological-indicator failure recall, diagnosing wet-pack or count-discrepancy patterns, or sequencing decontamination/assembly/sterilization workflow under OR turnover pressure.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "31-9093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sterile-processing-technician/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],

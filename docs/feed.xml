@@ -4,7 +4,77 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sat, 11 Jul 2026 06:44:38 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 06:53:04 +0000</lastBuildDate>
+  <item>
+    <title>Endoscopy Technician</title>
+    <link>https://domainexperts.dev/roles/endoscopy-technician/</link>
+    <guid>https://domainexperts.dev/roles/endoscopy-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Endoscopy Technician — deciding whether to release or quarantine a scope after a failed leak test or minimum-effective-concentration (MEC) reading, handling a point-of-use treatment delay against the manufacturer&#x27;s reprocessing window, triaging a borescope finding on a working channel, or troubleshooting equipment and passing accessories during a live GI procedure.</description>
+  </item>
+  <item>
+    <title>Home Health Aide</title>
+    <link>https://domainexperts.dev/roles/home-health-aide/</link>
+    <guid>https://domainexperts.dev/roles/home-health-aide/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Home Health Aide — assisting a client with personal care and ADLs in a private home, deciding whether a symptom or home condition needs to be reported to the supervising nurse now, distinguishing an in-scope personal-care task from an out-of-scope medical one, or handling a suspected abuse/neglect or home-safety concern.</description>
+  </item>
+  <item>
+    <title>Occupational Therapy Aide</title>
+    <link>https://domainexperts.dev/roles/occupational-therapy-aide/</link>
+    <guid>https://domainexperts.dev/roles/occupational-therapy-aide/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of an occupational therapy aide — deciding whether a request falls inside your delegated task list or needs escalation to the supervising OT/OTA, prepping a treatment room or transporting/transferring a patient safely within scope, writing an objective aide note versus a clinical progress note, or handling shared-equipment cleaning and supply turnover between patients.</description>
+  </item>
+  <item>
+    <title>Orderly</title>
+    <link>https://domainexperts.dev/roles/orderly/</link>
+    <guid>https://domainexperts.dev/roles/orderly/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a hospital/long-term-care Orderly — transporting a patient by stretcher or wheelchair, executing a bed or room turnover between patients, choosing manual vs. mechanical-lift transfer, or handling transport under isolation precautions or to the morgue.</description>
+  </item>
+  <item>
+    <title>Personal Care Aide</title>
+    <link>https://domainexperts.dev/roles/personal-care-aide/</link>
+    <guid>https://domainexperts.dev/roles/personal-care-aide/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Personal Care Aide (PCA/home care aide) — helping a client with ADLs (bathing, dressing, toileting, transfers) in their own home, deciding whether an observed change (weight, skin, mood, intake) needs same-day escalation versus routine notes, structuring a home-safety or fall-risk check, or handling a medication-reminder boundary the aide isn&#x27;t licensed to cross.</description>
+  </item>
+  <item>
+    <title>Pharmacy Aide</title>
+    <link>https://domainexperts.dev/roles/pharmacy-aide/</link>
+    <guid>https://domainexperts.dev/roles/pharmacy-aide/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Pharmacy Aide — triaging a phone call or counter question into &quot;answer it&quot; vs &quot;route to the pharmacist,&quot; receiving and reconciling a wholesaler delivery that includes controlled substances, logging a vaccine refrigerator temperature check, spotting a recurring shrink or cash-drawer discrepancy, or deciding what a clerical-support role can and can&#x27;t touch in a given state.</description>
+  </item>
+  <item>
+    <title>Physical Therapist Aide</title>
+    <link>https://domainexperts.dev/roles/physical-therapist-aide/</link>
+    <guid>https://domainexperts.dev/roles/physical-therapist-aide/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a physical therapist aide — prepping and reset of treatment rooms between patients, applying pre-set thermal modalities (hot pack, cold pack, paraffin) within safety parameters, assisting patient transport/transfers under supervision, or classifying whether a requested task falls inside or outside the aide&#x27;s delegable scope. Narrower than physical-therapist-assistant (licensed, treats independently under general supervision) — this role is unlicensed and everything patient-facing requires the supervising PT/PTA physically present.</description>
+  </item>
+  <item>
+    <title>Psychiatric Aide</title>
+    <link>https://domainexperts.dev/roles/psychiatric-aide/</link>
+    <guid>https://domainexperts.dev/roles/psychiatric-aide/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a psychiatric aide on an inpatient psychiatric unit or state hospital ward — running ADL and rounds coverage for a patient assignment, deciding whether an observed behavior change is a &quot;tell the nurse now&quot; or &quot;chart it at rounds&quot; situation, choosing how to engage a withdrawn or agitated patient through activity rather than confrontation, or knowing what an aide can and can&#x27;t do when a restraint response is called. US practice default. A reasoning aid, not medical advice.</description>
+  </item>
+  <item>
+    <title>Speech Language Pathology Assistant</title>
+    <link>https://domainexperts.dev/roles/speech-language-pathology-assistant/</link>
+    <guid>https://domainexperts.dev/roles/speech-language-pathology-assistant/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Speech-Language Pathology Assistant — running a scheduled articulation/language/fluency session from an existing plan of care, logging trial-by-trial data with cue levels, preparing a data summary for the supervising SLP&#x27;s sign-off, or flagging that a request (goal change, screening choice, feeding task) is outside the assistant&#x27;s scope.</description>
+  </item>
+  <item>
+    <title>Sterile Processing Technician</title>
+    <link>https://domainexperts.dev/roles/sterile-processing-technician/</link>
+    <guid>https://domainexperts.dev/roles/sterile-processing-technician/</guid>
+    <pubDate>Sat, 11 Jul 2026 13:52:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a sterile processing technician — deciding whether a tray is safe to release, running a biological-indicator failure recall, diagnosing wet-pack or count-discrepancy patterns, or sequencing decontamination/assembly/sterilization workflow under OR turnover pressure.</description>
+  </item>
   <item>
     <title>Acupuncturist</title>
     <link>https://domainexperts.dev/roles/acupuncturist/</link>

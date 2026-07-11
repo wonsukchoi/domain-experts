@@ -235,6 +235,7 @@
   <url><loc>https://domainexperts.dev/roles/emergency-management-director/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/emergency-medical-technician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/emergency-medicine-physician/</loc><lastmod>2026-07-11</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/endoscopy-technician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/energy-engineer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/engineering-professor/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/english-literature-professor/</loc><lastmod>2026-07-11</lastmod></url>
@@ -349,6 +350,7 @@
   <url><loc>https://domainexperts.dev/roles/histotechnologist/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/hoist-winch-operator/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/home-appliance-repairer/</loc><lastmod>2026-07-08</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/home-health-aide/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/hospitalist/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/host-hostess/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/hotel-motel-desk-clerk/</loc><lastmod>2026-07-07</lastmod></url>
@@ -504,6 +506,7 @@
   <url><loc>https://domainexperts.dev/roles/occupational-health-safety-specialist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/occupational-health-safety-technician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/occupational-therapist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/occupational-therapy-aide/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/occupational-therapy-assistant/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/office-clerk-general/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/office-machine-operator/</loc><lastmod>2026-07-07</lastmod></url>
@@ -517,6 +520,7 @@
   <url><loc>https://domainexperts.dev/roles/optometrist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/oral-maxillofacial-surgeon/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/order-clerk/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/orderly/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/orthodontist/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/orthopedic-surgeon/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/orthoptist/</loc><lastmod>2026-07-11</lastmod></url>
@@ -533,12 +537,14 @@
   <url><loc>https://domainexperts.dev/roles/pediatric-surgeon/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/pediatrician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/penetration-tester/</loc><lastmod>2026-07-06</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/personal-care-aide/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/personal-financial-advisor/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/personal-property-appraiser/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/pest-control-worker/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/pesticide-handler-vegetation/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/petroleum-engineer/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/pharmacist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/pharmacy-aide/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/pharmacy-technician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/philosophy-religion-professor/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/phlebotomist/</loc><lastmod>2026-07-07</lastmod></url>
@@ -548,6 +554,7 @@
   <url><loc>https://domainexperts.dev/roles/photonics-technician/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/physiatrist/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/physical-therapist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/physical-therapist-aide/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/physical-therapist-assistant/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/physician-assistant/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/physician-clinical-reasoning/</loc><lastmod>2026-07-06</lastmod></url>
@@ -587,6 +594,7 @@
   <url><loc>https://domainexperts.dev/roles/proofreader-copy-marker/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/property-real-estate-manager/</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/prosthodontist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/psychiatric-aide/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/psychiatric-nurse-practitioner/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/psychiatric-technician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/psychiatrist/</loc><lastmod>2026-07-11</lastmod></url>
@@ -675,12 +683,14 @@
   <url><loc>https://domainexperts.dev/roles/special-education-teacher/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/special-effects-animator/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/speech-language-pathologist/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/speech-language-pathology-assistant/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/sports-coach/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/sports-medicine-physician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/sports-official/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/stationary-engineer-boiler-operator/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/statistical-assistant/</loc><lastmod>2026-07-07</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/statistician/</loc><lastmod>2026-07-07</lastmod></url>
+  <url><loc>https://domainexperts.dev/roles/sterile-processing-technician/</loc><lastmod>2026-07-11</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/stonemason/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/structural-iron-steel-worker/</loc><lastmod>2026-07-08</lastmod></url>
   <url><loc>https://domainexperts.dev/roles/structural-metal-fabricator/</loc><lastmod>2026-07-10</lastmod></url>
