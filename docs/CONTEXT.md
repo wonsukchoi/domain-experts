@@ -1,16 +1,14 @@
 # CONTEXT
 
 ## Current Task
-2026-07-08 session: mass role-drafting via parallel Agent forks across O*NET groups 35/37/45/47/49/53. 492 roles total (up from 331), lint 0 errors, all pushed to main. Closed groups 35 (Food Prep, 16/18), 37 (Building/Grounds, 8/10), 45 (Farming/Fishing/Forestry, 12/14), 49 (Install/Maint/Repair, 48/52). Opened 47 (Construction/Extraction, 25/65) and 53 (Transportation, 49/57, essentially done).
+2026-07-11 session: mass role-drafting via Workflow-tool orchestration across O*NET groups 19/21/25/27/29/31. 186 roles shipped, lint 0 errors, all pushed to main, npm published as v0.5.0. Full remaining scope + exact runbook (re-runnable script + payloads) in `docs/onet-fill-remaining.md` — read that file first when resuming.
 
 ## Key Decisions
-- Skipped O*NET group 55 (Military Specific) entirely — infantry/artillery/special-forces content is weapons-and-tactics doctrine, out of scope for this repo.
-- Batch pattern: spawn ~12 parallel general-purpose Agent forks per wave, each does full AUTHORING.md pipeline solo (research→draft→self-critique), self-scores against the 9-criterion rubric, reports concerns; then lint the whole batch, fix any banned-word hits, regenerate roadmap, commit, push.
-- Catch-all O*NET codes ("All Other") and thin generic codes (e.g. plain "Transportation Inspectors" when specific sub-codes already covered) are intentionally skipped per repo convention.
-- Dual-use-adjacent trades (locksmith, pesticide handler, commercial diver, hazmat removal) shipped fine with professional/compliance framing — no bypass-technique or formulation content.
+- Switched batch mechanism from manual Agent forks (prior session) to the Workflow tool: one script call per O*NET group, draft phase (parallel agents, one per occupation) then ops phase (lint/regenerate/commit/push) as two workflow phases.
+- Same skip conventions as before: "All Other" catch-alls and O*NET group 55 (Military) excluded; ~161 real gaps remain across groups 33/39/41/43/47/49/51/53.
+- Runner script must live outside this repo's tracked tree (scratchpad only) — got accidentally committed once via a batch agent's `git add -A`, since fixed by scoping ops-step `git add` to explicit paths.
 
 ## Next Steps
-- Group 47 (Construction/Extraction) has 40 occupations remaining — biggest open lever.
-- Group 53 has 8 remaining (supervisor/catch-all codes) — low priority, likely skip.
-- Groups 51 (Production, 0/114) and 53's sibling large group not yet started: still fully open.
-- Parity coverage and eval-running (from prior session) still outstanding — not touched this session.
+- Resume via `docs/onet-fill-remaining.md`: smallest groups first (49, 43, 53) to sanity-check, then 33, 41, 39, 47, then 51 (63 roles, biggest).
+- Known bug to fix: `roles/critical-care-nurse/` is mismapped to code 29-1141.01 (Acute Care Nurses) instead of its titled 29-1141.03 — needs a rename/split pass.
+- Bump version + tag + push after each meaningful batch to keep npm in sync (see Release section in the runbook).
