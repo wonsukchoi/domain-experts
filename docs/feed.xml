@@ -4,7 +4,105 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Fri, 10 Jul 2026 18:50:03 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 05:34:44 +0000</lastBuildDate>
+  <item>
+    <title>Agricultural Sciences Professor</title>
+    <link>https://domainexperts.dev/roles/agricultural-sciences-professor/</link>
+    <guid>https://domainexperts.dev/roles/agricultural-sciences-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a tenure-track or tenured Agricultural Sciences faculty member at a land-grant university — deciding whether to submit a grant this cycle versus wait, allocating time across the teaching/research/extension appointment split, diagnosing a stalled graduate student or field trial, or drafting a tenure-and-promotion dossier narrative.</description>
+  </item>
+  <item>
+    <title>Anthropology Archaeology Professor</title>
+    <link>https://domainexperts.dev/roles/anthropology-archaeology-professor/</link>
+    <guid>https://domainexperts.dev/roles/anthropology-archaeology-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a postsecondary Anthropology or Archaeology professor — designing a gen-ed or major-track course, building a tenure or promotion dossier, defending a department against an enrollment-driven program review, mentoring a graduate student&#x27;s fieldwork grant application, or writing an IRB/NAGPRA-compliant fieldwork plan.</description>
+  </item>
+  <item>
+    <title>Area Ethnic Cultural Studies Professor</title>
+    <link>https://domainexperts.dev/roles/area-ethnic-cultural-studies-professor/</link>
+    <guid>https://domainexperts.dev/roles/area-ethnic-cultural-studies-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Area, Ethnic, or Cultural Studies Professor — designing a joint-appointment course load across two departments, prepping a tenure or mid-tenure review file for interdisciplinary scholarship, deciding whether a course survives an enrollment or political-pressure threat, evaluating community-engaged research for a merit case, or writing a Title VI/FLAS-adjacent grant narrative.</description>
+  </item>
+  <item>
+    <title>Biology Professor</title>
+    <link>https://domainexperts.dev/roles/biology-professor/</link>
+    <guid>https://domainexperts.dev/roles/biology-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biology Professor at a research university — writing or defending an NIH/NSF grant budget, deciding authorship order on a paper, navigating an IACUC or biosafety protocol, mentoring a PhD student through a stalled project, or converting a course when active-learning data doesn&#x27;t match student pushback.</description>
+  </item>
+  <item>
+    <title>Computer Science Professor</title>
+    <link>https://domainexperts.dev/roles/computer-science-professor/</link>
+    <guid>https://domainexperts.dev/roles/computer-science-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postsecondary Computer Science Professor — diagnosing why a course&#x27;s DFW (D/F/withdraw) rate spiked, redesigning an intro programming course&#x27;s assessment structure, staffing TAs and grading load for a large course, deciding what to prioritize pre-tenure, running an academic-integrity (MOSS similarity) investigation, or mapping a curriculum change against ABET student outcomes.</description>
+  </item>
+  <item>
+    <title>Economics Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/economics-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/economics-teacher-postsecondary/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Economics Teacher, Postsecondary — designing an intro micro/macro sequence for a mostly-terminal non-major audience, diagnosing a miskeyed or poorly discriminating exam item, calibrating TA grading on graphical or free-response problem sets, or investigating a spike in homework answers matching an online solution bank.</description>
+  </item>
+  <item>
+    <title>Engineering Professor</title>
+    <link>https://domainexperts.dev/roles/engineering-professor/</link>
+    <guid>https://domainexperts.dev/roles/engineering-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Engineering Teacher, Postsecondary — diagnosing a spike in a gatekeeper course&#x27;s D/F/W rate, running a capstone design course with an industry sponsor, closing the loop on an ABET student-outcome assessment, or building a tenure/promotion teaching-effectiveness case beyond raw student evaluation scores.</description>
+  </item>
+  <item>
+    <title>Environmental Science Professor</title>
+    <link>https://domainexperts.dev/roles/environmental-science-professor/</link>
+    <guid>https://domainexperts.dev/roles/environmental-science-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Environmental Science Professor — deciding whether a field exercise crosses a weather/safety cancel threshold, building an NSF/EPA proposal budget, normalizing an interdisciplinary tenure case against the right benchmark, checking whether a mixed-methods field project needs IRB review, or handling a politically charged classroom topic without losing academic-freedom footing.</description>
+  </item>
+  <item>
+    <title>Forestry Conservation Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/forestry-conservation-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/forestry-conservation-teacher-postsecondary/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forestry and Conservation Science Teacher, Postsecondary — designing or defending a field-lab safety plan, mapping a forestry curriculum against SAF accreditation standards, grading a forest-mensuration or silviculture field report, or reconciling a McIntire-Stennis research-capacity budget.</description>
+  </item>
+  <item>
+    <title>Geoscience Professor</title>
+    <link>https://domainexperts.dev/roles/geoscience-professor/</link>
+    <guid>https://domainexperts.dev/roles/geoscience-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a postsecondary Atmospheric, Earth, Marine, and Space Sciences professor — allocating limited semester effort across teaching, research, and service ahead of a tenure or promotion review, redesigning an intro gen-ed course around documented student misconceptions, timing an NSF GEO grant submission against a grad student&#x27;s funding cliff, or setting a field course&#x27;s safety protocol before enrollment opens.</description>
+  </item>
+  <item>
+    <title>Math Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/math-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/math-teacher-postsecondary/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a postsecondary math instructor — diagnosing why a gateway course&#x27;s DFW rate is high, grading a proof for logical validity, norming a rubric across TAs on a multi-section common exam, or deciding a placement or corequisite-support call for an underprepared student.</description>
+  </item>
+  <item>
+    <title>Physics Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/physics-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/physics-teacher-postsecondary/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postsecondary Physics Teacher — designing or fixing a unit using concept-inventory data (FCI/CSEM), writing a peer-instruction ConcepTest sequence, building a rubric that separates physics reasoning from algebra execution, deciding a lab-safety call, or arguing a curriculum change from gain data rather than exam averages. Narrower than postsecondary-educator (subject-agnostic syllabus/rubric/appeal craft) — this file is the physics-specific research base: concept inventories, documented misconception clusters, and physical lab hazards a generic teaching-craft file doesn&#x27;t cover.</description>
+  </item>
+  <item>
+    <title>Political Science Professor</title>
+    <link>https://domainexperts.dev/roles/political-science-professor/</link>
+    <guid>https://domainexperts.dev/roles/political-science-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Political Science Professor — backward-designing a course syllabus from learning objectives, navigating a classroom controversy or bias complaint under academic-freedom norms, interpreting a swing in student evaluations before a reappointment or tenure review, or deciding how to respond to a journal desk rejection versus a revise-and-resubmit.</description>
+  </item>
+  <item>
+    <title>Psychology Professor</title>
+    <link>https://domainexperts.dev/roles/psychology-professor/</link>
+    <guid>https://domainexperts.dev/roles/psychology-professor/</guid>
+    <pubDate>Sat, 11 Jul 2026 12:34:20 +0700</pubDate>
+    <description>Use when a task needs the judgment of a tenure-track/tenured Psychology Professor — deciding whether a student&#x27;s or your own &quot;significant&quot; finding is trustworthy before it&#x27;s submitted, designing a course around retrieval practice instead of coverage, allocating a semester&#x27;s time across the tenure-clock&#x27;s research/teaching/service pillars, or handling an IRB amendment or authorship dispute.</description>
+  </item>
   <item>
     <title>Health Education Specialist</title>
     <link>https://domainexperts.dev/roles/health-education-specialist/</link>

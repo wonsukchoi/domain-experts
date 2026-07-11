@@ -1,5 +1,5 @@
 {
-  "count": 623,
+  "count": 637,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -301,6 +301,27 @@
       ]
     },
     {
+      "slug": "agricultural-sciences-professor",
+      "description": "Use when a task needs the judgment of a tenure-track or tenured Agricultural Sciences faculty member at a land-grant university \u2014 deciding whether to submit a grant this cycle versus wait, allocating time across the teaching/research/extension appointment split, diagnosing a stalled graduate student or field trial, or drafting a tenure-and-promotion dossier narrative.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/agricultural-sciences-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "agricultural-technician",
       "description": "Use when a task needs the judgment of an Agricultural Technician \u2014 designing a soil, tissue, or seed sampling plan, interpreting pest scouting counts against an economic threshold, calibrating spray/seeding equipment, or troubleshooting a field data discrepancy before it reaches the agronomist or scientist who acts on it.",
       "category": "operations",
@@ -553,6 +574,27 @@
       ]
     },
     {
+      "slug": "anthropology-archaeology-professor",
+      "description": "Use when a task needs the judgment of a postsecondary Anthropology or Archaeology professor \u2014 designing a gen-ed or major-track course, building a tenure or promotion dossier, defending a department against an enrollment-driven program review, mentoring a graduate student's fieldwork grant application, or writing an IRB/NAGPRA-compliant fieldwork plan.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/anthropology-archaeology-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "application-security-engineer",
       "description": "Use when a task needs the judgment of an Application Security Engineer \u2014 checking whether an endpoint verifies object-level authorization (not just authentication), running threat modeling at design time rather than deferring security review to the end, triaging a dependency vulnerability by actual reachability rather than CVSS score alone, combining SAST/DAST/SCA tooling to cover their distinct blind spots, or applying context-specific output encoding to untrusted input. Distinct from an information security analyst \u2014 this role works inside the SDLC to prevent vulnerabilities before they ship, not detect and respond to intrusions in production.",
       "category": "engineering",
@@ -648,6 +690,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/archivist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "area-ethnic-cultural-studies-professor",
+      "description": "Use when a task needs the judgment of an Area, Ethnic, or Cultural Studies Professor \u2014 designing a joint-appointment course load across two departments, prepping a tenure or mid-tenure review file for interdisciplinary scholarship, deciding whether a course survives an enrollment or political-pressure threat, evaluating community-engaged research for a merit case, or writing a Title VI/FLAS-adjacent grant narrative.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1062.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/area-ethnic-cultural-studies-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1190,6 +1253,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/biologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "biology-professor",
+      "description": "Use when a task needs the judgment of a Biology Professor at a research university \u2014 writing or defending an NIH/NSF grant budget, deciding authorship order on a paper, navigating an IACUC or biosafety protocol, mentoring a PhD student through a stalled project, or converting a course when active-learning data doesn't match student pushback.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biology-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -2377,6 +2461,27 @@
       ]
     },
     {
+      "slug": "computer-science-professor",
+      "description": "Use when a task needs the judgment of a Postsecondary Computer Science Professor \u2014 diagnosing why a course's DFW (D/F/withdraw) rate spiked, redesigning an intro programming course's assessment structure, staffing TAs and grading load for a large course, deciding what to prioritize pre-tenure, running an academic-integrity (MOSS similarity) investigation, or mapping a curriculum change against ABET student outcomes.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/computer-science-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "computer-systems-analyst",
       "description": "Use when a task needs the judgment of a Computer Systems Analyst \u2014 running requirements elicitation and gap analysis against a target system, writing a feasibility study for a build-vs-buy-vs-customize decision, designing a system integration approach (point-to-point vs middleware vs API-led), scoping data-migration risk before a cutover, or choosing between phased and big-bang implementation strategies.",
       "category": "engineering",
@@ -3499,6 +3604,27 @@
       ]
     },
     {
+      "slug": "economics-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of an Economics Teacher, Postsecondary \u2014 designing an intro micro/macro sequence for a mostly-terminal non-major audience, diagnosing a miskeyed or poorly discriminating exam item, calibrating TA grading on graphical or free-response problem sets, or investigating a spike in homework answers matching an online solution bank.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1063.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/economics-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "economist",
       "description": "Use when a task needs the judgment of an Economist \u2014 estimating a demand elasticity or causal treatment effect from observational or experimental data, building a cost-benefit or welfare analysis for a policy or pricing decision, forecasting a macro or market aggregate under stated assumptions, or stress-testing whether a \"the data shows X\" claim survives a confounding-variable check.",
       "category": "other",
@@ -3903,6 +4029,27 @@
       ]
     },
     {
+      "slug": "engineering-professor",
+      "description": "Use when a task needs the judgment of an Engineering Teacher, Postsecondary \u2014 diagnosing a spike in a gatekeeper course's D/F/W rate, running a capstone design course with an industry sponsor, closing the loop on an ABET student-outcome assessment, or building a tenure/promotion teaching-effectiveness case beyond raw student evaluation scores.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/engineering-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "entertainment-recreation-manager",
       "description": "Use when a task needs the judgment of an Entertainment and Recreation Manager (theme park, arena, recreation facility, tour operation) \u2014 planning attraction/facility capacity against attendance forecasts, evaluating a guest safety or ride-operations decision, pricing admission/season-pass programs, or managing seasonal staffing and weather-driven demand swings.",
       "category": "operations",
@@ -4042,6 +4189,27 @@
       "skill": "roles/environmental-restoration-planner/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "environmental-science-professor",
+      "description": "Use when a task needs the judgment of an Environmental Science Professor \u2014 deciding whether a field exercise crosses a weather/safety cancel threshold, building an NSF/EPA proposal budget, normalizing an interdisciplinary tenure case against the right benchmark, checking whether a mixed-methods field project needs IRB review, or handling a politically charged classroom topic without losing academic-freedom footing.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1053.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/environmental-science-professor/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -4987,6 +5155,27 @@
       ]
     },
     {
+      "slug": "forestry-conservation-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Forestry and Conservation Science Teacher, Postsecondary \u2014 designing or defending a field-lab safety plan, mapping a forestry curriculum against SAF accreditation standards, grading a forest-mensuration or silviculture field report, or reconciling a McIntire-Stennis research-capacity budget.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/forestry-conservation-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "foundry-mold-coremaker",
       "description": "Use when a task needs the judgment of a Foundry Mold and Coremaker \u2014 computing pattern dimensions from an alloy-specific shrink rule, sizing a riser via the modulus method to confirm it solidifies after the section it feeds, isolating whether a gas defect traces to sand moisture, core binder gassing, or vent inadequacy, or calculating actual casting yield rather than comparing scrap counts alone.",
       "category": "engineering",
@@ -5431,6 +5620,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/geological-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "geoscience-professor",
+      "description": "Use when a task needs the judgment of a postsecondary Atmospheric, Earth, Marine, and Space Sciences professor \u2014 allocating limited semester effort across teaching, research, and service ahead of a tenure or promotion review, redesigning an intro gen-ed course around documented student misconceptions, timing an NSF GEO grant submission against a grad student's funding cliff, or setting a field course's safety protocol before enrollment opens.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/geoscience-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7367,6 +7577,27 @@
       ]
     },
     {
+      "slug": "math-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a postsecondary math instructor \u2014 diagnosing why a gateway course's DFW rate is high, grading a proof for logical validity, norming a rubric across TAs on a multi-section common exam, or deciding a placement or corequisite-support call for an underprepared student.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/math-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mathematician",
       "description": "Use when a task needs the judgment of a mathematician \u2014 refereeing or verifying a proof before publication, deciding whether a computed numerical result is trustworthy enough to act on, scoping a grant proposal or technical report to the right level of rigor, or isolating a disputed claim in a paper to the one step it actually turns on.",
       "category": "other",
@@ -9275,6 +9506,27 @@
       ]
     },
     {
+      "slug": "physics-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Postsecondary Physics Teacher \u2014 designing or fixing a unit using concept-inventory data (FCI/CSEM), writing a peer-instruction ConcepTest sequence, building a rubric that separates physics reasoning from algebra execution, deciding a lab-safety call, or arguing a curriculum change from gain data rather than exam averages. Narrower than postsecondary-educator (subject-agnostic syllabus/rubric/appeal craft) \u2014 this file is the physics-specific research base: concept inventories, documented misconception clusters, and physical lab hazards a generic teaching-craft file doesn't cover.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1054.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/physics-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "pipelayer",
       "description": "Use when a task needs the judgment of a Pipelayer \u2014 setting or verifying gravity-sewer or water-main grade from stationed invert elevations, classifying trench soil and selecting a protective system under OSHA Subpart P, selecting bedding class and compaction targets by pipe material, checking water/sewer horizontal and vertical separation at a crossing, or diagnosing a slope, deflection, or compaction defect before backfill sign-off.",
       "category": "operations",
@@ -9412,6 +9664,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/police-patrol-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "political-science-professor",
+      "description": "Use when a task needs the judgment of a Political Science Professor \u2014 backward-designing a course syllabus from learning objectives, navigating a classroom controversy or bias complaint under academic-freedom norms, interpreting a swing in student evaluations before a reappointment or tenure review, or deciding how to respond to a journal desk rejection versus a revise-and-resubmit.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1065.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/political-science-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9895,6 +10168,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/prosthodontist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "psychology-professor",
+      "description": "Use when a task needs the judgment of a tenure-track/tenured Psychology Professor \u2014 deciding whether a student's or your own \"significant\" finding is trustworthy before it's submitted, designing a course around retrieval practice instead of coverage, allocating a semester's time across the tenure-clock's research/teaching/service pillars, or handling an IRB amendment or authorship dispute.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1066.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/psychology-professor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
