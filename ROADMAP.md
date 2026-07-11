@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 746 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 756 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -598,30 +598,30 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>31 — Healthcare Support</strong> (9/20 drafted)</summary>
+<summary><strong>31 — Healthcare Support</strong> (19/20 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 31-1121.00 | Home Health Aides |  |
-|  | 31-1122.00 | Personal Care Aides |  |
+| ✅ | 31-1121.00 | Home Health Aides | [`home-health-aide`](./roles/home-health-aide/SKILL.md) |
+| ✅ | 31-1122.00 | Personal Care Aides | [`personal-care-aide`](./roles/personal-care-aide/SKILL.md) |
 | ✅ | 31-1131.00 | Nursing Assistants | [`nursing-assistant`](./roles/nursing-assistant/SKILL.md) |
-|  | 31-1132.00 | Orderlies |  |
-|  | 31-1133.00 | Psychiatric Aides |  |
+| ✅ | 31-1132.00 | Orderlies | [`orderly`](./roles/orderly/SKILL.md) |
+| ✅ | 31-1133.00 | Psychiatric Aides | [`psychiatric-aide`](./roles/psychiatric-aide/SKILL.md) |
 | ✅ | 31-2011.00 | Occupational Therapy Assistants | [`occupational-therapy-assistant`](./roles/occupational-therapy-assistant/SKILL.md) |
-|  | 31-2012.00 | Occupational Therapy Aides |  |
+| ✅ | 31-2012.00 | Occupational Therapy Aides | [`occupational-therapy-aide`](./roles/occupational-therapy-aide/SKILL.md) |
 | ✅ | 31-2021.00 | Physical Therapist Assistants | [`physical-therapist-assistant`](./roles/physical-therapist-assistant/SKILL.md) |
-|  | 31-2022.00 | Physical Therapist Aides |  |
+| ✅ | 31-2022.00 | Physical Therapist Aides | [`physical-therapist-aide`](./roles/physical-therapist-aide/SKILL.md) |
 | ✅ | 31-9011.00 | Massage Therapists | [`massage-therapist`](./roles/massage-therapist/SKILL.md) |
 | ✅ | 31-9091.00 | Dental Assistants | [`dental-assistant`](./roles/dental-assistant/SKILL.md) |
 | ✅ | 31-9092.00 | Medical Assistants | [`medical-assistant`](./roles/medical-assistant/SKILL.md) |
-|  | 31-9093.00 | Medical Equipment Preparers |  |
+| ✅ | 31-9093.00 | Medical Equipment Preparers | [`sterile-processing-technician`](./roles/sterile-processing-technician/SKILL.md) |
 | ✅ | 31-9094.00 | Medical Transcriptionists | [`medical-transcriptionist`](./roles/medical-transcriptionist/SKILL.md) |
-|  | 31-9095.00 | Pharmacy Aides |  |
+| ✅ | 31-9095.00 | Pharmacy Aides | [`pharmacy-aide`](./roles/pharmacy-aide/SKILL.md) |
 | ✅ | 31-9096.00 | Veterinary Assistants and Laboratory Animal Caretakers | [`veterinary-assistant`](./roles/veterinary-assistant/SKILL.md) |
 | ✅ | 31-9097.00 | Phlebotomists | [`phlebotomist`](./roles/phlebotomist/SKILL.md) |
 |  | 31-9099.00 | Healthcare Support Workers, All Other |  |
-|  | 31-9099.01 | Speech-Language Pathology Assistants |  |
-|  | 31-9099.02 | Endoscopy Technicians |  |
+| ✅ | 31-9099.01 | Speech-Language Pathology Assistants | [`speech-language-pathology-assistant`](./roles/speech-language-pathology-assistant/SKILL.md) |
+| ✅ | 31-9099.02 | Endoscopy Technicians | [`endoscopy-technician`](./roles/endoscopy-technician/SKILL.md) |
 
 </details>
 
