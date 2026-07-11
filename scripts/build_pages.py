@@ -155,7 +155,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <script type="application/ld+json">{breadcrumb}</script>
 <script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
 </head>
-<body>
+<body id="top">
 <header>
   <p class="links"><a href="../../index.html">&larr; All roles</a></p>
   <h1>{name}</h1>
@@ -168,6 +168,13 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <footer>
   <p>Install this role: <code>npx domain-experts add {slug}</code></p>
 </footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {{
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }}, {{ passive: true }});
+</script>
 </body>
 </html>
 """
