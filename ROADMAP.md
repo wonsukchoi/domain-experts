@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 627 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 658 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,7 +365,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (24/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (55/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -387,54 +387,54 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 25-1064.00 | Geography Teachers, Postsecondary |  |
 | ✅ | 25-1065.00 | Political Science Teachers, Postsecondary | [`political-science-professor`](./roles/political-science-professor/SKILL.md) |
 | ✅ | 25-1066.00 | Psychology Teachers, Postsecondary | [`psychology-professor`](./roles/psychology-professor/SKILL.md) |
-|  | 25-1067.00 | Sociology Teachers, Postsecondary |  |
+| ✅ | 25-1067.00 | Sociology Teachers, Postsecondary | [`sociology-professor`](./roles/sociology-professor/SKILL.md) |
 |  | 25-1069.00 | Social Sciences Teachers, Postsecondary, All Other |  |
-|  | 25-1071.00 | Health Specialties Teachers, Postsecondary |  |
-|  | 25-1072.00 | Nursing Instructors and Teachers, Postsecondary |  |
-|  | 25-1081.00 | Education Teachers, Postsecondary |  |
-|  | 25-1082.00 | Library Science Teachers, Postsecondary |  |
-|  | 25-1111.00 | Criminal Justice and Law Enforcement Teachers, Postsecondary |  |
-|  | 25-1112.00 | Law Teachers, Postsecondary |  |
-|  | 25-1113.00 | Social Work Teachers, Postsecondary |  |
-|  | 25-1121.00 | Art, Drama, and Music Teachers, Postsecondary |  |
-|  | 25-1122.00 | Communications Teachers, Postsecondary |  |
-|  | 25-1123.00 | English Language and Literature Teachers, Postsecondary |  |
-|  | 25-1124.00 | Foreign Language and Literature Teachers, Postsecondary |  |
-|  | 25-1125.00 | History Teachers, Postsecondary |  |
-|  | 25-1126.00 | Philosophy and Religion Teachers, Postsecondary |  |
-|  | 25-1192.00 | Family and Consumer Sciences Teachers, Postsecondary |  |
-|  | 25-1193.00 | Recreation and Fitness Studies Teachers, Postsecondary |  |
-|  | 25-1194.00 | Career/Technical Education Teachers, Postsecondary |  |
+| ✅ | 25-1071.00 | Health Specialties Teachers, Postsecondary | [`health-sciences-professor`](./roles/health-sciences-professor/SKILL.md) |
+| ✅ | 25-1072.00 | Nursing Instructors and Teachers, Postsecondary | [`nursing-professor`](./roles/nursing-professor/SKILL.md) |
+| ✅ | 25-1081.00 | Education Teachers, Postsecondary | [`education-professor`](./roles/education-professor/SKILL.md) |
+| ✅ | 25-1082.00 | Library Science Teachers, Postsecondary | [`library-science-professor`](./roles/library-science-professor/SKILL.md) |
+| ✅ | 25-1111.00 | Criminal Justice and Law Enforcement Teachers, Postsecondary | [`criminal-justice-teacher-postsecondary`](./roles/criminal-justice-teacher-postsecondary/SKILL.md) |
+| ✅ | 25-1112.00 | Law Teachers, Postsecondary | [`law-professor`](./roles/law-professor/SKILL.md) |
+| ✅ | 25-1113.00 | Social Work Teachers, Postsecondary | [`social-work-professor`](./roles/social-work-professor/SKILL.md) |
+| ✅ | 25-1121.00 | Art, Drama, and Music Teachers, Postsecondary | [`art-drama-music-professor-postsecondary`](./roles/art-drama-music-professor-postsecondary/SKILL.md) |
+| ✅ | 25-1122.00 | Communications Teachers, Postsecondary | [`communications-teacher-postsecondary`](./roles/communications-teacher-postsecondary/SKILL.md) |
+| ✅ | 25-1123.00 | English Language and Literature Teachers, Postsecondary | [`english-literature-professor`](./roles/english-literature-professor/SKILL.md) |
+| ✅ | 25-1124.00 | Foreign Language and Literature Teachers, Postsecondary | [`foreign-language-literature-professor`](./roles/foreign-language-literature-professor/SKILL.md) |
+| ✅ | 25-1125.00 | History Teachers, Postsecondary | [`history-teacher-postsecondary`](./roles/history-teacher-postsecondary/SKILL.md) |
+| ✅ | 25-1126.00 | Philosophy and Religion Teachers, Postsecondary | [`philosophy-religion-professor`](./roles/philosophy-religion-professor/SKILL.md) |
+| ✅ | 25-1192.00 | Family and Consumer Sciences Teachers, Postsecondary | [`family-consumer-sciences-teacher-postsecondary`](./roles/family-consumer-sciences-teacher-postsecondary/SKILL.md) |
+| ✅ | 25-1193.00 | Recreation and Fitness Studies Teachers, Postsecondary | [`kinesiology-professor`](./roles/kinesiology-professor/SKILL.md) |
+| ✅ | 25-1194.00 | Career/Technical Education Teachers, Postsecondary | [`career-technical-education-teacher-postsecondary`](./roles/career-technical-education-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1199.00 | Postsecondary Teachers, All Other | [`postsecondary-educator`](./roles/postsecondary-educator/SKILL.md) |
 | ✅ | 25-2011.00 | Preschool Teachers, Except Special Education | [`preschool-teacher`](./roles/preschool-teacher/SKILL.md) |
-|  | 25-2012.00 | Kindergarten Teachers, Except Special Education |  |
+| ✅ | 25-2012.00 | Kindergarten Teachers, Except Special Education | [`kindergarten-teacher`](./roles/kindergarten-teacher/SKILL.md) |
 | ✅ | 25-2021.00 | Elementary School Teachers, Except Special Education | [`elementary-school-teacher`](./roles/elementary-school-teacher/SKILL.md) |
-|  | 25-2022.00 | Middle School Teachers, Except Special and Career/Technical Education |  |
-|  | 25-2023.00 | Career/Technical Education Teachers, Middle School |  |
+| ✅ | 25-2022.00 | Middle School Teachers, Except Special and Career/Technical Education | [`middle-school-teacher`](./roles/middle-school-teacher/SKILL.md) |
+| ✅ | 25-2023.00 | Career/Technical Education Teachers, Middle School | [`middle-school-cte-teacher`](./roles/middle-school-cte-teacher/SKILL.md) |
 | ✅ | 25-2031.00 | Secondary School Teachers, Except Special and Career/Technical Education | [`high-school-teacher`](./roles/high-school-teacher/SKILL.md) |
-|  | 25-2032.00 | Career/Technical Education Teachers, Secondary School |  |
+| ✅ | 25-2032.00 | Career/Technical Education Teachers, Secondary School | [`cte-teacher`](./roles/cte-teacher/SKILL.md) |
 |  | 25-2051.00 | Special Education Teachers, Preschool |  |
 |  | 25-2055.00 | Special Education Teachers, Kindergarten |  |
 |  | 25-2056.00 | Special Education Teachers, Elementary School |  |
 |  | 25-2057.00 | Special Education Teachers, Middle School |  |
 |  | 25-2058.00 | Special Education Teachers, Secondary School |  |
 | ✅ | 25-2059.00 | Special Education Teachers, All Other | [`special-education-teacher`](./roles/special-education-teacher/SKILL.md) |
-|  | 25-2059.01 | Adapted Physical Education Specialists |  |
+| ✅ | 25-2059.01 | Adapted Physical Education Specialists | [`adapted-physical-education-specialist`](./roles/adapted-physical-education-specialist/SKILL.md) |
 | ✅ | 25-3011.00 | Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors | [`adult-esl-instructor`](./roles/adult-esl-instructor/SKILL.md) |
-|  | 25-3021.00 | Self-Enrichment Teachers |  |
-|  | 25-3031.00 | Substitute Teachers, Short-Term |  |
+| ✅ | 25-3021.00 | Self-Enrichment Teachers | [`self-enrichment-instructor`](./roles/self-enrichment-instructor/SKILL.md) |
+| ✅ | 25-3031.00 | Substitute Teachers, Short-Term | [`substitute-teacher`](./roles/substitute-teacher/SKILL.md) |
 | ✅ | 25-3041.00 | Tutors | [`tutor`](./roles/tutor/SKILL.md) |
 |  | 25-3099.00 | Teachers and Instructors, All Other |  |
 | ✅ | 25-4011.00 | Archivists | [`archivist`](./roles/archivist/SKILL.md) |
-|  | 25-4012.00 | Curators |  |
-|  | 25-4013.00 | Museum Technicians and Conservators |  |
+| ✅ | 25-4012.00 | Curators | [`curator`](./roles/curator/SKILL.md) |
+| ✅ | 25-4013.00 | Museum Technicians and Conservators | [`museum-conservator`](./roles/museum-conservator/SKILL.md) |
 | ✅ | 25-4022.00 | Librarians and Media Collections Specialists | [`librarian`](./roles/librarian/SKILL.md) |
-|  | 25-4031.00 | Library Technicians |  |
-|  | 25-9021.00 | Farm and Home Management Educators |  |
+| ✅ | 25-4031.00 | Library Technicians | [`library-technician`](./roles/library-technician/SKILL.md) |
+| ✅ | 25-9021.00 | Farm and Home Management Educators | [`extension-educator`](./roles/extension-educator/SKILL.md) |
 | ✅ | 25-9031.00 | Instructional Coordinators | [`instructional-coordinator`](./roles/instructional-coordinator/SKILL.md) |
-|  | 25-9042.00 | Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education |  |
-|  | 25-9043.00 | Teaching Assistants, Special Education |  |
-|  | 25-9044.00 | Teaching Assistants, Postsecondary |  |
+| ✅ | 25-9042.00 | Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education | [`teaching-assistant`](./roles/teaching-assistant/SKILL.md) |
+| ✅ | 25-9043.00 | Teaching Assistants, Special Education | [`special-education-paraeducator`](./roles/special-education-paraeducator/SKILL.md) |
+| ✅ | 25-9044.00 | Teaching Assistants, Postsecondary | [`teaching-assistant-postsecondary`](./roles/teaching-assistant-postsecondary/SKILL.md) |
 |  | 25-9049.00 | Teaching Assistants, All Other |  |
 |  | 25-9099.00 | Educational Instruction and Library Workers, All Other |  |
 
