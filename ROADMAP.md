@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 818 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 819 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,14 +365,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (55/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (56/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 |  | 25-1011.00 | Business Teachers, Postsecondary |  |
 | ✅ | 25-1021.00 | Computer Science Teachers, Postsecondary | [`computer-science-professor`](./roles/computer-science-professor/SKILL.md) |
 | ✅ | 25-1022.00 | Mathematical Science Teachers, Postsecondary | [`math-teacher-postsecondary`](./roles/math-teacher-postsecondary/SKILL.md) |
-|  | 25-1031.00 | Architecture Teachers, Postsecondary |  |
+| ✅ | 25-1031.00 | Architecture Teachers, Postsecondary | [`architecture-teacher-postsecondary`](./roles/architecture-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1032.00 | Engineering Teachers, Postsecondary | [`engineering-professor`](./roles/engineering-professor/SKILL.md) |
 | ✅ | 25-1041.00 | Agricultural Sciences Teachers, Postsecondary | [`agricultural-sciences-professor`](./roles/agricultural-sciences-professor/SKILL.md) |
 | ✅ | 25-1042.00 | Biological Science Teachers, Postsecondary | [`biology-professor`](./roles/biology-professor/SKILL.md) |

@@ -1,5 +1,5 @@
 {
-  "count": 828,
+  "count": 829,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -860,6 +860,27 @@
       "skill": "roles/architectural-engineering-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "architecture-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of an Architecture Teacher, Postsecondary \u2014 backward-mapping a design studio curriculum to NAAB Student Criteria for an accreditation visit, resolving a cross-section jury grading discrepancy, distinguishing a rigorous crit from a hostile one, advising a student on the NCARB AXP/ARE licensure sequence separate from the degree, or evaluating a design-build or community-engaged practice project for tenure and promotion.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/architecture-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
