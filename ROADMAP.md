@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 781 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 796 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -748,32 +748,32 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>41 — Sales and Related</strong> (7/23 drafted)</summary>
+<summary><strong>41 — Sales and Related</strong> (22/23 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 41-1011.00 | First-Line Supervisors of Retail Sales Workers |  |
-|  | 41-1012.00 | First-Line Supervisors of Non-Retail Sales Workers |  |
-|  | 41-2011.00 | Cashiers |  |
-|  | 41-2012.00 | Gambling Change Persons and Booth Cashiers |  |
-|  | 41-2021.00 | Counter and Rental Clerks |  |
-|  | 41-2022.00 | Parts Salespersons |  |
-|  | 41-2031.00 | Retail Salespersons |  |
+| ✅ | 41-1011.00 | First-Line Supervisors of Retail Sales Workers | [`retail-store-supervisor`](./roles/retail-store-supervisor/SKILL.md) |
+| ✅ | 41-1012.00 | First-Line Supervisors of Non-Retail Sales Workers | [`sales-supervisor`](./roles/sales-supervisor/SKILL.md) |
+| ✅ | 41-2011.00 | Cashiers | [`cashier`](./roles/cashier/SKILL.md) |
+| ✅ | 41-2012.00 | Gambling Change Persons and Booth Cashiers | [`gambling-booth-cashier`](./roles/gambling-booth-cashier/SKILL.md) |
+| ✅ | 41-2021.00 | Counter and Rental Clerks | [`rental-counter-clerk`](./roles/rental-counter-clerk/SKILL.md) |
+| ✅ | 41-2022.00 | Parts Salespersons | [`parts-counter-salesperson`](./roles/parts-counter-salesperson/SKILL.md) |
+| ✅ | 41-2031.00 | Retail Salespersons | [`retail-sales-associate`](./roles/retail-sales-associate/SKILL.md) |
 | ✅ | 41-3011.00 | Advertising Sales Agents | [`advertising-sales-agent`](./roles/advertising-sales-agent/SKILL.md) |
 | ✅ | 41-3021.00 | Insurance Sales Agents | [`insurance-sales-agent`](./roles/insurance-sales-agent/SKILL.md) |
 | ✅ | 41-3031.00 | Securities, Commodities, and Financial Services Sales Agents | [`securities-sales-agent`](./roles/securities-sales-agent/SKILL.md) |
 | ✅ | 41-3041.00 | Travel Agents | [`travel-agent`](./roles/travel-agent/SKILL.md) |
-|  | 41-3091.00 | Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel |  |
+| ✅ | 41-3091.00 | Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel | [`services-sales-representative`](./roles/services-sales-representative/SKILL.md) |
 | ♻️ | 41-4011.00 | Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products | [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) |
-|  | 41-4011.07 | Solar Sales Representatives and Assessors |  |
-|  | 41-4012.00 | Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products |  |
-|  | 41-9011.00 | Demonstrators and Product Promoters |  |
-|  | 41-9012.00 | Models |  |
+| ✅ | 41-4011.07 | Solar Sales Representatives and Assessors | [`solar-sales-assessor`](./roles/solar-sales-assessor/SKILL.md) |
+| ✅ | 41-4012.00 | Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products | [`wholesale-sales-representative`](./roles/wholesale-sales-representative/SKILL.md) |
+| ✅ | 41-9011.00 | Demonstrators and Product Promoters | [`product-demonstrator`](./roles/product-demonstrator/SKILL.md) |
+| ✅ | 41-9012.00 | Models | [`fashion-model`](./roles/fashion-model/SKILL.md) |
 | ✅ | 41-9021.00 | Real Estate Brokers | [`real-estate-broker`](./roles/real-estate-broker/SKILL.md) |
-|  | 41-9022.00 | Real Estate Sales Agents |  |
+| ✅ | 41-9022.00 | Real Estate Sales Agents | [`real-estate-agent`](./roles/real-estate-agent/SKILL.md) |
 | ✅ | 41-9031.00 | Sales Engineers | [`sales-engineer`](./roles/sales-engineer/SKILL.md) |
-|  | 41-9041.00 | Telemarketers |  |
-|  | 41-9091.00 | Door-to-Door Sales Workers, News and Street Vendors, and Related Workers |  |
+| ✅ | 41-9041.00 | Telemarketers | [`telemarketer`](./roles/telemarketer/SKILL.md) |
+| ✅ | 41-9091.00 | Door-to-Door Sales Workers, News and Street Vendors, and Related Workers | [`door-to-door-sales-worker`](./roles/door-to-door-sales-worker/SKILL.md) |
 |  | 41-9099.00 | Sales and Related Workers, All Other |  |
 
 </details>

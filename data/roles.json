@@ -1,5 +1,5 @@
 {
-  "count": 791,
+  "count": 806,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2154,6 +2154,27 @@
       "skill": "roles/cartographer-photogrammetrist/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cashier",
+      "description": "Use when a task needs the judgment of a retail/grocery cashier \u2014 reconciling a till at shift close, deciding whether to accept a large bill or flag it, handling a no-receipt return, de-escalating a price dispute at the register, or spotting a shortage pattern that looks like theft versus error.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-2011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cashier/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -4423,6 +4444,27 @@
       ]
     },
     {
+      "slug": "door-to-door-sales-worker",
+      "description": "Use when a task needs the judgment of a Door-to-Door Sales Worker \u2014 planning a canvassing route or street-vending spot, diagnosing a rep's or vendor's underperformance from doors/contacts/sits/close ratios, navigating solicitation-permit or curfew or cooling-off compliance, structuring a doorstep pitch and objection handling, or reconciling a shift's cash and inventory.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/door-to-door-sales-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "dredge-operator",
       "description": "Use when a task needs the judgment of a Dredge Operator \u2014 selecting cutterhead, hopper, or mechanical dredge type for a given sediment/depth/environmental profile, classifying dredged material for open-water vs. confined disposal from sediment-testing results, tuning hydraulic slurry density against pipeline critical velocity, verifying channel controlling depth against project depth and overdepth tolerance, or setting turbidity-monitoring response during active dredging.",
       "category": "operations",
@@ -5600,6 +5642,27 @@
       ]
     },
     {
+      "slug": "fashion-model",
+      "description": "Use when a task needs the judgment of a professional fashion/commercial Model \u2014 negotiating usage rights and exclusivity on a booking, reading a modeling contract for hidden double-commission or chargeback terms, deciding whether a casting or agency offer matches a known scam pattern, or tracking category-exclusivity and option conflicts across active bookings.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fashion-model/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "fast-food-cook",
       "description": "Use when a task needs the judgment of a Fast Food Cook \u2014 running a franchise grill/fry station strictly to a corporate build-to-spec card, enforcing quality-hold-timer discard windows on fries/burgers/chicken against a manager who wants to keep serving aging product, calibrating a fryer's oil-change threshold from a TPM meter reading, hitting drive-thru speed-of-service time targets during a rush, or training a first-shift crew member on a scripted station.",
       "category": "operations",
@@ -6548,6 +6611,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/furniture-finisher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "gambling-booth-cashier",
+      "description": "Use when a task needs the judgment of a gambling change person or booth cashier \u2014 reconciling a slot-booth bank at shift end, deciding whether a jackpot hand pay needs a W-2G and supervisor sign-off, validating or declining a suspect TITO ticket, logging a patron's cash-out toward the property's MTL threshold, or working a fill slip against a hopper.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-2012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/gambling-booth-cashier/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11295,6 +11379,27 @@
       ]
     },
     {
+      "slug": "parts-counter-salesperson",
+      "description": "Use when a task needs the judgment of a Parts Counter Salesperson \u2014 identifying the correct part from a vague symptom description, resolving a fitment or interchange question, chasing a superseded part number before quoting, pricing a commercial repair-shop account, or handling a core-charge or warranty return dispute.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/parts-counter-salesperson/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "passenger-attendant",
       "description": "Use when a task needs the judgment of a passenger attendant \u2014 securing a wheelchair passenger to WC19 anchor points before a rail platform's scheduled departure, deciding whether to request an extended-dwell hold from the conductor/train operator, triaging an onboard medical complaint against a non-clinical scope of care and deciding when to escalate to EMS, reconciling a mobility-assistance manifest for evacuation accountability, or working a paratransit door-to-door pickup against an on-time pickup window.",
       "category": "operations",
@@ -12530,6 +12635,27 @@
       ]
     },
     {
+      "slug": "product-demonstrator",
+      "description": "Use when a task needs the judgment of a product demonstrator or promoter \u2014 planning an in-store sampling event, writing or troubleshooting a demo pitch, reading shift results to decide whether a program should expand, handling a food-safety or compliance issue at a sampling table, or evaluating a brand-ambassador activation's real impact.",
+      "category": "marketing",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/product-demonstrator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "product-manager",
       "description": "Use when a task needs senior product-manager judgment \u2014 prioritizing between features with real tradeoffs, writing PRDs and decision docs, translating stakeholder requests into problems, killing underperforming features, or deciding what not to build.",
       "category": "product",
@@ -13169,6 +13295,27 @@
       ]
     },
     {
+      "slug": "real-estate-agent",
+      "description": "Use when a task needs the judgment of a Real Estate Sales Agent \u2014 building a lead-generation and follow-up plan, running a listing presentation and handling a seller's price objection, structuring buyer representation and offer strategy under a supervising broker, or working commission-split and cap economics.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/real-estate-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "real-estate-appraiser",
       "description": "Use when a task needs the judgment of a Real Estate Appraiser \u2014 selecting and adjusting comparable sales in a sales comparison approach, determining a property's highest and best use, reconciling divergent value indications from the sales comparison, cost, and income approaches, or maintaining appraiser independence on a mortgage lending assignment.",
       "category": "finance",
@@ -13484,6 +13631,27 @@
       ]
     },
     {
+      "slug": "rental-counter-clerk",
+      "description": "Use when a task needs the judgment of a Rental Counter Clerk \u2014 walking a customer through a pre-rental equipment or vehicle inspection and damage-waiver decision, sizing a deposit or credit-card authorization hold at checkout, resolving a return-time damage or late-return dispute against the signed agreement, or scheduling a unit's availability against maintenance and next-reservation conflicts.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/rental-counter-clerk/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "reservation-transportation-ticket-agent",
       "description": "Use when a task needs the judgment of a reservation and transportation ticket agent \u2014 rebooking passengers during an irregular-operations (IROP) event, calculating denied-boarding compensation for an oversold flight, interpreting a single carrier's fare-class change/cancellation rules, or triaging a day-of-travel standby list.",
       "category": "operations",
@@ -13579,6 +13747,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/retail-loss-prevention-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "retail-sales-associate",
+      "description": "Use when a task needs the judgment of a Retail Sales Associate \u2014 diagnosing a slow-sales day or week on the floor, coaching add-on/upsell technique, handling a return or no-receipt exchange, reading a shrink or loss-prevention exception report, or planning floor coverage around peak traffic.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/retail-sales-associate/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "retail-store-supervisor",
+      "description": "Use when a task needs the judgment of a Retail Store Supervisor \u2014 building a shift schedule against the traffic curve, diagnosing a conversion-rate or shrink miss, running a floor coaching or corrective conversation, triaging an opening/closing cash-count discrepancy, or complying with predictive-scheduling law when a shift needs a last-minute change.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/retail-store-supervisor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -13786,6 +13996,27 @@
       "audit_score": null,
       "skill": "roles/sales-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sales-supervisor",
+      "description": "Use when a task needs the judgment of a first-line supervisor of non-retail sales workers \u2014 running a daily/weekly floor report for an inside or outside B2B sales team, diagnosing a quota miss down to the funnel stage that broke, approving a discount or credit-term exception, rebalancing account territories, or catching a compliance exposure (call-abandonment rate, commission-draw handling, outside-sales classification) before it becomes a fine.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-1012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sales-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -14071,6 +14302,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/separation-still-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "services-sales-representative",
+      "description": "Use when a task needs the judgment of a commercial services sales representative \u2014 displacing an incumbent vendor before a contract's renewal-notice window closes, building a total-cost-of-ownership case against a lower sticker price, running a save call on an account that just gave cancellation notice, or sizing a territory by route density instead of raw account count.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-3091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/services-sales-representative/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -14487,6 +14739,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/solar-photovoltaic-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "solar-sales-assessor",
+      "description": "Use when a task needs the judgment of a residential/commercial Solar Sales Representative and Assessor \u2014 sizing a PV+storage system against a specific utility tariff, building a cash-price-equivalent financing comparison, running a site/roof/shading assessment, or catching a savings claim that won't survive contact with the actual rate schedule.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-4011.07",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/solar-sales-assessor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -15340,6 +15613,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/telecommunications-engineering-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "telemarketer",
+      "description": "Use when a task needs the judgment of a telemarketer \u2014 writing or fixing an outbound call opening, diagnosing a weak close rate on a call campaign, handling objections on a live-call script, or checking a call list/campaign against Do-Not-Call and dialer-abandonment compliance.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-9041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/telemarketer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -16311,6 +16605,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/wellhead-pumper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "wholesale-sales-representative",
+      "description": "Use when a task needs the judgment of a wholesale/manufacturing sales representative \u2014 negotiating a price increase pass-through against a distributor buyer, structuring a volume rebate instead of a straight price cut, defending an account against a line review, auditing chargebacks and deductions eating into commission, or building a territory account-tiering plan.",
+      "category": "sales",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "41-4012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/wholesale-sales-representative/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
