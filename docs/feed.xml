@@ -4,7 +4,126 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sun, 12 Jul 2026 13:39:06 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 13:53:23 +0000</lastBuildDate>
+  <item>
+    <title>Animal Control Worker</title>
+    <link>https://domainexperts.dev/roles/animal-control-worker/</link>
+    <guid>https://domainexperts.dev/roles/animal-control-worker/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Animal Control Worker — responding to a dog-bite or animal-attack call, determining rabies-exposure quarantine protocol, evaluating a dangerous-dog classification referral, planning a cruelty/neglect investigation and removal, or selecting a capture/restraint method for a stray or wildlife-in-structure call.</description>
+  </item>
+  <item>
+    <title>Bailiff</title>
+    <link>https://domainexperts.dev/roles/bailiff/</link>
+    <guid>https://domainexperts.dev/roles/bailiff/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a bailiff or court officer — deciding whether an in-custody defendant appears in visible or concealed restraints, running courtroom entry screening and staffing it for expected volume, handling a disruptive defendant or spectator under the judge&#x27;s authority, moving a jury note between jury room and bench without an ex parte violation, or planning custody/security for a jury sequestration.</description>
+  </item>
+  <item>
+    <title>Corrections Sergeant</title>
+    <link>https://domainexperts.dev/roles/corrections-sergeant/</link>
+    <guid>https://domainexperts.dev/roles/corrections-sergeant/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a corrections sergeant or shift supervisor — mandating overtime to restore a post below minimum staffing, reviewing and countersigning a subordinate&#x27;s use-of-force report, running progressive discipline for a line officer, assuming incident command during a multi-officer response, or handling a first-level inmate grievance.</description>
+  </item>
+  <item>
+    <title>Crossing Guard Flagger</title>
+    <link>https://domainexperts.dev/roles/crossing-guard-flagger/</link>
+    <guid>https://domainexperts.dev/roles/crossing-guard-flagger/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a crossing guard or traffic flagger — siting a school crossing or work-zone flagger station, choosing high-visibility apparel class and taper length for a lane closure, deciding whether a crossing needs an adult guard versus a signal, or writing site-specific positioning instructions for a new location.</description>
+  </item>
+  <item>
+    <title>Fire Captain</title>
+    <link>https://domainexperts.dev/roles/fire-captain/</link>
+    <guid>https://domainexperts.dev/roles/fire-captain/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Fire Captain (first-line supervisor of firefighting and prevention workers) — deciding how to fill a minimum-staffing gap on a shift, judging whether an overtime/callback run-rate signals a structural staffing problem, clearing or holding apparatus and PPE against NFPA test/service-life standards, or writing up a training-compliance or discipline decision that has to survive later scrutiny.</description>
+  </item>
+  <item>
+    <title>Forest Fire Prevention Specialist</title>
+    <link>https://domainexperts.dev/roles/forest-fire-prevention-specialist/</link>
+    <guid>https://domainexperts.dev/roles/forest-fire-prevention-specialist/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forest Fire Inspector/Prevention Specialist — setting or interpreting an industrial fire precaution level for logging/timber operations, inspecting a job site or campground for fire-hazard compliance, deciding whether to issue or deny a burn permit given current fire-danger indices, investigating a wildfire&#x27;s origin and cause, or scoping a fuel-reduction/defensible-space prevention program for a district.</description>
+  </item>
+  <item>
+    <title>Gambling Surveillance Investigator</title>
+    <link>https://domainexperts.dev/roles/gambling-surveillance-investigator/</link>
+    <guid>https://domainexperts.dev/roles/gambling-surveillance-investigator/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Gambling Surveillance Officer or Gambling Investigator — reviewing camera footage to classify a suspected cheating or past-posting incident, deciding whether a hold or payout variance is a dealer error or an insider collusion pattern, building an evidence-backed incident report for a gaming control board or law enforcement referral, or flagging a structuring/CTR pattern spotted on camera before the cage&#x27;s own systems catch it.</description>
+  </item>
+  <item>
+    <title>Lifeguard And Ski Patrol</title>
+    <link>https://domainexperts.dev/roles/lifeguard-and-ski-patrol/</link>
+    <guid>https://domainexperts.dev/roles/lifeguard-and-ski-patrol/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a lifeguard or ski patroller — designing or auditing a water/mountain Emergency Action Plan, staffing a guard zone or terrain closure, triaging a multi-victim water or avalanche incident, deciding whether a rescue needs reach/throw/row/go escalation, or writing an incident report that will survive legal review.</description>
+  </item>
+  <item>
+    <title>Parking Enforcement Officer</title>
+    <link>https://domainexperts.dev/roles/parking-enforcement-officer/</link>
+    <guid>https://domainexperts.dev/roles/parking-enforcement-officer/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Parking Enforcement Officer — timing and documenting a metered-parking overstay, deciding whether a vehicle meets a scofflaw boot/tow threshold, checking whether a &quot;no parking&quot; citation will survive a sign-compliance challenge, verifying a disabled placard against registry records, or preparing a citation&#x27;s evidence packet for an administrative hearing.</description>
+  </item>
+  <item>
+    <title>Police Identification Records Officer</title>
+    <link>https://domainexperts.dev/roles/police-identification-records-officer/</link>
+    <guid>https://domainexperts.dev/roles/police-identification-records-officer/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Police Identification and Records Officer — running and disposing an AFIS latent-print candidate list, deciding whether a criminal-history or NCIC records disclosure is legally authorized for the requester, reconciling an NCIC want/warrant validation cycle before entries purge, or evaluating whether a fingerprint identification is documented well enough to survive cross-examination.</description>
+  </item>
+  <item>
+    <title>Police Supervisor</title>
+    <link>https://domainexperts.dev/roles/police-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/police-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a police sergeant or first-line supervisor — reviewing a use-of-force report and deciding whether it clears or needs escalation, deciding when an early-intervention-system flag requires a formal intervention versus a documented conversation, structuring a Garrity-compliant administrative interview, building a shift roster against minimum staffing, or evaluating a field training officer&#x27;s daily observation reports for a probationary officer.</description>
+  </item>
+  <item>
+    <title>Retail Loss Prevention Specialist</title>
+    <link>https://domainexperts.dev/roles/retail-loss-prevention-specialist/</link>
+    <guid>https://domainexperts.dev/roles/retail-loss-prevention-specialist/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Retail Loss Prevention Specialist — deciding whether a floor observation clears the bar for a shoplifting stop, running plainclothes surveillance across a heat-mapped shrink zone, executing a stop safely without exceeding no-pursuit/no-contact policy, triaging a self-checkout scan-avoidance case, or writing the incident report and chain-of-custody log that a case will stand or fall on.</description>
+  </item>
+  <item>
+    <title>School Bus Monitor</title>
+    <link>https://domainexperts.dev/roles/school-bus-monitor/</link>
+    <guid>https://domainexperts.dev/roles/school-bus-monitor/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a school bus monitor — securing a wheelchair user with the four-point tiedown sequence before a route, responding to a mid-route seizure or medical event against a student&#x27;s individualized health care plan, reconciling a headcount discrepancy against the manifest before releasing any student, or executing an evacuation-drill role assignment during a bus emergency.</description>
+  </item>
+  <item>
+    <title>Security Guard</title>
+    <link>https://domainexperts.dev/roles/security-guard/</link>
+    <guid>https://domainexperts.dev/roles/security-guard/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Security Guard — deciding whether to physically detain a suspected shoplifter or trespasser, choosing when to use force versus call police, writing a post-incident report that will hold up in a civil claim, running a fire watch or patrol schedule, or working a healthcare/retail/corporate post against written post orders.</description>
+  </item>
+  <item>
+    <title>Security Supervisor</title>
+    <link>https://domainexperts.dev/roles/security-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/security-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a first-line security supervisor — building post coverage and shift schedules, deciding how to fill a callout or staffing gap, reviewing an incident or use-of-force report, responding to a client&#x27;s request to cut a post, or handling an officer performance or discipline issue.</description>
+  </item>
+  <item>
+    <title>Transit Railroad Police</title>
+    <link>https://domainexperts.dev/roles/transit-railroad-police/</link>
+    <guid>https://domainexperts.dev/roles/transit-railroad-police/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transit and Railroad Police officer — deciding whether to request an emergency train hold and track power-down before approaching a person on the roadbed, working a scene where jurisdiction runs along railroad property rather than a municipal boundary, sizing an enforcement response to fare evasion versus a felony call, or handling an unattended-item report at a station.</description>
+  </item>
+  <item>
+    <title>Transportation Security Screener</title>
+    <link>https://domainexperts.dev/roles/transportation-security-screener/</link>
+    <guid>https://domainexperts.dev/roles/transportation-security-screener/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:52:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Transportation Security Officer (airport checkpoint screener) — resolving an AIT or metal-detector alarm to its SOP endpoint, deciding disposition for a prohibited or restricted item, triaging a multi-alarm passenger under queue-time pressure, or evaluating whether a screening shortcut created a procedural gap.</description>
+  </item>
   <item>
     <title>Cargo Inspector</title>
     <link>https://domainexperts.dev/roles/cargo-inspector/</link>

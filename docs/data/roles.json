@@ -1,5 +1,5 @@
 {
-  "count": 774,
+  "count": 791,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -637,6 +637,27 @@
       ]
     },
     {
+      "slug": "animal-control-worker",
+      "description": "Use when a task needs the judgment of an Animal Control Worker \u2014 responding to a dog-bite or animal-attack call, determining rabies-exposure quarantine protocol, evaluating a dangerous-dog classification referral, planning a cruelty/neglect investigation and removal, or selecting a capture/restraint method for a stray or wildlife-in-structure call.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/animal-control-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "animal-scientist",
       "description": "Use when a task needs the judgment of an Animal Scientist \u2014 formulating a least-cost livestock ration against nutrient requirements, evaluating breeding stock using EPDs or a selection index, diagnosing a feed-conversion-ratio decline, or designing a growth/reproduction performance-monitoring plan for a livestock operation.",
       "category": "other",
@@ -1215,6 +1236,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/avionics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "bailiff",
+      "description": "Use when a task needs the judgment of a bailiff or court officer \u2014 deciding whether an in-custody defendant appears in visible or concealed restraints, running courtroom entry screening and staffing it for expected volume, handling a disruptive defendant or spectator under the judge's authority, moving a jury note between jury room and bench without an ex parte violation, or planning custody/security for a jury sequestration.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/bailiff/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3297,6 +3339,27 @@
       ]
     },
     {
+      "slug": "corrections-sergeant",
+      "description": "Use when a task needs the judgment of a corrections sergeant or shift supervisor \u2014 mandating overtime to restore a post below minimum staffing, reviewing and countersigning a subordinate's use-of-force report, running progressive discipline for a line officer, assuming incident command during a multi-officer response, or handling a first-level inmate grievance.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/corrections-sergeant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "correspondence-clerk",
       "description": "Use when a task needs the judgment of a Correspondence Clerk \u2014 selecting and customizing a template response to a standardized written inquiry, triaging a correspondence queue against SLA deadlines, deciding when a form letter suffices versus needs escalation, or auditing a response-template library for staleness.",
       "category": "operations",
@@ -3560,6 +3623,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/crop-nursery-farmworker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "crossing-guard-flagger",
+      "description": "Use when a task needs the judgment of a crossing guard or traffic flagger \u2014 siting a school crossing or work-zone flagger station, choosing high-visibility apparel class and taper length for a lane closure, deciding whether a crossing needs an adult guard versus a signal, or writing site-specific positioning instructions for a new location.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/crossing-guard-flagger/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5743,6 +5827,27 @@
       ]
     },
     {
+      "slug": "fire-captain",
+      "description": "Use when a task needs the judgment of a Fire Captain (first-line supervisor of firefighting and prevention workers) \u2014 deciding how to fill a minimum-staffing gap on a shift, judging whether an overtime/callback run-rate signals a structural staffing problem, clearing or holding apparatus and PPE against NFPA test/service-life standards, or writing up a training-compliance or discipline decision that has to survive later scrutiny.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-1021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/fire-captain/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "fire-inspector-investigator",
       "description": "Use when a task needs the judgment of a Fire Inspector/Investigator \u2014 determining fire cause and origin from scene evidence, evaluating fire-code compliance during an occupancy inspection, calculating required egress width against occupant load, distinguishing arson indicators from accidental-cause fire dynamics, or drafting a code-violation notice or cause-classification report.",
       "category": "other",
@@ -6163,6 +6268,27 @@
       ]
     },
     {
+      "slug": "forest-fire-prevention-specialist",
+      "description": "Use when a task needs the judgment of a Forest Fire Inspector/Prevention Specialist \u2014 setting or interpreting an industrial fire precaution level for logging/timber operations, inspecting a job site or campground for fire-hazard compliance, deciding whether to issue or deny a burn permit given current fire-danger indices, investigating a wildfire's origin and cause, or scoping a fuel-reduction/defensible-space prevention program for a district.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-2022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/forest-fire-prevention-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "forester",
       "description": "Use when a task needs the judgment of a Forester \u2014 cruising a stand to estimate merchantable timber volume and value, recommending a harvest or thinning prescription, selecting a silvicultural system for regeneration, calculating financial vs. biological rotation age, or evaluating whether a stand's stocking or growth data supports a proposed cut.",
       "category": "other",
@@ -6466,6 +6592,27 @@
       "skill": "roles/gambling-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "gambling-surveillance-investigator",
+      "description": "Use when a task needs the judgment of a Gambling Surveillance Officer or Gambling Investigator \u2014 reviewing camera footage to classify a suspected cheating or past-posting incident, deciding whether a hold or payout variance is a dealer error or an insider collusion pattern, building an evidence-backed incident report for a gaming control board or law enforcement referral, or flagging a structuring/CTR pattern spotted on camera before the cage's own systems catch it.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/gambling-surveillance-investigator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -8369,6 +8516,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/licensed-practical-nurse/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "lifeguard-and-ski-patrol",
+      "description": "Use when a task needs the judgment of a lifeguard or ski patroller \u2014 designing or auditing a water/mountain Emergency Action Plan, staffing a guard zone or terrain closure, triaging a multi-victim water or avalanche incident, deciding whether a rescue needs reach/throw/row/go escalation, or writing an incident report that will survive legal review.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/lifeguard-and-ski-patrol/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11106,6 +11274,27 @@
       ]
     },
     {
+      "slug": "parking-enforcement-officer",
+      "description": "Use when a task needs the judgment of a Parking Enforcement Officer \u2014 timing and documenting a metered-parking overstay, deciding whether a vehicle meets a scofflaw boot/tow threshold, checking whether a \"no parking\" citation will survive a sign-compliance challenge, verifying a disabled placard against registry records, or preparing a citation's evidence packet for an administrative hearing.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-3041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/parking-enforcement-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "passenger-attendant",
       "description": "Use when a task needs the judgment of a passenger attendant \u2014 securing a wheelchair passenger to WC19 anchor points before a rail platform's scheduled departure, deciding whether to request an extended-dwell hold from the conductor/train operator, triaging an onboard medical complaint against a non-clinical scope of care and deciding when to escalate to EMS, reconciling a mobility-assistance manifest for evacuation accountability, or working a paratransit door-to-door pickup against an on-time pickup window.",
       "category": "operations",
@@ -11879,6 +12068,27 @@
       ]
     },
     {
+      "slug": "police-identification-records-officer",
+      "description": "Use when a task needs the judgment of a Police Identification and Records Officer \u2014 running and disposing an AFIS latent-print candidate list, deciding whether a criminal-history or NCIC records disclosure is legally authorized for the requester, reconciling an NCIC want/warrant validation cycle before entries purge, or evaluating whether a fingerprint identification is documented well enough to survive cross-examination.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-3021.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/police-identification-records-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "police-patrol-officer",
       "description": "Use when a task needs the judgment of a Police and Sheriff's Patrol Officer \u2014 deciding whether force is objectively reasonable under Graham v. Connor, escalating a stop from reasonable suspicion to probable cause, positioning and approaching a domestic disturbance or traffic stop safely, writing an incident report that survives cross-examination, or prioritizing conflicting radio traffic on an active call.",
       "category": "other",
@@ -11890,6 +12100,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/police-patrol-officer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "police-supervisor",
+      "description": "Use when a task needs the judgment of a police sergeant or first-line supervisor \u2014 reviewing a use-of-force report and deciding whether it clears or needs escalation, deciding when an early-intervention-system flag requires a formal intervention versus a documented conversation, structuring a Garrity-compliant administrative interview, building a shift roster against minimum staffing, or evaluating a field training officer's daily observation reports for a probationary officer.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-1012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/police-supervisor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -13337,6 +13568,27 @@
       ]
     },
     {
+      "slug": "retail-loss-prevention-specialist",
+      "description": "Use when a task needs the judgment of a Retail Loss Prevention Specialist \u2014 deciding whether a floor observation clears the bar for a shoplifting stop, running plainclothes surveillance across a heat-mapped shrink zone, executing a stop safely without exceeding no-pursuit/no-contact policy, triaging a self-checkout scan-avoidance case, or writing the incident report and chain-of-custody log that a case will stand or fall on.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9099.02",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/retail-loss-prevention-specialist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "rfid-device-specialist",
       "description": "Use when a task needs the judgment of an RFID Device Specialist \u2014 running a site RF survey before a warehouse or retail RFID deployment, diagnosing a degraded read rate or dead zone on an installed portal, selecting tag/reader/antenna configurations against FCC/ETSI power limits, or bridging RFID event data into a legacy WMS/ERP that can't ingest it natively.",
       "category": "engineering",
@@ -13560,6 +13812,27 @@
       ]
     },
     {
+      "slug": "school-bus-monitor",
+      "description": "Use when a task needs the judgment of a school bus monitor \u2014 securing a wheelchair user with the four-point tiedown sequence before a route, responding to a mid-route seizure or medical event against a student's individualized health care plan, reconciling a headcount discrepancy against the manifest before releasing any student, or executing an evacuation-drill role assignment during a bus emergency.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9094.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/school-bus-monitor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "school-career-counselor",
       "description": "Use when a task needs the judgment of a School (Educational, Guidance, and Career) Counselor \u2014 stating the limits of confidentiality to a student before a substantive disclosure, triaging whether a student's presenting issue fits brief school-based support or needs an outside clinical referral, applying a mandated-reporting threshold without weighing it against rapport concerns, reasoning through the multi-year consequences of a course/track placement decision, or defending counseling time against non-counseling duty creep using caseload and ASCA-model data.",
       "category": "other",
@@ -13686,6 +13959,27 @@
       ]
     },
     {
+      "slug": "security-guard",
+      "description": "Use when a task needs the judgment of a Security Guard \u2014 deciding whether to physically detain a suspected shoplifter or trespasser, choosing when to use force versus call police, writing a post-incident report that will hold up in a civil claim, running a fire watch or patrol schedule, or working a healthcare/retail/corporate post against written post orders.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/security-guard/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "security-management-specialist",
       "description": "Use when a task needs the judgment of a corporate security management specialist \u2014 designing a physical/personnel security program, scoping an executive protection detail, building a workplace violence prevention plan, sizing or vetting a contract guard force, or running a facility security risk assessment. Distinct from a cybersecurity role (network/data protection) and from a compliance-officer (regulatory adherence) \u2014 this role protects people, physical assets, and continuity of operations against human threats.",
       "category": "operations",
@@ -13719,6 +14013,27 @@
       "audit_score": null,
       "skill": "roles/security-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "security-supervisor",
+      "description": "Use when a task needs the judgment of a first-line security supervisor \u2014 building post coverage and shift schedules, deciding how to fill a callout or staffing gap, reviewing an incident or use-of-force report, responding to a client's request to cut a post, or handling an officer performance or discipline issue.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-1091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/security-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -15346,6 +15661,27 @@
       ]
     },
     {
+      "slug": "transit-railroad-police",
+      "description": "Use when a task needs the judgment of a Transit and Railroad Police officer \u2014 deciding whether to request an emergency train hold and track power-down before approaching a person on the roadbed, working a scene where jurisdiction runs along railroad property rather than a municipal boundary, sizing an enforcement response to fare evasion versus a felony call, or handling an unattended-item report at a station.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-3052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/transit-railroad-police/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "translator-interpreter",
       "description": "Use when a task needs the judgment of a translator or interpreter \u2014 translating a technical/legal/marketing document, deciding between light and full machine-translation post-editing, choosing simultaneous vs consecutive interpretation for an assignment, resolving an ambiguous or untranslatable source term, or preparing a certified translation for a legal/immigration/court requirement.",
       "category": "other",
@@ -15422,6 +15758,27 @@
       "skill": "roles/transportation-planner/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "transportation-security-screener",
+      "description": "Use when a task needs the judgment of a Transportation Security Officer (airport checkpoint screener) \u2014 resolving an AIT or metal-detector alarm to its SOP endpoint, deciding disposition for a prohibited or restricted item, triaging a multi-alarm passenger under queue-time pressure, or evaluating whether a screening shortcut created a procedural gap.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "33-9093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/transportation-security-screener/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
