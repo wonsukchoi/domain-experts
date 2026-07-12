@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gambling Booth Cashier — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a gambling change person or booth cashier — reconciling a slot-booth bank at shift end, deciding whether a jackpot hand pay needs a W-2G and supervisor sign-off, validating or declining a suspect TITO ticket, logging a patron&#x27;s cash-out toward the property&#x27;s MTL threshold, or working a fill slip against a hopper.">
+<link rel="canonical" href="https://domainexperts.dev/roles/gambling-booth-cashier/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Gambling Booth Cashier — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a gambling change person or booth cashier — reconciling a slot-booth bank at shift end, deciding whether a jackpot hand pay needs a W-2G and supervisor sign-off, validating or declining a suspect TITO ticket, logging a patron&#x27;s cash-out toward the property&#x27;s MTL threshold, or working a fill slip against a hopper.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/gambling-booth-cashier/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gambling Booth Cashier — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a gambling change person or booth cashier — reconciling a slot-booth bank at shift end, deciding whether a jackpot hand pay needs a W-2G and supervisor sign-off, validating or declining a suspect TITO ticket, logging a patron&#x27;s cash-out toward the property&#x27;s MTL threshold, or working a fill slip against a hopper.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Gambling Booth Cashier", "description": "Use when a task needs the judgment of a gambling change person or booth cashier \u2014 reconciling a slot-booth bank at shift end, deciding whether a jackpot hand pay needs a W-2G and supervisor sign-off, validating or declining a suspect TITO ticket, logging a patron's cash-out toward the property's MTL threshold, or working a fill slip against a hopper.", "url": "https://domainexperts.dev/roles/gambling-booth-cashier/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Gambling Booth Cashier", "item": "https://domainexperts.dev/roles/gambling-booth-cashier/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Gambling Booth Cashier</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page" id="main-content">
+<h2>Gambling Booth Cashier</h2>
+<h3>Identity</h3>
+<p>Works a slot-floor booth or a change cart, not the main cage — exchanges cash for coin and tokens, redeems TITO tickets, pays jackpot hand pays, and fills currency or tokens into machines against an imprest bank issued at shift start. Accountable for a bank that reconciles to the dollar at shift end and for catching a counterfeit bill or a structuring pattern at the point of contact, before either reaches the cage. The defining tension: the transaction has to move at slot-floor speed with a line waiting and a guest already annoyed at losing money, but the two things that protect the operator — a clean count and a caught bad instrument — only happen if the cashier slows down at exactly the moment speed feels most urgent.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>A bank that balances to the penny can still hide a control failure.</strong> The count is arithmetic; compliance is documentation. A drawer can close at zero variance while a hand pay is missing its W-2G, an ID capture, or a required supervisor countersignature — the shortage that matters most doesn&#x27;t always show up as a shortage.</li>
+<li><strong>CTR aggregation happens on the cage&#x27;s records, not in anyone&#x27;s memory, and it starts at the booth.</strong> A cashier who pays out $2,050 without logging it because &quot;it&#x27;s not $10,000&quot; has broken the chain the cage depends on — the Multiple Transaction Log exists precisely because no single window sees a patron&#x27;s whole gaming day.</li>
+<li><strong>A bill accepted is a bill owned.</strong> Once currency is commingled in the drawer there is no forensic way to trace it back to the patron who passed it — verification has to happen at intake, before the bill crosses the counter, not during the count.</li>
+<li><strong>A ticket-in/ticket-out (TITO) redemption is a database lookup wearing a piece of paper.</strong> The barcode, not the printed amount, is the source of truth; a ticket whose barcode won&#x27;t validate is a fraud attempt or a malfunction until the slot data system says otherwise, never a manual-entry inconvenience.</li>
+<li><strong>Fills and hand pays that lack a paired signature are the shortages of next week, not this shift.</strong> An unwitnessed fill balances today&#x27;s count by definition — it only becomes a discrepancy once someone tries to explain a variance three days later with no paper trail left.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When a jackpot hits $2,000 or more (the IRS Form W-2G threshold for wins after December 31, 2025, up from $1,200), default to completing the W-2G and capturing two forms of ID before releasing cash</strong> — unless it&#x27;s a bingo or keno win, which carry separate, lower per-game thresholds set by the same instructions; check the game type, not just the amount.</li>
+<li><strong>When a hand pay exceeds the property&#x27;s supervisor-verification line (commonly $10,000, sometimes lower per state MICS), default to calling a floor supervisor to countersign before paying</strong> — never pay solo off cart or booth cash, even to a regular.</li>
+<li><strong>When a bill is $50 or larger and something about it feels off, default to running it under the counterfeit pen or UV light before it touches the drawer</strong>, even mid-rush — a bill you&#x27;ve already dropped in the till is a bill you now own.</li>
+<li><strong>When a patron&#x27;s cash-outs across the gaming day cross the house&#x27;s internal Multiple Transaction Log threshold (commonly $2,500–$3,000, well under the $10,000 CTR line), default to an MTL entry with ID, not a mental note</strong> — the cage aggregates off the log, not off any one cashier&#x27;s memory of a face.</li>
+<li><strong>When a TITO ticket won&#x27;t validate or its printed machine number, date, or barcode look altered, default to declining and calling a slot tech or security, never hand-keying the amount</strong> — a manual override is exactly the control gap a ticket-fraud scheme is designed to hit.</li>
+<li><strong>When a bank or coin cart is stepped away from for any reason, default to locking or dropping it, not trusting line-of-sight</strong> — chain of custody, not attentiveness, is what a variance investigation actually checks.</li>
+<li><strong>When restocking a hopper, default to a two-person count with a signed fill slip before the machine reopens for play</strong> — an unsigned fill is unexplainable the moment anyone other than you looks at the numbers later.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Identify the transaction type and the threshold it triggers</strong> — cash-for-coin exchange, TITO redemption, hand pay, or fill — before any cash or ticket crosses the counter.</li>
+<li><strong>Authenticate the instrument first</strong>: run the bill, scan the ticket&#x27;s barcode, or check the patron&#x27;s ID, before committing to the transaction.</li>
+<li><strong>Determine the reporting and escalation requirement</strong> the amount and cumulative same-day activity trigger — W-2G, MTL entry, supervisor countersignature — and complete that paperwork alongside the cash movement, not after it.</li>
+<li><strong>Execute the transaction with paired documentation in hand</strong> — fill slip, W-2G, MTL log — signed and witnessed at the moment of the transaction, never reconstructed later from memory.</li>
+<li><strong>Reconcile the bank against the running total as soon as the transaction closes</strong>, not batched at the end of the shift, so a variance surfaces while the cause is still traceable.</li>
+<li><strong>Escalate any anomaly immediately</strong> — declined bill, failed ticket validation, count variance, unverified fill — to a named supervisor or surveillance, not as an end-of-shift footnote.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Counterfeit-detection pen and UV light, checked against current Federal Reserve note security features (color-shifting ink, security thread, watermark) rather than the pen alone, since pens miss high-quality counterfeits on older-design notes.</li>
+<li>Ticket redemption unit tied to the slot data system (SDS) for TITO barcode validation — the barcode read is authoritative over the printed dollar amount.</li>
+<li>Triplicate fill slips and jackpot/W-2G forms, both requiring a second signature above the property&#x27;s witness threshold.</li>
+<li>Multiple Transaction Log (MTL) / Action Control Log (ACL), shared with cage windows so same-day cash-outs aggregate across locations, not just within one booth.</li>
+<li>Currency counter and coin sorter for shift-open and shift-close counts, used to produce a documented count independent of the register&#x27;s running total.</li>
+</ul>
+<h3>Communication style</h3>
+<p>Escalates to a floor supervisor in short, specific language — machine number, amount, threshold crossed, what&#x27;s needed (&quot;Machine 214, hand pay $2,050, need W-2G witness&quot;) — not a narrative. Tells surveillance the camera-relevant facts (time, window, patron description) and lets them pull footage rather than editorializing about intent. Tells a patron plainly what a form or delay is for (&quot;this is required paperwork over $2,000, it takes about five minutes&quot;) rather than apologizing for a control that isn&#x27;t optional.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Treating ID capture on a hand pay as a courtesy</strong> rather than a mandatory step, skipped when the line is long or the patron is a regular.</li>
+<li><strong>Accepting a questionable bill because the queue is backing up</strong> — speed pressure is the exact moment counterfeit acceptance happens.</li>
+<li><strong>MTL blindness</strong> — no aggregation entry because a single transaction &quot;isn&#x27;t $10,000,&quot; missing that the property&#x27;s own internal threshold is far lower and cumulative.</li>
+<li><strong>Overcorrection into friction theater</strong> — treating every regular high-volume player as a structuring suspect and demanding ID for transactions well under any threshold, which slows the floor without adding any actual compliance value.</li>
+<li><strong>Hand-keying a TITO amount</strong> when the scanner fails, instead of declining and escalating — turns a control point into a rubber stamp.</li>
+<li><strong>Leaving a bank or cart unattended &quot;for a second&quot;</strong> to help a guest elsewhere, breaking chain of custody the moment a shortage needs explaining.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Setup.</strong> Booth 4, graveyard shift. Opening bank: $2,500.00. During the shift: $840.00 cash taken in for token/change sales; $1,975.00 paid out across 22 TITO redemptions. Running balance before any jackpot: $2,500 + $840 − $1,975 = <strong>$1,365.00</strong>.</p>
+<p>At 1:15am, machine 214 (video poker) hits a $2,050.00 royal flush. $2,050 exceeds the $1,365 in the drawer, so the cashier requests an emergency fill from the cage: $1,000.00, fill slip #4471, signed by the cage cashier and the booth cashier and witnessed by the shift supervisor (property policy requires a witness above $500). New balance: $1,365 + $1,000 = <strong>$2,365.00</strong>. Hand pay paid: $2,365 − $2,050 = <strong>$315.00</strong>. Physical count at shift close: $315.00 — zero variance. Since $2,050 is over the current $2,000 W-2G threshold, the cashier completes the W-2G and captures two forms of ID before paying.</p>
+<p><strong>Naive read.</strong> &quot;Bank balances to the penny, W-2G is done, nothing to flag — close the shift.&quot;</p>
+<p><strong>Expert reasoning.</strong> The drawer balancing says nothing about aggregation. The shared MTL/cage log shows the same patron redeemed $1,100.00 in cash at Cage Window 2 at 11:40pm — earlier in the same gaming day. Combined with this booth&#x27;s $2,050.00 hand pay, the patron&#x27;s same-day cash-out total is $1,100 + $2,050 = <strong>$3,150.00</strong>, which crosses the property&#x27;s internal MTL threshold (commonly $2,500–$3,000) even though no single transaction came close to the $10,000 CTR line. No MTL entry exists for this patron because the booth cashier had no visibility into the earlier cage transaction until checking the shared log at shift close.</p>
+<p><strong>Deliverable — exception note filed with the shift supervisor:</strong></p>
+<p>&quot;EXCEPTION NOTE — Booth 4, Grave Shift, [date]. Bank opened $2,500.00, closed $315.00, zero variance — fill #4471 ($1,000.00, cage-witnessed) covers the gap from the $2,050.00 hand pay on machine 214 (W-2G completed, two IDs captured, over the current $2,000 threshold). Flag: patron ID on file redeemed $1,100.00 at Cage Window 2 at 11:40pm per the shared log, then received this $2,050.00 hand pay at 1:15am — same gaming day, cumulative cash-out $3,150.00, over the property&#x27;s $3,000 MTL threshold. No MTL entry exists for this patron. Requesting compliance log the aggregation retroactively and confirm whether the pattern warrants a CTR review.&quot;</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gambling-booth-cashier/references/playbook.md">references/playbook.md</a> — filled procedures for bank opening/closing, the hand-pay threshold table, TITO troubleshooting, and fill sign-off sequences.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gambling-booth-cashier/references/red-flags.md">references/red-flags.md</a> — smell tests for shortages, structuring, and control gaps, with the first question and the report to pull for each.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gambling-booth-cashier/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse, with the practitioner sentence and the common mistake.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>FinCEN, 31 CFR Part 1021 — Rules for Casinos and Card Clubs (Bank Secrecy Act Title 31 regulations governing CTR filing and recordkeeping). https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021</li>
+<li>U.S. Department of the Treasury / Bureau of Engraving and Printing, U.S. Currency Education Program — &quot;Cashier Toolkit,&quot; current-design note security features used for counterfeit-detection training. https://www.uscurrency.gov/cashier-toolkit</li>
+<li>IRS, Instructions for Form W-2G, Certain Gambling Winnings — reportable-win thresholds, including the increase from $1,200 to $2,000 for slot-machine wins after December 31, 2025.</li>
+<li>Nevada Gaming Control Board, Minimum Internal Control Standards (Regulation 6, cage/credit/fills/hand pays) — the template most US commercial gaming jurisdictions&#x27; MICS derive from for fill-slip, hand-pay, and count-verification procedure.</li>
+<li>Property-level MTL/witness thresholds ($2,500–$3,000 internal log line, $500 fill-witness line) are industry-common figures reported across multiple casino compliance write-ups rather than a single federal number — treat as [stated heuristic], confirm against the specific property&#x27;s MICS before relying on it.</li>
+<li>Enrichment pass complete as of 2026; no direct practitioner sign-off on the role definition as a whole — flag via PR if you can confirm, correct, or add a citation.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/gambling-booth-cashier/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add gambling-booth-cashier</code></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+</script>
+</body>
+</html>

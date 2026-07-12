@@ -4,7 +4,112 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sun, 12 Jul 2026 13:53:23 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 14:16:49 +0000</lastBuildDate>
+  <item>
+    <title>Cashier</title>
+    <link>https://domainexperts.dev/roles/cashier/</link>
+    <guid>https://domainexperts.dev/roles/cashier/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a retail/grocery cashier — reconciling a till at shift close, deciding whether to accept a large bill or flag it, handling a no-receipt return, de-escalating a price dispute at the register, or spotting a shortage pattern that looks like theft versus error.</description>
+  </item>
+  <item>
+    <title>Door To Door Sales Worker</title>
+    <link>https://domainexperts.dev/roles/door-to-door-sales-worker/</link>
+    <guid>https://domainexperts.dev/roles/door-to-door-sales-worker/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Door-to-Door Sales Worker — planning a canvassing route or street-vending spot, diagnosing a rep&#x27;s or vendor&#x27;s underperformance from doors/contacts/sits/close ratios, navigating solicitation-permit or curfew or cooling-off compliance, structuring a doorstep pitch and objection handling, or reconciling a shift&#x27;s cash and inventory.</description>
+  </item>
+  <item>
+    <title>Fashion Model</title>
+    <link>https://domainexperts.dev/roles/fashion-model/</link>
+    <guid>https://domainexperts.dev/roles/fashion-model/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a professional fashion/commercial Model — negotiating usage rights and exclusivity on a booking, reading a modeling contract for hidden double-commission or chargeback terms, deciding whether a casting or agency offer matches a known scam pattern, or tracking category-exclusivity and option conflicts across active bookings.</description>
+  </item>
+  <item>
+    <title>Gambling Booth Cashier</title>
+    <link>https://domainexperts.dev/roles/gambling-booth-cashier/</link>
+    <guid>https://domainexperts.dev/roles/gambling-booth-cashier/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a gambling change person or booth cashier — reconciling a slot-booth bank at shift end, deciding whether a jackpot hand pay needs a W-2G and supervisor sign-off, validating or declining a suspect TITO ticket, logging a patron&#x27;s cash-out toward the property&#x27;s MTL threshold, or working a fill slip against a hopper.</description>
+  </item>
+  <item>
+    <title>Parts Counter Salesperson</title>
+    <link>https://domainexperts.dev/roles/parts-counter-salesperson/</link>
+    <guid>https://domainexperts.dev/roles/parts-counter-salesperson/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Parts Counter Salesperson — identifying the correct part from a vague symptom description, resolving a fitment or interchange question, chasing a superseded part number before quoting, pricing a commercial repair-shop account, or handling a core-charge or warranty return dispute.</description>
+  </item>
+  <item>
+    <title>Product Demonstrator</title>
+    <link>https://domainexperts.dev/roles/product-demonstrator/</link>
+    <guid>https://domainexperts.dev/roles/product-demonstrator/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a product demonstrator or promoter — planning an in-store sampling event, writing or troubleshooting a demo pitch, reading shift results to decide whether a program should expand, handling a food-safety or compliance issue at a sampling table, or evaluating a brand-ambassador activation&#x27;s real impact.</description>
+  </item>
+  <item>
+    <title>Real Estate Agent</title>
+    <link>https://domainexperts.dev/roles/real-estate-agent/</link>
+    <guid>https://domainexperts.dev/roles/real-estate-agent/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Real Estate Sales Agent — building a lead-generation and follow-up plan, running a listing presentation and handling a seller&#x27;s price objection, structuring buyer representation and offer strategy under a supervising broker, or working commission-split and cap economics.</description>
+  </item>
+  <item>
+    <title>Rental Counter Clerk</title>
+    <link>https://domainexperts.dev/roles/rental-counter-clerk/</link>
+    <guid>https://domainexperts.dev/roles/rental-counter-clerk/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Rental Counter Clerk — walking a customer through a pre-rental equipment or vehicle inspection and damage-waiver decision, sizing a deposit or credit-card authorization hold at checkout, resolving a return-time damage or late-return dispute against the signed agreement, or scheduling a unit&#x27;s availability against maintenance and next-reservation conflicts.</description>
+  </item>
+  <item>
+    <title>Retail Sales Associate</title>
+    <link>https://domainexperts.dev/roles/retail-sales-associate/</link>
+    <guid>https://domainexperts.dev/roles/retail-sales-associate/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Retail Sales Associate — diagnosing a slow-sales day or week on the floor, coaching add-on/upsell technique, handling a return or no-receipt exchange, reading a shrink or loss-prevention exception report, or planning floor coverage around peak traffic.</description>
+  </item>
+  <item>
+    <title>Retail Store Supervisor</title>
+    <link>https://domainexperts.dev/roles/retail-store-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/retail-store-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Retail Store Supervisor — building a shift schedule against the traffic curve, diagnosing a conversion-rate or shrink miss, running a floor coaching or corrective conversation, triaging an opening/closing cash-count discrepancy, or complying with predictive-scheduling law when a shift needs a last-minute change.</description>
+  </item>
+  <item>
+    <title>Sales Supervisor</title>
+    <link>https://domainexperts.dev/roles/sales-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/sales-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a first-line supervisor of non-retail sales workers — running a daily/weekly floor report for an inside or outside B2B sales team, diagnosing a quota miss down to the funnel stage that broke, approving a discount or credit-term exception, rebalancing account territories, or catching a compliance exposure (call-abandonment rate, commission-draw handling, outside-sales classification) before it becomes a fine.</description>
+  </item>
+  <item>
+    <title>Services Sales Representative</title>
+    <link>https://domainexperts.dev/roles/services-sales-representative/</link>
+    <guid>https://domainexperts.dev/roles/services-sales-representative/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a commercial services sales representative — displacing an incumbent vendor before a contract&#x27;s renewal-notice window closes, building a total-cost-of-ownership case against a lower sticker price, running a save call on an account that just gave cancellation notice, or sizing a territory by route density instead of raw account count.</description>
+  </item>
+  <item>
+    <title>Solar Sales Assessor</title>
+    <link>https://domainexperts.dev/roles/solar-sales-assessor/</link>
+    <guid>https://domainexperts.dev/roles/solar-sales-assessor/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a residential/commercial Solar Sales Representative and Assessor — sizing a PV+storage system against a specific utility tariff, building a cash-price-equivalent financing comparison, running a site/roof/shading assessment, or catching a savings claim that won&#x27;t survive contact with the actual rate schedule.</description>
+  </item>
+  <item>
+    <title>Telemarketer</title>
+    <link>https://domainexperts.dev/roles/telemarketer/</link>
+    <guid>https://domainexperts.dev/roles/telemarketer/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a telemarketer — writing or fixing an outbound call opening, diagnosing a weak close rate on a call campaign, handling objections on a live-call script, or checking a call list/campaign against Do-Not-Call and dialer-abandonment compliance.</description>
+  </item>
+  <item>
+    <title>Wholesale Sales Representative</title>
+    <link>https://domainexperts.dev/roles/wholesale-sales-representative/</link>
+    <guid>https://domainexperts.dev/roles/wholesale-sales-representative/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:16:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a wholesale/manufacturing sales representative — negotiating a price increase pass-through against a distributor buyer, structuring a volume rebate instead of a straight price cut, defending an account against a line review, auditing chargebacks and deductions eating into commission, or building a territory account-tiering plan.</description>
+  </item>
   <item>
     <title>Animal Control Worker</title>
     <link>https://domainexperts.dev/roles/animal-control-worker/</link>
