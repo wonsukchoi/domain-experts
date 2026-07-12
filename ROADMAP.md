@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 758 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 761 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -779,12 +779,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>43 — Office and Administrative Support</strong> (48/55 drafted)</summary>
+<summary><strong>43 — Office and Administrative Support</strong> (51/55 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 43-1011.00 | First-Line Supervisors of Office and Administrative Support Workers | [`first-line-supervisor-office-admin`](./roles/first-line-supervisor-office-admin/SKILL.md) |
-|  | 43-2011.00 | Switchboard Operators, Including Answering Service |  |
+| ✅ | 43-2011.00 | Switchboard Operators, Including Answering Service | [`switchboard-operator`](./roles/switchboard-operator/SKILL.md) |
 | ✅ | 43-2021.00 | Telephone Operators | [`telephone-operator`](./roles/telephone-operator/SKILL.md) |
 |  | 43-2099.00 | Communications Equipment Operators, All Other |  |
 | ✅ | 43-3011.00 | Bill and Account Collectors | [`bill-account-collector`](./roles/bill-account-collector/SKILL.md) |
@@ -808,12 +808,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 43-4131.00 | Loan Interviewers and Clerks | [`loan-interviewer-clerk`](./roles/loan-interviewer-clerk/SKILL.md) |
 | ✅ | 43-4141.00 | New Accounts Clerks | [`new-accounts-clerk`](./roles/new-accounts-clerk/SKILL.md) |
 | ✅ | 43-4151.00 | Order Clerks | [`order-clerk`](./roles/order-clerk/SKILL.md) |
-|  | 43-4161.00 | Human Resources Assistants, Except Payroll and Timekeeping |  |
+| ✅ | 43-4161.00 | Human Resources Assistants, Except Payroll and Timekeeping | [`hr-assistant`](./roles/hr-assistant/SKILL.md) |
 | ✅ | 43-4171.00 | Receptionists and Information Clerks | [`receptionist`](./roles/receptionist/SKILL.md) |
 | ✅ | 43-4181.00 | Reservation and Transportation Ticket Agents and Travel Clerks | [`reservation-transportation-ticket-agent`](./roles/reservation-transportation-ticket-agent/SKILL.md) |
 |  | 43-4199.00 | Information and Record Clerks, All Other |  |
 | ✅ | 43-5011.00 | Cargo and Freight Agents | [`cargo-freight-agent`](./roles/cargo-freight-agent/SKILL.md) |
-|  | 43-5011.01 | Freight Forwarders |  |
+| ✅ | 43-5011.01 | Freight Forwarders | [`freight-forwarder`](./roles/freight-forwarder/SKILL.md) |
 | ✅ | 43-5021.00 | Couriers and Messengers | [`courier-messenger`](./roles/courier-messenger/SKILL.md) |
 | ✅ | 43-5031.00 | Public Safety Telecommunicators | [`public-safety-telecommunicator`](./roles/public-safety-telecommunicator/SKILL.md) |
 | ✅ | 43-5032.00 | Dispatchers, Except Police, Fire, and Ambulance | [`dispatcher`](./roles/dispatcher/SKILL.md) |
