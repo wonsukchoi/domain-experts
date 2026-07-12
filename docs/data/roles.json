@@ -1,5 +1,5 @@
 {
-  "count": 766,
+  "count": 768,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6692,6 +6692,27 @@
       "audit_score": null,
       "skill": "roles/geothermal-production-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "geothermal-technician",
+      "description": "Use when a task needs the judgment of a Geothermal Technician \u2014 sizing a vertical borehole or horizontal loop field against a Manual J load instead of nameplate tonnage, selecting and verifying grout thermal conductivity for a formation, running a purge/pressure-test procedure before a trench closes, or diagnosing a short-cycling or low-capacity complaint on a ground-source heat pump system.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/geothermal-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
@@ -15088,6 +15109,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/tour-guide/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "trades-helper",
+      "description": "Use when a task needs the judgment of a licensed trade's helper \u2014 staging materials and tools for an electrician, plumber, HVAC tech, or elevator mechanic, deciding whether a jobsite task is safely inside the helper's scope or must wait for the journeyworker, sequencing helper work so it never idles or blocks the skilled trade, or writing a jobsite handoff and apprenticeship OJT-hour log entry.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "49-9098.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/trades-helper/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

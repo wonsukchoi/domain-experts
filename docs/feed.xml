@@ -4,7 +4,21 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sat, 11 Jul 2026 18:06:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 13:15:56 +0000</lastBuildDate>
+  <item>
+    <title>Geothermal Technician</title>
+    <link>https://domainexperts.dev/roles/geothermal-technician/</link>
+    <guid>https://domainexperts.dev/roles/geothermal-technician/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:13:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Geothermal Technician — sizing a vertical borehole or horizontal loop field against a Manual J load instead of nameplate tonnage, selecting and verifying grout thermal conductivity for a formation, running a purge/pressure-test procedure before a trench closes, or diagnosing a short-cycling or low-capacity complaint on a ground-source heat pump system.</description>
+  </item>
+  <item>
+    <title>Trades Helper</title>
+    <link>https://domainexperts.dev/roles/trades-helper/</link>
+    <guid>https://domainexperts.dev/roles/trades-helper/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:13:49 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed trade&#x27;s helper — staging materials and tools for an electrician, plumber, HVAC tech, or elevator mechanic, deciding whether a jobsite task is safely inside the helper&#x27;s scope or must wait for the journeyworker, sequencing helper work so it never idles or blocks the skilled trade, or writing a jobsite handoff and apprenticeship OJT-hour log entry.</description>
+  </item>
   <item>
     <title>Endoscopy Technician</title>
     <link>https://domainexperts.dev/roles/endoscopy-technician/</link>
