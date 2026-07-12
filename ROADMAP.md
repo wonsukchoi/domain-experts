@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 756 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 758 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -937,7 +937,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>49 — Installation, Maintenance, and Repair</strong> (48/52 drafted)</summary>
+<summary><strong>49 — Installation, Maintenance, and Repair</strong> (50/52 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -990,9 +990,9 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 49-9095.00 | Manufactured Building and Mobile Home Installers | [`mobile-home-installer`](./roles/mobile-home-installer/SKILL.md) |
 | ✅ | 49-9096.00 | Riggers | [`rigger`](./roles/rigger/SKILL.md) |
 | ✅ | 49-9097.00 | Signal and Track Switch Repairers | [`signal-track-switch-repairer`](./roles/signal-track-switch-repairer/SKILL.md) |
-|  | 49-9098.00 | Helpers--Installation, Maintenance, and Repair Workers |  |
+| ✅ | 49-9098.00 | Helpers--Installation, Maintenance, and Repair Workers | [`trades-helper`](./roles/trades-helper/SKILL.md) |
 |  | 49-9099.00 | Installation, Maintenance, and Repair Workers, All Other |  |
-|  | 49-9099.01 | Geothermal Technicians |  |
+| ✅ | 49-9099.01 | Geothermal Technicians | [`geothermal-technician`](./roles/geothermal-technician/SKILL.md) |
 
 </details>
 
