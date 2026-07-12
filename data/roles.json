@@ -1,5 +1,5 @@
 {
-  "count": 828,
+  "count": 829,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2404,6 +2404,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/chemist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "chemistry-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Postsecondary Chemistry Teacher \u2014 redesigning a gen-chem or organic course to cut DFW rates, writing or auditing a lab-safety/Chemical Hygiene Plan response, curving an exam against ACS National Norms, drafting an undergrad/grad research mentoring compact, adjudicating a suspected contract-cheating case, or reviewing a degree track against ACS CPT certification requirements.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chemistry-teacher-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

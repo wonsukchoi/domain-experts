@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 818 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 819 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,7 +365,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (55/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (56/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -378,7 +378,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 25-1042.00 | Biological Science Teachers, Postsecondary | [`biology-professor`](./roles/biology-professor/SKILL.md) |
 | ✅ | 25-1043.00 | Forestry and Conservation Science Teachers, Postsecondary | [`forestry-conservation-teacher-postsecondary`](./roles/forestry-conservation-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1051.00 | Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary | [`geoscience-professor`](./roles/geoscience-professor/SKILL.md) |
-|  | 25-1052.00 | Chemistry Teachers, Postsecondary |  |
+| ✅ | 25-1052.00 | Chemistry Teachers, Postsecondary | [`chemistry-teacher-postsecondary`](./roles/chemistry-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1053.00 | Environmental Science Teachers, Postsecondary | [`environmental-science-professor`](./roles/environmental-science-professor/SKILL.md) |
 | ✅ | 25-1054.00 | Physics Teachers, Postsecondary | [`physics-teacher-postsecondary`](./roles/physics-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1061.00 | Anthropology and Archeology Teachers, Postsecondary | [`anthropology-archaeology-professor`](./roles/anthropology-archaeology-professor/SKILL.md) |
