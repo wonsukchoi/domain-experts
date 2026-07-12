@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 818 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 819 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -864,12 +864,12 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>47 — Construction and Extraction</strong> (25/65 drafted)</summary>
+<summary><strong>47 — Construction and Extraction</strong> (26/65 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 47-1011.00 | First-Line Supervisors of Construction Trades and Extraction Workers | [`construction-trades-supervisor`](./roles/construction-trades-supervisor/SKILL.md) |
-|  | 47-1011.03 | Solar Energy Installation Managers |  |
+| ✅ | 47-1011.03 | Solar Energy Installation Managers | [`solar-energy-installation-manager`](./roles/solar-energy-installation-manager/SKILL.md) |
 | ✅ | 47-2011.00 | Boilermakers | [`boilermaker`](./roles/boilermaker/SKILL.md) |
 | ✅ | 47-2021.00 | Brickmasons and Blockmasons | [`brickmason-blockmason`](./roles/brickmason-blockmason/SKILL.md) |
 | ✅ | 47-2022.00 | Stonemasons | [`stonemason`](./roles/stonemason/SKILL.md) |

@@ -1,5 +1,5 @@
 {
-  "count": 828,
+  "count": 829,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -15075,6 +15075,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/soil-plant-scientist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "solar-energy-installation-manager",
+      "description": "Use when a task needs the judgment of a Solar Energy Installation Manager \u2014 reconciling a site-survey finding against a sold PV design before crew mobilization, estimating labor/material cost and change-order impact when a design won't fit as-sold, checking a structural attachment plan's fastener count and torque spec against a PE's uplift number, auditing a permit package before submittal to avoid a plan-check rejection, or setting a customer's Permission-to-Operate expectation against the specific utility's interconnection timeline. Distinct from a solar-photovoltaic-installer (owns hands-on array wiring/mounting execution) and a solar-energy-systems-engineer (owns yield modeling and electrical design) \u2014 this role owns the labor, schedule, permit, and safety-compliance layer between the sold design and the inspected, energized system.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-1011.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/solar-energy-installation-manager/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
