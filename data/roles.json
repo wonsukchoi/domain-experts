@@ -1,5 +1,5 @@
 {
-  "count": 828,
+  "count": 829,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -15222,6 +15222,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/special-education-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-teacher-preschool",
+      "description": "Use when a task needs the judgment of a preschool special education teacher — managing the IDEA Part C-to-Part B transition timeline for a toddler turning 3, writing a developmental present-levels statement organized around the three Early Childhood Outcomes instead of academic domains, determining developmental-delay eligibility against statistical SD thresholds, embedding an IEP goal into a play-based routine instead of pull-out instruction, or judging preschool least-restrictive-environment placement against enrollment-mix and staffing-ratio rules.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-preschool/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

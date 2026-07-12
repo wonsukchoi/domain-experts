@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 818 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 819 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,7 +365,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (55/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (56/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -413,7 +413,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 25-2023.00 | Career/Technical Education Teachers, Middle School | [`middle-school-cte-teacher`](./roles/middle-school-cte-teacher/SKILL.md) |
 | ✅ | 25-2031.00 | Secondary School Teachers, Except Special and Career/Technical Education | [`high-school-teacher`](./roles/high-school-teacher/SKILL.md) |
 | ✅ | 25-2032.00 | Career/Technical Education Teachers, Secondary School | [`cte-teacher`](./roles/cte-teacher/SKILL.md) |
-|  | 25-2051.00 | Special Education Teachers, Preschool |  |
+| ✅ | 25-2051.00 | Special Education Teachers, Preschool | [`special-education-teacher-preschool`](./roles/special-education-teacher-preschool/SKILL.md) |
 |  | 25-2055.00 | Special Education Teachers, Kindergarten |  |
 |  | 25-2056.00 | Special Education Teachers, Elementary School |  |
 |  | 25-2057.00 | Special Education Teachers, Middle School |  |
