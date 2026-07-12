@@ -1,5 +1,5 @@
 {
-  "count": 828,
+  "count": 829,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -15222,6 +15222,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/special-education-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-teacher-secondary",
+      "description": "Use when a task needs the judgment of a secondary special education case manager \u2014 writing an Indicator-13-compliant transition IEP goal, reading a 9th-grade credit/GPA transcript for graduation risk, choosing a co-teaching model for a specific general-ed class period, deciding whether an alternate-assessment recommendation forecloses a diploma track, or timing the age-of-majority rights-transfer notice.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2058.00",
+      "parent": "special-education-teacher",
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-secondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

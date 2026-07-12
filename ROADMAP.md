@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 818 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 819 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,7 +365,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (55/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (56/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -417,7 +417,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 25-2055.00 | Special Education Teachers, Kindergarten |  |
 |  | 25-2056.00 | Special Education Teachers, Elementary School |  |
 |  | 25-2057.00 | Special Education Teachers, Middle School |  |
-|  | 25-2058.00 | Special Education Teachers, Secondary School |  |
+| ✅ | 25-2058.00 | Special Education Teachers, Secondary School | [`special-education-teacher-secondary`](./roles/special-education-teacher-secondary/SKILL.md) |
 | ✅ | 25-2059.00 | Special Education Teachers, All Other | [`special-education-teacher`](./roles/special-education-teacher/SKILL.md) |
 | ✅ | 25-2059.01 | Adapted Physical Education Specialists | [`adapted-physical-education-specialist`](./roles/adapted-physical-education-specialist/SKILL.md) |
 | ✅ | 25-3011.00 | Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors | [`adult-esl-instructor`](./roles/adult-esl-instructor/SKILL.md) |
