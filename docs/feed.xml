@@ -4,7 +4,28 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sun, 12 Jul 2026 13:28:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 13:39:06 +0000</lastBuildDate>
+  <item>
+    <title>Cargo Inspector</title>
+    <link>https://domainexperts.dev/roles/cargo-inspector/</link>
+    <guid>https://domainexperts.dev/roles/cargo-inspector/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:38:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cargo Inspector — reconciling a vessel draft survey against a shore tally within IMO tolerance, calculating outturn quantity from tank ullage and temperature readings under API MPMS, verifying dangerous-goods segregation against the IMDG Code, checking a load&#x27;s height and width against a route&#x27;s bridge and tunnel clearances before departure, or documenting cargo condition and filing a letter of protest before custody transfers.</description>
+  </item>
+  <item>
+    <title>Moving Crew Supervisor</title>
+    <link>https://domainexperts.dev/roles/moving-crew-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/moving-crew-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:38:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Moving Crew Supervisor (van line or local moving company foreman) — confirming whether a shipment&#x27;s estimate is binding or non-binding before the truck loads, deciding how much can legally be collected at delivery once the actual weight comes in over estimate, calling a team-lift or mechanical-aid decision on an oversized item, writing up an additional-service order for items added after the bill of lading was signed, or handling a damage claim under released-value versus full-value protection.</description>
+  </item>
+  <item>
+    <title>Purser</title>
+    <link>https://domainexperts.dev/roles/purser/</link>
+    <guid>https://domainexperts.dev/roles/purser/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:38:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Purser (in-charge flight attendant / cabin crew supervisor) — recomputing required cabin-crew count after a gauge swap against 14 CFR 121.391, checking whether a reassigned reserve flight attendant is legal to fly under 121.467 duty/rest limits, running a pre-flight crew briefing for that day&#x27;s specific manifest, deciding when to escalate a cabin issue to the captain versus resolve it within delegated cabin authority, or filing an irregularity report through ASAP instead of handling it as informal coaching.</description>
+  </item>
   <item>
     <title>Freight Forwarder</title>
     <link>https://domainexperts.dev/roles/freight-forwarder/</link>
