@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 764 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 781 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -626,38 +626,38 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>33 — Protective Service</strong> (9/28 drafted)</summary>
+<summary><strong>33 — Protective Service</strong> (26/28 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
-|  | 33-1011.00 | First-Line Supervisors of Correctional Officers |  |
-|  | 33-1012.00 | First-Line Supervisors of Police and Detectives |  |
-|  | 33-1021.00 | First-Line Supervisors of Firefighting and Prevention Workers |  |
-|  | 33-1091.00 | First-Line Supervisors of Security Workers |  |
+| ✅ | 33-1011.00 | First-Line Supervisors of Correctional Officers | [`corrections-sergeant`](./roles/corrections-sergeant/SKILL.md) |
+| ✅ | 33-1012.00 | First-Line Supervisors of Police and Detectives | [`police-supervisor`](./roles/police-supervisor/SKILL.md) |
+| ✅ | 33-1021.00 | First-Line Supervisors of Firefighting and Prevention Workers | [`fire-captain`](./roles/fire-captain/SKILL.md) |
+| ✅ | 33-1091.00 | First-Line Supervisors of Security Workers | [`security-supervisor`](./roles/security-supervisor/SKILL.md) |
 |  | 33-1099.00 | First-Line Supervisors of Protective Service Workers, All Other |  |
 | ✅ | 33-2011.00 | Firefighters | [`firefighter`](./roles/firefighter/SKILL.md) |
 | ✅ | 33-2021.00 | Fire Inspectors and Investigators | [`fire-inspector-investigator`](./roles/fire-inspector-investigator/SKILL.md) |
-|  | 33-2022.00 | Forest Fire Inspectors and Prevention Specialists |  |
-|  | 33-3011.00 | Bailiffs |  |
+| ✅ | 33-2022.00 | Forest Fire Inspectors and Prevention Specialists | [`forest-fire-prevention-specialist`](./roles/forest-fire-prevention-specialist/SKILL.md) |
+| ✅ | 33-3011.00 | Bailiffs | [`bailiff`](./roles/bailiff/SKILL.md) |
 | ✅ | 33-3012.00 | Correctional Officers and Jailers | [`correctional-officer`](./roles/correctional-officer/SKILL.md) |
 | ✅ | 33-3021.00 | Detectives and Criminal Investigators | [`detective-criminal-investigator`](./roles/detective-criminal-investigator/SKILL.md) |
-|  | 33-3021.02 | Police Identification and Records Officers |  |
+| ✅ | 33-3021.02 | Police Identification and Records Officers | [`police-identification-records-officer`](./roles/police-identification-records-officer/SKILL.md) |
 | ✅ | 33-3021.06 | Intelligence Analysts | [`intelligence-analyst`](./roles/intelligence-analyst/SKILL.md) |
 | ✅ | 33-3031.00 | Fish and Game Wardens | [`fish-and-game-warden`](./roles/fish-and-game-warden/SKILL.md) |
-|  | 33-3041.00 | Parking Enforcement Workers |  |
+| ✅ | 33-3041.00 | Parking Enforcement Workers | [`parking-enforcement-officer`](./roles/parking-enforcement-officer/SKILL.md) |
 | ✅ | 33-3051.00 | Police and Sheriff's Patrol Officers | [`police-patrol-officer`](./roles/police-patrol-officer/SKILL.md) |
 | ✅ | 33-3051.04 | Customs and Border Protection Officers | [`customs-border-protection-officer`](./roles/customs-border-protection-officer/SKILL.md) |
-|  | 33-3052.00 | Transit and Railroad Police |  |
-|  | 33-9011.00 | Animal Control Workers |  |
+| ✅ | 33-3052.00 | Transit and Railroad Police | [`transit-railroad-police`](./roles/transit-railroad-police/SKILL.md) |
+| ✅ | 33-9011.00 | Animal Control Workers | [`animal-control-worker`](./roles/animal-control-worker/SKILL.md) |
 | ✅ | 33-9021.00 | Private Detectives and Investigators | [`private-detective-investigator`](./roles/private-detective-investigator/SKILL.md) |
-|  | 33-9031.00 | Gambling Surveillance Officers and Gambling Investigators |  |
-|  | 33-9032.00 | Security Guards |  |
-|  | 33-9091.00 | Crossing Guards and Flaggers |  |
-|  | 33-9092.00 | Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers |  |
-|  | 33-9093.00 | Transportation Security Screeners |  |
-|  | 33-9094.00 | School Bus Monitors |  |
+| ✅ | 33-9031.00 | Gambling Surveillance Officers and Gambling Investigators | [`gambling-surveillance-investigator`](./roles/gambling-surveillance-investigator/SKILL.md) |
+| ✅ | 33-9032.00 | Security Guards | [`security-guard`](./roles/security-guard/SKILL.md) |
+| ✅ | 33-9091.00 | Crossing Guards and Flaggers | [`crossing-guard-flagger`](./roles/crossing-guard-flagger/SKILL.md) |
+| ✅ | 33-9092.00 | Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers | [`lifeguard-and-ski-patrol`](./roles/lifeguard-and-ski-patrol/SKILL.md) |
+| ✅ | 33-9093.00 | Transportation Security Screeners | [`transportation-security-screener`](./roles/transportation-security-screener/SKILL.md) |
+| ✅ | 33-9094.00 | School Bus Monitors | [`school-bus-monitor`](./roles/school-bus-monitor/SKILL.md) |
 |  | 33-9099.00 | Protective Service Workers, All Other |  |
-|  | 33-9099.02 | Retail Loss Prevention Specialists |  |
+| ✅ | 33-9099.02 | Retail Loss Prevention Specialists | [`retail-loss-prevention-specialist`](./roles/retail-loss-prevention-specialist/SKILL.md) |
 
 </details>
 
