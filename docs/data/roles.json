@@ -1,5 +1,5 @@
 {
-  "count": 806,
+  "count": 828,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -574,6 +574,27 @@
       ]
     },
     {
+      "slug": "amusement-recreation-attendant",
+      "description": "Use when a task needs the judgment of an Amusement and Recreation Attendant \u2014 running ride dispatch and restraint checks, calling a weather or mechanical hold, managing queue throughput and wait-time complaints, operating a game booth or coin-operated attraction, or handling an on-ride evacuation.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/amusement-recreation-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "anesthesiologist",
       "description": "Use when a task needs the judgment of a board-certified anesthesiologist \u2014 building a preoperative anesthesia plan and risk stratification, choosing general vs. regional technique and airway strategy, managing an intraoperative crisis (difficult airway, malignant hyperthermia, local anesthetic systemic toxicity), or writing a PACU handoff and postoperative pain-management order set.",
       "category": "healthcare",
@@ -627,6 +648,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/animal-breeder/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "animal-caretaker",
+      "description": "Use when a task needs the judgment of an Animal Caretaker \u2014 triaging daily husbandry when kennel census exceeds staffing capacity, reading a Fear-Anxiety-Stress (FAS) score change or appetite/output drop against an escalation threshold, deciding brush-out vs. shave-down on a matted coat, or setting isolation and vaccination-lead-time protocol for a new intake or boarding admission.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/animal-caretaker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -1288,6 +1330,27 @@
       ]
     },
     {
+      "slug": "barber",
+      "description": "Use when a task needs the judgment of a licensed barber \u2014 diagnosing a fade/taper request against a client's actual grain and density, sequencing a shop's chair time and rebooking, deciding straight-razor vs. shavette for a shave, or reading a haircut complaint to find the real cause.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-5011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/barber/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "barista",
       "description": "Use when a task needs the judgment of a barista \u2014 dialing in a new bag of espresso, diagnosing a sour or bitter shot, steaming milk to a target texture and temperature, managing a rush-hour drink queue, or deciding when a grind adjustment (versus a distribution or equipment problem) is the actual fix.",
       "category": "operations",
@@ -1320,6 +1383,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/bartender/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "bellhop",
+      "description": "Use when a task needs the judgment of a Bellhop or Baggage Porter \u2014 loading and routing a luggage cart, triaging a group check-in or motorcoach arrival that outpaces current staffing, resolving a bag-count or damage dispute against the claim-ticket trail, or deciding solo-lift vs. two-person-lift vs. hand-truck for an oversized or awkward piece.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-6011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/bellhop/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3423,6 +3507,27 @@
       ]
     },
     {
+      "slug": "costume-attendant",
+      "description": "Use when a task needs the judgment of a costume attendant/dresser \u2014 planning or timing a quick change, building a costume plot or track sheet, deciding a laundry/repair rotation, assigning dresser-to-actor ratios for a scene, or diagnosing why a costume is failing onstage.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/costume-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "courier-messenger",
       "description": "Use when a task needs the judgment of a courier or messenger \u2014 sequencing a multi-stop route against hard delivery windows, deciding what proof-of-delivery a shipment requires, handling a chain-of-custody transfer for a legal or medical item, or resolving a refused-delivery/no-answer exception against the sender's fallback instructions.",
       "category": "operations",
@@ -3581,6 +3686,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/credit-counselor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "crematory-operator",
+      "description": "Use when a task needs the judgment of a Crematory Operator \u2014 running a cremation cycle safely, verifying chain-of-custody and identification before charging a retort, handling implanted-device or oversized-decedent hazards, or documenting and troubleshooting an incident during processing.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-4012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/crematory-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5100,6 +5226,27 @@
       ]
     },
     {
+      "slug": "entertainment-recreation-supervisor",
+      "description": "Use when a task needs the judgment of a First-Line Supervisor of Entertainment and Recreation Workers (camp, pool, ride crew, attractions, or activities floor) \u2014 building today's shift roster against certification/ratio requirements when call-outs hit, running a pre-shift briefing, triaging an escalated guest complaint, deciding whether a new hire is ready to sign off independent, or choosing when to consolidate or close a program area for the day.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-1014.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/entertainment-recreation-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "environmental-compliance-inspector",
       "description": "Use when a task needs the judgment of an Environmental Compliance Inspector \u2014 reviewing discharge monitoring reports or emissions data against permit limits, classifying a facility's hazardous waste generator status, calculating a penalty for a documented violation, deciding whether an exceedance warrants a Notice of Violation versus informal correction, or scoping a multimedia (air/water/waste) inspection.",
       "category": "legal",
@@ -6579,6 +6726,27 @@
       ]
     },
     {
+      "slug": "funeral-attendant",
+      "description": "Use when a task needs the judgment of a Funeral Attendant \u2014 staffing and staging a casket carry, running a viewing-room or graveside setup walkthrough, verifying chain of custody on remains or personal effects at a handoff, sequencing a funeral procession and escort vehicle, or working through a bloodborne-pathogen exposure situation during dressing or casketing.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-4021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/funeral-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "funeral-home-manager",
       "description": "Use when a task needs the judgment of a Funeral Home Manager \u2014 running a General Price List (GPL) and FTC Funeral Rule compliant arrangement conference, structuring a guaranteed vs. non-guaranteed preneed contract, deciding cash-advance item markup disclosure, modeling break-even case volume against a rising cremation mix, or staffing licensed-director coverage for after-hours first call.",
       "category": "operations",
@@ -6653,6 +6821,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/gambling-cage-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "gambling-dealer",
+      "description": "Use when a task needs the judgment of a gambling dealer \u2014 running a blackjack, craps, roulette, or poker table, resolving a payout dispute, deciding when to call the floor over a suspected past-post or hole-card attempt, calling a chip-tray fill, or executing a shuffle/cut procedure at penetration.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/gambling-dealer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -8715,6 +8904,27 @@
       ]
     },
     {
+      "slug": "locker-room-attendant",
+      "description": "Use when a task needs the judgment of a locker room, coatroom, or dressing room attendant \u2014 running a claim-check system for coats or valuables, setting towel/linen par for a locker room, handling a lost-or-stolen-item claim, staffing a locker room or coat check for a peak event, or writing up an incident report after a theft or slip.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/locker-room-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "locksmith-safe-repairer",
       "description": "Use when a task needs the judgment of a Locksmith and Safe Repairer \u2014 verifying authority before a lockout or entry job, deciding rekey vs. cylinder replacement, designing or repairing a master key system, translating a safe-buying question into a burglary/fire rating class, or scoping a lost-combination safe job.",
       "category": "operations",
@@ -9022,6 +9232,27 @@
       "skill": "roles/management-analyst/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "manicurist-pedicurist",
+      "description": "Use when a task needs the judgment of a licensed manicurist/pedicurist \u2014 deciding whether a nail or skin finding is safe to service or needs a physician referral, choosing between soak-off and mechanical removal for a gel or acrylic enhancement, sequencing disinfection contact-time against a stacked multi-client shift, or diagnosing why an enhancement lifted, discolored, or resisted removal.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-5092.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/manicurist-pedicurist/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -10034,6 +10265,27 @@
       ]
     },
     {
+      "slug": "motion-picture-projectionist",
+      "description": "Use when a task needs the judgment of a motion picture projectionist \u2014 troubleshooting a dim, dropped-frame, or out-of-sync digital cinema screening, managing KDM key windows and DCP ingest before a show, calibrating screen luminance and sound level against SMPTE reference targets, or handling and threading archival 35mm/70mm prints for a revival or roadshow booking.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/motion-picture-projectionist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "motor-vehicle-electronic-equipment-installer",
       "description": "Use when a task needs senior 12V/mobile-electronics installer judgment \u2014 wiring an amplifier and subwoofer(s) to a safe final impedance, setting amplifier gain against a measured reference instead of by ear, integrating remote start/alarm with a vehicle's factory data bus without splicing into it, diagnosing a parasitic battery drain introduced by an aftermarket accessory, or deciding whether ADAS camera/radar recalibration is triggered by bumper/windshield work done for an install.",
       "category": "operations",
@@ -10276,6 +10528,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/musician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "nanny",
+      "description": "Use when a task needs the judgment of a Nanny \u2014 drafting or reviewing a household work agreement, deciding whether an off-agreement ask (extra hours, an extra child, driving, medicine) needs pay adjustment or written sign-off, reconciling weekly hours and overtime for a live-in or live-out arrangement, or handling a parent-communication or handoff situation in a single-family, no-coworker setting.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-9011.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/nanny/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11610,6 +11883,27 @@
       ]
     },
     {
+      "slug": "personal-service-supervisor",
+      "description": "Use when a task needs the judgment of a first-line supervisor of personal service workers \u2014 deciding whether to convert a stylist or technician between commission, employee, and booth-rent status, reading a rebooking-rate or retail-attach report, building the daily appointment column against call-outs and walk-ins, responding to an expired-license or sanitation gap, or resolving a compensation-structure dispute.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-1022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/personal-service-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "pest-control-worker",
       "description": "Use when a task needs the judgment of a licensed pest control technician/PCO \u2014 diagnosing a pest or wood-destroying-organism (WDO) infestation, calculating a legal termiticide or insecticide application rate, writing a WDO/NPMA-33 inspection report for a real estate transaction, deciding between trench-and-treat vs. rod injection vs. bait, or evaluating a termite retreatment/repair warranty claim.",
       "category": "operations",
@@ -12037,6 +12331,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/pipelayer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pit-boss",
+      "description": "Use when a task needs the judgment of a Pit Boss (First-Line Supervisor of Gambling Services Workers) \u2014 authorizing a table fill or credit, deciding whether a payout dispute needs surveillance review, rating a player's theoretical value for comps, rotating and scheduling dealers on a live pit, or judging whether a hold-percentage swing on a table is variance or a real problem.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-1013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pit-boss/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -13379,6 +13694,27 @@
       ]
     },
     {
+      "slug": "recreation-coordinator",
+      "description": "Use when a task needs the judgment of a Recreation Coordinator \u2014 designing or staffing a day-camp or community-center program, setting supervision ratios for an activity or field trip, writing an incident report or emergency action plan, deciding whether to modify or cancel an activity for weather or a staffing shortfall, or building an inclusion accommodation for a participant with a disability.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-9032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/recreation-coordinator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "recreational-therapist",
       "description": "Use when a task needs the judgment of a Certified Therapeutic Recreation Specialist (CTRS) \u2014 writing or auditing a recreational-therapy goal, deciding whether a leisure/activity intervention counts as billable treatment versus diversion, grading an activity for a dementia or behavioral-health client who is disengaging, or planning discharge/community-reintegration handoff.",
       "category": "healthcare",
@@ -13663,6 +13999,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/reservation-transportation-ticket-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "resident-director",
+      "description": "Use when a task needs the judgment of a Resident Director / residential-life advisor overseeing a dorm, group home, or similar live-in facility \u2014 triaging a crisis or intoxication call, mediating a roommate or resident conflict, deciding whether an incident triggers mandated reporting, designing an on-call duty rotation, or writing up a documented conduct incident.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-9041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/resident-director/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -14354,6 +14711,27 @@
       ]
     },
     {
+      "slug": "shampoo-technician",
+      "description": "Use when a task needs the judgment of a salon shampoo technician \u2014 choosing a shampoo/cycle before a color, perm, or lightening service, setting water temperature and rinse sequence for a sensitive or processed scalp, reading a scalp condition at the bowl and deciding whether to flag it to the stylist, or diagnosing why a downstream chemical service came out uneven.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-5093.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/shampoo-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "sheet-metal-worker",
       "description": "Use when a task needs the judgment of a sheet metal worker fabricating and installing HVAC ductwork \u2014 selecting duct gauge for a pressure class and dimension, laying out a transition or offset fitting, resolving a field obstruction against static-pressure and code impact, checking leakage/seal class requirements, or flagging a fire/smoke damper needed at a rated wall or floor penetration.",
       "category": "operations",
@@ -14970,6 +15348,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/sports-official/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sportsbook-writer",
+      "description": "Use when a task needs the judgment of a race and sports book writer or runner \u2014 grading and settling a wagering ticket, calculating a parlay or teaser payout, determining whether a win triggers a W-2G or excise-tax event, enforcing a betting cutoff against past-posting, or deciding whether to move or hold a posted line under one-sided action.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sportsbook-writer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -15728,6 +16127,27 @@
       ]
     },
     {
+      "slug": "theatrical-makeup-artist",
+      "description": "Use when a task needs the judgment of a theatrical/performance Makeup Artist \u2014 designing character makeup against a script and a specific stage-distance or camera format, planning a sub-two-minute quick-change transformation, running continuity across a multi-day shoot, or diagnosing why an applied look reads wrong under the actual lighting.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-5091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/theatrical-makeup-artist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "tile-stone-setter",
       "description": "Use when a task needs the judgment of a Tile and Stone Setter \u2014 selecting a shower waterproofing method against the drain type, specifying mortar coverage and trowel size for large-format tile or a wet area, setting a lippage tolerance and leveling-clip plan, choosing grout/sealer chemistry for natural stone, or reviewing a tile contractor's quote for missing substrate or membrane line items.",
       "category": "operations",
@@ -15823,6 +16243,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/tool-die-maker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "tour-director",
+      "description": "Use when a task needs the judgment of a tour director \u2014 building a multi-day tour's vendor-chain contingency plan, reconciling a mid-trip disruption's cascading schedule impact, managing gratuity/per-diem cash flows across a group, or resolving a rooming-list/manifest mismatch at hotel check-in.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-7012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/tour-director/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -16231,6 +16672,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/urologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "usher",
+      "description": "Use when a task needs the judgment of an usher, lobby attendant, or ticket taker \u2014 staffing doors and scanner lanes before a show or game, deciding when to hold or admit a late arrival, reading crowd density at a pinch point before it becomes a capacity problem, resolving a ticket or accessible-seating dispute at the door, or escalating a medical or security incident in the house.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "39-3031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/usher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

@@ -4,7 +4,161 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sun, 12 Jul 2026 14:16:49 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 14:31:19 +0000</lastBuildDate>
+  <item>
+    <title>Amusement Recreation Attendant</title>
+    <link>https://domainexperts.dev/roles/amusement-recreation-attendant/</link>
+    <guid>https://domainexperts.dev/roles/amusement-recreation-attendant/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Amusement and Recreation Attendant — running ride dispatch and restraint checks, calling a weather or mechanical hold, managing queue throughput and wait-time complaints, operating a game booth or coin-operated attraction, or handling an on-ride evacuation.</description>
+  </item>
+  <item>
+    <title>Animal Caretaker</title>
+    <link>https://domainexperts.dev/roles/animal-caretaker/</link>
+    <guid>https://domainexperts.dev/roles/animal-caretaker/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Animal Caretaker — triaging daily husbandry when kennel census exceeds staffing capacity, reading a Fear-Anxiety-Stress (FAS) score change or appetite/output drop against an escalation threshold, deciding brush-out vs. shave-down on a matted coat, or setting isolation and vaccination-lead-time protocol for a new intake or boarding admission.</description>
+  </item>
+  <item>
+    <title>Barber</title>
+    <link>https://domainexperts.dev/roles/barber/</link>
+    <guid>https://domainexperts.dev/roles/barber/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed barber — diagnosing a fade/taper request against a client&#x27;s actual grain and density, sequencing a shop&#x27;s chair time and rebooking, deciding straight-razor vs. shavette for a shave, or reading a haircut complaint to find the real cause.</description>
+  </item>
+  <item>
+    <title>Bellhop</title>
+    <link>https://domainexperts.dev/roles/bellhop/</link>
+    <guid>https://domainexperts.dev/roles/bellhop/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Bellhop or Baggage Porter — loading and routing a luggage cart, triaging a group check-in or motorcoach arrival that outpaces current staffing, resolving a bag-count or damage dispute against the claim-ticket trail, or deciding solo-lift vs. two-person-lift vs. hand-truck for an oversized or awkward piece.</description>
+  </item>
+  <item>
+    <title>Costume Attendant</title>
+    <link>https://domainexperts.dev/roles/costume-attendant/</link>
+    <guid>https://domainexperts.dev/roles/costume-attendant/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a costume attendant/dresser — planning or timing a quick change, building a costume plot or track sheet, deciding a laundry/repair rotation, assigning dresser-to-actor ratios for a scene, or diagnosing why a costume is failing onstage.</description>
+  </item>
+  <item>
+    <title>Crematory Operator</title>
+    <link>https://domainexperts.dev/roles/crematory-operator/</link>
+    <guid>https://domainexperts.dev/roles/crematory-operator/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Crematory Operator — running a cremation cycle safely, verifying chain-of-custody and identification before charging a retort, handling implanted-device or oversized-decedent hazards, or documenting and troubleshooting an incident during processing.</description>
+  </item>
+  <item>
+    <title>Entertainment Recreation Supervisor</title>
+    <link>https://domainexperts.dev/roles/entertainment-recreation-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/entertainment-recreation-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a First-Line Supervisor of Entertainment and Recreation Workers (camp, pool, ride crew, attractions, or activities floor) — building today&#x27;s shift roster against certification/ratio requirements when call-outs hit, running a pre-shift briefing, triaging an escalated guest complaint, deciding whether a new hire is ready to sign off independent, or choosing when to consolidate or close a program area for the day.</description>
+  </item>
+  <item>
+    <title>Funeral Attendant</title>
+    <link>https://domainexperts.dev/roles/funeral-attendant/</link>
+    <guid>https://domainexperts.dev/roles/funeral-attendant/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Funeral Attendant — staffing and staging a casket carry, running a viewing-room or graveside setup walkthrough, verifying chain of custody on remains or personal effects at a handoff, sequencing a funeral procession and escort vehicle, or working through a bloodborne-pathogen exposure situation during dressing or casketing.</description>
+  </item>
+  <item>
+    <title>Gambling Dealer</title>
+    <link>https://domainexperts.dev/roles/gambling-dealer/</link>
+    <guid>https://domainexperts.dev/roles/gambling-dealer/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a gambling dealer — running a blackjack, craps, roulette, or poker table, resolving a payout dispute, deciding when to call the floor over a suspected past-post or hole-card attempt, calling a chip-tray fill, or executing a shuffle/cut procedure at penetration.</description>
+  </item>
+  <item>
+    <title>Locker Room Attendant</title>
+    <link>https://domainexperts.dev/roles/locker-room-attendant/</link>
+    <guid>https://domainexperts.dev/roles/locker-room-attendant/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a locker room, coatroom, or dressing room attendant — running a claim-check system for coats or valuables, setting towel/linen par for a locker room, handling a lost-or-stolen-item claim, staffing a locker room or coat check for a peak event, or writing up an incident report after a theft or slip.</description>
+  </item>
+  <item>
+    <title>Manicurist Pedicurist</title>
+    <link>https://domainexperts.dev/roles/manicurist-pedicurist/</link>
+    <guid>https://domainexperts.dev/roles/manicurist-pedicurist/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a licensed manicurist/pedicurist — deciding whether a nail or skin finding is safe to service or needs a physician referral, choosing between soak-off and mechanical removal for a gel or acrylic enhancement, sequencing disinfection contact-time against a stacked multi-client shift, or diagnosing why an enhancement lifted, discolored, or resisted removal.</description>
+  </item>
+  <item>
+    <title>Motion Picture Projectionist</title>
+    <link>https://domainexperts.dev/roles/motion-picture-projectionist/</link>
+    <guid>https://domainexperts.dev/roles/motion-picture-projectionist/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a motion picture projectionist — troubleshooting a dim, dropped-frame, or out-of-sync digital cinema screening, managing KDM key windows and DCP ingest before a show, calibrating screen luminance and sound level against SMPTE reference targets, or handling and threading archival 35mm/70mm prints for a revival or roadshow booking.</description>
+  </item>
+  <item>
+    <title>Nanny</title>
+    <link>https://domainexperts.dev/roles/nanny/</link>
+    <guid>https://domainexperts.dev/roles/nanny/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Nanny — drafting or reviewing a household work agreement, deciding whether an off-agreement ask (extra hours, an extra child, driving, medicine) needs pay adjustment or written sign-off, reconciling weekly hours and overtime for a live-in or live-out arrangement, or handling a parent-communication or handoff situation in a single-family, no-coworker setting.</description>
+  </item>
+  <item>
+    <title>Personal Service Supervisor</title>
+    <link>https://domainexperts.dev/roles/personal-service-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/personal-service-supervisor/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a first-line supervisor of personal service workers — deciding whether to convert a stylist or technician between commission, employee, and booth-rent status, reading a rebooking-rate or retail-attach report, building the daily appointment column against call-outs and walk-ins, responding to an expired-license or sanitation gap, or resolving a compensation-structure dispute.</description>
+  </item>
+  <item>
+    <title>Pit Boss</title>
+    <link>https://domainexperts.dev/roles/pit-boss/</link>
+    <guid>https://domainexperts.dev/roles/pit-boss/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Pit Boss (First-Line Supervisor of Gambling Services Workers) — authorizing a table fill or credit, deciding whether a payout dispute needs surveillance review, rating a player&#x27;s theoretical value for comps, rotating and scheduling dealers on a live pit, or judging whether a hold-percentage swing on a table is variance or a real problem.</description>
+  </item>
+  <item>
+    <title>Recreation Coordinator</title>
+    <link>https://domainexperts.dev/roles/recreation-coordinator/</link>
+    <guid>https://domainexperts.dev/roles/recreation-coordinator/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Recreation Coordinator — designing or staffing a day-camp or community-center program, setting supervision ratios for an activity or field trip, writing an incident report or emergency action plan, deciding whether to modify or cancel an activity for weather or a staffing shortfall, or building an inclusion accommodation for a participant with a disability.</description>
+  </item>
+  <item>
+    <title>Resident Director</title>
+    <link>https://domainexperts.dev/roles/resident-director/</link>
+    <guid>https://domainexperts.dev/roles/resident-director/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Resident Director / residential-life advisor overseeing a dorm, group home, or similar live-in facility — triaging a crisis or intoxication call, mediating a roommate or resident conflict, deciding whether an incident triggers mandated reporting, designing an on-call duty rotation, or writing up a documented conduct incident.</description>
+  </item>
+  <item>
+    <title>Shampoo Technician</title>
+    <link>https://domainexperts.dev/roles/shampoo-technician/</link>
+    <guid>https://domainexperts.dev/roles/shampoo-technician/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a salon shampoo technician — choosing a shampoo/cycle before a color, perm, or lightening service, setting water temperature and rinse sequence for a sensitive or processed scalp, reading a scalp condition at the bowl and deciding whether to flag it to the stylist, or diagnosing why a downstream chemical service came out uneven.</description>
+  </item>
+  <item>
+    <title>Sportsbook Writer</title>
+    <link>https://domainexperts.dev/roles/sportsbook-writer/</link>
+    <guid>https://domainexperts.dev/roles/sportsbook-writer/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a race and sports book writer or runner — grading and settling a wagering ticket, calculating a parlay or teaser payout, determining whether a win triggers a W-2G or excise-tax event, enforcing a betting cutoff against past-posting, or deciding whether to move or hold a posted line under one-sided action.</description>
+  </item>
+  <item>
+    <title>Theatrical Makeup Artist</title>
+    <link>https://domainexperts.dev/roles/theatrical-makeup-artist/</link>
+    <guid>https://domainexperts.dev/roles/theatrical-makeup-artist/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a theatrical/performance Makeup Artist — designing character makeup against a script and a specific stage-distance or camera format, planning a sub-two-minute quick-change transformation, running continuity across a multi-day shoot, or diagnosing why an applied look reads wrong under the actual lighting.</description>
+  </item>
+  <item>
+    <title>Tour Director</title>
+    <link>https://domainexperts.dev/roles/tour-director/</link>
+    <guid>https://domainexperts.dev/roles/tour-director/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a tour director — building a multi-day tour&#x27;s vendor-chain contingency plan, reconciling a mid-trip disruption&#x27;s cascading schedule impact, managing gratuity/per-diem cash flows across a group, or resolving a rooming-list/manifest mismatch at hotel check-in.</description>
+  </item>
+  <item>
+    <title>Usher</title>
+    <link>https://domainexperts.dev/roles/usher/</link>
+    <guid>https://domainexperts.dev/roles/usher/</guid>
+    <pubDate>Sun, 12 Jul 2026 21:30:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of an usher, lobby attendant, or ticket taker — staffing doors and scanner lanes before a show or game, deciding when to hold or admit a late arrival, reading crowd density at a pinch point before it becomes a capacity problem, resolving a ticket or accessible-seating dispute at the door, or escalating a medical or security incident in the house.</description>
+  </item>
   <item>
     <title>Cashier</title>
     <link>https://domainexperts.dev/roles/cashier/</link>
