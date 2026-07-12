@@ -4,7 +4,28 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sun, 12 Jul 2026 13:15:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 13:28:33 +0000</lastBuildDate>
+  <item>
+    <title>Freight Forwarder</title>
+    <link>https://domainexperts.dev/roles/freight-forwarder/</link>
+    <guid>https://domainexperts.dev/roles/freight-forwarder/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:25:34 +0700</pubDate>
+    <description>Use when a task needs the judgment of a freight forwarder — quoting LCL vs FCL ocean freight, deciding whether to book as agent or issue a House Bill of Lading as NVOCC, verifying an Incoterm&#x27;s responsibility split before booking, comparing ocean vs air on total landed cost, or managing demurrage/detention exposure on an in-transit shipment.</description>
+  </item>
+  <item>
+    <title>Hr Assistant</title>
+    <link>https://domainexperts.dev/roles/hr-assistant/</link>
+    <guid>https://domainexperts.dev/roles/hr-assistant/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:25:34 +0700</pubDate>
+    <description>Use when a task needs the judgment of an HR assistant — processing new-hire paperwork and I-9/E-Verify timing, maintaining personnel files and HRIS data accuracy, coordinating background checks and interview scheduling, or triaging an employee&#x27;s question into &quot;answer it&quot; versus &quot;route it to the HR specialist.&quot; Distinct from hr-specialist (owns the compliance/leave/accommodation judgment calls this role executes and escalates into) and hr-people-manager (owns comp, discipline, and org decisions) — this role owns the transactional and records layer underneath both.</description>
+  </item>
+  <item>
+    <title>Switchboard Operator</title>
+    <link>https://domainexperts.dev/roles/switchboard-operator/</link>
+    <guid>https://domainexperts.dev/roles/switchboard-operator/</guid>
+    <pubDate>Sun, 12 Jul 2026 20:25:34 +0700</pubDate>
+    <description>Use when a task needs the judgment of a switchboard/PBX or telephone-answering-service operator — triaging an incoming call before routing it, drafting or fixing a call-answering script for a client account, deciding whether a call qualifies as an emergency escalation, building an on-call or overflow-surge protocol, or writing a call-volume/SLA exception report.</description>
+  </item>
   <item>
     <title>Geothermal Technician</title>
     <link>https://domainexperts.dev/roles/geothermal-technician/</link>
