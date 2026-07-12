@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 761 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 764 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -1119,15 +1119,15 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>53 — Transportation and Material Moving</strong> (49/57 drafted)</summary>
+<summary><strong>53 — Transportation and Material Moving</strong> (52/57 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 53-1041.00 | Aircraft Cargo Handling Supervisors | [`aircraft-cargo-supervisor`](./roles/aircraft-cargo-supervisor/SKILL.md) |
-|  | 53-1042.00 | First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand |  |
+| ✅ | 53-1042.00 | First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand | [`moving-crew-supervisor`](./roles/moving-crew-supervisor/SKILL.md) |
 | ✅ | 53-1042.01 | Recycling Coordinators | [`recycling-coordinator`](./roles/recycling-coordinator/SKILL.md) |
 | ✅ | 53-1043.00 | First-Line Supervisors of Material-Moving Machine and Vehicle Operators | [`material-moving-supervisor`](./roles/material-moving-supervisor/SKILL.md) |
-|  | 53-1044.00 | First-Line Supervisors of Passenger Attendants |  |
+| ✅ | 53-1044.00 | First-Line Supervisors of Passenger Attendants | [`purser`](./roles/purser/SKILL.md) |
 |  | 53-1049.00 | First-Line Supervisors of Transportation Workers, All Other |  |
 | ✅ | 53-2011.00 | Airline Pilots, Copilots, and Flight Engineers | [`airline-pilot`](./roles/airline-pilot/SKILL.md) |
 | ✅ | 53-2012.00 | Commercial Pilots | [`commercial-pilot`](./roles/commercial-pilot/SKILL.md) |
@@ -1158,7 +1158,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 53-6031.00 | Automotive and Watercraft Service Attendants | [`watercraft-service-attendant`](./roles/watercraft-service-attendant/SKILL.md) |
 | ✅ | 53-6032.00 | Aircraft Service Attendants | [`aircraft-service-attendant`](./roles/aircraft-service-attendant/SKILL.md) |
 | ✅ | 53-6041.00 | Traffic Technicians | [`traffic-technician`](./roles/traffic-technician/SKILL.md) |
-|  | 53-6051.00 | Transportation Inspectors |  |
+| ✅ | 53-6051.00 | Transportation Inspectors | [`cargo-inspector`](./roles/cargo-inspector/SKILL.md) |
 | ✅ | 53-6051.01 | Aviation Inspectors | [`aviation-inspector`](./roles/aviation-inspector/SKILL.md) |
 | ✅ | 53-6051.07 | Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation | [`vehicle-systems-inspector`](./roles/vehicle-systems-inspector/SKILL.md) |
 | ✅ | 53-6061.00 | Passenger Attendants | [`passenger-attendant`](./roles/passenger-attendant/SKILL.md) |

@@ -1,5 +1,5 @@
 {
-  "count": 771,
+  "count": 774,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2047,6 +2047,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cargo-freight-agent/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cargo-inspector",
+      "description": "Use when a task needs the judgment of a Cargo Inspector \u2014 reconciling a vessel draft survey against a shore tally within IMO tolerance, calculating outturn quantity from tank ullage and temperature readings under API MPMS, verifying dangerous-goods segregation against the IMDG Code, checking a load's height and width against a route's bridge and tunnel clearances before departure, or documenting cargo condition and filing a letter of protest before custody transfers.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-6051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cargo-inspector/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -9845,6 +9866,27 @@
       ]
     },
     {
+      "slug": "moving-crew-supervisor",
+      "description": "Use when a task needs the judgment of a Moving Crew Supervisor (van line or local moving company foreman) \u2014 confirming whether a shipment's estimate is binding or non-binding before the truck loads, deciding how much can legally be collected at delivery once the actual weight comes in over estimate, calling a team-lift or mechanical-aid decision on an oversized item, writing up an additional-service order for items added after the bill of lading was signed, or handling a damage claim under released-value versus full-value protection.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-1042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/moving-crew-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "mrf-sorter",
       "description": "Use when a task needs the judgment of a materials recovery facility (MRF) sorter/Recycling and Reclamation Worker \u2014 deciding whether a lithium battery or propane canister on a moving sort line needs an immediate line stop versus a routine hazardous pull, judging why a baled commodity dropped a purity grade and what it cost, working a picking-station reach zone without crossing into a nip point, triaging ambiguous material at sorting speed, or classifying a contamination item as quality-only versus safety-critical.",
       "category": "operations",
@@ -12622,6 +12664,27 @@
       "audit_score": null,
       "skill": "roles/purchasing-manager/SKILL.md",
       "references": [],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "purser",
+      "description": "Use when a task needs the judgment of a Purser (in-charge flight attendant / cabin crew supervisor) \u2014 recomputing required cabin-crew count after a gauge swap against 14 CFR 121.391, checking whether a reassigned reserve flight attendant is legal to fly under 121.467 duty/rest limits, running a pre-flight crew briefing for that day's specific manifest, deciding when to escalate a cabin issue to the captain versus resolve it within delegated cabin authority, or filing an irregularity report through ASAP instead of handling it as informal coaching.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "53-1044.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/purser/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
