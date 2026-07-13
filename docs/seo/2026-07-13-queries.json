@@ -1,0 +1,504 @@
+{
+  "domain": "domainexperts.dev",
+  "report_date": "2026-07-13",
+  "generated_at": "2026-07-13T12:30:22.062768+07:00",
+  "total_queries": 34,
+  "total_pages": 23,
+  "queries": [
+    {
+      "query": "\"jacob steinhardt\"",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 3.8,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_meta"
+    },
+    {
+      "query": ".training domain",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising and promotions managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "best equest competitors for ofccp and job distribution",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 75.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "biofuels production managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "challenge marketing strategist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 40.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer & information systems managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer and information systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer and information systems managers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 50.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer and informations systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computers and information systems manager",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 69.2,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "fitness and wellness coordinator salary",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/fitness-wellness-coordinator",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "geothermal production assurance",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 56.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "geothermal production manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-systems-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "geothermal production managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "geothermal project management",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 56.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "glaziers fitting",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "google meridian mmm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "how to become a computer and information systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/biostatistician",
+        "/roles/computer-information-research-scientist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "it systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 30.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-systems-manager",
+        "/roles/equal-opportunity-representative"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "job group analysis",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "logistics domain",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 83.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing strategists",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0.0,
+      "position": 49.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing strategy expert",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 49.8,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "promo manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-systems-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "refractories repair",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 82.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/refractory-materials-repairer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "security threat manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-systems-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "security threat response manager",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 35.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/computer-information-systems-manager",
+        "/roles/geothermal-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what do computer and information systems managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what do computer and information systems managers do",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what do marketing strategists do",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what does a computer and information systems manager do",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/biostatistician",
+        "/roles/computer-information-research-scientist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a patrol officer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/biostatistician",
+        "/roles/computer-information-research-scientist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a wellness coordinator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 51.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/biostatistician",
+        "/roles/computer-information-research-scientist"
+      ],
+      "suggested_action": "monitor"
+    }
+  ],
+  "page_opportunities": [],
+  "uncovered_queries": []
+}

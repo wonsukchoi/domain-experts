@@ -1,7 +1,413 @@
 {
-  "last_report": null,
-  "last_overview": null,
-  "last_pages": {},
-  "last_queries": {},
+  "last_report": "2026-07-13",
+  "last_overview": {
+    "clicks": 0,
+    "impressions": 106,
+    "ctr": 0.0,
+    "avg_pos": 40.2
+  },
+  "last_pages": {
+    "https://domainexperts.dev/": {
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 17.8,
+      "key": "https://domainexperts.dev/"
+    },
+    "https://domainexperts.dev/roles/advertising-promotions-manager/": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 62.2,
+      "key": "https://domainexperts.dev/roles/advertising-promotions-manager/"
+    },
+    "https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 55.0,
+      "key": "https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager/"
+    },
+    "https://domainexperts.dev/roles/biofuels-production-manager/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "key": "https://domainexperts.dev/roles/biofuels-production-manager/"
+    },
+    "https://domainexperts.dev/roles/biostatistician/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 2.0,
+      "key": "https://domainexperts.dev/roles/biostatistician/"
+    },
+    "https://domainexperts.dev/roles/computer-information-research-scientist/": {
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 3.8,
+      "key": "https://domainexperts.dev/roles/computer-information-research-scientist/"
+    },
+    "https://domainexperts.dev/roles/computer-information-systems-manager/": {
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0.0,
+      "position": 59.8,
+      "key": "https://domainexperts.dev/roles/computer-information-systems-manager/"
+    },
+    "https://domainexperts.dev/roles/data-warehousing-specialist/": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 21.5,
+      "key": "https://domainexperts.dev/roles/data-warehousing-specialist/"
+    },
+    "https://domainexperts.dev/roles/dental-hygienist/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "key": "https://domainexperts.dev/roles/dental-hygienist/"
+    },
+    "https://domainexperts.dev/roles/equal-opportunity-representative/": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 36.5,
+      "key": "https://domainexperts.dev/roles/equal-opportunity-representative/"
+    },
+    "https://domainexperts.dev/roles/exercise-trainer/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "key": "https://domainexperts.dev/roles/exercise-trainer/"
+    },
+    "https://domainexperts.dev/roles/fitness-wellness-coordinator/": {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 33.0,
+      "key": "https://domainexperts.dev/roles/fitness-wellness-coordinator/"
+    },
+    "https://domainexperts.dev/roles/geothermal-production-manager/": {
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 49.2,
+      "key": "https://domainexperts.dev/roles/geothermal-production-manager/"
+    },
+    "https://domainexperts.dev/roles/glazier/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "key": "https://domainexperts.dev/roles/glazier/"
+    },
+    "https://domainexperts.dev/roles/insurance-underwriter/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "key": "https://domainexperts.dev/roles/insurance-underwriter/"
+    },
+    "https://domainexperts.dev/roles/land-surveyor/": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 22.5,
+      "key": "https://domainexperts.dev/roles/land-surveyor/"
+    },
+    "https://domainexperts.dev/roles/logistician/": {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 47.3,
+      "key": "https://domainexperts.dev/roles/logistician/"
+    },
+    "https://domainexperts.dev/roles/marketing-strategist/": {
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0.0,
+      "position": 42.0,
+      "key": "https://domainexperts.dev/roles/marketing-strategist/"
+    },
+    "https://domainexperts.dev/roles/paralegal/": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 22.2,
+      "key": "https://domainexperts.dev/roles/paralegal/"
+    },
+    "https://domainexperts.dev/roles/police-patrol-officer/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "key": "https://domainexperts.dev/roles/police-patrol-officer/"
+    },
+    "https://domainexperts.dev/roles/refractory-materials-repairer/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 82.0,
+      "key": "https://domainexperts.dev/roles/refractory-materials-repairer/"
+    },
+    "https://domainexperts.dev/roles/security-manager/": {
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 36.0,
+      "key": "https://domainexperts.dev/roles/security-manager/"
+    },
+    "https://domainexperts.dev/roles/wind-energy-engineer/": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "key": "https://domainexperts.dev/roles/wind-energy-engineer/"
+    }
+  },
+  "last_queries": {
+    "\"jacob steinhardt\"": {
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 3.8,
+      "key": "\"jacob steinhardt\""
+    },
+    ".training domain": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "key": ".training domain"
+    },
+    "advertising and promotions managers": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0,
+      "key": "advertising and promotions managers"
+    },
+    "best equest competitors for ofccp and job distribution": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 75.0,
+      "key": "best equest competitors for ofccp and job distribution"
+    },
+    "biofuels production managers": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "key": "biofuels production managers"
+    },
+    "challenge marketing strategist": {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 40.7,
+      "key": "challenge marketing strategist"
+    },
+    "computer & information systems managers": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "key": "computer & information systems managers"
+    },
+    "computer and information systems manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "key": "computer and information systems manager"
+    },
+    "computer and information systems managers": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 50.5,
+      "key": "computer and information systems managers"
+    },
+    "computer and informations systems manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "key": "computer and informations systems manager"
+    },
+    "computers and information systems manager": {
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 69.2,
+      "key": "computers and information systems manager"
+    },
+    "fitness and wellness coordinator salary": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "key": "fitness and wellness coordinator salary"
+    },
+    "geothermal production assurance": {
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 56.7,
+      "key": "geothermal production assurance"
+    },
+    "geothermal production manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "key": "geothermal production manager"
+    },
+    "geothermal production managers": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "key": "geothermal production managers"
+    },
+    "geothermal project management": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 56.5,
+      "key": "geothermal project management"
+    },
+    "glaziers fitting": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "key": "glaziers fitting"
+    },
+    "google meridian mmm": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "key": "google meridian mmm"
+    },
+    "how to become a computer and information systems manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "key": "how to become a computer and information systems manager"
+    },
+    "it systems manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 30.0,
+      "key": "it systems manager"
+    },
+    "job group analysis": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "key": "job group analysis"
+    },
+    "logistics domain": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 83.0,
+      "key": "logistics domain"
+    },
+    "marketing strategists": {
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0.0,
+      "position": 49.3,
+      "key": "marketing strategists"
+    },
+    "marketing strategy expert": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 49.8,
+      "key": "marketing strategy expert"
+    },
+    "promo manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0,
+      "key": "promo manager"
+    },
+    "refractories repair": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 82.0,
+      "key": "refractories repair"
+    },
+    "security threat manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "key": "security threat manager"
+    },
+    "security threat response manager": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 35.0,
+      "key": "security threat response manager"
+    },
+    "what do computer and information systems managers": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "key": "what do computer and information systems managers"
+    },
+    "what do computer and information systems managers do": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "key": "what do computer and information systems managers do"
+    },
+    "what do marketing strategists do": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "key": "what do marketing strategists do"
+    },
+    "what does a computer and information systems manager do": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "key": "what does a computer and information systems manager do"
+    },
+    "what is a patrol officer": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "key": "what is a patrol officer"
+    },
+    "what is a wellness coordinator": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 51.0,
+      "key": "what is a wellness coordinator"
+    }
+  },
   "recommendations": {}
 }
