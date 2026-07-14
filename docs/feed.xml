@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:00:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:03:04 +0000</lastBuildDate>
+  <item>
+    <title>Extruding Forming Machine Operator</title>
+    <link>https://domainexperts.dev/roles/extruding-forming-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/extruding-forming-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:02:48 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Extruding, Forming, Pressing, or Compacting Machine Setter, Operator, or Tender — accounting for die swell and draw-down when setting die dimensions for a target part size, evaluating whether a takeoff speed change affects wall thickness through draw-down ratio even when outer diameter stays in spec, deciding whether melt temperature/residence time risks material degradation, or diagnosing a gradually developing dimensional issue versus a start-up setup error.</description>
+  </item>
   <item>
     <title>Hand Cutter Trimmer</title>
     <link>https://domainexperts.dev/roles/hand-cutter-trimmer/</link>
