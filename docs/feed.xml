@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:12:24 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:16:33 +0000</lastBuildDate>
+  <item>
+    <title>Paper Goods Machine Operator</title>
+    <link>https://domainexperts.dev/roles/paper-goods-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/paper-goods-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:16:19 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Paper Goods Machine Setter, Operator, or Tender — diagnosing fold-line cracking as a moisture issue rather than a blade/tool problem, verifying adhesive bond strength rather than just visual glue presence, adjusting web tension as roll diameter changes during a run, or re-verifying quality after a converting speed increase.</description>
+  </item>
   <item>
     <title>Ceramic Molder Shaper Caster</title>
     <link>https://domainexperts.dev/roles/ceramic-molder-shaper-caster/</link>
