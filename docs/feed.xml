@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:22:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:25:19 +0000</lastBuildDate>
+  <item>
+    <title>Shoe Machine Operator</title>
+    <link>https://domainexperts.dev/roles/shoe-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/shoe-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:25:03 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Shoe Machine Operator/Tender — inspecting last/tooling condition before a production run since wear produces a batch-wide sizing defect rather than an isolated unit issue, verifying lasting tension against the specified range for the current material, sampling sole bond strength at intervals throughout a running batch rather than only visual inspection at completion, and limiting containment scope to the units produced since a defect&#x27;s actual onset rather than the full batch.</description>
+  </item>
   <item>
     <title>Shoe Leather Worker Repairer</title>
     <link>https://domainexperts.dev/roles/shoe-leather-worker-repairer/</link>
