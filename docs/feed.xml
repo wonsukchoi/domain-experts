@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 16:59:03 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:03:18 +0000</lastBuildDate>
+  <item>
+    <title>Gas Plant Operator</title>
+    <link>https://domainexperts.dev/roles/gas-plant-operator/</link>
+    <guid>https://domainexperts.dev/roles/gas-plant-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:02:59 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Gas Plant Operator — diagnosing whether a pressure drop and flow increase on a distribution section indicates a leak versus a demand change, verifying odorant concentration accounts for odor fade across a distribution system, deciding how much safety margin to hold below Maximum Allowable Operating Pressure (MAOP), or evaluating a proposed deviation from a Process Safety Management (PSM)-covered procedure.</description>
+  </item>
   <item>
     <title>Textile Knitting Weaving Machine Operator</title>
     <link>https://domainexperts.dev/roles/textile-knitting-weaving-machine-operator/</link>
