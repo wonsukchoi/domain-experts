@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:08:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:12:04 +0000</lastBuildDate>
+  <item>
+    <title>Cnc Tool Operator</title>
+    <link>https://domainexperts.dev/roles/cnc-tool-operator/</link>
+    <guid>https://domainexperts.dev/roles/cnc-tool-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:11:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a CNC Tool Operator — diagnosing a dimension trending toward its tolerance limit across consecutive parts before it actually crosses, deciding whether to apply a tool wear offset or flag the tool for replacement, evaluating whether a failed part traces to work-holding repeatability versus a program or tool issue, or verifying a setup change with a first-article inspection before running production quantity.</description>
+  </item>
   <item>
     <title>Chemical Equipment Operator</title>
     <link>https://domainexperts.dev/roles/chemical-equipment-operator/</link>

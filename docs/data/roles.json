@@ -1,5 +1,5 @@
 {
-  "count": 877,
+  "count": 878,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2858,6 +2858,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/cnc-programmer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "cnc-tool-operator",
+      "description": "Use when a task needs the judgment of a CNC Tool Operator \u2014 diagnosing a dimension trending toward its tolerance limit across consecutive parts before it actually crosses, deciding whether to apply a tool wear offset or flag the tool for replacement, evaluating whether a failed part traces to work-holding repeatability versus a program or tool issue, or verifying a setup change with a first-article inspection before running production quantity.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9161.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/cnc-tool-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
