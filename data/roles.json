@@ -1,5 +1,5 @@
 {
-  "count": 884,
+  "count": 885,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -15627,6 +15627,27 @@
       "skill": "roles/set-exhibit-designer/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "sewing-machine-operator",
+      "description": "Use when a task needs the judgment of a Sewing Machine Operator \u2014 diagnosing a stitch quality issue by checking bobbin tension relative to top tension, selecting needle type and seam construction matched to a fabric's actual weight and stretch behavior, deciding whether a higher stitch density improves or weakens a seam on lightweight fabric, or verifying a seam's stretch performance before committing to full bundle production.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-6031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/sewing-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
