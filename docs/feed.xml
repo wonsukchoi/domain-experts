@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:38:50 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:41:26 +0000</lastBuildDate>
+  <item>
+    <title>Biomass Plant Technician</title>
+    <link>https://domainexperts.dev/roles/biomass-plant-technician/</link>
+    <guid>https://domainexperts.dev/roles/biomass-plant-technician/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:41:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biomass Plant Technician — adjusting combustion parameters in response to actual measured fuel moisture content rather than a fixed setpoint, diagnosing a fuel feed interruption as mechanical bridging rather than a combustion issue, adjusting soot-blowing frequency to actual observed slagging conditions rather than a fixed calendar schedule, or monitoring emissions more actively given fuel batch variability rather than a &quot;set and monitor occasionally&quot; approach appropriate for consistent fossil fuel.</description>
+  </item>
   <item>
     <title>Milling Planing Machine Operator</title>
     <link>https://domainexperts.dev/roles/milling-planing-machine-operator/</link>

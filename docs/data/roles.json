@@ -1,5 +1,5 @@
 {
-  "count": 921,
+  "count": 922,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1652,6 +1652,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/biology-professor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "biomass-plant-technician",
+      "description": "Use when a task needs the judgment of a Biomass Plant Technician \u2014 adjusting combustion parameters in response to actual measured fuel moisture content rather than a fixed setpoint, diagnosing a fuel feed interruption as mechanical bridging rather than a combustion issue, adjusting soot-blowing frequency to actual observed slagging conditions rather than a fixed calendar schedule, or monitoring emissions more actively given fuel batch variability rather than a \"set and monitor occasionally\" approach appropriate for consistent fossil fuel.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8013.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biomass-plant-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
