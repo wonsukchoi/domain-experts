@@ -201,9 +201,9 @@ Every result is reproducible: `python3 evals/run_evals.py` and `python3 evals/pa
 ## Current roles
 
 <!-- ROLE_COUNTS_START -->
-**889 roles drafted** (879 mapped to an O*NET occupation, 10 custom; 847 at spec 2, 42 awaiting upgrade), across 10 categories:
+**890 roles drafted** (880 mapped to an O*NET occupation, 10 custom; 848 at spec 2, 42 awaiting upgrade), across 10 categories:
 
-**O\*NET coverage:** `█████████████████░░░` 86.5% (879 / 1,016 occupations)
+**O\*NET coverage:** `█████████████████░░░` 86.6% (880 / 1,016 occupations)
 
 - **design**: 14
 - **engineering**: 127
@@ -211,7 +211,7 @@ Every result is reproducible: `python3 evals/run_evals.py` and `python3 evals/pa
 - **healthcare**: 146
 - **legal**: 21
 - **marketing**: 8
-- **operations**: 350
+- **operations**: 351
 - **other**: 173
 - **product**: 1
 - **sales**: 17
