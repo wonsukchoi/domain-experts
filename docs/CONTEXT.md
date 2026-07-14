@@ -1,14 +1,14 @@
 # CONTEXT
 
 ## Current Task
-2026-07-12 session: continued mass role-drafting via Workflow-tool orchestration, groups 49/43/53/33/41/39 all done (91 roles added, lint clean, each batch committed+pushed). 828/1016 drafted. Only groups 47 (36 roles) and 51 (63 roles, biggest) remain. Runbook: `docs/onet-fill-remaining.md`.
+2026-07-14 session: ran group 47 (36 Construction/Extraction roles) via Workflow-tool orchestration — all 36 added, 0 skipped, lint clean, committed+pushed to main (25d70b5). 854/1016 drafted (≈84.1%). Only group 51 (63 roles, Production, biggest) remains. Runbook: `docs/onet-fill-remaining.md`.
 
 ## Key Decisions
-- Confirmed with user before each Workflow launch this session (multi-agent cost) — ask before firing, don't auto-chain.
-- Small-batch lint fixes handled inline by the ops agent each time (banned phrases: "Best Practices" in bailiff citation, "utilize" substring in resident-director) — no roles dropped across 6 batches.
+- Confirmed direct-to-main push convention with user (matches AGENTS.md/prior batches) despite session's default branch instructions pointing elsewhere — keep pushing role batches straight to main.
+- Left commit 25d70b5's author identity as-is (user declined a rewrite of already-shared main history); set git config (user.email noreply@anthropic.com, user.name Claude) so future commits are correctly attributed.
 - Same skip conventions as before: "All Other" catch-alls and O*NET group 55 (Military) excluded.
 
 ## Next Steps
-- Resume via `docs/onet-fill-remaining.md`: group 47 (36 roles) next, then 51 (63, biggest, do last).
+- Resume via `docs/onet-fill-remaining.md`: group 51 (63 roles, Production, do last) is the only group left.
 - Known bug still open: `roles/critical-care-nurse/` mismapped to code 29-1141.01 (Acute Care Nurses) instead of its titled 29-1141.03 — needs rename/split pass.
-- Haven't bumped npm version this session (still v0.5.0) — bump/tag/push once 47+51 land, per Release section in the runbook.
+- Haven't bumped npm version this session (still v0.5.0) — bump/tag/push once group 51 lands, per Release section in the runbook.
