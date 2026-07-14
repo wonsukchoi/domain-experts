@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 915 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 916 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (105/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (106/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1108,7 +1108,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-9193.00 | Cooling and Freezing Equipment Operators and Tenders | [`cooling-freezing-equipment-operator`](./roles/cooling-freezing-equipment-operator/SKILL.md) |
 | ✅ | 51-9194.00 | Etchers and Engravers | [`etcher-engraver`](./roles/etcher-engraver/SKILL.md) |
 | ✅ | 51-9195.00 | Molders, Shapers, and Casters, Except Metal and Plastic | [`ceramic-molder-shaper-caster`](./roles/ceramic-molder-shaper-caster/SKILL.md) |
-|  | 51-9195.03 | Stone Cutters and Carvers, Manufacturing |  |
+| ✅ | 51-9195.03 | Stone Cutters and Carvers, Manufacturing | [`stone-cutter-carver-manufacturing`](./roles/stone-cutter-carver-manufacturing/SKILL.md) |
 | ✅ | 51-9195.04 | Glass Blowers, Molders, Benders, and Finishers | [`glass-blower-molder`](./roles/glass-blower-molder/SKILL.md) |
 | ✅ | 51-9195.05 | Potters, Manufacturing | [`manufacturing-potter`](./roles/manufacturing-potter/SKILL.md) |
 | ✅ | 51-9196.00 | Paper Goods Machine Setters, Operators, and Tenders | [`paper-goods-machine-operator`](./roles/paper-goods-machine-operator/SKILL.md) |

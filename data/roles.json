@@ -1,5 +1,5 @@
 {
-  "count": 925,
+  "count": 926,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -17112,6 +17112,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/sterile-processing-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "stone-cutter-carver-manufacturing",
+      "description": "Use when a task needs the judgment of a Stone Cutter and Carver (Manufacturing) \u2014 assessing each individual slab's fissures and veins before planning a cut rather than applying a generic cutting orientation, verifying an overhang or load-bearing stone element's cut thickness against the specific stone's engineering properties rather than visual impression, matching veining and color continuity across a multi-slab installation before cutting, and verifying coolant delivery serves both thermal crack prevention and blade protection.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9195.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/stone-cutter-carver-manufacturing/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
