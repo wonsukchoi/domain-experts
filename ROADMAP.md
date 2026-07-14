@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 857 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 858 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (47/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (48/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1099,7 +1099,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-9111.00 | Packaging and Filling Machine Operators and Tenders | [`packaging-filling-machine-operator`](./roles/packaging-filling-machine-operator/SKILL.md) |
 |  | 51-9123.00 | Painting, Coating, and Decorating Workers |  |
 | ✅ | 51-9124.00 | Coating, Painting, and Spraying Machine Setters, Operators, and Tenders | [`coating-painting-spraying-machine-operator`](./roles/coating-painting-spraying-machine-operator/SKILL.md) |
-|  | 51-9141.00 | Semiconductor Processing Technicians |  |
+| ✅ | 51-9141.00 | Semiconductor Processing Technicians | [`semiconductor-processing-technician`](./roles/semiconductor-processing-technician/SKILL.md) |
 | ✅ | 51-9151.00 | Photographic Process Workers and Processing Machine Operators | [`photographic-process-worker`](./roles/photographic-process-worker/SKILL.md) |
 |  | 51-9161.00 | Computer Numerically Controlled Tool Operators |  |
 | ✅ | 51-9162.00 | Computer Numerically Controlled Tool Programmers | [`cnc-programmer`](./roles/cnc-programmer/SKILL.md) |
