@@ -4,7 +4,259 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Sun, 12 Jul 2026 14:31:19 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 07:15:31 +0000</lastBuildDate>
+  <item>
+    <title>Blaster</title>
+    <link>https://domainexperts.dev/roles/blaster/</link>
+    <guid>https://domainexperts.dev/roles/blaster/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a licensed blaster-in-charge — designing a bench or trench blast pattern, checking a shot against vibration/flyrock regulatory limits, sequencing detonator delays, handling a misfire, or reviewing explosives magazine storage and transport compliance.</description>
+  </item>
+  <item>
+    <title>Carpenter Helper</title>
+    <link>https://domainexperts.dev/roles/carpenter-helper/</link>
+    <guid>https://domainexperts.dev/roles/carpenter-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a carpenter&#x27;s helper — cutting and staging lumber to a carpenter&#x27;s layout marks, assembling and standing framed wall panels, running a material take-off and waste calculation for a framing package, or recognizing when a jobsite condition (a missing guardrail component, a nail-gun trigger setting, a header that doesn&#x27;t match the plan) is a stop rather than a workaround.</description>
+  </item>
+  <item>
+    <title>Carpet Installer</title>
+    <link>https://domainexperts.dev/roles/carpet-installer/</link>
+    <guid>https://domainexperts.dev/roles/carpet-installer/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a carpet installer — testing a slab for moisture before glue-down, laying out seam and pattern-match placement for a room wider than the goods roll, deciding stretch-in vs direct-glue method, diagnosing a wrinkled or peaking installation, or pricing a moisture-mitigation or re-stretch change order.</description>
+  </item>
+  <item>
+    <title>Continuous Mining Machine Operator</title>
+    <link>https://domainexperts.dev/roles/continuous-mining-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/continuous-mining-machine-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Continuous Mining Machine Operator in underground coal — reading a methane monitor trend and deciding whether to de-energize, judging whether cumulative unbolted advance has hit the roof control plan&#x27;s cut-depth limit, deciding whether a permissibility defect requires immediate shutdown in a gassy heading, diagnosing whether a shift&#x27;s production shortfall traces to cutting rate or shuttle-car haulage, or deciding whether a &quot;drummy&quot; roof sound stops the cut.</description>
+  </item>
+  <item>
+    <title>Derrick Operator</title>
+    <link>https://domainexperts.dev/roles/derrick-operator/</link>
+    <guid>https://domainexperts.dev/roles/derrick-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Derrick Operator (derrickhand) — running the monkeyboard during a pipe trip, reading trip-tank volume against calculated displacement for a swab or kick signature, calculating a barite weight-up in sacks, deciding whether a volume anomaly warrants stopping the trip for a flow check, or running the mud circulating system (shakers, desander, degasser) between trips.</description>
+  </item>
+  <item>
+    <title>Dragline Operator</title>
+    <link>https://domainexperts.dev/roles/dragline-operator/</link>
+    <guid>https://domainexperts.dev/roles/dragline-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Dragline and Excavating/Loading Machine Operator in surface mining — converting a rated bucket capacity into bank cubic yards moved per shift, deciding whether a swing angle or spoil-placement plan needs to be flagged to pit engineering, matching loading pass count and payload to a haul truck&#x27;s rated capacity, checking ground bearing conditions before walking or tracking a machine onto fill or spoil, or reading a berm/highwall condition against MSHA thresholds.</description>
+  </item>
+  <item>
+    <title>Driller</title>
+    <link>https://domainexperts.dev/roles/driller/</link>
+    <guid>https://domainexperts.dev/roles/driller/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a rotary drill operator (driller) — diagnosing a drilling break or kick warning sign, running well-control shut-in and kill-mud-weight calculations, setting trip margin and swab/surge limits before pulling out of hole, optimizing weight-on-bit and RPM against mechanical specific energy, or reviewing a rig-floor near-miss.</description>
+  </item>
+  <item>
+    <title>Electrician Helper</title>
+    <link>https://domainexperts.dev/roles/electrician-helper/</link>
+    <guid>https://domainexperts.dev/roles/electrician-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of an electrician&#x27;s helper — running the NEC box-fill or conduit-fill calculation for a rough-in before wire gets pulled, bending conduit and pulling wire without exceeding practical bend/tension limits, running a non-contact continuity or polarity check at trim-out, or recognizing when a jobsite finding (reversed polarity, an undersized box, an unlabeled abandoned circuit) is a stop rather than a workaround.</description>
+  </item>
+  <item>
+    <title>Energy Auditor</title>
+    <link>https://domainexperts.dev/roles/energy-auditor/</link>
+    <guid>https://domainexperts.dev/roles/energy-auditor/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of an Energy Auditor — running a blower-door/duct-leakage diagnostic sequence on a home or light-commercial building, testing combustion appliances for worst-case backdraft risk before recommending air sealing, reconciling utility billing history against walkthrough findings, ranking retrofit measures by savings-to-investment ratio (SIR) for a weatherization or utility rebate program, or writing the prioritized scope of work an install crew executes without the auditor on site. Distinct from an energy-engineer (industrial/commercial capital planning, IPMVP measurement and verification, calibrated simulation) — this role owns the field diagnostics and the residential/light-commercial audit-to-scope handoff.</description>
+  </item>
+  <item>
+    <title>Extraction Helper</title>
+    <link>https://domainexperts.dev/roles/extraction-helper/</link>
+    <guid>https://domainexperts.dev/roles/extraction-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a drilling-rig floorhand or quarry/mine extraction helper — racking and tallying drill pipe on a trip, staging tools and reading hand signals on the rig floor or at a blast site, verifying gas-monitor and PPE status before a task starts, or deciding whether a task is inside the helper&#x27;s trained/certified scope versus must wait for the derrickhand, driller, or shot firer.</description>
+  </item>
+  <item>
+    <title>Finish Trades Helper</title>
+    <link>https://domainexperts.dev/roles/finish-trades-helper/</link>
+    <guid>https://domainexperts.dev/roles/finish-trades-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a painting/paperhanging/plastering helper — mixing scratch or brown coat stucco to a plasterer&#x27;s trowel pace, building lead-safe (EPA RRP) containment before a painter scrapes a pre-1978 surface, staging paste and pattern-matched drops for a paperhanger, boxing and loading paint for a sprayer, or writing an end-of-day material and containment handoff.</description>
+  </item>
+  <item>
+    <title>Floor Sander Finisher</title>
+    <link>https://domainexperts.dev/roles/floor-sander-finisher/</link>
+    <guid>https://domainexperts.dev/roles/floor-sander-finisher/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Floor Sander and Finisher — diagnosing a cupped or crowned hardwood floor before sanding, planning a drum-and-edger grit progression for a full refinish, choosing and scheduling coats for an oil-modified vs waterborne finish, or deciding whether a worn floor qualifies for a screen-and-recoat instead of a full sand.</description>
+  </item>
+  <item>
+    <title>Highway Maintenance Worker</title>
+    <link>https://domainexperts.dev/roles/highway-maintenance-worker/</link>
+    <guid>https://domainexperts.dev/roles/highway-maintenance-worker/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a highway maintenance worker — choosing cold-mix versus hot-mix pothole patch material by pavement temperature, setting up a MUTCD-compliant lane-closure work zone with taper length and device spacing, selecting snow-and-ice control chemical and application rate by pavement temperature, or deciding whether a damaged guardrail section can be reinstalled as-is or needs a stiffened repair.</description>
+  </item>
+  <item>
+    <title>Insulation Installer</title>
+    <link>https://domainexperts.dev/roles/insulation-installer/</link>
+    <guid>https://domainexperts.dev/roles/insulation-installer/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of an insulation installer — sizing and sequencing an attic, wall, or floor insulation job to a climate zone&#x27;s code-required R-value, choosing between fiberglass batt, blown cellulose, or open-/closed-cell spray foam for a cavity, deciding whether exposed foam needs a thermal barrier, or diagnosing an ice-dam, moisture, or failed blower-door result against the installed assembly.</description>
+  </item>
+  <item>
+    <title>Masonry Helper</title>
+    <link>https://domainexperts.dev/roles/masonry-helper/</link>
+    <guid>https://domainexperts.dev/roles/masonry-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a masonry helper — mixing and batching mortar to a mason&#x27;s laying pace, staging and cutting brick/block/stone to spec, tending scaffolding and wall bracing on a live wall, or writing an end-of-day material and safety handoff.</description>
+  </item>
+  <item>
+    <title>Mechanical Insulator</title>
+    <link>https://domainexperts.dev/roles/mechanical-insulator/</link>
+    <guid>https://domainexperts.dev/roles/mechanical-insulator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Mechanical Insulator — specifying pipe, duct, or equipment insulation thickness and material by governing case (thermal efficiency, condensation control, personnel protection, or fire-stop), detailing supports/penetrations/fittings on below-ambient systems to prevent corrosion under insulation, evaluating whether existing pipe/boiler insulation must be handled as asbestos-containing, or writing an insulation takeoff and field inspection punch list.</description>
+  </item>
+  <item>
+    <title>Paperhanger</title>
+    <link>https://domainexperts.dev/roles/paperhanger/</link>
+    <guid>https://domainexperts.dev/roles/paperhanger/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a paperhanger/wallcovering installer — calculating roll quantity and waste against a pattern repeat, diagnosing a seam or bubbling failure after hanging, choosing paste and primer for a specific substrate and wallcovering type, sequencing corners and pattern match on an out-of-plumb wall, or pricing a job that includes wall prep the client didn&#x27;t anticipate.</description>
+  </item>
+  <item>
+    <title>Paving Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/paving-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/paving-equipment-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Paving Equipment Operator — establishing or troubleshooting an asphalt roller pattern against a test strip, diagnosing thermal or aggregate segregation behind the screed, sequencing breakdown/intermediate/finish rolling against the compaction temperature window, building a longitudinal or transverse joint, or setting lift thickness and compaction targets for trench backfill and subgrade with a plate compactor or roller.</description>
+  </item>
+  <item>
+    <title>Pile Driver Operator</title>
+    <link>https://domainexperts.dev/roles/pile-driver-operator/</link>
+    <guid>https://domainexperts.dev/roles/pile-driver-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Pile Driver Operator — reading a blow count against a wave-equation bearing graph to decide accept/drive-deeper/stop-and-flag, diagnosing premature refusal as obstruction versus true bearing, sequencing a pile group to control heave and driving-induced ground movement, deciding restrike timing to capture soil setup or relaxation, or selecting a hammer/cushion combination for a driving-stress limit on steel, concrete, or timber piles.</description>
+  </item>
+  <item>
+    <title>Pipe Trades Helper</title>
+    <link>https://domainexperts.dev/roles/pipe-trades-helper/</link>
+    <guid>https://domainexperts.dev/roles/pipe-trades-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a pipe trades helper — tending an open trench and its protective system while a pipelayer, plumber, or pipefitter sets grade, checking a grade-rod reading against a cut sheet before pipe goes in, prepping and threading/soldering pipe ends to a fitter&#x27;s cut list, staging bedding and backfill material in compacted lifts, or writing an end-of-day grade and safety handoff.</description>
+  </item>
+  <item>
+    <title>Quarry Rock Splitter</title>
+    <link>https://domainexperts.dev/roles/quarry-rock-splitter/</link>
+    <guid>https://domainexperts.dev/roles/quarry-rock-splitter/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Quarry Rock Splitter — reading grain/rift/hard-way direction to lay out a split line, choosing plug-and-feather vs jackhammer channel vs mechanized (wire saw, chop saw, hydraulic splitter) splitting method, spacing a plug-and-feather hole line for a given rock type, sounding a face for seams before committing a cut, or deciding whether a block spec should be revised to avoid a hard-way hand split.</description>
+  </item>
+  <item>
+    <title>Resilient Floor Installer</title>
+    <link>https://domainexperts.dev/roles/resilient-floor-installer/</link>
+    <guid>https://domainexperts.dev/roles/resilient-floor-installer/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a resilient floor installer — testing a slab for moisture, pH, and flatness before glue-down, determining whether old resilient flooring or mastic is asbestos-containing and choosing removal vs encapsulation, planning a sheet-vinyl seam or heat-weld layout, or sequencing a floating LVT/LVP installation with expansion joints.</description>
+  </item>
+  <item>
+    <title>Roof Bolter</title>
+    <link>https://domainexperts.dev/roles/roof-bolter/</link>
+    <guid>https://domainexperts.dev/roles/roof-bolter/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Roof Bolter — reading a roof control plan&#x27;s bolt pattern and length against measured CMRR conditions, interpreting a pull test or sounding result against the plan&#x27;s anchorage assumption, selecting resin by gel/spin time for ambient temperature, deciding whether a ground condition requires a plan deviation before advancing, or sequencing an ATRS cycle within its setback limit.</description>
+  </item>
+  <item>
+    <title>Roofer Helper</title>
+    <link>https://domainexperts.dev/roles/roofer-helper/</link>
+    <guid>https://domainexperts.dev/roles/roofer-helper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a roofer&#x27;s helper — tearing off old roofing without exceeding a dumpster&#x27;s weight rating, setting up ladders and roof jacks before the crew loads material, staging shingle bundles on a roof deck without point-loading it, recognizing pre-1980 tear-off material as presumed asbestos-containing until tested, running the fall-protection and heat-stress checks that don&#x27;t stop once at shift start, or writing an end-of-day tear-off and stop-work log.</description>
+  </item>
+  <item>
+    <title>Roustabout</title>
+    <link>https://domainexperts.dev/roles/roustabout/</link>
+    <guid>https://domainexperts.dev/roles/roustabout/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of an oilfield roustabout — testing atmosphere before entering a below-grade cellar or valve pit, deciding whether it&#x27;s safe to manually gauge a tank at an open thief hatch, sizing a trench protective system before digging a flowline ditch, sequencing a rig-up/rig-down with pinch-point and line-of-fire controls, or reviewing a wellsite near-miss for confined-space or lockout gaps.</description>
+  </item>
+  <item>
+    <title>Segmental Paver Installer</title>
+    <link>https://domainexperts.dev/roles/segmental-paver-installer/</link>
+    <guid>https://domainexperts.dev/roles/segmental-paver-installer/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a segmental paver installer — designing base and bedding depth for a driveway or patio, taking off paver/base/sand quantities, sequencing excavation through compaction and joint sanding, or diagnosing a settled or heaving paved surface.</description>
+  </item>
+  <item>
+    <title>Septic Sewer Technician</title>
+    <link>https://domainexperts.dev/roles/septic-sewer-technician/</link>
+    <guid>https://domainexperts.dev/roles/septic-sewer-technician/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Septic and Sewer Service Technician — deciding whether a septic tank needs pumping now from sludge/scum measurements, diagnosing a recurring sewer-line backup with a camera before re-snaking it again, selecting hydro-jetter nozzle and pressure for a mainline blockage, or telling a full tank apart from a failing drainfield.</description>
+  </item>
+  <item>
+    <title>Solar Installation Manager</title>
+    <link>https://domainexperts.dev/roles/solar-installation-manager/</link>
+    <guid>https://domainexperts.dev/roles/solar-installation-manager/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Solar Energy Installation Manager running a contractor&#x27;s install operations — reallocating crews when a job&#x27;s permit or interconnection status isn&#x27;t ready for its scheduled install day, classifying an inspection-failure fix against the correct budget line, tracking a jurisdiction&#x27;s actual permit/interconnection timeline against what customers were quoted, reconciling installed cost-per-watt against budget on a closed job, or deciding whether a system qualifies for automated (SolarAPP+-style) permitting versus manual plan review.</description>
+  </item>
+  <item>
+    <title>Solar Thermal Installer</title>
+    <link>https://domainexperts.dev/roles/solar-thermal-installer/</link>
+    <guid>https://domainexperts.dev/roles/solar-thermal-installer/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Solar Thermal Installer — sizing a solar storage tank against collector aperture area, specifying propylene glycol concentration against a site&#x27;s design-low temperature, choosing a double-wall versus single-wall heat exchanger for potable-water code compliance, sizing an expansion tank and pressure relief valve for collector stagnation, or choosing drainback versus pressurized-glycol loop configuration.</description>
+  </item>
+  <item>
+    <title>Taper</title>
+    <link>https://domainexperts.dev/roles/taper/</link>
+    <guid>https://domainexperts.dev/roles/taper/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a drywall taper — specifying the level of finish for a wall or ceiling, choosing joint compound and tape by climate and schedule, diagnosing joint banding/cracking/fastener pop-through after paint, sequencing coats and dry time on a tight schedule, or matching spray texture on a repair.</description>
+  </item>
+  <item>
+    <title>Terrazzo Worker</title>
+    <link>https://domainexperts.dev/roles/terrazzo-worker/</link>
+    <guid>https://domainexperts.dev/roles/terrazzo-worker/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a terrazzo worker — choosing between epoxy, cementitious, sand-cushion, or monolithic terrazzo systems for a given substrate, laying out divider-strip patterns to control cracking, sequencing a grit-progression grind-and-polish schedule, deciding whether a slab needs moisture mitigation before an epoxy pour, or diagnosing delamination, chip pop-out, or lippage in an installed floor.</description>
+  </item>
+  <item>
+    <title>Track Maintenance Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/track-maintenance-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/track-maintenance-equipment-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a track maintenance equipment operator (tamper, ballast regulator, anchor machine, or spike/tie machine operator on a maintenance-of-way gang) — sequencing a surfacing pass after a geometry exception, deciding whether a crosslevel or profile defect needs immediate correction versus a scheduled fix, checking an anchor pattern against a territory&#x27;s creep exposure, or judging whether fouled ballast makes another tamp pass pointless.</description>
+  </item>
+  <item>
+    <title>Underground Loader Operator</title>
+    <link>https://domainexperts.dev/roles/underground-loader-operator/</link>
+    <guid>https://domainexperts.dev/roles/underground-loader-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of an Underground Loader (LHD) Operator in hard-rock metal/nonmetal mining — deciding whether a heading is ready for ride-on mucking versus remote-control-only tramming, diagnosing whether a shift&#x27;s tonnage shortfall traces to cycle time, ore-pass capacity, or oversize frequency, judging whether a muck-pile object is a suspected missed hole (bootleg), reading a DPM trend against the exposure limit, or calling a ramp-grade/payload derate before a haul.</description>
+  </item>
+  <item>
+    <title>Water Well Driller</title>
+    <link>https://domainexperts.dev/roles/water-well-driller/</link>
+    <guid>https://domainexperts.dev/roles/water-well-driller/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a licensed water well driller — choosing a drilling method for a formation, sizing casing/screen/gravel pack from sieve data, designing an annular seal depth, running and interpreting a step-drawdown pump test, or diagnosing sand pumping or declining yield in an existing well.</description>
+  </item>
+  <item>
+    <title>Weatherization Technician</title>
+    <link>https://domainexperts.dev/roles/weatherization-technician/</link>
+    <guid>https://domainexperts.dev/roles/weatherization-technician/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a weatherization technician — building a Savings-to-Investment-Ratio-ranked measure list for an income-eligible retrofit under a capped per-unit budget, sequencing air sealing and insulation against a combustion-safety retest, deciding whether a house must be deferred for a health-and-safety hazard before work starts, or evaluating whether a tightened envelope still clears the ASHRAE 62.2 mechanical-ventilation floor.</description>
+  </item>
+  <item>
+    <title>Workover Rig Operator</title>
+    <link>https://domainexperts.dev/roles/workover-rig-operator/</link>
+    <guid>https://domainexperts.dev/roles/workover-rig-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 07:14:55 +0000</pubDate>
+    <description>Use when a task needs the judgment of a Workover Rig Operator — deciding whether a &quot;dead&quot; well is actually dead before breaking a connection, computing kill-weight fluid for a trapped-pressure well, judging when a stuck tubing/rod string has hit its safe overpull limit versus needs fishing tools, reconciling a tubing tally against expected plug or perforation depth, or sequencing a pulling-unit job (rig-up, BOP test, pull, swab, kill) around well-control and line-of-fire hazards.</description>
+  </item>
   <item>
     <title>Amusement Recreation Attendant</title>
     <link>https://domainexperts.dev/roles/amusement-recreation-attendant/</link>

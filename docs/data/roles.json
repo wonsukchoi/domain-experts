@@ -1,5 +1,5 @@
 {
-  "count": 828,
+  "count": 864,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1700,6 +1700,27 @@
       ]
     },
     {
+      "slug": "blaster",
+      "description": "Use when a task needs the judgment of a licensed blaster-in-charge \u2014 designing a bench or trench blast pattern, checking a shot against vibration/flyrock regulatory limits, sequencing detonator delays, handling a misfire, or reviewing explosives magazine storage and transport compliance.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5032.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/blaster/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "blockchain-engineer",
       "description": "Use when a task needs the judgment of a Blockchain Engineer \u2014 applying the checks-effects-interactions pattern to prevent a reentrancy exploit, auditing a privileged/administrative function for missing access control, designing a manipulation-resistant oracle for on-chain price data, minimizing gas cost through storage-write design, or deciding whether a smart contract needs an upgradability pattern before deployment.",
       "category": "engineering",
@@ -2215,6 +2236,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/carpenter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "carpenter-helper",
+      "description": "Use when a task needs the judgment of a carpenter's helper \u2014 cutting and staging lumber to a carpenter's layout marks, assembling and standing framed wall panels, running a material take-off and waste calculation for a framing package, or recognizing when a jobsite condition (a missing guardrail component, a nail-gun trigger setting, a header that doesn't match the plan) is a stop rather than a workaround.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-3012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/carpenter-helper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "carpet-installer",
+      "description": "Use when a task needs the judgment of a carpet installer \u2014 testing a slab for moisture before glue-down, laying out seam and pattern-match placement for a room wider than the goods roll, deciding stretch-in vs direct-glue method, diagnosing a wrinkled or peaking installation, or pricing a moisture-mitigation or re-stretch change order.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/carpet-installer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -3339,6 +3402,27 @@
       ]
     },
     {
+      "slug": "continuous-mining-machine-operator",
+      "description": "Use when a task needs the judgment of a Continuous Mining Machine Operator in underground coal \u2014 reading a methane monitor trend and deciding whether to de-energize, judging whether cumulative unbolted advance has hit the roof control plan's cut-depth limit, deciding whether a permissibility defect requires immediate shutdown in a gassy heading, diagnosing whether a shift's production shortfall traces to cutting rate or shuttle-car haulage, or deciding whether a \"drummy\" roof sound stops the cut.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/continuous-mining-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "control-valve-installer-repairer",
       "description": "Use when a task needs the judgment of a Control and Valve Installer/Repairer \u2014 sizing a control valve's Cv against actual process flow, diagnosing a limit-cycling control loop as valve stiction versus a bad PID tune, running an FCI 70-2 seat-leakage or API 598 pressure test, calibrating a positioner/actuator after a rebuild, or scheduling PHMSA-mandated regulator/relief-valve testing on a gas distribution system.",
       "category": "operations",
@@ -4259,6 +4343,27 @@
       ]
     },
     {
+      "slug": "derrick-operator",
+      "description": "Use when a task needs the judgment of a Derrick Operator (derrickhand) \u2014 running the monkeyboard during a pipe trip, reading trip-tank volume against calculated displacement for a swab or kick signature, calculating a barite weight-up in sacks, deciding whether a volume anomaly warrants stopping the trip for a flow check, or running the mud circulating system (shakers, desander, degasser) between trips.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/derrick-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "desktop-publisher",
       "description": "Use when a task needs the judgment of a Desktop Publisher \u2014 laying out a multi-page document on a grid system, applying typesetting rules (kerning, leading, widow/orphan control), preflighting a file for print (bleed, color mode, image resolution) before it goes to press, or deciding between a template and a custom layout under a deadline.",
       "category": "design",
@@ -4591,6 +4696,27 @@
       ]
     },
     {
+      "slug": "dragline-operator",
+      "description": "Use when a task needs the judgment of a Dragline and Excavating/Loading Machine Operator in surface mining \u2014 converting a rated bucket capacity into bank cubic yards moved per shift, deciding whether a swing angle or spoil-placement plan needs to be flagged to pit engineering, matching loading pass count and payload to a haul truck's rated capacity, checking ground bearing conditions before walking or tracking a machine onto fill or spoil, or reading a berm/highwall condition against MSHA thresholds.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/dragline-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "dredge-operator",
       "description": "Use when a task needs the judgment of a Dredge Operator \u2014 selecting cutterhead, hopper, or mechanical dredge type for a given sediment/depth/environmental profile, classifying dredged material for open-water vs. confined disposal from sediment-testing results, tuning hydraulic slurry density against pipeline critical velocity, verifying channel controlling depth against project depth and overdepth tolerance, or setting turbidity-monitoring response during active dredging.",
       "category": "operations",
@@ -4602,6 +4728,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/dredge-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "driller",
+      "description": "Use when a task needs the judgment of a rotary drill operator (driller) \u2014 diagnosing a drilling break or kick warning sign, running well-control shut-in and kill-mud-weight calculations, setting trip margin and swab/surge limits before pulling out of hole, optimizing weight-on-bit and RPM against mechanical specific energy, or reviewing a rig-floor near-miss.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5012.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/driller/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -4911,6 +5058,27 @@
       ]
     },
     {
+      "slug": "electrician-helper",
+      "description": "Use when a task needs the judgment of an electrician's helper \u2014 running the NEC box-fill or conduit-fill calculation for a rough-in before wire gets pulled, bending conduit and pulling wire without exceeding practical bend/tension limits, running a non-contact continuity or polarity check at trim-out, or recognizing when a jobsite finding (reversed polarity, an undersized box, an unlabeled abandoned circuit) is a stop rather than a workaround.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-3013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/electrician-helper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "electromechanical-technician",
       "description": "Use when a task needs the judgment of an Electromechanical Technician \u2014 meggering a motor and reading polarization index, zone-classifying a vibration reading against ISO 10816/20816, decay-testing a pneumatic cylinder, pull-testing a crimp against IPC/WHMA-A-620, diagnosing a PLC rung that \"looks right but won't fire,\" or selecting arc-flash PPE category before opening an enclosure.",
       "category": "engineering",
@@ -5132,6 +5300,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/endoscopy-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "energy-auditor",
+      "description": "Use when a task needs the judgment of an Energy Auditor \u2014 running a blower-door/duct-leakage diagnostic sequence on a home or light-commercial building, testing combustion appliances for worst-case backdraft risk before recommending air sealing, reconciling utility billing history against walkthrough findings, ranking retrofit measures by savings-to-investment ratio (SIR) for a weatherization or utility rebate program, or writing the prioritized scope of work an install crew executes without the auditor on site. Distinct from an energy-engineer (industrial/commercial capital planning, IPMVP measurement and verification, calibrated simulation) \u2014 this role owns the field diagnostics and the residential/light-commercial audit-to-scope handoff.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4011.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/energy-auditor/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -5552,6 +5741,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/extension-educator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "extraction-helper",
+      "description": "Use when a task needs the judgment of a drilling-rig floorhand or quarry/mine extraction helper \u2014 racking and tallying drill pipe on a trip, staging tools and reading hand signals on the rig floor or at a blast site, verifying gas-monitor and PPE status before a task starts, or deciding whether a task is inside the helper's trained/certified scope versus must wait for the derrickhand, driller, or shot firer.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/extraction-helper/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -6037,6 +6247,27 @@
       ]
     },
     {
+      "slug": "finish-trades-helper",
+      "description": "Use when a task needs the judgment of a painting/paperhanging/plastering helper \u2014 mixing scratch or brown coat stucco to a plasterer's trowel pace, building lead-safe (EPA RRP) containment before a painter scrapes a pre-1978 surface, staging paste and pattern-matched drops for a paperhanger, boxing and loading paint for a sprayer, or writing an end-of-day material and containment handoff.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-3014.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/finish-trades-helper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "fire-captain",
       "description": "Use when a task needs the judgment of a Fire Captain (first-line supervisor of firefighting and prevention workers) \u2014 deciding how to fill a minimum-staffing gap on a shift, judging whether an overtime/callback run-rate signals a structural staffing problem, clearing or holding apparatus and PPE against NFPA test/service-life standards, or writing up a training-compliance or discipline decision that has to survive later scrutiny.",
       "category": "operations",
@@ -6216,6 +6447,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/flight-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "floor-sander-finisher",
+      "description": "Use when a task needs the judgment of a Floor Sander and Finisher \u2014 diagnosing a cupped or crowned hardwood floor before sanding, planning a drum-and-edger grit progression for a full refinish, choosing and scheduling coats for an oil-modified vs waterborne finish, or deciding whether a worn floor qualifies for a screen-and-recoat instead of a full sand.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/floor-sander-finisher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -7600,6 +7852,27 @@
       ]
     },
     {
+      "slug": "highway-maintenance-worker",
+      "description": "Use when a task needs the judgment of a highway maintenance worker \u2014 choosing cold-mix versus hot-mix pothole patch material by pavement temperature, setting up a MUTCD-compliant lane-closure work zone with taper length and device spacing, selecting snow-and-ice control chemical and application rate by pavement temperature, or deciding whether a damaged guardrail section can be reinstalled as-is or needs a stiffened repair.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/highway-maintenance-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "histology-technician",
       "description": "Use when a task needs the judgment of a Histology Technician (Histotechnician/Histotechnologist) \u2014 deciding how to gross-section and fix a specimen before it goes stale, troubleshooting a microtome or staining artifact, working an IHC control failure or antigen-retrieval mismatch, or investigating a floater or fixation-timing deviation before a case can sign out. A reasoning aid, not a substitute for a certified histotechnician or the laboratory director of record.",
       "category": "healthcare",
@@ -8210,6 +8483,27 @@
       "skill": "roles/instructional-coordinator/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "insulation-installer",
+      "description": "Use when a task needs the judgment of an insulation installer \u2014 sizing and sequencing an attic, wall, or floor insulation job to a climate zone's code-required R-value, choosing between fiberglass batt, blown cellulose, or open-/closed-cell spray foam for a cavity, deciding whether exposed foam needs a thermal barrier, or diagnosing an ice-dam, moisture, or failed blower-door result against the installed assembly.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2131.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/insulation-installer/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -9383,6 +9677,27 @@
       ]
     },
     {
+      "slug": "masonry-helper",
+      "description": "Use when a task needs the judgment of a masonry helper \u2014 mixing and batching mortar to a mason's laying pace, staging and cutting brick/block/stone to spec, tending scaffolding and wall bracing on a live wall, or writing an end-of-day material and safety handoff.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-3011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/masonry-helper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "massage-therapist",
       "description": "Use when a task needs the judgment of a massage therapist \u2014 screening a new client's intake form for contraindications, choosing a technique for a presenting condition, calibrating pressure/duration to a client's tolerance, or deciding when a finding requires referring the client back to a physician instead of proceeding with the session.",
       "category": "healthcare",
@@ -9583,6 +9898,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mechanical-engineering-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "mechanical-insulator",
+      "description": "Use when a task needs the judgment of a Mechanical Insulator \u2014 specifying pipe, duct, or equipment insulation thickness and material by governing case (thermal efficiency, condensation control, personnel protection, or fire-stop), detailing supports/penetrations/fittings on below-ambient systems to prevent corrosion under insulation, evaluating whether existing pipe/boiler insulation must be handled as asbestos-containing, or writing an insulation takeoff and field inspection punch list.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2132.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/mechanical-insulator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -11547,6 +11883,27 @@
       ]
     },
     {
+      "slug": "paperhanger",
+      "description": "Use when a task needs the judgment of a paperhanger/wallcovering installer \u2014 calculating roll quantity and waste against a pattern repeat, diagnosing a seam or bubbling failure after hanging, choosing paste and primer for a specific substrate and wallcovering type, sequencing corners and pattern match on an out-of-plumb wall, or pricing a job that includes wall prep the client didn't anticipate.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2142.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/paperhanger/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "paralegal",
       "description": "Use when a task needs the judgment of a paralegal \u2014 drafting and organizing discovery responses and privilege logs, calendaring litigation deadlines and statutes of limitations, preparing trial exhibit and witness binders, cite-checking briefs to Bluebook form, or triaging document-review batches for e-discovery.",
       "category": "legal",
@@ -11726,6 +12083,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/patient-representative/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "paving-equipment-operator",
+      "description": "Use when a task needs the judgment of a Paving Equipment Operator \u2014 establishing or troubleshooting an asphalt roller pattern against a test strip, diagnosing thermal or aggregate segregation behind the screed, sequencing breakdown/intermediate/finish rolling against the compaction temperature window, building a longitudinal or transverse joint, or setting lift thickness and compaction targets for trench backfill and subgrade with a plate compactor or roller.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/paving-equipment-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -12310,6 +12688,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/physics-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pile-driver-operator",
+      "description": "Use when a task needs the judgment of a Pile Driver Operator \u2014 reading a blow count against a wave-equation bearing graph to decide accept/drive-deeper/stop-and-flag, diagnosing premature refusal as obstruction versus true bearing, sequencing a pile group to control heave and driving-induced ground movement, deciding restrike timing to capture soil setup or relaxation, or selecting a hammer/cushion combination for a driving-stress limit on steel, concrete, or timber piles.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pile-driver-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pipe-trades-helper",
+      "description": "Use when a task needs the judgment of a pipe trades helper \u2014 tending an open trench and its protective system while a pipelayer, plumber, or pipefitter sets grade, checking a grade-rod reading against a cut sheet before pipe goes in, prepping and threading/soldering pipe ends to a fitter's cut list, staging bedding and backfill material in compacted lifts, or writing an end-of-day grade and safety handoff.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-3015.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pipe-trades-helper/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -13400,6 +13820,27 @@
       ]
     },
     {
+      "slug": "quarry-rock-splitter",
+      "description": "Use when a task needs the judgment of a Quarry Rock Splitter \u2014 reading grain/rift/hard-way direction to lay out a split line, choosing plug-and-feather vs jackhammer channel vs mechanized (wire saw, chop saw, hydraulic splitter) splitting method, spacing a plug-and-feather hole line for a given rock type, sounding a face for seams before committing a cut, or deciding whether a block spec should be revised to avoid a hard-way hand split.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/quarry-rock-splitter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "radiation-therapist",
       "description": "Use when a task needs the judgment of a radiation therapist \u2014 evaluating a daily setup-imaging shift against protocol tolerance before delivering a fraction, reconciling cumulative delivered dose against the prescription at a chart-check milestone, grading an acute skin/mucosal reaction and deciding whether to escalate, or interpreting whether a trend across consecutive fractions signals anatomic change rather than routine setup variance.",
       "category": "healthcare",
@@ -14030,6 +14471,27 @@
       ]
     },
     {
+      "slug": "resilient-floor-installer",
+      "description": "Use when a task needs the judgment of a resilient floor installer \u2014 testing a slab for moisture, pH, and flatness before glue-down, determining whether old resilient flooring or mastic is asbestos-containing and choosing removal vs encapsulation, planning a sheet-vinyl seam or heat-weld layout, or sequencing a floating LVT/LVP installation with expansion joints.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2042.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/resilient-floor-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "respiratory-therapist",
       "description": "Use when a task needs the judgment of a respiratory therapist \u2014 titrating mechanical ventilator settings against ABG and plateau-pressure targets, running and interpreting a spontaneous breathing trial for extubation readiness, titrating supplemental oxygen in a chronic CO2 retainer, or troubleshooting a sudden ventilator alarm or desaturation at the bedside.",
       "category": "healthcare",
@@ -14240,6 +14702,27 @@
       ]
     },
     {
+      "slug": "roof-bolter",
+      "description": "Use when a task needs the judgment of a Roof Bolter \u2014 reading a roof control plan's bolt pattern and length against measured CMRR conditions, interpreting a pull test or sounding result against the plan's anchorage assumption, selecting resin by gel/spin time for ambient temperature, deciding whether a ground condition requires a plan deviation before advancing, or sequencing an ATRS cycle within its setback limit.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5043.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/roof-bolter/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "roofer",
       "description": "Use when a task needs the judgment of a Roofer \u2014 planning fall protection and anchor points for a steep-slope job, specifying a nailing pattern against a wind-zone rating, matching a roofing system to a measured slope, sizing and balancing attic intake/exhaust ventilation, or specifying ice-and-water shield extent for a climate zone.",
       "category": "operations",
@@ -14251,6 +14734,48 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/roofer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "roofer-helper",
+      "description": "Use when a task needs the judgment of a roofer's helper \u2014 tearing off old roofing without exceeding a dumpster's weight rating, setting up ladders and roof jacks before the crew loads material, staging shingle bundles on a roof deck without point-loading it, recognizing pre-1980 tear-off material as presumed asbestos-containing until tested, running the fall-protection and heat-stress checks that don't stop once at shift start, or writing an end-of-day tear-off and stop-work log.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-3016.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/roofer-helper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "roustabout",
+      "description": "Use when a task needs the judgment of an oilfield roustabout \u2014 testing atmosphere before entering a below-grade cellar or valve pit, deciding whether it's safe to manually gauge a tank at an open thief hatch, sizing a trench protective system before digging a flowline ditch, sequencing a rig-up/rig-down with pinch-point and line-of-fire controls, or reviewing a wellsite near-miss for confined-space or lockout gaps.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/roustabout/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -14627,6 +15152,27 @@
       ]
     },
     {
+      "slug": "segmental-paver-installer",
+      "description": "Use when a task needs the judgment of a segmental paver installer \u2014 designing base and bedding depth for a driveway or patio, taking off paver/base/sand quantities, sequencing excavation through compaction and joint sanding, or diagnosing a settled or heaving paved surface.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4091.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/segmental-paver-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "self-enrichment-instructor",
       "description": "Use when a task needs the judgment of a Self-Enrichment Instructor \u2014 pricing and setting the break-even enrollment for a hobby/craft/movement class, designing a session-1 lesson so a mixed-skill adult cohort re-books, deciding whether to run, combine, or cancel an under-enrolled section, writing a studio's cancellation/no-show policy, or drawing the line on liability and scope for a non-credentialed class.",
       "category": "other",
@@ -14659,6 +15205,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/separation-still-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "septic-sewer-technician",
+      "description": "Use when a task needs the judgment of a Septic and Sewer Service Technician \u2014 deciding whether a septic tank needs pumping now from sludge/scum measurements, diagnosing a recurring sewer-line backup with a camera before re-snaking it again, selecting hydro-jetter nozzle and pressure for a mainline blockage, or telling a full tank apart from a failing drainfield.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4071.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/septic-sewer-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -15106,6 +15673,27 @@
       ]
     },
     {
+      "slug": "solar-installation-manager",
+      "description": "Use when a task needs the judgment of a Solar Energy Installation Manager running a contractor's install operations \u2014 reallocating crews when a job's permit or interconnection status isn't ready for its scheduled install day, classifying an inspection-failure fix against the correct budget line, tracking a jurisdiction's actual permit/interconnection timeline against what customers were quoted, reconciling installed cost-per-watt against budget on a closed job, or deciding whether a system qualifies for automated (SolarAPP+-style) permitting versus manual plan review.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-1011.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/solar-installation-manager/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "solar-photovoltaic-installer",
       "description": "Use when a task needs the judgment of a Solar Photovoltaic Installer \u2014 sizing a PV string against cold-weather Voc and inverter max input voltage, specifying rapid-shutdown equipment to meet NEC 690.12, sizing a backfeed breaker against the NEC 705.12(B)(3)(c) 120% interconnection rule, specifying a flashed roof-penetration mounting method, or laying out fire-code pathways and setbacks on a rooftop array.",
       "category": "operations",
@@ -15138,6 +15726,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/solar-sales-assessor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "solar-thermal-installer",
+      "description": "Use when a task needs the judgment of a Solar Thermal Installer \u2014 sizing a solar storage tank against collector aperture area, specifying propylene glycol concentration against a site's design-low temperature, choosing a double-wall versus single-wall heat exchanger for potable-water code compliance, sizing an expansion tank and pressure relief valve for collector stagnation, or choosing drainback versus pressurized-glycol loop configuration.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2152.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/solar-thermal-installer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -15816,6 +16425,27 @@
       ]
     },
     {
+      "slug": "taper",
+      "description": "Use when a task needs the judgment of a drywall taper \u2014 specifying the level of finish for a wall or ceiling, choosing joint compound and tape by climate and schedule, diagnosing joint banding/cracking/fastener pop-through after paint, sequencing coats and dry time on a tight schedule, or matching spray texture on a repair.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2082.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/taper/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "tax-preparer",
       "description": "Use when a task needs the judgment of a paid individual/small-business tax return preparer \u2014 reconstructing income from client documents, choosing the right forms and schedules, computing tax liability including self-employment tax, running EITC/CTC/AOTC/HOH due-diligence checks, reconciling withholding against actual liability, or drafting a response to an IRS notice (CP2000, audit letter). Not a tax-strategy/CFO role (see financial-manager) \u2014 this is return-preparation and filing-compliance craft for the current filing season.",
       "category": "finance",
@@ -16085,6 +16715,27 @@
       ]
     },
     {
+      "slug": "terrazzo-worker",
+      "description": "Use when a task needs the judgment of a terrazzo worker \u2014 choosing between epoxy, cementitious, sand-cushion, or monolithic terrazzo systems for a given substrate, laying out divider-strip patterns to control cracking, sequencing a grit-progression grind-and-polish schedule, deciding whether a slab needs moisture mitigation before an epoxy pour, or diagnosing delamination, chip pop-out, or lippage in an installed floor.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-2053.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/terrazzo-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "textile-cutting-machine-operator",
       "description": "Use when a task needs the judgment of a Textile Cutting Machine Operator \u2014 calculating actual marker efficiency percentage rather than judging a layout by visual impression, setting ply height to the fabric/equipment-specific accuracy limit rather than maximum physical capacity, allowing documented fabric relaxation time before cutting, or maintaining consistent orientation across a marker for directional fabric.",
       "category": "other",
@@ -16285,6 +16936,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/tour-guide/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "track-maintenance-equipment-operator",
+      "description": "Use when a task needs the judgment of a track maintenance equipment operator (tamper, ballast regulator, anchor machine, or spike/tie machine operator on a maintenance-of-way gang) \u2014 sequencing a surfacing pass after a geometry exception, deciding whether a crosslevel or profile defect needs immediate correction versus a scheduled fix, checking an anchor pattern against a territory's creep exposure, or judging whether fouled ballast makes another tamp pass pointless.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/track-maintenance-equipment-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -16609,6 +17281,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/tutor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "underground-loader-operator",
+      "description": "Use when a task needs the judgment of an Underground Loader (LHD) Operator in hard-rock metal/nonmetal mining \u2014 deciding whether a heading is ready for ride-on mucking versus remote-control-only tramming, diagnosing whether a shift's tonnage shortfall traces to cycle time, ore-pass capacity, or oversize frequency, judging whether a muck-pile object is a suspected missed hole (bootleg), reading a DPM trend against the exposure limit, or calling a ramp-grade/payload derate before a haul.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5044.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/underground-loader-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -16972,6 +17665,27 @@
       ]
     },
     {
+      "slug": "water-well-driller",
+      "description": "Use when a task needs the judgment of a licensed water well driller \u2014 choosing a drilling method for a formation, sizing casing/screen/gravel pack from sieve data, designing an annular seal depth, running and interpreting a step-drawdown pump test, or diagnosing sand pumping or declining yield in an existing well.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/water-well-driller/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "watercraft-service-attendant",
       "description": "Use when a task needs the judgment of an Automotive and Watercraft Service Attendant \u2014 fueling a boat at a marina dock, deciding whether a fuel-vent weep or dock spill must be reported, running the pre-start bilge-ventilation check before a customer restarts an engine, bonding a nozzle before transferring gasoline to a portable tank, or performing a full-service vehicle check (oil, tire pressure, fluids) at a pump island.",
       "category": "operations",
@@ -16983,6 +17697,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/watercraft-service-attendant/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "weatherization-technician",
+      "description": "Use when a task needs the judgment of a weatherization technician \u2014 building a Savings-to-Investment-Ratio-ranked measure list for an income-eligible retrofit under a capped per-unit budget, sequencing air sealing and insulation against a combustion-safety retest, deciding whether a house must be deferred for a health-and-safety hazard before work starts, or evaluating whether a tightened envelope still clears the ASHRAE 62.2 mechanical-ventilation floor.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-4099.03",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/weatherization-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
@@ -17193,6 +17928,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/word-processor-typist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "workover-rig-operator",
+      "description": "Use when a task needs the judgment of a Workover Rig Operator \u2014 deciding whether a \"dead\" well is actually dead before breaking a connection, computing kill-weight fluid for a trapped-pressure well, judging when a stuck tubing/rod string has hit its safe overpull limit versus needs fishing tools, reconciling a tubing tally against expected plug or perforation depth, or sequencing a pulling-unit job (rig-up, BOP test, pull, swab, kill) around well-control and line-of-fire hazards.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "47-5013.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/workover-rig-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
