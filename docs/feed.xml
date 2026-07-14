@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:54:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:57:47 +0000</lastBuildDate>
+  <item>
+    <title>Tool Grinder Sharpener</title>
+    <link>https://domainexperts.dev/roles/tool-grinder-sharpener/</link>
+    <guid>https://domainexperts.dev/roles/tool-grinder-sharpener/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:57:30 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Tool Grinder, Filer, or Sharpener — reading a wear pattern as diagnostic information about its underlying cause before regrinding, verifying restored relief/rake angle geometry against the tool&#x27;s original specification rather than just producing a sharp-looking edge, calculating regrind depth to clear subsurface damage rather than the visible edge alone, or managing heat during grinding since the tool itself is the workpiece whose hardness is at stake.</description>
+  </item>
   <item>
     <title>Metal Plastic Patternmaker</title>
     <link>https://domainexperts.dev/roles/metal-plastic-patternmaker/</link>
