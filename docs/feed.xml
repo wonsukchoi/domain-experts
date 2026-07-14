@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:47:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:52:03 +0000</lastBuildDate>
+  <item>
+    <title>Metal Plastic Model Maker</title>
+    <link>https://domainexperts.dev/roles/metal-plastic-model-maker/</link>
+    <guid>https://domainexperts.dev/roles/metal-plastic-model-maker/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:51:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Model Maker, Metal and Plastic — checking whether a machined or hand-fabricated prototype&#x27;s features are actually achievable by the intended production process before it&#x27;s used to validate a design, directly verifying critical dimensions on a one-off piece rather than trusting assumed fabrication capability, being explicit about whether a substitute-material prototype validates form/fit versus function, or tracking which design revision a reworked model&#x27;s features actually reflect.</description>
+  </item>
   <item>
     <title>Wood Model Maker</title>
     <link>https://domainexperts.dev/roles/wood-model-maker/</link>

@@ -1,5 +1,5 @@
 {
-  "count": 904,
+  "count": 905,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10654,6 +10654,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/metal-pickling-equipment-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "metal-plastic-model-maker",
+      "description": "Use when a task needs the judgment of a Model Maker, Metal and Plastic \u2014 checking whether a machined or hand-fabricated prototype's features are actually achievable by the intended production process before it's used to validate a design, directly verifying critical dimensions on a one-off piece rather than trusting assumed fabrication capability, being explicit about whether a substitute-material prototype validates form/fit versus function, or tracking which design revision a reworked model's features actually reflect.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4061.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/metal-plastic-model-maker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
