@@ -1,5 +1,5 @@
 {
-  "count": 886,
+  "count": 887,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10759,6 +10759,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mobile-home-installer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "molding-casting-machine-operator",
+      "description": "Use when a task needs the judgment of a Molding, Coremaking, or Casting Machine Setter, Operator, or Tender \u2014 diagnosing intermittent porosity or a quality defect when machine-displayed parameters read within spec, deciding whether a persistent same-location defect points to a tooling issue versus a process parameter, evaluating a cooling-time reduction against dimensional stability, or adjusting a setting to fix a short shot without reintroducing flash.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4072.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/molding-casting-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

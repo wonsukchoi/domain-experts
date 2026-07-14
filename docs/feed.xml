@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:48:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:51:13 +0000</lastBuildDate>
+  <item>
+    <title>Molding Casting Machine Operator</title>
+    <link>https://domainexperts.dev/roles/molding-casting-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/molding-casting-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:51:00 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Molding, Coremaking, or Casting Machine Setter, Operator, or Tender — diagnosing intermittent porosity or a quality defect when machine-displayed parameters read within spec, deciding whether a persistent same-location defect points to a tooling issue versus a process parameter, evaluating a cooling-time reduction against dimensional stability, or adjusting a setting to fix a short shot without reintroducing flash.</description>
+  </item>
   <item>
     <title>Furnace Kiln Oven Operator</title>
     <link>https://domainexperts.dev/roles/furnace-kiln-oven-operator/</link>
