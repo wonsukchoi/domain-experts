@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 916 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 917 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (106/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (107/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1113,7 +1113,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-9195.05 | Potters, Manufacturing | [`manufacturing-potter`](./roles/manufacturing-potter/SKILL.md) |
 | ✅ | 51-9196.00 | Paper Goods Machine Setters, Operators, and Tenders | [`paper-goods-machine-operator`](./roles/paper-goods-machine-operator/SKILL.md) |
 | ✅ | 51-9197.00 | Tire Builders | [`tire-builder`](./roles/tire-builder/SKILL.md) |
-|  | 51-9198.00 | Helpers--Production Workers |  |
+| ✅ | 51-9198.00 | Helpers--Production Workers | [`helper-production-worker`](./roles/helper-production-worker/SKILL.md) |
 |  | 51-9199.00 | Production Workers, All Other |  |
 
 </details>
