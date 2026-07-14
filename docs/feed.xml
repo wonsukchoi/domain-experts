@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:53:37 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:55:27 +0000</lastBuildDate>
+  <item>
+    <title>Helper Production Worker</title>
+    <link>https://domainexperts.dev/roles/helper-production-worker/</link>
+    <guid>https://domainexperts.dev/roles/helper-production-worker/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:55:11 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Helper--Production Worker — knowing which tasks fall within a helper&#x27;s authorized scope versus requiring the skilled operator&#x27;s judgment, relaying an observed irregularity (noise, spill, material defect) accurately and promptly rather than filtering or minimizing it, following a specific instruction precisely rather than improvising based on incomplete process context, and maintaining constant awareness of moving equipment/hazard zones while moving between support tasks.</description>
+  </item>
   <item>
     <title>Stone Cutter Carver Manufacturing</title>
     <link>https://domainexperts.dev/roles/stone-cutter-carver-manufacturing/</link>
