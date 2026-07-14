@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:16:20 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:19:19 +0000</lastBuildDate>
+  <item>
+    <title>Food Cooking Machine Operator</title>
+    <link>https://domainexperts.dev/roles/food-cooking-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/food-cooking-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:19:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Food Cooking Machine Operator/Tender — verifying pathogen lethality at the product&#x27;s actual coldest point rather than surface or chamber temperature, monitoring frying oil condition against specific degradation indicators rather than elapsed time or visual judgment, adjusting cook parameters for incoming batch variation rather than holding settings fixed, or treating food-safety lethality and sensory quality as separate verifications rather than inferring one from the other.</description>
+  </item>
   <item>
     <title>Slaughterer Meat Packer</title>
     <link>https://domainexperts.dev/roles/slaughterer-meat-packer/</link>
