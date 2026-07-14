@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:14:43 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:17:37 +0000</lastBuildDate>
+  <item>
+    <title>Production First Line Supervisor</title>
+    <link>https://domainexperts.dev/roles/production-first-line-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/production-first-line-supervisor/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:17:21 +0700</pubDate>
+    <description>Use when a task needs the judgment of a First-Line Supervisor of Production and Operating Workers — deciding whether a quality or safety signal justifies pausing production despite being behind schedule, determining what belongs in a shift handoff versus what the incoming supervisor can discover independently, calibrating when to escalate an issue versus resolve it at line level, or addressing a compliance shortcut before it causes a visible problem.</description>
+  </item>
   <item>
     <title>Quality Inspector Tester</title>
     <link>https://domainexperts.dev/roles/quality-inspector-tester/</link>
