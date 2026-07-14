@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:05:57 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:08:45 +0000</lastBuildDate>
+  <item>
+    <title>Chemical Equipment Operator</title>
+    <link>https://domainexperts.dev/roles/chemical-equipment-operator/</link>
+    <guid>https://domainexperts.dev/roles/chemical-equipment-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:08:22 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chemical Equipment Operator/Tender — deciding whether to continue or stop a reagent addition when reactor temperature exceeds its expected range, evaluating a batch record deviation&#x27;s actual chemical consequence before release, following lockout/tagout before servicing equipment that processed a hazardous chemical, or verifying secondary containment readiness.</description>
+  </item>
   <item>
     <title>Refinery Operator</title>
     <link>https://domainexperts.dev/roles/refinery-operator/</link>
