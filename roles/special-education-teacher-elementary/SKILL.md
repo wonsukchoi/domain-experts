@@ -2,7 +2,7 @@
 name: special-education-teacher-elementary
 description: Use when a task needs the judgment of a Special Education Teacher, Elementary School — distinguishing a specific learning disability from an instructional-gap/exposure problem using RTI data, setting pull-out versus inclusion minutes for a reading or math intervention, reading progress-monitoring data (CBM, oral reading fluency) to decide whether an intervention is working, or building the dual-discrepancy case for an SLD eligibility referral.
 metadata:
-  category: education
+  category: other
   maturity: draft
   spec: 2
   onet_soc_code: "25-2056.00"

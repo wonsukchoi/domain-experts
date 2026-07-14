@@ -2,7 +2,7 @@
 name: special-education-teacher-secondary
 description: Use when a task needs the judgment of a Special Education Teacher, Secondary School — writing a legally sufficient transition IEP with measurable postsecondary goals, deciding a standard vs. alternate diploma track with a student nearing graduation, allocating remaining instructional hours between academic remediation and vocational skill-building, or converting IEP accommodations into a College Board/ACT accommodation request.
 metadata:
-  category: education
+  category: other
   maturity: draft
   spec: 2
   onet_soc_code: "25-2058.00"

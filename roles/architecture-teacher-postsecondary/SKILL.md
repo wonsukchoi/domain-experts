@@ -2,7 +2,7 @@
 name: architecture-teacher-postsecondary
 description: Use when a task needs the judgment of an Architecture Teacher, Postsecondary — running studio desk crits and final jury reviews, grading design work on process and constraint-response rather than rendering polish, separating a personal design-style opinion from an objective functional or code flaw during critique, and checking whether a studio brief's precedent set is stale relative to current construction and code practice.
 metadata:
-  category: education
+  category: other
   maturity: draft
   spec: 2
   onet_soc_code: "25-1031.00"

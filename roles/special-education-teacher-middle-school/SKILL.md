@@ -2,7 +2,7 @@
 name: special-education-teacher-middle-school
 description: Use when a task needs the judgment of a Special Education Teacher, Middle School — verifying whether an IEP accommodation is actually being implemented across a student's five or six general-education classrooms, building a self-advocacy goal so a 12-14 year-old can name and request their own accommodations, sequencing 8th-grade course placement to protect a student's high-school track options, or distinguishing a genuine academic/behavioral regression from ordinary early-adolescent turbulence.
 metadata:
-  category: education
+  category: other
   maturity: draft
   spec: 2
   onet_soc_code: "25-2057.00"
