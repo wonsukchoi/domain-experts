@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:43:54 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:47:53 +0000</lastBuildDate>
+  <item>
+    <title>Wood Model Maker</title>
+    <link>https://domainexperts.dev/roles/wood-model-maker/</link>
+    <guid>https://domainexperts.dev/roles/wood-model-maker/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:47:38 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Wood Model Maker — calculating each scaled dimension directly from the original full-scale source rather than chaining from a previously cut model feature, recognizing that small model-scale errors project to large full-scale errors, testing whether a candidate material actually reads correctly at model scale and viewing distance, or matching construction robustness to a model&#x27;s actual anticipated handling and lifespan.</description>
+  </item>
   <item>
     <title>Wood Patternmaker</title>
     <link>https://domainexperts.dev/roles/wood-patternmaker/</link>
