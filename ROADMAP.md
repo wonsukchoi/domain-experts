@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 855 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 856 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (45/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (46/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1070,7 +1070,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-7042.00 | Woodworking Machine Setters, Operators, and Tenders, Except Sawing |  |
 |  | 51-7099.00 | Woodworkers, All Other |  |
 | ✅ | 51-8011.00 | Nuclear Power Reactor Operators | [`nuclear-power-reactor-operator`](./roles/nuclear-power-reactor-operator/SKILL.md) |
-|  | 51-8012.00 | Power Distributors and Dispatchers |  |
+| ✅ | 51-8012.00 | Power Distributors and Dispatchers | [`power-distributor-dispatcher`](./roles/power-distributor-dispatcher/SKILL.md) |
 | ✅ | 51-8013.00 | Power Plant Operators | [`power-plant-operator`](./roles/power-plant-operator/SKILL.md) |
 |  | 51-8013.03 | Biomass Plant Technicians |  |
 |  | 51-8013.04 | Hydroelectric Plant Technicians |  |
