@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:25:48 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:30:34 +0000</lastBuildDate>
+  <item>
+    <title>Welding Soldering Brazing Machine Operator</title>
+    <link>https://domainexperts.dev/roles/welding-soldering-brazing-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/welding-soldering-brazing-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:30:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Welding, Soldering, or Brazing Machine Setter, Operator, or Tender — tracking electrode tip wear against a weld-count schedule rather than visual inspection alone, verifying part fit-up before an automated weld cycle since the machine won&#x27;t detect misalignment, requiring destructive/non-destructive weld testing rather than trusting visual surface appearance, or re-qualifying a weld schedule for a changed material thickness or stack-up.</description>
+  </item>
   <item>
     <title>Rolling Machine Operator</title>
     <link>https://domainexperts.dev/roles/rolling-machine-operator/</link>
