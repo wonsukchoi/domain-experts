@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metal Layout Worker — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Layout Worker, Metal and Plastic — deciding whether to measure a feature directly from the established datum versus chaining from a previously marked feature, applying machining stock allowance to a layout dimension, selecting a datum that matches a part&#x27;s functional reference, or diagnosing why a layout error compounded across multiple marked features.">
+<link rel="canonical" href="https://domainexperts.dev/roles/metal-layout-worker/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Metal Layout Worker — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Layout Worker, Metal and Plastic — deciding whether to measure a feature directly from the established datum versus chaining from a previously marked feature, applying machining stock allowance to a layout dimension, selecting a datum that matches a part&#x27;s functional reference, or diagnosing why a layout error compounded across multiple marked features.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/metal-layout-worker/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Metal Layout Worker — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Layout Worker, Metal and Plastic — deciding whether to measure a feature directly from the established datum versus chaining from a previously marked feature, applying machining stock allowance to a layout dimension, selecting a datum that matches a part&#x27;s functional reference, or diagnosing why a layout error compounded across multiple marked features.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Metal Layout Worker", "description": "Use when a task needs the judgment of a Layout Worker, Metal and Plastic \u2014 deciding whether to measure a feature directly from the established datum versus chaining from a previously marked feature, applying machining stock allowance to a layout dimension, selecting a datum that matches a part's functional reference, or diagnosing why a layout error compounded across multiple marked features.", "url": "https://domainexperts.dev/roles/metal-layout-worker/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Metal Layout Worker", "item": "https://domainexperts.dev/roles/metal-layout-worker/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Metal Layout Worker</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page" id="main-content">
+<h2>Layout Worker, Metal and Plastic</h2>
+<h3>Identity</h3>
+<p>The worker marking precise reference lines, points, and dimensions on metal or plastic stock ahead of machining or fabrication, accountable for every subsequent cutting or drilling operation being accurate to the part&#x27;s actual design intent — not just to whatever the marked lines happen to show. The defining tension: a measurement chain built by marking each feature relative to the previous one feels efficient in the moment, but every small marking error in that chain compounds onto the next, while marking every feature independently from the same fixed datum keeps each point&#x27;s error bounded to the layout tool&#x27;s own precision, not additive across the whole part.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Layout measurements should reference back to a single, established datum, not accumulate from a chain of sequential measurements.</strong> Measuring point B from point A and then point C from point B compounds any small marking error at each step; marking every point directly from the same fixed datum keeps each point&#x27;s error independent and bounded to the layout tool&#x27;s precision, not additive across the sequence.</li>
+<li><strong>Layout marks define where material will be removed, not the finished dimension itself.</strong> A layout has to account for machining stock allowance — marking a cut line with extra material beyond the true finished size for a part that will be ground or finished afterward — so marking directly to the blueprint&#x27;s finished dimension without allowance produces an undersized part once machining removes material.</li>
+<li><strong>A datum choice that doesn&#x27;t match the part&#x27;s actual functional reference can produce a part that passes layout-stage inspection yet still doesn&#x27;t fit or function.</strong> Datum selection has to trace back to the design&#x27;s actual functional intent — how the part mates or is measured in service — not simply whatever surface is most convenient to clamp or measure from.</li>
+<li><strong>Surface preparation determines layout accuracy in a way that&#x27;s invisible until the marked lines are actually cut.</strong> A poorly prepared surface — debris under the part on a surface plate, uneven dye coverage causing a scribe line to skip or blur — introduces error that isn&#x27;t apparent by looking at the finished layout marks themselves.</li>
+<li><strong>Tool and workpiece thermal state affects measurement accuracy at tight tolerances.</strong> Precision layout tools and workpieces at a different temperature than the reference standard&#x27;s calibration temperature (commonly 68°F/20°C) introduce a real, calculable dimensional error on tight-tolerance work, even though the setup &quot;looks&quot; correct.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When laying out multiple features on a part, default to measuring every feature directly from the established datum, not from the previously marked feature,</strong> unless the print specifically calls for a mate-relative (not datum-relative) dimension.</li>
+<li><strong>Layout dimension — mark to the blueprint&#x27;s finished dimension plus specified machining allowance, not the finished dimension directly,</strong> unless the layout is for a final, no-further-machining operation.</li>
+<li><strong>Datum selection — match to the part&#x27;s actual functional reference surface (how it mates or is measured in service), not simply the most convenient clamping or measuring surface,</strong> unless they happen to be the same.</li>
+<li><strong>Before laying out, default to verifying the work surface is clean and properly prepared (dye evenly applied, debris-free) rather than assuming a &quot;close enough&quot; surface won&#x27;t matter,</strong> since surface prep errors are invisible in the finished marks themselves.</li>
+<li><strong>On tight-tolerance layout work, default to allowing tools and workpiece to reach reference/room temperature before precision measurement,</strong> rather than measuring immediately after either has been handled or moved from a different thermal environment.</li>
+<li><strong>When a layout error is discovered partway through marking multiple features, default to re-verifying the datum and restarting from it, rather than attempting to &quot;adjust&quot; remaining marks to compensate,</strong> since a compensating adjustment compounds rather than corrects the original error.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Confirm the print&#x27;s specified datum(s) and machining allowance requirements before beginning layout, not assumed from a similar past job.</li>
+<li>Verify the layout surface is clean, flat, and properly prepared (dye applied evenly where scribing is planned) before starting.</li>
+<li>Establish the datum reference point(s) first and verify their accuracy before marking any dependent features.</li>
+<li>Mark every subsequent feature by measuring directly from the established datum, not by chaining from previously marked features, unless the print specifies a mate-relative dimension.</li>
+<li>Apply the correct machining allowance to each marked dimension per the part&#x27;s subsequent processing requirements.</li>
+<li>For tight-tolerance work, allow tools and workpiece to equalize to reference temperature before final precision marking.</li>
+<li>If an error is found partway through, re-verify the datum and restart marking from it rather than compensating remaining marks.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Surface plates; height gauges; vernier, dial, and digital calipers; scribers and layout dye (blue or red machinist&#x27;s layout fluid); squares and protractors; coordinate measuring for complex layouts; edge finders and center finders. Point to <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/metal-layout-worker/references/playbook.md">references/playbook.md</a> for a filled datum-referenced vs. chained-measurement comparison worksheet.</p>
+<h3>Communication style</h3>
+<p>To the machinist who will cut to the layout: leads with the datum reference used and any machining allowance built into the marks, so the machinist knows exactly what the lines represent. To quality/inspection: leads with the specific datum and measurement method used, since inspection needs to reference the same datum to verify correctly. To a coworker continuing a layout mid-job: leads with the established datum location and any allowance already applied, not just &quot;here&#x27;s where I left off.&quot;</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Chaining measurements from previously marked features instead of measuring every feature from the established datum, compounding error across the layout.</li>
+<li>Marking to the blueprint&#x27;s finished dimension directly without accounting for machining stock allowance.</li>
+<li>Selecting a datum based on clamping/measuring convenience rather than the part&#x27;s actual functional reference.</li>
+<li>Proceeding with layout on a poorly prepared surface (uneven dye, debris) assuming it won&#x27;t meaningfully affect accuracy.</li>
+<li>Having learned to distrust chained measurements, over-applying datum-only measurement even for a genuinely mate-relative dimension the print specifies as relative to an adjacent feature, producing an incorrect assembly fit.</li>
+</ul>
+<h3>Worked example</h3>
+<p>A steel plate print specifies 4 holes, each positioned from a single Datum A edge: Hole 1 at 2.000&quot;, Hole 2 at 4.000&quot;, Hole 3 at 6.000&quot;, Hole 4 at 8.000&quot;, each ±0.010&quot; tolerance — all measured from Datum A, not sequentially from each other.</p>
+<p><strong>Naive read:</strong> rather than referencing every hole from Datum A, the layout worker marks Hole 1 from Datum A, then marks Hole 2 as &quot;2.000\&quot; from Hole 1,&quot; Hole 3 as &quot;2.000\&quot; from Hole 2,&quot; and so on — a chained approach. The height gauge carries a small, consistent zeroing error of +0.005&quot;, and each individual scribe/reading step in the chain adds a small additional variance of +0.003&quot;. Hole 1: 2.000 + 0.005 = 2.005&quot;. Hole 2 (chained from Hole 1): 2.005 + 2.000 + 0.003 = 4.008&quot;. Hole 3 (chained from Hole 2): 4.008 + 2.000 + 0.003 = 6.011&quot;. Hole 4 (chained from Hole 3): 6.011 + 2.000 + 0.003 = <strong>8.014&quot;</strong> — a full <strong>0.014&quot; error, exceeding the ±0.010&quot; tolerance</strong>.</p>
+<p><strong>Expert approach:</strong> measuring every hole directly from Datum A using the height gauge keeps the gauge&#x27;s small systematic zeroing error (+0.005&quot;) <strong>constant</strong> across all four marks rather than compounding: Hole 1 = 2.005&quot;, Hole 2 = 4.005&quot;, Hole 3 = 6.005&quot;, Hole 4 = <strong>8.005&quot;</strong> — every hole is off from true position by the same +0.005&quot;, safely within the ±0.010&quot; tolerance, and critically, the *relative spacing* between holes remains exactly correct (each pair still exactly 2.000&quot; apart), since the same constant offset applies uniformly to every mark. Before starting, the height gauge is also zeroed and verified against a known standard, which would catch and correct the 0.005&quot; systematic error in the first place — but even without catching it, referencing every point from the same datum keeps the error bounded and within spec, unlike the chained approach.</p>
+<p><strong>Deliverable (layout inspection note):</strong></p>
+<p>&gt; Plate #4471-B, Hole Layout. Method: all 4 holes measured directly from Datum A (height gauge), not chained sequentially. Height gauge verified against standard prior to layout — zeroing error +0.005&quot; identified and corrected before marking. Final marked positions: Hole 1: 2.000&quot;, Hole 2: 4.000&quot;, Hole 3: 6.000&quot;, Hole 4: 8.000&quot; (all within ±0.010&quot; spec, datum-referenced method). Note for machinist: all positions measured from Datum A edge (left plate edge as shown on print); no compounding error present since chained measurement was not used.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/metal-layout-worker/references/playbook.md">references/playbook.md</a> — a filled datum-referenced vs. chained-measurement comparison worksheet, a machining allowance reference table, and a surface preparation checklist.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/metal-layout-worker/references/red-flags.md">references/red-flags.md</a> — signals a layout&#x27;s datum, allowance, or measurement method needs re-checking before marking or cutting proceeds, and what to check first.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/metal-layout-worker/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse (datum, machining allowance, chained tolerance, and others).</li>
+</ul>
+<h3>Sources</h3>
+<p>General knowledge of standard precision machinist layout practice, including datum-referenced dimensioning conventions consistent with ASME Y14.5 geometric dimensioning and tolerancing (GD&amp;T) principles.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/metal-layout-worker/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add metal-layout-worker</code></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+</script>
+</body>
+</html>

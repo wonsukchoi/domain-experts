@@ -1,5 +1,5 @@
 {
-  "count": 883,
+  "count": 884,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10465,6 +10465,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/merchandise-displayer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "metal-layout-worker",
+      "description": "Use when a task needs the judgment of a Layout Worker, Metal and Plastic \u2014 deciding whether to measure a feature directly from the established datum versus chaining from a previously marked feature, applying machining stock allowance to a layout dimension, selecting a datum that matches a part's functional reference, or diagnosing why a layout error compounded across multiple marked features.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4192.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/metal-layout-worker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:37:49 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:40:59 +0000</lastBuildDate>
+  <item>
+    <title>Metal Layout Worker</title>
+    <link>https://domainexperts.dev/roles/metal-layout-worker/</link>
+    <guid>https://domainexperts.dev/roles/metal-layout-worker/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:40:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Layout Worker, Metal and Plastic — deciding whether to measure a feature directly from the established datum versus chaining from a previously marked feature, applying machining stock allowance to a layout dimension, selecting a datum that matches a part&#x27;s functional reference, or diagnosing why a layout error compounded across multiple marked features.</description>
+  </item>
   <item>
     <title>Multiple Machine Tool Operator</title>
     <link>https://domainexperts.dev/roles/multiple-machine-tool-operator/</link>
