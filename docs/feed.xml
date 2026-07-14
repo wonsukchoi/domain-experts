@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:40:59 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:44:00 +0000</lastBuildDate>
+  <item>
+    <title>Sewing Machine Operator</title>
+    <link>https://domainexperts.dev/roles/sewing-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/sewing-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:43:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Sewing Machine Operator — diagnosing a stitch quality issue by checking bobbin tension relative to top tension, selecting needle type and seam construction matched to a fabric&#x27;s actual weight and stretch behavior, deciding whether a higher stitch density improves or weakens a seam on lightweight fabric, or verifying a seam&#x27;s stretch performance before committing to full bundle production.</description>
+  </item>
   <item>
     <title>Metal Layout Worker</title>
     <link>https://domainexperts.dev/roles/metal-layout-worker/</link>
