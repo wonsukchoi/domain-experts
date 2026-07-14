@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:52:03 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:54:53 +0000</lastBuildDate>
+  <item>
+    <title>Metal Plastic Patternmaker</title>
+    <link>https://domainexperts.dev/roles/metal-plastic-patternmaker/</link>
+    <guid>https://domainexperts.dev/roles/metal-plastic-patternmaker/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:54:40 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Patternmaker, Metal and Plastic — recognizing that CNC machining precision doesn&#x27;t exempt a pattern from metal-specific shrinkage allowance, matching pattern material/construction durability to actual production volume, verifying multiple patterns on a matchplate are dimensionally coordinated with each other, or confirming a pattern&#x27;s draft and parting line suit an automated molding machine&#x27;s specific pulling mechanism.</description>
+  </item>
   <item>
     <title>Metal Plastic Model Maker</title>
     <link>https://domainexperts.dev/roles/metal-plastic-model-maker/</link>
