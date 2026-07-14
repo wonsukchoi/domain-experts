@@ -1,5 +1,5 @@
 {
-  "count": 923,
+  "count": 924,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1532,6 +1532,27 @@
       "skill": "roles/biofuels-biodiesel-technology-manager/SKILL.md",
       "references": [
         "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "biofuels-processing-technician",
+      "description": "Use when a task needs the judgment of a Biofuels Processing Technician \u2014 adjusting catalyst dosing for transesterification based on actual measured feedstock free fatty acid content rather than a standard fixed dose, verifying conversion completeness via actual glyceride content testing rather than visual inspection, actively monitoring fermentation temperature and pH throughout the process rather than checking only at the end, and managing byproduct quality as a distinct economic consideration alongside primary fuel yield.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8099.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/biofuels-processing-technician/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
