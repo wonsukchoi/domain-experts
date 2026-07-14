@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:36:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:38:50 +0000</lastBuildDate>
+  <item>
+    <title>Milling Planing Machine Operator</title>
+    <link>https://domainexperts.dev/roles/milling-planing-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/milling-planing-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:38:34 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Milling and Planing Machine Setter, Operator, or Tender — selecting climb versus conventional milling based on the specific machine&#x27;s backlash characteristics rather than a single default, verifying workholding can resist actual lateral cutting forces rather than just confirming static placement, using a multi-pass strategy for a deep pocket or slot rather than a single deep pass, and accounting for end mill deflection on a high length-to-diameter cutter.</description>
+  </item>
   <item>
     <title>Lathe Turning Machine Operator</title>
     <link>https://domainexperts.dev/roles/lathe-turning-machine-operator/</link>
