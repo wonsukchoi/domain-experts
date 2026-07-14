@@ -891,7 +891,7 @@
     {
       "slug": "architecture-teacher-postsecondary",
       "description": "Use when a task needs the judgment of an Architecture Teacher, Postsecondary \u2014 running studio desk crits and final jury reviews, grading design work on process and constraint-response rather than rendering polish, separating a personal design-style opinion from an objective functional or code flaw during critique, and checking whether a studio brief's precedent set is stale relative to current construction and code practice.",
-      "category": "education",
+      "category": "other",
       "maturity": "draft",
       "spec": 2,
       "onet_soc_code": "25-1031.00",
@@ -902,7 +902,8 @@
       "skill": "roles/architecture-teacher-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
-        "red-flags.md"
+        "red-flags.md",
+        "vocabulary.md"
       ],
       "jurisdictions": [
         "us"
@@ -7825,7 +7826,9 @@
       "audit_score": null,
       "skill": "roles/geography-teacher-postsecondary/SKILL.md",
       "references": [
-        "red-flags.md"
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
       ],
       "jurisdictions": [
         "us"
@@ -16995,7 +16998,7 @@
     {
       "slug": "special-education-teacher-elementary",
       "description": "Use when a task needs the judgment of a Special Education Teacher, Elementary School \u2014 distinguishing a specific learning disability from an instructional-gap/exposure problem using RTI data, setting pull-out versus inclusion minutes for a reading or math intervention, reading progress-monitoring data (CBM, oral reading fluency) to decide whether an intervention is working, or building the dual-discrepancy case for an SLD eligibility referral.",
-      "category": "education",
+      "category": "other",
       "maturity": "draft",
       "spec": 2,
       "onet_soc_code": "25-2056.00",
@@ -17005,6 +17008,7 @@
       "audit_score": null,
       "skill": "roles/special-education-teacher-elementary/SKILL.md",
       "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -17036,7 +17040,7 @@
     {
       "slug": "special-education-teacher-middle-school",
       "description": "Use when a task needs the judgment of a Special Education Teacher, Middle School \u2014 verifying whether an IEP accommodation is actually being implemented across a student's five or six general-education classrooms, building a self-advocacy goal so a 12-14 year-old can name and request their own accommodations, sequencing 8th-grade course placement to protect a student's high-school track options, or distinguishing a genuine academic/behavioral regression from ordinary early-adolescent turbulence.",
-      "category": "education",
+      "category": "other",
       "maturity": "draft",
       "spec": 2,
       "onet_soc_code": "25-2057.00",
@@ -17046,6 +17050,7 @@
       "audit_score": null,
       "skill": "roles/special-education-teacher-middle-school/SKILL.md",
       "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -17067,7 +17072,8 @@
       "skill": "roles/special-education-teacher-preschool/SKILL.md",
       "references": [
         "playbook.md",
-        "red-flags.md"
+        "red-flags.md",
+        "vocabulary.md"
       ],
       "jurisdictions": [
         "us"
@@ -17076,7 +17082,7 @@
     {
       "slug": "special-education-teacher-secondary",
       "description": "Use when a task needs the judgment of a Special Education Teacher, Secondary School \u2014 writing a legally sufficient transition IEP with measurable postsecondary goals, deciding a standard vs. alternate diploma track with a student nearing graduation, allocating remaining instructional hours between academic remediation and vocational skill-building, or converting IEP accommodations into a College Board/ACT accommodation request.",
-      "category": "education",
+      "category": "other",
       "maturity": "draft",
       "spec": 2,
       "onet_soc_code": "25-2058.00",
@@ -17087,7 +17093,8 @@
       "skill": "roles/special-education-teacher-secondary/SKILL.md",
       "references": [
         "playbook.md",
-        "red-flags.md"
+        "red-flags.md",
+        "vocabulary.md"
       ],
       "jurisdictions": [
         "us"
