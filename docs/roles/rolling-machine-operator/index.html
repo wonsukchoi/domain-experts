@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rolling Machine Operator — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Rolling Machine Setter, Operator, or Tender — tracking cumulative reduction across multiple cold-rolling passes to schedule an intermediate anneal before edge cracking occurs, verifying roll crown compensation for the current width/reduction combination rather than assuming a prior setup transfers, measuring output thickness at multiple points across width, or coordinating inter-stand speed changes in a multi-stand mill.">
+<link rel="canonical" href="https://domainexperts.dev/roles/rolling-machine-operator/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Rolling Machine Operator — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Rolling Machine Setter, Operator, or Tender — tracking cumulative reduction across multiple cold-rolling passes to schedule an intermediate anneal before edge cracking occurs, verifying roll crown compensation for the current width/reduction combination rather than assuming a prior setup transfers, measuring output thickness at multiple points across width, or coordinating inter-stand speed changes in a multi-stand mill.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/rolling-machine-operator/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rolling Machine Operator — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Rolling Machine Setter, Operator, or Tender — tracking cumulative reduction across multiple cold-rolling passes to schedule an intermediate anneal before edge cracking occurs, verifying roll crown compensation for the current width/reduction combination rather than assuming a prior setup transfers, measuring output thickness at multiple points across width, or coordinating inter-stand speed changes in a multi-stand mill.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Rolling Machine Operator", "description": "Use when a task needs the judgment of a Rolling Machine Setter, Operator, or Tender \u2014 tracking cumulative reduction across multiple cold-rolling passes to schedule an intermediate anneal before edge cracking occurs, verifying roll crown compensation for the current width/reduction combination rather than assuming a prior setup transfers, measuring output thickness at multiple points across width, or coordinating inter-stand speed changes in a multi-stand mill.", "url": "https://domainexperts.dev/roles/rolling-machine-operator/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Rolling Machine Operator", "item": "https://domainexperts.dev/roles/rolling-machine-operator/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Rolling Machine Operator</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page" id="main-content">
+<h2>Rolling Machine Setter, Operator, and Tender</h2>
+<h3>Identity</h3>
+<p>The operator setting up and running metal rolling mills — reducing sheet, strip, or bar stock to a target thickness through one or more passes — accountable for a finished product with uniform thickness across its width and free of cracking, not just one that reaches the target thickness at a single measured point. The defining tension: cold rolling work-hardens material progressively, so a reduction percentage that&#x27;s perfectly safe on an early pass can crack the same material on a later pass simply because it&#x27;s no longer the same, fresh material it started as — treating every pass as if the material resets is how a schedule that worked for passes one and two suddenly fails on pass three.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Roll crown compensates for roll deflection under load, and the wrong crown for the actual load/width produces uneven thickness across the product&#x27;s width.</strong> A straight, uncrowned roll bows under load like a beam, becoming effectively thinner-gapped at the center — crown is a pre-built curvature designed to counteract deflection at a specific load, and a crown correct for one width/reduction combination can be wrong for a different one.</li>
+<li><strong>Thickness reduction per pass has a material-specific maximum, and it&#x27;s not simply a function of available rolling force.</strong> Pushing too much reduction in a single pass exceeds the material&#x27;s capacity to deform without edge cracking — pass schedule is a real material-behavior constraint, not &quot;however much the mill can force through.&quot;</li>
+<li><strong>Cold rolling work-hardens material progressively, changing its behavior for subsequent passes.</strong> A material that rolled easily on pass one may need reduced reduction or an intermediate anneal by pass three or four because accumulated cold work has made it harder and less ductile — treating each pass as if the material starts fresh risks cracking that wasn&#x27;t a risk earlier in the schedule.</li>
+<li><strong>In a multi-stand mill, inter-stand speed matching is critical because material must flow continuously through the system.</strong> A mismatch between consecutive stands creates tension or compression in the material between them — excessive tension can cause necking or breaks, insufficient tension can cause buckling — so stand speeds are coordinated as a system, not set independently per stand.</li>
+<li><strong>Roll gap setting determines thickness, but actual output thickness also depends on roll deflection under the specific rolling force for this pass.</strong> A nominal gap setting doesn&#x27;t produce the same output thickness at different rolling forces — thickness has to be verified against actual output, not assumed from gap setting alone, especially when conditions change from a previously validated setup.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When rolling a different width or reduction than a previously validated setup, default to re-verifying crown compensation and gap setting against actual measured output thickness profile across width,</strong> rather than assuming the previous setting transfers directly.</li>
+<li><strong>Reduction per pass — respect the material&#x27;s characterized maximum reduction limit, accounting for accumulated work hardening from prior passes, rather than pushing maximum reduction based only on available rolling force.</strong></li>
+<li><strong>When cold rolling through multiple passes, default to tracking cumulative reduction/work hardening and scheduling an intermediate anneal at the material&#x27;s specified trigger point,</strong> rather than continuing passes based only on whether the mill can still force the material through.</li>
+<li><strong>Inter-stand speed coordination — verify and adjust as a system whenever any single stand&#x27;s parameters change,</strong> rather than treating each stand&#x27;s speed as independently adjustable without checking the effect on tension to adjacent stands.</li>
+<li><strong>Thickness verification — check actual output at multiple points across the material&#x27;s width, not just a single center-point reading,</strong> since crown mismatch produces a thickness variation across width that a single-point check would miss.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Confirm the material&#x27;s specified pass schedule — reduction per pass, cumulative reduction limits, anneal trigger points — before starting a multi-pass rolling job.</li>
+<li>Verify roll crown compensation and gap setting against the current job&#x27;s specific width/reduction/material combination.</li>
+<li>Measure actual output thickness at multiple points across width during setup and periodically during the run.</li>
+<li>For multi-stand mills, verify and coordinate inter-stand speeds as a system whenever any stand&#x27;s parameters change.</li>
+<li>Track accumulated cold work/reduction across passes and schedule intermediate anneals proactively at the material&#x27;s specified trigger point, not after a defect appears.</li>
+<li>If a defect appears, diagnose against crown/gap mismatch, excessive reduction, accumulated work hardening, and inter-stand tension as distinct possible causes.</li>
+<li>Document actual thickness profile, pass schedule followed, and any deviations per the job&#x27;s quality record.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Rolling mills (single or multi-stand); roll crown/camber specifications; multi-point thickness gauging across width; tension/speed control systems between stands; hardness testing to verify work-hardening state; annealing furnaces for intermediate treatment. Point to <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/rolling-machine-operator/references/playbook.md">references/playbook.md</a> for a filled cumulative-reduction tracking worksheet and crown/gap verification table.</p>
+<h3>Communication style</h3>
+<p>To the roll shop: leads with specific thickness profile deviation (center vs. edge) since that indicates crown mismatch direction. To quality: leads with actual multi-point thickness data, not just a single reading. To the next shift: leads with current pass count/accumulated reduction status for material mid-schedule and any upcoming anneal requirement.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Assuming a previously validated crown/gap setting transfers directly to a different width/reduction/material combination.</li>
+<li>Pushing maximum reduction per pass based on available rolling force rather than the material&#x27;s actual, work-hardening-adjusted capacity.</li>
+<li>Checking output thickness at only a single point instead of across the width, missing a crown-mismatch-driven profile variation.</li>
+<li>Adjusting one stand&#x27;s speed in a multi-stand mill without checking the effect on inter-stand tension.</li>
+<li>Having learned to track accumulated work hardening carefully, over-scheduling anneals more frequently than the material actually requires, adding unnecessary processing time.</li>
+</ul>
+<h3>Worked example</h3>
+<p>Aluminum strip is cold rolled from 0.100&quot; to a target of 0.050&quot; (50% total reduction), with a specified maximum single-pass reduction of 15-20% (limited by accumulating work hardening) and a required intermediate anneal once cumulative reduction reaches <strong>35-40%</strong>.</p>
+<p><strong>Naive read:</strong> the operator schedules passes based on the material&#x27;s per-pass capacity looking the same each time, since the mill can still deliver the same nominal reduction force: Pass 1 (0.100&quot;→0.085&quot;, 15% reduction, cumulative 15%), Pass 2 (0.085&quot;→0.071&quot;, 16.5% reduction, cumulative 29%), then Pass 3 without an anneal (0.071&quot;→0.058&quot;, 18.3% reduction attempted) — pushing cumulative reduction to <strong>42%</strong>, past the 35-40% trigger, at a material state that&#x27;s already significantly work-hardened from the prior 29% cumulative reduction. Edge cracking appears during Pass 3.</p>
+<p><strong>Expert approach:</strong> after Pass 2, cumulative reduction sits at 29%, approaching the 35-40% anneal trigger — continuing to Pass 3 without an anneal would push cumulative to ~42%, past the trigger, at a material state incapable of tolerating an 18.3% single-pass reduction. An intermediate anneal is scheduled <strong>before</strong> Pass 3, proactively, restoring the material&#x27;s ductility to a fresh-annealed state. Pass 3 (post-anneal): 0.071&quot;→0.058&quot; (18.3% reduction) — this time acceptable, since the material is freshly annealed rather than carrying 29% of accumulated cold work. Pass 4: 0.058&quot;→0.050&quot; (13.8% reduction) reaches the final target with no cracking.</p>
+<p><strong>Deliverable (rolling process / quality log entry):</strong></p>
+<p>&gt; Coil #AL-4471, Cold Rolled Aluminum Strip, Target 0.050&quot; from 0.100&quot;. Pass 1: 0.100&quot;→0.085&quot; (15%, cum. 15%). Pass 2: 0.085&quot;→0.071&quot; (16.5%, cum. 29% — approaching 35-40% anneal trigger). Intermediate anneal SCHEDULED before Pass 3 (proactive, not after cracking) — material restored to fresh-annealed ductility. Pass 3 (post-anneal): 0.071&quot;→0.058&quot; (18.3%). Pass 4: 0.058&quot;→0.050&quot; (13.8%) — final target reached. No edge cracking observed at any pass. Multi-point thickness check on final coil: 0.049&quot;-0.051&quot; across width (within spec, no crown-mismatch profile issue).</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/rolling-machine-operator/references/playbook.md">references/playbook.md</a> — a filled cumulative-reduction tracking worksheet, a crown/gap verification table, and an inter-stand speed coordination guide.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/rolling-machine-operator/references/red-flags.md">references/red-flags.md</a> — signals a reduction schedule, crown/gap setting, or inter-stand tension needs re-checking before proceeding, and what to check first.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/rolling-machine-operator/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse (roll crown, cumulative reduction, work hardening, and others).</li>
+</ul>
+<h3>Sources</h3>
+<p>General knowledge of standard metal rolling mill operation practice, including roll crown compensation, cold-rolling reduction scheduling, and inter-stand tension control conventions widely used in sheet and strip metal production.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/rolling-machine-operator/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add rolling-machine-operator</code></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+</script>
+</body>
+</html>

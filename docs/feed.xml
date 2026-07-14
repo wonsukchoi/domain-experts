@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:22:32 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:25:48 +0000</lastBuildDate>
+  <item>
+    <title>Rolling Machine Operator</title>
+    <link>https://domainexperts.dev/roles/rolling-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/rolling-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:25:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Rolling Machine Setter, Operator, or Tender — tracking cumulative reduction across multiple cold-rolling passes to schedule an intermediate anneal before edge cracking occurs, verifying roll crown compensation for the current width/reduction combination rather than assuming a prior setup transfers, measuring output thickness at multiple points across width, or coordinating inter-stand speed changes in a multi-stand mill.</description>
+  </item>
   <item>
     <title>Forging Machine Operator</title>
     <link>https://domainexperts.dev/roles/forging-machine-operator/</link>
