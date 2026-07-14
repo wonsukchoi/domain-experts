@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:06:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:09:38 +0000</lastBuildDate>
+  <item>
+    <title>Painting Coating Decorating Worker</title>
+    <link>https://domainexperts.dev/roles/painting-coating-decorating-worker/</link>
+    <guid>https://domainexperts.dev/roles/painting-coating-decorating-worker/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:09:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Painting, Coating, and Decorating Worker — verifying wet film thickness at multiple points rather than a single visual check, adjusting flash/recoat time for off-spec ambient temperature and humidity, comparing decorative consistency against a fixed reference sample rather than the previous unit, or diagnosing a coating defect against technique, thickness, timing, and environmental causes separately.</description>
+  </item>
   <item>
     <title>Hand Grinding Polishing Worker</title>
     <link>https://domainexperts.dev/roles/hand-grinding-polishing-worker/</link>
