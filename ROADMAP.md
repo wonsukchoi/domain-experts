@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 896 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 897 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (86/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (87/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1042,7 +1042,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-4191.00 | Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic | [`heat-treating-equipment-operator`](./roles/heat-treating-equipment-operator/SKILL.md) |
 | ✅ | 51-4192.00 | Layout Workers, Metal and Plastic | [`metal-layout-worker`](./roles/metal-layout-worker/SKILL.md) |
 | ✅ | 51-4193.00 | Plating Machine Setters, Operators, and Tenders, Metal and Plastic | [`plating-machine-operator`](./roles/plating-machine-operator/SKILL.md) |
-|  | 51-4194.00 | Tool Grinders, Filers, and Sharpeners |  |
+| ✅ | 51-4194.00 | Tool Grinders, Filers, and Sharpeners | [`tool-grinder-sharpener`](./roles/tool-grinder-sharpener/SKILL.md) |
 |  | 51-4199.00 | Metal Workers and Plastic Workers, All Other |  |
 | ✅ | 51-5111.00 | Prepress Technicians and Workers | [`prepress-technician`](./roles/prepress-technician/SKILL.md) |
 | ✅ | 51-5112.00 | Printing Press Operators | [`printing-press-operator`](./roles/printing-press-operator/SKILL.md) |
