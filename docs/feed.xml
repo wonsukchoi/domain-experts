@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:34:28 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:38:08 +0000</lastBuildDate>
+  <item>
+    <title>Woodworking Machine Operator</title>
+    <link>https://domainexperts.dev/roles/woodworking-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/woodworking-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:37:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Woodworking Machine Setter, Operator, or Tender (routers, shapers, planers, jointers, sanders) — diagnosing whether burning mid-run traces to cutter dulling rather than feed rate, calculating chip load instead of assuming slower feed always improves finish, adjusting feed direction at a grain reversal point, or attributing a warped finished part to moisture equilibration rather than a machining error.</description>
+  </item>
   <item>
     <title>Metal Pourer Caster</title>
     <link>https://domainexperts.dev/roles/metal-pourer-caster/</link>
