@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 904 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 905 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (94/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (95/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1050,7 +1050,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-6011.00 | Laundry and Dry-Cleaning Workers | [`laundry-drycleaning-worker`](./roles/laundry-drycleaning-worker/SKILL.md) |
 |  | 51-6021.00 | Pressers, Textile, Garment, and Related Materials |  |
 | ✅ | 51-6031.00 | Sewing Machine Operators | [`sewing-machine-operator`](./roles/sewing-machine-operator/SKILL.md) |
-|  | 51-6041.00 | Shoe and Leather Workers and Repairers |  |
+| ✅ | 51-6041.00 | Shoe and Leather Workers and Repairers | [`shoe-leather-worker-repairer`](./roles/shoe-leather-worker-repairer/SKILL.md) |
 |  | 51-6042.00 | Shoe Machine Operators and Tenders |  |
 |  | 51-6051.00 | Sewers, Hand |  |
 | ✅ | 51-6052.00 | Tailors, Dressmakers, and Custom Sewers | [`tailor-dressmaker`](./roles/tailor-dressmaker/SKILL.md) |
