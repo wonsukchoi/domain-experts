@@ -1,5 +1,5 @@
 {
-  "count": 908,
+  "count": 909,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2921,6 +2921,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/coating-painting-spraying-machine-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "coil-winder-taper-finisher",
+      "description": "Use when a task needs the judgment of a Coil Winder, Taper, or Finisher \u2014 cross-checking a mechanical turn counter against an independent method rather than trusting it blindly, maintaining wire tension within a specified range rather than by feel, avoiding wire handling that risks invisible insulation damage, or performing post-winding electrical testing rather than relying on visual/mechanical inspection alone.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-2021.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/coil-winder-taper-finisher/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:00:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:04:44 +0000</lastBuildDate>
+  <item>
+    <title>Coil Winder Taper Finisher</title>
+    <link>https://domainexperts.dev/roles/coil-winder-taper-finisher/</link>
+    <guid>https://domainexperts.dev/roles/coil-winder-taper-finisher/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:03:01 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Coil Winder, Taper, or Finisher — cross-checking a mechanical turn counter against an independent method rather than trusting it blindly, maintaining wire tension within a specified range rather than by feel, avoiding wire handling that risks invisible insulation damage, or performing post-winding electrical testing rather than relying on visual/mechanical inspection alone.</description>
+  </item>
   <item>
     <title>Timing Device Assembler Adjuster</title>
     <link>https://domainexperts.dev/roles/timing-device-assembler-adjuster/</link>
