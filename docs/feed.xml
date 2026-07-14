@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:12:58 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:16:20 +0000</lastBuildDate>
+  <item>
+    <title>Slaughterer Meat Packer</title>
+    <link>https://domainexperts.dev/roles/slaughterer-meat-packer/</link>
+    <guid>https://domainexperts.dev/roles/slaughterer-meat-packer/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:16:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Slaughterer and Meat Packer — verifying stunning effectiveness per animal rather than trusting equipment operating normally, treating evisceration technique as the primary contamination control rather than relying on post-cut inspection, confirming actual carcass deep-tissue temperature within the required chilling window rather than chiller setpoint alone, or matching line speed to what inspection at each station can actually support.</description>
+  </item>
   <item>
     <title>Engine Machine Assembler</title>
     <link>https://domainexperts.dev/roles/engine-machine-assembler/</link>
