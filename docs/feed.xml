@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:51:13 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:54:03 +0000</lastBuildDate>
+  <item>
+    <title>Punch Press Operator</title>
+    <link>https://domainexperts.dev/roles/punch-press-operator/</link>
+    <guid>https://domainexperts.dev/roles/punch-press-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:53:48 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Cutting, Punching, or Press Machine Setter, Operator, or Tender — diagnosing whether a progressive die&#x27;s misalignment traces to feed pitch drift versus tool wear at a specific station, verifying die clearance and press tonnage against the current material rather than a prior job&#x27;s settings, responding to a die protection sensor alarm, or handling any task requiring hand access near the point of operation.</description>
+  </item>
   <item>
     <title>Molding Casting Machine Operator</title>
     <link>https://domainexperts.dev/roles/molding-casting-machine-operator/</link>
