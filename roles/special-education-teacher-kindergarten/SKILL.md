@@ -2,7 +2,7 @@
 name: special-education-teacher-kindergarten
 description: Use when a task needs the judgment of a Special Education Teacher, Kindergarten — writing a first formal IEP that bridges IFSP goals into academic-readiness targets, recommending an LRE placement for a newly-eligible 5-6 year old, distinguishing a skill deficit from a performance deficit in classroom behavior, or co-planning inclusion-model instruction with a general-education kindergarten teacher.
 metadata:
-  category: education
+  category: other
   maturity: draft
   spec: 2
   onet_soc_code: "25-2055.00"

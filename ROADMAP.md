@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 920 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 926 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -365,14 +365,14 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>25 — Educational Instruction and Library</strong> (58/68 drafted)</summary>
+<summary><strong>25 — Educational Instruction and Library</strong> (64/68 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 25-1011.00 | Business Teachers, Postsecondary | [`business-teacher-postsecondary`](./roles/business-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1021.00 | Computer Science Teachers, Postsecondary | [`computer-science-professor`](./roles/computer-science-professor/SKILL.md) |
 | ✅ | 25-1022.00 | Mathematical Science Teachers, Postsecondary | [`math-teacher-postsecondary`](./roles/math-teacher-postsecondary/SKILL.md) |
-|  | 25-1031.00 | Architecture Teachers, Postsecondary |  |
+| ✅ | 25-1031.00 | Architecture Teachers, Postsecondary | [`architecture-teacher-postsecondary`](./roles/architecture-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1032.00 | Engineering Teachers, Postsecondary | [`engineering-professor`](./roles/engineering-professor/SKILL.md) |
 | ✅ | 25-1041.00 | Agricultural Sciences Teachers, Postsecondary | [`agricultural-sciences-professor`](./roles/agricultural-sciences-professor/SKILL.md) |
 | ✅ | 25-1042.00 | Biological Science Teachers, Postsecondary | [`biology-professor`](./roles/biology-professor/SKILL.md) |
@@ -384,7 +384,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 25-1061.00 | Anthropology and Archeology Teachers, Postsecondary | [`anthropology-archaeology-professor`](./roles/anthropology-archaeology-professor/SKILL.md) |
 | ✅ | 25-1062.00 | Area, Ethnic, and Cultural Studies Teachers, Postsecondary | [`area-ethnic-cultural-studies-professor`](./roles/area-ethnic-cultural-studies-professor/SKILL.md) |
 | ✅ | 25-1063.00 | Economics Teachers, Postsecondary | [`economics-teacher-postsecondary`](./roles/economics-teacher-postsecondary/SKILL.md) |
-|  | 25-1064.00 | Geography Teachers, Postsecondary |  |
+| ✅ | 25-1064.00 | Geography Teachers, Postsecondary | [`geography-teacher-postsecondary`](./roles/geography-teacher-postsecondary/SKILL.md) |
 | ✅ | 25-1065.00 | Political Science Teachers, Postsecondary | [`political-science-professor`](./roles/political-science-professor/SKILL.md) |
 | ✅ | 25-1066.00 | Psychology Teachers, Postsecondary | [`psychology-professor`](./roles/psychology-professor/SKILL.md) |
 | ✅ | 25-1067.00 | Sociology Teachers, Postsecondary | [`sociology-professor`](./roles/sociology-professor/SKILL.md) |
@@ -413,11 +413,11 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 25-2023.00 | Career/Technical Education Teachers, Middle School | [`middle-school-cte-teacher`](./roles/middle-school-cte-teacher/SKILL.md) |
 | ✅ | 25-2031.00 | Secondary School Teachers, Except Special and Career/Technical Education | [`high-school-teacher`](./roles/high-school-teacher/SKILL.md) |
 | ✅ | 25-2032.00 | Career/Technical Education Teachers, Secondary School | [`cte-teacher`](./roles/cte-teacher/SKILL.md) |
-|  | 25-2051.00 | Special Education Teachers, Preschool |  |
+| ✅ | 25-2051.00 | Special Education Teachers, Preschool | [`special-education-teacher-preschool`](./roles/special-education-teacher-preschool/SKILL.md) |
 | ✅ | 25-2055.00 | Special Education Teachers, Kindergarten | [`special-education-teacher-kindergarten`](./roles/special-education-teacher-kindergarten/SKILL.md) |
-|  | 25-2056.00 | Special Education Teachers, Elementary School |  |
-|  | 25-2057.00 | Special Education Teachers, Middle School |  |
-|  | 25-2058.00 | Special Education Teachers, Secondary School |  |
+| ✅ | 25-2056.00 | Special Education Teachers, Elementary School | [`special-education-teacher-elementary`](./roles/special-education-teacher-elementary/SKILL.md) |
+| ✅ | 25-2057.00 | Special Education Teachers, Middle School | [`special-education-teacher-middle-school`](./roles/special-education-teacher-middle-school/SKILL.md) |
+| ✅ | 25-2058.00 | Special Education Teachers, Secondary School | [`special-education-teacher-secondary`](./roles/special-education-teacher-secondary/SKILL.md) |
 | ✅ | 25-2059.00 | Special Education Teachers, All Other | [`special-education-teacher`](./roles/special-education-teacher/SKILL.md) |
 | ✅ | 25-2059.01 | Adapted Physical Education Specialists | [`adapted-physical-education-specialist`](./roles/adapted-physical-education-specialist/SKILL.md) |
 | ✅ | 25-3011.00 | Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors | [`adult-esl-instructor`](./roles/adult-esl-instructor/SKILL.md) |

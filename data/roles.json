@@ -1,5 +1,5 @@
 {
-  "count": 930,
+  "count": 936,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -883,6 +883,26 @@
         "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "architecture-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of an Architecture Teacher, Postsecondary \u2014 running studio desk crits and final jury reviews, grading design work on process and constraint-response rather than rendering polish, separating a personal design-style opinion from an objective functional or code flaw during critique, and checking whether a studio brief's precedent set is stale relative to current construction and code practice.",
+      "category": "education",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/architecture-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md"
       ],
       "jurisdictions": [
         "us"
@@ -7787,6 +7807,25 @@
         "playbook.md",
         "red-flags.md",
         "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "geography-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Geography Teacher, Postsecondary \u2014 grading a GIS spatial-analysis project for methodology rather than map polish, catching a correlation-as-causation claim on a choropleth pairing, checking a dataset's currency and projection before it enters a lab, or designing a balanced lesson on a contested geopolitical topic.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1064.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/geography-teacher-postsecondary/SKILL.md",
+      "references": [
+        "red-flags.md"
       ],
       "jurisdictions": [
         "us"
@@ -16954,9 +16993,29 @@
       ]
     },
     {
+      "slug": "special-education-teacher-elementary",
+      "description": "Use when a task needs the judgment of a Special Education Teacher, Elementary School \u2014 distinguishing a specific learning disability from an instructional-gap/exposure problem using RTI data, setting pull-out versus inclusion minutes for a reading or math intervention, reading progress-monitoring data (CBM, oral reading fluency) to decide whether an intervention is working, or building the dual-discrepancy case for an SLD eligibility referral.",
+      "category": "education",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2056.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-elementary/SKILL.md",
+      "references": [
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "special-education-teacher-kindergarten",
       "description": "Use when a task needs the judgment of a Special Education Teacher, Kindergarten \u2014 writing a first formal IEP that bridges IFSP goals into academic-readiness targets, recommending an LRE placement for a newly-eligible 5-6 year old, distinguishing a skill deficit from a performance deficit in classroom behavior, or co-planning inclusion-model instruction with a general-education kindergarten teacher.",
-      "category": "education",
+      "category": "other",
       "maturity": "draft",
       "spec": 2,
       "onet_soc_code": "25-2055.00",
@@ -16969,6 +17028,66 @@
         "playbook.md",
         "red-flags.md",
         "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-teacher-middle-school",
+      "description": "Use when a task needs the judgment of a Special Education Teacher, Middle School \u2014 verifying whether an IEP accommodation is actually being implemented across a student's five or six general-education classrooms, building a self-advocacy goal so a 12-14 year-old can name and request their own accommodations, sequencing 8th-grade course placement to protect a student's high-school track options, or distinguishing a genuine academic/behavioral regression from ordinary early-adolescent turbulence.",
+      "category": "education",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2057.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-middle-school/SKILL.md",
+      "references": [
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-teacher-preschool",
+      "description": "Use when a task needs the judgment of a Special Education Teacher, Preschool \u2014 distinguishing a genuine developmental delay from normal variation in a 3-5 year old, writing an IFSP-to-IEP transition goal as a developmental milestone rather than academic content, designing a caregiver-coached play-based intervention routine, or tracking progress against a child's own developmental trajectory instead of a fixed timeline.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2051.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-preschool/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-teacher-secondary",
+      "description": "Use when a task needs the judgment of a Special Education Teacher, Secondary School \u2014 writing a legally sufficient transition IEP with measurable postsecondary goals, deciding a standard vs. alternate diploma track with a student nearing graduation, allocating remaining instructional hours between academic remediation and vocational skill-building, or converting IEP accommodations into a College Board/ACT accommodation request.",
+      "category": "education",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2058.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-secondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md"
       ],
       "jurisdictions": [
         "us"
