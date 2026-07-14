@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:19:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:22:32 +0000</lastBuildDate>
+  <item>
+    <title>Forging Machine Operator</title>
+    <link>https://domainexperts.dev/roles/forging-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/forging-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:22:12 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Forging Machine Setter, Operator, or Tender — verifying actual billet temperature at the point of forging rather than trusting furnace setpoint, diagnosing whether a localized underfill traces to press energy versus bulk temperature, evaluating whether a finish-machining plan preserves grain flow at a critical surface, or catching die wear drift through part measurement rather than visual die inspection.</description>
+  </item>
   <item>
     <title>Drilling Boring Machine Operator</title>
     <link>https://domainexperts.dev/roles/drilling-boring-machine-operator/</link>

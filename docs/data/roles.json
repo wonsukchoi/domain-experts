@@ -1,5 +1,5 @@
 {
-  "count": 896,
+  "count": 897,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -6951,6 +6951,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/forestry-conservation-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "forging-machine-operator",
+      "description": "Use when a task needs the judgment of a Forging Machine Setter, Operator, or Tender \u2014 verifying actual billet temperature at the point of forging rather than trusting furnace setpoint, diagnosing whether a localized underfill traces to press energy versus bulk temperature, evaluating whether a finish-machining plan preserves grain flow at a critical surface, or catching die wear drift through part measurement rather than visual die inspection.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4022.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/forging-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
