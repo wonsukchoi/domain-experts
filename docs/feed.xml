@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:38:08 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:41:22 +0000</lastBuildDate>
+  <item>
+    <title>Wood Sawing Machine Operator</title>
+    <link>https://domainexperts.dev/roles/wood-sawing-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/wood-sawing-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:41:07 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Sawing Machine Setter, Operator, or Tender (wood) — planning a cut sequence to route around a defect even at a yield cost for a structural part, verifying band saw blade tension/tracking before a precision cut, matching blade type to rip versus crosscut operations, or refusing to bypass a riving knife or anti-kickback device for a cut that seems easier without it.</description>
+  </item>
   <item>
     <title>Woodworking Machine Operator</title>
     <link>https://domainexperts.dev/roles/woodworking-machine-operator/</link>

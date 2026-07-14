@@ -1,5 +1,5 @@
 {
-  "count": 901,
+  "count": 902,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -18663,6 +18663,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/wind-turbine-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "wood-sawing-machine-operator",
+      "description": "Use when a task needs the judgment of a Sawing Machine Setter, Operator, or Tender (wood) \u2014 planning a cut sequence to route around a defect even at a yield cost for a structural part, verifying band saw blade tension/tracking before a precision cut, matching blade type to rip versus crosscut operations, or refusing to bypass a riving knife or anti-kickback device for a cut that seems easier without it.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-7041.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/wood-sawing-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
