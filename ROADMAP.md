@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 861 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 862 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (51/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (52/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1017,7 +1017,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-3022.00 | Meat, Poultry, and Fish Cutters and Trimmers | [`meat-poultry-fish-cutter-trimmer`](./roles/meat-poultry-fish-cutter-trimmer/SKILL.md) |
 |  | 51-3023.00 | Slaughterers and Meat Packers |  |
 | ✅ | 51-3091.00 | Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders | [`food-roasting-drying-machine-operator`](./roles/food-roasting-drying-machine-operator/SKILL.md) |
-|  | 51-3092.00 | Food Batchmakers |  |
+| ✅ | 51-3092.00 | Food Batchmakers | [`food-batchmaker`](./roles/food-batchmaker/SKILL.md) |
 |  | 51-3093.00 | Food Cooking Machine Operators and Tenders |  |
 |  | 51-3099.00 | Food Processing Workers, All Other |  |
 | ✅ | 51-4021.00 | Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic | [`extrusion-drawing-machine-operator`](./roles/extrusion-drawing-machine-operator/SKILL.md) |
