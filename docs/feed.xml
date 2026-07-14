@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:57:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:00:31 +0000</lastBuildDate>
+  <item>
+    <title>Timing Device Assembler Adjuster</title>
+    <link>https://domainexperts.dev/roles/timing-device-assembler-adjuster/</link>
+    <guid>https://domainexperts.dev/roles/timing-device-assembler-adjuster/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:00:18 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Timing Device Assembler and Adjuster — verifying rate accuracy across multiple positions and temperatures rather than a single bench-test condition, applying component-specific lubrication rather than a generalized approach, treating cleanliness as a functional requirement equivalent to dimensional tolerance, or catching an assembly issue at an intermediate checkpoint rather than only at final test.</description>
+  </item>
   <item>
     <title>Tool Grinder Sharpener</title>
     <link>https://domainexperts.dev/roles/tool-grinder-sharpener/</link>
