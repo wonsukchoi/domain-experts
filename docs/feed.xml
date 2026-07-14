@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 16:49:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:52:46 +0000</lastBuildDate>
+  <item>
+    <title>Food Batchmaker</title>
+    <link>https://domainexperts.dev/roles/food-batchmaker/</link>
+    <guid>https://domainexperts.dev/roles/food-batchmaker/</guid>
+    <pubDate>Tue, 14 Jul 2026 23:52:32 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Food Batchmaker — scaling a formulation from pilot to production batch size, diagnosing why a scaled-up batch behaves differently than the pilot despite correctly scaled ingredient ratios, deciding whether a mixing deviation traces to the formulation or the equipment, verifying a product&#x27;s actual shelf-stability indicator, or sequencing an allergen-containing batch on shared equipment.</description>
+  </item>
   <item>
     <title>Meat Poultry Fish Cutter Trimmer</title>
     <link>https://domainexperts.dev/roles/meat-poultry-fish-cutter-trimmer/</link>
