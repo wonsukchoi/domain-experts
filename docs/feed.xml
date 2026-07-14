@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:04:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:08:10 +0000</lastBuildDate>
+  <item>
+    <title>Electromechanical Equipment Assembler</title>
+    <link>https://domainexperts.dev/roles/electromechanical-equipment-assembler/</link>
+    <guid>https://domainexperts.dev/roles/electromechanical-equipment-assembler/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:06:15 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electromechanical Equipment Assembler — verifying shaft/coupling alignment directly rather than trusting an initial functional test that only confirms the device runs, applying fastener torque to spec with a calibrated tool rather than by feel, routing wire to account for the equipment&#x27;s full range of motion rather than its static assembled position, or distinguishing electrical from mechanical root cause when a device malfunctions.</description>
+  </item>
   <item>
     <title>Coil Winder Taper Finisher</title>
     <link>https://domainexperts.dev/roles/coil-winder-taper-finisher/</link>
