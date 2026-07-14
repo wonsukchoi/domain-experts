@@ -1,5 +1,5 @@
 {
-  "count": 867,
+  "count": 868,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -15226,6 +15226,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/self-enrichment-instructor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "semiconductor-processing-technician",
+      "description": "Use when a task needs the judgment of a Semiconductor Processing Technician \u2014 deciding whether an in-spec metrology reading is actually a Western Electric SPC out-of-control signal, diagnosing whether a defect pattern is tool-linked or material-linked, evaluating whether a recipe change stays inside the qualified process window, or triaging a lot hold before an irreversible process step.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9141.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/semiconductor-processing-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

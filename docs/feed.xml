@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 16:21:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:25:13 +0000</lastBuildDate>
+  <item>
+    <title>Semiconductor Processing Technician</title>
+    <link>https://domainexperts.dev/roles/semiconductor-processing-technician/</link>
+    <guid>https://domainexperts.dev/roles/semiconductor-processing-technician/</guid>
+    <pubDate>Tue, 14 Jul 2026 23:24:58 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Semiconductor Processing Technician — deciding whether an in-spec metrology reading is actually a Western Electric SPC out-of-control signal, diagnosing whether a defect pattern is tool-linked or material-linked, evaluating whether a recipe change stays inside the qualified process window, or triaging a lot hold before an irreversible process step.</description>
+  </item>
   <item>
     <title>Aircraft Structure Assembler</title>
     <link>https://domainexperts.dev/roles/aircraft-structure-assembler/</link>
