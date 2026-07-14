@@ -1,5 +1,5 @@
 {
-  "count": 911,
+  "count": 912,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -5510,6 +5510,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/energy-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "engine-machine-assembler",
+      "description": "Use when a task needs the judgment of an Engine and Other Machine Assembler \u2014 following the specified multi-stage torque sequence for a multi-bolt joint rather than tightening bolts to final value in convenient order, measuring bearing clearance directly rather than confirming free rotation by hand, verifying critical clearances on the actual assembled stack-up rather than trusting individually-in-tolerance components, or testing sub-assemblies before final integration rather than only at final test.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-2031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/engine-machine-assembler/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

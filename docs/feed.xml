@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:09:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:12:58 +0000</lastBuildDate>
+  <item>
+    <title>Engine Machine Assembler</title>
+    <link>https://domainexperts.dev/roles/engine-machine-assembler/</link>
+    <guid>https://domainexperts.dev/roles/engine-machine-assembler/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:12:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Engine and Other Machine Assembler — following the specified multi-stage torque sequence for a multi-bolt joint rather than tightening bolts to final value in convenient order, measuring bearing clearance directly rather than confirming free rotation by hand, verifying critical clearances on the actual assembled stack-up rather than trusting individually-in-tolerance components, or testing sub-assemblies before final integration rather than only at final test.</description>
+  </item>
   <item>
     <title>Electrical Electronic Equipment Assembler</title>
     <link>https://domainexperts.dev/roles/electrical-electronic-equipment-assembler/</link>
