@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 914 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 915 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (104/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (105/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1092,7 +1092,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-9051.00 | Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders | [`furnace-kiln-oven-operator`](./roles/furnace-kiln-oven-operator/SKILL.md) |
 | ✅ | 51-9061.00 | Inspectors, Testers, Sorters, Samplers, and Weighers | [`quality-inspector-tester`](./roles/quality-inspector-tester/SKILL.md) |
 | ✅ | 51-9071.00 | Jewelers and Precious Stone and Metal Workers | [`jeweler`](./roles/jeweler/SKILL.md) |
-|  | 51-9071.06 | Gem and Diamond Workers |  |
+| ✅ | 51-9071.06 | Gem and Diamond Workers | [`gem-diamond-worker`](./roles/gem-diamond-worker/SKILL.md) |
 | ✅ | 51-9081.00 | Dental Laboratory Technicians | [`dental-laboratory-technician`](./roles/dental-laboratory-technician/SKILL.md) |
 | ✅ | 51-9082.00 | Medical Appliance Technicians | [`medical-appliance-technician`](./roles/medical-appliance-technician/SKILL.md) |
 | ✅ | 51-9083.00 | Ophthalmic Laboratory Technicians | [`ophthalmic-laboratory-technician`](./roles/ophthalmic-laboratory-technician/SKILL.md) |

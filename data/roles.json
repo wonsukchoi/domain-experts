@@ -1,5 +1,5 @@
 {
-  "count": 924,
+  "count": 925,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -7577,6 +7577,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/gas-plant-operator/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "gem-diamond-worker",
+      "description": "Use when a task needs the judgment of a Gem and Diamond Worker \u2014 mapping inclusions before finalizing a cutting plan rather than discovering them mid-process, making a deliberate yield-versus-clarity trade-off specific to a stone's actual inclusion pattern rather than defaulting to maximum carat weight, identifying crystal structure/grain direction before any irreversible cut, or grading clarity and color against standardized criteria rather than individual aesthetic impression.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9071.06",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/gem-diamond-worker/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
