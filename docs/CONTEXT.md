@@ -1,14 +1,15 @@
 # CONTEXT
 
 ## Current Task
-2026-07-12 session: continued mass role-drafting via Workflow-tool orchestration, groups 49/43/53/33/41/39 all done (91 roles added, lint clean, each batch committed+pushed). 828/1016 drafted. Only groups 47 (36 roles) and 51 (63 roles, biggest) remain. Runbook: `docs/onet-fill-remaining.md`.
+2026-07-15 session: finished remaining O*NET coverage — group 51 (last 2 roles), then 9 education/healthcare roles (teachers + special-ed grade bands + nurses) via parallel subagents. 927/1016 drafted. Repo cleaned up: closed 7 stale PRs, deleted 7 stale branches (only `main` remains).
 
 ## Key Decisions
-- Confirmed with user before each Workflow launch this session (multi-agent cost) — ask before firing, don't auto-chain.
-- Small-batch lint fixes handled inline by the ops agent each time (banned phrases: "Best Practices" in bailiff citation, "utilize" substring in resident-director) — no roles dropped across 6 batches.
-- Same skip conventions as before: "All Other" catch-alls and O*NET group 55 (Military) excluded.
+- 927/1016 (91.2%) declared effective 100% coverage — remaining 89 = 73 "All Other" catch-alls + 16 group-55 military, both out of scope (no real practitioner behind a catch-all; military excluded by convention). Documented in both `README.md` and auto-generated in `ROADMAP.md` (see `generate_roadmap.py`'s progress-note block) so it self-maintains.
+- Parallel subagents draft files only (no git ops) — coordinator sequentially lints/commits/pushes to avoid concurrent-push races. Worked cleanly across 9 roles.
+- Fixed the known `critical-care-nurse` mismapping bug (was on 29-1141.01) — moved to correct code 29-1141.03, which surfaced 29-1141.01 (Acute Care Nurses) as newly uncovered; drafted that too.
+- Closed PRs #27-33 and deleted their branches — all duplicated content already merged directly to main this session; merging would have clobbered/conflicted.
 
 ## Next Steps
-- Resume via `docs/onet-fill-remaining.md`: group 47 (36 roles) next, then 51 (63, biggest, do last).
-- Known bug still open: `roles/critical-care-nurse/` mismapped to code 29-1141.01 (Acute Care Nurses) instead of its titled 29-1141.03 — needs rename/split pass.
-- Haven't bumped npm version this session (still v0.5.0) — bump/tag/push once 47+51 land, per Release section in the runbook.
+- No open role-drafting work remains in scope. If military group 55 (16 roles) is ever wanted, same recipe applies.
+- Haven't bumped npm version this session (still v0.5.0) — bump/tag/push per Release section in `AGENTS.md` if a release is desired.
+- `docs/onet-fill-remaining.md` runbook is now fully executed and can be retired/archived.
