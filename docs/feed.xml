@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:33:33 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:36:22 +0000</lastBuildDate>
+  <item>
+    <title>Lathe Turning Machine Operator</title>
+    <link>https://domainexperts.dev/roles/lathe-turning-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/lathe-turning-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:36:05 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Lathe and Turning Machine Tool Setter, Operator, or Tender — recalculating spindle RPM as workpiece diameter changes along a stepped part to maintain consistent surface speed, verifying workpiece chucking/centering runout as a separate error source from tool/program correctness, reducing cutting parameters or adding support for a long slender workpiece prone to chatter, or treating feed rate, tool nose radius, and cutting speed as an interacting combination that determines surface finish.</description>
+  </item>
   <item>
     <title>Garment Textile Presser</title>
     <link>https://domainexperts.dev/roles/garment-textile-presser/</link>

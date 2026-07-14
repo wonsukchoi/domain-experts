@@ -1,5 +1,5 @@
 {
-  "count": 919,
+  "count": 920,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -9317,6 +9317,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/landscaping-supervisor/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "lathe-turning-machine-operator",
+      "description": "Use when a task needs the judgment of a Lathe and Turning Machine Tool Setter, Operator, or Tender \u2014 recalculating spindle RPM as workpiece diameter changes along a stepped part to maintain consistent surface speed, verifying workpiece chucking/centering runout as a separate error source from tool/program correctness, reducing cutting parameters or adding support for a long slender workpiece prone to chatter, or treating feed rate, tool nose radius, and cutting speed as an interacting combination that determines surface finish.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4034.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/lathe-turning-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
