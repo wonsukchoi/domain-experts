@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:08:10 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:09:22 +0000</lastBuildDate>
+  <item>
+    <title>Electrical Electronic Equipment Assembler</title>
+    <link>https://domainexperts.dev/roles/electrical-electronic-equipment-assembler/</link>
+    <guid>https://domainexperts.dev/roles/electrical-electronic-equipment-assembler/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:09:07 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Electrical and Electronic Equipment Assembler — inspecting a solder joint against the specific IPC/J-STD workmanship standard criteria rather than personal visual judgment, following ESD precautions for every component handled since damage is invisible at the time it occurs, verifying a crimped connection with a pull test rather than visual inspection alone, or treating a single suspected cold joint as a potential complete failure point rather than a minor defect.</description>
+  </item>
   <item>
     <title>Electromechanical Equipment Assembler</title>
     <link>https://domainexperts.dev/roles/electromechanical-equipment-assembler/</link>
