@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 871 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 872 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (61/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (62/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1008,7 +1008,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-2023.00 | Electromechanical Equipment Assemblers |  |
 |  | 51-2031.00 | Engine and Other Machine Assemblers |  |
 | ✅ | 51-2041.00 | Structural Metal Fabricators and Fitters | [`structural-metal-fabricator`](./roles/structural-metal-fabricator/SKILL.md) |
-|  | 51-2051.00 | Fiberglass Laminators and Fabricators |  |
+| ✅ | 51-2051.00 | Fiberglass Laminators and Fabricators | [`fiberglass-laminator`](./roles/fiberglass-laminator/SKILL.md) |
 |  | 51-2061.00 | Timing Device Assemblers and Adjusters |  |
 | ✅ | 51-2092.00 | Team Assemblers | [`team-assembler`](./roles/team-assembler/SKILL.md) |
 |  | 51-2099.00 | Assemblers and Fabricators, All Other |  |
