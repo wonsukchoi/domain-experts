@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:44:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:48:18 +0000</lastBuildDate>
+  <item>
+    <title>Furnace Kiln Oven Operator</title>
+    <link>https://domainexperts.dev/roles/furnace-kiln-oven-operator/</link>
+    <guid>https://domainexperts.dev/roles/furnace-kiln-oven-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:48:03 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Furnace, Kiln, Oven, Drier, or Kettle Operator/Tender — deciding whether soak time should be measured from the control sensor or from the load&#x27;s slowest-heating point, validating temperature uniformity for a changed load configuration before trusting a single sensor, verifying actual atmosphere composition rather than just gas flow, or controlling heating/cooling ramp rate to prevent thermal shock.</description>
+  </item>
   <item>
     <title>Sewing Machine Operator</title>
     <link>https://domainexperts.dev/roles/sewing-machine-operator/</link>
