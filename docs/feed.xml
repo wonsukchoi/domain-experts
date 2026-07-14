@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:41:26 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:44:04 +0000</lastBuildDate>
+  <item>
+    <title>Hydroelectric Plant Technician</title>
+    <link>https://domainexperts.dev/roles/hydroelectric-plant-technician/</link>
+    <guid>https://domainexperts.dev/roles/hydroelectric-plant-technician/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:43:45 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Hydroelectric Plant Technician — recalculating the turbine&#x27;s cavitation-safe operating range as reservoir head changes rather than holding a fixed flow setpoint, treating mandated environmental/fish-passage flow as a hard constraint verified before optimizing generation, verifying governor tuning against actual frequency response rather than assuming correctness from steady-state generation, and scheduling runner inspection to catch cavitation damage that accumulates invisibly during normal operation.</description>
+  </item>
   <item>
     <title>Biomass Plant Technician</title>
     <link>https://domainexperts.dev/roles/biomass-plant-technician/</link>

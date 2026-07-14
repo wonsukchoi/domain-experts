@@ -1,5 +1,5 @@
 {
-  "count": 922,
+  "count": 923,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -8657,6 +8657,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/hvac-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "hydroelectric-plant-technician",
+      "description": "Use when a task needs the judgment of a Hydroelectric Plant Technician \u2014 recalculating the turbine's cavitation-safe operating range as reservoir head changes rather than holding a fixed flow setpoint, treating mandated environmental/fish-passage flow as a hard constraint verified before optimizing generation, verifying governor tuning against actual frequency response rather than assuming correctness from steady-state generation, and scheduling runner inspection to catch cavitation damage that accumulates invisibly during normal operation.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8013.04",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hydroelectric-plant-technician/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
