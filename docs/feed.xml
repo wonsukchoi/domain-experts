@@ -4,7 +4,63 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 20:09:33 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 20:11:06 +0000</lastBuildDate>
+  <item>
+    <title>Architecture Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/architecture-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/architecture-teacher-postsecondary/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Architecture Teacher, Postsecondary — running studio desk crits and final jury reviews, grading design work on process and constraint-response rather than rendering polish, separating a personal design-style opinion from an objective functional or code flaw during critique, and checking whether a studio brief&#x27;s precedent set is stale relative to current construction and code practice.</description>
+  </item>
+  <item>
+    <title>Chemistry Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/chemistry-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/chemistry-teacher-postsecondary/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Postsecondary Chemistry Teacher — grading a lab report where the numeric result misses the &quot;expected&quot; value but the methodology is sound, distinguishing a conceptual misunderstanding from an arithmetic slip on a problem set, deciding how much procedural freedom to give students on an open-ended lab, or vetting whether a demo/lab procedure is safe to run in this specific room.</description>
+  </item>
+  <item>
+    <title>Geography Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/geography-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/geography-teacher-postsecondary/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Geography Teacher, Postsecondary — grading a GIS spatial-analysis project for methodology rather than map polish, catching a correlation-as-causation claim on a choropleth pairing, checking a dataset&#x27;s currency and projection before it enters a lab, or designing a balanced lesson on a contested geopolitical topic.</description>
+  </item>
+  <item>
+    <title>Special Education Teacher Elementary</title>
+    <link>https://domainexperts.dev/roles/special-education-teacher-elementary/</link>
+    <guid>https://domainexperts.dev/roles/special-education-teacher-elementary/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Special Education Teacher, Elementary School — distinguishing a specific learning disability from an instructional-gap/exposure problem using RTI data, setting pull-out versus inclusion minutes for a reading or math intervention, reading progress-monitoring data (CBM, oral reading fluency) to decide whether an intervention is working, or building the dual-discrepancy case for an SLD eligibility referral.</description>
+  </item>
+  <item>
+    <title>Special Education Teacher Kindergarten</title>
+    <link>https://domainexperts.dev/roles/special-education-teacher-kindergarten/</link>
+    <guid>https://domainexperts.dev/roles/special-education-teacher-kindergarten/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Special Education Teacher, Kindergarten — writing a first formal IEP that bridges IFSP goals into academic-readiness targets, recommending an LRE placement for a newly-eligible 5-6 year old, distinguishing a skill deficit from a performance deficit in classroom behavior, or co-planning inclusion-model instruction with a general-education kindergarten teacher.</description>
+  </item>
+  <item>
+    <title>Special Education Teacher Middle School</title>
+    <link>https://domainexperts.dev/roles/special-education-teacher-middle-school/</link>
+    <guid>https://domainexperts.dev/roles/special-education-teacher-middle-school/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Special Education Teacher, Middle School — verifying whether an IEP accommodation is actually being implemented across a student&#x27;s five or six general-education classrooms, building a self-advocacy goal so a 12-14 year-old can name and request their own accommodations, sequencing 8th-grade course placement to protect a student&#x27;s high-school track options, or distinguishing a genuine academic/behavioral regression from ordinary early-adolescent turbulence.</description>
+  </item>
+  <item>
+    <title>Special Education Teacher Preschool</title>
+    <link>https://domainexperts.dev/roles/special-education-teacher-preschool/</link>
+    <guid>https://domainexperts.dev/roles/special-education-teacher-preschool/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Special Education Teacher, Preschool — distinguishing a genuine developmental delay from normal variation in a 3-5 year old, writing an IFSP-to-IEP transition goal as a developmental milestone rather than academic content, designing a caregiver-coached play-based intervention routine, or tracking progress against a child&#x27;s own developmental trajectory instead of a fixed timeline.</description>
+  </item>
+  <item>
+    <title>Special Education Teacher Secondary</title>
+    <link>https://domainexperts.dev/roles/special-education-teacher-secondary/</link>
+    <guid>https://domainexperts.dev/roles/special-education-teacher-secondary/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:10:35 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Special Education Teacher, Secondary School — writing a legally sufficient transition IEP with measurable postsecondary goals, deciding a standard vs. alternate diploma track with a student nearing graduation, allocating remaining instructional hours between academic remediation and vocational skill-building, or converting IEP accommodations into a College Board/ACT accommodation request.</description>
+  </item>
   <item>
     <title>Business Teacher Postsecondary</title>
     <link>https://domainexperts.dev/roles/business-teacher-postsecondary/</link>
