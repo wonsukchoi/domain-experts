@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:41:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:43:54 +0000</lastBuildDate>
+  <item>
+    <title>Wood Patternmaker</title>
+    <link>https://domainexperts.dev/roles/wood-patternmaker/</link>
+    <guid>https://domainexperts.dev/roles/wood-patternmaker/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:43:37 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Wood Patternmaker — applying the correct metal-specific shrink rule to pattern dimensions rather than building to the final part&#x27;s target size, designing draft angle into every withdrawn surface, positioning a parting line considering draft and core placement together, or sizing a core print to match the actual core&#x27;s weight and pour dynamics.</description>
+  </item>
   <item>
     <title>Wood Sawing Machine Operator</title>
     <link>https://domainexperts.dev/roles/wood-sawing-machine-operator/</link>
