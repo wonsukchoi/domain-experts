@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 866 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 867 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (56/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (57/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1081,7 +1081,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-8093.00 | Petroleum Pump System Operators, Refinery Operators, and Gaugers | [`refinery-operator`](./roles/refinery-operator/SKILL.md) |
 |  | 51-8099.00 | Plant and System Operators, All Other |  |
 |  | 51-8099.01 | Biofuels Processing Technicians |  |
-|  | 51-9011.00 | Chemical Equipment Operators and Tenders |  |
+| ✅ | 51-9011.00 | Chemical Equipment Operators and Tenders | [`chemical-equipment-operator`](./roles/chemical-equipment-operator/SKILL.md) |
 | ✅ | 51-9012.00 | Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders | [`separation-still-machine-operator`](./roles/separation-still-machine-operator/SKILL.md) |
 | ✅ | 51-9021.00 | Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders | [`crushing-grinding-machine-operator`](./roles/crushing-grinding-machine-operator/SKILL.md) |
 |  | 51-9022.00 | Grinding and Polishing Workers, Hand |  |
