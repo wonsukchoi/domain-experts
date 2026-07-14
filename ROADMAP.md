@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 859 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 860 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (49/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (50/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1046,7 +1046,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 |  | 51-4199.00 | Metal Workers and Plastic Workers, All Other |  |
 | ✅ | 51-5111.00 | Prepress Technicians and Workers | [`prepress-technician`](./roles/prepress-technician/SKILL.md) |
 | ✅ | 51-5112.00 | Printing Press Operators | [`printing-press-operator`](./roles/printing-press-operator/SKILL.md) |
-|  | 51-5113.00 | Print Binding and Finishing Workers |  |
+| ✅ | 51-5113.00 | Print Binding and Finishing Workers | [`print-binding-finishing-worker`](./roles/print-binding-finishing-worker/SKILL.md) |
 |  | 51-6011.00 | Laundry and Dry-Cleaning Workers |  |
 |  | 51-6021.00 | Pressers, Textile, Garment, and Related Materials |  |
 |  | 51-6031.00 | Sewing Machine Operators |  |
