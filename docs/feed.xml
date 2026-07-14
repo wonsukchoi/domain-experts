@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 16:17:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:21:00 +0000</lastBuildDate>
+  <item>
+    <title>Aircraft Structure Assembler</title>
+    <link>https://domainexperts.dev/roles/aircraft-structure-assembler/</link>
+    <guid>https://domainexperts.dev/roles/aircraft-structure-assembler/</guid>
+    <pubDate>Tue, 14 Jul 2026 23:20:47 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Aircraft Structure, Surfaces, Rigging, and Systems Assembler — deciding whether an out-of-tolerance hole or fastener needs a nonconformance report versus a field fix, verifying torque and calibration status before a fastener installation, diagnosing a FOD (foreign object debris) risk before closing a structure, or reading a drawing callout against a conflicting work instruction.</description>
+  </item>
   <item>
     <title>Power Distributor Dispatcher</title>
     <link>https://domainexperts.dev/roles/power-distributor-dispatcher/</link>
