@@ -5,7 +5,7 @@ metadata:
   category: healthcare
   maturity: draft
   spec: 2
-  onet_soc_code: "29-1141.01"
+  onet_soc_code: "29-1141.03"
 ---
 
 # Critical Care Nurse (Acute/ICU)

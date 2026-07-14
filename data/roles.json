@@ -1,5 +1,5 @@
 {
-  "count": 928,
+  "count": 930,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2603,6 +2603,27 @@
       ]
     },
     {
+      "slug": "chemistry-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Postsecondary Chemistry Teacher \u2014 grading a lab report where the numeric result misses the \"expected\" value but the methodology is sound, distinguishing a conceptual misunderstanding from an arithmetic slip on a problem set, deciding how much procedural freedom to give students on an open-ended lab, or vetting whether a demo/lab procedure is safe to run in this specific room.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1052.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chemistry-teacher-postsecondary/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "chief-executive",
       "description": "Use when a task needs the judgment of a CEO/chief executive \u2014 setting company strategy, allocating scarce resources (capital, headcount, attention) across competing priorities, making a call that only the top of the org can make, or communicating direction to the board, investors, or the whole company.",
       "category": "operations",
@@ -3995,7 +4016,7 @@
       "category": "healthcare",
       "maturity": "draft",
       "spec": 2,
-      "onet_soc_code": "29-1141.01",
+      "onet_soc_code": "29-1141.03",
       "parent": null,
       "status": "active",
       "last_audited": null,
@@ -16923,6 +16944,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/special-education-teacher/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "special-education-teacher-kindergarten",
+      "description": "Use when a task needs the judgment of a Special Education Teacher, Kindergarten \u2014 writing a first formal IEP that bridges IFSP goals into academic-readiness targets, recommending an LRE placement for a newly-eligible 5-6 year old, distinguishing a skill deficit from a performance deficit in classroom behavior, or co-planning inclusion-model instruction with a general-education kindergarten teacher.",
+      "category": "education",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-2055.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/special-education-teacher-kindergarten/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
