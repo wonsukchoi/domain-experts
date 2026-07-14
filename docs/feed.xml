@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:44:04 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:46:32 +0000</lastBuildDate>
+  <item>
+    <title>Biofuels Processing Technician</title>
+    <link>https://domainexperts.dev/roles/biofuels-processing-technician/</link>
+    <guid>https://domainexperts.dev/roles/biofuels-processing-technician/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:46:16 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Biofuels Processing Technician — adjusting catalyst dosing for transesterification based on actual measured feedstock free fatty acid content rather than a standard fixed dose, verifying conversion completeness via actual glyceride content testing rather than visual inspection, actively monitoring fermentation temperature and pH throughout the process rather than checking only at the end, and managing byproduct quality as a distinct economic consideration alongside primary fuel yield.</description>
+  </item>
   <item>
     <title>Hydroelectric Plant Technician</title>
     <link>https://domainexperts.dev/roles/hydroelectric-plant-technician/</link>
