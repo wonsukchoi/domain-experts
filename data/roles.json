@@ -1,5 +1,5 @@
 {
-  "count": 897,
+  "count": 898,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -15280,6 +15280,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/robotics-technician/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "rolling-machine-operator",
+      "description": "Use when a task needs the judgment of a Rolling Machine Setter, Operator, or Tender \u2014 tracking cumulative reduction across multiple cold-rolling passes to schedule an intermediate anneal before edge cracking occurs, verifying roll crown compensation for the current width/reduction combination rather than assuming a prior setup transfers, measuring output thickness at multiple points across width, or coordinating inter-stand speed changes in a multi-stand mill.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4023.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/rolling-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
