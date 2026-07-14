@@ -1,5 +1,5 @@
 {
-  "count": 864,
+  "count": 865,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -17655,6 +17655,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/water-wastewater-engineer/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "water-wastewater-treatment-operator",
+      "description": "Use when a task needs the judgment of a Water and Wastewater Treatment Plant Operator \u2014 diagnosing a rising effluent BOD/turbidity trend before it breaches an NPDES or SDWA limit, deciding how to respond to a SCADA alarm, calculating chlorine CT value or F:M ratio to correct a process, or triaging a storm-driven hydraulic overload.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-8031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/water-wastewater-treatment-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

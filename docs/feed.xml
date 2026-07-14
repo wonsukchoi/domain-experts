@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 07:15:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:14:09 +0000</lastBuildDate>
+  <item>
+    <title>Water Wastewater Treatment Operator</title>
+    <link>https://domainexperts.dev/roles/water-wastewater-treatment-operator/</link>
+    <guid>https://domainexperts.dev/roles/water-wastewater-treatment-operator/</guid>
+    <pubDate>Tue, 14 Jul 2026 23:12:21 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Water and Wastewater Treatment Plant Operator — diagnosing a rising effluent BOD/turbidity trend before it breaches an NPDES or SDWA limit, deciding how to respond to a SCADA alarm, calculating chlorine CT value or F:M ratio to correct a process, or triaging a storm-driven hydraulic overload.</description>
+  </item>
   <item>
     <title>Blaster</title>
     <link>https://domainexperts.dev/roles/blaster/</link>
