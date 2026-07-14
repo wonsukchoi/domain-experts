@@ -8,6 +8,8 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Progress: 927 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
+Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
+
 <!-- CHECKLIST START -->
 
 <details>

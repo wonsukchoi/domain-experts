@@ -219,6 +219,8 @@ Every result is reproducible: `python3 evals/run_evals.py` and `python3 evals/pa
 Browse all roles in [`roles/`](./roles/), or see [`ROADMAP.md`](./ROADMAP.md) for the full O*NET-backed checklist of what's covered and what's not.
 <!-- ROLE_COUNTS_END -->
 
+The 91.2% figure undercounts effective coverage: 73 of the 89 uncovered O*NET codes are "All Other" catch-all buckets (e.g. `11-9199.00` "Managers, All Other") — residual categories with no real, distinct practitioner behind them, so there's no genuine expert judgment to write. The remaining 16 are group 55 military occupations, out of scope for this repo. Excluding both, every real, specific O*NET occupation in scope is drafted.
+
 This block is auto-generated — run `python3 scripts/generate_roadmap.py` after adding/removing/re-mapping a role, don't hand-edit it.
 
 ## Use it with your AI tool

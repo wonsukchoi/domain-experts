@@ -279,6 +279,24 @@ def main():
         f" · {len(legacy_slugs)} drafted roles awaiting spec-2 upgrade.**"
     )
     lines.append("")
+    remaining_codes = [(c, t) for c, t in onet_rows if c not in drafted]
+    all_other_remaining = sum(1 for c, t in remaining_codes if "All Other" in t)
+    military_only_remaining = sum(
+        1 for c, t in remaining_codes if c.startswith("55-") and "All Other" not in t
+    )
+    other_remaining = (
+        len(remaining_codes) - all_other_remaining - military_only_remaining
+    )
+    if other_remaining == 0:
+        lines.append(
+            f"Of the {len(remaining_codes)} occupations not yet drafted, "
+            f"{all_other_remaining} are \"All Other\" catch-all codes (residual "
+            "categories with no distinct practitioner to write) and "
+            f"{military_only_remaining} are group 55 military occupations (out of "
+            "scope for this repo) — every other real, specific O*NET occupation is "
+            "drafted."
+        )
+        lines.append("")
     lines.append("<!-- CHECKLIST START -->")
     lines.append("")
 
