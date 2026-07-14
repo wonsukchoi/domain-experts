@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 16:14:09 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:17:53 +0000</lastBuildDate>
+  <item>
+    <title>Power Distributor Dispatcher</title>
+    <link>https://domainexperts.dev/roles/power-distributor-dispatcher/</link>
+    <guid>https://domainexperts.dev/roles/power-distributor-dispatcher/</guid>
+    <pubDate>Tue, 14 Jul 2026 23:17:37 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Power Distributor and Dispatcher — diagnosing a frequency or Area Control Error (ACE) deviation after a generation trip, deciding the escalation order from economic redispatch through emergency load shed, verifying N-1 contingency reserve is restored after an event, or distinguishing a real-power (frequency) problem from a reactive-power (voltage) problem.</description>
+  </item>
   <item>
     <title>Water Wastewater Treatment Operator</title>
     <link>https://domainexperts.dev/roles/water-wastewater-treatment-operator/</link>
