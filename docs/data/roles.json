@@ -1,5 +1,5 @@
 {
-  "count": 888,
+  "count": 889,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10507,6 +10507,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/metal-layout-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "metal-pickling-equipment-operator",
+      "description": "Use when a task needs the judgment of a Cleaning, Washing, and Metal Pickling Equipment Operator/Tender \u2014 deciding whether a delayed post-pickling bake for hydrogen embrittlement-susceptible material requires disposition beyond just completing the bake, verifying acid bath concentration rather than assuming it matches original makeup, confirming rinse effectiveness beyond visual appearance, or evaluating whether extended pickling time risks base metal attack.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9192.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/metal-pickling-equipment-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
