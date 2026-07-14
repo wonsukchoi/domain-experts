@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:25:24 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:37:49 +0000</lastBuildDate>
+  <item>
+    <title>Multiple Machine Tool Operator</title>
+    <link>https://domainexperts.dev/roles/multiple-machine-tool-operator/</link>
+    <guid>https://domainexperts.dev/roles/multiple-machine-tool-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:37:33 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Multiple Machine Tool Setter, Operator, or Tender — sequencing attention across several simultaneously running machines by actual need rather than fixed rotation, triaging which machine to address first when multiple signal at once, scheduling a setup/changeover to minimize exposure on the other machines being tended, or recalculating a visiting pattern after a workload change.</description>
+  </item>
   <item>
     <title>Fiberglass Laminator</title>
     <link>https://domainexperts.dev/roles/fiberglass-laminator/</link>

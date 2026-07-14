@@ -1,5 +1,5 @@
 {
-  "count": 882,
+  "count": 883,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -10927,6 +10927,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/mri-technologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "multiple-machine-tool-operator",
+      "description": "Use when a task needs the judgment of a Multiple Machine Tool Setter, Operator, or Tender \u2014 sequencing attention across several simultaneously running machines by actual need rather than fixed rotation, triaging which machine to address first when multiple signal at once, scheduling a setup/changeover to minimize exposure on the other machines being tended, or recalculating a visiting pattern after a workload change.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-4081.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/multiple-machine-tool-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

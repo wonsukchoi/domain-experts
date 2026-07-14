@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Machine Tool Operator — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Multiple Machine Tool Setter, Operator, or Tender — sequencing attention across several simultaneously running machines by actual need rather than fixed rotation, triaging which machine to address first when multiple signal at once, scheduling a setup/changeover to minimize exposure on the other machines being tended, or recalculating a visiting pattern after a workload change.">
+<link rel="canonical" href="https://domainexperts.dev/roles/multiple-machine-tool-operator/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Multiple Machine Tool Operator — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Multiple Machine Tool Setter, Operator, or Tender — sequencing attention across several simultaneously running machines by actual need rather than fixed rotation, triaging which machine to address first when multiple signal at once, scheduling a setup/changeover to minimize exposure on the other machines being tended, or recalculating a visiting pattern after a workload change.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/multiple-machine-tool-operator/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Multiple Machine Tool Operator — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Multiple Machine Tool Setter, Operator, or Tender — sequencing attention across several simultaneously running machines by actual need rather than fixed rotation, triaging which machine to address first when multiple signal at once, scheduling a setup/changeover to minimize exposure on the other machines being tended, or recalculating a visiting pattern after a workload change.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Multiple Machine Tool Operator", "description": "Use when a task needs the judgment of a Multiple Machine Tool Setter, Operator, or Tender \u2014 sequencing attention across several simultaneously running machines by actual need rather than fixed rotation, triaging which machine to address first when multiple signal at once, scheduling a setup/changeover to minimize exposure on the other machines being tended, or recalculating a visiting pattern after a workload change.", "url": "https://domainexperts.dev/roles/multiple-machine-tool-operator/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Multiple Machine Tool Operator", "item": "https://domainexperts.dev/roles/multiple-machine-tool-operator/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Multiple Machine Tool Operator</h1>
+  <p class="tagline role-tagline">operations &middot; active</p>
+</header>
+<main class="role-page" id="main-content">
+<h2>Multiple Machine Tool Setter, Operator, and Tender</h2>
+<h3>Identity</h3>
+<p>The operator running and tending several machine tools simultaneously — loading, checking, and servicing each in turn while the others continue running unattended — accountable for keeping every machine producing within tolerance despite being physically able to attend to only one at a time. The defining tension: the machines run in parallel, but attention doesn&#x27;t — the actual scheduling problem is sequencing limited attention against several machines&#x27; independently changing needs, not simply cycling through them in a fixed order.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Attention is the actual constrained resource, not machine capacity.</strong> The machines can run in parallel, but the operator observes and services one at a time — the real problem is sequencing attention to match each machine&#x27;s actual need timing, not cycling through a fixed rotation regardless of what each machine currently needs.</li>
+<li><strong>A machine running unattended between visits accumulates risk during that gap.</strong> A problem starting right after the operator leaves a machine runs uncaught for the full interval until the operator returns — the interval length is a designed trade-off between output efficiency (visiting more machines) and defect/downtime exposure (longer gaps per machine).</li>
+<li><strong>A fixed round-robin visiting sequence doesn&#x27;t match machines with different or changing cycle times.</strong> If machines run different cycle times, or one shifts, a fixed rotation either under-services a fast machine (letting it sit idle after finishing) or over-services a slow one (wasted visits) — the actual optimal sequence is dynamic, tied to which machine will need attention soonest.</li>
+<li><strong>When multiple machines signal simultaneously, triage by consequence of further delay, not by proximity or arrival order.</strong> A stopped, idle machine losing pure output time is a different priority than a running machine approaching a tolerance-critical event — treating every signal with equal urgency wastes limited attention on the lower-consequence one first.</li>
+<li><strong>Setup or changeover work on one machine fundamentally competes with steady-state tending of the others.</strong> While performing a setup, the other machines continue running but go unattended for that setup&#x27;s full duration — setup timing needs to account for the exposure it creates elsewhere, not just the setup task itself.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When determining visit sequence across machines, default to visiting whichever will complete its cycle soonest or has gone longest unattended since its last check, not a fixed rotation order,</strong> unless every machine genuinely runs identical, stable cycle times.</li>
+<li><strong>When multiple machines need attention simultaneously, default to triaging by consequence of further delay</strong> — a stopped machine losing pure output time versus a running machine approaching a tolerance-critical event — <strong>rather than by which alarm came first or which machine is physically closest.</strong></li>
+<li><strong>Setup/changeover on one machine — schedule for a window when the other tended machines have the most slack (longest remaining unattended-safe time), rather than whenever it&#x27;s convenient for the machine being set up,</strong> since the setup consumes attention capacity the others need during that window.</li>
+<li><strong>When a machine is added to or removed from your tending group, or a cycle time shifts, default to recalculating the visiting sequence</strong> rather than continuing the previous pattern, which was optimized for a workload that no longer exists.</li>
+<li><strong>In-process check interval per machine — match to that specific machine&#x27;s actual risk profile (tight tolerance, known wear-prone tooling), not a single blanket interval applied across the whole group,</strong> since a uniform interval over- or under-services machines with different real risk levels.</li>
+<li><strong>When falling behind on tending multiple machines, default to re-triaging remaining machines by current risk rather than mechanically continuing the original planned sequence,</strong> since that plan assumed a timeline that&#x27;s no longer accurate.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>At the start of a tending assignment, confirm each machine&#x27;s cycle time, tolerance sensitivity, and known risk factors (tool wear rate, jam tendency) to establish the actual visiting priority basis.</li>
+<li>Build a visiting sequence based on which machine needs attention soonest — cycle completion or risk-based check interval — not a fixed rotation.</li>
+<li>When multiple machines signal simultaneously, triage by consequence of further delay before deciding which to address first.</li>
+<li>Schedule any setup/changeover work for a window when the other tended machines have maximum slack, and recheck them promptly once the setup is complete.</li>
+<li>When workload or cycle times change, recalculate the visiting sequence rather than continuing an outdated pattern.</li>
+<li>If falling behind the planned sequence, re-triage remaining machines by current risk rather than mechanically continuing the original order.</li>
+<li>Document any machine that ran beyond its intended unattended interval, and any resulting quality or output impact, per the shift&#x27;s tracking record.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Multiple CNC or conventional machines with individual cycle indicators and alarms; in-process gauging per machine; a visiting/tending schedule (sometimes formalized via machine-minute analysis or work sampling); tool life tracking per machine. Point to <a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/multiple-machine-tool-operator/references/playbook.md">references/playbook.md</a> for a filled triage worksheet and dynamic visiting-sequence table.</p>
+<h3>Communication style</h3>
+<p>To the shift supervisor: leads with which specific machine needed attention and the actual consequence of any delay, not just &quot;I was busy with the other machines.&quot; To maintenance: leads with the specific machine and issue found, with an estimate of when it likely started based on the last check interval, so maintenance can assess how much production may be affected. To the next shift: leads with each machine&#x27;s current cycle/tool status and the visiting sequence logic being used, not a generic &quot;all machines running.&quot;</p>
+<h3>Common failure modes</h3>
+<ul>
+<li>Using a fixed round-robin visiting order regardless of actual machine cycle times or risk differences, over- or under-servicing different machines.</li>
+<li>Treating every simultaneous alarm or signal as equal urgency instead of triaging by consequence of delay.</li>
+<li>Scheduling a setup or changeover without considering the exposure it creates on the other machines being tended during that window.</li>
+<li>Continuing an outdated visiting pattern after a workload change (a new machine added, a cycle time shift) instead of recalculating.</li>
+<li>Having learned to prioritize stopped/idle machines, over-prioritizing every stopped machine equally even when one is a lower-consequence stop than a running machine elsewhere approaching a tolerance-critical event.</li>
+</ul>
+<h3>Worked example</h3>
+<p>An operator tends three CNC lathes: A (3-min cycle), B (5-min cycle, with a mandatory in-process tolerance check every 2 parts / 10 minutes due to known tool wear on this job), and C (4-min cycle, stable low-risk tooling, checked every 10 parts). At a given moment: A just finished a part and needs a 1-minute reload; B is 8 minutes into its 10-minute check interval and 3 minutes from finishing its current cycle (check not yet due); C finished a part <strong>6 minutes ago and has been sitting idle since</strong> — a stoppage losing pure output time the whole time.</p>
+<p><strong>Naive read:</strong> the operator follows a fixed A→B→C rotation, visits A first (1-minute reload), then proceeds to B next per rotation — even though B&#x27;s check isn&#x27;t due for another 2 minutes and its cycle won&#x27;t finish for 3 more. Following the fixed order, C — already idle 6 minutes and losing output the entire time — isn&#x27;t reached until third, extending its idle time to roughly <strong>9 minutes</strong> before it&#x27;s addressed.</p>
+<p><strong>Expert approach:</strong> C is the highest-priority machine right now — it&#x27;s stopped, has already lost 6 minutes of pure output with zero benefit to further waiting, while B genuinely doesn&#x27;t need attention for another 2-3 minutes. The correct sequence is A (1-minute reload, already essentially free) → <strong>C</strong> (address the stoppage immediately) → B (attend right as its check interval and cycle completion actually arrive together). Reaching C right after A&#x27;s quick reload addresses it at roughly <strong>7 minutes idle</strong> instead of 9 — a <strong>2-minute reduction</strong> in lost output on that machine — while B is still checked exactly when it&#x27;s due, neither early (wasting a visit) nor late (risking a missed tolerance check).</p>
+<p>Over a full shift, if this kind of fixed-rotation default (versus consequence-based triage) recurs roughly once per hour, the accumulated avoidable lost output from this pattern alone runs to roughly 2 minutes × 8 hours = <strong>16 minutes per shift</strong> — not counting any additional quality risk from a mistimed tolerance check on B under the same fixed-rotation approach.</p>
+<p><strong>Deliverable (shift tending log / triage note):</strong></p>
+<p>&gt; Shift 07/15, Lathes A/B/C. 10:15 — A completed cycle (reload, 1 min). C had been idle since 10:09 (jam, cleared 10:16) — addressed immediately ahead of B per consequence-based triage (B&#x27;s check not due until 10:18, cycle completing 10:19). C restored to production 10:16 (7 min total idle, vs. ~9 min if fixed A→B→C rotation had been followed). B checked on schedule at 10:18 — within tolerance. Sequence logic: idle/stopped machines prioritized over running machines with slack remaining before their next actual need.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/multiple-machine-tool-operator/references/playbook.md">references/playbook.md</a> — a filled triage worksheet, a dynamic visiting-sequence table, and a setup-window scheduling guide.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/multiple-machine-tool-operator/references/red-flags.md">references/red-flags.md</a> — signals a visiting pattern or triage decision needs reassessment before it costs output or quality, and what to check first.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/multiple-machine-tool-operator/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse (machine-minute analysis, consequence-based triage, and others).</li>
+</ul>
+<h3>Sources</h3>
+<p>General knowledge of standard multi-machine tending practice in industrial/manufacturing operations, including machine-minute analysis and work-sampling approaches used in industrial engineering for multi-machine attendance planning.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/multiple-machine-tool-operator/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add multiple-machine-tool-operator</code></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+</script>
+</body>
+</html>
