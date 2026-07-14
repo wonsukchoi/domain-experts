@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 926 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -494,7 +494,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>29 — Healthcare Practitioners and Technical</strong> (88/96 drafted)</summary>
+<summary><strong>29 — Healthcare Practitioners and Technical</strong> (89/96 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -523,7 +523,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 29-1129.02 | Music Therapists | [`music-therapist`](./roles/music-therapist/SKILL.md) |
 | ✅ | 29-1131.00 | Veterinarians | [`veterinarian`](./roles/veterinarian/SKILL.md) |
 | ✅ | 29-1141.00 | Registered Nurses | [`registered-nurse`](./roles/registered-nurse/SKILL.md) |
-|  | 29-1141.01 | Acute Care Nurses |  |
+| ✅ | 29-1141.01 | Acute Care Nurses | [`acute-care-nurse`](./roles/acute-care-nurse/SKILL.md) |
 | ✅ | 29-1141.02 | Advanced Practice Psychiatric Nurses | [`psychiatric-nurse-practitioner`](./roles/psychiatric-nurse-practitioner/SKILL.md) |
 | ✅ | 29-1141.03 | Critical Care Nurses | [`critical-care-nurse`](./roles/critical-care-nurse/SKILL.md) |
 | ✅ | 29-1141.04 | Clinical Nurse Specialists | [`clinical-nurse-specialist`](./roles/clinical-nurse-specialist/SKILL.md) |

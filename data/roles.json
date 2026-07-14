@@ -1,5 +1,5 @@
 {
-  "count": 936,
+  "count": 937,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -74,6 +74,27 @@
       "skill": "roles/acupuncturist/SKILL.md",
       "references": [
         "clinical-playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "acute-care-nurse",
+      "description": "Use when a task needs the judgment of an Acute Care Nurse \u2014 tracking early warning score trends across a higher patient ratio than ICU to catch silent deterioration before crisis, distinguishing expected post-operative recovery variation from a true complication requiring escalation, triaging competing needs across multiple simultaneous patients, balancing analgesia against oversedation risk by real-time response rather than fixed dosing, and verifying genuine discharge readiness rather than checking a form.",
+      "category": "healthcare",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "29-1141.01",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/acute-care-nurse/SKILL.md",
+      "references": [
+        "playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],
