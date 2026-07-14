@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 911 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 912 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (101/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (102/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1072,7 +1072,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-8011.00 | Nuclear Power Reactor Operators | [`nuclear-power-reactor-operator`](./roles/nuclear-power-reactor-operator/SKILL.md) |
 | ✅ | 51-8012.00 | Power Distributors and Dispatchers | [`power-distributor-dispatcher`](./roles/power-distributor-dispatcher/SKILL.md) |
 | ✅ | 51-8013.00 | Power Plant Operators | [`power-plant-operator`](./roles/power-plant-operator/SKILL.md) |
-|  | 51-8013.03 | Biomass Plant Technicians |  |
+| ✅ | 51-8013.03 | Biomass Plant Technicians | [`biomass-plant-technician`](./roles/biomass-plant-technician/SKILL.md) |
 |  | 51-8013.04 | Hydroelectric Plant Technicians |  |
 | ✅ | 51-8021.00 | Stationary Engineers and Boiler Operators | [`stationary-engineer-boiler-operator`](./roles/stationary-engineer-boiler-operator/SKILL.md) |
 | ✅ | 51-8031.00 | Water and Wastewater Treatment Plant and System Operators | [`water-wastewater-treatment-operator`](./roles/water-wastewater-treatment-operator/SKILL.md) |
