@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:12:04 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:14:43 +0000</lastBuildDate>
+  <item>
+    <title>Quality Inspector Tester</title>
+    <link>https://domainexperts.dev/roles/quality-inspector-tester/</link>
+    <guid>https://domainexperts.dev/roles/quality-inspector-tester/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:14:24 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Quality Inspector, Tester, Sorter, or Weigher — classifying a defect&#x27;s severity (critical/major/minor) and determining whether it overrides a lot&#x27;s overall AQL sampling result, deciding whether a measurement system&#x27;s gauge R&amp;R is reliable enough to trust a borderline pass/fail call, or determining whether a disposition decision falls within your authority or needs escalation.</description>
+  </item>
   <item>
     <title>Cnc Tool Operator</title>
     <link>https://domainexperts.dev/roles/cnc-tool-operator/</link>
