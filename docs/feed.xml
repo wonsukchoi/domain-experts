@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 18:16:33 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:19:44 +0000</lastBuildDate>
+  <item>
+    <title>Drilling Boring Machine Operator</title>
+    <link>https://domainexperts.dev/roles/drilling-boring-machine-operator/</link>
+    <guid>https://domainexperts.dev/roles/drilling-boring-machine-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 01:19:29 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Drilling and Boring Machine Tool Setter, Operator, or Tender — deciding whether a hole&#x27;s depth-to-diameter ratio requires peck drilling, establishing a straight hole start before wander compounds, reducing cutting parameters for a long-reach boring setup versus a short-reach one, or diagnosing whether a dimensional drift traces to tool wear rather than assuming the tool still looks sharp.</description>
+  </item>
   <item>
     <title>Paper Goods Machine Operator</title>
     <link>https://domainexperts.dev/roles/paper-goods-machine-operator/</link>
