@@ -1,5 +1,5 @@
 {
-  "count": 889,
+  "count": 890,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -7716,6 +7716,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/hairdresser-cosmetologist/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "hand-cutter-trimmer",
+      "description": "Use when a task needs the judgment of a Hand Cutter and Trimmer \u2014 nesting pattern pieces to respect grain direction and avoid natural material defects rather than maximizing yield alone, verifying a cutting template's accuracy against the master pattern, deciding when blade sharpness has degraded enough to affect dimensional accuracy, or measuring a stretch/bias-cut piece after it relaxes rather than while under handling tension.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9031.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/hand-cutter-trimmer/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
