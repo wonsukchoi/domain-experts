@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 16:25:13 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:28:38 +0000</lastBuildDate>
+  <item>
+    <title>Prepress Technician</title>
+    <link>https://domainexperts.dev/roles/prepress-technician/</link>
+    <guid>https://domainexperts.dev/roles/prepress-technician/</guid>
+    <pubDate>Tue, 14 Jul 2026 23:28:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Prepress Technician — running a preflight check on a client-supplied print file, deciding whether a color shift traces to the wrong ICC profile or an uncompensated dot-gain curve, evaluating whether an image&#x27;s resolution or a design&#x27;s bleed margin will survive trimming and printing, or deciding whether a late file change requires a new contract proof.</description>
+  </item>
   <item>
     <title>Semiconductor Processing Technician</title>
     <link>https://domainexperts.dev/roles/semiconductor-processing-technician/</link>
