@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 891 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 892 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,7 +997,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (81/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (82/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
@@ -1066,7 +1066,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 | ✅ | 51-7021.00 | Furniture Finishers | [`furniture-finisher`](./roles/furniture-finisher/SKILL.md) |
 |  | 51-7031.00 | Model Makers, Wood |  |
 |  | 51-7032.00 | Patternmakers, Wood |  |
-|  | 51-7041.00 | Sawing Machine Setters, Operators, and Tenders, Wood |  |
+| ✅ | 51-7041.00 | Sawing Machine Setters, Operators, and Tenders, Wood | [`wood-sawing-machine-operator`](./roles/wood-sawing-machine-operator/SKILL.md) |
 | ✅ | 51-7042.00 | Woodworking Machine Setters, Operators, and Tenders, Except Sawing | [`woodworking-machine-operator`](./roles/woodworking-machine-operator/SKILL.md) |
 |  | 51-7099.00 | Woodworkers, All Other |  |
 | ✅ | 51-8011.00 | Nuclear Power Reactor Operators | [`nuclear-power-reactor-operator`](./roles/nuclear-power-reactor-operator/SKILL.md) |
