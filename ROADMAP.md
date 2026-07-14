@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 898 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 899 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
 
 <!-- CHECKLIST START -->
 
@@ -997,13 +997,13 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 </details>
 
 <details>
-<summary><strong>51 — Production</strong> (88/114 drafted)</summary>
+<summary><strong>51 — Production</strong> (89/114 drafted)</summary>
 
 | Status | O*NET-SOC Code | Occupation | Repo role |
 |---|---|---|---|
 | ✅ | 51-1011.00 | First-Line Supervisors of Production and Operating Workers | [`production-first-line-supervisor`](./roles/production-first-line-supervisor/SKILL.md) |
 | ✅ | 51-2011.00 | Aircraft Structure, Surfaces, Rigging, and Systems Assemblers | [`aircraft-structure-assembler`](./roles/aircraft-structure-assembler/SKILL.md) |
-|  | 51-2021.00 | Coil Winders, Tapers, and Finishers |  |
+| ✅ | 51-2021.00 | Coil Winders, Tapers, and Finishers | [`coil-winder-taper-finisher`](./roles/coil-winder-taper-finisher/SKILL.md) |
 |  | 51-2022.00 | Electrical and Electronic Equipment Assemblers |  |
 |  | 51-2023.00 | Electromechanical Equipment Assemblers |  |
 |  | 51-2031.00 | Engine and Other Machine Assemblers |  |
