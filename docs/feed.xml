@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:17:37 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:20:56 +0000</lastBuildDate>
+  <item>
+    <title>Team Assembler</title>
+    <link>https://domainexperts.dev/roles/team-assembler/</link>
+    <guid>https://domainexperts.dev/roles/team-assembler/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:20:42 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Team Assembler — deciding whether to report a takt time imbalance rather than compensate individually, evaluating whether to pull andon/stop-the-line for a suspected defect versus a normal acceptable variation, recognizing when a step skipped to keep pace has created a latent quality exposure, or flagging an upstream station&#x27;s output that looks different from the normal pattern.</description>
+  </item>
   <item>
     <title>Production First Line Supervisor</title>
     <link>https://domainexperts.dev/roles/production-first-line-supervisor/</link>
