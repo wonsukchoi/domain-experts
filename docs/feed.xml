@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 17:03:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 17:05:57 +0000</lastBuildDate>
+  <item>
+    <title>Refinery Operator</title>
+    <link>https://domainexperts.dev/roles/refinery-operator/</link>
+    <guid>https://domainexperts.dev/roles/refinery-operator/</guid>
+    <pubDate>Wed, 15 Jul 2026 00:05:41 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Petroleum Pump System Operator, Refinery Operator, or Gauger — diagnosing a product quality failure when every individual temperature and pressure reading looks within range, investigating a relief valve lift&#x27;s upstream cause, applying temperature/API gravity correction to a tank gauge reading for custody transfer, or deciding how to treat a deviation during startup versus steady-state operation.</description>
+  </item>
   <item>
     <title>Gas Plant Operator</title>
     <link>https://domainexperts.dev/roles/gas-plant-operator/</link>
