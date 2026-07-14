@@ -1,5 +1,5 @@
 {
-  "count": 927,
+  "count": 928,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2068,6 +2068,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/business-intelligence-analyst/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "business-teacher-postsecondary",
+      "description": "Use when a task needs the judgment of a Business Teacher, Postsecondary \u2014 grading case analysis on the rigor of business reasoning rather than matching a single \"correct\" answer, updating stale textbook examples against current market conditions rather than teaching them as still-current, distinguishing taught analytical frameworks from personal business opinion presented as universal fact, and preserving the incomplete-information trade-offs of real business decisions rather than simplifying problems into false certainty.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "25-1011.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/business-teacher-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",

@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:55:27 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 20:09:33 +0000</lastBuildDate>
+  <item>
+    <title>Business Teacher Postsecondary</title>
+    <link>https://domainexperts.dev/roles/business-teacher-postsecondary/</link>
+    <guid>https://domainexperts.dev/roles/business-teacher-postsecondary/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:09:15 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Business Teacher, Postsecondary — grading case analysis on the rigor of business reasoning rather than matching a single &quot;correct&quot; answer, updating stale textbook examples against current market conditions rather than teaching them as still-current, distinguishing taught analytical frameworks from personal business opinion presented as universal fact, and preserving the incomplete-information trade-offs of real business decisions rather than simplifying problems into false certainty.</description>
+  </item>
   <item>
     <title>Helper Production Worker</title>
     <link>https://domainexperts.dev/roles/helper-production-worker/</link>
