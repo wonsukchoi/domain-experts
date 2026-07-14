@@ -1,5 +1,5 @@
 {
-  "count": 894,
+  "count": 895,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -12251,6 +12251,27 @@
       "last_audited": null,
       "audit_score": null,
       "skill": "roles/painting-coating-decorating-worker/SKILL.md",
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "paper-goods-machine-operator",
+      "description": "Use when a task needs the judgment of a Paper Goods Machine Setter, Operator, or Tender \u2014 diagnosing fold-line cracking as a moisture issue rather than a blade/tool problem, verifying adhesive bond strength rather than just visual glue presence, adjusting web tension as roll diameter changes during a run, or re-verifying quality after a converting speed increase.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": "51-9196.00",
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/paper-goods-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
         "red-flags.md",
