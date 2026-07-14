@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 19:19:19 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 19:22:22 +0000</lastBuildDate>
+  <item>
+    <title>Shoe Leather Worker Repairer</title>
+    <link>https://domainexperts.dev/roles/shoe-leather-worker-repairer/</link>
+    <guid>https://domainexperts.dev/roles/shoe-leather-worker-repairer/</guid>
+    <pubDate>Wed, 15 Jul 2026 02:22:07 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Shoe and Leather Worker/Repairer — identifying a shoe&#x27;s actual construction method before selecting a repair approach, diagnosing whether a visible symptom (a loose sole) is a downstream effect of a deeper structural failure (failed welt stitching) rather than a simple adhesive issue, treating leather stretching as bounded by the material&#x27;s physical limit, or distinguishing structural damage from cosmetic damage when assessing repairability.</description>
+  </item>
   <item>
     <title>Food Cooking Machine Operator</title>
     <link>https://domainexperts.dev/roles/food-cooking-machine-operator/</link>
