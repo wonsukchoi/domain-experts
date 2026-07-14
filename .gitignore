@@ -7,3 +7,4 @@ RELEASE.local.md
 marketing.md
 .dual-graph/
 hq/reference/domain-experts-strategy.md
+__pycache__/
