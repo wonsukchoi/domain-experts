@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 20:12:02 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 20:14:27 +0000</lastBuildDate>
+  <item>
+    <title>Acute Care Nurse</title>
+    <link>https://domainexperts.dev/roles/acute-care-nurse/</link>
+    <guid>https://domainexperts.dev/roles/acute-care-nurse/</guid>
+    <pubDate>Wed, 15 Jul 2026 03:14:10 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Acute Care Nurse — tracking early warning score trends across a higher patient ratio than ICU to catch silent deterioration before crisis, distinguishing expected post-operative recovery variation from a true complication requiring escalation, triaging competing needs across multiple simultaneous patients, balancing analgesia against oversedation risk by real-time response rather than fixed dosing, and verifying genuine discharge readiness rather than checking a form.</description>
+  </item>
   <item>
     <title>Architecture Teacher Postsecondary</title>
     <link>https://domainexperts.dev/roles/architecture-teacher-postsecondary/</link>
