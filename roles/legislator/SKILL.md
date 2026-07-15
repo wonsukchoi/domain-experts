@@ -4,7 +4,11 @@ description: Use when a task needs to model the reasoning process of an elected 
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-1031.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Legislator
@@ -66,7 +70,24 @@ States the tradeoff being made explicitly rather than presenting a position as c
 
 ## Worked example
 
-A popular-sounding bill in a legislator's district would provide an immediate, visible local benefit but is funded by a mechanism that creates a larger, less visible cost concentrated on a different, unrepresented group (e.g., a future budget shortfall, or an externality affecting a different district). First-principles handling: don't evaluate the bill only by its popular framing or its effect on the immediate constituency — trace the actual funding mechanism and who bears the second-order cost. The honest response names both effects explicitly to constituents (the visible local benefit and the less visible broader cost) rather than only publicizing the popular part, and may involve negotiating an amendment to the funding mechanism as the price of support — using the procedural leverage of being a needed vote to shape the bill toward a version that captures the local benefit without offloading an unaccounted cost elsewhere.
+**Situation (hypothetical, illustrating process, not a real policy position):** A bill provides a $800 property tax rebate to each of the 45,000 households in a legislator's district ($36,000,000 total local benefit this year), funded by diverting $36M/year from the state's road maintenance fund. That fund is already underfunded by $20M/year against its needed level; the diversion would bring the shortfall to $56M/year statewide, spread across 38 districts. Standard infrastructure-economics estimates put the eventual repair cost of deferred maintenance at roughly 1.5x the deferred amount — so $36M/year deferred over the bill's 5-year horizon becomes an estimated $270M in additional repair cost eventually borne statewide, of which this legislator's own district (1 of 38) would bear only about $7.1M (270M ÷ 38) while capturing the *entire* $36M/year of immediate benefit.
+
+**Step 1 — trace the actual funding mechanism, not just the popular framing.** The bill is sold as "a tax rebate for our district," but its real mechanism is a transfer: $36M/year of immediate, concentrated local benefit funded by an estimated $270M of statewide deferred-maintenance cost spread across all 38 districts, borne mostly by districts receiving none of the rebate.
+
+**Step 2 — check the vote math and procedural leverage.** The bill needs 3 more votes to reach a majority in the 120-member chamber; this legislator is one of 3 identified swing votes. That's real leverage to shape the bill, not just a yes/no choice on the version as written.
+
+**Step 3 — negotiate the funding mechanism as the price of the vote**, rather than voting yes on the popular framing or no on principle. Proposed amendment: cap the diversion at $15M/year (rebate reduced to $333/household, 15,000,000 ÷ 45,000) and require a matching $15M general-fund reallocation the following year to offset the road fund's shortfall — cutting the externalized statewide cost roughly proportionally while still delivering a real, if smaller, local benefit.
+
+**Step 4 — communicate both effects to constituents, not just the favorable one.** The rebate is smaller than the original bill promised, but it's honestly presented as the tradeoff it is — a real local benefit that doesn't quietly offload a larger, longer-term cost onto other districts' roads.
+
+**Deliverable (constituent newsletter excerpt, quoted):**
+> **I supported the amended version of this rebate bill, not the original.** The original bill offered a larger $800 rebate per household, but it was funded by diverting $36M/year from the statewide road maintenance fund — already underfunded by $20M/year — which independent estimates suggest would cost roughly $270M in deferred-repair costs statewide over five years, borne mostly by the 37 other districts that wouldn't see a dollar of the rebate. I used my vote (the bill needed 3 more to pass, and I was one of them) to negotiate the diversion down to $15M/year with a matching offset the following year. That means a smaller rebate — about $333 per household instead of $800 — but a version that doesn't quietly export a much larger cost to roads outside our district.
+
+## Going deeper
+
+- [Legislative process artifacts](references/artifacts.md) — filled coalition/whip-count worksheet, funding-mechanism trace, and constituent-communication template.
+- [Red flags & diagnostics](references/red-flags.md) — signals in bill text and process worth noticing, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
