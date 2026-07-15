@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Construction Manager — pl
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-9021.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Construction Manager
@@ -62,7 +66,24 @@ Direct and non-negotiable about safety issues, regardless of schedule pressure. 
 
 ## Worked example
 
-A subcontractor reports a minor unexpected condition (some deteriorated framing discovered during a renovation) that will need addressing before the next trade can proceed, and the immediate instinct is to have the crew work through it quickly without formally logging or communicating it, to avoid an awkward schedule conversation. First-principles handling: check whether this task sits on the critical path — if the framing repair is a prerequisite for subsequent critical-path work, any delay here propagates directly to the project finish date regardless of how "minor" the issue seems. The correct response is assessing the actual time and cost impact immediately, communicating it to the owner/stakeholders promptly (even though it's an uncomfortable conversation), and adjusting the schedule and contingency budget transparently — quietly absorbing it without disclosure risks a larger, harder-to-explain schedule slip surfacing later if additional unexpected conditions compound, and it burns the trust that's needed if a bigger issue arises later in the project.
+**Situation:** 180-day renovation project, $1.7M budget, 5% contingency ($85,000). A subcontractor discovers deteriorated framing during demolition — the repair task sits directly on the critical path (zero float) ahead of the next trade's rough-in work. Normal task duration: 2 days. Repair requires structural engineer assessment, material lead time, and additional labor: 5 days total, a 3-day critical-path slip if handled at normal pace.
+
+**Step 1 — confirm critical-path impact before deciding how to respond.** This task has zero float and gates the next trade's rough-in — every day added here adds a day to the project finish date, full stop, regardless of how minor the underlying issue looks.
+
+**Step 2 — cost the repair itself.** Structural engineer inspection: $1,800. Additional materials: $3,200. Additional labor (40 hours at $65/hr): $2,600. Total repair cost: $1,800 + $3,200 + $2,600 = **$7,600**, drawn from contingency: $85,000 − $7,600 = $77,400 remaining (91% of original contingency).
+
+**Step 3 — evaluate crashing the schedule to recover some of the slip.** Adding a weekend crew at overtime can recover 3 of the 5 days for an estimated 43 labor-hours at a blended $97.50/hr overtime rate = **$4,200**. The owner's documented cost of schedule delay (temporary space/holdover costs) is $2,000/day. Recovering 3 days avoids 3 × $2,000 = $6,000 of delay cost for $4,200 spent — a $1,800 net benefit, worth doing.
+
+**Step 4 — net result.** With crashing: net schedule slip is 5 − 3 = **2 days** instead of 5. Total incremental cost: $7,600 (repair) + $4,200 (crash) = **$11,800**. Contingency remaining: $85,000 − $11,800 = $73,200 (86% of original).
+
+**Deliverable (schedule impact notice to owner, quoted):**
+> **Discovered condition: deteriorated framing at [location], identified during demolition on [date].** This task sits on the critical path. Unmitigated impact: 5-day schedule slip. Recommended response: engineer-assessed repair ($7,600) plus weekend crew crashing to recover 3 of the 5 days ($4,200), netting a **2-day** schedule impact instead of 5. Total contingency draw: $11,800 of the $85,000 contingency budget (86% remaining, $73,200). Revised critical-path finish date: [original date] + 2 days. Recommend proceeding with the crash option — its $4,200 cost is less than the $6,000 in delay costs it avoids.
+
+## Going deeper
+
+- [Schedule & contingency artifacts](references/artifacts.md) — filled CPM schedule excerpt, contingency tracker, and RFI log templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals a construction manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
