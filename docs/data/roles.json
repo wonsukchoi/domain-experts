@@ -1623,14 +1623,18 @@
       "description": "Use when a task needs the judgment of a Biofuels Production Manager \u2014 running a biofuel production facility (ethanol, biodiesel, renewable diesel), managing feedstock supply and quality variability, evaluating a yield or efficiency problem, or balancing production economics against commodity price swings.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3051.03",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/biofuels-production-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
