@@ -4,7 +4,11 @@ description: Use when a task needs the judgment and diagnostic reasoning process
 metadata:
   category: healthcare
   maturity: draft
+  spec: 2
   onet_soc_code: "29-1216.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Physician (Clinical / Diagnostic Reasoning)
@@ -68,7 +72,25 @@ Calibrates confidence honestly to a patient — clearly distinguishes "this is v
 
 ## Worked example
 
-A patient presents with sudden-onset shortness of breath and mild chest discomfort; initial vital signs are only mildly abnormal, and the most common explanation given the setting (recent long flight, no prior cardiac history) is anxiety or a musculoskeletal cause. First-principles handling: even though anxiety or a benign cause is statistically more probable, the presentation matches known risk factors for a can't-miss diagnosis (pulmonary embolism, given recent prolonged immobility) — the reasoning process requires actively ruling this out (e.g., applying a validated clinical decision rule like Wells' Criteria to estimate pretest probability, then choosing an appropriate test based on that probability) rather than defaulting to the more common, more comfortable explanation on gestalt alone, precisely because the cost of missing this specific rare explanation is severe and the objective risk factors were present to justify the workup.
+**Teaching case (illustrating the reasoning process — not a real patient, not medical advice):** A patient presents with sudden-onset shortness of breath and mild chest discomfort after a recent long flight (prolonged immobilization), heart rate 104 bpm, no prior cardiac history. The most common, most comfortable explanation given the setting is anxiety or a musculoskeletal cause.
+
+**Step 1 — apply a validated pretest-probability tool rather than resolving the "can't-miss" question on gestalt alone.** Wells' Criteria for pulmonary embolism scores this presentation: PE judged as likely as or more likely than an alternative diagnosis given the risk factors (+3), immobilization within the last 4 weeks (+1.5), heart rate >100 (+1.5). No clinical signs of DVT, no hemoptysis, no malignancy, no prior VTE (+0 each). **Total: 6.0 points.**
+
+**Step 2 — interpret the score against its validated threshold, not in isolation.** A Wells' score above 4 is categorized "PE likely" (higher pretest probability), which changes which test is appropriate — at this pretest probability, a D-dimer isn't the right next test, because even a negative D-dimer doesn't sufficiently rule out PE when pretest probability is already high; the validated pathway calls for CT pulmonary angiography (CTPA) directly.
+
+**Step 3 — check this against the "common things are common" heuristic without letting it override the can't-miss check.** Anxiety remains statistically more common as a cause of this presentation in the general population — but the specific combination of risk factors here (recent immobilization, tachycardia) is exactly what the Wells' Criteria are designed to flag, and the asymmetric cost of missing a real PE is why the workup proceeds despite anxiety being the higher-base-rate explanation in isolation.
+
+**Reasoning note (teaching format, quoted):**
+> **Differential:** anxiety/panic attack (common, but doesn't fully explain the immobilization risk factor and objective tachycardia); pulmonary embolism (less common in the general population, but a can't-miss diagnosis actively flagged by this presentation's specific risk factors); musculoskeletal chest pain (doesn't explain the shortness of breath).
+> **Wells' Criteria: 6.0 (PE likely, >4 threshold).**
+> **Next step:** CTPA, not D-dimer — at this pretest probability, a negative D-dimer would not adequately rule out PE, so it's not the discriminating test to order here.
+> **Reasoning explicitly logged:** anxiety is the higher base-rate explanation, but the specific risk factors present (immobilization, tachycardia) are exactly what a validated clinical decision rule is designed to catch before defaulting to the more common, more comfortable explanation.
+
+## Going deeper
+
+- [Clinical reasoning artifacts](references/artifacts.md) — filled differential diagnosis worksheet, Wells'/HEART scoring examples, and diagnostic time-out template.
+- [Red flags & diagnostics](references/red-flags.md) — cognitive failure-mode signals a clinician (or a reviewer of clinical reasoning) notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

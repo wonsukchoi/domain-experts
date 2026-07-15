@@ -13658,14 +13658,18 @@
       "description": "Use when a task needs the judgment and diagnostic reasoning process of a physician \u2014 working through a differential diagnosis, evaluating clinical evidence, or reasoning about diagnostic uncertainty. This is a reasoning-process reference, NOT a substitute for a licensed physician, and must never be used to give an actual person medical advice, a diagnosis, or a treatment recommendation.",
       "category": "healthcare",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "29-1216.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/physician-clinical-reasoning/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 14 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 13 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -538,7 +538,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ✅ | 29-1213.00 | Dermatologists | [`dermatologist`](./roles/dermatologist/SKILL.md) |
 | ✅ | 29-1214.00 | Emergency Medicine Physicians | [`emergency-medicine-physician`](./roles/emergency-medicine-physician/SKILL.md) |
 | ✅ | 29-1215.00 | Family Medicine Physicians | [`family-physician`](./roles/family-physician/SKILL.md) |
-| ♻️ | 29-1216.00 | General Internal Medicine Physicians | [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) |
+| ✅ | 29-1216.00 | General Internal Medicine Physicians | [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) |
 | ✅ | 29-1217.00 | Neurologists | [`neurologist`](./roles/neurologist/SKILL.md) |
 | ✅ | 29-1218.00 | Obstetricians and Gynecologists | [`obstetrician-gynecologist`](./roles/obstetrician-gynecologist/SKILL.md) |
 | ✅ | 29-1221.00 | Pediatricians, General | [`pediatrician`](./roles/pediatrician/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**14 roles awaiting upgrade:**
+**13 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`physician-clinical-reasoning`](./roles/physician-clinical-reasoning/SKILL.md) | healthcare |
 | [`public-relations-manager`](./roles/public-relations-manager/SKILL.md) | marketing |
 | [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) | operations |
 | [`quality-control-systems-manager`](./roles/quality-control-systems-manager/SKILL.md) | operations |
