@@ -1,15 +1,14 @@
 # CONTEXT
 
 ## Current Task
-2026-07-15 session: finished remaining O*NET coverage — group 51 (last 2 roles), then 9 education/healthcare roles (teachers + special-ed grade bands + nurses) via parallel subagents. 927/1016 drafted. Repo cleaned up: closed 7 stale PRs, deleted 7 stale branches (only `main` remains).
+2026-07-15 session (later): added ESCO taxonomy diff + curated 260-role expansion backlog, then started working the spec-2 upgrade queue — upgraded `accountant-controller` (rubric 17/18) and `administrative-services-manager` (rubric 16/18), both also cleared off needs-refresh. Paused; `advertising-promotions-manager` queued as next (task #1).
 
 ## Key Decisions
-- 927/1016 (91.2%) declared effective 100% coverage — remaining 89 = 73 "All Other" catch-alls + 16 group-55 military, both out of scope (no real practitioner behind a catch-all; military excluded by convention). Documented in both `README.md` and auto-generated in `ROADMAP.md` (see `generate_roadmap.py`'s progress-note block) so it self-maintains.
-- Parallel subagents draft files only (no git ops) — coordinator sequentially lints/commits/pushes to avoid concurrent-push races. Worked cleanly across 9 roles.
-- Fixed the known `critical-care-nurse` mismapping bug (was on 29-1141.01) — moved to correct code 29-1141.03, which surfaced 29-1141.01 (Acute Care Nurses) as newly uncovered; drafted that too.
-- Closed PRs #27-33 and deleted their branches — all duplicated content already merged directly to main this session; merging would have clobbered/conflicted.
+- Fetched all 2,942 ESCO occupations via the public API, diffed against 937 roles, curated the 1,994 unmatched candidates with 8 parallel judge agents: 702 dup / 1,032 niche / 260 genuinely new. Shipped as `data/esco_occupations.tsv` + `ESCO-BACKLOG.md`, linked from `ROADMAP.md`'s "Beyond O*NET" section.
+- Spec-2 upgrades follow CONTRIBUTING.md's upgrade recipe exactly: restructure to 10-section template, add references/ trio, worked example needs real reconciling arithmetic + quoted deliverable, self-score against AUTHORING.md rubric (≥14/18, no zero), lint 0 errors before commit.
+- Picked upgrade-queue entries that were also on the needs-refresh list (double win) — accountant-controller was 5/18, administrative-services-manager was 7/18. Needs-refresh list now down to 2 entries.
 
 ## Next Steps
-- No open role-drafting work remains in scope. If military group 55 (16 roles) is ever wanted, same recipe applies.
-- Haven't bumped npm version this session (still v0.5.0) — bump/tag/push per Release section in `AGENTS.md` if a release is desired.
-- `docs/onet-fill-remaining.md` runbook is now fully executed and can be retired/archived.
+- Task #1 (tracked): upgrade `advertising-promotions-manager` to spec 2 — next in the queue (40 roles remain after the two done this session) and also needs-refresh (5/18).
+- After that, `agricultural-manager` is next unclaimed queue entry.
+- ESCO-BACKLOG.md's 260 new roles (biggest chunks: ISCO 2 Professionals 128, ISCO 3 Technicians 53) are a separate, larger body of work — not started, no roles drafted from it yet.
