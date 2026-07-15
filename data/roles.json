@@ -14939,14 +14939,18 @@
       "description": "Use when a task needs the judgment of a Quality Control Systems Manager \u2014 designing or auditing a quality management system, investigating a defect/non-conformance, deciding whether a product batch should ship, or evaluating a supplier's quality capability. Narrower than industrial-production-manager's broader production-floor scope \u2014 this role owns the quality function and its systems specifically.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3051.01",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/quality-control-systems-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

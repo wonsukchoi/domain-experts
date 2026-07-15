@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Quality Control Systems Man
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3051.01"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Quality Control Systems Manager
@@ -62,7 +66,24 @@ States quality decisions and their reasoning plainly, especially under pressure 
 
 ## Worked example
 
-A batch is flagged with a borderline test result — within a gray zone where the measurement uncertainty makes it genuinely ambiguous whether the batch meets specification — and shipping the batch on schedule would avoid a costly production delay. First-principles handling: apply the conservative-default heuristic explicitly rather than resolving the ambiguity in favor of the more convenient outcome. Investigate further (additional testing, root-cause check on why the result landed in the gray zone) before deciding, and if the ambiguity can't be resolved with reasonable additional effort, hold the batch by default rather than release it — the asymmetry between the cost of a delayed shipment and the cost of a genuine defect reaching a customer favors caution, and if this default is going to be overridden under specific circumstances, that override should be a deliberate, documented decision made explicitly, not something that happens quietly because a delay was inconvenient.
+**Situation:** A 20,000-unit batch of a structural component shows a tensile-strength test result of 449.2 MPa (mean), against a 450 MPa minimum spec, with measurement uncertainty of ±2.5 MPa — genuinely ambiguous whether the true batch strength is above or below spec. Holding the batch for retesting costs an estimated $85,000 (2-day delay, line changeover, expedited-shipping loss).
+
+**Step 1 — estimate the expected cost of releasing without further testing.** Given the mean sits below the spec line, the batch is estimated at roughly 55% likely to be genuinely below spec. If a below-spec unit reaches the field, historical data puts the cost per strength-related field failure (warranty replacement, liability exposure) at approximately $1,200, with an expected field-failure rate of 0.8% among affected units: 20,000 × 0.008 × $1,200 = **$192,000** in expected downstream cost if the batch is truly defective. Expected cost of releasing now: 55% × $192,000 = **$105,600**.
+
+**Step 2 — compare against the cost of holding for additional testing.** $105,600 (expected cost of releasing) exceeds $85,000 (cost of holding) — the expected-value math itself favors holding, before even applying the conservative-default bias the ambiguity calls for.
+
+**Step 3 — invest in additional testing to resolve the ambiguity rather than deciding on the wide-uncertainty result alone.** A destructive test on a 30-unit sample ($12,000, 8 hours) narrows the uncertainty from ±2.5 MPa to ±0.8 MPa. Result: mean 447.8 MPa, range 447.0-448.6 MPa — now clearly and unambiguously below the 450 MPa spec.
+
+**Step 4 — act on the resolved result and investigate root cause.** The batch is held/rejected, not released. Root cause investigation traces the shortfall to a specific raw material lot with an out-of-spec composition — a systemic cause requiring supplier corrective action, not just disposition of this one batch.
+
+**Deliverable (quality disposition memo, quoted):**
+> **Disposition: batch REJECTED. Confirmed tensile strength 447.8 MPa (±0.8 MPa), below the 450 MPa minimum specification.** Initial screening result (449.2 MPa, ±2.5 MPa) was genuinely ambiguous; the batch was held pending confirmatory testing rather than released under schedule pressure — expected cost of releasing on the ambiguous result ($105,600) exceeded the hold cost ($85,000) even before applying our conservative-default policy for ambiguous results. Confirmatory testing ($12,000) resolved the ambiguity and confirmed non-conformance. Root cause traced to raw material lot [X]; supplier corrective action initiated. This batch's disposition and the root cause finding are documented as a CAPA, to be closed only after verifying the corrective action prevents recurrence in the next 3 production lots.
+
+## Going deeper
+
+- [Quality system artifacts](references/artifacts.md) — filled hold/release decision model, cost-of-quality tracker, and CAPA verification template.
+- [Red flags & diagnostics](references/red-flags.md) — signals a quality manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
