@@ -1,10 +1,14 @@
 ---
 name: agricultural-manager
-description: Use when a task needs the judgment of a Farmer, Rancher, or other Agricultural Manager — making a planting/breeding/production decision under weather and market uncertainty, managing land and input costs, evaluating a capital investment (equipment, irrigation), or deciding how to respond to a crop/livestock health issue.
+description: Use when a task needs the judgment of a Farmer, Rancher, or other Agricultural Manager — deciding a planting/breeding mix or acreage shift under price and weather uncertainty, sizing a hedge or crop-insurance coverage level, running break-even and diversification scenarios before a capital or input commitment, or evaluating land/herd management practices against long-term productive capacity.
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-9013.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Farmer, Rancher, and Agricultural Manager
@@ -62,7 +66,36 @@ Frames production and financial decisions in terms of risk and scenario range, n
 
 ## Worked example
 
-A favorable price forecast for a particular crop tempts an operation to convert a larger share of acreage to that single crop for the coming season, concentrating away from its usual more diversified planting mix. First-principles handling: before committing to the concentration, check the operation's financial capacity to absorb a bad outcome in that single crop — if the price forecast doesn't materialize (a real possibility, since the operation is a price-taker in a market it doesn't control) or if weather conditions are unfavorable for that specific crop this season, how much financial strain would result from having concentrated acreage there instead of maintaining diversification. If the financial cushion is thin, the more defensible decision is a smaller shift toward the favorably-priced crop rather than a full concentration, preserving enough diversification to survive the scenario where the favorable forecast doesn't hold — a single favorable price forecast is a reason to lean toward a crop at the margin, not a reason to bet the whole operation's risk profile on it materializing.
+**Situation:** A 2,000-acre operation currently plants a diversified 1,200-acre corn / 800-acre soybean mix. A favorable corn futures price ($5.20/bu) tempts a shift to 1,800 corn / 200 soy for the coming season. Operation's total financial cushion (cash reserve + available credit line): $550,000.
+
+**Step 1 — per-acre margins under the forecast price.** Corn: yield 180 bu/acre × $5.20 = $936/acre revenue − $650/acre cost = $286/acre margin. Soybeans: yield 50 bu/acre × $12.00 = $600/acre revenue − $420/acre cost = $180/acre margin.
+
+**Step 2 — compare three mixes under the forecast price (the favorable case):**
+| Mix | Corn margin | Soy margin | Total |
+|---|---|---|---|
+| Current (1,200/800) | 1,200 × $286 = $343,200 | 800 × $180 = $144,000 | $487,200 |
+| Proposed (1,800/200) | 1,800 × $286 = $514,800 | 200 × $180 = $36,000 | $550,800 |
+| Compromise (1,500/500) | 1,500 × $286 = $429,000 | 500 × $180 = $90,000 | $519,000 |
+
+The concentrated mix looks best if the forecast holds: +$63,600 over the current mix.
+
+**Step 3 — stress-test against the scenario the operation doesn't control: a bad corn-specific outcome (drought hits corn, not soy) — yield falls to 120 bu/acre and price to $4.00/bu.** Corn margin becomes (120 × $4.00) − $650 = −$170/acre (a loss); soybean margin is unaffected at $180/acre (forecast price).
+| Mix | Corn (loss) | Soy | Net result | % of $550,000 cushion consumed |
+|---|---|---|---|---|
+| Current (1,200/800) | 1,200 × −$170 = −$204,000 | 800 × $180 = $144,000 | −$60,000 | 11% |
+| Proposed (1,800/200) | 1,800 × −$170 = −$306,000 | 200 × $180 = $36,000 | −$270,000 | 49% |
+| Compromise (1,500/500) | 1,500 × −$170 = −$255,000 | 500 × $180 = $90,000 | −$165,000 | 30% |
+
+**Step 4 — decision.** The proposed full concentration's upside ($550,800) beats the current mix by only $63,600, while its downside in the bad-corn scenario is 4.5x worse (−$270,000 vs. −$60,000) and consumes nearly half the operation's total financial cushion in a single bad year. The compromise mix captures most of the upside ($519,000, within $31,800 of the concentrated plan) while keeping downside exposure to 30% of cushion — the more defensible move given the operation is a price-taker with no control over whether the forecast materializes.
+
+**Deliverable (planting-plan memo, quoted):**
+> **Recommendation: shift to 1,500 corn / 500 soy acres, not the proposed 1,800/200.** Forecast-case margin of $519,000 is within 6% of the full-concentration plan ($550,800), but the bad-corn stress case shows a $165,000 loss (30% of our $550,000 cushion) versus $270,000 (49% of cushion) under full concentration. The $31,800 of forgone forecast-case upside buys back 19 points of cushion exposure in the downside scenario. Locking 60% of expected corn bushels via forward contract at $5.00/bu before planting to reduce price-side variance on the larger corn acreage.
+
+## Going deeper
+
+- [Farm planning artifacts](references/artifacts.md) — enterprise budget, break-even worksheet, and diversification stress-test templates with filled numbers.
+- [Red flags & diagnostics](references/red-flags.md) — signals an operation's financial or agronomic position is deteriorating, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

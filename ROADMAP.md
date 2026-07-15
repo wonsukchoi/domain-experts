@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 39 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 38 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -45,7 +45,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ♻️ | 11-3111.00 | Compensation and Benefits Managers | [`compensation-benefits-manager`](./roles/compensation-benefits-manager/SKILL.md) |
 | ♻️ | 11-3121.00 | Human Resources Managers | [`hr-people-manager`](./roles/hr-people-manager/SKILL.md) |
 | ♻️ | 11-3131.00 | Training and Development Managers | [`training-development-manager`](./roles/training-development-manager/SKILL.md) |
-| ♻️ | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) |
+| ✅ | 11-9013.00 | Farmers, Ranchers, and Other Agricultural Managers | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) |
 | ♻️ | 11-9021.00 | Construction Managers | [`construction-manager`](./roles/construction-manager/SKILL.md) |
 | ♻️ | 11-9031.00 | Education and Childcare Administrators, Preschool and Daycare | [`education-childcare-administrator-preschool`](./roles/education-childcare-administrator-preschool/SKILL.md) |
 | ♻️ | 11-9032.00 | Education Administrators, Kindergarten through Secondary | [`education-administrator-k12`](./roles/education-administrator-k12/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**39 roles awaiting upgrade:**
+**38 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) | operations |
 | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) | operations |
 | [`biomass-power-plant-manager`](./roles/biomass-power-plant-manager/SKILL.md) | operations |
 | [`chief-executive`](./roles/chief-executive/SKILL.md) | operations |
