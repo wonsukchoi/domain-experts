@@ -17648,14 +17648,18 @@
       "description": "Use when a task needs the judgment of a Supply Chain Manager \u2014 designing or evaluating an end-to-end supply chain strategy, balancing efficiency against resilience, managing demand/supply planning, or deciding how to respond to a supply chain disruption. Broader, more strategic scope than transportation-storage-distribution-manager's physical execution focus or purchasing-manager's sourcing/negotiation focus.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3071.04",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/supply-chain-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

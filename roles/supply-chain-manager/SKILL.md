@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Supply Chain Manager — de
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3071.04"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Supply Chain Manager
@@ -62,7 +66,26 @@ Frames decisions in terms of total system tradeoffs (cost vs. resilience, local 
 
 ## Worked example
 
-A single overseas supplier provides a critical, hard-to-substitute component at a very attractive price, and the chain has relied on it for years without incident; a geopolitical event in that region suddenly raises the plausibility of a significant supply disruption. First-principles handling: this is exactly the scenario where concentration risk mapping done in advance would have identified the exposure and allowed proactive diversification while it was cheap — if that mapping wasn't done, the current situation is the forced, expensive version of that same analysis. The response should weigh the actual cost of the component's disruption (production stoppage cost, revenue impact, customer relationship damage) against the cost of urgently qualifying an alternative source or building buffer stock, and should treat this event as the trigger for a broader concentration-risk review across the rest of the chain — a track record of years without incident was evidence the risk hadn't materialized yet, not evidence the risk wasn't real, and the same reasoning likely applies to other unexamined single-source dependencies in the chain.
+**Situation:** A single overseas supplier provides a critical semiconductor component at $12/unit (2,000,000 units/year = $24M/year spend), relied on for years with no incident. A geopolitical event in that region raises the estimated probability of a 90+ day supply disruption to 25% over the next 12 months. The component feeds a product line generating $180M/year revenue at 30% margin.
+
+**Step 1 — price the disruption this exposure creates, not just note that risk exists.** A 90-day stoppage: lost margin = $180M × (90/365) × 30% = **$13.32M**, plus estimated expedited alternative sourcing during the gap (~$4M) and customer contract penalty exposure (~$2.5M). Total disruption cost: **$19.82M**.
+
+**Step 2 — compute the expected cost of staying single-sourced given the elevated risk.** 25% × $19.82M = **$4.955M** expected cost this year alone — not a remote, theoretical risk but a quantified, material exposure given the current geopolitical situation.
+
+**Step 3 — price diversification against that expected cost.** Qualifying an alternate supplier (different region) costs $850,000 one-time. The alternate supplier's price is $15.50/unit (29% premium) — splitting 30% of volume (600,000 units) to them costs an incremental $2,100,000/year (600,000 × $3.50 premium).
+
+**Step 4 — compare total costs.** Year-one diversification cost: $850,000 + $2,100,000 = **$2,950,000** — well under the $4,955,000 expected cost of remaining single-sourced through the current elevated-risk period. Diversifying now is the better bet even before counting the years of avoided expected risk beyond year one.
+
+**Step 5 — treat this as the trigger for a broader review, not a one-off fix.** The years-without-incident track record was evidence the risk hadn't materialized yet, not evidence it wasn't real — this event prompts a full concentration-risk map across the rest of the supply chain's other single-source dependencies, done now while it's still a planning exercise rather than a forced scramble.
+
+**Deliverable (risk mitigation decision memo, quoted):**
+> **Recommendation: qualify the alternate supplier now and shift 30% of volume, at a year-one cost of $2.95M.** Given the current 25% estimated probability of a 90+ day disruption, the expected cost of remaining fully single-sourced is $4.955M this year — diversification costs less than the risk it addresses, even before counting further years of reduced exposure. Separately, this event triggers a full concentration-risk review of our other single-source dependencies — a years-clean track record on any of them is not evidence the risk isn't real, only that it hasn't materialized yet.
+
+## Going deeper
+
+- [Risk & network design artifacts](references/artifacts.md) — filled concentration risk map, efficiency-resilience tradeoff model, and bullwhip mitigation plan.
+- [Red flags & diagnostics](references/red-flags.md) — signals a supply chain manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
