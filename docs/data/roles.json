@@ -3,17 +3,21 @@
   "roles": [
     {
       "slug": "accountant-controller",
-      "description": "Use when a task needs the judgment of an accountant/financial controller \u2014 closing the books, ensuring GAAP-compliant reporting, designing internal controls, reviewing an accounting treatment question, or catching a discrepancy in financial records. Distinct from a financial analyst role \u2014 this one is accountable for the accuracy of what happened, not for forecasting what will happen.",
+      "description": "Use when a task needs the judgment of an accountant/financial controller \u2014 closing the books on a fixed calendar, resolving a bank or account reconciliation variance, evaluating a revenue-recognition or substance-over-form question, designing or testing an internal control, or triaging a discrepancy in financial records before it reaches the auditors.",
       "category": "finance",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "13-2011.00",
       "parent": null,
-      "status": "needs-refresh",
-      "last_audited": "2026-07-08",
-      "audit_score": 5,
+      "status": "active",
+      "last_audited": "2026-07-15",
+      "audit_score": 17,
       "skill": "roles/accountant-controller/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

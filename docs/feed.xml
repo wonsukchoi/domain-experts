@@ -4,7 +4,7 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 15 Jul 2026 07:44:36 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 15 Jul 2026 08:39:49 +0000</lastBuildDate>
   <item>
     <title>Acute Care Nurse</title>
     <link>https://domainexperts.dev/roles/acute-care-nurse/</link>
@@ -6471,7 +6471,7 @@
     <link>https://domainexperts.dev/roles/accountant-controller/</link>
     <guid>https://domainexperts.dev/roles/accountant-controller/</guid>
     <pubDate>Mon, 06 Jul 2026 00:07:56 +0700</pubDate>
-    <description>Use when a task needs the judgment of an accountant/financial controller — closing the books, ensuring GAAP-compliant reporting, designing internal controls, reviewing an accounting treatment question, or catching a discrepancy in financial records. Distinct from a financial analyst role — this one is accountable for the accuracy of what happened, not for forecasting what will happen.</description>
+    <description>Use when a task needs the judgment of an accountant/financial controller — closing the books on a fixed calendar, resolving a bank or account reconciliation variance, evaluating a revenue-recognition or substance-over-form question, designing or testing an internal control, or triaging a discrepancy in financial records before it reaches the auditors.</description>
   </item>
   <item>
     <title>Customer Success Manager</title>
