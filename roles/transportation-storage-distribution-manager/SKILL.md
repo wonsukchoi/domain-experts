@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Transportation, Storage, an
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3071.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Transportation, Storage, and Distribution Manager
@@ -62,7 +66,24 @@ Frames service-level and cost tradeoffs explicitly, showing the reasoning behind
 
 ## Worked example
 
-Customer complaints about late deliveries are rising for a specific region, and the initial instinct is to add more delivery capacity (more trucks, more drivers) in that region. First-principles handling: before adding capacity, map the actual flow to identify where the real constraint is — it might be a bottleneck earlier in the network (an under-capacity regional warehouse causing delayed order processing before goods even reach the delivery stage) rather than a shortage of last-mile delivery capacity itself. Adding delivery trucks to a network whose actual constraint is upstream warehouse processing time would add cost without meaningfully improving delivery performance, since orders would still be delayed before reaching the delivery stage — the correct diagnostic step is tracing the order flow through the network to find where time is actually being lost before committing to a specific capacity investment.
+**Situation:** Customer complaints about late delivery are rising in a specific region. Order-to-delivery time has grown from 46 hours to **71 hours** over 6 months, against a 48-hour target. The instinct is to add delivery capacity (3 more trucks and drivers, $180,000/year).
+
+**Step 1 — trace the order flow to find where time is actually being lost, before adding capacity anywhere.** Breakdown of the 71 hours: warehouse processing (order receipt to truck-ready) is **38 hours**, up from 14 hours six months ago; last-mile delivery time is **33 hours**, essentially flat (was 32 hours). Nearly all of the added delay is upstream of the delivery stage.
+
+**Step 2 — check whether the proposed fix (more trucks) addresses the actual constraint.** It doesn't — last-mile delivery time hasn't changed, so adding truck capacity wouldn't shorten the 38-hour warehouse processing delay that's actually driving the miss. The $180,000/year would be spent on a layer that isn't the bottleneck.
+
+**Step 3 — find the actual cause of the warehouse processing slowdown.** Regional order volume grew 45% over the same 6 months (3,100 orders/day incoming vs. a warehouse processing capacity of 2,400 orders/day) — a **700 orders/day gap** accumulating into a growing backlog, which is what's pushing processing time from 14 to 38 hours.
+
+**Step 4 — size the fix to the actual gap, not an oversized or undersized response.** A full second shift would add 1,400 orders/day of capacity (roughly double what's needed) at an estimated $340,000/year. A right-sized fix — 4 additional pickers, adding roughly 700 orders/day of capacity — closes the gap exactly, at an estimated **$170,000/year** (4 × $42,500 loaded cost/picker).
+
+**Deliverable (network diagnosis memo, quoted):**
+> **Recommendation: add 4 warehouse pickers ($170,000/year) to close the 700 orders/day processing gap — do not add delivery trucks.** Order-to-delivery time grew from 46 to 71 hours, but last-mile delivery time is flat (32→33 hours) — the entire increase is in warehouse processing (14→38 hours), driven by a 45% regional volume increase that outpaced warehouse staffing. Adding trucks ($180,000/year) would not address this constraint at all. The 4-picker addition is sized to exactly close the 700 orders/day gap, versus a full second shift ($340,000/year) that would be roughly double the capacity actually needed.
+
+## Going deeper
+
+- [Network diagnostic artifacts](references/artifacts.md) — filled order-flow breakdown, safety stock model, and total landed cost comparison.
+- [Red flags & diagnostics](references/red-flags.md) — signals a distribution manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

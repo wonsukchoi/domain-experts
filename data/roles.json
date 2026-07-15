@@ -18761,14 +18761,18 @@
       "description": "Use when a task needs the judgment of a Transportation, Storage, and Distribution Manager \u2014 planning warehouse/distribution network operations, evaluating a carrier or logistics vendor decision, managing inventory flow across a distribution network, or diagnosing a fulfillment/delivery performance problem. Broader logistics-network focus than supply-chain-manager's end-to-end strategic scope.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3071.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/transportation-storage-distribution-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
