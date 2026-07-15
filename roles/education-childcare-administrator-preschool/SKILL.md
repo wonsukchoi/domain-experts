@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of an Education and Childcare Ad
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-9031.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Education and Childcare Administrator (Preschool and Daycare)
@@ -62,7 +66,24 @@ Direct and prompt about incidents or concerns with families, even when it's unco
 
 ## Worked example
 
-A minor incident occurs (a child gets a small scrape during outdoor play, requiring basic first aid but no further medical attention), and the instinct of a staff member involved is to handle it quietly without formally documenting or notifying the family in detail, since it seems too minor to warrant much attention. First-principles handling: even a minor incident should be communicated to the family promptly and specifically (what happened, what was done, how the child is doing) rather than handled quietly — family trust depends on knowing that any incident, however small, will be disclosed honestly and completely, not selectively based on the center's own judgment of what's "worth mentioning." A pattern of minimized or undisclosed minor incidents, if ever discovered by a family (even indirectly, e.g. the child mentioning something different from what was reported), does far more damage to trust than any individual minor incident would have, and undermines confidence in how a genuinely serious incident would be handled if one occurred.
+**Situation:** A 120-child center has 24 staff and 42% annual turnover (10 departures/year). Each departure costs an estimated $4,800 (recruiting, onboarding/training, temporary coverage, lost productivity) — total annual turnover cost: 10 × $4,800 = **$48,000**. A proposal on the table: raise starting wage for the 18 lead teachers by $1.50/hour to improve retention.
+
+**Step 1 — cost the wage increase.** 18 lead teachers × $1.50/hour × 2,080 hours/year (full-time equivalent) = **$56,160/year** in additional wage cost.
+
+**Step 2 — project the retention benefit using comparable published wage-elasticity data for childcare turnover.** A $1.50/hour increase for this wage band is associated with a turnover reduction from 42% to roughly 25% — departures drop from 10/year to 6/year, saving 4 × $4,800 = **$19,200/year** in avoided turnover cost.
+
+**Step 3 — net the true cost of the investment.** $56,160 (wage cost) − $19,200 (turnover savings) = **$36,960/year net additional cost** — real, but smaller than the sticker price of the raise once turnover savings are counted, and not "free" as a pure retention-pays-for-itself pitch would imply.
+
+**Step 4 — check against financial sustainability.** Center revenue: 120 children × $1,150/month × 12 months = **$1,656,000/year**. The $36,960 net cost is 2.2% of revenue — equivalent to a $2.14/month per-child tuition increase (36,960 ÷ 120 ÷ 12) to fully offset, well inside the 3-5% annual tuition increase range families in this market already generally expect.
+
+**Deliverable (staffing investment proposal, quoted):**
+> **Recommendation: approve the $1.50/hour raise for lead teachers, funded through a $2.15/month tuition increase (within normal annual increase range).** Current turnover (42%/year) costs $48,000/year in replacement costs alone, before counting its effect on caregiving consistency — a factor family trust and retention depend on separately. The raise costs $56,160/year but is projected to reduce turnover to 25% (departures 10 → 6/year), saving $19,200/year — net cost $36,960/year, or 2.2% of revenue, fully covered by a tuition increase smaller than what families already expect annually. This is a quality investment with a quantified return, not an unfunded cost increase.
+
+## Going deeper
+
+- [Staffing & compliance artifacts](references/artifacts.md) — filled ratio-compliance worksheet, turnover cost model, and incident disclosure template.
+- [Red flags & diagnostics](references/red-flags.md) — signals an administrator notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
