@@ -4248,14 +4248,18 @@
       "description": "Use when a task needs the judgment of a Customer Success Manager \u2014 driving product adoption after the sale, assessing renewal/churn risk, handling an at-risk account, or deciding how to prioritize limited attention across a book of accounts.",
       "category": "sales",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": null,
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/customer-success-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

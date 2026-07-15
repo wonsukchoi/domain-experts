@@ -4,6 +4,10 @@ description: Use when a task needs the judgment of a Customer Success Manager �
 metadata:
   category: sales
   maturity: draft
+  spec: 2
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Customer Success Manager
@@ -61,7 +65,24 @@ Leads with the customer's business outcome, not the product's feature list — "
 
 ## Worked example
 
-A high-value account's usage has quietly dropped 40% over two months, but there's been no complaint and the account isn't up for renewal for another five months. First-principles handling: don't wait for the renewal window to act — usage decline is the leading indicator, and by the time it becomes a churn conversation the intervention window will have mostly closed. Reach out now to understand the cause: check whether the original champion is still engaged, whether a reorg changed who owns the tool, or whether a specific workflow the customer relied on broke or became harder to use. If the champion has moved to a different team, the actual task is rebuilding the internal relationship and re-establishing the value case with whoever now owns the decision — waiting until the renewal conversation to discover this would mean starting that rebuild with almost no runway left.
+**Situation:** Book of 60 accounts, $4.2M total ARR, average account $70,000 ARR, current book NRR target 108%. Northwind Logistics ($180,000 ARR, 2.6x the average account) shows weekly active users dropping from 42 to 25 over 8 weeks (40% decline). No complaint filed. Renewal isn't due for 5 months. Diagnostic check: the original champion (VP Ops) left the company 6 weeks ago — roughly coincident with the usage drop start — and the CSM has logged only 1 touchpoint with the account in the last 60 days, versus the biweekly cadence the health-x-value tier calls for.
+
+**Step 1 — quantify what's actually at stake before deciding urgency.** If this account churns instead of renewing flat, book ARR impact: −$180,000 against an expected $4.2M × 1.08 = $4,536,000. Adjusted: $4,536,000 − $180,000 = $4,356,000. Recalculated NRR: 4,356,000 ÷ 4,200,000 = **103.7%**, a 4.3-point swing in book-level NRR from this single account — clear confirmation this is a top-priority account by value × risk, not a "wait and see."
+
+**Step 2 — diagnose before intervening.** The champion departure timing lines up with the usage drop — the likely cause is a stalled relationship, not a product or workflow failure. Confirm by checking: has anyone else at the account logged in during the drop window? (Answer: yes, 25 of the original 42 users, suggesting the tool itself still works for those still engaged — the drop looks like disengagement from the champion's former team, not a broken integration.)
+
+**Step 3 — restate the value case with numbers, not a general check-in.** Prior usage data shows the account's logistics team was saving an estimated 15 hours/week of coordination time, valued by the customer's own prior ROI calculation at approximately $45,000/year in avoided labor cost — a concrete number to bring to whoever now owns the relationship, not a generic "hope you're still finding value" message.
+
+**Step 4 — act within days, not months.** Multi-thread immediately: identify the Ops Manager (next-most-senior stakeholder who remained) and schedule a stakeholder mapping call within 5 business days, rather than waiting for the 90-days-out renewal window when the relationship-rebuild runway would be far shorter.
+
+**Deliverable (account risk & action plan, quoted):**
+> **Account: Northwind Logistics ($180,000 ARR, 2.6x average account). Risk driver: champion departure (VP Ops, 6 weeks ago), not product failure — 25 of 42 original users still active.** Book-level impact if lost: NRR swings from 108% to 103.7% (4.3 points) — top-priority intervention. Action: stakeholder mapping call booked with Ops Manager within 5 business days; re-presenting the $45,000/year labor-savings case (15 hrs/week) that justified the original purchase, tied to this specific team's numbers, not a generic renewal reminder. Renewal is 5 months out — this is being treated as a now-problem, not a then-problem.
+
+## Going deeper
+
+- [Account health & QBR artifacts](references/artifacts.md) — filled health-scoring model, book segmentation table, and QBR value-recap template.
+- [Red flags & diagnostics](references/red-flags.md) — signals a CSM notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
