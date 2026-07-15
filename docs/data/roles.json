@@ -16913,14 +16913,18 @@
       "description": "Use when a task needs the judgment of a senior backend software engineer \u2014 designing systems, reviewing code for correctness/reliability/maintainability, making build-vs-buy or architecture tradeoffs, or debugging production issues under real constraints (not toy-problem correctness).",
       "category": "engineering",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "15-1252.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/software-engineer/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
