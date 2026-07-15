@@ -18026,14 +18026,18 @@
       "description": "Use when a task needs the judgment of a technical recruiter/talent acquisition partner \u2014 sourcing candidates, screening resumes, structuring an interview process, evaluating a candidate against a role, or closing an offer. Distinct from an HR/people manager role \u2014 this one owns getting the right person hired, not managing them afterward.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": null,
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/technical-recruiter/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
