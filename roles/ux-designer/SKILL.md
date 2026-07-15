@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a UX/product designer — eva
 metadata:
   category: design
   maturity: draft
+  spec: 2
   onet_soc_code: "15-1255.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # UX Designer
@@ -67,7 +71,24 @@ Grounds critique in specific user impact ("a first-time user will likely miss th
 
 A stakeholder asks for a settings toggle to let users choose between two different navigation layouts, because two vocal users requested it. First-principles handling: don't add the toggle by default. Ask what problem each layout solves for those users — likely a workflow-specific need (e.g. power users doing bulk actions vs. casual users browsing). Test whether one layout, well-designed, can serve both cases with progressive disclosure (a "bulk mode" toggle scoped to the specific action, not a whole-navigation fork) before accepting a permanent bifurcation of the product's core navigation — a maintenance and consistency cost that will compound for every future feature built on top of it.
 
-A designer who has rebuilt a checkout flow spends two weeks staring at it, knows every field and shortcut by heart, and walks through it in thirty seconds without hesitation — concluding it's ready to ship. First-principles handling: that fluency is worthless evidence ("you are not the user"). The designer has memorized the path; a first-time user hasn't. Put the flow in front of five people who have never seen it, say nothing, and watch where they pause, misread a label, or reach for a control that isn't there — their hesitation is the real signal, not the designer's speed. What actually happens when this is skipped: the flow ships on the strength of internal confidence, a support-ticket spike appears within a week (users abandoning at a step the team never saw as ambiguous, e.g. mistaking an optional field for required because its label wasn't visually distinct from required ones), and the fix costs more post-launch than five minutes of testing would have before.
+A designer who has rebuilt a checkout flow spends two weeks staring at it, knows every field and shortcut by heart, and walks through it in thirty seconds without hesitation — concluding it's ready to ship. First-principles handling: that fluency is worthless evidence ("you are not the user"). The designer has memorized the path; a first-time user hasn't.
+
+**Step 1 — price the cheap check that was skipped.** An unmoderated 5-user test against the prototype costs roughly $500 (testing panel) + $150 (2 hours of designer review time) = **$650**, and would have shown where users pause, misread a label, or reach for a control that isn't there.
+
+**Step 2 — quantify what shipping without it actually cost.** The flow ships on internal confidence. Within a week, cart abandonment at the billing-address step rises from an 8% baseline to **23%** — traced to an optional phone-number field with no visual distinction from required fields, causing users to either stall deciding whether to fill it in or enter invalid data trying to satisfy a perceived requirement.
+
+**Step 3 — translate the abandonment increase into revenue impact.** At 40,000 monthly checkout starts, the jump from 8% to 23% abandonment at this step means roughly 6,000 additional users/month abandoning who wouldn't have before. Assuming 70% of them would have completed the order absent this friction: 6,000 × 0.70 = 4,200 lost orders/month × $85 average order value = **$357,000/month in lost revenue**.
+
+**Step 4 — compare the cost of the skipped check against the cost of the miss.** $650 (5-user test) versus $357,000/month in lost revenue, plus an estimated $4,200 in post-launch engineering cost for the hotfix (versus $0 if caught in the design file before dev handoff) — the test that was skipped to save time cost roughly 550x its price in the first month alone.
+
+**Deliverable (incident retro note, quoted):**
+> **Root cause: optional phone-number field visually indistinguishable from required fields, causing decision friction and invalid-data entry at the billing-address step.** Abandonment at this step rose from 8% to 23% within one week of launch, an estimated $357,000/month in lost revenue at current checkout volume. A $650 5-user unmoderated test before launch would very likely have surfaced this — hesitation on this exact field is a textbook "does this look required?" signal. Fix: visually distinguish optional fields (label styling), shipped as a hotfix; going forward, no checkout flow change ships without at least a 5-user unmoderated test against the live prototype.
+
+## Going deeper
+
+- [Design critique artifacts](references/artifacts.md) — filled heuristic evaluation, usability test plan, and severity-scored findings log.
+- [Red flags & diagnostics](references/red-flags.md) — signals a UX designer notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

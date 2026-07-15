@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 1 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 0 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -158,7 +158,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ✅ | 15-1252.00 | Software Developers | [`software-engineer`](./roles/software-engineer/SKILL.md) |
 | ✅ | 15-1253.00 | Software Quality Assurance Analysts and Testers | [`software-qa-analyst`](./roles/software-qa-analyst/SKILL.md) |
 | ✅ | 15-1254.00 | Web Developers | [`full-stack-developer`](./roles/full-stack-developer/SKILL.md) |
-| ♻️ | 15-1255.00 | Web and Digital Interface Designers | [`ux-designer`](./roles/ux-designer/SKILL.md) |
+| ✅ | 15-1255.00 | Web and Digital Interface Designers | [`ux-designer`](./roles/ux-designer/SKILL.md) |
 | ✅ | 15-1255.01 | Video Game Designers | [`game-designer`](./roles/game-designer/SKILL.md) |
 |  | 15-1299.00 | Computer Occupations, All Other |  |
 | ✅ | 15-1299.01 | Web Administrators | [`web-administrator`](./roles/web-administrator/SKILL.md) |
@@ -1218,11 +1218,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**1 roles awaiting upgrade:**
-
-| Repo role | Category |
-|---|---|
-| [`ux-designer`](./roles/ux-designer/SKILL.md) | design |
+**Queue empty — every drafted role is at spec 2.** 🎉
 
 ## Roles outside this list
 
