@@ -165,7 +165,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <main class="role-page" id="main-content">
 {content}
   <p class="source-link"><a href="{source}">View SKILL.md source on GitHub</a> &middot; maturity: {maturity}</p>
-{jurisdictions}</main>
+{jurisdictions}{related_roles}</main>
 <footer>
   <p>Install this role: <code>npx domain-experts add {slug}</code></p>
 </footer>
@@ -187,6 +187,53 @@ def sync_roles_json():
     dest.write_text(DATA.read_text())
 
 
+def related_roles_html(role, roles_by_category):
+    peers = [r for r in roles_by_category.get(role["category"], []) if r["slug"] != role["slug"]]
+    if not peers:
+        return ""
+    picks = peers[:6]
+    items = "\n".join(
+        f'  <li><a href="../{p["slug"]}/">{html.escape(title_case(p["slug"]))}</a></li>'
+        for p in picks
+    )
+    return (
+        '  <nav class="related-roles" aria-label="Related roles">\n'
+        "  <h3>Related roles</h3>\n"
+        "  <ul>\n"
+        f"{items}\n"
+        "  </ul>\n"
+        "  </nav>\n"
+    )
+
+
+def role_card_html(r):
+    slug = r["slug"]
+    return (
+        f'<a class="role-card" href="roles/{slug}/">\n'
+        f"  <h3>{html.escape(title_case(slug))}</h3>\n"
+        '  <div class="badges">\n'
+        f'    <span class="badge">{html.escape(r["category"])}</span>\n'
+        f'    <span class="badge status-{html.escape(r["status"])}">{html.escape(r["status"])}</span>\n'
+        "  </div>\n"
+        f'  <p>{html.escape(r["description"])}</p>\n'
+        "</a>"
+    )
+
+
+def inject_static_role_list(roles):
+    index_path = ROOT / "docs" / "index.html"
+    html_text = index_path.read_text()
+    cards = "\n".join(role_card_html(r) for r in roles)
+    html_text = re.sub(
+        r'(<div id="role-list" class="role-list">)(.*?)(</div>)',
+        lambda m: m.group(1) + cards + m.group(3),
+        html_text,
+        count=1,
+        flags=re.DOTALL,
+    )
+    index_path.write_text(html_text)
+
+
 def build():
     sync_roles_json()
     data = json.loads(DATA.read_text())
@@ -194,6 +241,10 @@ def build():
     urls = []
     added_dates = role_added_dates()
     today = datetime.now(timezone.utc).date().isoformat()
+
+    roles_by_category = {}
+    for r in roles:
+        roles_by_category.setdefault(r["category"], []).append(r)
 
     for r in roles:
         slug = r["slug"]
@@ -242,6 +293,7 @@ def build():
             schema=schema,
             breadcrumb=breadcrumb,
             jurisdictions=jurisdictions_html,
+            related_roles=related_roles_html(r, roles_by_category),
         )
 
         page_dir = OUT_DIR / slug
@@ -265,6 +317,7 @@ def build():
     )
 
     inject_index_schema(roles)
+    inject_static_role_list(roles)
     build_feed(roles)
 
     print(f"Built {len(urls)} role pages + sitemap.xml + robots.txt + feed.xml")
