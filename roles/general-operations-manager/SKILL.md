@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a General/Operations Manager 
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-1021.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # General and Operations Manager
@@ -62,7 +66,26 @@ Translates between functions — restating a problem in the language and priorit
 
 ## Worked example
 
-Two departments (sales and fulfillment) are each hitting their individual targets, but customer complaints about delayed order fulfillment are rising. First-principles handling: don't assume either team is underperforming — map the actual handoff between "deal closed" and "order fulfilled" to find where the friction is. It may surface that sales is closing deals with commitments (custom terms, rushed timelines) that fulfillment wasn't consulted on and can't actually meet at the promised pace — a coordination failure at the handoff, not a competence failure in either team. The fix is likely a clearer interface between the two (a defined set of fulfillment constraints sales checks against before promising a timeline), not additional pressure on fulfillment to "hit its numbers faster," which would just push the same coordination problem further downstream.
+**Situation:** Sales closes 85 deals/month (target: 80 — hitting target). Fulfillment processes 78 orders/month (target: 75 — also hitting target). Both dashboards look healthy, but customer complaints about delayed delivery have risen from 4% to 15% of orders over the quarter.
+
+**Step 1 — don't assign cause from the dashboards; map the actual handoff.** Of the 85 deals closed, 22 (26%) included a custom rush-delivery term (7 days instead of the standard 21) that sales negotiated without checking fulfillment's actual rush-processing capacity.
+
+**Step 2 — find the real constraint, which isn't overall throughput.** Fulfillment's standard-order capacity is 70/month against 63 standard orders/month actually coming through — comfortably within capacity, confirming fulfillment's overall throughput isn't the problem. But fulfillment's *rush*-specific processing capacity is only 8/month (expedited packing/shipping capacity is a separate, much narrower resource than standard processing).
+
+**Step 3 — quantify the gap between promised and deliverable.** Sales promised 22 rush orders/month; fulfillment can deliver 8/month on the rush timeline — a gap of 22 − 8 = **14 orders/month** where the promised 7-day delivery can't actually be met.
+
+**Step 4 — check whether the gap explains the complaint data.** 15% of 85 orders ≈ 13 complaints/month, up from 4% of 85 ≈ 3/month — a rise of roughly 10 complaints/month, closely matching the 14-order/month rush-capacity shortfall. The complaint spike isn't diffuse dissatisfaction; it traces almost entirely to this one specific, quantifiable handoff gap.
+
+**Step 5 — identify the fix at the actual constraint.** The fix is a shared, real-time rush-capacity check sales queries before promising a 7-day timeline (e.g., "X rush slots remaining this month"), not pressure on fulfillment to increase overall throughput — fulfillment's overall throughput was never the bottleneck; the narrow rush sub-capacity being oversold without visibility was.
+
+**Deliverable (operations diagnosis memo, quoted):**
+> **Root cause: not a competence failure in either team — a coordination gap at the sales-to-fulfillment handoff on rush orders specifically.** Sales promised 22 rush deliveries/month against fulfillment's actual 8/month rush capacity, a 14-order/month shortfall that maps closely to the complaint increase (13/month, up from 3/month). Fix: add a real-time rush-capacity check to the sales workflow before a 7-day delivery term is offered — not a throughput push on fulfillment, whose standard-order capacity (70/month) already exceeds standard demand (63/month) with room to spare.
+
+## Going deeper
+
+- [Operations diagnostic artifacts](references/artifacts.md) — filled bottleneck analysis, RACI template, and process-map worksheet.
+- [Red flags & diagnostics](references/red-flags.md) — signals an operations manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
