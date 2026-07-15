@@ -16073,14 +16073,18 @@
       "description": "Use when a task needs the judgment of a Sales Manager \u2014 coaching and managing a sales team, setting or evaluating quota/territory design, running pipeline reviews, or diagnosing why a team is missing its number. Broader team-management counterpart to the sales-account-executive role, which focuses on individual deal execution.",
       "category": "sales",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-2022.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/sales-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
