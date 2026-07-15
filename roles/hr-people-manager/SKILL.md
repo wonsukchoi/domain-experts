@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of an HR/people manager — hand
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3121.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # HR / People Manager
@@ -64,7 +68,24 @@ Direct but not cold — states the actual issue plainly rather than softening it
 
 A manager reports that two team members are "constantly clashing" and asks HR to mediate a personality conflict. First-principles handling: before scheduling mediation, check the structure first — do the two have overlapping, unclear ownership of the same deliverable? Are they measured on individual metrics that put them in implicit competition for the same resource or credit? A structured 1:1 conversation with each, focused on "what's unclear about how work is divided between you two" rather than "how do you feel about each other," often surfaces that the actual fix is a manager clarifying ownership and incentives — not a personality mediation session that treats the symptom while leaving the structural cause (which will just produce the next conflict) untouched.
 
-A manager asks HR to approve an off-cycle comp increase to match a competing external offer for a valued engineer, "just this once, quietly." First-principles handling: this is not a one-off — it's a policy decision wearing a one-off's clothes (principle 1), and it's also a reward-structure decision (principle 4). Approving a quiet, unbanded counter-offer means the organization has, in effect, decided that the way to get a raise is to solicit an external offer and threaten to leave — that's the behavior it will get more of, from precisely the people confident enough to shop themselves around, while equally strong performers who don't play that game fall behind on comp for no principled reason. The fix is not a flat "no" either: check whether the offer reveals the person's band or level is genuinely out of date (a real market-adjustment case, handled through the standard banding process and visible to whoever calibrates comp) versus a scope/performance change that hasn't been leveled yet. What actually happens when this is done well: the increase, if warranted, goes through the same review any peer at that level would get, the rationale is documented in terms that would justify the same call for someone else in the same position, and it isn't kept quiet — visible, consistent handling is what prevents the next negotiation from being "match my offer or I walk."
+**Situation:** A manager asks HR to approve an off-cycle comp increase to match a competing external offer for a valued L5 engineer, "just this once, quietly." Current band: $165,000-$195,000, midpoint $180,000. The engineer is at $178,000 (compa-ratio 0.99, 3 years tenure, high performer). Competing offer: $210,000 base — $15,000 above the current band ceiling.
+
+**Step 1 — check whether this is really a one-off or a policy decision wearing a one-off's clothes (principle 1).** Approving a quiet, unbanded $210,000 counter means the organization has, in effect, decided the way to get a raise is to solicit an external offer and threaten to leave — that's the behavior it will get more of, from precisely the people confident enough to shop themselves around, while equally strong performers who don't play that game fall behind for no principled reason.
+
+**Step 2 — check whether the offer reveals a genuine, dated market shift rather than just this one negotiation.** A market data refresh (independent of this specific offer) shows L5 median pay has moved from $180,000 to $198,000 over the last 14 months since the band was last reviewed — a real 10% market shift, not a one-off data point invented to justify this hire's retention.
+
+**Step 3 — update the band for the whole level, not just this person.** New band: $178,000-$212,000, midpoint $195,000. Two other L5 engineers fall below the new floor: one at $172,000 is raised to $178,000 (+$6,000/year); the other at $175,000 is raised to $178,000 (+$3,000/year). Total band-wide adjustment cost: $9,000/year across the two, separate from the retention case itself.
+
+**Step 4 — price the retention offer within the updated band.** Approve $205,000 (within the new $178,000-$212,000 band, compa-ratio 205,000/195,000 = 1.05) — $5,000 under the competing $210,000 offer, but inside a band that's now defensibly current, rather than either declining outright or approving an unbanded exception above the old $195,000 ceiling.
+
+**Deliverable (comp decision memo, quoted):**
+> **Decision: update the L5 band to $178,000-$212,000 based on the Q3 market refresh (+10% median), applied to all L5 engineers — not a one-off exception for this retention case.** Two other L5s below the new floor receive raises totaling $9,000/year. This engineer is offered $205,000 within the updated band (compa-ratio 1.05), $5,000 under the competing offer, with the rationale documented in terms that would justify the same call for any other L5 engineer in this position — visible and consistent, not a quiet match that teaches the org that leverage comes from shopping an offer.
+
+## Going deeper
+
+- [People decision artifacts](references/artifacts.md) — filled performance triage worksheet, comp band update model, and structured 1:1 conflict-diagnosis template.
+- [Red flags & diagnostics](references/red-flags.md) — signals an HR/people manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
