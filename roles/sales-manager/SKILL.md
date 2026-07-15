@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Sales Manager — coaching 
 metadata:
   category: sales
   maturity: draft
+  spec: 2
   onet_soc_code: "11-2022.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Sales Manager
@@ -62,7 +66,24 @@ Coaches from specifics — asks about a named deal, a named stakeholder, a named
 
 ## Worked example
 
-A rep is on pace to miss quota for the second consecutive quarter, and the manager's instinct is to put them on a performance improvement plan focused on closing skills. First-principles handling: before assuming it's a skill gap, check pipeline coverage and deal quality first — if the rep's pipeline coverage ratio has been thin for months, the actual problem may be insufficient pipeline generation (a different skill, or a territory that's genuinely under-resourced or saturated), not closing ability. A closing-skills PIP applied to a pipeline-volume problem will fail regardless of how well the rep executes it, and the manager will have burned a quarter misdiagnosing the issue — the correct first move is reviewing the rep's actual funnel composition and territory potential before deciding what kind of intervention is warranted.
+**Situation:** A rep is on pace to miss quota ($300K this quarter) for the second consecutive quarter. The manager's instinct is a performance improvement plan focused on closing skills.
+
+**Step 1 — check pipeline coverage before assuming a closing-skill gap.** The rep's current pipeline: $540K against a $300K quota — a **1.8x coverage ratio**, well below the team's standard 3x threshold and well below the team average of 3.2x. A coverage ratio this thin predicts a miss regardless of closing skill; there simply isn't enough pipeline to close into target even at a strong close rate.
+
+**Step 2 — check deal quality/close rate to see whether this is a volume problem, a qualification problem, or both.** The rep's historical close rate is 22%, against a team average of 35% — a real gap, but one that could stem from weak qualification (pursuing deals unlikely to close) rather than closing execution specifically.
+
+**Step 3 — check territory potential before concluding it's purely a rep-execution issue.** This rep's territory has 220 target accounts, versus a team average of 340 — roughly **35% smaller** than a typical territory. Some of the pipeline shortfall may be structural (an under-sized territory), not just qualification or activity.
+
+**Step 4 — size the actual pipeline gap and what closing it requires.** To reach the 3x coverage standard on a $300K quota requires $900K in pipeline; the rep has $540K — a **$360K gap**. At the rep's average deal size ($45K), that's roughly **8 additional qualified opportunities** needed this quarter, not a closing-skills intervention on the deals already in the funnel.
+
+**Deliverable (rep diagnosis memo, quoted):**
+> **Diagnosis: pipeline generation and territory sizing, not closing skill.** Current coverage is 1.8x against a 3x standard ($540K pipeline vs. $900K needed) — this predicts a miss independent of closing ability. Territory is 35% smaller than team average (220 vs. 340 target accounts), which may be a structural contributor. Recommended intervention: prospecting/pipeline-generation coaching and a territory review, not a closing-skills PIP — applying a closing-skills plan to a pipeline-volume problem would fail regardless of execution quality and cost us another quarter of misdiagnosis. Close-rate gap (22% vs. 35% team average) will be revisited once pipeline volume is addressed, since qualification quality is easier to assess with a fuller funnel to evaluate.
+
+## Going deeper
+
+- [Team management artifacts](references/artifacts.md) — filled pipeline coverage model, territory/quota reconciliation, and rep diagnosis worksheet.
+- [Red flags & diagnostics](references/red-flags.md) — signals a sales manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
