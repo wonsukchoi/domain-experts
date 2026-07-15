@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a (physical/corporate) Securi
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3013.01"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Security Manager (Physical / Corporate Security)
@@ -62,7 +66,24 @@ Frames security investment in terms of specific threat scenarios and risk reduct
 
 ## Worked example
 
-After a minor theft incident, leadership wants to immediately add more visible security cameras throughout the building as the primary response. First-principles handling: before adding cameras as the default response, check what the actual incident revealed about the threat model and control gaps — was this an access-control failure (someone without legitimate access got in), an insider issue (someone with legitimate access), or a detection/response gap (it was recorded but not caught in time)? Cameras primarily help with detection and post-incident investigation, not prevention or delay — if the actual gap was in access control (e.g., a shared badge or an unreviewed access grant), adding cameras addresses a different layer than the one that actually failed. The right response addresses the specific layer that broke down, which may or may not be the visible, easy-to-approve option leadership initially proposed.
+**Situation:** A laptop ($2,200 value) is stolen from an unlocked storage room in a 450-employee office building. Leadership wants to immediately fund building-wide camera upgrades (60 new cameras, $1,400 installed each = $85,000) as the primary response.
+
+**Step 1 — investigate what layer actually failed before choosing a response.** Access logs show the storage room was entered using a badge belonging to a contractor whose contract ended **45 days earlier** — the badge was never deactivated. This is an access-control failure, not a detection failure; cameras address detection and post-incident investigation, not the control that actually broke down here.
+
+**Step 2 — check whether this is an isolated gap or a systemic one.** An audit of all 620 issued badges (450 active employees + former staff/contractors) finds **34 other stale active badges** for people who departed an average of 62 days ago — the access-review process (policy requires quarterly review) hasn't actually run in 14 months.
+
+**Step 3 — quantify the exposure from the systemic gap, not just this one incident.** At an estimated 3%/year misuse probability per stale badge (industry baseline) and this incident's realized $2,200 loss as a reference point, the 34 currently-outstanding stale badges represent roughly 34 × 0.03 × $2,200 ≈ **$2,244/year in expected loss** — and this incident is a realized instance of exactly that pattern, not a one-off.
+
+**Step 4 — price the fix that addresses the actual failed layer.** An automated access review process integrated with the HR offboarding system: $8,500 one-time setup + $400/month ongoing = **$12,700 in year-one cost** — about 15% of the proposed camera upgrade's cost, and it directly closes the access-control gap that caused this incident, which the camera proposal would not have addressed.
+
+**Deliverable (incident response memo, quoted):**
+> **Recommendation: fund automated access review integration ($12,700 year one), not the proposed $85,000 camera upgrade, as the response to this incident.** The theft was enabled by a stale badge (45 days post-departure) — an access-control failure, not a detection gap. A subsequent audit found 34 more stale active badges across the building, representing an estimated $2,244/year in ongoing expected loss from this same failure mode. Cameras improve detection and investigation for a different class of incident and remain worth considering separately for specific high-value areas, but they would not have prevented this specific incident and shouldn't be funded as if they were the fix for what actually happened.
+
+## Going deeper
+
+- [Security risk artifacts](references/artifacts.md) — filled threat model, access review audit, and control evaluation matrix.
+- [Red flags & diagnostics](references/red-flags.md) — signals a security manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
