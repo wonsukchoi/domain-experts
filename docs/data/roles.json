@@ -18971,14 +18971,18 @@
       "description": "Use when a task needs the judgment of a UX/product designer \u2014 evaluating or designing an interface, flow, or interaction, critiquing usability, or resolving tradeoffs between simplicity, flexibility, and business goals in a product's design.",
       "category": "design",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "15-1255.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/ux-designer/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
