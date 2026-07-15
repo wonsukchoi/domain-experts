@@ -18803,14 +18803,18 @@
       "description": "Use when a task needs the judgment of a senior Treasurer or Controller overseeing an organization's cash/liquidity management and financial reporting function at an executive level \u2014 managing banking relationships and liquidity, overseeing the close and external audit process, or making a treasury policy decision (investment of cash, hedging, debt covenants). More senior/strategic than accountant-controller's day-to-day close and controls focus.",
       "category": "finance",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3031.01",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/treasurer-controller/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
