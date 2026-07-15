@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of an Investment Fund Manager �
 metadata:
   category: finance
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3031.03"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Investment Fund Manager
@@ -62,7 +66,24 @@ Reports performance with explicit risk context and honest attribution between sk
 
 ## Worked example
 
-A fund has had two exceptionally strong years, well above its benchmark, and the manager wants to communicate this to investors as clear evidence of a successful, repeatable strategy while raising a larger follow-on fund. First-principles handling: before presenting the track record as proof of skill, separate out how much of the outperformance is explained by the fund's factor/style exposure being favorably positioned for the market conditions of those two specific years (beta), versus genuine security selection or timing skill (alpha) that would be expected to persist across different market regimes. If a meaningful share of the outperformance is explained by favorable beta exposure during an unusually good period for that style, the honest communication to prospective investors acknowledges this explicitly — a track record that survives this more rigorous attribution is a much stronger (and more durable) basis for raising capital than an unexamined headline return number, and an investor base that later realizes the original pitch overstated the skill component is a far worse long-term outcome for the fund's reputation.
+**Situation:** A fund returned +28% in Year 1 and +22% in Year 2, against a relevant benchmark of +19% and +15% — apparent outperformance of +9 percentage points and +7 percentage points (16pp cumulative excess return over two years). The manager wants to present this as clear evidence of skill while raising a larger follow-on fund.
+
+**Step 1 — decompose the excess return into factor (beta) and skill (alpha) components before claiming credit.** The fund carries a 1.4x tilt to the value factor (versus the benchmark's 1.0x), and value had an unusually strong two-year run. Factor-model attribution assigns 7pp of Year 1's 9pp excess, and 6pp of Year 2's 7pp excess, to this value-factor tilt.
+
+**Step 2 — total the factor-attributable and residual (alpha) components.** Factor-attributable: 7pp + 6pp = **13pp** of the 16pp cumulative excess (81%). Residual, attributable to genuine security-selection skill: (9 − 7) + (7 − 6) = 2pp + 1pp = **3pp** (19%).
+
+**Step 3 — check what this means for the "repeatable strategy" claim.** The 3pp of estimated alpha is real and positive, but it's a much smaller and less dramatic number than the headline 16pp of outperformance — and it's the number that should actually inform investors' expectations for a period when the value factor isn't having an unusually strong run.
+
+**Step 4 — decide what to communicate.** Present the full decomposition, not just the headline return, so prospective investors can weigh the genuine, more modest alpha against the factor-driven portion that depended on a favorable regime for value investing specifically.
+
+**Deliverable (investor letter excerpt, quoted):**
+> **Of our 16 percentage points of cumulative outperformance over the benchmark across the last two years, approximately 13 points (81%) is attributable to our structural tilt toward the value factor, which experienced an unusually strong two-year run. The remaining 3 points (19%) represents our best estimate of genuine security-selection alpha.** We believe this alpha is durable, but we want to be explicit that investors should not expect the full 16-point outperformance to repeat in a period where value isn't performing as strongly as it has the last two years — our stated edge is the 3-point alpha, not the combined number.
+
+## Going deeper
+
+- [Portfolio & performance artifacts](references/artifacts.md) — filled performance attribution model, position sizing worksheet, and fee-drag calculation.
+- [Red flags & diagnostics](references/red-flags.md) — signals a fund manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

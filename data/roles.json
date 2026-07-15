@@ -9372,14 +9372,18 @@
       "description": "Use when a task needs the judgment of an Investment Fund Manager \u2014 making or evaluating a portfolio allocation decision, assessing a fund's risk exposure, deciding on a buy/sell/hold call, or communicating fund performance and strategy to investors/limited partners.",
       "category": "finance",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3031.03",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/investment-fund-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
