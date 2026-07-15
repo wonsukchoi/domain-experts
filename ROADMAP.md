@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 41 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 40 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -26,7 +26,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ♻️ | 11-2022.00 | Sales Managers | [`sales-manager`](./roles/sales-manager/SKILL.md) |
 | ♻️ | 11-2032.00 | Public Relations Managers | [`public-relations-manager`](./roles/public-relations-manager/SKILL.md) |
 | ♻️ | 11-2033.00 | Fundraising Managers | [`fundraising-manager`](./roles/fundraising-manager/SKILL.md) |
-| ♻️ | 11-3012.00 | Administrative Services Managers | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) |
+| ✅ | 11-3012.00 | Administrative Services Managers | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) |
 | ♻️ | 11-3013.00 | Facilities Managers | [`facilities-manager`](./roles/facilities-manager/SKILL.md) |
 | ♻️ | 11-3013.01 | Security Managers | [`security-manager`](./roles/security-manager/SKILL.md) |
 | ♻️ | 11-3021.00 | Computer and Information Systems Managers | [`computer-information-systems-manager`](./roles/computer-information-systems-manager/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**41 roles awaiting upgrade:**
+**40 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) | operations |
 | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) | marketing |
 | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) | operations |
 | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) | operations |
@@ -1298,7 +1297,6 @@ Roles flagged `status: needs-refresh` in frontmatter — a periodic re-score aga
 | Repo role | Last audited | Audit score |
 |---|---|---|
 | [`administrative-law-judge`](./roles/administrative-law-judge/SKILL.md) | 2026-07-08 | 13/18 |
-| [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) | 2026-07-08 | 7/18 |
 | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) | 2026-07-08 | 5/18 |
 
 ## Deprecated
