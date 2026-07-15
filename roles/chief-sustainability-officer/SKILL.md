@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Chief Sustainability Office
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-1011.03"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Chief Sustainability Officer
@@ -62,7 +66,24 @@ States claims with the specific scope and methodology attached, not as unqualifi
 
 ## Worked example
 
-Marketing proposes announcing the company is "carbon neutral" ahead of a major product launch, based primarily on a large purchase of carbon offset credits with only modest direct emissions reductions achieved to date. First-principles handling: apply the mitigation hierarchy and the additionality test before agreeing to the claim — check whether the offsets purchased represent verified, additional reductions (would they have happened anyway) and whether "carbon neutral" is the accurate, defensible framing versus a more specific and honest claim like "we've offset X tons while continuing to reduce direct emissions by Y%." The more defensible, narrower claim is worth the marketing team's disappointment at a less punchy headline, because an unsubstantiated "carbon neutral" claim discovered later by a journalist or NGO becomes a much larger reputational cost than the initial, more accurate framing would have been.
+**Situation:** Baseline Scope 1+2 emissions: 40,000 tons CO2e/year. This year's efficiency projects cut that by 12% (4,800 tons), leaving 35,200 tons. Total footprint including Scope 3 (supply chain): 220,000 tons — Scope 3 is 184,800 tons, or 84% of the total. Marketing proposes buying enough offsets to cover the remaining 35,200 tons and announcing "carbon neutral" ahead of a major launch. The proposed offset supplier (a REDD+ forestry project) has independent third-party review showing only ~60% of its credited tons meet a real additionality bar.
+
+**Step 1 — apply the additionality test to the offsets themselves.** 35,200 tons purchased × 60% verified additionality = **21,120 tons of real, defensible offset** — not the full 35,200 tons the purchase nominally represents. Claiming credit for the other 14,080 tons (would-have-happened-anyway reductions) is a specific, quantifiable overclaim.
+
+**Step 2 — check what "carbon neutral" would actually be claiming against.** The proposed claim covers Scope 1+2 only (35,200 tons) against a true total footprint of 220,000 tons — Scope 3's 184,800 tons (84% of the real footprint) would be entirely unaddressed by an unqualified "carbon neutral" claim, which by ordinary reading implies the whole footprint, not 16% of it.
+
+**Step 3 — cost the honest, narrower claim against the proposed one.** Offset cost either way: 35,200 tons × $18/ton = $633,600 (this doesn't change based on how the claim is worded — only the marketing framing is at issue). The narrower, accurate claim costs nothing additional; it only changes the headline.
+
+**Step 4 — decide the claim.** Reject "carbon neutral" as submitted: it overstates both the offsets' real additionality (claims 35,200 tons of credit for 21,120 tons of verified reduction) and the scope covered (implies the full footprint while covering 16% of it). Approve a scoped, accurate claim instead.
+
+**Deliverable (claims-review memo, quoted):**
+> **Decision: do not use "carbon neutral." Approved claim: "We cut direct (Scope 1+2) emissions 12% this year and have offset our remaining direct emissions footprint (35,200 tons CO2e) through verified carbon credits, independently reviewed at 60% additionality. Scope 3 emissions — an estimated 84% of our total footprint — are not yet included in this claim; we're building supply-chain measurement capability to report on that next."** Same $633,600 offset spend, same underlying work — the only change is not claiming more than the numbers support. An unqualified "carbon neutral" claim, once a journalist or NGO checks the additionality rate and the Scope 3 exclusion, becomes a materially larger reputational and legal liability than the accurate version costs us in headline punch today.
+
+## Going deeper
+
+- [Sustainability claims & reporting artifacts](references/artifacts.md) — filled materiality assessment, claims-review checklist, and offset additionality worksheet.
+- [Red flags & diagnostics](references/red-flags.md) — signals a CSO notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
