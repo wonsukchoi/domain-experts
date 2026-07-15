@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a K-12 Education Administrato
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-9032.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Education Administrator (Kindergarten through Secondary)
@@ -62,7 +66,24 @@ Direct and prompt with families about concerns or incidents, even when uncomfort
 
 ## Worked example
 
-A behavioral incident occurs between two students, and there's pressure to issue a quick, decisive disciplinary consequence immediately to demonstrate the school is taking it seriously, before a full understanding of what led to the incident is available. First-principles handling: separate the immediate safety/containment response (ensuring both students are safe, separating them if needed, addressing any immediate physical or emotional need) from the disciplinary determination, which should wait for a fuller investigation into what actually happened and why, including any relevant context (a pattern of prior conflict, an underlying issue neither student directly reported). Issuing a fast disciplinary consequence to satisfy the appearance of decisiveness, before the investigation is actually complete, risks getting the consequence wrong — either too harsh for a student who was provoked or reacting to an unaddressed prior issue, or too lenient if the fuller picture reveals a more serious pattern — and either error damages trust and consistency more than a brief, clearly-communicated delay for a proper investigation would have.
+**Situation:** A physical altercation between two students (600-student school). Handbook's default "mutual combat" consequence is a 5-day suspension for both students. There's pressure to issue that immediately to demonstrate decisiveness. Before finalizing, the investigation surfaces that Student A had filed 3 prior documented harassment reports against Student B in the preceding two months, none of which resulted in a consequence for B.
+
+**Step 1 — separate containment from determination.** Both students were already separated and safety-checked in the first hour (containment, already complete) — the open question is the disciplinary determination, which should be checked against precedent before finalizing, not rushed to match the urgency that was appropriate only for the containment step.
+
+**Step 2 — run the precedent test against the actual discipline log**, not memory or instinct. Review of the past 12 months shows 14 "mutual combat" incidents. Of those, 9 involved a documented prior-harassment history between the parties; in 7 of those 9, the retaliating student's consequence was reduced (average: 1 day) once the harassment history was confirmed, while the documented aggressor received the full 5-day suspension plus a mandatory restorative conference. The remaining 5 cases had no prior documented history, and both students received the standard 5-day suspension.
+
+**Step 3 — classify this case against the precedent pattern.** With 3 prior documented harassment reports against Student B on file, this case matches the 9-case "documented history" pattern, not the 5-case "clean" pattern — precedent points to a reduced consequence for Student A (the retaliator) and the full consequence plus restorative conference for Student B (the documented aggressor), not the flat 5-day/5-day default.
+
+**Step 4 — check for a broader signal the review surfaced.** While pulling the discipline log, the data also shows Black/Latino students are 22% of school enrollment but 41% of "mutual combat" suspensions over the past 3 years — a disproportionality that this individual case review surfaced but doesn't resolve; it's flagged separately for a policy-level equity audit, not decided as part of this one case.
+
+**Deliverable (discipline determination memo, quoted):**
+> **Determination: Student A — 1-day suspension (consistent with the 7 of 9 precedent cases involving documented prior harassment). Student B — 5-day suspension plus mandatory restorative conference, per the documented pattern of unaddressed harassment reports.** This follows the precedent established in 7 of the 9 comparable cases in the past year where a documented harassment history existed between the parties; applying the flat 5-day/5-day default here would have been inconsistent with how comparable cases were actually handled. Separately: this review surfaced that Black/Latino students are 22% of enrollment but 41% of mutual-combat suspensions over 3 years — referring this to the equity/policy review committee as a distinct, school-wide question.
+
+## Going deeper
+
+- [Discipline & communication artifacts](references/artifacts.md) — filled precedent-check log, incident response protocol, and family communication templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals an administrator notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
