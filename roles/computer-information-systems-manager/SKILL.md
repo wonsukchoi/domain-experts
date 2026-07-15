@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Computer and Information Sy
 metadata:
   category: engineering
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3021.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Computer and Information Systems Manager
@@ -62,7 +66,24 @@ Translates technology decisions into business terms (cost, risk, capability enab
 
 ## Worked example
 
-A business unit requests a new, more expensive project management platform because it has slightly better features than the current tool, and switching would require migrating years of historical data and retraining the whole organization. First-principles handling: before approving the switch, evaluate total cost of ownership including migration effort, retraining cost, and the new platform's own future lock-in/exit cost — not just a feature-by-feature comparison of the two tools' current capabilities. It may turn out the marginal feature improvement doesn't come close to justifying the real migration and disruption cost, in which case the better answer is either declining the switch, finding a lighter-weight way to get the specific needed feature (a plugin, a workflow change within the existing tool), or explicitly acknowledging the switch as a strategic long-term bet if there's a stronger underlying reason beyond the immediate feature comparison.
+**Situation:** 800-employee company on Project Management Tool A ($38/user/month = $364,800/year). A business unit requests switching to Tool B ($34/user/month = $326,400/year, $38,400/year cheaper) for one notably better feature (advanced resource-allocation views). Switching requires migrating 5 years of project history (~12,000 projects) and retraining the whole org.
+
+**Step 1 — price the one-time switching cost, not just the licensing delta.** Data migration: contractor quote $55,000 + 400 internal engineering hours at $75/hr blended = $30,000 → **$85,000**. Retraining: 800 employees × 2 hours × $60/hr blended opportunity cost = **$96,000**. Total one-time switching cost: $85,000 + $96,000 = **$181,000**.
+
+**Step 2 — compute payback period against the licensing savings.** Annual savings: $38,400/year. Payback: $181,000 ÷ $38,400/year ≈ **4.7 years** — longer than this category of tool typically stays the obvious best-in-class choice before the next re-evaluation (commonly 3-5 years), meaning the switch may not even fully pay back before the next tool decision comes around.
+
+**Step 3 — check whether the actual driver (the one feature) can be had more cheaply.** A resource-allocation plugin for Tool A is available: $8,000 one-time integration cost + $2,000/year subscription. Over 5 years: $8,000 + (5 × $2,000) = **$18,000** — versus $181,000 to switch platforms for what was fundamentally a request for one feature.
+
+**Step 4 — decide.** The plugin route costs 10% of the full migration ($18,000 vs. $181,000 over 5 years) and delivers the specific capability the business unit actually asked for, without a 4.7-year payback bet on licensing savings alone or the retraining disruption across 800 employees.
+
+**Deliverable (technology decision memo, quoted):**
+> **Decision: add the resource-allocation plugin to Tool A ($8,000 one-time + $2,000/year) instead of migrating to Tool B.** Full migration would cost $181,000 up front against $38,400/year in licensing savings — a 4.7-year payback, longer than this tool category's typical re-evaluation cycle — while the plugin delivers the specific requested capability for $18,000 over the same 5-year horizon. If Tool B offers a strategic advantage beyond this one feature, that case should be made and evaluated separately and explicitly, not bundled into a single-feature request.
+
+## Going deeper
+
+- [IT decision artifacts](references/artifacts.md) — filled TCO comparison, technical-debt register, and security risk-register templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals an IT manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
