@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Geothermal Production Manag
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3051.02"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Geothermal Production Manager
@@ -62,7 +66,24 @@ Frames production decisions in terms of long-term field life and sustainable yie
 
 ## Worked example
 
-A field is meeting its current output target, but decline curve monitoring shows the rate of decline accelerating faster than the original reservoir model projected, while a corporate target for next year calls for increased output from the same field. First-principles handling: don't treat the accelerating decline and the higher target as separate problems to solve independently — investigate whether current extraction rates are already contributing to the faster-than-modeled decline, which would mean pushing for even higher output risks compounding the problem rather than solving it. The right response likely involves updating the reservoir model with the new decline data, reassessing what production rate is actually sustainable given the revised understanding, and communicating to leadership that the corporate target may need to be met through a different lever (a workover on an underperforming well, adjusted reinjection strategy, or accepting a lower near-term target to preserve long-term field value) rather than simply extracting harder from a field that's already showing signs of being pushed past a sustainable rate.
+**Situation:** A 12-well field currently produces 38 MW. The reservoir model projected 3%/year decline; actual observed decline over the last 18 months is running at 7%/year — more than double the model. Corporate target for next year: 45 MW from this same field (+7 MW).
+
+**Step 1 — check whether the corporate ask would compound the problem rather than solve it.** The 7% actual decline against a 3% modeled decline is itself a signal the field may already be pushed past sustainable yield. Increasing extraction rate further — the easy lever to hit 45 MW — is exactly the intervention most likely to be causing the faster-than-modeled decline in the first place.
+
+**Step 2 — quantify the lower-risk lever: workover on underperforming wells.** Two of the 12 wells are underperforming at 1.8 MW each, against a field average of 38 ÷ 12 = 3.17 MW/well. Historical workover results on comparable wells recover roughly 65% of the gap to field average: 1.8 + 0.65 × (3.17 − 1.8) = 1.8 + 0.89 = **2.69 MW/well**, a gain of **0.89 MW/well** × 2 wells = **1.78 MW** total, at a cost of $2.4M/well × 2 = **$4.8M**.
+
+**Step 3 — check the new-drilling alternative and its risk given model uncertainty.** This field has only 4 years of production history — a "newer field" by the model-uncertainty heuristic, meaning capital caution should scale up, not down. A new well is projected at 3.0 MW (mid-case) for $8.5M ($2.83M/MW), but the uncertainty range runs 1.5-4.0 MW — the downside case ($5.67M/MW) is meaningfully worse than the workover option, with a less-understood reservoir response.
+
+**Step 4 — size the realistic near-term output and the resulting gap to the corporate target.** Workover-only path: 38 + 1.78 = **39.78 MW** — still 5.22 MW short of the 45 MW target. Closing that remaining gap would require either new drilling (capital-risky given model uncertainty) or a further extraction-rate increase (the move most likely responsible for the 7% vs. 3% decline gap already observed).
+
+**Deliverable (production planning memo, quoted):**
+> **Recommendation: fund the 2-well workover ($4.8M, +1.78 MW) and revise the corporate target from 45 MW to approximately 40 MW for this field next year — do not close the remaining gap via increased extraction rate.** Actual decline (7%/year) is already running more than double the modeled rate (3%/year), which is itself evidence the field may be past sustainable yield; pushing extraction further to hit 45 MW risks accelerating decline further rather than solving the shortfall. New drilling was evaluated and deprioritized given this field's limited (4-year) production history and wide output uncertainty (1.5-4.0 MW). The reservoir model is being updated with the revised decline data before any further capital commitment is considered.
+
+## Going deeper
+
+- [Reservoir management artifacts](references/artifacts.md) — filled decline curve worksheet, workover economics model, and seismic monitoring protocol.
+- [Red flags & diagnostics](references/red-flags.md) — signals a production manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

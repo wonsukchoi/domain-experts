@@ -8007,14 +8007,18 @@
       "description": "Use when a task needs the judgment of a Geothermal Production Manager \u2014 running a geothermal power plant or well field's daily operations, managing reservoir output decline, evaluating a well workover or drilling decision, or balancing production rate against long-term reservoir sustainability.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3051.02",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/geothermal-production-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
