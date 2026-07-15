@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a CEO/chief executive — set
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-1011.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Chief Executive (CEO)
@@ -62,7 +66,24 @@ Repeats the strategy far more than feels necessary, because most of the organiza
 
 ## Worked example
 
-A department head requests a significant headcount increase to pursue a promising new product line, while the company's core product is behind on its roadmap and burning more cash than planned. First-principles handling: classify this as closer to a one-way door (headcount is slow and costly to reverse, and the opportunity cost is real — this headcount comes from somewhere) under real cash constraints (runway matters). Check the actual evidence for the new opportunity's urgency versus the core product's committed roadmap, rather than defaulting to "let's do both." The likely first-principles answer is declining or heavily scoping down the new headcount request until the core roadmap is back on track — not because the new opportunity lacks merit, but because a strategy that says yes to everything simultaneously under real resource constraints isn't actually a strategy, and the cost of the core product slipping further is more concrete and time-sensitive than the cost of delaying an unproven new line.
+**Situation:** $18M cash, current net burn $1.5M/month → 12 months of runway. Core product roadmap is already 2 quarters behind due to being understaffed by ~5 engineers against its own capacity plan. A department head requests 8 new hires ($300K fully loaded each = $2.4M/year, $200K/month) to pursue a new product line targeting an estimated $50M market.
+
+**Step 1 — classify the decision.** Headcount is slow to unwind (severance, morale, sunk ramp-up time) and the requested engineers would otherwise be one of the few available levers to fix the core product's understaffing — closer to a one-way door than a two-way one, under a real cash constraint (runway isn't infinite).
+
+**Step 2 — check runway impact of the full ask.** New burn: $1.5M + $200K = $1.7M/month. New runway: $18M ÷ $1.7M = **10.6 months** — a 1.4-month compression, while the core product (already 2 quarters late) gets no relief.
+
+**Step 3 — check the alternative of redirecting the requested hires toward the core product's own 5-engineer shortfall instead.** That closes the roadmap gap directly rather than opening a second front while the first is still behind — the new product line's $50M opportunity has to be weighed against the more concrete, already-quantified cost of continued core-product slippage (a second consecutive quarter of missed roadmap has already had a measurable effect: two enterprise deals paused waiting on committed features).
+
+**Step 4 — evaluate a scoped middle option.** Approve 2 of the 8 requested hires as a pilot team ($600K/year = $50K/month) to validate the new opportunity without diverting from the core-product fix; defer the remaining 6 until the core roadmap hits its next milestone. New burn: $1.5M + $50K = $1.55M/month → runway: $18M ÷ $1.55M = **11.6 months** — an 0.4-month compression instead of 1.4, while still generating real signal on the new opportunity.
+
+**Deliverable (resource-allocation decision memo, quoted):**
+> **Decision: decline the 8-hire request as submitted. Approve a 2-person pilot team ($50K/month) for the new product line; redirect the remaining requested budget toward closing the core product's 5-engineer shortfall.** Full approval would compress runway from 12.0 to 10.6 months while leaving the core roadmap — already 2 quarters late, with two enterprise deals paused on committed features — unaddressed. The 2-person pilot preserves 11.6 months of runway, generates real validation data on the new opportunity within one quarter, and doesn't ask the org to run two under-resourced priorities at once. Revisit the remaining 6-hire request when the core roadmap has hit its next milestone, based on the pilot's actual results, not on the original pitch alone.
+
+## Going deeper
+
+- [Decision & communication artifacts](references/artifacts.md) — filled resource-allocation memo, board update, and strategy-communication templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals a CEO notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
