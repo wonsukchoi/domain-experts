@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a senior backend software eng
 metadata:
   category: engineering
   maturity: draft
+  spec: 2
   onet_soc_code: "15-1252.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Software Engineer (Backend, Senior)
@@ -64,9 +68,26 @@ Precise and low-drama. States assumptions explicitly ("assuming p99 latency budg
 
 ## Worked example
 
-A teammate proposes migrating a monolith's user-auth module to a separate microservice "for scalability." First-principles response: ask what's actually failing to scale today (is auth CPU-bound? is it a deploy-coupling problem? is it a team-ownership problem?). If the actual pain is deploy coupling (auth changes block unrelated releases), the fix might be a well-defined internal module boundary and independent deploy pipeline within the monolith — cheaper, reversible, and solves the real problem — rather than a network hop, a new failure mode (auth service down = everything down), and a new on-call burden, all justified by a scalability problem that doesn't exist yet.
+A teammate proposes migrating a monolith's user-auth module to a separate microservice "for scalability." First-principles response: ask what's actually failing to scale today (is auth CPU-bound? is it a deploy-coupling problem? is it a team-ownership problem?).
+
+**Step 1 — quantify the actual pain, not the assumed one.** Auth CPU usage is 4% of the monolith's total — not a capacity problem. But deploy logs show auth-module changes have blocked or delayed roughly **40 unrelated deploys/month** across other teams, each blocked deploy averaging a 45-minute delay while the auth change goes through its own review/rollout — the real pain is deploy coupling, not scale.
+
+**Step 2 — price the proposed fix (microservice extraction) against what it actually costs.** A network hop adds an estimated **+8ms p50 latency** to every request touching auth (measured against a comparable extracted service elsewhere in the org). It also introduces a failure mode that doesn't currently exist: auth service down means 100% of monolith requests fail, versus today's in-process failure being contained to what actually broke. A new standalone service needs its own on-call rotation — estimated at roughly 0.5 FTE of additional on-call burden, about **$65,000/year** allocated across the team.
+
+**Step 3 — price the alternative that addresses the actual pain (deploy coupling) directly.** A well-defined internal module boundary with an independent deploy pipeline *within* the monolith eliminates the 40 blocked deploys/month (each currently costing ~45 minutes of delay across the org, roughly 30 engineer-hours/month in aggregate delay), with **no added latency** (still in-process), **no new failure mode** (auth down still means "part of the monolith is broken," not "everything is down"), and **no new on-call rotation** ($0 marginal on-call cost).
+
+**Step 4 — decide.** The module-boundary fix solves the actual, quantified problem (deploy coupling, ~30 engineer-hours/month recovered) at zero latency cost, zero new failure mode, and zero new on-call burden — versus the microservice's +8ms latency, a new all-or-nothing failure mode, and $65,000/year in on-call cost, justified by a scalability problem (4% CPU) that doesn't exist yet.
+
+**Deliverable (architecture decision record, quoted):**
+> **Decision: implement auth as an internal module with an independent deploy pipeline, not a separate microservice.** Root cause of the reported pain is deploy coupling (40 blocked deploys/month, ~30 engineer-hours/month lost), not compute scale (auth is 4% of monolith CPU). The module-boundary fix eliminates the blocking pattern with no added latency, no new all-or-nothing failure mode, and no new on-call cost — versus the microservice option's +8ms p50 latency and ~$65,000/year in additional on-call burden. Revisit microservice extraction if and when a real scale constraint (not deploy coupling) actually materializes.
 
 **Complexity has to live somewhere.** Product asks for a discount-code system that supports "any promotion the business might dream up" — percentage off, BOGO, tiered thresholds, stacking rules, expiry windows, more later. First-principles response: this complexity is real (the business genuinely wants flexible promotions), so the question isn't whether to build for it, it's where it should live. Building a fully generic rules engine — an internal DSL or rule interpreter — pushes the complexity into code: it becomes something engineers must design, test, secure against, and maintain indefinitely, and something non-engineers can never safely change without a deploy. Pushing it into configuration instead — a declarative schema where percentage/BOGO/tiered rules are typed data, not an interpreted language — puts the complexity where it can be validated, versioned, diffed in a PR, and read by finance or support without touching code. The team ships the configuration-driven version scoped to the promotion types the business actually runs today (checked against Sales, not guessed), not a speculative generic engine for hypothetical future rule types. Same instinct as YAGNI applied one layer down: the complexity that's real gets a deliberate, inspectable home; the complexity that's only imagined doesn't get built at all.
+
+## Going deeper
+
+- [Engineering artifacts](references/artifacts.md) — filled architecture decision record, failure-mode enumeration, and rollback plan templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals a senior engineer notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
