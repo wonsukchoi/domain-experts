@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 19 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 18 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -38,7 +38,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ✅ | 11-3051.02 | Geothermal Production Managers | [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) |
 | ✅ | 11-3051.03 | Biofuels Production Managers | [`biofuels-production-manager`](./roles/biofuels-production-manager/SKILL.md) |
 | ✅ | 11-3051.04 | Biomass Power Plant Managers | [`biomass-power-plant-manager`](./roles/biomass-power-plant-manager/SKILL.md) |
-| ♻️ | 11-3051.06 | Hydroelectric Production Managers | [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) |
+| ✅ | 11-3051.06 | Hydroelectric Production Managers | [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) |
 | ♻️ | 11-3061.00 | Purchasing Managers | [`purchasing-manager`](./roles/purchasing-manager/SKILL.md) |
 | ♻️ | 11-3071.00 | Transportation, Storage, and Distribution Managers | [`transportation-storage-distribution-manager`](./roles/transportation-storage-distribution-manager/SKILL.md) |
 | ♻️ | 11-3071.04 | Supply Chain Managers | [`supply-chain-manager`](./roles/supply-chain-manager/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**19 roles awaiting upgrade:**
+**18 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`hydroelectric-production-manager`](./roles/hydroelectric-production-manager/SKILL.md) | operations |
 | [`industrial-production-manager`](./roles/industrial-production-manager/SKILL.md) | operations |
 | [`investment-fund-manager`](./roles/investment-fund-manager/SKILL.md) | finance |
 | [`legislator`](./roles/legislator/SKILL.md) | operations |

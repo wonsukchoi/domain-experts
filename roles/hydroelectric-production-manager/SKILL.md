@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Hydroelectric Production Ma
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3051.06"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Hydroelectric Production Manager
@@ -62,7 +66,24 @@ Frames operating decisions in terms of the full set of competing water-use oblig
 
 ## Worked example
 
-A drier-than-normal spring reduces reservoir inflow, and generation targets for the summer (a high-value period for power prices) are at risk of being missed unless more water is released from storage sooner than the standard operating plan calls for, potentially conflicting with irrigation delivery commitments and minimum ecological flow requirements later in the season. First-principles handling: don't prioritize the generation target as the default objective — model the reservoir's position against the full set of obligations (irrigation delivery schedule, ecological minimum flow requirements later in the season, any remaining flood-control considerations) under the actual observed dry-scenario inflow, not the original median-case operating plan. If drawing down the reservoir now to hit summer generation targets would create a real risk of failing irrigation or ecological flow commitments later in the season, the correct response is communicating the tradeoff explicitly to stakeholders and adjusting the generation expectation for this specific dry year, rather than treating power output as the objective to protect at the expense of the other legally and operationally binding water-use commitments.
+**Situation:** A drier-than-normal spring leaves the reservoir at 280,000 acre-feet against a 500,000 acre-foot capacity and a historical median of 360,000 acre-feet for this date (78% of normal). The proposed summer generation plan calls for drawing down 200,000 acre-feet to capture high summer power prices. Remaining seasonal obligations: 150,000 acre-feet contracted irrigation delivery (June-September) and a 40 cfs minimum ecological flow requirement, equivalent to roughly 11,600 acre-feet over the same 4-month window. Flood control storage isn't binding this time of year (post spring flood season).
+
+**Step 1 — total the binding legal obligations before considering generation.** Irrigation (150,000 AF) + ecological minimum flow (11,600 AF) = **161,600 acre-feet** the reservoir must retain and release on schedule regardless of the generation plan.
+
+**Step 2 — check what's actually available for generation above those obligations.** Current storage (280,000 AF) − binding obligations (161,600 AF) = **118,400 acre-feet** available for generation-driven drawdown.
+
+**Step 3 — compare to the proposed plan.** The proposed 200,000 AF drawdown exceeds the 118,400 AF actually available by **81,600 acre-feet** — meeting the original generation target as proposed would draw directly into water legally committed to irrigation delivery or the ecological minimum flow, not a discretionary buffer.
+
+**Step 4 — price the tradeoff of capping drawdown at what's actually available.** At an estimated $45 of generation revenue per acre-foot released, the originally proposed 200,000 AF drawdown would generate approximately $9,000,000; capping at the available 118,400 AF generates approximately **$5,328,000** — a **$3,672,000** revenue shortfall against the original target, but the number that reflects what can actually be released without violating irrigation or ecological commitments.
+
+**Deliverable (reservoir operations memo, quoted):**
+> **Recommendation: cap summer generation drawdown at 118,400 acre-feet, not the originally targeted 200,000.** Current storage (280,000 AF) minus binding seasonal obligations (150,000 AF irrigation + 11,600 AF ecological minimum flow = 161,600 AF) leaves only 118,400 AF available for generation this year, given actual dry-year inflow rather than the median-case plan. Meeting the original 200,000 AF target would draw 81,600 AF directly out of contracted irrigation delivery or the ecological minimum flow requirement — not an option. This caps projected summer generation revenue at approximately $5.33M against an originally hoped-for $9M; that $3.67M gap is the real cost of this dry year and should be communicated to leadership now, not discovered as a mid-season delivery or compliance failure.
+
+## Going deeper
+
+- [Reservoir operations artifacts](references/artifacts.md) — filled multi-objective water balance, scenario planning table, and dam safety monitoring checklist.
+- [Red flags & diagnostics](references/red-flags.md) — signals a production manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
