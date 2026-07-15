@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Fundraising Manager (nonpro
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-2033.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Fundraising Manager (Nonprofit Development)
@@ -62,7 +66,24 @@ Leads with the donor's interests and the specific outcome their gift would enabl
 
 ## Worked example
 
-A large foundation offers a substantial multi-year grant, but it's tightly restricted to a specific program the organization runs at a much smaller scale than the grant would fund, with detailed quarterly reporting requirements. First-principles handling: don't evaluate this purely by the headline dollar amount — check whether scaling that specific program to absorb the grant aligns with organizational strategy, whether the reporting burden is sustainable given current staff capacity, and whether accepting it would create a cash-flow or staffing mismatch relative to the organization's actual current priorities. If the fit is poor, the right move may be negotiating modified terms with the funder, proposing a different program for the grant, or in some cases declining — accepting misaligned restricted funding just to hit a fundraising target can leave the organization in a worse operational position than turning it down or renegotiating would have.
+**Situation:** A foundation offers a $2.4M grant over 3 years ($800,000/year), restricted to a youth mentoring program the organization currently runs at $350,000/year serving 200 youth ($1,750/youth). The grant's funding model assumes scaling to 500 youth/year, and caps administrative overhead reimbursement at 10% of the grant ($80,000/year). Quarterly detailed reporting is required.
+
+**Step 1 — check the program cost math against the funder's assumed scale, not just the headline dollar amount.** Scaling to 500 youth at the organization's actual current cost-per-youth ($1,750): 500 × $1,750 = **$875,000/year** required. The grant provides $800,000/year — a **$75,000/year program cost gap** the organization would need to cover from unrestricted funds.
+
+**Step 2 — check the overhead allowance against the organization's actual overhead rate.** The organization's real overhead rate is 18% ($144,000/year on an $800,000 program budget), but the grant caps reimbursable overhead at 10% ($80,000/year) — a **$64,000/year overhead gap**.
+
+**Step 3 — total the unrestricted-fund exposure and check it against actual capacity.** Total gap: $75,000 + $64,000 = **$139,000/year**, or $417,000 over the 3-year grant term. The organization's current uncommitted unrestricted fundraising capacity is $180,000/year — accepting the grant as offered would consume **77%** of that flexibility for three years, a real strategic tradeoff that shouldn't be made implicitly by just accepting the grant.
+
+**Step 4 — negotiate before accepting or declining.** Propose to the funder: (a) raise the overhead allowance to 15% ($120,000/year, cutting the overhead gap to $24,000/year) and (b) set the target scale at 450 youth/year instead of 500 (cost: $787,500/year, nearly covered by the $800,000 grant, cutting the program gap to roughly $12,500/year, assuming modest additional per-child costs at the lower volume). Negotiated total unrestricted-fund exposure: $24,000 + $12,500 = **$36,500/year** — 20% of current unrestricted capacity instead of 77%.
+
+**Deliverable (grant evaluation memo, quoted):**
+> **Recommendation: do not accept the grant as offered — return with a negotiated counter-proposal (15% overhead allowance, 450-youth target) before deciding.** As offered, this grant requires $139,000/year in unrestricted-fund backfill (77% of our current unrestricted capacity) once the true program cost and actual overhead rate are checked against the grant's terms, not just its $800,000/year headline figure. The negotiated version reduces that exposure to $36,500/year (20% of capacity) — a materially different and more sustainable commitment. If the funder won't move on either term, the grant should be declined or redirected to a different, better-matched program rather than accepted at a cost the organization's own unrestricted fundraising can't comfortably sustain for three years.
+
+## Going deeper
+
+- [Development artifacts](references/artifacts.md) — filled grant evaluation model, moves management plan, and stewardship calendar templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals a fundraiser notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
