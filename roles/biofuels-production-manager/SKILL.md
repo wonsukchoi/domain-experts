@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Biofuels Production Manager
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3051.03"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Biofuels Production Manager
@@ -62,7 +66,30 @@ Frames plant performance in the context of current commodity spread conditions, 
 
 ## Worked example
 
-A significant feedstock price spike compresses the plant's margin sharply, and there's pressure to run the plant harder (increase throughput) to try to make up lost margin through volume. First-principles handling: check whether running harder actually helps under a compressed-spread environment — if the spread itself has moved against the facility, producing more volume at a thinner or negative per-unit margin can make the overall financial position worse, not better, especially once the full input cost of pushing yield/throughput harder (energy, catalyst consumption, potential quality degradation) is accounted for. The more likely correct response is evaluating whether temporarily reducing throughput, adjusting the product/co-product mix to favor whichever has better relative economics under current conditions, or drawing on hedged positions (if any exist) is the better response to a margin compression that's fundamentally a market condition, not an operational problem that more production volume can fix.
+**Situation:** A dry-mill ethanol plant grinding 300,000 bu/day of corn. Corn spot price spikes from $4.50 to $5.80/bu. Ethanol holds at $2.10/gal, DDGS (distillers grains) at $180/ton. Standard conversion: 2.80 gal ethanol + 17 lb (0.0085 ton) DDGS per bushel. Plant had pre-hedged 40% of daily corn needs (120,000 bu) via forward contract at $4.60/bu before the spike; the remaining 180,000 bu/day is exposed to spot price.
+
+**Step 1 — margin per bushel at current throughput, using the blended (hedged + spot) corn cost.**
+Revenue/bu: (2.80 gal × $2.10) + (0.0085 ton × $180) = $5.88 + $1.53 = $7.41.
+Blended corn cost: (120,000 × $4.60 + 180,000 × $5.80) ÷ 300,000 = ($552,000 + $1,044,000) ÷ 300,000 = $5.32/bu.
+Other variable cost (energy, enzyme, chemicals): $1.35/bu.
+Margin/bu = $7.41 − $5.32 − $1.35 = **$0.74/bu**. Daily margin: 300,000 × $0.74 = **$222,000/day**.
+(Without the hedge, blended cost would be the full spot $5.80/bu, margin would fall to $7.41 − $5.80 − $1.35 = $0.26/bu, or $78,000/day — the hedge is worth $144,000/day at current volume.)
+
+**Step 2 — check the proposal to run 8% harder (324,000 bu/day) to recover margin through volume.** Pushing throughput past the plant's efficient operating point costs more per bushel in energy/enzyme (rises from $1.35 to $1.62/bu) and degrades ethanol yield slightly (2.80 → 2.75 gal/bu) — the diminishing/negative-returns pattern in first-principles #3.
+Revenue/bu at higher throughput: (2.75 × $2.10) + $1.53 = $5.775 + $1.53 = $7.305.
+Blended corn cost stays $5.32/bu (same hedge ratio, more spot volume: (120,000×$4.60+204,000×$5.80)/324,000 = $5.39/bu).
+Margin/bu = $7.305 − $5.39 − $1.62 = **−$0.10/bu**. Daily result: 324,000 × −$0.10 = **−$32,400/day**.
+
+**Step 3 — compare the two options.** Current throughput: +$222,000/day. Proposed 8%-harder throughput: −$32,400/day. Running harder turns a quarter-million-dollar daily profit into a daily loss — a $254,400/day swing in the wrong direction. Over a 30-day month that's the difference between +$6.66M and −$972,000.
+
+**Deliverable (operations memo, quoted):**
+> **Recommendation: hold current throughput at 300,000 bu/day. Do not increase to recover margin through volume.** At today's spread, current throughput nets $222,000/day (aided by the 40%-hedged corn book, worth $144,000/day versus fully-exposed spot). Running 8% harder degrades ethanol yield (2.80→2.75 gal/bu) and raises energy/enzyme cost (+$0.27/bu) enough to flip the per-bushel margin negative: −$0.10/bu, or −$32,400/day. The margin compression is a spread problem, not a throughput problem — more volume at a negative unit margin makes it worse, not better. Recommend extending the hedge on the remaining unhedged 180,000 bu/day exposure given the spread has moved this much against us.
+
+## Going deeper
+
+- [Production playbook](references/playbook.md) — filled spread-tracking, feedstock-variability response, and throughput-decision templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals a plant manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms generalists get wrong or use loosely.
 
 ## Sources
 
