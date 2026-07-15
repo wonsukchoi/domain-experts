@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a B2B sales account executive
 metadata:
   category: sales
   maturity: draft
+  spec: 2
   onet_soc_code: "41-4011.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Sales Account Executive (B2B)
@@ -64,9 +68,33 @@ Leads with the buyer's stated business outcome, not the product's feature set. A
 
 ## Worked example
 
-A prospect says the price is too high after a demo that seemed to go well. First-principles handling: don't counter with a discount immediately. Ask what specifically is driving the price concern — compared to what alternative, and what would need to be true for the price to feel justified. It may surface that the actual issue isn't the price but that the champion hasn't yet built internal confidence in the ROI case to defend it to their own finance team — in which case the right move is helping build that business case together (quantifying the cost of the current problem against the price), not cutting the price, which wouldn't have fixed the actual blocker and would have set a bad precedent for the relationship.
+**Situation 1 — price objection.** A prospect says the price ($85,000/year) is too high after a demo that seemed to go well. The champion's stated current problem: 3 FTEs doing manual reconciliation ($65,000 loaded cost each = $195,000/year) plus an estimated $145,000/year in error-related rework — a stated total cost of the status quo of $340,000/year.
 
-It's the last week of the quarter and a $200K deal is sitting in "best-case" on the forecast. Sales leadership is pushing to see it as "commit" so the team number looks better in the exec review. First-principles handling: check the actual evidence — is there a signed mutual action plan, has the economic buyer engaged directly, is procurement actually running paper, or is the only signal a champion saying "I think we're good"? Here, the champion is enthusiastic but has never gotten the economic buyer on a call, and there's no paper in motion. Calling this "commit" isn't rounding up, it's fabricating a data point leadership will plan around (headcount, board commentary, next quarter's number). The honest move is to forecast it as best-case, name the specific gap ("no economic buyer engagement yet"), and say what would have to happen this week to justify moving it up. What actually happens: leadership is unhappy in the moment because the team number looks worse, but when the deal slips two weeks — as the missing economic-buyer signal predicted — the rep's forecast is the one leadership trusts next quarter, and the ones who called everything "commit" get their calls discounted by managers going forward regardless of the actual evidence, which is a worse long-term position to negotiate quota and support from.
+**Step 1 — check the payback math before assuming price is the real blocker.** $85,000 cost against $340,000 in stated annual savings implies a payback of roughly 3 months ($85,000 ÷ $340,000 × 12) — already well under the finance team's stated 12-month approval threshold. If the math already clears the bar, "too expensive" likely isn't about the number itself.
+
+**Step 2 — ask what's actually driving the objection rather than countering with a discount.** It surfaces that the champion hasn't gotten finance to independently validate the $145,000 rework estimate — it's a vendor-supplied number, and the champion doesn't yet have the internal confidence to defend it to their own finance team.
+
+**Step 3 — help build a finance-validated version of the business case instead of discounting.** Finance audits the rework estimate using their own incident data and revises it down to a more conservative $95,000/year (still real, just lower and now finance-owned). Revised total savings: $195,000 + $95,000 = $290,000/year. Revised payback: $85,000 ÷ $290,000 × 12 ≈ **3.5 months** — still comfortably under the 12-month threshold, but now a number the champion can defend internally because finance validated it themselves.
+
+**Deliverable (joint ROI one-pager, quoted):**
+> **Current cost of manual reconciliation: $195,000/year (3 FTE) + $95,000/year (finance-validated rework cost) = $290,000/year. Proposed solution cost: $85,000/year. Payback: 3.5 months.** Rework estimate validated by [Finance contact] against Q2-Q3 incident data, not vendor-supplied.
+
+**Situation 2 — forecast integrity under pressure.** Last week of the quarter, a $200K deal sits in "best-case." Leadership wants it called "commit" for the exec review. Evidence: no signed mutual action plan, no economic buyer engagement, no procurement paper in motion — only a champion saying "I think we're good."
+
+**Step 1 — check the evidence against what "commit" actually requires**, not against how enthusiastic the champion sounds. None of the three concrete commit signals (mutual action plan, economic buyer engagement, procurement paper) are present.
+
+**Step 2 — call it what the evidence supports, and name the specific gap.** Calling this "commit" isn't rounding up optimistically — it's a fabricated data point leadership will plan headcount and board commentary around.
+
+**Deliverable (forecast note, quoted):**
+> **$200K deal — forecast category: best-case, not commit.** Gap: no economic buyer engagement yet, no procurement process started. What would move this to commit this week: a call with the economic buyer and a signed mutual action plan with dated next steps. Without those, I'd put close probability this quarter at 40%, not the 90%+ "commit" would imply.
+
+What actually happens: leadership is unhappy in the moment because the team number looks worse, but when the deal slips two weeks — exactly as the missing economic-buyer signal predicted — the rep's forecast is the one leadership trusts next quarter, while forecasts that called everything "commit" get discounted by managers regardless of the evidence behind them going forward.
+
+## Going deeper
+
+- [Deal artifacts](references/artifacts.md) — filled MEDDIC qualification, ROI/business case, and mutual action plan templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals an AE notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

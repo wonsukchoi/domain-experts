@@ -16031,14 +16031,18 @@
       "description": "Use when a task needs the judgment of a B2B sales account executive \u2014 qualifying a deal, handling objections, negotiating terms, forecasting pipeline, or deciding whether/how to pursue an opportunity.",
       "category": "sales",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "41-4011.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/sales-account-executive/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

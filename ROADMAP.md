@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 10 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 9 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -766,7 +766,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ✅ | 41-3031.00 | Securities, Commodities, and Financial Services Sales Agents | [`securities-sales-agent`](./roles/securities-sales-agent/SKILL.md) |
 | ✅ | 41-3041.00 | Travel Agents | [`travel-agent`](./roles/travel-agent/SKILL.md) |
 | ✅ | 41-3091.00 | Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel | [`services-sales-representative`](./roles/services-sales-representative/SKILL.md) |
-| ♻️ | 41-4011.00 | Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products | [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) |
+| ✅ | 41-4011.00 | Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products | [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) |
 | ✅ | 41-4011.07 | Solar Sales Representatives and Assessors | [`solar-sales-assessor`](./roles/solar-sales-assessor/SKILL.md) |
 | ✅ | 41-4012.00 | Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products | [`wholesale-sales-representative`](./roles/wholesale-sales-representative/SKILL.md) |
 | ✅ | 41-9011.00 | Demonstrators and Product Promoters | [`product-demonstrator`](./roles/product-demonstrator/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**10 roles awaiting upgrade:**
+**9 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`sales-account-executive`](./roles/sales-account-executive/SKILL.md) | sales |
 | [`sales-manager`](./roles/sales-manager/SKILL.md) | sales |
 | [`security-manager`](./roles/security-manager/SKILL.md) | operations |
 | [`software-engineer`](./roles/software-engineer/SKILL.md) | engineering |
