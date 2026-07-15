@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Training and Development Ma
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3131.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Training and Development Manager
@@ -62,7 +66,26 @@ Frames a training proposal in terms of the specific behavior change and business
 
 ## Worked example
 
-A sales team is missing targets, and leadership requests a sales skills training program as the fix, assuming reps need better technique. First-principles handling: before designing a training curriculum, diagnose the actual cause — pull data on where deals are stalling and talk to reps and managers about what's actually happening. If the real issue is that reps have adequate skill but face unclear qualification criteria, an overloaded pipeline tool, or a compensation structure that doesn't reward the right behaviors, a skills training program will not move the target-miss problem regardless of how well it's delivered, because it's solving a skill gap that doesn't actually exist. The correct response, if the diagnosis points to a systems or incentive issue, is recommending against the training request as framed and instead addressing the process or incentive misalignment directly — a harder conversation to have than simply agreeing to build the requested program, but the only one that actually fixes the stated problem.
+**Situation:** A 15-rep sales team is missing quarterly target by 22% ($1.1M shortfall against $5M). Leadership requests a sales skills training program, assuming reps need better technique. Proposed program cost: $45,000 (2-day workshop — $27,000 vendor/facilitation + 15 reps × 16 hours × $75/hour opportunity cost = $18,000 in lost selling time).
+
+**Step 1 — check whether close rate (the skill-sensitive metric) actually declined before assuming a skill gap.** Close rate is steady at 28%, within the team's historical 26-30% range — no evidence of a skill decline.
+
+**Step 2 — check what actually changed.** New opportunities created per rep dropped from 14/month to 9/month (a 36% decline) starting 3 months ago, coinciding with a CRM migration that added 12 extra data-entry fields per opportunity — roughly 15 extra minutes of admin time per deal logged, cutting directly into prospecting time.
+
+**Step 3 — diagnose this as a systems gap, not a skill gap.** Stable close rate + declining opportunity volume, tracing to a specific process change (CRM field bloat), points to a systems/process cause — training on selling technique wouldn't address reduced prospecting time caused by administrative overhead.
+
+**Step 4 — price the systems fix against the proposed training cost.** Simplifying the CRM back to 6 essential fields: **$6,500 one-time IT cost**, projected to recover most of the lost prospecting time and restore opportunity volume from 9 to roughly 13/month per rep (partial recovery, not full).
+
+**Step 5 — quantify the expected revenue impact of the systems fix versus the training program's likely impact.** Recovering 4 opportunities/rep/month × 15 reps × $18,000 average deal size × 28% close rate = **$302,400/month in recovered expected revenue** — from a $6,500 fix. The $45,000 training program would have targeted close rate, which isn't the actual problem, and would be expected to produce little to no improvement in the metric that's actually driving the shortfall (opportunity volume).
+
+**Deliverable (training-request diagnosis memo, quoted):**
+> **Recommendation: do not build the requested sales skills training program. Fix the CRM field bloat instead ($6,500 one-time), not a $45,000 training curriculum.** Close rate (28%) is stable and in line with historical range — this isn't a skill gap. Opportunity volume dropped 36% (14→9/rep/month) coinciding with a CRM migration that added 12 extra fields per deal, cutting prospecting time. Simplifying the CRM is projected to recover most of that volume, worth an estimated $302,400/month in expected revenue — a systems fix, not a training investment, is what actually addresses this shortfall.
+
+## Going deeper
+
+- [Learning program artifacts](references/artifacts.md) — filled skill/will/systems diagnosis worksheet, Kirkpatrick evaluation plan, and reinforcement design template.
+- [Red flags & diagnostics](references/red-flags.md) — signals a training manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
