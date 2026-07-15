@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of an Industrial Production Mana
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3051.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Industrial Production Manager
@@ -62,7 +66,26 @@ Direct and specific about safety and quality issues — doesn't soften a genuine
 
 ## Worked example
 
-A production line is missing its daily output target, and the instinct is to run the final assembly station faster since it's the most visible, most recently problematic step. First-principles handling: before speeding up final assembly, map the actual flow to find the true bottleneck — if work-in-progress inventory is piling up in front of a different, upstream station (a sign that station is the actual constraint), speeding up final assembly won't increase total output at all, it will just accumulate more unfinished inventory in front of the real bottleneck while potentially increasing defect risk at the station being rushed. The correct diagnostic step is identifying where inventory is actually accumulating before committing to any specific station's speed as the fix, since optimizing the wrong station produces the appearance of action without moving the actual output number.
+**Situation:** A 5-station line is missing its 1,200 units/day target, running 980 units/day (82% of target). The instinct is to speed up Station 5 (final assembly), the most visible and recently problematic step.
+
+**Step 1 — check station capacities before committing to a fix.** Per-day capacity at each station (8-hour shift): Station 1 (prep) 1,400, Station 2 (subassembly) 1,280, Station 3 (core assembly) **976**, Station 4 (QC/test) 1,240, Station 5 (final assembly) 1,120. Station 3 is the lowest-capacity step — the actual bottleneck.
+
+**Step 2 — confirm with WIP data, not just the capacity table.** Work-in-progress inventory measured immediately upstream of Station 3: 340 units queued, growing +15 units/day — exactly the signature of a bottleneck (inventory piles up right before the true constraint). No comparable pileup exists in front of Station 5.
+
+**Step 3 — check that the bottleneck's capacity explains the actual output.** Station 3's 976 units/day capacity almost exactly matches the observed 980 units/day actual output — confirming Station 3, not Station 5, is what's actually capping the line.
+
+**Step 4 — price the proposed fix (speeding up Station 5) against this finding.** Adding overlap-shift labor at Station 5 would raise its capacity from 1,120 to 1,400/day at a cost of $340/day — but since Station 3 caps total output at 976/day regardless, this investment produces **zero increase in finished output**; it only shifts WIP buildup to a different point in the line. $340/day spent for no output gain.
+
+**Step 5 — price the fix that actually addresses the bottleneck.** A second fixture at Station 3 (one-time capital cost $28,000) is projected to raise its capacity from 122/hr (976/day) to 150/hr (1,200/day) — closing the gap to the 1,200/day target exactly. At a $18/unit margin, the additional 220 units/day (1,200 − 980) generates $3,960/day in additional margin. Payback: $28,000 ÷ $3,960/day ≈ **7.1 days**.
+
+**Deliverable (capacity investment recommendation, quoted):**
+> **Recommendation: fund the $28,000 second fixture at Station 3, not the $340/day overtime addition at Station 5.** Station 3 is the confirmed bottleneck (976 units/day capacity, matching actual output almost exactly, with WIP piling up directly upstream of it) — Station 5 has never been the constraint. The Station 3 fixture raises capacity to 1,200/day, meeting the target, with a 7.1-day payback at current margins. Speeding up Station 5 as originally proposed would have cost $340/day in overtime for zero change in finished output.
+
+## Going deeper
+
+- [Production diagnostic artifacts](references/artifacts.md) — filled bottleneck analysis, OEE model, and cost-of-quality worksheet.
+- [Red flags & diagnostics](references/red-flags.md) — signals a production manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
