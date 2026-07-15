@@ -5214,14 +5214,18 @@
       "description": "Use when a task needs the judgment of a Postsecondary Education Administrator (dean, department chair, provost-level, or program director) \u2014 making a program/curriculum decision, managing faculty and enrollment/budget tradeoffs, evaluating an accreditation or academic policy issue, or balancing academic mission against institutional financial sustainability.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-9033.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/education-administrator-postsecondary/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

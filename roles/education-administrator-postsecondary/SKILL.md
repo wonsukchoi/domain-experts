@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Postsecondary Education Adm
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-9033.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Education Administrator (Postsecondary)
@@ -62,7 +66,24 @@ Builds consensus through genuine engagement with faculty governance processes ra
 
 ## Worked example
 
-A well-regarded but low-enrollment academic program faces a budget review, and there's pressure to close it quickly given its financial drag on the department, while faculty in the program argue its disciplinary and institutional prestige value justifies continued investment despite low enrollment. First-principles handling: this decision needs an explicit, not implicit, resolution of the tension between enrollment reality and academic/mission value — rather than either closing it unilaterally without genuine faculty engagement, or continuing to subsidize it indefinitely without a deliberate decision and clear criteria for continued support. The right process engages faculty governance genuinely in evaluating both the enrollment data and the program's actual strategic/mission value (does it serve a foundational role, a unique institutional differentiator, a pipeline for other stronger programs), reaches an explicit decision about whether and on what terms continued subsidy makes sense, and if closure is the ultimate outcome, follows an appropriate process and timeline that respects any tenure/academic freedom considerations for affected faculty rather than treating it as a straightforward business unit closure.
+**Situation:** The Classics department has 22 declared majors, down from 45 a decade ago, and faces budget-review pressure to close given its apparent "financial drag." Direct cost (3 tenured faculty + share of admin overhead): $620,000/year.
+
+**Step 1 — check the actual revenue picture, not just the major count.** Major count is the wrong denominator for a financial argument — most of the department's teaching load comes from non-majors fulfilling a general-education distribution requirement. The department teaches 18 course sections/year averaging 15 students each = 270 total student enrollments, at $950/credit-hour × 3 credit hours = $2,850 per student per course. Total tuition-attributable revenue: 270 × $2,850 = **$769,500**.
+
+**Step 2 — compute the actual contribution margin.** $769,500 revenue − $620,000 direct cost = **+$149,500 net contribution margin**. The department is not actually a financial drag once real credit-hour production is counted — the "closing it saves money" framing was built on the wrong number (major count) rather than the number that actually determines financial contribution (total enrollments taught).
+
+**Step 3 — separately evaluate the major-decline trend and mission value**, since the financial question and the enrollment-trend question are different questions. Majors dropping from 45 to 22 over a decade is a real trend worth addressing regardless of the (positive) financial picture. The department also serves as a prerequisite pipeline for 12 cross-enrolled Linguistics/Philosophy students/year and fulfills a core distribution requirement 5 other majors' curricula rely on — real strategic value beyond its own major count.
+
+**Step 4 — bring both findings to faculty governance for an explicit decision**, rather than closing based on the (incorrect) financial premise or continuing indefinitely with no plan for the major-decline trend. Faculty governance proposes a curriculum modernization (2 new cross-listed courses targeting the Linguistics/Philosophy pipeline) and sets explicit review triggers: formal governance review if majors drop below 10, or if net contribution margin turns negative for 2 consecutive years.
+
+**Deliverable (program review memo, quoted):**
+> **Recommendation: do not close the Classics department. The "financial drag" premise was based on major count (22, down from 45); the actual contribution margin, measured on total credit-hour production including gen-ed enrollment, is +$149,500/year.** The major-decline trend is real and being addressed separately through a faculty-governance-approved curriculum modernization, with explicit review triggers set: a formal governance review is required if majors fall below 10 or if net contribution margin turns negative for 2 consecutive years. This keeps the financial question and the enrollment-trend question distinct, and gives faculty a specific, agreed-upon basis for the next review rather than an open-ended subsidy or an unplanned closure.
+
+## Going deeper
+
+- [Program viability artifacts](references/artifacts.md) — filled contribution-margin model, shared-governance decision log, and accreditation-vs-quality tracker.
+- [Red flags & diagnostics](references/red-flags.md) — signals an administrator notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
