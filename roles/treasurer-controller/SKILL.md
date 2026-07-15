@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a senior Treasurer or Control
 metadata:
   category: finance
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3031.01"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Treasurer / Controller (Senior)
@@ -62,7 +66,24 @@ To the audit committee/board: transparent about judgment calls, uncertain estima
 
 ## Worked example
 
-A debt covenant requires maintaining a minimum liquidity ratio, and a forecasted slower quarter would bring the company close to, but not below, that threshold. First-principles handling: don't wait until the quarter-end reporting to discover the proximity to the covenant — treat covenant headroom as a leading indicator to monitor continuously, and once the forecast shows the cushion shrinking meaningfully, proactively engage the lender well before the threshold is actually tested. This might mean negotiating covenant terms, arranging additional liquidity, or adjusting near-term cash management — all of which are far easier and cheaper conversations to have proactively, using the relationship capital built during stable periods, than reactively explaining a near-breach after the fact when the lender has less reason to be accommodating.
+**Situation:** A $40M term loan carries a covenant requiring a minimum current ratio (current assets/current liabilities) of 1.25x. The ratio has been trending down: 1.45x (Q1), 1.38x (Q2), and the Q3 forecast shows **1.28x** — still above the 1.25x threshold, but with only 0.03x of headroom.
+
+**Step 1 — check whether 0.03x of headroom is actually safe, not just technically above the line.** Historical quarter-to-quarter ratio swings from normal working capital fluctuation have run ±0.08x — more than double the current headroom. A forecast that clears the covenant by less than the ratio's normal noise band isn't a safe margin; it's a coin flip on an actual breach.
+
+**Step 2 — identify what's driving the shrinking ratio, not just the number itself.** A large customer's DSO has stretched from 45 to 62 days (delayed payment), and a $3M capex commitment is due mid-quarter — the 13-week rolling cash forecast shows cash dropping from $12M to $8.5M over the quarter, the direct driver of the tightening ratio.
+
+**Step 3 — price the proactive fix against the cost of a reactive breach.** Drawing $2M from an existing, unused $10M revolving credit facility boosts current assets enough to bring the forecast ratio to roughly 1.34x — comfortably clear of both the 1.25x covenant and the historical ±0.08x noise band. Cost: ~5.5% annual interest on $2M, prorated for the quarter ≈ **$27,500**.
+
+**Step 4 — compare against what a reactive breach typically costs.** An actual covenant breach triggers renegotiation from a position of weakness — historically resulting in materially worse terms (an estimated 150-200 basis point rate increase on the full $40M term loan = **$600,000-$800,000/year** in increased interest cost), plus relationship damage that reduces future flexibility.
+
+**Deliverable (treasury action memo, quoted):**
+> **Recommendation: draw $2M from the revolver now, proactively, to bring the covenant ratio from a forecast 1.28x to approximately 1.34x.** Current 0.03x forecast headroom is smaller than the ratio's normal ±0.08x quarter-to-quarter noise — a real, quantifiable breach risk, not a comfortable margin. The proactive draw costs approximately $27,500 for the quarter, versus an estimated $600,000-$800,000/year in increased interest cost if an actual breach forces renegotiation from a weaker position. Lender relationship has also been informed proactively of the DSO-driven tightness, ahead of any covenant test, consistent with maintaining relationship capital before it's needed under pressure.
+
+## Going deeper
+
+- [Treasury & controllership artifacts](references/artifacts.md) — filled covenant headroom tracker, liquidity ladder model, and audit-issue disclosure log.
+- [Red flags & diagnostics](references/red-flags.md) — signals a treasurer/controller notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
