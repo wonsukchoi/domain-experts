@@ -4689,14 +4689,18 @@
       "description": "Use when a task needs the judgment of a DevOps/Site Reliability Engineer \u2014 designing deployment pipelines, setting SLOs/error budgets, responding to or reviewing an incident, or making infrastructure/reliability tradeoffs. Distinct from a backend software engineer role \u2014 this one owns the system's operational health across all services, not one service's feature code.",
       "category": "engineering",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": null,
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/devops-sre/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

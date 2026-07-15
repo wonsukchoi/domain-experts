@@ -4,6 +4,10 @@ description: Use when a task needs the judgment of a DevOps/Site Reliability Eng
 metadata:
   category: engineering
   maturity: draft
+  spec: 2
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # DevOps / Site Reliability Engineer
@@ -62,7 +66,22 @@ During an incident: terse, factual, timestamped updates on status and impact —
 
 ## Worked example
 
-A service's SLO is 99.9% monthly availability; the team has burned 80% of this month's error budget after a rough week, and product wants to ship a moderately risky feature (a new caching layer) before quarter-end. First-principles handling: state the error-budget math plainly — at current burn rate, shipping additional risk this month likely breaches the SLO, which has real downstream cost (support load, enterprise SLA penalties, user trust). The response isn't a blanket "no" — it's proposing the feature ship behind a flag to a small canary percentage first, instrumented with the four golden signals, with an explicit rollback trigger defined in advance, so the risk is bounded and visible rather than accepted wholesale during an already-degraded month.
+**Situation:** SLO is 99.9% monthly availability = 43.2 minutes of allowed downtime for a 30-day month (30 × 24 × 60 × 0.001). The team has burned 80% of this month's budget (34.56 minutes), leaving **8.64 minutes** for the remaining 10 days. Product wants to ship a moderately risky new caching layer before quarter-end. Historical data on similarly-scoped "moderately risky" changes: they cause a customer-facing incident about 15% of the time, averaging 12 minutes of degraded availability when they do fail.
+
+**Step 1 — check the naive expected-value math, then check why it's the wrong basis for the decision.** Expected downtime if deployed fleet-wide: 0.15 × 12 minutes = 1.8 minutes — looks like it fits inside the 8.64-minute remaining budget. But expected value hides the tail: in the 15% case where it does fail, the full 12-minute impact lands all at once, blowing through the remaining 8.64-minute budget and breaching the SLO for the month. A single bad outcome, not the average, is what determines whether the SLO is actually met.
+
+**Step 2 — bound the blast radius instead of accepting the fleet-wide gamble.** Canary at 5% of traffic, with the four golden signals instrumented and an automatic rollback trigger (error rate exceeding threshold for 5 minutes sustained). If the failure mode occurs during the canary stage, exposure is bounded to roughly 5% of users for a maximum 10-minute detection-and-rollback window — a user-minute-weighted contribution of about 10 × 0.05 = **0.5 minutes** against the SLO, comfortably inside the 8.64-minute remaining budget even in the failure case.
+
+**Step 3 — define the progressive rollout stages and gates.** 5% → 25% → 50% → 100%, each stage held for a 2-hour observation window, with the same automatic rollback trigger active at every stage — only proceeding to the next stage if error budget consumption at the current stage stays within a pre-set sub-allocation (e.g., no more than 2 minutes of budget consumed across the whole rollout before reaching 100%).
+
+**Deliverable (deploy risk decision, quoted):**
+> **Decision: ship the caching layer via staged canary (5% → 25% → 50% → 100%, 2-hour observation windows, automatic rollback on sustained error-rate breach) — not a direct fleet-wide deploy.** Current error budget: 8.64 minutes remaining this month. A direct deploy's expected downtime (1.8 min) looks safe on average, but the 15% failure case consumes the full remaining budget in one incident. The 5% canary bounds worst-case exposure to roughly 0.5 minutes of budget-equivalent impact, preserving enough margin to still ship this month without betting the SLO on a single all-or-nothing rollout.
+
+## Going deeper
+
+- [SRE operational artifacts](references/artifacts.md) — filled error-budget worksheet, canary rollout plan, and blameless postmortem template.
+- [Red flags & diagnostics](references/red-flags.md) — signals an SRE notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
