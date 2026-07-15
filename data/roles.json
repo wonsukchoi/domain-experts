@@ -6558,14 +6558,18 @@
       "description": "Use when a task needs the judgment of a corporate/investment financial analyst \u2014 building or reviewing financial models, evaluating whether a business decision makes financial sense, interpreting financial statements, or assessing an investment/budget tradeoff.",
       "category": "finance",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "13-2051.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/financial-analyst/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a corporate/investment financ
 metadata:
   category: finance
   maturity: draft
+  spec: 2
   onet_soc_code: "13-2051.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Financial Analyst
@@ -67,6 +71,12 @@ Leads with the recommendation and the range, not the methodology. Surfaces the 2
 Leadership asks whether to approve a $3M investment in a new sales channel, based on a projection showing it pays back in 18 months. First-principles handling: before accepting the payback number, find the 2-3 assumptions it depends on (customer acquisition cost, close rate, average deal size) and check each against actual comparable data the company already has (existing channel CAC, historical close rates) rather than the numbers used in the pitch. Build a downside case using the worst historical performance seen in a comparable channel, not just a "-20% haircut" applied arbitrarily. If the downside case pushes payback past 4 years, the recommendation is "approve with a smaller pilot and a kill-switch metric," not a flat yes/no on the original ask — because the real decision is about how to de-risk the biggest uncertainty, not just whether the base case looks good.
 
 A SaaS company closes the quarter showing GAAP net income of +$400K — a "great quarter" by the P&L — while its cash balance has dropped by $600K over the same period. First-principles handling: profit is an opinion built on judgment calls (revenue recognized ratably over a contract term even though it was invoiced annually up front, sales commissions capitalized and amortized rather than expensed when paid, bad debt not yet written off), so a profitable income statement and a shrinking bank balance are not a contradiction — they're two different questions answered two different ways. Go straight to the cash flow statement instead of arguing with the P&L: operating cash flow is negative because accounts receivable grew faster than revenue (customers are being invoiced but not paying on time) and prepaid commission and deferred implementation costs consumed cash this quarter that the P&L spread over future periods. What actually happens: the analyst doesn't tell leadership the profit number is "wrong" — it isn't, by its own accounting logic — but reframes the real question as a cash and collections problem (rising DSO, a specific cohort of slow-paying accounts) and forecasts runway off the cash flow statement, not net income, because net income is the number that just told leadership things were fine.
+
+## Going deeper
+
+- [Modeling artifacts](references/artifacts.md) — filled DCF, sensitivity table, and variance analysis templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals an analyst notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

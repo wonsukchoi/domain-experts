@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 24 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 23 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -122,7 +122,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ✅ | 13-2023.00 | Appraisers and Assessors of Real Estate | [`real-estate-appraiser`](./roles/real-estate-appraiser/SKILL.md) |
 | ✅ | 13-2031.00 | Budget Analysts | [`budget-analyst`](./roles/budget-analyst/SKILL.md) |
 | ✅ | 13-2041.00 | Credit Analysts | [`credit-analyst`](./roles/credit-analyst/SKILL.md) |
-| ♻️ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
+| ✅ | 13-2051.00 | Financial and Investment Analysts | [`financial-analyst`](./roles/financial-analyst/SKILL.md) |
 | ✅ | 13-2052.00 | Personal Financial Advisors | [`personal-financial-advisor`](./roles/personal-financial-advisor/SKILL.md) |
 | ✅ | 13-2053.00 | Insurance Underwriters | [`insurance-underwriter`](./roles/insurance-underwriter/SKILL.md) |
 | ✅ | 13-2054.00 | Financial Risk Specialists | [`financial-risk-specialist`](./roles/financial-risk-specialist/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**24 roles awaiting upgrade:**
+**23 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`financial-analyst`](./roles/financial-analyst/SKILL.md) | finance |
 | [`fundraising-manager`](./roles/fundraising-manager/SKILL.md) | operations |
 | [`general-operations-manager`](./roles/general-operations-manager/SKILL.md) | operations |
 | [`geothermal-production-manager`](./roles/geothermal-production-manager/SKILL.md) | operations |
