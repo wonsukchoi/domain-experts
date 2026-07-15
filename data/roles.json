@@ -1770,14 +1770,18 @@
       "description": "Use when a task needs the judgment of a Biomass Power Plant Manager \u2014 running a biomass-fired power generation facility, managing fuel supply logistics and quality variability, evaluating combustion/efficiency problems, or balancing generation output against fuel cost and emissions constraints.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3051.04",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/biomass-power-plant-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
