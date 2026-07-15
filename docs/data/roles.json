@@ -8952,14 +8952,18 @@
       "description": "Use when a task needs the judgment of a Hydroelectric Production Manager \u2014 running a hydroelectric power facility, managing water resource allocation and reservoir levels, evaluating dam safety and equipment maintenance decisions, or balancing generation output against competing water uses (irrigation, flood control, ecological flow).",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-3051.06",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/hydroelectric-production-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
