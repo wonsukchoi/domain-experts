@@ -6,7 +6,7 @@ This is the checklist, not a commitment — it exists so contributors can see wh
 
 **Status legend:** ✅ drafted at current spec · ♻️ drafted, awaiting spec-2 upgrade (see [Spec-2 upgrade queue](#spec-2-upgrade-queue)) · *(blank)* not started
 
-**Progress: 927 / 1016 O*NET occupations drafted · 42 drafted roles awaiting spec-2 upgrade.**
+**Progress: 927 / 1016 O*NET occupations drafted · 41 drafted roles awaiting spec-2 upgrade.**
 
 Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (residual categories with no distinct practitioner to write) and 16 are group 55 military occupations (out of scope for this repo) — every other real, specific O*NET occupation is drafted.
 
@@ -117,7 +117,7 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 | ✅ | 13-1199.05 | Sustainability Specialists | [`sustainability-specialist`](./roles/sustainability-specialist/SKILL.md) |
 | ✅ | 13-1199.06 | Online Merchants | [`online-merchant`](./roles/online-merchant/SKILL.md) |
 | ✅ | 13-1199.07 | Security Management Specialists | [`security-management-specialist`](./roles/security-management-specialist/SKILL.md) |
-| ♻️ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
+| ✅ | 13-2011.00 | Accountants and Auditors | [`accountant-controller`](./roles/accountant-controller/SKILL.md) |
 | ✅ | 13-2022.00 | Appraisers of Personal and Business Property | [`personal-property-appraiser`](./roles/personal-property-appraiser/SKILL.md) |
 | ✅ | 13-2023.00 | Appraisers and Assessors of Real Estate | [`real-estate-appraiser`](./roles/real-estate-appraiser/SKILL.md) |
 | ✅ | 13-2031.00 | Budget Analysts | [`budget-analyst`](./roles/budget-analyst/SKILL.md) |
@@ -1218,11 +1218,10 @@ Of the 89 occupations not yet drafted, 73 are "All Other" catch-all codes (resid
 
 Roles drafted before the current spec — they lack the `references/` trio (deep-dive, `red-flags.md`, `vocabulary.md`) and the spec-2 SKILL.md structure. This queue is the standing TODO for upgrade sessions: pick the top unclaimed entry and follow the "Exact recipe for upgrading a legacy role to spec 2" in [CONTRIBUTING.md](./CONTRIBUTING.md). A role drops off this list automatically once its frontmatter says `spec: 2` and this script is re-run.
 
-**42 roles awaiting upgrade:**
+**41 roles awaiting upgrade:**
 
 | Repo role | Category |
 |---|---|
-| [`accountant-controller`](./roles/accountant-controller/SKILL.md) | finance |
 | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) | operations |
 | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) | marketing |
 | [`agricultural-manager`](./roles/agricultural-manager/SKILL.md) | operations |
@@ -1298,7 +1297,6 @@ Roles flagged `status: needs-refresh` in frontmatter — a periodic re-score aga
 
 | Repo role | Last audited | Audit score |
 |---|---|---|
-| [`accountant-controller`](./roles/accountant-controller/SKILL.md) | 2026-07-08 | 5/18 |
 | [`administrative-law-judge`](./roles/administrative-law-judge/SKILL.md) | 2026-07-08 | 13/18 |
 | [`administrative-services-manager`](./roles/administrative-services-manager/SKILL.md) | 2026-07-08 | 7/18 |
 | [`advertising-promotions-manager`](./roles/advertising-promotions-manager/SKILL.md) | 2026-07-08 | 5/18 |
