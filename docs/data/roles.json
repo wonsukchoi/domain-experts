@@ -2715,14 +2715,18 @@
       "description": "Use when a task needs the judgment of a Chief Sustainability Officer \u2014 evaluating an environmental/social initiative's business case, responding to ESG disclosure or regulatory requirements, assessing greenwashing risk, or prioritizing sustainability investments against their actual impact and cost.",
       "category": "operations",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-1011.03",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/chief-sustainability-officer/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
