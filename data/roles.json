@@ -213,17 +213,21 @@
     },
     {
       "slug": "advertising-promotions-manager",
-      "description": "Use when a task needs the judgment of an Advertising and Promotions Manager \u2014 planning a paid media campaign, briefing and evaluating creative, negotiating with agencies/media vendors, or deciding how to allocate a promotions budget across formats and timing. Narrower than the marketing-strategist role \u2014 this one owns campaign execution and media buying, not overall brand positioning.",
+      "description": "Use when a task needs the judgment of an Advertising and Promotions Manager \u2014 building a media plan backward from an objective and budget, briefing or evaluating creative against a brief, negotiating with agencies/media vendors, sanity-checking vendor-reported attribution, or reading a post-campaign debrief to separate delivery performance from response performance.",
       "category": "marketing",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-2011.00",
       "parent": null,
-      "status": "needs-refresh",
-      "last_audited": "2026-07-08",
-      "audit_score": 5,
+      "status": "active",
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/advertising-promotions-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
