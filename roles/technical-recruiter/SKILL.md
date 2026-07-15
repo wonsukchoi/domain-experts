@@ -4,6 +4,10 @@ description: Use when a task needs the judgment of a technical recruiter/talent 
 metadata:
   category: operations
   maturity: draft
+  spec: 2
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Technical Recruiter / Talent Acquisition Partner
@@ -61,7 +65,24 @@ Direct and transparent with candidates about process, timeline, and realistic ex
 
 ## Worked example
 
-A hiring manager asks to fill a senior engineering role "fast" and gives a requirements list that's really just a copy of the job description template with no specifics about what this particular team actually needs. First-principles handling: before sourcing a single candidate, get 20 minutes with the hiring manager to define the must-haves concretely — what has the team struggled with that this hire needs to solve, what does success look like in six months, which of the listed skills are truly non-negotiable versus nice-to-have. Sourcing against an unscoped requisition to satisfy the speed request would likely produce a funnel of technically-qualified candidates who get rejected late in the process for reasons that were never made explicit — which is slower and more frustrating for everyone, including the hiring manager, than the twenty minutes spent scoping the role properly up front.
+**Situation:** A hiring manager asks to fill a senior backend engineering role "fast," handing over a requirements list that's just the generic job description template with no team-specific detail. Under speed pressure, sourcing starts immediately against the unscoped requisition.
+
+**Step 1 — track what the unscoped path actually produces.** 45 candidates sourced, 18 phone-screened, 9 advanced to onsite. Of those 9, **5 (56%) are rejected late** — after the full onsite loop — for reasons that trace back to an unstated requirement (specifically, distributed-systems debugging experience the team actually needed but that never appeared in the requisition). Cost: 5 rejected onsites × 5 interviewers × 1 hour each = 25 interviewer-hours at a blended $120/hour cost = **$3,000 spent for zero hires**, and 6 weeks elapsed with the role still open.
+
+**Step 2 — get 20 minutes with the hiring manager to define the must-haves concretely** (what the team has struggled with, what success looks like at 6 months, which listed skills are truly non-negotiable) — the fix that should have happened before sourcing started.
+
+**Step 3 — re-run the funnel against the now-explicit bar.** 30 candidates sourced (more targeted), 14 phone-screened, 6 advanced to onsite. All 6 are evaluated against the now-explicit distributed-systems-debugging criterion; 2 clear hires are identified, and an offer is extended and accepted within 3 weeks of the scoping conversation. Interviewer cost: 6 onsites × 5 interviewers × 1 hour = 30 hours ($3,600) — but this time it produces an actual hire.
+
+**Step 4 — compare the two paths.** Unscoped path: $3,000 spent, 6 weeks elapsed, zero hires, requiring a full restart. Scoped path: $3,600 spent, 3 additional weeks, one hire made. The 20-minute scoping conversation is what separated a $3,000 sunk cost and a 6-week restart from a $3,600 process that actually closed.
+
+**Deliverable (requisition scoping note, quoted):**
+> **Before this role is re-sourced: must-haves confirmed with the hiring manager are (1) distributed-systems debugging experience — the specific gap the last funnel missed, (2) 5+ years backend, (3) on-call experience. Nice-to-haves (not disqualifying): specific language/framework experience, prior startup experience.** The prior funnel (45 sourced → 9 onsite → 5 late rejections) cost $3,000 in interviewer time with zero hires because this distinction was never made explicit before sourcing started. This scoping is the reason the second pass closed in 3 weeks instead of restarting the same unscoped cycle.
+
+## Going deeper
+
+- [Hiring process artifacts](references/artifacts.md) — filled requisition scoping template, funnel-comparison model, and structured scorecard.
+- [Red flags & diagnostics](references/red-flags.md) — signals a recruiter notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
