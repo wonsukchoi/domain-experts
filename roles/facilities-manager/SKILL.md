@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Facilities Manager — plan
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3013.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Facilities Manager
@@ -18,7 +22,7 @@ Owns the physical infrastructure that everything else in an organization sits in
 1. **Deferred maintenance is a loan against future budget, with compounding interest.** A building system problem addressed early is cheap; the same problem left to develop compounds — a small leak becomes structural water damage, a minor electrical issue becomes a fire risk — and the eventual cost, including any downtime, is reliably larger than the cost of timely attention.
 2. **Life-safety issues are non-negotiable and get resourced first, full stop.** Fire suppression, egress, structural integrity, and code compliance aren't tradeable against budget pressure the way a cosmetic upgrade is — the asymmetry of consequence (potential loss of life vs. a delayed nice-to-have) makes this a different category of decision, not just a higher-priority one.
 3. **A building's systems have a duty cycle and a failure curve, and waiting for failure to plan replacement is the most expensive strategy available.** Reactive replacement (after failure, often during peak-need conditions) costs more than planned replacement near end-of-life, both directly and through the disruption of unplanned downtime.
-4. **Space is a scarce, expensive resource that's easy to under-optimize because its cost is diffuse.** Underutilized square footage doesn't show up as an obvious line-item waste the way an unused software license might, but it's a real, ongoing cost — space planning should be revisited against actual utilization, not left as whatever was originally allocated.
+4. **Space is a scarce, expensive resource that's easy to under-optimize because its cost is diffuse.** Under-used square footage doesn't show up as an obvious line-item waste the way an unused software license might, but it's a real, ongoing cost — space planning should be revisited against actual usage, not left as whatever was originally allocated.
 5. **Vendor/contractor relationships for specialized systems carry real safety and liability exposure, not just a service-quality tradeoff.** A cut-rate contractor on fire suppression, electrical, or structural work creates a risk that doesn't show up until the one time it matters — this is a category where total-cost-of-ownership and credential/track-record diligence matter more than in most vendor decisions.
 
 ## Mental models & heuristics
@@ -62,7 +66,26 @@ Frames facilities investment in terms of risk avoided and cost of delay, since (
 
 ## Worked example
 
-An aging rooftop HVAC unit is still functioning but well past its typical service life, and replacing it now would be a significant capital expense during a tight budget year; the alternative is continuing to repair it as issues arise. First-principles handling: run the life-cycle cost comparison rather than deferring by default — an aging unit past its typical service life has rising failure probability and rising repair cost per incident, often including emergency service premiums and the disruption cost of an unplanned mid-season failure. If the life-cycle math favors planned replacement (very likely once repair frequency and emergency-service costs are accounted for), the recommendation is to fund the replacement now, framed to leadership with the compounding cost of continued deferral made explicit — rather than letting a tight budget year default into a strategy that reliably costs more later.
+**Situation:** A 25-ton rooftop HVAC unit is 18 years old (typical service life: 15 years). Repair costs over the last 3 years: $4,200, $7,800, $14,500 (this year, including 2 emergency service calls at a 1.75x rate premium) — a clearly rising trend. Replacement cost installed: $68,000. Budget is tight this year, and the instinct is to keep repairing rather than commit to the capital expense.
+
+**Step 1 — project the "keep repairing" path forward using the observed cost-escalation trend (~40%/year near end of life).** Year 4: ~$20,300. Year 5: ~$28,400. Year 6: ~$39,800, by which point the unit is likely to fail completely given the escalating repair frequency and severity. 3-year forward repair total (years 4-6): $20,300 + $28,400 + $39,800 = **$88,500**.
+
+**Step 2 — price the near-certain eventual failure and emergency replacement.** A mid-season complete failure typically carries a rush premium on replacement (~25%): $68,000 × 1.25 = **$85,000**, plus an estimated disruption cost of lost office productivity during the emergency install window (40 hours × $150/hour) = **$6,000**.
+
+**Step 3 — total the "keep repairing" path over the 6-year horizon.** $88,500 (repairs) + $85,000 (emergency replacement) + $6,000 (disruption) = **$179,500**.
+
+**Step 4 — total the "replace now" path over the same 6-year horizon.** $68,000 (planned replacement, no rush premium) + $7,200 (6 years of routine preventive maintenance on the new unit at $1,200/year) = **$75,200**.
+
+**Step 5 — compare.** $179,500 (keep repairing) − $75,200 (replace now) = **$104,300 in avoided cost** by replacing now rather than continuing to repair through an eventual emergency failure.
+
+**Deliverable (capital request memo, quoted):**
+> **Recommendation: fund the $68,000 rooftop HVAC replacement this budget cycle, not next.** Repair costs have risen from $4,200 to $14,500 over the last 3 years (including emergency-rate premiums) and are projected to reach $88,500 cumulative over the next 3 years alone if deferred, before a near-certain complete failure forces an emergency replacement at a 25% rush premium ($85,000) plus disruption cost. Total 6-year cost of continuing to defer: $179,500. Total 6-year cost of replacing now: $75,200. This isn't a discretionary capital ask competing with other budget priorities on convenience — it's $104,300 in avoidable cost if approved this cycle instead of after a failure.
+
+## Going deeper
+
+- [Facilities decision artifacts](references/artifacts.md) — filled life-cycle cost model, preventive maintenance schedule, and contractor vetting checklist.
+- [Red flags & diagnostics](references/red-flags.md) — signals a facilities manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
