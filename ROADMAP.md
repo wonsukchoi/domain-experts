@@ -1284,7 +1284,7 @@ Some roles already in this repo don't map cleanly to a single O*NET occupation â
 
 ## Beyond O*NET
 
-O*NET is US-centric and skews toward formal, salaried employment. For international coverage or informal/entrepreneurial roles it doesn't capture well, consider cross-referencing the ILO's [ISCO](https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/) or the EU's [ESCO](https://esco.ec.europa.eu/en) taxonomies when proposing a new role in a PR.
+O*NET is US-centric and skews toward formal, salaried employment. For international coverage or informal/entrepreneurial roles it doesn't capture well, consider cross-referencing the ILO's [ISCO](https://ilostat.ilo.org/resources/concepts-and-definitions/classification-occupation/) or the EU's [ESCO](https://esco.ec.europa.eu/en) taxonomies when proposing a new role in a PR. A curated ESCO diff already exists: [`ESCO-BACKLOG.md`](./ESCO-BACKLOG.md) lists 260 ESCO occupations with no counterpart here, triaged from the full taxonomy in [`data/esco_occupations.tsv`](./data/esco_occupations.tsv).
 
 ## Requested but missing
 
