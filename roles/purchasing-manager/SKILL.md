@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Purchasing Manager — nego
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3061.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Purchasing Manager
@@ -62,7 +66,26 @@ Frames sourcing decisions in terms of total cost and risk, not just unit price, 
 
 ## Worked example
 
-A key component has historically been single-sourced from one supplier offering the best price and a smooth, long-standing relationship, and a colleague proposes qualifying a second supplier "just in case," which would mean giving up some volume-based pricing leverage with the primary supplier. First-principles handling: before dismissing the proposal as an unnecessary cost, classify the component's criticality and substitutability explicitly — if this is a hard-to-substitute input where a supply disruption would materially harm production or revenue, the pricing advantage of single-sourcing has to be weighed against the real cost of a disruption (production downtime, expedited alternative sourcing at a premium, lost sales) rather than assumed away because the relationship has been smooth historically. A smooth track record is evidence the supplier has been reliable so far, not evidence the risk of concentration doesn't exist — the right analysis quantifies the disruption cost and compares it honestly against the pricing benefit before deciding whether qualifying a second source is worth the tradeoff.
+**Situation:** A critical sensor component (500,000 units/year, currently $18/unit = $9,000,000/year) is single-sourced with a supplier whose volume pricing requires 450,000+ units/year. A colleague proposes qualifying a second supplier "just in case," splitting volume 70/30. The component feeds a product line generating $45M/year revenue at 35% margin.
+
+**Step 1 — price the full dual-source split.** At a 70/30 split, the primary supplier's volume (350,000 units) drops below its 450,000-unit discount threshold, raising its price to $19.20/unit: 350,000 × $19.20 = $6,720,000. A new secondary supplier at this lower volume (150,000 units) quotes $21.50/unit = $3,225,000. Total: $6,720,000 + $3,225,000 = **$9,945,000/year** — a **$945,000/year premium** (10.5%) over single-sourcing.
+
+**Step 2 — quantify the disruption risk being insured against.** Comparable supplier-failure data for this component category suggests roughly a 5%/year probability of a disruption lasting 60+ days. A full 60-day single-source disruption is estimated to cost $9.2M (lost production margin, expedited alternative sourcing, logistics premium, based on comparable cases). Expected annual cost of staying single-sourced: 5% × $9.2M = **$460,000/year**.
+
+**Step 3 — compare the full dual-source premium against the raw expected disruption cost.** $945,000/year (guaranteed) vs. $460,000/year (expected) — the full 70/30 dual-source split actually costs *more* than the raw expected value of the risk it's insuring against, by $485,000/year.
+
+**Step 4 — check a hybrid option before rejecting diversification entirely.** A 90/10 split keeps the primary supplier right at its 450,000-unit discount threshold ($18/unit × 450,000 = $8,100,000) and qualifies a smaller secondary supplier at 50,000 units, at a small-volume premium of $23/unit = $1,150,000. Total: $8,100,000 + $1,150,000 = $9,250,000/year — a much smaller **$250,000/year premium** (2.8%), while maintaining a qualified, ready-to-scale backup. If the backup can scale to full volume within 30 days of a disruption (versus no backup at all), the residual disruption cost drops to roughly $2M for the shorter gap, and expected annual residual risk falls to 5% × $2M = $100,000/year.
+
+**Step 5 — compare all three options on total annual cost (premium + expected residual risk).** Single-source only: $460,000/year (expected disruption cost, no premium). Full 70/30 dual-source: $945,000/year (premium) + minimal residual risk ≈ $945,000/year. Hybrid 90/10: $250,000/year (premium) + $100,000/year (residual risk) = **$350,000/year**.
+
+**Deliverable (sourcing recommendation memo, quoted):**
+> **Recommendation: qualify a secondary supplier at a 90/10 volume split, not the proposed 70/30.** The full 70/30 split costs $945,000/year in guaranteed premium — more than the $460,000/year expected cost of the disruption risk it insures against, on a pure expected-value basis. The 90/10 hybrid keeps the primary supplier at its full volume discount, costs only $250,000/year in premium, and still provides a qualified, scalable backup that cuts expected residual disruption risk to $100,000/year — a total annual cost of $350,000, beating both the pure single-source expected cost ($460,000) and the full dual-source premium ($945,000).
+
+## Going deeper
+
+- [Sourcing decision artifacts](references/artifacts.md) — filled TCO model, single-vs-multi-source risk analysis, and supplier risk monitoring template.
+- [Red flags & diagnostics](references/red-flags.md) — signals a purchasing manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
