@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Marketing Manager — runni
 metadata:
   category: marketing
   maturity: draft
+  spec: 2
   onet_soc_code: "11-2021.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Marketing Manager
@@ -62,7 +66,26 @@ To the team: clear about priorities and what's explicitly deprioritized, not jus
 
 ## Worked example
 
-Leadership asks marketing to "do more" for the same budget after a strong quarter elsewhere in the business creates pressure for more aggressive growth targets. First-principles handling: don't just add more initiatives to the existing plan — check the current portfolio allocation and team capacity first. The honest answer is likely that "more" requires either more budget/headcount, or a reallocation away from lower-ROI existing programs toward the higher-potential ones, or an explicit acceptance of slower results on some initiatives in exchange for more on others. Presenting this as an explicit tradeoff to leadership (here's what we'd cut or slow to fund the new push, or here's what additional investment would unlock) is more useful and more credible long-term than quietly overcommitting the team and delivering a diluted version of everything.
+**Situation:** Leadership wants pipeline up 40% (from $7,255,000 to ~$10,157,000) on the same $3.2M annual budget. Current portfolio: paid search $800K (4.2x pipeline ROI), content/SEO $500K (3.8x), events $650K (2.1x), brand/sponsorship $450K (1.4x, long-cycle), experimental ABM pilot $300K (too new to measure reliably), team/ops overhead $500K.
+
+**Step 1 — check what reallocation alone can realistically deliver, accounting for diminishing returns, not just ROI multipliers.** Paid search's 4.2x ROI holds only up to roughly $1.2M total spend (channel saturation); beyond that, historical data shows ROI drops to about 3.0x. Cutting events to $200K (−$450K) and brand to $150K (−$300K) frees $750K.
+
+**Step 2 — apply the freed budget to the highest-ROI channels, respecting the saturation point.** First $400K to paid search (bringing it to $1.2M, at 4.2x = +$1,680,000), next $150K to paid search beyond saturation (at 3.0x = +$450,000), remaining $200K to content/SEO (at 3.8x = +$760,000). Total pipeline added: $1,680,000 + $450,000 + $760,000 = **$2,890,000**.
+
+**Step 3 — net out the losses from the cuts.** Events cut: −$450,000 spend × 2.1x = **−$945,000** pipeline. Brand cut: −$300,000 × 1.4x = **−$420,000** pipeline. Total losses: **−$1,365,000**.
+
+**Step 4 — compute the realistic net change and compare to the ask.** Net pipeline change: $2,890,000 − $1,365,000 = **+$1,525,000**. New total: $7,255,000 + $1,525,000 = **$8,780,000**, a **21% increase** — short of the 40% ask, purely from reallocating the existing $3.2M.
+
+**Step 5 — quantify what closing the remaining gap actually requires.** Reaching the $10,157,000 target needs an additional ~$1,377,000 of pipeline beyond what reallocation delivers. At the next-best available marginal ROI (content/SEO's 3.8x, once paid search is fully saturated), that requires approximately **$362,000 of net new budget** — not a reallocation, an actual budget increase.
+
+**Deliverable (budget tradeoff memo, quoted):**
+> **Reallocating the existing $3.2M budget — cutting events to $200K and brand to $150K, redirecting into paid search (to its $1.2M saturation point) and content/SEO — gets us to approximately $8.78M in pipeline, a 21% increase.** Closing the remaining gap to the requested 40% ($10.16M) requires roughly $362,000 in net new budget, not further reallocation — paid search is already at its saturation point in this plan, and events/brand are cut close to the floor needed to sustain long-cycle relationship-building. We can deliver 21% now with a reallocation, or 40% with reallocation plus $362K in incremental funding — those are the two real options, not "40% for free."
+
+## Going deeper
+
+- [Marketing operations artifacts](references/artifacts.md) — filled portfolio allocation model, capacity-check worksheet, and dependency map template.
+- [Red flags & diagnostics](references/red-flags.md) — signals a marketing manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 

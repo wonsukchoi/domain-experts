@@ -10402,14 +10402,18 @@
       "description": "Use when a task needs the judgment of a Marketing Manager \u2014 running a marketing team/function, allocating budget across programs, approving campaign plans, or reporting marketing performance to leadership. Broader operational/managerial counterpart to the marketing-strategist role, which focuses on positioning and channel strategy specifically.",
       "category": "marketing",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-2021.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/marketing-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]
