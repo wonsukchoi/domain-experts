@@ -14750,14 +14750,18 @@
       "description": "Use when a task needs the judgment of a Public Relations Manager \u2014 shaping how an organization is perceived by media and the public, handling a press inquiry, preparing crisis communications, or deciding what and how to disclose in a sensitive situation.",
       "category": "marketing",
       "maturity": "draft",
-      "spec": 1,
+      "spec": 2,
       "onet_soc_code": "11-2032.00",
       "parent": null,
       "status": "active",
-      "last_audited": null,
-      "audit_score": null,
+      "last_audited": "2026-07-15",
+      "audit_score": 16,
       "skill": "roles/public-relations-manager/SKILL.md",
-      "references": [],
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
       "jurisdictions": [
         "us"
       ]

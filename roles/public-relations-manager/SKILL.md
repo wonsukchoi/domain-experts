@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Public Relations Manager �
 metadata:
   category: marketing
   maturity: draft
+  spec: 2
   onet_soc_code: "11-2032.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Public Relations Manager
@@ -62,7 +66,24 @@ Direct and specific rather than vague or overly cautious — a statement full of
 
 ## Worked example
 
-A journalist emails asking about a product safety issue the company has been quietly investigating internally for a few weeks, with no public disclosure yet, and gives a short deadline before publishing. First-principles handling: don't respond with a minimizing "no comment" or a denial while facts are still being confirmed internally — assess what's already substantiated, disclose that clearly and honestly (including what's still under investigation), and get ahead of the story rather than only reactively confirming what the journalist already found. Even though the ideal scenario would have been disclosing before any reporter asked, the front-page test still applies: a response that reads as forthcoming and accountable, even while acknowledging an unresolved issue, generally comes out of the resulting story in far better shape than one that reads as caught and cornered.
+**Situation:** A journalist emails about a product safety issue (an appliance overheating defect) the company has quietly investigated for 3 weeks, giving a 6-hour deadline before publishing. Internal findings so far: 340,000 units sold, defect affects an estimated 0.4% (1,360 units) under specific conditions, 12 reported minor burn injuries, no deaths.
+
+**Step 1 — cost the direct recall regardless of communication strategy.** A precautionary recall/inspection of all 340,000 units at an estimated $12/unit inspection cost = $4,080,000, plus targeted replacement for the confirmed 1,360 affected units at $85/unit = $115,600. Direct recall cost either way: approximately **$4.2M**.
+
+**Step 2 — estimate the incremental cost of the two communication paths, based on comparable case patterns (not this specific company's guaranteed outcome, but a reasoned range).** Proactive disclosure now, before the journalist publishes without company comment: comparable cases show a modest reputational hit (roughly 3-5% short-term stock impact, typically recovering within a quarter) and no incremental legal exposure beyond the recall itself. Minimizing or delaying now, then being forced to confirm once the journalist publishes and further facts emerge: comparable "concealment discovered" cases show a substantially larger and slower-recovering reputational hit (roughly 15-20% stock impact) plus incremental legal/settlement exposure, since a documented delay in disclosure is treated more punitively — estimated at an additional **$8M-$15M** in comparable cases.
+
+**Step 3 — compare total exposure across the two paths.** Proactive path: ~$4.2M (recall) + modest, recoverable reputational cost. Delayed/minimizing path: ~$4.2M (same recall, unavoidable either way) + $8M-$15M in additional legal/reputational cost = **$12.2M-$19.2M total**.
+
+**Step 4 — decide and act within the deadline.** Respond to the journalist with what's already substantiated (1,360 affected units, 12 minor injuries, no deaths, recall underway) and what's still under investigation, rather than a "no comment" or a denial — the recall cost is fixed regardless of the response; the incremental $8M-$15M is the cost of appearing to have been caught rather than having gotten ahead of it.
+
+**Deliverable (press statement excerpt, quoted):**
+> **We identified an overheating defect affecting an estimated 1,360 of the 340,000 units sold, associated with 12 reported minor injuries. We are recalling all units for inspection and replacing affected parts at no cost to customers, effective immediately.** We began investigating this issue three weeks ago upon receiving the first reports and are disclosing it now as our findings became substantiated enough to act on. We will provide updates as the investigation continues.
+
+## Going deeper
+
+- [Crisis communication artifacts](references/artifacts.md) — filled disclosure cost-comparison model, message house template, and post-incident review format.
+- [Red flags & diagnostics](references/red-flags.md) — signals a PR manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
