@@ -4,7 +4,11 @@ description: Use when a task needs the judgment of a Compensation and Benefits M
 metadata:
   category: operations
   maturity: draft
+  spec: 2
   onet_soc_code: "11-3111.00"
+  status: active
+  last_audited: "2026-07-15"
+  audit_score: 16
 ---
 
 # Compensation and Benefits Manager
@@ -62,7 +66,24 @@ Explains pay decisions in terms of the underlying structure and benchmark data, 
 
 ## Worked example
 
-A hiring manager wants to offer a strong candidate a salary meaningfully above the top of the role's established band to win them over a competing offer, arguing this specific candidate is worth the exception. First-principles handling: don't evaluate this purely on whether the candidate is worth it in isolation — check what approving this exception does to internal consistency, specifically whether it would place the new hire above existing tenured employees in the same role/level without a clear, defensible reason tied to the band structure itself. If the market data genuinely supports a higher band for this role (a real market shift), the correct fix is updating the band for everyone in that role, not creating a one-off exception above the band for a single new hire — approving the one-off exception without addressing the band creates exactly the kind of inconsistency that shows up as an unexplained pay gap in the next equity audit, even though the original decision felt individually justified in the moment.
+**Situation:** Senior Software Engineer (L4) band is $145,000-$175,000 base, midpoint $160,000. The highest-paid current L4 (6 years tenure, top-performer rating) earns $168,000 — compa-ratio 1.05. A hiring manager wants to offer a strong external candidate $185,000 to beat a competing $180,000 offer. Separately (and before this request), a quarterly market survey refresh shows L4 median pay has moved to $170,000 — a real, dated 6.25% market shift.
+
+**Step 1 — check the requested exception against internal consistency, not just against the candidate's value.** $185,000 sits $10,000 above the current band ceiling ($175,000) and above every existing L4 employee, including the 6-year top performer at $168,000 — a brand-new hire with zero tenure here would out-earn the most tenured, highest-rated person in the same role by $17,000, with no factor (tenure, performance, band) explaining the gap.
+
+**Step 2 — check whether the market data independently justifies a band change**, since that's the legitimate route to a higher offer, not a one-off exception. The survey refresh (6.25% median move to $170,000) predates and is independent of this specific hire — it's real evidence the whole band is stale, not a pretext to win one negotiation.
+
+**Step 3 — update the band for everyone in the role, size the new hire's offer within it, and cost the update.** New band: $155,000-$185,000, midpoint $170,000. Four current L4 employees fall below the new floor ($146,000, $149,000, $151,000, $153,000) and get raised to $155,000: (155-146)+(155-149)+(155-151)+(155-153) = 9+6+4+2 = **$21,000/year total** across the four.
+
+**Step 4 — price the new hire within the updated band.** Offer $180,000 (matches the competing offer, $5,000 under the manager's original $185,000 ask) — compa-ratio 180,000/170,000 = 1.06, closely comparable to the top performer's 168,000/170,000 = 0.99. Both sit near or just above the new midpoint — a defensible position for a new hire matched against a real competing offer, not an outlier.
+
+**Deliverable (compensation decision memo, quoted):**
+> **Decision: update the L4 band to $155,000-$185,000 (new midpoint $170,000) based on the Q3 market survey refresh (+6.25% median), applied to all 12 L4 employees — not a one-off exception for this hire.** Four current L4s below the new floor receive raises totaling $21,000/year. The candidate is offered $180,000 within the updated band (compa-ratio 1.06, in line with our top L4 performer at 0.99), matching the competing offer at $5,000 less than the manager's original $185,000 ask, which would have sat $10,000 above the old ceiling and $17,000 above our most tenured L4 with zero band basis. This keeps the system defensible in the next pay equity audit instead of creating an unexplained new-hire premium.
+
+## Going deeper
+
+- [Compensation artifacts](references/artifacts.md) — filled band structure, compa-ratio table, and pay equity audit templates.
+- [Red flags & diagnostics](references/red-flags.md) — signals a comp manager notices instantly, with thresholds.
+- [Working vocabulary](references/vocabulary.md) — terms of art generalists get wrong or use loosely.
 
 ## Sources
 
