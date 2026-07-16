@@ -1,5 +1,5 @@
 {
-  "count": 938,
+  "count": 939,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2682,6 +2682,27 @@
       "skill": "roles/chemistry-teacher-postsecondary/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "chief-data-officer",
+      "description": "Use when a task needs the judgment of a Chief Data Officer \u2014 resolving conflicting metric definitions across dashboards, deciding whether a dataset should be retained or purged, assigning data ownership for a system feeding regulatory or board reporting, sizing a privacy/breach risk against a proposed data collection, or auditing data readiness before an AI/ML initiative kicks off.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chief-data-officer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],

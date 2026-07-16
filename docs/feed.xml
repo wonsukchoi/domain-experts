@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Thu, 16 Jul 2026 10:59:52 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 11:03:34 +0000</lastBuildDate>
+  <item>
+    <title>Chief Data Officer</title>
+    <link>https://domainexperts.dev/roles/chief-data-officer/</link>
+    <guid>https://domainexperts.dev/roles/chief-data-officer/</guid>
+    <pubDate>Thu, 16 Jul 2026 18:03:06 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chief Data Officer — resolving conflicting metric definitions across dashboards, deciding whether a dataset should be retained or purged, assigning data ownership for a system feeding regulatory or board reporting, sizing a privacy/breach risk against a proposed data collection, or auditing data readiness before an AI/ML initiative kicks off.</description>
+  </item>
   <item>
     <title>Chief Technology Officer</title>
     <link>https://domainexperts.dev/roles/chief-technology-officer/</link>
