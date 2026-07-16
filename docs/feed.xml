@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Thu, 16 Jul 2026 11:07:37 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 11:11:32 +0000</lastBuildDate>
+  <item>
+    <title>Book Publisher</title>
+    <link>https://domainexperts.dev/roles/book-publisher/</link>
+    <guid>https://domainexperts.dev/roles/book-publisher/</guid>
+    <pubDate>Thu, 16 Jul 2026 18:11:07 +0700</pubDate>
+    <description>Use when a task needs the judgment of a book publisher — sizing an advance against a P&amp;L model before an acquisition auction, setting a print run from comp-title sales data, deciding whether to keep bidding or walk in a multi-house auction, valuing subsidiary rights as part of a deal, or diagnosing why a title&#x27;s early sell-through is diverging from its launch plan.</description>
+  </item>
   <item>
     <title>Property Developer</title>
     <link>https://domainexperts.dev/roles/property-developer/</link>
