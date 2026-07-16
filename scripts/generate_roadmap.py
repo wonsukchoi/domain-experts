@@ -49,6 +49,7 @@ MAJOR_GROUPS = [
 # Roles that don't map to a distinct O*NET occupation, with why. Update
 # this by hand when adding a role that has no onet_soc_code.
 UNMAPPED_NOTES = {
+    "mine-supervisor": "ESCO-sourced (3121.1), no O*NET-SOC match; closest O*NET candidates (`11-9021.00` Construction Managers, `47-1011.00` First-Line Supervisors of Construction Trades) are non-mining generalists that miss the MSHA-certification and roof-control/ventilation-plan scope specific to this role.",
     "product-manager": "No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link.",
     "devops-sre": "Site Reliability Engineering is a post-O*NET-taxonomy specialization within `15-1244.00`/`15-1241.00`-type titles; no distinct SOC code exists.",
     "customer-success-manager": "A SaaS-era role that doesn't fit the closest O*NET candidates (`43-4051.00` Customer Service Representatives is too junior/generic).",
@@ -73,6 +74,8 @@ UNMAPPED_NOTES = {
     "storyboard-artist": "ESCO-sourced role (ISCO 2651.11); no distinct O*NET occupation — closest candidates (`27-1013.00` Fine Artists and `27-1014.00` Special Effects Artists and Animators) are medium-framed (painting/CGI) rather than the coverage/continuity and pre-production planning judgment this role centers on.",
     "marine-surveyor": "ESCO-sourced role (ISCO 3115.1.8); no distinct O*NET occupation — closest candidates (`17-2121.00` Marine Engineers and Naval Architects, taken by `marine-engineer-naval-architect`, and `53-6051.00` Transportation Inspectors, taken by `cargo-inspector`) are design-framed or cargo-quantity-framed and don't capture the classification-society condition/class-status inspection judgment this role centers on.",
     "demographer": "ESCO-sourced role (ISCO 2120.2); no distinct O*NET occupation — closest candidates (`15-2041.00` Statisticians and `19-3011.00` Economists) are discipline-general and don't capture the cohort-component projection, vital-statistics reconciliation, and census-undercount judgment this role centers on.",
+    "animator": "ESCO-sourced role (ISCO 2166.3); no distinct O*NET occupation — closest candidate (`27-1014.00` Special Effects Artists and Animators, taken by `special-effects-animator`) is simulation/comp-framed and doesn't capture the character/motion performance, blocking/spline/polish pipeline, and shot-tier scheduling judgment this role centers on.",
+    "palaeontologist": "ESCO-sourced role (ISCO 2114.1.9); no distinct O*NET occupation — closest candidate (`19-2042.00` Geoscientists, taken by `geoscientist`) is solid-earth/mineral-resource-framed and doesn't capture the biostratigraphic/radiometric age-reconciliation, taxonomic-diagnosis, and cladistic judgment this role centers on.",
 }
 
 
