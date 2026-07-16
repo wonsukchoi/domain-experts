@@ -1,5 +1,5 @@
 {
-  "count": 944,
+  "count": 945,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -12617,6 +12617,27 @@
       "skill": "roles/office-machine-operator/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "oil-gas-production-manager",
+      "description": "Use when a task needs the judgment of an oil and gas production manager \u2014 diagnosing a production shortfall against plan, prioritizing well intervention or workover capital against decline curve economics, deciding whether a well integrity anomaly requires halting production, weighing a shut-in decision against formation damage risk, or evaluating whether stand-down/safety reporting patterns signal normalized deviance building toward an incident.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/oil-gas-production-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
