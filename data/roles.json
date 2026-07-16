@@ -1,5 +1,5 @@
 {
-  "count": 940,
+  "count": 941,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -1884,6 +1884,27 @@
       "skill": "roles/boilermaker/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "book-publisher",
+      "description": "Use when a task needs the judgment of a book publisher \u2014 sizing an advance against a P&L model before an acquisition auction, setting a print run from comp-title sales data, deciding whether to keep bidding or walk in a multi-house auction, valuing subsidiary rights as part of a deal, or diagnosing why a title's early sell-through is diverging from its launch plan.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/book-publisher/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],

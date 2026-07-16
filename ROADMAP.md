@@ -1226,6 +1226,7 @@ Some roles already in this repo don't map cleanly to a single O*NET occupation �
 
 | Repo role | Why it's not mapped |
 |---|---|
+| [`book-publisher`](./roles/book-publisher/SKILL.md) | ESCO-sourced role (ISCO 1349.7); no distinct O*NET occupation — closest broad match (`11-9199.00` Managers, All Other) is a residual catch-all that doesn't capture the acquisition-economics/print-run judgment this role centers on. |
 | [`chief-data-officer`](./roles/chief-data-officer/SKILL.md) | ESCO-sourced role (ISCO 1330.1); no distinct O*NET occupation — closest candidates (`11-3021.00` Computer and Information Systems Managers, taken by `computer-information-systems-manager`, and `15-2051.01` Business Intelligence Analysts) are IT-ops or analyst-framed and don't capture the enterprise data-governance/monetization scope of this exec role. |
 | [`chief-technology-officer`](./roles/chief-technology-officer/SKILL.md) | ESCO-sourced role (ISCO 1330.3); no distinct O*NET occupation — closest candidate (`11-3021.00` Computer and Information Systems Managers) is IT-operations-framed and already used by `computer-information-systems-manager`, which doesn't capture the exec technology-strategy/board-facing scope of this role. |
 | [`customer-success-manager`](./roles/customer-success-manager/SKILL.md) | A SaaS-era role that doesn't fit the closest O*NET candidates (`43-4051.00` Customer Service Representatives is too junior/generic). |
