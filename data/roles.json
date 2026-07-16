@@ -1,5 +1,5 @@
 {
-  "count": 945,
+  "count": 947,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -12583,6 +12583,27 @@
       ]
     },
     {
+      "slug": "oceanographer",
+      "description": "Use when a task needs the judgment of an oceanographer \u2014 designing or QC-ing a hydrographic cruise (CTD/rosette station plan, sensor calibration), interpreting a mooring, glider, or ARGO float time series for a physical or biogeochemical anomaly, writing a ship-time or cruise-budget proposal, or assessing whether a water-quality or coastal-erosion signal is real versus an artifact of sensor drift or undersampling.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/oceanographer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "office-clerk-general",
       "description": "Use when a task needs the judgment of a general office clerk \u2014 triaging which of several competing clerical tasks to finish today, covering for an absent specialist without dropping their queue, deciding what to defer and what to hand off at shift-end, or setting up a small office's task-priority system from scratch.",
       "category": "operations",
@@ -19547,6 +19568,27 @@
       "skill": "roles/welder/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "welding-engineer",
+      "description": "Use when a task needs the judgment of a Welding Engineer \u2014 writing and qualifying a Welding Procedure Specification (WPS) through a Procedure Qualification Record (PQR) test program, selecting a welding process (GMAW/FCAW/SMAW/GTAW/SAW) and joint design under a cost/quality/position tradeoff, calculating preheat/interpass temperature from carbon equivalent or Pcm to control hydrogen cracking, specifying PWHT and Charpy impact requirements against a service's MDMT, or running root-cause failure analysis on a cracked or rejected weld. Distinct from a welder (executes a qualified WPS inside its parameter range) \u2014 this role designs and qualifies the procedure, and owns the code-compliance judgment that makes a weld fit for its intended service.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/welding-engineer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],

@@ -67,6 +67,8 @@ UNMAPPED_NOTES = {
     "correctional-services-manager": "ESCO-sourced role (ISCO 1349.10); no distinct O*NET occupation — closest broad match (`11-9199.00` Managers, All Other) is a residual catch-all that doesn't capture the classification/staffing-safety/legal-liability judgment this role centers on.",
     "oil-gas-production-manager": "ESCO-sourced role (ISCO 1322.1.2); no distinct O*NET occupation — closest candidate (`11-3051.00` Industrial Production Managers, taken by `industrial-production-manager`) is general-manufacturing-framed and doesn't capture the decline-curve/well-integrity judgment specific to upstream oil and gas operations.",
     "embedded-firmware-engineer": "No distinct O*NET occupation for embedded/firmware software engineering; `17-2072.00` Electronics Engineers, Except Computer explicitly excludes computer-related work, and `15-1252.00` Software Developers (taken by `software-engineer`) doesn't capture the hardware-interfacing specifics.",
+    "oceanographer": "ESCO-sourced role (ISCO 2114.1.8); no distinct O*NET occupation — closest candidates (`19-2043.00` Hydrologists, taken by `hydrologist`, and `19-2042.00` Geoscientists, taken by `geoscientist`) are freshwater/solid-earth-framed and don't capture the seagoing hydrographic/CTD-QC and physical-chemical-biological-geological branch judgment this role centers on.",
+    "welding-engineer": "ESCO-sourced role (ISCO 2144.1.22); no distinct O*NET occupation — closest candidates (`17-2112.00` Industrial Engineers and `51-4121.00` Welders, Cutters, Solderers, and Brazers, taken by `welder`) are general-manufacturing- or execution-framed and don't capture the WPS/PQR qualification and hydrogen-cracking-control judgment this role centers on.",
 }
 
 
