@@ -1,5 +1,5 @@
 {
-  "count": 942,
+  "count": 943,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -13289,6 +13289,27 @@
       "skill": "roles/penetration-tester/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "pension-scheme-manager",
+      "description": "Use when a task needs the judgment of a pension scheme manager \u2014 assessing funded status and its sensitivity to discount rate moves, setting or adjusting a liability-driven investing glide path, evaluating whether an asset manager mandate is adding liability-relative value, weighing an accelerated contribution against ongoing underfunding penalties, or advising trustees on a de-risking decision after a sponsor credit event.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/pension-scheme-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
