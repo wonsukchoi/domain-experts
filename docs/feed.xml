@@ -4,7 +4,14 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 15 Jul 2026 16:30:10 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 10:59:52 +0000</lastBuildDate>
+  <item>
+    <title>Chief Technology Officer</title>
+    <link>https://domainexperts.dev/roles/chief-technology-officer/</link>
+    <guid>https://domainexperts.dev/roles/chief-technology-officer/</guid>
+    <pubDate>Thu, 16 Jul 2026 17:59:23 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Chief Technology Officer — deciding build vs buy for a core system, choosing whether an architecture bet is worth a full rewrite, sizing an SLA/uptime commitment against engineering cost, structuring engineering teams around a product roadmap, or writing the technical risk section of a board update.</description>
+  </item>
   <item>
     <title>Acute Care Nurse</title>
     <link>https://domainexperts.dev/roles/acute-care-nurse/</link>

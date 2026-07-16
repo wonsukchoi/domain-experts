@@ -1,5 +1,5 @@
 {
-  "count": 937,
+  "count": 938,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2722,6 +2722,27 @@
       "last_audited": "2026-07-15",
       "audit_score": 16,
       "skill": "roles/chief-sustainability-officer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "chief-technology-officer",
+      "description": "Use when a task needs the judgment of a Chief Technology Officer \u2014 deciding build vs buy for a core system, choosing whether an architecture bet is worth a full rewrite, sizing an SLA/uptime commitment against engineering cost, structuring engineering teams around a product roadmap, or writing the technical risk section of a board update.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/chief-technology-officer/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",

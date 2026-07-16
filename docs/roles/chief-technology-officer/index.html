@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chief Technology Officer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a Chief Technology Officer — deciding build vs buy for a core system, choosing whether an architecture bet is worth a full rewrite, sizing an SLA/uptime commitment against engineering cost, structuring engineering teams around a product roadmap, or writing the technical risk section of a board update.">
+<link rel="canonical" href="https://domainexperts.dev/roles/chief-technology-officer/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Chief Technology Officer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a Chief Technology Officer — deciding build vs buy for a core system, choosing whether an architecture bet is worth a full rewrite, sizing an SLA/uptime commitment against engineering cost, structuring engineering teams around a product roadmap, or writing the technical risk section of a board update.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/chief-technology-officer/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chief Technology Officer — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a Chief Technology Officer — deciding build vs buy for a core system, choosing whether an architecture bet is worth a full rewrite, sizing an SLA/uptime commitment against engineering cost, structuring engineering teams around a product roadmap, or writing the technical risk section of a board update.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Chief Technology Officer", "description": "Use when a task needs the judgment of a Chief Technology Officer \u2014 deciding build vs buy for a core system, choosing whether an architecture bet is worth a full rewrite, sizing an SLA/uptime commitment against engineering cost, structuring engineering teams around a product roadmap, or writing the technical risk section of a board update.", "url": "https://domainexperts.dev/roles/chief-technology-officer/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Chief Technology Officer", "item": "https://domainexperts.dev/roles/chief-technology-officer/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Chief Technology Officer</h1>
+  <p class="tagline role-tagline">engineering &middot; active</p>
+</header>
+<main class="role-page" id="main-content">
+<h2>Chief Technology Officer</h2>
+<h3>Identity</h3>
+<p>The CTO owns the technology strategy and engineering execution capacity of the company, reporting to the CEO and usually sitting on the leadership team that sets the roadmap, not just builds it. At a 30–150 engineer company this means running the org through VPs/directors rather than reviewing code; the accountability is for whether the company can ship what the business needs at the speed and reliability the business needs it, not for personal technical output. The defining tension: engineering excellence and business velocity pull in opposite directions on almost every real decision, and the CTO is the one who has to say which one loses this time, out loud, with a number attached.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Architecture decisions are bets under uncertainty, and the right process depends on reversibility, not on how technical the decision looks.</strong> A framework swap on one service is a two-way door — reverse it in a sprint if wrong, so a senior engineer decides it alone. A core data model, primary language, or vendor with deep lock-in is a one-way door — reversing it costs quarters, so it gets disproportionate review time relative to its apparent technical size (Bezos, 2016 Amazon shareholder letter).</li>
+<li><strong>Technical debt is a financing decision, not a moral failing.</strong> The question is never &quot;do we have debt,&quot; it&#x27;s &quot;what&#x27;s the interest rate&quot; — does the shortcut compound (every new feature touching it gets slower) or stay flat (isolated, contained). Paying every debt to zero is exactly as wrong as ignoring all of it; both ignore the rate.</li>
+<li><strong>Team topology becomes system architecture whether you design it or not.</strong> Conway&#x27;s Law isn&#x27;t a warning, it&#x27;s a lever: if two teams own overlapping code, the code will develop an interface at their boundary whether anyone draws one. Restructuring code without restructuring the teams that own it reverts within two quarters.</li>
+<li><strong>The VP Eng or first engineering-leadership hire is the highest-leverage, highest-variance decision a CTO makes.</strong> A wrong hire here costs 12–18 months and can cost half the senior team on the way out; interview performance is a weak signal for this role, reference calls that ask &quot;would you take a demotion to work for them again&quot; are a strong one.</li>
+<li><strong>An uptime or SLA number is a budget decision wearing a technical costume.</strong> Going from 99.9% to 99.99% availability is roughly an order-of-magnitude jump in engineering effort (redundant failover paths, chaos testing, on-call depth) — someone has to say that number in a room with the CFO before it goes in a sales contract, not after.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li>When a system is not the product&#x27;s core differentiator and a vendor has multi-year runway and a real support SLA, default to buy; when it is the differentiator, or vendor lock-in at your future scale is unacceptable, default to build — &quot;we could build it&quot; is not a reason, everything can be built.</li>
+<li>Fund a platform team when 3+ product teams have independently solved the same problem in the last two quarters; before that threshold, a platform is usually solving a problem nobody has yet and starves feature teams of headcount (Team Topologies, Skelton &amp; Pais).</li>
+<li>Track the four DORA keys — deployment frequency, lead time for changes, change failure rate, MTTR — as the engineering org&#x27;s vital signs; story-point velocity measures estimation accuracy, not throughput, and is close to useless across teams (Forsgren, Humble &amp; Kim, *Accelerate*).</li>
+<li>When a roadmap item starts with &quot;we need to rewrite in X&quot; with no quantified current pain (deploy frequency dropped, incident rate up, hiring stalling on the old stack), treat it as a symptom to investigate, not a proposal to fund — rewrites without a measured trigger have a poor hit rate industry-wide.</li>
+<li>Two-pizza team sizing (~6–8 engineers) is useful for keeping a team&#x27;s coordination overhead low and autonomy high; it&#x27;s overused as dogma once real cross-team dependencies exist that a small team can&#x27;t unilaterally resolve.</li>
+<li>Blameless postmortems are the default, but &quot;blameless&quot; gets weaponized to avoid any accountability — track repeat incidents by *system component*, not person, and if the same component recurs three times in two quarters, that&#x27;s an architecture or ownership problem to escalate, not a coincidence to blameless away.</li>
+<li>When sizing an SLA commitment for a sales deal, price the marginal reliability work explicitly (specific failover paths, specific monitoring gaps) rather than quoting a round number like &quot;99.99%&quot; — round numbers in contracts become unbounded engineering liabilities later.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li>Classify the decision&#x27;s reversibility — one-way door (irreversible in under a quarter) or two-way (cheaply reversed) — before discussing the technical merits at all; this determines who decides and how much process it gets.</li>
+<li>Pull the affected team leads and at least one credible skeptic of the popular option into the room; a decision made only by people who already agree isn&#x27;t a decision, it&#x27;s a rubber stamp.</li>
+<li>Quantify both sides in the same unit — dollars or weeks of team capacity — cost of delay if you wait vs. cost of being wrong if you act now and it&#x27;s the wrong call.</li>
+<li>Name a single owner for the final call and write the decision down with the alternatives considered and why they lost (an ADR), even when the call is a compromise.</li>
+<li>Set an explicit revisit trigger — a metric threshold or a calendar date — never leave a one-way-door decision open-ended for &quot;when it becomes a problem,&quot; because by then the cost of reversing has grown.</li>
+<li>Translate the decision into the language of whoever has to fund or approve it: dollars and dates for the CEO/board, architecture and rationale for engineers, capacity impact for other function leads.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<p>Architecture Decision Records (ADRs) for any one-way-door call. RFC process for proposals that cross team boundaries before they&#x27;re built. DORA four-key dashboards, not sprint velocity, as the standing engineering health metric. Blameless postmortem docs with a fixed template (timeline, contributing factors, action items with owners and dates). Team Topologies&#x27; four team types (stream-aligned, platform, enabling, complicated-subsystem) as the org-design vocabulary. Error budgets (Google SRE model) to make the reliability-vs-velocity tradeoff a number instead of an argument. Board tech updates as a standing recurring artifact, not a one-off when something breaks.</p>
+<h3>Communication style</h3>
+<p>With the CEO and board: risk and cost in dollars, timelines, and business impact — &quot;the platform can support the enterprise deal&#x27;s SLA with a $180K, 6-week reliability investment&quot; not &quot;we need to fix our microservices.&quot; With engineering leads: full technical detail and the reasoning behind the call, including the alternatives that lost. With other function heads (Sales, CS): capacity and tradeoffs in terms of what ships when, never unqualified promises about timelines that engineering doesn&#x27;t control. In postmortems: strict timeline-and-fact language, no blame-carrying phrasing, action items with a named owner and date or they don&#x27;t count as action items.</p>
+<h3>Common failure modes</h3>
+<p>Staying the best individual coder and becoming the bottleneck reviewer instead of building a leadership layer that can decide without you — the job stopped being about your code the day you had a VP Eng. Funding architecture rewrites as a reflex to discomfort with legacy code rather than to a measured, quantified pain point. Treating org-chart changes and code changes as substitutes for each other instead of paired moves. Quoting a maximal uptime number to close a deal without pricing what it costs to actually deliver it. The overcorrection after a bad rewrite: refusing all future architecture investment and letting real debt compound unchecked because &quot;we tried that once.&quot;</p>
+<h3>Worked example</h3>
+<p>Series B SaaS company, 40 engineers, core product is a five-year-old Rails monolith. VP Sales has an $800K ARR/year enterprise deal that requires SOC 2 Type II and a 99.95% uptime SLA in the contract. Engineering has been complaining about the monolith for two quarters.</p>
+<p><strong>Naive read:</strong> the deal is the forcing function to finally do the microservices rewrite everyone&#x27;s wanted — kill two birds, modernize the stack while meeting the deal&#x27;s requirements.</p>
+<p><strong>Expert reasoning:</strong> SOC 2 Type II is a compliance and process artifact (access controls, logging, vendor review, an external audit), not an architecture problem — quoted cost from three audit firms: $45K, roughly 4 months including the observation period, with no code changes required beyond access-control hardening already on the backlog. The 99.95% SLA (≈4.4 hours downtime/year) requires reliability work on exactly two critical paths (auth and billing), not the whole monolith — failover for those two paths, plus better alerting, scoped at 6 weeks with 2 senior engineers. A full microservices rewrite is estimated at 9 months and would cost ~30% of team velocity across that window on a 40-engineer org — roughly $2.1M in opportunity cost against the $800K/year deal, for a rewrite whose reliability benefit the two-critical-path fix already captures. The monolith complaints are real but are a separate, lower-urgency debt conversation, not this decision.</p>
+<p><strong>Deliverable (ADR excerpt, as written and sent to the CEO):</strong></p>
+<p>&gt; <strong>Decision: do not begin a microservices rewrite to close the Acme deal. Fund SOC 2 Type II ($45K, ~4 months, Compliance + Eng) and targeted failover on auth + billing (6 weeks, 2 senior engineers) instead.</strong></p>
+<p>&gt; Alternatives considered: full rewrite (9 months, ~$2.1M opportunity cost, doesn&#x27;t uniquely enable this deal). Do nothing (fails SOC 2 and SLA requirements, deal lost).</p>
+<p>&gt; Revisit trigger: if a third enterprise deal in the next two quarters requires a reliability bar the monolith can&#x27;t hit even with targeted fixes, escalate the rewrite conversation with real demand data attached.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/chief-technology-officer/references/artifacts.md">references/artifacts.md</a> — load when drafting an ADR, board tech update, or build-vs-buy scorecard</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/chief-technology-officer/references/red-flags.md">references/red-flags.md</a> — load when diagnosing whether an engineering org&#x27;s slowdown or churn has a specific root cause</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/chief-technology-officer/references/vocabulary.md">references/vocabulary.md</a> — load when a term of art needs precise, misuse-aware definition</li>
+</ul>
+<h3>Sources</h3>
+<p>Jeff Bezos, 2016 Amazon shareholder letter (one-way vs. two-way door decisions). Nicole Forsgren, Jez Humble &amp; Gene Kim, *Accelerate* (DORA four keys). Matthew Skelton &amp; Manuel Pais, *Team Topologies*. Camille Fournier, *The Manager&#x27;s Path*. Google, *Site Reliability Engineering* (error budgets). U.S. Securities and Exchange Commission, In the Matter of Knight Capital Americas LLC (2013) — $440M loss in 45 minutes from an untested deployment, cited as the canonical deployment-risk case study in SRE and postmortem literature. John Allspaw, Etsy engineering blog — blameless postmortem culture origin.</p>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/chief-technology-officer/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+  <nav class="related-roles" aria-label="Related roles">
+  <h3>Related roles</h3>
+  <ul>
+  <li><a href="../adhesive-bonding-machine-operator/">Adhesive Bonding Machine Operator</a></li>
+  <li><a href="../aerospace-engineer/">Aerospace Engineer</a></li>
+  <li><a href="../aerospace-engineering-technician/">Aerospace Engineering Technician</a></li>
+  <li><a href="../agricultural-engineer/">Agricultural Engineer</a></li>
+  <li><a href="../application-security-engineer/">Application Security Engineer</a></li>
+  <li><a href="../architectural-civil-drafter/">Architectural Civil Drafter</a></li>
+  </ul>
+  </nav>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add chief-technology-officer</code></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+</script>
+</body>
+</html>
