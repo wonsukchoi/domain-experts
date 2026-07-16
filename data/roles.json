@@ -1,5 +1,5 @@
 {
-  "count": 939,
+  "count": 940,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -14633,6 +14633,27 @@
       "skill": "roles/proofreader-copy-marker/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "property-developer",
+      "description": "Use when a task needs the judgment of a property/real estate developer \u2014 underwriting a land acquisition against residual land value, structuring an entitlement-contingent option deal, building or stress-testing a development pro forma, sizing a capital stack across debt and equity, or deciding whether to proceed, renegotiate, or walk on a deal after a construction bid or zoning setback.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/property-developer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],

@@ -1237,6 +1237,7 @@ Some roles already in this repo don't map cleanly to a single O*NET occupation â
 | [`mobile-engineer`](./roles/mobile-engineer/SKILL.md) | No distinct O*NET occupation for mobile app engineering; folds into `15-1252.00` Software Developers (already used by `software-engineer`). |
 | [`platform-engineer`](./roles/platform-engineer/SKILL.md) | Platform engineering is a post-O*NET-taxonomy specialization, same 15-1244.00/15-1241.00-adjacent territory as devops-sre; no distinct SOC code exists. |
 | [`product-manager`](./roles/product-manager/SKILL.md) | No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link. |
+| [`property-developer`](./roles/property-developer/SKILL.md) | ESCO-sourced role (ISCO 1323.1.2); no distinct O*NET occupation â€” closest candidates (`11-9021.00` Construction Managers, taken by `construction-manager`, and `13-2023.00` Appraisers and Assessors of Real Estate, taken by `real-estate-appraiser`) cover execution and valuation but not the deal-origination/capital-stack judgment this role centers on. |
 | [`technical-recruiter`](./roles/technical-recruiter/SKILL.md) | Falls inside the broader `13-1071.00` Human Resources Specialists occupation rather than having its own code. |
 
 ## Beyond O*NET
