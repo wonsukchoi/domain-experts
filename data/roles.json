@@ -1,5 +1,5 @@
 {
-  "count": 947,
+  "count": 951,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3992,6 +3992,27 @@
       ]
     },
     {
+      "slug": "costume-designer",
+      "description": "Use when a task needs the judgment of a Costume Designer \u2014 deciding build vs. rent vs. buy for a specific garment, budgeting a production's costume-shop spend across principals and ensemble, engineering a quick-change to hit a scripted time window, building or reading a costume plot to track pieces across a run, or diagnosing why a build is behind schedule going into tech week.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/costume-designer/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
       "slug": "courier-messenger",
       "description": "Use when a task needs the judgment of a courier or messenger \u2014 sequencing a multi-stop route against hard delivery windows, deciding what proof-of-delivery a shipment requires, handling a chain-of-custody transfer for a legal or medical item, or resolving a refused-delivery/no-answer exception against the sender's fallback instructions.",
       "category": "operations",
@@ -4614,6 +4635,27 @@
       "skill": "roles/database-architect/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "demographer",
+      "description": "Use when a task needs the judgment of a demographer \u2014 building a cohort-component population projection, reconciling fertility/mortality rate estimates against ACS or vital-statistics counts, judging whether a population trend is real or sampling/measurement noise, sizing a census undercount adjustment, or advising a public agency on age-structure-driven facility or service demand.",
+      "category": "other",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/demographer/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -10495,6 +10537,27 @@
       "skill": "roles/marine-engineer-naval-architect/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "marine-surveyor",
+      "description": "Use when a task needs the judgment of a Marine Surveyor \u2014 running a pre-purchase condition survey with ultrasonic thickness gauging (UTG) against classification-society renewal minimums, conducting a P&I club condition/loss-prevention survey, reviewing a vessel's class and statutory certificate status for overdue recommendations before a sale or charter, investigating hull or cargo damage for an insurer's claim, or checking load-line freeboard compliance before departure. Distinct from a marine engineer/naval architect (sets the original design numbers) and a cargo inspector (measures cargo quantity/condition at custody transfer) \u2014 this role inspects an existing vessel's structure, machinery, and equipment against the rules those numbers were built to and signs the report that becomes the record.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/marine-surveyor/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
@@ -17720,6 +17783,27 @@
       "skill": "roles/stonemason/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "storyboard-artist",
+      "description": "Use when a task needs the judgment of a Storyboard Artist \u2014 deciding panel coverage for a scene (dialogue vs. action), budgeting panel count and drawing hours against a pre-production schedule, maintaining the 180-degree axis of action across a multi-setup sequence, building or cutting a timed animatic/story reel, or revising boards after a director pitch or script change.",
+      "category": "design",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/storyboard-artist/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
