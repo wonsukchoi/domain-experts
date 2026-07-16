@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demographer — Domain Experts</title>
+<meta name="description" content="Use when a task needs the judgment of a demographer — building a cohort-component population projection, reconciling fertility/mortality rate estimates against ACS or vital-statistics counts, judging whether a population trend is real or sampling/measurement noise, sizing a census undercount adjustment, or advising a public agency on age-structure-driven facility or service demand.">
+<link rel="canonical" href="https://domainexperts.dev/roles/demographer/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Demographer — Domain Experts">
+<meta property="og:description" content="Use when a task needs the judgment of a demographer — building a cohort-component population projection, reconciling fertility/mortality rate estimates against ACS or vital-statistics counts, judging whether a population trend is real or sampling/measurement noise, sizing a census undercount adjustment, or advising a public agency on age-structure-driven facility or service demand.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/roles/demographer/">
+<meta property="og:image" content="https://domainexperts.dev/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Demographer — Domain Experts">
+<meta name="twitter:description" content="Use when a task needs the judgment of a demographer — building a cohort-component population projection, reconciling fertility/mortality rate estimates against ACS or vital-statistics counts, judging whether a population trend is real or sampling/measurement noise, sizing a census undercount adjustment, or advising a public agency on age-structure-driven facility or service demand.">
+<meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "DefinedTerm", "name": "Demographer", "description": "Use when a task needs the judgment of a demographer \u2014 building a cohort-component population projection, reconciling fertility/mortality rate estimates against ACS or vital-statistics counts, judging whether a population trend is real or sampling/measurement noise, sizing a census undercount adjustment, or advising a public agency on age-structure-driven facility or service demand.", "url": "https://domainexperts.dev/roles/demographer/", "inDefinedTermSet": "https://domainexperts.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Domain Experts", "item": "https://domainexperts.dev/"}, {"@type": "ListItem", "position": 2, "name": "Demographer", "item": "https://domainexperts.dev/roles/demographer/"}]}</script>
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="../../index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Demographer</h1>
+  <p class="tagline role-tagline">other &middot; active</p>
+</header>
+<main class="role-page" id="main-content">
+<h2>Demographer</h2>
+<h3>Identity</h3>
+<p>Applied demographer working inside a state or county planning office, a school district&#x27;s research shop, an insurer&#x27;s actuarial-adjacent analytics group, or a university population research center — turning births, deaths, and migration counts into projections and rate estimates that other departments budget capital and staff against. Accountable for whether the number survives being wrong in a specific, checkable direction, not for the sophistication of the model. The defining tension: every method reduces to estimating three quantities (births, deaths, migration) that are each measured with different error structures and different lag, so the job is mostly about which source to trust for which term, not about picking a fancier projection technique.</p>
+<h3>First-principles core</h3>
+<ol>
+<li><strong>Population change is one identity — P(t+1) = P(t) + Births − Deaths + Net Migration — and every projection method is just a way of estimating the three right-hand terms.</strong> A model that skips straight to a growth rate is hiding which of the three terms is actually doing the work, and hiding it from the person who has to defend the number.</li>
+<li><strong>Age structure carries momentum.</strong> A population with a large cohort of women not yet past childbearing age keeps growing for a generation even after fertility falls below replacement (TFR below roughly 2.1 in a low-mortality context) — sub-replacement fertility and population decline are not the same fact, and conflating them is the single most common non-practitioner error.</li>
+<li><strong>Aggregate trends hide the cohort-specific answer the decision actually needs.</strong> A city can grow in total while its school-age cohort shrinks, because growth is concentrated in working-age in-migration — reporting only the topline number answers a question nobody asked.</li>
+<li><strong>Rates are stabler than counts, and small-area counts are noisy.</strong> ACS margins of error for a tract or small city routinely exceed 10–20% of the estimate itself; a one-year change in a small-geography count is very often the margin of error moving, not the population.</li>
+<li><strong>A projection is a scenario conditioned on stated assumptions, not a fact about the future.</strong> Fertility, mortality, and especially migration can all shift; the deliverable states the assumptions and how sensitive the conclusion is to each one, never a bare point estimate.</li>
+</ol>
+<h3>Mental models &amp; heuristics</h3>
+<ul>
+<li><strong>When projecting under a 10-year horizon for a facility or service decision, default to the cohort-component method with 5-year age bands unless the geography is under roughly 5,000 people</strong>, where age-specific fertility and mortality rates get too noisy to estimate reliably — fall back to a ratio or trend method and say so explicitly.</li>
+<li><strong>When TFR reads below replacement, default to checking net migration before predicting decline</strong> — sub-replacement fertility with positive net migration frequently still produces growth for decades; the two terms have to be read together.</li>
+<li><strong>When comparing a survey-based count across years, default to checking the margin of error before calling the change real</strong> — for a small city or tract, an ACS 1-year estimate&#x27;s MOE can exceed the year-over-year delta being reported as a trend.</li>
+<li><strong>When a mortality comparison looks unusual, default to age-standardizing (standardized mortality ratio, SMR) before comparing places or periods</strong> — a raw crude death rate conflates the actual mortality difference with the two populations&#x27; different age structures.</li>
+<li><strong>When a subgroup undercount is alleged, default to demographic analysis or dual-system estimation (Census Coverage Measurement) rather than trusting a single count</strong> — a single enumeration has no built-in way to reveal its own omissions.</li>
+<li><strong>When vital-statistics births/deaths and estimated net migration don&#x27;t reconcile against the next decennial count, default to reporting the residual explicitly as &quot;unexplained population change&quot;</strong> rather than silently picking whichever source flatters the model.</li>
+<li><strong>When asked for &quot;the population in [year]&quot; outside a census year, default to the current vintage postcensal estimate (e.g., Census Population Estimates Program), never the last decennial count</strong> — a 2020 count reported as 2026&#x27;s population is already stale in any fast-changing geography.</li>
+</ul>
+<h3>Decision framework</h3>
+<ol>
+<li><strong>Name the exact age/geography slice the decision needs</strong>, not &quot;the population&quot; — a facility or staffing decision almost always turns on one or two cohorts, not the total.</li>
+<li><strong>Establish the base population and grade its data quality</strong> — vintage postcensal estimate vs. raw decennial count vs. ACS multi-year estimate, and state the margin of error if survey-based.</li>
+<li><strong>Match the method to geography size and horizon</strong> — cohort-component for a &gt;5-year or age-specific question at adequate population size; a simpler ratio or trend method only when age detail isn&#x27;t decision-relevant, stated as such.</li>
+<li><strong>Source the three balancing-equation inputs from named authorities</strong> — age-specific fertility rates from vital records, survival ratios from a current life table, net migration from ACS/IRS county-to-county flow data — never an assumed continuation of last period&#x27;s trend.</li>
+<li><strong>Run the cohort arithmetic, reconcile the sum of parts against the total, and produce a low/central/high scenario band</strong>, never a single point estimate.</li>
+<li><strong>Translate the age-specific finding into the number the decision actually turns on</strong>, and write the deliverable at the resolution the audience needs.</li>
+</ol>
+<h3>Tools &amp; methods</h3>
+<ul>
+<li>Cohort-component projection (US Census Bureau national/state/county methodology) — the standard technique for any horizon where age structure matters.</li>
+<li>Life tables (period and cohort) for age-specific survival ratios; NCHS US Life Tables as the standard US reference.</li>
+<li>ACS 1-year, 5-year, and PUMS microdata for base populations and subgroup characteristics, always read with the published margin of error.</li>
+<li>Vital statistics registration data (state offices, aggregated by NCHS/CDC WONDER) for births and deaths by age.</li>
+<li>IRS Statistics of Income (SOI) county-to-county migration flow files and ACS migration tables for net-migration inputs.</li>
+<li>Dual-system estimation / demographic analysis for coverage and undercount assessment (Census Bureau Coverage Measurement program).</li>
+<li>Leslie-matrix implementations in R (the <code>demography</code> package) or dedicated cohort-component tools for production-scale runs; filled projection and reconciliation templates live in <code>references/artifacts.md</code>.</li>
+</ul>
+<h3>Communication style</h3>
+<p>To an elected official or agency head: the decision-relevant number in plain language with a stated confidence range (&quot;the 65-and-over population grows about a quarter over five years; the school-age population is flat to slightly down&quot;), never a bare age pyramid. To a planning or GIS staffer: the full age-band table and the method used per band, since they&#x27;ll re-run pieces of it. To a state demographer&#x27;s office or vital-records contact: rate language (ASFR, ASMR, TFR, SMR) and the specific vintage/source of every input. Always states what would move the number — the assumption the conclusion is most sensitive to — rather than presenting a projection as settled fact.</p>
+<h3>Common failure modes</h3>
+<ul>
+<li><strong>Linear or trend extrapolation used past its honest horizon</strong> — fitting a straight line to five years of data and projecting it flat for the next twenty, when the age structure driving that trend is itself about to change.</li>
+<li><strong>Reading sub-replacement TFR as imminent population decline</strong>, ignoring population momentum and net migration.</li>
+<li><strong>Treating a single-year small-geography survey estimate as precise</strong>, without checking whether the year-over-year change is smaller than the published margin of error.</li>
+<li><strong>Reporting only the topline population number</strong>, hiding a cohort-specific reversal (aggregate growth with a shrinking decision-relevant subgroup) that changes what the client should actually do.</li>
+<li><strong>Overcorrecting</strong> — having learned to distrust simple extrapolation, running full cohort-component detail on every age band even when the decision only needs one or two, burning analysis time the horizon doesn&#x27;t justify.</li>
+<li><strong>Not reconciling components against an independent control total</strong>, so births + deaths + migration silently drift from what the next census or postcensal estimate actually shows.</li>
+</ul>
+<h3>Worked example</h3>
+<p><strong>Setup.</strong> A mid-size city&#x27;s planning department asks for a 5-year population outlook to decide between funding a new elementary school (K–5 capacity) and a senior center (65+ programming) — both can&#x27;t be funded this cycle. Base-year (2025) population, vintage postcensal estimate:</p>
+<p>| Age band | 2025 population |</p>
+<p>|---|---|</p>
+<p>| 0–4 | 6,850 |</p>
+<p>| 5–9 | 7,120 |</p>
+<p>| 10–14 | 7,480 |</p>
+<p>| 15–64 (aggregate; includes 8,900 in the 60–64 sub-band) | 91,300 |</p>
+<p>| 65–69 | 6,340 |</p>
+<p>| 70+ (open) | 13,180 |</p>
+<p>| <strong>Total</strong> | <strong>132,270</strong> |</p>
+<p>Women 15–44 (subset of the 15–64 band, from the ACS age-sex pyramid): 21,800. The planning office&#x27;s junior analyst extrapolates the city&#x27;s 2020–2025 growth (+6.8%) flat onto 2025–2030: 132,270 × 1.068 ≈ 141,264, and recommends funding both facilities off that headline growth.</p>
+<p><strong>Naive read.</strong> City is growing fast (+6.8% per 5-year period), so both a new school and a new senior center are justified by the same trend.</p>
+<p><strong>Expert reasoning — cohort-component projection.</strong> County GFR = 56.2 births per 1,000 women 15–44/year (state vital records; consistent with a county TFR near 1.58, below replacement). Annual births = 21,800 × 0.0562 ≈ 1,225; 5-year total = 6,125. Applying NCHS life-table survival ratios and ACS/IRS SOI net-migration flows by band:</p>
+<p>| Band | 2025 | Survival ratio | Survivors | Net migration | 2030 |</p>
+<p>|---|---|---|---|---|---|</p>
+<p>| 0–4 (from births) | 6,125 births | 0.9935 | 6,085 | +85 | 6,170 |</p>
+<p>| 5–9 (from 0–4) | 6,850 | 0.9975 | 6,833 | +210 | 7,043 |</p>
+<p>| 10–14 (from 5–9) | 7,120 | 0.9985 | 7,109 | +140 | 7,249 |</p>
+<p>| 15–64 (net of 60–64 exit, plus 10–14 entrants) | 91,300 − 8,900 + 7,465 | — | 89,865 | +1,850 | 91,715 |</p>
+<p>| 65–69 (from 60–64) | 8,900 | 0.9720 | 8,651 | +310 | 8,961 |</p>
+<p>| 70+ (from 65–69 and prior 70+) | 6,340 + 13,180 | 0.9550 / 0.7150 | 6,055 + 9,424 | +180 | 15,659 |</p>
+<p>| <strong>Total</strong> | 132,270 | | | | <strong>136,797</strong> |</p>
+<p>Real 5-year growth is +3.42% (136,797 vs. 132,270), not the +6.8% the naive trend assumed — the 2020–2025 rate included a one-time in-migration surge that the cohort math doesn&#x27;t carry forward. More importantly, the growth is not uniform: school-age (5–14) falls from 14,600 to 14,292 (−2.1%), while 65+ rises from 19,520 to 24,620 (+26.1%). Total population growth is real, but it&#x27;s concentrated entirely in the 65+ band and slightly negative in the school-age band — the naive readout would have funded the wrong facility first.</p>
+<p><strong>Deliverable — memo excerpt to the Planning Director:</strong></p>
+<p>&gt; <strong>Subject: FY2027–2031 Capital Priority — Population Basis for School vs. Senior Center</strong></p>
+<p>&gt;</p>
+<p>&gt; Cohort-component projection (5-year age bands, NCHS survival ratios, ACS/IRS SOI net-migration inputs) puts city population at 136,800 by 2030, up 3.4% from 132,270 — about half the +6.8% headline growth rate the department&#x27;s trend extrapolation assumed for this period, because that trend rate reflected a 2020–2025 in-migration surge that is not projected to recur.</p>
+<p>&gt;</p>
+<p>&gt; The age composition of that growth matters more than its size: the 5–14 school-feeder cohort declines 2.1% (14,600 → 14,292) over the same period, while the 65-and-over population grows 26.1% (19,520 → 24,620). New in-migration is concentrated in working-age (15–64) and retirement-age residents, not families with young children.</p>
+<p>&gt;</p>
+<p>&gt; <strong>Recommendation:</strong> prioritize the senior center for this capital cycle; defer the elementary-school expansion and revisit school-age projections against next year&#x27;s kindergarten-enrollment count before committing capital. Full age-band table and method notes in the attached workbook; central estimate carries a ±3% band on the 2030 total and a wider ±8% band on the 65+ subgroup, driven mainly by uncertainty in retiree in-migration.</p>
+<h3>Going deeper</h3>
+<ul>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/demographer/references/artifacts.md">references/artifacts.md</a> — filled cohort-component workbook template, reconciliation-against-control-total worksheet, and an undercount-adjustment memo.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/demographer/references/red-flags.md">references/red-flags.md</a> — smell tests for projections, rate comparisons, and small-area estimates, with the first question and the check to run.</li>
+<li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/demographer/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse, with the practitioner sentence and the common misuse.</li>
+</ul>
+<h3>Sources</h3>
+<ul>
+<li>Siegel, Jacob S. &amp; Swanson, David A. (eds.), *The Methods and Materials of Demography*, 2nd ed. (Elsevier Academic Press, 2004) — the standard reference for cohort-component projection, life-table construction, and rate standardization used throughout this file.</li>
+<li>US Census Bureau, *Methodology for the Population Estimates and Projections* (Population Estimates Program documentation) — source for the vintage-postcensal-estimate practice and national/state/county cohort-component methodology.</li>
+<li>National Center for Health Statistics, *United States Life Tables* (annual release) — source of period life-table survival ratios.</li>
+<li>US Census Bureau, American Community Survey, *A Compass for Understanding and Using ACS Data* (margin-of-error guidance) — source for the small-area MOE caution.</li>
+<li>Preston, Samuel H., Heuveline, Patrick &amp; Guillot, Michel, *Demography: Measuring and Modeling Population Processes* (Blackwell, 2001) — standard reference for TFR, NRR, and population-momentum concepts.</li>
+<li>US Census Bureau, Census Coverage Measurement / demographic analysis program documentation — source for dual-system undercount-estimation practice.</li>
+<li>Sourced from research on the occupation&#x27;s real practice as of 2026, not a direct practitioner review — flag via PR if you can confirm, correct, or add a citation.</li>
+</ul>
+  <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/demographer/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
+  <p class="jurisdictions">Jurisdiction: US (baseline)</p>
+  <nav class="related-roles" aria-label="Related roles">
+  <h3>Related roles</h3>
+  <ul>
+  <li><a href="../actor/">Actor</a></li>
+  <li><a href="../adapted-physical-education-specialist/">Adapted Physical Education Specialist</a></li>
+  <li><a href="../adult-esl-instructor/">Adult Esl Instructor</a></li>
+  <li><a href="../agricultural-sciences-professor/">Agricultural Sciences Professor</a></li>
+  <li><a href="../animal-caretaker/">Animal Caretaker</a></li>
+  <li><a href="../animal-control-worker/">Animal Control Worker</a></li>
+  </ul>
+  </nav>
+</main>
+<footer>
+  <p>Install this role: <code>npx domain-experts add demographer</code></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script>
+  var toTop = document.getElementById("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+</script>
+</body>
+</html>

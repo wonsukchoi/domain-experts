@@ -4,7 +4,49 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Thu, 16 Jul 2026 11:33:18 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 20:15:19 +0000</lastBuildDate>
+  <item>
+    <title>Demographer</title>
+    <link>https://domainexperts.dev/roles/demographer/</link>
+    <guid>https://domainexperts.dev/roles/demographer/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:14:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a demographer — building a cohort-component population projection, reconciling fertility/mortality rate estimates against ACS or vital-statistics counts, judging whether a population trend is real or sampling/measurement noise, sizing a census undercount adjustment, or advising a public agency on age-structure-driven facility or service demand.</description>
+  </item>
+  <item>
+    <title>Marine Surveyor</title>
+    <link>https://domainexperts.dev/roles/marine-surveyor/</link>
+    <guid>https://domainexperts.dev/roles/marine-surveyor/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:14:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Marine Surveyor — running a pre-purchase condition survey with ultrasonic thickness gauging (UTG) against classification-society renewal minimums, conducting a P&amp;I club condition/loss-prevention survey, reviewing a vessel&#x27;s class and statutory certificate status for overdue recommendations before a sale or charter, investigating hull or cargo damage for an insurer&#x27;s claim, or checking load-line freeboard compliance before departure. Distinct from a marine engineer/naval architect (sets the original design numbers) and a cargo inspector (measures cargo quantity/condition at custody transfer) — this role inspects an existing vessel&#x27;s structure, machinery, and equipment against the rules those numbers were built to and signs the report that becomes the record.</description>
+  </item>
+  <item>
+    <title>Storyboard Artist</title>
+    <link>https://domainexperts.dev/roles/storyboard-artist/</link>
+    <guid>https://domainexperts.dev/roles/storyboard-artist/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:14:44 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Storyboard Artist — deciding panel coverage for a scene (dialogue vs. action), budgeting panel count and drawing hours against a pre-production schedule, maintaining the 180-degree axis of action across a multi-setup sequence, building or cutting a timed animatic/story reel, or revising boards after a director pitch or script change.</description>
+  </item>
+  <item>
+    <title>Costume Designer</title>
+    <link>https://domainexperts.dev/roles/costume-designer/</link>
+    <guid>https://domainexperts.dev/roles/costume-designer/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:05:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Costume Designer — deciding build vs. rent vs. buy for a specific garment, budgeting a production&#x27;s costume-shop spend across principals and ensemble, engineering a quick-change to hit a scripted time window, building or reading a costume plot to track pieces across a run, or diagnosing why a build is behind schedule going into tech week.</description>
+  </item>
+  <item>
+    <title>Oceanographer</title>
+    <link>https://domainexperts.dev/roles/oceanographer/</link>
+    <guid>https://domainexperts.dev/roles/oceanographer/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:05:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of an oceanographer — designing or QC-ing a hydrographic cruise (CTD/rosette station plan, sensor calibration), interpreting a mooring, glider, or ARGO float time series for a physical or biogeochemical anomaly, writing a ship-time or cruise-budget proposal, or assessing whether a water-quality or coastal-erosion signal is real versus an artifact of sensor drift or undersampling.</description>
+  </item>
+  <item>
+    <title>Welding Engineer</title>
+    <link>https://domainexperts.dev/roles/welding-engineer/</link>
+    <guid>https://domainexperts.dev/roles/welding-engineer/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:05:52 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Welding Engineer — writing and qualifying a Welding Procedure Specification (WPS) through a Procedure Qualification Record (PQR) test program, selecting a welding process (GMAW/FCAW/SMAW/GTAW/SAW) and joint design under a cost/quality/position tradeoff, calculating preheat/interpass temperature from carbon equivalent or Pcm to control hydrogen cracking, specifying PWHT and Charpy impact requirements against a service&#x27;s MDMT, or running root-cause failure analysis on a cracked or rejected weld. Distinct from a welder (executes a qualified WPS inside its parameter range) — this role designs and qualifies the procedure, and owns the code-compliance judgment that makes a weld fit for its intended service.</description>
+  </item>
   <item>
     <title>Oil Gas Production Manager</title>
     <link>https://domainexperts.dev/roles/oil-gas-production-manager/</link>
