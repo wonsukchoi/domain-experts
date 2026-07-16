@@ -59,6 +59,7 @@ UNMAPPED_NOTES = {
     "mobile-engineer": "No distinct O*NET occupation for mobile app engineering; folds into `15-1252.00` Software Developers (already used by `software-engineer`).",
     "platform-engineer": "Platform engineering is a post-O*NET-taxonomy specialization, same 15-1244.00/15-1241.00-adjacent territory as devops-sre; no distinct SOC code exists.",
     "chief-technology-officer": "ESCO-sourced role (ISCO 1330.3); no distinct O*NET occupation — closest candidate (`11-3021.00` Computer and Information Systems Managers) is IT-operations-framed and already used by `computer-information-systems-manager`, which doesn't capture the exec technology-strategy/board-facing scope of this role.",
+    "chief-data-officer": "ESCO-sourced role (ISCO 1330.1); no distinct O*NET occupation — closest candidates (`11-3021.00` Computer and Information Systems Managers, taken by `computer-information-systems-manager`, and `15-2051.01` Business Intelligence Analysts) are IT-ops or analyst-framed and don't capture the enterprise data-governance/monetization scope of this exec role.",
     "embedded-firmware-engineer": "No distinct O*NET occupation for embedded/firmware software engineering; `17-2072.00` Electronics Engineers, Except Computer explicitly excludes computer-related work, and `15-1252.00` Software Developers (taken by `software-engineer`) doesn't capture the hardware-interfacing specifics.",
 }
 
