@@ -10,7 +10,7 @@ Same rules as [ROADMAP.md](./ROADMAP.md): claim a role via PR, follow [AUTHORING
 
 | Status | ISCO | Occupation | Description |
 |---|---|---|---|
-|  | 1112.1 | central bank governor | Central bank governors set the monetary and regulatory policy, determine interest rates, maintain price stability, control the national money supply and issuance and foreign exchange currency rates and gold reserves. The |
+| ✅ | 1112.1 | [central bank governor](./roles/central-bank-governor/SKILL.md) | Central bank governors set the monetary and regulatory policy, determine interest rates, maintain price stability, control the national money supply and issuance and foreign exchange currency rates and gold reserves. The |
 |  | 1112.2 | consul | Consuls represent governments in foreign institutions such as embassies in order to facilitate economic and political cooperation between the two nations. They protect the interests of their home nation and provide burea |
 |  | 1112.3 | diplomat | Diplomats represent their home nation and government in international organisations. They negotiate with the organisation's officials to ensure the home nation's interests are protected, as well as facilitate productive |
 |  | 1112.3.1 | ambassador | Ambassadors represent their own government in foreign countries for diplomatic and peace-keeping purposes. They deal with political negotiation between the country of origin and the country where they are stationed and e |

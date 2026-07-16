@@ -1,5 +1,5 @@
 {
-  "count": 941,
+  "count": 942,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -2535,6 +2535,27 @@
       "skill": "roles/cement-mason-concrete-finisher/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "central-bank-governor",
+      "description": "Use when a task needs the judgment of a central bank governor \u2014 setting a policy rate decision against a dual mandate, deciding whether a distressed financial institution needs liquidity support or resolution, calibrating forward guidance language against credibility risk, weighing quantitative easing or tightening at the effective lower bound, or drafting the public communication that accompanies a policy decision.",
+      "category": "finance",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/central-bank-governor/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
