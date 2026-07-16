@@ -4,7 +4,28 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Thu, 16 Jul 2026 20:15:19 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 20:24:14 +0000</lastBuildDate>
+  <item>
+    <title>Animator</title>
+    <link>https://domainexperts.dev/roles/animator/</link>
+    <guid>https://domainexperts.dev/roles/animator/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:23:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Character/Motion Animator — triaging which shots in a batch get full 12-principles polish versus blocking-only under a tight schedule, choosing pose-to-pose vs. straight-ahead for a shot, writing a rig-limitation workaround memo, or reading a director&#x27;s revision note as a pose fix vs. a timing fix.</description>
+  </item>
+  <item>
+    <title>Mine Supervisor</title>
+    <link>https://domainexperts.dev/roles/mine-supervisor/</link>
+    <guid>https://domainexperts.dev/roles/mine-supervisor/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:23:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Mine Supervisor (shift boss/mine foreman) — deciding whether an unanticipated roof or ground condition requires the roof control plan&#x27;s supplemental support or a full withdrawal, reading a pre-shift/on-shift examination book for hazards before allowing crew entry, resolving a shift&#x27;s tonnage shortfall by diagnosing the actual bottleneck instead of pushing cutting pace, or deciding whether a gas or ventilation reading requires de-energizing equipment versus evacuating a section.</description>
+  </item>
+  <item>
+    <title>Palaeontologist</title>
+    <link>https://domainexperts.dev/roles/palaeontologist/</link>
+    <guid>https://domainexperts.dev/roles/palaeontologist/</guid>
+    <pubDate>Fri, 17 Jul 2026 03:23:50 +0700</pubDate>
+    <description>Use when a task needs the judgment of a palaeontologist — dating a fossil-bearing horizon by reconciling biostratigraphy against radiometric ages, deciding whether a specimen represents a new species or intraspecific/ontogenetic variation, triaging a fossil collection for preparation and curation priority under a limited lab-hour budget, or evaluating a cladistic/phylogenetic placement for a newly described taxon.</description>
+  </item>
   <item>
     <title>Demographer</title>
     <link>https://domainexperts.dev/roles/demographer/</link>
