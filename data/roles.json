@@ -1,5 +1,5 @@
 {
-  "count": 943,
+  "count": 944,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -3879,6 +3879,27 @@
       "skill": "roles/correctional-officer/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "correctional-services-manager",
+      "description": "Use when a task needs the judgment of a correctional services manager (warden/facility administrator) \u2014 deciding how to respond to a staffing cut against safety risk, reviewing an inmate classification or housing decision, evaluating a use-of-force incident, deciding whether restrictive housing placement is justified and time-limited, or weighing security spending against programming budget under fiscal pressure.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/correctional-services-manager/SKILL.md",
+      "references": [
+        "artifacts.md",
         "red-flags.md",
         "vocabulary.md"
       ],
