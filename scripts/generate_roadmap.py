@@ -49,6 +49,7 @@ MAJOR_GROUPS = [
 # Roles that don't map to a distinct O*NET occupation, with why. Update
 # this by hand when adding a role that has no onet_soc_code.
 UNMAPPED_NOTES = {
+    "acoustical-engineer": "ESCO-sourced (2149.1), no O*NET-SOC match; closest repo candidates (`sound-engineering-technician`, `audiovisual-equipment-installer`, `energy-engineer`) don't cover architectural/environmental acoustics engineering — Sabine-equation reverberation design, STC/NIC ratings, sound transmission loss, NC/RC noise criteria, and industrial/environmental noise control (barriers, vibration isolation) — a genuinely distinct engineering discipline with no reasonable parent among the candidates.",
     "mine-supervisor": "ESCO-sourced (3121.1), no O*NET-SOC match; closest O*NET candidates (`11-9021.00` Construction Managers, `47-1011.00` First-Line Supervisors of Construction Trades) are non-mining generalists that miss the MSHA-certification and roof-control/ventilation-plan scope specific to this role.",
     "product-manager": "No distinct O*NET occupation for tech/software product management; closest broad match (`11-3021.00` Computer and Information Systems Managers) doesn't capture the role well enough to link.",
     "devops-sre": "Site Reliability Engineering is a post-O*NET-taxonomy specialization within `15-1244.00`/`15-1241.00`-type titles; no distinct SOC code exists.",
