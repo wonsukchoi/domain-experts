@@ -221,16 +221,39 @@ def role_card_html(r):
 
 
 def inject_static_role_list(roles):
+    # Sentinel comments, not the surrounding <div>, bound the replaced region.
+    # role_card_html() nests a <div class="badges"> inside every card, so a
+    # naive (<div id="role-list"...>)(.*?)(</div>) regex matches that inner
+    # div's close tag instead of the container's — it never removes the old
+    # cards, just inserts a fresh batch ahead of them. Every rebuild
+    # compounded the duplication (954 roles ended up as 50,612 rendered
+    # cards / 405k lines). Comments can't nest or appear in escaped card
+    # content, so this bound is unambiguous no matter how many divs a card
+    # contains.
     index_path = ROOT / "docs" / "index.html"
     html_text = index_path.read_text()
     cards = "\n".join(role_card_html(r) for r in roles)
-    html_text = re.sub(
-        r'(<div id="role-list" class="role-list">)(.*?)(</div>)',
-        lambda m: m.group(1) + cards + m.group(3),
-        html_text,
-        count=1,
-        flags=re.DOTALL,
-    )
+    replacement = f"<!-- BEGIN:role-cards -->\n{cards}\n<!-- END:role-cards -->"
+    if "<!-- BEGIN:role-cards -->" in html_text:
+        html_text = re.sub(
+            r"<!-- BEGIN:role-cards -->.*?<!-- END:role-cards -->",
+            lambda m: replacement,
+            html_text,
+            count=1,
+            flags=re.DOTALL,
+        )
+    else:
+        # One-time migration from the old, unbounded div-based format.
+        # Anchored on the page's known trailing structure (</div> closing
+        # #role-list, then </section></main>) rather than the ambiguous
+        # opening tag, since that's what actually delimits the end reliably.
+        html_text = re.sub(
+            r'(<div id="role-list" class="role-list">).*?(</div>\s*</section>\s*</main>)',
+            lambda m: m.group(1) + "\n" + replacement + m.group(2),
+            html_text,
+            count=1,
+            flags=re.DOTALL,
+        )
     index_path.write_text(html_text)
 
 
