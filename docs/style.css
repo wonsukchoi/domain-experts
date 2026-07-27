@@ -224,7 +224,10 @@ main {
   padding: var(--space-3);
 }
 
-.proof-before { opacity: 0.75; }
+/* 0.85, not 0.75: at 0.75 the label's --text-dim blends to #807e7b on the
+   page background = 3.77:1, under the 4.5:1 AA floor for this 11.5px text.
+   Using opacity rather than a fixed colour keeps dark mode correct. */
+.proof-before { opacity: 0.85; }
 
 .proof-after { border-color: var(--bg-inverse); background: var(--bg-inverse); color: var(--bg); }
 
