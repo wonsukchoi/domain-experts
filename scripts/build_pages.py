@@ -51,11 +51,33 @@ def inline(text, slug):
     text = html.escape(text)
     text = INLINE_CODE.sub(lambda m: f"<code>{m.group(1)}</code>", text)
     text = BOLD.sub(lambda m: f"<strong>{m.group(1)}</strong>", text)
+    # The href must be re-escaped after resolve_link(). html.escape() ran above,
+    # so the raw URL is recovered with unescape() (otherwise a '&' in a query
+    # string double-encodes) — but writing that recovered string straight into
+    # href="..." puts an attacker-supplied '"' back into an attribute context.
+    # SKILL.md arrives through outside role PRs, so `[x](a" onfocus="...)` was
+    # stored XSS. Escape once more on the way into the attribute.
     text = LINK.sub(
-        lambda m: f'<a href="{resolve_link(html.unescape(m.group(2)), slug)}">{m.group(1)}</a>',
+        lambda m: f'<a href="{html.escape(resolve_link(html.unescape(m.group(2)), slug))}">{m.group(1)}</a>',
         text,
     )
     return text
+
+
+def json_ld(payload):
+    """Serialise JSON-LD for embedding in an inline <script> block.
+
+    json.dumps escapes quotes but not '<' or '/', so a role description
+    containing '</script>' closes the tag and injects markup into the page.
+    \\u003c and friends are legal JSON string escapes, so the payload stays
+    valid structured data while tag breakout becomes impossible.
+    """
+    return (
+        json.dumps(payload)
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+        .replace("&", "\\u0026")
+    )
 
 
 def markdown_to_html(body, slug):
@@ -193,7 +215,7 @@ def related_roles_html(role, roles_by_category):
         return ""
     picks = peers[:6]
     items = "\n".join(
-        f'  <li><a href="../{p["slug"]}/">{html.escape(title_case(p["slug"]))}</a></li>'
+        f'  <li><a href="../{html.escape(p["slug"])}/">{html.escape(title_case(p["slug"]))}</a></li>'
         for p in picks
     )
     return (
@@ -209,7 +231,7 @@ def related_roles_html(role, roles_by_category):
 def role_card_html(r):
     slug = r["slug"]
     return (
-        f'<a class="role-card" href="roles/{slug}/">\n'
+        f'<a class="role-card" href="roles/{html.escape(slug)}/">\n'
         f"  <h3>{html.escape(title_case(slug))}</h3>\n"
         '  <div class="badges">\n'
         f'    <span class="badge">{html.escape(r["category"])}</span>\n'
@@ -278,7 +300,7 @@ def build():
         body = split_frontmatter(raw)
         content_html = markdown_to_html(body, slug)
         canonical = f"{SITE_URL}/roles/{slug}/"
-        schema = json.dumps({
+        schema = json_ld({
             "@context": "https://schema.org",
             "@type": "DefinedTerm",
             "name": title_case(slug),
@@ -286,7 +308,7 @@ def build():
             "url": canonical,
             "inDefinedTermSet": f"{SITE_URL}/",
         })
-        breadcrumb = json.dumps({
+        breadcrumb = json_ld({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -298,7 +320,8 @@ def build():
         jurisdictions = r.get("jurisdictions") or ["us"]
         overlays = [j for j in jurisdictions if j != "us"]
         badges = "US (baseline)" + "".join(
-            f' &middot; <a href="{REPO_BLOB}roles/{slug}/references/jurisdictions/{j}.md">{j.upper()}</a>'
+            f' &middot; <a href="{html.escape(f"{REPO_BLOB}roles/{slug}/references/jurisdictions/{j}.md")}">'
+            f"{html.escape(j.upper())}</a>"
             for j in overlays
         )
         jurisdictions_html = f'  <p class="jurisdictions">Jurisdiction: {badges}</p>\n'
@@ -308,7 +331,7 @@ def build():
             description=html.escape(r["description"]),
             canonical=canonical,
             content=content_html,
-            source=REPO_BLOB + r["skill"],
+            source=html.escape(REPO_BLOB + r["skill"]),
             category=html.escape(r["category"]),
             status=html.escape(r["status"]),
             maturity=html.escape(r["maturity"]),

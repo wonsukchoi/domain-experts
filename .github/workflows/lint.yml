@@ -53,3 +53,8 @@ jobs:
 
       - name: Check relative links resolve
         run: python3 scripts/check_links.py
+
+      # Role content arrives through outside PRs, so the page generator's
+      # escaping is a trust boundary, not a formatting detail.
+      - name: Page generator injection tests
+        run: python3 scripts/test_build_pages.py
