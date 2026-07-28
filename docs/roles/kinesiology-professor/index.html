@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Kinesiology Professor — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Kinesiology / Recreation and Fitness Studies Postsecondary Professor — deciding whether to proceed with a lab fitness assessment or exercise test under current ACSM screening rules, building or defending a CAAHEP/CoAES self-study outcomes report, vetting a practicum or internship placement site, calibrating a psychomotor skills check-off across multiple lab sections, or resolving a classroom dispute over a settled-vs-open exercise-science claim.">
 <link rel="canonical" href="https://domainexperts.dev/roles/kinesiology-professor/">
@@ -131,11 +133,6 @@
   <p>Install this role: <code>npx domain-experts add kinesiology-professor</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

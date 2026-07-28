@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Construction Building Inspector — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Construction and Building Inspector — deciding whether a phase of work passes a hold-point inspection (foundation, framing, rough-in, insulation, final) or gets red-tagged, writing a correction notice that will hold up on appeal, resolving a conflict between the approved plans and field conditions, applying a specific IRC/IBC section to a borderline condition (egress, smoke/CO detector placement, GFCI/AFCI locations), or deciding whether schedule pressure from a contractor changes the call.">
 <link rel="canonical" href="https://domainexperts.dev/roles/construction-building-inspector/">
@@ -131,11 +133,6 @@
   <p>Install this role: <code>npx domain-experts add construction-building-inspector</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

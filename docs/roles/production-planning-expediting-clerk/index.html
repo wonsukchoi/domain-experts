@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Production Planning Expediting Clerk — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a production planning and expediting clerk — tracking work orders against a master production schedule, triaging a material shortage and deciding what to expedite first, reconciling vendor delivery promises against a build date, or writing a schedule-slip notification to affected downstream teams.">
 <link rel="canonical" href="https://domainexperts.dev/roles/production-planning-expediting-clerk/">
@@ -113,11 +115,6 @@
   <p>Install this role: <code>npx domain-experts add production-planning-expediting-clerk</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

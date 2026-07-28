@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Purser — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Purser (in-charge flight attendant / cabin crew supervisor) — recomputing required cabin-crew count after a gauge swap against 14 CFR 121.391, checking whether a reassigned reserve flight attendant is legal to fly under 121.467 duty/rest limits, running a pre-flight crew briefing for that day&#x27;s specific manifest, deciding when to escalate a cabin issue to the captain versus resolve it within delegated cabin authority, or filing an irregularity report through ASAP instead of handling it as informal coaching.">
 <link rel="canonical" href="https://domainexperts.dev/roles/purser/">
@@ -135,11 +137,6 @@
   <p>Install this role: <code>npx domain-experts add purser</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

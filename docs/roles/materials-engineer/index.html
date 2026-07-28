@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Materials Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Materials Engineer — selecting an alloy or process for a design under a strength/weight/cost constraint, running a fatigue-life or mean-stress (Goodman/Gerber) calculation on a loaded component, doing root-cause fractography and fitness-for-service on a field failure, specifying a heat-treatment or hardenability callout for a given section size, or setting an inspection interval from a fracture-mechanics critical flaw size. Distinct from a materials-scientist (develops new materials and characterizes fundamental structure-property relationships in the lab) and a mechanical-engineer (takes material properties as a given input to size a structure) — this role owns the applied engineering questions of which material, which process, and why a specific part actually broke.">
 <link rel="canonical" href="https://domainexperts.dev/roles/materials-engineer/">
@@ -143,11 +145,6 @@
   <p>Install this role: <code>npx domain-experts add materials-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

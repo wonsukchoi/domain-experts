@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Crane Tower Operator — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Crane and Tower Operator — deciding whether current gust readings require a stand-down given a specific load&#x27;s sail area, running a blind lift through a signal person when the pick or landing zone is outside the cab&#x27;s sightline, reading a fixed installation&#x27;s load chart at the counterweight/jib configuration actually installed, calculating each crane&#x27;s load share on a two-crane tandem pick, or judging when to set the jib to free-slew ahead of a wind event.">
 <link rel="canonical" href="https://domainexperts.dev/roles/crane-tower-operator/">
@@ -139,11 +141,6 @@
   <p>Install this role: <code>npx domain-experts add crane-tower-operator</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

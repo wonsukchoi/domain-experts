@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Self Enrichment Instructor — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Self-Enrichment Instructor — pricing and setting the break-even enrollment for a hobby/craft/movement class, designing a session-1 lesson so a mixed-skill adult cohort re-books, deciding whether to run, combine, or cancel an under-enrolled section, writing a studio&#x27;s cancellation/no-show policy, or drawing the line on liability and scope for a non-credentialed class.">
 <link rel="canonical" href="https://domainexperts.dev/roles/self-enrichment-instructor/">
@@ -135,11 +137,6 @@
   <p>Install this role: <code>npx domain-experts add self-enrichment-instructor</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

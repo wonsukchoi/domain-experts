@@ -104,11 +104,25 @@ def lint_role(role_dir, require_v2, errors, warnings, all_slugs):
         return
 
     # --- frontmatter checks (all spec versions) ---
+    # The slug reaches href="..." in generated role cards and related-role nav,
+    # and the description reaches a meta content="..." plus the JSON-LD block.
+    # build_pages.py escapes both, but these values arrive through outside pull
+    # requests, so the shape is constrained here as well rather than resting on
+    # one layer. All 954 existing slugs already satisfy this pattern and no
+    # existing description contains a tag character (measured 2026-07-28);
+    # quotes and ampersands are left alone, 34 and 17 descriptions use them.
+    if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", slug):
+        err(f"slug '{slug}' must be lowercase alphanumeric words joined by single hyphens")
     if fm.get("name") != slug:
         err(f"frontmatter name '{fm.get('name')}' != directory name '{slug}'")
     desc = fm.get("description", "")
     if len(desc) < 60:
         err("description under 60 chars — must name concrete task types")
+    if "<" in desc or ">" in desc:
+        err("description must not contain '<' or '>' — it is rendered into HTML attributes and JSON-LD")
+    # Jurisdiction codes need no check here: they are not a frontmatter key,
+    # they are derived from references/jurisdictions/*.md filenames, which the
+    # spec-2 section below already constrains to [a-z]{2}.md.
     if fm.get("category") not in CATEGORIES:
         err(f"category '{fm.get('category')}' not in allowed set")
     if fm.get("maturity") not in MATURITIES:

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Naturopathic Physician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a licensed naturopathic physician (ND) — sequencing a treatment plan through the therapeutic order, checking a botanical/supplement against a patient&#x27;s existing pharmaceuticals for interactions, deciding what falls inside versus outside a given state&#x27;s licensed scope of practice, distinguishing a functional lab target from the lab&#x27;s printed reference range, or writing a co-management referral to a prescribing physician. A reasoning aid modeling how a naturopathic physician thinks, not a substitute for a licensed provider, and never a diagnosis or treatment recommendation for a real person.">
 <link rel="canonical" href="https://domainexperts.dev/roles/naturopathic-physician/">
@@ -120,11 +122,6 @@
   <p>Install this role: <code>npx domain-experts add naturopathic-physician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

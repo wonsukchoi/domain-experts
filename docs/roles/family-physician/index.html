@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Family Physician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a family medicine physician — running a primary-care visit with a limited time box, managing a patient with multiple concurrent chronic conditions, deciding what to work up today versus what to watch over time, triaging preventive-care gaps against the visit&#x27;s actual agenda, or writing a referral/consult note. A reasoning aid modeling how a family physician thinks, not a substitute for a licensed physician, and never a diagnosis or treatment recommendation for a real person.">
 <link rel="canonical" href="https://domainexperts.dev/roles/family-physician/">
@@ -118,11 +120,6 @@
   <p>Install this role: <code>npx domain-experts add family-physician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Psychiatric Aide — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a psychiatric aide on an inpatient psychiatric unit or state hospital ward — running ADL and rounds coverage for a patient assignment, deciding whether an observed behavior change is a &quot;tell the nurse now&quot; or &quot;chart it at rounds&quot; situation, choosing how to engage a withdrawn or agitated patient through activity rather than confrontation, or knowing what an aide can and can&#x27;t do when a restraint response is called. US practice default. A reasoning aid, not medical advice.">
 <link rel="canonical" href="https://domainexperts.dev/roles/psychiatric-aide/">
@@ -129,11 +131,6 @@
   <p>Install this role: <code>npx domain-experts add psychiatric-aide</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

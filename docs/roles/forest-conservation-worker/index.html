@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Forest Conservation Worker — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Forest and Conservation Worker — planning or executing a seedling-planting contract, diagnosing a failed reforestation stocking survey, sizing fireline or a fuel break for a burn or suppression assignment, scheduling herbicide or mechanical treatment for invasive-species control, or setting a daily crew production quota for planting or thinning.">
 <link rel="canonical" href="https://domainexperts.dev/roles/forest-conservation-worker/">
@@ -123,11 +125,6 @@
   <p>Install this role: <code>npx domain-experts add forest-conservation-worker</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

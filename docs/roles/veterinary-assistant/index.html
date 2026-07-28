@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Veterinary Assistant — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a veterinary assistant — selecting a restraint technique for a fractious or fearful patient, monitoring post-surgical vital-sign trends and deciding when to escalate to the veterinarian, checking a laboratory-animal housing setup against husbandry-standard cage density, or administering a medication under a veterinarian&#x27;s direction and documenting it correctly.">
 <link rel="canonical" href="https://domainexperts.dev/roles/veterinary-assistant/">
@@ -119,11 +121,6 @@
   <p>Install this role: <code>npx domain-experts add veterinary-assistant</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

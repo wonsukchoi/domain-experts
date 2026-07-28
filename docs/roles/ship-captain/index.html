@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Ship Captain — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Ship Captain / Deck Officer — determining give-way/stand-on status and the required collision-avoidance action in a crossing, overtaking, or head-on encounter, calculating available stability (GM) margin before a heavy-weather passage or a loading change, correcting a dead-reckoning track for set and drift, assessing STCW rest-hour compliance and watch-bill fatigue risk, or deciding whether to escalate a bridge situation to the master under Bridge Resource Management practice.">
 <link rel="canonical" href="https://domainexperts.dev/roles/ship-captain/">
@@ -143,11 +145,6 @@
   <p>Install this role: <code>npx domain-experts add ship-captain</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

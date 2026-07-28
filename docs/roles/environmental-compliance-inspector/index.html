@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Environmental Compliance Inspector — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of an Environmental Compliance Inspector — reviewing discharge monitoring reports or emissions data against permit limits, classifying a facility&#x27;s hazardous waste generator status, calculating a penalty for a documented violation, deciding whether an exceedance warrants a Notice of Violation versus informal correction, or scoping a multimedia (air/water/waste) inspection.">
 <link rel="canonical" href="https://domainexperts.dev/roles/environmental-compliance-inspector/">
@@ -124,11 +126,6 @@
   <p>Install this role: <code>npx domain-experts add environmental-compliance-inspector</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

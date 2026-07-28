@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Platform Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Platform/Infrastructure Engineer — designing a golden path for a common developer workflow, setting a self-service abstraction&#x27;s level with an explicit escape hatch, diagnosing why platform adoption is low, enforcing infrastructure-as-code against configuration drift, or planning a staged rollout given a shared platform&#x27;s multi-tenant blast radius. Distinct from a DevOps/SRE role — this one builds the tools and abstractions other engineers use, not the operational reliability of production systems.">
 <link rel="canonical" href="https://domainexperts.dev/roles/platform-engineer/">
@@ -124,11 +126,6 @@
   <p>Install this role: <code>npx domain-experts add platform-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Construction Trades Supervisor — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Construction Trades Supervisor (foreman) — allocating a crew&#x27;s daily task assignments against a labor-unit budget, deciding whether today&#x27;s scope requires a formally designated OSHA competent person, arbitrating a trade-sequencing conflict between crews needing the same physical space, tracking crew productivity variance before it shows up on the master schedule, or logging and acting on a near-miss.">
 <link rel="canonical" href="https://domainexperts.dev/roles/construction-trades-supervisor/">
@@ -143,11 +145,6 @@
   <p>Install this role: <code>npx domain-experts add construction-trades-supervisor</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

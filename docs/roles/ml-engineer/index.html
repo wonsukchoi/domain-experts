@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Ml Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Machine Learning/AI Engineer — checking a train/test split for data leakage, choosing an evaluation metric that accounts for class imbalance rather than defaulting to accuracy, verifying training and serving feature computation match (train-serving skew), monitoring a deployed model for data/concept drift, or deciding whether a hyperparameter-tuning process has silently overfit to the test set.">
 <link rel="canonical" href="https://domainexperts.dev/roles/ml-engineer/">
@@ -130,11 +132,6 @@
   <p>Install this role: <code>npx domain-experts add ml-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

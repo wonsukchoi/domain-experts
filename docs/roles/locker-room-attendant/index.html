@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Locker Room Attendant — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a locker room, coatroom, or dressing room attendant — running a claim-check system for coats or valuables, setting towel/linen par for a locker room, handling a lost-or-stolen-item claim, staffing a locker room or coat check for a peak event, or writing up an incident report after a theft or slip.">
 <link rel="canonical" href="https://domainexperts.dev/roles/locker-room-attendant/">
@@ -138,11 +140,6 @@
   <p>Install this role: <code>npx domain-experts add locker-room-attendant</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

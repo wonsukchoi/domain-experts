@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Anesthesiologist — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a board-certified anesthesiologist — building a preoperative anesthesia plan and risk stratification, choosing general vs. regional technique and airway strategy, managing an intraoperative crisis (difficult airway, malignant hyperthermia, local anesthetic systemic toxicity), or writing a PACU handoff and postoperative pain-management order set.">
 <link rel="canonical" href="https://domainexperts.dev/roles/anesthesiologist/">
@@ -162,11 +164,6 @@
   <p>Install this role: <code>npx domain-experts add anesthesiologist</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

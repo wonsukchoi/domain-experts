@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Tire Repairer Changer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Tire Repairer and Changer — deciding whether a puncture is safely repairable, choosing between plug, patch, and combination repair, refusing a load-range or speed-rating substitution a customer wants, sequencing lug-nut torque on a wheel reinstall, and clearing TPMS after tire service.">
 <link rel="canonical" href="https://domainexperts.dev/roles/tire-repairer-changer/">
@@ -141,11 +143,6 @@
   <p>Install this role: <code>npx domain-experts add tire-repairer-changer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

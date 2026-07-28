@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Personal Care Aide — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Personal Care Aide (PCA/home care aide) — helping a client with ADLs (bathing, dressing, toileting, transfers) in their own home, deciding whether an observed change (weight, skin, mood, intake) needs same-day escalation versus routine notes, structuring a home-safety or fall-risk check, or handling a medication-reminder boundary the aide isn&#x27;t licensed to cross.">
 <link rel="canonical" href="https://domainexperts.dev/roles/personal-care-aide/">
@@ -120,11 +122,6 @@
   <p>Install this role: <code>npx domain-experts add personal-care-aide</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

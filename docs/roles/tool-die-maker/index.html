@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Tool Die Maker — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Tool and Die Maker — compensating a stamping die for material springback before cutting the forming angle, setting punch-to-die clearance for a given material and thickness, scaling an injection mold cavity for resin shrinkage, sequencing progressive die stations against carrier-web integrity, or re-verifying critical dimensions after heat treatment before final fitting.">
 <link rel="canonical" href="https://domainexperts.dev/roles/tool-die-maker/">
@@ -111,11 +113,6 @@
   <p>Install this role: <code>npx domain-experts add tool-die-maker</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Orthotist Prosthetist — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a certified orthotist/prosthetist (CPO) — selecting a socket design and components for a limb-loss patient, diagnosing the cause of a prosthetic or orthotic gait deviation, justifying a Medicare K-level and component choice in a letter of medical necessity, or deciding between a preparatory and definitive device during residual-limb maturation.">
 <link rel="canonical" href="https://domainexperts.dev/roles/orthotist-prosthetist/">
@@ -115,11 +117,6 @@
   <p>Install this role: <code>npx domain-experts add orthotist-prosthetist</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

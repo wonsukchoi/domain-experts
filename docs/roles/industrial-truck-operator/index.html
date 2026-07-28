@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Industrial Truck Operator — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of an Industrial Truck and Tractor Operator — checking a load against a forklift&#x27;s rated capacity and load center, judging stability-triangle tip-over risk before raising or tilting a load, verifying rack beam load-capacity before stacking a pallet, managing pedestrian-forklift traffic in a shared warehouse aisle, or deciding whether an operator needs recertification after an incident.">
 <link rel="canonical" href="https://domainexperts.dev/roles/industrial-truck-operator/">
@@ -139,11 +141,6 @@
   <p>Install this role: <code>npx domain-experts add industrial-truck-operator</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

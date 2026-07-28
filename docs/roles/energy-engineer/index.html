@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Energy Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of an Energy Engineer working on building and industrial energy efficiency — running an ASHRAE Level 1/2/3 energy audit, calculating envelope heat loss/gain with the degree-day method, comparing HVAC equipment on SEER/EER/IEER/COP rather than nameplate alone, designing an IPMVP measurement and verification (M&amp;V) plan, or ranking energy conservation measures (ECMs) by savings-to-investment ratio for a capital plan. Distinct from a wind-energy-engineer or solar/PV engineer (own generation-asset design and yield) and from an electrical-engineer (owns utility-scale power delivery and protection) — this role owns the demand side: how much energy a building or process actually needs, and which retrofit reduces that number with numbers that hold up after the fact.">
 <link rel="canonical" href="https://domainexperts.dev/roles/energy-engineer/">
@@ -135,11 +137,6 @@
   <p>Install this role: <code>npx domain-experts add energy-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

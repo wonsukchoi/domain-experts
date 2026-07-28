@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Data Warehousing Specialist — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Data Warehousing Specialist — defining the grain of a fact table before modeling it, choosing a slowly changing dimension (SCD) type for a dimension attribute, designing an incremental ETL/ELT load strategy against a full-refresh alternative, resolving a conformed-dimension conflict across source systems, or diagnosing why a BI report&#x27;s numbers don&#x27;t reconcile to the source system.">
 <link rel="canonical" href="https://domainexperts.dev/roles/data-warehousing-specialist/">
@@ -124,11 +126,6 @@
   <p>Install this role: <code>npx domain-experts add data-warehousing-specialist</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

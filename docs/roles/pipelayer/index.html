@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Pipelayer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Pipelayer — setting or verifying gravity-sewer or water-main grade from stationed invert elevations, classifying trench soil and selecting a protective system under OSHA Subpart P, selecting bedding class and compaction targets by pipe material, checking water/sewer horizontal and vertical separation at a crossing, or diagnosing a slope, deflection, or compaction defect before backfill sign-off.">
 <link rel="canonical" href="https://domainexperts.dev/roles/pipelayer/">
@@ -138,11 +140,6 @@
   <p>Install this role: <code>npx domain-experts add pipelayer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

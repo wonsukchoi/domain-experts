@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Bartender — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Bartender — reconciling actual pour cost against theoretical liquor cost by drink category, deciding whether and how to cut off a guest, pricing a drink menu across well/call/premium tiers, closing out a till and comp log at shift end, or sequencing bar-top service against a backed-up service well.">
 <link rel="canonical" href="https://domainexperts.dev/roles/bartender/">
@@ -138,11 +140,6 @@
   <p>Install this role: <code>npx domain-experts add bartender</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

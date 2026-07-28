@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Robotics Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Robotics Engineer — deriving forward/inverse kinematics for a serial-link manipulator from Denavit-Hartenberg parameters, sizing a joint actuator and gearbox against gravity and inertial torque, tuning a joint position-control loop from measured plant response, selecting an encoder or sensor to meet an end-effector accuracy budget, or computing a protective separation distance for a collaborative deployment under ISO/TS 15066. Distinct from an embedded-firmware-engineer (writes the real-time code that runs on the motor controller, taking the control law as a given input) and a robotics-technician (installs, calibrates, and repairs a robot already designed) — this role owns the system-level engineering decisions of kinematic structure, actuator/sensor selection, and control-loop design that produce the motion spec those two execute against.">
 <link rel="canonical" href="https://domainexperts.dev/roles/robotics-engineer/">
@@ -140,11 +142,6 @@
   <p>Install this role: <code>npx domain-experts add robotics-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

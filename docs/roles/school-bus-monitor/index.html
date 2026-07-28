@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>School Bus Monitor — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a school bus monitor — securing a wheelchair user with the four-point tiedown sequence before a route, responding to a mid-route seizure or medical event against a student&#x27;s individualized health care plan, reconciling a headcount discrepancy against the manifest before releasing any student, or executing an evacuation-drill role assignment during a bus emergency.">
 <link rel="canonical" href="https://domainexperts.dev/roles/school-bus-monitor/">
@@ -131,11 +133,6 @@
   <p>Install this role: <code>npx domain-experts add school-bus-monitor</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

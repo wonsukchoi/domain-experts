@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Surveying Mapping Technician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Surveying and Mapping Technician — verifying RTK GNSS fix quality (PDOP, fixed vs. float, baseline length) before logging a control shot, running DR angle observations and checking traverse closure in the field before leaving a site, closing a differential leveling loop to a benchmark, verifying stakeout offset and cut/fill against design tolerance before setting a permanent hub, or flagging a field evidence anomaly to the party chief or licensed surveyor of record.">
 <link rel="canonical" href="https://domainexperts.dev/roles/surveying-mapping-technician/">
@@ -134,11 +136,6 @@
   <p>Install this role: <code>npx domain-experts add surveying-mapping-technician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

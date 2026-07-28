@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Machinist — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Machinist — reading GD&amp;T (true position, MMC bonus tolerance) to accept or reject a first-article part, deciding whether a chip-color or tool-wear signal means adjusting speeds and feeds, computing a tolerance stack-up across mating parts before committing to nominal dimensions, or accounting for thermal expansion on a tight-tolerance measurement.">
 <link rel="canonical" href="https://domainexperts.dev/roles/machinist/">
@@ -112,11 +114,6 @@
   <p>Install this role: <code>npx domain-experts add machinist</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Sheet Metal Worker — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a sheet metal worker fabricating and installing HVAC ductwork — selecting duct gauge for a pressure class and dimension, laying out a transition or offset fitting, resolving a field obstruction against static-pressure and code impact, checking leakage/seal class requirements, or flagging a fire/smoke damper needed at a rated wall or floor penetration.">
 <link rel="canonical" href="https://domainexperts.dev/roles/sheet-metal-worker/">
@@ -139,11 +141,6 @@
   <p>Install this role: <code>npx domain-experts add sheet-metal-worker</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

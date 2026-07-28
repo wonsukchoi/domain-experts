@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Butcher — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Butcher/Meat Cutter — computing true cost per sellable pound from a primal&#x27;s actual cutting yield, allocating a primal&#x27;s cost across cut categories by relative market value, pricing dry-aged product against its finished (not green) weight, or diagnosing whether a below-average yield traces to cutting spec rather than the animal itself.">
 <link rel="canonical" href="https://domainexperts.dev/roles/butcher/">
@@ -111,11 +113,6 @@
   <p>Install this role: <code>npx domain-experts add butcher</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

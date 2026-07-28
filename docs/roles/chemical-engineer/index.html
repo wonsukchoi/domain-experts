@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Chemical Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Chemical Engineer — closing a mass/energy balance around a reactor or separation unit, evaluating scale-up risk from bench to pilot to plant, reviewing a HAZOP finding or LOPA scenario for a covered process, sizing relief for a runaway-reaction or fire case, or checking a process safety information (PSI) package against OSHA 1910.119 before startup.">
 <link rel="canonical" href="https://domainexperts.dev/roles/chemical-engineer/">
@@ -118,11 +120,6 @@
   <p>Install this role: <code>npx domain-experts add chemical-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

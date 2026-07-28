@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Helper Production Worker — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Helper--Production Worker — knowing which tasks fall within a helper&#x27;s authorized scope versus requiring the skilled operator&#x27;s judgment, relaying an observed irregularity (noise, spill, material defect) accurately and promptly rather than filtering or minimizing it, following a specific instruction precisely rather than improvising based on incomplete process context, and maintaining constant awareness of moving equipment/hazard zones while moving between support tasks.">
 <link rel="canonical" href="https://domainexperts.dev/roles/helper-production-worker/">
@@ -112,11 +114,6 @@
   <p>Install this role: <code>npx domain-experts add helper-production-worker</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

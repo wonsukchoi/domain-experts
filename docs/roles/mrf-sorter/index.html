@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Mrf Sorter — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a materials recovery facility (MRF) sorter/Recycling and Reclamation Worker — deciding whether a lithium battery or propane canister on a moving sort line needs an immediate line stop versus a routine hazardous pull, judging why a baled commodity dropped a purity grade and what it cost, working a picking-station reach zone without crossing into a nip point, triaging ambiguous material at sorting speed, or classifying a contamination item as quality-only versus safety-critical.">
 <link rel="canonical" href="https://domainexperts.dev/roles/mrf-sorter/">
@@ -134,11 +136,6 @@
   <p>Install this role: <code>npx domain-experts add mrf-sorter</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

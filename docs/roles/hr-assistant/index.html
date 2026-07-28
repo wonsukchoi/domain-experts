@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Hr Assistant — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of an HR assistant — processing new-hire paperwork and I-9/E-Verify timing, maintaining personnel files and HRIS data accuracy, coordinating background checks and interview scheduling, or triaging an employee&#x27;s question into &quot;answer it&quot; versus &quot;route it to the HR specialist.&quot; Distinct from hr-specialist (owns the compliance/leave/accommodation judgment calls this role executes and escalates into) and hr-people-manager (owns comp, discipline, and org decisions) — this role owns the transactional and records layer underneath both.">
 <link rel="canonical" href="https://domainexperts.dev/roles/hr-assistant/">
@@ -146,11 +148,6 @@
   <p>Install this role: <code>npx domain-experts add hr-assistant</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

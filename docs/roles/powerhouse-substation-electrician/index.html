@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Powerhouse Substation Electrician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a powerhouse/substation electrician — planning and independently verifying a switching order to de-energize substation equipment (transformers, breakers, buses) for maintenance, interpreting a dissolved gas analysis (DGA) trend to decide whether a transformer stays in service, testing and coordinating protective relays against NERC PRC-005 intervals, or selecting arc-flash PPE from an equipment-specific incident-energy study rather than voltage class alone.">
 <link rel="canonical" href="https://domainexperts.dev/roles/powerhouse-substation-electrician/">
@@ -144,11 +146,6 @@
   <p>Install this role: <code>npx domain-experts add powerhouse-substation-electrician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

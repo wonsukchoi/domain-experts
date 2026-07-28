@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Fuel Cell Engineer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Fuel Cell Engineer — diagnosing PEMFC voltage-decay data to identify the degradation mechanism, setting stack clamping torque/compression for a new build, designing or interpreting an accelerated stress test protocol, specifying start-stop or cold-start mitigation strategy, or evaluating whether a durability/efficiency claim actually meets DOE-style targets simultaneously rather than one at a time.">
 <link rel="canonical" href="https://domainexperts.dev/roles/fuel-cell-engineer/">
@@ -127,11 +129,6 @@
   <p>Install this role: <code>npx domain-experts add fuel-cell-engineer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Teller — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a bank teller — balancing a cash drawer and tracing an over/short, deciding whether a large cash transaction needs a Currency Transaction Report, recognizing a possible check-kiting or structuring pattern, applying Regulation CC funds-availability holds to a deposit, or spotting a likely elder-financial-abuse withdrawal. Distinct from a personal financial advisor or loan officer — this role executes transactions and screens them for compliance/fraud signals, it does not advise on products or approve credit.">
 <link rel="canonical" href="https://domainexperts.dev/roles/teller/">
@@ -120,11 +122,6 @@
   <p>Install this role: <code>npx domain-experts add teller</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

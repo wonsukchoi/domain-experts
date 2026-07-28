@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Mechanical Insulator — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Mechanical Insulator — specifying pipe, duct, or equipment insulation thickness and material by governing case (thermal efficiency, condensation control, personnel protection, or fire-stop), detailing supports/penetrations/fittings on below-ambient systems to prevent corrosion under insulation, evaluating whether existing pipe/boiler insulation must be handled as asbestos-containing, or writing an insulation takeoff and field inspection punch list.">
 <link rel="canonical" href="https://domainexperts.dev/roles/mechanical-insulator/">
@@ -143,11 +145,6 @@
   <p>Install this role: <code>npx domain-experts add mechanical-insulator</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

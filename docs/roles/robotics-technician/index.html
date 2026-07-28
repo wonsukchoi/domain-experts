@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Robotics Technician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Robotics Technician — installing and commissioning an industrial robot cell, remastering a joint and verifying the stored pulse count after a collision or encoder-battery replacement, running a lockout/tagout on a multi-axis cell with electrical/pneumatic/hydraulic stored energy, calibrating a Tool Center Point and judging the residual against process tolerance, decomposing a cycle-time regression by program segment to find the actual driver, or verifying a safety-rated stopping distance/time measurement against the certified spec after a repair. Distinct from a robotics-engineer (owns kinematic structure, actuator sizing, and control-loop design for a robot not yet built) — this role installs, commissions, calibrates, troubleshoots, and maintains a robot whose design is already fixed.">
 <link rel="canonical" href="https://domainexperts.dev/roles/robotics-technician/">
@@ -155,11 +157,6 @@
   <p>Install this role: <code>npx domain-experts add robotics-technician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

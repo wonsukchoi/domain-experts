@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Sewing Machine Operator — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Sewing Machine Operator — diagnosing a stitch quality issue by checking bobbin tension relative to top tension, selecting needle type and seam construction matched to a fabric&#x27;s actual weight and stretch behavior, deciding whether a higher stitch density improves or weakens a seam on lightweight fabric, or verifying a seam&#x27;s stretch performance before committing to full bundle production.">
 <link rel="canonical" href="https://domainexperts.dev/roles/sewing-machine-operator/">
@@ -113,11 +115,6 @@
   <p>Install this role: <code>npx domain-experts add sewing-machine-operator</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

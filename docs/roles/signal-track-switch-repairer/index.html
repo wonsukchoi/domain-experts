@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Signal Track Switch Repairer — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a signal and track switch repairer (railroad signal maintainer) — diagnosing an intermittent false-clear or failure-to-shunt report on a track circuit, evaluating a worn or gapped switch point for continued service, planning a vital-relay or interlocking-logic test after a signal system change, or deciding whether a wayside fault can be worked around versus requiring an immediate slow order or stop-and-flag.">
 <link rel="canonical" href="https://domainexperts.dev/roles/signal-track-switch-repairer/">
@@ -137,11 +139,6 @@
   <p>Install this role: <code>npx domain-experts add signal-track-switch-repairer</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Roof Bolter — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Roof Bolter — reading a roof control plan&#x27;s bolt pattern and length against measured CMRR conditions, interpreting a pull test or sounding result against the plan&#x27;s anchorage assumption, selecting resin by gel/spin time for ambient temperature, deciding whether a ground condition requires a plan deviation before advancing, or sequencing an ATRS cycle within its setback limit.">
 <link rel="canonical" href="https://domainexperts.dev/roles/roof-bolter/">
@@ -132,11 +134,6 @@
   <p>Install this role: <code>npx domain-experts add roof-bolter</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

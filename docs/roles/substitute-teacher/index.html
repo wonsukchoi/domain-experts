@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Substitute Teacher — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Short-Term Substitute Teacher — verifying an unfamiliar classroom&#x27;s plans and safety information on arrival, deciding what to do when posted lesson plans don&#x27;t fill the period, running a compressed behavior-escalation ladder with no relationship capital, or writing a handoff note the returning teacher can act on without a follow-up conversation.">
 <link rel="canonical" href="https://domainexperts.dev/roles/substitute-teacher/">
@@ -123,11 +125,6 @@
   <p>Install this role: <code>npx domain-experts add substitute-teacher</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

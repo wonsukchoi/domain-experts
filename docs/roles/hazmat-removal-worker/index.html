@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Hazmat Removal Worker — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a hazardous materials removal worker — verifying negative-pressure asbestos containment integrity before and during Class I removal, sizing negative air machines and calculating required air changes per hour, selecting respirator class (APR vs. PAPR vs. supplied-air) against a measured or assumed exposure level, interpreting post-abatement clearance results (PCM/TEM fiber counts or lead dust-wipe results) as a pass/fail gate, or setting up IICRC S520 mold containment and negative air for a Condition 3 remediation.">
 <link rel="canonical" href="https://domainexperts.dev/roles/hazmat-removal-worker/">
@@ -140,11 +142,6 @@
   <p>Install this role: <code>npx domain-experts add hazmat-removal-worker</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Allergist Immunologist — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of an allergist/immunologist — interpreting a skin-prick or specific-IgE result against pretest probability, working up a &quot;penicillin allergy&quot; label for delabeling before a needed antibiotic, managing anaphylaxis and biphasic-reaction risk, stepping asthma therapy up or down, or evaluating suspected primary immunodeficiency.">
 <link rel="canonical" href="https://domainexperts.dev/roles/allergist-immunologist/">
@@ -140,11 +142,6 @@
   <p>Install this role: <code>npx domain-experts add allergist-immunologist</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

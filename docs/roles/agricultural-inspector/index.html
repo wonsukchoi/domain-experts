@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Agricultural Inspector — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of an Agricultural Inspector — grading a lot of produce against a USDA grade standard&#x27;s defect tolerances, evaluating agricultural water test results against FSMA microbial thresholds, checking a pesticide residue result against the commodity-specific EPA tolerance, deciding whether a finding warrants a stop-sale order versus a corrective-action letter, or verifying a facility&#x27;s traceability records against a recall deadline.">
 <link rel="canonical" href="https://domainexperts.dev/roles/agricultural-inspector/">
@@ -126,11 +128,6 @@
   <p>Install this role: <code>npx domain-experts add agricultural-inspector</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

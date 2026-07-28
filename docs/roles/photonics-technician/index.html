@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Photonics Technician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Photonics Technician — inspecting a fiber end-face against IEC 61300-3-35 pass/fail zone criteria, fusion- or mechanical-splicing fiber and verifying the loss against budget, reading an OTDR trace for a fault that may be hidden in a dead zone, running an L-I-V sweep and burn-in on a laser diode, or handling and hermeticity-testing an ESD-sensitive optoelectronic package under GR-468-CORE.">
 <link rel="canonical" href="https://domainexperts.dev/roles/photonics-technician/">
@@ -138,11 +140,6 @@
   <p>Install this role: <code>npx domain-experts add photonics-technician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Nuclear Monitoring Technician — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Nuclear Monitoring Technician — converting a raw survey meter count into a dpm/100cm2 or dose-rate result against an action level, deciding whether a &quot;not detected&quot; reading actually clears an item given the instrument&#x27;s MDA, calculating stay time from an actual dose-rate survey map rather than an RWP estimate, or judging whether a CAM alarm needs an independent grab-sample count before it&#x27;s dismissed.">
 <link rel="canonical" href="https://domainexperts.dev/roles/nuclear-monitoring-technician/">
@@ -113,11 +115,6 @@
   <p>Install this role: <code>npx domain-experts add nuclear-monitoring-technician</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

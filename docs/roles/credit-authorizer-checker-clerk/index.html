@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Credit Authorizer Checker Clerk — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a credit authorizer, checker, or clerk — deciding a real-time point-of-sale credit authorization against available credit, verifying a credit application&#x27;s income/employment documentation, issuing an adverse-action notice on a declined application, or intaking a chargeback/dispute within its filing window. Distinct from a credit analyst, who underwrites commercial credit with a multi-year financial spread and a risk rating — this role runs a high-volume rules engine against a preset limit, it does not assess creditworthiness from first principles.">
 <link rel="canonical" href="https://domainexperts.dev/roles/credit-authorizer-checker-clerk/">
@@ -139,11 +141,6 @@
   <p>Install this role: <code>npx domain-experts add credit-authorizer-checker-clerk</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>

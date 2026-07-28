@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Quarry Rock Splitter — Domain Experts</title>
 <meta name="description" content="Use when a task needs the judgment of a Quarry Rock Splitter — reading grain/rift/hard-way direction to lay out a split line, choosing plug-and-feather vs jackhammer channel vs mechanized (wire saw, chop saw, hydraulic splitter) splitting method, spacing a plug-and-feather hole line for a given rock type, sounding a face for seams before committing a cut, or deciding whether a block spec should be revised to avoid a hard-way hand split.">
 <link rel="canonical" href="https://domainexperts.dev/roles/quarry-rock-splitter/">
@@ -138,11 +140,6 @@
   <p>Install this role: <code>npx domain-experts add quarry-rock-splitter</code></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
-<script>
-  var toTop = document.getElementById("to-top");
-  window.addEventListener("scroll", function () {
-    toTop.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
-</script>
+<script src="../../to-top.js" defer></script>
 </body>
 </html>
