@@ -193,6 +193,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 {jurisdictions}{related_roles}</main>
 <footer>
   <p>Install this role: <code>npx domain-experts add {slug}</code></p>
+  <p class="legal-links"><a href="../../privacy.html">Privacy</a> &middot; <a href="../../terms.html">Terms</a></p>
 </footer>
 <a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
 <script src="../../to-top.js" defer></script>
