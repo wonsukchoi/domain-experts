@@ -1,5 +1,5 @@
 {
-  "count": 954,
+  "count": 956,
   "roles": [
     {
       "slug": "accountant-controller",
@@ -13,6 +13,27 @@
       "last_audited": "2026-07-15",
       "audit_score": 17,
       "skill": "roles/accountant-controller/SKILL.md",
+      "references": [
+        "artifacts.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "acoustical-engineer",
+      "description": "Use when a task needs the judgment of an Acoustical Engineer \u2014 calculating room reverberation time (RT60) and specifying absorption/reflection treatment for a space, evaluating a wall or floor assembly's STC/IIC rating against a code or design target, diagnosing why a completed space fails its acoustic design intent, specifying industrial or mechanical equipment noise controls against OSHA/NIOSH exposure limits, or writing an acoustic design report or noise-control specification for a construction or renovation project.",
+      "category": "engineering",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/acoustical-engineer/SKILL.md",
       "references": [
         "artifacts.md",
         "red-flags.md",
@@ -1947,6 +1968,27 @@
       "skill": "roles/bookkeeping-accounting-clerk/SKILL.md",
       "references": [
         "playbook.md",
+        "red-flags.md",
+        "vocabulary.md"
+      ],
+      "jurisdictions": [
+        "us"
+      ]
+    },
+    {
+      "slug": "brewmaster",
+      "description": "Use when a task needs the judgment of a Brewmaster \u2014 setting or correcting mash pH before conversion, calibrating yeast pitch rates from wort gravity, deciding whether a diacetyl (VDK) reading clears a batch for cold crash or requires a diacetyl rest, investigating a contamination or off-flavor signal and scoping a recall, or specifying dissolved-oxygen and pasteurization controls to hit a TTB-compliant ABV label.",
+      "category": "operations",
+      "maturity": "draft",
+      "spec": 2,
+      "onet_soc_code": null,
+      "parent": null,
+      "status": "active",
+      "last_audited": null,
+      "audit_score": null,
+      "skill": "roles/brewmaster/SKILL.md",
+      "references": [
+        "brewing-playbook.md",
         "red-flags.md",
         "vocabulary.md"
       ],

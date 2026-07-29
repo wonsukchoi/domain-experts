@@ -1,14 +1,12 @@
 # CONTEXT
 
 ## Current Task
-2026-07-15 session (later): added ESCO taxonomy diff + curated 260-role expansion backlog, then started working the spec-2 upgrade queue — upgraded `accountant-controller` (rubric 17/18) and `administrative-services-manager` (rubric 16/18), both also cleared off needs-refresh. Paused; `advertising-promotions-manager` queued as next (task #1).
+2026-07-16 session: worked ESCO-BACKLOG.md's 260-role expansion list one-by-one (spec 2, full authoring pipeline). Drafted 8 roles: `chief-technology-officer`, `chief-data-officer`, `property-developer`, `book-publisher`, `central-bank-governor`, `pension-scheme-manager`, `correctional-services-manager`, `oil-gas-production-manager`. All lint clean, pushed to main. Paused here — 252 of 260 backlog roles remain.
 
 ## Key Decisions
-- Fetched all 2,942 ESCO occupations via the public API, diffed against 937 roles, curated the 1,994 unmatched candidates with 8 parallel judge agents: 702 dup / 1,032 niche / 260 genuinely new. Shipped as `data/esco_occupations.tsv` + `ESCO-BACKLOG.md`, linked from `ROADMAP.md`'s "Beyond O*NET" section.
-- Spec-2 upgrades follow CONTRIBUTING.md's upgrade recipe exactly: restructure to 10-section template, add references/ trio, worked example needs real reconciling arithmetic + quoted deliverable, self-score against AUTHORING.md rubric (≥14/18, no zero), lint 0 errors before commit.
-- Picked upgrade-queue entries that were also on the needs-refresh list (double win) — accountant-controller was 5/18, administrative-services-manager was 7/18. Needs-refresh list now down to 2 entries.
+- Recipe per role: mkdir + SKILL.md + references/ trio → check ESCO-BACKLOG.md box + link → add entry to `UNMAPPED_NOTES` in `scripts/generate_roadmap.py` (all these roles have no O*NET counterpart) → `git add` the role dir → `lint_roles.py <slug>` → `generate_roadmap.py` → `check_links.py` → commit → `git pull --rebase --autostash` → push. Repeat per role, not batched.
+- Picks favored high-value, non-niche, no-overlap roles from ISCO 1 (Managers) first; ISCO 2 (Professionals, 128 roles) and ISCO 3 (Technicians, 53 roles) untouched.
 
 ## Next Steps
-- Task #1 (tracked): upgrade `advertising-promotions-manager` to spec 2 — next in the queue (40 roles remain after the two done this session) and also needs-refresh (5/18).
-- After that, `agricultural-manager` is next unclaimed queue entry.
-- ESCO-BACKLOG.md's 260 new roles (biggest chunks: ISCO 2 Professionals 128, ISCO 3 Technicians 53) are a separate, larger body of work — not started, no roles drafted from it yet.
+- Resume ESCO-BACKLOG.md one-by-one from ISCO 1 remaining: consul, diplomat, ambassador, police commissioner, public administration manager, licensing manager, quarry manager, rail operations manager, import export manager, movie distributor, and others — then move into ISCO 2/3.
+- Same recipe each time: draft → checkbox + UNMAPPED_NOTES → lint → regenerate → commit/push individually.
