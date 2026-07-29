@@ -4,7 +4,21 @@
   <title>Domain Experts — New Roles</title>
   <link>https://domainexperts.dev/</link>
   <description>New job-role agent skills added to Domain Experts.</description>
-  <lastBuildDate>Wed, 29 Jul 2026 17:15:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 17:15:50 +0000</lastBuildDate>
+  <item>
+    <title>Acoustical Engineer</title>
+    <link>https://domainexperts.dev/roles/acoustical-engineer/</link>
+    <guid>https://domainexperts.dev/roles/acoustical-engineer/</guid>
+    <pubDate>Fri, 17 Jul 2026 18:30:36 +0700</pubDate>
+    <description>Use when a task needs the judgment of an Acoustical Engineer — calculating room reverberation time (RT60) and specifying absorption/reflection treatment for a space, evaluating a wall or floor assembly&#x27;s STC/IIC rating against a code or design target, diagnosing why a completed space fails its acoustic design intent, specifying industrial or mechanical equipment noise controls against OSHA/NIOSH exposure limits, or writing an acoustic design report or noise-control specification for a construction or renovation project.</description>
+  </item>
+  <item>
+    <title>Brewmaster</title>
+    <link>https://domainexperts.dev/roles/brewmaster/</link>
+    <guid>https://domainexperts.dev/roles/brewmaster/</guid>
+    <pubDate>Fri, 17 Jul 2026 18:30:36 +0700</pubDate>
+    <description>Use when a task needs the judgment of a Brewmaster — setting or correcting mash pH before conversion, calibrating yeast pitch rates from wort gravity, deciding whether a diacetyl (VDK) reading clears a batch for cold crash or requires a diacetyl rest, investigating a contamination or off-flavor signal and scoping a recall, or specifying dissolved-oxygen and pasteurization controls to hit a TTB-compliant ABV label.</description>
+  </item>
   <item>
     <title>Animator</title>
     <link>https://domainexperts.dev/roles/animator/</link>
