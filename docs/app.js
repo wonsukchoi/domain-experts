@@ -4,9 +4,31 @@ const searchClear = document.getElementById("search-clear");
 const categoryFilter = document.getElementById("category-filter");
 const resultCount = document.getElementById("result-count");
 const roleCountEl = document.getElementById("role-count");
+const loadMoreBtn = document.getElementById("load-more");
+
+// Matches PAGE_SIZE in scripts/build_pages.py — the SSR'd homepage ships this
+// many cards up front (real content for no-JS / crawlers), everything past
+// it exists only in data/roles.json and renders on "Load more". Keeps the
+// live DOM off Lighthouse's excessive-DOM-size line instead of shipping and
+// re-rendering all ~950 cards on every load.
+const PAGE_SIZE = 60;
 
 let roles = [];
 let activeCategory = "";
+let shownCount = PAGE_SIZE;
+
+function cardHtml(r) {
+  return `
+    <a class="role-card" href="roles/${r.slug}/">
+      <h3>${escapeHtml(titleCase(r.slug))}</h3>
+      <div class="badges">
+        <span class="badge">${escapeHtml(r.category)}</span>
+        <span class="badge status-${r.status}">${escapeHtml(r.status)}</span>
+      </div>
+      <p>${escapeHtml(r.description)}</p>
+    </a>
+  `;
+}
 
 function render() {
   const q = searchInput.value.trim().toLowerCase();
@@ -24,16 +46,19 @@ function render() {
 
   resultCount.textContent = `${filtered.length} of ${roles.length} roles`;
 
-  roleList.innerHTML = filtered.map(r => `
-    <a class="role-card" href="roles/${r.slug}/">
-      <h3>${escapeHtml(titleCase(r.slug))}</h3>
-      <div class="badges">
-        <span class="badge">${escapeHtml(r.category)}</span>
-        <span class="badge status-${r.status}">${escapeHtml(r.status)}</span>
-      </div>
-      <p>${escapeHtml(r.description)}</p>
-    </a>
-  `).join("");
+  const visible = filtered.slice(0, shownCount);
+  roleList.innerHTML = visible.map(cardHtml).join("");
+
+  const remaining = filtered.length - visible.length;
+  loadMoreBtn.hidden = remaining <= 0;
+  if (remaining > 0) {
+    loadMoreBtn.textContent = `Load more roles (${remaining} left)`;
+  }
+}
+
+function resetAndRender() {
+  shownCount = PAGE_SIZE;
+  render();
 }
 
 function titleCase(slug) {
@@ -52,7 +77,7 @@ function setActiveCategory(cat) {
     chip.classList.toggle("active", chip.dataset.cat === cat);
     chip.setAttribute("aria-pressed", chip.dataset.cat === cat ? "true" : "false");
   });
-  render();
+  resetAndRender();
 }
 
 async function init() {
@@ -75,10 +100,14 @@ async function init() {
   render();
 }
 
-searchInput.addEventListener("input", render);
+searchInput.addEventListener("input", resetAndRender);
 searchClear.addEventListener("click", () => {
   searchInput.value = "";
   searchInput.focus();
+  resetAndRender();
+});
+loadMoreBtn.addEventListener("click", () => {
+  shownCount += PAGE_SIZE;
   render();
 });
 

@@ -19,6 +19,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "roles.json"
+
+# Matches PAGE_SIZE in docs/app.js. The homepage SSRs only the first page of
+# cards — real content for no-JS clients and crawlers — instead of all ~950,
+# which is what drove the DOM past Lighthouse's excessive-DOM-size line
+# (~5,800 nodes vs. its ~800-node target). app.js fetches docs/data/roles.json
+# and fully replaces #role-list on load regardless, so the SSR'd cards were
+# never load-bearing for the JS-driven search/filter UI in the first place —
+# only for no-JS viewers and crawlers, both served by this trimmed page plus
+# the complete index in sitemap.xml and llms.txt.
+HOMEPAGE_PAGE_SIZE = 60
 ROLES_DIR = ROOT / "roles"
 OUT_DIR = ROOT / "docs" / "roles"
 SITE_URL = "https://domainexperts.dev"
@@ -253,7 +263,7 @@ def inject_static_role_list(roles):
     # contains.
     index_path = ROOT / "docs" / "index.html"
     html_text = index_path.read_text()
-    cards = "\n".join(role_card_html(r) for r in roles)
+    cards = "\n".join(role_card_html(r) for r in roles[:HOMEPAGE_PAGE_SIZE])
     replacement = f"<!-- BEGIN:role-cards -->\n{cards}\n<!-- END:role-cards -->"
     if "<!-- BEGIN:role-cards -->" in html_text:
         html_text = re.sub(

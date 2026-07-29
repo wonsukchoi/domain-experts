@@ -518,6 +518,24 @@ main {
   flex-wrap: wrap;
 }
 
+.load-more {
+  display: block;
+  margin: var(--space-3) auto 0;
+  padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-raised);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 150ms var(--ease), border-color 150ms var(--ease);
+}
+
+.load-more:hover { border-color: var(--text-dim); }
+.load-more[hidden] { display: none; }
+
 .badge {
   font-size: 0.72rem;
   font-weight: 500;
