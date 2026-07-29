@@ -3,7 +3,8 @@
 
 Reads data/roles.json + roles/<slug>/SKILL.md, converts the markdown body
 to plain HTML with a minimal hand-rolled converter (no dependencies), and
-writes one static page per role plus docs/sitemap.xml.
+writes one static page per role plus docs/sitemap.xml, robots.txt, feed.xml
+and llms.txt. All of those are generated — never hand-edit them.
 
 Re-run after any role content changes:
     python3 scripts/build_pages.py
@@ -276,6 +277,138 @@ def inject_static_role_list(roles):
     index_path.write_text(html_text)
 
 
+# AI crawlers get their own robots.txt groups. `User-agent: *` already allows
+# them, so this changes nothing today — it is a durable declaration. robots.txt
+# matching is most-specific-group-wins, so once a named group exists these
+# crawlers stop reading the `*` group entirely, and a future `Disallow:` added
+# there for ordinary search bots can no longer silently cut off AI access as a
+# side effect. (`Sitemap:` is a non-group record and stays visible to all.)
+AI_CRAWLERS = [
+    ("GPTBot", "OpenAI — ChatGPT browsing and training"),
+    ("OAI-SearchBot", "OpenAI — ChatGPT search index"),
+    ("ChatGPT-User", "OpenAI — user-initiated page fetches"),
+    ("ClaudeBot", "Anthropic — Claude"),
+    ("Claude-User", "Anthropic — user-initiated page fetches"),
+    ("PerplexityBot", "Perplexity"),
+    ("Google-Extended", "Google — Gemini / AI Overviews grounding"),
+    ("Applebot-Extended", "Apple Intelligence"),
+    ("CCBot", "Common Crawl — feeds most open training corpora"),
+]
+
+# Descriptions all read "Use when a task needs the judgment of <role> — <triggers>".
+# The head is boilerplate plus the role name, which the link text already carries;
+# the triggers after the dash are the only part that tells one role from another.
+DESCRIPTION_HEAD = re.compile(r"^Use when a task needs the judgment of .*?\s+—\s+")
+LLMS_SUMMARY_CHARS = 180
+
+CATEGORY_TITLES = {
+    "design": "Design",
+    "engineering": "Engineering",
+    "finance": "Finance",
+    "healthcare": "Healthcare",
+    "legal": "Legal",
+    "marketing": "Marketing",
+    "operations": "Operations",
+    "other": "Other",
+    "product": "Product",
+    "sales": "Sales",
+}
+
+
+def llms_summary(description):
+    """One-line trigger summary for llms.txt.
+
+    Role descriptions arrive through outside PRs, so newlines are collapsed
+    before the string is written into a line-oriented format — otherwise a
+    crafted description could forge extra list entries or a whole `##` section
+    in the generated file. Same untrusted input that produced the stored XSS
+    fixed in the HTML path; plain text has no markup to escape, but it does
+    have line structure to protect.
+    """
+    text = " ".join(description.split())
+    text = DESCRIPTION_HEAD.sub("", text)
+    if len(text) <= LLMS_SUMMARY_CHARS:
+        return text
+    cut = text[:LLMS_SUMMARY_CHARS].rsplit(" ", 1)[0].rstrip(" ,;:—-")
+    return cut + "…"
+
+
+def build_llms_txt(roles):
+    """Write docs/llms.txt — the llmstxt.org index for this site.
+
+    An agent lands here asking "is there a role for X, and how do I load it?".
+    So the header answers the second question outright (the CLI is the whole
+    product surface), and the body is the complete 950+ role list grouped by
+    category — a partial list would make a "not covered yet" answer wrong.
+    """
+    lines = [
+        "# Domain Experts",
+        "",
+        "> Open source library of job-role definitions — the decision thresholds, "
+        "trade-off rules and failure modes of real practitioners, structured as "
+        "SKILL.md files any AI agent can load and reason from.",
+        "",
+        "Each role below is a page at `/roles/<slug>/`; the underlying SKILL.md "
+        "and its `references/` live in the GitHub repo. Roles are US-baseline, "
+        "with jurisdiction overlays noted per role.",
+        "",
+        "To load one into an agent rather than read it: "
+        "`npx domain-experts add <slug>`, or `npx domain-experts match \"<task>\"` "
+        "to find the right slug first. `npx domain-experts init <slug>` also "
+        "installs the router skill and the `/domain-expert` command.",
+        "",
+        "## Start here",
+        "",
+        f"- [Role index]({SITE_URL}/): all roles, searchable by name and category.",
+        f"- [README]({REPO_BLOB}README.md): what a role contains and why prompting "
+        "for one is not equivalent.",
+        f"- [Authoring spec]({REPO_BLOB}AUTHORING.md): the v2 structure every new role follows.",
+        f"- [Contributing]({REPO_BLOB}CONTRIBUTING.md): how to add or upgrade a role.",
+        "",
+    ]
+
+    by_category = {}
+    for r in roles:
+        by_category.setdefault(r["category"], []).append(r)
+
+    # Named categories alphabetically, "other" last — it is a catch-all, not a peer.
+    ordered = sorted(k for k in by_category if k != "other")
+    if "other" in by_category:
+        ordered.append("other")
+
+    for category in ordered:
+        entries = sorted(by_category[category], key=lambda r: r["slug"])
+        lines.append(f"## {CATEGORY_TITLES.get(category, title_case(category))}")
+        lines.append("")
+        for r in entries:
+            lines.append(
+                f"- [{title_case(r['slug'])}]({SITE_URL}/roles/{r['slug']}/): "
+                f"{llms_summary(r['description'])}"
+            )
+        lines.append("")
+
+    lines += [
+        "## Optional",
+        "",
+        f"- [Sitemap]({SITE_URL}/sitemap.xml): every page with last-modified dates.",
+        f"- [Feed]({SITE_URL}/feed.xml): newly added roles.",
+        f"- [Roadmap]({REPO_BLOB}ROADMAP.md): requested roles not yet written.",
+        "",
+    ]
+
+    (ROOT / "docs" / "llms.txt").write_text("\n".join(lines))
+
+
+def build_robots_txt():
+    groups = [f"User-agent: *\nAllow: /\n"]
+    for agent, note in AI_CRAWLERS:
+        groups.append(f"# {note}\nUser-agent: {agent}\nAllow: /\n")
+    body = "\n".join(groups)
+    (ROOT / "docs" / "robots.txt").write_text(
+        f"{body}\nSitemap: {SITE_URL}/sitemap.xml\n"
+    )
+
+
 def build():
     sync_roles_json()
     data = json.loads(DATA.read_text())
@@ -355,15 +488,16 @@ def build():
     sitemap.append("</urlset>")
     (ROOT / "docs" / "sitemap.xml").write_text("\n".join(sitemap) + "\n")
 
-    (ROOT / "docs" / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n"
-    )
+    build_robots_txt()
 
     inject_index_schema(roles)
     inject_static_role_list(roles)
     build_feed(roles)
+    build_llms_txt(roles)
 
-    print(f"Built {len(urls)} role pages + sitemap.xml + robots.txt + feed.xml")
+    print(
+        f"Built {len(urls)} role pages + sitemap.xml + robots.txt + feed.xml + llms.txt"
+    )
 
 
 def role_added_dates():

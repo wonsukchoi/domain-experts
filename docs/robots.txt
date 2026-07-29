@@ -1,3 +1,40 @@
 User-agent: *
 Allow: /
+
+# OpenAI — ChatGPT browsing and training
+User-agent: GPTBot
+Allow: /
+
+# OpenAI — ChatGPT search index
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI — user-initiated page fetches
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic — user-initiated page fetches
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google — Gemini / AI Overviews grounding
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl — feeds most open training corpora
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://domainexperts.dev/sitemap.xml
