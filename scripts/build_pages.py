@@ -39,6 +39,74 @@ def title_case(slug):
     return " ".join(w[0].upper() + w[1:] for w in slug.split("-"))
 
 
+# The `description` field in each role's SKILL.md frontmatter is not just SEO
+# copy — it's the literal AI-agent skill-trigger text ("Use when a task needs
+# the judgment of..."), consumed verbatim by agent frameworks deciding whether
+# to invoke this role. That's why every single role's description runs
+# 300-500+ chars: completeness there matters more than SERP snippet length.
+# Human search engines want 50-160 chars, so `seo_description()` below derives
+# a short, distinct-per-role summary from the same source data (role name +
+# category + first concrete use case) purely for <meta description>/OG/Twitter
+# tags — the full `description` field is untouched and still used everywhere
+# else (JSON-LD, llms.txt, on-page body, roles.json).
+_SEO_DESC_TAIL_STOPWORDS = {
+    "a", "an", "the", "for", "and", "or", "with", "to", "of", "in", "on",
+    "at", "by", "from",
+}
+
+
+def _first_use_case(description):
+    """First bullet after the description's leading em-dash, respecting
+    parens so a parenthetical list's internal commas don't cause a cut
+    mid-parenthesis."""
+    dash = description.find("—")
+    if dash == -1:
+        return None
+    rest = description[dash + 1:].strip()
+    depth = 0
+    cut = len(rest)
+    for i, ch in enumerate(rest):
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+        elif ch == "," and depth == 0:
+            cut = i
+            break
+    return rest[:cut].strip().rstrip(".")
+
+
+def _trim_dangling(text):
+    words = text.split()
+    while words and (
+        words[-1].lower().strip("()") in _SEO_DESC_TAIL_STOPWORDS
+        or "".join(words).count("(") > "".join(words).count(")")
+    ):
+        words.pop()
+    return " ".join(words)
+
+
+def seo_description(slug, category, description):
+    name = title_case(slug)
+    bullet = _first_use_case(description)
+    cat = category.replace("-", " ")
+    if not bullet:
+        return f"{name} AI agent skill — {cat} domain expertise for judgment-heavy tasks."
+    prefix = f"{name} AI agent skill: {cat} expertise for "
+    full = prefix + bullet[0].lower() + bullet[1:] + "."
+    if len(full) <= 160:
+        return full
+    budget = 160 - len(prefix) - 1
+    out = ""
+    for w in bullet.split():
+        cand = (out + " " + w).strip()
+        if len(cand) > budget:
+            break
+        out = cand
+    out = _trim_dangling(out)
+    return prefix + out[0].lower() + out[1:] + "."
+
+
 def split_frontmatter(text):
     if text.startswith("---"):
         end = text.find("\n---", 3)
@@ -164,7 +232,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{name} — Domain Experts</title>
-<meta name="description" content="{description}">
+<meta name="description" content="{seo_description}">
 <link rel="canonical" href="{canonical}">
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="alternate icon" href="../../favicon.ico">
@@ -174,7 +242,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../style.css">
 <meta property="og:title" content="{name} — Domain Experts">
-<meta property="og:description" content="{description}">
+<meta property="og:description" content="{seo_description}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Domain Experts">
 <meta property="og:url" content="{canonical}">
@@ -184,7 +252,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta property="og:image:type" content="image/png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{name} — Domain Experts">
-<meta name="twitter:description" content="{description}">
+<meta name="twitter:description" content="{seo_description}">
 <meta name="twitter:image" content="https://domainexperts.dev/og-image.png">
 <script type="application/ld+json">{schema}</script>
 <script type="application/ld+json">{breadcrumb}</script>
@@ -469,7 +537,7 @@ def build():
 
         page = PAGE_TEMPLATE.format(
             name=html.escape(title_case(slug)),
-            description=html.escape(r["description"]),
+            seo_description=html.escape(seo_description(slug, r["category"], r["description"])),
             canonical=canonical,
             content=content_html,
             source=html.escape(REPO_BLOB + r["skill"]),
