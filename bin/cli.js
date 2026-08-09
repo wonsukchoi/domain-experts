@@ -18,8 +18,14 @@ const REMOTE_RAW_BASE = "https://raw.githubusercontent.com/wonsukchoi/domain-exp
 // fetched from GitHub raw on demand in cmdAdd. When developing inside the
 // monorepo, roles/ exists locally, so we still read straight from disk.
 function loadRoles() {
-  return JSON.parse(fs.readFileSync(DATA_FILE, "utf8"))
-    .roles.map((r) => ({
+  let parsed;
+  try {
+    parsed = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
+  } catch (err) {
+    console.error(`Failed to read "${DATA_FILE}": ${err.message}`);
+    process.exit(1);
+  }
+  return parsed.roles.map((r) => ({
       slug: r.slug,
       description: r.description,
       category: r.category,
@@ -65,6 +71,22 @@ function fetchText(url) {
 async function readRoleFile(localPath, repoRelativePath) {
   if (fs.existsSync(localPath)) return fs.readFileSync(localPath, "utf8");
   return fetchText(REMOTE_RAW_BASE + repoRelativePath);
+}
+
+// Runs `fn` over `items` with at most `limit` in flight at once — used so
+// updating N installed roles doesn't serialize N GitHub-raw round trips.
+async function mapWithConcurrency(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i], i);
+    }
+  }
+  const workers = Array.from({ length: Math.min(limit, items.length) }, () => worker());
+  await Promise.all(workers);
+  return results;
 }
 
 function printRoleLine(role) {
@@ -402,15 +424,12 @@ async function cmdUpdate(opts) {
     return;
   }
 
-  let updated = 0;
-  let unchanged = 0;
-  let missing = 0;
-  for (const slug of installedSlugs) {
+  const UPDATE_CONCURRENCY = 5;
+  const results = await mapWithConcurrency(installedSlugs, UPDATE_CONCURRENCY, async (slug) => {
     const role = findRoleOrMeta(slug, roles);
     if (!role) {
       console.log(`? ${slug}: no longer in the role index, skipping`);
-      missing++;
-      continue;
+      return "missing";
     }
     const targetDir = path.join(baseDir, slug);
     try {
@@ -437,15 +456,20 @@ async function cmdUpdate(opts) {
 
       if (changed) {
         console.log(`* ${slug}: updated`);
-        updated++;
+        return "updated";
       } else {
         console.log(`  ${slug}: up to date`);
-        unchanged++;
+        return "unchanged";
       }
     } catch (err) {
       console.log(`! ${slug}: failed (${err.message})`);
+      return "failed";
     }
-  }
+  });
+
+  const updated = results.filter((r) => r === "updated").length;
+  const unchanged = results.filter((r) => r === "unchanged").length;
+  const missing = results.filter((r) => r === "missing").length;
   console.log(`\n${updated} updated, ${unchanged} up to date, ${missing} skipped.`);
 }
 
