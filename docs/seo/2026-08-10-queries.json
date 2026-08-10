@@ -1,0 +1,2460 @@
+{
+  "domain": "domainexperts.dev",
+  "report_date": "2026-08-10",
+  "generated_at": "2026-08-10T12:30:28.334401+07:00",
+  "total_queries": 160,
+  "total_pages": 372,
+  "queries": [
+    {
+      "query": "\"dana ruiz\" councilmember",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_meta"
+    },
+    {
+      "query": "\"saas\" \"ucc article 2\" court",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "\"sre devops",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/devops-sre"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "87205 cpt code description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "acr mri 2 technologist requirements",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/cytotechnologist",
+        "/roles/education-administrator-k12",
+        "/roles/gis-technologist",
+        "/roles/mri-technologist",
+        "/roles/neurodiagnostic-technologist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "admin services manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 55.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "administrative site management",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 97.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/management-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "agricultural graders",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 29.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/agricultural-engineer",
+        "/roles/agricultural-grader-sorter",
+        "/roles/agricultural-sciences-professor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "aircraft loading supervisor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-cargo-supervisor",
+        "/roles/aircraft-mechanic",
+        "/roles/aircraft-service-attendant",
+        "/roles/landscaping-supervisor",
+        "/roles/mechanics-installers-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "amusement and recreation services",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/amusement-recreation-attendant",
+        "/roles/coin-vending-amusement-machine-servicer",
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "atv in retail",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aerospace-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "atv upt",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 19.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "automated mail processing machines",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 80.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/insurance-claims-processing-clerk",
+        "/roles/postal-service-mail-carrier",
+        "/roles/postal-service-mail-sorter",
+        "/roles/semiconductor-processing-technician",
+        "/roles/sterile-processing-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "best equest competitors for ofccp and job distribution",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 60.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/bioinformatics-technician",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/freight-forwarder",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "biofuel technology and product development managers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 29.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager",
+        "/roles/helper-production-worker",
+        "/roles/hydroelectric-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "biofuels production manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "biofuels production managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager",
+        "/roles/helper-production-worker",
+        "/roles/hydroelectric-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "bravo side meaning",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "c faller",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/aerospace-engineer",
+        "/roles/agricultural-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "call switchboard",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/switchboard-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "challenge marketing strategist",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0.0,
+      "position": 73.8,
+      "lost_clicks": 1,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "ches competencies",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 81.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "commercial and industrial design",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 30.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-diver",
+        "/roles/commercial-industrial-designer",
+        "/roles/commercial-pilot",
+        "/roles/costume-designer",
+        "/roles/game-designer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "commercial industrial designer",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 41.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-diver",
+        "/roles/commercial-industrial-designer",
+        "/roles/commercial-pilot",
+        "/roles/costume-designer",
+        "/roles/game-designer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "community health education specialist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 57.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/career-technical-education-teacher-postsecondary",
+        "/roles/community-health-worker",
+        "/roles/computer-user-support-specialist",
+        "/roles/education-administrator-k12",
+        "/roles/environmental-health-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "compressor station operator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 57.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/camera-operator",
+        "/roles/chemical-equipment-operator",
+        "/roles/chemical-plant-operator",
+        "/roles/crematory-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer & information systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer & information systems managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-atm-office-machine-repairer",
+        "/roles/computer-hardware-engineer",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/computer-systems-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer and information system manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer and information systems managers",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 56.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-atm-office-machine-repairer",
+        "/roles/computer-hardware-engineer",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/computer-systems-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer information systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computer managers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 49.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-atm-office-machine-repairer",
+        "/roles/computer-hardware-engineer",
+        "/roles/computer-information-research-scientist",
+        "/roles/computer-information-systems-manager",
+        "/roles/computer-systems-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "computers and information systems manager",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 71.9,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "costume designer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-designer",
+        "/roles/costume-designer",
+        "/roles/game-designer",
+        "/roles/set-exhibit-designer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "cota therapy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 77.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/occupational-therapy-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "courier messenger",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 93.6,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/courier-messenger"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "crematory operator certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/camera-operator",
+        "/roles/chemical-equipment-operator",
+        "/roles/chemical-plant-operator",
+        "/roles/crematory-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "customer service domain",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 8.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/aircraft-service-attendant",
+        "/roles/auto-service-technician",
+        "/roles/coin-vending-amusement-machine-servicer",
+        "/roles/customer-service-representative"
+      ],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "devops site reliability engineer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 89.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aerospace-engineer",
+        "/roles/agricultural-engineer",
+        "/roles/automotive-engineer",
+        "/roles/automotive-engineering-technician",
+        "/roles/computer-hardware-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "devops site reliability engineering",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/automotive-engineering-technician",
+        "/roles/devops-sre",
+        "/roles/industrial-engineering-technician",
+        "/roles/mechanical-engineering-technician",
+        "/roles/sound-engineering-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "devops sre",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 44.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/devops-sre"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "devops sre job description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 39.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/devops-sre"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "do site reliability engineers code",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 41.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/door-to-door-sales-worker",
+        "/roles/medical-dosimetrist",
+        "/roles/orthodontist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain engineer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 35.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aerospace-engineer",
+        "/roles/agricultural-engineer",
+        "/roles/automotive-engineer",
+        "/roles/automotive-engineering-technician",
+        "/roles/computer-hardware-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain experts",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain in software company",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aerospace-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain testing experts",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 44.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "dosimetry planning",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "earhearing aid specialist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 31.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-user-support-specialist",
+        "/roles/environmental-health-specialist",
+        "/roles/health-education-specialist",
+        "/roles/hearing-aid-specialist",
+        "/roles/medical-records-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "electromechanical instrumentation assemblies",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/electromechanical-equipment-assembler",
+        "/roles/electromechanical-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "electromechanical instrumentation assembly",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 20.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/electromechanical-equipment-assembler",
+        "/roles/electromechanical-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "electronic drafter",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/electrical-electronic-equipment-assembler",
+        "/roles/electrical-electronics-drafter",
+        "/roles/electronics-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "electronics domain",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 16.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/electrical-electronics-drafter",
+        "/roles/electronics-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "environmental restoration planner",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 30.2,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/environmental-engineer",
+        "/roles/environmental-health-specialist",
+        "/roles/environmental-restoration-planner",
+        "/roles/meeting-event-planner",
+        "/roles/transportation-planner"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "escalator installer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 96.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/audiovisual-equipment-installer",
+        "/roles/drywall-ceiling-tile-installer",
+        "/roles/elevator-escalator-installer",
+        "/roles/insulation-installer",
+        "/roles/mechanics-installers-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "evisceration in meat processing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 18.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aerospace-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "faller certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 75.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/faller"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "fiberglass laminator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 22.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/fiberglass-laminator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "fill weight volume control cpg packaging",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 21.8,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/packaging-filling-machine-operator",
+        "/roles/quality-control-analyst",
+        "/roles/quality-control-systems-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "financial manager for ceo",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 36.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/bioinformatics-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "flight purser meaning",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/flight-attendant",
+        "/roles/purser"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "foundry mold and coremakers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/ceramic-molder-shaper-caster",
+        "/roles/foundry-mold-coremaker",
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor",
+        "/roles/lifeguard-and-ski-patrol"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "general maintenance and repair workers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/auto-body-repairer",
+        "/roles/bicycle-repairer",
+        "/roles/camera-equipment-repairer",
+        "/roles/computer-atm-office-machine-repairer",
+        "/roles/electric-motor-power-tool-repairer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "geothermal production assurance",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0.0,
+      "position": 61.1,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager",
+        "/roles/helper-production-worker",
+        "/roles/hydroelectric-production-manager",
+        "/roles/industrial-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "geothermal project management",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 66.8,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/geothermal-production-manager",
+        "/roles/management-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "graders and sorters agricultural products",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 35.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/agricultural-engineer",
+        "/roles/agricultural-grader-sorter",
+        "/roles/agricultural-sciences-professor",
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "hand faller",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 41.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/faller",
+        "/roles/merchandise-displayer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "health education specialist certification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/career-technical-education-teacher-postsecondary",
+        "/roles/community-health-worker",
+        "/roles/computer-user-support-specialist",
+        "/roles/education-administrator-k12",
+        "/roles/environmental-health-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "how to become a computer and information systems manager",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 77.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "hr document assistant",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/hr-assistant",
+        "/roles/medical-assistant",
+        "/roles/nursing-assistant",
+        "/roles/occupational-therapy-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "https://networkcalc.com/api/dns/lookup/data.cdc.gov",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_meta"
+    },
+    {
+      "query": "hydrology technician",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/auto-service-technician",
+        "/roles/automotive-engineering-technician",
+        "/roles/bioinformatics-technician",
+        "/roles/calibration-technician",
+        "/roles/chemical-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial design expert",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-designer",
+        "/roles/costume-designer",
+        "/roles/game-designer",
+        "/roles/industrial-ecologist",
+        "/roles/industrial-engineering-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial ecologist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 97.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-designer",
+        "/roles/industrial-ecologist",
+        "/roles/industrial-engineering-technician",
+        "/roles/industrial-organizational-psychologist",
+        "/roles/industrial-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial ecologists",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 92.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-designer",
+        "/roles/industrial-ecologist",
+        "/roles/industrial-engineering-technician",
+        "/roles/industrial-organizational-psychologist",
+        "/roles/industrial-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial production management",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-production-manager",
+        "/roles/commercial-industrial-designer",
+        "/roles/geothermal-production-manager",
+        "/roles/helper-production-worker",
+        "/roles/hydroelectric-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial production manager",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 38.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial production manager job description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "intelligence analysis expert",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 65.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/intelligence-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "k12 administrator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 57.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/database-administrator",
+        "/roles/education-administrator-k12",
+        "/roles/network-systems-administrator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "locker attendant job description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-service-attendant",
+        "/roles/ambulance-driver-attendant",
+        "/roles/amusement-recreation-attendant",
+        "/roles/flight-attendant",
+        "/roles/funeral-attendant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "locker room attendant job description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-service-attendant",
+        "/roles/ambulance-driver-attendant",
+        "/roles/amusement-recreation-attendant",
+        "/roles/flight-attendant",
+        "/roles/funeral-attendant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "log grader",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/agricultural-grader-sorter",
+        "/roles/allergist-immunologist",
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/biofuels-biodiesel-technology-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "log graders and scalers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/allergist-immunologist",
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/cytotechnologist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "log scaler",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/allergist-immunologist",
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/cytotechnologist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "log scaling formula",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/allergist-immunologist",
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/cytotechnologist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "logistics domain",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 83.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/logistics-analyst",
+        "/roles/logistics-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "manicurist and pedicurist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 19.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor",
+        "/roles/lifeguard-and-ski-patrol",
+        "/roles/manicurist-pedicurist",
+        "/roles/merchandise-displayer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing and promotions manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing strategist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 37.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing strategists",
+      "clicks": 0,
+      "impressions": 58,
+      "ctr": 0.0,
+      "position": 61.9,
+      "lost_clicks": 2,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing strategy expert",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 48.8,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "mlp nurse practitioner",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/critical-care-nurse",
+        "/roles/nurse-practitioner",
+        "/roles/registered-nurse"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "museum set designers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 89.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/museum-conservator",
+        "/roles/set-exhibit-designer",
+        "/roles/tile-stone-setter"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "nchec areas of responsibility",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 44.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/agricultural-sciences-professor",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/compliance-officer",
+        "/roles/computer-atm-office-machine-repairer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "neurodiagnostic specialist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/computer-user-support-specialist",
+        "/roles/environmental-health-specialist",
+        "/roles/health-education-specialist",
+        "/roles/hearing-aid-specialist",
+        "/roles/medical-records-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "orderly healthcare",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 17.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/healthcare-social-worker",
+        "/roles/orderly"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "overland flow path hydrologist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/hydrologist",
+        "/roles/pathologist",
+        "/roles/speech-language-pathology-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "pedicurist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 17.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/manicurist-pedicurist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "pedicurist and manicurist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 29.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor",
+        "/roles/lifeguard-and-ski-patrol",
+        "/roles/manicurist-pedicurist",
+        "/roles/merchandise-displayer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "pedicurist definition",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/manicurist-pedicurist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "pedicurist meaning",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 57.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/manicurist-pedicurist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "pension scheme managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/pension-scheme-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "photogrammetrist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 33.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/cartographer-photogrammetrist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "photogrammetrist meaning",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/cartographer-photogrammetrist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "photogrammetrists",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "plating machine operator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 10.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/camera-operator",
+        "/roles/chemical-equipment-operator",
+        "/roles/chemical-plant-operator",
+        "/roles/coin-vending-amusement-machine-servicer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "police identification and records officers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor",
+        "/roles/lifeguard-and-ski-patrol",
+        "/roles/medical-records-specialist",
+        "/roles/merchandise-displayer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "product demonstration agency",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 86.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/biofuels-production-manager",
+        "/roles/geothermal-production-manager",
+        "/roles/helper-production-worker",
+        "/roles/hydroelectric-production-manager",
+        "/roles/industrial-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "professional storyboard artist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 88.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/fine-artist",
+        "/roles/storyboard-artist",
+        "/roles/theatrical-makeup-artist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "promotion manager job description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "promotions manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 44.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "purser airline",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/purser"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "purser aviation",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/purser"
+      ],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "purser flight attendant duties",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 19.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-service-attendant",
+        "/roles/ambulance-driver-attendant",
+        "/roles/amusement-recreation-attendant",
+        "/roles/flight-attendant",
+        "/roles/funeral-attendant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "quality control systems manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "radio frequency identification device specialists",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/police-identification-records-officer",
+        "/roles/radiologic-technologist",
+        "/roles/rfid-device-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "range managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/range-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "receo vs",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 42.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "registered environmental health specialist",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 73.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/community-health-worker",
+        "/roles/computer-user-support-specialist",
+        "/roles/environmental-engineer",
+        "/roles/environmental-health-specialist",
+        "/roles/environmental-restoration-planner"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "restoration planner",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 80.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/environmental-restoration-planner",
+        "/roles/meeting-event-planner",
+        "/roles/transportation-planner"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "rfid expert",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/rfid-device-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "school counseling domains",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/school-bus-driver",
+        "/roles/school-bus-monitor",
+        "/roles/school-career-counselor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "securities salesperson",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 63.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/securities-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "security threat manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 35.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "security threat response manager",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 36.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "set and exhibit designer",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 60.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-designer",
+        "/roles/costume-designer",
+        "/roles/game-designer",
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "set and exhibit designers",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 73.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor",
+        "/roles/lifeguard-and-ski-patrol",
+        "/roles/merchandise-displayer",
+        "/roles/set-exhibit-designer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "shutdown margin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "site reliability engineer devops",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aerospace-engineer",
+        "/roles/agricultural-engineer",
+        "/roles/automotive-engineer",
+        "/roles/automotive-engineering-technician",
+        "/roles/computer-hardware-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "software engineer domains",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 22.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aerospace-engineer",
+        "/roles/agricultural-engineer",
+        "/roles/automotive-engineer",
+        "/roles/automotive-engineering-technician",
+        "/roles/computer-hardware-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "spectacle dispensing optician",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 47.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/dispensing-optician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "speech language pathology scheduling assistant",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 42.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/hr-assistant",
+        "/roles/medical-assistant",
+        "/roles/nursing-assistant",
+        "/roles/occupational-therapy-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "sre devops",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0.0,
+      "position": 41.2,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/devops-sre"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "sre devops definition",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 90.1,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/devops-sre"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "sre/devops",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 40.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "storyboard artist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 96.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/fine-artist",
+        "/roles/storyboard-artist",
+        "/roles/theatrical-makeup-artist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "storyboard supervisor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 92.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-cargo-supervisor",
+        "/roles/landscaping-supervisor",
+        "/roles/mechanics-installers-supervisor",
+        "/roles/mine-supervisor",
+        "/roles/retail-store-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "supply chain domain",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 19.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/supply-chain-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "thereloq.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 17.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "timber faller",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 46.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/faller"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "timber fallers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "timber feller",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "transportation storage and distribution managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 24.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/land-surveyor",
+        "/roles/landscaping-supervisor",
+        "/roles/lifeguard-and-ski-patrol",
+        "/roles/merchandise-displayer",
+        "/roles/transportation-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "transportation, storage, and distribution manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 21.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biofuels-production-manager",
+        "/roles/clinical-data-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "upper tension",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "upt retail",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 55.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/retail-buyer",
+        "/roles/retail-loss-prevention-specialist",
+        "/roles/retail-sales-associate",
+        "/roles/retail-store-supervisor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "water facilities engineering",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 100.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/automotive-engineering-technician",
+        "/roles/industrial-engineering-technician",
+        "/roles/mechanical-engineering-technician",
+        "/roles/sound-engineering-technician",
+        "/roles/water-wastewater-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what do marketing strategists do",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 56.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/door-to-door-sales-worker",
+        "/roles/marketing-strategist",
+        "/roles/medical-dosimetrist",
+        "/roles/orthodontist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what does \"as found/as left\" data mean in calibration reports?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aerospace-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what does the bailiff say",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/bailiff",
+        "/roles/geothermal-production-manager",
+        "/roles/lathe-turning-machine-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a coda in occupational therapy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 29.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a flight attendant purser",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 30.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a health education specialist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 89.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a legislator",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 90.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a log scaler",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a product demonstrator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 44.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is flight purser",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aircraft-cargo-supervisor",
+        "/roles/allergist-immunologist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is sre in devops",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 42.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aerospace-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "workover rig",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/millwright",
+        "/roles/rigger",
+        "/roles/workover-rig-operator"
+      ],
+      "suggested_action": "monitor"
+    }
+  ],
+  "page_opportunities": [
+    {
+      "url": "/",
+      "clicks": 0,
+      "impressions": 811,
+      "ctr": 0.0,
+      "position": 12.0,
+      "lost_clicks": 40,
+      "top_queries": [],
+      "suggested_action": "improve_content"
+    }
+  ],
+  "uncovered_queries": []
+}
