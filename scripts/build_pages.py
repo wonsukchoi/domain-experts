@@ -52,6 +52,8 @@ def title_case(slug):
 _SEO_DESC_TAIL_STOPWORDS = {
     "a", "an", "the", "for", "and", "or", "with", "to", "of", "in", "on",
     "at", "by", "from",
+    "via", "across", "rather", "than", "before", "after", "when",
+    "exceeds", "within", "against", "using", "despite", "into",
 }
 
 
