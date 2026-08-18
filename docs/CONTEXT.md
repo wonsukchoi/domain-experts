@@ -1,12 +1,18 @@
 # CONTEXT
 
 ## Current Task
-2026-07-16 session: worked ESCO-BACKLOG.md's 260-role expansion list one-by-one (spec 2, full authoring pipeline). Drafted 8 roles: `chief-technology-officer`, `chief-data-officer`, `property-developer`, `book-publisher`, `central-bank-governor`, `pension-scheme-manager`, `correctional-services-manager`, `oil-gas-production-manager`. All lint clean, pushed to main. Paused here — 252 of 260 backlog roles remain.
+Ran the full recurring chore sweep (depcheck/madge/cspell/ts-prune/knip/
+jscpd) 2026-08-18. Also verified a low-CTR-high-impression scanner finding
+as a false positive (position 12.9 aggregate hid a query-level "(other)"
+artifact, same class already debunked here 2026-08-10).
 
 ## Key Decisions
-- Recipe per role: mkdir + SKILL.md + references/ trio → check ESCO-BACKLOG.md box + link → add entry to `UNMAPPED_NOTES` in `scripts/generate_roadmap.py` (all these roles have no O*NET counterpart) → `git add` the role dir → `lint_roles.py <slug>` → `generate_roadmap.py` → `check_links.py` → commit → `git pull --rebase --autostash` → push. Repeat per role, not batched.
-- Picks favored high-value, non-niche, no-overlap roles from ISCO 1 (Managers) first; ISCO 2 (Professionals, 128 roles) and ISCO 3 (Technicians, 53 roles) untouched.
+- Only real fix: cspell flagged 82 words, all legitimate (HTML entities,
+  var abbreviations, real acronyms, British spellings) — added 29 to the
+  project dictionary rather than leaving cspell noisy going forward.
+- ts-prune/madge: N/A, confirmed — no TypeScript in this repo, plain JS
+  CLI + Python static-site generator.
 
 ## Next Steps
-- Resume ESCO-BACKLOG.md one-by-one from ISCO 1 remaining: consul, diplomat, ambassador, police commissioner, public administration manager, licensing manager, quarry manager, rail operations manager, import export manager, movie distributor, and others — then move into ISCO 2/3.
-- Same recipe each time: draft → checkbox + UNMAPPED_NOTES → lint → regenerate → commit/push individually.
+- ESCO-BACKLOG.md role-authoring work (252 of 260 roles remaining) is
+  still paused separately — unrelated to this session, resume whenever.
