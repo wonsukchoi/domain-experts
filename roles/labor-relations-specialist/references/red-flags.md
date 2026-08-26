@@ -30,7 +30,7 @@
 
 ### An arbitration case is being prepared with no research into prior awards interpreting the same contract clause
 - **Usually means:** The case may be argued in isolation from how an arbitrator has already interpreted this exact language at this workplace or in the industry, weakening the argument's persuasiveness.
-- **First question:** Have prior arbitration awards involving this same CBA article (here or at comparable workplaches) been reviewed?
+- **First question:** Have prior arbitration awards involving this same CBA article (here or at comparable workplaces) been reviewed?
 - **Data to pull:** Arbitration award archive/database for this contract clause or industry.
 
 ### A proposed penalty seems disproportionate to the offense compared to how this workplace has historically penalized similar conduct
