@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>About — Domain Experts</title>
+<meta name="description" content="Domain Experts is an open source library of job-role definitions — real practitioners' decision thresholds and failure modes, structured as SKILL.md files any AI agent can load.">
+<link rel="canonical" href="https://domainexperts.dev/about.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta property="og:title" content="About — Domain Experts">
+<meta property="og:description" content="Open source library of job-role definitions for AI agents — real practitioners' decision thresholds and failure modes, not generalist prompting.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/about.html">
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="index.html" class="back-link">&larr; All roles</a></p>
+  <h1>About Domain Experts</h1>
+  <p class="tagline">all human experts into AI agents</p>
+</header>
+<main class="role-page" id="main-content">
+
+<p>Open source library of <strong>job role definitions</strong> — the actual mental models, decision thresholds, and failure modes of real practitioners, structured so any AI agent can load one and reason like that expert. Ask your agent to "review this contract" and it answers with a senior contracts attorney's clause playbook and fallback ladders, not a generalist's summary of the internet.</p>
+
+<pre tabindex="0"><code>npx domain-experts match "review this vendor contract like a lawyer"
+npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/</code></pre>
+
+<h2>Why not just prompt "act as a CFO"?</h2>
+<p>You'll get the average of every job description on the internet, regenerated from scratch each session, verified by no one. These roles pass a non-derivability test — numeric red-flag thresholds, worked examples with reconciling numbers, fallback positions in preference order — built through an adversarial-critique pipeline and CI-linted on every PR.</p>
+
+<h2>How it's structured</h2>
+<p>Each role is a compact reasoning core (<code>SKILL.md</code>) plus on-demand depth (<code>references/</code>: artifacts, red flags, vocabulary). Works in Claude Code, Codex, Cursor, and 30+ agent tools that read the <code>SKILL.md</code> format.</p>
+
+<h2>How we verify</h2>
+<p>Not just "written by experts" — <code>evals/run_evals.py</code> measures counterfactual wins (skill vs. generalist baseline) and parity against real practitioners' public answers, reproducible by anyone.</p>
+
+<p>Full pipeline, evidence, and per-tool install instructions: <a href="https://github.com/wonsukchoi/domain-experts">README on GitHub</a>.</p>
+
+</main>
+<footer>
+  <p>Open source, MIT licensed. <a href="https://github.com/wonsukchoi/domain-experts">Fork it on GitHub</a>.</p>
+  <p class="legal-links"><a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script src="to-top.js" defer></script>
+</body>
+</html>
