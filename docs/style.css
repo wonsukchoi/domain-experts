@@ -427,6 +427,8 @@ main {
   overflow-x: auto;
   scrollbar-width: none;
   padding: 0.15rem 0.1rem;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .category-chips::-webkit-scrollbar { display: none; }
