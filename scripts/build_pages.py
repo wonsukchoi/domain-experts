@@ -289,10 +289,18 @@ def sync_roles_json():
 
 
 def related_roles_html(role, roles_by_category):
-    peers = [r for r in roles_by_category.get(role["category"], []) if r["slug"] != role["slug"]]
-    if not peers:
+    # Picking a fixed "first 6" per category left every role beyond index 6
+    # permanently unlinked from any other page (870/957 pages, checked
+    # 2026-09-08) — nobody's related-list window ever reached them. A
+    # circular "next 6" window instead guarantees every role is picked by
+    # the 6 roles immediately before it in category order, so coverage is
+    # complete regardless of category size.
+    peers = roles_by_category.get(role["category"], [])
+    if len(peers) <= 1:
         return ""
-    picks = peers[:6]
+    idx = next(i for i, r in enumerate(peers) if r["slug"] == role["slug"])
+    window = min(6, len(peers) - 1)
+    picks = [peers[(idx + 1 + k) % len(peers)] for k in range(window)]
     items = "\n".join(
         f'  <li><a href="../{html.escape(p["slug"])}/">{html.escape(title_case(p["slug"]))}</a></li>'
         for p in picks
@@ -502,6 +510,20 @@ def build():
     for r in roles:
         roles_by_category.setdefault(r["category"], []).append(r)
 
+    # A category with exactly one member can never receive an inbound
+    # related-roles link — there are no peers to be picked by. Fold such
+    # categories into "other" for linking purposes only (badges/filtering
+    # elsewhere still use the role's real category); this doesn't touch
+    # `roles_by_category` itself since other code depends on the real grouping.
+    link_groups = {cat: list(members) for cat, members in roles_by_category.items()}
+    singleton_cats = [c for c, v in roles_by_category.items() if c != "other" and len(v) == 1]
+    if singleton_cats:
+        other_group = link_groups.setdefault("other", [])
+        for cat in singleton_cats:
+            other_group.extend(link_groups[cat])
+        for cat in singleton_cats:
+            link_groups[cat] = other_group
+
     for r in roles:
         slug = r["slug"]
         skill_path = ROOT / r["skill"]
@@ -550,7 +572,7 @@ def build():
             schema=schema,
             breadcrumb=breadcrumb,
             jurisdictions=jurisdictions_html,
-            related_roles=related_roles_html(r, roles_by_category),
+            related_roles=related_roles_html(r, link_groups),
         )
 
         page_dir = OUT_DIR / slug
