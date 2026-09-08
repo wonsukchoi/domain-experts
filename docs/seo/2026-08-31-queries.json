@@ -1,0 +1,551 @@
+{
+  "domain": "domainexperts.dev",
+  "report_date": "2026-08-31",
+  "generated_at": "2026-08-31T12:31:00.065004+07:00",
+  "total_queries": 36,
+  "total_pages": 246,
+  "queries": [
+    {
+      "query": "administrative site management",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 90.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/management-analyst",
+        "/roles/security-management-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "blend operator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/camera-operator",
+        "/roles/chemical-equipment-operator",
+        "/roles/conveyor-operator",
+        "/roles/cutting-slicing-machine-operator",
+        "/roles/dredge-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "brownfield remediation expert",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0.0,
+      "position": 99.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/brownfield-redevelopment-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "challenge marketing strategist",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 86.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist",
+        "/roles/search-marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "ches competencies",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 80.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "community health education specialist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 80.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/brownfield-redevelopment-specialist",
+        "/roles/clinical-nurse-specialist",
+        "/roles/computer-user-support-specialist",
+        "/roles/education-administrator-postsecondary",
+        "/roles/financial-risk-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "courier messenger",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 92.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/courier-messenger"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain expert",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 83.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain experts",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain testing experts",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domainexpert",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 77.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "electronic drafter",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/architectural-civil-drafter",
+        "/roles/commercial-industrial-electronics-repairer",
+        "/roles/electrical-electronics-drafter",
+        "/roles/electronics-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "household chef",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 96.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/private-household-cook"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial ecologist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 98.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-electronics-repairer",
+        "/roles/industrial-ecologist",
+        "/roles/industrial-engineering-technician",
+        "/roles/industrial-machinery-mechanic",
+        "/roles/industrial-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "industrial ecologists",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/commercial-industrial-electronics-repairer",
+        "/roles/industrial-ecologist",
+        "/roles/industrial-engineering-technician",
+        "/roles/industrial-machinery-mechanic",
+        "/roles/industrial-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "intelligence analysis expert",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 90.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/intelligence-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "legislator management",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 91.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/legislator",
+        "/roles/management-analyst",
+        "/roles/security-management-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "legislator program",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 79.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/legislator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "marketing strategists",
+      "clicks": 0,
+      "impressions": 81,
+      "ctr": 0.0,
+      "position": 85.3,
+      "lost_clicks": 4,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/marketing-strategist",
+        "/roles/search-marketing-strategist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "museum set designers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 89.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/museum-conservator",
+        "/roles/set-exhibit-designer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "neuropsychology specialty care",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/healthcare-social-worker",
+        "/roles/school-career-counselor",
+        "/roles/skincare-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "overland flow path hydrologist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 84.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/hydrologist",
+        "/roles/speech-language-pathology-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "quality control systems managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller",
+        "/roles/nanosystems-engineer",
+        "/roles/network-systems-administrator",
+        "/roles/quality-control-analyst",
+        "/roles/quality-control-systems-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "robot service technician",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 79.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/automotive-engineering-technician",
+        "/roles/broadcast-technician",
+        "/roles/chemical-technician",
+        "/roles/coin-vending-amusement-machine-servicer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "school counseling domains",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/middle-school-teacher",
+        "/roles/school-career-counselor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "set and exhibit designer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/floral-designer",
+        "/roles/game-designer",
+        "/roles/landscaping-supervisor",
+        "/roles/set-exhibit-designer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "span of control fire service",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller",
+        "/roles/administrative-services-manager",
+        "/roles/agricultural-sciences-professor",
+        "/roles/biofuels-production-manager",
+        "/roles/chief-sustainability-officer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "speech language pathology scheduling assistant",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 50.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/medical-assistant",
+        "/roles/occupational-therapy-assistant",
+        "/roles/physical-therapist-assistant",
+        "/roles/physician-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "storyboard artist",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 82.6,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/storyboard-artist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "storyboard director",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/art-director",
+        "/roles/producer-director",
+        "/roles/storyboard-artist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "storyboard revisionist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 69.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/storyboard-artist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "storyboard supervisor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 93.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/housekeeping-janitorial-supervisor",
+        "/roles/landscaping-supervisor",
+        "/roles/mechanics-installers-supervisor",
+        "/roles/mine-supervisor",
+        "/roles/storyboard-artist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "water facilities engineering",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "position": 95.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/automotive-engineering-technician",
+        "/roles/engineering-professor",
+        "/roles/industrial-engineering-technician",
+        "/roles/mechanical-engineering-technician",
+        "/roles/sound-engineering-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a carrier route",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 73.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller",
+        "/roles/actuary",
+        "/roles/acupuncturist",
+        "/roles/administrative-services-manager",
+        "/roles/agricultural-grader-sorter"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a storyboard revisionist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller",
+        "/roles/actuary",
+        "/roles/acupuncturist",
+        "/roles/administrative-services-manager",
+        "/roles/agricultural-grader-sorter"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is the line in a restaurant",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller",
+        "/roles/actuary",
+        "/roles/acupuncturist",
+        "/roles/administrative-services-manager",
+        "/roles/agricultural-grader-sorter"
+      ],
+      "suggested_action": "monitor"
+    }
+  ],
+  "page_opportunities": [
+    {
+      "url": "/",
+      "clicks": 0,
+      "impressions": 357,
+      "ctr": 0.0,
+      "position": 14.6,
+      "lost_clicks": 17,
+      "top_queries": [],
+      "suggested_action": "improve_content"
+    }
+  ],
+  "uncovered_queries": []
+}
