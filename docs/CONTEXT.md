@@ -1,18 +1,20 @@
 # CONTEXT
 
 ## Current Task
-Ran the full recurring chore sweep (depcheck/madge/cspell/ts-prune/knip/
-jscpd) 2026-08-18. Also verified a low-CTR-high-impression scanner finding
-as a false positive (position 12.9 aggregate hid a query-level "(other)"
-artifact, same class already debunked here 2026-08-10).
+Worked the /site-tasks adversarial-UX item on the static role-directory
+site (`docs/`). Found and fixed one real bug: an empty search/filter
+result left the whole card grid blank with no message. PR #36 open,
+not merged.
 
 ## Key Decisions
-- Only real fix: cspell flagged 82 words, all legitimate (HTML entities,
-  var abbreviations, real acronyms, British spellings) — added 29 to the
-  project dictionary rather than leaving cspell noisy going forward.
-- ts-prune/madge: N/A, confirmed — no TypeScript in this repo, plain JS
-  CLI + Python static-site generator.
+- No `adversarial-ux-test` skill installed — ran the pass manually per
+  `reference_adversarial_ux_test_no_literal_skill`.
+- Repo-path note: `~/Developer/opensource/domain experts` is a stale
+  clone (last commit 07-17) — the active one is top-level
+  `~/Developer/domainexperts`. Corrected in hq's `reference_site_repo_map`
+  memory.
 
 ## Next Steps
-- ESCO-BACKLOG.md role-authoring work (252 of 260 roles remaining) is
-  still paused separately — unrelated to this session, resume whenever.
+- Merge/review PR #36: https://github.com/wonsukchoi/domain-experts/pull/36
+- Prior session's chore sweep (cspell dictionary additions, 2026-08-18)
+  is unrelated, already committed.
