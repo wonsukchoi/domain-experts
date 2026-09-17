@@ -471,6 +471,23 @@ main {
   gap: var(--space-2);
 }
 
+.no-results {
+  grid-column: 1 / -1;
+  color: var(--text-dim);
+  text-align: center;
+  padding: var(--space-4) 0;
+}
+
+.no-results button {
+  background: none;
+  border: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
 .role-card {
   background: var(--bg-raised);
   border: 1px solid transparent;

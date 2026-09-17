@@ -47,7 +47,20 @@ function render() {
   resultCount.textContent = `${filtered.length} of ${roles.length} roles`;
 
   const visible = filtered.slice(0, shownCount);
-  roleList.innerHTML = visible.map(cardHtml).join("");
+  const noResultsMessage = q
+    ? `No roles match "${escapeHtml(q)}".`
+    : "No roles in this category.";
+  roleList.innerHTML = visible.length
+    ? visible.map(cardHtml).join("")
+    : `<p class="no-results">${noResultsMessage} <button type="button" id="no-results-clear">Clear filters</button></p>`;
+
+  if (!visible.length) {
+    document.getElementById("no-results-clear").addEventListener("click", () => {
+      searchInput.value = "";
+      searchInput.focus();
+      setActiveCategory("");
+    });
+  }
 
   const remaining = filtered.length - visible.length;
   loadMoreBtn.hidden = remaining <= 0;
