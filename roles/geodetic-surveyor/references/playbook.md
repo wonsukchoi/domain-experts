@@ -56,7 +56,7 @@ Missing any field (especially height method) is a re-observe, not a note-and-pro
 1. Submit each session's raw observation file to OPUS (or OPUS-Projects for multi-session campaigns) independently — never pre-combine sessions before processing.
 2. Confirm OPUS selected 3+ CORS baselines with reasonable RMS (check the solution report's "Peak-to-Peak" and "Overall RMS" fields).
 3. Record each session's solution (NAD83(2011) epoch 2010.00 and ITRF/current epoch, both reported by OPUS) separately.
-4. Differance independent sessions' solutions component-wise (ΔN, ΔE, ΔU or Δx, Δy, Δz); compute horizontal scatter = √(Δx² + Δy²).
+4. Difference independent sessions' solutions component-wise (ΔN, ΔE, ΔU or Δx, Δy, Δz); compute horizontal scatter = √(Δx² + Δy²).
 5. Screen against thresholds: horizontal scatter ≤ 3 cm, vertical scatter ≤ 6 cm. Exceeding either → re-observe before proceeding to adjustment, don't average past it.
 
 ## 5. Least-squares adjustment sequence

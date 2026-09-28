@@ -26,7 +26,7 @@ Before sending any deficiency notice, verify the following are ALL checked in th
 | Path | Threshold | Documentation required |
 |---|---|---|
 | Income-based | Household income ≤ jurisdiction's stated % of Federal Poverty Guideline (verify current-year figure and local multiplier) | Pay stubs or tax return, household size affidavit |
-| Categorical (public-benefits) | Enrollled in a qualifying program (e.g., SNAP, Medicaid, TANF — verify local qualifying-program list) | Current enrollment letter/card |
+| Categorical (public-benefits) | Enrolled in a qualifying program (e.g., SNAP, Medicaid, TANF — verify local qualifying-program list) | Current enrollment letter/card |
 
 Either path independently qualifies — do not require both. Deny only if neither path's documentation is provided or verifiable.
 
