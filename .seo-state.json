@@ -1,25 +1,18 @@
 {
-  "last_report": "2026-09-21",
+  "last_report": "2026-09-28",
   "last_overview": {
     "clicks": 0,
-    "impressions": 519,
+    "impressions": 423,
     "ctr": 0.0,
-    "avg_pos": 27.7
+    "avg_pos": 18.6
   },
   "last_pages": {
     "https://domainexperts.dev": {
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 12,
       "ctr": 0.0,
-      "position": 59.2,
+      "position": 48.2,
       "key": "https://domainexperts.dev"
-    },
-    "https://domainexperts.dev/roles/accountant-controller": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 10.0,
-      "key": "https://domainexperts.dev/roles/accountant-controller"
     },
     "https://domainexperts.dev/roles/actor": {
       "clicks": 0,
@@ -30,16 +23,16 @@
     },
     "https://domainexperts.dev/roles/actuary": {
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 2.7,
+      "position": 3.3,
       "key": "https://domainexperts.dev/roles/actuary"
     },
     "https://domainexperts.dev/roles/acupuncturist": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 97.0,
+      "position": 53.5,
       "key": "https://domainexperts.dev/roles/acupuncturist"
     },
     "https://domainexperts.dev/roles/acute-care-nurse": {
@@ -49,18 +42,11 @@
       "position": 74.0,
       "key": "https://domainexperts.dev/roles/acute-care-nurse"
     },
-    "https://domainexperts.dev/roles/adapted-physical-education-specialist": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 100.0,
-      "key": "https://domainexperts.dev/roles/adapted-physical-education-specialist"
-    },
     "https://domainexperts.dev/roles/administrative-services-manager": {
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0.0,
-      "position": 86.2,
+      "position": 86.3,
       "key": "https://domainexperts.dev/roles/administrative-services-manager"
     },
     "https://domainexperts.dev/roles/advertising-promotions-manager": {
@@ -70,11 +56,18 @@
       "position": 55.0,
       "key": "https://domainexperts.dev/roles/advertising-promotions-manager"
     },
+    "https://domainexperts.dev/roles/agricultural-equipment-operator": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "key": "https://domainexperts.dev/roles/agricultural-equipment-operator"
+    },
     "https://domainexperts.dev/roles/agricultural-grader-sorter": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 57.0,
+      "position": 79.0,
       "key": "https://domainexperts.dev/roles/agricultural-grader-sorter"
     },
     "https://domainexperts.dev/roles/agricultural-inspector": {
@@ -100,10 +93,17 @@
     },
     "https://domainexperts.dev/roles/aircraft-structure-assembler": {
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 9,
       "ctr": 0.0,
-      "position": 68.8,
+      "position": 74.8,
       "key": "https://domainexperts.dev/roles/aircraft-structure-assembler"
+    },
+    "https://domainexperts.dev/roles/ambulance-driver-attendant": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "key": "https://domainexperts.dev/roles/ambulance-driver-attendant"
     },
     "https://domainexperts.dev/roles/amusement-recreation-attendant": {
       "clicks": 0,
@@ -114,9 +114,9 @@
     },
     "https://domainexperts.dev/roles/anesthesiologist-assistant": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 51.0,
+      "position": 23.0,
       "key": "https://domainexperts.dev/roles/anesthesiologist-assistant"
     },
     "https://domainexperts.dev/roles/animator": {
@@ -133,25 +133,18 @@
       "position": 7.0,
       "key": "https://domainexperts.dev/roles/architect"
     },
-    "https://domainexperts.dev/roles/architectural-civil-drafter": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 7.0,
-      "key": "https://domainexperts.dev/roles/architectural-civil-drafter"
-    },
     "https://domainexperts.dev/roles/architectural-engineering-manager": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 81.0,
+      "position": 42.0,
       "key": "https://domainexperts.dev/roles/architectural-engineering-manager"
     },
     "https://domainexperts.dev/roles/archivist": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 57.0,
+      "position": 10.0,
       "key": "https://domainexperts.dev/roles/archivist"
     },
     "https://domainexperts.dev/roles/art-director": {
@@ -160,13 +153,6 @@
       "ctr": 0.0,
       "position": 1.0,
       "key": "https://domainexperts.dev/roles/art-director"
-    },
-    "https://domainexperts.dev/roles/art-therapist": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 85.0,
-      "key": "https://domainexperts.dev/roles/art-therapist"
     },
     "https://domainexperts.dev/roles/astronomer": {
       "clicks": 0,
@@ -184,9 +170,9 @@
     },
     "https://domainexperts.dev/roles/audiovisual-equipment-installer": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 6.0,
+      "position": 7.5,
       "key": "https://domainexperts.dev/roles/audiovisual-equipment-installer"
     },
     "https://domainexperts.dev/roles/author": {
@@ -205,17 +191,10 @@
     },
     "https://domainexperts.dev/roles/aviation-inspector": {
       "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 49.5,
-      "key": "https://domainexperts.dev/roles/aviation-inspector"
-    },
-    "https://domainexperts.dev/roles/avionics-technician": {
-      "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 65.0,
-      "key": "https://domainexperts.dev/roles/avionics-technician"
+      "position": 90.0,
+      "key": "https://domainexperts.dev/roles/aviation-inspector"
     },
     "https://domainexperts.dev/roles/baker": {
       "clicks": 0,
@@ -224,19 +203,19 @@
       "position": 2.5,
       "key": "https://domainexperts.dev/roles/baker"
     },
+    "https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "key": "https://domainexperts.dev/roles/biofuels-biodiesel-technology-manager"
+    },
     "https://domainexperts.dev/roles/biomedical-engineer": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 2.0,
       "key": "https://domainexperts.dev/roles/biomedical-engineer"
-    },
-    "https://domainexperts.dev/roles/biostatistician": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 6.0,
-      "key": "https://domainexperts.dev/roles/biostatistician"
     },
     "https://domainexperts.dev/roles/brickmason-blockmason": {
       "clicks": 0,
@@ -252,40 +231,19 @@
       "position": 2.6,
       "key": "https://domainexperts.dev/roles/broadcast-program-director"
     },
-    "https://domainexperts.dev/roles/broadcast-technician": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 2.0,
-      "key": "https://domainexperts.dev/roles/broadcast-technician"
-    },
     "https://domainexperts.dev/roles/brownfield-redevelopment-specialist": {
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 98.5,
+      "position": 92.5,
       "key": "https://domainexperts.dev/roles/brownfield-redevelopment-specialist"
     },
     "https://domainexperts.dev/roles/budget-analyst": {
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 6.2,
+      "position": 5.2,
       "key": "https://domainexperts.dev/roles/budget-analyst"
-    },
-    "https://domainexperts.dev/roles/butcher": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 55.0,
-      "key": "https://domainexperts.dev/roles/butcher"
-    },
-    "https://domainexperts.dev/roles/cabinetmaker": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 10.0,
-      "key": "https://domainexperts.dev/roles/cabinetmaker"
     },
     "https://domainexperts.dev/roles/calibration-technician": {
       "clicks": 0,
@@ -294,12 +252,19 @@
       "position": 10.0,
       "key": "https://domainexperts.dev/roles/calibration-technician"
     },
-    "https://domainexperts.dev/roles/cardiovascular-technologist": {
+    "https://domainexperts.dev/roles/camera-operator": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 2.0,
-      "key": "https://domainexperts.dev/roles/cardiovascular-technologist"
+      "position": 4.0,
+      "key": "https://domainexperts.dev/roles/camera-operator"
+    },
+    "https://domainexperts.dev/roles/cardiologist": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "key": "https://domainexperts.dev/roles/cardiologist"
     },
     "https://domainexperts.dev/roles/cargo-freight-agent": {
       "clicks": 0,
@@ -315,13 +280,6 @@
       "position": 8.0,
       "key": "https://domainexperts.dev/roles/cargo-inspector"
     },
-    "https://domainexperts.dev/roles/cartographer-photogrammetrist": {
-      "clicks": 0,
-      "impressions": 6,
-      "ctr": 0.0,
-      "position": 16.7,
-      "key": "https://domainexperts.dev/roles/cartographer-photogrammetrist"
-    },
     "https://domainexperts.dev/roles/chief-technology-officer": {
       "clicks": 0,
       "impressions": 2,
@@ -329,33 +287,12 @@
       "position": 6.5,
       "key": "https://domainexperts.dev/roles/chief-technology-officer"
     },
-    "https://domainexperts.dev/roles/claims-adjuster": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 8.0,
-      "key": "https://domainexperts.dev/roles/claims-adjuster"
-    },
     "https://domainexperts.dev/roles/coin-vending-amusement-machine-servicer": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 43.0,
       "key": "https://domainexperts.dev/roles/coin-vending-amusement-machine-servicer"
-    },
-    "https://domainexperts.dev/roles/commercial-diver": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 78.0,
-      "key": "https://domainexperts.dev/roles/commercial-diver"
-    },
-    "https://domainexperts.dev/roles/commercial-industrial-electronics-repairer": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 1.0,
-      "key": "https://domainexperts.dev/roles/commercial-industrial-electronics-repairer"
     },
     "https://domainexperts.dev/roles/commercial-pilot": {
       "clicks": 0,
@@ -385,19 +322,19 @@
       "position": 5.0,
       "key": "https://domainexperts.dev/roles/construction-laborer"
     },
+    "https://domainexperts.dev/roles/conveyor-operator": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "key": "https://domainexperts.dev/roles/conveyor-operator"
+    },
     "https://domainexperts.dev/roles/coroner": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 4.0,
       "key": "https://domainexperts.dev/roles/coroner"
-    },
-    "https://domainexperts.dev/roles/costume-attendant": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 82.0,
-      "key": "https://domainexperts.dev/roles/costume-attendant"
     },
     "https://domainexperts.dev/roles/courier-messenger": {
       "clicks": 0,
@@ -427,13 +364,6 @@
       "position": 7.0,
       "key": "https://domainexperts.dev/roles/critical-care-nurse"
     },
-    "https://domainexperts.dev/roles/cutting-slicing-machine-operator": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 100.0,
-      "key": "https://domainexperts.dev/roles/cutting-slicing-machine-operator"
-    },
     "https://domainexperts.dev/roles/cytotechnologist": {
       "clicks": 0,
       "impressions": 3,
@@ -441,12 +371,12 @@
       "position": 4.3,
       "key": "https://domainexperts.dev/roles/cytotechnologist"
     },
-    "https://domainexperts.dev/roles/dental-hygienist": {
+    "https://domainexperts.dev/roles/data-scientist": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 87.0,
-      "key": "https://domainexperts.dev/roles/dental-hygienist"
+      "position": 8.5,
+      "key": "https://domainexperts.dev/roles/data-scientist"
     },
     "https://domainexperts.dev/roles/derrick-operator": {
       "clicks": 0,
@@ -464,9 +394,9 @@
     },
     "https://domainexperts.dev/roles/diagnostic-medical-sonographer": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 8.0,
+      "position": 9.0,
       "key": "https://domainexperts.dev/roles/diagnostic-medical-sonographer"
     },
     "https://domainexperts.dev/roles/dietetic-technician": {
@@ -478,9 +408,9 @@
     },
     "https://domainexperts.dev/roles/direct-entry-midwife": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 51.5,
+      "position": 10.0,
       "key": "https://domainexperts.dev/roles/direct-entry-midwife"
     },
     "https://domainexperts.dev/roles/dispensing-optician": {
@@ -492,9 +422,9 @@
     },
     "https://domainexperts.dev/roles/dredge-operator": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 7.5,
+      "position": 7.0,
       "key": "https://domainexperts.dev/roles/dredge-operator"
     },
     "https://domainexperts.dev/roles/driller": {
@@ -503,13 +433,6 @@
       "ctr": 0.0,
       "position": 6.0,
       "key": "https://domainexperts.dev/roles/driller"
-    },
-    "https://domainexperts.dev/roles/editor": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 2.0,
-      "key": "https://domainexperts.dev/roles/editor"
     },
     "https://domainexperts.dev/roles/electrician": {
       "clicks": 0,
@@ -534,17 +457,10 @@
     },
     "https://domainexperts.dev/roles/emergency-medicine-physician": {
       "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 7.0,
-      "key": "https://domainexperts.dev/roles/emergency-medicine-physician"
-    },
-    "https://domainexperts.dev/roles/engineering-professor": {
-      "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 1.0,
-      "key": "https://domainexperts.dev/roles/engineering-professor"
+      "position": 11.0,
+      "key": "https://domainexperts.dev/roles/emergency-medicine-physician"
     },
     "https://domainexperts.dev/roles/environmental-engineering-technician": {
       "clicks": 0,
@@ -560,13 +476,6 @@
       "position": 6.3,
       "key": "https://domainexperts.dev/roles/environmental-health-specialist"
     },
-    "https://domainexperts.dev/roles/extension-educator": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 74.0,
-      "key": "https://domainexperts.dev/roles/extension-educator"
-    },
     "https://domainexperts.dev/roles/extraction-helper": {
       "clicks": 0,
       "impressions": 1,
@@ -581,19 +490,19 @@
       "position": 2.0,
       "key": "https://domainexperts.dev/roles/faller"
     },
+    "https://domainexperts.dev/roles/family-physician": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 8.0,
+      "key": "https://domainexperts.dev/roles/family-physician"
+    },
     "https://domainexperts.dev/roles/farm-products-buyer": {
       "clicks": 0,
       "impressions": 4,
       "ctr": 0.0,
       "position": 1.8,
       "key": "https://domainexperts.dev/roles/farm-products-buyer"
-    },
-    "https://domainexperts.dev/roles/financial-examiner": {
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 5.0,
-      "key": "https://domainexperts.dev/roles/financial-examiner"
     },
     "https://domainexperts.dev/roles/fine-artist": {
       "clicks": 0,
@@ -611,9 +520,9 @@
     },
     "https://domainexperts.dev/roles/fitness-wellness-coordinator": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 7.8,
+      "position": 3.0,
       "key": "https://domainexperts.dev/roles/fitness-wellness-coordinator"
     },
     "https://domainexperts.dev/roles/flight-attendant": {
@@ -627,7 +536,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 6.7,
+      "position": 5.0,
       "key": "https://domainexperts.dev/roles/food-preparation-worker"
     },
     "https://domainexperts.dev/roles/forest-conservation-worker": {
@@ -646,16 +555,16 @@
     },
     "https://domainexperts.dev/roles/fuel-cell-engineer": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 8.0,
+      "position": 7.8,
       "key": "https://domainexperts.dev/roles/fuel-cell-engineer"
     },
     "https://domainexperts.dev/roles/game-designer": {
       "clicks": 0,
       "impressions": 8,
       "ctr": 0.0,
-      "position": 6.4,
+      "position": 5.6,
       "key": "https://domainexperts.dev/roles/game-designer"
     },
     "https://domainexperts.dev/roles/gem-diamond-worker": {
@@ -667,16 +576,16 @@
     },
     "https://domainexperts.dev/roles/genetic-counselor": {
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 7,
       "ctr": 0.0,
       "position": 7.1,
       "key": "https://domainexperts.dev/roles/genetic-counselor"
     },
     "https://domainexperts.dev/roles/geoscience-professor": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 2.0,
+      "position": 3.0,
       "key": "https://domainexperts.dev/roles/geoscience-professor"
     },
     "https://domainexperts.dev/roles/hand-packager": {
@@ -686,18 +595,25 @@
       "position": 8.0,
       "key": "https://domainexperts.dev/roles/hand-packager"
     },
+    "https://domainexperts.dev/roles/health-safety-engineer": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "key": "https://domainexperts.dev/roles/health-safety-engineer"
+    },
     "https://domainexperts.dev/roles/healthcare-social-worker": {
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 7.0,
+      "position": 8.5,
       "key": "https://domainexperts.dev/roles/healthcare-social-worker"
     },
     "https://domainexperts.dev/roles/hospitalist": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 6.7,
+      "position": 7.5,
       "key": "https://domainexperts.dev/roles/hospitalist"
     },
     "https://domainexperts.dev/roles/host-hostess": {
@@ -707,6 +623,20 @@
       "position": 9.0,
       "key": "https://domainexperts.dev/roles/host-hostess"
     },
+    "https://domainexperts.dev/roles/hotel-motel-desk-clerk": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "key": "https://domainexperts.dev/roles/hotel-motel-desk-clerk"
+    },
+    "https://domainexperts.dev/roles/housekeeping-janitorial-supervisor": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 3.0,
+      "key": "https://domainexperts.dev/roles/housekeeping-janitorial-supervisor"
+    },
     "https://domainexperts.dev/roles/hr-specialist": {
       "clicks": 0,
       "impressions": 1,
@@ -714,18 +644,11 @@
       "position": 1.0,
       "key": "https://domainexperts.dev/roles/hr-specialist"
     },
-    "https://domainexperts.dev/roles/hydrologist": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 84.0,
-      "key": "https://domainexperts.dev/roles/hydrologist"
-    },
     "https://domainexperts.dev/roles/industrial-ecologist": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 62.0,
+      "position": 6.5,
       "key": "https://domainexperts.dev/roles/industrial-ecologist"
     },
     "https://domainexperts.dev/roles/industrial-engineering-technician": {
@@ -737,16 +660,23 @@
     },
     "https://domainexperts.dev/roles/industrial-machinery-mechanic": {
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 6.5,
+      "position": 6.0,
       "key": "https://domainexperts.dev/roles/industrial-machinery-mechanic"
+    },
+    "https://domainexperts.dev/roles/information-security-analyst": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 5.0,
+      "key": "https://domainexperts.dev/roles/information-security-analyst"
     },
     "https://domainexperts.dev/roles/intelligence-analyst": {
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 67.9,
+      "position": 50.8,
       "key": "https://domainexperts.dev/roles/intelligence-analyst"
     },
     "https://domainexperts.dev/roles/judge": {
@@ -755,6 +685,13 @@
       "ctr": 0.0,
       "position": 5.0,
       "key": "https://domainexperts.dev/roles/judge"
+    },
+    "https://domainexperts.dev/roles/landscaping-groundskeeping-worker": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "key": "https://domainexperts.dev/roles/landscaping-groundskeeping-worker"
     },
     "https://domainexperts.dev/roles/lawyer-contracts": {
       "clicks": 0,
@@ -765,9 +702,9 @@
     },
     "https://domainexperts.dev/roles/legislator": {
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 48.0,
+      "position": 56.4,
       "key": "https://domainexperts.dev/roles/legislator"
     },
     "https://domainexperts.dev/roles/loan-officer": {
@@ -779,9 +716,9 @@
     },
     "https://domainexperts.dev/roles/locker-room-attendant": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 5.0,
+      "position": 8.0,
       "key": "https://domainexperts.dev/roles/locker-room-attendant"
     },
     "https://domainexperts.dev/roles/log-grader-scaler": {
@@ -793,23 +730,23 @@
     },
     "https://domainexperts.dev/roles/management-analyst": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 3.5,
+      "position": 5.0,
       "key": "https://domainexperts.dev/roles/management-analyst"
     },
     "https://domainexperts.dev/roles/marine-surveyor": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 7.5,
+      "position": 6.0,
       "key": "https://domainexperts.dev/roles/marine-surveyor"
     },
     "https://domainexperts.dev/roles/marketing-strategist": {
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 77.5,
+      "position": 7.0,
       "key": "https://domainexperts.dev/roles/marketing-strategist"
     },
     "https://domainexperts.dev/roles/massage-therapist": {
@@ -818,13 +755,6 @@
       "ctr": 0.0,
       "position": 33.0,
       "key": "https://domainexperts.dev/roles/massage-therapist"
-    },
-    "https://domainexperts.dev/roles/mathematician": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 2.0,
-      "key": "https://domainexperts.dev/roles/mathematician"
     },
     "https://domainexperts.dev/roles/meat-poultry-fish-cutter-trimmer": {
       "clicks": 0,
@@ -835,9 +765,9 @@
     },
     "https://domainexperts.dev/roles/mechanical-insulator": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 7.8,
+      "position": 6.8,
       "key": "https://domainexperts.dev/roles/mechanical-insulator"
     },
     "https://domainexperts.dev/roles/mediator": {
@@ -849,30 +779,23 @@
     },
     "https://domainexperts.dev/roles/medical-equipment-repairer": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 9.5,
+      "position": 11.0,
       "key": "https://domainexperts.dev/roles/medical-equipment-repairer"
     },
     "https://domainexperts.dev/roles/medical-records-specialist": {
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 4.2,
+      "position": 6.3,
       "key": "https://domainexperts.dev/roles/medical-records-specialist"
-    },
-    "https://domainexperts.dev/roles/medical-secretary": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 90.0,
-      "key": "https://domainexperts.dev/roles/medical-secretary"
     },
     "https://domainexperts.dev/roles/meeting-event-planner": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 9.0,
+      "position": 2.0,
       "key": "https://domainexperts.dev/roles/meeting-event-planner"
     },
     "https://domainexperts.dev/roles/mental-health-counselor": {
@@ -889,19 +812,19 @@
       "position": 7.5,
       "key": "https://domainexperts.dev/roles/microbiologist"
     },
+    "https://domainexperts.dev/roles/microsystems-engineer": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 7.0,
+      "key": "https://domainexperts.dev/roles/microsystems-engineer"
+    },
     "https://domainexperts.dev/roles/millwright": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 23.0,
       "key": "https://domainexperts.dev/roles/millwright"
-    },
-    "https://domainexperts.dev/roles/mine-supervisor": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 75.0,
-      "key": "https://domainexperts.dev/roles/mine-supervisor"
     },
     "https://domainexperts.dev/roles/mixing-blending-machine-operator": {
       "clicks": 0,
@@ -912,9 +835,9 @@
     },
     "https://domainexperts.dev/roles/mri-technologist": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 33.7,
+      "position": 10.0,
       "key": "https://domainexperts.dev/roles/mri-technologist"
     },
     "https://domainexperts.dev/roles/museum-conservator": {
@@ -940,7 +863,7 @@
     },
     "https://domainexperts.dev/roles/neurologist": {
       "clicks": 0,
-      "impressions": 26,
+      "impressions": 25,
       "ctr": 0.0,
       "position": 5.0,
       "key": "https://domainexperts.dev/roles/neurologist"
@@ -952,6 +875,13 @@
       "position": 5.7,
       "key": "https://domainexperts.dev/roles/new-accounts-clerk"
     },
+    "https://domainexperts.dev/roles/nuclear-medicine-technologist": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "key": "https://domainexperts.dev/roles/nuclear-medicine-technologist"
+    },
     "https://domainexperts.dev/roles/nuclear-monitoring-technician": {
       "clicks": 0,
       "impressions": 2,
@@ -961,17 +891,10 @@
     },
     "https://domainexperts.dev/roles/nuclear-power-reactor-operator": {
       "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 42.5,
-      "key": "https://domainexperts.dev/roles/nuclear-power-reactor-operator"
-    },
-    "https://domainexperts.dev/roles/nursing-assistant": {
-      "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 87.0,
-      "key": "https://domainexperts.dev/roles/nursing-assistant"
+      "position": 34.0,
+      "key": "https://domainexperts.dev/roles/nuclear-power-reactor-operator"
     },
     "https://domainexperts.dev/roles/obstetrician-gynecologist": {
       "clicks": 0,
@@ -1057,13 +980,6 @@
       "position": 5.0,
       "key": "https://domainexperts.dev/roles/podiatrist"
     },
-    "https://domainexperts.dev/roles/poet-lyricist": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 7.0,
-      "key": "https://domainexperts.dev/roles/poet-lyricist"
-    },
     "https://domainexperts.dev/roles/police-patrol-officer": {
       "clicks": 0,
       "impressions": 1,
@@ -1071,25 +987,18 @@
       "position": 10.0,
       "key": "https://domainexperts.dev/roles/police-patrol-officer"
     },
-    "https://domainexperts.dev/roles/political-scientist": {
+    "https://domainexperts.dev/roles/police-supervisor": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 6.0,
-      "key": "https://domainexperts.dev/roles/political-scientist"
-    },
-    "https://domainexperts.dev/roles/postal-service-mail-carrier": {
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 82.0,
-      "key": "https://domainexperts.dev/roles/postal-service-mail-carrier"
+      "position": 10.0,
+      "key": "https://domainexperts.dev/roles/police-supervisor"
     },
     "https://domainexperts.dev/roles/postal-service-mail-sorter": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 82.7,
+      "position": 83.7,
       "key": "https://domainexperts.dev/roles/postal-service-mail-sorter"
     },
     "https://domainexperts.dev/roles/private-detective-investigator": {
@@ -1099,32 +1008,18 @@
       "position": 11.0,
       "key": "https://domainexperts.dev/roles/private-detective-investigator"
     },
-    "https://domainexperts.dev/roles/producer-director": {
+    "https://domainexperts.dev/roles/psychiatric-aide": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 1.0,
-      "key": "https://domainexperts.dev/roles/producer-director"
-    },
-    "https://domainexperts.dev/roles/product-demonstrator": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 100.0,
-      "key": "https://domainexperts.dev/roles/product-demonstrator"
-    },
-    "https://domainexperts.dev/roles/product-manager": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 63.0,
-      "key": "https://domainexperts.dev/roles/product-manager"
+      "position": 2.0,
+      "key": "https://domainexperts.dev/roles/psychiatric-aide"
     },
     "https://domainexperts.dev/roles/psychiatric-nurse-practitioner": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 3.5,
+      "position": 2.0,
       "key": "https://domainexperts.dev/roles/psychiatric-nurse-practitioner"
     },
     "https://domainexperts.dev/roles/psychology-professor": {
@@ -1134,19 +1029,19 @@
       "position": 1.0,
       "key": "https://domainexperts.dev/roles/psychology-professor"
     },
+    "https://domainexperts.dev/roles/purser": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 9.5,
+      "key": "https://domainexperts.dev/roles/purser"
+    },
     "https://domainexperts.dev/roles/quality-control-analyst": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 86.6,
+      "position": 89.7,
       "key": "https://domainexperts.dev/roles/quality-control-analyst"
-    },
-    "https://domainexperts.dev/roles/quality-control-systems-manager": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 91.0,
-      "key": "https://domainexperts.dev/roles/quality-control-systems-manager"
     },
     "https://domainexperts.dev/roles/quality-inspector-tester": {
       "clicks": 0,
@@ -1192,9 +1087,9 @@
     },
     "https://domainexperts.dev/roles/real-estate-appraiser": {
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 6.0,
+      "position": 5.7,
       "key": "https://domainexperts.dev/roles/real-estate-appraiser"
     },
     "https://domainexperts.dev/roles/recreation-coordinator": {
@@ -1203,13 +1098,6 @@
       "ctr": 0.0,
       "position": 1.0,
       "key": "https://domainexperts.dev/roles/recreation-coordinator"
-    },
-    "https://domainexperts.dev/roles/recycling-coordinator": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 6.0,
-      "key": "https://domainexperts.dev/roles/recycling-coordinator"
     },
     "https://domainexperts.dev/roles/registered-nurse": {
       "clicks": 0,
@@ -1239,6 +1127,13 @@
       "position": 5.0,
       "key": "https://domainexperts.dev/roles/retail-buyer"
     },
+    "https://domainexperts.dev/roles/retail-loss-prevention-specialist": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "key": "https://domainexperts.dev/roles/retail-loss-prevention-specialist"
+    },
     "https://domainexperts.dev/roles/rigger": {
       "clicks": 0,
       "impressions": 1,
@@ -1257,7 +1152,7 @@
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 10.0,
+      "position": 2.0,
       "key": "https://domainexperts.dev/roles/robotics-technician"
     },
     "https://domainexperts.dev/roles/roof-bolter": {
@@ -1274,25 +1169,25 @@
       "position": 7.0,
       "key": "https://domainexperts.dev/roles/sales-account-executive"
     },
-    "https://domainexperts.dev/roles/school-career-counselor": {
+    "https://domainexperts.dev/roles/sales-engineer": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 72.0,
-      "key": "https://domainexperts.dev/roles/school-career-counselor"
+      "position": 5.5,
+      "key": "https://domainexperts.dev/roles/sales-engineer"
     },
     "https://domainexperts.dev/roles/school-psychologist": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 11.0,
+      "position": 6.5,
       "key": "https://domainexperts.dev/roles/school-psychologist"
     },
     "https://domainexperts.dev/roles/securities-sales-agent": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 88.3,
+      "position": 84.0,
       "key": "https://domainexperts.dev/roles/securities-sales-agent"
     },
     "https://domainexperts.dev/roles/self-enrichment-instructor": {
@@ -1301,13 +1196,6 @@
       "ctr": 0.0,
       "position": 9.0,
       "key": "https://domainexperts.dev/roles/self-enrichment-instructor"
-    },
-    "https://domainexperts.dev/roles/services-sales-representative": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 10.0,
-      "key": "https://domainexperts.dev/roles/services-sales-representative"
     },
     "https://domainexperts.dev/roles/sheet-metal-worker": {
       "clicks": 0,
@@ -1351,13 +1239,6 @@
       "position": 9.0,
       "key": "https://domainexperts.dev/roles/sociologist"
     },
-    "https://domainexperts.dev/roles/software-engineer": {
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 70.7,
-      "key": "https://domainexperts.dev/roles/software-engineer"
-    },
     "https://domainexperts.dev/roles/solar-energy-systems-engineer": {
       "clicks": 0,
       "impressions": 1,
@@ -1388,9 +1269,9 @@
     },
     "https://domainexperts.dev/roles/storyboard-artist": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 59.0,
+      "position": 7.0,
       "key": "https://domainexperts.dev/roles/storyboard-artist"
     },
     "https://domainexperts.dev/roles/structural-iron-steel-worker": {
@@ -1400,13 +1281,6 @@
       "position": 8.0,
       "key": "https://domainexperts.dev/roles/structural-iron-steel-worker"
     },
-    "https://domainexperts.dev/roles/structural-metal-fabricator": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 99.0,
-      "key": "https://domainexperts.dev/roles/structural-metal-fabricator"
-    },
     "https://domainexperts.dev/roles/subway-streetcar-operator": {
       "clicks": 0,
       "impressions": 2,
@@ -1414,32 +1288,25 @@
       "position": 20.0,
       "key": "https://domainexperts.dev/roles/subway-streetcar-operator"
     },
-    "https://domainexperts.dev/roles/tax-preparer": {
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0.0,
-      "position": 8.0,
-      "key": "https://domainexperts.dev/roles/tax-preparer"
-    },
-    "https://domainexperts.dev/roles/team-assembler": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 86.0,
-      "key": "https://domainexperts.dev/roles/team-assembler"
-    },
     "https://domainexperts.dev/roles/telecom-line-installer": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 4.0,
-      "key": "https://domainexperts.dev/roles/telecom-line-installer"
-    },
-    "https://domainexperts.dev/roles/track-maintenance-equipment-operator": {
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 68.0,
+      "position": 2.5,
+      "key": "https://domainexperts.dev/roles/telecom-line-installer"
+    },
+    "https://domainexperts.dev/roles/telephone-operator": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 2.0,
+      "key": "https://domainexperts.dev/roles/telephone-operator"
+    },
+    "https://domainexperts.dev/roles/track-maintenance-equipment-operator": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
       "key": "https://domainexperts.dev/roles/track-maintenance-equipment-operator"
     },
     "https://domainexperts.dev/roles/trades-helper": {
@@ -1463,12 +1330,12 @@
       "position": 48.0,
       "key": "https://domainexperts.dev/roles/transportation-engineer"
     },
-    "https://domainexperts.dev/roles/transportation-planner": {
+    "https://domainexperts.dev/roles/upholsterer": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 96.0,
-      "key": "https://domainexperts.dev/roles/transportation-planner"
+      "position": 7.0,
+      "key": "https://domainexperts.dev/roles/upholsterer"
     },
     "https://domainexperts.dev/roles/urologist": {
       "clicks": 0,
@@ -1479,9 +1346,9 @@
     },
     "https://domainexperts.dev/roles/validation-engineer": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 51.7,
+      "position": 1.0,
       "key": "https://domainexperts.dev/roles/validation-engineer"
     },
     "https://domainexperts.dev/roles/vision-rehabilitation-therapist": {
@@ -1493,9 +1360,9 @@
     },
     "https://domainexperts.dev/roles/water-wastewater-engineer": {
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 93.1,
+      "position": 85.2,
       "key": "https://domainexperts.dev/roles/water-wastewater-engineer"
     },
     "https://domainexperts.dev/roles/weighers-measurers-checkers-samplers": {
@@ -1507,9 +1374,9 @@
     },
     "https://domainexperts.dev/roles/welding-engineer": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 11.0,
+      "position": 10.0,
       "key": "https://domainexperts.dev/roles/welding-engineer"
     },
     "https://domainexperts.dev/roles/wholesale-sales-representative": {
@@ -1551,9 +1418,9 @@
     },
     "administrative site management": {
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0.0,
-      "position": 88.6,
+      "position": 88.3,
       "key": "administrative site management"
     },
     "advertising & promotions manager": {
@@ -1570,6 +1437,13 @@
       "position": 84.0,
       "key": "advertising and promotions managers"
     },
+    "aerospace structural assembly": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0,
+      "key": "aerospace structural assembly"
+    },
     "aircraft assembly and rigging": {
       "clicks": 0,
       "impressions": 1,
@@ -1579,9 +1453,9 @@
     },
     "aircraft structural assembly": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 76.7,
+      "position": 77.6,
       "key": "aircraft structural assembly"
     },
     "airworthiness inspector": {
@@ -1600,17 +1474,24 @@
     },
     "automated mail processing machines": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 82.7,
+      "position": 83.7,
       "key": "automated mail processing machines"
     },
     "brownfield remediation expert": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 98.5,
+      "position": 99.0,
       "key": "brownfield remediation expert"
+    },
+    "brownfield remediation experts": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 86.0,
+      "key": "brownfield remediation experts"
     },
     "caa scope of practice": {
       "clicks": 0,
@@ -1618,6 +1499,13 @@
       "ctr": 0.0,
       "position": 23.0,
       "key": "caa scope of practice"
+    },
+    "characteristics of a safe ambulance operator include": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "key": "characteristics of a safe ambulance operator include"
     },
     "courier messenger": {
       "clicks": 0,
@@ -1628,24 +1516,17 @@
     },
     "domain expert": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 89.4,
+      "position": 93.3,
       "key": "domain expert"
     },
     "domain experts": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 88.3,
+      "position": 93.5,
       "key": "domain experts"
-    },
-    "domain testing experts": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 67.0,
-      "key": "domain testing experts"
     },
     "engineering wastewater": {
       "clicks": 0,
@@ -1661,54 +1542,19 @@
       "position": 79.0,
       "key": "grading line"
     },
-    "industrial ecologist": {
+    "intelligence analysis expert": {
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 99.5,
-      "key": "industrial ecologist"
-    },
-    "industrial ecologists": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 98.0,
-      "key": "industrial ecologists"
-    },
-    "intelligence analysis expert": {
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0.0,
-      "position": 92.4,
+      "position": 95.0,
       "key": "intelligence analysis expert"
     },
     "legislator management": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 91.0,
+      "position": 90.7,
       "key": "legislator management"
-    },
-    "marketing strategists": {
-      "clicks": 0,
-      "impressions": 19,
-      "ctr": 0.0,
-      "position": 88.6,
-      "key": "marketing strategists"
-    },
-    "overland flow path hydrologist": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 84.0,
-      "key": "overland flow path hydrologist"
-    },
-    "product demonstration company": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 100.0,
-      "key": "product demonstration company"
     },
     "receo vs": {
       "clicks": 0,
@@ -1717,19 +1563,19 @@
       "position": 71.0,
       "key": "receo vs"
     },
-    "school counseling domains": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 72.0,
-      "key": "school counseling domains"
-    },
     "securities salesperson": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 84.0,
       "key": "securities salesperson"
+    },
+    "service admin": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "key": "service admin"
     },
     "speech language pathology scheduling assistant": {
       "clicks": 0,
@@ -1747,9 +1593,9 @@
     },
     "water facilities engineering": {
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 95.2,
+      "position": 94.0,
       "key": "water facilities engineering"
     },
     "what is a acute care nurse": {
