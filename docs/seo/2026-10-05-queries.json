@@ -1,0 +1,479 @@
+{
+  "domain": "domainexperts.dev",
+  "report_date": "2026-10-05",
+  "generated_at": "2026-10-05T12:30:57.980886+07:00",
+  "total_queries": 33,
+  "total_pages": 160,
+  "queries": [
+    {
+      "query": "3 16 scale factor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 30.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "65.79",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 55.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "acupuncturist abbreviation",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 97.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/acupuncturist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "adhesive bonding machine operators and tenders",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adhesive-bonding-machine-operator",
+        "/roles/coin-vending-amusement-machine-servicer",
+        "/roles/grinding-machine-operator",
+        "/roles/land-surveyor",
+        "/roles/landscaping-groundskeeping-worker"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "administrative site management",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 87.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/management-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising & promotions manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 77.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/architectural-engineering-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/lodging-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising and promotions managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/land-surveyor",
+        "/roles/landscaping-groundskeeping-worker"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising promotion manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/architectural-engineering-manager",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/lodging-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "aerospace structural assembly",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "aircraft assembly and rigging",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-mechanic",
+        "/roles/aircraft-structure-assembler",
+        "/roles/land-surveyor",
+        "/roles/landscaping-groundskeeping-worker"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "aircraft structural assembly",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aircraft-mechanic",
+        "/roles/aircraft-structure-assembler"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "airframe assembly",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 86.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "amusement and recreation attendant",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 11.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/ambulance-driver-attendant",
+        "/roles/amusement-recreation-attendant",
+        "/roles/coin-vending-amusement-machine-servicer",
+        "/roles/land-surveyor",
+        "/roles/landscaping-groundskeeping-worker"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "automated mail processing machines",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 84.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/postal-service-mail-sorter"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "brownfield remediation expert",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 99.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/brownfield-redevelopment-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "brownfield remediation experts",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 86.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/brownfield-redevelopment-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "caa scope of practice",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/agricultural-sciences-professor",
+        "/roles/biofuels-biodiesel-technology-manager",
+        "/roles/biology-professor",
+        "/roles/chief-technology-officer",
+        "/roles/geoscience-professor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "characteristics of a safe ambulance operator include",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actor",
+        "/roles/actuary",
+        "/roles/acupuncturist",
+        "/roles/acute-care-nurse",
+        "/roles/adhesive-bonding-machine-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain expert",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 93.3,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain experts",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 91.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "engineering wastewater",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 88.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/architectural-engineering-manager",
+        "/roles/environmental-engineering-technician",
+        "/roles/water-wastewater-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "estimating unpaid claims",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 30.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "grading line",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 79.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/telecom-line-installer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "intelligence analysis expert",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 95.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/intelligence-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "legislator management",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 90.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/legislator",
+        "/roles/management-analyst"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "service admin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/coin-vending-amusement-machine-servicer",
+        "/roles/postal-service-mail-sorter"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "speech language pathology scheduling assistant",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/speech-language-pathology-assistant",
+        "/roles/statistical-assistant",
+        "/roles/teaching-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "standard architectural sheet sizes",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/architectural-civil-drafter",
+        "/roles/architectural-engineering-manager",
+        "/roles/sheet-metal-worker"
+      ],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "states where caa can practice",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "water facilities engineering",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/architectural-engineering-manager",
+        "/roles/environmental-engineering-technician",
+        "/roles/water-wastewater-engineer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a acute care nurse",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 36.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actor",
+        "/roles/actuary",
+        "/roles/acupuncturist",
+        "/roles/acute-care-nurse",
+        "/roles/adhesive-bonding-machine-operator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is an anesthesiologist assistant called",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 24.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/acupuncturist",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/aircraft-mechanic",
+        "/roles/allergist-immunologist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is considered acute care experience",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 88.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/acupuncturist",
+        "/roles/acute-care-nurse",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/allergist-immunologist"
+      ],
+      "suggested_action": "monitor"
+    }
+  ],
+  "page_opportunities": [],
+  "uncovered_queries": []
+}
