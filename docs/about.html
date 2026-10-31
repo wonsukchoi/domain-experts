@@ -43,7 +43,7 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/</cod
 <p>Each role is a compact reasoning core (<code>SKILL.md</code>) plus on-demand depth (<code>references/</code>: artifacts, red flags, vocabulary). Works in Claude Code, Codex, Cursor, and 30+ agent tools that read the <code>SKILL.md</code> format.</p>
 
 <h2>How we verify</h2>
-<p>Not just "written by experts" — <code>evals/run_evals.py</code> measures counterfactual wins (skill vs. generalist baseline) and parity against real practitioners' public answers, reproducible by anyone.</p>
+<p>Not just "written by experts" — <code>evals/run_evals.py</code> measures counterfactual wins (skill vs. generalist baseline) and parity against real practitioners' public answers, reproducible by anyone. Evals so far cover 15 scenarios and 8 head-to-heads, not every role, and no role has been reviewed by a practitioner yet: all are marked <code>draft</code>.</p>
 
 <p>Full pipeline, evidence, and per-tool install instructions: <a href="https://github.com/wonsukchoi/domain-experts">README on GitHub</a>.</p>
 
