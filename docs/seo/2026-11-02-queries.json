@@ -1,0 +1,405 @@
+{
+  "domain": "domainexperts.dev",
+  "report_date": "2026-11-02",
+  "generated_at": "2026-11-02T12:30:59.210444+07:00",
+  "total_queries": 28,
+  "total_pages": 78,
+  "queries": [
+    {
+      "query": "6 domains of athletic training",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 60.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/athletic-trainer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "aa anesthesia modifier",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 93.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "administrative law judge",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 95.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "administrative site management",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0.0,
+      "position": 86.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising & promotions managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 73.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising and promotions manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/agricultural-manager",
+        "/roles/architectural-engineering-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising and promotions managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/hand-packager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising promotions and marketing managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 86.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/hand-packager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "aerospace engineering technician",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aerospace-engineer",
+        "/roles/aerospace-engineering-technician",
+        "/roles/agricultural-technician",
+        "/roles/architectural-engineering-manager",
+        "/roles/audio-video-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "airframe assembly",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 90.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "amusement recreation and events award",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 72.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/amusement-recreation-attendant",
+        "/roles/hand-packager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "anest assist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 74.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/physical-therapist-assistant",
+        "/roles/veterinary-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "assembly and rigging",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 60.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/hand-packager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "caa scope of practice",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "can physical therapy assistants work independently",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 84.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adapted-physical-education-specialist",
+        "/roles/physical-therapist-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "characteristics of a safe ambulance operator include:",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/actuary",
+        "/roles/acute-care-nurse",
+        "/roles/adapted-physical-education-specialist",
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain expert",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 96.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain testing experts",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 82.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domainexpert",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 7.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "domainexperte",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "job description of anesthesiologist assistant",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 97.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/anesthesiologist-assistant",
+        "/roles/anesthesiologist",
+        "/roles/physical-therapist-assistant",
+        "/roles/veterinary-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "legislator management",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/legislator"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "oilfield production expert",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 55.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/oil-gas-production-manager",
+        "/roles/production-planning-expediting-clerk"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "product demonstration company",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/oil-gas-production-manager",
+        "/roles/product-demonstrator",
+        "/roles/production-planning-expediting-clerk"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "promotions manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/agricultural-manager",
+        "/roles/architectural-engineering-manager",
+        "/roles/oil-gas-production-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is caa in healthcare",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 24.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adapted-physical-education-specialist",
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is legislator",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 227.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adapted-physical-education-specialist",
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "www.dcloudexperts.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    }
+  ],
+  "page_opportunities": [],
+  "uncovered_queries": []
+}
