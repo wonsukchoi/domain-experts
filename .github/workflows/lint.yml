@@ -51,6 +51,13 @@ jobs:
           node "$GITHUB_WORKSPACE/bin/cli.js" add domain-expert-router
           test -f .claude/skills/domain-expert-router/SKILL.md
 
+      # Plain Node scripts, no dependencies: `update` reports failed roles and
+      # refreshes installed overlays; no command hangs on an unreachable network.
+      - name: CLI update and timeout tests
+        run: |
+          node scripts/test_cli_update.js
+          node scripts/test_cli_timeout.js
+
       - name: Check relative links resolve
         run: python3 scripts/check_links.py
 

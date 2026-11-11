@@ -44,25 +44,51 @@ function loadRoles() {
     .sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-function fetchText(url) {
+const DOWNLOAD_TIMEOUT_MS = 20 * 1000;
+const UPDATE_CHECK_TIMEOUT_MS = 3 * 1000;
+const MAX_REDIRECTS = 5;
+
+// GET a URL as text. Every request has a timeout: a network that drops
+// packets (or needs a proxy, which Node's https ignores) otherwise leaves the
+// socket waiting for the OS connect timeout, about 2 minutes, and the CLI
+// cannot exit until then.
+function fetchText(url, { timeoutMs = DOWNLOAD_TIMEOUT_MS, redirectsLeft = MAX_REDIRECTS } = {}) {
   return new Promise((resolve, reject) => {
-    https
-      .get(url, { headers: { "User-Agent": "domain-experts-cli" } }, (res) => {
-        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-          resolve(fetchText(res.headers.location));
+    // One deadline for the whole request (DNS, connect, headers and body), so
+    // a stall at any stage ends the request.
+    let timer = null;
+    const done = (fn, value) => {
+      clearTimeout(timer);
+      fn(value);
+    };
+    const req = https.get(url, { headers: { "User-Agent": "domain-experts-cli" } }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        res.resume();
+        if (redirectsLeft <= 0) {
+          done(reject, new Error(`GET ${url} -> too many redirects`));
           return;
         }
-        if (res.statusCode !== 200) {
-          reject(new Error(`GET ${url} -> HTTP ${res.statusCode}`));
-          res.resume();
-          return;
-        }
-        let body = "";
-        res.setEncoding("utf8");
-        res.on("data", (chunk) => (body += chunk));
-        res.on("end", () => resolve(body));
-      })
-      .on("error", reject);
+        clearTimeout(timer);
+        resolve(fetchText(new URL(res.headers.location, url).toString(), { timeoutMs, redirectsLeft: redirectsLeft - 1 }));
+        return;
+      }
+      if (res.statusCode !== 200) {
+        res.resume();
+        done(reject, new Error(`GET ${url} -> HTTP ${res.statusCode}`));
+        return;
+      }
+      let body = "";
+      res.setEncoding("utf8");
+      res.on("data", (chunk) => (body += chunk));
+      res.on("end", () => done(resolve, body));
+      res.on("error", (err) => done(reject, err));
+    });
+    timer = setTimeout(() => {
+      const err = new Error(`GET ${url} -> timed out after ${Math.round(timeoutMs / 1000)}s`);
+      req.destroy(err);
+      reject(err);
+    }, timeoutMs);
+    req.on("error", (err) => done(reject, err));
   });
 }
 
@@ -72,6 +98,10 @@ async function readRoleFile(localPath, repoRelativePath) {
   if (fs.existsSync(localPath)) return fs.readFileSync(localPath, "utf8");
   return fetchText(REMOTE_RAW_BASE + repoRelativePath);
 }
+
+// Seam for scripts/test_cli_update.js: cmdUpdate reads role files through
+// this object so a test can swap in a fake fetcher with no network.
+const deps = { readRoleFile };
 
 // Runs `fn` over `items` with at most `limit` in flight at once — used so
 // updating N installed roles doesn't serialize N GitHub-raw round trips.
@@ -433,25 +463,39 @@ async function cmdUpdate(opts) {
     }
     const targetDir = path.join(baseDir, slug);
     try {
-      const remoteSkill = await readRoleFile(role.file, role.skillPath);
-      const localSkillPath = path.join(targetDir, "SKILL.md");
-      const localSkill = fs.existsSync(localSkillPath)
-        ? fs.readFileSync(localSkillPath, "utf8")
-        : null;
-      let changed = remoteSkill !== localSkill;
-      fs.writeFileSync(localSkillPath, remoteSkill);
-
+      // Every file this role should have: SKILL.md, its references, and the
+      // jurisdiction overlays the user installed with `add --country` (only
+      // those: update never adds a country the user did not choose).
+      const files = [{ local: role.file, remote: role.skillPath, dest: path.join(targetDir, "SKILL.md") }];
       for (const refPath of role.referencePaths) {
-        const localRefFile = path.join(__dirname, "..", refPath);
-        const remoteRef = await readRoleFile(localRefFile, refPath);
-        const refsDir = path.join(targetDir, "references");
-        fs.mkdirSync(refsDir, { recursive: true });
-        const localRefPath = path.join(refsDir, path.basename(refPath));
-        const localRef = fs.existsSync(localRefPath)
-          ? fs.readFileSync(localRefPath, "utf8")
-          : null;
-        if (remoteRef !== localRef) changed = true;
-        fs.writeFileSync(localRefPath, remoteRef);
+        files.push({
+          local: path.join(__dirname, "..", refPath),
+          remote: refPath,
+          dest: path.join(targetDir, "references", path.basename(refPath)),
+        });
+      }
+      const jurisDir = path.join(targetDir, "references", "jurisdictions");
+      for (const jPath of role.jurisdictionPaths || []) {
+        const dest = path.join(jurisDir, path.basename(jPath));
+        if (fs.existsSync(dest)) {
+          files.push({ local: path.join(__dirname, "..", jPath), remote: jPath, dest });
+        }
+      }
+
+      // Fetch all of them first, then write: a failure part-way leaves the
+      // installed role untouched instead of a new SKILL.md next to old
+      // references.
+      const fetched = [];
+      for (const f of files) {
+        fetched.push({ dest: f.dest, text: await deps.readRoleFile(f.local, f.remote) });
+      }
+
+      let changed = false;
+      for (const { dest, text } of fetched) {
+        const current = fs.existsSync(dest) ? fs.readFileSync(dest, "utf8") : null;
+        if (text !== current) changed = true;
+        fs.mkdirSync(path.dirname(dest), { recursive: true });
+        fs.writeFileSync(dest, text);
       }
 
       if (changed) {
@@ -470,7 +514,14 @@ async function cmdUpdate(opts) {
   const updated = results.filter((r) => r === "updated").length;
   const unchanged = results.filter((r) => r === "unchanged").length;
   const missing = results.filter((r) => r === "missing").length;
-  console.log(`\n${updated} updated, ${unchanged} up to date, ${missing} skipped.`);
+  const failed = results.filter((r) => r === "failed").length;
+  console.log(
+    `\n${updated} updated, ${unchanged} up to date, ${missing} skipped` +
+      (failed > 0 ? `, ${failed} failed.` : ".")
+  );
+  // A script or CI step running `update` must see a failure as a failure.
+  if (failed > 0) process.exitCode = 1;
+  return { updated, unchanged, missing, failed };
 }
 
 // Each entry's projectPath/globalPath match that tool's *documented* custom
@@ -636,11 +687,19 @@ async function checkForUpdate() {
       cache = JSON.parse(fs.readFileSync(UPDATE_CACHE_FILE, "utf8"));
     }
     const fresh = cache && Date.now() - cache.checkedAt < UPDATE_CHECK_INTERVAL_MS;
-    const latest = fresh
-      ? cache.latest
-      : JSON.parse(await fetchText("https://registry.npmjs.org/domain-experts/latest")).version;
-
+    let latest = fresh ? cache.latest : null;
     if (!fresh) {
+      try {
+        latest = JSON.parse(
+          await fetchText("https://registry.npmjs.org/domain-experts/latest", {
+            timeoutMs: UPDATE_CHECK_TIMEOUT_MS,
+          })
+        ).version;
+      } catch {
+        // Record the failed attempt too, so an unreachable registry costs
+        // one short wait per day, not one on every command.
+        latest = cache ? cache.latest : null;
+      }
       fs.writeFileSync(UPDATE_CACHE_FILE, JSON.stringify({ latest, checkedAt: Date.now() }));
     }
     if (latest && isNewerVersion(latest, PKG.version)) {
@@ -697,4 +756,8 @@ async function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { cmdUpdate, fetchText, deps };
