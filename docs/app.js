@@ -30,16 +30,62 @@ function cardHtml(r) {
   `;
 }
 
+// Same filler words and plural stemming as `npx domain-experts match`
+// (bin/cli.js STOPWORDS / stem), so a query typed the way the hero shows
+// ("i need a contract lawyer") finds roles here too. Keep the two in sync.
+const STOPWORDS = new Set([
+  "a", "an", "the", "for", "of", "to", "in", "on", "and", "or", "with",
+  "my", "me", "i", "need", "want", "act", "as", "like", "help", "who",
+  "job", "role", "expert", "someone", "person",
+  "how", "much", "many", "do", "does", "did", "have", "has", "having",
+  "had", "left", "should", "shall", "would", "could", "can", "will",
+  "we", "us", "our", "you", "your", "let", "lets", "get", "give",
+  "tell", "please", "this", "that", "these", "those", "is", "are",
+  "was", "were", "be", "been", "being", "it", "its", "at", "by", "from",
+  "about", "into", "over", "than", "then", "so", "if", "not", "no",
+  "what", "when", "where", "which", "why", "just", "really", "some",
+  "any", "all", "one", "out", "up", "down", "now",
+]);
+
+function stem(word) {
+  if (word.length <= 4) return word;
+  if (word.endsWith("ies")) return word.slice(0, -3) + "y";
+  if (/[sxz]es$|[cs]hes$/.test(word)) return word.slice(0, -2);
+  if (word.endsWith("s") && !word.endsWith("ss")) return word.slice(0, -1);
+  return word;
+}
+
+// Every remaining word must appear somewhere in the role (any order), so
+// "contract lawyer" and "lawyer contract" both work. A word matches as typed
+// or stemmed ("nurses" finds "nurse", "studies" still finds "studies").
+// A query made only of filler words (or of single letters, as "c++" becomes)
+// falls back to a plain substring match. Each term is a list of forms.
+function queryTerms(q) {
+  const terms = q
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .split(/\s+/)
+    .filter(t => t.length > 1 && !STOPWORDS.has(t))
+    .map(t => [t, stem(t)]);
+  return terms.length ? terms : [[q]];
+}
+
+function haystack(r) {
+  return `${r.slug.replace(/-/g, " ")} ${r.slug} ${r.description} ${r.category}`.toLowerCase();
+}
+
+function matchesTerms(r, terms) {
+  const text = haystack(r);
+  return terms.every(forms => forms.some(f => text.includes(f)));
+}
+
 function render() {
   const q = searchInput.value.trim().toLowerCase();
 
   searchClear.classList.toggle("visible", q.length > 0);
 
+  const terms = q ? queryTerms(q) : [];
   const filtered = roles.filter(r => {
-    const matchesQuery = !q ||
-      r.slug.toLowerCase().includes(q) ||
-      r.description.toLowerCase().includes(q) ||
-      r.category.toLowerCase().includes(q);
+    const matchesQuery = !terms.length || matchesTerms(r, terms);
     const matchesCat = !activeCategory || r.category === activeCategory;
     return matchesQuery && matchesCat;
   });
