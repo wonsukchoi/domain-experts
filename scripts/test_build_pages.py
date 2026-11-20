@@ -155,6 +155,13 @@ for agent, _ in bp.AI_CRAWLERS:
     check(f"{agent} has its own group", f"\nUser-agent: {agent}\nAllow: /\n" in robots)
 check("sitemap stays a non-group record", robots.rstrip().endswith("/sitemap.xml"), robots[-60:])
 
+print("docs/style.css — search field is phone-safe")
+css = (Path(bp.ROOT) / "docs" / "style.css").read_text()
+search_rule = re.search(r"\n#search \{([^}]*)\}", css)
+size = re.search(r"font-size:\s*([\d.]+)(rem|px)", search_rule.group(1)) if search_rule else None
+px = (float(size.group(1)) * (16 if size.group(2) == "rem" else 1)) if size else 0
+check("#search text is at least 16px, so iOS Safari does not zoom on focus", px >= 16, f"font-size is {px}px")
+
 if FAILURES:
     print(f"\n{len(FAILURES)} injection check(s) failed: {', '.join(FAILURES)}")
     sys.exit(1)

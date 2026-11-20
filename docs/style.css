@@ -377,7 +377,8 @@ main {
   border: 1px solid var(--border-strong);
   background: var(--bg-raised);
   color: var(--text);
-  font-size: 0.95rem;
+  /* 1rem, not 0.95rem: iOS Safari zooms the page when a field under 16px is focused. */
+  font-size: 1rem;
   font-family: inherit;
   cursor: text;
   transition: border-color 150ms var(--ease), box-shadow 150ms var(--ease), background 150ms var(--ease);
