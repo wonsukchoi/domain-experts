@@ -153,6 +153,7 @@ print("build_robots_txt() — AI crawler groups")
 robots = (Path(bp.ROOT) / "docs" / "robots.txt").read_text()
 for agent, _ in bp.AI_CRAWLERS:
     check(f"{agent} has its own group", f"\nUser-agent: {agent}\nAllow: /\n" in robots)
+check("Bytespider is blocked, the only crawler that is", "\nUser-agent: Bytespider\nDisallow: /\n" in robots)
 check("sitemap stays a non-group record", robots.rstrip().endswith("/sitemap.xml"), robots[-60:])
 
 if FAILURES:

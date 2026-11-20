@@ -492,6 +492,9 @@ def build_robots_txt():
     groups = [f"User-agent: *\nAllow: /\n"]
     for agent, note in AI_CRAWLERS:
         groups.append(f"# {note}\nUser-agent: {agent}\nAllow: /\n")
+    # Owner rule (2026-10-31): every AI crawler above is welcome except Bytespider, which is blocked
+    # on all sites. It is not in AI_CRAWLERS, whose groups are all Allow.
+    groups.append("# ByteDance Bytespider - blocked\nUser-agent: Bytespider\nDisallow: /\n")
     body = "\n".join(groups)
     (ROOT / "docs" / "robots.txt").write_text(
         f"{body}\nSitemap: {SITE_URL}/sitemap.xml\n"
