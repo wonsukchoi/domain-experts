@@ -120,6 +120,28 @@ def split_frontmatter(text):
 INLINE_CODE = re.compile(r"`([^`]+)`")
 BOLD = re.compile(r"\*\*([^*]+)\*\*")
 LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+# *italic*: a single asterisk pair that is not inside a word or a **bold** pair, so "O*NET" and "2*3*4" stay
+# as they are. Applied to text between tags only, and never inside <code>, so an asterisk in a code span or
+# in an attribute value is untouched.
+ITALIC = re.compile(r"(?<![\w*])\*(?=\S)([^*\n]*?\S)\*(?![\w*])")
+
+
+def _italicize(text):
+    out = []
+    in_code = False
+    for part in re.split(r"(<[^>]+>)", text):
+        if part.startswith("<") and part.endswith(">"):
+            tag = part[1:-1].strip().lower()
+            if tag == "code":
+                in_code = True
+            elif tag == "/code":
+                in_code = False
+            out.append(part)
+        elif in_code:
+            out.append(part)
+        else:
+            out.append(ITALIC.sub(lambda m: f"<em>{m.group(1)}</em>", part))
+    return "".join(out)
 
 
 def resolve_link(url, slug):
@@ -142,7 +164,7 @@ def inline(text, slug):
         lambda m: f'<a href="{html.escape(resolve_link(html.unescape(m.group(2)), slug))}">{m.group(1)}</a>',
         text,
     )
-    return text
+    return _italicize(text)
 
 
 def json_ld(payload):
