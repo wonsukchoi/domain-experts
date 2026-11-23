@@ -618,6 +618,8 @@ footer::after {
   margin: 0 auto;
   line-height: 1.7;
   font-size: 1.05rem;
+  /* a long slash-joined token (e.g. "Company/Regulatory/Authorized/Mandatory") pushed the page 52px wider than a 320px screen */
+  overflow-wrap: break-word;
 }
 
 .role-page h2 {

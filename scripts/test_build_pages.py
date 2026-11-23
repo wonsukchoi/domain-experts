@@ -155,6 +155,15 @@ for agent, _ in bp.AI_CRAWLERS:
     check(f"{agent} has its own group", f"\nUser-agent: {agent}\nAllow: /\n" in robots)
 check("sitemap stays a non-group record", robots.rstrip().endswith("/sitemap.xml"), robots[-60:])
 
+print("inline() — *italic* (the pages showed the asterisks as text: 698 of 956 role pages, 2026-11-22)")
+check("a single-asterisk pair becomes <em>", "<em>Basic Ratemaking</em>" in bp.inline("Werner, G., *Basic Ratemaking* (CAS)", "x"), bp.inline("Werner, G., *Basic Ratemaking* (CAS)", "x"))
+check("**bold** is still bold", "<strong>x</strong>" in bp.inline("**x** and *y*", "x") and "<em>y</em>" in bp.inline("**x** and *y*", "x"))
+check("O*NET and 2*3*4 are left alone", bp.inline("O*NET code 2*3*4", "x") == "O*NET code 2*3*4", bp.inline("O*NET code 2*3*4", "x"))
+check("an asterisk pair in a code span stays literal", bp.inline("run `a *b* c` now", "x") == "run <code>a *b* c</code> now", bp.inline("run `a *b* c` now", "x"))
+check("a lone footnote asterisk stays", bp.inline("see note * above", "x") == "see note * above")
+check("injected markup inside italics is still escaped", "<img" not in bp.inline("*<img src=x onerror=alert(1)>*", "x"), bp.inline("*<img src=x onerror=alert(1)>*", "x"))
+check("an asterisk in a link target is not touched", 'href="https://e.com/a*b*c"' in bp.inline("[x](https://e.com/a*b*c)", "x"), bp.inline("[x](https://e.com/a*b*c)", "x"))
+
 if FAILURES:
     print(f"\n{len(FAILURES)} injection check(s) failed: {', '.join(FAILURES)}")
     sys.exit(1)
