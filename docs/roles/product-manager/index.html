@@ -47,8 +47,8 @@
 <ol>
 <li><strong>Every feature request is a solution in disguise.</strong> &quot;Add a dashboard filter&quot; encodes an unstated problem (&quot;I can&#x27;t find X&quot;). Recover the problem before evaluating the solution; the requester&#x27;s fix is a data point, not a spec.</li>
 <li><strong>The real cost of building something is the best thing you didn&#x27;t build.</strong> A roadmap slot spent is capacity denied to everything else. This is why saying no — including to good ideas — is most of the job: product coherence comes from what it deliberately doesn&#x27;t do.</li>
-<li><strong>A metric moving proves nothing without the causal story.</strong> If you can&#x27;t explain *why* the number moved, you can&#x27;t distinguish a repeatable win from a coincidence — or from a metric definition that flatters you (logins counted as &quot;adoption&quot;).</li>
-<li><strong>Users are ground truth on problems, unreliable on solutions.</strong> Never ship literally what was asked without understanding the underlying need; never override what users demonstrably *do* with what you assume they want.</li>
+<li><strong>A metric moving proves nothing without the causal story.</strong> If you can&#x27;t explain <em>why</em> the number moved, you can&#x27;t distinguish a repeatable win from a coincidence — or from a metric definition that flatters you (logins counted as &quot;adoption&quot;).</li>
+<li><strong>Users are ground truth on problems, unreliable on solutions.</strong> Never ship literally what was asked without understanding the underlying need; never override what users demonstrably <em>do</em> with what you assume they want.</li>
 <li><strong>A roadmap is a statement of current belief, not a contract.</strong> It should change when evidence changes — and the change should be announced, not slipped quietly.</li>
 </ol>
 <h3>Mental models &amp; heuristics</h3>
@@ -56,7 +56,7 @@
 <li><strong>Jobs-to-be-done:</strong> ask what job the customer is hiring this feature for, and what they use today — including &quot;nothing&quot; and &quot;a spreadsheet,&quot; which are real competitors. JTBD is for framing discovery, not a label to slap on a feature list retroactively (its most common misuse).</li>
 <li><strong>RICE (Reach × Impact × Confidence ÷ Effort):</strong> use it as a forcing function to expose disagreements in the inputs, not as an oracle. When two items score within ~2x of each other, the scores are noise — decide on strategy fit instead. Overused when teams debate half-point Impact scores instead of the Reach estimate that&#x27;s off by 10x.</li>
 <li><strong>One-way vs. two-way doors:</strong> reversible calls (copy change, flag-gated experiment) ship fast on thin evidence; irreversible ones (pricing model, public API contract, deprecating something customers depend on) get a written decision doc and deliberate pace. When unsure which type it is, ask what it costs to undo — most decisions are more reversible than they feel.</li>
-<li><strong>Working backwards (press release/FAQ first):</strong> if you can&#x27;t write why a customer would care in plain language, the feature isn&#x27;t solving a real problem yet. Overused as theater when the PR gets written *after* the decision to build.</li>
+<li><strong>Working backwards (press release/FAQ first):</strong> if you can&#x27;t write why a customer would care in plain language, the feature isn&#x27;t solving a real problem yet. Overused as theater when the PR gets written <em>after</em> the decision to build.</li>
 <li><strong>Leading vs. lagging:</strong> steer by leading indicators (activation, time-to-first-value); confirm with lagging ones (retention, revenue). A PM watching only lagging metrics is driving via the rearview mirror.</li>
 <li><strong>When sizing demand, weigh usage data over inbound volume</strong> — ten loud customers asking for something niche will out-shout a silent majority with a bigger unmet need, unless you deliberately correct for it.</li>
 <li><strong>When sales escalates a single-customer ask, default to treating it as an account-management problem, not a roadmap problem</strong> — unless the underlying job shows up in at least a handful of other accounts or the segment is strategic.</li>
@@ -77,7 +77,7 @@
 <li>Product analytics (Amplitude, Mixpanel, PostHog) instrumented on value events, not logins.</li>
 <li>Feedback consolidation (Productboard, Canny, or a lightweight Airtable) so request volume is measured, not felt.</li>
 <li>Continuous discovery à la Teresa Torres: weekly customer touchpoints; interviews anchored on past behavior (&quot;tell me about the last time you tried to do X&quot;), never hypothetical preference (&quot;would you use...&quot;).</li>
-<li>A/B tests powered *before* running (pre-registered sample size and duration), analyzed once at the planned end — not peeked at daily.</li>
+<li>A/B tests powered <em>before</em> running (pre-registered sample size and duration), analyzed once at the planned end — not peeked at daily.</li>
 <li>Roadmaps communicated as now/next/later themes; delivery tracked separately in Linear/Jira once a &quot;now&quot; theme is scoped.</li>
 <li>Decision docs for one-way doors; a two-line Slack note suffices for two-way doors.</li>
 </ul>
@@ -108,11 +108,11 @@
 <p><strong>Post-launch (the step usually skipped).</strong> At 60 days: 41% of workaround accounts switched — causal story holds (they were already paying for the behavior). CSV shipped; renewal closed. Report builder never resurfaced. Compare the counterfactual: a team that &quot;just built B&quot; would have spent 12 weeks on a surface with 8%-adoption potential and then faced a kill decision two quarters later with sunk-cost pressure attached.</p>
 <h3>Sources</h3>
 <ul>
-<li>Marty Cagan, *Inspired* (2nd ed., Wiley, 2017) — outcomes-vs-output framing and the discovery/delivery split.</li>
-<li>Marty Cagan &amp; Chris Jones, *Empowered* (Wiley, 2020) — empowered teams, PM accountability for outcomes.</li>
-<li>Clayton Christensen et al., *Competing Against Luck* (HarperCollins, 2016) — jobs-to-be-done theory.</li>
-<li>Colin Bryar &amp; Bill Carr, *Working Backwards* (St. Martin&#x27;s Press, 2021); Werner Vogels, &quot;Working Backwards,&quot; *All Things Distributed* (2006) — press release/FAQ-first method.</li>
-<li>Teresa Torres, *Continuous Discovery Habits* (Product Talk LLC, 2021) — weekly discovery cadence, interview technique.</li>
+<li>Marty Cagan, <em>Inspired</em> (2nd ed., Wiley, 2017) — outcomes-vs-output framing and the discovery/delivery split.</li>
+<li>Marty Cagan &amp; Chris Jones, <em>Empowered</em> (Wiley, 2020) — empowered teams, PM accountability for outcomes.</li>
+<li>Clayton Christensen et al., <em>Competing Against Luck</em> (HarperCollins, 2016) — jobs-to-be-done theory.</li>
+<li>Colin Bryar &amp; Bill Carr, <em>Working Backwards</em> (St. Martin&#x27;s Press, 2021); Werner Vogels, &quot;Working Backwards,&quot; <em>All Things Distributed</em> (2006) — press release/FAQ-first method.</li>
+<li>Teresa Torres, <em>Continuous Discovery Habits</em> (Product Talk LLC, 2021) — weekly discovery cadence, interview technique.</li>
 <li>Shreyas Doshi, public writing (shreyasdoshi.com, X/LinkedIn) — LNO framework, opportunity-cost framing.</li>
 </ul>
 <p>No direct practitioner review of this file yet — flag via PR if you can confirm, correct, or add a source above.</p>

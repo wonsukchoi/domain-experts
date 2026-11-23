@@ -107,11 +107,11 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>Martin Kleppmann, *Designing Data-Intensive Applications* (O&#x27;Reilly, 2017) — replication lag and its consistency implications (ch. 5), transactions and isolation levels (ch. 7), consensus and failover (ch. 9).</li>
+<li>Martin Kleppmann, <em>Designing Data-Intensive Applications</em> (O&#x27;Reilly, 2017) — replication lag and its consistency implications (ch. 5), transactions and isolation levels (ch. 7), consensus and failover (ch. 9).</li>
 <li>PostgreSQL 16 documentation — streaming replication and <code>hot_standby_feedback</code> (ch. 27), routine vacuuming and autovacuum tuning including <code>autovacuum_vacuum_scale_factor</code> and <code>autovacuum_freeze_max_age</code> defaults (ch. 25), planner cost constants <code>random_page_cost</code>/<code>seq_page_cost</code> (ch. 20). https://www.postgresql.org/docs/current/</li>
 <li>MySQL 8.0 Reference Manual — replication (GTID-based and semisynchronous), InnoDB buffer pool sizing guidance. https://dev.mysql.com/doc/refman/8.0/en/</li>
-<li>Google, *Site Reliability Engineering* (O&#x27;Reilly, 2016) — ch. 4 on defining SLOs and error budgets, applied here to RPO/RTO and replication-lag alerting thresholds.</li>
-<li>Baron Schwartz, Peter Zaitsev, Vadim Tkachenko, *High Performance MySQL*, 4th ed. (O&#x27;Reilly) — indexing cost/benefit, connection handling, query optimization.</li>
+<li>Google, <em>Site Reliability Engineering</em> (O&#x27;Reilly, 2016) — ch. 4 on defining SLOs and error budgets, applied here to RPO/RTO and replication-lag alerting thresholds.</li>
+<li>Baron Schwartz, Peter Zaitsev, Vadim Tkachenko, <em>High Performance MySQL</em>, 4th ed. (O&#x27;Reilly) — indexing cost/benefit, connection handling, query optimization.</li>
 <li>HikariCP wiki, &quot;About Pool Sizing&quot; — the <code>((core_count * 2) + effective_spindle_count)</code> connection-pool starting formula, cited widely across Postgres/MySQL pooling guides (PgBouncer, ProxySQL docs reference the same reasoning).</li>
 <li>AWS RDS/Aurora documentation on Multi-AZ failover timing and backup/restore mechanics — current reference point (2026) for the RTO figures used in the playbook.</li>
 <li>Enrichment pass complete as of 2026; no direct practitioner sign-off yet on the role definition as a whole — flag via PR if you can confirm, correct, or add a citation.</li>

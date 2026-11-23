@@ -56,9 +56,9 @@
 <li><strong>When a signal path&#x27;s health metric crosses a pre-set threshold sustained for more than a few seconds, default to failing over to the protected path immediately, unless the fault has already visibly cleared</strong> — waiting to &quot;see if it recovers&quot; converts a silent redundancy save into an on-air glitch. [heuristic — exact hold-time varies by facility SLA]</li>
 <li><strong>When PTP/genlock reference and downstream device disagree, treat the reference as suspect first, not the device</strong> — a grandmaster clock issue cascades to every downstream box identically, while a single device fault is isolated; check for the pattern before swapping hardware.</li>
 <li><strong>When a compliance number (loudness, caption latency) reads clean in isolation but the source is new or recently changed, verify with a fresh spot-check rather than trusting the last calibration</strong> — automated normalizers drift or get bypassed by a new codec/router path far more often than anyone remembers to recheck.</li>
-<li><strong>Every redundant path needs a stated exclusion</strong>, i.e., what it does *not* protect against (shared power feed, shared building fiber entrance, same vendor firmware bug) — &quot;we have a backup&quot; without naming the shared point of failure is not a redundancy plan, it&#x27;s a hope.</li>
+<li><strong>Every redundant path needs a stated exclusion</strong>, i.e., what it does <em>not</em> protect against (shared power feed, shared building fiber entrance, same vendor firmware bug) — &quot;we have a backup&quot; without naming the shared point of failure is not a redundancy plan, it&#x27;s a hope.</li>
 <li><strong>When scheduling a mandated compliance test (EAS Required Monthly Test) against a live broadcast window, default to moving the test rather than risking it colliding with the real event</strong> — a misfired test during a high-profile live broadcast is a career-ending, not just embarrassing, event.</li>
-<li><strong>Rehearse the failover, don&#x27;t just design it</strong> — a switch plan or router protect-path that has only ever been tested in isolation, never under a live rehearsal with the actual crew calling it, routinely fails on the first real trigger because the *procedure*, not just the hardware, was untested.</li>
+<li><strong>Rehearse the failover, don&#x27;t just design it</strong> — a switch plan or router protect-path that has only ever been tested in isolation, never under a live rehearsal with the actual crew calling it, routinely fails on the first real trigger because the <em>procedure</em>, not just the hardware, was untested.</li>
 <li><strong>When frame-accurate timing matters (ad avails, network joins), default to drop-frame timecode referenced to the network&#x27;s master clock, not a locally free-running clock</strong>, unless the show is fully self-contained with no external join points — non-drop timecode drifts against real elapsed time at a known, compounding rate.</li>
 </ul>
 <h3>Decision framework</h3>
@@ -110,8 +110,8 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>Gerald Millerson &amp; Jim Owens, *Television Production*, 16th ed. (Focal Press, 2016) — switcher/vision-mix operation, tally and preview/program bus discipline, control-room roles.</li>
-<li>*NAB Engineering Handbook*, 11th ed., ed. Skip Pizzi &amp; Graham Jones (National Association of Broadcasters / Focal Press, 2013) — facility engineering management, redundancy design, EAS compliance obligations.</li>
+<li>Gerald Millerson &amp; Jim Owens, <em>Television Production</em>, 16th ed. (Focal Press, 2016) — switcher/vision-mix operation, tally and preview/program bus discipline, control-room roles.</li>
+<li><em>NAB Engineering Handbook</em>, 11th ed., ed. Skip Pizzi &amp; Graham Jones (National Association of Broadcasters / Focal Press, 2013) — facility engineering management, redundancy design, EAS compliance obligations.</li>
 <li>47 CFR Part 11 (FCC Emergency Alert System rules) — Required Weekly/Monthly Test schedule and logging obligations (§11.61, §11.55).</li>
 <li>ATSC A/85 Recommended Practice and the CALM Act (2010) — U.S. broadcast loudness target of −24 LKFS with a ±2 dB tolerance.</li>
 <li>SMPTE ST 2110 (2017, professional media over managed IP networks) and SMPTE ST 2059 (PTP profile for media) — the IP infrastructure replacing SDI/black-burst genlock in modern facilities.</li>

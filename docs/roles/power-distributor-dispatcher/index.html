@@ -64,7 +64,7 @@
 <ol>
 <li>Confirm any frequency or ACE deviation against a second telemetry source (state estimator, an adjacent balancing authority&#x27;s reading) before acting — a single bad PMU or metering point produces a false alarm indistinguishable from a real event at a glance.</li>
 <li>Classify the deviation: system-wide (frequency, wide-area ACE trend) versus local (a single bus voltage, a single line thermal limit, a single tie-line discrepancy) — the response playbook differs completely between the two.</li>
-<li>If the cause is a contingency (a generator or line trip), identify whether it was the balancing authority&#x27;s Most Severe Single Contingency — if so, contingency reserve is now fully engaged and the system is exposed to the *next* credible contingency until reserve is restored.</li>
+<li>If the cause is a contingency (a generator or line trip), identify whether it was the balancing authority&#x27;s Most Severe Single Contingency — if so, contingency reserve is now fully engaged and the system is exposed to the <em>next</em> credible contingency until reserve is restored.</li>
 <li>Apply the correction matched to the problem type: real-power/AGC and reserve dispatch for frequency and ACE; reactive-power/VAR support for voltage — never substitute one for the other.</li>
 <li>Escalate in order only as each prior step proves insufficient: AGC/regulation response → spinning reserve deployment → fast-start non-spin capacity → emergency energy purchase or import → voluntary load curtailment → automatic UFLS as the final, last-resort stage.</li>
 <li>Once ACE and frequency are restored to normal, separately verify contingency reserve has been rebuilt to the N-1 requirement before resuming unconstrained economic dispatch — do not treat ACE recovery as the end of the event.</li>
@@ -97,7 +97,7 @@
 <li><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/power-distributor-dispatcher/references/vocabulary.md">references/vocabulary.md</a> — terms of art generalists misuse (ACE, frequency bias, N-1, and others).</li>
 </ul>
 <h3>Sources</h3>
-<p>NERC Reliability Standards: BAL-001 (Real Power Balancing Control Performance), BAL-002 (Disturbance Control Standard), PRC-006 (Automatic Underfrequency Load Shedding); NERC Glossary of Terms Used in NERC Reliability Standards (ACE, Most Severe Single Contingency, Reportable Balancing Contingency Event definitions); Wood, Wollenberg &amp; Sheblé, *Power Generation, Operation, and Control*; general knowledge of standard balancing-authority control-room practice.</p>
+<p>NERC Reliability Standards: BAL-001 (Real Power Balancing Control Performance), BAL-002 (Disturbance Control Standard), PRC-006 (Automatic Underfrequency Load Shedding); NERC Glossary of Terms Used in NERC Reliability Standards (ACE, Most Severe Single Contingency, Reportable Balancing Contingency Event definitions); Wood, Wollenberg &amp; Sheblé, <em>Power Generation, Operation, and Control</em>; general knowledge of standard balancing-authority control-room practice.</p>
   <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/power-distributor-dispatcher/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
   <p class="jurisdictions">Jurisdiction: US (baseline)</p>
   <nav class="related-roles" aria-label="Related roles">

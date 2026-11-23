@@ -94,7 +94,7 @@
 <h3>Worked example</h3>
 <p><strong>Situation.</strong> Regional dry-van fleet, 40 tractors. Tractor #214 (Detroit DD15) derates to 5 mph on I-40 with active code SPN 3364 FMI 4 (&quot;DEF quality — data valid but below normal operating range&quot;). Driver limps it into the nearest company terminal. This tractor grosses $2,100/day on its contracted lane; it&#x27;s due to dispatch again at 6 a.m. tomorrow.</p>
 <p><strong>Naive read.</strong> A generalist tech pulls the code, sees &quot;DEF quality,&quot; and orders a DEF quality sensor ($380 part, 2.5 hrs labor at $145/hr = $362.50, total $742.50). Sensor isn&#x27;t in stock locally — overnight freight, truck down until tomorrow afternoon at earliest.</p>
-<p><strong>Expert reasoning.</strong> SPN 3364 FMI 4 reports what the reductant-quality sensor is *measuring*, not that the sensor itself is bad — the fault fires just as reliably from contaminated or wrong-concentration DEF. Before ordering a part: pull a refractometer reading from the DEF tank. Reading comes back at 26% concentration against a 31.8–33.2% spec — the driver topped off at a truck stop with a jug that wasn&#x27;t sealed correctly, and the fluid partially crystallized/diluted. Cross-check: NOx sensor delta pre/post-SCR is within normal range, ruling out catalyst degradation. Conclusion: this is a fluid problem, not a sensor problem.</p>
+<p><strong>Expert reasoning.</strong> SPN 3364 FMI 4 reports what the reductant-quality sensor is <em>measuring</em>, not that the sensor itself is bad — the fault fires just as reliably from contaminated or wrong-concentration DEF. Before ordering a part: pull a refractometer reading from the DEF tank. Reading comes back at 26% concentration against a 31.8–33.2% spec — the driver topped off at a truck stop with a jug that wasn&#x27;t sealed correctly, and the fluid partially crystallized/diluted. Cross-check: NOx sensor delta pre/post-SCR is within normal range, ruling out catalyst degradation. Conclusion: this is a fluid problem, not a sensor problem.</p>
 <p><strong>Reconciling arithmetic.</strong></p>
 <p>| Option | Parts | Labor (hrs @ $145) | Downtime | Total cost |</p>
 <p>|---|---|---|---|---|</p>
@@ -111,11 +111,11 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>Commercial Vehicle Safety Alliance, *North American Standard Out-of-Service Criteria* (updated annually, effective April 1) — brake pushrod stroke limits by chamber type, tire tread depth, percentage-defective-brakes rule.</li>
+<li>Commercial Vehicle Safety Alliance, <em>North American Standard Out-of-Service Criteria</em> (updated annually, effective April 1) — brake pushrod stroke limits by chamber type, tire tread depth, percentage-defective-brakes rule.</li>
 <li>FMCSA, 49 CFR Part 396 (Inspection, Repair, and Maintenance) and 49 CFR §393.47 (brakes), §393.75 (tires) — the annual inspection and roadside-defect regulatory baseline.</li>
 <li>SAE J1939 — the SPN/FMI fault code standard referenced throughout, as implemented in OEM scan tools (Cummins INSITE, Detroit DDDL).</li>
 <li>Technology &amp; Maintenance Council (TMC) Recommended Practices (RP 200-series) — PM-A/PM-B interval and scope conventions cited here as industry-standard fleet practice.</li>
-<li>American Transportation Research Institute, *An Analysis of the Operational Costs of Trucking* (annual report) — basis for per-day/per-hour operating-cost framing used in the downtime-vs-repair tradeoff; specific dollar figures in the worked example are illustrative fleet numbers, not quoted directly from the report.</li>
+<li>American Transportation Research Institute, <em>An Analysis of the Operational Costs of Trucking</em> (annual report) — basis for per-day/per-hour operating-cost framing used in the downtime-vs-repair tradeoff; specific dollar figures in the worked example are illustrative fleet numbers, not quoted directly from the report.</li>
 <li>OEM diesel emissions diagnostic literature (Cummins, Detroit Diesel/Daimler, Bosch DEF/SCR technical service guidance) and ISO 22241 (DEF concentration specification, 31.8–33.2% / nominal 32.5%) — DEF/SCR diagnostic sequence and concentration thresholds.</li>
 <li>No direct diesel-truck-mechanic practitioner has reviewed this file yet — flag corrections or gaps via PR.</li>
 </ul>

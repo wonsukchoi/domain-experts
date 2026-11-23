@@ -90,10 +90,10 @@
 <p><strong>Situation.</strong> Cessna 208B Grand Caravan, planned takeoff weight 8,600 lb (MGTOW 8,750 lb), departing a 5,400-ft asphalt runway at a 6,500-ft-elevation airport, 1105 local. OAT 30°C, altimeter 30.10 in Hg, wind calm. Forecast high later that afternoon is 34°C. 250 lb of freight is still on the ramp, not yet loaded. Customer is booked for a same-day round trip.</p>
 <p><strong>Naive read.</strong> &quot;8,600 is under gross, runway&#x27;s 5,400 ft, book distance is nowhere near that — load the rest of the freight and go.&quot;</p>
 <p><strong>Expert reasoning.</strong></p>
-<p>*Density altitude.* Pressure altitude = field elevation + (29.92 − altimeter) × 1,000 = 6,500 + (29.92 − 30.10) × 1,000 = 6,500 − 180 = 6,320 ft. ISA temp at that pressure altitude = 15 − (2°C × 6.32) = 15 − 12.64 = 2.4°C. Density altitude = pressure altitude + 120 × (OAT − ISA temp) = 6,320 + 120 × (30 − 2.4) = 6,320 + 3,312 = 9,632 ft — about 3,130 ft higher than field elevation.</p>
-<p>*Performance.* Interpolating the current AFM short-field takeoff chart at 8,600 lb between the DA 8,000 ft row (ground roll 1,720 ft, 50-ft-obstacle distance 2,540 ft) and DA 10,000 ft row (2,180 ft / 3,260 ft): fraction = (9,632 − 8,000) / 2,000 = 0.816. Ground roll = 1,720 + 0.816 × 460 = 2,095 ft. Total distance = 2,540 + 0.816 × 720 = 3,127 ft.</p>
-<p>*Naive comparison:* 3,127 ft required vs. 5,400 ft available looks like a 2,273-ft cushion — a comfortable go by the naive read.</p>
-<p>*Why the naive read is wrong.* AFM chart numbers assume a new-tolerance engine, level dry pavement, zero wind, and precise max-performance technique — a test-pilot number, not this pilot&#x27;s number on this ramp. Applying a personal-minimum margin of AFM total distance × 1.5: 3,127 × 1.5 = 4,691 ft required. Against 5,400 ft available, that&#x27;s a 709-ft (15.1%) margin over the personal-minimum threshold — passes, but climb performance is the second gate: at DA ~9,630 ft the same chart shows climb gradient roughly halved versus sea-level standard, and rising terrain begins 2 nm off the departure end. That obstacle clearance has to be verified independently — passing the runway-distance gate says nothing about the climb-out gate. Separately, OAT is still rising toward a 34°C forecast high; recomputing at 34°C pushes DA to roughly 10,000 ft and total distance to the upper end of the interpolation (3,260 ft, personal-minimum requirement 4,890 ft) — margin shrinks to 510 ft (10.4%), below the 20% heuristic threshold. The math, not gut feel, sets the actual departure deadline.</p>
+<p><em>Density altitude.</em> Pressure altitude = field elevation + (29.92 − altimeter) × 1,000 = 6,500 + (29.92 − 30.10) × 1,000 = 6,500 − 180 = 6,320 ft. ISA temp at that pressure altitude = 15 − (2°C × 6.32) = 15 − 12.64 = 2.4°C. Density altitude = pressure altitude + 120 × (OAT − ISA temp) = 6,320 + 120 × (30 − 2.4) = 6,320 + 3,312 = 9,632 ft — about 3,130 ft higher than field elevation.</p>
+<p><em>Performance.</em> Interpolating the current AFM short-field takeoff chart at 8,600 lb between the DA 8,000 ft row (ground roll 1,720 ft, 50-ft-obstacle distance 2,540 ft) and DA 10,000 ft row (2,180 ft / 3,260 ft): fraction = (9,632 − 8,000) / 2,000 = 0.816. Ground roll = 1,720 + 0.816 × 460 = 2,095 ft. Total distance = 2,540 + 0.816 × 720 = 3,127 ft.</p>
+<p><em>Naive comparison:</em> 3,127 ft required vs. 5,400 ft available looks like a 2,273-ft cushion — a comfortable go by the naive read.</p>
+<p><em>Why the naive read is wrong.</em> AFM chart numbers assume a new-tolerance engine, level dry pavement, zero wind, and precise max-performance technique — a test-pilot number, not this pilot&#x27;s number on this ramp. Applying a personal-minimum margin of AFM total distance × 1.5: 3,127 × 1.5 = 4,691 ft required. Against 5,400 ft available, that&#x27;s a 709-ft (15.1%) margin over the personal-minimum threshold — passes, but climb performance is the second gate: at DA ~9,630 ft the same chart shows climb gradient roughly halved versus sea-level standard, and rising terrain begins 2 nm off the departure end. That obstacle clearance has to be verified independently — passing the runway-distance gate says nothing about the climb-out gate. Separately, OAT is still rising toward a 34°C forecast high; recomputing at 34°C pushes DA to roughly 10,000 ft and total distance to the upper end of the interpolation (3,260 ft, personal-minimum requirement 4,890 ft) — margin shrinks to 510 ft (10.4%), below the 20% heuristic threshold. The math, not gut feel, sets the actual departure deadline.</p>
 <p><strong>Deliverable — performance/go decision log, as written to dispatch:</strong></p>
 <p>&gt; <strong>Performance &amp; Go Decision — N1234C, KXYZ, [date] 1105L</strong></p>
 <p>&gt; DA computed: PA 6,320 ft (elev 6,500, alt 30.10) + ISA dev 27.6°C → DA 9,632 ft.</p>
@@ -110,16 +110,16 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>FAA-H-8083-25C, *Pilot&#x27;s Handbook of Aeronautical Knowledge* — density altitude computation and performance chart interpretation.</li>
-<li>FAA-H-8083-1B, *Aircraft Weight and Balance Handbook* — CG envelope, moment/arm computation.</li>
-<li>FAA-H-8083-2, *Risk Management Handbook* — PAVE checklist, IMSAFE, personal minimums.</li>
+<li>FAA-H-8083-25C, <em>Pilot&#x27;s Handbook of Aeronautical Knowledge</em> — density altitude computation and performance chart interpretation.</li>
+<li>FAA-H-8083-1B, <em>Aircraft Weight and Balance Handbook</em> — CG envelope, moment/arm computation.</li>
+<li>FAA-H-8083-2, <em>Risk Management Handbook</em> — PAVE checklist, IMSAFE, personal minimums.</li>
 <li>14 CFR §§91.103, 91.151, 91.167 — preflight action and VFR/IFR fuel reserve requirements.</li>
 <li>14 CFR Part 135 Subpart D (§§135.209, 135.223, 135.267) — Part 135 fuel and duty-time requirements, generally more conservative than Part 91.</li>
-<li>FAA Advisory Circular 00-6B, *Aviation Weather* — METAR/TAF format, TEMPO/PROB group definitions.</li>
+<li>FAA Advisory Circular 00-6B, <em>Aviation Weather</em> — METAR/TAF format, TEMPO/PROB group definitions.</li>
 <li>NTSB accident reports: United Airlines 173 (Portland, 1978 — fuel exhaustion, a catalyst for CRM) and Colgan Air 3407 (Buffalo, 2009 — plan continuation, fatigue, sterile-cockpit breakdown).</li>
-<li>Richard L. Collins, *Flying IFR* — go/no-go decision-making from a widely cited GA safety writer.</li>
+<li>Richard L. Collins, <em>Flying IFR</em> — go/no-go decision-making from a widely cited GA safety writer.</li>
 <li>AOPA Air Safety Institute — personal minimums framework and checklist card.</li>
-<li>Robert N. Buck, *Weather Flying* — practitioner-written weather decision-making.</li>
+<li>Robert N. Buck, <em>Weather Flying</em> — practitioner-written weather decision-making.</li>
 <li>Aircraft-specific performance and CG-envelope figures in the worked example are illustrative interpolations in the shape of a typical Caravan-class AFM chart; always use the actual aircraft&#x27;s current AFM/POH data, not a remembered or example number.</li>
 </ul>
   <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/commercial-pilot/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>

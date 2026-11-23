@@ -84,7 +84,7 @@
 </ul>
 <h3>Worked example</h3>
 <p>A temperature monitoring firmware samples a sensor via a timer interrupt firing every 10ms, storing the reading in a shared 32-bit variable that the main loop reads periodically to update a display and make a fan-control decision.</p>
-<p><strong>The bug:</strong> On this microcontroller, a 32-bit variable&#x27;s read and write are each composed of two 16-bit machine operations — not a single atomic operation. If the timer ISR updates the variable *while* the main loop is in the middle of reading it, the main loop can read a <strong>torn</strong> value: part of the old reading and part of the new one.</p>
+<p><strong>The bug:</strong> On this microcontroller, a 32-bit variable&#x27;s read and write are each composed of two 16-bit machine operations — not a single atomic operation. If the timer ISR updates the variable <em>while</em> the main loop is in the middle of reading it, the main loop can read a <strong>torn</strong> value: part of the old reading and part of the new one.</p>
 <p><strong>Concrete scenario:</strong></p>
 <ul>
 <li>True old reading (raw ADC units): <strong>65,000</strong> (0x0000FDE8 — high word 0x0000, low word 0xFDE8)</li>

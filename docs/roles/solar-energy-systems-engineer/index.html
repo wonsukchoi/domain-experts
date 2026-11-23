@@ -48,7 +48,7 @@
 <li><strong>A string&#x27;s governing voltage limit is set by the coldest expected morning, not by STC.</strong> Open-circuit voltage rises as cell temperature falls (a negative temperature coefficient run in reverse), so the string length that&#x27;s safe at the manufacturer&#x27;s 25°C STC rating can exceed the inverter&#x27;s maximum DC input voltage on a clear, cold sunrise — NEC 690.7 exists because this is the actual failure mode, not a theoretical one.</li>
 <li><strong>An inverter&#x27;s AC nameplate rating is a ceiling on output, not a target for DC array size.</strong> Solar irradiance rarely sits at 1,000 W/m² (STC) for more than a few hours a year, so an array sized 1:1 to the inverter&#x27;s AC rating spends most of its life under-filling the inverter — some intentional DC oversizing (a DC/AC ratio above 1.0) captures more annual energy than it clips, up to a point set by the site&#x27;s irradiance profile and any export/curtailment limit.</li>
 <li><strong>Nameplate DC capacity times peak-sun-hours overstates annual output by roughly the product of every loss the array actually experiences.</strong> Temperature, soiling, shading, mismatch, wiring resistance, inverter conversion inefficiency, clipping, and system availability each shave a few percent, and they compound multiplicatively — a performance ratio (PR) in the 0.75-0.85 range is normal, not a sign of an underperforming design.</li>
-<li><strong>NEC 690.8&#x27;s ampacity requirement stacks two separate 125% factors, not one.</strong> The maximum PV source-circuit current is short-circuit current x 1.25 (690.8(A), an irradiance-enhancement factor), and the conductor must then be sized for 125% of *that* number as a continuous-duty factor (690.8(B)) — the combined multiplier on nameplate Isc is 1.5625x, and applying only one of the two factors undersizes the conductor.</li>
+<li><strong>NEC 690.8&#x27;s ampacity requirement stacks two separate 125% factors, not one.</strong> The maximum PV source-circuit current is short-circuit current x 1.25 (690.8(A), an irradiance-enhancement factor), and the conductor must then be sized for 125% of <em>that</em> number as a continuous-duty factor (690.8(B)) — the combined multiplier on nameplate Isc is 1.5625x, and applying only one of the two factors undersizes the conductor.</li>
 <li><strong>Year-1 output and year-25 output are different numbers connected by a degradation curve, not the same number repeated.</strong> Light-induced degradation (LID) takes a one-time bite in the first months of operation, and linear warranty degradation (commonly ~0.4-0.5%/yr for tier-1 crystalline modules) erodes output every year after — a PPA or financing yield model that uses year-1 PR for year-25 revenue is quoting a number the array will never produce that late in its life.</li>
 </ol>
 <h3>Mental models &amp; heuristics</h3>
@@ -121,14 +121,14 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>NFPA 70, *National Electrical Code*, Article 690 (Solar Photovoltaic Systems) and Article 705 (Interconnected Electric Power Production Sources) — string voltage (690.7), circuit sizing (690.8), and overcurrent protection (690.9) requirements.</li>
+<li>NFPA 70, <em>National Electrical Code</em>, Article 690 (Solar Photovoltaic Systems) and Article 705 (Interconnected Electric Power Production Sources) — string voltage (690.7), circuit sizing (690.8), and overcurrent protection (690.9) requirements.</li>
 <li>ASHRAE Fundamentals Handbook — extreme minimum design dry-bulb temperature tables, the accepted basis for NEC 690.7&#x27;s &quot;lowest-expected ambient temperature.&quot;</li>
-<li>NREL, *PVWatts Calculator* and *National Solar Radiation Database (NSRDB)* documentation — POA irradiance and reference-yield methodology.</li>
-<li>NREL, *System Advisor Model (SAM)* documentation — 8760-hour production simulation, clipping-loss and performance-ratio methodology.</li>
+<li>NREL, <em>PVWatts Calculator</em> and <em>National Solar Radiation Database (NSRDB)</em> documentation — POA irradiance and reference-yield methodology.</li>
+<li>NREL, <em>System Advisor Model (SAM)</em> documentation — 8760-hour production simulation, clipping-loss and performance-ratio methodology.</li>
 <li>IEC 61215 (crystalline silicon module qualification) and IEC 61730 (module safety) — module test standards referenced by datasheet ratings.</li>
-<li>IEEE 1547-2018, *Standard for Interconnection and Interoperability of Distributed Energy Resources* and UL 1741-SA — grid-support inverter settings referenced in interconnection applications.</li>
-<li>James P. Dunlop, *Photovoltaic Systems* (NJATC/ETA), and the NABCEP PV Installation Professional body of knowledge — string sizing, conductor ampacity, and system design practice.</li>
-<li>Deutsche Gesellschaft für Sonnenenergie (DGS), *Planning and Installing Photovoltaic Systems* — performance ratio and loss-stack methodology.</li>
+<li>IEEE 1547-2018, <em>Standard for Interconnection and Interoperability of Distributed Energy Resources</em> and UL 1741-SA — grid-support inverter settings referenced in interconnection applications.</li>
+<li>James P. Dunlop, <em>Photovoltaic Systems</em> (NJATC/ETA), and the NABCEP PV Installation Professional body of knowledge — string sizing, conductor ampacity, and system design practice.</li>
+<li>Deutsche Gesellschaft für Sonnenenergie (DGS), <em>Planning and Installing Photovoltaic Systems</em> — performance ratio and loss-stack methodology.</li>
 </ul>
   <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/solar-energy-systems-engineer/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>
   <p class="jurisdictions">Jurisdiction: US (baseline)</p>

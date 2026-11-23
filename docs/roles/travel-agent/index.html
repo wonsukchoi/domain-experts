@@ -45,7 +45,7 @@
 <p>A travel agent builds and prices multi-supplier trips — flights, lodging, ground transport, tours, insurance — and is accountable for the itinerary actually working (connections clear, visas are valid on arrival date, cancellation terms match the client&#x27;s risk tolerance). The defining tension: the agent is paid mostly by supplier commission, not the client, which means the itinerary that pays best and the itinerary that serves the client best are not automatically the same trip, and the agent has to be able to defend the recommendation either way.</p>
 <h3>First-principles core</h3>
 <ol>
-<li><strong>A quoted layover time and a workable layover time are different numbers.</strong> Airlines&#x27; booking systems will sell a connection at the airport&#x27;s published Minimum Connection Time (MCT) even when that MCT assumes no immigration line, no terminal change, and no delay upstream — the agent&#x27;s job is to compare the *booked* connection time against a realistic buffer, not the MCT.</li>
+<li><strong>A quoted layover time and a workable layover time are different numbers.</strong> Airlines&#x27; booking systems will sell a connection at the airport&#x27;s published Minimum Connection Time (MCT) even when that MCT assumes no immigration line, no terminal change, and no delay upstream — the agent&#x27;s job is to compare the <em>booked</em> connection time against a realistic buffer, not the MCT.</li>
 <li><strong>Commission structure shapes what gets recommended by default, so it has to be named out loud.</strong> Air commission is near zero industry-wide; hotel, cruise, and packaged-tour commission (8–20%) is where agent income concentrates — a client deserves to know when a recommendation sits on the high-commission side of a close call, because unstated economic incentive is how trust gets burned once, permanently.</li>
 <li><strong>A fare rule is a contract, not a suggestion, and it&#x27;s asymmetric.</strong> Change fees, fare-class restrictions, and refund eligibility are locked at time of purchase and enforced by the airline regardless of the agent&#x27;s intent — reading the fare rule before booking, not after a client asks to change plans, is the only point where it&#x27;s still cheap to fix.</li>
 <li><strong>Visa and entry requirements are destination-and-nationality-specific, not trip-specific.</strong> The same itinerary can be visa-free for one passport and require a weeks-long consular appointment for another traveler on the same booking — requirements have to be checked per traveler, every time, because assuming &quot;I checked this route before&quot; is how someone gets denied boarding.</li>
@@ -88,9 +88,9 @@
 <p><strong>Naive read:</strong> book the cheapest available fares and connections, quote a flat price, offer insurance as a standard add-on.</p>
 <p><strong>Expert build:</strong></p>
 <ul>
-<li>*Routing/connection check:* CDG→NRT via a one-stop routing shows a 75-minute connection at a hub with a terminal change and no pre-clearance — flagged as high-risk (below the working buffer even though it clears the airport&#x27;s posted 60-minute international MCT) and re-booked on a direct CDG→NRT option instead, adding $180 total but removing the miss-the-flight risk on a non-movable itinerary.</li>
-<li>*Visa/entry check:* both US passports are visa-free for France and Japan under 90-day tourist entry — no visa cost or lead time required (confirmed per passport, not assumed from routing).</li>
-<li>*Pricing reconciliation (2 travelers):*</li>
+<li><em>Routing/connection check:</em> CDG→NRT via a one-stop routing shows a 75-minute connection at a hub with a terminal change and no pre-clearance — flagged as high-risk (below the working buffer even though it clears the airport&#x27;s posted 60-minute international MCT) and re-booked on a direct CDG→NRT option instead, adding $180 total but removing the miss-the-flight risk on a non-movable itinerary.</li>
+<li><em>Visa/entry check:</em> both US passports are visa-free for France and Japan under 90-day tourist entry — no visa cost or lead time required (confirmed per passport, not assumed from routing).</li>
+<li><em>Pricing reconciliation (2 travelers):</em></li>
 </ul>
 <p>| Component | Cost | Commission/fee rate | Commission/fee | Client price |</p>
 <p>|---|---|---|---|---|</p>
@@ -101,7 +101,7 @@
 <p>| <strong>Subtotal</strong> | <strong>$8,140</strong> | | <strong>$700</strong> | <strong>$8,840</strong> |</p>
 <p>$8,140 (supplier cost) + $700 (commission/fees) = $8,840 quoted price, under the $9,500 ceiling with $660 of margin — that margin is flagged to the client as room to upgrade the Tokyo hotel category if desired, rather than silently kept as agency slack.</p>
 <ul>
-<li>*Insurance:* trip cost $8,840, non-refundable tour deposits &gt;20% of trip cost, fixed non-movable dates — CFAR coverage recommended as the lead option ($620, ~7% of trip cost) alongside a standard non-CFAR policy ($310) for comparison, both quoted with their actual &quot;covered reasons&quot; lists attached, not just price.</li>
+<li><em>Insurance:</em> trip cost $8,840, non-refundable tour deposits &gt;20% of trip cost, fixed non-movable dates — CFAR coverage recommended as the lead option ($620, ~7% of trip cost) alongside a standard non-CFAR policy ($310) for comparison, both quoted with their actual &quot;covered reasons&quot; lists attached, not just price.</li>
 </ul>
 <p><strong>Deliverable (itinerary proposal excerpt, as sent to client):</strong></p>
 <p>&gt; Here&#x27;s the honeymoon build at $8,840 for two, $660 under your ceiling.</p>

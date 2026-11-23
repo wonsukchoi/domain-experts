@@ -95,7 +95,7 @@
 <p><strong>Situation.</strong> A water-transmission booster station feeds a 24-inch ductile iron main, 4,500 ft to the next isolation valve, current velocity 5 ft/s, normal operating pressure 80 psi. A downstream section of that run is older Class 150 pipe and fittings rated for 150 psi. A contractor needs the line isolated for a tie-in; the station&#x27;s motorized isolation valve defaults to a factory 2-second closure.</p>
 <p><strong>Wave speed and critical period.</strong> For ductile iron with cement-mortar lining, wave speed a ≈ 3,700 ft/s (AWWA M11). Critical period Tc = 2L/a = (2 × 4,500) / 3,700 ≈ <strong>2.43 s</strong>.</p>
 <p><strong>Naive read (what a generalist would file):</strong> &quot;2 seconds is fast — the valve closes almost instantly, so there&#x27;s less time for anything bad to happen downstream.&quot; This treats speed itself as the safety margin.</p>
-<p><strong>Expert reasoning.</strong> A 2-second closure is *faster* than the pipe&#x27;s 2.43-second critical period, which means it behaves as an instantaneous closure for surge purposes — the full Joukowsky surge applies. Using ΔH = a·ΔV/g: ΔH = (3,700 × 5) / 32.2 ≈ <strong>574.5 ft of head</strong>. Converting to pressure at 0.433 psi/ft of water: ΔP ≈ 574.5 × 0.433 ≈ <strong>248.8 psi</strong>. Added to the 80 psi operating pressure, transient pressure at the valve reaches <strong>≈ 328.8 psi</strong> — more than double the 150 psi rating of the downstream Class 150 section. Closing &quot;fast&quot; would rupture that pipe.</p>
+<p><strong>Expert reasoning.</strong> A 2-second closure is <em>faster</em> than the pipe&#x27;s 2.43-second critical period, which means it behaves as an instantaneous closure for surge purposes — the full Joukowsky surge applies. Using ΔH = a·ΔV/g: ΔH = (3,700 × 5) / 32.2 ≈ <strong>574.5 ft of head</strong>. Converting to pressure at 0.433 psi/ft of water: ΔP ≈ 574.5 × 0.433 ≈ <strong>248.8 psi</strong>. Added to the 80 psi operating pressure, transient pressure at the valve reaches <strong>≈ 328.8 psi</strong> — more than double the 150 psi rating of the downstream Class 150 section. Closing &quot;fast&quot; would rupture that pipe.</p>
 <p>To bring the surge down to a level the 150 psi section can absorb (allowing a 70 psi rise over the 80 psi baseline, i.e. ΔP_target = 70 psi), use the slow-closure relation ΔP_actual ≈ ΔP_instant × (Tc / Tclose): solving for Tclose = Tc × (ΔP_instant / ΔP_target) = 2.43 × (248.8 / 70) ≈ <strong>8.6 s minimum</strong>. Rounding up for a margin against flow variability, the closure is set to 15 s.</p>
 <p>Separately, confirming the booster pump isn&#x27;t newly exposed: at the throttled flow during closure, NPSHa at the pump suction (atmospheric head + submergence − friction losses − vapor-pressure head) computes to 28 ft; NPSHr from the curve at that flow is 14 ft. Margin ratio 28/14 = <strong>2.0</strong>, well above the 1.2 minimum — no cavitation risk introduced by the slower closure.</p>
 <p><strong>Deliverable — work order note filed before the isolation:</strong></p>
@@ -108,15 +108,15 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>Hydraulic Institute, ANSI/HI 9.6.1, *Rotodynamic Pumps — Guideline for NPSH Margin.*</li>
-<li>Hydraulic Institute, ANSI/HI 9.6.3, *Rotodynamic Pumps — Guideline for Allowable Operating Region.*</li>
-<li>Igor Karassik et al., *Pump Handbook* (McGraw-Hill) — cavitation mechanics, NPSH, duty-point/BEP relationships.</li>
-<li>AWWA Manual M11, *Steel Pipe — A Guide for Design and Installation* — pressure-wave speed by pipe material.</li>
-<li>John Parmakian, *Waterhammer Analysis* (Dover) — Joukowsky relation, critical period, slow-closure surge reduction.</li>
-<li>AWWA Manual M51, *Air Release, Air/Vacuum, and Combination Air Valves* — surge-control device selection.</li>
-<li>Great Lakes–Upper Mississippi River Board, *Recommended Standards for Wastewater Facilities* (&quot;Ten States Standards&quot;) — wet well sizing, pump-cycle and freeboard practice.</li>
-<li>US EPA, *Report on the Environment* and NPDES program materials on Clean Water Act §301/402 — SSOs as unpermitted discharges.</li>
-<li>California State Water Resources Control Board, *Statewide General Waste Discharge Requirements for Sanitary Sewer Systems* (Order WQ 2022-0103-DWQ) — representative state SSO categorization and reporting-timeline structure, cited as an example program; verify the applicable state&#x27;s actual thresholds.</li>
+<li>Hydraulic Institute, ANSI/HI 9.6.1, <em>Rotodynamic Pumps — Guideline for NPSH Margin.</em></li>
+<li>Hydraulic Institute, ANSI/HI 9.6.3, <em>Rotodynamic Pumps — Guideline for Allowable Operating Region.</em></li>
+<li>Igor Karassik et al., <em>Pump Handbook</em> (McGraw-Hill) — cavitation mechanics, NPSH, duty-point/BEP relationships.</li>
+<li>AWWA Manual M11, <em>Steel Pipe — A Guide for Design and Installation</em> — pressure-wave speed by pipe material.</li>
+<li>John Parmakian, <em>Waterhammer Analysis</em> (Dover) — Joukowsky relation, critical period, slow-closure surge reduction.</li>
+<li>AWWA Manual M51, <em>Air Release, Air/Vacuum, and Combination Air Valves</em> — surge-control device selection.</li>
+<li>Great Lakes–Upper Mississippi River Board, <em>Recommended Standards for Wastewater Facilities</em> (&quot;Ten States Standards&quot;) — wet well sizing, pump-cycle and freeboard practice.</li>
+<li>US EPA, <em>Report on the Environment</em> and NPDES program materials on Clean Water Act §301/402 — SSOs as unpermitted discharges.</li>
+<li>California State Water Resources Control Board, <em>Statewide General Waste Discharge Requirements for Sanitary Sewer Systems</em> (Order WQ 2022-0103-DWQ) — representative state SSO categorization and reporting-timeline structure, cited as an example program; verify the applicable state&#x27;s actual thresholds.</li>
 <li>No direct pump-station-operator practitioner has reviewed this file yet — flag corrections or gaps via PR.</li>
 </ul>
   <p class="source-link"><a href="https://github.com/wonsukchoi/domain-experts/blob/main/roles/pump-station-operator/SKILL.md">View SKILL.md source on GitHub</a> &middot; maturity: draft</p>

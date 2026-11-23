@@ -94,10 +94,10 @@
 <p><strong>Situation.</strong> A county engineering department contracts new orthophotography and a bare-earth DTM for stormwater master planning over a 40 sq mi (103.6 km²) block. The RFP specifies compliance with ASPRS Positional Accuracy Standards for Digital Geospatial Data (2014): Horizontal Accuracy Class RMSEx = RMSEy = 10 cm, Vertical Accuracy Class (non-vegetated) RMSEz = 10 cm, tested per NSSDA against a minimum of 20 independent checkpoints.</p>
 <p><strong>Naive read.</strong> A junior planner proposes flying at 6 cm GSD, reasoning &quot;6 cm pixels comfortably beat a 10 cm requirement&quot; — treating the resolution number itself as satisfying the accuracy class, and skipping a checkpoint budget line from the cost estimate.</p>
 <p><strong>Expert reasoning.</strong></p>
-<p>*GSD/flying-height back-solve:* using the camera&#x27;s calibration-certificate values (pixel pitch 4.6 µm, calibrated focal length 100.5 mm) and a target GSD of 6 cm (0.06 m) — chosen per the N/2 heuristic against the 10 cm horizontal class — flying height above ground:</p>
+<p><em>GSD/flying-height back-solve:</em> using the camera&#x27;s calibration-certificate values (pixel pitch 4.6 µm, calibrated focal length 100.5 mm) and a target GSD of 6 cm (0.06 m) — chosen per the N/2 heuristic against the 10 cm horizontal class — flying height above ground:</p>
 <p>H = GSD × f / pixel_pitch = 0.06 m × 0.1005 m / 0.0000046 m ≈ <strong>1,310.9 m AGL</strong> (≈ 4,301 ft), rounded to 1,310 m for flight planning.</p>
-<p>*Why GSD alone doesn&#x27;t close the spec:* GSD sets the theoretical resolution ceiling, but the RFP&#x27;s 10 cm class is an RMSE requirement measured against 20 independent, never-reused checkpoints — a firm still has to budget and fly that survey, price it, and pass it, regardless of how fine the GSD is.</p>
-<p>*Checkpoint test, post-delivery (20 independent GNSS-RTK checkpoints, NAD83(2011) epoch 2010.00 / NAVD88 via GEOID18, residuals in cm, computed against the adjusted block):*</p>
+<p><em>Why GSD alone doesn&#x27;t close the spec:</em> GSD sets the theoretical resolution ceiling, but the RFP&#x27;s 10 cm class is an RMSE requirement measured against 20 independent, never-reused checkpoints — a firm still has to budget and fly that survey, price it, and pass it, regardless of how fine the GSD is.</p>
+<p><em>Checkpoint test, post-delivery (20 independent GNSS-RTK checkpoints, NAD83(2011) epoch 2010.00 / NAVD88 via GEOID18, residuals in cm, computed against the adjusted block):</em></p>
 <p>Horizontal residuals (dx, dy) sum of squares: Σdx² = 162 cm², Σdy² = 162 cm² across n = 20 points.</p>
 <p>RMSEx = √(162/20) = √8.1 = <strong>2.85 cm</strong>; RMSEy = √(162/20) = √8.1 = <strong>2.85 cm</strong>.</p>
 <p>RMSEr = √(RMSEx² + RMSEy²) = √(8.1 + 8.1) = √16.2 = <strong>4.03 cm</strong>.</p>
@@ -121,11 +121,11 @@
 </ul>
 <h3>Sources</h3>
 <ul>
-<li>ASPRS, &quot;Positional Accuracy Standards for Digital Geospatial Data&quot; (2014), *Photogrammetric Engineering &amp; Remote Sensing* 81(3) — horizontal/vertical accuracy classes, NVA/VVA testing methodology, minimum checkpoint counts.</li>
+<li>ASPRS, &quot;Positional Accuracy Standards for Digital Geospatial Data&quot; (2014), <em>Photogrammetric Engineering &amp; Remote Sensing</em> 81(3) — horizontal/vertical accuracy classes, NVA/VVA testing methodology, minimum checkpoint counts.</li>
 <li>Federal Geographic Data Committee, FGDC-STD-007.3-1998, &quot;Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy (NSSDA)&quot; — the 1.9600 (vertical, linear) and 1.7308 (horizontal, radial) 95%-confidence multipliers applied to RMSE.</li>
 <li>USGS National Geospatial Program, 3D Elevation Program (3DEP) Base Lidar Specification (USGS Techniques and Methods 11-B4) — Quality Level point-density and vertical-accuracy specifications (QL2: ~2 points/m², RMSEz ≤ 10 cm non-vegetated).</li>
 <li>NOAA National Geodetic Survey — NAD83(2011) epoch 2010.00 realization, GEOID18 hybrid geoid model documentation, NSRS modernization status.</li>
-<li>Wolf, DeWitt &amp; Wilkinson, *Elements of Photogrammetry with Applications in GIS* — interior/exterior orientation, bundle adjustment, relief displacement (d = h·r/H).</li>
+<li>Wolf, DeWitt &amp; Wilkinson, <em>Elements of Photogrammetry with Applications in GIS</em> — interior/exterior orientation, bundle adjustment, relief displacement (d = h·r/H).</li>
 <li>ASPRS LAS Specification v1.4 — point classification codes, multi-return LiDAR data structure.</li>
 <li>NOAA NGS Manual NOS NGS 5, State Plane Coordinate System documentation — combined scale factor and grid-to-ground distance reduction.</li>
 <li>No direct cartographer/photogrammetrist practitioner has reviewed this file yet — flag corrections or gaps via PR.</li>

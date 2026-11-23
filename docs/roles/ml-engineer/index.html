@@ -85,7 +85,7 @@
 <h3>Worked example</h3>
 <p>A fraud detection model is trained on a dataset of 100,000 transactions, of which 800 (0.8%) are fraudulent.</p>
 <p><strong>Initial (leaky) development result:</strong> During development, a feature — &quot;customer&#x27;s average transaction amount across all time&quot; — was computed using the full dataset (including test-set transactions) before the train/test split. This produced an initially reported validation recall of <strong>92%</strong>.</p>
-<p><strong>Leakage correction:</strong> The feature is recomputed correctly, using only transaction history available *before* each transaction&#x27;s timestamp (a proper temporal split, avoiding leakage from future/test-set data). Re-evaluating on the truly held-out test set with this corrected feature:</p>
+<p><strong>Leakage correction:</strong> The feature is recomputed correctly, using only transaction history available <em>before</em> each transaction&#x27;s timestamp (a proper temporal split, avoiding leakage from future/test-set data). Re-evaluating on the truly held-out test set with this corrected feature:</p>
 <p><strong>Confusion matrix (corrected, true held-out evaluation):</strong></p>
 <ul>
 <li>True positives (fraud correctly caught): 560</li>
