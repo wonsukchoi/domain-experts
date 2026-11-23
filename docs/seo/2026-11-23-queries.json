@@ -1,0 +1,273 @@
+{
+  "domain": "domainexperts.dev",
+  "report_date": "2026-11-23",
+  "generated_at": "2026-11-23T12:30:11.099651+07:00",
+  "total_queries": 19,
+  "total_pages": 77,
+  "queries": [
+    {
+      "query": "5 domains of athletic training",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/athletic-trainer"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "adapted physical education",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/adapted-physical-education-specialist",
+        "/roles/physical-therapist-assistant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "admin service manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/agricultural-manager",
+        "/roles/aircraft-service-attendant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "administrative site management",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 93.8,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-law-judge",
+        "/roles/administrative-services-manager",
+        "/roles/security-management-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising & promotions managers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 73.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising and promotion manager",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 92.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/agricultural-manager",
+        "/roles/architectural-engineering-manager"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "advertising and promotions managers",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 88.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/hand-packager",
+        "/roles/land-surveyor"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "agricultural field technician job description",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/aerospace-engineering-technician",
+        "/roles/agricultural-engineer",
+        "/roles/agricultural-equipment-operator",
+        "/roles/agricultural-grader-sorter",
+        "/roles/agricultural-inspector"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "airframe assembly",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 88.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "amusement recreation award",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 100.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/amusement-recreation-attendant"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "controller accounting",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 87.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "controller accounting support",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain expert",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 94.7,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domain testing experts",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 38.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "domainexpert",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 7.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "improve_content"
+    },
+    {
+      "query": "domainexperte",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 59.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what does an advertising and promotions manager do",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 83.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/accountant-controller",
+        "/roles/administrative-services-manager",
+        "/roles/advertising-promotions-manager",
+        "/roles/advertising-sales-agent",
+        "/roles/aerospace-engineering-technician"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "what is a controller in accounting",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 92.0,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [
+        "/roles/bioinformatics-scientist",
+        "/roles/accountant-controller",
+        "/roles/actuary",
+        "/roles/acupuncturist",
+        "/roles/adapted-physical-education-specialist"
+      ],
+      "suggested_action": "monitor"
+    },
+    {
+      "query": "www.dcloudexperts.com",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 82.5,
+      "lost_clicks": 0,
+      "opportunity": "low",
+      "matching_pages": [],
+      "suggested_action": "monitor"
+    }
+  ],
+  "page_opportunities": [],
+  "uncovered_queries": []
+}

@@ -1,10 +1,10 @@
 {
-  "last_report": "2026-11-16",
+  "last_report": "2026-11-23",
   "last_overview": {
     "clicks": 1,
-    "impressions": 173,
+    "impressions": 162,
     "ctr": 0.6,
-    "avg_pos": 39.8
+    "avg_pos": 37.1
   },
   "last_pages": {
     "https://domainexperts.dev/roles/bioinformatics-scientist": {
@@ -16,16 +16,16 @@
     },
     "https://domainexperts.dev": {
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 22,
       "ctr": 0.0,
-      "position": 35.8,
+      "position": 34.8,
       "key": "https://domainexperts.dev"
     },
     "https://domainexperts.dev/roles/accountant-controller": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 98.0,
+      "position": 84.5,
       "key": "https://domainexperts.dev/roles/accountant-controller"
     },
     "https://domainexperts.dev/roles/actuary": {
@@ -42,13 +42,6 @@
       "position": 3.0,
       "key": "https://domainexperts.dev/roles/acupuncturist"
     },
-    "https://domainexperts.dev/roles/acute-care-nurse": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 58.0,
-      "key": "https://domainexperts.dev/roles/acute-care-nurse"
-    },
     "https://domainexperts.dev/roles/adapted-physical-education-specialist": {
       "clicks": 0,
       "impressions": 1,
@@ -60,21 +53,21 @@
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 92.0,
+      "position": 97.0,
       "key": "https://domainexperts.dev/roles/administrative-law-judge"
     },
     "https://domainexperts.dev/roles/administrative-services-manager": {
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 80.0,
+      "position": 78.9,
       "key": "https://domainexperts.dev/roles/administrative-services-manager"
     },
     "https://domainexperts.dev/roles/advertising-promotions-manager": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 13,
       "ctr": 0.0,
-      "position": 82.8,
+      "position": 84.4,
       "key": "https://domainexperts.dev/roles/advertising-promotions-manager"
     },
     "https://domainexperts.dev/roles/advertising-sales-agent": {
@@ -135,17 +128,10 @@
     },
     "https://domainexperts.dev/roles/agricultural-technician": {
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 21.0,
+      "position": 56.0,
       "key": "https://domainexperts.dev/roles/agricultural-technician"
-    },
-    "https://domainexperts.dev/roles/air-traffic-controller": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 99.0,
-      "key": "https://domainexperts.dev/roles/air-traffic-controller"
     },
     "https://domainexperts.dev/roles/aircraft-cargo-supervisor": {
       "clicks": 0,
@@ -153,13 +139,6 @@
       "ctr": 0.0,
       "position": 87.0,
       "key": "https://domainexperts.dev/roles/aircraft-cargo-supervisor"
-    },
-    "https://domainexperts.dev/roles/aircraft-mechanic": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 54.0,
-      "key": "https://domainexperts.dev/roles/aircraft-mechanic"
     },
     "https://domainexperts.dev/roles/aircraft-service-attendant": {
       "clicks": 0,
@@ -170,9 +149,9 @@
     },
     "https://domainexperts.dev/roles/aircraft-structure-assembler": {
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 41.8,
+      "position": 35.7,
       "key": "https://domainexperts.dev/roles/aircraft-structure-assembler"
     },
     "https://domainexperts.dev/roles/airfield-operations-specialist": {
@@ -184,9 +163,9 @@
     },
     "https://domainexperts.dev/roles/airline-pilot": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 18.0,
+      "position": 26.0,
       "key": "https://domainexperts.dev/roles/airline-pilot"
     },
     "https://domainexperts.dev/roles/allergist-immunologist": {
@@ -198,23 +177,23 @@
     },
     "https://domainexperts.dev/roles/ambulance-driver-attendant": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 38.0,
+      "position": 33.0,
       "key": "https://domainexperts.dev/roles/ambulance-driver-attendant"
     },
     "https://domainexperts.dev/roles/amusement-recreation-attendant": {
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 75.4,
+      "position": 87.0,
       "key": "https://domainexperts.dev/roles/amusement-recreation-attendant"
     },
     "https://domainexperts.dev/roles/anesthesiologist-assistant": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 79.3,
+      "position": 83.0,
       "key": "https://domainexperts.dev/roles/anesthesiologist-assistant"
     },
     "https://domainexperts.dev/roles/anesthesiologist": {
@@ -280,18 +259,11 @@
       "position": 86.0,
       "key": "https://domainexperts.dev/roles/architectural-engineering-manager"
     },
-    "https://domainexperts.dev/roles/art-director": {
+    "https://domainexperts.dev/roles/art-therapist": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 2.0,
-      "key": "https://domainexperts.dev/roles/art-director"
-    },
-    "https://domainexperts.dev/roles/art-therapist": {
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 62.5,
+      "position": 46.0,
       "key": "https://domainexperts.dev/roles/art-therapist"
     },
     "https://domainexperts.dev/roles/astronomer": {
@@ -392,12 +364,12 @@
       "position": 5.0,
       "key": "https://domainexperts.dev/roles/door-to-door-sales-worker"
     },
-    "https://domainexperts.dev/roles/game-designer": {
+    "https://domainexperts.dev/roles/gem-diamond-worker": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 4.0,
-      "key": "https://domainexperts.dev/roles/game-designer"
+      "position": 98.0,
+      "key": "https://domainexperts.dev/roles/gem-diamond-worker"
     },
     "https://domainexperts.dev/roles/geodetic-surveyor": {
       "clicks": 0,
@@ -419,13 +391,6 @@
       "ctr": 0.0,
       "position": 40.0,
       "key": "https://domainexperts.dev/roles/land-surveyor"
-    },
-    "https://domainexperts.dev/roles/legislator": {
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0.0,
-      "position": 193.5,
-      "key": "https://domainexperts.dev/roles/legislator"
     },
     "https://domainexperts.dev/roles/locomotive-engineer": {
       "clicks": 0,
@@ -450,9 +415,9 @@
     },
     "https://domainexperts.dev/roles/mechatronics-engineer": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 27.0,
+      "position": 49.0,
       "key": "https://domainexperts.dev/roles/mechatronics-engineer"
     },
     "https://domainexperts.dev/roles/microbiologist": {
@@ -476,13 +441,6 @@
       "position": 43.0,
       "key": "https://domainexperts.dev/roles/nanosystems-engineer"
     },
-    "https://domainexperts.dev/roles/oil-gas-production-manager": {
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 55.5,
-      "key": "https://domainexperts.dev/roles/oil-gas-production-manager"
-    },
     "https://domainexperts.dev/roles/parts-counter-salesperson": {
       "clicks": 0,
       "impressions": 1,
@@ -492,9 +450,9 @@
     },
     "https://domainexperts.dev/roles/physical-therapist-assistant": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 85.3,
+      "position": 88.0,
       "key": "https://domainexperts.dev/roles/physical-therapist-assistant"
     },
     "https://domainexperts.dev/roles/product-demonstrator": {
@@ -503,13 +461,6 @@
       "ctr": 0.0,
       "position": 36.0,
       "key": "https://domainexperts.dev/roles/product-demonstrator"
-    },
-    "https://domainexperts.dev/roles/production-planning-expediting-clerk": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 97.0,
-      "key": "https://domainexperts.dev/roles/production-planning-expediting-clerk"
     },
     "https://domainexperts.dev/roles/prosthodontist": {
       "clicks": 0,
@@ -611,11 +562,18 @@
       "position": 98.0,
       "key": "adapted physical education"
     },
+    "admin service manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "key": "admin service manager"
+    },
     "administrative site management": {
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 86.4,
+      "position": 93.8,
       "key": "administrative site management"
     },
     "advertising & promotions managers": {
@@ -625,12 +583,26 @@
       "position": 73.0,
       "key": "advertising & promotions managers"
     },
+    "advertising and promotion manager": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 92.0,
+      "key": "advertising and promotion manager"
+    },
     "advertising and promotions managers": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 85.7,
+      "position": 88.5,
       "key": "advertising and promotions managers"
+    },
+    "agricultural field technician job description": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 91.0,
+      "key": "agricultural field technician job description"
     },
     "airframe assembly": {
       "clicks": 0,
@@ -639,13 +611,6 @@
       "position": 88.0,
       "key": "airframe assembly"
     },
-    "amusement recreation and events award": {
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 72.0,
-      "key": "amusement recreation and events award"
-    },
     "amusement recreation award": {
       "clicks": 0,
       "impressions": 1,
@@ -653,53 +618,32 @@
       "position": 100.0,
       "key": "amusement recreation award"
     },
-    "anest assist": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 74.0,
-      "key": "anest assist"
-    },
-    "assembly and rigging": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 60.0,
-      "key": "assembly and rigging"
-    },
-    "can physical therapy assistants work independently": {
+    "controller accounting": {
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 84.0,
-      "key": "can physical therapy assistants work independently"
-    },
-    "characteristics of a safe ambulance operator include:": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 43.0,
-      "key": "characteristics of a safe ambulance operator include:"
-    },
-    "controller accounting": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 98.0,
+      "position": 87.0,
       "key": "controller accounting"
+    },
+    "controller accounting support": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "key": "controller accounting support"
     },
     "domain expert": {
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 96.0,
+      "position": 94.7,
       "key": "domain expert"
     },
     "domain testing experts": {
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 53.0,
+      "position": 38.5,
       "key": "domain testing experts"
     },
     "domainexpert": {
@@ -716,39 +660,25 @@
       "position": 59.5,
       "key": "domainexperte"
     },
-    "job description of anesthesiologist assistant": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 97.0,
-      "key": "job description of anesthesiologist assistant"
-    },
-    "legislator management": {
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 91.0,
-      "key": "legislator management"
-    },
-    "oilfield production expert": {
+    "what does an advertising and promotions manager do": {
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 55.5,
-      "key": "oilfield production expert"
+      "position": 83.0,
+      "key": "what does an advertising and promotions manager do"
     },
-    "what is legislator": {
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 227.7,
-      "key": "what is legislator"
-    },
-    "www.dcloudexperts.com": {
+    "what is a controller in accounting": {
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 68.0,
+      "position": 92.0,
+      "key": "what is a controller in accounting"
+    },
+    "www.dcloudexperts.com": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 82.5,
       "key": "www.dcloudexperts.com"
     }
   },
