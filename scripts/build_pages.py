@@ -406,6 +406,19 @@ AI_CRAWLERS = [
     ("CCBot", "Common Crawl — feeds most open training corpora"),
 ]
 
+# Hand-written pages under docs/ that belong in sitemap.xml and llms.txt.
+# (file, link title, one-line summary, lastmod). Bump lastmod when the page's
+# content changes; a build alone must not make it look fresh.
+STATIC_PAGES = [
+    (
+        "claude-skills.html",
+        "Claude skills guide",
+        "what a Claude skill is and how to install a job-role skill into Claude Code "
+        "(`npx domain-experts add <slug>`, the `/domain-expert` command).",
+        "2026-11-26",
+    ),
+]
+
 # Descriptions all read "Use when a task needs the judgment of <role> — <triggers>".
 # The head is boilerplate plus the role name, which the link text already carries;
 # the triggers after the dash are the only part that tells one role from another.
@@ -471,6 +484,7 @@ def build_llms_txt(roles):
         "## Start here",
         "",
         f"- [Role index]({SITE_URL}/): all roles, searchable by name and category.",
+        *(f"- [{title}]({SITE_URL}/{page}): {summary}" for page, title, summary, _ in STATIC_PAGES),
         f"- [README]({REPO_BLOB}README.md): what a role contains and why prompting "
         "for one is not equivalent.",
         f"- [Authoring spec]({REPO_BLOB}AUTHORING.md): the v2 structure every new role follows.",
@@ -508,6 +522,19 @@ def build_llms_txt(roles):
     ]
 
     (ROOT / "docs" / "llms.txt").write_text("\n".join(lines))
+
+
+def sitemap_xml(role_urls, today):
+    """sitemap.xml text: home, the hand-written STATIC_PAGES, then every role page."""
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+             f"  <url><loc>{SITE_URL}/</loc><lastmod>{today}</lastmod></url>"]
+    for page, _, _, lastmod in STATIC_PAGES:
+        lines.append(f"  <url><loc>{SITE_URL}/{page}</loc><lastmod>{lastmod}</lastmod></url>")
+    for u, lastmod in role_urls:
+        lines.append(f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>")
+    lines.append("</urlset>")
+    return "\n".join(lines) + "\n"
 
 
 def build_robots_txt():
@@ -605,13 +632,7 @@ def build():
         lastmod = datetime.fromisoformat(iso).date().isoformat() if iso else today
         urls.append((f"{SITE_URL}/roles/{slug}/", lastmod))
 
-    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
-               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-               f"  <url><loc>{SITE_URL}/</loc><lastmod>{today}</lastmod></url>"]
-    for u, lastmod in urls:
-        sitemap.append(f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>")
-    sitemap.append("</urlset>")
-    (ROOT / "docs" / "sitemap.xml").write_text("\n".join(sitemap) + "\n")
+    (ROOT / "docs" / "sitemap.xml").write_text(sitemap_xml(urls, today))
 
     build_robots_txt()
 

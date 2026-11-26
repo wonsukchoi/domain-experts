@@ -164,6 +164,30 @@ check("a lone footnote asterisk stays", bp.inline("see note * above", "x") == "s
 check("injected markup inside italics is still escaped", "<img" not in bp.inline("*<img src=x onerror=alert(1)>*", "x"), bp.inline("*<img src=x onerror=alert(1)>*", "x"))
 check("an asterisk in a link target is not touched", 'href="https://e.com/a*b*c"' in bp.inline("[x](https://e.com/a*b*c)", "x"), bp.inline("[x](https://e.com/a*b*c)", "x"))
 
+print("STATIC_PAGES — hand-written pages reach sitemap.xml and llms.txt")
+import tempfile  # noqa: E402
+
+xml = bp.sitemap_xml([(f"{bp.SITE_URL}/roles/x/", "2026-01-01")], "2026-02-02")
+for page, _, _, lastmod in bp.STATIC_PAGES:
+    check(f"{page} exists in docs/", (Path(bp.ROOT) / "docs" / page).is_file())
+    check(
+        f"{page} is in the sitemap with its own lastmod",
+        f"<loc>{bp.SITE_URL}/{page}</loc><lastmod>{lastmod}</lastmod>" in xml,
+        xml,
+    )
+check("role pages stay in the sitemap", f"<loc>{bp.SITE_URL}/roles/x/</loc>" in xml, xml)
+_real_root = bp.ROOT
+with tempfile.TemporaryDirectory() as tmp:
+    (Path(tmp) / "docs").mkdir()
+    bp.ROOT = Path(tmp)
+    try:
+        bp.build_llms_txt(roles)
+        fresh = (Path(tmp) / "docs" / "llms.txt").read_text()
+    finally:
+        bp.ROOT = _real_root
+for page, title, _, _ in bp.STATIC_PAGES:
+    check(f"{page} is linked from llms.txt", f"- [{title}]({bp.SITE_URL}/{page}): " in fresh, "")
+
 if FAILURES:
     print(f"\n{len(FAILURES)} injection check(s) failed: {', '.join(FAILURES)}")
     sys.exit(1)

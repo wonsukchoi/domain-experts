@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'self' https://analytics.wonsukchoi.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://img.shields.io; connect-src 'self' https://analytics.wonsukchoi.com">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Claude skills for every profession: what they are and how to install one — Domain Experts</title>
+<meta name="description" content="What a Claude skill is, how to add one to Claude Code with one command, and examples for legal, finance and nursing work from an open source library of 950+ job-role skills.">
+<link rel="canonical" href="https://domainexperts.dev/claude-skills.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta property="og:title" content="Claude skills for every profession — Domain Experts">
+<meta property="og:description" content="What a Claude skill is and how to install a job-role skill (lawyer, financial analyst, nurse and 950+ more) into Claude Code with one command.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Domain Experts">
+<meta property="og:url" content="https://domainexperts.dev/claude-skills.html">
+<script defer src="https://analytics.wonsukchoi.com/script.js" data-website-id="62eb52ba-75ab-4275-a3f0-794ae1d9035c"></script>
+</head>
+<body id="top">
+<a href="#main-content" class="skip-link">Skip to content</a>
+<header>
+  <p class="links"><a href="index.html" class="back-link">&larr; All roles</a></p>
+  <h1>Claude skills for every profession</h1>
+  <p class="tagline">what they are and how to install one</p>
+</header>
+<main class="role-page" id="main-content">
+
+<p>A Claude skill is a folder with a <code>SKILL.md</code> file of instructions that Claude loads when a task needs it. In Anthropic's words, <a href="https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview">Agent Skills</a> are &ldquo;modular capabilities that extend Claude&rsquo;s functionality. Each Skill packages instructions, metadata, and optional resources (scripts, templates) that Claude uses automatically when relevant.&rdquo; In Claude Code, skills live in <code>.claude/skills/&lt;name&gt;/SKILL.md</code>, and you can also call one directly with <code>/skill-name</code> (<a href="https://code.claude.com/docs/en/skills">Claude Code skills docs</a>).</p>
+
+<p>Domain Experts is an open source library of skills for jobs rather than tools: each one holds the decision thresholds, trade-off rules and failure modes of a real role, such as a contracts lawyer or a financial analyst, so the agent reasons like that practitioner instead of like a generalist.</p>
+
+<h2>How to add a skill to Claude Code</h2>
+<p>One command copies a role into your project. No install is needed first: <code>npx</code> fetches the CLI from npm.</p>
+<pre tabindex="0"><code>npx domain-experts add lawyer-contracts
+# Installed lawyer-contracts (SKILL.md + references/ (4 files)) -&gt; ./.claude/skills/lawyer-contracts</code></pre>
+<p>That writes <code>./.claude/skills/lawyer-contracts/SKILL.md</code> plus its <code>references/</code> folder (artifacts, red flags, vocabulary). Start a new Claude Code session in that project and the skill is available. Useful options:</p>
+<ul>
+  <li><code>--to &lt;dir&gt;</code> installs somewhere other than <code>.claude/skills/</code>.</li>
+  <li><code>--country &lt;iso2&gt;</code> installs only one jurisdiction overlay for roles that have them.</li>
+  <li><code>npx domain-experts preview &lt;slug&gt;</code> prints a role's identity and worked example without installing anything.</li>
+  <li><code>npx domain-experts update</code> re-fetches every installed role.</li>
+</ul>
+
+<h2>Not sure which role? Let it match</h2>
+<pre tabindex="0"><code>npx domain-experts match "review this vendor contract like a lawyer"</code></pre>
+<p>Or install the <code>/domain-expert</code> command once and skip the lookup:</p>
+<pre tabindex="0"><code>npx domain-experts command          # writes .claude/commands/domain-expert.md
+# restart Claude Code, then:
+/domain-expert review this vendor contract</code></pre>
+<p>The command matches the task to a role, loads its <code>SKILL.md</code> (and <code>references/</code> when needed) and answers as that role, or says plainly that no role covers the task yet. <code>npx domain-experts init &lt;slug&gt;</code> sets up the router skill, the command and a role in one step.</p>
+
+<h2>Examples</h2>
+<p>Three of the 950+ roles in the <a href="index.html">role index</a>:</p>
+<ul>
+  <li><strong>Legal:</strong> <a href="roles/lawyer-contracts/">lawyer-contracts</a> — clause playbooks and fallback positions for reviewing and negotiating commercial contracts. <code>npx domain-experts add lawyer-contracts</code></li>
+  <li><strong>Finance:</strong> <a href="roles/financial-analyst/">financial-analyst</a> — turns business decisions into numbers that can be compared honestly, and numbers back into decisions. <code>npx domain-experts add financial-analyst</code></li>
+  <li><strong>Healthcare:</strong> <a href="roles/registered-nurse/">registered-nurse</a> — spotting early deterioration from vital-sign trends, prioritising patients by acuity and escalating a change in condition (SBAR). <code>npx domain-experts add registered-nurse</code></li>
+</ul>
+<p>Every role is marked <code>draft</code>: none has been reviewed by a practitioner yet, and the evals in the repo cover some roles, not all (see <a href="about.html">About</a>). Treat the output as a well-structured second opinion, not professional advice.</p>
+
+<h2>FAQ</h2>
+
+<h3>Do these skills work outside Claude Code?</h3>
+<p>Yes. <code>SKILL.md</code> is a cross-tool format, and Claude Code skills follow the Agent Skills open standard. The <code>/domain-expert</code> command installs for Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code and Amp with <code>--tool &lt;id&gt;</code>; the <a href="https://github.com/wonsukchoi/domain-experts#use-it-with-your-ai-tool">README</a> has per-tool install paths.</p>
+
+<h3>Why not install every role at once?</h3>
+<p>Claude Code reads the name and description of every discovered skill at the start of a session, so hundreds of installed roles cost tokens every time. Install the roles you use, or the single router skill (<code>npx domain-experts add domain-expert-router</code>), which reads a role only when a task needs it.</p>
+
+<h3>What is the difference between a skill and an agent?</h3>
+<p>A skill is knowledge and instructions the agent loads; the agent is the thing doing the work. A Domain Experts role does not run anything by itself: it changes how Claude reasons about a task in that profession.</p>
+
+<h3>Is it free?</h3>
+<p>Yes. The library and the CLI are open source under the MIT licence. <a href="https://github.com/wonsukchoi/domain-experts">Source on GitHub</a>.</p>
+
+</main>
+<footer>
+  <p>Open source, MIT licensed. <a href="https://github.com/wonsukchoi/domain-experts">Fork it on GitHub</a>.</p>
+  <p class="legal-links"><a href="about.html">About</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+</footer>
+<a href="#top" class="to-top" id="to-top" aria-label="Back to top">&uarr;</a>
+<script src="to-top.js" defer></script>
+</body>
+</html>
