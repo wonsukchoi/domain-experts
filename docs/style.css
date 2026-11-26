@@ -233,7 +233,7 @@ main {
 
 .proof-label {
   display: block;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -556,7 +556,7 @@ main {
 .load-more[hidden] { display: none; }
 
 .badge {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 500;
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-pill);
@@ -588,13 +588,17 @@ footer p { color: rgba(255, 255, 255, 0.6); }
 
 footer a { color: var(--bg); text-decoration: underline; text-underline-offset: 2px; }
 
+/* WCAG 2.2 SC 2.5.8: the About / Privacy / Terms links stand alone (not inside a sentence), so each needs a
+   24 px tall target. 16 px line + 4 px above and below. */
+footer .legal-links a { display: inline-block; padding-block: 0.25rem; }
+
 footer code {
   background: rgba(255, 255, 255, 0.1);
   padding: 0.2rem 0.45rem;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 0.85em;
+  font-size: 0.9em; /* 12.2 px in the 0.85rem footer; 0.85em was 11.56 px */
   color: var(--bg);
 }
 
@@ -679,6 +683,10 @@ footer::after {
 
 .role-page a:hover { text-decoration-color: currentColor; }
 
+/* Reference and related-role links start a list item (they are not inside a sentence): 24 px minimum target
+   (WCAG 2.2 SC 2.5.8). 20 px line + 2 px above and below. */
+.role-page li > a { display: inline-block; padding-block: 0.125rem; }
+
 header .tagline.role-tagline {
   text-transform: capitalize;
 }
@@ -704,6 +712,9 @@ header .tagline.role-tagline {
 }
 
 .source-link a {
+  /* 24 px minimum target (WCAG 2.2 SC 2.5.8) */
+  display: inline-block;
+  padding-block: 0.25rem;
   color: var(--text);
   cursor: pointer;
   text-decoration: none;
