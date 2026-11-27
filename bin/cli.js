@@ -760,4 +760,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { cmdUpdate, fetchText, deps };
+module.exports = { cmdUpdate, fetchText, deps, stem, tokenize, buildIdf, scoreRole, parseArgs, isNewerVersion };
