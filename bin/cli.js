@@ -3,15 +3,15 @@
 
 const fs = require("fs");
 const path = require("path");
-const https = require("https");
 const os = require("os");
+const { UPDATE_CHECK_TIMEOUT_MS, fetchText, readRoleFile, mapWithConcurrency } = require("./lib/fetch");
+const { stem, tokenize, buildIdf, scoreRole } = require("./lib/match");
 
 const ROLES_DIR = path.join(__dirname, "..", "roles");
 const DATA_FILE = path.join(__dirname, "..", "data", "roles.json");
 const PKG = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "package.json"), "utf8"));
 const UPDATE_CACHE_FILE = path.join(os.tmpdir(), "domain-experts-update-check.json");
 const UPDATE_CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000; // once per day
-const REMOTE_RAW_BASE = "https://raw.githubusercontent.com/wonsukchoi/domain-experts/main/";
 
 // Package ships only data/roles.json (the index), not the roles/ content
 // itself — that stayed a 2.4M npm download otherwise. Role files are
@@ -44,80 +44,9 @@ function loadRoles() {
     .sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-const DOWNLOAD_TIMEOUT_MS = 20 * 1000;
-const UPDATE_CHECK_TIMEOUT_MS = 3 * 1000;
-const MAX_REDIRECTS = 5;
-
-// GET a URL as text. Every request has a timeout: a network that drops
-// packets (or needs a proxy, which Node's https ignores) otherwise leaves the
-// socket waiting for the OS connect timeout, about 2 minutes, and the CLI
-// cannot exit until then.
-function fetchText(url, { timeoutMs = DOWNLOAD_TIMEOUT_MS, redirectsLeft = MAX_REDIRECTS } = {}) {
-  return new Promise((resolve, reject) => {
-    // One deadline for the whole request (DNS, connect, headers and body), so
-    // a stall at any stage ends the request.
-    let timer = null;
-    const done = (fn, value) => {
-      clearTimeout(timer);
-      fn(value);
-    };
-    const req = https.get(url, { headers: { "User-Agent": "domain-experts-cli" } }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        res.resume();
-        if (redirectsLeft <= 0) {
-          done(reject, new Error(`GET ${url} -> too many redirects`));
-          return;
-        }
-        clearTimeout(timer);
-        resolve(fetchText(new URL(res.headers.location, url).toString(), { timeoutMs, redirectsLeft: redirectsLeft - 1 }));
-        return;
-      }
-      if (res.statusCode !== 200) {
-        res.resume();
-        done(reject, new Error(`GET ${url} -> HTTP ${res.statusCode}`));
-        return;
-      }
-      let body = "";
-      res.setEncoding("utf8");
-      res.on("data", (chunk) => (body += chunk));
-      res.on("end", () => done(resolve, body));
-      res.on("error", (err) => done(reject, err));
-    });
-    timer = setTimeout(() => {
-      const err = new Error(`GET ${url} -> timed out after ${Math.round(timeoutMs / 1000)}s`);
-      req.destroy(err);
-      reject(err);
-    }, timeoutMs);
-    req.on("error", (err) => done(reject, err));
-  });
-}
-
-// Read a role file locally if bundled (monorepo dev), else fetch from
-// GitHub raw (installed-via-npm case, where roles/ isn't shipped).
-async function readRoleFile(localPath, repoRelativePath) {
-  if (fs.existsSync(localPath)) return fs.readFileSync(localPath, "utf8");
-  return fetchText(REMOTE_RAW_BASE + repoRelativePath);
-}
-
 // Seam for scripts/test_cli_update.js: cmdUpdate reads role files through
 // this object so a test can swap in a fake fetcher with no network.
 const deps = { readRoleFile };
-
-// Runs `fn` over `items` with at most `limit` in flight at once — used so
-// updating N installed roles doesn't serialize N GitHub-raw round trips.
-async function mapWithConcurrency(items, limit, fn) {
-  const results = new Array(items.length);
-  let next = 0;
-  async function worker() {
-    while (next < items.length) {
-      const i = next++;
-      results[i] = await fn(items[i], i);
-    }
-  }
-  const workers = Array.from({ length: Math.min(limit, items.length) }, () => worker());
-  await Promise.all(workers);
-  return results;
-}
 
 function printRoleLine(role) {
   const tag = role.category ? `[${role.category}]` : "";
@@ -149,81 +78,6 @@ function cmdSearch(query) {
   }
   console.log(`${roles.length} match(es) for "${query}":\n`);
   roles.forEach(printRoleLine);
-}
-
-const STOPWORDS = new Set([
-  "a", "an", "the", "for", "of", "to", "in", "on", "and", "or", "with",
-  "my", "me", "i", "need", "want", "act", "as", "like", "help", "who",
-  "job", "role", "expert", "someone", "person",
-  "how", "much", "many", "do", "does", "did", "have", "has", "having",
-  "had", "left", "should", "shall", "would", "could", "can", "will",
-  "we", "us", "our", "you", "your", "let", "lets", "get", "give",
-  "tell", "please", "this", "that", "these", "those", "is", "are",
-  "was", "were", "be", "been", "being", "it", "its", "at", "by", "from",
-  "about", "into", "over", "than", "then", "so", "if", "not", "no",
-  "what", "when", "where", "which", "why", "just", "really", "some",
-  "any", "all", "one", "out", "up", "down", "now",
-]);
-
-// Crude suffix stemming so plural/singular variants overlap (e.g. a query
-// for "contract" matches a role description that only says "contracts").
-// Not linguistically complete — just enough to close the most common gap.
-function stem(word) {
-  if (word.length <= 4) return word;
-  if (word.endsWith("ies")) return word.slice(0, -3) + "y";
-  if (/[sxz]es$|[cs]hes$/.test(word)) return word.slice(0, -2);
-  if (word.endsWith("s") && !word.endsWith("ss")) return word.slice(0, -1);
-  return word;
-}
-
-function tokenize(str) {
-  return str
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, " ")
-    .split(/\s+/)
-    .filter((t) => t && !STOPWORDS.has(t))
-    .map(stem);
-}
-
-// Inverse document frequency across the whole role library: a query word
-// that only a couple of roles' descriptions use (e.g. "runway", "redline")
-// is a much stronger signal than one that many roles happen to share
-// (e.g. "financial", "risk") — without this, a common-but-irrelevant hit
-// can outscore the one role that's actually specific to the query.
-function buildIdf(roles) {
-  const df = new Map();
-  for (const role of roles) {
-    const tokens = new Set([
-      ...tokenize(role.slug.replace(/-/g, " ")),
-      ...tokenize(role.description),
-      ...tokenize(role.category),
-    ]);
-    for (const t of tokens) df.set(t, (df.get(t) || 0) + 1);
-  }
-  const n = roles.length;
-  const idf = new Map();
-  for (const [t, count] of df) idf.set(t, Math.log(1 + n / count));
-  return idf;
-}
-
-// Scores a role against a query by IDF-weighted token overlap: slug and
-// category hits count more than description hits (a query word matching
-// the role's actual name is a stronger signal than it merely appearing
-// somewhere in a long description), and every hit is scaled by how rare
-// that word is across the whole role library, so a specific term (e.g.
-// "runway") outweighs several generic ones (e.g. "financial", "manage").
-function scoreRole(role, queryTokens, idf) {
-  const slugTokens = new Set(tokenize(role.slug.replace(/-/g, " ")));
-  const descTokens = new Set(tokenize(role.description));
-  const catTokens = new Set(tokenize(role.category));
-  let score = 0;
-  for (const t of queryTokens) {
-    const weight = idf.get(t) || 0;
-    if (slugTokens.has(t)) score += 3 * weight;
-    if (catTokens.has(t)) score += 2 * weight;
-    if (descTokens.has(t)) score += 1 * weight;
-  }
-  return score;
 }
 
 const GAP_LOG_FILE = path.join(__dirname, "..", "data", "gap-log.jsonl");
