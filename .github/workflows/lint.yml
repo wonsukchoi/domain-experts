@@ -57,6 +57,7 @@ jobs:
         run: |
           node scripts/test_cli_update.js
           node scripts/test_cli_timeout.js
+          node scripts/test_cli_match.js
 
       - name: Check relative links resolve
         run: python3 scripts/check_links.py
