@@ -39,6 +39,8 @@ npx domain-experts add lawyer-contracts   # installs into ./.claude/skills/
 
 No install needed — `npx` fetches it from npm. Using it often? `npm install -g domain-experts` and drop the `npx`.
 
+New to Claude skills? [What they are and how to install one](https://domainexperts.dev/claude-skills.html).
+
 Want the whole setup in one shot instead? `npx domain-experts init lawyer-contracts` installs the router skill, the `/domain-expert` command, and that role together.
 
 **Using Claude Code, Codex, Gemini CLI, Cursor, Windsurf, Roo Code, or Amp?** `npx domain-experts command --tool <id>` installs a `/domain-expert` slash command for it — restart your session and run `/domain-expert review this vendor contract`. It matches, loads, and reasons as the right role in one step, no manual `match`/`add` dance.
