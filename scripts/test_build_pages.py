@@ -188,6 +188,13 @@ with tempfile.TemporaryDirectory() as tmp:
 for page, title, _, _ in bp.STATIC_PAGES:
     check(f"{page} is linked from llms.txt", f"- [{title}]({bp.SITE_URL}/{page}): " in fresh, "")
 
+print("Fonts: display=optional (a late Inter swap re-wrapped the intro: CLS 0.22 on a slow phone, 2026-11-27)")
+for name in ["about.html", "claude-skills.html", "index.html", "privacy.html", "terms.html"]:
+    html = (Path(bp.ROOT) / "docs" / name).read_text()
+    check(f"{name} loads Google Fonts with display=optional", "display=optional" in html and "display=swap" not in html)
+build_src = (Path(bp.ROOT) / "scripts" / "build_pages.py").read_text()
+check("role page template loads Google Fonts with display=optional", "display=optional" in build_src and "display=swap" not in build_src)
+
 if FAILURES:
     print(f"\n{len(FAILURES)} injection check(s) failed: {', '.join(FAILURES)}")
     sys.exit(1)
