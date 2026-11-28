@@ -9,6 +9,7 @@ To load one into an agent rather than read it: `npx domain-experts add <slug>`, 
 ## Start here
 
 - [Role index](https://domainexperts.dev/): all roles, searchable by name and category.
+- [Claude skills guide](https://domainexperts.dev/claude-skills.html): what a Claude skill is and how to install a job-role skill into Claude Code (`npx domain-experts add <slug>`, the `/domain-expert` command).
 - [README](https://github.com/wonsukchoi/domain-experts/blob/main/README.md): what a role contains and why prompting for one is not equivalent.
 - [Authoring spec](https://github.com/wonsukchoi/domain-experts/blob/main/AUTHORING.md): the v2 structure every new role follows.
 - [Contributing](https://github.com/wonsukchoi/domain-experts/blob/main/CONTRIBUTING.md): how to add or upgrade a role.
